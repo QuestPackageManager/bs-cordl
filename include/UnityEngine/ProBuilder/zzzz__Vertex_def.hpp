@@ -122,39 +122,39 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Vertex*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Vertex*>*() noexcept;
 
-  /// @brief Method Add, addr 0x2c68260, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2cc8a98, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* Add(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method Add, addr 0x2c682d8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2cc8b10, size 0x10c, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method Average, addr 0x2c69bbc, size 0xb24, virtual false, abstract: false, final false
+  /// @brief Method Average, addr 0x2cca3f4, size 0xb24, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* Average(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                                            ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method Divide, addr 0x2c68630, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x2cc8e68, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* Divide(::UnityEngine::ProBuilder::Vertex* a, float_t value);
 
-  /// @brief Method Divide, addr 0x2c686a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x2cc8ee0, size 0x48, virtual false, abstract: false, final false
   inline void Divide(float_t value);
 
-  /// @brief Method Equals, addr 0x2c67cd4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cc850c, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2c67d44, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cc857c, size 0x148, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::Vertex* other);
 
-  /// @brief Method Equals, addr 0x2c67e8c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cc86c4, size 0x178, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ProBuilder::Vertex* other, ::UnityEngine::ProBuilder::MeshArrays mask);
 
-  /// @brief Method GetArrays, addr 0x2c68f58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetArrays, addr 0x2cc9790, size 0x28, virtual false, abstract: false, final false
   static inline void GetArrays(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> position, ByRef<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>> color,
                                ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>> uv0, ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> normal,
                                ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> tangent, ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>> uv2,
                                ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv3, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv4);
 
-  /// @brief Method GetArrays, addr 0x2c68f80, size 0x97c, virtual false, abstract: false, final false
+  /// @brief Method GetArrays, addr 0x2cc97b8, size 0x97c, virtual false, abstract: false, final false
   static inline void GetArrays(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> position, ByRef<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>> color,
                                ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>> uv0, ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> normal,
@@ -162,38 +162,38 @@ public:
                                ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv3, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv4,
                                ::UnityEngine::ProBuilder::MeshArrays attributes);
 
-  /// @brief Method GetHashCode, addr 0x2c68004, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cc883c, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HasArrays, addr 0x2c67c5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasArrays, addr 0x2cc8494, size 0x10, virtual false, abstract: false, final false
   inline bool HasArrays(::UnityEngine::ProBuilder::MeshArrays attribute);
 
-  /// @brief Method Mix, addr 0x2c6a6e0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x2ccaf18, size 0x2f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* Mix(::UnityEngine::ProBuilder::Vertex* x, ::UnityEngine::ProBuilder::Vertex* y, float_t weight);
 
-  /// @brief Method Multiply, addr 0x2c68570, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x2cc8da8, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* Multiply(::UnityEngine::ProBuilder::Vertex* a, float_t value);
 
-  /// @brief Method Multiply, addr 0x2c685e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x2cc8e20, size 0x44, virtual false, abstract: false, final false
   inline void Multiply(float_t value);
 
   static inline ::UnityEngine::ProBuilder::Vertex* New_ctor();
 
   static inline ::UnityEngine::ProBuilder::Vertex* New_ctor(::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method Normalize, addr 0x2c686f0, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x2cc8f28, size 0x554, virtual false, abstract: false, final false
   inline void Normalize();
 
-  /// @brief Method SetMesh, addr 0x2c698fc, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method SetMesh, addr 0x2cca134, size 0x2c0, virtual false, abstract: false, final false
   static inline void SetMesh(::UnityEngine::Mesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
 
-  /// @brief Method Subtract, addr 0x2c683e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x2cc8c20, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* Subtract(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method Subtract, addr 0x2c68460, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x2cc8c98, size 0x10c, virtual false, abstract: false, final false
   inline void Subtract(::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method ToString, addr 0x2c68c44, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2cc947c, size 0x314, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW args);
 
   constexpr ::UnityEngine::ProBuilder::MeshArrays const& __cordl_internal_get_m_Attributes() const;
@@ -250,130 +250,130 @@ public:
 
   constexpr void __cordl_internal_set_m_UV4(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x2c67ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cc8504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2c68070, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cc88a8, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method get_attributes, addr 0x2c67c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attributes, addr 0x2cc848c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::MeshArrays get_attributes();
 
-  /// @brief Method get_color, addr 0x2c679c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x2cc81fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_hasColor, addr 0x2c67c78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasColor, addr 0x2cc84b0, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasColor();
 
-  /// @brief Method get_hasNormal, addr 0x2c67c84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasNormal, addr 0x2cc84bc, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasNormal();
 
-  /// @brief Method get_hasPosition, addr 0x2c67c6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasPosition, addr 0x2cc84a4, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasPosition();
 
-  /// @brief Method get_hasTangent, addr 0x2c67c90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasTangent, addr 0x2cc84c8, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasTangent();
 
-  /// @brief Method get_hasUV0, addr 0x2c67c9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasUV0, addr 0x2cc84d4, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasUV0();
 
-  /// @brief Method get_hasUV2, addr 0x2c67ca8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasUV2, addr 0x2cc84e0, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasUV2();
 
-  /// @brief Method get_hasUV3, addr 0x2c67cb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasUV3, addr 0x2cc84ec, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasUV3();
 
-  /// @brief Method get_hasUV4, addr 0x2c67cc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasUV4, addr 0x2cc84f8, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasUV4();
 
-  /// @brief Method get_normal, addr 0x2c67a24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x2cc825c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_position, addr 0x2c67964, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2cc819c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_tangent, addr 0x2c67a84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tangent, addr 0x2cc82bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_tangent();
 
-  /// @brief Method get_uv0, addr 0x2c67ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uv0, addr 0x2cc831c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_uv0();
 
-  /// @brief Method get_uv2, addr 0x2c67b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uv2, addr 0x2cc8374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_uv2();
 
-  /// @brief Method get_uv3, addr 0x2c67b94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uv3, addr 0x2cc83cc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_uv3();
 
-  /// @brief Method get_uv4, addr 0x2c67bf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uv4, addr 0x2cc842c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_uv4();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Vertex*>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Vertex*>* i___System__IEquatable_1___UnityEngine__ProBuilder__Vertex__() noexcept;
 
-  /// @brief Method op_Addition, addr 0x2c6825c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2cc8a94, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* op_Addition(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method op_Division, addr 0x2c6862c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x2cc8e64, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* op_Division(::UnityEngine::ProBuilder::Vertex* a, float_t value);
 
-  /// @brief Method op_Equality, addr 0x2c68200, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2cc8a38, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method op_Inequality, addr 0x2c68228, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2cc8a60, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method op_Multiply, addr 0x2c6856c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x2cc8da4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* op_Multiply(::UnityEngine::ProBuilder::Vertex* a, float_t value);
 
-  /// @brief Method op_Subtraction, addr 0x2c683e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x2cc8c1c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* op_Subtraction(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
 
-  /// @brief Method set_color, addr 0x2c679d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x2cc8208, size 0x28, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_hasColor, addr 0x2c679f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasColor, addr 0x2cc8230, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasColor(bool value);
 
-  /// @brief Method set_hasNormal, addr 0x2c67a58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasNormal, addr 0x2cc8290, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasNormal(bool value);
 
-  /// @brief Method set_hasPosition, addr 0x2c67998, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasPosition, addr 0x2cc81d0, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasPosition(bool value);
 
-  /// @brief Method set_hasTangent, addr 0x2c67ab8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasTangent, addr 0x2cc82f0, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasTangent(bool value);
 
-  /// @brief Method set_hasUV0, addr 0x2c67b10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasUV0, addr 0x2cc8348, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasUV0(bool value);
 
-  /// @brief Method set_hasUV2, addr 0x2c67b68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasUV2, addr 0x2cc83a0, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasUV2(bool value);
 
-  /// @brief Method set_hasUV3, addr 0x2c67bc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasUV3, addr 0x2cc8400, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasUV3(bool value);
 
-  /// @brief Method set_hasUV4, addr 0x2c67c28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hasUV4, addr 0x2cc8460, size 0x2c, virtual false, abstract: false, final false
   inline void set_hasUV4(bool value);
 
-  /// @brief Method set_normal, addr 0x2c67a30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_normal, addr 0x2cc8268, size 0x28, virtual false, abstract: false, final false
   inline void set_normal(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_position, addr 0x2c67970, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x2cc81a8, size 0x28, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_tangent, addr 0x2c67a90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_tangent, addr 0x2cc82c8, size 0x28, virtual false, abstract: false, final false
   inline void set_tangent(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_uv0, addr 0x2c67aec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_uv0, addr 0x2cc8324, size 0x24, virtual false, abstract: false, final false
   inline void set_uv0(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_uv2, addr 0x2c67b44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_uv2, addr 0x2cc837c, size 0x24, virtual false, abstract: false, final false
   inline void set_uv2(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_uv3, addr 0x2c67ba0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_uv3, addr 0x2cc83d8, size 0x28, virtual false, abstract: false, final false
   inline void set_uv3(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_uv4, addr 0x2c67c00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_uv4, addr 0x2cc8438, size 0x28, virtual false, abstract: false, final false
   inline void set_uv4(::UnityEngine::Vector4 value);
 
 protected:

@@ -106,24 +106,24 @@ public:
   __declspec(property(get = __cordl_internal_get__visualObjects,
                       put = __cordl_internal_set__visualObjects))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _visualObjects;
 
-  /// @brief Method ActivateVisualObjects, addr 0x247c9a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ActivateVisualObjects, addr 0x24e588c, size 0x68, virtual false, abstract: false, final false
   inline void ActivateVisualObjects(bool on);
 
-  /// @brief Method DespawnAnimationCoroutine, addr 0x247cb94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DespawnAnimationCoroutine, addr 0x24e5a80, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DespawnAnimationCoroutine();
 
-  /// @brief Method DestroySelf, addr 0x247cb28, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DestroySelf, addr 0x24e5a14, size 0x6c, virtual false, abstract: false, final false
   inline void DestroySelf();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarController* New_ctor();
 
-  /// @brief Method ShowDespawnAnimationAndDestroy, addr 0x247ca98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ShowDespawnAnimationAndDestroy, addr 0x24e5984, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowDespawnAnimationAndDestroy();
 
-  /// @brief Method ShowSpawnAnimation, addr 0x247c8f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowSpawnAnimation, addr 0x24e57dc, size 0xb0, virtual false, abstract: false, final false
   inline void ShowSpawnAnimation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SpawnAnimationCoroutine, addr 0x247ca08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SpawnAnimationCoroutine, addr 0x24e58f4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawnAnimationCoroutine();
 
   constexpr float_t const& __cordl_internal_get__despawnAvatarDelay() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set__visualObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x247cc24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e5b10, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -226,7 +226,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x247cc44, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e5b30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,21 +279,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x247cc90, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24e5b7c, size 0xb4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x247cd44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24e5c30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x247cd4c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24e5c38, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x247cd8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24e5c78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x247cc8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x24e5b78, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -314,7 +314,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x247ca70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e595c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -391,21 +391,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x247cd98, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24e5c84, size 0x70, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x247ce08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24e5cf4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x247ce10, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24e5cfc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x247ce50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24e5d3c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x247cd94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x24e5c80, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -426,7 +426,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x247cb00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e59ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -503,21 +503,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x247ce5c, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24e5d48, size 0x108, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x247cf64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24e5e50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x247cf6c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24e5e58, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x247cfac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24e5e98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x247ce58, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x24e5d44, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -538,7 +538,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x247cbfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e5ae8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"

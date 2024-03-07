@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value);
 
-  /// @brief Method .ctor, addr 0x24d3fb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253a770, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

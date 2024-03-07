@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x136584c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138eda4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,39 +136,39 @@ public:
   /// @brief Field twistWeight, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_twistWeight, put = __cordl_internal_set_twistWeight)) float_t twistWeight;
 
-  /// @brief Method ASThread, addr 0x1365798, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x138ecf0, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method GetValue, addr 0x1360e58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x138a3b0, size 0x64, virtual false, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::__InteractionObject__WeightCurve__Type curveType);
 
   static inline ::RootMotion::FinalIK::InteractionTarget* New_ctor();
 
-  /// @brief Method OpenScriptReference, addr 0x1365600, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x138eb58, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial1, addr 0x1365644, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial1, addr 0x138eb9c, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial1();
 
-  /// @brief Method OpenTutorial2, addr 0x1365688, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial2, addr 0x138ebe0, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial2();
 
-  /// @brief Method OpenTutorial3, addr 0x13656cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial3, addr 0x138ec24, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial3();
 
-  /// @brief Method OpenTutorial4, addr 0x1365710, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial4, addr 0x138ec68, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial4();
 
-  /// @brief Method OpenUserManual, addr 0x13655bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x138eb14, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method ResetRotation, addr 0x136003c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ResetRotation, addr 0x1389594, size 0x8c, virtual false, abstract: false, final false
   inline void ResetRotation();
 
-  /// @brief Method RotateTo, addr 0x135e850, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method RotateTo, addr 0x1387da8, size 0x4a4, virtual false, abstract: false, final false
   inline void RotateTo(::UnityEngine::Vector3 position);
 
-  /// @brief Method SupportGroup, addr 0x1365754, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x138ecac, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
@@ -231,7 +231,7 @@ public:
 
   constexpr void __cordl_internal_set_twistWeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x13657dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138ed34, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

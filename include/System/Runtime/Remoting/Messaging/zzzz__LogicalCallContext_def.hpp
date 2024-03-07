@@ -62,19 +62,19 @@ public:
 
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method Clone, addr 0x259a278, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x25fda74, size 0x68, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
 
-  /// @brief Method GetData, addr 0x2598f7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x25fc778, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::StringW name);
 
-  /// @brief Method .ctor, addr 0x259a250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fda4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method get_HasInfo, addr 0x259a268, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x25fda64, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method get_IsNull, addr 0x259a258, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x25fda54, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
   // Ctor Parameters []
@@ -146,16 +146,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x2599aac, size 0x5f8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x25fd2a8, size 0x5f8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method GetData, addr 0x259a194, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x25fd990, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::StringW name);
 
-  /// @brief Method GetObjectData, addr 0x259972c, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x25fcf28, size 0x354, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Merge, addr 0x258ad04, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x25ee500, size 0x230, virtual false, abstract: false, final false
   inline void Merge(::System::Runtime::Remoting::Messaging::LogicalCallContext* lc);
 
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* New_ctor();
@@ -163,7 +163,7 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                      ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetData, addr 0x2599020, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x25fc81c, size 0x98, virtual false, abstract: false, final false
   inline void SetData(::StringW name, ::System::Object* data);
 
   constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const& __cordl_internal_get__recvHeaders() const;
@@ -208,21 +208,21 @@ public:
 
   constexpr void __cordl_internal_set_m_SecurityData(::System::Runtime::Remoting::Messaging::CallContextSecurityData* value);
 
-  /// @brief Method .ctor, addr 0x25993bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fcbb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25993c4, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fcbc0, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Type* getStaticF_s_callContextType();
 
-  /// @brief Method get_Datastore, addr 0x25996c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Datastore, addr 0x25fcebc, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Datastore();
 
-  /// @brief Method get_HasInfo, addr 0x258aca4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x25ee4a0, size 0x60, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method get_HasUserData, addr 0x2599a80, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasUserData, addr 0x25fd27c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasUserData();
 
   /// @brief Convert to "::System::ICloneable"

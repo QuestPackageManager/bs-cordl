@@ -32,35 +32,35 @@ namespace Microsoft::Win32 {
 class CORDL_TYPE NativeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseProcess, addr 0x2914a3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseProcess, addr 0x2977274, size 0x4, virtual false, abstract: false, final false
   static inline bool CloseProcess(void* handle);
 
-  /// @brief Method DuplicateHandle, addr 0x29146c0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method DuplicateHandle, addr 0x2976ef8, size 0x150, virtual false, abstract: false, final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::HandleRef hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeProcessHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method DuplicateHandle, addr 0x29144bc, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method DuplicateHandle, addr 0x2976cf4, size 0x204, virtual false, abstract: false, final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::SafeHandle* hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeWaitHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method GetCurrentProcess, addr 0x291483c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcess, addr 0x2977074, size 0x4, virtual false, abstract: false, final false
   static inline void* GetCurrentProcess();
 
-  /// @brief Method GetCurrentProcessId, addr 0x2914a38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcessId, addr 0x2977270, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetCurrentProcessId();
 
-  /// @brief Method GetExitCodeProcess, addr 0x2914844, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetExitCodeProcess, addr 0x297707c, size 0xe8, virtual false, abstract: false, final false
   static inline bool GetExitCodeProcess(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, ByRef<int32_t> exitCode);
 
-  /// @brief Method GetExitCodeProcess, addr 0x2914840, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetExitCodeProcess, addr 0x2977078, size 0x4, virtual false, abstract: false, final false
   static inline bool GetExitCodeProcess(void* processHandle, ByRef<int32_t> exitCode);
 
-  /// @brief Method GetProcessTimes, addr 0x2914930, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x2977168, size 0x108, virtual false, abstract: false, final false
   static inline bool GetProcessTimes(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user);
 
-  /// @brief Method GetProcessTimes, addr 0x291492c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x2977164, size 0x4, virtual false, abstract: false, final false
   static inline bool GetProcessTimes(void* handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user);
 
 protected:

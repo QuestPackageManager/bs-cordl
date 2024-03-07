@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0xa38;
-  constexpr static std::size_t addrs = 0x245e560;
+  constexpr static std::size_t size = 0x9dc;
+  constexpr static std::size_t addrs = 0x24c6200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x245efd4;
+  constexpr static std::size_t addrs = 0x24c6c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerInstaller*>::get(),
@@ -117,22 +117,6 @@ constexpr void GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_int
     ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerBurstSliderGameNoteControllerPrefab)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>&
-GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__multiplayerBurstSliderFillControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____multiplayerBurstSliderFillControllerPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> const&
-GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__multiplayerBurstSliderFillControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____multiplayerBurstSliderFillControllerPrefab;
-}
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_set__multiplayerBurstSliderFillControllerPrefab(
-    ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerBurstSliderFillControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>& GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__multiplayerBombNoteControllerPrefab() {

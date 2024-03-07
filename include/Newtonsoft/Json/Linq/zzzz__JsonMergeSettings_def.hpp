@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set__mergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
-  /// @brief Method .ctor, addr 0x2781920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e2bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MergeArrayHandling, addr 0x2781848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeArrayHandling, addr 0x27e2b04, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeArrayHandling get_MergeArrayHandling();
 
-  /// @brief Method get_MergeNullValueHandling, addr 0x27818b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeNullValueHandling, addr 0x27e2b70, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeNullValueHandling get_MergeNullValueHandling();
 
-  /// @brief Method set_MergeArrayHandling, addr 0x2781850, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MergeArrayHandling, addr 0x27e2b0c, size 0x64, virtual false, abstract: false, final false
   inline void set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
 
-  /// @brief Method set_MergeNullValueHandling, addr 0x27818bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MergeNullValueHandling, addr 0x27e2b78, size 0x64, virtual false, abstract: false, final false
   inline void set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
 protected:

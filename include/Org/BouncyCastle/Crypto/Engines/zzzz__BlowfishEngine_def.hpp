@@ -79,33 +79,33 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method DecryptBlock, addr 0xf2feb0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0xf4f5b4, size 0x190, virtual false, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method EncryptBlock, addr 0xf2fd0c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0xf4f410, size 0x1a4, virtual false, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method F, addr 0xf3004c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0xf4f750, size 0xa0, virtual false, abstract: false, final false
   inline uint32_t F(uint32_t x);
 
-  /// @brief Method GetBlockSize, addr 0xf30044, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetBlockSize, addr 0xf4f748, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0xf2f740, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf4ee44, size 0x144, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::BlowfishEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0xf2fbd4, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0xf4f2d8, size 0x138, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessTable, addr 0xf300ec, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ProcessTable, addr 0xf4f7f0, size 0x1a8, virtual false, abstract: false, final false
   inline void ProcessTable(uint32_t xl, uint32_t xr, ::ArrayW<uint32_t, ::Array<uint32_t>*> table);
 
-  /// @brief Method Reset, addr 0xf30040, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xf4f744, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method SetKey, addr 0xf2f884, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0xf4ef88, size 0x308, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_P() const;
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0xf2f658, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf4ed5c, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_KP();
@@ -169,10 +169,10 @@ public:
 
   static inline int32_t getStaticF_SBOX_SK();
 
-  /// @brief Method get_AlgorithmName, addr 0xf2fb8c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xf4f290, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xf2fbcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf4f2d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

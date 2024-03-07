@@ -141,35 +141,35 @@ public:
   /// @brief Field weight, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method FixTransforms, addr 0x1337b6c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x13600c4, size 0xa8, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetBoneMap, addr 0x13374e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetBoneMap, addr 0x135fa3c, size 0xc8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKMapping__BoneMap* GetBoneMap(::RootMotion::FinalIK::__IKMappingLimb__BoneMapType boneMap);
 
-  /// @brief Method Initiate, addr 0x1337c14, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Initiate, addr 0x136016c, size 0x25c, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method IsValid, addr 0x1337470, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x135f9c8, size 0x74, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKMappingLimb* New_ctor();
 
   static inline ::RootMotion::FinalIK::IKMappingLimb* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
 
-  /// @brief Method ReadPose, addr 0x1337e70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadPose, addr 0x13603c8, size 0x60, virtual false, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method SetBones, addr 0x1337ac8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetBones, addr 0x1360020, size 0xc, virtual false, abstract: false, final false
   inline void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
 
-  /// @brief Method SetLimbOrientation, addr 0x13375ac, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method SetLimbOrientation, addr 0x135fb04, size 0x2b8, virtual false, abstract: false, final false
   inline void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x1337ad4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x136002c, size 0x98, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method WritePose, addr 0x1337ed0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method WritePose, addr 0x1360428, size 0x144, virtual false, abstract: false, final false
   inline void WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone1() const;
@@ -238,10 +238,10 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1337864, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135fdbc, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1337980, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135fed8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
 
 protected:

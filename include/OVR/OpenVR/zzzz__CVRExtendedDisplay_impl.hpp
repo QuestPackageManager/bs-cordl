@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRExtendedDisplay::*)(void*)>(&::OVR::OpenVR::CVRExtendedDisplay::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x28e36e8;
+  constexpr static std::size_t addrs = 0x2945f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRExtendedDisplay::*)(ByRef<int32_t>, ByRef<int32_t>, ByRef<uint32_t>, ByRef<uint32_t>)>(
     &::OVR::OpenVR::CVRExtendedDisplay::GetWindowBounds)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x28e37fc;
+  constexpr static std::size_t addrs = 0x2946034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRExtendedDisplay::*)(
     ::OVR::OpenVR::EVREye, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>)>(&::OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x28e3830;
+  constexpr static std::size_t addrs = 0x2946068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRExtendedDisplay::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::OVR::OpenVR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x28e3864;
+  constexpr static std::size_t addrs = 0x294609c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

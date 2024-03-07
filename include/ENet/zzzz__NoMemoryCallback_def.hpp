@@ -28,18 +28,18 @@ namespace ENet {
 class CORDL_TYPE NoMemoryCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2350fc4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x23b2d9c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2350fe4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x23b2dbc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2350fb0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x23b2d88, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::ENet::NoMemoryCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2350ef4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b2ccc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

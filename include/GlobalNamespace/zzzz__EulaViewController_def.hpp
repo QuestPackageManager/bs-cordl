@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_showDoNotAgreeButton(bool value);
 
-  /// @brief Method .ctor, addr 0x23b2778, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415d64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDoNotAgreeButton);
 
 protected:
@@ -208,21 +208,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x23b27a4, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2415d90, size 0x17c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23b2920, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2415f0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23b2928, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2415f14, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23b2968, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2415f54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x23b27a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2415d8c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x23b26e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415ccc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -379,27 +379,27 @@ public:
   /// @brief Field didFinishEvent, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x23b2260, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x241584c, size 0x334, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x23b260c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2415bf8, size 0xc0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method EnableButtonsCoroutine, addr 0x23b2594, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method EnableButtonsCoroutine, addr 0x2415b80, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
 
-  /// @brief Method Init, addr 0x23b26cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2415cb8, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showOnlyContinueButton);
 
   static inline ::GlobalNamespace::EulaViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__18_0, addr 0x23b2718, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_0, addr 0x2415d04, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_0();
 
-  /// @brief Method <DidActivate>b__18_1, addr 0x23b2738, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_1, addr 0x2415d24, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_1();
 
-  /// @brief Method <DidActivate>b__18_2, addr 0x23b2758, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_2, addr 0x2415d44, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__agreeButton() const;
@@ -486,13 +486,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method .ctor, addr 0x23b2708, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415cf4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x23b2100, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x24156ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x23b21b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x241579c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
 protected:

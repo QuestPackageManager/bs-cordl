@@ -157,21 +157,21 @@ public:
   /// @brief Field weight, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method FixTransforms, addr 0x131f2e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1347838, size 0xcc, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method Initiate, addr 0x131ee00, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1347358, size 0x4e0, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* hand, int32_t index);
 
-  /// @brief Method IsValid, addr 0x131ed14, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x134726c, size 0xec, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> errorMessage);
 
   static inline ::RootMotion::FinalIK::Finger* New_ctor();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x131f3ac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1347904, size 0xb8, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method Update, addr 0x131f464, size 0x660, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x13479bc, size 0x660, virtual false, abstract: false, final false
   inline void Update(float_t masterWeight);
 
   constexpr bool const& __cordl_internal_get__initiated_k__BackingField() const;
@@ -276,25 +276,25 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x131fac4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134801c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IKPosition, addr 0x131ec94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IKPosition, addr 0x13471ec, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_IKPosition();
 
-  /// @brief Method get_IKRotation, addr 0x131ecd4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IKRotation, addr 0x134722c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_IKRotation();
 
-  /// @brief Method get_initiated, addr 0x131ec80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_initiated, addr 0x13471d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
 
-  /// @brief Method set_IKPosition, addr 0x131ecb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_IKPosition, addr 0x134720c, size 0x20, virtual false, abstract: false, final false
   inline void set_IKPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_IKRotation, addr 0x131ecf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_IKRotation, addr 0x134724c, size 0x20, virtual false, abstract: false, final false
   inline void set_IKRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_initiated, addr 0x131ec88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_initiated, addr 0x13471e0, size 0xc, virtual false, abstract: false, final false
   inline void set_initiated(bool value);
 
 protected:

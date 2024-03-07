@@ -45,12 +45,12 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerLevelEndActions,
                       put = __cordl_internal_set__multiplayerLevelEndActions))::GlobalNamespace::IMultiplayerLevelEndActionsListener* _multiplayerLevelEndActions;
 
-  /// @brief Method Disconnect, addr 0x2469aec, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x24d15d8, size 0x210, virtual false, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* New_ctor();
 
-  /// @brief Method ResolveDisconnectButtonString, addr 0x246b870, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ResolveDisconnectButtonString, addr 0x24d335c, size 0x70, virtual false, abstract: false, final false
   inline ::StringW ResolveDisconnectButtonString();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLevelEndActions(::GlobalNamespace::IMultiplayerLevelEndActionsListener* value);
 
-  /// @brief Method .ctor, addr 0x246b8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d33cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

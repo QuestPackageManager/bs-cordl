@@ -40,7 +40,7 @@ public:
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2e27354, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2e82b8c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x2e27360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e82b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x2e272dc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x2e82b14, size 0x3c, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"

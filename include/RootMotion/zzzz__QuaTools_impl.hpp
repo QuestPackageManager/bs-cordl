@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float_t)>(
     &::RootMotion::QuaTools::Lerp)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x131a6d8;
+  constexpr static std::size_t addrs = 0x1342c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float_t)>(
     &::RootMotion::QuaTools::Slerp)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x131a724;
+  constexpr static std::size_t addrs = 0x1342c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, float_t)>(&::RootMotion::QuaTools::LinearBlend)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x131a770;
+  constexpr static std::size_t addrs = 0x1342cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, float_t)>(&::RootMotion::QuaTools::SphericalBlend)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x131a874;
+  constexpr static std::size_t addrs = 0x1342dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::RootMotion::QuaTools::FromToAroundAxis)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x131a978;
+  constexpr static std::size_t addrs = 0x1342ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::RootMotion::QuaTools::RotationToLocalSpace)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x131aa8c;
+  constexpr static std::size_t addrs = 0x1342fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::RootMotion::QuaTools::FromToRotation)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x131ab34;
+  constexpr static std::size_t addrs = 0x134308c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::RootMotion::QuaTools::GetAxis)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x131ac40;
+  constexpr static std::size_t addrs = 0x1343198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, float_t, int32_t)>(&::RootMotion::QuaTools::ClampRotation)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x131ada8;
+  constexpr static std::size_t addrs = 0x1343300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, int32_t)>(&::RootMotion::QuaTools::ClampAngle)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x131af8c;
+  constexpr static std::size_t addrs = 0x13434e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(
     ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::QuaTools::MatchRotation)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x131b05c;
+  constexpr static std::size_t addrs = 0x13435b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::RootMotion::QuaTools::ToBiPolar)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x131b1e0;
+  constexpr static std::size_t addrs = 0x1343738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::RootMotion::QuaTools::ToBiPolar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x131b2ec;
+  constexpr static std::size_t addrs = 0x1343844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

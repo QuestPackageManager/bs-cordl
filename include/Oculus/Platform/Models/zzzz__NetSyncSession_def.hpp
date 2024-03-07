@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_VoipGroup(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27f8ea0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285b8bc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

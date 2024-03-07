@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob::*)(int32_t)>(
     &::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob::Execute)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x28a2ce0;
+  constexpr static std::size_t addrs = 0x2904518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::*)(int32_t)>(
     &::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::Execute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x28a2e60;
+  constexpr static std::size_t addrs = 0x2904698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshJobs::*)()>(&::GlobalNamespace::OVRMeshJobs::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28a2cd8;
+  constexpr static std::size_t addrs = 0x2904510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshJobs*>::get(), ".ctor",

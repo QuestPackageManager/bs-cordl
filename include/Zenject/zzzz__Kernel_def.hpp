@@ -79,24 +79,24 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3024424, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x307bc5c, size 0x18, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FixedTick, addr 0x3024594, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method FixedTick, addr 0x307bdcc, size 0x18, virtual true, abstract: false, final false
   inline void FixedTick();
 
-  /// @brief Method Initialize, addr 0x302440c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x307bc44, size 0x18, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LateDispose, addr 0x302443c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method LateDispose, addr 0x307bc74, size 0x18, virtual true, abstract: false, final false
   inline void LateDispose();
 
-  /// @brief Method LateTick, addr 0x30244f4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method LateTick, addr 0x307bd2c, size 0x18, virtual true, abstract: false, final false
   inline void LateTick();
 
   static inline ::Zenject::Kernel* New_ctor();
 
-  /// @brief Method Tick, addr 0x3024454, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x307bc8c, size 0x18, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::Zenject::DisposableManager*& __cordl_internal_get__disposablesManager();
@@ -117,22 +117,22 @@ public:
 
   constexpr void __cordl_internal_set__tickableManager(::Zenject::TickableManager* value);
 
-  /// @brief Method __zenCreate, addr 0x302463c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x307be74, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3024a34, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x307c26c, size 0x4c8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x3024698, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x307bed0, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x30247cc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x307c004, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2, addr 0x3024900, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter2, addr 0x307c138, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x3024634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307be6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

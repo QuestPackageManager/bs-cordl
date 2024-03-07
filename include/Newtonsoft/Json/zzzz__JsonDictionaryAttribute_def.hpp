@@ -23,10 +23,10 @@ public:
 
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x2731cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791f80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2731cd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791f90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:

@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::LightmappingGameplayManager* New_ctor();
 
-  /// @brief Method Start, addr 0x2448968, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24b167c, size 0x188, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method .ctor, addr 0x2448af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b1804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

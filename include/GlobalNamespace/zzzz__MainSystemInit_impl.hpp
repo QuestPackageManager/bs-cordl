@@ -10,14 +10,12 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLightsUpdateSystem_def.hpp"
-#include "GlobalNamespace/zzzz__CachedMediaAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
 #include "GlobalNamespace/zzzz__CoroutineStarter_def.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelLoader_def.hpp"
 #include "GlobalNamespace/zzzz__DevicelessVRHelper_def.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentAudioEffectsPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentCommandLineArgsProvider_def.hpp"
 #include "GlobalNamespace/zzzz__ExternalCamerasManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameLiftNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
@@ -67,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MainSystemInit____c::*)()>(&::GlobalNamespace::__MainSystemInit____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x237f0e0;
+  constexpr static std::size_t addrs = 0x23e0f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), ".ctor",
@@ -75,68 +73,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallBindings_b__54_0
+//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallBindings_b__52_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PerceivedLoudnessPerLevelModel* (
     ::GlobalNamespace::__MainSystemInit____c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__54_0)> {
+    &::GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__52_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x237f0e8;
+  constexpr static std::size_t addrs = 0x23e0f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__54_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__52_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallBindings_b__54_1
+//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallBindings_b__52_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RelativeSfxVolumePerLevelModel* (
     ::GlobalNamespace::__MainSystemInit____c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__54_1)> {
+    &::GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__52_1)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x237f160;
+  constexpr static std::size_t addrs = 0x23e1008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__54_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__52_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallBindings_b__54_2
+//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallBindings_b__52_2
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel* (
     ::GlobalNamespace::__MainSystemInit____c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__54_2)> {
+    &::GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__52_2)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x237f1c4;
+  constexpr static std::size_t addrs = 0x23e106c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__54_2", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__52_2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallPlatformLeaderboardsModel_b__58_0
+//  Writing Method size for method: ::GlobalNamespace::__MainSystemInit____c._InstallPlatformLeaderboardsModel_b__56_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LeaderboardIdsModel* (
-    ::GlobalNamespace::__MainSystemInit____c::*)(::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::__MainSystemInit____c::_InstallPlatformLeaderboardsModel_b__58_0)> {
+    ::GlobalNamespace::__MainSystemInit____c::*)(::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::__MainSystemInit____c::_InstallPlatformLeaderboardsModel_b__56_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x237f23c;
+  constexpr static std::size_t addrs = 0x23e10e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallPlatformLeaderboardsModel>b__58_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallPlatformLeaderboardsModel>b__56_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get() })));
     return ___internal_method;
   }
@@ -148,52 +146,52 @@ inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9(::GlobalNames
 inline ::GlobalNamespace::__MainSystemInit____c* GlobalNamespace::__MainSystemInit____c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::__MainSystemInit____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>();
 }
-inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__54_0(
+inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__52_0(
     ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* value) {
   ::cordl_internals::setStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__54_0",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__52_0",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*
-GlobalNamespace::__MainSystemInit____c::getStaticF___9__54_0() {
+GlobalNamespace::__MainSystemInit____c::getStaticF___9__52_0() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__54_0",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*, "<>9__52_0",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>();
 }
-inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__54_1(
+inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__52_1(
     ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>* value) {
   ::cordl_internals::setStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>*, "<>9__54_1",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>*, "<>9__52_1",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>*
-GlobalNamespace::__MainSystemInit____c::getStaticF___9__54_1() {
+GlobalNamespace::__MainSystemInit____c::getStaticF___9__52_1() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>*, "<>9__54_1",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>*, "<>9__52_1",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>();
 }
-inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__54_2(
+inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__52_2(
     ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>* value) {
   ::cordl_internals::setStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__54_2",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__52_2",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*
-GlobalNamespace::__MainSystemInit____c::getStaticF___9__54_2() {
+GlobalNamespace::__MainSystemInit____c::getStaticF___9__52_2() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__54_2",
+      ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__52_2",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>();
 }
-inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__58_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__58_0",
+inline void GlobalNamespace::__MainSystemInit____c::setStaticF___9__56_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__56_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* GlobalNamespace::__MainSystemInit____c::getStaticF___9__58_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__58_0",
+inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* GlobalNamespace::__MainSystemInit____c::getStaticF___9__56_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__56_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get>();
 }
 inline ::GlobalNamespace::__MainSystemInit____c* GlobalNamespace::__MainSystemInit____c::New_ctor() {
@@ -205,32 +203,32 @@ inline void GlobalNamespace::__MainSystemInit____c::_ctor() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel*
-GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__54_0(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
+GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__52_0(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__54_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__52_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PerceivedLoudnessPerLevelModel*, false>(this, ___internal_method, packDefinitions);
 }
 inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel*
-GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__54_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
+GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__52_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__54_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__52_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RelativeSfxVolumePerLevelModel*, false>(this, ___internal_method, packDefinitions);
 }
 inline ::GlobalNamespace::OculusLevelProductCollectionModel*
-GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__54_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
+GlobalNamespace::__MainSystemInit____c::_InstallBindings_b__52_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__54_2", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallBindings>b__52_2", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OculusLevelProductCollectionModel*, false>(this, ___internal_method, packDefinitions);
 }
-inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::__MainSystemInit____c::_InstallPlatformLeaderboardsModel_b__58_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
+inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::__MainSystemInit____c::_InstallPlatformLeaderboardsModel_b__56_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallPlatformLeaderboardsModel>b__58_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSystemInit____c*>::get(), "<InstallPlatformLeaderboardsModel>b__56_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LeaderboardIdsModel*, false>(this, ___internal_method, beatmapLevelsModel);
 }
@@ -241,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)()>(&::GlobalNamespace::MainSystemInit::Init)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x237cc38;
+  constexpr static std::size_t addrs = 0x23deacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "Init",
@@ -254,8 +252,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallBindings)> {
-  constexpr static std::size_t size = 0x1974;
-  constexpr static std::size_t addrs = 0x237d090;
+  constexpr static std::size_t size = 0x19e8;
+  constexpr static std::size_t addrs = 0x23def24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSystemInit::InstallHapticsController)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x237ee40;
+  constexpr static std::size_t addrs = 0x23e0d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallRichPresence)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x237eb24;
+  constexpr static std::size_t addrs = 0x23e0a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSystemInit::InstallOculusDestinationBindings)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x237ea2c;
+  constexpr static std::size_t addrs = 0x23e0934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallPlatformLeaderboardsModel)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x237ec14;
+  constexpr static std::size_t addrs = 0x23e0b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSystemInit::InstallPS5Bindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x237f000;
+  constexpr static std::size_t addrs = 0x23e0f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSystemInit::InstallPS4Bindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x237f004;
+  constexpr static std::size_t addrs = 0x23e0f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,8 +359,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)()>(&::GlobalNamespace::MainSystemInit::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x237f008;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x23e0f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), ".ctor",
@@ -578,18 +576,6 @@ constexpr ::UnityW<::GlobalNamespace::CustomLevelLoader> const& GlobalNamespace:
 constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__customLevelLoaderPrefab(::UnityW<::GlobalNamespace::CustomLevelLoader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customLevelLoaderPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::CachedMediaAsyncLoader>& GlobalNamespace::MainSystemInit::__cordl_internal_get__cachedMediaAsyncLoaderPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cachedMediaAsyncLoaderPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::CachedMediaAsyncLoader> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__cachedMediaAsyncLoaderPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cachedMediaAsyncLoaderPrefab;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__cachedMediaAsyncLoaderPrefab(::UnityW<::GlobalNamespace::CachedMediaAsyncLoader> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedMediaAsyncLoaderPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::ExternalCamerasManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__externalCamerasManagerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -964,18 +950,6 @@ constexpr ::UnityW<::GlobalNamespace::CoroutineStarter> const& GlobalNamespace::
 constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__coroutineStarter(::UnityW<::GlobalNamespace::CoroutineStarter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coroutineStarter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::EnvironmentCommandLineArgsProvider*& GlobalNamespace::MainSystemInit::__cordl_internal_get__commandLineArgsProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____commandLineArgsProvider;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentCommandLineArgsProvider*> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__commandLineArgsProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____commandLineArgsProvider;
-}
-constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__commandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____commandLineArgsProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__menuTransitionHelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::TextCoreSettings::*)(::System::Object*)>(
     &::UnityEngine::UIElements::UIR::TextCoreSettings::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2edb248;
+  constexpr static std::size_t addrs = 0x2f34a80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::TextCoreSettings::*)(::UnityEngine::UIElements::UIR::TextCoreSettings)>(
     &::UnityEngine::UIElements::UIR::TextCoreSettings::Equals)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2edb2d8;
+  constexpr static std::size_t addrs = 0x2f34b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextCoreSettings::*)()>(
     &::UnityEngine::UIElements::UIR::TextCoreSettings::GetHashCode)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2edb3c0;
+  constexpr static std::size_t addrs = 0x2f34bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 

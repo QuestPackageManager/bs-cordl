@@ -33,15 +33,15 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_nonPositiveInteger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a5954, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0718c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x29a58f4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x2a0712c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode, addr 0x29a594c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a07184, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);

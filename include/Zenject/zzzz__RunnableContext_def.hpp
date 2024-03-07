@@ -38,12 +38,12 @@ public:
   /// @brief Method CreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method Initialize, addr 0x2ffde24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x305565c, size 0x9c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Zenject::RunnableContext* New_ctor();
 
-  /// @brief Method Run, addr 0x3000c30, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x3058468, size 0x70, virtual true, abstract: false, final false
   inline void Run();
 
   /// @brief Method RunInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -61,20 +61,20 @@ public:
 
   constexpr void __cordl_internal_set__autoRun(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3000cec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3058524, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x2ffe7a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3055fe0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__staticAutoRun();
 
-  /// @brief Method get_Initialized, addr 0x3000c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initialized, addr 0x3058454, size 0x8, virtual false, abstract: false, final false
   inline bool get_Initialized();
 
   static inline void setStaticF__staticAutoRun(bool value);
 
-  /// @brief Method set_Initialized, addr 0x3000c24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Initialized, addr 0x305845c, size 0xc, virtual false, abstract: false, final false
   inline void set_Initialized(bool value);
 
 protected:

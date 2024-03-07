@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12a00a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12c67a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementId, addr 0x12a00a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementId, addr 0x12c679c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_achievementId();
 
 protected:

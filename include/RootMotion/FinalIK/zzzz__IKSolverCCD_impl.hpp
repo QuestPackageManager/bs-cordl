@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverCCD::*)()>(&::RootMotion::FinalIK::IKSolverCCD::FadeOutBoneWeights)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x133ce48;
+  constexpr static std::size_t addrs = 0x13653a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverCCD*>::get(), "FadeOutBoneWeights",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverCCD::*)()>(&::RootMotion::FinalIK::IKSolverCCD::OnInitiate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x133ceb8;
+  constexpr static std::size_t addrs = 0x1365410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverCCD::*)()>(&::RootMotion::FinalIK::IKSolverCCD::OnUpdate)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x133d3ac;
+  constexpr static std::size_t addrs = 0x1365904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverCCD::*)(::UnityEngine::Vector3)>(&::RootMotion::FinalIK::IKSolverCCD::Solve)> {
   constexpr static std::size_t size = 0x690;
-  constexpr static std::size_t addrs = 0x133da80;
+  constexpr static std::size_t addrs = 0x1365fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverCCD::*)()>(&::RootMotion::FinalIK::IKSolverCCD::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x133e110;
+  constexpr static std::size_t addrs = 0x1366668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverCCD*>::get(), ".ctor",

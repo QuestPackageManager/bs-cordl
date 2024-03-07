@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
 
-  /// @brief Method Clear, addr 0x2406334, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x246b8ac, size 0x9c, virtual true, abstract: false, final true
   inline void Clear();
 
   static inline ::GlobalNamespace::OculusRichPresencePlatformHandler* New_ctor();
 
-  /// @brief Method SetPresence, addr 0x240602c, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method SetPresence, addr 0x246b5a4, size 0x308, virtual true, abstract: false, final true
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
 
-  /// @brief Method .ctor, addr 0x24063d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x246b948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"

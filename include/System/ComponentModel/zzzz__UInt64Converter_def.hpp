@@ -31,16 +31,16 @@ public:
   // Declarations
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x2a03370, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2a64ba8, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x2a032dc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2a64b14, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-  /// @brief Method ToString, addr 0x2a033e4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2a64c1c, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method get_TargetType, addr 0x2a03270, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x2a64aa8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:

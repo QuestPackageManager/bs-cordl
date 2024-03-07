@@ -76,24 +76,24 @@ public:
   /// @brief Field _visualMetronome, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__visualMetronome, put = __cordl_internal_set__visualMetronome))::UnityW<::GlobalNamespace::VisualMetronome> _visualMetronome;
 
-  /// @brief Method DidActivate, addr 0x23ae7b4, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2411da0, size 0x230, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x23aeae0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x24120cc, size 0x28, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x23aec60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x241224c, size 0x68, virtual false, abstract: false, final false
   inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23aeb08, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24120f4, size 0xe4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x23ae9e4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x2411fd0, size 0xfc, virtual false, abstract: false, final false
   inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
 
-  /// @brief Method SliderValueDidChange, addr 0x23aebec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SliderValueDidChange, addr 0x24121d8, size 0x74, virtual false, abstract: false, final false
   inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__audioLatency() const;
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set__visualMetronome(::UnityW<::GlobalNamespace::VisualMetronome> value);
 
-  /// @brief Method .ctor, addr 0x23aecc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24122b4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -46,43 +46,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>*();
 
-  /// @brief Method Approximately, addr 0x137f0a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x13aa680, size 0x80, virtual false, abstract: false, final false
   inline bool Approximately(::GlobalNamespace::QuaternionSerializable other);
 
-  /// @brief Method Deserialize, addr 0x137b32c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x13a6884, size 0x64, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x137f008, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x13aa5e8, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x137efd4, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x13aa5b4, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::QuaternionSerializable other);
 
-  /// @brief Method FromSmallest, addr 0x137ef04, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FromSmallest, addr 0x13aa4e4, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromSmallest(int32_t sa, int32_t sb, int32_t sc);
 
-  /// @brief Method GetHashCode, addr 0x137f130, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x13aa710, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSize, addr 0x137f148, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x13aa728, size 0x54, virtual false, abstract: false, final false
   inline int32_t GetSize();
 
-  /// @brief Method Serialize, addr 0x137b4e8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x13a6a40, size 0x54, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToSmallest, addr 0x137eb1c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ToSmallest, addr 0x13aa0fc, size 0x3e8, virtual false, abstract: false, final false
   static inline void ToSmallest(::UnityEngine::Quaternion q, ByRef<int32_t> sa, ByRef<int32_t> sb, ByRef<int32_t> sc);
 
-  /// @brief Method ToString, addr 0x137f1a8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x13aa788, size 0x38, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x137e9b8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a9f98, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Quaternion q);
 
-  /// @brief Method .ctor, addr 0x137f19c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13aa77c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method get_identity, addr 0x137e954, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x13a9f34, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::QuaternionSerializable get_identity();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -91,16 +91,16 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>* i___System__IEquatable_1___GlobalNamespace__QuaternionSerializable_();
 
-  /// @brief Method op_Addition, addr 0x137f1e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x13aa7c0, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::QuaternionSerializable op_Addition(::GlobalNamespace::QuaternionSerializable a, ::GlobalNamespace::QuaternionSerializable b);
 
-  /// @brief Method op_Implicit, addr 0x137b8d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x13a6e28, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::QuaternionSerializable op_Implicit___GlobalNamespace__QuaternionSerializable(::UnityEngine::Quaternion q);
 
-  /// @brief Method op_Implicit, addr 0x137f120, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x13aa700, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::GlobalNamespace::QuaternionSerializable q);
 
-  /// @brief Method op_Subtraction, addr 0x137f1fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x13aa7dc, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::QuaternionSerializable op_Subtraction(::GlobalNamespace::QuaternionSerializable a, ::GlobalNamespace::QuaternionSerializable b);
 
   // Ctor Parameters []

@@ -69,15 +69,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xecc7b0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xeeceb8, size 0x60, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable* New_ctor();
 
-  /// @brief Method Release, addr 0xecc810, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xeecf18, size 0xac, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xecc700, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xeece08, size 0xb0, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__baseId_k__BackingField() const;
@@ -98,19 +98,19 @@ public:
 
   constexpr void __cordl_internal_set__timeOffsetMs_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0xecc8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeecfc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_baseId, addr 0xecc6b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_baseId, addr 0xeecdc0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method get_delta, addr 0xecc6d8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_delta, addr 0xeecde0, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState get_delta();
 
-  /// @brief Method get_pool, addr 0xecc678, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xeecd80, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool();
 
-  /// @brief Method get_timeOffsetMs, addr 0xecc6c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeOffsetMs, addr 0xeecdd0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_timeOffsetMs();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -123,13 +123,13 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  /// @brief Method set_baseId, addr 0xecc6c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_baseId, addr 0xeecdc8, size 0x8, virtual true, abstract: false, final true
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method set_delta, addr 0xecc6ec, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method set_delta, addr 0xeecdf4, size 0x14, virtual true, abstract: false, final true
   inline void set_delta(::GlobalNamespace::StandardScoreSyncState value);
 
-  /// @brief Method set_timeOffsetMs, addr 0xecc6d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_timeOffsetMs, addr 0xeecdd8, size 0x8, virtual true, abstract: false, final true
   inline void set_timeOffsetMs(int32_t value);
 
 protected:

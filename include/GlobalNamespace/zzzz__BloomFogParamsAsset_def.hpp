@@ -44,7 +44,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x24104c8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x2475a64, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::BloomFogParamsAsset* New_ctor();
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::BloomFogParamsBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x2410570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2475b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x24104c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x2475a5c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

@@ -41,19 +41,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x2968fa0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x29cc7d8, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Create, addr 0x2969014, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29cc84c, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlWriter* Create(::System::IO::Stream* output, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method Create, addr 0x29695b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29ccdec, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlWriter* Create(::System::IO::TextWriter* output, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method Dispose, addr 0x2968fbc, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x29cc7f4, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2968fd0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x29cc808, size 0x44, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method Flush, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -64,13 +64,13 @@ public:
 
   static inline ::System::Xml::XmlWriter* New_ctor();
 
-  /// @brief Method WriteAttributeString, addr 0x2968f50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteAttributeString, addr 0x29cc788, size 0x50, virtual false, abstract: false, final false
   inline void WriteAttributeString(::StringW prefix, ::StringW localName, ::StringW ns, ::StringW value);
 
   /// @brief Method WriteBase64, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteBinHex, addr 0x2967728, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteBinHex, addr 0x29caf60, size 0x1c, virtual true, abstract: false, final false
   inline void WriteBinHex(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
   /// @brief Method WriteCData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -130,13 +130,13 @@ public:
   /// @brief Method WriteSurrogateCharEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method WriteValue, addr 0x2968fa4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x29cc7dc, size 0x18, virtual true, abstract: false, final false
   inline void WriteValue(::StringW value);
 
   /// @brief Method WriteWhitespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteWhitespace(::StringW ws);
 
-  /// @brief Method .ctor, addr 0x296199c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c51d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_WriteState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

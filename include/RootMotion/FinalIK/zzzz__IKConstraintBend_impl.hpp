@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::RootMotion::FinalIK::IKConstraintBend::*)(::RootMotion::FinalIK::IKSolverFullBody*, ::RootMotion::__Warning__Logger*)>(&::RootMotion::FinalIK::IKConstraintBend::IsValid)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x1333b58;
+  constexpr static std::size_t addrs = 0x135c0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::IKConstraintBend::*)()>(&::RootMotion::FinalIK::IKConstraintBend::get_initiated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1333d30;
+  constexpr static std::size_t addrs = 0x135c288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKConstraintBend*>::get(), "get_initiated",
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKConstraintBend::*)(bool)>(&::RootMotion::FinalIK::IKConstraintBend::set_initiated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1333d38;
+  constexpr static std::size_t addrs = 0x135c290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKConstraintBend::*)()>(&::RootMotion::FinalIK::IKConstraintBend::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x1330cb8;
+  constexpr static std::size_t addrs = 0x1359210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKConstraintBend*>::get(), ".ctor",
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::FinalIK::IKConstraintBend::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::IKConstraintBend::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x1333d44;
+  constexpr static std::size_t addrs = 0x135c29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKConstraintBend::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::IKConstraintBend::SetBones)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1331854;
+  constexpr static std::size_t addrs = 0x1359dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKConstraintBend::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::IKConstraintBend::Initiate)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x1331860;
+  constexpr static std::size_t addrs = 0x1359db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKConstraintBend::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::IKConstraintBend::SetLimbOrientation)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x1333f18;
+  constexpr static std::size_t addrs = 0x135c470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKConstraintBend::*)(float_t, float_t)>(
     &::RootMotion::FinalIK::IKConstraintBend::LimitBend)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x133426c;
+  constexpr static std::size_t addrs = 0x135c7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKConstraintBend::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::IKConstraintBend::GetDir)> {
   constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x133282c;
+  constexpr static std::size_t addrs = 0x135ad84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKConstraintBend::*)(
     ::RootMotion::FinalIK::IKSolverFullBody*, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::IKConstraintBend::OrthoToLimb)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x1333dd0;
+  constexpr static std::size_t addrs = 0x135c328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKConstraintBend::*)(
     ::RootMotion::FinalIK::IKSolverFullBody*, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::IKConstraintBend::OrthoToBone1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x1333e74;
+  constexpr static std::size_t addrs = 0x135c3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

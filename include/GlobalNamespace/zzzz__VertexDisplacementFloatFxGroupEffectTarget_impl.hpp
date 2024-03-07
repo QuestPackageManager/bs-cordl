@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::OnEnable)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x24352d4;
+  constexpr static std::size_t addrs = 0x249daac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::OnValidate)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2435430;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x249dc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(float_t)>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::CalculateDisplacementVector)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24353a8;
+  constexpr static std::size_t addrs = 0x249db80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,10 +55,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget.SetValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(float_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::SetValue)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x243544c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x249dc2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,10 +71,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget.TriggerValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(float_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::TriggerValue)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2435520;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x249dd04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,13 +84,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(float_t)>(
+    &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::SetValue)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x249dc30;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>::get(), "SetValue",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x24355f4;
+  constexpr static std::size_t addrs = 0x249dd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -233,16 +248,22 @@ inline ::UnityEngine::Vector4 GlobalNamespace::VertexDisplacementFloatFxGroupEff
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::SetValue(float_t value) {
+inline void GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::SetValue(int32_t groupId, int32_t elementId, float_t value) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, value);
 }
-inline void GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::TriggerValue(float_t value) {
+inline void GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::TriggerValue(int32_t groupId, int32_t elementId, float_t value) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, value);
+}
+inline void GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::SetValue(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>::get(), "SetValue",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget* GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::New_ctor() {

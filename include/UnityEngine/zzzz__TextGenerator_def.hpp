@@ -129,80 +129,80 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Finalize, addr 0x2e58224, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2eb3a5c, size 0x110, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetCharacters, addr 0x2e5878c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x2eb3fc4, size 0x44, virtual false, abstract: false, final false
   inline void GetCharacters(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* characters);
 
-  /// @brief Method GetCharactersInternal, addr 0x2e587d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCharactersInternal, addr 0x2eb4008, size 0x44, virtual false, abstract: false, final false
   inline void GetCharactersInternal(::System::Object* characters);
 
-  /// @brief Method GetLines, addr 0x2e58814, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLines, addr 0x2eb404c, size 0x44, virtual false, abstract: false, final false
   inline void GetLines(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* lines);
 
-  /// @brief Method GetLinesInternal, addr 0x2e58858, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLinesInternal, addr 0x2eb4090, size 0x44, virtual false, abstract: false, final false
   inline void GetLinesInternal(::System::Object* lines);
 
-  /// @brief Method GetPreferredHeight, addr 0x2e58a40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredHeight, addr 0x2eb4278, size 0x70, virtual false, abstract: false, final false
   inline float_t GetPreferredHeight(::StringW str, ::UnityEngine::TextGenerationSettings settings);
 
-  /// @brief Method GetPreferredWidth, addr 0x2e58924, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredWidth, addr 0x2eb415c, size 0x74, virtual false, abstract: false, final false
   inline float_t GetPreferredWidth(::StringW str, ::UnityEngine::TextGenerationSettings settings);
 
-  /// @brief Method GetVertices, addr 0x2e5889c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVertices, addr 0x2eb40d4, size 0x44, virtual false, abstract: false, final false
   inline void GetVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vertices);
 
-  /// @brief Method GetVerticesInternal, addr 0x2e588e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetVerticesInternal, addr 0x2eb4118, size 0x44, virtual false, abstract: false, final false
   inline void GetVerticesInternal(::System::Object* vertices);
 
-  /// @brief Method Internal_Create, addr 0x2e581fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x2eb3a34, size 0x28, virtual false, abstract: false, final false
   static inline void* Internal_Create();
 
-  /// @brief Method Internal_Destroy, addr 0x2e583d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x2eb3c0c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(void* ptr);
 
-  /// @brief Method Invalidate, addr 0x2e58784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x2eb3fbc, size 0x8, virtual false, abstract: false, final false
   inline void Invalidate();
 
   static inline ::UnityEngine::TextGenerator* New_ctor();
 
   static inline ::UnityEngine::TextGenerator* New_ctor(int32_t initialCapacity);
 
-  /// @brief Method Populate, addr 0x2e58998, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Populate, addr 0x2eb41d0, size 0x50, virtual false, abstract: false, final false
   inline bool Populate(::StringW str, ::UnityEngine::TextGenerationSettings settings);
 
-  /// @brief Method PopulateAlways, addr 0x2e58cf0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method PopulateAlways, addr 0x2eb4528, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::TextGenerationError PopulateAlways(::StringW str, ::UnityEngine::TextGenerationSettings settings);
 
-  /// @brief Method PopulateWithError, addr 0x2e58c60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PopulateWithError, addr 0x2eb4498, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::TextGenerationError PopulateWithError(::StringW str, ::UnityEngine::TextGenerationSettings settings);
 
-  /// @brief Method PopulateWithErrors, addr 0x2e58ab0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method PopulateWithErrors, addr 0x2eb42e8, size 0x1b0, virtual false, abstract: false, final false
   inline bool PopulateWithErrors(::StringW str, ::UnityEngine::TextGenerationSettings settings, ::UnityEngine::GameObject* context);
 
-  /// @brief Method Populate_Internal, addr 0x2e58df8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Populate_Internal, addr 0x2eb4630, size 0x1ac, virtual false, abstract: false, final false
   inline bool Populate_Internal(::StringW str, ::UnityEngine::Font* font, ::UnityEngine::Color color, int32_t fontSize, float_t scaleFactor, float_t lineSpacing, ::UnityEngine::FontStyle style,
                                 bool richText, bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, ::UnityEngine::VerticalWrapMode verticalOverFlow,
                                 ::UnityEngine::HorizontalWrapMode horizontalOverflow, bool updateBounds, ::UnityEngine::TextAnchor anchor, ::UnityEngine::Vector2 extents, ::UnityEngine::Vector2 pivot,
                                 bool generateOutOfBounds, bool alignByGeometry, ByRef<::UnityEngine::TextGenerationError> error);
 
-  /// @brief Method Populate_Internal, addr 0x2e59138, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Populate_Internal, addr 0x2eb4970, size 0x14c, virtual false, abstract: false, final false
   inline bool Populate_Internal(::StringW str, ::UnityEngine::Font* font, ::UnityEngine::Color color, int32_t fontSize, float_t scaleFactor, float_t lineSpacing, ::UnityEngine::FontStyle style,
                                 bool richText, bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, int32_t verticalOverFlow, int32_t horizontalOverflow, bool updateBounds,
                                 ::UnityEngine::TextAnchor anchor, float_t extentsX, float_t extentsY, float_t pivotX, float_t pivotY, bool generateOutOfBounds, bool alignByGeometry,
                                 ByRef<uint32_t> error);
 
-  /// @brief Method Populate_Internal_Injected, addr 0x2e59284, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Populate_Internal_Injected, addr 0x2eb4abc, size 0x130, virtual false, abstract: false, final false
   inline bool Populate_Internal_Injected(::StringW str, ::UnityEngine::Font* font, ByRef<::UnityEngine::Color> color, int32_t fontSize, float_t scaleFactor, float_t lineSpacing,
                                          ::UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, int32_t verticalOverFlow,
                                          int32_t horizontalOverflow, bool updateBounds, ::UnityEngine::TextAnchor anchor, float_t extentsX, float_t extentsY, float_t pivotX, float_t pivotY,
                                          bool generateOutOfBounds, bool alignByGeometry, ByRef<uint32_t> error);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2e58334, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2eb3b6c, size 0xa0, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method ValidatedSettings, addr 0x2e58490, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ValidatedSettings, addr 0x2eb3cc8, size 0x2b8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextGenerationSettings ValidatedSettings(::UnityEngine::TextGenerationSettings settings);
 
   constexpr bool const& __cordl_internal_get_m_CachedCharacters() const;
@@ -271,34 +271,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Verts(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* value);
 
-  /// @brief Method .ctor, addr 0x2e580a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb38e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e580b0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb38e8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_characterCount, addr 0x2e58454, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_characterCount, addr 0x2eb3c8c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_characterCount();
 
-  /// @brief Method get_characterCountVisible, addr 0x2e58410, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_characterCountVisible, addr 0x2eb3c48, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_characterCountVisible();
 
-  /// @brief Method get_characters, addr 0x2e59000, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_characters, addr 0x2eb4838, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::UICharInfo>* get_characters();
 
-  /// @brief Method get_lineCount, addr 0x2e590fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lineCount, addr 0x2eb4934, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_lineCount();
 
-  /// @brief Method get_lines, addr 0x2e5905c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_lines, addr 0x2eb4894, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>* get_lines();
 
-  /// @brief Method get_rectExtents, addr 0x2e589e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rectExtents, addr 0x2eb4220, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rectExtents();
 
-  /// @brief Method get_rectExtents_Injected, addr 0x2e590b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rectExtents_Injected, addr 0x2eb48f0, size 0x44, virtual false, abstract: false, final false
   inline void get_rectExtents_Injected(ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method get_verts, addr 0x2e58fa4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_verts, addr 0x2eb47dc, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* get_verts();
 
   /// @brief Convert to "::System::IDisposable"

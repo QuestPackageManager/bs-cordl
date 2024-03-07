@@ -25,17 +25,11 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x251cf88, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x25652bc, size 0x194, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x251d2e8, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x2565450, size 0x290, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
-
-  /// @brief Method SmallPrimeSppTest, addr 0x251d11c, size 0x1cc, virtual false, abstract: false, final false
-  static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
-
-  /// @brief Method Test, addr 0x251c0d4, size 0x4c, virtual false, abstract: false, final false
-  static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
 protected:
   // Ctor Parameters []

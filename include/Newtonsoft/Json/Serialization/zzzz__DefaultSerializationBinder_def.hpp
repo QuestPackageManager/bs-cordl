@@ -37,16 +37,16 @@ namespace Newtonsoft::Json::Serialization {
 struct CORDL_TYPE __DefaultSerializationBinder__TypeNameKey {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x27690ec, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27c93a8, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2769164, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x27c9420, size 0x48, virtual false, abstract: false, final false
   inline bool Equals(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey other);
 
-  /// @brief Method GetHashCode, addr 0x276909c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27c9358, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2768f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c9228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName, ::StringW typeName);
 
   // Ctor Parameters []
@@ -93,10 +93,10 @@ public:
                       put = __cordl_internal_set__typeCache))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey,
                                                                                                               ::System::Type*>* _typeCache;
 
-  /// @brief Method BindToType, addr 0x2768f04, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method BindToType, addr 0x27c91c0, size 0x68, virtual true, abstract: false, final false
   inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
 
-  /// @brief Method GetTypeFromTypeNameKey, addr 0x2768ce4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromTypeNameKey, addr 0x27c8fa0, size 0x220, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey typeNameKey);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* New_ctor();
@@ -109,7 +109,7 @@ public:
   constexpr void
   __cordl_internal_set__typeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x2768f74, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c9230, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* getStaticF_Instance();

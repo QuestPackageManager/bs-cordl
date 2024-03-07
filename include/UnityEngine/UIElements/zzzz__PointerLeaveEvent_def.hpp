@@ -18,15 +18,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerLeaveEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerLeaveEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2f5e2c4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2fb7afc, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2f5e318, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2fb7b50, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerLeaveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f5e324, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb7b5c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

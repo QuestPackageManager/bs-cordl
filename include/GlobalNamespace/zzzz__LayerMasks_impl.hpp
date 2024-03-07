@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::StringW)>(&::GlobalNamespace::LayerMasks::GetLayerMask)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x129e8dc;
+  constexpr static std::size_t addrs = 0x12c4fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(int32_t)>(&::GlobalNamespace::LayerMasks::GetLayerMask)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x129e90c;
+  constexpr static std::size_t addrs = 0x12c5010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::LayerMasks::GetLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x129e934;
+  constexpr static std::size_t addrs = 0x12c5038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LayerMasks::*)()>(&::GlobalNamespace::LayerMasks::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x129e93c;
+  constexpr static std::size_t addrs = 0x12c5040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), ".ctor",
@@ -72,6 +72,18 @@ inline void GlobalNamespace::LayerMasks::setStaticF_noteLayerMask(::UnityEngine:
 inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_noteLayerMask() {
   return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "noteLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
+inline void GlobalNamespace::LayerMasks::setStaticF_noteDebrisLayer(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::LayerMasks::getStaticF_noteDebrisLayer() {
+  return ::cordl_internals::getStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+}
+inline void GlobalNamespace::LayerMasks::setStaticF_cutEffectParticlesLayer(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::LayerMasks::getStaticF_cutEffectParticlesLayer() {
+  return ::cordl_internals::getStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+}
 inline void GlobalNamespace::LayerMasks::setStaticF_noteDebrisLayerMask(::UnityEngine::LayerMask value) {
   ::cordl_internals::setStaticField<::UnityEngine::LayerMask, "noteDebrisLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(
       std::forward<::UnityEngine::LayerMask>(value));
@@ -85,18 +97,6 @@ inline void GlobalNamespace::LayerMasks::setStaticF_cutEffectParticlesLayerMask(
 }
 inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_cutEffectParticlesLayerMask() {
   return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "cutEffectParticlesLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
-}
-inline void GlobalNamespace::LayerMasks::setStaticF_noteDebrisLayer(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
-}
-inline int32_t GlobalNamespace::LayerMasks::getStaticF_noteDebrisLayer() {
-  return ::cordl_internals::getStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
-}
-inline void GlobalNamespace::LayerMasks::setStaticF_cutEffectParticlesLayer(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
-}
-inline int32_t GlobalNamespace::LayerMasks::getStaticF_cutEffectParticlesLayer() {
-  return ::cordl_internals::getStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
 inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::GetLayerMask(::StringW layerName) {
   static auto* ___internal_method =

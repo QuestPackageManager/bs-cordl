@@ -59,7 +59,7 @@ public:
 
   static inline ::GlobalNamespace::BTSStarTextEffectController* New_ctor();
 
-  /// @brief Method Reinitialize, addr 0xe748fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0xe906c8, size 0x108, virtual false, abstract: false, final false
   inline void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float_t desiredAnimationLength);
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0xe74a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe907d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationDuration, addr 0xe748f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationDuration, addr 0xe906c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_animationDuration();
 
 protected:
@@ -146,11 +146,11 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BTSStarTextEffectController__Pool* New_ctor();
 
-  /// @brief Method Reinitialize, addr 0xe74a0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0xe907d8, size 0x14, virtual true, abstract: false, final false
   inline void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* transform, float_t desiredAnimationLength,
                            ::GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
 
-  /// @brief Method .ctor, addr 0xe74a20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe907ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

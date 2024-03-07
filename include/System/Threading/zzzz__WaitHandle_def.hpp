@@ -52,63 +52,63 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x27125c4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2772914, size 0x70, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x271267c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x27729cc, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2712634, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2772984, size 0x48, virtual true, abstract: false, final false
   inline void Dispose(bool explicitDisposing);
 
-  /// @brief Method Init, addr 0x27115c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2771914, size 0x6c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InternalWaitOne, addr 0x2711a94, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InternalWaitOne, addr 0x2771de4, size 0xf4, virtual false, abstract: false, final false
   static inline bool InternalWaitOne(::System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, int64_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext);
 
   static inline ::System::Threading::WaitHandle* New_ctor();
 
-  /// @brief Method SetHandleInternal, addr 0x271185c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetHandleInternal, addr 0x2771bac, size 0x34, virtual false, abstract: false, final false
   inline void SetHandleInternal(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method ThrowAbandonedMutexException, addr 0x2711d4c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowAbandonedMutexException, addr 0x277209c, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowAbandonedMutexException();
 
-  /// @brief Method ThrowAbandonedMutexException, addr 0x2712464, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ThrowAbandonedMutexException, addr 0x27727b4, size 0x54, virtual false, abstract: false, final false
   static inline void ThrowAbandonedMutexException(int32_t location, ::System::Threading::WaitHandle* handle);
 
-  /// @brief Method WaitAny, addr 0x2711d8c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method WaitAny, addr 0x27720dc, size 0x308, virtual false, abstract: false, final false
   static inline int32_t WaitAny(::ArrayW<::System::Threading::WaitHandle*, ::Array<::System::Threading::WaitHandle*>*> waitHandles, int32_t millisecondsTimeout, bool exitContext);
 
-  /// @brief Method WaitAny, addr 0x27124b8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method WaitAny, addr 0x2772808, size 0x10c, virtual false, abstract: false, final false
   static inline int32_t WaitAny(::ArrayW<::System::Threading::WaitHandle*, ::Array<::System::Threading::WaitHandle*>*> waitHandles, ::System::TimeSpan timeout, bool exitContext);
 
-  /// @brief Method WaitMultiple, addr 0x2712094, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method WaitMultiple, addr 0x27723e4, size 0x3d0, virtual false, abstract: false, final false
   static inline int32_t WaitMultiple(::ArrayW<::System::Threading::WaitHandle*, ::Array<::System::Threading::WaitHandle*>*> waitHandles, int32_t millisecondsTimeout, bool exitContext, bool WaitAll);
 
-  /// @brief Method WaitOne, addr 0x2711a60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WaitOne, addr 0x2771db0, size 0x14, virtual true, abstract: false, final false
   inline bool WaitOne();
 
-  /// @brief Method WaitOne, addr 0x2711a74, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method WaitOne, addr 0x2771dc4, size 0x10, virtual true, abstract: false, final false
   inline bool WaitOne(int32_t millisecondsTimeout);
 
-  /// @brief Method WaitOne, addr 0x2711890, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method WaitOne, addr 0x2771be0, size 0x84, virtual true, abstract: false, final false
   inline bool WaitOne(int32_t millisecondsTimeout, bool exitContext);
 
-  /// @brief Method WaitOne, addr 0x2711a84, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method WaitOne, addr 0x2771dd4, size 0x10, virtual true, abstract: false, final false
   inline bool WaitOne(::System::TimeSpan timeout);
 
-  /// @brief Method WaitOne, addr 0x2711994, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method WaitOne, addr 0x2771ce4, size 0xcc, virtual true, abstract: false, final false
   inline bool WaitOne(::System::TimeSpan timeout, bool exitContext);
 
-  /// @brief Method WaitOne, addr 0x2711914, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WaitOne, addr 0x2771c64, size 0x80, virtual false, abstract: false, final false
   inline bool WaitOne(int64_t timeout, bool exitContext);
 
-  /// @brief Method WaitOneNative, addr 0x2711b88, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method WaitOneNative, addr 0x2771ed8, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t WaitOneNative(::System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, uint32_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext);
 
-  /// @brief Method Wait_internal, addr 0x27126ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Wait_internal, addr 0x2772a3c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Wait_internal(::cordl_internals::Ptr<void*> handles, int32_t numHandles, bool waitAll, int32_t ms);
 
   constexpr bool const& __cordl_internal_get_hasThreadAffinity() const;
@@ -129,12 +129,12 @@ public:
 
   constexpr void __cordl_internal_set_waitHandle(void* value);
 
-  /// @brief Method .ctor, addr 0x27115a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27718f8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline void* getStaticF_InvalidHandle();
 
-  /// @brief Method get_SafeWaitHandle, addr 0x271171c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_SafeWaitHandle, addr 0x2771a6c, size 0xb8, virtual false, abstract: false, final false
   inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* get_SafeWaitHandle();
 
   /// @brief Convert to "::System::IDisposable"
@@ -142,10 +142,10 @@ public:
 
   static inline void setStaticF_InvalidHandle(void* value);
 
-  /// @brief Method set_Handle, addr 0x2711630, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method set_Handle, addr 0x2771980, size 0xec, virtual true, abstract: false, final false
   inline void set_Handle(void* value);
 
-  /// @brief Method set_SafeWaitHandle, addr 0x27117d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_SafeWaitHandle, addr 0x2771b24, size 0x88, virtual false, abstract: false, final false
   inline void set_SafeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle* value);
 
 protected:

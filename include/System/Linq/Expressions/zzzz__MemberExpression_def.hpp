@@ -23,10 +23,10 @@ public:
   // Declarations
   __declspec(property(get = get_Member))::System::Reflection::MemberInfo* Member;
 
-  /// @brief Method GetMember, addr 0x28fc9d0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x2960208, size 0x24, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
-  /// @brief Method get_Member, addr 0x28fc9c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x29601fc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
 protected:

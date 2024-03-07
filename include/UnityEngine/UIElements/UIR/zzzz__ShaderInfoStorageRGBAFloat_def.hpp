@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x2f9a3ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x2ff3c24, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c);
 
-  /// @brief Method .ctor, addr 0x2f9a3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff3c1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* getStaticF___9();
@@ -84,7 +84,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x2f97dd8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff1610, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   static inline ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color>* getStaticF_s_Convert();

@@ -25,19 +25,19 @@ namespace UnityEngine {
 struct CORDL_TYPE ContactFilter2D {
 public:
   // Declarations
-  /// @brief Method CheckConsistency, addr 0x2e0fbc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x2e6b400, size 0x3c, virtual false, abstract: false, final false
   inline void CheckConsistency();
 
-  /// @brief Method CheckConsistency_Injected, addr 0x2e0fc04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency_Injected, addr 0x2e6b43c, size 0x3c, virtual false, abstract: false, final false
   static inline void CheckConsistency_Injected(ByRef<::UnityEngine::ContactFilter2D> _unity_self);
 
-  /// @brief Method CreateLegacyFilter, addr 0x2e0e614, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CreateLegacyFilter, addr 0x2e69e4c, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::ContactFilter2D CreateLegacyFilter(int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetDepth, addr 0x2e0fc50, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetDepth, addr 0x2e6b488, size 0x48, virtual false, abstract: false, final false
   inline void SetDepth(float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetLayerMask, addr 0x2e0fc40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetLayerMask, addr 0x2e6b478, size 0x10, virtual false, abstract: false, final false
   inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
 
   // Ctor Parameters []

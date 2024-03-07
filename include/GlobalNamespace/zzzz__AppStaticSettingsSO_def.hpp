@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_requirePrivacyPolicy(bool value);
 
-  /// @brief Method .ctor, addr 0x12a5e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cd094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

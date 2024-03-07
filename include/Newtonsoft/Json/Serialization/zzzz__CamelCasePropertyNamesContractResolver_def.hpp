@@ -21,10 +21,10 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* New_ctor();
 
-  /// @brief Method ResolvePropertyName, addr 0x27605b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x27c0874, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW propertyName);
 
-  /// @brief Method .ctor, addr 0x2760534, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c07f0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

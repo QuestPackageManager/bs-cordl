@@ -50,60 +50,60 @@ namespace System::Xml::Schema {
 class CORDL_TYPE FacetsChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckLexicalFacets, addr 0x29aa418, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CheckLexicalFacets, addr 0x2a0bc50, size 0x40, virtual true, abstract: false, final false
   inline ::System::Exception* CheckLexicalFacets(ByRef<::StringW> parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckPatternFacets, addr 0x29aa53c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckPatternFacets, addr 0x2a0bd74, size 0x168, virtual false, abstract: false, final false
   inline ::System::Exception* CheckPatternFacets(::System::Xml::Schema::RestrictionFacets* restriction, ::StringW value);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bf24, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bf1c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bf04, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bee4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bedc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bf2c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bf34, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bf0c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(double_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bf14, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(float_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0befc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0bef4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int32_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x29aa6b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2a0beec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckWhitespaceFacets, addr 0x29aa458, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CheckWhitespaceFacets, addr 0x2a0bc90, size 0xe4, virtual false, abstract: false, final false
   inline void CheckWhitespaceFacets(ByRef<::StringW> s, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x29aa704, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2a0bf3c, size 0x8, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::FacetsChecker* New_ctor();
 
-  /// @brief Method Power, addr 0x29aa70c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Power, addr 0x2a0bf44, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Decimal Power(int32_t x, int32_t y);
 
-  /// @brief Method .ctor, addr 0x29aa838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0c070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

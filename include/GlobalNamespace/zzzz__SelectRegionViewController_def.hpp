@@ -129,7 +129,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __SelectRegionViewController__RegionToLocalizationKeyPair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x23d878c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243d0e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__SelectRegionViewController__Region region, ::StringW localizationKey);
 
   // Ctor Parameters []
@@ -175,10 +175,10 @@ public:
 
   static inline ::GlobalNamespace::__SelectRegionViewController____c* New_ctor();
 
-  /// @brief Method <DidActivate>b__8_1, addr 0x23d8804, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_1, addr 0x243d160, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _DidActivate_b__8_1(::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair p);
 
-  /// @brief Method .ctor, addr 0x23d87fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243d158, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__SelectRegionViewController____c* getStaticF___9();
@@ -238,18 +238,18 @@ public:
   __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent,
                       put = __cordl_internal_set_didPressContinueButtonEvent))::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* didPressContinueButtonEvent;
 
-  /// @brief Method DidActivate, addr 0x23d83d8, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x243cd34, size 0x230, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x23d86e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x243d044, size 0x44, virtual false, abstract: false, final false
   inline void HandleRegionSelectionDropdownDidSelectCell(::HMUI::DropdownWithTableView* dropdown, int32_t idx);
 
   static inline ::GlobalNamespace::SelectRegionViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23d8608, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x243cf64, size 0xe0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x23d8734, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x243d090, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -279,13 +279,13 @@ public:
 
   constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
 
-  /// @brief Method .ctor, addr 0x23d872c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243d088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x23d8278, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x243cbd4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x23d8328, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x243cc84, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
 
 protected:

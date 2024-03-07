@@ -86,10 +86,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12f60b0, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x131e1fc, size 0x29c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12f634c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x131e498, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -171,54 +171,54 @@ public:
   /// @brief Field _playerDataFileManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataFileManager, put = __cordl_internal_set__playerDataFileManager))::UnityW<::GlobalNamespace::PlayerDataFileManagerSO> _playerDataFileManager;
 
-  /// @brief Method CreateDefaultOverrideEnvironmentSettings, addr 0x12f558c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultOverrideEnvironmentSettings, addr 0x131d6d8, size 0xa8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
 
-  /// @brief Method CreateDefaultPlayerData, addr 0x12f3578, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultPlayerData, addr 0x131b6c4, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* CreateDefaultPlayerData();
 
-  /// @brief Method GetBeatmapCharacteristicFromV_1_0_1LevelId, addr 0x12f5b84, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapCharacteristicFromV_1_0_1LevelId, addr 0x131dcd0, size 0x3a0, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                                                                                                                 ::StringW levelId);
 
-  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x12f5f8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x131e0d8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedName(::StringW environmentName);
 
-  /// @brief Method GetLevelIdFromV_1_0_1LevelId, addr 0x12f5f24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetLevelIdFromV_1_0_1LevelId, addr 0x131e070, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method GetPlayerSaveData, addr 0x12f1df4, size 0x1088, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerSaveData, addr 0x1319f40, size 0x1088, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSaveData* GetPlayerSaveData(::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method Load, addr 0x12f324c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x131b398, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* Load();
 
-  /// @brief Method LoadAsync, addr 0x12f32cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x131b418, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlayerData*>* LoadAsync();
 
-  /// @brief Method LoadCorrectedSongPackMask, addr 0x12f5634, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LoadCorrectedSongPackMask, addr 0x131d780, size 0x94, virtual false, abstract: false, final false
   inline ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t, ::Array<uint8_t>*> songMaskPackBytes);
 
-  /// @brief Method LoadFromCurrentVersion, addr 0x12f4160, size 0x1138, virtual false, abstract: false, final false
+  /// @brief Method LoadFromCurrentVersion, addr 0x131c2ac, size 0x1138, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
 
-  /// @brief Method LoadFromJSONString, addr 0x12f33bc, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSONString, addr 0x131b508, size 0x1bc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
 
-  /// @brief Method LoadFromVersionV1_0_1, addr 0x12f3634, size 0xb2c, virtual false, abstract: false, final false
+  /// @brief Method LoadFromVersionV1_0_1, addr 0x131b780, size 0xb2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
 
-  /// @brief Method LoadOrCreateFromJsonString, addr 0x12f32a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LoadOrCreateFromJsonString, addr 0x131b3f4, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadOrCreateFromJsonString(::StringW jsonString);
 
   static inline ::GlobalNamespace::PlayerDataFileModel* New_ctor(::GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager, ::GlobalNamespace::IFileStorage* fileStorage,
                                                                  ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                                                                  ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
 
-  /// @brief Method Save, addr 0x12f1d84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x1319ed0, size 0x70, virtual false, abstract: false, final false
   inline void Save(::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SaveAsync, addr 0x12f2e7c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x131afc8, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::PlayerData* playerData);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
@@ -251,7 +251,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataFileManager(::UnityW<::GlobalNamespace::PlayerDataFileManagerSO> value);
 
-  /// @brief Method .ctor, addr 0x12f1d34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1319e80, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager, ::GlobalNamespace::IFileStorage* fileStorage,
                     ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings,
                     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);

@@ -42,38 +42,38 @@ namespace GlobalNamespace {
 class CORDL_TYPE HEU_ExampleEvergreenQuery : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ChangeParmsAndCook, addr 0x22ac300, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method ChangeParmsAndCook, addr 0x230d0d8, size 0x390, virtual false, abstract: false, final false
   static inline void ChangeParmsAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
 
-  /// @brief Method CookAsset, addr 0x22ac2f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookAsset, addr 0x230d0c8, size 0x10, virtual false, abstract: false, final false
   static inline void CookAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
 
   static inline ::GlobalNamespace::HEU_ExampleEvergreenQuery* New_ctor();
 
-  /// @brief Method QueryAttribute, addr 0x22ac96c, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method QueryAttribute, addr 0x230d744, size 0x444, virtual false, abstract: false, final false
   static inline void QueryAttribute(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, ::StringW objName, ::StringW geoName, int32_t partID, ::StringW attrName);
 
-  /// @brief Method QueryAttributeByStorageType, addr 0x22ad5c0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method QueryAttributeByStorageType, addr 0x230e398, size 0x1d0, virtual false, abstract: false, final false
   static inline void QueryAttributeByStorageType(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo,
                                                  ::StringW attrName);
 
-  /// @brief Method QueryGeoParts, addr 0x22acf10, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method QueryGeoParts, addr 0x230dce8, size 0x42c, virtual false, abstract: false, final false
   static inline void QueryGeoParts(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo);
 
-  /// @brief Method QueryHoudiniAsset, addr 0x22ac130, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method QueryHoudiniAsset, addr 0x230cf08, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> QueryHoudiniAsset(::UnityEngine::GameObject* rootGO);
 
-  /// @brief Method QueryObjects, addr 0x22ac690, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method QueryObjects, addr 0x230d468, size 0x2dc, virtual false, abstract: false, final false
   static inline void QueryObjects(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
 
-  /// @brief Method QueryPartAttributeByOwner, addr 0x22ad33c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method QueryPartAttributeByOwner, addr 0x230e114, size 0x284, virtual false, abstract: false, final false
   static inline void QueryPartAttributeByOwner(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, int32_t count,
                                                ::System::Text::StringBuilder* sb);
 
-  /// @brief Method StartQuery, addr 0x22abebc, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method StartQuery, addr 0x230cc94, size 0x274, virtual false, abstract: false, final false
   static inline void StartQuery();
 
-  /// @brief Method .ctor, addr 0x22ada04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230e7dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -19,13 +19,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE BTSStarTextEffectValueParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPositionId, addr 0xe74f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPositionId, addr 0xe90d10, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetPositionId(int32_t value);
 
-  /// @brief Method GetTextId, addr 0xe74f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTextId, addr 0xe90d08, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetTextId(int32_t value);
 
-  /// @brief Method MergeValuesIntoOneInt, addr 0xe74f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MergeValuesIntoOneInt, addr 0xe90d18, size 0x8, virtual false, abstract: false, final false
   static inline int32_t MergeValuesIntoOneInt(int32_t textId, int32_t positionId);
 
 protected:

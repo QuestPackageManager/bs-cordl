@@ -92,92 +92,92 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
-  /// @brief Method AddNonLetter, addr 0x265c6c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AddNonLetter, addr 0x26bda10, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t AddNonLetter(ByRef<::System::Text::StringBuilder*> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen);
 
-  /// @brief Method AddTitlecaseLetter, addr 0x265c53c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddTitlecaseLetter, addr 0x26bd88c, size 0x14c, virtual false, abstract: false, final false
   inline int32_t AddTitlecaseLetter(ByRef<::System::Text::StringBuilder*> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen);
 
-  /// @brief Method ChangeCase, addr 0x265c7f0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ChangeCase, addr 0x26bdb40, size 0x140, virtual false, abstract: false, final false
   inline void ChangeCase(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination, bool toUpper);
 
-  /// @brief Method Clone, addr 0x265b320, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x26bc670, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Equals, addr 0x265c0e8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26bd438, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x265c188, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26bd4d8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAscii, addr 0x265b418, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAscii, addr 0x26bc768, size 0x10, virtual false, abstract: false, final false
   static inline bool IsAscii(char16_t c);
 
-  /// @brief Method IsLetterCategory, addr 0x265c688, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsLetterCategory, addr 0x26bd9d8, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsLetterCategory(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method IsWordSeparator, addr 0x265c6a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsWordSeparator, addr 0x26bd9f4, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsWordSeparator(::System::Globalization::UnicodeCategory category);
 
   static inline ::System::Globalization::TextInfo* New_ctor();
 
   static inline ::System::Globalization::TextInfo* New_ctor(::System::Globalization::CultureData* cultureData);
 
-  /// @brief Method OnDeserialized, addr 0x265b1b0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x26bc500, size 0xe4, virtual false, abstract: false, final false
   inline void OnDeserialized();
 
-  /// @brief Method OnDeserialized, addr 0x265b294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x26bc5e4, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x265b1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x26bc4f8, size 0x8, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x265b298, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x26bc5e8, size 0x80, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method SetReadOnlyState, addr 0x265b3a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetReadOnlyState, addr 0x26bc6f8, size 0xc, virtual false, abstract: false, final false
   inline void SetReadOnlyState(bool readOnly);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x265c75c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x26bdaac, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ToLower, addr 0x265b98c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToLower, addr 0x26bccdc, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToLower(::StringW str);
 
-  /// @brief Method ToLower, addr 0x265b3b4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToLower, addr 0x26bc704, size 0x64, virtual true, abstract: false, final false
   inline char16_t ToLower(char16_t c);
 
-  /// @brief Method ToLowerAsciiInvariant, addr 0x265b52c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToLowerAsciiInvariant, addr 0x26bc87c, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t ToLowerAsciiInvariant(char16_t c);
 
-  /// @brief Method ToLowerInternal, addr 0x265b9e4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ToLowerInternal, addr 0x26bcd34, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW ToLowerInternal(::StringW str);
 
-  /// @brief Method ToLowerInternal, addr 0x265b548, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method ToLowerInternal, addr 0x26bc898, size 0x444, virtual false, abstract: false, final false
   inline char16_t ToLowerInternal(char16_t c);
 
-  /// @brief Method ToString, addr 0x265c1a8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26bd4f8, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTitleCase, addr 0x265c200, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method ToTitleCase, addr 0x26bd550, size 0x33c, virtual false, abstract: false, final false
   inline ::StringW ToTitleCase(::StringW str);
 
-  /// @brief Method ToUpper, addr 0x265bfac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToUpper, addr 0x26bd2fc, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToUpper(::StringW str);
 
-  /// @brief Method ToUpper, addr 0x265bac8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToUpper, addr 0x26bce18, size 0x64, virtual true, abstract: false, final false
   inline char16_t ToUpper(char16_t c);
 
-  /// @brief Method ToUpperAsciiInvariant, addr 0x265bb2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToUpperAsciiInvariant, addr 0x26bce7c, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t ToUpperAsciiInvariant(char16_t c);
 
-  /// @brief Method ToUpperAsciiInvariant, addr 0x265c760, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToUpperAsciiInvariant, addr 0x26bdab0, size 0x90, virtual false, abstract: false, final false
   inline void ToUpperAsciiInvariant(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination);
 
-  /// @brief Method ToUpperInternal, addr 0x265c004, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInternal, addr 0x26bd354, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW ToUpperInternal(::StringW str);
 
-  /// @brief Method ToUpperInternal, addr 0x265bb48, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInternal, addr 0x26bce98, size 0x464, virtual false, abstract: false, final false
   inline char16_t ToUpperInternal(char16_t c);
 
   constexpr ::StringW const& __cordl_internal_get_customCultureName() const;
@@ -240,21 +240,21 @@ public:
 
   constexpr void __cordl_internal_set_m_win32LangID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x265c930, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bdc80, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x265b16c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bc4bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureData* cultureData);
 
   static inline ::System::Globalization::TextInfo* getStaticF_s_Invariant();
 
-  /// @brief Method get_CultureName, addr 0x265b318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x26bc668, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_Invariant, addr 0x265ad2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Invariant, addr 0x26bc07c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Globalization::TextInfo* get_Invariant();
 
-  /// @brief Method get_IsAsciiCasingSameAsInvariant, addr 0x265b428, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_IsAsciiCasingSameAsInvariant, addr 0x26bc778, size 0x104, virtual false, abstract: false, final false
   inline bool get_IsAsciiCasingSameAsInvariant();
 
   /// @brief Convert to "::System::ICloneable"

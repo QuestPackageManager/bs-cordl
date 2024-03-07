@@ -18,7 +18,7 @@ namespace UnityEngine {
 class CORDL_TYPE ClassLibraryInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2dbf9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2e1b1dc, size 0x8, virtual false, abstract: false, final false
   static inline void Init();
 
 protected:

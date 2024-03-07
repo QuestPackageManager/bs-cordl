@@ -18,7 +18,7 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE OculusSession : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x2d617e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2dbf01c, size 0x60, virtual false, abstract: false, final false
   static inline void Update();
 
 protected:

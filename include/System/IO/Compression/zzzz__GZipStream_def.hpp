@@ -84,34 +84,34 @@ public:
   /// @brief Field _deflateStream, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__deflateStream, put = __cordl_internal_set__deflateStream))::System::IO::Compression::DeflateStream* _deflateStream;
 
-  /// @brief Method BeginRead, addr 0x2a2bbf8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x2a8d430, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::AsyncCallback* asyncCallback, ::System::Object* asyncState);
 
-  /// @brief Method BeginWrite, addr 0x2a2bf20, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x2a8d758, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::AsyncCallback* asyncCallback, ::System::Object* asyncState);
 
-  /// @brief Method CheckDeflateStream, addr 0x2a2bb1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CheckDeflateStream, addr 0x2a8d354, size 0x18, virtual false, abstract: false, final false
   inline void CheckDeflateStream();
 
-  /// @brief Method CopyTo, addr 0x2a2c174, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2a8d9ac, size 0x24, virtual true, abstract: false, final false
   inline void CopyTo(::System::IO::Stream* destination, int32_t bufferSize);
 
-  /// @brief Method CopyToAsync, addr 0x2a2c484, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CopyToAsync, addr 0x2a8dcbc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x2a2c198, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2a8d9d0, size 0xb8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x2a2bcac, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x2a8d4e4, size 0x48, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x2a2bfd4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x2a8d80c, size 0xc, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush, addr 0x2a2baf8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x2a8d330, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x2a2c460, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x2a8dc98, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::IO::Compression::GZipStream* New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel);
@@ -122,40 +122,40 @@ public:
 
   static inline ::System::IO::Compression::GZipStream* New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen);
 
-  /// @brief Method Read, addr 0x2a2bcf4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2a8d52c, size 0x24, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count);
 
-  /// @brief Method Read, addr 0x2a2bd18, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2a8d550, size 0xec, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method ReadAsync, addr 0x2a2c250, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x2a8da88, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x2a2c274, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x2a8daac, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte, addr 0x2a2bbd4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x2a8d40c, size 0x24, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x2a2bb34, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x2a8d36c, size 0x50, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x2a2bb84, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2a8d3bc, size 0x50, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method ThrowStreamClosedException, addr 0x2a2c4a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ThrowStreamClosedException, addr 0x2a8dce0, size 0x54, virtual false, abstract: false, final false
   static inline void ThrowStreamClosedException();
 
-  /// @brief Method Write, addr 0x2a2bfe0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2a8d818, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count);
 
-  /// @brief Method Write, addr 0x2a2c004, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2a8d83c, size 0xec, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteAsync, addr 0x2a2c358, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x2a8db90, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync, addr 0x2a2c37c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x2a8dbb4, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::IO::Compression::DeflateStream*& __cordl_internal_get__deflateStream();
@@ -164,34 +164,34 @@ public:
 
   constexpr void __cordl_internal_set__deflateStream(::System::IO::Compression::DeflateStream* value);
 
-  /// @brief Method .ctor, addr 0x2a2b8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8d134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel);
 
-  /// @brief Method .ctor, addr 0x2a2b904, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8d13c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel, bool leaveOpen);
 
-  /// @brief Method .ctor, addr 0x2a2b830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8d068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode);
 
-  /// @brief Method .ctor, addr 0x2a2b838, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8d070, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen);
 
-  /// @brief Method get_CanRead, addr 0x2a2b9c0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x2a8d1f8, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x2a2b9f0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x2a8d228, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x2a2b9d8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x2a8d210, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x2a2ba08, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2a8d240, size 0x50, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x2a2ba58, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2a8d290, size 0x50, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x2a2baa8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x2a8d2e0, size 0x50, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

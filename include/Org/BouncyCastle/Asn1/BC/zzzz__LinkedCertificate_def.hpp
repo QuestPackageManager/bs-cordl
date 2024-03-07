@@ -59,7 +59,7 @@ public:
   /// @brief Field mDigest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Asn1::X509::DigestInfo* mDigest;
 
-  /// @brief Method GetInstance, addr 0xed561c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xef4d20, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation);
@@ -69,7 +69,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xed56e0, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xef4de4, size 0x158, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_mCACerts();
@@ -96,26 +96,26 @@ public:
 
   constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Asn1::X509::DigestInfo* value);
 
-  /// @brief Method .ctor, addr 0xed53e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef4ae8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation);
 
-  /// @brief Method .ctor, addr 0xed5414, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef4b18, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation, ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer,
                     ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts);
 
-  /// @brief Method .ctor, addr 0xed5454, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef4b58, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CACerts, addr 0xed56d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CACerts, addr 0xef4ddc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_CACerts();
 
-  /// @brief Method get_CertIssuer, addr 0xed56d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertIssuer, addr 0xef4dd4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_CertIssuer();
 
-  /// @brief Method get_CertLocation, addr 0xed56c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertLocation, addr 0xef4dcc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_CertLocation();
 
-  /// @brief Method get_Digest, addr 0xed56c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0xef4dc4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* get_Digest();
 
 protected:

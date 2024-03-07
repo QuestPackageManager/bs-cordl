@@ -217,7 +217,7 @@ public:
   /// @brief Field Flags, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags))::System::Net::__CommandStream__PipelineEntryFlags Flags;
 
-  /// @brief Method HasFlag, addr 0x2a783ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x2ad8c24, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Net::__CommandStream__PipelineEntryFlags flags);
 
   static inline ::System::Net::__CommandStream__PipelineEntry* New_ctor(::StringW command);
@@ -236,10 +236,10 @@ public:
 
   constexpr void __cordl_internal_set_Flags(::System::Net::__CommandStream__PipelineEntryFlags value);
 
-  /// @brief Method .ctor, addr 0x2a79728, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad9f60, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW command);
 
-  /// @brief Method .ctor, addr 0x2a79750, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad9f88, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW command, ::System::Net::__CommandStream__PipelineEntryFlags flags);
 
 protected:
@@ -336,68 +336,68 @@ public:
   /// @brief Field s_writeCallbackDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_writeCallbackDelegate, put = setStaticF_s_writeCallbackDelegate))::System::AsyncCallback* s_writeCallbackDelegate;
 
-  /// @brief Method Abort, addr 0x2a77894, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method Abort, addr 0x2ad80cc, size 0x1f8, virtual true, abstract: false, final false
   inline void Abort(::System::Exception* e);
 
-  /// @brief Method BuildCommandsList, addr 0x2a781e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method BuildCommandsList, addr 0x2ad8a20, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* request);
 
-  /// @brief Method CheckContinuePipeline, addr 0x2a78338, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CheckContinuePipeline, addr 0x2ad8b70, size 0xb4, virtual false, abstract: false, final false
   inline void CheckContinuePipeline();
 
-  /// @brief Method CheckValid, addr 0x2a795ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x2ad9de4, size 0x8, virtual true, abstract: false, final false
   inline bool CheckValid(::System::Net::ResponseDescription* response, ByRef<int32_t> validThrough, ByRef<int32_t> completeLength);
 
-  /// @brief Method ClearState, addr 0x2a781d8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ClearState, addr 0x2ad8a10, size 0x10, virtual true, abstract: false, final false
   inline void ClearState();
 
-  /// @brief Method ContinueCommandPipeline, addr 0x2a77d00, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method ContinueCommandPipeline, addr 0x2ad8538, size 0x4d8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* ContinueCommandPipeline();
 
-  /// @brief Method Dispose, addr 0x2a77abc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ad82f4, size 0x94, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GenerateException, addr 0x2a78270, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GenerateException, addr 0x2ad8aa8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Exception* GenerateException(::System::Net::FtpStatusCode code, ::StringW statusDescription, ::System::Exception* innerException);
 
-  /// @brief Method GenerateException, addr 0x2a781f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GenerateException, addr 0x2ad8a28, size 0x80, virtual false, abstract: false, final false
   inline ::System::Exception* GenerateException(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Exception* innerException);
 
-  /// @brief Method InitCommandPipeline, addr 0x2a77c70, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InitCommandPipeline, addr 0x2ad84a8, size 0x90, virtual false, abstract: false, final false
   inline void InitCommandPipeline(::System::Net::WebRequest* request, ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> commands,
                                   bool isAsync);
 
-  /// @brief Method InvokeRequestCallback, addr 0x2a77b50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InvokeRequestCallback, addr 0x2ad8388, size 0x70, virtual false, abstract: false, final false
   inline void InvokeRequestCallback(::System::Object* obj);
 
-  /// @brief Method MarkAsRecoverableFailure, addr 0x2a77bd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRecoverableFailure, addr 0x2ad8410, size 0x18, virtual false, abstract: false, final false
   inline void MarkAsRecoverableFailure();
 
   static inline ::System::Net::CommandStream* New_ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method PipelineCallback, addr 0x2a78a54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method PipelineCallback, addr 0x2ad928c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::__CommandStream__PipelineInstruction PipelineCallback(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
                                                                               ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method PostReadCommandProcessing, addr 0x2a78854, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method PostReadCommandProcessing, addr 0x2ad908c, size 0x200, virtual false, abstract: false, final false
   inline bool PostReadCommandProcessing(ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method PostSendCommandProcessing, addr 0x2a783fc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method PostSendCommandProcessing, addr 0x2ad8c34, size 0x130, virtual false, abstract: false, final false
   inline bool PostSendCommandProcessing(ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method ReadCallback, addr 0x2a78a5c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method ReadCallback, addr 0x2ad9294, size 0x2d0, virtual false, abstract: false, final false
   static inline void ReadCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ReceiveCommandResponse, addr 0x2a7852c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ReceiveCommandResponse, addr 0x2ad8d64, size 0x328, virtual false, abstract: false, final false
   inline ::System::Net::ResponseDescription* ReceiveCommandResponse();
 
-  /// @brief Method ReceiveCommandResponseCallback, addr 0x2a78d64, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method ReceiveCommandResponseCallback, addr 0x2ad959c, size 0x554, virtual false, abstract: false, final false
   inline void ReceiveCommandResponseCallback(::System::Net::ReceiveState* state, int32_t bytesRead);
 
-  /// @brief Method SubmitRequest, addr 0x2a77bf0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SubmitRequest, addr 0x2ad8428, size 0x80, virtual false, abstract: false, final false
   inline ::System::IO::Stream* SubmitRequest(::System::Net::WebRequest* request, bool isAsync, bool readInitalResponseOnConnect);
 
-  /// @brief Method WriteCallback, addr 0x2a792b8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method WriteCallback, addr 0x2ad9af0, size 0x2b4, virtual false, abstract: false, final false
   static inline void WriteCallback(::System::IAsyncResult* asyncResult);
 
   constexpr ::StringW const& __cordl_internal_get__abortReason() const;
@@ -478,24 +478,24 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Net::WebRequest* value);
 
-  /// @brief Method .ctor, addr 0x2a7777c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad7fb4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::TcpClient* client);
 
   static inline ::System::AsyncCallback* getStaticF_s_readCallbackDelegate();
 
   static inline ::System::AsyncCallback* getStaticF_s_writeCallbackDelegate();
 
-  /// @brief Method get_Encoding, addr 0x2a7956c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x2ad9da4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_RecoverableFailure, addr 0x2a77bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecoverableFailure, addr 0x2ad8408, size 0x8, virtual false, abstract: false, final false
   inline bool get_RecoverableFailure();
 
   static inline void setStaticF_s_readCallbackDelegate(::System::AsyncCallback* value);
 
   static inline void setStaticF_s_writeCallbackDelegate(::System::AsyncCallback* value);
 
-  /// @brief Method set_Encoding, addr 0x2a79574, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x2ad9dac, size 0x38, virtual false, abstract: false, final false
   inline void set_Encoding(::System::Text::Encoding* value);
 
 protected:

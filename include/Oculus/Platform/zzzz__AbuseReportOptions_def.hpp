@@ -26,15 +26,15 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  /// @brief Method Finalize, addr 0x27bf348, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2821d64, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AbuseReportOptions* New_ctor();
 
-  /// @brief Method SetPreventPeopleChooser, addr 0x27bf118, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetPreventPeopleChooser, addr 0x2821b34, size 0x68, virtual false, abstract: false, final false
   inline void SetPreventPeopleChooser(bool value);
 
-  /// @brief Method SetReportType, addr 0x27bf204, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x2821c20, size 0x68, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
   constexpr void* const& __cordl_internal_get_Handle() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(void* value);
 
-  /// @brief Method .ctor, addr 0x27bf04c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2821a68, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x27bf2f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2821d0c, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::AbuseReportOptions* options);
 
 protected:

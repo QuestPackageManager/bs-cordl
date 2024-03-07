@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__VRIKCalibrator__Settings::*)()>(
     &::RootMotion::FinalIK::__VRIKCalibrator__Settings::_ctor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x1376494;
+  constexpr static std::size_t addrs = 0x13a09ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__VRIKCalibrator__Settings*>::get(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x13756ec;
+  constexpr static std::size_t addrs = 0x139fc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::SetTo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x1376094;
+  constexpr static std::size_t addrs = 0x13a05ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::*)()>(
     &::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1374e6c;
+  constexpr static std::size_t addrs = 0x139f3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData*>::get(),
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::RootMotion::FinalIK::VRIK*, ::RootMotion::FinalIK::__VRIKCalibrator__Settings*)>(
     &::RootMotion::FinalIK::VRIKCalibrator::RecalibrateScale)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x1373b3c;
+  constexpr static std::size_t addrs = 0x139e094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -507,7 +507,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                               ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*,
                                                                               ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
   constexpr static std::size_t size = 0x123c;
-  constexpr static std::size_t addrs = 0x1373c30;
+  constexpr static std::size_t addrs = 0x139e188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -528,7 +528,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::RootMotion::FinalIK::__IKSolverVR__Leg*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, bool)>(
     &::RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
   constexpr static std::size_t size = 0x6b8;
-  constexpr static std::size_t addrs = 0x1374e74;
+  constexpr static std::size_t addrs = 0x139f3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +549,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::RootMotion::FinalIK::VRIK*, ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*,
                          ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
   constexpr static std::size_t size = 0x8f4;
-  constexpr static std::size_t addrs = 0x13757a0;
+  constexpr static std::size_t addrs = 0x139fcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -570,7 +570,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::RootMotion::FinalIK::__IKSolverVR__Leg*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, bool)>(
     &::RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x13760f0;
+  constexpr static std::size_t addrs = 0x13a0648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -66,21 +66,21 @@ public:
   /// @brief Field _kernel, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__kernel, put = __cordl_internal_set__kernel))::UnityW<::Zenject::MonoKernel> _kernel;
 
-  /// @brief Method Construct, addr 0x2ffddd8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x3055610, size 0x44, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* parentContainer);
 
-  /// @brief Method GetInjectableMonoBehaviours, addr 0x2ffe4f8, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x3055d30, size 0x244, virtual true, abstract: false, final false
   inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetRootGameObjects, addr 0x2ffdd38, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x3055570, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Method InstallBindings, addr 0x2ffe290, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3055ac8, size 0x1f4, virtual false, abstract: false, final false
   inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
   static inline ::Zenject::GameObjectContext* New_ctor();
 
-  /// @brief Method RunInternal, addr 0x2ffdec0, size 0x3b4, virtual true, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x30556f8, size 0x3b4, virtual true, abstract: false, final false
   inline void RunInternal();
 
   constexpr ::System::Action*& __cordl_internal_get_PostInstall();
@@ -119,40 +119,40 @@ public:
 
   constexpr void __cordl_internal_set__kernel(::UnityW<::Zenject::MonoKernel> value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ffe89c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x30560d4, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x2ffe7b4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x3055fec, size 0xe8, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x2ffe74c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3055f84, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_PostInstall, addr 0x2ffd988, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PostInstall, addr 0x30551c0, size 0x9c, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
-  /// @brief Method add_PostResolve, addr 0x2ffdbf8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PostResolve, addr 0x3055430, size 0x9c, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
-  /// @brief Method add_PreInstall, addr 0x2ffd850, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PreInstall, addr 0x3055088, size 0x9c, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
-  /// @brief Method add_PreResolve, addr 0x2ffdac0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PreResolve, addr 0x30552f8, size 0x9c, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
-  /// @brief Method get_Container, addr 0x2ffdd30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Container, addr 0x3055568, size 0x8, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method remove_PostInstall, addr 0x2ffda24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PostInstall, addr 0x305525c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
-  /// @brief Method remove_PostResolve, addr 0x2ffdc94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PostResolve, addr 0x30554cc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
-  /// @brief Method remove_PreInstall, addr 0x2ffd8ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PreInstall, addr 0x3055124, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
-  /// @brief Method remove_PreResolve, addr 0x2ffdb5c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PreResolve, addr 0x3055394, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
 protected:

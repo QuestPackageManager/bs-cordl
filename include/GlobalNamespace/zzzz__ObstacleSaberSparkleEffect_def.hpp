@@ -47,18 +47,18 @@ public:
 
   __declspec(property(put = set_color))::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x243cc98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24a537c, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffect* New_ctor();
 
-  /// @brief Method SetPositionAndRotation, addr 0x2432e4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x249b1a8, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method StartEmission, addr 0x2432ec4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StartEmission, addr 0x249b220, size 0x54, virtual false, abstract: false, final false
   inline void StartEmission();
 
-  /// @brief Method StopEmission, addr 0x2432f18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StopEmission, addr 0x249b274, size 0x68, virtual false, abstract: false, final false
   inline void StopEmission();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__burnParticleSystem() const;
@@ -85,10 +85,10 @@ public:
 
   constexpr void __cordl_internal_set__sparkleParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
 
-  /// @brief Method .ctor, addr 0x243ccf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a53d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x24322f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x249a650, size 0xfc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

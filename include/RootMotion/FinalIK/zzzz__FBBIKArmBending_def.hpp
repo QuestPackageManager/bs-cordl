@@ -47,15 +47,15 @@ public:
   /// @brief Field rightHandTargetRotation, offset 0x60, size 0x10
   __declspec(property(get = __cordl_internal_get_rightHandTargetRotation, put = __cordl_internal_set_rightHandTargetRotation))::UnityEngine::Quaternion rightHandTargetRotation;
 
-  /// @brief Method LateUpdate, addr 0x132d2a0, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x13557f8, size 0x49c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::RootMotion::FinalIK::FBBIKArmBending* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x132d8d0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1355e28, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPostFBBIK, addr 0x132d73c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnPostFBBIK, addr 0x1355c94, size 0x194, virtual false, abstract: false, final false
   inline void OnPostFBBIK();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendDirectionOffsetLeft() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_rightHandTargetRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x132d9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1355f34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

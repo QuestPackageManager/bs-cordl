@@ -2,13 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelLoader_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__ICustomLevelLoader_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomLevelLoader._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelLoader::*)()>(&::GlobalNamespace::CustomLevelLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12a8860;
+  constexpr static std::size_t addrs = 0x12cfacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomLevelLoader*>::get(), ".ctor",
@@ -16,6 +17,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+/// @brief Convert operator to "::GlobalNamespace::ICustomLevelLoader"
+constexpr GlobalNamespace::CustomLevelLoader::operator ::GlobalNamespace::ICustomLevelLoader*() noexcept {
+  return static_cast<::GlobalNamespace::ICustomLevelLoader*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ICustomLevelLoader"
+constexpr ::GlobalNamespace::ICustomLevelLoader* GlobalNamespace::CustomLevelLoader::i___GlobalNamespace__ICustomLevelLoader() noexcept {
+  return static_cast<::GlobalNamespace::ICustomLevelLoader*>(static_cast<void*>(this));
+}
 constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& GlobalNamespace::CustomLevelLoader::__cordl_internal_get__defaultEnvironmentInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultEnvironmentInfo;

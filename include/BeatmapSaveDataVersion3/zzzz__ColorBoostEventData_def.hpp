@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_o(bool value);
 
-  /// @brief Method .ctor, addr 0x12fd0c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1325570, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool boost);
 
-  /// @brief Method get_boost, addr 0x12fd0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boost, addr 0x1325568, size 0x8, virtual false, abstract: false, final false
   inline bool get_boost();
 
 protected:

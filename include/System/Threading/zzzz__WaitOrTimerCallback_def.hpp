@@ -22,12 +22,12 @@ namespace System::Threading {
 class CORDL_TYPE WaitOrTimerCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x270ee60, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x276f1b0, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state, bool timedOut);
 
   static inline ::System::Threading::WaitOrTimerCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x270ed30, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276f080, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

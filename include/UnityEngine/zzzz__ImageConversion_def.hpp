@@ -26,28 +26,28 @@ namespace UnityEngine {
 class CORDL_TYPE ImageConversion : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EncodeToEXR, addr 0x2df31c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR, addr 0x2e4e9f8, size 0x40, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToEXR, addr 0x2df317c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR, addr 0x2e4e9b4, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex, ::UnityEngine::__Texture2D__EXRFlags flags);
 
-  /// @brief Method EncodeToJPG, addr 0x2df313c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG, addr 0x2e4e974, size 0x40, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToJPG, addr 0x2df30f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG, addr 0x2e4e930, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex, int32_t quality);
 
-  /// @brief Method EncodeToPNG, addr 0x2df30bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToPNG, addr 0x2e4e8f4, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToPNG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToTGA, addr 0x2df3080, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToTGA, addr 0x2e4e8b8, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToTGA(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method LoadImage, addr 0x2df3254, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method LoadImage, addr 0x2e4ea8c, size 0x48, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method LoadImage, addr 0x2df3200, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadImage, addr 0x2e4ea38, size 0x54, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, bool markNonReadable);
 
 protected:

@@ -23,18 +23,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE DynamicBonePlaneCollider : public ::GlobalNamespace::DynamicBoneColliderBase {
 public:
   // Declarations
-  /// @brief Method Collide, addr 0x130c988, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Collide, addr 0x1334ee0, size 0x188, virtual true, abstract: false, final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
 
   static inline ::GlobalNamespace::DynamicBonePlaneCollider* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x130cb10, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x1335068, size 0x160, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnValidate, addr 0x130c984, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x1334edc, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method .ctor, addr 0x130cc70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13351c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

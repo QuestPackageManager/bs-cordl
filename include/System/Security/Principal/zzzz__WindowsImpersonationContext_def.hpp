@@ -32,24 +32,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CloseToken, addr 0x256f4dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseToken, addr 0x25d1cd8, size 0x4, virtual false, abstract: false, final false
   static inline bool CloseToken(void* token);
 
-  /// @brief Method Dispose, addr 0x256f404, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25d1c00, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DuplicateToken, addr 0x256f3fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DuplicateToken, addr 0x25d1bf8, size 0x4, virtual false, abstract: false, final false
   static inline void* DuplicateToken(void* token);
 
   static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(void* token);
 
-  /// @brief Method RevertToSelf, addr 0x256f4d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RevertToSelf, addr 0x25d1cd4, size 0x4, virtual false, abstract: false, final false
   static inline bool RevertToSelf();
 
-  /// @brief Method SetCurrentToken, addr 0x256f400, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentToken, addr 0x25d1bfc, size 0x4, virtual false, abstract: false, final false
   static inline bool SetCurrentToken(void* token);
 
-  /// @brief Method Undo, addr 0x256f414, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x25d1c10, size 0xc4, virtual false, abstract: false, final false
   inline void Undo();
 
   constexpr void* const& __cordl_internal_get__token() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_undo(bool value);
 
-  /// @brief Method .ctor, addr 0x256ecf8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d14f4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(void* token);
 
   /// @brief Convert to "::System::IDisposable"

@@ -45,24 +45,24 @@ public:
   /// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
   constexpr operator ::BGLib::Polyglot::ILocalize*() noexcept;
 
-  /// @brief Method IsAlignmentLeft, addr 0xe953c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0xeb5440, size 0xc, virtual false, abstract: false, final false
   inline bool IsAlignmentLeft(::UnityEngine::TextAlignment alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0xe953b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0xeb5434, size 0xc, virtual false, abstract: false, final false
   inline bool IsAlignmentRight(::UnityEngine::TextAlignment alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0xe95388, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0xeb5408, size 0x2c, virtual false, abstract: false, final false
   inline bool IsOppositeDirection(::UnityEngine::TextAlignment alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMesh* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0xe95280, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0xeb5300, size 0x108, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Reset, addr 0xe95210, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0xeb5290, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0xe95260, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xeb52e0, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_text(::UnityW<::UnityEngine::TextMesh> value);
 
-  /// @brief Method .ctor, addr 0xe953cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb544c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0xe95208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0xeb5288, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Key();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"

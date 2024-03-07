@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoolWithDefaultValueSO::*)()>(&::GlobalNamespace::BoolWithDefaultValueSO::OnEnable)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0xe98bb0;
+  constexpr static std::size_t addrs = 0xeb8c30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoolWithDefaultValueSO::*)()>(&::GlobalNamespace::BoolWithDefaultValueSO::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xe98c18;
+  constexpr static std::size_t addrs = 0xeb8c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BoolWithDefaultValueSO*>::get(), ".ctor",

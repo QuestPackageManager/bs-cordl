@@ -82,24 +82,24 @@ public:
   /// @brief Field _sparklesPS, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__sparklesPS, put = __cordl_internal_set__sparklesPS))::UnityW<::UnityEngine::ParticleSystem> _sparklesPS;
 
-  /// @brief Method GetBurnMarkPos, addr 0x242c028, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x2492ffc, size 0x20c, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate, addr 0x242c234, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2493208, size 0x6a0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkSparkles* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x242bd98, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2492d6c, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x242bf54, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2492f28, size 0xd4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x242be80, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2492e54, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x242b904, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24928d8, size 0x494, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get__boxCollider() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set__sparklesPS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x242c8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24938a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -98,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set__overrideText(::StringW value);
 
-  /// @brief Method .ctor, addr 0xe7a724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe964f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_language, addr 0xe7a714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0xe964e0, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_language();
 
-  /// @brief Method get_overrideText, addr 0xe7a71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideText, addr 0xe964e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_overrideText();
 
 protected:
@@ -150,7 +150,7 @@ public:
 
   static inline ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <Start>b__0, addr 0xe7a734, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__0, addr 0xe96500, size 0x24, virtual false, abstract: false, final false
   inline bool _Start_b__0(::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride* data);
 
   constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_selectedLanguage() const;
@@ -159,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_selectedLanguage(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0xe7a72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe964f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,10 +198,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xe7a758, size 0xbe0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe96524, size 0xbe0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe7b338, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe97104, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -307,7 +307,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextOverride* New_ctor();
 
-  /// @brief Method Start, addr 0xe7a678, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe96444, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -355,7 +355,7 @@ public:
   constexpr void __cordl_internal_set__perLanguageOverrides(
       ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> value);
 
-  /// @brief Method .ctor, addr 0xe7a70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe964d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

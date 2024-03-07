@@ -113,10 +113,10 @@ public:
   __declspec(property(get = __cordl_internal_get__parameterizedCreator,
                       put = __cordl_internal_set__parameterizedCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
-  /// @brief Method CreateTemporaryDictionary, addr 0x276be4c, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method CreateTemporaryDictionary, addr 0x27cc108, size 0x27c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateTemporaryDictionary();
 
-  /// @brief Method CreateWrapper, addr 0x276bbc4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x27cbe80, size 0x288, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::IWrappedDictionary* CreateWrapper(::System::Object* dictionary);
 
   static inline ::Newtonsoft::Json::Serialization::JsonDictionaryContract* New_ctor(::System::Type* underlyingType);
@@ -199,61 +199,61 @@ public:
 
   constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x276565c, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c5918, size 0x598, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_DictionaryKeyResolver, addr 0x276baa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DictionaryKeyResolver, addr 0x27cbd64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_DictionaryKeyResolver();
 
-  /// @brief Method get_DictionaryKeyType, addr 0x276bab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DictionaryKeyType, addr 0x27cbd74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DictionaryKeyType();
 
-  /// @brief Method get_DictionaryValueType, addr 0x276bac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DictionaryValueType, addr 0x27cbd84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DictionaryValueType();
 
-  /// @brief Method get_HasParameterizedCreator, addr 0x276bb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreator, addr 0x27cbe44, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreator();
 
-  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x276bb9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x27cbe58, size 0x28, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreatorInternal();
 
-  /// @brief Method get_KeyContract, addr 0x276bad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyContract, addr 0x27cbd94, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_KeyContract();
 
-  /// @brief Method get_OverrideCreator, addr 0x276bb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverrideCreator, addr 0x27cbe34, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
 
-  /// @brief Method get_ParameterizedCreator, addr 0x276bafc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterizedCreator, addr 0x27cbdb8, size 0x7c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
 
-  /// @brief Method get_PropertyNameResolver, addr 0x276ba98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameResolver, addr 0x27cbd54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
 
-  /// @brief Method get_ShouldCreateWrapper, addr 0x276bae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldCreateWrapper, addr 0x27cbda4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldCreateWrapper();
 
-  /// @brief Method set_DictionaryKeyResolver, addr 0x276bab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DictionaryKeyResolver, addr 0x27cbd6c, size 0x8, virtual false, abstract: false, final false
   inline void set_DictionaryKeyResolver(::System::Func_2<::StringW, ::StringW>* value);
 
-  /// @brief Method set_DictionaryKeyType, addr 0x276bac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DictionaryKeyType, addr 0x27cbd7c, size 0x8, virtual false, abstract: false, final false
   inline void set_DictionaryKeyType(::System::Type* value);
 
-  /// @brief Method set_DictionaryValueType, addr 0x276bad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DictionaryValueType, addr 0x27cbd8c, size 0x8, virtual false, abstract: false, final false
   inline void set_DictionaryValueType(::System::Type* value);
 
-  /// @brief Method set_HasParameterizedCreator, addr 0x276bb90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HasParameterizedCreator, addr 0x27cbe4c, size 0xc, virtual false, abstract: false, final false
   inline void set_HasParameterizedCreator(bool value);
 
-  /// @brief Method set_KeyContract, addr 0x276bae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyContract, addr 0x27cbd9c, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method set_OverrideCreator, addr 0x276bb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OverrideCreator, addr 0x27cbe3c, size 0x8, virtual false, abstract: false, final false
   inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method set_PropertyNameResolver, addr 0x276baa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameResolver, addr 0x27cbd5c, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameResolver(::System::Func_2<::StringW, ::StringW>* value);
 
-  /// @brief Method set_ShouldCreateWrapper, addr 0x276baf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldCreateWrapper, addr 0x27cbdac, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldCreateWrapper(bool value);
 
 protected:

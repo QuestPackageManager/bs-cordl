@@ -58,13 +58,13 @@ public:
 
   static inline ::Org::BouncyCastle::Math::__Primes__MROutput* New_ctor(bool provablyComposite, ::Org::BouncyCastle::Math::BigInteger* factor);
 
-  /// @brief Method ProbablyPrime, addr 0x110c468, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ProbablyPrime, addr 0x1130b6c, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::__Primes__MROutput* ProbablyPrime();
 
-  /// @brief Method ProvablyCompositeNotPrimePower, addr 0x110c568, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ProvablyCompositeNotPrimePower, addr 0x1130c6c, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::__Primes__MROutput* ProvablyCompositeNotPrimePower();
 
-  /// @brief Method ProvablyCompositeWithFactor, addr 0x110c4fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ProvablyCompositeWithFactor, addr 0x1130c00, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::__Primes__MROutput* ProvablyCompositeWithFactor(::Org::BouncyCastle::Math::BigInteger* factor);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_mFactor();
@@ -79,16 +79,16 @@ public:
 
   constexpr void __cordl_internal_set_mProvablyComposite(bool value);
 
-  /// @brief Method .ctor, addr 0x110c4cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1130bd0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool provablyComposite, ::Org::BouncyCastle::Math::BigInteger* factor);
 
-  /// @brief Method get_Factor, addr 0x110c5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Factor, addr 0x1130cd4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Factor();
 
-  /// @brief Method get_IsNotPrimePower, addr 0x110c5e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsNotPrimePower, addr 0x1130ce4, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsNotPrimePower();
 
-  /// @brief Method get_IsProvablyComposite, addr 0x110c5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsProvablyComposite, addr 0x1130cdc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsProvablyComposite();
 
 protected:
@@ -164,16 +164,16 @@ public:
 
   constexpr void __cordl_internal_set_mPrimeSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x110c600, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1130d04, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* prime, ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed, int32_t primeGenCounter);
 
-  /// @brief Method get_Prime, addr 0x110c63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prime, addr 0x1130d40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Prime();
 
-  /// @brief Method get_PrimeGenCounter, addr 0x110c64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeGenCounter, addr 0x1130d50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PrimeGenCounter();
 
-  /// @brief Method get_PrimeSeed, addr 0x110c644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeSeed, addr 0x1130d48, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PrimeSeed();
 
 protected:
@@ -235,53 +235,53 @@ public:
   /// @brief Field Two, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Two, put = setStaticF_Two))::Org::BouncyCastle::Math::BigInteger* Two;
 
-  /// @brief Method CheckCandidate, addr 0x110af74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckCandidate, addr 0x112f678, size 0x84, virtual false, abstract: false, final false
   static inline void CheckCandidate(::Org::BouncyCastle::Math::BigInteger* n, ::StringW name);
 
-  /// @brief Method EnhancedMRProbablePrimeTest, addr 0x110aae8, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method EnhancedMRProbablePrimeTest, addr 0x112f1ec, size 0x48c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::__Primes__MROutput* EnhancedMRProbablePrimeTest(::Org::BouncyCastle::Math::BigInteger* candidate, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                            int32_t iterations);
 
-  /// @brief Method Extract32, addr 0x110c038, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Extract32, addr 0x113073c, size 0xc0, virtual false, abstract: false, final false
   static inline uint32_t Extract32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method GenerateSTRandomPrime, addr 0x110a308, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GenerateSTRandomPrime, addr 0x112ea0c, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::__Primes__STOutput* GenerateSTRandomPrime(::Org::BouncyCastle::Crypto::IDigest* hash, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> inputSeed);
 
-  /// @brief Method HasAnySmallFactors, addr 0x110aff8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasAnySmallFactors, addr 0x112f6fc, size 0x74, virtual false, abstract: false, final false
   static inline bool HasAnySmallFactors(::Org::BouncyCastle::Math::BigInteger* candidate);
 
-  /// @brief Method Hash, addr 0x110beac, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x11305b0, size 0x134, virtual false, abstract: false, final false
   static inline void Hash(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outPos);
 
-  /// @brief Method HashGen, addr 0x110c250, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method HashGen, addr 0x1130954, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* HashGen(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t count);
 
-  /// @brief Method ImplHasAnySmallFactors, addr 0x110b06c, size 0x8e4, virtual false, abstract: false, final false
+  /// @brief Method ImplHasAnySmallFactors, addr 0x112f770, size 0x8e4, virtual false, abstract: false, final false
   static inline bool ImplHasAnySmallFactors(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method ImplMRProbablePrimeToBase, addr 0x110bb84, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ImplMRProbablePrimeToBase, addr 0x1130288, size 0x16c, virtual false, abstract: false, final false
   static inline bool ImplMRProbablePrimeToBase(::Org::BouncyCastle::Math::BigInteger* w, ::Org::BouncyCastle::Math::BigInteger* wSubOne, ::Org::BouncyCastle::Math::BigInteger* m, int32_t a,
                                                ::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method ImplSTRandomPrime, addr 0x110a4b4, size 0x634, virtual false, abstract: false, final false
+  /// @brief Method ImplSTRandomPrime, addr 0x112ebb8, size 0x634, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::__Primes__STOutput* ImplSTRandomPrime(::Org::BouncyCastle::Crypto::IDigest* d, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed);
 
-  /// @brief Method Inc, addr 0x110bfe0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Inc, addr 0x11306e4, size 0x58, virtual false, abstract: false, final false
   static inline void Inc(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t c);
 
-  /// @brief Method IsMRProbablePrime, addr 0x110b950, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method IsMRProbablePrime, addr 0x1130054, size 0x234, virtual false, abstract: false, final false
   static inline bool IsMRProbablePrime(::Org::BouncyCastle::Math::BigInteger* candidate, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t iterations);
 
-  /// @brief Method IsMRProbablePrimeToBase, addr 0x110bcf0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method IsMRProbablePrimeToBase, addr 0x11303f4, size 0x1bc, virtual false, abstract: false, final false
   static inline bool IsMRProbablePrimeToBase(::Org::BouncyCastle::Math::BigInteger* candidate, ::Org::BouncyCastle::Math::BigInteger* baseValue);
 
-  /// @brief Method IsPrime32, addr 0x110c0f8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsPrime32, addr 0x11307fc, size 0x158, virtual false, abstract: false, final false
   static inline bool IsPrime32(uint32_t x);
 
   static inline ::Org::BouncyCastle::Math::Primes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x110c460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1130b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();

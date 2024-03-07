@@ -39,18 +39,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE TestPlatformLeaderboardsHandler : public ::GlobalNamespace::PlatformLeaderboardsHandler {
 public:
   // Declarations
-  /// @brief Method GetScores, addr 0x12b391c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetScores, addr 0x12daa88, size 0x5c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::TestPlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method UploadScore, addr 0x12b3978, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method UploadScore, addr 0x12daae4, size 0x5c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method .ctor, addr 0x12b39d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12dab40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

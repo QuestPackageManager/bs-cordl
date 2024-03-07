@@ -44,7 +44,7 @@ public:
   // Declarations
   static inline ::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a02b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a64368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,28 +84,28 @@ public:
   /// @brief Field _parent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::System::ComponentModel::TypeDescriptionProvider* _parent;
 
-  /// @brief Method GetCache, addr 0x2a02a88, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetCache, addr 0x2a642c0, size 0x18, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetCache(::System::Object* instance);
 
-  /// @brief Method GetExtendedTypeDescriptor, addr 0x2a02aa0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetExtendedTypeDescriptor, addr 0x2a642d8, size 0x90, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetExtenderProviders, addr 0x2a02b38, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetExtenderProviders, addr 0x2a64370, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> GetExtenderProviders(::System::Object* instance);
 
-  /// @brief Method GetReflectionType, addr 0x2a02c2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetReflectionType, addr 0x2a64464, size 0x10, virtual false, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType);
 
-  /// @brief Method GetReflectionType, addr 0x2a02c3c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetReflectionType, addr 0x2a64474, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method GetTypeDescriptor, addr 0x2a02c68, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x2a644a0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetTypeDescriptor, addr 0x2a02c58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x2a64490, size 0x10, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType);
 
-  /// @brief Method GetTypeDescriptor, addr 0x2a02cf4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x2a6452c, size 0xa4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance);
 
   static inline ::System::ComponentModel::TypeDescriptionProvider* New_ctor();
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::TypeDescriptionProvider* value);
 
-  /// @brief Method .ctor, addr 0x2a02a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a642b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

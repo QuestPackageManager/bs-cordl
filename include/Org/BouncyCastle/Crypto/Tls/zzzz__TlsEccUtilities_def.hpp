@@ -57,138 +57,138 @@ public:
   /// @brief Field CurveNames, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_CurveNames, put = setStaticF_CurveNames))::ArrayW<::StringW, ::Array<::StringW>*> CurveNames;
 
-  /// @brief Method AddSupportedEllipticCurvesExtension, addr 0x1017ed8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddSupportedEllipticCurvesExtension, addr 0x10385dc, size 0x120, virtual false, abstract: false, final false
   static inline void AddSupportedEllipticCurvesExtension(::System::Collections::IDictionary* extensions, ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves);
 
-  /// @brief Method AddSupportedPointFormatsExtension, addr 0x10180a0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddSupportedPointFormatsExtension, addr 0x10387a4, size 0x120, virtual false, abstract: false, final false
   static inline void AddSupportedPointFormatsExtension(::System::Collections::IDictionary* extensions, ::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats);
 
-  /// @brief Method AreOnSameCurve, addr 0x10189d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AreOnSameCurve, addr 0x10390dc, size 0x14, virtual false, abstract: false, final false
   static inline bool AreOnSameCurve(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* a, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* b);
 
-  /// @brief Method CalculateECDHBasicAgreement, addr 0x1018f18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CalculateECDHBasicAgreement, addr 0x103961c, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateECDHBasicAgreement(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* publicKey,
                                                                                  ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKey);
 
-  /// @brief Method CheckNamedCurve, addr 0x101a2f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckNamedCurve, addr 0x103a9f4, size 0xac, virtual false, abstract: false, final false
   static inline void CheckNamedCurve(::ArrayW<int32_t, ::Array<int32_t>*> namedCurves, int32_t namedCurve);
 
-  /// @brief Method ContainsEccCipherSuites, addr 0x101889c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ContainsEccCipherSuites, addr 0x1038fa0, size 0xb0, virtual false, abstract: false, final false
   static inline bool ContainsEccCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> cipherSuites);
 
-  /// @brief Method CreateSupportedEllipticCurvesExtension, addr 0x1017ff8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateSupportedEllipticCurvesExtension, addr 0x10386fc, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateSupportedEllipticCurvesExtension(::ArrayW<int32_t, ::Array<int32_t>*> namedCurves);
 
-  /// @brief Method CreateSupportedPointFormatsExtension, addr 0x10181c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateSupportedPointFormatsExtension, addr 0x10388c4, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateSupportedPointFormatsExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats);
 
-  /// @brief Method DeserializeECFieldElement, addr 0x1018b9c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DeserializeECFieldElement, addr 0x10392a0, size 0xcc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* DeserializeECFieldElement(int32_t fieldSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method DeserializeECPoint, addr 0x1018c68, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method DeserializeECPoint, addr 0x103936c, size 0x130, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* DeserializeECPoint(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats, ::Org::BouncyCastle::Math::EC::ECCurve* curve,
                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method DeserializeECPublicKey, addr 0x1018d98, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method DeserializeECPublicKey, addr 0x103949c, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*
   DeserializeECPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* curve_params, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method GenerateECKeyPair, addr 0x1018fc4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GenerateECKeyPair, addr 0x10396c8, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateECKeyPair(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                         ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams);
 
-  /// @brief Method GenerateEphemeralClientKeyExchange, addr 0x1019078, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GenerateEphemeralClientKeyExchange, addr 0x103977c, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* GenerateEphemeralClientKeyExchange(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats,
                                                                                                                     ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams,
                                                                                                                     ::System::IO::Stream* output);
 
-  /// @brief Method GenerateEphemeralServerKeyExchange, addr 0x1019244, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GenerateEphemeralServerKeyExchange, addr 0x1039948, size 0x22c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* GenerateEphemeralServerKeyExchange(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                                     ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves,
                                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats, ::System::IO::Stream* output);
 
-  /// @brief Method GetNameOfNamedCurve, addr 0x10185e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetNameOfNamedCurve, addr 0x1038ce4, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW GetNameOfNamedCurve(int32_t namedCurve);
 
-  /// @brief Method GetParametersForNamedCurve, addr 0x1018704, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetParametersForNamedCurve, addr 0x1038e08, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetParametersForNamedCurve(int32_t namedCurve);
 
-  /// @brief Method GetSupportedEllipticCurvesExtension, addr 0x1018278, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedEllipticCurvesExtension, addr 0x103897c, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetSupportedEllipticCurvesExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method GetSupportedPointFormatsExtension, addr 0x1018464, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedPointFormatsExtension, addr 0x1038b68, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSupportedPointFormatsExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method HasAnySupportedNamedCurves, addr 0x1018830, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HasAnySupportedNamedCurves, addr 0x1038f34, size 0x6c, virtual false, abstract: false, final false
   static inline bool HasAnySupportedNamedCurves();
 
-  /// @brief Method IsCompressionPreferred, addr 0x10189ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsCompressionPreferred, addr 0x10390f0, size 0x58, virtual false, abstract: false, final false
   static inline bool IsCompressionPreferred(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats, uint8_t compressionFormat);
 
-  /// @brief Method IsEccCipherSuite, addr 0x101894c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsEccCipherSuite, addr 0x1039050, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsEccCipherSuite(int32_t cipherSuite);
 
-  /// @brief Method IsSupportedNamedCurve, addr 0x1018684, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedNamedCurve, addr 0x1038d88, size 0x80, virtual false, abstract: false, final false
   static inline bool IsSupportedNamedCurve(int32_t namedCurve);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsEccUtilities* New_ctor();
 
-  /// @brief Method ReadECExponent, addr 0x1019a30, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReadECExponent, addr 0x103a134, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t ReadECExponent(int32_t fieldSize, ::System::IO::Stream* input);
 
-  /// @brief Method ReadECFieldElement, addr 0x1019bac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReadECFieldElement, addr 0x103a2b0, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ReadECFieldElement(int32_t fieldSize, ::System::IO::Stream* input);
 
-  /// @brief Method ReadECParameter, addr 0x1019b0c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadECParameter, addr 0x103a210, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ReadECParameter(::System::IO::Stream* input);
 
-  /// @brief Method ReadECParameters, addr 0x1019c48, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method ReadECParameters, addr 0x103a34c, size 0x6a8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ReadECParameters(::ArrayW<int32_t, ::Array<int32_t>*> namedCurves, ::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats,
                                                                                               ::System::IO::Stream* input);
 
-  /// @brief Method ReadSupportedEllipticCurvesExtension, addr 0x1018314, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReadSupportedEllipticCurvesExtension, addr 0x1038a18, size 0x150, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> ReadSupportedEllipticCurvesExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method ReadSupportedPointFormatsExtension, addr 0x1018500, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReadSupportedPointFormatsExtension, addr 0x1038c04, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadSupportedPointFormatsExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method SerializeECFieldElement, addr 0x1018a44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SerializeECFieldElement, addr 0x1039148, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeECFieldElement(int32_t fieldSize, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method SerializeECPoint, addr 0x1018a60, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SerializeECPoint, addr 0x1039164, size 0xd4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeECPoint(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method SerializeECPublicKey, addr 0x1018b34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SerializeECPublicKey, addr 0x1039238, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeECPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats,
                                                                           ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* keyParameters);
 
-  /// @brief Method ValidateECPublicKey, addr 0x1019a2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ValidateECPublicKey, addr 0x103a130, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ValidateECPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* key);
 
-  /// @brief Method WriteECExponent, addr 0x101a39c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteECExponent, addr 0x103aaa0, size 0x9c, virtual false, abstract: false, final false
   static inline void WriteECExponent(int32_t k, ::System::IO::Stream* output);
 
-  /// @brief Method WriteECFieldElement, addr 0x101a538, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WriteECFieldElement, addr 0x103ac3c, size 0xb8, virtual false, abstract: false, final false
   static inline void WriteECFieldElement(int32_t fieldSize, ::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
 
-  /// @brief Method WriteECFieldElement, addr 0x101a4b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteECFieldElement, addr 0x103abb8, size 0x84, virtual false, abstract: false, final false
   static inline void WriteECFieldElement(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::System::IO::Stream* output);
 
-  /// @brief Method WriteECParameter, addr 0x101a438, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteECParameter, addr 0x103ab3c, size 0x7c, virtual false, abstract: false, final false
   static inline void WriteECParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
 
-  /// @brief Method WriteECPoint, addr 0x10191a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method WriteECPoint, addr 0x10398a4, size 0xa4, virtual false, abstract: false, final false
   static inline void WriteECPoint(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats, ::Org::BouncyCastle::Math::EC::ECPoint* point, ::System::IO::Stream* output);
 
-  /// @brief Method WriteExplicitECParameters, addr 0x1019470, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method WriteExplicitECParameters, addr 0x1039b74, size 0x4f0, virtual false, abstract: false, final false
   static inline void WriteExplicitECParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> ecPointFormats, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParameters,
                                                ::System::IO::Stream* output);
 
-  /// @brief Method WriteNamedECParameters, addr 0x1019960, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WriteNamedECParameters, addr 0x103a064, size 0xcc, virtual false, abstract: false, final false
   static inline void WriteNamedECParameters(int32_t namedCurve, ::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x101ad74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103b478, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_CurveNames();

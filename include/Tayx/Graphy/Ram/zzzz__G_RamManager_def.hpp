@@ -87,33 +87,33 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Method Awake, addr 0x2af4afc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b54334, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x2af0850, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2b50088, size 0x4b8, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamManager* New_ctor();
 
-  /// @brief Method RefreshParameters, addr 0x2af28d8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x2b52110, size 0x194, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method RestorePreviousState, addr 0x2af0174, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x2b4f9ac, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method SetGraphActive, addr 0x2af4b04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetGraphActive, addr 0x2b5433c, size 0x44, virtual false, abstract: false, final false
   inline void SetGraphActive(bool active);
 
-  /// @brief Method SetPosition, addr 0x2aed72c, size 0x2e8, virtual true, abstract: false, final true
+  /// @brief Method SetPosition, addr 0x2b4cf64, size 0x2e8, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x2aee2c8, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x2b4db00, size 0x150, virtual true, abstract: false, final true
   inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
 
-  /// @brief Method Start, addr 0x2af4b00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2b54338, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateParameters, addr 0x2aee448, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2b4dc80, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get_m_backgroundImages();
@@ -170,7 +170,7 @@ public:
 
   constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x2af4cf4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b5452c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"

@@ -21,10 +21,10 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE ColorUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x2e572c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x2eb2b00, size 0x10, virtual false, abstract: false, final false
   static inline bool CompareColors(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
-  /// @brief Method MultiplyColors, addr 0x2e572d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method MultiplyColors, addr 0x2eb2b10, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 MultiplyColors(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
 protected:

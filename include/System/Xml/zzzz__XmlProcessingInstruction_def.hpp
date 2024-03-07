@@ -46,7 +46,7 @@ public:
   /// @brief Field target, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::StringW target;
 
-  /// @brief Method CloneNode, addr 0x297b664, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x29dde9c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlProcessingInstruction* New_ctor(::StringW target, ::StringW data, ::System::Xml::XmlDocument* doc);
@@ -63,31 +63,31 @@ public:
 
   constexpr void __cordl_internal_set_target(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2976a48, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d9280, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW target, ::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_InnerText, addr 0x297b650, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x29dde88, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_LocalName, addr 0x297b598, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x29dddd0, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x297b544, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x29ddd7c, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x297b65c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x29dde94, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x297b5a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x29ddddc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Data, addr 0x297b5b0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x29ddde8, size 0xa0, virtual false, abstract: false, final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method set_InnerText, addr 0x297b658, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x29dde90, size 0x4, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_Value, addr 0x297b5ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x29ddde4, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

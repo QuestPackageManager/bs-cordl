@@ -87,7 +87,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConverter"
   constexpr operator ::GlobalNamespace::IBeatToTimeConverter*() noexcept;
 
-  /// @brief Method ConvertBeatToTime, addr 0x24488c0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method ConvertBeatToTime, addr 0x24b15d4, size 0x18, virtual true, abstract: false, final true
   inline float_t ConvertBeatToTime(float_t beat);
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter* New_ctor(float_t bpm);
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__bpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x2445bb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ae8c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t bpm);
 
   /// @brief Convert to "::GlobalNamespace::IBeatToTimeConverter"
@@ -142,7 +142,7 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <AddEventsForLightGroup>b__0, addr 0x24488d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddEventsForLightGroup>b__0, addr 0x24b15ec, size 0x30, virtual false, abstract: false, final false
   inline bool _AddEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x244824c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b0f60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -192,7 +192,7 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0, addr 0x2448908, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0, addr 0x24b161c, size 0x30, virtual false, abstract: false, final false
   inline bool _AddInstantToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
@@ -201,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2448254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b0f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -242,7 +242,7 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <AddToggleEventsForLightGroup>b__0, addr 0x2448938, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddToggleEventsForLightGroup>b__0, addr 0x24b164c, size 0x30, virtual false, abstract: false, final false
   inline bool _AddToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
@@ -251,7 +251,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x244825c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b0f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,24 +344,24 @@ public:
   /// @brief Field groupState, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_groupState, put = __cordl_internal_set_groupState))::ArrayW<bool, ::Array<bool>*> groupState;
 
-  /// @brief Method AddEventsForLightGroup, addr 0x2446454, size 0x960, virtual false, abstract: false, final false
+  /// @brief Method AddEventsForLightGroup, addr 0x24af168, size 0x960, virtual false, abstract: false, final false
   inline void AddEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddInstantToggleEventsForLightGroup, addr 0x2447374, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method AddInstantToggleEventsForLightGroup, addr 0x24b0088, size 0x47c, virtual false, abstract: false, final false
   inline void AddInstantToggleEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddTestBox, addr 0x24477f0, size 0xa5c, virtual false, abstract: false, final false
+  /// @brief Method AddTestBox, addr 0x24b0504, size 0xa5c, virtual false, abstract: false, final false
   inline void AddTestBox();
 
-  /// @brief Method AddToggleEventsForLightGroup, addr 0x2446db4, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method AddToggleEventsForLightGroup, addr 0x24afac8, size 0x5c0, virtual false, abstract: false, final false
   inline void AddToggleEventsForLightGroup(int32_t lightGroupId, ::GlobalNamespace::EnvironmentColorType color);
 
   static inline ::GlobalNamespace::EventsTestGameplayManager* New_ctor();
 
-  /// @brief Method Start, addr 0x2445a98, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24ae7ac, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2445bd8, size 0x87c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x24ae8ec, size 0x87c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -449,7 +449,7 @@ public:
 
   constexpr void __cordl_internal_set_groupState(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method .ctor, addr 0x2448264, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b0f78, size 0x65c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

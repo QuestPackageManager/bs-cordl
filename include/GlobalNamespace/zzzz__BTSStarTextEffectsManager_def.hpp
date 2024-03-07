@@ -80,21 +80,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0xe74e14, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe90be0, size 0xd8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe74eec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe90cb8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe74ef4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe90cc0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe74f34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe90d00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe74e10, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe90bdc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_effectController(::UnityW<::GlobalNamespace::BTSStarTextEffectController> value);
 
-  /// @brief Method .ctor, addr 0xe74de0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90bac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -191,18 +191,18 @@ public:
   __declspec(property(get = __cordl_internal_get__btsStarTextEventEffect,
                       put = __cordl_internal_set__btsStarTextEventEffect))::UnityW<::GlobalNamespace::BTSStarTextEventEffect> _btsStarTextEventEffect;
 
-  /// @brief Method DespawnEffectDelayed, addr 0xe74d6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DespawnEffectDelayed, addr 0xe90b38, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController* effectController);
 
-  /// @brief Method HandleBTSStarTextEventEffect, addr 0xe74cd8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleBTSStarTextEventEffect, addr 0xe90aa4, size 0x94, virtual false, abstract: false, final false
   inline void HandleBTSStarTextEventEffect(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float_t desiredAnimationLength);
 
   static inline ::GlobalNamespace::BTSStarTextEffectsManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xe74ba0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe9096c, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0xe74a68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe90834, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::__BTSStarTextEffectController__Pool*& __cordl_internal_get__btsStarTextEffectControllerPool();
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set__btsStarTextEventEffect(::UnityW<::GlobalNamespace::BTSStarTextEventEffect> value);
 
-  /// @brief Method .ctor, addr 0xe74e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

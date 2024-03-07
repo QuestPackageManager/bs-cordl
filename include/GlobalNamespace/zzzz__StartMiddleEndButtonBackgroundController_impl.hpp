@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24a5eb4;
+  constexpr static std::size_t addrs = 0x250ee90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24a5ed8;
+  constexpr static std::size_t addrs = 0x250eeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24a5efc;
+  constexpr static std::size_t addrs = 0x250eed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24a5f20;
+  constexpr static std::size_t addrs = 0x250eefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

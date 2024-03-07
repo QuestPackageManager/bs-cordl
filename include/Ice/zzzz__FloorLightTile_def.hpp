@@ -65,24 +65,24 @@ public:
   /// @brief Field didFinish, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish))::System::Action_1<::UnityW<::Ice::FloorLightTile>>* didFinish;
 
-  /// @brief Method Awake, addr 0xe79e94, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe95c60, size 0x1f0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleFadeInTweenOnCompleted, addr 0xe7a1f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeInTweenOnCompleted, addr 0xe95fbc, size 0x24, virtual false, abstract: false, final false
   inline void HandleFadeInTweenOnCompleted();
 
-  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0xe7a214, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0xe95fe0, size 0x20, virtual false, abstract: false, final false
   inline void HandleFadeOutTweenOnCompleted();
 
-  /// @brief Method HighlightWithColor, addr 0xe7a124, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HighlightWithColor, addr 0xe95ef0, size 0xcc, virtual false, abstract: false, final false
   inline void HighlightWithColor(::UnityEngine::Color color, float_t fadeInDuration, float_t fadeOutDuration);
 
   static inline ::Ice::FloorLightTile* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xe7a084, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe95e50, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0xe7a234, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0xe96000, size 0x60, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__colorSetter() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_didFinish(::System::Action_1<::UnityW<::Ice::FloorLightTile>>* value);
 
-  /// @brief Method .ctor, addr 0xe7a294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe96060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,7 +184,7 @@ public:
   // Declarations
   static inline ::Ice::__FloorLightTile__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe7a29c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe96068, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

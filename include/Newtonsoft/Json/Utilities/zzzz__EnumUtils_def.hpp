@@ -75,16 +75,16 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c* New_ctor();
 
-  /// @brief Method <GetNames>b__6_0, addr 0x27551a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetNames>b__6_0, addr 0x27b5460, size 0x18, virtual false, abstract: false, final false
   inline bool _GetNames_b__6_0(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetValues>b__5_0, addr 0x275518c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetValues>b__5_0, addr 0x27b5448, size 0x18, virtual false, abstract: false, final false
   inline bool _GetValues_b__5_0(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <InitializeEnumType>b__1_0, addr 0x2755174, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <InitializeEnumType>b__1_0, addr 0x27b5430, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _InitializeEnumType_b__1_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
 
-  /// @brief Method .ctor, addr 0x275516c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b5428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c* getStaticF___9();
@@ -192,7 +192,7 @@ public:
   /// @brief Method GetFlagsValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IList_1<T>* GetFlagsValues(T value);
 
-  /// @brief Method GetNames, addr 0x2754458, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x27b4714, size 0x524, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::StringW>* GetNames(::System::Type* enumType);
 
   /// @brief Method GetNamesAndValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -201,19 +201,19 @@ public:
   /// @brief Method GetNamesAndValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*>* GetNamesAndValues();
 
-  /// @brief Method GetValues, addr 0x2746aec, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x27a6da8, size 0x530, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Object*>* GetValues(::System::Type* enumType);
 
-  /// @brief Method InitializeEnumType, addr 0x2754024, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method InitializeEnumType, addr 0x27b42e0, size 0x434, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* InitializeEnumType(::System::Type* type);
 
-  /// @brief Method ParseEnumName, addr 0x275497c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ParseEnumName, addr 0x27b4c38, size 0x268, virtual false, abstract: false, final false
   static inline ::System::Object* ParseEnumName(::StringW enumText, bool isNullable, ::System::Type* t);
 
-  /// @brief Method ResolvedEnumName, addr 0x2754be4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ResolvedEnumName, addr 0x27b4ea0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ResolvedEnumName(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* map, ::StringW enumText);
 
-  /// @brief Method ToEnumName, addr 0x2754c5c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ToEnumName, addr 0x27b4f18, size 0x1e8, virtual false, abstract: false, final false
   static inline ::StringW ToEnumName(::System::Type* enumType, ::StringW enumText, bool camelCaseText);
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>* getStaticF_EnumMemberNamesPerType();

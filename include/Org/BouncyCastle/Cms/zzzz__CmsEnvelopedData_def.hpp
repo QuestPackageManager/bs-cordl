@@ -57,13 +57,13 @@ public:
   /// @brief Field unprotectedAttributes, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_unprotectedAttributes, put = __cordl_internal_set_unprotectedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttributes;
 
-  /// @brief Method GetEncoded, addr 0x124e7d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1273edc, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetRecipientInfos, addr 0x124e754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x1273e58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnprotectedAttributes, addr 0x124e764, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttributes, addr 0x1273e68, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
@@ -96,22 +96,22 @@ public:
 
   constexpr void __cordl_internal_set_unprotectedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x124e5b8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1273cbc, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor, addr 0x124e594, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1273c98, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  /// @brief Method .ctor, addr 0x124e6fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1273e00, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method get_ContentInfo, addr 0x124e75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x1273e60, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_EncryptionAlgOid, addr 0x124e728, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x1273e2c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method get_EncryptionAlgorithmID, addr 0x124e720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x1273e24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
 protected:

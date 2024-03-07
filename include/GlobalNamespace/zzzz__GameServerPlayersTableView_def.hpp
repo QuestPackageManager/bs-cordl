@@ -12,9 +12,6 @@ namespace GlobalNamespace {
 struct BeatmapKey;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
 class GameServerPlayerTableCell;
 }
 namespace GlobalNamespace {
@@ -22,6 +19,9 @@ class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
@@ -67,11 +67,11 @@ public:
   /// @brief Field _allowSelection, offset 0x72, size 0x1
   __declspec(property(get = __cordl_internal_get__allowSelection, put = __cordl_internal_set__allowSelection)) bool _allowSelection;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
-
   /// @brief Field _container, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+
+  /// @brief Field _entitlementModel, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__entitlementModel, put = __cordl_internal_set__entitlementModel))::GlobalNamespace::IEntitlementModel* _entitlementModel;
 
   /// @brief Field _gameServerPlayerCellPrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gameServerPlayerCellPrefab,
@@ -132,50 +132,50 @@ public:
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x23dfa0c, size 0x4a4, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x24437e4, size 0x508, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x23df898, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x2443670, size 0xc, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method GetCurrentPrefab, addr 0x23df970, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPrefab, addr 0x2443748, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> GetCurrentPrefab();
 
-  /// @brief Method HandleCellKickPlayer, addr 0x23e05a4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleCellKickPlayer, addr 0x24443e4, size 0xfc, virtual false, abstract: false, final false
   inline void HandleCellKickPlayer(int32_t idx);
 
-  /// @brief Method HandleCellUseBeatmap, addr 0x23e0014, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method HandleCellUseBeatmap, addr 0x2443e54, size 0x33c, virtual false, abstract: false, final false
   inline void HandleCellUseBeatmap(int32_t idx);
 
-  /// @brief Method HandleCellUseModifiers, addr 0x23e0350, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HandleCellUseModifiers, addr 0x2444190, size 0x254, virtual false, abstract: false, final false
   inline void HandleCellUseModifiers(int32_t idx);
 
-  /// @brief Method Init, addr 0x23e075c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24444e0, size 0x3c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameServerPlayersTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x23df8a4, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x244367c, size 0x48, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x23e06a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2434f78, size 0xbc, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel,
                       bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
 
-  /// @brief Method TryGetLobbyPlayerData, addr 0x23dfeb0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method TryGetLobbyPlayerData, addr 0x2443cec, size 0x168, virtual false, abstract: false, final false
   inline bool TryGetLobbyPlayerData(int32_t idx, ByRef<::GlobalNamespace::IConnectedPlayer*> player, ByRef<::GlobalNamespace::ILobbyPlayerData*> playerData);
 
   constexpr bool const& __cordl_internal_get__allowSelection() const;
 
   constexpr bool& __cordl_internal_get__allowSelection();
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
-
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+
+  constexpr ::GlobalNamespace::IEntitlementModel*& __cordl_internal_get__entitlementModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEntitlementModel*> const& __cordl_internal_get__entitlementModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> const& __cordl_internal_get__gameServerPlayerCellPrefab() const;
 
@@ -243,9 +243,9 @@ public:
 
   constexpr void __cordl_internal_set__allowSelection(bool value);
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
-
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__entitlementModel(::GlobalNamespace::IEntitlementModel* value);
 
   constexpr void __cordl_internal_set__gameServerPlayerCellPrefab(::UnityW<::GlobalNamespace::GameServerPlayerTableCell> value);
 
@@ -279,31 +279,31 @@ public:
 
   constexpr void __cordl_internal_set_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method .ctor, addr 0x23e0798, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244451c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x23df738, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x2434488, size 0xb0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x23df5d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x24343d8, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method add_selectSuggestedLevelEvent, addr 0x23df478, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedLevelEvent, addr 0x2434328, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method get_currentCellId, addr 0x23df8ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_currentCellId, addr 0x24436c4, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_currentCellId();
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x23df7e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x2434ebc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x23df688, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x2434e0c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_selectSuggestedLevelEvent, addr 0x23df528, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedLevelEvent, addr 0x2434d5c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
 protected:
@@ -341,8 +341,8 @@ public:
   /// @brief Field _container, offset: 0x48, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+  /// @brief Field _entitlementModel, offset: 0x50, size: 0x8, def value: None
+  ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
   /// @brief Field selectSuggestedLevelEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapKey>* ___selectSuggestedLevelEvent;
@@ -405,7 +405,7 @@ static_assert(offsetof(::GlobalNamespace::GameServerPlayersTableView, ____tableH
 
 static_assert(offsetof(::GlobalNamespace::GameServerPlayersTableView, ____container) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayersTableView, ____beatmapLevelsModel) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayersTableView, ____entitlementModel) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServerPlayersTableView, ___selectSuggestedLevelEvent) == 0x58, "Offset mismatch!");
 

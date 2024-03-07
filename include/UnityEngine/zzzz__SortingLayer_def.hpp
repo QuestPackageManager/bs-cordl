@@ -19,7 +19,7 @@ namespace UnityEngine {
 struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
-  /// @brief Method GetLayerValueFromID, addr 0x2dd0ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerValueFromID, addr 0x2e2c828, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
   // Ctor Parameters []

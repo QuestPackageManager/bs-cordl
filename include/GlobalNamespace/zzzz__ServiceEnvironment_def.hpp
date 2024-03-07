@@ -33,6 +33,7 @@ public:
     __E_DevelopmentA = static_cast<int32_t>(0x7),
     __E_DevelopmentB = static_cast<int32_t>(0x8),
     __E_ProductionC = static_cast<int32_t>(0x9),
+    __E_ProductionQuest1 = static_cast<int32_t>(0xa),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -78,6 +79,9 @@ public:
 
   /// @brief Field ProductionC value: static_cast<int32_t>(0x9)
   static ::GlobalNamespace::ServiceEnvironment const ProductionC;
+
+  /// @brief Field ProductionQuest1 value: static_cast<int32_t>(0xa)
+  static ::GlobalNamespace::ServiceEnvironment const ProductionQuest1;
 
   /// @brief Field QATesting value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::ServiceEnvironment const QATesting;

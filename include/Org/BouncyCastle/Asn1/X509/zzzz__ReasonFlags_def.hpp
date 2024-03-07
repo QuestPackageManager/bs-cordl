@@ -26,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(int32_t reasons);
 
-  /// @brief Method .ctor, addr 0x11fbe14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1222518, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
 
-  /// @brief Method .ctor, addr 0x12054a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122bbac, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
 protected:

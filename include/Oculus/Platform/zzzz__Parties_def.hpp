@@ -30,10 +30,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE Parties : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x27f07e8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x2853204, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* GetCurrent();
 
-  /// @brief Method SetPartyUpdateNotificationCallback, addr 0x27f0940, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetPartyUpdateNotificationCallback, addr 0x285335c, size 0x74, virtual false, abstract: false, final false
   static inline void SetPartyUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PartyUpdateNotification*>* callback);
 
 protected:

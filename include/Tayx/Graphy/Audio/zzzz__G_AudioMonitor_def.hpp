@@ -69,27 +69,27 @@ public:
   /// @brief Field m_spectrumSize, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_spectrumSize, put = __cordl_internal_set_m_spectrumSize)) int32_t m_spectrumSize;
 
-  /// @brief Method Awake, addr 0x2af6eac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b566e4, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FindAudioListener, addr 0x2af709c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FindAudioListener, addr 0x2b568d4, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioListener> FindAudioListener();
 
-  /// @brief Method Init, addr 0x2af0240, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2b4fa78, size 0x12c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioMonitor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2af7150, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2b56988, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnSceneLoaded, addr 0x2af71f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x2b56a2c, size 0x24, virtual false, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode);
 
-  /// @brief Method Update, addr 0x2af6eb0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b566e8, size 0x1ec, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2af6bbc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2b563f4, size 0xd0, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr float_t const& __cordl_internal_get__MaxDB_k__BackingField() const;
@@ -140,34 +140,34 @@ public:
 
   constexpr void __cordl_internal_set_m_spectrumSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2af7218, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b56a50, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method dBNormalized, addr 0x2af6938, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method dBNormalized, addr 0x2b56170, size 0x14, virtual false, abstract: false, final false
   inline float_t dBNormalized(float_t db);
 
-  /// @brief Method get_MaxDB, addr 0x2af6e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDB, addr 0x2b566d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MaxDB();
 
-  /// @brief Method get_Spectrum, addr 0x2af6e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Spectrum, addr 0x2b566b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Spectrum();
 
-  /// @brief Method get_SpectrumDataAvailable, addr 0x2af60f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_SpectrumDataAvailable, addr 0x2b55928, size 0x60, virtual false, abstract: false, final false
   inline bool get_SpectrumDataAvailable();
 
-  /// @brief Method get_SpectrumHighestValues, addr 0x2af6e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SpectrumHighestValues, addr 0x2b566c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_SpectrumHighestValues();
 
-  /// @brief Method lin2dB, addr 0x2af6908, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method lin2dB, addr 0x2b56140, size 0x30, virtual false, abstract: false, final false
   inline float_t lin2dB(float_t linear);
 
-  /// @brief Method set_MaxDB, addr 0x2af6ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxDB, addr 0x2b566dc, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxDB(float_t value);
 
-  /// @brief Method set_Spectrum, addr 0x2af6e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Spectrum, addr 0x2b566bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Spectrum(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method set_SpectrumHighestValues, addr 0x2af6e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SpectrumHighestValues, addr 0x2b566cc, size 0x8, virtual false, abstract: false, final false
   inline void set_SpectrumHighestValues(::ArrayW<float_t, ::Array<float_t>*> value);
 
 protected:

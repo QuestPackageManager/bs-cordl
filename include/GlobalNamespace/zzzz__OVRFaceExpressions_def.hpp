@@ -476,22 +476,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x2810124, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2872b40, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x2810068, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2872a84, size 0x1c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2810118, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2872b34, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28100b8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2872ad4, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x280ff3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2872958, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<float_t, ::Array<float_t>*> array);
 
-  /// @brief Method get_Current, addr 0x2810084, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2872aa0, size 0x34, virtual true, abstract: false, final true
   inline float_t get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<float_t>"
@@ -589,54 +589,54 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Awake, addr 0x280f708, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2872124, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckValidity, addr 0x280fb5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckValidity, addr 0x2872578, size 0x60, virtual false, abstract: false, final false
   inline void CheckValidity();
 
-  /// @brief Method CopyTo, addr 0x280fc68, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2872684, size 0x250, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<float_t, ::Array<float_t>*> array, int32_t startIndex);
 
-  /// @brief Method GetEnumerator, addr 0x280ff1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2872938, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator GetEnumerator();
 
-  /// @brief Method GetWeight, addr 0x280fbbc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetWeight, addr 0x28725d8, size 0x4, virtual true, abstract: false, final true
   inline float_t GetWeight(::GlobalNamespace::__OVRFaceExpressions__FaceExpression expression);
 
   static inline ::GlobalNamespace::OVRFaceExpressions* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x280f9bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x28723d8, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x280f934, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2872350, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x280f784, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x28721a0, size 0x78, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted, addr 0x280f8d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnPermissionGranted, addr 0x28722f0, size 0x60, virtual false, abstract: false, final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method StartFaceTracking, addr 0x280f7fc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method StartFaceTracking, addr 0x2872218, size 0xd8, virtual false, abstract: false, final false
   inline bool StartFaceTracking();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator, addr 0x280ff60, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator, addr 0x287297c, size 0x74, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<float_t>* System_Collections_Generic_IEnumerable_System_Single__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x280ffd4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x28729f0, size 0x74, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToArray, addr 0x280feb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x28728d4, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> ToArray();
 
-  /// @brief Method TryGetFaceExpressionWeight, addr 0x280fbc0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryGetFaceExpressionWeight, addr 0x28725dc, size 0x54, virtual false, abstract: false, final false
   inline bool TryGetFaceExpressionWeight(::GlobalNamespace::__OVRFaceExpressions__FaceExpression expression, ByRef<float_t> weight);
 
-  /// @brief Method TryGetWeightConfidence, addr 0x280fc14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryGetWeightConfidence, addr 0x2872630, size 0x54, virtual false, abstract: false, final false
   inline bool TryGetWeightConfidence(::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfidence region, ByRef<float_t> weightConfidence);
 
-  /// @brief Method Update, addr 0x280f9c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x28723e4, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__EyeFollowingBlendshapesValid_k__BackingField() const;
@@ -663,24 +663,24 @@ public:
 
   constexpr void __cordl_internal_set__onPermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2810060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2872a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_Count, addr 0x2810048, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2872a64, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_EyeFollowingBlendshapesValid, addr 0x280f6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EyeFollowingBlendshapesValid, addr 0x2872110, size 0x8, virtual false, abstract: false, final false
   inline bool get_EyeFollowingBlendshapesValid();
 
-  /// @brief Method get_FaceTrackingEnabled, addr 0x280f690, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_FaceTrackingEnabled, addr 0x28720ac, size 0x50, virtual false, abstract: false, final false
   inline bool get_FaceTrackingEnabled();
 
-  /// @brief Method get_Item, addr 0x280fa5c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2872478, size 0x100, virtual false, abstract: false, final false
   inline float_t get_Item(::GlobalNamespace::__OVRFaceExpressions__FaceExpression expression);
 
-  /// @brief Method get_ValidExpressions, addr 0x280f6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidExpressions, addr 0x28720fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValidExpressions();
 
   /// @brief Convert to "::GlobalNamespace::__OVRFaceExpressions__WeightProvider"
@@ -697,10 +697,10 @@ public:
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 
-  /// @brief Method set_EyeFollowingBlendshapesValid, addr 0x280f6fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EyeFollowingBlendshapesValid, addr 0x2872118, size 0xc, virtual false, abstract: false, final false
   inline void set_EyeFollowingBlendshapesValid(bool value);
 
-  /// @brief Method set_ValidExpressions, addr 0x280f6e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ValidExpressions, addr 0x2872104, size 0xc, virtual false, abstract: false, final false
   inline void set_ValidExpressions(bool value);
 
 protected:

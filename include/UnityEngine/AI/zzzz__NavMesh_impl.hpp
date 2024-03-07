@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate::*)(::System::Object*, void*)>(
     &::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2d637cc;
+  constexpr static std::size_t addrs = 0x2dc1004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate::*)()>(
     &::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d63888;
+  constexpr static std::size_t addrs = 0x2dc10c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::AI::NavMesh::Internal_CallOnNavMeshPreUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d6352c;
+  constexpr static std::size_t addrs = 0x2dc0d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::UnityEngine::AI::NavMeshPath*)>(
     &::UnityEngine::AI::NavMesh::CalculatePath)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2d63590;
+  constexpr static std::size_t addrs = 0x2dc0dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::UnityEngine::AI::NavMeshPath*)>(
     &::UnityEngine::AI::NavMesh::CalculatePathInternal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2d63630;
+  constexpr static std::size_t addrs = 0x2dc0e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ByRef<::UnityEngine::AI::NavMeshHit>, float_t, int32_t)>(
     &::UnityEngine::AI::NavMesh::SamplePosition)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2d636f8;
+  constexpr static std::size_t addrs = 0x2dc0f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, int32_t, ::UnityEngine::AI::NavMeshPath*)>(
     &::UnityEngine::AI::NavMesh::CalculatePathInternal_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2d6369c;
+  constexpr static std::size_t addrs = 0x2dc0ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::AI::NavMeshHit>, float_t, int32_t)>(
     &::UnityEngine::AI::NavMesh::SamplePosition_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d63768;
+  constexpr static std::size_t addrs = 0x2dc0fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

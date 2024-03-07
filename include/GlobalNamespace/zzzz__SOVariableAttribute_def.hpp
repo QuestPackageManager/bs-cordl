@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SOVariableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe98cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb8d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

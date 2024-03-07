@@ -26,25 +26,25 @@ namespace ModestTree {
 class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Debug, addr 0x2fcba40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x3024278, size 0x4, virtual false, abstract: false, final false
   static inline void Debug(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Error, addr 0x2fcbbfc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x3024434, size 0x78, virtual false, abstract: false, final false
   static inline void Error(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method ErrorException, addr 0x2fcbb34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x302436c, size 0x58, virtual false, abstract: false, final false
   static inline void ErrorException(::System::Exception* e);
 
-  /// @brief Method ErrorException, addr 0x2fcbb8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x30243c4, size 0x70, virtual false, abstract: false, final false
   static inline void ErrorException(::StringW message, ::System::Exception* e);
 
-  /// @brief Method Info, addr 0x2fcba44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x302427c, size 0x78, virtual false, abstract: false, final false
   static inline void Info(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Trace, addr 0x2fcbabc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x30242f4, size 0x78, virtual false, abstract: false, final false
   static inline void Trace(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Warn, addr 0x2fcb438, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x3023c70, size 0x78, virtual false, abstract: false, final false
   static inline void Warn(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:

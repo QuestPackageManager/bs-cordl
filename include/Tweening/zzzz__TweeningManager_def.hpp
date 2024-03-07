@@ -57,36 +57,36 @@ public:
       get = __cordl_internal_get__tweensByOwner,
       put = __cordl_internal_set__tweensByOwner))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _tweensByOwner;
 
-  /// @brief Method AddTween, addr 0x2af969c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AddTween, addr 0x2b58ed4, size 0x4c, virtual false, abstract: false, final false
   inline ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method AddTweenToDataStructures, addr 0x2af96e8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddTweenToDataStructures, addr 0x2b58f20, size 0x134, virtual false, abstract: false, final false
   inline bool AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method AddTweenToOwnerDictionary, addr 0x2af9a14, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddTweenToOwnerDictionary, addr 0x2b5924c, size 0x198, virtual false, abstract: false, final false
   inline void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::System::Object* owner);
 
   /// @brief Method GetTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetTime();
 
-  /// @brief Method KillAllTweens, addr 0x2af9898, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method KillAllTweens, addr 0x2b590d0, size 0x17c, virtual false, abstract: false, final false
   inline void KillAllTweens(::System::Object* owner);
 
-  /// @brief Method LateUpdate, addr 0x2af92ec, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2b58b24, size 0x1ec, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Tweening::TweeningManager* New_ctor();
 
-  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x2af94d8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x2b58d10, size 0x1c4, virtual false, abstract: false, final false
   inline void RemoveTweenFromOwnerDictionary(::Tweening::Tween* tween);
 
-  /// @brief Method RestartTween, addr 0x2af981c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RestartTween, addr 0x2b59054, size 0x58, virtual false, abstract: false, final false
   inline ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method ResumeTween, addr 0x2af9874, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResumeTween, addr 0x2b590ac, size 0x24, virtual false, abstract: false, final false
   inline ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method Start, addr 0x2af9288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2b58ac0, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>*& __cordl_internal_get__activeTweens();
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set__tweensByOwner(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
 
-  /// @brief Method .ctor, addr 0x2af9014, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b5884c, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

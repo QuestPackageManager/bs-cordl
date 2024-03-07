@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithGroupPresenceJoinIntent : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e3304, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2845d20, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetGroupPresenceJoinIntent, addr 0x27e32c8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetGroupPresenceJoinIntent, addr 0x2845ce4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* GetGroupPresenceJoinIntent();
 
   static inline ::Oculus::Platform::MessageWithGroupPresenceJoinIntent* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e0938, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843354, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

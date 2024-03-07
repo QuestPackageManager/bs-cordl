@@ -36,18 +36,18 @@ public:
   /// @brief Method EndEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EndEffect();
 
-  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x2421900, size 0xc, virtual false, abstract: false, final false
-  inline void HandleAllSliderWereRemovedFromActiveSliders();
+  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x2487ec0, size 0xc, virtual false, abstract: false, final false
+  inline void HandleAllSliderWereRemovedFromActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager);
 
-  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x24218f4, size 0xc, virtual false, abstract: false, final false
-  inline void HandleSliderWasAddedToActiveSliders(float_t saberInteractionParam);
+  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x2487eb4, size 0xc, virtual false, abstract: false, final false
+  inline void HandleSliderWasAddedToActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager, float_t saberInteractionParam);
 
   static inline ::GlobalNamespace::SliderInteractionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24216bc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2487c68, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2420770, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2486d08, size 0xec, virtual true, abstract: false, final false
   inline void Start();
 
   /// @brief Method StartEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method .ctor, addr 0x2420a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2486f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorType, addr 0x242085c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x2486df4, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_saberInteractionParam, addr 0x242094c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_saberInteractionParam, addr 0x2486ee4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
 protected:

@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::*)()>(
     &::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1373410;
+  constexpr static std::size_t addrs = 0x139d968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink*>::get(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__Recoil__RecoilOffset::*)()>(&::RootMotion::FinalIK::__Recoil__RecoilOffset::Start)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x1372260;
+  constexpr static std::size_t addrs = 0x139c7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__Recoil__RecoilOffset*>::get(), "Start",
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__Recoil__RecoilOffset::*)(
     ::RootMotion::FinalIK::IKSolverFullBodyBiped*, ::UnityEngine::Quaternion, float_t, float_t, float_t)>(&::RootMotion::FinalIK::__Recoil__RecoilOffset::Apply)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x1372dbc;
+  constexpr static std::size_t addrs = 0x139d314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__Recoil__RecoilOffset::*)()>(&::RootMotion::FinalIK::__Recoil__RecoilOffset::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x13733fc;
+  constexpr static std::size_t addrs = 0x139d954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__Recoil__RecoilOffset*>::get(), ".ctor",
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::Recoil::*)()>(&::RootMotion::FinalIK::Recoil::get_isFinished)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x13720c4;
+  constexpr static std::size_t addrs = 0x139c61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(), "get_isFinished",
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Recoil::*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::Recoil::SetHandRotations)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x13720e8;
+  constexpr static std::size_t addrs = 0x139c640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Recoil::*)(float_t)>(&::RootMotion::FinalIK::Recoil::Fire)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x1372114;
+  constexpr static std::size_t addrs = 0x139c66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Recoil::*)()>(&::RootMotion::FinalIK::Recoil::OnModifyOffset)> {
   constexpr static std::size_t size = 0xa88;
-  constexpr static std::size_t addrs = 0x1372334;
+  constexpr static std::size_t addrs = 0x139c88c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Recoil::*)()>(&::RootMotion::FinalIK::Recoil::AfterFBBIK)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x1373038;
+  constexpr static std::size_t addrs = 0x139d590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(), "AfterFBBIK",
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Recoil::*)()>(&::RootMotion::FinalIK::Recoil::AfterAimIK)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x1373150;
+  constexpr static std::size_t addrs = 0x139d6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(), "AfterAimIK",
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::Recoil::*)()>(
     &::RootMotion::FinalIK::Recoil::get_primaryHandEffector)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x1372fc0;
+  constexpr static std::size_t addrs = 0x139d518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(), "get_primaryHandEffector",
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::Recoil::*)()>(
     &::RootMotion::FinalIK::Recoil::get_secondaryHandEffector)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x1372ffc;
+  constexpr static std::size_t addrs = 0x139d554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(),
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::RootMotion::FinalIK::Recoil::*)()>(
     &::RootMotion::FinalIK::Recoil::get_primaryHand)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1372f88;
+  constexpr static std::size_t addrs = 0x139d4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(), "get_primaryHand",
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::RootMotion::FinalIK::Recoil::*)()>(
     &::RootMotion::FinalIK::Recoil::get_secondaryHand)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1372fa4;
+  constexpr static std::size_t addrs = 0x139d4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(), "get_secondaryHand",
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Recoil::*)()>(&::RootMotion::FinalIK::Recoil::OnDestroy)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x13731a0;
+  constexpr static std::size_t addrs = 0x139d6f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Recoil::*)()>(&::RootMotion::FinalIK::Recoil::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x1373370;
+  constexpr static std::size_t addrs = 0x139d8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Recoil*>::get(), ".ctor",

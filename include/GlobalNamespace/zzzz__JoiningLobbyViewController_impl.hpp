@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(::System::Action*)>(
     &::GlobalNamespace::JoiningLobbyViewController::add_didCancelEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23cbf74;
+  constexpr static std::size_t addrs = 0x2430768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(::System::Action*)>(
     &::GlobalNamespace::JoiningLobbyViewController::remove_didCancelEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23cc010;
+  constexpr static std::size_t addrs = 0x2430804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(::StringW)>(
     &::GlobalNamespace::JoiningLobbyViewController::Init)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x23cc0ac;
+  constexpr static std::size_t addrs = 0x24308a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)()>(
     &::GlobalNamespace::JoiningLobbyViewController::HideLoading)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23cc0e0;
+  constexpr static std::size_t addrs = 0x24308d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JoiningLobbyViewController*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::JoiningLobbyViewController::DidActivate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x23cc120;
+  constexpr static std::size_t addrs = 0x2430914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)()>(&::GlobalNamespace::JoiningLobbyViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cc1e8;
+  constexpr static std::size_t addrs = 0x24309dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JoiningLobbyViewController*>::get(), ".ctor",
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)()>(
     &::GlobalNamespace::JoiningLobbyViewController::_DidActivate_b__8_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23cc1f0;
+  constexpr static std::size_t addrs = 0x24309e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JoiningLobbyViewController*>::get(),

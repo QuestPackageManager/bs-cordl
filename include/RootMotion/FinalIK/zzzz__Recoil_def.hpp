@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1373410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139d968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,12 +149,12 @@ public:
   /// @brief Field offset, offset 0x10, size 0xc
   __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
-  /// @brief Method Apply, addr 0x1372dbc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x139d314, size 0x1cc, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion rotation, float_t masterWeight, float_t length, float_t timeLeft);
 
   static inline ::RootMotion::FinalIK::__Recoil__RecoilOffset* New_ctor();
 
-  /// @brief Method Start, addr 0x1372260, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x139c7b8, size 0xd4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_additiveOffset() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x13733fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139d954, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -391,24 +391,24 @@ public:
   /// @brief Field w, offset 0xcc, size 0x4
   __declspec(property(get = __cordl_internal_get_w, put = __cordl_internal_set_w)) float_t w;
 
-  /// @brief Method AfterAimIK, addr 0x1373150, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AfterAimIK, addr 0x139d6a8, size 0x50, virtual false, abstract: false, final false
   inline void AfterAimIK();
 
-  /// @brief Method AfterFBBIK, addr 0x1373038, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AfterFBBIK, addr 0x139d590, size 0x118, virtual false, abstract: false, final false
   inline void AfterFBBIK();
 
-  /// @brief Method Fire, addr 0x1372114, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x139c66c, size 0x14c, virtual false, abstract: false, final false
   inline void Fire(float_t magnitude);
 
   static inline ::RootMotion::FinalIK::Recoil* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x13731a0, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x139d6f8, size 0x1d0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnModifyOffset, addr 0x1372334, size 0xa88, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x139c88c, size 0xa88, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
-  /// @brief Method SetHandRotations, addr 0x13720e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetHandRotations, addr 0x139c640, size 0x2c, virtual false, abstract: false, final false
   inline void SetHandRotations(::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
 
   constexpr ::UnityW<::RootMotion::FinalIK::AimIK> const& __cordl_internal_get_aimIK() const;
@@ -549,22 +549,22 @@ public:
 
   constexpr void __cordl_internal_set_w(float_t value);
 
-  /// @brief Method .ctor, addr 0x1373370, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139d8c8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFinished, addr 0x13720c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x139c61c, size 0x24, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_primaryHand, addr 0x1372f88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_primaryHand, addr 0x139d4e0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_primaryHand();
 
-  /// @brief Method get_primaryHandEffector, addr 0x1372fc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_primaryHandEffector, addr 0x139d518, size 0x3c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_primaryHandEffector();
 
-  /// @brief Method get_secondaryHand, addr 0x1372fa4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_secondaryHand, addr 0x139d4fc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_secondaryHand();
 
-  /// @brief Method get_secondaryHandEffector, addr 0x1372ffc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_secondaryHandEffector, addr 0x139d554, size 0x3c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_secondaryHandEffector();
 
 protected:

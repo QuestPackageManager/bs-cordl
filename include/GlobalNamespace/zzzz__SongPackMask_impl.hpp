@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::StringW)>(&::GlobalNamespace::SongPackMask::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1380684;
+  constexpr static std::size_t addrs = 0x13abc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::BitMask256)>(&::GlobalNamespace::SongPackMask::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13806fc;
+  constexpr static std::size_t addrs = 0x13abcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::SongPackMask::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1380708;
+  constexpr static std::size_t addrs = 0x13abce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (*)()>(&::GlobalNamespace::SongPackMask::get_all)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1380780;
+  constexpr static std::size_t addrs = 0x13abd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPackMask>::get(), "get_all",
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x138078c;
+  constexpr static std::size_t addrs = 0x13abd6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x13807a4;
+  constexpr static std::size_t addrs = 0x13abd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::op_Equality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x13807bc;
+  constexpr static std::size_t addrs = 0x13abd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::op_Inequality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x1380808;
+  constexpr static std::size_t addrs = 0x13abde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (*)(::StringW)>(
     &::GlobalNamespace::SongPackMask::op_Implicit___GlobalNamespace__SongPackMask)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1380854;
+  constexpr static std::size_t addrs = 0x13abe34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::Contains)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1380868;
+  constexpr static std::size_t addrs = 0x13abe48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::DifferenceFrom)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x13808bc;
+  constexpr static std::size_t addrs = 0x13abe9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::SongPackMask::Serialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1380930;
+  constexpr static std::size_t addrs = 0x13abf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (::GlobalNamespace::SongPackMask::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SongPackMask::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1380934;
+  constexpr static std::size_t addrs = 0x13abf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SongPackMask::Deserialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1380960;
+  constexpr static std::size_t addrs = 0x13abf40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SongPackMask::*)()>(&::GlobalNamespace::SongPackMask::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1380988;
+  constexpr static std::size_t addrs = 0x13abf68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SongPackMask::*)()>(&::GlobalNamespace::SongPackMask::ToShortString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1380a00;
+  constexpr static std::size_t addrs = 0x13abfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPackMask>::get(), "ToShortString",
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::SongPackMask::*)()>(
     &::GlobalNamespace::SongPackMask::ToBytes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1380a60;
+  constexpr static std::size_t addrs = 0x13ac040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPackMask>::get(), "ToBytes",
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SongPackMask::*)()>(&::GlobalNamespace::SongPackMask::GetHashCode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1380ac0;
+  constexpr static std::size_t addrs = 0x13ac0a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x1380ac4;
+  constexpr static std::size_t addrs = 0x13ac0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongPackMask::*)(::System::Object*)>(&::GlobalNamespace::SongPackMask::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x1380b10;
+  constexpr static std::size_t addrs = 0x13ac0f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::GlobalNamespace::SongPackMask>)>(&::GlobalNamespace::SongPackMask::TryParse)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x1380bc0;
+  constexpr static std::size_t addrs = 0x13ac1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (*)(::StringW)>(&::GlobalNamespace::SongPackMask::Parse)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x1380cf0;
+  constexpr static std::size_t addrs = 0x13ac2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::GlobalNamespace::SongPackMask::FromBytes)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1380d8c;
+  constexpr static std::size_t addrs = 0x13ac36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

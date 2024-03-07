@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_verticalWeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1323890, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134bde8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13238a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134bdf8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight);
 
 protected:
@@ -149,45 +149,45 @@ public:
   /// @brief Field spineSpeed, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_spineSpeed, put = __cordl_internal_set_spineSpeed)) float_t spineSpeed;
 
-  /// @brief Method FixedUpdate, addr 0x1322c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x134b198, size 0xc, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Initiate, addr 0x1322a2c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x134af84, size 0x214, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method IsReadyToInitiate, addr 0x1322948, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiate, addr 0x134aea0, size 0x88, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method LateUpdate, addr 0x1322c4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x134b1a4, size 0xc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::RootMotion::FinalIK::GrounderFBBIK* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x13236ec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x134bc44, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x13235b8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x134bb10, size 0x134, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnSolverUpdate, addr 0x1322ecc, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method OnSolverUpdate, addr 0x134b424, size 0x374, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method OpenScriptReference, addr 0x1322824, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x134ad7c, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial, addr 0x132279c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial, addr 0x134acf4, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial();
 
-  /// @brief Method OpenUserManual, addr 0x13227e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x134ad38, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method ResetPosition, addr 0x1322868, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x134adc0, size 0x68, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method SetLegIK, addr 0x1323434, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SetLegIK, addr 0x134b98c, size 0x184, virtual false, abstract: false, final false
   inline void SetLegIK(::RootMotion::FinalIK::IKEffector* effector, ::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  /// @brief Method Update, addr 0x13229d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x134af28, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
@@ -232,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_spineSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x1323800, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134bd58, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

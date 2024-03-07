@@ -276,13 +276,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0* New_ctor();
 
-  /// @brief Method <UpdateCurveInputForCustomAttributes>b__0, addr 0x22b622c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCurveInputForCustomAttributes>b__0, addr 0x2317004, size 0x1c4, virtual false, abstract: false, final false
   inline void _UpdateCurveInputForCustomAttributes_b__0(::HoudiniEngineUnity::CurveNodeData* data);
 
-  /// @brief Method <UpdateCurveInputForCustomAttributes>b__1, addr 0x22b63f0, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCurveInputForCustomAttributes>b__1, addr 0x23171c8, size 0x3c8, virtual false, abstract: false, final false
   inline void _UpdateCurveInputForCustomAttributes_b__1(int32_t nIndex1, int32_t nIndex2, float_t fCoeff, int32_t nInsertIndex);
 
-  /// @brief Method <UpdateCurveInputForCustomAttributes>b__2, addr 0x22b67b8, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCurveInputForCustomAttributes>b__2, addr 0x2317590, size 0x2d4, virtual false, abstract: false, final false
   inline void _UpdateCurveInputForCustomAttributes_b__2(int32_t nIndex, int32_t nInsertIndex);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_positions();
@@ -303,7 +303,7 @@ public:
 
   constexpr void __cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x22b4324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23150fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -357,7 +357,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0* New_ctor();
 
-  /// @brief Method <UpdatePoints>b__0, addr 0x22b6a8c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <UpdatePoints>b__0, addr 0x2317864, size 0x120, virtual false, abstract: false, final false
   inline void _UpdatePoints_b__0(::HoudiniEngineUnity::CurveNodeData* data);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_rotations();
@@ -372,7 +372,7 @@ public:
 
   constexpr void __cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x22b4dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2315bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -418,7 +418,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0* New_ctor();
 
-  /// @brief Method <GetAllPoints>b__0, addr 0x22b6bac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <GetAllPoints>b__0, addr 0x2317984, size 0xb8, virtual false, abstract: false, final false
   inline void _GetAllPoints_b__0(::HoudiniEngineUnity::CurveNodeData* transform);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_points();
@@ -427,7 +427,7 @@ public:
 
   constexpr void __cordl_internal_set_points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x22b57f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23165c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -527,111 +527,111 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*() noexcept;
 
-  /// @brief Method CreateSetupCurve, addr 0x22b2114, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CreateSetupCurve, addr 0x2312eec, size 0x184, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
 
-  /// @brief Method DestroyAllData, addr 0x22b236c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllData, addr 0x2313144, size 0x14c, virtual false, abstract: false, final false
   inline void DestroyAllData(bool bIsRebuild);
 
-  /// @brief Method DownloadAsDefaultPresetData, addr 0x22b5b80, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DownloadAsDefaultPresetData, addr 0x2316958, size 0x98, virtual false, abstract: false, final false
   inline void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DownloadPresetData, addr 0x22b4d64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DownloadPresetData, addr 0x2315b3c, size 0x98, virtual false, abstract: false, final false
   inline void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DuplicateCurveNodeData, addr 0x22b5c18, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method DuplicateCurveNodeData, addr 0x23169f0, size 0x224, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* DuplicateCurveNodeData();
 
-  /// @brief Method GenerateMesh, addr 0x22b29c4, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GenerateMesh, addr 0x231379c, size 0x3b4, virtual false, abstract: false, final false
   inline void GenerateMesh(::UnityEngine::GameObject* inGameObject);
 
-  /// @brief Method GetAllPointTransforms, addr 0x22b56c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAllPointTransforms, addr 0x23164a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* GetAllPointTransforms();
 
-  /// @brief Method GetAllPoints, addr 0x22b56d0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAllPoints, addr 0x23164a8, size 0x120, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetAllPoints();
 
-  /// @brief Method GetCurvePoint, addr 0x22b55f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetCurvePoint, addr 0x23163d0, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCurvePoint(int32_t pointIndex);
 
-  /// @brief Method GetInvertedTransformedDirection, addr 0x22b59a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetInvertedTransformedDirection, addr 0x2316780, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetInvertedTransformedDirection(::UnityEngine::Vector3 inPosition);
 
-  /// @brief Method GetInvertedTransformedPosition, addr 0x22b5958, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetInvertedTransformedPosition, addr 0x2316730, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetInvertedTransformedPosition(::UnityEngine::Vector3 inPosition);
 
-  /// @brief Method GetNumPoints, addr 0x22b57f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetNumPoints, addr 0x23165d0, size 0x48, virtual false, abstract: false, final false
   inline int32_t GetNumPoints();
 
-  /// @brief Method GetPointsString, addr 0x22b52dc, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetPointsString, addr 0x23160b4, size 0x274, virtual false, abstract: false, final false
   static inline ::StringW GetPointsString(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* points);
 
-  /// @brief Method GetPointsString, addr 0x22b432c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method GetPointsString, addr 0x2315104, size 0x260, virtual false, abstract: false, final false
   static inline ::StringW GetPointsString(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points);
 
-  /// @brief Method GetTransformedPoint, addr 0x22b5840, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetTransformedPoint, addr 0x2316618, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetTransformedPoint(int32_t pointIndex);
 
-  /// @brief Method GetTransformedPosition, addr 0x22b5908, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetTransformedPosition, addr 0x23166e0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetTransformedPosition(::UnityEngine::Vector3 inPosition);
 
-  /// @brief Method GetVertices, addr 0x22b59f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVertices, addr 0x23167d0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetVertices();
 
-  /// @brief Method IsEditable, addr 0x22b20d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEditable, addr 0x2312eb0, size 0x8, virtual false, abstract: false, final false
   inline bool IsEditable();
 
-  /// @brief Method IsEquivalentTo, addr 0x22b5e44, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2316c1c, size 0x36c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Curve* other);
 
-  /// @brief Method IsGeoCurve, addr 0x22b20fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsGeoCurve, addr 0x2312ed4, size 0x8, virtual false, abstract: false, final false
   inline bool IsGeoCurve();
 
   static inline ::HoudiniEngineUnity::HEU_Curve* New_ctor();
 
-  /// @brief Method ProjectToColliders, addr 0x22b4e04, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method ProjectToColliders, addr 0x2315bdc, size 0x4d8, virtual false, abstract: false, final false
   inline void ProjectToColliders(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::UnityEngine::Vector3 rayDirection, float_t rayDistance);
 
-  /// @brief Method ResetCurveParameters, addr 0x22b263c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ResetCurveParameters, addr 0x2313414, size 0xd0, virtual false, abstract: false, final false
   inline void ResetCurveParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method SetCurveGeometryVisibility, addr 0x22b5a00, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetCurveGeometryVisibility, addr 0x23167d8, size 0xe8, virtual false, abstract: false, final false
   inline void SetCurveGeometryVisibility(bool bVisible);
 
-  /// @brief Method SetCurveName, addr 0x22b24b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetCurveName, addr 0x2313290, size 0x9c, virtual false, abstract: false, final false
   inline void SetCurveName(::StringW name);
 
-  /// @brief Method SetCurveNodeData, addr 0x22b5e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurveNodeData, addr 0x2316c14, size 0x8, virtual false, abstract: false, final false
   inline void SetCurveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* curveNodeData);
 
-  /// @brief Method SetCurveParameterPreset, addr 0x22b270c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetCurveParameterPreset, addr 0x23134e4, size 0xd0, virtual false, abstract: false, final false
   inline void SetCurveParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::ArrayW<uint8_t, ::Array<uint8_t>*> parameterPreset);
 
-  /// @brief Method SetCurvePoint, addr 0x22b5558, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetCurvePoint, addr 0x2316330, size 0xa0, virtual false, abstract: false, final false
   inline void SetCurvePoint(int32_t pointIndex, ::UnityEngine::Vector3 newPosition);
 
-  /// @brief Method SetEditState, addr 0x22b5550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEditState, addr 0x2316328, size 0x8, virtual false, abstract: false, final false
   inline void SetEditState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState editState);
 
-  /// @brief Method SetUploadParameterPreset, addr 0x22b20e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetUploadParameterPreset, addr 0x2312ec0, size 0xc, virtual false, abstract: false, final false
   inline void SetUploadParameterPreset(bool bValue);
 
-  /// @brief Method SyncFromParameters, addr 0x22b458c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method SyncFromParameters, addr 0x2315364, size 0x274, virtual false, abstract: false, final false
   inline void SyncFromParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method UpdateCurve, addr 0x22b27dc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method UpdateCurve, addr 0x23135b4, size 0x1e8, virtual false, abstract: false, final false
   inline void UpdateCurve(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID);
 
-  /// @brief Method UpdateCurveInputForCustomAttributes, addr 0x22b2d78, size 0x15ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateCurveInputForCustomAttributes, addr 0x2313b50, size 0x15ac, virtual false, abstract: false, final false
   inline bool UpdateCurveInputForCustomAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method UpdatePoints, addr 0x22b4800, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method UpdatePoints, addr 0x23155d8, size 0x564, virtual false, abstract: false, final false
   inline void UpdatePoints(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID);
 
-  /// @brief Method UploadParameterPreset, addr 0x22b2554, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UploadParameterPreset, addr 0x231332c, size 0xe8, virtual false, abstract: false, final false
   inline void UploadParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method UploadPresetData, addr 0x22b5ae8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UploadPresetData, addr 0x23168c0, size 0x98, virtual false, abstract: false, final false
   inline void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr bool const& __cordl_internal_get__bUploadParameterPreset() const;
@@ -700,27 +700,27 @@ public:
 
   constexpr void __cordl_internal_set__vertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x22b61b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2316f88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__HEU_Curve__Interaction getStaticF_PreferredNextInteractionMode();
 
-  /// @brief Method get_CurveName, addr 0x22b20f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveName, addr 0x2312ecc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurveName();
 
-  /// @brief Method get_CurveNodeData, addr 0x22b20d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveNodeData, addr 0x2312ea8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* get_CurveNodeData();
 
-  /// @brief Method get_EditState, addr 0x22b2104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditState, addr 0x2312edc, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_Curve__CurveEditState get_EditState();
 
-  /// @brief Method get_GeoID, addr 0x22b20c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeoID, addr 0x2312ea0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GeoID();
 
-  /// @brief Method get_Parameters, addr 0x22b20e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x2312eb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Parameters> get_Parameters();
 
-  /// @brief Method get_ParentAsset, addr 0x22b210c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentAsset, addr 0x2312ee4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"

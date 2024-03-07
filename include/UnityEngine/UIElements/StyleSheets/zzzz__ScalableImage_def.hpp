@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ScalableImage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2ef4934, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f4e16c, size 0x164, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

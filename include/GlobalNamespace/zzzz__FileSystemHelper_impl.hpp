@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::FindFirstExistedParentPath)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0xe8cd70;
+  constexpr static std::size_t addrs = 0xea98c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Security::AccessControl::FileSystemSecurity*)>(
     &::GlobalNamespace::FileSystemHelper::HasWritePermission)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0xe8ce00;
+  constexpr static std::size_t addrs = 0xea9954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::HasWritePermissionOnDirectory)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0xe8d198;
+  constexpr static std::size_t addrs = 0xea9cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::HasWritePermissionOnFile)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0xe8d1ac;
+  constexpr static std::size_t addrs = 0xea9d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::IsFileWritable)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0xe8d1c0;
+  constexpr static std::size_t addrs = 0xea9d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

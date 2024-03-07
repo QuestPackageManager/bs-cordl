@@ -32,22 +32,22 @@ public:
   /// @brief Field name, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
-  /// @brief Method AreEqual, addr 0x2a62600, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x2ac3e38, size 0x1f4, virtual false, abstract: false, final false
   static inline bool AreEqual(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name1, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name2);
 
-  /// @brief Method Canonize, addr 0x2a62434, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Canonize, addr 0x2ac3c6c, size 0x1cc, virtual false, abstract: false, final false
   static inline ::StringW Canonize(::StringW s);
 
-  /// @brief Method Decode, addr 0x2a6220c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2ac3a44, size 0x158, virtual false, abstract: false, final false
   inline ::StringW Decode(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
 
-  /// @brief Method DecodeRawData, addr 0x2a6210c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DecodeRawData, addr 0x2ac3944, size 0xf8, virtual false, abstract: false, final false
   inline void DecodeRawData();
 
-  /// @brief Method Format, addr 0x2a623d8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Format, addr 0x2ac3c10, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW Format(bool multiLine);
 
-  /// @brief Method GetSeparator, addr 0x2a62364, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSeparator, addr 0x2ac3b9c, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetSeparator(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
 
   static inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encodedDistinguishedName);
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a61ffc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac3834, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encodedDistinguishedName);
 
-  /// @brief Method get_Name, addr 0x2a62204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ac3a3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

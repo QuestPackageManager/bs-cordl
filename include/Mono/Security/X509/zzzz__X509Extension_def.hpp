@@ -44,26 +44,26 @@ public:
   /// @brief Field extnValue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_extnValue, put = __cordl_internal_set_extnValue))::Mono::Security::ASN1* extnValue;
 
-  /// @brief Method Decode, addr 0x24ebadc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x25512d8, size 0x4, virtual true, abstract: false, final false
   inline void Decode();
 
-  /// @brief Method Encode, addr 0x24ebae0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x25512dc, size 0x4, virtual true, abstract: false, final false
   inline void Encode();
 
-  /// @brief Method Equals, addr 0x24ebaf4, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25512f0, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x24ebc38, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2551434, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::ASN1* asn1);
 
   static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method ToString, addr 0x24ebe80, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x255167c, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method WriteLine, addr 0x24ebc58, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x2551454, size 0x228, virtual false, abstract: false, final false
   inline void WriteLine(::System::Text::StringBuilder* sb, int32_t n, int32_t pos);
 
   constexpr bool const& __cordl_internal_get_extnCritical() const;
@@ -84,19 +84,19 @@ public:
 
   constexpr void __cordl_internal_set_extnValue(::Mono::Security::ASN1* value);
 
-  /// @brief Method .ctor, addr 0x24eb698, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2550e94, size 0x2cc, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x24eb964, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2551160, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method get_Critical, addr 0x24ebaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Critical, addr 0x25512e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Critical();
 
-  /// @brief Method get_Oid, addr 0x24ebae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x25512e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Oid();
 
-  /// @brief Method get_Value, addr 0x24ebab0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25512ac, size 0x2c, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_Value();
 
 protected:

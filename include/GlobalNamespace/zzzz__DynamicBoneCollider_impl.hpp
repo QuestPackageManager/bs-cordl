@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DynamicBoneCollider::*)()>(&::GlobalNamespace::DynamicBoneCollider::OnValidate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x130c1e0;
+  constexpr static std::size_t addrs = 0x1334738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneCollider*>::get(), "OnValidate",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DynamicBoneCollider::*)(ByRef<::UnityEngine::Vector3>, float_t)>(
     &::GlobalNamespace::DynamicBoneCollider::Collide)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x130c1f8;
+  constexpr static std::size_t addrs = 0x1334750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, float_t, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::DynamicBoneCollider::OutsideSphere)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x130c3ec;
+  constexpr static std::size_t addrs = 0x1334944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, float_t, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::DynamicBoneCollider::InsideSphere)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x130c44c;
+  constexpr static std::size_t addrs = 0x13349a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::DynamicBoneCollider::OutsideCapsule)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x130c4a4;
+  constexpr static std::size_t addrs = 0x13349fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::DynamicBoneCollider::InsideCapsule)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x130c618;
+  constexpr static std::size_t addrs = 0x1334b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DynamicBoneCollider::*)()>(&::GlobalNamespace::DynamicBoneCollider::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x130c774;
+  constexpr static std::size_t addrs = 0x1334ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneCollider*>::get(),
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DynamicBoneCollider::*)()>(&::GlobalNamespace::DynamicBoneCollider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x130c910;
+  constexpr static std::size_t addrs = 0x1334e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneCollider*>::get(), ".ctor",

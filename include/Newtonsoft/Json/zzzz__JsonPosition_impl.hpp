@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonPosition::*)(::Newtonsoft::Json::JsonContainerType)>(
     &::Newtonsoft::Json::JsonPosition::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x27322f4;
+  constexpr static std::size_t addrs = 0x27925b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonPosition::*)()>(&::Newtonsoft::Json::JsonPosition::CalculateLength)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2732380;
+  constexpr static std::size_t addrs = 0x279263c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonPosition>::get(), "CalculateLength",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonPosition::*)(::System::Text::StringBuilder*)>(
     &::Newtonsoft::Json::JsonPosition::WriteTo)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2732418;
+  constexpr static std::size_t addrs = 0x27926d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonContainerType)>(&::Newtonsoft::Json::JsonPosition::TypeHasIndex)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2732370;
+  constexpr static std::size_t addrs = 0x279262c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition>)>(&::Newtonsoft::Json::JsonPosition::BuildPath)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x2732580;
+  constexpr static std::size_t addrs = 0x279283c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::IJsonLineInfo*, ::StringW, ::StringW)>(
     &::Newtonsoft::Json::JsonPosition::FormatMessage)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x2731f80;
+  constexpr static std::size_t addrs = 0x279223c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

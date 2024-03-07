@@ -49,29 +49,29 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x291e4b0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2980ce8, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x291e564, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2980d9c, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor(::StringW scheme, ::StringW parameter);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x291e4a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2980ce0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x291ec14, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x298144c, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x291e80c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2981044, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*> result);
 
-  /// @brief Method TryParse, addr 0x291e5e0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2980e18, size 0xd0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x291e6d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2980f10, size 0x134, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__Scheme_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x291e480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2980cb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x291e44c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2980c84, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW scheme, ::StringW parameter);
 
-  /// @brief Method get_Parameter, addr 0x291e488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameter, addr 0x2980cc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Parameter();
 
-  /// @brief Method get_Scheme, addr 0x291e498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scheme, addr 0x2980cd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Scheme();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Parameter, addr 0x291e490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parameter, addr 0x2980cc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Parameter(::StringW value);
 
-  /// @brief Method set_Scheme, addr 0x291e4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scheme, addr 0x2980cd8, size 0x8, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
 protected:

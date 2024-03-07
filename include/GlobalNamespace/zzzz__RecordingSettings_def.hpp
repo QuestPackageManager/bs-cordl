@@ -135,7 +135,7 @@ public:
            bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType,
            ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat);
 
-  /// @brief Method ToString, addr 0x2404fe0, size 0xa74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x246a558, size 0xa74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_addDateTimeSuffixToRecordingName() const;
@@ -278,7 +278,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x2403d38, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24693bc, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode,
                     ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording,

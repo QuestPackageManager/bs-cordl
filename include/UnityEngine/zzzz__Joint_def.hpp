@@ -57,108 +57,108 @@ public:
 
   __declspec(property(get = get_massScale, put = set_massScale)) float_t massScale;
 
-  /// @brief Method GetCurrentForces, addr 0x2e20c94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentForces, addr 0x2e7c4cc, size 0x54, virtual false, abstract: false, final false
   inline void GetCurrentForces(ByRef<::UnityEngine::Vector3> linearForce, ByRef<::UnityEngine::Vector3> angularForce);
 
   static inline ::UnityEngine::Joint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e1e344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e79b7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anchor, addr 0x2e20684, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_anchor, addr 0x2e7bebc, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_anchor();
 
-  /// @brief Method get_anchor_Injected, addr 0x2e206e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_anchor_Injected, addr 0x2e7bf18, size 0x44, virtual false, abstract: false, final false
   inline void get_anchor_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_autoConfigureConnectedAnchor, addr 0x2e208f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_autoConfigureConnectedAnchor, addr 0x2e7c12c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_autoConfigureConnectedAnchor();
 
-  /// @brief Method get_axis, addr 0x2e2054c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x2e7bd84, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_axis();
 
-  /// @brief Method get_axis_Injected, addr 0x2e205a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_axis_Injected, addr 0x2e7bde0, size 0x44, virtual false, abstract: false, final false
   inline void get_axis_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_breakForce, addr 0x2e20974, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_breakForce, addr 0x2e7c1ac, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_breakForce();
 
-  /// @brief Method get_breakTorque, addr 0x2e209fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_breakTorque, addr 0x2e7c234, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_breakTorque();
 
-  /// @brief Method get_connectedAnchor, addr 0x2e207bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_connectedAnchor, addr 0x2e7bff4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_connectedAnchor();
 
-  /// @brief Method get_connectedAnchor_Injected, addr 0x2e20818, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_connectedAnchor_Injected, addr 0x2e7c050, size 0x44, virtual false, abstract: false, final false
   inline void get_connectedAnchor_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_connectedArticulationBody, addr 0x2e204cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_connectedArticulationBody, addr 0x2e7bd04, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_connectedArticulationBody();
 
-  /// @brief Method get_connectedBody, addr 0x2e2044c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_connectedBody, addr 0x2e7bc84, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_connectedBody();
 
-  /// @brief Method get_connectedMassScale, addr 0x2e20c0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_connectedMassScale, addr 0x2e7c444, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_connectedMassScale();
 
-  /// @brief Method get_currentForce, addr 0x2e20ce8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_currentForce, addr 0x2e7c520, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentForce();
 
-  /// @brief Method get_currentTorque, addr 0x2e20da0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_currentTorque, addr 0x2e7c5d8, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentTorque();
 
-  /// @brief Method get_enableCollision, addr 0x2e20a84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enableCollision, addr 0x2e7c2bc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enableCollision();
 
-  /// @brief Method get_enablePreprocessing, addr 0x2e20b04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enablePreprocessing, addr 0x2e7c33c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enablePreprocessing();
 
-  /// @brief Method get_massScale, addr 0x2e20b84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_massScale, addr 0x2e7c3bc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_massScale();
 
-  /// @brief Method set_anchor, addr 0x2e20724, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_anchor, addr 0x2e7bf5c, size 0x54, virtual false, abstract: false, final false
   inline void set_anchor(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_anchor_Injected, addr 0x2e20778, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_anchor_Injected, addr 0x2e7bfb0, size 0x44, virtual false, abstract: false, final false
   inline void set_anchor_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_autoConfigureConnectedAnchor, addr 0x2e20930, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_autoConfigureConnectedAnchor, addr 0x2e7c168, size 0x44, virtual false, abstract: false, final false
   inline void set_autoConfigureConnectedAnchor(bool value);
 
-  /// @brief Method set_axis, addr 0x2e205ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_axis, addr 0x2e7be24, size 0x54, virtual false, abstract: false, final false
   inline void set_axis(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_axis_Injected, addr 0x2e20640, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_axis_Injected, addr 0x2e7be78, size 0x44, virtual false, abstract: false, final false
   inline void set_axis_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_breakForce, addr 0x2e209b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_breakForce, addr 0x2e7c1e8, size 0x4c, virtual false, abstract: false, final false
   inline void set_breakForce(float_t value);
 
-  /// @brief Method set_breakTorque, addr 0x2e20a38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_breakTorque, addr 0x2e7c270, size 0x4c, virtual false, abstract: false, final false
   inline void set_breakTorque(float_t value);
 
-  /// @brief Method set_connectedAnchor, addr 0x2e2085c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_connectedAnchor, addr 0x2e7c094, size 0x54, virtual false, abstract: false, final false
   inline void set_connectedAnchor(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_connectedAnchor_Injected, addr 0x2e208b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_connectedAnchor_Injected, addr 0x2e7c0e8, size 0x44, virtual false, abstract: false, final false
   inline void set_connectedAnchor_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_connectedArticulationBody, addr 0x2e20508, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_connectedArticulationBody, addr 0x2e7bd40, size 0x44, virtual false, abstract: false, final false
   inline void set_connectedArticulationBody(::UnityEngine::ArticulationBody* value);
 
-  /// @brief Method set_connectedBody, addr 0x2e20488, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_connectedBody, addr 0x2e7bcc0, size 0x44, virtual false, abstract: false, final false
   inline void set_connectedBody(::UnityEngine::Rigidbody* value);
 
-  /// @brief Method set_connectedMassScale, addr 0x2e20c48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_connectedMassScale, addr 0x2e7c480, size 0x4c, virtual false, abstract: false, final false
   inline void set_connectedMassScale(float_t value);
 
-  /// @brief Method set_enableCollision, addr 0x2e20ac0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enableCollision, addr 0x2e7c2f8, size 0x44, virtual false, abstract: false, final false
   inline void set_enableCollision(bool value);
 
-  /// @brief Method set_enablePreprocessing, addr 0x2e20b40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enablePreprocessing, addr 0x2e7c378, size 0x44, virtual false, abstract: false, final false
   inline void set_enablePreprocessing(bool value);
 
-  /// @brief Method set_massScale, addr 0x2e20bc0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_massScale, addr 0x2e7c3f8, size 0x4c, virtual false, abstract: false, final false
   inline void set_massScale(float_t value);
 
 protected:

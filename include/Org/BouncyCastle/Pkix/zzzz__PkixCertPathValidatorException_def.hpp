@@ -67,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1171524, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196c28, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1171530, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196c34, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x115d2a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11829a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
-  /// @brief Method .ctor, addr 0x1167168, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118c86c, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method get_CertPath, addr 0x1171570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x1196c74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
-  /// @brief Method get_Index, addr 0x1171578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x1196c7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Message, addr 0x117153c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x1196c40, size 0x34, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

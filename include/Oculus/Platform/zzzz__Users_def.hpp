@@ -53,49 +53,49 @@ namespace Oculus::Platform {
 class CORDL_TYPE Users : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x27be1dc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2820bf8, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* Get(uint64_t userID);
 
-  /// @brief Method GetAccessToken, addr 0x27ea774, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetAccessToken, addr 0x284d190, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::StringW>* GetAccessToken();
 
-  /// @brief Method GetBlockedUsers, addr 0x27ea8cc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetBlockedUsers, addr 0x284d2e8, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* GetBlockedUsers();
 
-  /// @brief Method GetLoggedInUser, addr 0x27bdcec, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetLoggedInUser, addr 0x2820708, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* GetLoggedInUser();
 
-  /// @brief Method GetLoggedInUserFriends, addr 0x27eaa24, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetLoggedInUserFriends, addr 0x284d440, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetLoggedInUserFriends();
 
-  /// @brief Method GetLoggedInUserLocale, addr 0x27ea6a0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetLoggedInUserLocale, addr 0x284d0bc, size 0xd4, virtual false, abstract: false, final false
   static inline ::StringW GetLoggedInUserLocale();
 
-  /// @brief Method GetNextBlockedUserListPage, addr 0x27eb3ac, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextBlockedUserListPage, addr 0x284ddc8, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* GetNextBlockedUserListPage(::Oculus::Platform::Models::BlockedUserList* list);
 
-  /// @brief Method GetNextUserCapabilityListPage, addr 0x27eb764, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextUserCapabilityListPage, addr 0x284e180, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserCapabilityList*>* GetNextUserCapabilityListPage(::Oculus::Platform::Models::UserCapabilityList* list);
 
-  /// @brief Method GetNextUserListPage, addr 0x27eb588, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextUserListPage, addr 0x284dfa4, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetNextUserListPage(::Oculus::Platform::Models::UserList* list);
 
-  /// @brief Method GetOrgScopedID, addr 0x27eab7c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetOrgScopedID, addr 0x284d598, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::OrgScopedID*>* GetOrgScopedID(uint64_t userID);
 
-  /// @brief Method GetSdkAccounts, addr 0x27eacdc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetSdkAccounts, addr 0x284d6f8, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::SdkAccountList*>* GetSdkAccounts();
 
-  /// @brief Method GetUserProof, addr 0x27eae34, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetUserProof, addr 0x284d850, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserProof*>* GetUserProof();
 
-  /// @brief Method LaunchBlockFlow, addr 0x27eaf8c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LaunchBlockFlow, addr 0x284d9a8, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchBlockFlowResult*>* LaunchBlockFlow(uint64_t userID);
 
-  /// @brief Method LaunchFriendRequestFlow, addr 0x27eb0ec, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LaunchFriendRequestFlow, addr 0x284db08, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* LaunchFriendRequestFlow(uint64_t userID);
 
-  /// @brief Method LaunchUnblockFlow, addr 0x27eb24c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LaunchUnblockFlow, addr 0x284dc68, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*>* LaunchUnblockFlow(uint64_t userID);
 
 protected:

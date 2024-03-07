@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get__standardSceneSetupData,
                       put = __cordl_internal_set__standardSceneSetupData))::GlobalNamespace::StandardGameplaySceneSetupData* _standardSceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x249d814, size 0x364, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x25066e0, size 0x364, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::StandardGameplayInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x249db78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2506a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelsModel;
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 class IMenuRpcManager;
@@ -73,10 +73,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x272bf5c, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x278c218, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x272c1bc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x278c478, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -139,10 +139,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x272c1c8, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x278c484, size 0x278, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x272c440, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x278c6fc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -210,36 +210,36 @@ public:
   /// @brief Field _additionalContentModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::IBeatmapLevelsModel* _beatmapLevelsModel;
+  /// @brief Field _entitlementModel, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__entitlementModel, put = __cordl_internal_set__entitlementModel))::GlobalNamespace::IEntitlementModel* _entitlementModel;
 
   /// @brief Field _rpcManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager))::GlobalNamespace::IMenuRpcManager* _rpcManager;
 
-  /// @brief Method GetEntitlementStatus, addr 0x272be58, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetEntitlementStatus, addr 0x278c114, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
 
-  /// @brief Method HandleDataInvalidated, addr 0x272bd18, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleDataInvalidated, addr 0x278bfd4, size 0xa4, virtual false, abstract: false, final false
   inline void HandleDataInvalidated();
 
-  /// @brief Method HandleGetIsEntitledToLevel, addr 0x272bdbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleGetIsEntitledToLevel, addr 0x278c078, size 0x9c, virtual false, abstract: false, final false
   inline void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
 
   static inline ::GlobalNamespace::NetworkPlayerEntitlementChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x272bb4c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x278be08, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x272ba5c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x278bd18, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr ::GlobalNamespace::IBeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
+  constexpr ::GlobalNamespace::IEntitlementModel*& __cordl_internal_get__entitlementModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEntitlementModel*> const& __cordl_internal_get__entitlementModel() const;
 
   constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__rpcManager();
 
@@ -247,11 +247,11 @@ public:
 
   constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::IBeatmapLevelsModel* value);
+  constexpr void __cordl_internal_set__entitlementModel(::GlobalNamespace::IEntitlementModel* value);
 
   constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  /// @brief Method .ctor, addr 0x272bf54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x278c210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -274,8 +274,8 @@ public:
   /// @brief Field _additionalContentModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatmapLevelsModel* ____beatmapLevelsModel;
+  /// @brief Field _entitlementModel, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -286,7 +286,7 @@ static_assert(offsetof(::GlobalNamespace::NetworkPlayerEntitlementChecker, ____r
 
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerEntitlementChecker, ____additionalContentModel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NetworkPlayerEntitlementChecker, ____beatmapLevelsModel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerEntitlementChecker, ____entitlementModel) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkPlayerEntitlementChecker);

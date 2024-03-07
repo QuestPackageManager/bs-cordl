@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_upperBoneForwardAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x13120f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133a648, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 upperBoneForwardAxis, ::UnityEngine::Vector3 lowerBoneForwardAxis, ::UnityEngine::Vector3 lastBoneLeftAxis);
 
 protected:
@@ -146,14 +146,14 @@ public:
 
   constexpr void __cordl_internal_set_rightLeg(::RootMotion::__BipedLimbOrientations__LimbOrientation* value);
 
-  /// @brief Method .ctor, addr 0x1311dfc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133a354, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::RootMotion::__BipedLimbOrientations__LimbOrientation* leftArm, ::RootMotion::__BipedLimbOrientations__LimbOrientation* rightArm,
                     ::RootMotion::__BipedLimbOrientations__LimbOrientation* leftLeg, ::RootMotion::__BipedLimbOrientations__LimbOrientation* rightLeg);
 
-  /// @brief Method get_MaxBiped, addr 0x1312164, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method get_MaxBiped, addr 0x133a6bc, size 0x2b4, virtual false, abstract: false, final false
   static inline ::RootMotion::BipedLimbOrientations* get_MaxBiped();
 
-  /// @brief Method get_UMA, addr 0x1311e3c, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method get_UMA, addr 0x133a394, size 0x2b4, virtual false, abstract: false, final false
   static inline ::RootMotion::BipedLimbOrientations* get_UMA();
 
 protected:

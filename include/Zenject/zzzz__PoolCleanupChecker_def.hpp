@@ -55,16 +55,16 @@ public:
 
   static inline ::Zenject::__PoolCleanupChecker____c* New_ctor();
 
-  /// @brief Method <.ctor>b__2_0, addr 0x2ff8c9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_0, addr 0x30504d4, size 0x6c, virtual false, abstract: false, final false
   inline bool __ctor_b__2_0(::System::Type* x);
 
-  /// @brief Method __zenCreate, addr 0x2ff8d08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3050540, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ff8d64, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x305059c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x2ff8c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30504cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::__PoolCleanupChecker____c* getStaticF___9();
@@ -114,7 +114,7 @@ public:
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
 
-  /// @brief Method LateDispose, addr 0x2ff843c, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method LateDispose, addr 0x304fc74, size 0x3d4, virtual true, abstract: false, final true
   inline void LateDispose();
 
   static inline ::Zenject::PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
@@ -132,13 +132,13 @@ public:
 
   constexpr void __cordl_internal_set__poolFactories(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* value);
 
-  /// @brief Method __zenCreate, addr 0x2ff8810, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3050048, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ff892c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3050164, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x2ff8320, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x304fb58, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
 
   /// @brief Convert to "::Zenject::ILateDisposable"

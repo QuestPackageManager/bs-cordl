@@ -10,6 +10,7 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -59,6 +60,9 @@ template <typename TResult> struct TaskAwaiter_1;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
+namespace System {
+class Version;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapDataLoader;
@@ -74,7 +78,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataLoader);
 MARK_VAL_T(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1);
 MARK_VAL_T(::GlobalNamespace::__BeatmapDataLoader___LoadBeatmapDataAsync_d__4);
 // Type: ::<LoadBasicBeatmapDataAsync>d__1
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BeatmapDataLoader::<LoadBasicBeatmapDataAsync>d__1
@@ -84,10 +88,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12ba008, size 0x538, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12e1260, size 0x628, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12ba540, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12e1888, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -100,13 +104,15 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelData", ty:
   // "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "_beatmapJson_5__2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value:
+  // None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: None }]
   constexpr __BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1(int32_t __1__state,
                                                                  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*> __t__builder,
-                                                                 ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey,
+                                                                 ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, ::StringW _beatmapJson_5__2,
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
-                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__2) noexcept;
+                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*> __u__2,
+                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__3) noexcept;
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -120,19 +126,25 @@ public:
   /// @brief Field beatmapKey, offset: 0x28, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field <beatmapJson>5__2, offset: 0x40, size: 0x8, def value: None
+  ::StringW _beatmapJson_5__2;
+
+  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
-  /// @brief Field <>u__2, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__2;
+  /// @brief Field <>u__2, offset: 0x50, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*> __u__2;
+
+  /// @brief Field <>u__3, offset: 0x58, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__3;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, 0x60>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, __1__state) == 0x0, "Offset mismatch!");
 
@@ -142,9 +154,13 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmap
 
 static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, beatmapKey) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, _beatmapJson_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, __u__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, __u__1) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, __u__2) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapDataLoader___LoadBasicBeatmapDataAsync_d__1, __u__3) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<LoadBeatmapDataAsync>d__4
@@ -158,10 +174,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12ba598, size 0xb24, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12e18e0, size 0xb28, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12bb1b8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12e2504, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -276,22 +292,22 @@ public:
   /// @brief Field _lastUsedBeatmapDataCache, offset 0x10, size 0x38
   __declspec(property(get = __cordl_internal_get__lastUsedBeatmapDataCache, put = __cordl_internal_set__lastUsedBeatmapDataCache))::GlobalNamespace::LastUsedBeatmapDataCache _lastUsedBeatmapDataCache;
 
-  /// @brief Method LoadBasicBeatmapData, addr 0x12b994c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapData, addr 0x12e0ba4, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataBasicInfo* LoadBasicBeatmapData(::StringW beatmapJson);
 
-  /// @brief Method LoadBasicBeatmapData, addr 0x12b987c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapData, addr 0x12e0ad4, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataBasicInfo* LoadBasicBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x12b9774, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x12e09cc, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* LoadBasicBeatmapDataAsync(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                                                                                                                  ::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method LoadBeatmapData, addr 0x12b9ba0, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapData, addr 0x12e0df8, size 0x460, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* LoadBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm,
                                                                   bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method LoadBeatmapDataAsync, addr 0x12b9a40, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapDataAsync, addr 0x12e0c98, size 0x160, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   LoadBeatmapDataAsync(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm, bool loadingForDesignatedEnvironment,
                        ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
@@ -305,7 +321,7 @@ public:
 
   constexpr void __cordl_internal_set__lastUsedBeatmapDataCache(::GlobalNamespace::LastUsedBeatmapDataCache value);
 
-  /// @brief Method .ctor, addr 0x12ba000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e1258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

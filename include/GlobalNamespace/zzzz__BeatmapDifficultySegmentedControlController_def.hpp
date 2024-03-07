@@ -58,21 +58,21 @@ public:
 
   __declspec(property(get = get_selectedDifficulty))::GlobalNamespace::BeatmapDifficulty selectedDifficulty;
 
-  /// @brief Method Awake, addr 0x23b0090, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x241367c, size 0x8c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetClosestDifficultyIndex, addr 0x23b01f0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetClosestDifficultyIndex, addr 0x24137dc, size 0x14c, virtual false, abstract: false, final false
   inline int32_t GetClosestDifficultyIndex(::GlobalNamespace::BeatmapDifficulty searchDifficulty);
 
-  /// @brief Method HandleDifficultySegmentedControlDidSelectCell, addr 0x23b033c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleDifficultySegmentedControlDidSelectCell, addr 0x2413928, size 0x88, virtual false, abstract: false, final false
   inline void HandleDifficultySegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::BeatmapDifficultySegmentedControlController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23b011c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2413708, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetData, addr 0x23b03c4, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x24139b0, size 0x4f4, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>* difficultyBeatmaps, ::GlobalNamespace::BeatmapDifficulty selectedDifficulty,
                       ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask);
 
@@ -102,16 +102,16 @@ public:
   constexpr void
   __cordl_internal_set_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method .ctor, addr 0x23b08b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2413ea4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectDifficultyEvent, addr 0x23aff28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectDifficultyEvent, addr 0x2413514, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method get_selectedDifficulty, addr 0x23b0088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedDifficulty, addr 0x2413674, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
 
-  /// @brief Method remove_didSelectDifficultyEvent, addr 0x23affd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectDifficultyEvent, addr 0x24135c4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
 protected:

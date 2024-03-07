@@ -44,15 +44,15 @@ public:
 
   __declspec(property(get = get_triggerEvent, put = set_triggerEvent))::UnityEngine::UIElements::EventBase* triggerEvent;
 
-  /// @brief Method Init, addr 0x2f5f848, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2fb9080, size 0x70, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2f5f8b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2fb90f0, size 0x34, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x2f5f95c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x2fb9194, size 0x90, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr ::UnityEngine::UIElements::DropdownMenu*& __cordl_internal_get__menu_k__BackingField();
@@ -73,19 +73,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ContextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
 
-  /// @brief Method .ctor, addr 0x2f5f8ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb9124, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_menu, addr 0x2f5f828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x2fb9060, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenu* get_menu();
 
-  /// @brief Method get_triggerEvent, addr 0x2f5f838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerEvent, addr 0x2fb9070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* get_triggerEvent();
 
-  /// @brief Method set_menu, addr 0x2f5f830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x2fb9068, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::UIElements::DropdownMenu* value);
 
-  /// @brief Method set_triggerEvent, addr 0x2f5f840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerEvent, addr 0x2fb9078, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerEvent(::UnityEngine::UIElements::EventBase* value);
 
 protected:

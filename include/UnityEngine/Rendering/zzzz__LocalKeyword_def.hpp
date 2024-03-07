@@ -33,16 +33,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>*();
 
-  /// @brief Method Equals, addr 0x2de63fc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e41c34, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x2de6488, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e41cc0, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeyword rhs);
 
-  /// @brief Method GetHashCode, addr 0x2de64d8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e41d10, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2de63f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e41c2c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"

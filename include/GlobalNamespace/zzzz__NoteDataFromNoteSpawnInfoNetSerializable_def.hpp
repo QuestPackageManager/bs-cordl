@@ -14,7 +14,7 @@ class NoteDataFromNoteSpawnInfoNetSerializable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable);
 // Type: ::NoteDataFromNoteSpawnInfoNetSerializable
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 86, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteDataFromNoteSpawnInfoNetSerializable*
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable* New_ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
 
-  /// @brief Method .ctor, addr 0x245c788, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c4760, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
 
 protected:

@@ -26,21 +26,21 @@ public:
   /// @brief Field blockSize, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
-  /// @brief Method DoFinal, addr 0xf8c634, size 0x5a8, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0xfadd38, size 0x5a8, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetOutputSize, addr 0xf8c19c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0xfad8a0, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize, addr 0xf8c164, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0xfad868, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessByte, addr 0xf8c1a8, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0xfad8ac, size 0x14c, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0xf8c2f4, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xfad9f8, size 0x340, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   constexpr int32_t const& __cordl_internal_get_blockSize() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_blockSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf8bfb8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfad6bc, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
 protected:

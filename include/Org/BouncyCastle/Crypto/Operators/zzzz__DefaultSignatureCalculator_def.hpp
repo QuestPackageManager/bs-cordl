@@ -41,7 +41,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
 
-  /// @brief Method GetResult, addr 0xf9db6c, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0xfbf270, size 0x84, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_mSignerSink(::Org::BouncyCastle::Crypto::IO::SignerSink* value);
 
-  /// @brief Method .ctor, addr 0xf9cb10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbe214, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method get_Stream, addr 0xf9db64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0xfbf268, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"

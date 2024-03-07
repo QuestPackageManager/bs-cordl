@@ -23,13 +23,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE BufferUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureBufferSize, addr 0x2755334, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferSize, addr 0x27b55f0, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t size, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method RentBuffer, addr 0x27551bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RentBuffer, addr 0x27b5478, size 0xc8, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
 
-  /// @brief Method ReturnBuffer, addr 0x2755284, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ReturnBuffer, addr 0x27b5540, size 0xb0, virtual false, abstract: false, final false
   static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
 protected:

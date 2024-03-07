@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__verticalOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0xe6e2bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe89088, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headNeckOffset, addr 0xe6e2a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headNeckOffset, addr 0xe89074, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headNeckOffset();
 
-  /// @brief Method get_verticalOffset, addr 0xe6e2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalOffset, addr 0xe89080, size 0x8, virtual false, abstract: false, final false
   inline float_t get_verticalOffset();
 
 protected:

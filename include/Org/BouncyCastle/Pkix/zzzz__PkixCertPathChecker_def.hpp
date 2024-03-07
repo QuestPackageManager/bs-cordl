@@ -30,7 +30,7 @@ public:
   /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Check(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* unresolvedCritExts);
 
-  /// @brief Method Clone, addr 0x1165274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x118a978, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   /// @brief Method GetSupportedExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -44,7 +44,7 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x116526c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118a970, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

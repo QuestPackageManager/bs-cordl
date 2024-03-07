@@ -39,11 +39,11 @@ public:
   /// @brief Field pos, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
-  /// @brief Method ConstructPos, addr 0x29986fc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x29f9f34, size 0x40, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x29986f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x29f9f30, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::LeafNode* New_ctor(int32_t pos);
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_pos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29986c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f9ef8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t pos);
 
-  /// @brief Method get_IsNullable, addr 0x299873c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x29f9f74, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Pos, addr 0x29986e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pos, addr 0x29f9f20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Pos();
 
-  /// @brief Method set_Pos, addr 0x29986f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pos, addr 0x29f9f28, size 0x8, virtual false, abstract: false, final false
   inline void set_Pos(int32_t value);
 
 protected:

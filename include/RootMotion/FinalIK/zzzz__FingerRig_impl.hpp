@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::get_initiated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x131fad4;
+  constexpr static std::size_t addrs = 0x134802c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FingerRig*>::get(), "get_initiated",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)(bool)>(&::RootMotion::FinalIK::FingerRig::set_initiated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x131fadc;
+  constexpr static std::size_t addrs = 0x1348034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::FingerRig::*)(ByRef<::StringW>)>(&::RootMotion::FinalIK::FingerRig::IsValid)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x131fae8;
+  constexpr static std::size_t addrs = 0x1348040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::AutoDetect)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x131fb5c;
+  constexpr static std::size_t addrs = 0x13480b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FingerRig*>::get(), "AutoDetect",
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::FingerRig::AddFinger)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x131fe68;
+  constexpr static std::size_t addrs = 0x13483c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)(int32_t)>(&::RootMotion::FinalIK::FingerRig::RemoveFinger)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x131ffd4;
+  constexpr static std::size_t addrs = 0x134852c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)(
     ::UnityEngine::Transform*, ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>)>(&::RootMotion::FinalIK::FingerRig::AddChildrenRecursive)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x131fd80;
+  constexpr static std::size_t addrs = 0x13482d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::InitiateSolver)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x1320134;
+  constexpr static std::size_t addrs = 0x134868c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::UpdateFingerSolvers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x13201dc;
+  constexpr static std::size_t addrs = 0x1348734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FingerRig*>::get(), "UpdateFingerSolvers",
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::FixFingerTransforms)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x1320240;
+  constexpr static std::size_t addrs = 0x1348798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FingerRig*>::get(), "FixFingerTransforms",
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::StoreDefaultLocalState)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x13202a8;
+  constexpr static std::size_t addrs = 0x1348800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FingerRig*>::get(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::UpdateSolver)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1320304;
+  constexpr static std::size_t addrs = 0x134885c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::FixTransforms)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1320308;
+  constexpr static std::size_t addrs = 0x1348860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FingerRig::*)()>(&::RootMotion::FinalIK::FingerRig::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x132031c;
+  constexpr static std::size_t addrs = 0x1348874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FingerRig*>::get(), ".ctor",

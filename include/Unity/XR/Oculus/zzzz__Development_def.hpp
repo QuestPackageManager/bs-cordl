@@ -90,13 +90,13 @@ public:
   /// @brief Field s_CachedMode, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_CachedMode, put = setStaticF_s_CachedMode))::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache s_CachedMode;
 
-  /// @brief Method OverrideDeveloperModeStart, addr 0x2d5d300, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OverrideDeveloperModeStart, addr 0x2dbab38, size 0xcc, virtual false, abstract: false, final false
   static inline void OverrideDeveloperModeStart();
 
-  /// @brief Method OverrideDeveloperModeStop, addr 0x2d5d3d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OverrideDeveloperModeStop, addr 0x2dbac0c, size 0x74, virtual false, abstract: false, final false
   static inline void OverrideDeveloperModeStop();
 
-  /// @brief Method TrySetDeveloperMode, addr 0x2d5d2a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method TrySetDeveloperMode, addr 0x2dbaae0, size 0x58, virtual false, abstract: false, final false
   static inline void TrySetDeveloperMode(bool active);
 
   static inline ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache getStaticF_s_CachedMode();

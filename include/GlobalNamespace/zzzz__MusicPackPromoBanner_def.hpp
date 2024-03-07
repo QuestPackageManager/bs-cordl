@@ -59,7 +59,7 @@ public:
 
   static inline ::GlobalNamespace::MusicPackPromoBanner* New_ctor();
 
-  /// @brief Method Setup, addr 0x23e4428, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2449214, size 0x104, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* newPromoInfo, bool probablyOwned);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -98,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x23e452c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2449318, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promoButtonText, addr 0x23e4420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoButtonText, addr 0x244920c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoButtonText();
 
-  /// @brief Method get_promoInfo, addr 0x23e4410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoInfo, addr 0x24491fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* get_promoInfo();
 
-  /// @brief Method set_promoInfo, addr 0x23e4418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promoInfo, addr 0x2449204, size 0x8, virtual false, abstract: false, final false
   inline void set_promoInfo(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* value);
 
 protected:

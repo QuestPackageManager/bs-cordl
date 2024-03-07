@@ -71,20 +71,20 @@ public:
   /// @brief Field usePreviousEventValue, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousEventValue, put = __cordl_internal_set_usePreviousEventValue)) bool usePreviousEventValue;
 
-  /// @brief Method ChangeRotation, addr 0xe54c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChangeRotation, addr 0xe6e988, size 0x8, virtual false, abstract: false, final false
   inline void ChangeRotation(float_t rotation);
 
-  /// @brief Method GetCopy, addr 0xe54c3c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xe6e990, size 0xc4, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0xe54d00, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0xe6ea54, size 0x164, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::LightRotationBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
                                                                            ::GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount,
                                                                            ::GlobalNamespace::LightRotationDirection rotationDirection);
 
-  /// @brief Method SubtypeIdentifier, addr 0xe54c1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0xe6e970, size 0x18, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis);
 
   constexpr float_t const& __cordl_internal_get__rotation_k__BackingField() const;
@@ -135,18 +135,18 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  /// @brief Method .ctor, addr 0xe54b38, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6e88c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::LightAxis axis, float_t rotation,
                     int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationDirection);
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_rotation, addr 0xe54b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0xe6e87c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationBeatmapEventData*>* value);
 
-  /// @brief Method set_rotation, addr 0xe54b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0xe6e884, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(float_t value);
 
 protected:

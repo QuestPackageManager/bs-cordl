@@ -32,7 +32,7 @@ public:
 
   __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  /// @brief Method Awake, addr 0x2268f48, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x22c9af4, size 0x64, virtual true, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer* New_ctor();
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x2268fac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c9b58, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x2268f40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x22c9aec, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:

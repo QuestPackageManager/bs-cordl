@@ -26,18 +26,18 @@ public:
 
   __declspec(property(get = get_asset))::UnityW<::UnityEngine::Object> asset;
 
-  /// @brief Method GetResult, addr 0x2d81a98, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x2dde2d0, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
   static inline ::UnityEngine::AssetBundleRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d81b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dde354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allAssets, addr 0x2d81ae0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allAssets, addr 0x2dde318, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> get_allAssets();
 
-  /// @brief Method get_asset, addr 0x2d81ad4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x2dde30c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
 protected:

@@ -100,54 +100,54 @@ public:
   /// @brief Field spineMapping, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_spineMapping, put = __cordl_internal_set_spineMapping))::RootMotion::FinalIK::IKMappingSpine* spineMapping;
 
-  /// @brief Method ApplyBendConstraints, addr 0x13422a4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ApplyBendConstraints, addr 0x136a7fc, size 0x38, virtual true, abstract: false, final false
   inline void ApplyBendConstraints();
 
-  /// @brief Method FixTransforms, addr 0x13419d8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1369f30, size 0xdc, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetChain, addr 0x13412bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetChain, addr 0x1369814, size 0x48, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FBIKChain* GetChain(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetChainAndNodeIndexes, addr 0x1335004, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetChainAndNodeIndexes, addr 0x135d55c, size 0x74, virtual false, abstract: false, final false
   inline void GetChainAndNodeIndexes(::UnityEngine::Transform* transform, ByRef<int32_t> chainIndex, ByRef<int32_t> nodeIndex);
 
-  /// @brief Method GetChainIndex, addr 0x1341304, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetChainIndex, addr 0x136985c, size 0x114, virtual false, abstract: false, final false
   inline int32_t GetChainIndex(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetEffector, addr 0x13411e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEffector, addr 0x1369738, size 0xdc, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* GetEffector(::UnityEngine::Transform* t);
 
-  /// @brief Method GetNode, addr 0x1335190, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetNode, addr 0x135d6e8, size 0x50, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Node* GetNode(int32_t chainIndex, int32_t nodeIndex);
 
-  /// @brief Method GetPoint, addr 0x13415b0, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x1369b08, size 0x15c, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetPoints, addr 0x1341418, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x1369970, size 0x198, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method IsValid, addr 0x134170c, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x1369c64, size 0x1fc, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverFullBody* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x1341ab4, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x136a00c, size 0x15c, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x1341c10, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x136a168, size 0x198, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method ReadPose, addr 0x1341da8, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method ReadPose, addr 0x136a300, size 0x22c, virtual true, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method Solve, addr 0x1341fd4, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method Solve, addr 0x136a52c, size 0x2d0, virtual true, abstract: false, final false
   inline void Solve();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x1341908, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1369e60, size 0xd0, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method WritePose, addr 0x13422dc, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method WritePose, addr 0x136a834, size 0xd8, virtual true, abstract: false, final false
   inline void WritePose();
 
   constexpr bool const& __cordl_internal_get_FABRIKPass() const;
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_spineMapping(::RootMotion::FinalIK::IKMappingSpine* value);
 
-  /// @brief Method .ctor, addr 0x13423b4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136a90c, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

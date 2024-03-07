@@ -56,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::__BitMaskSparse____c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x1378e40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x13a4398, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(uint32_t i);
 
-  /// @brief Method .ctor, addr 0x1378e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a4390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BitMaskSparse____c* getStaticF___9();
@@ -117,24 +117,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x137777c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x13a2cd4, size 0x94, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x1378b1c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x13a4074, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMaskSparse* other);
 
-  /// @brief Method GetBits, addr 0x1378c18, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x13a4170, size 0x98, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
   static inline ::GlobalNamespace::BitMaskSparse* New_ctor(int32_t bitCount);
 
-  /// @brief Method Serialize, addr 0x13775d0, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x13a2b28, size 0x194, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetBits, addr 0x1378b88, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x13a40e0, size 0x90, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMaskSparse* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method ToString, addr 0x1378cb0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x13a4208, size 0x124, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
@@ -149,10 +149,10 @@ public:
 
   constexpr void __cordl_internal_set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x1377230, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a2788, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method get_bitCount, addr 0x1378b14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x13a406c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
   /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"

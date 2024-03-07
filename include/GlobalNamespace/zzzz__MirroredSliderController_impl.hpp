@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(bool)>(
     &::GlobalNamespace::MirroredSliderController::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2396a0c;
+  constexpr static std::size_t addrs = 0x23f7df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x239afdc;
+  constexpr static std::size_t addrs = 0x23fc3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), "Awake",
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::Update)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x239aff8;
+  constexpr static std::size_t addrs = 0x23fc3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), "Update",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x239b1c8;
+  constexpr static std::size_t addrs = 0x23fc5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), "OnDestroy",
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::MirroredSliderController::Mirror)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x2395f50;
+  constexpr static std::size_t addrs = 0x23f7404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(float_t)>(
     &::GlobalNamespace::MirroredSliderController::UpdateMaterialPropertyBlock)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x239b0a8;
+  constexpr static std::size_t addrs = 0x23fc48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(
     &::GlobalNamespace::MirroredSliderController::RemoveListeners)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x239b1cc;
+  constexpr static std::size_t addrs = 0x23fc5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(::GlobalNamespace::SliderController*, float_t)>(
     &::GlobalNamespace::MirroredSliderController::HandleSliderDidStartDissolving)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x239b2c0;
+  constexpr static std::size_t addrs = 0x23fc6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(float_t)>(
     &::GlobalNamespace::MirroredSliderController::Dissolve)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x239b2e8;
+  constexpr static std::size_t addrs = 0x23fc6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x239b310;
+  constexpr static std::size_t addrs = 0x23fc6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), ".ctor",
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MirroredSliderController__Pool::*)()>(
     &::GlobalNamespace::__MirroredSliderController__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x239b318;
+  constexpr static std::size_t addrs = 0x23fc6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirroredSliderController__Pool*>::get(),

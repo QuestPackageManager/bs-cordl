@@ -41,7 +41,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colorNotes,
                       put = __cordl_internal_set__colorNotes))::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> _colorNotes;
 
-  /// @brief Method Convert, addr 0x12fff48, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13283f4, size 0x160, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::ChainBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ChainItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
 
-  /// @brief Method .ctor, addr 0x12ffc74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1328120, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
                     ::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*> chains, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 

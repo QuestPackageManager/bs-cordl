@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
-  /// @brief Method .ctor, addr 0x2781840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e2afc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CommentHandling, addr 0x2781768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommentHandling, addr 0x27e2a24, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
 
-  /// @brief Method get_LineInfoHandling, addr 0x27817d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineInfoHandling, addr 0x27e2a90, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
 
-  /// @brief Method set_CommentHandling, addr 0x2781770, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_CommentHandling, addr 0x27e2a2c, size 0x64, virtual false, abstract: false, final false
   inline void set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  /// @brief Method set_LineInfoHandling, addr 0x27817dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_LineInfoHandling, addr 0x27e2a98, size 0x64, virtual false, abstract: false, final false
   inline void set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
 protected:

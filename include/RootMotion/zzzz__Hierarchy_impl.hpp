@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(
     &::RootMotion::Hierarchy::HierarchyIsValid)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x1318c6c;
+  constexpr static std::size_t addrs = 0x13411c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>)>(
     &::RootMotion::Hierarchy::ContainsDuplicate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x1318b60;
+  constexpr static std::size_t addrs = 0x13410b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::Hierarchy::IsAncestor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x1316f50;
+  constexpr static std::size_t addrs = 0x133f4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::Hierarchy::ContainsChild)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x1317560;
+  constexpr static std::size_t addrs = 0x133fab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>)>(&::RootMotion::Hierarchy::AddAncestors)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x13171d0;
+  constexpr static std::size_t addrs = 0x133f728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, int32_t)>(&::RootMotion::Hierarchy::GetAncestor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x1318e84;
+  constexpr static std::size_t addrs = 0x13413dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::RootMotion::Hierarchy::GetFirstCommonAncestor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x1317080;
+  constexpr static std::size_t addrs = 0x133f5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(
     &::RootMotion::Hierarchy::GetFirstCommonAncestor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x1318f78;
+  constexpr static std::size_t addrs = 0x13414d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(
     ::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(&::RootMotion::Hierarchy::GetFirstCommonAncestorRecursive)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x13192e4;
+  constexpr static std::size_t addrs = 0x134183c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(
     &::RootMotion::Hierarchy::IsCommonAncestor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x13190dc;
+  constexpr static std::size_t addrs = 0x1341634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Hierarchy::*)()>(&::RootMotion::Hierarchy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x131946c;
+  constexpr static std::size_t addrs = 0x13419c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Hierarchy*>::get(), ".ctor",

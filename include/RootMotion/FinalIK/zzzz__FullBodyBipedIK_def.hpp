@@ -38,42 +38,42 @@ public:
   /// @brief Field solver, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverFullBodyBiped* solver;
 
-  /// @brief Method ASThread, addr 0x132a944, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1352e9c, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method AutoDetectReferences, addr 0x132b040, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AutoDetectReferences, addr 0x1353598, size 0xd8, virtual false, abstract: false, final false
   inline void AutoDetectReferences();
 
-  /// @brief Method GetIKSolver, addr 0x132a9ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIKSolver, addr 0x1352f04, size 0x8, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
   static inline ::RootMotion::FinalIK::FullBodyBipedIK* New_ctor();
 
-  /// @brief Method OpenInspectorTutorial, addr 0x132a8bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenInspectorTutorial, addr 0x1352e14, size 0x44, virtual false, abstract: false, final false
   inline void OpenInspectorTutorial();
 
-  /// @brief Method OpenScriptReference, addr 0x132a834, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1352d8c, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenSetupTutorial, addr 0x132a878, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenSetupTutorial, addr 0x1352dd0, size 0x44, virtual false, abstract: false, final false
   inline void OpenSetupTutorial();
 
-  /// @brief Method OpenUserManual, addr 0x132a7f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x1352d48, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method ReferencesError, addr 0x132a9b4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReferencesError, addr 0x1352f0c, size 0x1bc, virtual false, abstract: false, final false
   inline bool ReferencesError(ByRef<::StringW> errorMessage);
 
-  /// @brief Method ReferencesWarning, addr 0x132ab70, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method ReferencesWarning, addr 0x13530c8, size 0x4b0, virtual false, abstract: false, final false
   inline bool ReferencesWarning(ByRef<::StringW> warningMessage);
 
-  /// @brief Method Reinitiate, addr 0x132b020, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Reinitiate, addr 0x1353578, size 0x20, virtual false, abstract: false, final false
   inline void Reinitiate();
 
-  /// @brief Method SetReferences, addr 0x132a988, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetReferences, addr 0x1352ee0, size 0x24, virtual false, abstract: false, final false
   inline void SetReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode);
 
-  /// @brief Method SupportGroup, addr 0x132a900, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x1352e58, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
   constexpr ::RootMotion::BipedReferences*& __cordl_internal_get_references();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverFullBodyBiped* value);
 
-  /// @brief Method .ctor, addr 0x132b118, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1353670, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

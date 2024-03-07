@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Reflection::AmbiguousMatchException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25d6b64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638eb4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25d6be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638f34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25d6bc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638f10, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

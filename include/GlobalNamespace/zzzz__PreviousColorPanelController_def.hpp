@@ -55,21 +55,21 @@ public:
   /// @brief Field colorWasSelectedEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_colorWasSelectedEvent, put = __cordl_internal_set_colorWasSelectedEvent))::System::Action_1<::UnityEngine::Color>* colorWasSelectedEvent;
 
-  /// @brief Method AddColor, addr 0x24d15e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddColor, addr 0x2537da0, size 0xa4, virtual false, abstract: false, final false
   inline void AddColor(::UnityEngine::Color color);
 
-  /// @brief Method Awake, addr 0x24d1500, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2537cc0, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DiscardUpcomingColor, addr 0x24d1684, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DiscardUpcomingColor, addr 0x2537e44, size 0xc, virtual false, abstract: false, final false
   inline void DiscardUpcomingColor();
 
   static inline ::GlobalNamespace::PreviousColorPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24d15c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2537d84, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <Awake>b__9_0, addr 0x24d16a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__9_0, addr 0x2537e68, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__9_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -108,13 +108,13 @@ public:
 
   constexpr void __cordl_internal_set_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x24d1690, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2537e50, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorWasSelectedEvent, addr 0x24d13a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_colorWasSelectedEvent, addr 0x2537b60, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_colorWasSelectedEvent, addr 0x24d1450, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorWasSelectedEvent, addr 0x2537c10, size 0xb0, virtual false, abstract: false, final false
   inline void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
 protected:

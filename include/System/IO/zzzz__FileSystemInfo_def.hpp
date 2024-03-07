@@ -78,29 +78,29 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Create, addr 0x2620834, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2680b84, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::IO::FileSystemInfo* Create(::StringW fullPath, ::StringW fileName, ByRef<::System::IO::FileStatus> fileStatus);
 
   /// @brief Method Delete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Delete();
 
-  /// @brief Method GetObjectData, addr 0x26211b0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2681500, size 0x148, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Init, addr 0x2620910, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2680c60, size 0x80, virtual false, abstract: false, final false
   inline void Init(ByRef<::System::IO::FileStatus> fileStatus);
 
   static inline ::System::IO::FileSystemInfo* New_ctor();
 
   static inline ::System::IO::FileSystemInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Refresh, addr 0x2620bb0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2680f00, size 0x6c, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method ThrowNotFound, addr 0x2620c1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotFound, addr 0x2680f6c, size 0x98, virtual false, abstract: false, final false
   static inline void ThrowNotFound(::StringW path);
 
-  /// @brief Method ToString, addr 0x26213f0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2681740, size 0x54, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_FullPath() const;
@@ -127,40 +127,40 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26207c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2680b14, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x262101c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268136c, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Attributes, addr 0x2620990, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x2680ce0, size 0xd4, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
-  /// @brief Method get_Exists, addr 0x2621308, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Exists, addr 0x2681658, size 0x88, virtual true, abstract: false, final false
   inline bool get_Exists();
 
-  /// @brief Method get_ExistsCore, addr 0x2620a64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ExistsCore, addr 0x2680db4, size 0x6c, virtual false, abstract: false, final false
   inline bool get_ExistsCore();
 
-  /// @brief Method get_FullName, addr 0x26212f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x2681648, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_LastWriteTime, addr 0x2621390, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTime, addr 0x26816e0, size 0x38, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTime();
 
-  /// @brief Method get_LastWriteTimeCore, addr 0x2620ad0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeCore, addr 0x2680e20, size 0x70, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset get_LastWriteTimeCore();
 
-  /// @brief Method get_LastWriteTimeUtc, addr 0x26213c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeUtc, addr 0x2681718, size 0x28, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTimeUtc();
 
-  /// @brief Method get_LengthCore, addr 0x2620b40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_LengthCore, addr 0x2680e90, size 0x70, virtual false, abstract: false, final false
   inline int64_t get_LengthCore();
 
-  /// @brief Method get_Name, addr 0x2621300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2681650, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NormalizedPath, addr 0x2621014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NormalizedPath, addr 0x2681364, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NormalizedPath();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

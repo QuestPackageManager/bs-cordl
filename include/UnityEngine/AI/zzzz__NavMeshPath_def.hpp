@@ -37,25 +37,25 @@ public:
 
   __declspec(property(get = get_status))::UnityEngine::AI::NavMeshPathStatus status;
 
-  /// @brief Method CalculateCorners, addr 0x2d6344c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CalculateCorners, addr 0x2dc0c84, size 0x4c, virtual false, abstract: false, final false
   inline void CalculateCorners();
 
-  /// @brief Method CalculateCornersInternal, addr 0x2d63390, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CalculateCornersInternal, addr 0x2dc0bc8, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> CalculateCornersInternal();
 
-  /// @brief Method ClearCorners, addr 0x2d63408, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearCorners, addr 0x2dc0c40, size 0x44, virtual false, abstract: false, final false
   inline void ClearCorners();
 
-  /// @brief Method ClearCornersInternal, addr 0x2d633cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearCornersInternal, addr 0x2dc0c04, size 0x3c, virtual false, abstract: false, final false
   inline void ClearCornersInternal();
 
-  /// @brief Method DestroyNavMeshPath, addr 0x2d63354, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyNavMeshPath, addr 0x2dc0b8c, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyNavMeshPath(void* ptr);
 
-  /// @brief Method Finalize, addr 0x2d63260, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2dc0a98, size 0xf4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InitializeNavMeshPath, addr 0x2d63238, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InitializeNavMeshPath, addr 0x2dc0a70, size 0x28, virtual false, abstract: false, final false
   static inline void* InitializeNavMeshPath();
 
   static inline ::UnityEngine::AI::NavMeshPath* New_ctor();
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x2d631f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc0a28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_corners, addr 0x2d63498, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_corners, addr 0x2dc0cd0, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_corners();
 
-  /// @brief Method get_status, addr 0x2d634e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x2dc0d1c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AI::NavMeshPathStatus get_status();
 
 protected:

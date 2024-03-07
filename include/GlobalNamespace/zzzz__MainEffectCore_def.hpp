@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x28f0b7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderValues, addr 0x29533b4, size 0x88, virtual false, abstract: false, final false
   static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
 
-  /// @brief Method .ctor, addr 0x28f1590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2953dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();

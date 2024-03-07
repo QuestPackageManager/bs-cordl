@@ -108,25 +108,25 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method get_Document, addr 0x29d5334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x2a36b6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathDocument* get_Document();
 
-  /// @brief Method get_LocalName, addr 0x29d530c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2a36b44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x29d5314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x2a36b4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_PageInfo, addr 0x29d5304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageInfo, addr 0x2a36b3c, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
 
-  /// @brief Method get_ParentPage, addr 0x29d532c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentPage, addr 0x2a36b64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_ParentPage();
 
-  /// @brief Method get_Prefix, addr 0x29d531c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2a36b54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SiblingPage, addr 0x29d5324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SiblingPage, addr 0x2a36b5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_SiblingPage();
 
 protected:

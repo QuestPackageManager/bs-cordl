@@ -263,10 +263,10 @@ public:
 
   constexpr void __cordl_internal_set_promoType(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo__PromoType value);
 
-  /// @brief Method .ctor, addr 0x12f7864, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131f9b0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PackDefinitionSO__LevelPromoInfo* levelPromoInfo, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
-  /// @brief Method .ctor, addr 0x12f780c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131f958, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW packId, ::GlobalNamespace::PromoInfoSO* packPromoInfo, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
 protected:
@@ -330,10 +330,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12f85d8, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1320724, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12f8800, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x132094c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -389,10 +389,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12f880c, size 0x56c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1320958, size 0x56c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12f8d78, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1320ec4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -456,10 +456,10 @@ public:
 
   static inline ::GlobalNamespace::__DlcPromoPanelModel____c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <GetPackDataForMainMenuPromoBanner>b__0, addr 0x12f8d84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetPackDataForMainMenuPromoBanner>b__0, addr 0x1320ed0, size 0x24, virtual false, abstract: false, final false
   inline bool _GetPackDataForMainMenuPromoBanner_b__0(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* x);
 
-  /// @brief Method <GetPackDataForMainMenuPromoBanner>b__1, addr 0x12f8da8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetPackDataForMainMenuPromoBanner>b__1, addr 0x1320ef4, size 0x24, virtual false, abstract: false, final false
   inline bool _GetPackDataForMainMenuPromoBanner_b__1(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* x);
 
   constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get_sensitivityFlag() const;
@@ -468,7 +468,7 @@ public:
 
   constexpr void __cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value);
 
-  /// @brief Method .ctor, addr 0x12f7d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131fec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -507,10 +507,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12f8dcc, size 0x818, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1320f18, size 0x8f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12f95e4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x132180c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -582,10 +582,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12f95f0, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1321818, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12f9818, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1321a40, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -698,44 +698,44 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method BuyLevelButtonWasPressed, addr 0x12f80bc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyLevelButtonWasPressed, addr 0x1320208, size 0xf0, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasPressed(::GlobalNamespace::BeatmapLevel* level, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyLevelButtonWasShown, addr 0x12f81ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyLevelButtonWasShown, addr 0x13202f8, size 0xf0, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasShown(::GlobalNamespace::BeatmapLevel* level, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x12f829c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x13203e8, size 0xf0, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed(::GlobalNamespace::BeatmapLevelPack* pack, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyPackButtonWasShown, addr 0x12f838c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasShown, addr 0x13204d8, size 0xf0, virtual false, abstract: false, final false
   inline void BuyPackButtonWasShown(::GlobalNamespace::BeatmapLevelPack* pack, ::StringW page, ::StringW customText);
 
-  /// @brief Method GetExperimentEventData, addr 0x12f7ea0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetExperimentEventData, addr 0x131ffec, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetExperimentEventData(::StringW itemId, ::StringW page, ::StringW customText);
 
-  /// @brief Method GetPackDataForMainMenuPromoBanner, addr 0x12f7a20, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method GetPackDataForMainMenuPromoBanner, addr 0x131fb6c, size 0x35c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* GetPackDataForMainMenuPromoBanner(ByRef<bool> owned);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x12f8544, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x1320690, size 0x94, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method Initialize, addr 0x12f78c0, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x131fa0c, size 0x94, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x12f7954, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x131faa0, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  /// @brief Method MainMenuDlcPromoBannerWasPressed, addr 0x12f7fc0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MainMenuDlcPromoBannerWasPressed, addr 0x132010c, size 0xfc, virtual false, abstract: false, final false
   inline void MainMenuDlcPromoBannerWasPressed(::StringW packId, ::StringW customText);
 
-  /// @brief Method MainMenuDlcPromoBannerWasShown, addr 0x12f7d84, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method MainMenuDlcPromoBannerWasShown, addr 0x131fed0, size 0x11c, virtual false, abstract: false, final false
   inline void MainMenuDlcPromoBannerWasShown(::StringW packId, ::StringW customText);
 
   static inline ::GlobalNamespace::DlcPromoPanelModel* New_ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                                                                 ::GlobalNamespace::IAnalyticsModel* analyticsModel, ::GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData,
                                                                 ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IPlatformInit* platformInit);
 
-  /// @brief Method UpdatePacksAsync, addr 0x12f847c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method UpdatePacksAsync, addr 0x13205c8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdatePacksAsync();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
@@ -817,7 +817,7 @@ public:
 
   constexpr void __cordl_internal_set__updatingNotOwnedPacks(bool value);
 
-  /// @brief Method .ctor, addr 0x12f722c, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131f378, size 0x5e0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IAnalyticsModel* analyticsModel,
                     ::GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IPlatformInit* platformInit);
 

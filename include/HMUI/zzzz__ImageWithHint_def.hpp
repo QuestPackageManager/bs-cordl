@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x22a1898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2302660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x22a1860, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x2302628, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x22a187c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x2302644, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_sprite, addr 0x22a1844, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x230260c, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:

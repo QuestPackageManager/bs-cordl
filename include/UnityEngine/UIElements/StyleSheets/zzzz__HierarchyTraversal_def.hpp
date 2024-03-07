@@ -24,16 +24,16 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal* New_ctor();
 
-  /// @brief Method Recurse, addr 0x2ef2888, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Recurse, addr 0x2f4c0c0, size 0xd0, virtual false, abstract: false, final false
   inline void Recurse(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
-  /// @brief Method Traverse, addr 0x2ef2878, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Traverse, addr 0x2f4c0b0, size 0x10, virtual true, abstract: false, final false
   inline void Traverse(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Method TraverseRecursive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
-  /// @brief Method .ctor, addr 0x2ef2958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f4c190, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

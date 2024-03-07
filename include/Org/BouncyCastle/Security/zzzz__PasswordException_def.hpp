@@ -26,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Security::PasswordException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x11423e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1167ae8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x11423ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1167af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

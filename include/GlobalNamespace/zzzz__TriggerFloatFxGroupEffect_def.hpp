@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x2435238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249da70, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -123,13 +123,13 @@ public:
   __declspec(property(get = __cordl_internal_get__floatFxBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__floatFxBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _floatFxBeatmapEventCallbackWrapper;
 
-  /// @brief Field _target, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target))::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> _target;
+  /// @brief Field _initData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* _initData;
 
-  /// @brief Method Cleanup, addr 0x2434fd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x249d808, size 0x1c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x2435210, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x249da38, size 0x38, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffect* New_ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData,
@@ -143,17 +143,17 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__floatFxBeatmapEventCallbackWrapper() const;
 
-  constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> const& __cordl_internal_get__target() const;
+  constexpr ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>& __cordl_internal_get__target();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData*> const& __cordl_internal_get__initData() const;
 
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
   constexpr void __cordl_internal_set__floatFxBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  constexpr void __cordl_internal_set__target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* value);
 
-  /// @brief Method .ctor, addr 0x24350f4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249d924, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
 protected:
@@ -176,8 +176,8 @@ public:
   /// @brief Field _floatFxBeatmapEventCallbackWrapper, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____floatFxBeatmapEventCallbackWrapper;
 
-  /// @brief Field _target, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> ____target;
+  /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* ____initData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -188,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::TriggerFloatFxGroupEffect, ____beatmap
 
 static_assert(offsetof(::GlobalNamespace::TriggerFloatFxGroupEffect, ____floatFxBeatmapEventCallbackWrapper) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TriggerFloatFxGroupEffect, ____target) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TriggerFloatFxGroupEffect, ____initData) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TriggerFloatFxGroupEffect);

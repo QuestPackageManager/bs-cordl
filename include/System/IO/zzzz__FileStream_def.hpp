@@ -77,18 +77,18 @@ namespace System::IO {
 class CORDL_TYPE __FileStream__ReadDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x26331d4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2693524, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x26333e0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2693730, size 0x28, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2634cc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2695010, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   static inline ::System::IO::__FileStream__ReadDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x26330fc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269344c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -119,18 +119,18 @@ namespace System::IO {
 class CORDL_TYPE __FileStream__WriteDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2633e54, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x26941a4, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2634064, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x26943b4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2634cd4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2695024, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   static inline ::System::IO::__FileStream__WriteDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2633d7c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26940cc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -228,49 +228,49 @@ public:
   /// @brief Field safeHandle, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_safeHandle, put = __cordl_internal_set_safeHandle))::Microsoft::Win32::SafeHandles::SafeFileHandle* safeHandle;
 
-  /// @brief Method BeginRead, addr 0x2632e58, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x26931a8, size 0x2a4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t numBytes, ::System::AsyncCallback* userCallback, ::System::Object* stateObject);
 
-  /// @brief Method BeginWrite, addr 0x26339b8, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x2693d08, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t numBytes, ::System::AsyncCallback* userCallback, ::System::Object* stateObject);
 
-  /// @brief Method Dispose, addr 0x2634738, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2694a88, size 0x334, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x263327c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x26935cc, size 0x164, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x2633efc, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x269424c, size 0x168, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ExposeHandle, addr 0x2631eb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExposeHandle, addr 0x2692208, size 0x28, virtual false, abstract: false, final false
   inline void ExposeHandle();
 
-  /// @brief Method Finalize, addr 0x2634694, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x26949e4, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Flush, addr 0x263461c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x269496c, size 0x78, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x2634a70, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x2694dc0, size 0x88, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FlushBuffer, addr 0x2632528, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method FlushBuffer, addr 0x2692878, size 0x178, virtual false, abstract: false, final false
   inline void FlushBuffer();
 
-  /// @brief Method FlushBufferIfDirty, addr 0x26321b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FlushBufferIfDirty, addr 0x2692504, size 0x10, virtual false, abstract: false, final false
   inline void FlushBufferIfDirty();
 
-  /// @brief Method GetSecureFileName, addr 0x2631370, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSecureFileName, addr 0x26916c0, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetSecureFileName(::StringW filename);
 
-  /// @brief Method GetSecureFileName, addr 0x26311c4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetSecureFileName, addr 0x2691514, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW GetSecureFileName(::StringW filename, bool full);
 
-  /// @brief Method Init, addr 0x263008c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26903dc, size 0x2e8, virtual false, abstract: false, final false
   inline void Init(::Microsoft::Win32::SafeHandles::SafeFileHandle* safeHandle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper);
 
-  /// @brief Method InitBuffer, addr 0x2631c2c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method InitBuffer, addr 0x2691f7c, size 0x28c, virtual false, abstract: false, final false
   inline void InitBuffer(int32_t size, bool isZeroSize);
 
   static inline ::System::IO::FileStream* New_ctor(void* handle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize);
@@ -294,46 +294,46 @@ public:
 
   static inline ::System::IO::FileStream* New_ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, int32_t bufferSize, bool useAsync);
 
-  /// @brief Method Read, addr 0x2632a9c, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2692dec, size 0x268, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsync, addr 0x2634af8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x2694e48, size 0x4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte, addr 0x26326a0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x26929f0, size 0x148, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadData, addr 0x26327e8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x2692b38, size 0x128, virtual false, abstract: false, final false
   inline int32_t ReadData(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t offset, int32_t count);
 
-  /// @brief Method ReadInternal, addr 0x2632d04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReadInternal, addr 0x2693054, size 0x9c, virtual false, abstract: false, final false
   inline int32_t ReadInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> dest, int32_t offset, int32_t count);
 
-  /// @brief Method ReadSegment, addr 0x2632da0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ReadSegment, addr 0x26930f0, size 0xb8, virtual false, abstract: false, final false
   inline int32_t ReadSegment(::ArrayW<uint8_t, ::Array<uint8_t>*> dest, int32_t dest_offset, int32_t count);
 
-  /// @brief Method RefillBuffer, addr 0x2632910, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RefillBuffer, addr 0x2692c60, size 0x30, virtual false, abstract: false, final false
   inline void RefillBuffer();
 
-  /// @brief Method Seek, addr 0x2634070, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x26943c0, size 0x268, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x26342d8, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2694628, size 0x214, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x2633408, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2693758, size 0x23c, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x2634afc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x2694e4c, size 0x4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteByte, addr 0x2632940, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x2692c90, size 0x15c, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method WriteInternal, addr 0x2633644, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method WriteInternal, addr 0x2693994, size 0x1b4, virtual false, abstract: false, final false
   inline void WriteInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t offset, int32_t count);
 
-  /// @brief Method WriteSegment, addr 0x2633940, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WriteSegment, addr 0x2693c90, size 0x78, virtual false, abstract: false, final false
   inline int32_t WriteSegment(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t src_offset, int32_t count);
 
   constexpr ::System::IO::FileAccess const& __cordl_internal_get_access() const;
@@ -426,60 +426,60 @@ public:
 
   constexpr void __cordl_internal_set_safeHandle(::Microsoft::Win32::SafeHandles::SafeFileHandle* value);
 
-  /// @brief Method .ctor, addr 0x262fed0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690220, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(void* handle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize);
 
-  /// @brief Method .ctor, addr 0x262fee0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690230, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(void* handle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper);
 
-  /// @brief Method .ctor, addr 0x2630374, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26906c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access);
 
-  /// @brief Method .ctor, addr 0x26303b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690708, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share);
 
-  /// @brief Method .ctor, addr 0x2630b08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690e58, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, int32_t bufferSize);
 
-  /// @brief Method .ctor, addr 0x26303dc, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269072c, size 0x72c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, int32_t bufferSize, bool anonymous, ::System::IO::FileOptions options);
 
-  /// @brief Method .ctor, addr 0x26303a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26906f0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, int32_t bufferSize, bool isAsync, bool anonymous);
 
-  /// @brief Method .ctor, addr 0x2630b50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690ea0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, int32_t bufferSize, ::System::IO::FileOptions options);
 
-  /// @brief Method .ctor, addr 0x2630b28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690e78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, int32_t bufferSize, bool useAsync);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_buf_recycle();
 
   static inline ::System::Object* getStaticF_buf_recycle_lock();
 
-  /// @brief Method get_CanRead, addr 0x2632020, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x2692370, size 0x14, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x2632048, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x2692398, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x2632034, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x2692384, size 0x14, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x2632050, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x26923a0, size 0x164, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x26322ec, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x269263c, size 0x170, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method get_SafeFileHandle, addr 0x26324ec, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_SafeFileHandle, addr 0x269283c, size 0x3c, virtual true, abstract: false, final false
   inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* get_SafeFileHandle();
 
   static inline void setStaticF_buf_recycle(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_buf_recycle_lock(::System::Object* value);
 
-  /// @brief Method set_Position, addr 0x263245c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x26927ac, size 0x90, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

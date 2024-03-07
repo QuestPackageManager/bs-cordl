@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* getStaticF_s_MakeClientFunc();
 
-  /// @brief Method get_dragAndDrop, addr 0x2f1a13c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_dragAndDrop, addr 0x2f73974, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* get_dragAndDrop();
 
   static inline void setStaticF_s_DragAndDrop(::UnityEngine::UIElements::IDragAndDrop* value);

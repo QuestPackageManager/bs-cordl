@@ -93,43 +93,43 @@ public:
 
   constexpr void __cordl_internal_set__Traced_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x27691ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c9468, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method get_Error, addr 0x2769200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x27c94bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
-  /// @brief Method get_Handled, addr 0x2769240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handled, addr 0x27c94fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
-  /// @brief Method get_Member, addr 0x2769220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x27c94dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
-  /// @brief Method get_OriginalObject, addr 0x2769210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalObject, addr 0x27c94cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
-  /// @brief Method get_Path, addr 0x2769230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x27c94ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_Traced, addr 0x27691ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Traced, addr 0x27c94a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
-  /// @brief Method set_Error, addr 0x2769208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Error, addr 0x27c94c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::System::Exception* value);
 
-  /// @brief Method set_Handled, addr 0x2769248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Handled, addr 0x27c9504, size 0xc, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
-  /// @brief Method set_Member, addr 0x2769228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Member, addr 0x27c94e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Member(::System::Object* value);
 
-  /// @brief Method set_OriginalObject, addr 0x2769218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OriginalObject, addr 0x27c94d4, size 0x8, virtual false, abstract: false, final false
   inline void set_OriginalObject(::System::Object* value);
 
-  /// @brief Method set_Path, addr 0x2769238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x27c94f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method set_Traced, addr 0x27691f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Traced, addr 0x27c94b0, size 0xc, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
 protected:

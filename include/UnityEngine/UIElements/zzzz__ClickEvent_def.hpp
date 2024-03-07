@@ -22,18 +22,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ClickEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::ClickEvent*> {
 public:
   // Declarations
-  /// @brief Method GetPooled, addr 0x2f5e1a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2fb79d8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ClickEvent* GetPooled(::UnityEngine::UIElements::PointerUpEvent* pointerEvent, int32_t clickCount);
 
-  /// @brief Method Init, addr 0x2f5e0ec, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2fb7924, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2f5e140, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2fb7978, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f5e14c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb7984, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

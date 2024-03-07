@@ -9,7 +9,6 @@
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ResultsEnvironmentInstaller____c._ctor
 template <>
@@ -17,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ResultsEnvironmentInstaller____c::*)()>(
     &::GlobalNamespace::__ResultsEnvironmentInstaller____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23894f0;
+  constexpr static std::size_t addrs = 0x23eba58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get(),
@@ -25,17 +24,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__ResultsEnvironmentInstaller____c._LoadResourcesBeforeInstall_b__4_0
+//  Writing Method size for method: ::GlobalNamespace::__ResultsEnvironmentInstaller____c._LoadResourcesBeforeInstall_b__3_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> (
-    ::GlobalNamespace::__ResultsEnvironmentInstaller____c::*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::__ResultsEnvironmentInstaller____c::_LoadResourcesBeforeInstall_b__4_0)> {
+    ::GlobalNamespace::__ResultsEnvironmentInstaller____c::*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::__ResultsEnvironmentInstaller____c::_LoadResourcesBeforeInstall_b__3_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x23894f8;
+  constexpr static std::size_t addrs = 0x23eba60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get(), "<LoadResourcesBeforeInstall>b__4_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get(), "<LoadResourcesBeforeInstall>b__3_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
     return ___internal_method;
   }
@@ -50,14 +49,14 @@ inline ::GlobalNamespace::__ResultsEnvironmentInstaller____c* GlobalNamespace::_
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get>();
 }
 inline void
-GlobalNamespace::__ResultsEnvironmentInstaller____c::setStaticF___9__4_0(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*, "<>9__4_0",
+GlobalNamespace::__ResultsEnvironmentInstaller____c::setStaticF___9__3_0(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*, "<>9__3_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get>(
       std::forward<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*>(value));
 }
 inline ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*
-GlobalNamespace::__ResultsEnvironmentInstaller____c::getStaticF___9__4_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*, "<>9__4_0",
+GlobalNamespace::__ResultsEnvironmentInstaller____c::getStaticF___9__3_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*, "<>9__3_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get>();
 }
 inline ::GlobalNamespace::__ResultsEnvironmentInstaller____c* GlobalNamespace::__ResultsEnvironmentInstaller____c::New_ctor() {
@@ -68,21 +67,21 @@ inline void GlobalNamespace::__ResultsEnvironmentInstaller____c::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> GlobalNamespace::__ResultsEnvironmentInstaller____c::_LoadResourcesBeforeInstall_b__4_0(::UnityEngine::GameObject* asset) {
+inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> GlobalNamespace::__ResultsEnvironmentInstaller____c::_LoadResourcesBeforeInstall_b__3_0(::UnityEngine::GameObject* asset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get(), "<LoadResourcesBeforeInstall>b__4_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentInstaller____c*>::get(), "<LoadResourcesBeforeInstall>b__3_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>, false>(this, ___internal_method, asset);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__ResultsEnvironmentInstaller____c::__ResultsEnvironmentInstaller____c() {}
-//  Writing Method size for method: ::GlobalNamespace::ResultsEnvironmentInstaller.get_assetLabel
+//  Writing Method size for method: ::GlobalNamespace::ResultsEnvironmentInstaller.get_assetLabelRuntimeKey
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetLabelReference* (::GlobalNamespace::ResultsEnvironmentInstaller::*)()>(
-    &::GlobalNamespace::ResultsEnvironmentInstaller::get_assetLabel)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2389214;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ResultsEnvironmentInstaller::*)()>(
+    &::GlobalNamespace::ResultsEnvironmentInstaller::get_assetLabelRuntimeKey)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23eb744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::GameObject>>*, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*)>(
     &::GlobalNamespace::ResultsEnvironmentInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x238921c;
+  constexpr static std::size_t addrs = 0x23eb784;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentInstaller::*)()>(
     &::GlobalNamespace::ResultsEnvironmentInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x238937c;
+  constexpr static std::size_t addrs = 0x23eb8e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentInstaller::*)()>(&::GlobalNamespace::ResultsEnvironmentInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x23893fc;
+  constexpr static std::size_t addrs = 0x23eb964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsEnvironmentInstaller*>::get(), ".ctor",
@@ -138,19 +137,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AddressableAssets::AssetLabelReference*& GlobalNamespace::ResultsEnvironmentInstaller::__cordl_internal_get__resultEnvironmentControllerLabel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____resultEnvironmentControllerLabel;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetLabelReference*> const&
-GlobalNamespace::ResultsEnvironmentInstaller::__cordl_internal_get__resultEnvironmentControllerLabel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____resultEnvironmentControllerLabel;
-}
-constexpr void GlobalNamespace::ResultsEnvironmentInstaller::__cordl_internal_set__resultEnvironmentControllerLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultEnvironmentControllerLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*&
 GlobalNamespace::ResultsEnvironmentInstaller::__cordl_internal_get__resultsEnvironmentControllers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -166,10 +152,10 @@ constexpr void GlobalNamespace::ResultsEnvironmentInstaller::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultsEnvironmentControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::AddressableAssets::AssetLabelReference* GlobalNamespace::ResultsEnvironmentInstaller::get_assetLabel() {
+inline ::StringW GlobalNamespace::ResultsEnvironmentInstaller::get_assetLabelRuntimeKey() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsEnvironmentInstaller*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AddressableAssets::AssetLabelReference*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::ResultsEnvironmentInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::GameObject>>* assets,
                                                                                      ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry) {

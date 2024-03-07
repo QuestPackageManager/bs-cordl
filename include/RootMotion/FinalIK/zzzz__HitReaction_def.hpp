@@ -121,7 +121,7 @@ public:
 
   __declspec(property(get = get_timer, put = set_timer)) float_t timer;
 
-  /// @brief Method Apply, addr 0x136e0b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1398608, size 0xd8, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
   /// @brief Method CrossFadeStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -130,7 +130,7 @@ public:
   /// @brief Method GetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetLength();
 
-  /// @brief Method Hit, addr 0x136e3a4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Hit, addr 0x13988fc, size 0x128, virtual false, abstract: false, final false
   inline void Hit(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::__HitReaction__HitPoint* New_ctor();
@@ -198,34 +198,34 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x136e52c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398a84, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_crossFader, addr 0x136e4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_crossFader, addr 0x1398a34, size 0x8, virtual false, abstract: false, final false
   inline float_t get_crossFader();
 
-  /// @brief Method get_force, addr 0x136e4fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x1398a54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_force();
 
-  /// @brief Method get_inProgress, addr 0x136dfdc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_inProgress, addr 0x1398534, size 0x14, virtual false, abstract: false, final false
   inline bool get_inProgress();
 
-  /// @brief Method get_point, addr 0x136e514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x1398a6c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_timer, addr 0x136e4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timer, addr 0x1398a44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timer();
 
-  /// @brief Method set_crossFader, addr 0x136e4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_crossFader, addr 0x1398a3c, size 0x8, virtual false, abstract: false, final false
   inline void set_crossFader(float_t value);
 
-  /// @brief Method set_force, addr 0x136e508, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x1398a60, size 0xc, virtual false, abstract: false, final false
   inline void set_force(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_point, addr 0x136e520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x1398a78, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_timer, addr 0x136e4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timer, addr 0x1398a4c, size 0x8, virtual false, abstract: false, final false
   inline void set_timer(float_t value);
 
 protected:
@@ -318,10 +318,10 @@ public:
   /// @brief Field weight, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method Apply, addr 0x136e860, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1398db8, size 0x9c, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Vector3 offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x136e6bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1398c14, size 0x14, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink* New_ctor();
@@ -350,7 +350,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x136e910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398e68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -414,15 +414,15 @@ public:
   /// @brief Field offsetInUpDirection, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_offsetInUpDirection, put = __cordl_internal_set_offsetInUpDirection))::UnityEngine::AnimationCurve* offsetInUpDirection;
 
-  /// @brief Method CrossFadeStart, addr 0x136e65c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1398bb4, size 0x60, virtual true, abstract: false, final false
   inline void CrossFadeStart();
 
-  /// @brief Method GetLength, addr 0x136e540, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method GetLength, addr 0x1398a98, size 0x11c, virtual true, abstract: false, final false
   inline float_t GetLength();
 
   static inline ::RootMotion::FinalIK::__HitReaction__HitPointEffector* New_ctor();
 
-  /// @brief Method OnApply, addr 0x136e6d0, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method OnApply, addr 0x1398c28, size 0x190, virtual true, abstract: false, final false
   inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
   constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*> const&
@@ -446,7 +446,7 @@ public:
 
   constexpr void __cordl_internal_set_offsetInUpDirection(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x136e8fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398e54, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -504,10 +504,10 @@ public:
   /// @brief Field weight, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method Apply, addr 0x136ebd0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1399128, size 0x18c, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x136e9fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1398f54, size 0xc, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReaction__HitPointBone__BoneLink* New_ctor();
@@ -536,7 +536,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x136ed70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13992c8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -600,15 +600,15 @@ public:
   /// @brief Field rigidbody, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_rigidbody, put = __cordl_internal_set_rigidbody))::UnityW<::UnityEngine::Rigidbody> rigidbody;
 
-  /// @brief Method CrossFadeStart, addr 0x136e9a4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1398efc, size 0x58, virtual true, abstract: false, final false
   inline void CrossFadeStart();
 
-  /// @brief Method GetLength, addr 0x136e918, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetLength, addr 0x1398e70, size 0x8c, virtual true, abstract: false, final false
   inline float_t GetLength();
 
   static inline ::RootMotion::FinalIK::__HitReaction__HitPointBone* New_ctor();
 
-  /// @brief Method OnApply, addr 0x136ea08, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method OnApply, addr 0x1398f60, size 0x1c8, virtual true, abstract: false, final false
   inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_aroundCenterOfMass();
@@ -629,7 +629,7 @@ public:
 
   constexpr void __cordl_internal_set_rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0x136ed5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13992b4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -693,12 +693,12 @@ public:
 
   __declspec(property(get = get_inProgress)) bool inProgress;
 
-  /// @brief Method Hit, addr 0x136e188, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Hit, addr 0x13986e0, size 0x21c, virtual false, abstract: false, final false
   inline void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::HitReaction* New_ctor();
 
-  /// @brief Method OnModifyOffset, addr 0x136dff0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x1398548, size 0xc0, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
   constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*> const& __cordl_internal_get_boneHitPoints() const;
@@ -713,10 +713,10 @@ public:
 
   constexpr void __cordl_internal_set_effectorHitPoints(::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> value);
 
-  /// @brief Method .ctor, addr 0x136e4cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398a24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_inProgress, addr 0x136df40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_inProgress, addr 0x1398498, size 0x9c, virtual false, abstract: false, final false
   inline bool get_inProgress();
 
 protected:

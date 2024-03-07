@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
 
-  /// @brief Method .ctor, addr 0xed468c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef3d90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Parameters, addr 0xed43b8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xef3abc, size 0xb8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
 
 protected:

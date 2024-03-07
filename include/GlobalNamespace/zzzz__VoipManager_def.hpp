@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::VoipManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x273134c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

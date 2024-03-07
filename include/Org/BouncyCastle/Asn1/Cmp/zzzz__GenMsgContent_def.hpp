@@ -34,17 +34,17 @@ public:
   /// @brief Field content, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::Org::BouncyCastle::Asn1::Asn1Sequence* content;
 
-  /// @brief Method GetInstance, addr 0xed9410, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xef8b14, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenMsgContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenMsgContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> itv);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xed9894, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xef8f98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToInfoTypeAndValueArray, addr 0xed9618, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToInfoTypeAndValueArray, addr 0xef8d1c, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> ToInfoTypeAndValueArray();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_content();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0xed959c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef8ca0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> itv);
 
-  /// @brief Method .ctor, addr 0xed93e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef8aec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

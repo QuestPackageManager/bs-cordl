@@ -95,27 +95,30 @@ public:
 
   __declspec(property(get = get_rightHandPseudoLocalRot))::UnityEngine::Quaternion rightHandPseudoLocalRot;
 
-  /// @brief Method Awake, addr 0x248e6dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24f671c, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetZPos, addr 0x248e9e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ClearHeadPositionOverride, addr 0x24f67bc, size 0x8, virtual false, abstract: false, final false
+  inline void ClearHeadPositionOverride();
+
+  /// @brief Method GetZPos, addr 0x24f6a30, size 0x28, virtual false, abstract: false, final false
   inline float_t GetZPos(float_t start, float_t end, float_t headOffsetZ, float_t t);
 
-  /// @brief Method GetZPosOffsetByHeadPosAtTime, addr 0x248ea10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetZPosOffsetByHeadPosAtTime, addr 0x24f6a58, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetZPosOffsetByHeadPosAtTime(float_t start, float_t end, float_t t);
 
-  /// @brief Method HeadOffsetZ, addr 0x248e9c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HeadOffsetZ, addr 0x24f6a10, size 0x20, virtual false, abstract: false, final false
   inline float_t HeadOffsetZ(::UnityEngine::Quaternion noteInverseWorldRotation);
 
-  /// @brief Method MoveTowardsHead, addr 0x248e954, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MoveTowardsHead, addr 0x24f699c, size 0x74, virtual false, abstract: false, final false
   inline float_t MoveTowardsHead(float_t start, float_t end, ::UnityEngine::Quaternion noteInverseWorldRotation, float_t t);
 
   static inline ::GlobalNamespace::PlayerTransforms* New_ctor();
 
-  /// @brief Method OverrideHeadPos, addr 0x248e760, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OverrideHeadPos, addr 0x24f67a0, size 0x1c, virtual false, abstract: false, final false
   inline void OverrideHeadPos(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Update, addr 0x248e77c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x24f67c4, size 0x1d8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headPseudoLocalPos() const;
@@ -214,31 +217,31 @@ public:
 
   constexpr void __cordl_internal_set__useOriginParentTransformForPseudoLocalCalculations(bool value);
 
-  /// @brief Method .ctor, addr 0x248ea3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f6a84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headPseudoLocalPos, addr 0x248e694, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headPseudoLocalPos, addr 0x24f66d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPseudoLocalPos();
 
-  /// @brief Method get_headPseudoLocalRot, addr 0x248e6a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headPseudoLocalRot, addr 0x24f66e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headPseudoLocalRot();
 
-  /// @brief Method get_headWorldPos, addr 0x248e67c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headWorldPos, addr 0x24f66bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headWorldPos();
 
-  /// @brief Method get_headWorldRot, addr 0x248e688, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headWorldRot, addr 0x24f66c8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headWorldRot();
 
-  /// @brief Method get_leftHandPseudoLocalPos, addr 0x248e6ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandPseudoLocalPos, addr 0x24f66ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftHandPseudoLocalPos();
 
-  /// @brief Method get_leftHandPseudoLocalRot, addr 0x248e6b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandPseudoLocalRot, addr 0x24f66f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_leftHandPseudoLocalRot();
 
-  /// @brief Method get_rightHandPseudoLocalPos, addr 0x248e6c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandPseudoLocalPos, addr 0x24f6704, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightHandPseudoLocalPos();
 
-  /// @brief Method get_rightHandPseudoLocalRot, addr 0x248e6d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandPseudoLocalRot, addr 0x24f6710, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rightHandPseudoLocalRot();
 
 protected:

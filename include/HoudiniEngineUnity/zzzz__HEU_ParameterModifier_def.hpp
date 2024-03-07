@@ -120,11 +120,11 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*() noexcept;
 
-  /// @brief Method GetNewModifier, addr 0x22f4c8c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetNewModifier, addr 0x2355a64, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction action, int32_t parameterIndex, int32_t instanceIndex,
                                                                             int32_t modifierValue);
 
-  /// @brief Method IsEquivalentTo, addr 0x22f4d18, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2355af0, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
 
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* New_ctor();
@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set__parameterIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22f4d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2355ae8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"

@@ -116,79 +116,79 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>*();
 
-  /// @brief Method ComparePropertyToDeviceDescriptor, addr 0x2becdbc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ComparePropertyToDeviceDescriptor, addr 0x2c4e5f4, size 0x90, virtual false, abstract: false, final false
   static inline bool ComparePropertyToDeviceDescriptor(::StringW propertyName, ::StringW propertyValue, ::StringW deviceDescriptor);
 
-  /// @brief Method Equals, addr 0x2beca3c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2c4e274, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2bec98c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2c4e1c4, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Layouts::InputDeviceDescription other);
 
-  /// @brief Method FromJson, addr 0x2beccf0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x2c4e528, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceDescription FromJson(::StringW json);
 
-  /// @brief Method GetHashCode, addr 0x2becad4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c4e30c, size 0x128, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToJson, addr 0x2becc70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x2c4e4a8, size 0x80, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method ToString, addr 0x2bec688, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c4dec0, size 0x304, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_capabilities, addr 0x2bec5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x2c4de2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_capabilities();
 
-  /// @brief Method get_deviceClass, addr 0x2bec5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceClass, addr 0x2c4dddc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_deviceClass();
 
-  /// @brief Method get_empty, addr 0x2bec604, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x2c4de3c, size 0x84, virtual false, abstract: false, final false
   inline bool get_empty();
 
-  /// @brief Method get_interfaceName, addr 0x2bec594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interfaceName, addr 0x2c4ddcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_interfaceName();
 
-  /// @brief Method get_manufacturer, addr 0x2bec5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturer, addr 0x2c4ddec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_manufacturer();
 
-  /// @brief Method get_product, addr 0x2bec5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_product, addr 0x2c4ddfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_product();
 
-  /// @brief Method get_serial, addr 0x2bec5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serial, addr 0x2c4de0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serial();
 
-  /// @brief Method get_version, addr 0x2bec5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x2c4de1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>* i___System__IEquatable_1___UnityEngine__InputSystem__Layouts__InputDeviceDescription_();
 
-  /// @brief Method op_Equality, addr 0x2becbfc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2c4e434, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Layouts::InputDeviceDescription left, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription right);
 
-  /// @brief Method op_Inequality, addr 0x2becc34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2c4e46c, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Layouts::InputDeviceDescription left, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription right);
 
-  /// @brief Method set_capabilities, addr 0x2bec5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_capabilities, addr 0x2c4de34, size 0x8, virtual false, abstract: false, final false
   inline void set_capabilities(::StringW value);
 
-  /// @brief Method set_deviceClass, addr 0x2bec5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceClass, addr 0x2c4dde4, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceClass(::StringW value);
 
-  /// @brief Method set_interfaceName, addr 0x2bec59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_interfaceName, addr 0x2c4ddd4, size 0x8, virtual false, abstract: false, final false
   inline void set_interfaceName(::StringW value);
 
-  /// @brief Method set_manufacturer, addr 0x2bec5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_manufacturer, addr 0x2c4ddf4, size 0x8, virtual false, abstract: false, final false
   inline void set_manufacturer(::StringW value);
 
-  /// @brief Method set_product, addr 0x2bec5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_product, addr 0x2c4de04, size 0x8, virtual false, abstract: false, final false
   inline void set_product(::StringW value);
 
-  /// @brief Method set_serial, addr 0x2bec5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_serial, addr 0x2c4de14, size 0x8, virtual false, abstract: false, final false
   inline void set_serial(::StringW value);
 
-  /// @brief Method set_version, addr 0x2bec5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x2c4de24, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
   // Ctor Parameters []

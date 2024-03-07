@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeLayersPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* value);
 
-  /// @brief Method .ctor, addr 0x22af7bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2310594, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

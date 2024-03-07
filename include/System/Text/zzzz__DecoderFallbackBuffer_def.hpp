@@ -35,24 +35,24 @@ public:
   /// @brief Method GetNextChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x2725d00, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x2785fbc, size 0x190, virtual true, abstract: false, final false
   inline bool InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes, ByRef<::cordl_internals::Ptr<char16_t>> chars);
 
-  /// @brief Method InternalFallback, addr 0x2725e90, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x278614c, size 0x170, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
-  /// @brief Method InternalInitialize, addr 0x272426c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialize, addr 0x2784528, size 0x8, virtual false, abstract: false, final false
   inline void InternalInitialize(::cordl_internals::Ptr<uint8_t> byteStart, ::cordl_internals::Ptr<char16_t> charEnd);
 
-  /// @brief Method InternalReset, addr 0x27244fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x27847b8, size 0x10, virtual false, abstract: false, final false
   inline void InternalReset();
 
   static inline ::System::Text::DecoderFallbackBuffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x2725cd8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2785f94, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ThrowLastBytesRecursive, addr 0x2726000, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastBytesRecursive, addr 0x27862bc, size 0x1fc, virtual false, abstract: false, final false
   inline void ThrowLastBytesRecursive(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown);
 
   constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_byteStart() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value);
 
-  /// @brief Method .ctor, addr 0x27256a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2785964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

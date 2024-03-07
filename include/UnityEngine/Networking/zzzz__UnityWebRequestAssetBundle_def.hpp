@@ -26,13 +26,13 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestAssetBundle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle, addr 0x2fba48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x3012cc4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
 
-  /// @brief Method GetAssetBundle, addr 0x2fba5b8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x3012df0, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
 
-  /// @brief Method GetAssetBundle, addr 0x2fba494, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x3012ccc, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
 
 protected:

@@ -50,7 +50,7 @@ public:
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method .ctor, addr 0x12b2dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d9f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

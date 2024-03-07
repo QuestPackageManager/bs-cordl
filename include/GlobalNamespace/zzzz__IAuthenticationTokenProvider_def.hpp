@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAuthenticationTokenProvider)
+namespace BGNet::Core {
+class IPlatformAccessTokenFetcher;
+}
 namespace GlobalNamespace {
 struct AuthenticationToken;
 }
@@ -11,16 +14,10 @@ namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
 namespace GlobalNamespace {
-struct XPlatformAccessTokenData;
-}
-namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,14 +39,14 @@ public:
 
   __declspec(property(get = get_userName))::StringW userName;
 
+  /// @brief Convert operator to "::BGNet::Core::IPlatformAccessTokenFetcher"
+  constexpr operator ::BGNet::Core::IPlatformAccessTokenFetcher*() noexcept;
+
   /// @brief Method GetAuthenticationToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
   /// @brief Method GetTokenPlatform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
-
-  /// @brief Method GetXPlatformAccessToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   /// @brief Method get_hashedUserId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_hashedUserId();
@@ -59,6 +56,9 @@ public:
 
   /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
+
+  /// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"
+  constexpr ::BGNet::Core::IPlatformAccessTokenFetcher* i___BGNet__Core__IPlatformAccessTokenFetcher() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

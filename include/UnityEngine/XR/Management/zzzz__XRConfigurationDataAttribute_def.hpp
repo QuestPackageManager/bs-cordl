@@ -45,22 +45,22 @@ public:
 
   constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d5b25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db8a94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d5b264, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db8a9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
-  /// @brief Method get_buildSettingsKey, addr 0x2d5b24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildSettingsKey, addr 0x2db8a84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
-  /// @brief Method get_displayName, addr 0x2d5b23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x2db8a74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_buildSettingsKey, addr 0x2d5b254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildSettingsKey, addr 0x2db8a8c, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
-  /// @brief Method set_displayName, addr 0x2d5b244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x2db8a7c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:

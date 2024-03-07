@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get__relativeSfxVolumePerLevelId,
                       put = __cordl_internal_set__relativeSfxVolumePerLevelId))::System::Collections::Generic::Dictionary_2<::StringW, float_t>* _relativeSfxVolumePerLevelId;
 
-  /// @brief Method GetRelativeSfxVolume, addr 0x12d3600, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeSfxVolume, addr 0x12fabcc, size 0x7c, virtual false, abstract: false, final false
   inline float_t GetRelativeSfxVolume(::StringW levelId);
 
   static inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__relativeSfxVolumePerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
-  /// @brief Method .ctor, addr 0x12d2e58, size 0x7a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fa424, size 0x7a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
 protected:

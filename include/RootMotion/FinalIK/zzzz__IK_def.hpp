@@ -21,13 +21,13 @@ namespace RootMotion::FinalIK {
 class CORDL_TYPE IK : public ::RootMotion::SolverManager {
 public:
   // Declarations
-  /// @brief Method FixTransforms, addr 0x132b298, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x13537f0, size 0x50, virtual true, abstract: false, final false
   inline void FixTransforms();
 
   /// @brief Method GetIKSolver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
-  /// @brief Method InitiateSolver, addr 0x132b228, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method InitiateSolver, addr 0x1353780, size 0x70, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
   static inline ::RootMotion::FinalIK::IK* New_ctor();
@@ -38,10 +38,10 @@ public:
   /// @brief Method OpenUserManual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OpenUserManual();
 
-  /// @brief Method UpdateSolver, addr 0x132b1b0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method UpdateSolver, addr 0x1353708, size 0x78, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
-  /// @brief Method .ctor, addr 0x132a1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1352740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -26,7 +26,7 @@ public:
   // Declarations
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  /// @brief Method get_position, addr 0x2d63520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2dc0d58, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
   // Ctor Parameters []

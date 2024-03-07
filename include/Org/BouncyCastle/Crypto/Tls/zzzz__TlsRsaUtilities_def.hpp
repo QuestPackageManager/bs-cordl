@@ -29,18 +29,18 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsRsaUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateEncryptedPreMasterSecret, addr 0x10215a4, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptedPreMasterSecret, addr 0x1042ca8, size 0x3f4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateEncryptedPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                                       ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaServerPublicKey, ::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities* New_ctor();
 
-  /// @brief Method SafeDecryptPreMasterSecret, addr 0x10231fc, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method SafeDecryptPreMasterSecret, addr 0x1044900, size 0x428, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SafeDecryptPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                                 ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaServerPrivateKey,
                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPreMasterSecret);
 
-  /// @brief Method .ctor, addr 0x1023624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1044d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

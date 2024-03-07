@@ -25,10 +25,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f5e408, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb7c40, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customStyle, addr 0x2f52fc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_customStyle, addr 0x2fac7f8, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle();
 
 protected:

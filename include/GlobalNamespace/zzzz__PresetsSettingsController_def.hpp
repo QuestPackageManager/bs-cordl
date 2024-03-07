@@ -39,15 +39,15 @@ public:
   /// @brief Field _settingsValue, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::IntSO> _settingsValue;
 
-  /// @brief Method ApplyValue, addr 0x23ad1d4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x24107c0, size 0x58, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x23ad0fc, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x24106e8, size 0xd8, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::PresetsSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x23ad22c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x2410818, size 0x50, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr bool const& __cordl_internal_get__limitNumberOfElements() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::IntSO> value);
 
-  /// @brief Method .ctor, addr 0x23ad27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2410868, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

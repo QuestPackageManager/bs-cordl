@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithSendInvitesResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SendInvitesResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e52a4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2847cc0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SendInvitesResult* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetSendInvitesResult, addr 0x27e5268, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetSendInvitesResult, addr 0x2847c84, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SendInvitesResult* GetSendInvitesResult();
 
   static inline ::Oculus::Platform::MessageWithSendInvitesResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e1120, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843b3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

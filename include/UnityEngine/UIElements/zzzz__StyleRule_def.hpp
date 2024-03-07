@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> value);
 
-  /// @brief Method .ctor, addr 0x2f79044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd287c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_properties, addr 0x2f7903c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_properties, addr 0x2fd2874, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> get_properties();
 
 protected:

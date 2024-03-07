@@ -22,21 +22,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsToggle>> {
 public:
   // Declarations
-  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x24a9260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x251223c, size 0x8, virtual false, abstract: false, final false
   inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x24a91d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x25121b0, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x24a9044, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2512020, size 0xa4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x24a90e8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x25120c4, size 0xec, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x24a9268, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2512244, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

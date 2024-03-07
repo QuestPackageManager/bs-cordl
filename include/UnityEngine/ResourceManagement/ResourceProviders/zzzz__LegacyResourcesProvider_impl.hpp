@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::Start)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x2cbe784;
+  constexpr static std::size_t addrs = 0x2d1dfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::WaitForCompletionHandler)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2cbea44;
+  constexpr static std::size_t addrs = 0x2d1e27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::*)(
     ::UnityEngine::AsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::AsyncOperationCompleted)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2cbea58;
+  constexpr static std::size_t addrs = 0x2d1e290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::PercentComplete)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2cbebdc;
+  constexpr static std::size_t addrs = 0x2d1e414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cbe77c;
+  constexpr static std::size_t addrs = 0x2d1dfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::Provide)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x2cbe390;
+  constexpr static std::size_t addrs = 0x2d1dbc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::System::Object*)>(&::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::Release)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2cbe914;
+  constexpr static std::size_t addrs = 0x2d1e14c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cbea3c;
+  constexpr static std::size_t addrs = 0x2d1e274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -62,7 +62,7 @@ class MirroredBeatmapObjectManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MirroredBeatmapObjectManager);
 // Type: ::MirroredBeatmapObjectManager
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MirroredBeatmapObjectManager*
@@ -72,11 +72,11 @@ public:
   /// @brief Field _beatmapObjectManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Field _bombNoteControllersToMirroredBombNoteControllers, offset 0x58, size 0x8
+  /// @brief Field _bombNoteControllersToMirroredBombNoteControllers, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__bombNoteControllersToMirroredBombNoteControllers, put = __cordl_internal_set__bombNoteControllersToMirroredBombNoteControllers))::System::
       Collections::Generic::Dictionary_2<::GlobalNamespace::INoteMirrorable*, ::UnityW<::GlobalNamespace::MirroredBombNoteController>>* _bombNoteControllersToMirroredBombNoteControllers;
 
-  /// @brief Field _gameNoteControllersToMirroredGameNoteControllers, offset 0x50, size 0x8
+  /// @brief Field _gameNoteControllersToMirroredGameNoteControllers, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__gameNoteControllersToMirroredGameNoteControllers,
                       put = __cordl_internal_set__gameNoteControllersToMirroredGameNoteControllers))::System::Collections::Generic::
       Dictionary_2<::GlobalNamespace::IGameNoteMirrorable*,
@@ -87,14 +87,10 @@ public:
   __declspec(property(get = __cordl_internal_get__mirroredBasicGameNotePoolContainer, put = __cordl_internal_set__mirroredBasicGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
       ::UnityW<::GlobalNamespace::MirroredGameNoteController>>* _mirroredBasicGameNotePoolContainer;
 
-  /// @brief Field _mirroredBombNotePoolContainer, offset 0x38, size 0x8
+  /// @brief Field _mirroredBombNotePoolContainer, offset 0x30, size 0x8
   __declspec(property(
       get = __cordl_internal_get__mirroredBombNotePoolContainer,
       put = __cordl_internal_set__mirroredBombNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredBombNoteController>>* _mirroredBombNotePoolContainer;
-
-  /// @brief Field _mirroredBurstSliderFillPoolContainer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirroredBurstSliderFillPoolContainer, put = __cordl_internal_set__mirroredBurstSliderFillPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
-      ::UnityW<::GlobalNamespace::MirroredGameNoteController>>* _mirroredBurstSliderFillPoolContainer;
 
   /// @brief Field _mirroredBurstSliderGameNotePoolContainer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__mirroredBurstSliderGameNotePoolContainer, put = __cordl_internal_set__mirroredBurstSliderGameNotePoolContainer))::GlobalNamespace::
@@ -104,53 +100,53 @@ public:
   __declspec(property(get = __cordl_internal_get__mirroredBurstSliderHeadGameNotePoolContainer, put = __cordl_internal_set__mirroredBurstSliderHeadGameNotePoolContainer))::GlobalNamespace::
       MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* _mirroredBurstSliderHeadGameNotePoolContainer;
 
-  /// @brief Field _mirroredObstaclePoolContainer, offset 0x40, size 0x8
+  /// @brief Field _mirroredObstaclePoolContainer, offset 0x38, size 0x8
   __declspec(property(
       get = __cordl_internal_get__mirroredObstaclePoolContainer,
       put = __cordl_internal_set__mirroredObstaclePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredObstacleController>>* _mirroredObstaclePoolContainer;
 
-  /// @brief Field _mirroredSlidersPoolContainer, offset 0x48, size 0x8
+  /// @brief Field _mirroredSlidersPoolContainer, offset 0x40, size 0x8
   __declspec(
       property(get = __cordl_internal_get__mirroredSlidersPoolContainer,
                put = __cordl_internal_set__mirroredSlidersPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredSliderController>>* _mirroredSlidersPoolContainer;
 
-  /// @brief Field _obstacleControllersToMirroredObstacleControllers, offset 0x60, size 0x8
+  /// @brief Field _obstacleControllersToMirroredObstacleControllers, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleControllersToMirroredObstacleControllers, put = __cordl_internal_set__obstacleControllersToMirroredObstacleControllers))::System::
       Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::ObstacleController>, ::UnityW<::GlobalNamespace::MirroredObstacleController>>* _obstacleControllersToMirroredObstacleControllers;
 
-  /// @brief Field _sliderControllersToMirroredSliderControllers, offset 0x68, size 0x8
+  /// @brief Field _sliderControllersToMirroredSliderControllers, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__sliderControllersToMirroredSliderControllers, put = __cordl_internal_set__sliderControllersToMirroredSliderControllers))::System::Collections::
       Generic::Dictionary_2<::UnityW<::GlobalNamespace::SliderController>, ::UnityW<::GlobalNamespace::MirroredSliderController>>* _sliderControllersToMirroredSliderControllers;
 
-  /// @brief Method Finalize, addr 0x239555c, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x23f6a28, size 0x360, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleDidHideAllBeatmapObjects, addr 0x239621c, size 0x7c4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidHideAllBeatmapObjects, addr 0x23f76d0, size 0x6f4, virtual false, abstract: false, final false
   inline void HandleDidHideAllBeatmapObjects(bool hide);
 
-  /// @brief Method HandleNoteWasDespawned, addr 0x2395ae8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasDespawned, addr 0x23f6f9c, size 0x17c, virtual false, abstract: false, final false
   inline void HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x23958bc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x23f6d88, size 0x214, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasDespawned, addr 0x2395df8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasDespawned, addr 0x23f72ac, size 0xc0, virtual false, abstract: false, final false
   inline void HandleObstacleWasDespawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstacleWasSpawned, addr 0x2395c64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasSpawned, addr 0x23f7118, size 0x98, virtual false, abstract: false, final false
   inline void HandleObstacleWasSpawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleSliderWasDespawned, addr 0x239615c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasDespawned, addr 0x23f7610, size 0xc0, virtual false, abstract: false, final false
   inline void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleSliderWasSpawned, addr 0x2395eb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x23f736c, size 0x98, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method Init, addr 0x2395124, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23f6614, size 0x414, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::__MirroredGameNoteController__Pool* mirroredBasicGameNotePool,
                    ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderGameNotePool,
-                   ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderFillPool, ::GlobalNamespace::__MirroredBombNoteController__Pool* mirroredBombNotePool,
-                   ::GlobalNamespace::__MirroredObstacleController__Pool* mirroredObstaclePool, ::GlobalNamespace::__MirroredSliderController__Pool* mirroredSlidersPool);
+                   ::GlobalNamespace::__MirroredBombNoteController__Pool* mirroredBombNotePool, ::GlobalNamespace::__MirroredObstacleController__Pool* mirroredObstaclePool,
+                   ::GlobalNamespace::__MirroredSliderController__Pool* mirroredSlidersPool);
 
   static inline ::GlobalNamespace::MirroredBeatmapObjectManager* New_ctor();
 
@@ -183,11 +179,6 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredBombNoteController>>*> const&
   __cordl_internal_get__mirroredBombNotePoolContainer() const;
-
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*& __cordl_internal_get__mirroredBurstSliderFillPoolContainer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*> const&
-  __cordl_internal_get__mirroredBurstSliderFillPoolContainer() const;
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*& __cordl_internal_get__mirroredBurstSliderGameNotePoolContainer();
 
@@ -237,8 +228,6 @@ public:
 
   constexpr void __cordl_internal_set__mirroredBombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredBombNoteController>>* value);
 
-  constexpr void __cordl_internal_set__mirroredBurstSliderFillPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
-
   constexpr void __cordl_internal_set__mirroredBurstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   constexpr void __cordl_internal_set__mirroredBurstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
@@ -253,7 +242,7 @@ public:
   constexpr void __cordl_internal_set__sliderControllersToMirroredSliderControllers(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::SliderController>, ::UnityW<::GlobalNamespace::MirroredSliderController>>* value);
 
-  /// @brief Method .ctor, addr 0x2396a38, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f7e1c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -282,38 +271,35 @@ public:
   /// @brief Field _mirroredBurstSliderGameNotePoolContainer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* ____mirroredBurstSliderGameNotePoolContainer;
 
-  /// @brief Field _mirroredBurstSliderFillPoolContainer, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* ____mirroredBurstSliderFillPoolContainer;
-
-  /// @brief Field _mirroredBombNotePoolContainer, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _mirroredBombNotePoolContainer, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredBombNoteController>>* ____mirroredBombNotePoolContainer;
 
-  /// @brief Field _mirroredObstaclePoolContainer, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _mirroredObstaclePoolContainer, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredObstacleController>>* ____mirroredObstaclePoolContainer;
 
-  /// @brief Field _mirroredSlidersPoolContainer, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _mirroredSlidersPoolContainer, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredSliderController>>* ____mirroredSlidersPoolContainer;
 
-  /// @brief Field _gameNoteControllersToMirroredGameNoteControllers, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _gameNoteControllersToMirroredGameNoteControllers, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<
       ::GlobalNamespace::IGameNoteMirrorable*,
       ::System::ValueTuple_2<::UnityW<::GlobalNamespace::MirroredGameNoteController>, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*>>*
       ____gameNoteControllersToMirroredGameNoteControllers;
 
-  /// @brief Field _bombNoteControllersToMirroredBombNoteControllers, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _bombNoteControllersToMirroredBombNoteControllers, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INoteMirrorable*, ::UnityW<::GlobalNamespace::MirroredBombNoteController>>* ____bombNoteControllersToMirroredBombNoteControllers;
 
-  /// @brief Field _obstacleControllersToMirroredObstacleControllers, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _obstacleControllersToMirroredObstacleControllers, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::ObstacleController>, ::UnityW<::GlobalNamespace::MirroredObstacleController>>*
       ____obstacleControllersToMirroredObstacleControllers;
 
-  /// @brief Field _sliderControllersToMirroredSliderControllers, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _sliderControllersToMirroredSliderControllers, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::SliderController>, ::UnityW<::GlobalNamespace::MirroredSliderController>>* ____sliderControllersToMirroredSliderControllers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredBeatmapObjectManager, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredBeatmapObjectManager, 0x68>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____beatmapObjectManager) == 0x10, "Offset mismatch!");
 
@@ -323,21 +309,19 @@ static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirr
 
 static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredBurstSliderGameNotePoolContainer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredBurstSliderFillPoolContainer) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredBombNotePoolContainer) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredBombNotePoolContainer) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredObstaclePoolContainer) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredObstaclePoolContainer) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredSlidersPoolContainer) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____mirroredSlidersPoolContainer) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____gameNoteControllersToMirroredGameNoteControllers) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____gameNoteControllersToMirroredGameNoteControllers) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____bombNoteControllersToMirroredBombNoteControllers) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____bombNoteControllersToMirroredBombNoteControllers) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____obstacleControllersToMirroredObstacleControllers) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____obstacleControllersToMirroredObstacleControllers) == 0x60, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____sliderControllersToMirroredSliderControllers) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredBeatmapObjectManager, ____sliderControllersToMirroredSliderControllers) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirroredBeatmapObjectManager);

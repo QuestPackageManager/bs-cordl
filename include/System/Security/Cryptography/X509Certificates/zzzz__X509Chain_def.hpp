@@ -53,19 +53,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Build, addr 0x2a682c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2ac9af8, size 0x40, virtual false, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Create, addr 0x2a68254, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2ac9a8c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* Create();
 
-  /// @brief Method Dispose, addr 0x2a69620, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2acae58, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2a6968c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2acaec4, size 0x20, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2a69718, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2acaf50, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor(bool useMachineContext);
 
-  /// @brief Method Reset, addr 0x2a695f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2acae28, size 0x30, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509ChainImpl*& __cordl_internal_get_impl();
@@ -85,28 +85,28 @@ public:
 
   constexpr void __cordl_internal_set_impl(::System::Security::Cryptography::X509Certificates::X509ChainImpl* value);
 
-  /// @brief Method .ctor, addr 0x2a69488, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acacc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2a69518, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acad50, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(void* chainContext);
 
-  /// @brief Method .ctor, addr 0x2a694e4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acad1c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method .ctor, addr 0x2a694b0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acace8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool useMachineContext);
 
-  /// @brief Method get_ChainElements, addr 0x2a69560, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x2acad98, size 0x30, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method get_ChainPolicy, addr 0x2a69590, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x2acadc8, size 0x30, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_ChainStatus, addr 0x2a695c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ChainStatus, addr 0x2acadf8, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainStatus();
 
-  /// @brief Method get_Impl, addr 0x2a69468, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Impl, addr 0x2acaca0, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* get_Impl();
 
   /// @brief Convert to "::System::IDisposable"

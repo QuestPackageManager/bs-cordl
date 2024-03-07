@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__body(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Body, addr 0x28fc9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x29601f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
 protected:

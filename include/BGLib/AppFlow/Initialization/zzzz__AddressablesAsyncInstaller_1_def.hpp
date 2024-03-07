@@ -8,6 +8,7 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddressablesAsyncInstaller_1)
@@ -35,11 +36,14 @@ template <typename TResult> struct TaskAwaiter_1;
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
 }
-namespace UnityEngine::AddressableAssets {
-class AssetLabelReference;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
@@ -135,10 +139,13 @@ public:
   __declspec(property(get = __cordl_internal_get__handle,
                       put = __cordl_internal_set__handle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> _handle;
 
-  __declspec(property(get = get_assetLabel))::UnityEngine::AddressableAssets::AssetLabelReference* assetLabel;
+  __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
 
   /// @brief Method GetLocations, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetLocations();
+  static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetLocations(::StringW runtimeKey);
+
+  /// @brief Method LoadAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>> LoadAsync(::StringW runtimeKey);
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<T>* assets, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
@@ -163,8 +170,8 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
   // Ctor Parameters []

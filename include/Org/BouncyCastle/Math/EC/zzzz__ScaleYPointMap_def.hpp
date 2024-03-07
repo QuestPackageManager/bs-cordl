@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECPointMap"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECPointMap*() noexcept;
 
-  /// @brief Method Map, addr 0x10ccd28, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Map, addr 0x10f042c, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   static inline ::Org::BouncyCastle::Math::EC::ScaleYPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_scale(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  /// @brief Method .ctor, addr 0x10ccd00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f0404, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECPointMap"

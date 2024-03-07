@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_hideNoteSpawnEffect(bool value);
 
-  /// @brief Method .ctor, addr 0x242fa70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2497a3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hideNoteSpawnEffect);
 
 protected:
@@ -139,24 +139,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IBeatEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleBeatEffectDidFinish, addr 0x242f97c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method HandleBeatEffectDidFinish, addr 0x2497948, size 0xd8, virtual true, abstract: false, final true
   inline void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x242f6bc, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x2497688, size 0x2c0, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method Init, addr 0x242f390, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x249735c, size 0x84, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__BeatEffect__Pool* beatEffectPool);
 
   static inline ::GlobalNamespace::BeatEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x242f4a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x249746c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x242f414, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24973e0, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x242f538, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2497504, size 0x184, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  /// @brief Method .ctor, addr 0x242fa54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2497a20, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IBeatEffectDidFinishEvent"

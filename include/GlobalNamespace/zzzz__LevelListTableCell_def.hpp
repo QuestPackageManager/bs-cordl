@@ -18,10 +18,10 @@ namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-struct EntitlementStatus;
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 struct __LevelListTableCell___RefreshAvailabilityAsync_d__25;
@@ -87,10 +87,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x24a49b8, size 0x7f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x250d924, size 0x7f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x24a51a8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x250e114, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -176,10 +176,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x24a51b4, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x250e120, size 0x468, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x24a55ac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x250e588, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -191,11 +191,11 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
-  // "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "::GlobalNamespace::BeatmapLevelsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "entitlementModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers:
+  // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
   constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                  ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::StringW levelID, ::GlobalNamespace::BeatmapLevelsModel* contentModel,
+                                                                  ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::StringW levelID, ::GlobalNamespace::IEntitlementModel* entitlementModel,
                                                                   ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
@@ -211,8 +211,8 @@ public:
   /// @brief Field levelID, offset: 0x30, size: 0x8, def value: None
   ::StringW levelID;
 
-  /// @brief Field contentModel, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* contentModel;
+  /// @brief Field entitlementModel, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::IEntitlementModel* entitlementModel;
 
   /// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
   ::System::Threading::CancellationToken _cancellationToken_5__2;
@@ -236,7 +236,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabi
 
 static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, levelID) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, contentModel) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, entitlementModel) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
 
@@ -318,27 +318,27 @@ public:
   /// @brief Field _updatedBadgeGo, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__updatedBadgeGo, put = __cordl_internal_set__updatedBadgeGo))::UnityW<::UnityEngine::GameObject> _updatedBadgeGo;
 
-  /// @brief Method CancelAsyncOperations, addr 0x24a48c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x250d834, size 0x38, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method HighlightDidChange, addr 0x24a48c0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x250d82c, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x24a4900, size 0xa8, virtual false, abstract: false, final false
-  inline void RefreshAvailabilityAsync(::GlobalNamespace::BeatmapLevelsModel* contentModel, ::StringW levelID);
+  /// @brief Method RefreshAvailabilityAsync, addr 0x250d86c, size 0xa8, virtual false, abstract: false, final false
+  inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel, ::StringW levelID);
 
-  /// @brief Method RefreshVisuals, addr 0x24a47fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x250d768, size 0xc4, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x24a47f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x250d764, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method SetDataFromLevelAsync, addr 0x24a4738, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetDataFromLevelAsync, addr 0x250d6a4, size 0xc0, virtual false, abstract: false, final false
   inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated);
 
-  /// @brief Method WasPreparedForReuse, addr 0x24a48c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WasPreparedForReuse, addr 0x250d830, size 0x4, virtual true, abstract: false, final false
   inline void WasPreparedForReuse();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -461,7 +461,7 @@ public:
 
   constexpr void __cordl_internal_set__updatedBadgeGo(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x24a49a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250d914, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

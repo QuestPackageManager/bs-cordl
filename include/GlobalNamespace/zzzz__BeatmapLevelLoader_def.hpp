@@ -5,6 +5,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapLevelLoader_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
+#include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -36,7 +37,16 @@ namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
+class IBeatmapLevelLoader;
+}
+namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
+}
+namespace GlobalNamespace {
+struct LoadBeatmapLevelDataResult;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelLoader__InitData;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelLoader__LevelDownloadingUpdate;
@@ -45,22 +55,19 @@ namespace GlobalNamespace {
 struct __BeatmapLevelLoader__LevelDownloadingUpdate__DownloadingState;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader__LoadBeatmapLevelDataResult;
+struct __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13;
+struct __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15;
+struct __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18;
+struct __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17;
+struct __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -80,6 +87,9 @@ struct CancellationToken;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct __BeatmapLevelLoader__LevelDownloadingUpdate__DownloadingState;
@@ -88,72 +98,81 @@ namespace GlobalNamespace {
 class BeatmapLevelLoader;
 }
 namespace GlobalNamespace {
+class __BeatmapLevelLoader__InitData;
+}
+namespace GlobalNamespace {
 struct __BeatmapLevelLoader__LevelDownloadingUpdate;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader__LoadBeatmapLevelDataResult;
+struct __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13;
+struct __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15;
+struct __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18;
+struct __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17;
+struct __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate__DownloadingState);
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelLoader);
+MARK_REF_PTR_T(::GlobalNamespace::__BeatmapLevelLoader__InitData);
 MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate);
-MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult);
-MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13);
-MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15);
-MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18);
-MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12);
-MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17);
-// Type: ::LoadBeatmapLevelDataResult
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14);
+MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16);
+MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19);
+MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13);
+MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18);
+// Type: ::InitData
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::BeatmapLevelLoader::LoadBeatmapLevelDataResult
-struct CORDL_TYPE __BeatmapLevelLoader__LoadBeatmapLevelDataResult {
+// Is value type: false
+// CS Name: ::BeatmapLevelLoader::InitData*
+class CORDL_TYPE __BeatmapLevelLoader__InitData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x12c339c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(bool isError, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
+  /// @brief Field maxCachedBeatmapLevels, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxCachedBeatmapLevels, put = __cordl_internal_set_maxCachedBeatmapLevels)) int32_t maxCachedBeatmapLevels;
 
+  static inline ::GlobalNamespace::__BeatmapLevelLoader__InitData* New_ctor(int32_t maxCachedBeatmapLevels);
+
+  constexpr int32_t const& __cordl_internal_get_maxCachedBeatmapLevels() const;
+
+  constexpr int32_t& __cordl_internal_get_maxCachedBeatmapLevels();
+
+  constexpr void __cordl_internal_set_maxCachedBeatmapLevels(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12ea788, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(int32_t maxCachedBeatmapLevels);
+
+protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapLevelLoader__LoadBeatmapLevelDataResult();
+  constexpr __BeatmapLevelLoader__InitData();
 
-  // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "",
-  // def_value: None }]
-  constexpr __BeatmapLevelLoader__LoadBeatmapLevelDataResult(bool isError, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) noexcept;
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelLoader__InitData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __BeatmapLevelLoader__InitData(__BeatmapLevelLoader__InitData&&) = delete;
 
-  /// @brief Field isError, offset: 0x0, size: 0x1, def value: None
-  bool isError;
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelLoader__InitData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __BeatmapLevelLoader__InitData(__BeatmapLevelLoader__InitData const&) = delete;
 
-  /// @brief Field beatmapLevelData, offset: 0x8, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
+  /// @brief Field maxCachedBeatmapLevels, offset: 0x10, size: 0x4, def value: None
+  int32_t ___maxCachedBeatmapLevels;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader__InitData, 0x18>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult, isError) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult, beatmapLevelData) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader__InitData, ___maxCachedBeatmapLevels) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::DownloadingState
@@ -223,7 +242,7 @@ public:
   // Declarations
   using DownloadingState = ::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate__DownloadingState;
 
-  /// @brief Method .ctor, addr 0x12c318c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ea528, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, float_t progress, ::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate__DownloadingState downloadingState);
 
   // Ctor Parameters []
@@ -259,21 +278,21 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader__LevelDownloading
 static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate, downloadingState) == 0xc, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<LoadBeatmapLevelDataAsync>d__12
+// Type: ::<LoadBeatmapLevelDataAsync>d__13
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::BeatmapLevelLoader::<LoadBeatmapLevelDataAsync>d__12
-struct CORDL_TYPE __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12 {
+// CS Name: ::BeatmapLevelLoader::<LoadBeatmapLevelDataAsync>d__13
+struct CORDL_TYPE __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12c33ac, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12ea7b0, size 0x30c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12c3650, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12eaabc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -281,23 +300,24 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12();
+  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }, CppParam { name:
-  // "__4__this", ty: "::GlobalNamespace::BeatmapLevelLoader*", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::BeatmapLevelLoader*", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam {
+  // name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelData*>", modifiers: "", def_value: None }]
-  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult> __t__builder,
-      ::GlobalNamespace::BeatmapLevelLoader* __4__this, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::System::Threading::CancellationToken cancellationToken,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelData*> __u__1) noexcept;
+  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13(int32_t __1__state,
+                                                                   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __t__builder,
+                                                                   ::GlobalNamespace::BeatmapLevelLoader* __4__this, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                   ::System::Threading::CancellationToken cancellationToken,
+                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelData*> __u__1) noexcept;
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult> __t__builder;
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelLoader* __4__this;
@@ -317,36 +337,36 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, beatmapLevel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, beatmapLevel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, __u__1) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<CheckBeatmapLevelDataExistsAsync>d__13
+// Type: ::<CheckBeatmapLevelDataExistsAsync>d__14
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::BeatmapLevelLoader::<CheckBeatmapLevelDataExistsAsync>d__13
-struct CORDL_TYPE __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13 {
+// CS Name: ::BeatmapLevelLoader::<CheckBeatmapLevelDataExistsAsync>d__14
+struct CORDL_TYPE __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12c36a8, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12eab14, size 0x234, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12c38dc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12ead48, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -354,14 +374,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13();
+  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapLevelLoader*", modifiers: "",
   // def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
   // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value:
   // None }]
-  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                           ::GlobalNamespace::BeatmapLevelLoader* __4__this, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                           ::System::Threading::CancellationToken cancellationToken,
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
@@ -390,36 +410,36 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, beatmapLevel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, beatmapLevel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, __u__1) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__15
+// Type: ::<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__16
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::BeatmapLevelLoader::<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__15
-struct CORDL_TYPE __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15 {
+// CS Name: ::BeatmapLevelLoader::<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__16
+struct CORDL_TYPE __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12c3934, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12eada0, size 0x440, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12c3d74, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12eb1e0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -427,14 +447,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15();
+  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "",
   // def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapLevelLoader*", modifiers: "", def_value: None }, CppParam { name: "token", ty:
   // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value:
   // None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
-  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15(
+  constexpr __BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
       ::GlobalNamespace::BeatmapLevelLoader* __4__this, ::System::Threading::CancellationToken token, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__2) noexcept;
@@ -466,38 +486,38 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, beatmapLevel) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, beatmapLevel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, token) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, token) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, __u__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, __u__2) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<LoadBeatmapLevelDataFromAssetBundle>d__17
+// Type: ::<LoadBeatmapLevelDataFromAssetBundle>d__18
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::BeatmapLevelLoader::<LoadBeatmapLevelDataFromAssetBundle>d__17
-struct CORDL_TYPE __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17 {
+// CS Name: ::BeatmapLevelLoader::<LoadBeatmapLevelDataFromAssetBundle>d__18
+struct CORDL_TYPE __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12c3dcc, size 0x71c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12eb238, size 0x71c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12c44e8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12eb954, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -505,7 +525,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17();
+  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelData*>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty:
@@ -515,7 +535,7 @@ public:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelData*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17(
+  constexpr __BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelData*> __t__builder, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
       ::GlobalNamespace::BeatmapLevelLoader* __4__this, ::System::Threading::CancellationToken token, ::StringW _levelDataAssetName_5__2,
       ::GlobalNamespace::IBeatmapLevelData* _storeProvidedBeatmapLevelData_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelData*> __u__1,
@@ -557,44 +577,44 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, beatmapLevel) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, beatmapLevel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, token) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, token) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, _levelDataAssetName_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, _levelDataAssetName_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, _storeProvidedBeatmapLevelData_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, _storeProvidedBeatmapLevelData_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, __u__2) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, __u__2) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, __u__3) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, __u__3) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<DownloadAssetBundleAndGetPath>d__18
+// Type: ::<DownloadAssetBundleAndGetPath>d__19
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::BeatmapLevelLoader::<DownloadAssetBundleAndGetPath>d__18
-struct CORDL_TYPE __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18 {
+// CS Name: ::BeatmapLevelLoader::<DownloadAssetBundleAndGetPath>d__19
+struct CORDL_TYPE __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12c4540, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12eb9ac, size 0x278, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12c47b8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12ebc24, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -602,14 +622,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18();
+  constexpr __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::BeatmapLevelLoader*", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam {
   // name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
-  constexpr __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18(int32_t __1__state,
+  constexpr __BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19(int32_t __1__state,
                                                                        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder,
                                                                        ::GlobalNamespace::BeatmapLevelLoader* __4__this, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                        ::System::Threading::CancellationToken token,
@@ -639,19 +659,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, beatmapLevel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, beatmapLevel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, token) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, token) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, __u__1) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapLevelLoader
@@ -662,19 +682,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapLevelLoader : public ::System::Object {
 public:
   // Declarations
+  using InitData = ::GlobalNamespace::__BeatmapLevelLoader__InitData;
+
   using LevelDownloadingUpdate = ::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate;
 
-  using LoadBeatmapLevelDataResult = ::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult;
+  using _CheckBeatmapLevelDataExistsAsync_d__14 = ::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14;
 
-  using _CheckBeatmapLevelDataExistsAsync_d__13 = ::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13;
+  using _CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16 = ::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16;
 
-  using _CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15 = ::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15;
+  using _DownloadAssetBundleAndGetPath_d__19 = ::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19;
 
-  using _DownloadAssetBundleAndGetPath_d__18 = ::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18;
+  using _LoadBeatmapLevelDataAsync_d__13 = ::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13;
 
-  using _LoadBeatmapLevelDataAsync_d__12 = ::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12;
-
-  using _LoadBeatmapLevelDataFromAssetBundle_d__17 = ::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17;
+  using _LoadBeatmapLevelDataFromAssetBundle_d__18 = ::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18;
 
   /// @brief Field _audioClipAsyncLoader, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
@@ -690,49 +710,57 @@ public:
   __declspec(property(get = __cordl_internal_get__loadedBeatmapLevels,
                       put = __cordl_internal_set__loadedBeatmapLevels))::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::GlobalNamespace::IBeatmapLevelData*>* _loadedBeatmapLevels;
 
+  __declspec(property(get = get_cachedLoadRequestCount)) int32_t cachedLoadRequestCount;
+
   /// @brief Field levelDownloadingUpdateEvent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_levelDownloadingUpdateEvent,
                       put = __cordl_internal_set_levelDownloadingUpdateEvent))::System::Action_1<::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate>* levelDownloadingUpdateEvent;
 
-  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x12c2cd8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelLoader"
+  constexpr operator ::GlobalNamespace::IBeatmapLevelLoader*() noexcept;
+
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x12ea074, size 0x10c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataExistsAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x12c2dec, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x12ea188, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataFromAssetBundleExistsAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::System::Threading::CancellationToken token);
 
-  /// @brief Method CheckBeatmapLevelDataFromCustomLevels, addr 0x12c2de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmapLevelDataFromCustomLevels, addr 0x12ea180, size 0x8, virtual false, abstract: false, final false
   inline bool CheckBeatmapLevelDataFromCustomLevels(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method Dispose, addr 0x12c2a60, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x12ea738, size 0x50, virtual true, abstract: false, final true
+  inline void ClearCache();
+
+  /// @brief Method Dispose, addr 0x12e9df0, size 0x178, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DownloadAssetBundleAndGetPath, addr 0x12c300c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method DownloadAssetBundleAndGetPath, addr 0x12ea3a8, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* DownloadAssetBundleAndGetPath(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                         ::System::Threading::CancellationToken token);
 
-  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x12c319c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x12ea538, size 0x38, virtual false, abstract: false, final false
   inline void HandleItemWillBeRemovedFromCache(::StringW beatmapLevelId, ::GlobalNamespace::IBeatmapLevelData* beatmapLevel);
 
-  /// @brief Method HandleLevelDataAssetDownloadUpdate, addr 0x12c3118, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDataAssetDownloadUpdate, addr 0x12ea4b4, size 0x74, virtual false, abstract: false, final false
   inline void HandleLevelDataAssetDownloadUpdate(::GlobalNamespace::LevelDataAssetDownloadUpdate update);
 
-  /// @brief Method Initialize, addr 0x12c28f8, size 0x168, virtual false, abstract: false, final false
-  inline void Initialize();
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x12e9f68, size 0x10c, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                                      ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x12c2bcc, size 0x10c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                                                                                            ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method LoadBeatmapLevelDataFromAssetBundle, addr 0x12c2f04, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetBundle, addr 0x12ea2a0, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadBeatmapLevelDataFromAssetBundle(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                         ::System::Threading::CancellationToken token);
 
-  /// @brief Method LoadBeatmapLevelDataFromCustomLevels, addr 0x12c2efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromCustomLevels, addr 0x12ea298, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* LoadBeatmapLevelDataFromCustomLevels(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::BeatmapLevelLoader* New_ctor(::GlobalNamespace::BeatmapLevelDataLoader* beatmapLevelDataLoader,
                                                                 ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                                                                int32_t maxCachedBeatmapLevels);
+                                                                ::GlobalNamespace::__BeatmapLevelLoader__InitData* initData);
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
@@ -765,14 +793,23 @@ public:
 
   constexpr void __cordl_internal_set_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate>* value);
 
-  /// @brief Method .ctor, addr 0x12c284c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e9c0c, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelDataLoader* beatmapLevelDataLoader, ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel,
-                    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, int32_t maxCachedBeatmapLevels);
+                    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::__BeatmapLevelLoader__InitData* initData);
 
-  /// @brief Method add_levelDownloadingUpdateEvent, addr 0x12c26ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_levelDownloadingUpdateEvent, addr 0x12e9a94, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate>* value);
 
-  /// @brief Method remove_levelDownloadingUpdateEvent, addr 0x12c279c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_cachedLoadRequestCount, addr 0x12e9bf4, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_cachedLoadRequestCount();
+
+  /// @brief Convert to "::GlobalNamespace::IBeatmapLevelLoader"
+  constexpr ::GlobalNamespace::IBeatmapLevelLoader* i___GlobalNamespace__IBeatmapLevelLoader() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  /// @brief Method remove_levelDownloadingUpdateEvent, addr 0x12e9b44, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate>* value);
 
 protected:
@@ -823,11 +860,12 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelLoader, ____audioClipAsync
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate__DownloadingState, "", "BeatmapLevelLoader/LevelDownloadingUpdate/DownloadingState");
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelLoader*, "", "BeatmapLevelLoader");
+NEED_NO_BOX(::GlobalNamespace::__BeatmapLevelLoader__InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader__InitData*, "", "BeatmapLevelLoader/InitData");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate, "", "BeatmapLevelLoader/LevelDownloadingUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelDataResult, "", "BeatmapLevelLoader/LoadBeatmapLevelDataResult");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__13, "", "BeatmapLevelLoader/<CheckBeatmapLevelDataExistsAsync>d__13");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__15, "",
-                       "BeatmapLevelLoader/<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__15");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__18, "", "BeatmapLevelLoader/<DownloadAssetBundleAndGetPath>d__18");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__12, "", "BeatmapLevelLoader/<LoadBeatmapLevelDataAsync>d__12");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__17, "", "BeatmapLevelLoader/<LoadBeatmapLevelDataFromAssetBundle>d__17");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataExistsAsync_d__14, "", "BeatmapLevelLoader/<CheckBeatmapLevelDataExistsAsync>d__14");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, "",
+                       "BeatmapLevelLoader/<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__16");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___DownloadAssetBundleAndGetPath_d__19, "", "BeatmapLevelLoader/<DownloadAssetBundleAndGetPath>d__19");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataAsync_d__13, "", "BeatmapLevelLoader/<LoadBeatmapLevelDataAsync>d__13");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelDataFromAssetBundle_d__18, "", "BeatmapLevelLoader/<LoadBeatmapLevelDataFromAssetBundle>d__18");

@@ -44,78 +44,78 @@ public:
   /// @brief Field solvers, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_solvers, put = __cordl_internal_set_solvers))::RootMotion::FinalIK::BipedIKSolvers* solvers;
 
-  /// @brief Method ASThread, addr 0x131d5d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1345b2c, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method FixTransforms, addr 0x131dafc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1346054, size 0x9c, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetGoalIK, addr 0x131d634, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetGoalIK, addr 0x1345b8c, size 0x7c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKSolverLimb* GetGoalIK(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method GetIKPosition, addr 0x131d7a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetIKPosition, addr 0x1345cf8, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetIKPosition(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method GetIKPositionWeight, addr 0x131d618, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetIKPositionWeight, addr 0x1345b70, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetIKPositionWeight(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method GetIKRotation, addr 0x131d7c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetIKRotation, addr 0x1345d18, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetIKRotation(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method GetIKRotationWeight, addr 0x131d6b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetIKRotationWeight, addr 0x1345c08, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetIKRotationWeight(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method InitiateBipedIK, addr 0x131d878, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitiateBipedIK, addr 0x1345dd0, size 0xc, virtual false, abstract: false, final false
   inline void InitiateBipedIK();
 
-  /// @brief Method InitiateSolver, addr 0x131db98, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method InitiateSolver, addr 0x13460f0, size 0x1b0, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
-  /// @brief Method LogWarning, addr 0x131e324, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x134687c, size 0x24, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
   static inline ::RootMotion::FinalIK::BipedIK* New_ctor();
 
-  /// @brief Method OpenScriptReference, addr 0x131d54c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1345aa4, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenUserManual, addr 0x131d508, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x1345a60, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method SetIKPosition, addr 0x131d724, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetIKPosition, addr 0x1345c7c, size 0x3c, virtual false, abstract: false, final false
   inline void SetIKPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 IKPosition);
 
-  /// @brief Method SetIKPositionWeight, addr 0x131d6cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetIKPositionWeight, addr 0x1345c24, size 0x2c, virtual false, abstract: false, final false
   inline void SetIKPositionWeight(::UnityEngine::AvatarIKGoal goal, float_t weight);
 
-  /// @brief Method SetIKRotation, addr 0x131d760, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetIKRotation, addr 0x1345cb8, size 0x40, virtual false, abstract: false, final false
   inline void SetIKRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion IKRotation);
 
-  /// @brief Method SetIKRotationWeight, addr 0x131d6f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetIKRotationWeight, addr 0x1345c50, size 0x2c, virtual false, abstract: false, final false
   inline void SetIKRotationWeight(::UnityEngine::AvatarIKGoal goal, float_t weight);
 
-  /// @brief Method SetLookAtPosition, addr 0x131d804, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtPosition, addr 0x1345d5c, size 0x28, virtual false, abstract: false, final false
   inline void SetLookAtPosition(::UnityEngine::Vector3 lookAtPosition);
 
-  /// @brief Method SetLookAtWeight, addr 0x131d7e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtWeight, addr 0x1345d38, size 0x24, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight, float_t clampWeightHead, float_t clampWeightEyes);
 
-  /// @brief Method SetSpinePosition, addr 0x131d82c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSpinePosition, addr 0x1345d84, size 0x28, virtual false, abstract: false, final false
   inline void SetSpinePosition(::UnityEngine::Vector3 spinePosition);
 
-  /// @brief Method SetSpineWeight, addr 0x131d854, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetSpineWeight, addr 0x1345dac, size 0x24, virtual false, abstract: false, final false
   inline void SetSpineWeight(float_t weight);
 
-  /// @brief Method SetToDefaults, addr 0x131d890, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetToDefaults, addr 0x1345de8, size 0x13c, virtual false, abstract: false, final false
   inline void SetToDefaults();
 
-  /// @brief Method SupportGroup, addr 0x131d590, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x1345ae8, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method UpdateBipedIK, addr 0x131d884, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateBipedIK, addr 0x1345ddc, size 0xc, virtual false, abstract: false, final false
   inline void UpdateBipedIK();
 
-  /// @brief Method UpdateSolver, addr 0x131deb8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method UpdateSolver, addr 0x1346410, size 0x174, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
   constexpr ::RootMotion::BipedReferences*& __cordl_internal_get_references();
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_solvers(::RootMotion::FinalIK::BipedIKSolvers* value);
 
-  /// @brief Method .ctor, addr 0x131e348, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13468a0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

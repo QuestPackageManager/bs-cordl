@@ -591,7 +591,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0xe754b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe91284, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

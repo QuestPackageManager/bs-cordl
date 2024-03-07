@@ -47,30 +47,30 @@ public:
   __declspec(property(get = __cordl_internal_get__map,
                       put = __cordl_internal_set__map))::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::UnityW<::Zenject::SceneContext>>* _map;
 
-  /// @brief Method Add, addr 0x30279e8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x307f220, size 0xd0, virtual false, abstract: false, final false
   inline void Add(::Zenject::SceneContext* context);
 
-  /// @brief Method GetContainerForScene, addr 0x3027ce8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetContainerForScene, addr 0x307f520, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetSceneContextForScene, addr 0x3027ab8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetSceneContextForScene, addr 0x307f2f0, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> GetSceneContextForScene(::StringW name);
 
-  /// @brief Method GetSceneContextForScene, addr 0x3027b68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSceneContextForScene, addr 0x307f3a0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> GetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
 
   static inline ::Zenject::SceneContextRegistry* New_ctor();
 
-  /// @brief Method Remove, addr 0x3027e78, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x307f6b0, size 0xfc, virtual false, abstract: false, final false
   inline void Remove(::Zenject::SceneContext* context);
 
-  /// @brief Method TryGetContainerForScene, addr 0x3027d8c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryGetContainerForScene, addr 0x307f5c4, size 0xec, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* TryGetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method TryGetSceneContextForScene, addr 0x3027bc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryGetSceneContextForScene, addr 0x307f3f8, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> TryGetSceneContextForScene(::StringW name);
 
-  /// @brief Method TryGetSceneContextForScene, addr 0x3027c70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetSceneContextForScene, addr 0x307f4a8, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> TryGetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::UnityW<::Zenject::SceneContext>>*& __cordl_internal_get__map();
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set__map(::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::UnityW<::Zenject::SceneContext>>* value);
 
-  /// @brief Method __zenCreate, addr 0x3027ff0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x307f828, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3028048, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x307f880, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3027f74, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307f7ac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SceneContexts, addr 0x3025c8c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_SceneContexts, addr 0x307d4c4, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* get_SceneContexts();
 
 protected:

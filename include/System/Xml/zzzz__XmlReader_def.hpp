@@ -86,16 +86,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CalcBufferSize, addr 0x2942aa0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalcBufferSize, addr 0x29a52d8, size 0x84, virtual false, abstract: false, final false
   static inline int32_t CalcBufferSize(::System::IO::Stream* input);
 
-  /// @brief Method Close, addr 0x2942a34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x29a526c, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x2942a40, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x29a5278, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2942a54, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x29a528c, size 0x44, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method LookupNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -124,7 +124,7 @@ public:
   /// @brief Method ResolveEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResolveEntity();
 
-  /// @brief Method .ctor, addr 0x2942b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a535c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint32_t getStaticF_CanReadContentAsBitmap();
@@ -136,13 +136,13 @@ public:
   /// @brief Method get_BaseURI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_CanResolveEntity, addr 0x2942a38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanResolveEntity, addr 0x29a5270, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanResolveEntity();
 
-  /// @brief Method get_DtdInfo, addr 0x2942a98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DtdInfo, addr 0x29a52d0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::IDtdInfo* get_DtdInfo();
 
-  /// @brief Method get_IsDefault, addr 0x29429e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDefault, addr 0x29a521c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDefault();
 
   /// @brief Method get_IsEmptyElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -151,7 +151,7 @@ public:
   /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2942900, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x29a5138, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
   /// @brief Method get_NameTable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -169,10 +169,10 @@ public:
   /// @brief Method get_ReadState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::ReadState get_ReadState();
 
-  /// @brief Method get_SchemaInfo, addr 0x29429ec, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x29a5224, size 0x48, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
 
-  /// @brief Method get_Settings, addr 0x29428f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x29a5130, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlReaderSettings* get_Settings();
 
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

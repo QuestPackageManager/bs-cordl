@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler::Awake)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2891828;
+  constexpr static std::size_t addrs = 0x28f2060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2891880;
+  constexpr static std::size_t addrs = 0x28f20b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

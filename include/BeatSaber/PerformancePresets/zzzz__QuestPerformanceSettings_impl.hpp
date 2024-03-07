@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::ProcessorPerformanceLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_gpuPerformanceLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe817d0;
+  constexpr static std::size_t addrs = 0xe9cb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::ProcessorPerformanceLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_cpuPerformanceLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe817d8;
+  constexpr static std::size_t addrs = 0xe9cb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_useFoveatedRenderingDuringGameplay)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0xe817e0;
+  constexpr static std::size_t addrs = 0xe9cb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0xe817f0;
+  constexpr static std::size_t addrs = 0xe9cb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

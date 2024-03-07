@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x137024c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139a7a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,10 +145,10 @@ public:
 
   static inline ::RootMotion::FinalIK::__Inertia__Body* New_ctor();
 
-  /// @brief Method Reset, addr 0x136fd54, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x139a2ac, size 0xdc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x136fed4, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x139a42c, size 0x2a4, virtual false, abstract: false, final false
   inline void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, float_t deltaTime);
 
   constexpr float_t const& __cordl_internal_get_acceleration() const;
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x1370230, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139a788, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -314,10 +314,10 @@ public:
 
   static inline ::RootMotion::FinalIK::Inertia* New_ctor();
 
-  /// @brief Method OnModifyOffset, addr 0x136fe30, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x139a388, size 0xa4, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
-  /// @brief Method ResetBodies, addr 0x136fce8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ResetBodies, addr 0x139a240, size 0x6c, virtual false, abstract: false, final false
   inline void ResetBodies();
 
   constexpr ::ArrayW<::RootMotion::FinalIK::__Inertia__Body*, ::Array<::RootMotion::FinalIK::__Inertia__Body*>*> const& __cordl_internal_get_bodies() const;
@@ -332,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set_limits(::ArrayW<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*, ::Array<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*>*> value);
 
-  /// @brief Method .ctor, addr 0x1370220, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139a778, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

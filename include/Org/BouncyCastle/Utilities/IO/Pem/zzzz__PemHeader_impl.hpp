@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x11cf75c;
+  constexpr static std::size_t addrs = 0x11f5e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11cf788;
+  constexpr static std::size_t addrs = 0x11f5e8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11cf790;
+  constexpr static std::size_t addrs = 0x11f5e94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x11cf798;
+  constexpr static std::size_t addrs = 0x11f5e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x11cf808;
+  constexpr static std::size_t addrs = 0x11f5f0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x11cf7f0;
+  constexpr static std::size_t addrs = 0x11f5ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

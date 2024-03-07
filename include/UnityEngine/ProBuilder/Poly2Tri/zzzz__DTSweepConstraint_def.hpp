@@ -24,7 +24,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1,
                                                                                  ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
-  /// @brief Method .ctor, addr 0x2c19538, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c79d70, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
 protected:

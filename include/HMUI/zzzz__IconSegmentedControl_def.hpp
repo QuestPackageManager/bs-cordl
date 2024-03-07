@@ -22,13 +22,7 @@ namespace HMUI {
 class __SegmentedControl__IDataSource;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
 class Sprite;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {
@@ -72,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set__icon_k__BackingField(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x22818b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e27e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
-  /// @brief Method get_hintText, addr 0x22818a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hintText, addr 0x22e27d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_hintText();
 
-  /// @brief Method get_icon, addr 0x2281894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x22e27c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method set_hintText, addr 0x22818ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x22e27e0, size 0x8, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_icon, addr 0x228189c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x22e27d0, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
 protected:
@@ -118,7 +112,7 @@ static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____hintText_k_
 
 } // namespace HMUI
 // Type: HMUI::IconSegmentedControl
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 169, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::IconSegmentedControl*
@@ -127,63 +121,53 @@ public:
   // Declarations
   using DataItem = ::HMUI::__IconSegmentedControl__DataItem;
 
-  /// @brief Field _container, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
-
-  /// @brief Field _dataItems, offset 0x90, size 0x8
+  /// @brief Field _dataItems, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__dataItems,
                       put = __cordl_internal_set__dataItems))::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> _dataItems;
 
-  /// @brief Field _firstCellPrefab, offset 0x68, size 0x8
+  /// @brief Field _firstCellPrefab, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__firstCellPrefab, put = __cordl_internal_set__firstCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _firstCellPrefab;
 
-  /// @brief Field _hideCellBackground, offset 0x64, size 0x1
+  /// @brief Field _hideCellBackground, offset 0x7c, size 0x1
   __declspec(property(get = __cordl_internal_get__hideCellBackground, put = __cordl_internal_set__hideCellBackground)) bool _hideCellBackground;
 
-  /// @brief Field _iconSize, offset 0x58, size 0x4
+  /// @brief Field _iconSize, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__iconSize, put = __cordl_internal_set__iconSize)) float_t _iconSize;
 
-  /// @brief Field _isInitialized, offset 0x98, size 0x1
+  /// @brief Field _isInitialized, offset 0xa8, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-  /// @brief Field _lastCellPrefab, offset 0x70, size 0x8
+  /// @brief Field _lastCellPrefab, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__lastCellPrefab, put = __cordl_internal_set__lastCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _lastCellPrefab;
 
-  /// @brief Field _middleCellPrefab, offset 0x78, size 0x8
+  /// @brief Field _middleCellPrefab, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__middleCellPrefab, put = __cordl_internal_set__middleCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _middleCellPrefab;
 
-  /// @brief Field _overrideCellSize, offset 0x5c, size 0x1
+  /// @brief Field _overrideCellSize, offset 0x74, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideCellSize, put = __cordl_internal_set__overrideCellSize)) bool _overrideCellSize;
 
-  /// @brief Field _padding, offset 0x60, size 0x4
+  /// @brief Field _padding, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
 
-  /// @brief Field _singleCellPrefab, offset 0x80, size 0x8
+  /// @brief Field _singleCellPrefab, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__singleCellPrefab, put = __cordl_internal_set__singleCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _singleCellPrefab;
 
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x2281368, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x22e237c, size 0x198, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method Init, addr 0x2280ee4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22e1e1c, size 0x1c, virtual false, abstract: false, final false
   inline void Init();
-
-  /// @brief Method InstantiateCell, addr 0x22814e8, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityW<::HMUI::IconSegmentedControlCell> InstantiateCell(::UnityEngine::Object* prefab);
 
   static inline ::HMUI::IconSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x2281350, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x22e2364, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x2280f08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x22e1e40, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
-
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
   constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> const& __cordl_internal_get__dataItems() const;
 
@@ -225,8 +209,6 @@ public:
 
   constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
   constexpr void __cordl_internal_set__dataItems(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> value);
 
   constexpr void __cordl_internal_set__firstCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
@@ -247,7 +229,7 @@ public:
 
   constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
-  /// @brief Method .ctor, addr 0x2281778, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2624, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
@@ -267,65 +249,60 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IconSegmentedControl(IconSegmentedControl const&) = delete;
 
-  /// @brief Field _iconSize, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _iconSize, offset: 0x70, size: 0x4, def value: None
   float_t ____iconSize;
 
-  /// @brief Field _overrideCellSize, offset: 0x5c, size: 0x1, def value: None
+  /// @brief Field _overrideCellSize, offset: 0x74, size: 0x1, def value: None
   bool ____overrideCellSize;
 
-  /// @brief Field _padding, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field _padding, offset: 0x78, size: 0x4, def value: None
   float_t ____padding;
 
-  /// @brief Field _hideCellBackground, offset: 0x64, size: 0x1, def value: None
+  /// @brief Field _hideCellBackground, offset: 0x7c, size: 0x1, def value: None
   bool ____hideCellBackground;
 
-  /// @brief Field _firstCellPrefab, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _firstCellPrefab, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControlCell> ____firstCellPrefab;
 
-  /// @brief Field _lastCellPrefab, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _lastCellPrefab, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControlCell> ____lastCellPrefab;
 
-  /// @brief Field _middleCellPrefab, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _middleCellPrefab, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControlCell> ____middleCellPrefab;
 
-  /// @brief Field _singleCellPrefab, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _singleCellPrefab, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControlCell> ____singleCellPrefab;
 
-  /// @brief Field _container, offset: 0x88, size: 0x8, def value: None
-  ::Zenject::DiContainer* ____container;
-
-  /// @brief Field _dataItems, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _dataItems, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> ____dataItems;
 
-  /// @brief Field _isInitialized, offset: 0x98, size: 0x1, def value: None
+  /// @brief Field _isInitialized, offset: 0xa8, size: 0x1, def value: None
   bool ____isInitialized;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControl, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControl, 0xb0>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____iconSize) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____iconSize) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____overrideCellSize) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____overrideCellSize) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____padding) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____padding) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____hideCellBackground) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____hideCellBackground) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____firstCellPrefab) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____firstCellPrefab) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____lastCellPrefab) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____lastCellPrefab) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____middleCellPrefab) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____middleCellPrefab) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____singleCellPrefab) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____singleCellPrefab) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____container) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____dataItems) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____dataItems) == 0x90, "Offset mismatch!");
-
-static_assert(offsetof(::HMUI::IconSegmentedControl, ____isInitialized) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____isInitialized) == 0xa8, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::IconSegmentedControl);

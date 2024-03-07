@@ -58,18 +58,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method GetBlockSize, addr 0xf347cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xf53ed0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0xf347d4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf53ed8, size 0xf0, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0xf348c4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf53fc8, size 0x138, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf349fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf54100, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__keyis128() const;
@@ -108,75 +108,75 @@ public:
 
   constexpr void __cordl_internal_set_subkey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0xf346f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53df8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method bytes2uint, addr 0xf32bd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method bytes2uint, addr 0xf522d8, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t bytes2uint(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t offset);
 
-  /// @brief Method camelliaF2, addr 0xf32e30, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method camelliaF2, addr 0xf52534, size 0x2e8, virtual false, abstract: false, final false
   inline void camelliaF2(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> skey, int32_t keyoff);
 
-  /// @brief Method camelliaFLs, addr 0xf33118, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method camelliaFLs, addr 0xf5281c, size 0x134, virtual false, abstract: false, final false
   inline void camelliaFLs(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> fkey, int32_t keyoff);
 
-  /// @brief Method decroldq, addr 0xf3285c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method decroldq, addr 0xf51f60, size 0x128, virtual false, abstract: false, final false
   static inline void decroldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method decroldqo32, addr 0xf32aac, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method decroldqo32, addr 0xf521b0, size 0x128, virtual false, abstract: false, final false
   static inline void decroldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_SBOX1();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_SIGMA();
 
-  /// @brief Method get_AlgorithmName, addr 0xf34784, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf53e88, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xf347c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf53ec8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  /// @brief Method lRot8, addr 0xf32c7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method lRot8, addr 0xf52380, size 0x1c, virtual false, abstract: false, final false
   inline uint8_t lRot8(uint8_t v, int32_t rot);
 
-  /// @brief Method leftRotate, addr 0xf32720, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method leftRotate, addr 0xf51e24, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t leftRotate(uint32_t x, int32_t s);
 
-  /// @brief Method processBlock128, addr 0xf34158, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method processBlock128, addr 0xf5385c, size 0x2b0, virtual false, abstract: false, final false
   inline int32_t processBlock128(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method processBlock192or256, addr 0xf34408, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method processBlock192or256, addr 0xf53b0c, size 0x2ec, virtual false, abstract: false, final false
   inline int32_t processBlock192or256(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method rightRotate, addr 0xf3270c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method rightRotate, addr 0xf51e10, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t rightRotate(uint32_t x, int32_t s);
 
-  /// @brief Method roldq, addr 0xf32734, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method roldq, addr 0xf51e38, size 0x128, virtual false, abstract: false, final false
   static inline void roldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method roldqo32, addr 0xf32984, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method roldqo32, addr 0xf52088, size 0x128, virtual false, abstract: false, final false
   static inline void roldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method sbox2, addr 0xf32c98, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method sbox2, addr 0xf5239c, size 0x88, virtual false, abstract: false, final false
   inline uint32_t sbox2(int32_t x);
 
-  /// @brief Method sbox3, addr 0xf32d20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method sbox3, addr 0xf52424, size 0x88, virtual false, abstract: false, final false
   inline uint32_t sbox3(int32_t x);
 
-  /// @brief Method sbox4, addr 0xf32da8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method sbox4, addr 0xf524ac, size 0x88, virtual false, abstract: false, final false
   inline uint32_t sbox4(int32_t x);
 
-  /// @brief Method setKey, addr 0xf3324c, size 0xf0c, virtual false, abstract: false, final false
+  /// @brief Method setKey, addr 0xf52950, size 0xf0c, virtual false, abstract: false, final false
   inline void setKey(bool forEncryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline void setStaticF_SBOX1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_SIGMA(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method uint2bytes, addr 0xf32c34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method uint2bytes, addr 0xf52338, size 0x48, virtual false, abstract: false, final false
   static inline void uint2bytes(uint32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t offset);
 
 protected:

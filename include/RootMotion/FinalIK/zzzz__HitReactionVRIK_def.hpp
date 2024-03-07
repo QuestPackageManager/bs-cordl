@@ -117,7 +117,7 @@ public:
 
   __declspec(property(get = get_timer, put = set_timer)) float_t timer;
 
-  /// @brief Method Apply, addr 0x136ee8c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x13993e4, size 0xe0, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   /// @brief Method CrossFadeStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -126,7 +126,7 @@ public:
   /// @brief Method GetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves);
 
-  /// @brief Method Hit, addr 0x136f190, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Hit, addr 0x13996e8, size 0x130, virtual false, abstract: false, final false
   inline void Hit(::UnityEngine::Vector3 force, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__Offset* New_ctor();
@@ -194,31 +194,31 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x136f330, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1399888, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_crossFader, addr 0x136f2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_crossFader, addr 0x1399838, size 0x8, virtual false, abstract: false, final false
   inline float_t get_crossFader();
 
-  /// @brief Method get_force, addr 0x136f300, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x1399858, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_force();
 
-  /// @brief Method get_point, addr 0x136f318, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x1399870, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_timer, addr 0x136f2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timer, addr 0x1399848, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timer();
 
-  /// @brief Method set_crossFader, addr 0x136f2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_crossFader, addr 0x1399840, size 0x8, virtual false, abstract: false, final false
   inline void set_crossFader(float_t value);
 
-  /// @brief Method set_force, addr 0x136f30c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x1399864, size 0xc, virtual false, abstract: false, final false
   inline void set_force(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_point, addr 0x136f324, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x139987c, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_timer, addr 0x136f2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timer, addr 0x1399850, size 0x8, virtual false, abstract: false, final false
   inline void set_timer(float_t value);
 
 protected:
@@ -311,10 +311,10 @@ public:
   /// @brief Field weight, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method Apply, addr 0x136f714, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1399c6c, size 0x78, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Vector3 offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x136f538, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1399a90, size 0x14, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink* New_ctor();
@@ -343,7 +343,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x136f7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1399d00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -407,15 +407,15 @@ public:
   /// @brief Field upDirCurveIndex, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_upDirCurveIndex, put = __cordl_internal_set_upDirCurveIndex)) int32_t upDirCurveIndex;
 
-  /// @brief Method CrossFadeStart, addr 0x136f4d8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1399a30, size 0x60, virtual true, abstract: false, final false
   inline void CrossFadeStart();
 
-  /// @brief Method GetLength, addr 0x136f344, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetLength, addr 0x139989c, size 0x194, virtual true, abstract: false, final false
   inline float_t GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves);
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset* New_ctor();
 
-  /// @brief Method OnApply, addr 0x136f54c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method OnApply, addr 0x1399aa4, size 0x1c8, virtual true, abstract: false, final false
   inline void OnApply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   constexpr int32_t const& __cordl_internal_get_forceDirCurveIndex() const;
@@ -439,7 +439,7 @@ public:
 
   constexpr void __cordl_internal_set_upDirCurveIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x136f78c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1399ce4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -497,10 +497,10 @@ public:
   /// @brief Field weight, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method Apply, addr 0x136fb68, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x139a0c0, size 0x108, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Quaternion offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x136f8e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1399e38, size 0xc, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink* New_ctor();
@@ -529,7 +529,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x136fc84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139a1dc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -593,15 +593,15 @@ public:
   /// @brief Field rigidbody, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_rigidbody, put = __cordl_internal_set_rigidbody))::UnityW<::UnityEngine::Rigidbody> rigidbody;
 
-  /// @brief Method CrossFadeStart, addr 0x136f888, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x1399de0, size 0x58, virtual true, abstract: false, final false
   inline void CrossFadeStart();
 
-  /// @brief Method GetLength, addr 0x136f7b0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetLength, addr 0x1399d08, size 0xd8, virtual true, abstract: false, final false
   inline float_t GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves);
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset* New_ctor();
 
-  /// @brief Method OnApply, addr 0x136f8ec, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method OnApply, addr 0x1399e44, size 0x27c, virtual true, abstract: false, final false
   inline void OnApply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   constexpr int32_t const& __cordl_internal_get_curveIndex() const;
@@ -625,7 +625,7 @@ public:
 
   constexpr void __cordl_internal_set_rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0x136fc70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139a1c8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -690,12 +690,12 @@ public:
                       put = __cordl_internal_set_rotationOffsets))::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*,
                                                                            ::Array<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*>*> rotationOffsets;
 
-  /// @brief Method Hit, addr 0x136ef6c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Hit, addr 0x13994c4, size 0x224, virtual false, abstract: false, final false
   inline void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::HitReactionVRIK* New_ctor();
 
-  /// @brief Method OnModifyOffset, addr 0x136edd4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x139932c, size 0xb8, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
   constexpr ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> const& __cordl_internal_get_offsetCurves() const;
@@ -718,7 +718,7 @@ public:
 
   constexpr void __cordl_internal_set_rotationOffsets(::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*>*> value);
 
-  /// @brief Method .ctor, addr 0x136f2c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1399818, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

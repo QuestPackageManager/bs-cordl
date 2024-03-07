@@ -24,23 +24,23 @@ namespace Org::BouncyCastle::Bcpg {
 class CORDL_TYPE RevocationReason : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method CreateData, addr 0x1239900, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x125f004, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method GetRevocationDescription, addr 0x12399cc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationDescription, addr 0x125f0d0, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW GetRevocationDescription();
 
-  /// @brief Method GetRevocationReason, addr 0x12399a4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationReason, addr 0x125f0a8, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::RevocationReasonTag GetRevocationReason();
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x1239868, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125ef6c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x12398b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125efb4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
 protected:

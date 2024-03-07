@@ -298,7 +298,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x130bf80, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13344d8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -497,75 +497,75 @@ public:
   /// @brief Field m_Weight, offset 0xf4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Weight, put = __cordl_internal_set_m_Weight)) float_t m_Weight;
 
-  /// @brief Method AppendParticles, addr 0x130b6fc, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method AppendParticles, addr 0x1333c54, size 0x5c8, virtual false, abstract: false, final false
   inline void AppendParticles(::UnityEngine::Transform* b, int32_t parentIndex, float_t boneLength);
 
-  /// @brief Method ApplyParticlesToTransforms, addr 0x130b4a0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ApplyParticlesToTransforms, addr 0x13339f8, size 0x25c, virtual false, abstract: false, final false
   inline void ApplyParticlesToTransforms();
 
-  /// @brief Method CheckDistance, addr 0x1309f58, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CheckDistance, addr 0x13324b0, size 0x178, virtual false, abstract: false, final false
   inline void CheckDistance();
 
-  /// @brief Method FixedUpdate, addr 0x1309e84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x13323dc, size 0x30, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetWeight, addr 0x130a774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetWeight, addr 0x1332ccc, size 0x8, virtual false, abstract: false, final false
   inline float_t GetWeight();
 
-  /// @brief Method InitTransforms, addr 0x130a294, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InitTransforms, addr 0x13327ec, size 0x104, virtual false, abstract: false, final false
   inline void InitTransforms();
 
-  /// @brief Method LateUpdate, addr 0x1309f08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x1332460, size 0x50, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method MirrorVector, addr 0x130c05c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MirrorVector, addr 0x13345b4, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorVector(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 axis);
 
   static inline ::GlobalNamespace::DynamicBone* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x130a4e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x1332a3c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x130a594, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x1332aec, size 0x190, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x130a4e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x1332a38, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x130a4e8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x1332a40, size 0xac, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method PreUpdate, addr 0x1309eb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PreUpdate, addr 0x133240c, size 0x24, virtual false, abstract: false, final false
   inline void PreUpdate();
 
-  /// @brief Method ResetParticlesPosition, addr 0x130a398, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ResetParticlesPosition, addr 0x13328f0, size 0x148, virtual false, abstract: false, final false
   inline void ResetParticlesPosition();
 
-  /// @brief Method SetWeight, addr 0x130a724, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetWeight, addr 0x1332c7c, size 0x50, virtual false, abstract: false, final false
   inline void SetWeight(float_t w);
 
-  /// @brief Method SetupParticles, addr 0x1309d18, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetupParticles, addr 0x1332270, size 0x16c, virtual false, abstract: false, final false
   inline void SetupParticles();
 
-  /// @brief Method SkipUpdateParticles, addr 0x130affc, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method SkipUpdateParticles, addr 0x1333554, size 0x4a4, virtual false, abstract: false, final false
   inline void SkipUpdateParticles();
 
-  /// @brief Method Start, addr 0x1309d14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x133226c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x1309ed8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1332430, size 0x30, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDynamicBones, addr 0x130a0d0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamicBones, addr 0x1332628, size 0x1c4, virtual false, abstract: false, final false
   inline void UpdateDynamicBones(float_t t);
 
-  /// @brief Method UpdateParameters, addr 0x130bcc4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x133421c, size 0x2bc, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method UpdateParticles1, addr 0x130a77c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method UpdateParticles1, addr 0x1332cd4, size 0x264, virtual false, abstract: false, final false
   inline void UpdateParticles1();
 
-  /// @brief Method UpdateParticles2, addr 0x130a9e0, size 0x61c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParticles2, addr 0x1332f38, size 0x61c, virtual false, abstract: false, final false
   inline void UpdateParticles2();
 
   constexpr float_t const& __cordl_internal_get_m_BoneTotalLength() const;
@@ -760,7 +760,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x130c090, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13345e8, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

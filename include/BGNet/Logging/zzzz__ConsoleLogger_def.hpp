@@ -28,21 +28,21 @@ public:
   /// @brief Convert operator to "::BGNet::Logging::__Debug__ILogger"
   constexpr operator ::BGNet::Logging::__Debug__ILogger*() noexcept;
 
-  /// @brief Method LogError, addr 0xed2e24, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0xef2528, size 0x1a0, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0xed2fc4, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0xef26c8, size 0x134, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogInfo, addr 0xed2d44, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0xef2448, size 0xe0, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogWarning, addr 0xed30f8, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0xef27fc, size 0xe0, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::BGNet::Logging::ConsoleLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0xed31d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef28dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGNet::Logging::__Debug__ILogger"

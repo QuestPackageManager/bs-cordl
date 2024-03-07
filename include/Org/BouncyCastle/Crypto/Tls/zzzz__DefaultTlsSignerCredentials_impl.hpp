@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::Tls::Certificate*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfd58ac;
+  constexpr static std::size_t addrs = 0xff6fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::Tls::Certificate*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*,
     ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::_ctor)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0xfd58b4;
+  constexpr static std::size_t addrs = 0xff6fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::Certificate* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfd5cd4;
+  constexpr static std::size_t addrs = 0xff73d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::GenerateCertificateSignature)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0xfd5cdc;
+  constexpr static std::size_t addrs = 0xff73e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* (
     ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::*)()>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::get_SignatureAndHashAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfd5f14;
+  constexpr static std::size_t addrs = 0xff7618;
 
   inline static ::MethodInfo const* methodInfo() {
 

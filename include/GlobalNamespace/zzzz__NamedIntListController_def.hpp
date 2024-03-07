@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x24d32a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2539a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x24d3274, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x2539a34, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
 protected:
@@ -118,21 +118,21 @@ public:
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
 
-  /// @brief Method ApplyValue, addr 0x24d3220, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x25399e0, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x24d31ac, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x253996c, size 0x74, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method InitValues, addr 0x24d313c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitValues, addr 0x25398fc, size 0x38, virtual false, abstract: false, final false
   inline void InitValues(::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> values);
 
   static inline ::GlobalNamespace::NamedIntListController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x24d3174, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2539934, size 0x38, virtual false, abstract: false, final false
   inline void SetValue(int32_t value);
 
-  /// @brief Method TextForValue, addr 0x24d3240, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x2539a00, size 0x34, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> const&
@@ -155,16 +155,16 @@ public:
 
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x24d329c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2539a5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueChangedEvent, addr 0x24d2fdc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_valueChangedEvent, addr 0x253979c, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
-  /// @brief Method remove_valueChangedEvent, addr 0x24d308c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_valueChangedEvent, addr 0x253984c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
 protected:

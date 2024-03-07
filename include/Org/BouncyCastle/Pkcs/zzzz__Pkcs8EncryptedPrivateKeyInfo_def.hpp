@@ -33,20 +33,20 @@ public:
   __declspec(property(get = __cordl_internal_get_encryptedPrivateKeyInfo,
                       put = __cordl_internal_set_encryptedPrivateKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encryptedPrivateKeyInfo;
 
-  /// @brief Method DecryptPrivateKeyInfo, addr 0x11577fc, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method DecryptPrivateKeyInfo, addr 0x117cf00, size 0x3c4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* DecryptPrivateKeyInfo(::Org::BouncyCastle::Crypto::IDecryptorBuilderProvider* inputDecryptorProvider);
 
-  /// @brief Method GetEncoded, addr 0x11577e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x117cee4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncryptedData, addr 0x11577c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedData, addr 0x117cec8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncryptedData();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPrivateKeyInfo);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encryptedPrivateKeyInfo);
 
-  /// @brief Method ToAsn1Structure, addr 0x11577bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x117cec0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*& __cordl_internal_get_encryptedPrivateKeyInfo();
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_encryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x1157788, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117ce8c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPrivateKeyInfo);
 
-  /// @brief Method .ctor, addr 0x1157760, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117ce64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encryptedPrivateKeyInfo);
 
-  /// @brief Method parseBytes, addr 0x1157638, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method parseBytes, addr 0x117cd3c, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* parseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> pkcs8Encoding);
 
 protected:

@@ -43,10 +43,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__0_0, addr 0x12c8c58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ToRuntime>b__0_0, addr 0x12f00b8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _ToRuntime_b__0_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x12c8c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f00b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__BeatmapLevelExtensions____c;
 
-  /// @brief Method ToRuntime, addr 0x12c7e94, size 0xc9c, virtual false, abstract: false, final false
+  /// @brief Method ToRuntime, addr 0x12ef30c, size 0xc84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
 protected:

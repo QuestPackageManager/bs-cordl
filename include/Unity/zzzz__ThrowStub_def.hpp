@@ -18,7 +18,7 @@ namespace Unity {
 class CORDL_TYPE ThrowStub : public ::System::ObjectDisposedException {
 public:
   // Declarations
-  /// @brief Method ThrowNotSupportedException, addr 0x28f5908, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotSupportedException, addr 0x2958140, size 0x1040, virtual false, abstract: false, final false
   static inline void ThrowNotSupportedException();
 
 protected:

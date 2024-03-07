@@ -76,16 +76,16 @@ public:
 
   __declspec(property(get = get_style, put = set_style))::UnityEngine::GUIStyle* style;
 
-  /// @brief Method ApplyOptions, addr 0x2df36ec, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method ApplyOptions, addr 0x2e4ef24, size 0x2d4, virtual true, abstract: false, final false
   inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method ApplyStyleSettings, addr 0x2df3660, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x2e4ee98, size 0x8c, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method CalcHeight, addr 0x2df35f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x2e4ee2c, size 0x4, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x2df35f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x2e4ee28, size 0x4, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
@@ -93,13 +93,13 @@ public:
   static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
                                                         ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method SetHorizontal, addr 0x2df35f8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x2e4ee30, size 0x34, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x2df362c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x2e4ee64, size 0x34, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
-  /// @brief Method ToString, addr 0x2df39c0, size 0x5e0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e4f1f8, size 0x5e0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_consideredForMargin() const;
@@ -156,10 +156,10 @@ public:
 
   constexpr void __cordl_internal_set_stretchWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2df33dc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e4ec14, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
 
-  /// @brief Method .ctor, addr 0x2df34e8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e4ed20, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
                     ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
@@ -167,32 +167,32 @@ public:
 
   static inline ::UnityEngine::Rect getStaticF_kDummyRect();
 
-  /// @brief Method get_marginBottom, addr 0x2df333c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_marginBottom, addr 0x2e4eb74, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginBottom();
 
-  /// @brief Method get_marginHorizontal, addr 0x2df3364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_marginHorizontal, addr 0x2e4eb9c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_marginHorizontal();
 
-  /// @brief Method get_marginLeft, addr 0x2df32c4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_marginLeft, addr 0x2e4eafc, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginLeft();
 
-  /// @brief Method get_marginRight, addr 0x2df32ec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_marginRight, addr 0x2e4eb24, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginRight();
 
-  /// @brief Method get_marginTop, addr 0x2df3314, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_marginTop, addr 0x2e4eb4c, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginTop();
 
-  /// @brief Method get_marginVertical, addr 0x2df33a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_marginVertical, addr 0x2e4ebd8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_marginVertical();
 
-  /// @brief Method get_style, addr 0x2df32ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_style, addr 0x2e4eae4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_style();
 
   static inline void setStaticF_indent(int32_t value);
 
   static inline void setStaticF_kDummyRect(::UnityEngine::Rect value);
 
-  /// @brief Method set_style, addr 0x2df32b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_style, addr 0x2e4eaec, size 0x10, virtual false, abstract: false, final false
   inline void set_style(::UnityEngine::GUIStyle* value);
 
 protected:

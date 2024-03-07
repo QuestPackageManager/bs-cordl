@@ -35,27 +35,27 @@ public:
   /// @brief Field twistLimit, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_twistLimit, put = __cordl_internal_set_twistLimit)) float_t twistLimit;
 
-  /// @brief Method ASThread, addr 0x136bdf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1396350, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method LimitRotation, addr 0x136be58, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method LimitRotation, addr 0x13963b0, size 0x94, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method LimitSwing, addr 0x136beec, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method LimitSwing, addr 0x1396444, size 0x3b8, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::RotationLimitSpline* New_ctor();
 
-  /// @brief Method OpenScriptReference, addr 0x136bd70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x13962c8, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenUserManual, addr 0x136bd2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x1396284, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method SetSpline, addr 0x136be3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetSpline, addr 0x1396394, size 0x1c, virtual false, abstract: false, final false
   inline void SetSpline(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keyframes);
 
-  /// @brief Method SupportGroup, addr 0x136bdb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x139630c, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_spline();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_twistLimit(float_t value);
 
-  /// @brief Method .ctor, addr 0x136c2a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13967fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

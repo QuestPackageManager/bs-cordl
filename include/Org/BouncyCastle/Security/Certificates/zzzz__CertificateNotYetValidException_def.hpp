@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x118d83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b3f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x118d844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b3f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x118d84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b3f50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

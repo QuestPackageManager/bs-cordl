@@ -35,18 +35,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0xfb2894, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0xfd3f98, size 0x134, virtual true, abstract: false, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0xfb29c8, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0xfd40cc, size 0x138, virtual true, abstract: false, final false
   inline void AddSeedMaterial(int64_t seed);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator* New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator, int32_t windowSize);
 
-  /// @brief Method NextBytes, addr 0xfb2b00, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0xfd4204, size 0x1c, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes, addr 0xfb2d3c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0xfd4440, size 0x4, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __cordl_internal_get_generator();
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_windowCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0xfb2780, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd3e84, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator, int32_t windowSize);
 
-  /// @brief Method doNextBytes, addr 0xfb2b1c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method doNextBytes, addr 0xfd4220, size 0x220, virtual false, abstract: false, final false
   inline void doNextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"

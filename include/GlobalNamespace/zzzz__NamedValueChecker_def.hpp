@@ -25,12 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NamedValueChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x23f5adc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x245acf4, size 0xb0, virtual false, abstract: false, final false
   static inline bool Check(::StringW fieldName, ::System::Object* value, ::System::Object* expectedValue, ::System::Text::StringBuilder* assertMessageSb);
 
   static inline ::GlobalNamespace::NamedValueChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23f5b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245ada4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

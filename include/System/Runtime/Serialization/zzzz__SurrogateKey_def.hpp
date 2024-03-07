@@ -32,7 +32,7 @@ public:
   /// @brief Field m_type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::System::Type* m_type;
 
-  /// @brief Method GetHashCode, addr 0x25b1b38, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2615334, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x25b1900, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26150fc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

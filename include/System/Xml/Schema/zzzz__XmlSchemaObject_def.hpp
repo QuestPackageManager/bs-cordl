@@ -26,16 +26,16 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaObject* New_ctor();
 
-  /// @brief Method OnAdd, addr 0x29b2700, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAdd, addr 0x2a13f38, size 0x4, virtual true, abstract: false, final false
   inline void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::System::Object* item);
 
-  /// @brief Method OnClear, addr 0x29b2708, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnClear, addr 0x2a13f40, size 0x4, virtual true, abstract: false, final false
   inline void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
 
-  /// @brief Method OnRemove, addr 0x29b2704, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRemove, addr 0x2a13f3c, size 0x4, virtual true, abstract: false, final false
   inline void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::System::Object* item);
 
-  /// @brief Method .ctor, addr 0x29b0bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a123e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

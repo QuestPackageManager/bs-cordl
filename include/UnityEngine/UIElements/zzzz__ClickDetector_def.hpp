@@ -53,7 +53,7 @@ public:
 
   static inline ::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus* New_ctor();
 
-  /// @brief Method Reset, addr 0x2ebfe5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2f1a694, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_m_ClickCount() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2ebfbec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1a424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,21 +140,21 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ClickStatus,
                       put = __cordl_internal_set_m_ClickStatus))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* m_ClickStatus;
 
-  /// @brief Method CancelClickTracking, addr 0x2ec03c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CancelClickTracking, addr 0x2f1abfc, size 0xfc, virtual false, abstract: false, final false
   inline void CancelClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ContainsPointer, addr 0x2ec02a4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ContainsPointer, addr 0x2f1aadc, size 0x120, virtual false, abstract: false, final false
   static inline bool ContainsPointer(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::Vector2 position);
 
   static inline ::UnityEngine::UIElements::ClickDetector* New_ctor();
 
-  /// @brief Method ProcessEvent, addr 0x2ec04c0, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x2f1acf8, size 0x51c, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method SendClickEvent, addr 0x2ebfec0, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method SendClickEvent, addr 0x2f1a6f8, size 0x3e4, virtual false, abstract: false, final false
   inline void SendClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method StartClickTracking, addr 0x2ebfbf4, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method StartClickTracking, addr 0x2f1a42c, size 0x268, virtual false, abstract: false, final false
   inline void StartClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*& __cordl_internal_get_m_ClickStatus();
@@ -164,17 +164,17 @@ public:
 
   constexpr void __cordl_internal_set_m_ClickStatus(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* value);
 
-  /// @brief Method .ctor, addr 0x2ebf98c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1a1c4, size 0x260, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__s_DoubleClickTime_k__BackingField();
 
-  /// @brief Method get_s_DoubleClickTime, addr 0x2ebf8d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_s_DoubleClickTime, addr 0x2f1a110, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_s_DoubleClickTime();
 
   static inline void setStaticF__s_DoubleClickTime_k__BackingField(int32_t value);
 
-  /// @brief Method set_s_DoubleClickTime, addr 0x2ebf930, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_s_DoubleClickTime, addr 0x2f1a168, size 0x5c, virtual false, abstract: false, final false
   static inline void set_s_DoubleClickTime(int32_t value);
 
 protected:

@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> value);
 
-  /// @brief Method .ctor, addr 0x12d688c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fde58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,10 +119,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12d6894, size 0x824, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12fde60, size 0x824, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12d70b8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12fe684, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -199,21 +199,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
 
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x12d6668, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x12fdc34, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x12d6730, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x12fdcfc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
 
-  /// @brief Method Init, addr 0x12d6638, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x12fdc04, size 0x18, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IsAvailabilityTaskValid, addr 0x12d66d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsAvailabilityTaskValid, addr 0x12fdca0, size 0x5c, virtual false, abstract: false, final false
   inline bool IsAvailabilityTaskValid();
 
   static inline ::GlobalNamespace::MultiplayerStatusModel* New_ctor();
 
-  /// @brief Method StartRequest, addr 0x12d6650, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StartRequest, addr 0x12fdc1c, size 0x18, virtual false, abstract: false, final false
   inline void StartRequest();
 
   constexpr ::System::Net::Http::HttpClient*& __cordl_internal_get__client();
@@ -234,7 +234,7 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* value);
 
-  /// @brief Method .ctor, addr 0x12d6824, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fddf0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"

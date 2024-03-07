@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x29b2cf8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a14530, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_BaseTypeName, addr 0x29b2c60, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeName, addr 0x2a14498, size 0x98, virtual false, abstract: false, final false
   inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
 
 protected:

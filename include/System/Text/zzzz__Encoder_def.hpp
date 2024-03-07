@@ -39,29 +39,29 @@ public:
   /// @brief Field _fallbackBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__fallbackBuffer, put = __cordl_internal_set__fallbackBuffer))::System::Text::EncoderFallbackBuffer* _fallbackBuffer;
 
-  /// @brief Method Convert, addr 0x27276fc, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x27879b8, size 0x2f8, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, bool flush,
                       ByRef<int32_t> charsUsed, ByRef<int32_t> bytesUsed, ByRef<bool> completed);
 
-  /// @brief Method Convert, addr 0x27279f4, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x2787cb0, size 0x22c, virtual true, abstract: false, final false
   inline void Convert(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush, ByRef<int32_t> charsUsed,
                       ByRef<int32_t> bytesUsed, ByRef<bool> completed);
 
   /// @brief Method GetByteCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetByteCount(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count, bool flush);
 
-  /// @brief Method GetByteCount, addr 0x2727378, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x2787634, size 0x16c, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count, bool flush);
 
   /// @brief Method GetBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetBytes(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, bool flush);
 
-  /// @brief Method GetBytes, addr 0x27274e4, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x27877a0, size 0x218, virtual true, abstract: false, final false
   inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush);
 
   static inline ::System::Text::Encoder* New_ctor();
 
-  /// @brief Method Reset, addr 0x2727294, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2787550, size 0xe4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Text::EncoderFallback*& __cordl_internal_get__fallback();
@@ -76,16 +76,16 @@ public:
 
   constexpr void __cordl_internal_set__fallbackBuffer(::System::Text::EncoderFallbackBuffer* value);
 
-  /// @brief Method .ctor, addr 0x2727284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2787540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Fallback, addr 0x272728c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fallback, addr 0x2787548, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::EncoderFallback* get_Fallback();
 
-  /// @brief Method get_FallbackBuffer, addr 0x2723c28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_FallbackBuffer, addr 0x2783ee4, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* get_FallbackBuffer();
 
-  /// @brief Method get_InternalHasFallbackBuffer, addr 0x2723c18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_InternalHasFallbackBuffer, addr 0x2783ed4, size 0x10, virtual false, abstract: false, final false
   inline bool get_InternalHasFallbackBuffer();
 
 protected:

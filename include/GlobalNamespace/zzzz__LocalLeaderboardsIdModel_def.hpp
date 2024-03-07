@@ -23,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLocalLeaderboardID, addr 0x12ae32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLocalLeaderboardID, addr 0x12d5578, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetLocalLeaderboardID(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12ae334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d5580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

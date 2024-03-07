@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::GameNoteController> value);
 
-  /// @brief Method .ctor, addr 0x2399a80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fae64, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameNoteController, addr 0x2399a78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x23fae5c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameNoteController> get_gameNoteController();
 
 protected:

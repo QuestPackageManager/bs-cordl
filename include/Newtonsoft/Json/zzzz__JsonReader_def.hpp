@@ -263,126 +263,126 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x273b30c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x279b5c8, size 0x14, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CreateUnexpectedEndException, addr 0x273a1fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedEndException, addr 0x279a4b8, size 0x4c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedEndException();
 
-  /// @brief Method Dispose, addr 0x27402a8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x27a0564, size 0x24, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetContentToken, addr 0x273e9e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetContentToken, addr 0x279eca0, size 0x74, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken GetContentToken();
 
-  /// @brief Method GetPosition, addr 0x273e2a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x279e55c, size 0xa4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonPosition GetPosition(int32_t depth);
 
-  /// @brief Method GetTypeForCloseToken, addr 0x2740190, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeForCloseToken, addr 0x27a044c, size 0xa8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType GetTypeForCloseToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method MoveToContent, addr 0x2740358, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MoveToContent, addr 0x27a0614, size 0x58, virtual false, abstract: false, final false
   inline bool MoveToContent();
 
   static inline ::Newtonsoft::Json::JsonReader* New_ctor();
 
-  /// @brief Method Peek, addr 0x273e700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x279e9bc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Peek();
 
-  /// @brief Method Pop, addr 0x273e5e4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x279e8a0, size 0x11c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Pop();
 
-  /// @brief Method Push, addr 0x273e344, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x279e600, size 0x288, virtual false, abstract: false, final false
   inline void Push(::Newtonsoft::Json::JsonContainerType value);
 
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Read();
 
-  /// @brief Method ReadAndAssert, addr 0x27402cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadAndAssert, addr 0x27a0588, size 0x54, virtual false, abstract: false, final false
   inline void ReadAndAssert();
 
-  /// @brief Method ReadAndMoveToContent, addr 0x2740328, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ReadAndMoveToContent, addr 0x27a05e4, size 0x30, virtual false, abstract: false, final false
   inline bool ReadAndMoveToContent();
 
-  /// @brief Method ReadArrayIntoByteArray, addr 0x2737340, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayIntoByteArray, addr 0x27975fc, size 0x29c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadArrayIntoByteArray();
 
-  /// @brief Method ReadAsBoolean, addr 0x273f484, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x279f740, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBytes, addr 0x273edc0, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x279f07c, size 0x3f8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsDateTime, addr 0x273fa54, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x279fd10, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x273fd14, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x279ffd0, size 0x2cc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDecimal, addr 0x273f744, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x279fa00, size 0x310, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDouble, addr 0x273f1b8, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x279f474, size 0x2cc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsInt32, addr 0x273e708, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x279e9c4, size 0x2dc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsString, addr 0x273ea58, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x279ed14, size 0x368, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadBooleanString, addr 0x273963c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ReadBooleanString, addr 0x27998f8, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadBooleanString(::StringW s);
 
-  /// @brief Method ReadDateTimeOffsetString, addr 0x2737c48, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTimeOffsetString, addr 0x2797f04, size 0x268, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadDateTimeOffsetString(::StringW s);
 
-  /// @brief Method ReadDateTimeString, addr 0x27379c0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTimeString, addr 0x2797c7c, size 0x288, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadDateTimeString(::StringW s);
 
-  /// @brief Method ReadDecimalString, addr 0x2739afc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ReadDecimalString, addr 0x2799db8, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadDecimalString(::StringW s);
 
-  /// @brief Method ReadDoubleString, addr 0x2739d28, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ReadDoubleString, addr 0x2799fe4, size 0x1dc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadDoubleString(::StringW s);
 
-  /// @brief Method ReadInt32String, addr 0x2739914, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32String, addr 0x2799bd0, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadInt32String(::StringW s);
 
-  /// @brief Method ReadIntoWrappedTypeObject, addr 0x2737188, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ReadIntoWrappedTypeObject, addr 0x2797444, size 0x1b8, virtual false, abstract: false, final false
   inline void ReadIntoWrappedTypeObject();
 
-  /// @brief Method ReaderReadAndAssert, addr 0x2737144, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReaderReadAndAssert, addr 0x2797400, size 0x44, virtual false, abstract: false, final false
   inline void ReaderReadAndAssert();
 
-  /// @brief Method SetFinished, addr 0x2740178, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetFinished, addr 0x27a0434, size 0x18, virtual false, abstract: false, final false
   inline void SetFinished();
 
-  /// @brief Method SetPostValueState, addr 0x2734c24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetPostValueState, addr 0x2794ee0, size 0x40, virtual false, abstract: false, final false
   inline void SetPostValueState(bool updateIndex);
 
-  /// @brief Method SetStateBasedOnCurrent, addr 0x2739824, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetStateBasedOnCurrent, addr 0x2799ae0, size 0xf0, virtual false, abstract: false, final false
   inline void SetStateBasedOnCurrent();
 
-  /// @brief Method SetToken, addr 0x2735c88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x2795f44, size 0xc, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken);
 
-  /// @brief Method SetToken, addr 0x2738e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x2799150, size 0x8, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value);
 
-  /// @brief Method SetToken, addr 0x2734c64, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x2794f20, size 0x158, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value, bool updateIndex);
 
-  /// @brief Method Skip, addr 0x273ffe0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Skip, addr 0x27a029c, size 0x98, virtual false, abstract: false, final false
   inline void Skip();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2740238, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x27a04f4, size 0x70, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method UpdateScopeWithFinishedValue, addr 0x273e5cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UpdateScopeWithFinishedValue, addr 0x279e888, size 0x18, virtual false, abstract: false, final false
   inline void UpdateScopeWithFinishedValue();
 
-  /// @brief Method ValidateEnd, addr 0x2740078, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ValidateEnd, addr 0x27a0334, size 0x100, virtual false, abstract: false, final false
   inline void ValidateEnd(::Newtonsoft::Json::JsonToken endToken);
 
   constexpr bool const& __cordl_internal_get__CloseInput_k__BackingField() const;
@@ -475,82 +475,82 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2734228, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27944e4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CloseInput, addr 0x273de84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CloseInput, addr 0x279e140, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseInput();
 
-  /// @brief Method get_Culture, addr 0x2734dbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Culture, addr 0x2795078, size 0x68, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method get_CurrentState, addr 0x273de7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentState, addr 0x279e138, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::__JsonReader__State get_CurrentState();
 
-  /// @brief Method get_DateFormatString, addr 0x273e000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateFormatString, addr 0x279e2bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DateFormatString();
 
-  /// @brief Method get_DateParseHandling, addr 0x273df28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateParseHandling, addr 0x279e1e4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling();
 
-  /// @brief Method get_DateTimeZoneHandling, addr 0x273debc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeZoneHandling, addr 0x279e178, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling();
 
-  /// @brief Method get_Depth, addr 0x273e0fc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x279e3b8, size 0x7c, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_FloatParseHandling, addr 0x273df94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatParseHandling, addr 0x279e250, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling();
 
-  /// @brief Method get_MaxDepth, addr 0x273e010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDepth, addr 0x279e2cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaxDepth();
 
-  /// @brief Method get_Path, addr 0x273e178, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x279e434, size 0x120, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x273deac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x279e168, size 0x8, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_SupportMultipleContent, addr 0x273de98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportMultipleContent, addr 0x279e154, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportMultipleContent();
 
-  /// @brief Method get_TokenType, addr 0x273e0d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x279e394, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x273e0e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x279e39c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x273e0e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x279e3a4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_CloseInput, addr 0x273de8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CloseInput, addr 0x279e148, size 0xc, virtual false, abstract: false, final false
   inline void set_CloseInput(bool value);
 
-  /// @brief Method set_Culture, addr 0x273e298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Culture, addr 0x279e554, size 0x8, virtual false, abstract: false, final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_DateFormatString, addr 0x273e008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateFormatString, addr 0x279e2c4, size 0x8, virtual false, abstract: false, final false
   inline void set_DateFormatString(::StringW value);
 
-  /// @brief Method set_DateParseHandling, addr 0x273df30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_DateParseHandling, addr 0x279e1ec, size 0x64, virtual false, abstract: false, final false
   inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling value);
 
-  /// @brief Method set_DateTimeZoneHandling, addr 0x273dec4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeZoneHandling, addr 0x279e180, size 0x64, virtual false, abstract: false, final false
   inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  /// @brief Method set_FloatParseHandling, addr 0x273df9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_FloatParseHandling, addr 0x279e258, size 0x64, virtual false, abstract: false, final false
   inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
 
-  /// @brief Method set_MaxDepth, addr 0x273e018, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_MaxDepth, addr 0x279e2d4, size 0xc0, virtual false, abstract: false, final false
   inline void set_MaxDepth(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_QuoteChar, addr 0x273deb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x279e170, size 0x8, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method set_SupportMultipleContent, addr 0x273dea0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SupportMultipleContent, addr 0x279e15c, size 0xc, virtual false, abstract: false, final false
   inline void set_SupportMultipleContent(bool value);
 
 protected:

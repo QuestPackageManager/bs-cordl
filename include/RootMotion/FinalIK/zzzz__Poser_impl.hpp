@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Poser::*)()>(&::RootMotion::FinalIK::Poser::UpdateManual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1367518;
+  constexpr static std::size_t addrs = 0x1390a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Poser*>::get(), "UpdateManual",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Poser::*)()>(&::RootMotion::FinalIK::Poser::UpdateSolver)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1367524;
+  constexpr static std::size_t addrs = 0x1390a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Poser::*)()>(&::RootMotion::FinalIK::Poser::InitiateSolver)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1367568;
+  constexpr static std::size_t addrs = 0x1390ac0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Poser::*)()>(&::RootMotion::FinalIK::Poser::FixTransforms)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x1367594;
+  constexpr static std::size_t addrs = 0x1390aec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Poser::*)()>(&::RootMotion::FinalIK::Poser::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1366e80;
+  constexpr static std::size_t addrs = 0x13903d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Poser*>::get(), ".ctor",

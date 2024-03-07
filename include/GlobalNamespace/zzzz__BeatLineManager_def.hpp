@@ -79,18 +79,18 @@ public:
 
   __declspec(property(get = get_rotationRange)) float_t rotationRange;
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x238a61c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x23ecb84, size 0x1a0, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::BeatLineManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x238a064, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23ec5cc, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2389fd8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23ec540, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x238a0f0, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23ec658, size 0x52c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>*& __cordl_internal_get__activeBeatLines();
@@ -148,16 +148,16 @@ public:
 
   constexpr void __cordl_internal_set__rotationRange(float_t value);
 
-  /// @brief Method .ctor, addr 0x238a7bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ecd24, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isMidRotationValid, addr 0x2389fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMidRotationValid, addr 0x23ec528, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMidRotationValid();
 
-  /// @brief Method get_midRotation, addr 0x2389fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_midRotation, addr 0x23ec530, size 0x8, virtual false, abstract: false, final false
   inline float_t get_midRotation();
 
-  /// @brief Method get_rotationRange, addr 0x2389fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationRange, addr 0x23ec538, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationRange();
 
 protected:

@@ -39,12 +39,12 @@ public:
   /// @brief Field _childNodes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__childNodes, put = __cordl_internal_set__childNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _childNodes;
 
-  /// @brief Method AppendChild, addr 0x27ac97c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x280dc38, size 0xd0, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
   static inline ::Newtonsoft::Json::Converters::XContainerWrapper* New_ctor(::System::Xml::Linq::XContainer* container);
 
-  /// @brief Method WrapNode, addr 0x27acbb4, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method WrapNode, addr 0x280de70, size 0x490, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Converters::IXmlNode* WrapNode(::System::Xml::Linq::XObject* node);
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __cordl_internal_get__childNodes();
@@ -53,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__childNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
-  /// @brief Method .ctor, addr 0x27aba1c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280ccd8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XContainer* container);
 
-  /// @brief Method get_ChildNodes, addr 0x27abbec, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method get_ChildNodes, addr 0x280cea8, size 0x3b8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
-  /// @brief Method get_Container, addr 0x27ad280, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x280e53c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XContainer* get_Container();
 
-  /// @brief Method get_ParentNode, addr 0x27ad2f8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x280e5b4, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
 protected:

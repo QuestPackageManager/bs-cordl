@@ -70,30 +70,30 @@ public:
                                                                           ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                           ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method InternalAccessRuleFactory, addr 0x25786c0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method InternalAccessRuleFactory, addr 0x25daebc, size 0x70, virtual true, abstract: false, final false
   inline ::System::Security::AccessControl::AccessRule* InternalAccessRuleFactory(::System::Security::AccessControl::QualifiedAce* ace, ::System::Type* targetType,
                                                                                   ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method InternalGetAccessRules, addr 0x2576a54, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method InternalGetAccessRules, addr 0x25d9250, size 0x324, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* InternalGetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
   static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(bool isContainer, bool isDS);
 
   static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor);
 
-  /// @brief Method ReadLock, addr 0x2578668, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadLock, addr 0x25dae64, size 0x20, virtual false, abstract: false, final false
   inline void ReadLock();
 
-  /// @brief Method ReadUnlock, addr 0x2578688, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadUnlock, addr 0x25dae84, size 0x1c, virtual false, abstract: false, final false
   inline void ReadUnlock();
 
-  /// @brief Method WriteLock, addr 0x2577e4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteLock, addr 0x25da648, size 0x20, virtual false, abstract: false, final false
   inline void WriteLock();
 
-  /// @brief Method WriteUnlock, addr 0x25786a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteUnlock, addr 0x25daea0, size 0x1c, virtual false, abstract: false, final false
   inline void WriteUnlock();
 
-  /// @brief Method Writing, addr 0x25785f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Writing, addr 0x25dadf4, size 0x70, virtual false, abstract: false, final false
   inline void Writing();
 
   constexpr ::System::Security::AccessControl::CommonSecurityDescriptor*& __cordl_internal_get_descriptor();
@@ -114,13 +114,13 @@ public:
 
   constexpr void __cordl_internal_set_sections_modified(::System::Security::AccessControl::AccessControlSections value);
 
-  /// @brief Method .ctor, addr 0x257694c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d9148, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS);
 
-  /// @brief Method .ctor, addr 0x2578534, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dad30, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor);
 
-  /// @brief Method set_AccessControlSectionsModified, addr 0x2577e6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_AccessControlSectionsModified, addr 0x25da668, size 0x24, virtual false, abstract: false, final false
   inline void set_AccessControlSectionsModified(::System::Security::AccessControl::AccessControlSections value);
 
 protected:

@@ -43,10 +43,10 @@ public:
   /// @brief Field keySize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_keySize, put = __cordl_internal_set_keySize)) int32_t keySize;
 
-  /// @brief Method Build, addr 0xf9d720, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0xfbee24, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* Build();
 
-  /// @brief Method GetKeySize, addr 0xf9d488, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetKeySize, addr 0xfbeb8c, size 0x1a4, virtual false, abstract: false, final false
   static inline int32_t GetKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set_keySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf9d62c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbed30, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
 
-  /// @brief Method .ctor, addr 0xf9d69c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbeda0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize);
 
   static inline ::System::Collections::IDictionary* getStaticF_KeySizes();

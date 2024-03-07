@@ -33,30 +33,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method ActivateGameObject, addr 0x2252068, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ActivateGameObject, addr 0x22b302c, size 0x1a0, virtual false, abstract: false, final false
   inline void ActivateGameObject();
 
-  /// @brief Method DeactivateGameObject, addr 0x2251a90, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DeactivateGameObject, addr 0x22b2a54, size 0x1a4, virtual false, abstract: false, final false
   inline void DeactivateGameObject();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x2251dd8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x22b2d9c, size 0x148, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x2251f20, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x22b2ee4, size 0x148, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
-  /// @brief Method Init, addr 0x225186c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22b2830, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
   static inline ::GlobalNamespace::DeactivateOnInputFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2251c34, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22b2bf8, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x2251a8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22b2a50, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Setup, addr 0x2251874, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22b2838, size 0x218, virtual false, abstract: false, final false
   inline void Setup();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x2252208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b31cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x225182c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x22b27f0, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"

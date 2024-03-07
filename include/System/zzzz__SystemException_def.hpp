@@ -36,16 +36,16 @@ public:
 
   static inline ::System::SystemException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x26b8460, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27187b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26b0654, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27109a4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x26b0588, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27108d8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x26b84e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718830, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

@@ -32,42 +32,42 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x60
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRSettings FnTable;
 
-  /// @brief Method GetBool, addr 0x28e6dac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x29495e4, size 0x24, virtual false, abstract: false, final false
   inline bool GetBool(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method GetFloat, addr 0x28e6df4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x294962c, size 0x24, virtual false, abstract: false, final false
   inline float_t GetFloat(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method GetInt32, addr 0x28e6dd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetInt32, addr 0x2949608, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetInt32(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method GetSettingsErrorNameFromEnum, addr 0x28e6c6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetSettingsErrorNameFromEnum, addr 0x29494a4, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetSettingsErrorNameFromEnum(::OVR::OpenVR::EVRSettingsError eError);
 
-  /// @brief Method GetString, addr 0x28e6e18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2949650, size 0x24, virtual false, abstract: false, final false
   inline void GetString(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::CVRSettings* New_ctor(void* pInterface);
 
-  /// @brief Method RemoveKeyInSection, addr 0x28e6e60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RemoveKeyInSection, addr 0x2949698, size 0x24, virtual false, abstract: false, final false
   inline void RemoveKeyInSection(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method RemoveSection, addr 0x28e6e3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RemoveSection, addr 0x2949674, size 0x24, virtual false, abstract: false, final false
   inline void RemoveSection(::StringW pchSection, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method SetBool, addr 0x28e6d18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetBool, addr 0x2949550, size 0x28, virtual false, abstract: false, final false
   inline void SetBool(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method SetFloat, addr 0x28e6d64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x294959c, size 0x24, virtual false, abstract: false, final false
   inline void SetFloat(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method SetInt32, addr 0x28e6d40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetInt32, addr 0x2949578, size 0x24, virtual false, abstract: false, final false
   inline void SetInt32(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method SetString, addr 0x28e6d88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetString, addr 0x29495c0, size 0x24, virtual false, abstract: false, final false
   inline void SetString(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method Sync, addr 0x28e6cf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Sync, addr 0x2949528, size 0x28, virtual false, abstract: false, final false
   inline bool Sync(bool bForce, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   constexpr ::OVR::OpenVR::IVRSettings const& __cordl_internal_get_FnTable() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRSettings value);
 
-  /// @brief Method .ctor, addr 0x28e6b58, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2949390, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
 protected:

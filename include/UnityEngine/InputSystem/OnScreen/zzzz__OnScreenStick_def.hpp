@@ -67,16 +67,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick* New_ctor();
 
-  /// @brief Method OnDrag, addr 0x2bc075c, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method OnDrag, addr 0x2c1ff94, size 0x224, virtual true, abstract: false, final true
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x2bc0638, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x2c1fe70, size 0x124, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x2bc0980, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x2c201b8, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Start, addr 0x2bc0a44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2c2027c, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set_m_StartPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2bc0adc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c20314, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controlPathInternal, addr 0x2bc0acc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x2c20304, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
-  /// @brief Method get_movementRange, addr 0x2bc0abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementRange, addr 0x2c202f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_movementRange();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
@@ -124,10 +124,10 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method set_controlPathInternal, addr 0x2bc0ad4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x2c2030c, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
-  /// @brief Method set_movementRange, addr 0x2bc0ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_movementRange, addr 0x2c202fc, size 0x8, virtual false, abstract: false, final false
   inline void set_movementRange(float_t value);
 
 protected:

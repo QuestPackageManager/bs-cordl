@@ -50,7 +50,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0xff0f84, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1011688, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method ToAsn1Object, addr 0xff111c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x1011820, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_tagNo() const;
@@ -76,22 +76,22 @@ public:
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0xff0d64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1011468, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0xff0e34, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1011538, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* choice);
 
-  /// @brief Method .ctor, addr 0xff0dd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10114d8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  /// @brief Method .ctor, addr 0xff0e04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1011508, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method get_Status, addr 0xff1114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x1011818, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Status();
 
-  /// @brief Method get_TagNo, addr 0xff110c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagNo, addr 0x1011810, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TagNo();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x27f71f0, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2859c0c, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

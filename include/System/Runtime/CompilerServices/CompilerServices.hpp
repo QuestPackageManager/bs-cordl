@@ -61,7 +61,6 @@ module;
 #include "System/Runtime/CompilerServices/UnsafeValueTypeAttribute.hpp"
 #include "System/Runtime/CompilerServices/ValueTaskAwaiter.hpp"
 #include "System/Runtime/CompilerServices/ValueTaskAwaiter_1.hpp"
-#include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 #ifdef __cpp_modules
 export module CompilerServices;
 #endif

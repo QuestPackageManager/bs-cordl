@@ -67,7 +67,7 @@ public:
 
   static inline ::HMUI::__ModalView____c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x22a39f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x23047b8, size 0x7c, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x22a2fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2303d68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,7 +131,7 @@ public:
 
   static inline ::HMUI::__ModalView____c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x22a3a6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x2304834, size 0x20, virtual false, abstract: false, final false
   inline void _HandleParentViewControllerDidDeactivate_b__0();
 
   constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_prevAnimateParentCanvas(bool value);
 
-  /// @brief Method .ctor, addr 0x22a39d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23047a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -227,33 +227,33 @@ public:
   /// @brief Field blockerClickedEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_blockerClickedEvent, put = __cordl_internal_set_blockerClickedEvent))::System::Action* blockerClickedEvent;
 
-  /// @brief Method CreateBlocker, addr 0x22a348c, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method CreateBlocker, addr 0x2304254, size 0x45c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateBlocker();
 
-  /// @brief Method GetModalRootTransform, addr 0x22a338c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetModalRootTransform, addr 0x2304154, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetModalRootTransform(::UnityEngine::Transform* transform, ByRef<::UnityEngine::Canvas*> canvas, ByRef<::HMUI::ViewController*> viewController);
 
-  /// @brief Method HandleBlockerButtonClicked, addr 0x22a38e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBlockerButtonClicked, addr 0x23046b0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBlockerButtonClicked();
 
-  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x22a3904, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x23046cc, size 0xd4, virtual false, abstract: false, final false
   inline void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Hide, addr 0x22a2a80, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x2303848, size 0x214, virtual false, abstract: false, final false
   inline void Hide(bool animated, ::System::Action* finishedCallback);
 
   static inline ::HMUI::ModalView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x22a2c94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2303a5c, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x22a2a74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x230383c, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method SetupView, addr 0x22a2d20, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method SetupView, addr 0x2303ae8, size 0x280, virtual false, abstract: false, final false
   inline void SetupView(::UnityEngine::Transform* screenTransform);
 
-  /// @brief Method Show, addr 0x22a2fa8, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x2303d70, size 0x3e4, virtual false, abstract: false, final false
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
   constexpr bool const& __cordl_internal_get__animateParentCanvas() const;
@@ -328,13 +328,13 @@ public:
 
   constexpr void __cordl_internal_set_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x22a39e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23047a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_blockerClickedEvent, addr 0x22a293c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_blockerClickedEvent, addr 0x2303704, size 0x9c, virtual false, abstract: false, final false
   inline void add_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method remove_blockerClickedEvent, addr 0x22a29d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_blockerClickedEvent, addr 0x23037a0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_blockerClickedEvent(::System::Action* value);
 
 protected:

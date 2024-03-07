@@ -1440,7 +1440,7 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__CustomType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x236dc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cf9f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1730,10 +1730,10 @@ public:
 
   constexpr void __cordl_internal_set__writer(::LiteNetLib::Utils::NetDataWriter* value);
 
-  /// @brief Method .ctor, addr 0x236d6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cf4cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x236d7e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cf5c0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
 protected:

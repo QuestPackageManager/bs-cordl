@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__topNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* value);
 
-  /// @brief Method .ctor, addr 0x22fc8c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235e6a0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -40,18 +40,18 @@ namespace RootMotion {
 class CORDL_TYPE __Warning__Logger : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x131cb24, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x134507c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW message, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x131cb44, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x134509c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x131cb10, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x1345068, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW message);
 
   static inline ::RootMotion::__Warning__Logger* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x131ca3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1344f94, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -87,10 +87,10 @@ public:
   /// @brief Field logged, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_logged, put = setStaticF_logged)) bool logged;
 
-  /// @brief Method Log, addr 0x1316c44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x133f19c, size 0xb4, virtual false, abstract: false, final false
   static inline void Log(::StringW message, ::UnityEngine::Transform* context, bool logInEditMode);
 
-  /// @brief Method Log, addr 0x131c9a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x1344efc, size 0x98, virtual false, abstract: false, final false
   static inline void Log(::StringW message, ::RootMotion::__Warning__Logger* logger, bool logInEditMode);
 
   static inline bool getStaticF_logged();

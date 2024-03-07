@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f486d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa0f10, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  /// @brief Method DoMeasure, addr 0x2f48548, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x2fa0d80, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
@@ -109,10 +109,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::System::Action* clickEvent);
 
-  /// @brief Method OnKeyDown, addr 0x2f48430, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x2fa0c68, size 0x118, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x2f483f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x2fa0c30, size 0x38, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
@@ -121,24 +121,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x2f483f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa0c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f3b604, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f93e3c, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent);
 
   static inline ::StringW getStaticF_NonEmptyString();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x2f48384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x2fa0bbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
   static inline void setStaticF_NonEmptyString(::StringW value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x2f4838c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x2fa0bc4, size 0x64, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
 protected:
@@ -176,7 +176,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f48690, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa0ec8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -15,9 +15,6 @@ namespace GlobalNamespace {
 class BeatmapLevelPack;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
 class DlcPromoPanelModel;
 }
 namespace GlobalNamespace {
@@ -31,6 +28,9 @@ class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
@@ -164,10 +164,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x23bf3a0, size 0x3ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2424674, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x23bf78c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2424acc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -224,10 +224,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x23bf798, size 0x378, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2424ad8, size 0x378, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x23bfb10, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2424e50, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -293,9 +293,6 @@ public:
   /// @brief Field _analyticsModel, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  /// @brief Field _beatmapLevelsModel, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
-
   /// @brief Field _blurredPackArtwork, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__blurredPackArtwork, put = __cordl_internal_set__blurredPackArtwork))::UnityW<::UnityEngine::Sprite> _blurredPackArtwork;
 
@@ -317,6 +314,9 @@ public:
   /// @brief Field _dlcPromoPanelModel, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__dlcPromoPanelModel, put = __cordl_internal_set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
 
+  /// @brief Field _entitlementModel, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__entitlementModel, put = __cordl_internal_set__entitlementModel))::GlobalNamespace::IEntitlementModel* _entitlementModel;
+
   /// @brief Field _eventBinder, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__eventBinder, put = __cordl_internal_set__eventBinder))::GlobalNamespace::EventBinder* _eventBinder;
 
@@ -335,42 +335,42 @@ public:
   /// @brief Field _requireInternetContainer, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__requireInternetContainer, put = __cordl_internal_set__requireInternetContainer))::UnityW<::UnityEngine::GameObject> _requireInternetContainer;
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x23beeb8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x242418c, size 0x94, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method DidActivate, addr 0x23bea64, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2423d38, size 0x1dc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x23bec40, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2423f14, size 0x10c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x23bf218, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x24244ec, size 0x4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
   static inline ::GlobalNamespace::LevelPackDetailViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23bed4c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2424020, size 0x16c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x23bef4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x2424220, size 0x94, virtual false, abstract: false, final false
   inline void OpenLevelPackProductStoreAsync();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x23be9d0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x2423ca4, size 0x94, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync();
 
-  /// @brief Method SetData, addr 0x23be704, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x241f59c, size 0x2cc, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method ShowContent, addr 0x23befe0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x24242b4, size 0x238, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::__LevelPackDetailViewController__ContentType contentType, ::StringW errorText);
 
-  /// @brief Method <DidActivate>b__18_1, addr 0x23bf288, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_1, addr 0x242455c, size 0x8c, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_1();
 
-  /// @brief Method <DidActivate>b__18_2, addr 0x23bf314, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_2, addr 0x24245e8, size 0x8c, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_2();
 
-  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|18_0, addr 0x23bf284, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|18_0, addr 0x2424558, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_g__HandleDidPressRefreshButton_18_0();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
@@ -380,10 +380,6 @@ public:
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
-
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__blurredPackArtwork() const;
 
@@ -413,6 +409,10 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DlcPromoPanelModel*> const& __cordl_internal_get__dlcPromoPanelModel() const;
 
+  constexpr ::GlobalNamespace::IEntitlementModel*& __cordl_internal_get__entitlementModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEntitlementModel*> const& __cordl_internal_get__entitlementModel() const;
+
   constexpr ::GlobalNamespace::EventBinder*& __cordl_internal_get__eventBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EventBinder*> const& __cordl_internal_get__eventBinder() const;
@@ -441,8 +441,6 @@ public:
 
   constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
-
   constexpr void __cordl_internal_set__blurredPackArtwork(::UnityW<::UnityEngine::Sprite> value);
 
   constexpr void __cordl_internal_set__buyButton(::UnityW<::UnityEngine::UI::Button> value);
@@ -457,6 +455,8 @@ public:
 
   constexpr void __cordl_internal_set__dlcPromoPanelModel(::GlobalNamespace::DlcPromoPanelModel* value);
 
+  constexpr void __cordl_internal_set__entitlementModel(::GlobalNamespace::IEntitlementModel* value);
+
   constexpr void __cordl_internal_set__eventBinder(::GlobalNamespace::EventBinder* value);
 
   constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
@@ -469,7 +469,7 @@ public:
 
   constexpr void __cordl_internal_set__requireInternetContainer(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x23bf21c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24244f0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -513,8 +513,8 @@ public:
   /// @brief Field _additionalContentModel, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+  /// @brief Field _entitlementModel, offset: 0xb8, size: 0x8, def value: None
+  ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
   /// @brief Field _dlcPromoPanelModel, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
@@ -557,7 +557,7 @@ static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____def
 
 static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____additionalContentModel) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____beatmapLevelsModel) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____entitlementModel) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____dlcPromoPanelModel) == 0xc0, "Offset mismatch!");
 

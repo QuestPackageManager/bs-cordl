@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__Operand_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Operand, addr 0x28fca68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Operand, addr 0x29602a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Operand();
 
 protected:

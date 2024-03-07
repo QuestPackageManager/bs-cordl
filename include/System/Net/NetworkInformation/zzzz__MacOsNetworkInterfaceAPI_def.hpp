@@ -26,7 +26,7 @@ public:
   /// @brief Field AF_INET6, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_AF_INET6, put = __cordl_internal_set_AF_INET6)) int32_t AF_INET6;
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x2adc114, size 0xa6c, virtual true, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x2b3b94c, size 0xa6c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor();
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_AF_INET6(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2adc0f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3b92c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ada524, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b39d5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t AF_INET6);
 
 protected:

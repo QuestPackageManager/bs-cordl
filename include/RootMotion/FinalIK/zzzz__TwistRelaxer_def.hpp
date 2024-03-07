@@ -56,21 +56,21 @@ public:
   /// @brief Field weight, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method LateUpdate, addr 0x135d748, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x1386ca0, size 0x78, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::RootMotion::FinalIK::TwistRelaxer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x135d7c0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1386d18, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPostUpdate, addr 0x135d6d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnPostUpdate, addr 0x1386c28, size 0x78, virtual false, abstract: false, final false
   inline void OnPostUpdate();
 
-  /// @brief Method Relax, addr 0x135ceec, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Relax, addr 0x1386444, size 0x444, virtual false, abstract: false, final false
   inline void Relax();
 
-  /// @brief Method Start, addr 0x135d330, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x1386888, size 0x3a0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x135d8d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1386e30, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

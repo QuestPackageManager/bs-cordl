@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0xf9dc18, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0xfbf31c, size 0xa4, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect, addr 0xf9dcbc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0xfbf3c0, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0xf9dbf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbf2f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"

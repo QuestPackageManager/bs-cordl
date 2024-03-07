@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::Disable)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x131b344;
+  constexpr static std::size_t addrs = 0x134389c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "Disable",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::InitiateSolver)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x131b3d8;
+  constexpr static std::size_t addrs = 0x1343930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::UpdateSolver)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x131b3dc;
+  constexpr static std::size_t addrs = 0x1343934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::FixTransforms)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x131b3e0;
+  constexpr static std::size_t addrs = 0x1343938;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::OnDisable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x131b3e4;
+  constexpr static std::size_t addrs = 0x134393c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "OnDisable",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x131b45c;
+  constexpr static std::size_t addrs = 0x13439b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "Start",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::get_animatePhysics)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x131b460;
+  constexpr static std::size_t addrs = 0x13439b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "get_animatePhysics",
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::Initiate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x131b40c;
+  constexpr static std::size_t addrs = 0x1343964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "Initiate",
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::Update)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x131b6e4;
+  constexpr static std::size_t addrs = 0x1343c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "Update",
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)(::UnityEngine::Transform*, bool)>(
     &::RootMotion::SolverManager::FindAnimatorRecursive)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x131b52c;
+  constexpr static std::size_t addrs = 0x1343a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::get_isAnimated)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x131b720;
+  constexpr static std::size_t addrs = 0x1343c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "get_isAnimated",
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::FixedUpdate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x131b7b8;
+  constexpr static std::size_t addrs = 0x1343d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "FixedUpdate",
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::LateUpdate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x131b804;
+  constexpr static std::size_t addrs = 0x1343d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "LateUpdate",
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::UpdateSolverExternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x131b850;
+  constexpr static std::size_t addrs = 0x1343da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), "UpdateSolverExternal",
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::SolverManager::*)()>(&::RootMotion::SolverManager::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x131b888;
+  constexpr static std::size_t addrs = 0x1343de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::SolverManager*>::get(), ".ctor",

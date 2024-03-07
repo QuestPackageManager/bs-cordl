@@ -64,16 +64,16 @@ public:
   /// @brief Field keyidentifier, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyidentifier, put = __cordl_internal_set_keyidentifier))::Org::BouncyCastle::Asn1::Asn1OctetString* keyidentifier;
 
-  /// @brief Method FromExtensions, addr 0x10f7dbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x111b4c0, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetInstance, addr 0x10f790c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x111b010, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x10f7924, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x111b028, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetKeyIdentifier, addr 0x10f81ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetKeyIdentifier, addr 0x111b8b0, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyIdentifier();
 
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier);
@@ -90,10 +90,10 @@ public:
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki, ::Org::BouncyCastle::Asn1::X509::GeneralNames* name,
                                                                                   ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method ToAsn1Object, addr 0x10f81e0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x111b8e4, size 0xd8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x10f82b8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x111b9bc, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_certissuer();
@@ -114,28 +114,28 @@ public:
 
   constexpr void __cordl_internal_set_keyidentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x10f81a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111b8a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier);
 
-  /// @brief Method .ctor, addr 0x10f80c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111b7cc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::X509::GeneralNames* name, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x10f80b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111b7bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* name, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x10f7a14, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111b118, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x10f7e24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111b528, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method .ctor, addr 0x10f7e30, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111b534, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki, ::Org::BouncyCastle::Asn1::X509::GeneralNames* name, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method get_AuthorityCertIssuer, addr 0x10f81c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthorityCertIssuer, addr 0x111b8c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_AuthorityCertIssuer();
 
-  /// @brief Method get_AuthorityCertSerialNumber, addr 0x10f81cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_AuthorityCertSerialNumber, addr 0x111b8d0, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_AuthorityCertSerialNumber();
 
 protected:

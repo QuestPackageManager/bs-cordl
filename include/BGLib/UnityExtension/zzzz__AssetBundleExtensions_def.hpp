@@ -84,10 +84,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xe99410, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xeb9490, size 0x440, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe99a20, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xeb9a64, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -156,7 +156,7 @@ public:
 
   static inline ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0xe99a78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>b__0, addr 0xeb9abc, size 0x68, virtual false, abstract: false, final false
   inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::UnityEngine::AssetBundleCreateRequest*& __cordl_internal_get_assetBundleCreateRequest();
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set_loadAssetBundleTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* value);
 
-  /// @brief Method .ctor, addr 0xe992c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb9348, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,7 +222,7 @@ public:
 
   static inline ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0xe99ae0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>b__0, addr 0xeb9b24, size 0x68, virtual false, abstract: false, final false
   inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get_loadResourceTaskSource();
@@ -237,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set_resourceRequest(::UnityEngine::ResourceRequest* value);
 
-  /// @brief Method .ctor, addr 0xe99408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb9488, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -284,13 +284,13 @@ public:
 
   using __c__DisplayClass2_0 = ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass2_0;
 
-  /// @brief Method ExistsAsync, addr 0xe99094, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ExistsAsync, addr 0xeb9114, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ExistsAsync(::StringW assetBundlePath);
 
-  /// @brief Method GetAwaiter, addr 0xe99190, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0xeb9210, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> GetAwaiter(::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest);
 
-  /// @brief Method GetAwaiter, addr 0xe992d0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0xeb9350, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> GetAwaiter(::UnityEngine::ResourceRequest* resourceRequest);
 
 protected:

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::__ComObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26fdf38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e288, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

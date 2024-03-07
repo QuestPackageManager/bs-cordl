@@ -37,12 +37,12 @@ public:
   /// @brief Field mUrl, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mUrl, put = __cordl_internal_set_mUrl))::StringW mUrl;
 
-  /// @brief Method Encode, addr 0x1030cc8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x10523cc, size 0x100, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* New_ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method Parse, addr 0x1030dc8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x10524cc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSha1Hash() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_mUrl(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1030bd0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10522d4, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method get_Sha1Hash, addr 0x1030cc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Sha1Hash, addr 0x10523c4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Sha1Hash();
 
-  /// @brief Method get_Url, addr 0x1030cb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Url, addr 0x10523bc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Url();
 
 protected:

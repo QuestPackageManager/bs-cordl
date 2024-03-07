@@ -33,13 +33,13 @@ public:
   /// @brief Field val, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val))::StringW val;
 
-  /// @brief Method Equals, addr 0x11cf808, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x11f5f0c, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x11cf798, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x11f5e9c, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x11cf7f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x11f5ef4, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetHashCode(::StringW s);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW name, ::StringW val);
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_val(::StringW value);
 
-  /// @brief Method .ctor, addr 0x11cf75c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f5e60, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW val);
 
-  /// @brief Method get_Name, addr 0x11cf788, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x11f5e8c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x11cf790, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x11f5e94, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:

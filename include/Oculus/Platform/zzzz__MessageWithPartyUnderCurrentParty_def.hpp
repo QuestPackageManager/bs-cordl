@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPartyUnderCurrentParty : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Party*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e4ab4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x28474d0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Party* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetParty, addr 0x27e4a78, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetParty, addr 0x2847494, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Party* GetParty();
 
   static inline ::Oculus::Platform::MessageWithPartyUnderCurrentParty* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e0e60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284387c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

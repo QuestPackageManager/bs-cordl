@@ -46,21 +46,21 @@ public:
   __declspec(property(get = __cordl_internal_get_poseChildren,
                       put = __cordl_internal_set_poseChildren))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> poseChildren;
 
-  /// @brief Method AutoMapping, addr 0x1366e90, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method AutoMapping, addr 0x13903e8, size 0xbc, virtual true, abstract: false, final false
   inline void AutoMapping();
 
-  /// @brief Method FixPoserTransforms, addr 0x13670f0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method FixPoserTransforms, addr 0x1390648, size 0xe8, virtual true, abstract: false, final false
   inline void FixPoserTransforms();
 
-  /// @brief Method InitiatePoser, addr 0x1366f4c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method InitiatePoser, addr 0x13904a4, size 0x54, virtual true, abstract: false, final false
   inline void InitiatePoser();
 
   static inline ::RootMotion::FinalIK::HandPoser* New_ctor();
 
-  /// @brief Method StoreDefaultState, addr 0x1366fa0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultState, addr 0x13904f8, size 0x150, virtual false, abstract: false, final false
   inline void StoreDefaultState();
 
-  /// @brief Method UpdatePoser, addr 0x13671d8, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method UpdatePoser, addr 0x1390730, size 0x330, virtual true, abstract: false, final false
   inline void UpdatePoser();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__poseRoot() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_poseChildren(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x1367508, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1390a60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

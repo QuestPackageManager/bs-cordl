@@ -27,40 +27,40 @@ namespace RootMotion {
 class CORDL_TYPE Hierarchy : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddAncestors, addr 0x13171d0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method AddAncestors, addr 0x133f728, size 0x240, virtual false, abstract: false, final false
   static inline void AddAncestors(::UnityEngine::Transform* transform, ::UnityEngine::Transform* blocker, ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>> array);
 
-  /// @brief Method ContainsChild, addr 0x1317560, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ContainsChild, addr 0x133fab8, size 0x110, virtual false, abstract: false, final false
   static inline bool ContainsChild(::UnityEngine::Transform* transform, ::UnityEngine::Transform* child);
 
-  /// @brief Method ContainsDuplicate, addr 0x1318b60, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ContainsDuplicate, addr 0x13410b8, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> ContainsDuplicate(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> objects);
 
-  /// @brief Method GetAncestor, addr 0x1318e84, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetAncestor, addr 0x13413dc, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetAncestor(::UnityEngine::Transform* transform, int32_t minChildCount);
 
-  /// @brief Method GetFirstCommonAncestor, addr 0x1317080, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCommonAncestor, addr 0x133f5d8, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
 
-  /// @brief Method GetFirstCommonAncestor, addr 0x1318f78, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCommonAncestor, addr 0x13414d0, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  /// @brief Method GetFirstCommonAncestorRecursive, addr 0x13192e4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCommonAncestorRecursive, addr 0x134183c, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform,
                                                                                    ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  /// @brief Method HierarchyIsValid, addr 0x1318c6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HierarchyIsValid, addr 0x13411c4, size 0x84, virtual false, abstract: false, final false
   static inline bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
-  /// @brief Method IsAncestor, addr 0x1316f50, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsAncestor, addr 0x133f4a8, size 0x130, virtual false, abstract: false, final false
   static inline bool IsAncestor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* ancestor);
 
-  /// @brief Method IsCommonAncestor, addr 0x13190dc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method IsCommonAncestor, addr 0x1341634, size 0x208, virtual false, abstract: false, final false
   static inline bool IsCommonAncestor(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
   static inline ::RootMotion::Hierarchy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x131946c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13419c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

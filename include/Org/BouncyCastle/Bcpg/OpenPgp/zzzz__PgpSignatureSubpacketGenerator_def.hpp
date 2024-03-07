@@ -42,66 +42,66 @@ public:
   /// @brief Field list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
 
-  /// @brief Method Generate, addr 0x113d4bc, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x1162bc0, size 0x2c8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* Generate();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator* New_ctor();
 
-  /// @brief Method SetEmbeddedSignature, addr 0x113ce84, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetEmbeddedSignature, addr 0x1162588, size 0x160, virtual false, abstract: false, final false
   inline void SetEmbeddedSignature(bool isCritical, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* pgpSignature);
 
-  /// @brief Method SetExportable, addr 0x113c2b4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetExportable, addr 0x11619b8, size 0xec, virtual false, abstract: false, final false
   inline void SetExportable(bool isCritical, bool isExportable);
 
-  /// @brief Method SetFeature, addr 0x113c3a0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetFeature, addr 0x1161aa4, size 0xec, virtual false, abstract: false, final false
   inline void SetFeature(bool isCritical, uint8_t feature);
 
-  /// @brief Method SetIssuerKeyID, addr 0x113d3d0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerKeyID, addr 0x1162ad4, size 0xec, virtual false, abstract: false, final false
   inline void SetIssuerKeyID(bool isCritical, int64_t keyID);
 
-  /// @brief Method SetKeyExpirationTime, addr 0x113c588, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetKeyExpirationTime, addr 0x1161c8c, size 0xec, virtual false, abstract: false, final false
   inline void SetKeyExpirationTime(bool isCritical, int64_t seconds);
 
-  /// @brief Method SetKeyFlags, addr 0x113cb1c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetKeyFlags, addr 0x1162220, size 0xec, virtual false, abstract: false, final false
   inline void SetKeyFlags(bool isCritical, int32_t flags);
 
-  /// @brief Method SetNotationData, addr 0x113d0d0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SetNotationData, addr 0x11627d4, size 0x104, virtual false, abstract: false, final false
   inline void SetNotationData(bool isCritical, bool isHumanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method SetPreferredCompressionAlgorithms, addr 0x113ca2c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetPreferredCompressionAlgorithms, addr 0x1162130, size 0xf0, virtual false, abstract: false, final false
   inline void SetPreferredCompressionAlgorithms(bool isCritical, ::ArrayW<int32_t, ::Array<int32_t>*> algorithms);
 
-  /// @brief Method SetPreferredHashAlgorithms, addr 0x113c84c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetPreferredHashAlgorithms, addr 0x1161f50, size 0xf0, virtual false, abstract: false, final false
   inline void SetPreferredHashAlgorithms(bool isCritical, ::ArrayW<int32_t, ::Array<int32_t>*> algorithms);
 
-  /// @brief Method SetPreferredSymmetricAlgorithms, addr 0x113c93c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetPreferredSymmetricAlgorithms, addr 0x1162040, size 0xf0, virtual false, abstract: false, final false
   inline void SetPreferredSymmetricAlgorithms(bool isCritical, ::ArrayW<int32_t, ::Array<int32_t>*> algorithms);
 
-  /// @brief Method SetPrimaryUserId, addr 0x113cfe4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetPrimaryUserId, addr 0x11626e8, size 0xec, virtual false, abstract: false, final false
   inline void SetPrimaryUserId(bool isCritical, bool isPrimaryUserId);
 
-  /// @brief Method SetRevocable, addr 0x113c1c8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetRevocable, addr 0x11618cc, size 0xec, virtual false, abstract: false, final false
   inline void SetRevocable(bool isCritical, bool isRevocable);
 
-  /// @brief Method SetRevocationKey, addr 0x113d2d0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetRevocationKey, addr 0x11629d4, size 0x100, virtual false, abstract: false, final false
   inline void SetRevocationKey(bool isCritical, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint);
 
-  /// @brief Method SetRevocationReason, addr 0x113d1d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetRevocationReason, addr 0x11628d8, size 0xfc, virtual false, abstract: false, final false
   inline void SetRevocationReason(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method SetSignatureCreationTime, addr 0x113c760, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureCreationTime, addr 0x1161e64, size 0xec, virtual false, abstract: false, final false
   inline void SetSignatureCreationTime(bool isCritical, ::System::DateTime date);
 
-  /// @brief Method SetSignatureExpirationTime, addr 0x113c674, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureExpirationTime, addr 0x1161d78, size 0xec, virtual false, abstract: false, final false
   inline void SetSignatureExpirationTime(bool isCritical, int64_t seconds);
 
-  /// @brief Method SetSignerUserId, addr 0x113cd44, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SetSignerUserId, addr 0x1162448, size 0x140, virtual false, abstract: false, final false
   inline void SetSignerUserId(bool isCritical, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawUserId);
 
-  /// @brief Method SetSignerUserId, addr 0x113cc08, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetSignerUserId, addr 0x116230c, size 0x13c, virtual false, abstract: false, final false
   inline void SetSignerUserId(bool isCritical, ::StringW userId);
 
-  /// @brief Method SetTrust, addr 0x113c48c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetTrust, addr 0x1161b90, size 0xfc, virtual false, abstract: false, final false
   inline void SetTrust(bool isCritical, int32_t depth, int32_t trustAmount);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_list();
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x113d784, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1162e88, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

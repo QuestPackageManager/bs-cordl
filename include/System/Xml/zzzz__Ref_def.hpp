@@ -19,7 +19,7 @@ namespace System::Xml {
 class CORDL_TYPE Ref : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Equal, addr 0x2977c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x29da494, size 0xc, virtual false, abstract: false, final false
   static inline bool Equal(::StringW strA, ::StringW strB);
 
 protected:

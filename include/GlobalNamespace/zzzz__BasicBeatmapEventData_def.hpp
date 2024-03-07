@@ -56,21 +56,21 @@ public:
   /// @brief Field value, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
-  /// @brief Method GetCopy, addr 0xe53d04, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xe6da58, size 0x88, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0xe53db8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0xe6db0c, size 0x110, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::BasicBeatmapEventData* New_ctor(float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
 
-  /// @brief Method RecalculateSameTypeIndexFromPreviousEvent, addr 0xe53d98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RecalculateSameTypeIndexFromPreviousEvent, addr 0xe6daec, size 0x20, virtual false, abstract: false, final false
   inline void RecalculateSameTypeIndexFromPreviousEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method SetFirstSameTypeIndex, addr 0xe53d8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFirstSameTypeIndex, addr 0xe6dae0, size 0xc, virtual false, abstract: false, final false
   inline void SetFirstSameTypeIndex();
 
-  /// @brief Method SubtypeIdentifier, addr 0xe53cbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0xe6da10, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(::GlobalNamespace::BasicBeatmapEventType type);
 
   constexpr int32_t const& __cordl_internal_get__sameTypeIndex_k__BackingField() const;
@@ -97,23 +97,23 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0xe53c24, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6d978, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* getStaticF__defaultsForType();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0xe53b9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0xe6d8f0, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0xe53b24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0xe6d878, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method get_sameTypeIndex, addr 0xe53c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameTypeIndex, addr 0xe6d968, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameTypeIndex();
 
   static inline void setStaticF__defaultsForType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* value);
 
-  /// @brief Method set_sameTypeIndex, addr 0xe53c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sameTypeIndex, addr 0xe6d970, size 0x8, virtual false, abstract: false, final false
   inline void set_sameTypeIndex(int32_t value);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::__BipedLimbOrientations__LimbOrientation::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::__BipedLimbOrientations__LimbOrientation::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x13120f0;
+  constexpr static std::size_t addrs = 0x133a648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::RootMotion::__BipedLimbOrientations__LimbOrientation*, ::RootMotion::__BipedLimbOrientations__LimbOrientation*, ::RootMotion::__BipedLimbOrientations__LimbOrientation*,
     ::RootMotion::__BipedLimbOrientations__LimbOrientation*)>(&::RootMotion::BipedLimbOrientations::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1311dfc;
+  constexpr static std::size_t addrs = 0x133a354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::BipedLimbOrientations* (*)()>(&::RootMotion::BipedLimbOrientations::get_UMA)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x1311e3c;
+  constexpr static std::size_t addrs = 0x133a394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::BipedLimbOrientations*>::get(), "get_UMA",
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::BipedLimbOrientations* (*)()>(&::RootMotion::BipedLimbOrientations::get_MaxBiped)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x1312164;
+  constexpr static std::size_t addrs = 0x133a6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::BipedLimbOrientations*>::get(), "get_MaxBiped",

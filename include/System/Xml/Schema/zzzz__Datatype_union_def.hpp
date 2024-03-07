@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get_types,
                       put = __cordl_internal_set_types))::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> types;
 
-  /// @brief Method HasAtomicMembers, addr 0x29a0ee8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasAtomicMembers, addr 0x2a02720, size 0x80, virtual false, abstract: false, final false
   inline bool HasAtomicMembers();
 
   constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> const& __cordl_internal_get_types() const;

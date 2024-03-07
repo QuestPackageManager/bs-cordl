@@ -206,45 +206,45 @@ public:
 
   __declspec(property(get = get_velocity, put = set_velocity))::UnityEngine::Vector3 velocity;
 
-  /// @brief Method GetCapsuleHit, addr 0x1329830, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method GetCapsuleHit, addr 0x1351d88, size 0x3ec, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit GetCapsuleHit(::UnityEngine::Vector3 offsetFromHeel);
 
-  /// @brief Method GetHeightFromGround, addr 0x1329d1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetHeightFromGround, addr 0x1352274, size 0x50, virtual false, abstract: false, final false
   inline float_t GetHeightFromGround(::UnityEngine::Vector3 hitPoint);
 
-  /// @brief Method GetRaycastHit, addr 0x13293d0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetRaycastHit, addr 0x1351928, size 0x2c8, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit GetRaycastHit(::UnityEngine::Vector3 offsetFromHeel);
 
-  /// @brief Method GetRotationOffsetTarget, addr 0x1329df8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetRotationOffsetTarget, addr 0x1352350, size 0x1b0, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotationOffsetTarget();
 
-  /// @brief Method Initiate, addr 0x13283a4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x13508fc, size 0xc8, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::Grounding* grounding, ::UnityEngine::Transform* transform);
 
   static inline ::RootMotion::FinalIK::__Grounding__Leg* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x1329390, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x13518e8, size 0x40, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Process, addr 0x1328494, size 0x798, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x13509ec, size 0x798, virtual false, abstract: false, final false
   inline void Process();
 
-  /// @brief Method Reset, addr 0x1328eac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x1351404, size 0x94, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotateFoot, addr 0x1329c50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RotateFoot, addr 0x13521a8, size 0x60, virtual false, abstract: false, final false
   inline void RotateFoot();
 
-  /// @brief Method RotateNormal, addr 0x1329cb0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RotateNormal, addr 0x1352208, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 normal);
 
-  /// @brief Method SetFootPosition, addr 0x132937c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetFootPosition, addr 0x13518d4, size 0x14, virtual false, abstract: false, final false
   inline void SetFootPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetFootToPlane, addr 0x1329718, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetFootToPlane, addr 0x1351c70, size 0x118, virtual false, abstract: false, final false
   inline void SetFootToPlane(::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint, ::UnityEngine::Vector3 heelHitPoint);
 
-  /// @brief Method SetFootToPoint, addr 0x1329698, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetFootToPoint, addr 0x1351bf0, size 0x80, virtual false, abstract: false, final false
   inline void SetFootToPoint(::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 point);
 
   constexpr float_t const& __cordl_internal_get__IKOffset_k__BackingField() const;
@@ -373,70 +373,70 @@ public:
 
   constexpr void __cordl_internal_set_up(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1328304, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135085c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GetHitPoint, addr 0x1329334, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_GetHitPoint, addr 0x135188c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit get_GetHitPoint();
 
-  /// @brief Method get_IKOffset, addr 0x13292b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IKOffset, addr 0x135180c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_IKOffset();
 
-  /// @brief Method get_IKPosition, addr 0x1329250, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IKPosition, addr 0x13517a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_IKPosition();
 
-  /// @brief Method get_capsuleHit, addr 0x13292fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_capsuleHit, addr 0x1351854, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit get_capsuleHit();
 
-  /// @brief Method get_heelHit, addr 0x13292c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_heelHit, addr 0x135181c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit get_heelHit();
 
-  /// @brief Method get_heightFromGround, addr 0x132927c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_heightFromGround, addr 0x13517d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_heightFromGround();
 
-  /// @brief Method get_initiated, addr 0x1329268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_initiated, addr 0x13517c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
 
-  /// @brief Method get_isGrounded, addr 0x132923c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isGrounded, addr 0x1351794, size 0x8, virtual false, abstract: false, final false
   inline bool get_isGrounded();
 
-  /// @brief Method get_rootYOffset, addr 0x1329d6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_rootYOffset, addr 0x13522c4, size 0x8c, virtual false, abstract: false, final false
   inline float_t get_rootYOffset();
 
-  /// @brief Method get_stepHeightFromGround, addr 0x1329c1c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_stepHeightFromGround, addr 0x1352174, size 0x34, virtual false, abstract: false, final false
   inline float_t get_stepHeightFromGround();
 
-  /// @brief Method get_transform, addr 0x13292a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x13517fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method get_velocity, addr 0x132928c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x13517e4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method set_IKOffset, addr 0x13292bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IKOffset, addr 0x1351814, size 0x8, virtual false, abstract: false, final false
   inline void set_IKOffset(float_t value);
 
-  /// @brief Method set_IKPosition, addr 0x132925c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IKPosition, addr 0x13517b4, size 0xc, virtual false, abstract: false, final false
   inline void set_IKPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_capsuleHit, addr 0x1329314, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_capsuleHit, addr 0x135186c, size 0x20, virtual false, abstract: false, final false
   inline void set_capsuleHit(::UnityEngine::RaycastHit value);
 
-  /// @brief Method set_heelHit, addr 0x13292dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_heelHit, addr 0x1351834, size 0x20, virtual false, abstract: false, final false
   inline void set_heelHit(::UnityEngine::RaycastHit value);
 
-  /// @brief Method set_heightFromGround, addr 0x1329284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_heightFromGround, addr 0x13517dc, size 0x8, virtual false, abstract: false, final false
   inline void set_heightFromGround(float_t value);
 
-  /// @brief Method set_initiated, addr 0x1329270, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_initiated, addr 0x13517c8, size 0xc, virtual false, abstract: false, final false
   inline void set_initiated(bool value);
 
-  /// @brief Method set_isGrounded, addr 0x1329244, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isGrounded, addr 0x135179c, size 0xc, virtual false, abstract: false, final false
   inline void set_isGrounded(bool value);
 
-  /// @brief Method set_transform, addr 0x13292ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x1351804, size 0x8, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Transform* value);
 
-  /// @brief Method set_velocity, addr 0x1329298, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_velocity, addr 0x13517f0, size 0xc, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
 protected:
@@ -597,18 +597,18 @@ public:
   /// @brief Field lastTime, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_lastTime, put = __cordl_internal_set_lastTime)) float_t lastTime;
 
-  /// @brief Method Initiate, addr 0x132846c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x13509c4, size 0x10, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::Grounding* grounding);
 
   static inline ::RootMotion::FinalIK::__Grounding__Pelvis* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x1329fd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x1352528, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Process, addr 0x1328c2c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x1351184, size 0x1ec, virtual false, abstract: false, final false
   inline void Process(float_t lowestOffset, float_t highestOffset, bool isGrounded);
 
-  /// @brief Method Reset, addr 0x1328e18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x1351370, size 0x94, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__IKOffset_k__BackingField() const;
@@ -653,19 +653,19 @@ public:
 
   constexpr void __cordl_internal_set_lastTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x132839c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13508f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IKOffset, addr 0x1329fa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IKOffset, addr 0x1352500, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_IKOffset();
 
-  /// @brief Method get_heightOffset, addr 0x1329fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_heightOffset, addr 0x1352518, size 0x8, virtual false, abstract: false, final false
   inline float_t get_heightOffset();
 
-  /// @brief Method set_IKOffset, addr 0x1329fb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IKOffset, addr 0x135250c, size 0xc, virtual false, abstract: false, final false
   inline void set_IKOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_heightOffset, addr 0x1329fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_heightOffset, addr 0x1352520, size 0x8, virtual false, abstract: false, final false
   inline void set_heightOffset(float_t value);
 
 protected:
@@ -826,36 +826,36 @@ public:
 
   __declspec(property(get = get_useRootRotation)) bool useRootRotation;
 
-  /// @brief Method Flatten, addr 0x1329078, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Flatten, addr 0x13515d0, size 0x154, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Flatten(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetFootCenterOffset, addr 0x13291cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetFootCenterOffset, addr 0x1351724, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetFootCenterOffset();
 
-  /// @brief Method GetLegsPlaneNormal, addr 0x13241dc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetLegsPlaneNormal, addr 0x134c734, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLegsPlaneNormal();
 
-  /// @brief Method GetRootHit, addr 0x1327f40, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method GetRootHit, addr 0x1350498, size 0x260, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit GetRootHit(float_t maxDistanceMlp);
 
-  /// @brief Method GetVerticalOffset, addr 0x1328ff4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetVerticalOffset, addr 0x135154c, size 0x84, virtual false, abstract: false, final false
   inline float_t GetVerticalOffset(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
-  /// @brief Method Initiate, addr 0x1322c58, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x134b1b0, size 0x274, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* root, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> feet);
 
-  /// @brief Method IsValid, addr 0x1328208, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x1350760, size 0xfc, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> errorMessage);
 
-  /// @brief Method LogWarning, addr 0x132847c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x13509d4, size 0x18, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
   static inline ::RootMotion::FinalIK::Grounding* New_ctor();
 
-  /// @brief Method Reset, addr 0x13228d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x134ae28, size 0x78, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x1323240, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x134b798, size 0x1f4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isGrounded_k__BackingField() const;
@@ -1002,46 +1002,46 @@ public:
 
   constexpr void __cordl_internal_set_rotateSolver(bool value);
 
-  /// @brief Method .ctor, addr 0x13271f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134f750, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isGrounded, addr 0x1327e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isGrounded, addr 0x13503f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isGrounded();
 
-  /// @brief Method get_legs, addr 0x1327e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_legs, addr 0x13503d4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> get_legs();
 
-  /// @brief Method get_pelvis, addr 0x1327e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pelvis, addr 0x13503e4, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__Grounding__Pelvis* get_pelvis();
 
-  /// @brief Method get_root, addr 0x1327eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_root, addr 0x1350408, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_root();
 
-  /// @brief Method get_rootGrounded, addr 0x1327ef8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_rootGrounded, addr 0x1350450, size 0x48, virtual false, abstract: false, final false
   inline bool get_rootGrounded();
 
-  /// @brief Method get_rootHit, addr 0x1327ec0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_rootHit, addr 0x1350418, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit get_rootHit();
 
-  /// @brief Method get_up, addr 0x13281a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x13506f8, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_up();
 
-  /// @brief Method get_useRootRotation, addr 0x1328f40, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_useRootRotation, addr 0x1351498, size 0xb4, virtual false, abstract: false, final false
   inline bool get_useRootRotation();
 
-  /// @brief Method set_isGrounded, addr 0x1327ea4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isGrounded, addr 0x13503fc, size 0xc, virtual false, abstract: false, final false
   inline void set_isGrounded(bool value);
 
-  /// @brief Method set_legs, addr 0x1327e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_legs, addr 0x13503dc, size 0x8, virtual false, abstract: false, final false
   inline void set_legs(::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> value);
 
-  /// @brief Method set_pelvis, addr 0x1327e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pelvis, addr 0x13503ec, size 0x8, virtual false, abstract: false, final false
   inline void set_pelvis(::RootMotion::FinalIK::__Grounding__Pelvis* value);
 
-  /// @brief Method set_root, addr 0x1327eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_root, addr 0x1350410, size 0x8, virtual false, abstract: false, final false
   inline void set_root(::UnityEngine::Transform* value);
 
-  /// @brief Method set_rootHit, addr 0x1327ed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_rootHit, addr 0x1350430, size 0x20, virtual false, abstract: false, final false
   inline void set_rootHit(::UnityEngine::RaycastHit value);
 
 protected:

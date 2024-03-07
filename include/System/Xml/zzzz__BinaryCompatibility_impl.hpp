@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Xml::BinaryCompatibility::get_TargetsAtLeast_Desktop_V4_5_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2994854;
+  constexpr static std::size_t addrs = 0x29f608c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

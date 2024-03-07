@@ -164,7 +164,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __Decimal__DecCalc__PowerOvfl {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2704044, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2764394, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint32_t hi, uint32_t mid, uint32_t lo);
 
   // Ctor Parameters []
@@ -288,16 +288,16 @@ public:
 
   constexpr void __cordl_internal_set_umid64LE(uint64_t value);
 
-  /// @brief Method get_Low64, addr 0x2703bc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Low64, addr 0x2763f10, size 0x60, virtual false, abstract: false, final false
   inline uint64_t get_Low64();
 
-  /// @brief Method set_High64, addr 0x2703dac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_High64, addr 0x27640fc, size 0x7c, virtual false, abstract: false, final false
   inline void set_High64(uint64_t value);
 
-  /// @brief Method set_Low64, addr 0x2703ac8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_Low64, addr 0x2763e18, size 0x7c, virtual false, abstract: false, final false
   inline void set_Low64(uint64_t value);
 
-  /// @brief Method set_Mid64, addr 0x2703b44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_Mid64, addr 0x2763e94, size 0x7c, virtual false, abstract: false, final false
   inline void set_Mid64(uint64_t value);
 
   // Ctor Parameters []
@@ -503,64 +503,64 @@ public:
   /// @brief Field umid, offset 0xc, size 0x4
   __declspec(property(get = __cordl_internal_get_umid, put = __cordl_internal_set_umid)) uint32_t umid;
 
-  /// @brief Method DecAddSub, addr 0x27012dc, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method DecAddSub, addr 0x276162c, size 0x694, virtual false, abstract: false, final false
   static inline void DecAddSub(ByRef<::System::__Decimal__DecCalc> d1, ByRef<::System::__Decimal__DecCalc> d2, bool sign);
 
-  /// @brief Method DecDivMod1E9, addr 0x26fe0e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DecDivMod1E9, addr 0x275e434, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t DecDivMod1E9(ByRef<::System::__Decimal__DecCalc> value);
 
-  /// @brief Method Div96ByConst, addr 0x2702b90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Div96ByConst, addr 0x2762ee0, size 0x44, virtual false, abstract: false, final false
   static inline bool Div96ByConst(ByRef<uint64_t> high64, ByRef<uint32_t> low, uint32_t pow);
 
-  /// @brief Method DivByConst, addr 0x2703a0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DivByConst, addr 0x2763d5c, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t DivByConst(::cordl_internals::Ptr<uint32_t> result, uint32_t hiRes, ByRef<uint32_t> quotient, ByRef<uint32_t> remainder, uint32_t power);
 
-  /// @brief Method GetExponent, addr 0x2702a68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExponent, addr 0x2762db8, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t GetExponent(double_t d);
 
-  /// @brief Method GetExponent, addr 0x2702a5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExponent, addr 0x2762dac, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t GetExponent(float_t f);
 
-  /// @brief Method GetHashCode, addr 0x26ff1e0, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x275f530, size 0x290, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(ByRef<::System::Decimal> d);
 
-  /// @brief Method InternalRound, addr 0x26ffd1c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method InternalRound, addr 0x276006c, size 0x284, virtual false, abstract: false, final false
   static inline void InternalRound(ByRef<::System::__Decimal__DecCalc> d, uint32_t scale, ::GlobalNamespace::__Decimal__DecCalc__RoundingMode mode);
 
-  /// @brief Method LeadingZeroCount, addr 0x2703a60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LeadingZeroCount, addr 0x2763db0, size 0x68, virtual false, abstract: false, final false
   static inline int32_t LeadingZeroCount(uint32_t value);
 
-  /// @brief Method ScaleResult, addr 0x2702e30, size 0xbdc, virtual false, abstract: false, final false
+  /// @brief Method ScaleResult, addr 0x2763180, size 0xbdc, virtual false, abstract: false, final false
   static inline int32_t ScaleResult(::cordl_internals::Ptr<::GlobalNamespace::__Decimal__DecCalc__Buf24> bufRes, uint32_t hiRes, int32_t scale);
 
-  /// @brief Method UInt32x32To64, addr 0x2702a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UInt32x32To64, addr 0x2762dc4, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t UInt32x32To64(uint32_t a, uint32_t b);
 
-  /// @brief Method UInt64x64To128, addr 0x2702a7c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UInt64x64To128, addr 0x2762dcc, size 0x114, virtual false, abstract: false, final false
   static inline void UInt64x64To128(uint64_t a, uint64_t b, ByRef<::System::__Decimal__DecCalc> result);
 
-  /// @brief Method Unscale, addr 0x2702bd4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Unscale, addr 0x2762f24, size 0x25c, virtual false, abstract: false, final false
   static inline void Unscale(ByRef<uint32_t> low, ByRef<uint64_t> high64, ByRef<int32_t> scale);
 
-  /// @brief Method VarDecCmp, addr 0x26feeb8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method VarDecCmp, addr 0x275f208, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t VarDecCmp(ByRef<::System::Decimal> d1, ByRef<::System::Decimal> d2);
 
-  /// @brief Method VarDecCmpSub, addr 0x2703c20, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method VarDecCmpSub, addr 0x2763f70, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t VarDecCmpSub(ByRef<::System::Decimal> d1, ByRef<::System::Decimal> d2);
 
-  /// @brief Method VarDecFromR4, addr 0x26fe23c, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method VarDecFromR4, addr 0x275e58c, size 0x404, virtual false, abstract: false, final false
   static inline void VarDecFromR4(float_t input, ByRef<::System::__Decimal__DecCalc> result);
 
-  /// @brief Method VarDecFromR8, addr 0x26fe6c8, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method VarDecFromR8, addr 0x275ea18, size 0x40c, virtual false, abstract: false, final false
   static inline void VarDecFromR8(double_t input, ByRef<::System::__Decimal__DecCalc> result);
 
-  /// @brief Method VarDecMul, addr 0x2701ad4, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method VarDecMul, addr 0x2761e24, size 0x468, virtual false, abstract: false, final false
   static inline void VarDecMul(ByRef<::System::__Decimal__DecCalc> d1, ByRef<::System::__Decimal__DecCalc> d2);
 
-  /// @brief Method VarR4FromDec, addr 0x2700d20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method VarR4FromDec, addr 0x2761070, size 0x5c, virtual false, abstract: false, final false
   static inline float_t VarR4FromDec(ByRef<::System::Decimal> value);
 
-  /// @brief Method VarR8FromDec, addr 0x2700784, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method VarR8FromDec, addr 0x2760ad4, size 0xc8, virtual false, abstract: false, final false
   static inline double_t VarR8FromDec(ByRef<::System::Decimal> value);
 
   constexpr uint32_t const& __cordl_internal_get_uflags() const;
@@ -601,19 +601,19 @@ public:
 
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> getStaticF_s_ulongPowers10();
 
-  /// @brief Method get_High, addr 0x2702944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_High, addr 0x2762c94, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_High();
 
-  /// @brief Method get_IsNegative, addr 0x2702974, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsNegative, addr 0x2762cc4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsNegative();
 
-  /// @brief Method get_Low, addr 0x2702954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Low, addr 0x2762ca4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Low();
 
-  /// @brief Method get_Low64, addr 0x2702980, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Low64, addr 0x2762cd0, size 0x60, virtual false, abstract: false, final false
   inline uint64_t get_Low64();
 
-  /// @brief Method get_Mid, addr 0x2702964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mid, addr 0x2762cb4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Mid();
 
   static inline void setStaticF_PowerOvflValues(::ArrayW<::GlobalNamespace::__Decimal__DecCalc__PowerOvfl, ::Array<::GlobalNamespace::__Decimal__DecCalc__PowerOvfl>*> value);
@@ -624,16 +624,16 @@ public:
 
   static inline void setStaticF_s_ulongPowers10(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method set_High, addr 0x270294c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_High, addr 0x2762c9c, size 0x8, virtual false, abstract: false, final false
   inline void set_High(uint32_t value);
 
-  /// @brief Method set_Low, addr 0x270295c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Low, addr 0x2762cac, size 0x8, virtual false, abstract: false, final false
   inline void set_Low(uint32_t value);
 
-  /// @brief Method set_Low64, addr 0x27029e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_Low64, addr 0x2762d30, size 0x7c, virtual false, abstract: false, final false
   inline void set_Low64(uint64_t value);
 
-  /// @brief Method set_Mid, addr 0x270296c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Mid, addr 0x2762cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_Mid(uint32_t value);
 
   // Ctor Parameters []
@@ -803,148 +803,148 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*();
 
-  /// @brief Method AsMutable, addr 0x26fe00c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AsMutable, addr 0x275e35c, size 0x4, virtual false, abstract: false, final false
   static inline ByRef<::System::__Decimal__DecCalc> AsMutable(ByRef<::System::Decimal> d);
 
-  /// @brief Method CompareTo, addr 0x26fef88, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x275f2d8, size 0x90, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Decimal value);
 
-  /// @brief Method CompareTo, addr 0x26fed98, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x275f0e8, size 0x120, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method DecDivMod1E9, addr 0x26fe010, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DecDivMod1E9, addr 0x275e360, size 0xd4, virtual false, abstract: false, final false
   static inline uint32_t DecDivMod1E9(ByRef<::System::Decimal> value);
 
-  /// @brief Method Equals, addr 0x26ff0f4, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x275f444, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::System::Decimal value);
 
-  /// @brief Method Equals, addr 0x26ff018, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x275f368, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetBits, addr 0x26ffa2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x275fd7c, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetBits(::System::Decimal d);
 
-  /// @brief Method GetHashCode, addr 0x26ff18c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x275f4dc, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeCode, addr 0x2702298, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTypeCode, addr 0x27625e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
-  /// @brief Method IsValid, addr 0x26fead4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x275ee24, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValid(int32_t flags);
 
-  /// @brief Method Negate, addr 0x26ffac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0x275fe18, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Decimal Negate(::System::Decimal d);
 
-  /// @brief Method Parse, addr 0x26ff77c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x275facc, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Decimal Parse(::StringW s, ::System::IFormatProvider* provider);
 
-  /// @brief Method Parse, addr 0x26ff850, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x275fba0, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Decimal Parse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider);
 
-  /// @brief Method Round, addr 0x26ffad0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x275fe20, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Decimal Round(::System::Decimal d, int32_t decimals);
 
-  /// @brief Method Round, addr 0x26ffb64, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x275feb4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Decimal Round(ByRef<::System::Decimal> d, int32_t decimals, ::System::MidpointRounding mode);
 
-  /// @brief Method System.IConvertible.ToBoolean, addr 0x27022a0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToBoolean, addr 0x27625f0, size 0x60, virtual true, abstract: false, final true
   inline bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToByte, addr 0x27023ec, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToByte, addr 0x276273c, size 0x60, virtual true, abstract: false, final true
   inline uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToChar, addr 0x2702300, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToChar, addr 0x2762650, size 0x8c, virtual true, abstract: false, final true
   inline char16_t System_IConvertible_ToChar(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDateTime, addr 0x2702758, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDateTime, addr 0x2762aa8, size 0x8c, virtual true, abstract: false, final true
   inline ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDecimal, addr 0x270274c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDecimal, addr 0x2762a9c, size 0xc, virtual true, abstract: false, final true
   inline ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDouble, addr 0x27026ec, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDouble, addr 0x2762a3c, size 0x60, virtual true, abstract: false, final true
   inline double_t System_IConvertible_ToDouble(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt16, addr 0x270244c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt16, addr 0x276279c, size 0x60, virtual true, abstract: false, final true
   inline int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt32, addr 0x270250c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt32, addr 0x276285c, size 0x60, virtual true, abstract: false, final true
   inline int32_t System_IConvertible_ToInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt64, addr 0x27025cc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt64, addr 0x276291c, size 0x60, virtual true, abstract: false, final true
   inline int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSByte, addr 0x270238c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSByte, addr 0x27626dc, size 0x60, virtual true, abstract: false, final true
   inline int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSingle, addr 0x270268c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSingle, addr 0x27629dc, size 0x60, virtual true, abstract: false, final true
   inline float_t System_IConvertible_ToSingle(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToType, addr 0x27027e4, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToType, addr 0x2762b34, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Object* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt16, addr 0x27024ac, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt16, addr 0x27627fc, size 0x60, virtual true, abstract: false, final true
   inline uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt32, addr 0x270256c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt32, addr 0x27628bc, size 0x60, virtual true, abstract: false, final true
   inline uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt64, addr 0x270262c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt64, addr 0x276297c, size 0x60, virtual true, abstract: false, final true
   inline uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x26fecd0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x275f020, size 0xb8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ToByte, addr 0x26fffa0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x27602f0, size 0x180, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::System::Decimal value);
 
-  /// @brief Method ToDouble, addr 0x2700704, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x2760a54, size 0x80, virtual false, abstract: false, final false
   static inline double_t ToDouble(::System::Decimal d);
 
-  /// @brief Method ToInt16, addr 0x2700584, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x27608d4, size 0x180, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::System::Decimal value);
 
-  /// @brief Method ToInt32, addr 0x270040c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x276075c, size 0x178, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::System::Decimal d);
 
-  /// @brief Method ToInt64, addr 0x270084c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x2760b9c, size 0x170, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::System::Decimal d);
 
-  /// @brief Method ToSByte, addr 0x270028c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x27605dc, size 0x180, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Decimal value);
 
-  /// @brief Method ToSingle, addr 0x2700ca0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x2760ff0, size 0x80, virtual false, abstract: false, final false
   static inline float_t ToSingle(::System::Decimal d);
 
-  /// @brief Method ToString, addr 0x26ff470, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x275f7c0, size 0xac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x26ff5d8, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x275f928, size 0xd8, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x26ff51c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x275f86c, size 0xbc, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt16, addr 0x27009bc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x2760d0c, size 0x180, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Decimal value);
 
-  /// @brief Method ToUInt32, addr 0x2700120, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x2760470, size 0x16c, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Decimal d);
 
-  /// @brief Method ToUInt64, addr 0x2700b3c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x2760e8c, size 0x164, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Decimal d);
 
-  /// @brief Method Truncate, addr 0x2700d7c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x27610cc, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Decimal Truncate(::System::Decimal d);
 
-  /// @brief Method Truncate, addr 0x2700e7c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x27611cc, size 0x98, virtual false, abstract: false, final false
   static inline void Truncate(ByRef<::System::Decimal> d);
 
-  /// @brief Method TryFormat, addr 0x26ff6b0, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method TryFormat, addr 0x275fa00, size 0xcc, virtual true, abstract: false, final true
   inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method TryParse, addr 0x26ff934, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x275fc84, size 0xf8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider, ByRef<::System::Decimal> result);
 
   constexpr int32_t const& __cordl_internal_get_flags() const;
@@ -977,31 +977,31 @@ public:
 
   constexpr void __cordl_internal_set_ulomidLE(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x26feaf4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275ee44, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bits);
 
-  /// @brief Method .ctor, addr 0x26fed88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275f0d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Decimal> d, int32_t flags);
 
-  /// @brief Method .ctor, addr 0x26fec34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275ef84, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lo, int32_t mid, int32_t hi, bool isNegative, uint8_t scale);
 
-  /// @brief Method .ctor, addr 0x26fe640, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e990, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(double_t value);
 
-  /// @brief Method .ctor, addr 0x26fe1b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e504, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x26fe14c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e49c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26fe17c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e4cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method .ctor, addr 0x26fe170, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e4c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x26fe1a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e4f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
   static inline ::System::Decimal getStaticF_MaxValue();
@@ -1014,22 +1014,22 @@ public:
 
   static inline ::System::Decimal getStaticF_Zero();
 
-  /// @brief Method get_High, addr 0x26fdf80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_High, addr 0x275e2d0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_High();
 
-  /// @brief Method get_IsNegative, addr 0x26fdf98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsNegative, addr 0x275e2e8, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsNegative();
 
-  /// @brief Method get_Low, addr 0x26fdf88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Low, addr 0x275e2d8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Low();
 
-  /// @brief Method get_Low64, addr 0x26fdfac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Low64, addr 0x275e2fc, size 0x60, virtual false, abstract: false, final false
   inline uint64_t get_Low64();
 
-  /// @brief Method get_Mid, addr 0x26fdf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mid, addr 0x275e2e0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Mid();
 
-  /// @brief Method get_Scale, addr 0x26fdfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scale, addr 0x275e2f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Scale();
 
   /// @brief Convert to "::System::IComparable"
@@ -1053,79 +1053,79 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback();
 
-  /// @brief Method op_Addition, addr 0x2701228, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2761578, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Addition(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_Equality, addr 0x2701f3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x276228c, size 0x90, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_Explicit, addr 0x2700ff0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2761340, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Explicit___System__Decimal(double_t value);
 
-  /// @brief Method op_Explicit, addr 0x2700fac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x27612fc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Explicit___System__Decimal(float_t value);
 
-  /// @brief Method op_Explicit, addr 0x27011c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2761514, size 0x64, virtual false, abstract: false, final false
   static inline double_t op_Explicit_double_t(::System::Decimal value);
 
-  /// @brief Method op_Explicit, addr 0x2701160, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x27614b0, size 0x64, virtual false, abstract: false, final false
   static inline float_t op_Explicit_float_t(::System::Decimal value);
 
-  /// @brief Method op_Explicit, addr 0x2701034, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2761384, size 0x64, virtual false, abstract: false, final false
   static inline int32_t op_Explicit_int32_t(::System::Decimal value);
 
-  /// @brief Method op_Explicit, addr 0x2701098, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x27613e8, size 0x64, virtual false, abstract: false, final false
   static inline int64_t op_Explicit_int64_t(::System::Decimal value);
 
-  /// @brief Method op_Explicit, addr 0x27010fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x276144c, size 0x64, virtual false, abstract: false, final false
   static inline uint64_t op_Explicit_uint64_t(::System::Decimal value);
 
-  /// @brief Method op_GreaterThan, addr 0x2702178, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x27624c8, size 0x90, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x2702208, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x2762558, size 0x90, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_Implicit, addr 0x2700f5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x27612ac, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(char16_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700f38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2761288, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(int16_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700f68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x27612b8, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(int32_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700f88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x27612d8, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(int64_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700f20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2761270, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(int8_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700f50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x27612a0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(uint16_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700f7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x27612cc, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(uint32_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700fa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x27612f0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(uint64_t value);
 
-  /// @brief Method op_Implicit, addr 0x2700f14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2761264, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(uint8_t value);
 
-  /// @brief Method op_Inequality, addr 0x2701fcc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x276231c, size 0x90, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_LessThan, addr 0x270205c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x27623ac, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_LessThan(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x27020e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x2762438, size 0x90, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_Multiply, addr 0x2701a24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x2761d74, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Multiply(::System::Decimal d1, ::System::Decimal d2);
 
-  /// @brief Method op_Subtraction, addr 0x2701970, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x2761cc0, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Subtraction(::System::Decimal d1, ::System::Decimal d2);
 
   static inline void setStaticF_MaxValue(::System::Decimal value);

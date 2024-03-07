@@ -21,10 +21,10 @@ public:
   // Declarations
   __declspec(property(get = get_end)) int32_t end;
 
-  /// @brief Method .ctor, addr 0x2dc1644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1ce7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t length);
 
-  /// @brief Method get_end, addr 0x2dc1638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_end, addr 0x2e1ce70, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_end();
 
   // Ctor Parameters []

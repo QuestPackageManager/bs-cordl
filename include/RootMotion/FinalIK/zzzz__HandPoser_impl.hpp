@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HandPoser::*)()>(&::RootMotion::FinalIK::HandPoser::AutoMapping)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x1366e90;
+  constexpr static std::size_t addrs = 0x13903e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HandPoser::*)()>(&::RootMotion::FinalIK::HandPoser::InitiatePoser)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1366f4c;
+  constexpr static std::size_t addrs = 0x13904a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HandPoser::*)()>(&::RootMotion::FinalIK::HandPoser::FixPoserTransforms)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x13670f0;
+  constexpr static std::size_t addrs = 0x1390648;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HandPoser::*)()>(&::RootMotion::FinalIK::HandPoser::UpdatePoser)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x13671d8;
+  constexpr static std::size_t addrs = 0x1390730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HandPoser::*)()>(&::RootMotion::FinalIK::HandPoser::StoreDefaultState)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x1366fa0;
+  constexpr static std::size_t addrs = 0x13904f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::HandPoser*>::get(), "StoreDefaultState",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HandPoser::*)()>(&::RootMotion::FinalIK::HandPoser::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1367508;
+  constexpr static std::size_t addrs = 0x1390a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::HandPoser*>::get(), ".ctor",

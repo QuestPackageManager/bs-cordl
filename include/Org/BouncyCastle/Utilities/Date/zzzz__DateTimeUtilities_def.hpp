@@ -26,18 +26,18 @@ public:
   /// @brief Field UnixEpoch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UnixEpoch, put = setStaticF_UnixEpoch))::System::DateTime UnixEpoch;
 
-  /// @brief Method CurrentUnixMs, addr 0x11cb794, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CurrentUnixMs, addr 0x11f1e98, size 0x84, virtual false, abstract: false, final false
   static inline int64_t CurrentUnixMs();
 
-  /// @brief Method DateTimeToUnixMs, addr 0x11cb5a4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method DateTimeToUnixMs, addr 0x11f1ca8, size 0x15c, virtual false, abstract: false, final false
   static inline int64_t DateTimeToUnixMs(::System::DateTime dateTime);
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* New_ctor();
 
-  /// @brief Method UnixMsToDateTime, addr 0x11cb700, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UnixMsToDateTime, addr 0x11f1e04, size 0x94, virtual false, abstract: false, final false
   static inline ::System::DateTime UnixMsToDateTime(int64_t unixMs);
 
-  /// @brief Method .ctor, addr 0x11cb59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f1ca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::DateTime getStaticF_UnixEpoch();

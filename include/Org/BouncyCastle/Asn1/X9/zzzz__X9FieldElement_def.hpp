@@ -42,7 +42,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method ToAsn1Object, addr 0x1222058, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x124775c, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_f();
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_f(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  /// @brief Method .ctor, addr 0x1220b3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1246240, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
-  /// @brief Method .ctor, addr 0x1221f54, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1247658, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method .ctor, addr 0x1221e80, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1247584, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method get_Value, addr 0x1222050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x1247754, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_Value();
 
 protected:

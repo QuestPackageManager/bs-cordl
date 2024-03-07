@@ -31,43 +31,43 @@ namespace System::Net {
 class CORDL_TYPE IPAddressParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendHex, addr 0x2a77128, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AppendHex, addr 0x2ad7960, size 0x68, virtual false, abstract: false, final false
   static inline void AppendHex(uint16_t value, ::System::Text::StringBuilder* buffer);
 
-  /// @brief Method AppendSections, addr 0x2a76f34, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AppendSections, addr 0x2ad776c, size 0x1b8, virtual false, abstract: false, final false
   static inline void AppendSections(::ArrayW<uint16_t, ::Array<uint16_t>*> address, int32_t fromInclusive, int32_t toExclusive, ::System::Text::StringBuilder* buffer);
 
-  /// @brief Method ExtractIPv4Address, addr 0x2a770ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ExtractIPv4Address, addr 0x2ad7924, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t ExtractIPv4Address(::ArrayW<uint16_t, ::Array<uint16_t>*> address);
 
-  /// @brief Method FormatIPv4AddressNumber, addr 0x2a76d5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method FormatIPv4AddressNumber, addr 0x2ad7594, size 0xb8, virtual false, abstract: false, final false
   static inline void FormatIPv4AddressNumber(int32_t number, ::cordl_internals::Ptr<char16_t> addressString, ByRef<int32_t> offset);
 
-  /// @brief Method IPv4AddressToString, addr 0x2a76028, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IPv4AddressToString, addr 0x2ad6860, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW IPv4AddressToString(uint32_t address);
 
-  /// @brief Method IPv4AddressToString, addr 0x2a76cec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IPv4AddressToString, addr 0x2ad7524, size 0x70, virtual false, abstract: false, final false
   static inline void IPv4AddressToString(uint32_t address, ::System::Text::StringBuilder* destination);
 
-  /// @brief Method IPv4AddressToStringHelper, addr 0x2a76c50, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IPv4AddressToStringHelper, addr 0x2ad7488, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t IPv4AddressToStringHelper(uint32_t address, ::cordl_internals::Ptr<char16_t> addressString);
 
-  /// @brief Method IPv6AddressToString, addr 0x2a76014, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IPv6AddressToString, addr 0x2ad684c, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW IPv6AddressToString(::ArrayW<uint16_t, ::Array<uint16_t>*> address, uint32_t scopeId);
 
-  /// @brief Method IPv6AddressToStringHelper, addr 0x2a76e14, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method IPv6AddressToStringHelper, addr 0x2ad764c, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* IPv6AddressToStringHelper(::ArrayW<uint16_t, ::Array<uint16_t>*> address, uint32_t scopeId);
 
-  /// @brief Method Ipv4StringToAddress, addr 0x2a76b7c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Ipv4StringToAddress, addr 0x2ad73b4, size 0xd4, virtual false, abstract: false, final false
   static inline bool Ipv4StringToAddress(::System::ReadOnlySpan_1<char16_t> ipSpan, ByRef<int64_t> address);
 
-  /// @brief Method Ipv6StringToAddress, addr 0x2a76a18, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Ipv6StringToAddress, addr 0x2ad7250, size 0x164, virtual false, abstract: false, final false
   static inline bool Ipv6StringToAddress(::System::ReadOnlySpan_1<char16_t> ipSpan, ::cordl_internals::Ptr<uint16_t> numbers, int32_t numbersLength, ByRef<uint32_t> scope);
 
-  /// @brief Method Parse, addr 0x2a75930, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2ad6168, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::Net::IPAddress* Parse(::System::ReadOnlySpan_1<char16_t> ipSpan, bool tryParse);
 
-  /// @brief Method Reverse, addr 0x2a77190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reverse, addr 0x2ad79c8, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t Reverse(uint16_t number);
 
 protected:

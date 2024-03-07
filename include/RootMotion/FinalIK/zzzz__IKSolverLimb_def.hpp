@@ -115,7 +115,7 @@ namespace RootMotion::FinalIK {
 struct CORDL_TYPE __IKSolverLimb__AxisDirection {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1347ea4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13713fc, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 axis);
 
   // Ctor Parameters []
@@ -216,29 +216,29 @@ public:
   /// @brief Field parentDefaultRotation, offset 0xd4, size 0x10
   __declspec(property(get = __cordl_internal_get_parentDefaultRotation, put = __cordl_internal_set_parentDefaultRotation))::UnityEngine::Quaternion parentDefaultRotation;
 
-  /// @brief Method GetModifiedBendNormal, addr 0x134716c, size 0xa60, virtual false, abstract: false, final false
+  /// @brief Method GetModifiedBendNormal, addr 0x13706c4, size 0xa60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetModifiedBendNormal();
 
-  /// @brief Method MaintainBend, addr 0x1346afc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MaintainBend, addr 0x1370054, size 0x3c, virtual false, abstract: false, final false
   inline void MaintainBend();
 
-  /// @brief Method MaintainRotation, addr 0x1346ab8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method MaintainRotation, addr 0x1370010, size 0x44, virtual false, abstract: false, final false
   inline void MaintainRotation();
 
   static inline ::RootMotion::FinalIK::IKSolverLimb* New_ctor();
 
   static inline ::RootMotion::FinalIK::IKSolverLimb* New_ctor(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method OnInitiateVirtual, addr 0x1346b68, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method OnInitiateVirtual, addr 0x13700c0, size 0x35c, virtual true, abstract: false, final false
   inline void OnInitiateVirtual();
 
-  /// @brief Method OnPostSolveVirtual, addr 0x1347bcc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnPostSolveVirtual, addr 0x1371124, size 0xa8, virtual true, abstract: false, final false
   inline void OnPostSolveVirtual();
 
-  /// @brief Method OnUpdateVirtual, addr 0x13470b0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnUpdateVirtual, addr 0x1370608, size 0xbc, virtual true, abstract: false, final false
   inline void OnUpdateVirtual();
 
-  /// @brief Method StoreAxisDirections, addr 0x1346ec4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method StoreAxisDirections, addr 0x137041c, size 0x1ec, virtual false, abstract: false, final false
   inline void StoreAxisDirections(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>> axisDirections);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__bendNormal() const;
@@ -337,13 +337,13 @@ public:
 
   constexpr void __cordl_internal_set_parentDefaultRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x1347c74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13711cc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1347e08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1371360, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method get_axisDirections, addr 0x1347e88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_axisDirections, addr 0x13713e0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> get_axisDirections();
 
 protected:

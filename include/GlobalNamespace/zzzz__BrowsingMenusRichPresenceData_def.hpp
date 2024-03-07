@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2406470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x246b9e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_apiName, addr 0x24063d8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x246b950, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x2406418, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x246b990, size 0x58, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"

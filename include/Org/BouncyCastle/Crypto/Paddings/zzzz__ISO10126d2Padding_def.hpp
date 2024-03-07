@@ -35,15 +35,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method AddPadding, addr 0xf9e020, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method AddPadding, addr 0xfbf724, size 0xb4, virtual true, abstract: false, final true
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0xf9df74, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xfbf678, size 0x6c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding* New_ctor();
 
-  /// @brief Method PadCount, addr 0xf9e0d4, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method PadCount, addr 0xfbf7d8, size 0x84, virtual true, abstract: false, final true
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0xf9e158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbf85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PaddingName, addr 0xf9dfe0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0xfbf6e4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"

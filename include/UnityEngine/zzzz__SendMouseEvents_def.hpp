@@ -45,13 +45,13 @@ namespace UnityEngine {
 struct CORDL_TYPE __SendMouseEvents__HitInfo {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x2e07b3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x2e63374, size 0xb4, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::__SendMouseEvents__HitInfo lhs, ::UnityEngine::__SendMouseEvents__HitInfo rhs);
 
-  /// @brief Method SendMessage, addr 0x2e07b18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x2e63350, size 0x24, virtual false, abstract: false, final false
   inline void SendMessage(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x2e07a78, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e632b0, size 0xa0, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::__SendMouseEvents__HitInfo exists);
 
   // Ctor Parameters []
@@ -121,16 +121,16 @@ public:
   /// @brief Field s_MouseUsed, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_MouseUsed, put = setStaticF_s_MouseUsed)) bool s_MouseUsed;
 
-  /// @brief Method DoSendMouseEvents, addr 0x2e06d0c, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method DoSendMouseEvents, addr 0x2e62544, size 0x94c, virtual false, abstract: false, final false
   static inline void DoSendMouseEvents(int32_t skipRTCameras);
 
-  /// @brief Method SendEvents, addr 0x2e07658, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x2e62e90, size 0x420, virtual false, abstract: false, final false
   static inline void SendEvents(int32_t i, ::UnityEngine::__SendMouseEvents__HitInfo hit);
 
-  /// @brief Method SetMouseMoved, addr 0x2e06cb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMouseMoved, addr 0x2e624e8, size 0x5c, virtual false, abstract: false, final false
   static inline void SetMouseMoved();
 
-  /// @brief Method UpdateMouse, addr 0x2e06aec, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateMouse, addr 0x2e62324, size 0x1c4, virtual false, abstract: false, final false
   static inline void UpdateMouse();
 
   static inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> getStaticF_m_Cameras();

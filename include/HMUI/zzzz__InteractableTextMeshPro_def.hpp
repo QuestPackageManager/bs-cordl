@@ -43,7 +43,7 @@ public:
 
   static inline ::HMUI::InteractableTextMeshPro* New_ctor();
 
-  /// @brief Method OnCanvasGroupChanged, addr 0x227e2d4, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasGroupChanged, addr 0x22df20c, size 0x194, virtual true, abstract: false, final false
   inline void OnCanvasGroupChanged();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& __cordl_internal_get__canvasGroupCache();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x227e468, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22df3a0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

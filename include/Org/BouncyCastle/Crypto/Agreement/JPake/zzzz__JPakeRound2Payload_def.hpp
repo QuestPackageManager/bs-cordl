@@ -60,17 +60,17 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12852f8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12aa9fc, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s);
 
-  /// @brief Method get_A, addr 0x12869f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_A, addr 0x12ac0f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_KnowledgeProofForX2s, addr 0x12869fc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2s, addr 0x12ac100, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2s();
 
-  /// @brief Method get_ParticipantId, addr 0x12869ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x12ac0f0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:

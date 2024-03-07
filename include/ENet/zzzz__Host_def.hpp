@@ -69,76 +69,76 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Broadcast, addr 0x2353880, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Broadcast, addr 0x23b5658, size 0x80, virtual false, abstract: false, final false
   inline void Broadcast(uint8_t channelID, ByRef<::ENet::Packet> packet);
 
-  /// @brief Method Broadcast, addr 0x2353994, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Broadcast, addr 0x23b576c, size 0x90, virtual false, abstract: false, final false
   inline void Broadcast(uint8_t channelID, ByRef<::ENet::Packet> packet, ::ENet::Peer excludedPeer);
 
-  /// @brief Method Broadcast, addr 0x2353ac0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Broadcast, addr 0x23b5898, size 0x1a0, virtual false, abstract: false, final false
   inline void Broadcast(uint8_t channelID, ByRef<::ENet::Packet> packet, ::ArrayW<::ENet::Peer, ::Array<::ENet::Peer>*> peers);
 
-  /// @brief Method CheckEvents, addr 0x2353d14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckEvents, addr 0x23b5aec, size 0x58, virtual false, abstract: false, final false
   inline int32_t CheckEvents(ByRef<::ENet::Event> event);
 
-  /// @brief Method Connect, addr 0x2353df0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x23b5bc8, size 0x54, virtual false, abstract: false, final false
   inline ::ENet::Peer Connect(::ENet::Address address);
 
-  /// @brief Method Connect, addr 0x2353f98, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x23b5d70, size 0x50, virtual false, abstract: false, final false
   inline ::ENet::Peer Connect(::ENet::Address address, int32_t channelLimit);
 
-  /// @brief Method Connect, addr 0x2353e44, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x23b5c1c, size 0x154, virtual false, abstract: false, final false
   inline ::ENet::Peer Connect(::ENet::Address address, int32_t channelLimit, uint32_t data);
 
-  /// @brief Method Create, addr 0x2353300, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b50d8, size 0x29c, virtual false, abstract: false, final false
   inline void Create(::System::Nullable_1<::ENet::Address> address, int32_t peerLimit, int32_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize,
                      ::ENet::SslConfiguration sslConfiguration);
 
-  /// @brief Method Dispose, addr 0x2352cc8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x23b4aa0, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2352d34, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x23b4b0c, size 0x74, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2352e24, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x23b4bfc, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Flush, addr 0x2354674, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x23b644c, size 0x18, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::ENet::Host* New_ctor();
 
-  /// @brief Method PreventConnections, addr 0x23537d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PreventConnections, addr 0x23b55ac, size 0x28, virtual false, abstract: false, final false
   inline void PreventConnections(bool state);
 
-  /// @brief Method Service, addr 0x2354084, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Service, addr 0x23b5e5c, size 0xb0, virtual false, abstract: false, final false
   inline int32_t Service(int32_t timeout, ByRef<::ENet::Event> event);
 
-  /// @brief Method SetBandwidthLimit, addr 0x23541c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBandwidthLimit, addr 0x23b5fa0, size 0x30, virtual false, abstract: false, final false
   inline void SetBandwidthLimit(uint32_t incomingBandwidth, uint32_t outgoingBandwidth);
 
-  /// @brief Method SetChannelLimit, addr 0x235428c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetChannelLimit, addr 0x23b6064, size 0x40, virtual false, abstract: false, final false
   inline void SetChannelLimit(int32_t channelLimit);
 
-  /// @brief Method SetChecksumCallback, addr 0x23545e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetChecksumCallback, addr 0x23b63bc, size 0x90, virtual false, abstract: false, final false
   inline void SetChecksumCallback(::ENet::ChecksumCallback* callback);
 
-  /// @brief Method SetChecksumCallback, addr 0x2354538, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetChecksumCallback, addr 0x23b6310, size 0x28, virtual false, abstract: false, final false
   inline void SetChecksumCallback(void* callback);
 
-  /// @brief Method SetInterceptCallback, addr 0x23544a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetInterceptCallback, addr 0x23b6280, size 0x90, virtual false, abstract: false, final false
   inline void SetInterceptCallback(::ENet::InterceptCallback* callback);
 
-  /// @brief Method SetInterceptCallback, addr 0x23543fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetInterceptCallback, addr 0x23b61d4, size 0x28, virtual false, abstract: false, final false
   inline void SetInterceptCallback(void* callback);
 
-  /// @brief Method SetMaxDuplicatePeers, addr 0x2354350, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetMaxDuplicatePeers, addr 0x23b6128, size 0x28, virtual false, abstract: false, final false
   inline void SetMaxDuplicatePeers(uint16_t number);
 
-  /// @brief Method ThrowIfChannelsExceeded, addr 0x23532a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfChannelsExceeded, addr 0x23b507c, size 0x5c, virtual false, abstract: false, final false
   static inline void ThrowIfChannelsExceeded(int32_t channelLimit);
 
-  /// @brief Method ThrowIfNotCreated, addr 0x2352f30, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfNotCreated, addr 0x23b4d08, size 0xa8, virtual false, abstract: false, final false
   inline void ThrowIfNotCreated();
 
   constexpr void* const& __cordl_internal_get_nativeHost() const;
@@ -147,34 +147,34 @@ public:
 
   constexpr void __cordl_internal_set_nativeHost(void* value);
 
-  /// @brief Method .ctor, addr 0x2354708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b64e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BytesReceived, addr 0x2353210, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BytesReceived, addr 0x23b4fe8, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_BytesReceived();
 
-  /// @brief Method get_BytesSent, addr 0x235317c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BytesSent, addr 0x23b4f54, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_BytesSent();
 
-  /// @brief Method get_IsSet, addr 0x2352ec4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_IsSet, addr 0x23b4c9c, size 0x54, virtual false, abstract: false, final false
   inline bool get_IsSet();
 
-  /// @brief Method get_NativeData, addr 0x2352cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x23b4a90, size 0x8, virtual false, abstract: false, final false
   inline void* get_NativeData();
 
-  /// @brief Method get_PacketsReceived, addr 0x23530e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsReceived, addr 0x23b4ec0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_PacketsReceived();
 
-  /// @brief Method get_PacketsSent, addr 0x2353054, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsSent, addr 0x23b4e2c, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_PacketsSent();
 
-  /// @brief Method get_PeersCount, addr 0x2352f18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PeersCount, addr 0x23b4cf0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_PeersCount();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_NativeData, addr 0x2352cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x23b4a98, size 0x8, virtual false, abstract: false, final false
   inline void set_NativeData(void* value);
 
 protected:

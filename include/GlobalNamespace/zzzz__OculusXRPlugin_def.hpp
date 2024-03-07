@@ -22,22 +22,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusXRPlugin : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAppSpacePosition, addr 0x2893684, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpacePosition, addr 0x28f3ebc, size 0x90, virtual false, abstract: false, final false
   static inline void SetAppSpacePosition(float_t x, float_t y, float_t z);
 
-  /// @brief Method SetAppSpaceRotation, addr 0x2893714, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpaceRotation, addr 0x28f3f4c, size 0x98, virtual false, abstract: false, final false
   static inline void SetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetColorOffset, addr 0x2893574, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetColorOffset, addr 0x28f3dac, size 0x94, virtual false, abstract: false, final false
   static inline void SetColorOffset(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetColorScale, addr 0x28934dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetColorScale, addr 0x28f3d14, size 0x98, virtual false, abstract: false, final false
   static inline void SetColorScale(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetDepthSubmission, addr 0x28937ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetDepthSubmission, addr 0x28f3fe4, size 0x7c, virtual false, abstract: false, final false
   static inline void SetDepthSubmission(bool enable);
 
-  /// @brief Method SetSpaceWarp, addr 0x2893608, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSpaceWarp, addr 0x28f3e40, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSpaceWarp(::GlobalNamespace::__OVRPlugin__Bool on);
 
 protected:

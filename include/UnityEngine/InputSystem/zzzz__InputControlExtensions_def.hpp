@@ -195,16 +195,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x2b4eb6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2bae3a4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlEnumerator GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControl>.GetEnumerator, addr 0x2b4f3e4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControl>.GetEnumerator, addr 0x2baec1c, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>* System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputControl__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2b4f488, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2baecc0, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_eventPtr, addr 0x2b4f280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventPtr, addr 0x2baeab8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_eventPtr();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>"
@@ -273,29 +273,29 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method CheckCurrent, addr 0x2b4f9c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CheckCurrent, addr 0x2baf200, size 0x20, virtual false, abstract: false, final false
   inline bool CheckCurrent(uint32_t numBits);
 
-  /// @brief Method CheckDefault, addr 0x2b4f9a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CheckDefault, addr 0x2baf1dc, size 0x24, virtual false, abstract: false, final false
   inline bool CheckDefault(uint32_t numBits);
 
-  /// @brief Method Dispose, addr 0x2b4fa04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2baf23c, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x2b4eb94, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2bae3cc, size 0x340, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2b4f52c, size 0x478, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2baed64, size 0x478, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2b4fa14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2baf24c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x2b4f288, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2baeac0, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device,
                     ::UnityEngine::InputSystem::__InputControlExtensions__Enumerate flags, float_t magnitudeThreshold);
 
-  /// @brief Method get_Current, addr 0x2b4fa0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2baf244, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputControl* get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>"
@@ -429,65 +429,65 @@ public:
   // Declarations
   __declspec(property(get = get_control, put = set_control))::UnityEngine::InputSystem::InputControl* control;
 
-  /// @brief Method At, addr 0x2b4fa2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method At, addr 0x2baf264, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder At(::UnityEngine::InputSystem::InputDevice* device, int32_t index);
 
-  /// @brief Method DontReset, addr 0x2b4fd3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DontReset, addr 0x2baf574, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder DontReset(bool value);
 
-  /// @brief Method Finish, addr 0x2b4fdd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x2baf610, size 0x24, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method IsButton, addr 0x2b4fda4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsButton, addr 0x2baf5dc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder IsButton(bool value);
 
-  /// @brief Method IsNoisy, addr 0x2b4fce0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsNoisy, addr 0x2baf518, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder IsNoisy(bool value);
 
-  /// @brief Method IsSynthetic, addr 0x2b4fd08, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsSynthetic, addr 0x2baf540, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder IsSynthetic(bool value);
 
-  /// @brief Method WithAliases, addr 0x2b4fbfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithAliases, addr 0x2baf434, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithAliases(int32_t startIndex, int32_t count);
 
-  /// @brief Method WithChildren, addr 0x2b4fc1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithChildren, addr 0x2baf454, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithChildren(int32_t startIndex, int32_t count);
 
-  /// @brief Method WithDefaultState, addr 0x2b4fc5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WithDefaultState, addr 0x2baf494, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithDefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method WithDisplayName, addr 0x2b4fb1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WithDisplayName, addr 0x2baf354, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithDisplayName(::StringW displayName);
 
-  /// @brief Method WithLayout, addr 0x2b4fbbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithLayout, addr 0x2baf3f4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithLayout(::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  /// @brief Method WithMinAndMax, addr 0x2b4fcb4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WithMinAndMax, addr 0x2baf4ec, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithMinAndMax(::UnityEngine::InputSystem::Utilities::PrimitiveValue min,
                                                                                             ::UnityEngine::InputSystem::Utilities::PrimitiveValue max);
 
-  /// @brief Method WithName, addr 0x2b4fad4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithName, addr 0x2baf30c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithName(::StringW name);
 
-  /// @brief Method WithParent, addr 0x2b4fab4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithParent, addr 0x2baf2ec, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithParent(::UnityEngine::InputSystem::InputControl* parent);
 
   /// @brief Method WithProcessor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TProcessor, typename TValue> inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithProcessor(TProcessor processor);
 
-  /// @brief Method WithShortDisplayName, addr 0x2b4fb6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WithShortDisplayName, addr 0x2baf3a4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithShortDisplayName(::StringW shortDisplayName);
 
-  /// @brief Method WithStateBlock, addr 0x2b4fc3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithStateBlock, addr 0x2baf474, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithStateBlock(::UnityEngine::InputSystem::LowLevel::InputStateBlock stateBlock);
 
-  /// @brief Method WithUsages, addr 0x2b4fbdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithUsages, addr 0x2baf414, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder WithUsages(int32_t startIndex, int32_t count);
 
-  /// @brief Method get_control, addr 0x2b4fa1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x2baf254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method set_control, addr 0x2b4fa24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_control, addr 0x2baf25c, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::InputSystem::InputControl* value);
 
   // Ctor Parameters []
@@ -521,44 +521,44 @@ public:
   // Declarations
   __declspec(property(get = get_device, put = set_device))::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method Finish, addr 0x2b50080, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x2baf8b8, size 0x24, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method IsNoisy, addr 0x2b4ff54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsNoisy, addr 0x2baf78c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder IsNoisy(bool value);
 
-  /// @brief Method WithChildren, addr 0x2b4ff14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithChildren, addr 0x2baf74c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithChildren(int32_t startIndex, int32_t count);
 
-  /// @brief Method WithControlAlias, addr 0x2b50020, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method WithControlAlias, addr 0x2baf858, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithControlAlias(int32_t controlIndex, ::UnityEngine::InputSystem::Utilities::InternedString alias);
 
-  /// @brief Method WithControlUsage, addr 0x2b4ff7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method WithControlUsage, addr 0x2baf7b4, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithControlUsage(int32_t controlIndex, ::UnityEngine::InputSystem::Utilities::InternedString usage,
                                                                                               ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method WithDisplayName, addr 0x2b4fe54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WithDisplayName, addr 0x2baf68c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithDisplayName(::StringW displayName);
 
-  /// @brief Method WithLayout, addr 0x2b4fef4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithLayout, addr 0x2baf72c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithLayout(::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  /// @brief Method WithName, addr 0x2b4fe0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithName, addr 0x2baf644, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithName(::StringW name);
 
-  /// @brief Method WithShortDisplayName, addr 0x2b4fea4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WithShortDisplayName, addr 0x2baf6dc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithShortDisplayName(::StringW shortDisplayName);
 
-  /// @brief Method WithStateBlock, addr 0x2b4ff34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithStateBlock, addr 0x2baf76c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithStateBlock(::UnityEngine::InputSystem::LowLevel::InputStateBlock stateBlock);
 
-  /// @brief Method WithStateOffsetToControlIndexMap, addr 0x2b50060, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithStateOffsetToControlIndexMap, addr 0x2baf898, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder WithStateOffsetToControlIndexMap(::ArrayW<uint32_t, ::Array<uint32_t>*> map);
 
-  /// @brief Method get_device, addr 0x2b4fdfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x2baf634, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method set_device, addr 0x2b4fe04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x2baf63c, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []
@@ -640,27 +640,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2b500c8, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2baf900, size 0x288, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::__InputControlExtensions___GetAllButtonPresses_d__43* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControl>.GetEnumerator, addr 0x2b503b0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControl>.GetEnumerator, addr 0x2bafbe8, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>* System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputControl__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControl>.get_Current, addr 0x2b50360, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControl>.get_Current, addr 0x2bafb98, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputControl* System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputControl__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2b50464, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2bafc9c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2b50368, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2bafba0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2b503a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2bafbe0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2b500a4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2baf8dc, size 0x24, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -723,10 +723,10 @@ public:
 
   constexpr void __cordl_internal_set_magnitude(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x2b50350, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2bafb88, size 0x10, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x2b4ef70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bae7a8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>"
@@ -836,50 +836,50 @@ public:
 
   using _GetAllButtonPresses_d__43 = ::UnityEngine::InputSystem::__InputControlExtensions___GetAllButtonPresses_d__43;
 
-  /// @brief Method AccumulateValueInEvent, addr 0x2b4e50c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AccumulateValueInEvent, addr 0x2badd44, size 0x104, virtual false, abstract: false, final false
   static inline void AccumulateValueInEvent(::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Vector2>* control, ::cordl_internals::Ptr<void> currentStatePtr,
                                             ::UnityEngine::InputSystem::LowLevel::InputEventPtr newState);
 
-  /// @brief Method AccumulateValueInEvent, addr 0x2b4e40c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AccumulateValueInEvent, addr 0x2badc44, size 0x100, virtual false, abstract: false, final false
   static inline void AccumulateValueInEvent(::UnityEngine::InputSystem::InputControl_1<float_t>* control, ::cordl_internals::Ptr<void> currentStatePtr,
                                             ::UnityEngine::InputSystem::LowLevel::InputEventPtr newState);
 
-  /// @brief Method BuildPath, addr 0x2b4e610, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method BuildPath, addr 0x2bade48, size 0x2dc, virtual false, abstract: false, final false
   static inline ::StringW BuildPath(::UnityEngine::InputSystem::InputControl* control, ::StringW deviceLayout, ::System::Text::StringBuilder* builder);
 
-  /// @brief Method CheckStateIsAtDefault, addr 0x2b4d29c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckStateIsAtDefault, addr 0x2bacad4, size 0x78, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefault(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method CheckStateIsAtDefault, addr 0x2b4d954, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CheckStateIsAtDefault, addr 0x2bad18c, size 0xe0, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefault(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> maskPtr);
 
-  /// @brief Method CheckStateIsAtDefaultIgnoringNoise, addr 0x2b4dae8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CheckStateIsAtDefaultIgnoringNoise, addr 0x2bad320, size 0x74, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefaultIgnoringNoise(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method CheckStateIsAtDefaultIgnoringNoise, addr 0x2b4db5c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CheckStateIsAtDefaultIgnoringNoise, addr 0x2bad394, size 0xd0, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefaultIgnoringNoise(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method CompareState, addr 0x2b4da34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CompareState, addr 0x2bad26c, size 0xb4, virtual false, abstract: false, final false
   static inline bool CompareState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr,
                                   ::cordl_internals::Ptr<void> maskPtr);
 
-  /// @brief Method CompareState, addr 0x2b4dd18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CompareState, addr 0x2bad550, size 0xb4, virtual false, abstract: false, final false
   static inline bool CompareState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> maskPtr);
 
-  /// @brief Method CompareStateIgnoringNoise, addr 0x2b4dc2c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CompareStateIgnoringNoise, addr 0x2bad464, size 0xec, virtual false, abstract: false, final false
   static inline bool CompareStateIgnoringNoise(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method CopyState, addr 0x2b4d7ec, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CopyState, addr 0x2bad024, size 0x168, virtual false, abstract: false, final false
   static inline void CopyState(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<void> buffer, int32_t bufferSizeInBytes);
 
   /// @brief Method CopyState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> static inline void CopyState(::UnityEngine::InputSystem::InputDevice* device, ByRef<TState> state);
 
-  /// @brief Method EnumerateChangedControls, addr 0x2b4eb18, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EnumerateChangedControls, addr 0x2bae350, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlCollection EnumerateChangedControls(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                                                            ::UnityEngine::InputSystem::InputDevice* device, float_t magnitudeThreshold);
 
-  /// @brief Method EnumerateControls, addr 0x2b4e8ec, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method EnumerateControls, addr 0x2bae124, size 0x22c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputControlExtensions__InputEventControlCollection EnumerateControls(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                                                     ::UnityEngine::InputSystem::__InputControlExtensions__Enumerate flags,
                                                                                                                     ::UnityEngine::InputSystem::InputDevice* device, float_t magnitudeThreshold);
@@ -891,39 +891,39 @@ public:
   /// @brief Method FindInParentChain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> static inline TControl FindInParentChain(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetAllButtonPresses, addr 0x2b4eed4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetAllButtonPresses, addr 0x2bae70c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>* GetAllButtonPresses(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                                                               float_t magnitude, bool buttonControlsOnly);
 
-  /// @brief Method GetFirstButtonPressOrNull, addr 0x2b4b798, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetFirstButtonPressOrNull, addr 0x2baafd0, size 0x1d8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControl* GetFirstButtonPressOrNull(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude, bool buttonControlsOnly);
 
-  /// @brief Method GetStatePtrFromStateEvent, addr 0x2b4d4fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetStatePtrFromStateEvent, addr 0x2bacd34, size 0xc0, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetStatePtrFromStateEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method GetStatePtrFromStateEventUnchecked, addr 0x2b4df60, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetStatePtrFromStateEventUnchecked, addr 0x2bad798, size 0x2ec, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetStatePtrFromStateEventUnchecked(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                 ::UnityEngine::InputSystem::Utilities::FourCC eventType);
 
-  /// @brief Method HasButtonPress, addr 0x2b4eb50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HasButtonPress, addr 0x2bae388, size 0x1c, virtual false, abstract: false, final false
   static inline bool HasButtonPress(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude, bool buttonControlsOnly);
 
-  /// @brief Method HasValueChangeInEvent, addr 0x2b4de80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method HasValueChangeInEvent, addr 0x2bad6b8, size 0xe0, virtual false, abstract: false, final false
   static inline bool HasValueChangeInEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method HasValueChangeInState, addr 0x2b4ddcc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HasValueChangeInState, addr 0x2bad604, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasValueChangeInState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method IsActuated, addr 0x2b4d1d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsActuated, addr 0x2baca08, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsActuated(::UnityEngine::InputSystem::InputControl* control, float_t threshold);
 
-  /// @brief Method IsPressed, addr 0x2b4d088, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IsPressed, addr 0x2bac8c0, size 0x148, virtual false, abstract: false, final false
   static inline bool IsPressed(::UnityEngine::InputSystem::InputControl* control, float_t buttonPressPoint);
 
   /// @brief Method QueueValueChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void QueueValueChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time);
 
-  /// @brief Method ReadDefaultValueAsObject, addr 0x2b4d3d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadDefaultValueAsObject, addr 0x2bacc08, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Object* ReadDefaultValueAsObject(::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ReadUnprocessedValueFromEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -934,7 +934,7 @@ public:
   template <typename TValue>
   static inline bool ReadUnprocessedValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent, ByRef<TValue> value);
 
-  /// @brief Method ReadValueAsObject, addr 0x2b4c6f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x2babf30, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Object* ReadValueAsObject(::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ReadValueFromEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -944,23 +944,23 @@ public:
   template <typename TValue>
   static inline bool ReadValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent, ByRef<TValue> value);
 
-  /// @brief Method ReadValueFromEventAsObject, addr 0x2b4d478, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadValueFromEventAsObject, addr 0x2baccb0, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Object* ReadValueFromEventAsObject(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent);
 
-  /// @brief Method ReadValueIntoBuffer, addr 0x2b4d314, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReadValueIntoBuffer, addr 0x2bacb4c, size 0xbc, virtual false, abstract: false, final false
   static inline void ReadValueIntoBuffer(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ResetToDefaultStateInEvent, addr 0x2b4e258, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ResetToDefaultStateInEvent, addr 0x2bada90, size 0x1b4, virtual false, abstract: false, final false
   static inline bool ResetToDefaultStateInEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method Setup, addr 0x2b4efa4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2bae7dc, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputControlExtensions__ControlBuilder Setup(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method Setup, addr 0x2b4f074, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2bae8ac, size 0x20c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder Setup(::UnityEngine::InputSystem::InputDevice* device, int32_t controlCount, int32_t usageCount,
                                                                                           int32_t aliasCount);
 
-  /// @brief Method WriteValueFromObjectIntoEvent, addr 0x2b4d5bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WriteValueFromObjectIntoEvent, addr 0x2bacdf4, size 0x94, virtual false, abstract: false, final false
   static inline void WriteValueFromObjectIntoEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::System::Object* value);
 
   /// @brief Method WriteValueIntoEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -970,7 +970,7 @@ public:
   template <typename TValue>
   static inline void WriteValueIntoEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b4d650, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2bace88, size 0x19c, virtual false, abstract: false, final false
   static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr);
 
   /// @brief Method WriteValueIntoState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

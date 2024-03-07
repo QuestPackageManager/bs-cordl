@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAchievementDefinitions::*)(void*)>(
     &::Oculus::Platform::MessageWithAchievementDefinitions::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x27e0200;
+  constexpr static std::size_t addrs = 0x2842c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementDefinitionList* (::Oculus::Platform::MessageWithAchievementDefinitions::*)()>(
     &::Oculus::Platform::MessageWithAchievementDefinitions::GetAchievementDefinitions)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x27e2190;
+  constexpr static std::size_t addrs = 0x2844bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementDefinitionList* (
     ::Oculus::Platform::MessageWithAchievementDefinitions::*)(void*)>(&::Oculus::Platform::MessageWithAchievementDefinitions::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x27e21cc;
+  constexpr static std::size_t addrs = 0x2844be8;
 
   inline static ::MethodInfo const* methodInfo() {
 

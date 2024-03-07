@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::ConsoleSpecialKey value);
 
-  /// @brief Method .ctor, addr 0x26c22e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2722634, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26c2270, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27225c0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method get_Cancel, addr 0x26c22dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cancel, addr 0x272262c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Cancel();
 
 protected:

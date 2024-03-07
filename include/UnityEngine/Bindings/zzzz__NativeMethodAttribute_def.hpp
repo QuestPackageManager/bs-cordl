@@ -82,31 +82,31 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2e256bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e80ef4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e256c4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e80efc, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2e257c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81000, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction);
 
-  /// @brief Method .ctor, addr 0x2e257f0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81028, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
-  /// @brief Method set_HasExplicitThis, addr 0x2e256b0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_HasExplicitThis, addr 0x2e80ee8, size 0xc, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
-  /// @brief Method set_IsFreeFunction, addr 0x2e25698, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsFreeFunction, addr 0x2e80ed0, size 0xc, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
-  /// @brief Method set_IsThreadSafe, addr 0x2e2568c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsThreadSafe, addr 0x2e80ec4, size 0xc, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
-  /// @brief Method set_Name, addr 0x2e25684, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Name, addr 0x2e80ebc, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_ThrowsException, addr 0x2e256a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x2e80edc, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:

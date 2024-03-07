@@ -57,30 +57,30 @@ public:
   /// @brief Field rootNode, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_rootNode, put = __cordl_internal_set_rootNode))::UnityW<::UnityEngine::Transform> rootNode;
 
-  /// @brief Method Awake, addr 0x130cebc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x1335414, size 0x218, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BakePosition, addr 0x130d18c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method BakePosition, addr 0x13356e4, size 0xb8, virtual false, abstract: false, final false
   inline bool BakePosition(::UnityEngine::Transform* t);
 
-  /// @brief Method GetCharacterRoot, addr 0x130d2d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCharacterRoot, addr 0x1335830, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
 
-  /// @brief Method IsIgnored, addr 0x130d0d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsIgnored, addr 0x133562c, size 0xb8, virtual false, abstract: false, final false
   inline bool IsIgnored(::UnityEngine::Transform* t);
 
   static inline ::RootMotion::GenericBaker* New_ctor();
 
-  /// @brief Method OnSetCurves, addr 0x130d730, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method OnSetCurves, addr 0x1335c88, size 0x64, virtual true, abstract: false, final false
   inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method OnSetKeyframes, addr 0x130da48, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnSetKeyframes, addr 0x1335fa0, size 0x6c, virtual true, abstract: false, final false
   inline void OnSetKeyframes(float_t time, bool lastFrame);
 
-  /// @brief Method OnSetLoopFrame, addr 0x130d4cc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnSetLoopFrame, addr 0x1335a24, size 0x6c, virtual true, abstract: false, final false
   inline void OnSetLoopFrame(float_t time);
 
-  /// @brief Method OnStartBaking, addr 0x130d2e0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnStartBaking, addr 0x1335838, size 0xd0, virtual true, abstract: false, final false
   inline void OnStartBaking();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_bakePositionList() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_rootNode(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x130dca8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1336200, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

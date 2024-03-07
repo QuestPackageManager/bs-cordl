@@ -28,18 +28,18 @@ public:
   /// @brief Field trailerMap, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_trailerMap, put = setStaticF_trailerMap))::System::Collections::IDictionary* trailerMap;
 
-  /// @brief Method CreateTrailerMap, addr 0xfc27b8, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method CreateTrailerMap, addr 0xfe3ebc, size 0x674, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateTrailerMap();
 
-  /// @brief Method GetTrailer, addr 0xfbeea4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetTrailer, addr 0xfe05a8, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::IsoTrailers* New_ctor();
 
-  /// @brief Method NoTrailerAvailable, addr 0xfbed50, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method NoTrailerAvailable, addr 0xfe0454, size 0x154, virtual false, abstract: false, final false
   static inline bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xfc2e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe457c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_trailerMap();

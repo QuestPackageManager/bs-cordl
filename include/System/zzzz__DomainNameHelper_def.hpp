@@ -21,37 +21,37 @@ namespace System {
 class CORDL_TYPE DomainNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IdnEquivalent, addr 0x2a36284, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method IdnEquivalent, addr 0x2a97abc, size 0x27c, virtual false, abstract: false, final false
   static inline ::StringW IdnEquivalent(::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end, ByRef<bool> allAscii, ByRef<bool> atLeastOneValidIdn);
 
-  /// @brief Method IdnEquivalent, addr 0x2a36500, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method IdnEquivalent, addr 0x2a97d38, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW IdnEquivalent(::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end, ByRef<bool> allAscii, ByRef<::StringW> bidiStrippedHost);
 
-  /// @brief Method IsASCIILetterOrDigit, addr 0x2a35fec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsASCIILetterOrDigit, addr 0x2a97824, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsASCIILetterOrDigit(char16_t character, ByRef<bool> notCanonical);
 
-  /// @brief Method IsIdnAce, addr 0x2a36740, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsIdnAce, addr 0x2a97f78, size 0x98, virtual false, abstract: false, final false
   static inline bool IsIdnAce(::StringW input, int32_t index);
 
-  /// @brief Method IsIdnAce, addr 0x2a366f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsIdnAce, addr 0x2a97f2c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsIdnAce(::cordl_internals::Ptr<char16_t> input, int32_t index);
 
-  /// @brief Method IsValid, addr 0x2a35e70, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2a976a8, size 0x17c, virtual false, abstract: false, final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, uint16_t pos, ByRef<int32_t> returnedEnd, ByRef<bool> notCanonical, bool notImplicitFile);
 
-  /// @brief Method IsValidByIri, addr 0x2a3609c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method IsValidByIri, addr 0x2a978d4, size 0x1e8, virtual false, abstract: false, final false
   static inline bool IsValidByIri(::cordl_internals::Ptr<char16_t> name, uint16_t pos, ByRef<int32_t> returnedEnd, ByRef<bool> notCanonical, bool notImplicitFile);
 
-  /// @brief Method IsValidDomainLabelCharacter, addr 0x2a36038, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsValidDomainLabelCharacter, addr 0x2a97870, size 0x64, virtual false, abstract: false, final false
   static inline bool IsValidDomainLabelCharacter(char16_t character, ByRef<bool> notCanonical);
 
-  /// @brief Method ParseCanonicalName, addr 0x2a35cd0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x2a97508, size 0x1a0, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> loopback);
 
-  /// @brief Method UnicodeEquivalent, addr 0x2a368f4, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method UnicodeEquivalent, addr 0x2a9812c, size 0x458, virtual false, abstract: false, final false
   static inline ::StringW UnicodeEquivalent(::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end, ByRef<bool> allAscii, ByRef<bool> atLeastOneValidIdn);
 
-  /// @brief Method UnicodeEquivalent, addr 0x2a367d8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UnicodeEquivalent, addr 0x2a98010, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW UnicodeEquivalent(::StringW idnHost, ::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end);
 
 protected:

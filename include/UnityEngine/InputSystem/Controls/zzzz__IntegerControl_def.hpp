@@ -21,13 +21,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2bf0cd0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2c51508, size 0xc, virtual true, abstract: false, final false
   inline int32_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2bf0cdc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2c51514, size 0x18, virtual true, abstract: false, final false
   inline void WriteValueIntoState(int32_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x2bf0c48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c51480, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

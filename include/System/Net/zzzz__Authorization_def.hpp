@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a85fd0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae6808, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
-  /// @brief Method .ctor, addr 0x2a86050, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae6888, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, bool finished);
 
-  /// @brief Method get_Complete, addr 0x2a860d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complete, addr 0x2ae6910, size 0x8, virtual false, abstract: false, final false
   inline bool get_Complete();
 
-  /// @brief Method get_Message, addr 0x2a860d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2ae6908, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

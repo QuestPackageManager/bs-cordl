@@ -26,10 +26,10 @@ public:
   /// @brief Field m_jobject, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_jobject, put = __cordl_internal_set_m_jobject)) void* m_jobject;
 
-  /// @brief Method Dispose, addr 0x2d69c5c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2dc7494, size 0x7c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x2d69bc8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2dc7400, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::GlobalJavaObjectRef* New_ctor(void* jobject);
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_m_jobject(void* value);
 
-  /// @brief Method .ctor, addr 0x2d69ad8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc7310, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(void* jobject);
 
-  /// @brief Method op_Implicit, addr 0x2d69cd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2dc7510, size 0x18, virtual false, abstract: false, final false
   static inline void* op_Implicit_void_(::UnityEngine::GlobalJavaObjectRef* obj);
 
 protected:

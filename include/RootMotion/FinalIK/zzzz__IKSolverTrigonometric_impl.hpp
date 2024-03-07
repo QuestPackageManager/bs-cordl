@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::Initiate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x134b55c;
+  constexpr static std::size_t addrs = 0x1374ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::GetRotation)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x134be04;
+  constexpr static std::size_t addrs = 0x137535c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::*)()>(
     &::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::GetBendNormalFromCurrentRotation)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1346b38;
+  constexpr static std::size_t addrs = 0x1370090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::*)()>(
     &::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x134bea0;
+  constexpr static std::size_t addrs = 0x13753f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)(::UnityEngine::Vector3, float_t)>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::SetBendGoalPosition)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x134a2c0;
+  constexpr static std::size_t addrs = 0x1373818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverTrigonometric*>::get(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::SetBendPlaneToCurrent)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x134a454;
+  constexpr static std::size_t addrs = 0x13739ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverTrigonometric*>::get(),
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)(::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::SetIKRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x134a5d4;
+  constexpr static std::size_t addrs = 0x1373b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)(float_t)>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::SetIKRotationWeight)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x134a5e0;
+  constexpr static std::size_t addrs = 0x1373b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::GetIKRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x134a5fc;
+  constexpr static std::size_t addrs = 0x1373b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverTrigonometric*>::get(),
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::GetIKRotationWeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x134a608;
+  constexpr static std::size_t addrs = 0x1373b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverTrigonometric*>::get(),
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> (
     ::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(&::RootMotion::FinalIK::IKSolverTrigonometric::GetPoints)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x134a610;
+  constexpr static std::size_t addrs = 0x1373b68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::RootMotion::FinalIK::__IKSolver__Point* (::RootMotion::FinalIK::IKSolverTrigonometric::*)(::UnityEngine::Transform*)>(&::RootMotion::FinalIK::IKSolverTrigonometric::GetPoint)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x134a6fc;
+  constexpr static std::size_t addrs = 0x1373c54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::StoreDefaultLocalState)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x134a7f4;
+  constexpr static std::size_t addrs = 0x1373d4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::FixTransforms)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x134a834;
+  constexpr static std::size_t addrs = 0x1373d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::IKSolverTrigonometric::*)(ByRef<::StringW>)>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::IsValid)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x134a884;
+  constexpr static std::size_t addrs = 0x1373ddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::IKSolverTrigonometric::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::IKSolverTrigonometric::SetChain)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x134ac28;
+  constexpr static std::size_t addrs = 0x1374180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector3,
                                                                                            ::UnityEngine::Vector3, float_t)>(&::RootMotion::FinalIK::IKSolverTrigonometric::Solve)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x134ac74;
+  constexpr static std::size_t addrs = 0x13741cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, float_t, float_t)>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::GetDirectionToBendPoint)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x134b168;
+  constexpr static std::size_t addrs = 0x13746c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::OnInitiate)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x134b2c0;
+  constexpr static std::size_t addrs = 0x1374818;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::IsDirectHierarchy)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x134b46c;
+  constexpr static std::size_t addrs = 0x13749c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverTrigonometric*>::get(),
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::InitiateBones)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x134b3ec;
+  constexpr static std::size_t addrs = 0x1374944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverTrigonometric*>::get(),
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(&::RootMotion::FinalIK::IKSolverTrigonometric::OnUpdate)> {
   constexpr static std::size_t size = 0x5f8;
-  constexpr static std::size_t addrs = 0x134b64c;
+  constexpr static std::size_t addrs = 0x1374ba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::OnInitiateVirtual)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x134be94;
+  constexpr static std::size_t addrs = 0x13753ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::OnUpdateVirtual)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x134be98;
+  constexpr static std::size_t addrs = 0x13753f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(
     &::RootMotion::FinalIK::IKSolverTrigonometric::OnPostSolveVirtual)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x134be9c;
+  constexpr static std::size_t addrs = 0x13753f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverTrigonometric::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::IKSolverTrigonometric::GetBendDirection)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x134bc44;
+  constexpr static std::size_t addrs = 0x137519c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverTrigonometric::*)()>(&::RootMotion::FinalIK::IKSolverTrigonometric::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x1347ce0;
+  constexpr static std::size_t addrs = 0x1371238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverTrigonometric*>::get(), ".ctor",

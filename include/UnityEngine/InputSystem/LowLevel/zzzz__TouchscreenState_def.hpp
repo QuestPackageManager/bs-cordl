@@ -145,16 +145,16 @@ public:
 
   constexpr void __cordl_internal_set_touchData(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer value);
 
-  /// @brief Method get_Format, addr 0x2bcfda4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x2c305dc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x2bcfde0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2c30618, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_primaryTouch, addr 0x2bcfdd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_primaryTouch, addr 0x2c3060c, size 0x4, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> get_primaryTouch();
 
-  /// @brief Method get_touches, addr 0x2bcfdd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touches, addr 0x2c30610, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> get_touches();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

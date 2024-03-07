@@ -31,43 +31,43 @@ public:
   /// @brief Field privacyPolicyVersion, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_privacyPolicyVersion, put = __cordl_internal_set_privacyPolicyVersion)) int32_t privacyPolicyVersion;
 
-  /// @brief Method AgreeToEula, addr 0x12efbb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEula, addr 0x1317cfc, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToEula();
 
-  /// @brief Method AgreeToHealthAndSafety, addr 0x12efbc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToHealthAndSafety, addr 0x1317d14, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToHealthAndSafety();
 
-  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x12efbd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x1317d20, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPlayerSensitivityFlag();
 
-  /// @brief Method AgreeToPrivacyPolicy, addr 0x12efbbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPrivacyPolicy, addr 0x1317d08, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPrivacyPolicy();
 
-  /// @brief Method AgreedToAnyPreviousEula, addr 0x12efbf0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousEula, addr 0x1317d3c, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousEula();
 
-  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x12efc28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x1317d74, size 0xc, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousHealthAndSafety();
 
-  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x12efc34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x1317d80, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPlayerSensitivityFlag();
 
-  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x12efc0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x1317d58, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToEula, addr 0x12efc50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToEula, addr 0x1317d9c, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToEula();
 
-  /// @brief Method AgreedToHealthAndSafety, addr 0x12efc70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToHealthAndSafety, addr 0x1317dbc, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToHealthAndSafety();
 
-  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x12efc80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x1317dcc, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPlayerSenstivityFlag();
 
-  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x12efbe0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x1317d2c, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToPrivacyPolicy, addr 0x12efc60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPrivacyPolicy, addr 0x1317dac, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPrivacyPolicy();
 
   static inline ::GlobalNamespace::PlayerAgreements* New_ctor();
@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12efb54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1317ca0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12efb70, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1317cbc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion, int32_t playerSensitivityFlagVersion);
 
 protected:

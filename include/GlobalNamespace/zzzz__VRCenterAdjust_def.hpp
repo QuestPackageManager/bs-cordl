@@ -42,30 +42,30 @@ public:
   /// @brief Field _savedata, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__savedata, put = __cordl_internal_set__savedata))::GlobalNamespace::IFileStorage* _savedata;
 
-  /// @brief Method Awake, addr 0x240f738, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2474cd4, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleRoomCenterDidChange, addr 0x240fb28, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleRoomCenterDidChange, addr 0x24750c4, size 0x70, virtual false, abstract: false, final false
   inline void HandleRoomCenterDidChange();
 
-  /// @brief Method HandleRoomRotationDidChange, addr 0x240fb98, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleRoomRotationDidChange, addr 0x2475134, size 0x7c, virtual false, abstract: false, final false
   inline void HandleRoomRotationDidChange();
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x240fa20, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2474fbc, size 0x108, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x240f918, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2474eb4, size 0x108, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetRoom, addr 0x240f894, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x2474e30, size 0x84, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method Start, addr 0x240f744, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2474ce0, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x240fc14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x24751b0, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__savedata(::GlobalNamespace::IFileStorage* value);
 
-  /// @brief Method .ctor, addr 0x240fc40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24751dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

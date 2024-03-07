@@ -81,32 +81,32 @@ public:
   /// @brief Field name, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::XmlName* name;
 
-  /// @brief Method AppendChildForLoad, addr 0x2972694, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method AppendChildForLoad, addr 0x29d4ecc, size 0x168, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* AppendChildForLoad(::System::Xml::XmlNode* newChild, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method CloneNode, addr 0x2971e74, size 0x58c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x29d46ac, size 0x58c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method IsValidChildType, addr 0x2972830, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method IsValidChildType, addr 0x29d5068, size 0x24, virtual true, abstract: false, final false
   inline bool IsValidChildType(::System::Xml::XmlNodeType type);
 
   static inline ::System::Xml::XmlElement* New_ctor(::System::Xml::XmlName* name, bool empty, ::System::Xml::XmlDocument* doc);
 
   static inline ::System::Xml::XmlElement* New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method RemoveAll, addr 0x2972b14, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x29d534c, size 0x24, virtual true, abstract: false, final false
   inline void RemoveAll();
 
-  /// @brief Method RemoveAllAttributes, addr 0x2972ad8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method RemoveAllAttributes, addr 0x29d5310, size 0x3c, virtual true, abstract: false, final false
   inline void RemoveAllAttributes();
 
-  /// @brief Method RemoveAllChildren, addr 0x2972814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllChildren, addr 0x29d504c, size 0x4, virtual false, abstract: false, final false
   inline void RemoveAllChildren();
 
-  /// @brief Method SetAttributeNode, addr 0x29729c0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method SetAttributeNode, addr 0x29d51f8, size 0x118, virtual true, abstract: false, final false
   inline ::System::Xml::XmlAttribute* SetAttributeNode(::System::Xml::XmlAttribute* newAttr);
 
-  /// @brief Method SetParent, addr 0x2972e90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetParent, addr 0x29d56c8, size 0x8, virtual true, abstract: false, final false
   inline void SetParent(::System::Xml::XmlNode* node);
 
   constexpr ::System::Xml::XmlAttributeCollection*& __cordl_internal_get_attributes();
@@ -127,70 +127,70 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Xml::XmlName* value);
 
-  /// @brief Method .ctor, addr 0x2971d00, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d4538, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlName* name, bool empty, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x2971e20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d4658, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Attributes, addr 0x2972854, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x29d508c, size 0x144, virtual true, abstract: false, final false
   inline ::System::Xml::XmlAttributeCollection* get_Attributes();
 
-  /// @brief Method get_HasAttributes, addr 0x2972998, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_HasAttributes, addr 0x29d51d0, size 0x28, virtual true, abstract: false, final false
   inline bool get_HasAttributes();
 
-  /// @brief Method get_InnerText, addr 0x2972c90, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x29d54c8, size 0x4, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_IsContainer, addr 0x297268c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsContainer, addr 0x29d4ec4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsEmpty, addr 0x2972400, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x29d4c38, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_LastNode, addr 0x2972818, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_LastNode, addr 0x29d5050, size 0x10, virtual true, abstract: false, final false
   inline ::System::Xml::XmlLinkedNode* get_LastNode();
 
-  /// @brief Method get_LocalName, addr 0x297260c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x29d4e44, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2972448, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x29d4c80, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NamespaceURI, addr 0x2972628, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceURI, addr 0x29d4e60, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_NextSibling, addr 0x2972e54, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_NextSibling, addr 0x29d568c, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method get_NodeType, addr 0x2972660, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x29d4e98, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_OwnerDocument, addr 0x2972670, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_OwnerDocument, addr 0x29d4ea8, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_OwnerDocument();
 
-  /// @brief Method get_ParentNode, addr 0x2972668, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x29d4ea0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_Prefix, addr 0x2972644, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x29d4e7c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_XmlName, addr 0x2971e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlName, addr 0x29d469c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* get_XmlName();
 
-  /// @brief Method set_InnerText, addr 0x2972d9c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x29d55d4, size 0xb8, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_InnerXml, addr 0x2972ba0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method set_InnerXml, addr 0x29d53d8, size 0x7c, virtual true, abstract: false, final false
   inline void set_InnerXml(::StringW value);
 
-  /// @brief Method set_IsEmpty, addr 0x2972410, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_IsEmpty, addr 0x29d4c48, size 0x38, virtual false, abstract: false, final false
   inline void set_IsEmpty(bool value);
 
-  /// @brief Method set_LastNode, addr 0x2972828, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LastNode, addr 0x29d5060, size 0x8, virtual true, abstract: false, final false
   inline void set_LastNode(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method set_XmlName, addr 0x2971e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlName, addr 0x29d46a4, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlName(::System::Xml::XmlName* value);
 
 protected:

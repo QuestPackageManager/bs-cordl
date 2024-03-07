@@ -111,13 +111,13 @@ public:
 
   __declspec(property(put = set_move))::UnityEngine::Vector2 move;
 
-  /// @brief Method DetermineMoveDirection, addr 0x2f609c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x2fba1fc, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
-  /// @brief Method GetPooled, addr 0x2f60a30, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2fba268, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* GetPooled(::UnityEngine::Vector2 moveVector);
 
-  /// @brief Method Init, addr 0x2f60b10, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2fba348, size 0x88, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* New_ctor();
@@ -134,16 +134,16 @@ public:
 
   constexpr void __cordl_internal_set__move_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x2f60b98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fba3d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_direction, addr 0x2f60a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x2fba250, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction get_direction();
 
-  /// @brief Method set_direction, addr 0x2f60a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x2fba258, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::__NavigationMoveEvent__Direction value);
 
-  /// @brief Method set_move, addr 0x2f60a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_move, addr 0x2fba260, size 0x8, virtual false, abstract: false, final false
   inline void set_move(::UnityEngine::Vector2 value);
 
 protected:

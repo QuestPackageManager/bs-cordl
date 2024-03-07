@@ -65,25 +65,25 @@ public:
 
   constexpr void __cordl_internal_set_name(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0xfa2cd0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc43d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method .ctor, addr 0xfa2d00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc4404, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method .ctor, addr 0xfa2c70, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc4374, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0xfa2c08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc430c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp);
 
-  /// @brief Method .ctor, addr 0xfa2ca8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc43ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
-  /// @brief Method get_Name, addr 0xfa2c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0xfc4304, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Name();
 
 protected:

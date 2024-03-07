@@ -171,12 +171,12 @@ namespace BeatmapDataLoaderVersion2_6_0AndEarlier {
 class CORDL_TYPE __BeatmapDataLoader__ColorNoteConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x1308adc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1330f40, size 0xfc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData* n);
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__ColorNoteConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x1308abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1330f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -207,18 +207,18 @@ namespace BeatmapDataLoaderVersion2_6_0AndEarlier {
 class CORDL_TYPE __BeatmapDataLoader__ObstacleConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x1308bd8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x133103c, size 0x10c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleData* Convert(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData* o);
 
-  /// @brief Method GetHeightForObstacleType, addr 0x13094b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetHeightForObstacleType, addr 0x1331914, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetHeightForObstacleType(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType obstacleType);
 
-  /// @brief Method GetLayerForObstacleType, addr 0x13094a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetLayerForObstacleType, addr 0x1331904, size 0x10, virtual false, abstract: false, final false
   static inline int32_t GetLayerForObstacleType(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType obstacleType);
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__ObstacleConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x1308ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1330f28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -249,12 +249,12 @@ namespace BeatmapDataLoaderVersion2_6_0AndEarlier {
 class CORDL_TYPE __BeatmapDataLoader__WaypointConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x1308ce4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1331148, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::WaypointData* Convert(::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData* waypointSaveData);
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__WaypointConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x1308acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1330f30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -285,12 +285,12 @@ namespace BeatmapDataLoaderVersion2_6_0AndEarlier {
 class CORDL_TYPE __BeatmapDataLoader__SliderConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x1308db4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1331218, size 0x160, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderData* Convert(::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData* s);
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__SliderConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x1308ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1330f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -332,14 +332,14 @@ public:
   __declspec(property(get = __cordl_internal_get__specialEventsFilter,
                       put = __cordl_internal_set__specialEventsFilter))::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__SpecialEventsFilter* _specialEventsFilter;
 
-  /// @brief Method Convert, addr 0x1309230, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1331694, size 0x268, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData* e);
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__BasicEventConverter*
   New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__SpecialEventsFilter* specialEventsFilter,
            bool canUseEnvironmentEventsAndShouldLoadDynamicEvents);
 
-  /// @brief Method SpawnRotationForEventValue, addr 0x1309528, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SpawnRotationForEventValue, addr 0x133198c, size 0xb8, virtual false, abstract: false, final false
   static inline float_t SpawnRotationForEventValue(int32_t index);
 
   constexpr bool const& __cordl_internal_get__canUseEnvironmentEventsAndShouldLoadDynamicEvents() const;
@@ -354,7 +354,7 @@ public:
 
   constexpr void __cordl_internal_set__specialEventsFilter(::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__SpecialEventsFilter* value);
 
-  /// @brief Method .ctor, addr 0x1309200, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1331664, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__SpecialEventsFilter* specialEventsFilter,
                     bool canUseEnvironmentEventsAndShouldLoadDynamicEvents);
 
@@ -404,7 +404,7 @@ public:
   __declspec(property(get = __cordl_internal_get__eventTypesToFilter,
                       put = __cordl_internal_set__eventTypesToFilter))::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* _eventTypesToFilter;
 
-  /// @brief Method IsEventValid, addr 0x13094c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsEventValid, addr 0x1331928, size 0x64, virtual false, abstract: false, final false
   inline bool IsEventValid(::BeatmapSaveDataCommon::BeatmapEventType basicBeatmapEventType);
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader__SpecialEventsFilter*
@@ -416,7 +416,7 @@ public:
 
   constexpr void __cordl_internal_set__eventTypesToFilter(::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x1308f14, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1331378, size 0x2ec, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* basicEventTypesWithKeywords, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
 protected:
@@ -475,7 +475,7 @@ public:
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x1309674, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x1331ad8, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapData* _GetBeatmapDataFromSaveDataJsonAsync_b__0();
 
   constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
@@ -520,7 +520,7 @@ public:
 
   constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x130786c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132fcd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -591,7 +591,7 @@ public:
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x1309690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x1331af4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataBasicInfo* _GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
@@ -600,7 +600,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapJson(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1307964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132fdc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -644,10 +644,10 @@ public:
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader____c* New_ctor();
 
-  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJson>b__3_0, addr 0x1309704, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJson>b__3_0, addr 0x1331b68, size 0x20, virtual false, abstract: false, final false
   inline bool _GetBeatmapDataBasicInfoFromSaveDataJson_b__3_0(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData* note);
 
-  /// @brief Method .ctor, addr 0x13096fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1331b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader____c* getStaticF___9();
@@ -704,19 +704,19 @@ public:
 
   using __c__DisplayClass2_0 = ::BeatmapDataLoaderVersion2_6_0AndEarlier::__BeatmapDataLoader____c__DisplayClass2_0;
 
-  /// @brief Method BeatmapSaveDataAreSorted, addr 0x13088f4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method BeatmapSaveDataAreSorted, addr 0x1330d58, size 0x1c8, virtual false, abstract: false, final false
   static inline bool BeatmapSaveDataAreSorted(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>* beatmapSaveData);
 
-  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x13088e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x1330d48, size 0x10, virtual false, abstract: false, final false
   static inline void ConvertBeatmapSaveDataPreV2_5_0Inline(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* beatmapSaveData);
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x130796c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x132fdd0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataBasicInfo* GetBeatmapDataBasicInfoFromSaveDataJson(::StringW beatmapSaveDataJson);
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x1307874, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x132fcd8, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoFromSaveDataJsonAsync(::StringW beatmapJson);
 
-  /// @brief Method GetBeatmapDataFromSaveData, addr 0x1307dfc, size 0xae8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataFromSaveData, addr 0x1330260, size 0xae8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveData(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* beatmapSaveData,
                                                                            ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData,
                                                                            ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
@@ -724,19 +724,19 @@ public:
                                                                            ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups,
                                                                            ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x1307b24, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x132ff88, size 0x2d8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveDataJson(::StringW beatmapJson, ::StringW defaultLightshowSaveDataJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                                                float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                                ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x1307738, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x132fb9c, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>*
   GetBeatmapDataFromSaveDataJsonAsync(::StringW beatmapJson, ::StringW defaultLightshowSaveDataJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm,
                                       bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
   static inline ::BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1309498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13318fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -39,44 +39,44 @@ public:
   // Declarations
   static inline ::UnityOpus::Library* New_ctor();
 
-  /// @brief Method OpusDecode, addr 0x2359e7c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OpusDecode, addr 0x23bbc54, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t OpusDecode(void* decoder, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t len, ::ArrayW<int16_t, ::Array<int16_t>*> pcm, int32_t frameSize, int32_t decodeFec);
 
-  /// @brief Method OpusDecodeFloat, addr 0x23592e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OpusDecodeFloat, addr 0x23bb0bc, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t OpusDecodeFloat(void* decoder, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t len, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t frameSize, int32_t decodeFec);
 
-  /// @brief Method OpusDecoderCreate, addr 0x2359184, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OpusDecoderCreate, addr 0x23baf5c, size 0x94, virtual false, abstract: false, final false
   static inline void* OpusDecoderCreate(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ByRef<::UnityOpus::ErrorCode> error);
 
-  /// @brief Method OpusDecoderDestroy, addr 0x23594d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OpusDecoderDestroy, addr 0x23bb2b0, size 0x7c, virtual false, abstract: false, final false
   static inline void OpusDecoderDestroy(void* decoder);
 
-  /// @brief Method OpusEncode, addr 0x2359dc0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OpusEncode, addr 0x23bbb98, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t OpusEncode(void* encoder, ::ArrayW<int16_t, ::Array<int16_t>*> pcm, int32_t frameSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t maxDataBytes);
 
-  /// @brief Method OpusEncodeFloat, addr 0x2359af8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OpusEncodeFloat, addr 0x23bb8d0, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t OpusEncodeFloat(void* encoder, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t frameSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t maxDataBytes);
 
-  /// @brief Method OpusEncoderCreate, addr 0x23599ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OpusEncoderCreate, addr 0x23bb784, size 0x9c, virtual false, abstract: false, final false
   static inline void* OpusEncoderCreate(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application,
                                         ByRef<::UnityOpus::ErrorCode> error);
 
-  /// @brief Method OpusEncoderDestroy, addr 0x2359c38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OpusEncoderDestroy, addr 0x23bba10, size 0x7c, virtual false, abstract: false, final false
   static inline void OpusEncoderDestroy(void* encoder);
 
-  /// @brief Method OpusEncoderSetBitrate, addr 0x2359690, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OpusEncoderSetBitrate, addr 0x23bb468, size 0x84, virtual false, abstract: false, final false
   static inline int32_t OpusEncoderSetBitrate(void* encoder, int32_t bitrate);
 
-  /// @brief Method OpusEncoderSetComplexity, addr 0x2359744, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OpusEncoderSetComplexity, addr 0x23bb51c, size 0x84, virtual false, abstract: false, final false
   static inline int32_t OpusEncoderSetComplexity(void* encoder, int32_t complexity);
 
-  /// @brief Method OpusEncoderSetSignal, addr 0x23597f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OpusEncoderSetSignal, addr 0x23bb5d0, size 0x84, virtual false, abstract: false, final false
   static inline int32_t OpusEncoderSetSignal(void* encoder, ::UnityOpus::OpusSignal signal);
 
-  /// @brief Method OpusPcmSoftClip, addr 0x23593a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OpusPcmSoftClip, addr 0x23bb180, size 0xac, virtual false, abstract: false, final false
   static inline void OpusPcmSoftClip(::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t frameSize, ::UnityOpus::NumChannels channels, ::ArrayW<float_t, ::Array<float_t>*> softclipMem);
 
-  /// @brief Method .ctor, addr 0x2359f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bbd18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

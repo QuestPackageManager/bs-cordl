@@ -115,26 +115,26 @@ public:
   __declspec(property(get = __cordl_internal_get_startCharacterAnimationEvent,
                       put = __cordl_internal_set_startCharacterAnimationEvent))::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* startCharacterAnimationEvent;
 
-  /// @brief Method CleanupAddressables, addr 0xe7368c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CleanupAddressables, addr 0xe8f458, size 0x154, virtual false, abstract: false, final false
   inline void CleanupAddressables();
 
-  /// @brief Method GetCharacterWithAnimationClip, addr 0xe7351c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterWithAnimationClip, addr 0xe8f2e8, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
   GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
                                 ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
 
-  /// @brief Method HandleBeatmapEvent, addr 0xe73808, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0xe8f5d4, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LoadAddressables, addr 0xe72ca0, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method LoadAddressables, addr 0xe8ea6c, size 0x86c, virtual false, abstract: false, final false
   inline void LoadAddressables();
 
   static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xe737e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe8f5ac, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0xe726f8, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe8e4c4, size 0x5a8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__animationStartAheadTime() const;
@@ -219,16 +219,16 @@ public:
 
   constexpr void __cordl_internal_set_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method .ctor, addr 0xe73954, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8f720, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_startCharacterAnimationEvent, addr 0xe7200c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_startCharacterAnimationEvent, addr 0xe8ddd8, size 0xb0, virtual false, abstract: false, final false
   inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method get_isInitialized, addr 0xe726f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0xe8e4bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method remove_startCharacterAnimationEvent, addr 0xe724b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_startCharacterAnimationEvent, addr 0xe8e280, size 0xb0, virtual false, abstract: false, final false
   inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
 protected:

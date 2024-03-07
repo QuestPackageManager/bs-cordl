@@ -25,7 +25,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaGroupBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29b25ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a13e24, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

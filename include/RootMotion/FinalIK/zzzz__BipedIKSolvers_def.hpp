@@ -74,7 +74,7 @@ public:
   /// @brief Field spine, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_spine, put = __cordl_internal_set_spine))::RootMotion::FinalIK::IKSolverFABRIK* spine;
 
-  /// @brief Method AssignReferences, addr 0x131dd48, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AssignReferences, addr 0x13462a0, size 0x120, virtual false, abstract: false, final false
   inline void AssignReferences(::RootMotion::BipedReferences* references);
 
   static inline ::RootMotion::FinalIK::BipedIKSolvers* New_ctor();
@@ -139,13 +139,13 @@ public:
 
   constexpr void __cordl_internal_set_spine(::RootMotion::FinalIK::IKSolverFABRIK* value);
 
-  /// @brief Method .ctor, addr 0x131e3e0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346938, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ikSolvers, addr 0x131e56c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method get_ikSolvers, addr 0x1346ac4, size 0x1b4, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> get_ikSolvers();
 
-  /// @brief Method get_limbs, addr 0x131d9cc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_limbs, addr 0x1345f24, size 0x130, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> get_limbs();
 
 protected:

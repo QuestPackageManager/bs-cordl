@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_songSubName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12ae2a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d54ec, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm,
                     ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers);
 

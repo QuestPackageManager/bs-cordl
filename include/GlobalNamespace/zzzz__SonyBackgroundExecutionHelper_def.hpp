@@ -40,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::SonyBackgroundExecutionHelper* New_ctor();
 
-  /// @brief Method Tick, addr 0x12ea614, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x1312cc8, size 0x28, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr bool const& __cordl_internal_get__isInBackgroundExecution() const;
@@ -61,25 +61,25 @@ public:
 
   constexpr void __cordl_internal_set_didGoToForegroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x12ea63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1312cf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x12ea39c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x1312a50, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGoToBackgroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method add_didGoToForegroundExecutionEvent, addr 0x12ea4d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGoToForegroundExecutionEvent, addr 0x1312b88, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGoToForegroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method get_isInBackgroundExecution, addr 0x12ea60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBackgroundExecution, addr 0x1312cc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBackgroundExecution();
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x12ea438, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x1312aec, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGoToBackgroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x12ea570, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x1312c24, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGoToForegroundExecutionEvent(::System::Action* value);
 
 protected:

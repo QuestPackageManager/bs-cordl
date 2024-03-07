@@ -32,10 +32,10 @@ public:
 
   static inline ::GlobalNamespace::VRControllerTransformOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226242c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c3f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_poseOffset, addr 0x2261e10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_poseOffset, addr 0x22c38f4, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_poseOffset();
 
   /// @brief Method get_positionOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

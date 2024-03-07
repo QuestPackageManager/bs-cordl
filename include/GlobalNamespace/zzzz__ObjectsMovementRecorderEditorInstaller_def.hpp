@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ObjectsMovementRecorderEditorInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x23f6e1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x245bd44, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorderEditorInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23f6e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245bd48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

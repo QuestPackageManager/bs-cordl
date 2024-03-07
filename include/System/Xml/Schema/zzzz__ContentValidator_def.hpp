@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_isOpen(bool value);
 
-  /// @brief Method .ctor, addr 0x299980c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fb044, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 
-  /// @brief Method .ctor, addr 0x299983c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fb074, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
   static inline ::System::Xml::Schema::ContentValidator* getStaticF_Any();
@@ -83,10 +83,10 @@ public:
 
   static inline ::System::Xml::Schema::ContentValidator* getStaticF_TextOnly();
 
-  /// @brief Method get_ContentType, addr 0x299987c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x29fb0b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
 
-  /// @brief Method get_IsOpen, addr 0x2999884, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_IsOpen, addr 0x29fb0bc, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsOpen();
 
   static inline void setStaticF_Any(::System::Xml::Schema::ContentValidator* value);

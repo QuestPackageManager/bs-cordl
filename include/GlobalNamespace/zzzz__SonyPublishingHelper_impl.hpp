@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::SonyPublisherSKUSettingsSO*)>(
     &::GlobalNamespace::SonyPublishingHelper::GetServiceId)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x12ee918;
+  constexpr static std::size_t addrs = 0x1316a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::SonyPublisherSKUSettingsSO*)>(
     &::GlobalNamespace::SonyPublishingHelper::GetContentId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x12ee960;
+  constexpr static std::size_t addrs = 0x1316aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::GlobalNamespace::SonyPublishingHelper::GetContentId)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x12ee9b4;
+  constexpr static std::size_t addrs = 0x1316b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::GlobalNamespace::SonyPublishingHelper::GetContentIdFromTitleId)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x12ee980;
+  constexpr static std::size_t addrs = 0x1316acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::SonyPublishingHelper::GetContentIdFromNpTitleId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x12eea10;
+  constexpr static std::size_t addrs = 0x1316b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::SonyPublishingHelper::GetNpTitleId)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x12eea84;
+  constexpr static std::size_t addrs = 0x1316bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::GlobalNamespace::SonyPublishingHelper::GetServiceIdFromTitleId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x12ee940;
+  constexpr static std::size_t addrs = 0x1316a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::GlobalNamespace::SonyPublishingHelper::GetServiceIdFromNpTitleId)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x12eea28;
+  constexpr static std::size_t addrs = 0x1316b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

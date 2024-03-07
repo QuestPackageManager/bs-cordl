@@ -34,19 +34,19 @@ namespace RootMotion {
 class CORDL_TYPE AvatarUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIKGoalTQ, addr 0x130dfb8, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method GetIKGoalTQ, addr 0x1336510, size 0x658, virtual false, abstract: false, final false
   static inline ::RootMotion::TQ* GetIKGoalTQ(::UnityEngine::Avatar* avatar, float_t humanScale, ::UnityEngine::AvatarIKGoal avatarIKGoal, ::RootMotion::TQ* bodyPositionRotation,
                                               ::RootMotion::TQ* boneTQ);
 
-  /// @brief Method GetPostRotation, addr 0x130dd68, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetPostRotation, addr 0x13362c0, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetPostRotation(::UnityEngine::Avatar* avatar, ::UnityEngine::AvatarIKGoal avatarIKGoal);
 
-  /// @brief Method HumanIDFromAvatarIKGoal, addr 0x130df98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HumanIDFromAvatarIKGoal, addr 0x13364f0, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(::UnityEngine::AvatarIKGoal avatarIKGoal);
 
   static inline ::RootMotion::AvatarUtility* New_ctor();
 
-  /// @brief Method .ctor, addr 0x130e610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1336b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

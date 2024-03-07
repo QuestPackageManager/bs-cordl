@@ -29,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set__DelaySign_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x25d6c8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638fdc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool delaySign);
 
 protected:

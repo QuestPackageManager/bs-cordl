@@ -76,39 +76,39 @@ public:
   /// @brief Field solvedPelvisLocalPosition, offset 0x84, size 0xc
   __declspec(property(get = __cordl_internal_get_solvedPelvisLocalPosition, put = __cordl_internal_set_solvedPelvisLocalPosition))::UnityEngine::Vector3 solvedPelvisLocalPosition;
 
-  /// @brief Method Initiate, addr 0x1324354, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x134c8ac, size 0x460, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method IsReadyToInitiate, addr 0x1323984, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiate, addr 0x134bedc, size 0x20c, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
   static inline ::RootMotion::FinalIK::GrounderIK* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1324ec0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x134d418, size 0x204, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x1323b90, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x134c0e8, size 0xe0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPostSolverUpdate, addr 0x1324ce8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnPostSolverUpdate, addr 0x134d240, size 0x1d8, virtual false, abstract: false, final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnSolverUpdate, addr 0x13247b4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnSolverUpdate, addr 0x134cd0c, size 0x1ac, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method OpenScriptReference, addr 0x1323928, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x134be80, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenUserManual, addr 0x13238e4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x134be3c, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method ResetPosition, addr 0x132396c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x134bec4, size 0x18, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method SetLegIK, addr 0x1324960, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SetLegIK, addr 0x134ceb8, size 0x388, virtual false, abstract: false, final false
   inline void SetLegIK(int32_t index);
 
-  /// @brief Method Update, addr 0x1323c70, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x134c1c8, size 0x56c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_animatedPelvisLocalPosition() const;
@@ -195,7 +195,7 @@ public:
 
   constexpr void __cordl_internal_set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x13250c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134d61c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

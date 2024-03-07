@@ -141,64 +141,64 @@ public:
 
   constexpr void __cordl_internal_set__itemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  /// @brief Method .ctor, addr 0x2731ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2731cfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791fb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method get_Description, addr 0x2732944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x2792c00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_Id, addr 0x2732924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x2792be0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IsReference, addr 0x2732974, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x2792c30, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
-  /// @brief Method get_ItemConverterParameters, addr 0x2732964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverterParameters, addr 0x2792c20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ItemConverterParameters();
 
-  /// @brief Method get_ItemConverterType, addr 0x2732954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverterType, addr 0x2792c10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ItemConverterType();
 
-  /// @brief Method get_ItemIsReference, addr 0x2732a38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x2792cf4, size 0x5c, virtual false, abstract: false, final false
   inline bool get_ItemIsReference();
 
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x2732afc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x2792db8, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ReferenceLoopHandling get_ItemReferenceLoopHandling();
 
-  /// @brief Method get_ItemTypeNameHandling, addr 0x2732bb4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x2792e70, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling();
 
-  /// @brief Method get_Title, addr 0x2732934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Title, addr 0x2792bf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Title();
 
-  /// @brief Method set_Description, addr 0x273294c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x2792c08, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
-  /// @brief Method set_Id, addr 0x273292c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x2792be8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IsReference, addr 0x27329d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_IsReference, addr 0x2792c8c, size 0x68, virtual false, abstract: false, final false
   inline void set_IsReference(bool value);
 
-  /// @brief Method set_ItemConverterParameters, addr 0x273296c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverterParameters, addr 0x2792c28, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method set_ItemConverterType, addr 0x273295c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverterType, addr 0x2792c18, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverterType(::System::Type* value);
 
-  /// @brief Method set_ItemIsReference, addr 0x2732a94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x2792d50, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemIsReference(bool value);
 
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x2732b4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x2792e08, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
 
-  /// @brief Method set_ItemTypeNameHandling, addr 0x2732c04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x2792ec0, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
 
-  /// @brief Method set_Title, addr 0x273293c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Title, addr 0x2792bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_Title(::StringW value);
 
 protected:

@@ -44,7 +44,7 @@ public:
 
   static inline ::Ice::BeatmapFloorLightTilesGrid* New_ctor();
 
-  /// @brief Method Start, addr 0xe79394, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe95160, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__tileWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0xe79618, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe953e4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

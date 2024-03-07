@@ -33,15 +33,15 @@ public:
   /// @brief Field _randomValueToShader, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__randomValueToShader, put = __cordl_internal_set__randomValueToShader))::UnityW<::GlobalNamespace::RandomValueToShader> _randomValueToShader;
 
-  /// @brief Method HandleCameraPreRender, addr 0x226df38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleCameraPreRender, addr 0x22cee60, size 0x60, virtual false, abstract: false, final false
   inline void HandleCameraPreRender(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::BlueNoiseDitheringUpdater* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x226de4c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x22ced74, size 0xec, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x226dce8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22cec10, size 0x164, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::BlueNoiseDithering> const& __cordl_internal_get__blueNoiseDithering() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__randomValueToShader(::UnityW<::GlobalNamespace::RandomValueToShader> value);
 
-  /// @brief Method .ctor, addr 0x226e024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cef4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

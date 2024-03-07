@@ -25,25 +25,25 @@ public:
 
   __declspec(property(get = get_numChannels, put = set_numChannels)) uint32_t numChannels;
 
-  /// @brief Method .ctor, addr 0x2bb14e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c10d1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method get_frequencyHz, addr 0x2bb1500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x2c10d38, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
-  /// @brief Method get_maxBufferSize, addr 0x2bb1510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x2c10d48, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
-  /// @brief Method get_numChannels, addr 0x2bb14f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x2c10d28, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
-  /// @brief Method set_frequencyHz, addr 0x2bb1508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_frequencyHz, addr 0x2c10d40, size 0x8, virtual false, abstract: false, final false
   inline void set_frequencyHz(uint32_t value);
 
-  /// @brief Method set_maxBufferSize, addr 0x2bb1518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxBufferSize, addr 0x2c10d50, size 0x8, virtual false, abstract: false, final false
   inline void set_maxBufferSize(uint32_t value);
 
-  /// @brief Method set_numChannels, addr 0x2bb14f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numChannels, addr 0x2c10d30, size 0x8, virtual false, abstract: false, final false
   inline void set_numChannels(uint32_t value);
 
   // Ctor Parameters []

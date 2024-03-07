@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID::ToString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2aa5614;
+  constexpr static std::size_t addrs = 0x2b04e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Security::SecureString*)>(
     &::System::Net::__UnsafeNclNativeMethods__SecureStringHelper::CreateString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x2aa6154;
+  constexpr static std::size_t addrs = 0x2b0598c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecureString* (*)(::StringW)>(
     &::System::Net::__UnsafeNclNativeMethods__SecureStringHelper::CreateSecureString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2aa6304;
+  constexpr static std::size_t addrs = 0x2b05b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

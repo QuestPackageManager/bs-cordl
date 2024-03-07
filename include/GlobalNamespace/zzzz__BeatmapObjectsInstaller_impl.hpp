@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInstaller::*)()>(
     &::GlobalNamespace::BeatmapObjectsInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x2499ce0;
+  constexpr static std::size_t size = 0x478;
+  constexpr static std::size_t addrs = 0x2501bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInstaller::*)()>(&::GlobalNamespace::BeatmapObjectsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249a1b4;
+  constexpr static std::size_t addrs = 0x250203c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsInstaller*>::get(), ".ctor",
@@ -84,18 +84,6 @@ constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> const& Glob
 constexpr void GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_set__burstSliderNotePrefab(::UnityW<::GlobalNamespace::BurstSliderGameNoteController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderNotePrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController>& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__burstSliderFillPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____burstSliderFillPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> const& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__burstSliderFillPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____burstSliderFillPrefab;
-}
-constexpr void GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_set__burstSliderFillPrefab(::UnityW<::GlobalNamespace::BurstSliderGameNoteController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderFillPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::BombNoteController>& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__bombNotePrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

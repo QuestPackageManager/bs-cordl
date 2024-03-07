@@ -118,21 +118,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22880f8, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e8ed4, size 0x210, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2288308, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22e90e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2288310, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22e90ec, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2288350, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22e912c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22880f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22e8ed0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x2287d1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e8af8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -337,21 +337,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x228835c, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e9138, size 0x2fc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2288658, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22e9434, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2288660, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22e943c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22886a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22e947c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2288358, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22e9134, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -425,7 +425,7 @@ public:
 
   constexpr void __cordl_internal_set_viewControllersToRemove(::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*> value);
 
-  /// @brief Method .ctor, addr 0x2287e1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e8bf8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -536,22 +536,22 @@ public:
 
   __declspec(property(get = get_viewControllers))::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers;
 
-  /// @brief Method AddViewController, addr 0x2287b10, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method AddViewController, addr 0x22e88ec, size 0x178, virtual false, abstract: false, final false
   inline void AddViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
                                 ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>* animationLayouter, bool immediately);
 
-  /// @brief Method AddViewControllerCoroutine, addr 0x2287c88, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddViewControllerCoroutine, addr 0x22e8a64, size 0x94, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator*
   AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                              ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>* animationLayouter, bool immediately);
 
-  /// @brief Method ClearChildViewControllers, addr 0x22877f0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ClearChildViewControllers, addr 0x22e85cc, size 0x124, virtual false, abstract: false, final false
   inline void ClearChildViewControllers();
 
-  /// @brief Method DeactivateGameObject, addr 0x2287708, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method DeactivateGameObject, addr 0x22e84e4, size 0xe8, virtual true, abstract: false, final false
   inline void DeactivateGameObject();
 
-  /// @brief Method GetNewXPositionsForViewControllers, addr 0x2287e44, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetNewXPositionsForViewControllers, addr 0x22e8c20, size 0x234, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers, int32_t exludeFromEndCount);
 
   /// @brief Method LayoutViewControllers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -559,32 +559,32 @@ public:
 
   static inline ::HMUI::ContainerViewController* New_ctor();
 
-  /// @brief Method RemoveViewControllers, addr 0x2287d44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveViewControllers, addr 0x22e8b20, size 0x44, virtual false, abstract: false, final false
   inline void RemoveViewControllers(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers, ::System::Action* finishedCallback,
                                     ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
                                                        ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter,
                                     bool immediately);
 
-  /// @brief Method RemoveViewControllersCoroutine, addr 0x2287d88, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RemoveViewControllersCoroutine, addr 0x22e8b64, size 0x94, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RemoveViewControllersCoroutine(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllersToRemove,
                                                                             ::System::Action* finishedCallback,
                                                                             ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
                                                                                                ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter,
                                                                             bool immediately);
 
-  /// @brief Method SetChildViewController, addr 0x2287914, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetChildViewController, addr 0x22e86f0, size 0xa0, virtual false, abstract: false, final false
   inline void SetChildViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method SetChildViewControllers, addr 0x22879b4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SetChildViewControllers, addr 0x22e8790, size 0x15c, virtual false, abstract: false, final false
   inline void SetChildViewControllers(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
-  /// @brief Method __Activate, addr 0x22874a8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method __Activate, addr 0x22e8284, size 0x190, virtual true, abstract: false, final false
   inline void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method __Deactivate, addr 0x2287638, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method __Deactivate, addr 0x22e8414, size 0xd0, virtual true, abstract: false, final false
   inline void __Deactivate(bool removedFromHierarchy, bool deactivateGameObject, bool screenSystemDisabling);
 
-  /// @brief Method __Init, addr 0x22873d0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method __Init, addr 0x22e81ac, size 0xd8, virtual true, abstract: false, final false
   inline void __Init(::HMUI::Screen* screen, ::HMUI::ViewController* parentViewController, ::HMUI::ContainerViewController* containerViewController);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__controllersContainer() const;
@@ -599,13 +599,13 @@ public:
 
   constexpr void __cordl_internal_set__viewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x2288078, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e8e54, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controllersContainer, addr 0x2287320, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_controllersContainer, addr 0x22e80fc, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_controllersContainer();
 
-  /// @brief Method get_viewControllers, addr 0x22873c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewControllers, addr 0x22e81a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* get_viewControllers();
 
 protected:

@@ -44,29 +44,29 @@ public:
   /// @brief Field values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* values;
 
-  /// @brief Method CanConvertFrom, addr 0x2a05014, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2a6684c, size 0xf0, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x2a05104, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2a6693c, size 0xf0, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x2a0524c, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2a66a84, size 0x4fc, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2a05748, size 0xd90, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2a66f80, size 0xd90, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues, addr 0x2a06550, size 0x3f0, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x2a67d88, size 0x3f0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x2a06a34, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x2a6826c, size 0xa8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x2a06adc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x2a68314, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValid, addr 0x2a06ae4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2a6831c, size 0x6c, virtual true, abstract: false, final false
   inline bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   static inline ::System::ComponentModel::EnumConverter* New_ctor(::System::Type* type);
@@ -83,10 +83,10 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
 
-  /// @brief Method .ctor, addr 0x2a04fec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a66824, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_Comparer, addr 0x2a051f4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Comparer, addr 0x2a66a2c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
 protected:

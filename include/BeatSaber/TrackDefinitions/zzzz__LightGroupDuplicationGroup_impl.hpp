@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::*)()>(
     &::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::get_duplicationGroupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe83604;
+  constexpr static std::size_t addrs = 0xe9f2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> (
     ::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::*)()>(&::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::get_lightGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe8360c;
+  constexpr static std::size_t addrs = 0xe9f2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::*)()>(
     &::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe83614;
+  constexpr static std::size_t addrs = 0xe9f2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

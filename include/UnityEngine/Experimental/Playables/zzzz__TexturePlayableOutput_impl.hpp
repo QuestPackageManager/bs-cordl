@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (::UnityEngine::Experimental::Playables::TexturePlayableOutput::*)()>(
     &::UnityEngine::Experimental::Playables::TexturePlayableOutput::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2deacb8;
+  constexpr static std::size_t addrs = 0x2e464f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__OffsetPose__EffectorLink::*)(
     ::RootMotion::FinalIK::IKSolverFullBodyBiped*, float_t, ::UnityEngine::Quaternion)>(&::RootMotion::FinalIK::__OffsetPose__EffectorLink::Apply)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x137171c;
+  constexpr static std::size_t addrs = 0x139bc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__OffsetPose__EffectorLink::*)()>(
     &::RootMotion::FinalIK::__OffsetPose__EffectorLink::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1371a68;
+  constexpr static std::size_t addrs = 0x139bfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::OffsetPose::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, float_t)>(
     &::RootMotion::FinalIK::OffsetPose::Apply)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x136dd1c;
+  constexpr static std::size_t addrs = 0x1398274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::FinalIK::OffsetPose::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, float_t, ::UnityEngine::Quaternion)>(&::RootMotion::FinalIK::OffsetPose::Apply)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x137196c;
+  constexpr static std::size_t addrs = 0x139bec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::OffsetPose::*)()>(&::RootMotion::FinalIK::OffsetPose::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1371a10;
+  constexpr static std::size_t addrs = 0x139bf68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::OffsetPose*>::get(), ".ctor",

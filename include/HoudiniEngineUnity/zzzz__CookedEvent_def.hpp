@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::CookedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af394, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231016c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

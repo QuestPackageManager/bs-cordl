@@ -36,27 +36,27 @@ public:
   /// @brief Field EncodingTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EncodingTable, put = setStaticF_EncodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> EncodingTable;
 
-  /// @brief Method CheckPassword, addr 0xf72dbc, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method CheckPassword, addr 0xf934c0, size 0x528, virtual false, abstract: false, final false
   static inline bool CheckPassword(::StringW bcryptString, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method CreateBcryptString, addr 0xf72350, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CreateBcryptString, addr 0xf92a54, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW CreateBcryptString(::StringW version, ::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method DecodeSaltString, addr 0xf732e4, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method DecodeSaltString, addr 0xf939e8, size 0x3d4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeSaltString(::StringW saltString);
 
-  /// @brief Method EncodeData, addr 0xf72634, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method EncodeData, addr 0xf92d38, size 0x35c, virtual false, abstract: false, final false
   static inline ::StringW EncodeData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Generate, addr 0xf72990, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0xf93094, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW Generate(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method Generate, addr 0xf72a08, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0xf9310c, size 0x3b4, virtual false, abstract: false, final false
   static inline ::StringW Generate(::StringW version, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf72348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf92a4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_AllowedVersions();

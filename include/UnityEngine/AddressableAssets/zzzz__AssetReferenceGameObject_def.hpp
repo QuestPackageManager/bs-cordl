@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x2b0e704, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b6df3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:

@@ -40,14 +40,14 @@ public:
   /// @brief Field notBefore, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_notBefore, put = __cordl_internal_set_notBefore))::Org::BouncyCastle::Asn1::X509::Time* notBefore;
 
-  /// @brief Method GetInstance, addr 0xef6198, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xf1689c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* New_ctor(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xef7824, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xf17f28, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __cordl_internal_get_notAfter();
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_notBefore(::Org::BouncyCastle::Asn1::X509::Time* value);
 
-  /// @brief Method .ctor, addr 0xef77e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf17eec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
 
-  /// @brief Method .ctor, addr 0xef74dc, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf17be0, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotAfter, addr 0xef781c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0xf17f20, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0xef7814, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NotBefore, addr 0xf17f18, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NotBefore();
 
 protected:

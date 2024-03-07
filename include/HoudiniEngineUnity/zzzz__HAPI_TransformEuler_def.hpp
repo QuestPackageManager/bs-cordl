@@ -28,10 +28,10 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_TransformEuler {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x22f39fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23547d4, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x22ea55c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234b334, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []

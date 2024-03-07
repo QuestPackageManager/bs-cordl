@@ -42,16 +42,16 @@ public:
   /// @brief Field status, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Asn1EncodableVector* status;
 
-  /// @brief Method Add, addr 0xee0fb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0xf006b8, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Add(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);
 
-  /// @brief Method Add, addr 0xee0fdc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0xf006e0, size 0xac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Add(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status, ::Org::BouncyCastle::Asn1::Crmf::CertId* certId);
 
-  /// @brief Method AddCrl, addr 0xee1088, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method AddCrl, addr 0xf0078c, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* AddCrl(::Org::BouncyCastle::Asn1::X509::CertificateList* crl);
 
-  /// @brief Method Build, addr 0xee10b0, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0xf007b4, size 0x1a4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* Build();
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* New_ctor();
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method .ctor, addr 0xee1254, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf00958, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

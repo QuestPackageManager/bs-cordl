@@ -84,31 +84,31 @@ public:
   /// @brief Field runtrackpos, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_runtrackpos, put = __cordl_internal_set_runtrackpos)) int32_t runtrackpos;
 
-  /// @brief Method Capture, addr 0x2a4bde4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x2aad61c, size 0x60, virtual false, abstract: false, final false
   inline void Capture(int32_t capnum, int32_t start, int32_t end);
 
-  /// @brief Method CheckTimeout, addr 0x2a4bca0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckTimeout, addr 0x2aad4d8, size 0x10, virtual false, abstract: false, final false
   inline void CheckTimeout();
 
-  /// @brief Method Crawl, addr 0x2a53f54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Crawl, addr 0x2ab578c, size 0x5c, virtual false, abstract: false, final false
   inline void Crawl(int32_t i);
 
-  /// @brief Method Crawlpos, addr 0x2a4be74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Crawlpos, addr 0x2aad6ac, size 0x24, virtual false, abstract: false, final false
   inline int32_t Crawlpos();
 
-  /// @brief Method DoCheckTimeout, addr 0x2a53ca0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DoCheckTimeout, addr 0x2ab54d8, size 0xd4, virtual false, abstract: false, final false
   inline void DoCheckTimeout();
 
-  /// @brief Method DoubleCrawl, addr 0x2a53eb4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleCrawl, addr 0x2ab56ec, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleCrawl();
 
-  /// @brief Method DoubleStack, addr 0x2a53d74, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleStack, addr 0x2ab55ac, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleStack();
 
-  /// @brief Method DoubleTrack, addr 0x2a53e14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleTrack, addr 0x2ab564c, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleTrack();
 
-  /// @brief Method EnsureStorage, addr 0x2a49cf4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method EnsureStorage, addr 0x2aab52c, size 0x48, virtual false, abstract: false, final false
   inline void EnsureStorage();
 
   /// @brief Method FindFirstChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -117,46 +117,46 @@ public:
   /// @brief Method Go, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Go();
 
-  /// @brief Method InitMatch, addr 0x2a53a80, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method InitMatch, addr 0x2ab52b8, size 0x1dc, virtual false, abstract: false, final false
   inline void InitMatch();
 
   /// @brief Method InitTrackCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitTrackCount();
 
-  /// @brief Method IsBoundary, addr 0x2a4be98, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsBoundary, addr 0x2aad6d0, size 0xf8, virtual false, abstract: false, final false
   inline bool IsBoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method IsECMABoundary, addr 0x2a4bf90, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsECMABoundary, addr 0x2aad7c8, size 0xf8, virtual false, abstract: false, final false
   inline bool IsECMABoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method IsMatched, addr 0x2a4bcb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsMatched, addr 0x2aad4e8, size 0x20, virtual false, abstract: false, final false
   inline bool IsMatched(int32_t cap);
 
-  /// @brief Method MatchIndex, addr 0x2a4c088, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchIndex, addr 0x2aad8c0, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchIndex(int32_t cap);
 
-  /// @brief Method MatchLength, addr 0x2a4c0a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchLength, addr 0x2aad8e0, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchLength(int32_t cap);
 
   static inline ::System::Text::RegularExpressions::RegexRunner* New_ctor();
 
-  /// @brief Method Popcrawl, addr 0x2a53fb0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Popcrawl, addr 0x2ab57e8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t Popcrawl();
 
-  /// @brief Method Scan, addr 0x2a53748, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x2ab4f80, size 0x304, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* Scan(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart, int32_t prevlen,
                                                          bool quick, ::System::TimeSpan timeout);
 
-  /// @brief Method StartTimeoutWatch, addr 0x2a53a4c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method StartTimeoutWatch, addr 0x2ab5284, size 0x34, virtual false, abstract: false, final false
   inline void StartTimeoutWatch();
 
-  /// @brief Method TidyMatch, addr 0x2a53c5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TidyMatch, addr 0x2ab5494, size 0x44, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* TidyMatch(bool quick);
 
-  /// @brief Method TransferCapture, addr 0x2a4bcd0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TransferCapture, addr 0x2aad508, size 0x114, virtual false, abstract: false, final false
   inline void TransferCapture(int32_t capnum, int32_t uncapnum, int32_t start, int32_t end);
 
-  /// @brief Method Uncapture, addr 0x2a4be44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Uncapture, addr 0x2aad67c, size 0x30, virtual false, abstract: false, final false
   inline void Uncapture();
 
   constexpr bool const& __cordl_internal_get__ignoreTimeout() const;
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set_runtrackpos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2a49bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aab408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0xe70c14, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0xe8c9e0, size 0x1f4, virtual false, abstract: false, final false
   inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -94,19 +94,19 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0xe7105c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8ce28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animator, addr 0xe70c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animator, addr 0xe8c9d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> get_animator();
 
-  /// @brief Method get_characterName, addr 0xe70bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterName, addr 0xe8c9c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characterName();
 
-  /// @brief Method get_headTransform, addr 0xe70c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTransform, addr 0xe8c9d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_headTransform();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0xe70bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0xe8c9c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
 protected:

@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method get_TypedValue, addr 0x299b814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x29fd04c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_XmlType, addr 0x299b80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x29fd044, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
 protected:

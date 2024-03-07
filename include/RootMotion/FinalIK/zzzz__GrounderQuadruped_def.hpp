@@ -53,7 +53,7 @@ namespace RootMotion::FinalIK {
 struct CORDL_TYPE __GrounderQuadruped__Foot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1325c10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134e168, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::RootMotion::FinalIK::IKSolver* solver, ::UnityEngine::Transform* transform);
 
   // Ctor Parameters []
@@ -193,59 +193,59 @@ public:
   /// @brief Field solvedPelvisLocalRotation, offset 0xe8, size 0x10
   __declspec(property(get = __cordl_internal_get_solvedPelvisLocalRotation, put = __cordl_internal_set_solvedPelvisLocalRotation))::UnityEngine::Quaternion solvedPelvisLocalRotation;
 
-  /// @brief Method DestroyLegs, addr 0x1326ec8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method DestroyLegs, addr 0x134f420, size 0x1fc, virtual false, abstract: false, final false
   inline void DestroyLegs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents);
 
-  /// @brief Method Initiate, addr 0x13255a8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x134db00, size 0x314, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method InitiateFeet, addr 0x13258bc, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method InitiateFeet, addr 0x134de14, size 0x354, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
   InitiateFeet(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents,
                ByRef<::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>> f, int32_t indexOffset);
 
-  /// @brief Method IsReadyToInitiate, addr 0x1325204, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiate, addr 0x134d75c, size 0x104, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method IsReadyToInitiateLegs, addr 0x1325308, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiateLegs, addr 0x134d860, size 0x1e4, virtual false, abstract: false, final false
   inline bool IsReadyToInitiateLegs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents);
 
-  /// @brief Method LateUpdate, addr 0x1325c44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x134e19c, size 0x90, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::RootMotion::FinalIK::GrounderQuadruped* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1326e98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x134f3f0, size 0x30, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x13254ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x134da44, size 0x64, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPostSolverUpdate, addr 0x1326bd0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method OnPostSolverUpdate, addr 0x134f128, size 0x2c8, virtual false, abstract: false, final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnSolverUpdate, addr 0x1326124, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method OnSolverUpdate, addr 0x134e67c, size 0x6c0, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method OpenScriptReference, addr 0x1325198, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x134d6f0, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenUserManual, addr 0x1325154, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x134d6ac, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method ResetPosition, addr 0x13251dc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x134d734, size 0x28, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method RootRotation, addr 0x1325cd4, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method RootRotation, addr 0x134e22c, size 0x450, virtual false, abstract: false, final false
   inline void RootRotation();
 
-  /// @brief Method SetFootIK, addr 0x1326a9c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetFootIK, addr 0x134eff4, size 0x134, virtual false, abstract: false, final false
   inline void SetFootIK(::RootMotion::FinalIK::__GrounderQuadruped__Foot foot, float_t maxOffset);
 
-  /// @brief Method Update, addr 0x1325550, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x134daa8, size 0x58, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateForefeetRoot, addr 0x13267e4, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateForefeetRoot, addr 0x134ed3c, size 0x2b8, virtual false, abstract: false, final false
   inline void UpdateForefeetRoot();
 
   constexpr float_t const& __cordl_internal_get_angle() const;
@@ -422,7 +422,7 @@ public:
 
   constexpr void __cordl_internal_set_solvedPelvisLocalRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x13270c4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134f61c, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

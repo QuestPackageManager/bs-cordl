@@ -124,72 +124,72 @@ public:
   /// @brief Field transform, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method FixToNode, addr 0x133691c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FixToNode, addr 0x135ee74, size 0xc0, virtual false, abstract: false, final false
   inline void FixToNode(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight, ::RootMotion::FinalIK::__IKSolver__Node* fixNode);
 
-  /// @brief Method FixTransform, addr 0x1336334, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FixTransform, addr 0x135e88c, size 0x44, virtual false, abstract: false, final false
   inline void FixTransform(bool position);
 
-  /// @brief Method GetPlanePosition, addr 0x13369dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPlanePosition, addr 0x135ef34, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPlanePosition(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method GetTargetRotation, addr 0x1336a50, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTargetRotation, addr 0x135efa8, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetTargetRotation(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Initiate, addr 0x1336298, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x135e7f0, size 0x28, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* transform, ::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method MaintainRotation, addr 0x13368c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method MaintainRotation, addr 0x135ee20, size 0x2c, virtual false, abstract: false, final false
   inline void MaintainRotation();
 
   static inline ::RootMotion::FinalIK::__IKMapping__BoneMap* New_ctor();
 
-  /// @brief Method PositionToPlane, addr 0x1336b60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PositionToPlane, addr 0x135f0b8, size 0x24, virtual false, abstract: false, final false
   inline void PositionToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method RotateToEffector, addr 0x1337084, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RotateToEffector, addr 0x135f5dc, size 0x11c, virtual false, abstract: false, final false
   inline void RotateToEffector(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
 
-  /// @brief Method RotateToMaintain, addr 0x1337008, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RotateToMaintain, addr 0x135f560, size 0x7c, virtual false, abstract: false, final false
   inline void RotateToMaintain(float_t weight);
 
-  /// @brief Method RotateToPlane, addr 0x1336b84, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RotateToPlane, addr 0x135f0dc, size 0x120, virtual false, abstract: false, final false
   inline void RotateToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
 
-  /// @brief Method SetIKPosition, addr 0x133689c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetIKPosition, addr 0x135edf4, size 0x2c, virtual false, abstract: false, final false
   inline void SetIKPosition();
 
-  /// @brief Method SetLength, addr 0x1336388, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetLength, addr 0x135e8e0, size 0xd4, virtual false, abstract: false, final false
   inline void SetLength(::RootMotion::FinalIK::__IKMapping__BoneMap* nextBone);
 
-  /// @brief Method SetLocalSwingAxis, addr 0x1336464, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetLocalSwingAxis, addr 0x135e9bc, size 0xcc, virtual false, abstract: false, final false
   inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* bone1, ::RootMotion::FinalIK::__IKMapping__BoneMap* bone2);
 
-  /// @brief Method SetLocalSwingAxis, addr 0x133645c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLocalSwingAxis, addr 0x135e9b4, size 0x8, virtual false, abstract: false, final false
   inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* swingTarget);
 
-  /// @brief Method SetLocalTwistAxis, addr 0x1336530, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetLocalTwistAxis, addr 0x135ea88, size 0x6c, virtual false, abstract: false, final false
   inline void SetLocalTwistAxis(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection);
 
-  /// @brief Method SetPlane, addr 0x133659c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetPlane, addr 0x135eaf4, size 0x88, virtual false, abstract: false, final false
   inline void SetPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Transform* planeBone1, ::UnityEngine::Transform* planeBone2, ::UnityEngine::Transform* planeBone3);
 
-  /// @brief Method SetToIKPosition, addr 0x13368f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetToIKPosition, addr 0x135ee4c, size 0x28, virtual false, abstract: false, final false
   inline void SetToIKPosition();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x13362f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x135e848, size 0x44, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method Swing, addr 0x1336d08, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Swing, addr 0x135f260, size 0x180, virtual false, abstract: false, final false
   inline void Swing(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t weight);
 
-  /// @brief Method Swing, addr 0x1336ca4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Swing, addr 0x135f1fc, size 0x64, virtual false, abstract: false, final false
   inline void Swing(::UnityEngine::Vector3 swingTarget, float_t weight);
 
-  /// @brief Method Twist, addr 0x1336e88, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Twist, addr 0x135f3e0, size 0x180, virtual false, abstract: false, final false
   inline void Twist(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection, float_t weight);
 
-  /// @brief Method UpdatePlane, addr 0x1336624, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlane, addr 0x135eb7c, size 0x110, virtual false, abstract: false, final false
   inline void UpdatePlane(bool rotation, bool position);
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_animatedRotation() const;
@@ -324,16 +324,16 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x13371a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135f6f8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isNodeBone, addr 0x1336378, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isNodeBone, addr 0x135e8d0, size 0x10, virtual false, abstract: false, final false
   inline bool get_isNodeBone();
 
-  /// @brief Method get_lastAnimatedTargetRotation, addr 0x1336734, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method get_lastAnimatedTargetRotation, addr 0x135ec8c, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_lastAnimatedTargetRotation();
 
-  /// @brief Method get_swingDirection, addr 0x13362c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_swingDirection, addr 0x135e818, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_swingDirection();
 
 protected:
@@ -476,21 +476,21 @@ public:
   // Declarations
   using BoneMap = ::RootMotion::FinalIK::__IKMapping__BoneMap;
 
-  /// @brief Method BoneIsValid, addr 0x1336040, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method BoneIsValid, addr 0x135e598, size 0x13c, virtual false, abstract: false, final false
   inline bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::__Warning__Logger* logger);
 
-  /// @brief Method Initiate, addr 0x133603c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Initiate, addr 0x135e594, size 0x4, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method IsValid, addr 0x1336034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x135e58c, size 0x8, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKMapping* New_ctor();
 
-  /// @brief Method SolveFABRIKJoint, addr 0x133617c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SolveFABRIKJoint, addr 0x135e6d4, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
 
-  /// @brief Method .ctor, addr 0x1336290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135e7e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -33,29 +33,29 @@ public:
   /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI))::UnityEngine::SceneManagement::SceneManagerAPI* s_DefaultAPI;
 
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x2de81f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x2e43a28, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadFirstScene, addr 0x2de8278, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method LoadFirstScene, addr 0x2e43ab0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadFirstScene(bool mustLoadAsync);
 
-  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x2de8218, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x2e43a50, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                     bool mustCompleteNextFrame);
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2de81e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e43a20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF__overrideAPI_k__BackingField();
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF_s_DefaultAPI();
 
-  /// @brief Method get_ActiveAPI, addr 0x2de75d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveAPI, addr 0x2e42e0c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_ActiveAPI();
 
-  /// @brief Method get_overrideAPI, addr 0x2de8190, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAPI, addr 0x2e439c8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_overrideAPI();
 
   static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::SceneManagement::SceneManagerAPI* value);

@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x27b9ad4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2819d90, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
-  /// @brief Method get_ByteCount, addr 0x27b9d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ByteCount, addr 0x2819fcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
-  /// @brief Method get_IncludeLength, addr 0x27b9d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeLength, addr 0x2819fdc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
-  /// @brief Method set_ByteCount, addr 0x27b9d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ByteCount, addr 0x2819fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
 
-  /// @brief Method set_IncludeLength, addr 0x27b9d28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IncludeLength, addr 0x2819fe4, size 0xc, virtual false, abstract: false, final false
   inline void set_IncludeLength(bool value);
 
 protected:

@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_normalizedStringV1Compat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a5150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a06988, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x29a5148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a06980, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

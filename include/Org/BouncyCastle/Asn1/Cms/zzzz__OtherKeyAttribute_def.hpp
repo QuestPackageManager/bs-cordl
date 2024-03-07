@@ -43,14 +43,14 @@ public:
   /// @brief Field keyAttrId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyAttrId, put = __cordl_internal_set_keyAttrId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId;
 
-  /// @brief Method GetInstance, addr 0xeea91c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xf0a020, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId, ::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xeed6d4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xf0cdd8, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_keyAttr();
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_keyAttrId(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0xeed698, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0cd9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId, ::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr);
 
-  /// @brief Method .ctor, addr 0xeed5b8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0ccbc, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyAttr, addr 0xeed6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAttr, addr 0xf0cdd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_KeyAttr();
 
-  /// @brief Method get_KeyAttrId, addr 0xeed6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAttrId, addr 0xf0cdc8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_KeyAttrId();
 
 protected:

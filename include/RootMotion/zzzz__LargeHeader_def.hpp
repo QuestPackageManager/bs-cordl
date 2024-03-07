@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x131a078, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13425d0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x131a0e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1342638, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW color);
 
 protected:

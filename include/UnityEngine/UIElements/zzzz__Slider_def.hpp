@@ -80,7 +80,7 @@ public:
   /// @brief Field m_ShowInputField, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowInputField;
 
-  /// @brief Method Init, addr 0x2f2dbdc, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f86414, size 0x2b4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Slider__UxmlTraits* New_ctor();
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowInputField(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2f2de90, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f866c8, size 0x228, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,7 +195,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  /// @brief Method ComputeValueFromKey, addr 0x2f2d910, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method ComputeValueFromKey, addr 0x2f86148, size 0x1fc, virtual true, abstract: false, final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::__BaseSlider_1__SliderKey<float_t> sliderKey, bool isShift);
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor();
@@ -204,22 +204,22 @@ public:
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method ParseStringToValue, addr 0x2f2d840, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ParseStringToValue, addr 0x2f86078, size 0xd0, virtual true, abstract: false, final false
   inline float_t ParseStringToValue(::StringW stringValue);
 
-  /// @brief Method SliderLerpUnclamped, addr 0x2f2d580, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method SliderLerpUnclamped, addr 0x2f85db8, size 0x2b0, virtual true, abstract: false, final false
   inline float_t SliderLerpUnclamped(float_t a, float_t b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue, addr 0x2f2d830, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SliderNormalizeValue, addr 0x2f86068, size 0x10, virtual true, abstract: false, final false
   inline float_t SliderNormalizeValue(float_t currentValue, float_t lowerValue, float_t higherValue);
 
-  /// @brief Method .ctor, addr 0x2f2d410, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f85c48, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f2d428, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f85c60, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method .ctor, addr 0x2f2d574, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f85dac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -264,7 +264,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Slider__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f20e78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f796b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

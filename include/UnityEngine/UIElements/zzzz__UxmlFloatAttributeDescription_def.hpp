@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2f1dddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2f77614, size 0x8, virtual false, abstract: false, final false
   inline float_t _GetValueFromBag_b__3_0(::StringW s, float_t f);
 
-  /// @brief Method .ctor, addr 0x2f1ddd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f7760c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* getStaticF___9();
@@ -89,15 +89,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c;
 
-  /// @brief Method ConvertValueToFloat, addr 0x2f1dcd4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToFloat, addr 0x2f7750c, size 0x9c, virtual false, abstract: false, final false
   static inline float_t ConvertValueToFloat(::StringW v, float_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x2f1db70, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x2f773a8, size 0x164, virtual true, abstract: false, final false
   inline float_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1dad4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f7730c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

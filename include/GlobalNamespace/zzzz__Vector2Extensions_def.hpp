@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SignedAngleToLine, addr 0xe98df8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SignedAngleToLine, addr 0xeb8e78, size 0x1d4, virtual false, abstract: false, final false
   static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
 
 protected:

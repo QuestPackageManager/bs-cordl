@@ -28,10 +28,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x28e2cb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x29454ec, size 0x3c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x28e2c70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29454a8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
 
   // Ctor Parameters []

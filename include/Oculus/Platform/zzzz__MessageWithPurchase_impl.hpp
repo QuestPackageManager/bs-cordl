@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithPurchase::*)(void*)>(&::Oculus::Platform::MessageWithPurchase::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x27e0fc0;
+  constexpr static std::size_t addrs = 0x28439dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Purchase* (::Oculus::Platform::MessageWithPurchase::*)()>(
     &::Oculus::Platform::MessageWithPurchase::GetPurchase)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x27e4f08;
+  constexpr static std::size_t addrs = 0x2847924;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Purchase* (::Oculus::Platform::MessageWithPurchase::*)(void*)>(
     &::Oculus::Platform::MessageWithPurchase::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x27e4f44;
+  constexpr static std::size_t addrs = 0x2847960;
 
   inline static ::MethodInfo const* methodInfo() {
 

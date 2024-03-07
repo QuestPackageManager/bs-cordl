@@ -26,44 +26,44 @@ namespace RootMotion {
 class CORDL_TYPE QuaTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ClampAngle, addr 0x131af8c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ClampAngle, addr 0x13434e4, size 0xd0, virtual false, abstract: false, final false
   static inline float_t ClampAngle(float_t angle, float_t clampWeight, int32_t clampSmoothing);
 
-  /// @brief Method ClampRotation, addr 0x131ada8, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ClampRotation, addr 0x1343300, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion ClampRotation(::UnityEngine::Quaternion rotation, float_t clampWeight, int32_t clampSmoothing);
 
-  /// @brief Method FromToAroundAxis, addr 0x131a978, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FromToAroundAxis, addr 0x1342ed0, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromToAroundAxis(::UnityEngine::Vector3 fromDirection, ::UnityEngine::Vector3 toDirection, ::UnityEngine::Vector3 axis);
 
-  /// @brief Method FromToRotation, addr 0x131ab34, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FromToRotation, addr 0x134308c, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromToRotation(::UnityEngine::Quaternion from, ::UnityEngine::Quaternion to);
 
-  /// @brief Method GetAxis, addr 0x131ac40, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetAxis, addr 0x1343198, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetAxis(::UnityEngine::Vector3 v);
 
-  /// @brief Method Lerp, addr 0x131a6d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x1342c30, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Lerp(::UnityEngine::Quaternion fromRotation, ::UnityEngine::Quaternion toRotation, float_t weight);
 
-  /// @brief Method LinearBlend, addr 0x131a770, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LinearBlend, addr 0x1342cc8, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion LinearBlend(::UnityEngine::Quaternion q, float_t weight);
 
-  /// @brief Method MatchRotation, addr 0x131b05c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method MatchRotation, addr 0x13435b4, size 0x184, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion MatchRotation(::UnityEngine::Quaternion targetRotation, ::UnityEngine::Vector3 targetforwardAxis, ::UnityEngine::Vector3 targetUpAxis,
                                                         ::UnityEngine::Vector3 forwardAxis, ::UnityEngine::Vector3 upAxis);
 
-  /// @brief Method RotationToLocalSpace, addr 0x131aa8c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RotationToLocalSpace, addr 0x1342fe4, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion RotationToLocalSpace(::UnityEngine::Quaternion space, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Slerp, addr 0x131a724, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Slerp, addr 0x1342c7c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion fromRotation, ::UnityEngine::Quaternion toRotation, float_t weight);
 
-  /// @brief Method SphericalBlend, addr 0x131a874, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SphericalBlend, addr 0x1342dcc, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion SphericalBlend(::UnityEngine::Quaternion q, float_t weight);
 
-  /// @brief Method ToBiPolar, addr 0x131b1e0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ToBiPolar, addr 0x1343738, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ToBiPolar(::UnityEngine::Vector3 euler);
 
-  /// @brief Method ToBiPolar, addr 0x131b2ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToBiPolar, addr 0x1343844, size 0x58, virtual false, abstract: false, final false
   static inline float_t ToBiPolar(float_t angle);
 
 protected:

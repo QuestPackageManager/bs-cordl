@@ -5,7 +5,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(PerformanceToolLauncher)
 namespace GlobalNamespace {
@@ -43,6 +42,9 @@ class __PerformanceToolLauncher____c__DisplayClass4_0;
 }
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace Zenject {
+class SceneContext;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -98,14 +100,14 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceToolLauncher__Assets, rec
 
 } // namespace GlobalNamespace
 // Type: ::OverrideConfig
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PerformanceToolLauncher::OverrideConfig
 struct CORDL_TYPE __PerformanceToolLauncher__OverrideConfig {
 public:
   // Declarations
-  /// @brief Field kDefault, offset 0xffffffff, size 0x8
+  /// @brief Field kDefault, offset 0xffffffff, size 0x2
   static __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault))::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig kDefault;
 
   static inline ::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig getStaticF_kDefault();
@@ -116,26 +118,26 @@ public:
   // @brief default ctor
   constexpr __PerformanceToolLauncher__OverrideConfig();
 
-  // Ctor Parameters [CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "minFpsWindow", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __PerformanceToolLauncher__OverrideConfig(bool enableRecording, float_t minFpsWindow) noexcept;
+  // Ctor Parameters [CppParam { name: "enableAutoplay", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __PerformanceToolLauncher__OverrideConfig(bool enableAutoplay, bool enableRecording) noexcept;
 
-  /// @brief Field enableRecording, offset: 0x0, size: 0x1, def value: None
+  /// @brief Field enableAutoplay, offset: 0x0, size: 0x1, def value: None
+  bool enableAutoplay;
+
+  /// @brief Field enableRecording, offset: 0x1, size: 0x1, def value: None
   bool enableRecording;
 
-  /// @brief Field minFpsWindow, offset: 0x4, size: 0x4, def value: None
-  float_t minFpsWindow;
-
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig, 0x8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig, 0x2>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig, enableRecording) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig, enableAutoplay) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig, minFpsWindow) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig, enableRecording) == 0x1, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass4_0
@@ -154,10 +156,10 @@ public:
 
   static inline ::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x2401bc0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x2466d54, size 0xa0, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidFinish_1();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x2401b20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x2466cb4, size 0xa0, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidStart_0();
 
   constexpr ::UnityW<::GlobalNamespace::PerformanceRecorder> const& __cordl_internal_get_recorder() const;
@@ -172,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  /// @brief Method .ctor, addr 0x2401ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2466c58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,14 +224,14 @@ public:
   /// @brief Field _assets, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get__assets, put = __cordl_internal_set__assets))::GlobalNamespace::__PerformanceToolLauncher__Assets _assets;
 
-  /// @brief Method Initialize, addr 0x24016c0, size 0x2f0, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::MainSettingsModelSO* mainSettings, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::MainCamera* mainCamera,
-                         ::GlobalNamespace::SongController* songController, ::GlobalNamespace::IGamePause* gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData,
-                         ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> overrideConfig);
+  /// @brief Method Initialize, addr 0x2466884, size 0x2c4, virtual false, abstract: false, final false
+  inline void Initialize(::Zenject::SceneContext* sceneContext, ::GlobalNamespace::MainSettingsModelSO* mainSettings, ::GlobalNamespace::PlayerDataModel* playerDataModel,
+                         ::GlobalNamespace::MainCamera* mainCamera, ::GlobalNamespace::SongController* songController, ::GlobalNamespace::IGamePause* gamePause,
+                         ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData, ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> overrideConfig);
 
   static inline ::GlobalNamespace::PerformanceToolLauncher* New_ctor();
 
-  /// @brief Method Run, addr 0x24019b0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x2466b48, size 0x110, virtual false, abstract: false, final false
   static inline void Run(::GlobalNamespace::PerformanceRecorder* recorder, ::GlobalNamespace::SongController* songController);
 
   constexpr ::GlobalNamespace::__PerformanceToolLauncher__Assets const& __cordl_internal_get__assets() const;
@@ -238,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set__assets(::GlobalNamespace::__PerformanceToolLauncher__Assets value);
 
-  /// @brief Method .ctor, addr 0x2401ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2466c60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

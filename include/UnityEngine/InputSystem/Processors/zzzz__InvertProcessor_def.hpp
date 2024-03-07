@@ -25,13 +25,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::InvertProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x2bdef94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x2c407cc, size 0x8, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x2bdef9c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c407d4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2bdefdc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c40814, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

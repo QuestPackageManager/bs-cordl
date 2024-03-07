@@ -98,15 +98,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x2f5acc8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2fb4500, size 0x7c, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2f5ad5c, size 0x688, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x2fb4594, size 0x688, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::MouseCaptureDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f5b450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb4c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"

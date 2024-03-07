@@ -87,22 +87,22 @@ public:
   /// @brief Field saYearMonths, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_saYearMonths, put = __cordl_internal_set_saYearMonths))::ArrayW<::StringW, ::Array<::StringW>*> saYearMonths;
 
-  /// @brief Method CalendarIdToCultureName, addr 0x2654318, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CalendarIdToCultureName, addr 0x26b5668, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW CalendarIdToCultureName(int32_t calendarId);
 
-  /// @brief Method GetCalendarData, addr 0x265164c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetCalendarData, addr 0x26b299c, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CalendarData* GetCalendarData(int32_t calendarId);
 
-  /// @brief Method GetJapaneseEnglishEraNames, addr 0x2653f18, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEnglishEraNames, addr 0x26b5268, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEnglishEraNames();
 
-  /// @brief Method GetJapaneseEraNames, addr 0x2654004, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEraNames, addr 0x26b5354, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEraNames();
 
-  /// @brief Method InitializeAbbreviatedEraNames, addr 0x2653c1c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method InitializeAbbreviatedEraNames, addr 0x26b4f6c, size 0x2fc, virtual false, abstract: false, final false
   inline void InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method InitializeEraNames, addr 0x2653860, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method InitializeEraNames, addr 0x26b4bb0, size 0x3bc, virtual false, abstract: false, final false
   inline void InitializeEraNames(::StringW localeName, int32_t calendarId);
 
   static inline ::System::Globalization::CalendarData* New_ctor();
@@ -223,13 +223,13 @@ public:
 
   constexpr void __cordl_internal_set_saYearMonths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2651d48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b3098, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2653284, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b45d4, size 0x518, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method fill_calendar_data, addr 0x26544fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_calendar_data, addr 0x26b584c, size 0x4, virtual false, abstract: false, final false
   inline bool fill_calendar_data(::StringW localeName, int32_t datetimeIndex);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_HEBREW_LEAP_MONTH_NAMES();
@@ -238,10 +238,10 @@ public:
 
   static inline ::System::Globalization::CalendarData* getStaticF_Invariant();
 
-  /// @brief Method nativeGetCalendarData, addr 0x265379c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method nativeGetCalendarData, addr 0x26b4aec, size 0xbc, virtual false, abstract: false, final false
   static inline bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int32_t calendarId);
 
-  /// @brief Method nativeGetTwoDigitYearMax, addr 0x2651d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetTwoDigitYearMax, addr 0x26b3090, size 0x8, virtual false, abstract: false, final false
   static inline int32_t nativeGetTwoDigitYearMax(int32_t calID);
 
   static inline void setStaticF_HEBREW_LEAP_MONTH_NAMES(::ArrayW<::StringW, ::Array<::StringW>*> value);

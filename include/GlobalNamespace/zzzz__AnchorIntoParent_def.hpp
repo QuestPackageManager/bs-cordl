@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::AnchorIntoParent* New_ctor();
 
-  /// @brief Method Start, addr 0x224fa2c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b09f0, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentTransform() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x224fb2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b0af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

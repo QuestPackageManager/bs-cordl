@@ -116,27 +116,27 @@ public:
   /// @brief Field _textureWidth, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__textureWidth, put = __cordl_internal_set__textureWidth)) int32_t _textureWidth;
 
-  /// @brief Method GetBurnMarkPos, addr 0x242ae84, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x2491e58, size 0x244, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate, addr 0x242b1c8, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x249219c, size 0x6c0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x242aa20, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24919f4, size 0x224, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x242ad64, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2491d38, size 0x120, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x242ac44, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2491c18, size 0x120, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x242a168, size 0x8b8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x249113c, size 0x8b8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method WorldToCameraBurnMarkPos, addr 0x242b0c8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method WorldToCameraBurnMarkPos, addr 0x249209c, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 WorldToCameraBurnMarkPos(::UnityEngine::Vector3 pos);
 
   constexpr float_t const& __cordl_internal_get__blackMarkLineRandomOffset() const;
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set__textureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x242b888, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249285c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

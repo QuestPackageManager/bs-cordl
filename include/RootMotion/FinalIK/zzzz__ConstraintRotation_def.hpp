@@ -29,7 +29,7 @@ public:
 
   static inline ::RootMotion::FinalIK::ConstraintRotation* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method UpdateConstraint, addr 0x131e9e8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method UpdateConstraint, addr 0x1346f40, size 0x7c, virtual true, abstract: false, final false
   inline void UpdateConstraint();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rotation() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x131ea64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346fbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x131ea6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346fc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
 protected:

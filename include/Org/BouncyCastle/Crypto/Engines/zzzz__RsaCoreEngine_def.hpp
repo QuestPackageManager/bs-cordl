@@ -44,27 +44,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IRsa"
   constexpr operator ::Org::BouncyCastle::Crypto::IRsa*() noexcept;
 
-  /// @brief Method CheckInitialised, addr 0xf52600, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckInitialised, addr 0xf71d04, size 0x60, virtual false, abstract: false, final false
   inline void CheckInitialised();
 
-  /// @brief Method ConvertInput, addr 0xf52838, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ConvertInput, addr 0xf71f3c, size 0x110, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
-  /// @brief Method ConvertOutput, addr 0xf52948, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ConvertOutput, addr 0xf7204c, size 0xc4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertOutput(::Org::BouncyCastle::Math::BigInteger* result);
 
-  /// @brief Method GetInputBlockSize, addr 0xf527c0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0xf71ec4, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0xf527fc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0xf71f00, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0xf52660, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf71d64, size 0x160, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0xf52a0c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf72110, size 0x168, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger* input);
 
   constexpr int32_t const& __cordl_internal_get_bitSize() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0xf5182c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf70f30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IRsa"

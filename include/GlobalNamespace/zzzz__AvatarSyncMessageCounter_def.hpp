@@ -35,13 +35,13 @@ public:
   /// @brief Field period, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_period, put = __cordl_internal_set_period))::System::TimeSpan period;
 
-  /// @brief Method CleanOldMessages, addr 0x2729df4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CleanOldMessages, addr 0x278a0b0, size 0x138, virtual false, abstract: false, final false
   inline void CleanOldMessages();
 
-  /// @brief Method CurrentMessages, addr 0x2729f2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CurrentMessages, addr 0x278a1e8, size 0x50, virtual false, abstract: false, final false
   inline int32_t CurrentMessages();
 
-  /// @brief Method MessageReceived, addr 0x2729d68, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MessageReceived, addr 0x278a024, size 0x8c, virtual false, abstract: false, final false
   inline void MessageReceived();
 
   static inline ::GlobalNamespace::AvatarSyncMessageCounter* New_ctor(::System::TimeSpan period);
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_period(::System::TimeSpan value);
 
-  /// @brief Method .ctor, addr 0x2729cd8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2789f94, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan period);
 
 protected:

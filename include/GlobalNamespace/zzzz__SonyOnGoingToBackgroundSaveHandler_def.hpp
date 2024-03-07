@@ -49,15 +49,15 @@ public:
   __declspec(property(get = __cordl_internal_get__sonyBackgroundExecutionHelper,
                       put = __cordl_internal_set__sonyBackgroundExecutionHelper))::GlobalNamespace::SonyBackgroundExecutionHelper* _sonyBackgroundExecutionHelper;
 
-  /// @brief Method HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution, addr 0x12ebe98, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution, addr 0x1313fe4, size 0x140, virtual false, abstract: false, final false
   inline void HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution();
 
-  /// @brief Method Initialize, addr 0x12ebd4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x1313e98, size 0xb8, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x12ebe04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1313f50, size 0x94, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__sonyBackgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
 
-  /// @brief Method .ctor, addr 0x12ebfd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1314124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

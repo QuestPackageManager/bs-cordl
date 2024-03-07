@@ -132,17 +132,17 @@ public:
 
   constexpr void __cordl_internal_set_minOccurs(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x29b0cac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a124e4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* getStaticF_Empty();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  /// @brief Method set_MaxOccurs, addr 0x29b14e0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method set_MaxOccurs, addr 0x2a12d18, size 0x164, virtual false, abstract: false, final false
   inline void set_MaxOccurs(::System::Decimal value);
 
-  /// @brief Method set_MinOccurs, addr 0x29b13b4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method set_MinOccurs, addr 0x2a12bec, size 0x12c, virtual false, abstract: false, final false
   inline void set_MinOccurs(::System::Decimal value);
 
 protected:

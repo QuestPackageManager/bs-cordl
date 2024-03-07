@@ -31,15 +31,15 @@ public:
   /// @brief Field _weakTargetObj, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__weakTargetObj, put = __cordl_internal_set__weakTargetObj))::System::Runtime::InteropServices::GCHandle _weakTargetObj;
 
-  /// @brief Method Finalize, addr 0x2689a14, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x26ead64, size 0x1ac, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Gen2GcCallback* New_ctor();
 
-  /// @brief Method Register, addr 0x268996c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x26eacbc, size 0x80, virtual false, abstract: false, final false
   static inline void Register(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
-  /// @brief Method Setup, addr 0x26899ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x26ead3c, size 0x28, virtual false, abstract: false, final false
   inline void Setup(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
   constexpr ::System::Func_2<::System::Object*, bool>*& __cordl_internal_get__callback();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__weakTargetObj(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x2689964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eacb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

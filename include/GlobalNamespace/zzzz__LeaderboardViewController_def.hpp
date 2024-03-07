@@ -24,13 +24,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LeaderboardViewController* New_ctor();
 
-  /// @brief Method RefreshLevelStats, addr 0x23b7c1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RefreshLevelStats, addr 0x241c208, size 0x4, virtual true, abstract: false, final false
   inline void RefreshLevelStats();
 
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetData(ByRef<::GlobalNamespace::BeatmapKey> previewDifficultyBeatmap);
 
-  /// @brief Method .ctor, addr 0x23b7c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241c20c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

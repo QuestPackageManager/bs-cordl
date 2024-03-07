@@ -31,7 +31,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x23447c0, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x23a5598, size 0x340, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_NodeInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_NodeInfo* New_ctor(::HoudiniEngineUnity::HAPI_NodeInfo self);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_NodeInfo value);
 
-  /// @brief Method .ctor, addr 0x234478c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a5564, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_NodeInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>"

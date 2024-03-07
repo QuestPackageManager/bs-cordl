@@ -97,7 +97,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x29a0454, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2a01c8c, size 0x70, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type);
@@ -122,22 +122,22 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Xml::Schema::DatatypeImplementation* value);
 
-  /// @brief Method .ctor, addr 0x299f240, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a00a78, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type);
 
-  /// @brief Method .ctor, addr 0x299f26c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a00aa4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type, int32_t parentIndex);
 
-  /// @brief Method get_Name, addr 0x29a0444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2a01c7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ParentIndex, addr 0x29a044c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentIndex, addr 0x2a01c84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParentIndex();
 
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
-  /// @brief Method op_Explicit, addr 0x29a042c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2a01c64, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::DatatypeImplementation* op_Explicit___System__Xml__Schema__DatatypeImplementation_(::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap* sdm);
 
 protected:
@@ -476,42 +476,42 @@ public:
   /// @brief Field yearMonthDurationType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_yearMonthDurationType, put = setStaticF_yearMonthDurationType))::System::Xml::Schema::XmlSchemaSimpleType* yearMonthDurationType;
 
-  /// @brief Method Compare, addr 0x29a03b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x2a01be8, size 0x74, virtual false, abstract: false, final false
   inline int32_t Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> value1, ::ArrayW<uint8_t, ::Array<uint8_t>*> value2);
 
-  /// @brief Method CreateBuiltinTypes, addr 0x299f2a8, size 0x7cc, virtual false, abstract: false, final false
+  /// @brief Method CreateBuiltinTypes, addr 0x2a00ae0, size 0x7cc, virtual false, abstract: false, final false
   static inline void CreateBuiltinTypes();
 
-  /// @brief Method CreateValueConverter, addr 0x29a0028, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x2a01860, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method DeriveByList, addr 0x299f0b8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method DeriveByList, addr 0x2a008f0, size 0x188, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* DeriveByList(int32_t minSize, ::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method FinishBuiltinType, addr 0x299fd34, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method FinishBuiltinType, addr 0x2a0156c, size 0x1e4, virtual false, abstract: false, final false
   static inline void FinishBuiltinType(::System::Xml::Schema::XmlSchemaSimpleType* derivedType, ::System::Xml::Schema::XmlSchemaSimpleType* baseType);
 
-  /// @brief Method FromTypeName, addr 0x299fba0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FromTypeName, addr 0x2a013d8, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::DatatypeImplementation* FromTypeName(::StringW name);
 
-  /// @brief Method FromXmlTokenizedType, addr 0x299fb24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FromXmlTokenizedType, addr 0x2a0135c, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::DatatypeImplementation* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
 
-  /// @brief Method GetSimpleTypeFromTypeCode, addr 0x299ff18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleTypeFromTypeCode, addr 0x2a01750, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* GetSimpleTypeFromTypeCode(::System::Xml::Schema::XmlTypeCode typeCode);
 
-  /// @brief Method GetTypeName, addr 0x29a0348, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetTypeName, addr 0x2a01b80, size 0x68, virtual false, abstract: false, final false
   inline ::StringW GetTypeName();
 
-  /// @brief Method IsEqual, addr 0x29a0008, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsEqual, addr 0x2a01840, size 0x20, virtual true, abstract: false, final false
   inline bool IsEqual(::System::Object* o1, ::System::Object* o2);
 
   static inline ::System::Xml::Schema::DatatypeImplementation* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x29a0150, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x2a01988, size 0x1f8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method StartBuiltinType, addr 0x299fc60, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method StartBuiltinType, addr 0x2a01498, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* StartBuiltinType(::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaDatatype* dataType);
 
   constexpr ::System::Xml::Schema::DatatypeImplementation*& __cordl_internal_get_baseType();
@@ -544,7 +544,7 @@ public:
 
   constexpr void __cordl_internal_set_variety(::System::Xml::Schema::XmlSchemaDatatypeVariety value);
 
-  /// @brief Method .ctor, addr 0x29a0424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a01c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::XmlQualifiedName* getStaticF_QnAnySimpleType();
@@ -715,37 +715,37 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* getStaticF_yearMonthDurationType();
 
-  /// @brief Method get_AnySimpleType, addr 0x299fa74, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_AnySimpleType, addr 0x2a012ac, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* get_AnySimpleType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x29a0148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2a01980, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x29a0030, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x2a01868, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
   /// @brief Method get_ListValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_Restriction, addr 0x29a0140, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Restriction, addr 0x2a01978, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFacets* get_Restriction();
 
-  /// @brief Method get_TokenizedType, addr 0x29a00bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x2a018f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x29a0138, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a01970, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_UntypedAtomicType, addr 0x299facc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_UntypedAtomicType, addr 0x2a01304, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* get_UntypedAtomicType();
 
-  /// @brief Method get_ValueConverter, addr 0x29a0088, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_ValueConverter, addr 0x2a018c0, size 0x34, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
 
-  /// @brief Method get_ValueType, addr 0x29a00c4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x2a018fc, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_Variety, addr 0x29a0130, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Variety, addr 0x2a01968, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
 
   static inline void setStaticF_QnAnySimpleType(::System::Xml::XmlQualifiedName* value);

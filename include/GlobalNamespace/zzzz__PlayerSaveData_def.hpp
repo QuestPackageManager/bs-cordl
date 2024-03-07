@@ -499,7 +499,7 @@ public:
 
   constexpr void __cordl_internal_set_zenMode(bool value);
 
-  /// @brief Method .ctor, addr 0x12f2f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b0a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -980,7 +980,7 @@ public:
 
   constexpr void __cordl_internal_set_staticLights(bool value);
 
-  /// @brief Method .ctor, addr 0x12f2f60, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b0ac, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1163,10 +1163,10 @@ public:
 
   constexpr void __cordl_internal_set_soloFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
 
-  /// @brief Method .ctor, addr 0x12f6674, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131e7c0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12f6820, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131e96c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
@@ -1324,10 +1324,10 @@ public:
 
   constexpr void __cordl_internal_set_totalScore(int64_t value);
 
-  /// @brief Method .ctor, addr 0x12f6860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131e9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12f6868, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131e9b4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
@@ -1497,7 +1497,7 @@ public:
 
   constexpr void __cordl_internal_set_validScore(bool value);
 
-  /// @brief Method .ctor, addr 0x12f30a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b1f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1593,7 +1593,7 @@ public:
 
   constexpr void __cordl_internal_set_missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12f30ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b1f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1654,7 +1654,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x12f2fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b11c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1771,7 +1771,7 @@ public:
 
   constexpr void __cordl_internal_set_saberBColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x12f30bc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b208, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
@@ -1874,7 +1874,7 @@ public:
 
   constexpr void __cordl_internal_set_selectedColorSchemeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12f318c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b2d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
 protected:
@@ -1949,7 +1949,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideNormalEnvironmentName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12f31c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b314, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2006,7 +2006,7 @@ public:
 
   constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12f30b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2089,7 +2089,7 @@ public:
 
   constexpr void __cordl_internal_set_quickPlaySongPackMaskSerializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12f31d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b31c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2183,7 +2183,7 @@ public:
 
   constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12f3244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2608,7 +2608,7 @@ public:
 
   constexpr void __cordl_internal_set_userAgeCategory(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData value);
 
-  /// @brief Method .ctor, addr 0x12f2f40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b08c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2828,7 +2828,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x12f2eec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131b038, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

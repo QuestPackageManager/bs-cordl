@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::*)()>(
     &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebc6c;
+  constexpr static std::size_t addrs = 0x1313db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,19 +22,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c.__ctor_b__9_0
+//  Writing Method size for method: ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c.__ctor_b__10_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource* (
     ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::*)(::GlobalNamespace::BeatmapLevelSO*, int32_t)>(
-    &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::__ctor_b__9_0)> {
+    &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::__ctor_b__10_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x12ebc74;
+  constexpr static std::size_t addrs = 0x1313dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c*>::get(),
-                                                 "<.ctor>b__9_0", std::span<Il2CppClass const* const, 0>(),
+                                                 "<.ctor>b__10_0", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
@@ -49,15 +49,15 @@ inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource
   return ::cordl_internals::getStaticField<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c*>::get>();
 }
-inline void GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::setStaticF___9__9_0(
+inline void GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::setStaticF___9__10_0(
     ::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*, "<>9__9_0",
+  ::cordl_internals::setStaticField<::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*, "<>9__10_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c*>::get>(
       std::forward<::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>(value));
 }
 inline ::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*
-GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::getStaticF___9__9_0() {
-  return ::cordl_internals::getStaticField<::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*, "<>9__9_0",
+GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::getStaticF___9__10_0() {
+  return ::cordl_internals::getStaticField<::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*, "<>9__10_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c*>::get>();
 }
 inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c* GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::New_ctor() {
@@ -70,10 +70,10 @@ inline void GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSou
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*
-GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::__ctor_b__9_0(::GlobalNamespace::BeatmapLevelSO* level, int32_t index) {
+GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c::__ctor_b__10_0(::GlobalNamespace::BeatmapLevelSO* level, int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c*>::get(),
-                                               "<.ctor>b__9_0", std::span<Il2CppClass const* const, 0>(),
+                                               "<.ctor>b__10_0", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSO*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, false>(this, ___internal_method, level, index);
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::*)()>(
     &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::get_packIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebaa8;
+  constexpr static std::size_t addrs = 0x1313bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelPackSO> (
     ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::*)()>(&::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::get_levelPack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebab0;
+  constexpr static std::size_t addrs = 0x1313bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,12 +117,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> (
         ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::*)()>(&::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::get_levelProductsData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebab8;
+  constexpr static std::size_t addrs = 0x1313bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*>::get(),
                                                  "get_levelProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource.set_levelProductsData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::*)(
+    ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>)>(
+    &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::set_levelProductsData)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x1313c04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*>::get(), "set_levelProductsData",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+            ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -132,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::*)(
     ::GlobalNamespace::BeatmapLevelPackSO*, int32_t)>(&::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x12ebac0;
+  constexpr static std::size_t addrs = 0x1313c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,6 +220,15 @@ GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::get_lev
       ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>, false>(this,
                                                                                                                                                                                  ___internal_method);
 }
+inline void GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::set_levelProductsData(
+    ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*>::get(), "set_levelProductsData",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*
 GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource::New_ctor(::GlobalNamespace::BeatmapLevelPackSO* levelPack, int32_t packIndex) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*>(levelPack, packIndex));
@@ -221,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource::*)()>(
     &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource::get_levelIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebd1c;
+  constexpr static std::size_t addrs = 0x1313e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelSO> (
     ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource::*)()>(&::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource::get_level)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebd24;
+  constexpr static std::size_t addrs = 0x1313e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource::*)(
     ::GlobalNamespace::BeatmapLevelSO*, int32_t)>(&::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x12ebcec;
+  constexpr static std::size_t addrs = 0x1313e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -316,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::*)()>(
     &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::get_sourceLevelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebd2c;
+  constexpr static std::size_t addrs = 0x1313e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -331,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::*)()>(
     &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::get_redirectedProductLabel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebd34;
+  constexpr static std::size_t addrs = 0x1313e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::*)()>(
     &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::get_validUntilDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebd3c;
+  constexpr static std::size_t addrs = 0x1313e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -361,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::*)()>(
     &::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebd44;
+  constexpr static std::size_t addrs = 0x1313e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -441,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* (
     ::GlobalNamespace::SonyLevelProductPackSourceSO::*)()>(&::GlobalNamespace::SonyLevelProductPackSourceSO::get_levelProductPackSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12eba04;
+  constexpr static std::size_t addrs = 0x1313b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductPackSourceSO*>::get(),
@@ -455,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLevelProductPackSourceSO::*)(
     ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*)>(&::GlobalNamespace::SonyLevelProductPackSourceSO::set_levelProductPackSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12eba0c;
+  constexpr static std::size_t addrs = 0x1313b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -471,7 +498,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>* (::GlobalNamespace::SonyLevelProductPackSourceSO::*)()>(
     &::GlobalNamespace::SonyLevelProductPackSourceSO::get_redirectionSources)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12eba14;
+  constexpr static std::size_t addrs = 0x1313b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductPackSourceSO*>::get(),
@@ -485,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLevelProductPackSourceSO::*)()>(
     &::GlobalNamespace::SonyLevelProductPackSourceSO::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x12eba1c;
+  constexpr static std::size_t addrs = 0x1313b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductPackSourceSO*>::get(), ".ctor",

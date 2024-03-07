@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get__btsStarTextEffectController,
                       put = __cordl_internal_set__btsStarTextEffectController))::UnityW<::GlobalNamespace::BTSStarTextEffectController> _btsStarTextEffectController;
 
-  /// @brief Method InstallBindings, addr 0xe7542c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xe911f8, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BTSStarTextEventInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__btsStarTextEffectController(::UnityW<::GlobalNamespace::BTSStarTextEffectController> value);
 
-  /// @brief Method .ctor, addr 0xe754b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9127c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -123,13 +123,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method From, addr 0x2bd0084, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x2c308bc, size 0x12c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::ActionEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method GetEventSizeWithValueSize, addr 0x2bd007c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEventSizeWithValueSize, addr 0x2c308b4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetEventSizeWithValueSize(int32_t valueSizeInBytes);
 
-  /// @brief Method ToEventPtr, addr 0x2bd0048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x2c30880, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -180,55 +180,55 @@ public:
 
   constexpr void __cordl_internal_set_m_ValueData(::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x2bcfe10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2c30648, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_bindingIndex, addr 0x2bcff54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingIndex, addr 0x2c3078c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bindingIndex();
 
-  /// @brief Method get_controlIndex, addr 0x2bcfee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controlIndex, addr 0x2c30720, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_controlIndex();
 
-  /// @brief Method get_interactionIndex, addr 0x2bcffc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_interactionIndex, addr 0x2c307f8, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_interactionIndex();
 
-  /// @brief Method get_phase, addr 0x2bcfe50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x2c30688, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
 
-  /// @brief Method get_startTime, addr 0x2bcfe40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x2c30678, size 0x8, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method get_stateIndex, addr 0x2bcfe7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateIndex, addr 0x2c306b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stateIndex();
 
-  /// @brief Method get_typeStatic, addr 0x2bd004c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2c30884, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method get_valueData, addr 0x2bcfe60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueData, addr 0x2c30698, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> get_valueData();
 
-  /// @brief Method get_valueSizeInBytes, addr 0x2bcfe68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x2c306a0, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
-  /// @brief Method set_bindingIndex, addr 0x2bcff5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_bindingIndex, addr 0x2c30794, size 0x64, virtual false, abstract: false, final false
   inline void set_bindingIndex(int32_t value);
 
-  /// @brief Method set_controlIndex, addr 0x2bcfef0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_controlIndex, addr 0x2c30728, size 0x64, virtual false, abstract: false, final false
   inline void set_controlIndex(int32_t value);
 
-  /// @brief Method set_interactionIndex, addr 0x2bcffd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_interactionIndex, addr 0x2c3080c, size 0x74, virtual false, abstract: false, final false
   inline void set_interactionIndex(int32_t value);
 
-  /// @brief Method set_phase, addr 0x2bcfe58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_phase, addr 0x2c30690, size 0x8, virtual false, abstract: false, final false
   inline void set_phase(::UnityEngine::InputSystem::InputActionPhase value);
 
-  /// @brief Method set_startTime, addr 0x2bcfe48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startTime, addr 0x2c30680, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(double_t value);
 
-  /// @brief Method set_stateIndex, addr 0x2bcfe84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_stateIndex, addr 0x2c306bc, size 0x64, virtual false, abstract: false, final false
   inline void set_stateIndex(int32_t value);
 
   // Ctor Parameters []

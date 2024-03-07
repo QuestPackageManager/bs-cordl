@@ -78,21 +78,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2251128, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b20ec, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22511d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b2198, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22511dc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b21a0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x225121c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b21e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2251124, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22b20e8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x22510b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b207c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -204,21 +204,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2251228, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b21ec, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22512e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b22a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22512ec, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b22b0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x225132c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b22f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2251224, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22b21e8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x22510e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b20a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -329,19 +329,19 @@ public:
 
   static inline ::GlobalNamespace::RandomizedPitch* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2250e64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22b1e28, size 0x58, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Play, addr 0x2250ebc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x22b1e80, size 0xd4, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method PlayDelayed, addr 0x2251008, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x22b1fcc, size 0x38, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
-  /// @brief Method PlayDelayedCoroutine, addr 0x2251040, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayedCoroutine, addr 0x22b2004, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayDelayedCoroutine(float_t delay);
 
-  /// @brief Method RestorePitchWithDelay, addr 0x2250f90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RestorePitchWithDelay, addr 0x22b1f54, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestorePitchWithDelay(float_t delay);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -380,7 +380,7 @@ public:
 
   constexpr void __cordl_internal_set__restoringCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method .ctor, addr 0x2251108, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b20cc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

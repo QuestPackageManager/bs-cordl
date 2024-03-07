@@ -162,7 +162,7 @@ public:
   /// @brief Field values, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::Collections::Generic::List_1<::StringW>* values;
 
-  /// @brief Method AddValue, addr 0x29ae4ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x2a0fce4, size 0xf0, virtual false, abstract: false, final false
   inline void AddValue(::StringW value);
 
   static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor();
@@ -235,49 +235,49 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x29adecc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0f704, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29ade40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0f678, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  /// @brief Method get_Datatype, addr 0x29ae49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x2a0fcd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method get_DefaultValueRaw, addr 0x29ae5a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueRaw, addr 0x2a0fddc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValueRaw();
 
-  /// @brief Method get_DefaultValueTyped, addr 0x29ae5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueTyped, addr 0x2a0fe30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method get_IsDeclaredInExternal, addr 0x29ae470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDeclaredInExternal, addr 0x2a0fca8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDeclaredInExternal();
 
-  /// @brief Method get_Name, addr 0x29ae468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2a0fca0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Prefix, addr 0x29adf88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2a0f7c0, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_Presence, addr 0x29ae484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Presence, addr 0x2a0fcbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__SchemaDeclBase__Use get_Presence();
 
-  /// @brief Method get_Values, addr 0x29ae59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x2a0fdd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Values();
 
-  /// @brief Method set_Datatype, addr 0x29ae4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Datatype, addr 0x2a0fcdc, size 0x8, virtual false, abstract: false, final false
   inline void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method set_DefaultValueTyped, addr 0x29ae600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueTyped, addr 0x2a0fe38, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueTyped(::System::Object* value);
 
-  /// @brief Method set_IsDeclaredInExternal, addr 0x29ae478, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDeclaredInExternal, addr 0x2a0fcb0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDeclaredInExternal(bool value);
 
-  /// @brief Method set_Presence, addr 0x29ae48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Presence, addr 0x2a0fcc4, size 0x8, virtual false, abstract: false, final false
   inline void set_Presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
 
-  /// @brief Method set_SchemaType, addr 0x29ae494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x2a0fccc, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
 protected:

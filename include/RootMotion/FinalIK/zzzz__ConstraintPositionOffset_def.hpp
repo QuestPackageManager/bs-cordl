@@ -40,7 +40,7 @@ public:
 
   static inline ::RootMotion::FinalIK::ConstraintPositionOffset* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method UpdateConstraint, addr 0x131e858, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method UpdateConstraint, addr 0x1346db0, size 0x104, virtual true, abstract: false, final false
   inline void UpdateConstraint();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x131e9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x131e9c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346f18, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method get_positionChanged, addr 0x131e95c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_positionChanged, addr 0x1346eb4, size 0x5c, virtual false, abstract: false, final false
   inline bool get_positionChanged();
 
 protected:

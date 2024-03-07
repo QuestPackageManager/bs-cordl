@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*() noexcept;
 
-  /// @brief Method CheckResult, addr 0x10a7ae4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x10cb1e8, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method Multiply, addr 0x10a7a08, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x10cb10c, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   /// @brief Method MultiplyPositive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -41,7 +41,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10a7af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cb1f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"

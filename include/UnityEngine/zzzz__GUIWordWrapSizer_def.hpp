@@ -38,10 +38,10 @@ public:
   /// @brief Field m_ForcedMinHeight, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ForcedMinHeight, put = __cordl_internal_set_m_ForcedMinHeight)) float_t m_ForcedMinHeight;
 
-  /// @brief Method CalcHeight, addr 0x2df4204, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x2e4fa3c, size 0x70, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x2df4180, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x2e4f9b8, size 0x84, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content,
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ForcedMinHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x2df4020, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e4f858, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
 protected:

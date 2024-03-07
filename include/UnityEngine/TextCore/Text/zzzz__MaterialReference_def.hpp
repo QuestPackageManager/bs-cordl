@@ -34,17 +34,17 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method AddMaterialReference, addr 0x2e4f2c4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x2eaaafc, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
                                              ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference, addr 0x2e4f4d0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x2eaad08, size 0x1d8, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
                                              ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method .ctor, addr 0x2e4f248, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eaaa80, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
   // Ctor Parameters []

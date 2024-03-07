@@ -37,39 +37,39 @@ public:
 
   __declspec(property(get = get_PropertyType))::System::Type* PropertyType;
 
-  /// @brief Method CanResetValue, addr 0x27802f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x27e15ac, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method CastInstance, addr 0x2780274, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CastInstance, addr 0x27e1530, size 0x7c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* CastInstance(::System::Object* instance);
 
-  /// @brief Method GetValue, addr 0x27802f8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x27e15b4, size 0x44, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::Newtonsoft::Json::Linq::JPropertyDescriptor* New_ctor(::StringW name);
 
-  /// @brief Method ResetValue, addr 0x27803bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x27e1678, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x27803c0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x27e167c, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x2780588, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x27e1844, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
-  /// @brief Method .ctor, addr 0x2780268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e1524, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_ComponentType, addr 0x2780590, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x27e184c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x27805fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x27e18b8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_NameHashCode, addr 0x2780670, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x27e192c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method get_PropertyType, addr 0x2780604, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x27e18c0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:

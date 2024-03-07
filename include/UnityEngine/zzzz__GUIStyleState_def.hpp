@@ -35,16 +35,16 @@ public:
 
   __declspec(property(put = set_textColor))::UnityEngine::Color textColor;
 
-  /// @brief Method Cleanup, addr 0x2e04758, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x2e5ff90, size 0x3c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Finalize, addr 0x2e04878, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2e600b0, size 0xf8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetGUIStyleState, addr 0x2e04808, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetGUIStyleState, addr 0x2e60040, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method Init, addr 0x2e04730, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2e5ff68, size 0x28, virtual false, abstract: false, final false
   static inline void* Init();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor();
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x2e04794, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5ffcc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e047dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e60014, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method set_textColor, addr 0x2e04698, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_textColor, addr 0x2e5fed0, size 0x54, virtual false, abstract: false, final false
   inline void set_textColor(::UnityEngine::Color value);
 
-  /// @brief Method set_textColor_Injected, addr 0x2e046ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_textColor_Injected, addr 0x2e5ff24, size 0x44, virtual false, abstract: false, final false
   inline void set_textColor_Injected(ByRef<::UnityEngine::Color> value);
 
 protected:

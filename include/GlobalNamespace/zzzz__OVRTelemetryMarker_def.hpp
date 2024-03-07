@@ -45,19 +45,19 @@ public:
 
   __declspec(property(get = get_Sent, put = set_Sent)) bool Sent;
 
-  /// @brief Method .ctor, addr 0x2885f7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28e67b4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool sent, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType result);
 
-  /// @brief Method get_Result, addr 0x288605c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Result, addr 0x28e6894, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__Qpl__ResultType get_Result();
 
-  /// @brief Method get_Sent, addr 0x2886048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sent, addr 0x28e6880, size 0x8, virtual false, abstract: false, final false
   inline bool get_Sent();
 
-  /// @brief Method set_Result, addr 0x2886064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Result, addr 0x28e689c, size 0x8, virtual false, abstract: false, final false
   inline void set_Result(::GlobalNamespace::__OVRPlugin__Qpl__ResultType value);
 
-  /// @brief Method set_Sent, addr 0x2886050, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Sent, addr 0x28e6888, size 0xc, virtual false, abstract: false, final false
   inline void set_Sent(bool value);
 
   // Ctor Parameters []
@@ -110,49 +110,49 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddAnnotation, addr 0x2885ba4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x28e63dc, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::StringW annotationValue);
 
-  /// @brief Method AddPoint, addr 0x2885fd4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x28e680c, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddPoint(::GlobalNamespace::__OVRTelemetry__MarkerPoint point);
 
-  /// @brief Method Dispose, addr 0x2886024, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x28e685c, size 0x24, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Send, addr 0x2885a14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x28e624c, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker Send();
 
-  /// @brief Method SendIf, addr 0x2885f8c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SendIf, addr 0x28e67c4, size 0x48, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker SendIf(bool condition);
 
-  /// @brief Method SetResult, addr 0x28859ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x28e6224, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker SetResult(::GlobalNamespace::__OVRPlugin__Qpl__ResultType result);
 
-  /// @brief Method .ctor, addr 0x2885f3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28e6774, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRTelemetry__TelemetryClient* client, int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method .ctor, addr 0x2885898, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28e60d0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method get_InstanceKey, addr 0x2885f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceKey, addr 0x28e676c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InstanceKey();
 
-  /// @brief Method get_MarkerId, addr 0x2885f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkerId, addr 0x28e6764, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MarkerId();
 
-  /// @brief Method get_Result, addr 0x2885f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Result, addr 0x28e675c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__Qpl__ResultType get_Result();
 
-  /// @brief Method get_Sent, addr 0x2885f14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Sent, addr 0x28e674c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Sent();
 
-  /// @brief Method get_State, addr 0x2885f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x28e673c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRTelemetryMarker__OVRTelemetryMarkerState get_State();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_State, addr 0x2885f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_State, addr 0x28e6744, size 0x8, virtual false, abstract: false, final false
   inline void set_State(::GlobalNamespace::__OVRTelemetryMarker__OVRTelemetryMarkerState value);
 
   // Ctor Parameters []

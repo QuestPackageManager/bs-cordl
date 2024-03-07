@@ -26,13 +26,13 @@ public:
   /// @brief Field s_Interactions, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Interactions, put = setStaticF_s_Interactions))::UnityEngine::InputSystem::Utilities::TypeTable s_Interactions;
 
-  /// @brief Method GetDisplayName, addr 0x2b201fc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x2b7fa34, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::StringW interaction);
 
-  /// @brief Method GetDisplayName, addr 0x2b20300, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x2b7fb38, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::System::Type* interactionType);
 
-  /// @brief Method GetValueType, addr 0x2b20108, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x2b7f940, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Type* interactionType);
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Interactions();

@@ -96,7 +96,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method ToString, addr 0x2bcfae4, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c3031c, size 0x2c0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_delta() const;
@@ -171,67 +171,67 @@ public:
 
   constexpr void __cordl_internal_set_updateStepCount(uint32_t value);
 
-  /// @brief Method get_Format, addr 0x2bcf99c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x2c301d4, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_beganInSameFrame, addr 0x2bc8178, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_beganInSameFrame, addr 0x2c289b0, size 0x10, virtual false, abstract: false, final false
   inline bool get_beganInSameFrame();
 
-  /// @brief Method get_format, addr 0x2bcfab4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2c302ec, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_isInProgress, addr 0x2bcf9f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_isInProgress, addr 0x2c3022c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_isInProgress();
 
-  /// @brief Method get_isIndirectTouch, addr 0x2bcfa48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIndirectTouch, addr 0x2c30280, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIndirectTouch();
 
-  /// @brief Method get_isNoneEndedOrCanceled, addr 0x2bcf9d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isNoneEndedOrCanceled, addr 0x2c3020c, size 0x20, virtual false, abstract: false, final false
   inline bool get_isNoneEndedOrCanceled();
 
-  /// @brief Method get_isOrphanedPrimaryTouch, addr 0x2bcfa20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isOrphanedPrimaryTouch, addr 0x2c30258, size 0xc, virtual false, abstract: false, final false
   inline bool get_isOrphanedPrimaryTouch();
 
-  /// @brief Method get_isPrimaryTouch, addr 0x2bcc27c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isPrimaryTouch, addr 0x2c2cab4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPrimaryTouch();
 
-  /// @brief Method get_isTap, addr 0x2bc88f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isTap, addr 0x2c2912c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isTap();
 
-  /// @brief Method get_isTapPress, addr 0x2bcfa70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isTapPress, addr 0x2c302a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isTapPress();
 
-  /// @brief Method get_isTapRelease, addr 0x2bc7ec0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isTapRelease, addr 0x2c286f8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isTapRelease();
 
-  /// @brief Method get_phase, addr 0x2bcf9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x2c30204, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::TouchPhase get_phase();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  /// @brief Method set_beganInSameFrame, addr 0x2bc8188, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_beganInSameFrame, addr 0x2c289c0, size 0x1c, virtual false, abstract: false, final false
   inline void set_beganInSameFrame(bool value);
 
-  /// @brief Method set_isIndirectTouch, addr 0x2bcfa54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isIndirectTouch, addr 0x2c3028c, size 0x1c, virtual false, abstract: false, final false
   inline void set_isIndirectTouch(bool value);
 
-  /// @brief Method set_isOrphanedPrimaryTouch, addr 0x2bcfa2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isOrphanedPrimaryTouch, addr 0x2c30264, size 0x1c, virtual false, abstract: false, final false
   inline void set_isOrphanedPrimaryTouch(bool value);
 
-  /// @brief Method set_isPrimaryTouch, addr 0x2bcc260, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isPrimaryTouch, addr 0x2c2ca98, size 0x1c, virtual false, abstract: false, final false
   inline void set_isPrimaryTouch(bool value);
 
-  /// @brief Method set_isTap, addr 0x2bcc288, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isTap, addr 0x2c2cac0, size 0x1c, virtual false, abstract: false, final false
   inline void set_isTap(bool value);
 
-  /// @brief Method set_isTapPress, addr 0x2bcfa7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isTapPress, addr 0x2c302b4, size 0x1c, virtual false, abstract: false, final false
   inline void set_isTapPress(bool value);
 
-  /// @brief Method set_isTapRelease, addr 0x2bcfa98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isTapRelease, addr 0x2c302d0, size 0x1c, virtual false, abstract: false, final false
   inline void set_isTapRelease(bool value);
 
-  /// @brief Method set_phase, addr 0x2bca360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_phase, addr 0x2c2ab98, size 0x8, virtual false, abstract: false, final false
   inline void set_phase(::UnityEngine::InputSystem::TouchPhase value);
 
   // Ctor Parameters []

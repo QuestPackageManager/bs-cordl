@@ -47,7 +47,7 @@ public:
   /// @brief Field systemId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
-  /// @brief Method CloneNode, addr 0x297b47c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x29ddcb4, size 0x60, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlNotation* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
@@ -70,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2976da0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d95d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsReadOnly, addr 0x297b4dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x29ddd14, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LocalName, addr 0x297b46c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x29ddca4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x297b464, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x29ddc9c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x297b474, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x29ddcac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method set_InnerXml, addr 0x297b4e4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method set_InnerXml, addr 0x29ddd1c, size 0x60, virtual true, abstract: false, final false
   inline void set_InnerXml(::StringW value);
 
 protected:

@@ -174,13 +174,13 @@ public:
 
   using TrackedKeyboardState = ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState, addr 0x288606c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardState, addr 0x28e68a4, size 0x154, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState GetKeyboardState();
 
-  /// @brief Method GetSystemKeyboardInfo, addr 0x28861c0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemKeyboardInfo, addr 0x28e69f8, size 0xe4, virtual false, abstract: false, final false
   static inline bool GetSystemKeyboardInfo(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags, ByRef<::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo> keyboardInfo);
 
-  /// @brief Method StopKeyboardTracking, addr 0x28862a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTracking, addr 0x28e6adc, size 0x50, virtual false, abstract: false, final false
   static inline bool StopKeyboardTracking(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo keyboardInfo);
 
 protected:

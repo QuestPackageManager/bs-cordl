@@ -23,12 +23,12 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
-  /// @brief Method Finalize, addr 0x2dc5c78, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2e214b0, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method ReleaseCoroutine, addr 0x2dc5d34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCoroutine, addr 0x2e2156c, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(void* ptr);
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x2dc5c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e214a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

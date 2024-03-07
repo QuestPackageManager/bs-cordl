@@ -45,7 +45,7 @@ public:
   __declspec(property(get = __cordl_internal_get__scoreSyncStateManagerPrefab,
                       put = __cordl_internal_set__scoreSyncStateManagerPrefab))::UnityW<::GlobalNamespace::ScoreSyncStateManager> _scoreSyncStateManagerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x249cb64, size 0x6a4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x25049d4, size 0x700, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerCoreInstaller* New_ctor();
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x249d208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25050d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

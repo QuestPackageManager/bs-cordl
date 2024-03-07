@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleMlp(float_t value);
 
-  /// @brief Method .ctor, addr 0x1376494, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a09ec, size 0x204, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -322,7 +322,7 @@ public:
 
   static inline ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* New_ctor(::UnityEngine::Transform* t);
 
-  /// @brief Method SetTo, addr 0x1376094, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetTo, addr 0x13a05ec, size 0x5c, virtual false, abstract: false, final false
   inline void SetTo(::UnityEngine::Transform* t);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localPosition() const;
@@ -343,7 +343,7 @@ public:
 
   constexpr void __cordl_internal_set_used(bool value);
 
-  /// @brief Method .ctor, addr 0x13756ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139fc44, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* t);
 
 protected:
@@ -501,7 +501,7 @@ public:
 
   constexpr void __cordl_internal_set_scale(float_t value);
 
-  /// @brief Method .ctor, addr 0x1374e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139f3c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -596,26 +596,26 @@ public:
 
   using Settings = ::RootMotion::FinalIK::__VRIKCalibrator__Settings;
 
-  /// @brief Method Calibrate, addr 0x1373c30, size 0x123c, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x139e188, size 0x123c, virtual false, abstract: false, final false
   static inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings,
                                                                                     ::UnityEngine::Transform* headTracker, ::UnityEngine::Transform* bodyTracker,
                                                                                     ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker,
                                                                                     ::UnityEngine::Transform* leftFootTracker, ::UnityEngine::Transform* rightFootTracker);
 
-  /// @brief Method Calibrate, addr 0x13757a0, size 0x8f4, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x139fcf8, size 0x8f4, virtual false, abstract: false, final false
   static inline void Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* headTracker,
                                ::UnityEngine::Transform* bodyTracker, ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker, ::UnityEngine::Transform* leftFootTracker,
                                ::UnityEngine::Transform* rightFootTracker);
 
-  /// @brief Method CalibrateLeg, addr 0x13760f0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CalibrateLeg, addr 0x13a0648, size 0x24c, virtual false, abstract: false, final false
   static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
                                   ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
 
-  /// @brief Method CalibrateLeg, addr 0x1374e74, size 0x6b8, virtual false, abstract: false, final false
+  /// @brief Method CalibrateLeg, addr 0x139f3cc, size 0x6b8, virtual false, abstract: false, final false
   static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
                                   ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
 
-  /// @brief Method RecalibrateScale, addr 0x1373b3c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RecalibrateScale, addr 0x139e094, size 0xf4, virtual false, abstract: false, final false
   static inline void RecalibrateScale(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings);
 
 protected:

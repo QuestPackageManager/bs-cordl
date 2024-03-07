@@ -77,59 +77,59 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x1291300, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x12b6a04, size 0x128, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Copy, addr 0x1292150, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x12b7854, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method CopyIn, addr 0x1290fb8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CopyIn, addr 0x12b66bc, size 0x130, virtual false, abstract: false, final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest);
 
-  /// @brief Method DoFinal, addr 0x1291428, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x12b6b2c, size 0x260, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetByteLength, addr 0x129127c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x12b6980, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x1291274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x12b6978, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method MixColumn, addr 0x1292090, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MixColumn, addr 0x12b7794, size 0xb8, virtual false, abstract: false, final false
   static inline uint64_t MixColumn(uint64_t c);
 
-  /// @brief Method MixColumns, addr 0x1291fd4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MixColumns, addr 0x12b76d8, size 0xbc, virtual false, abstract: false, final false
   inline void MixColumns(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* New_ctor(int32_t hashSizeBits);
 
-  /// @brief Method P, addr 0x1291688, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method P, addr 0x12b6d8c, size 0xb4, virtual false, abstract: false, final false
   inline void P(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method ProcessBlock, addr 0x129178c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x12b6e90, size 0x150, virtual true, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Q, addr 0x12918dc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x12b6fe0, size 0xd0, virtual false, abstract: false, final false
   inline void Q(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method Reset, addr 0x129173c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x12b6e40, size 0x50, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x12921bc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x12b78c0, size 0x84, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Rotate, addr 0x1292148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x12b784c, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t Rotate(int32_t n, uint64_t x);
 
-  /// @brief Method ShiftRows, addr 0x12919ac, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method ShiftRows, addr 0x12b70b0, size 0x480, virtual false, abstract: false, final false
   inline void ShiftRows(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method SubBytes, addr 0x1291e2c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method SubBytes, addr 0x12b7530, size 0x1a8, virtual false, abstract: false, final false
   inline void SubBytes(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method Update, addr 0x1291284, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x12b6988, size 0x7c, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
   constexpr int32_t const& __cordl_internal_get_blockSize() const;
@@ -192,10 +192,10 @@ public:
 
   constexpr void __cordl_internal_set_tempState2(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1290f8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b6690, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest);
 
-  /// @brief Method .ctor, addr 0x12910e8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b67ec, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(int32_t hashSizeBits);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_S0();
@@ -206,7 +206,7 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_S3();
 
-  /// @brief Method get_AlgorithmName, addr 0x1291234, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x12b6938, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"

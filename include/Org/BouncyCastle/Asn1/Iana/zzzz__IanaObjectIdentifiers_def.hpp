@@ -38,7 +38,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf0fd2c, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf30430, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_HmacMD5();

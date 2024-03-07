@@ -38,24 +38,24 @@ public:
   /// @brief Field propertyName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
-  /// @brief Method MultiplyLength, addr 0x13104cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MultiplyLength, addr 0x1338a24, size 0xa8, virtual false, abstract: false, final false
   inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
 
-  /// @brief Method MuscleNameToPropertyName, addr 0x130fa38, size 0xa34, virtual false, abstract: false, final false
+  /// @brief Method MuscleNameToPropertyName, addr 0x1337f90, size 0xa34, virtual false, abstract: false, final false
   inline ::StringW MuscleNameToPropertyName(::StringW n);
 
   static inline ::RootMotion::BakerMuscle* New_ctor(int32_t muscleIndex);
 
-  /// @brief Method Reset, addr 0x131046c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x13389c4, size 0x60, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetCurves, addr 0x1310574, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetCurves, addr 0x1338acc, size 0xf4, virtual false, abstract: false, final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
 
-  /// @brief Method SetKeyframe, addr 0x1310668, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyframe, addr 0x1338bc0, size 0x3c, virtual false, abstract: false, final false
   inline void SetKeyframe(float_t time, ::ArrayW<float_t, ::Array<float_t>*> muscles);
 
-  /// @brief Method SetLoopFrame, addr 0x13106a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLoopFrame, addr 0x1338bfc, size 0x8, virtual false, abstract: false, final false
   inline void SetLoopFrame(float_t time);
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_curve();
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x130f9d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1337f2c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t muscleIndex);
 
 protected:

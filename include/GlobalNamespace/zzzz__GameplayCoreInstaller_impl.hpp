@@ -1,6 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__ArcAndObstacleHapticEffectManager_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BadNoteCutEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"
@@ -11,15 +12,14 @@
 #include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 #include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
-#include "GlobalNamespace/zzzz__SongAutopilot_def.hpp"
 #include "GlobalNamespace/zzzz__SongProfilingController_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayCoreInstaller.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x1524;
-  constexpr static std::size_t addrs = 0x249ab5c;
+  constexpr static std::size_t size = 0x15cc;
+  constexpr static std::size_t addrs = 0x2502988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(
     &::GlobalNamespace::GameplayCoreInstaller::InstallRecordingTool)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x249c080;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x2503f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249c1a4;
+  constexpr static std::size_t addrs = 0x2504014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(), ".ctor",
@@ -151,17 +151,18 @@ constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__eff
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____effectPoolsManualInstaller)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::SongAutopilot>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get_songAutopilotPrefab() {
+constexpr ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__arcAndObstacleHapticManagerEffectPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___songAutopilotPrefab;
+  return this->____arcAndObstacleHapticManagerEffectPrefab;
 }
-constexpr ::UnityW<::GlobalNamespace::SongAutopilot> const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get_songAutopilotPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__arcAndObstacleHapticManagerEffectPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___songAutopilotPrefab;
+  return this->____arcAndObstacleHapticManagerEffectPrefab;
 }
-constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set_songAutopilotPrefab(::UnityW<::GlobalNamespace::SongAutopilot> value) {
+constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__arcAndObstacleHapticManagerEffectPrefab(::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___songAutopilotPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arcAndObstacleHapticManagerEffectPrefab)),
+                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::SongProfilingController>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__songProfilingControllerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

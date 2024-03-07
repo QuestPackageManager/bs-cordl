@@ -35,46 +35,46 @@ public:
 
   __declspec(property(get = get_updateMode, put = set_updateMode))::UnityEngine::Audio::AudioMixerUpdateMode updateMode;
 
-  /// @brief Method ClearFloat, addr 0x2d869bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearFloat, addr 0x2de31f4, size 0x44, virtual false, abstract: false, final false
   inline bool ClearFloat(::StringW name);
 
-  /// @brief Method FindMatchingGroups, addr 0x2d864e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindMatchingGroups, addr 0x2de2d18, size 0x44, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Audio::AudioMixerGroup>, ::Array<::UnityW<::UnityEngine::Audio::AudioMixerGroup>>*> FindMatchingGroups(::StringW subPath);
 
-  /// @brief Method FindSnapshot, addr 0x2d8649c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindSnapshot, addr 0x2de2cd4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixerSnapshot> FindSnapshot(::StringW name);
 
-  /// @brief Method GetFloat, addr 0x2d86a00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x2de3238, size 0x54, virtual false, abstract: false, final false
   inline bool GetFloat(::StringW name, ByRef<float_t> value);
 
   static inline ::UnityEngine::Audio::AudioMixer* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x2d86968, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x2de31a0, size 0x54, virtual false, abstract: false, final false
   inline bool SetFloat(::StringW name, float_t value);
 
-  /// @brief Method TransitionToSnapshot, addr 0x2d86524, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshot, addr 0x2de2d5c, size 0x2d0, virtual false, abstract: false, final false
   inline void TransitionToSnapshot(::UnityEngine::Audio::AudioMixerSnapshot* snapshot, float_t timeToReach);
 
-  /// @brief Method TransitionToSnapshotInternal, addr 0x2d86830, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshotInternal, addr 0x2de3068, size 0x54, virtual false, abstract: false, final false
   inline void TransitionToSnapshotInternal(::UnityEngine::Audio::AudioMixerSnapshot* snapshot, float_t timeToReach);
 
-  /// @brief Method TransitionToSnapshots, addr 0x2d86884, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshots, addr 0x2de30bc, size 0x64, virtual false, abstract: false, final false
   inline void TransitionToSnapshots(::ArrayW<::UnityEngine::Audio::AudioMixerSnapshot*, ::Array<::UnityEngine::Audio::AudioMixerSnapshot*>*> snapshots, ::ArrayW<float_t, ::Array<float_t>*> weights,
                                     float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x2d863c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de2bfc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputAudioMixerGroup, addr 0x2d8641c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_outputAudioMixerGroup, addr 0x2de2c54, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixerGroup> get_outputAudioMixerGroup();
 
-  /// @brief Method get_updateMode, addr 0x2d868e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_updateMode, addr 0x2de3120, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AudioMixerUpdateMode get_updateMode();
 
-  /// @brief Method set_outputAudioMixerGroup, addr 0x2d86458, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_outputAudioMixerGroup, addr 0x2de2c90, size 0x44, virtual false, abstract: false, final false
   inline void set_outputAudioMixerGroup(::UnityEngine::Audio::AudioMixerGroup* value);
 
-  /// @brief Method set_updateMode, addr 0x2d86924, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_updateMode, addr 0x2de315c, size 0x44, virtual false, abstract: false, final false
   inline void set_updateMode(::UnityEngine::Audio::AudioMixerUpdateMode value);
 
 protected:

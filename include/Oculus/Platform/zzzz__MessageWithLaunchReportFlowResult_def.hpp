@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchReportFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchReportFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e399c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x28463b8, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetLaunchReportFlowResult, addr 0x27e3960, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchReportFlowResult, addr 0x284637c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchReportFlowResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e3908, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2846324, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

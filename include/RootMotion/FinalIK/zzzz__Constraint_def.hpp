@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x131e788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isValid, addr 0x131e728, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x1346c80, size 0x60, virtual false, abstract: false, final false
   inline bool get_isValid();
 
 protected:

@@ -84,25 +84,25 @@ public:
   /// @brief Field class_to_proxy, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_class_to_proxy, put = __cordl_internal_set_class_to_proxy))::System::Type* class_to_proxy;
 
-  /// @brief Method AttachServer, addr 0x258b7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AttachServer, addr 0x25eef9c, size 0x8, virtual false, abstract: false, final false
   inline void AttachServer(::System::MarshalByRefObject* s);
 
-  /// @brief Method GetAppDomainTarget, addr 0x258b7b0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetAppDomainTarget, addr 0x25eefac, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Object* GetAppDomainTarget();
 
-  /// @brief Method GetObjectData, addr 0x258a694, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x25ede90, size 0x98, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetProxiedType, addr 0x258a5e8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetProxiedType, addr 0x25edde4, size 0xac, virtual false, abstract: false, final false
   inline ::System::Type* GetProxiedType();
 
-  /// @brief Method GetTransparentProxy, addr 0x258b63c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetTransparentProxy, addr 0x25eee38, size 0x164, virtual true, abstract: false, final false
   inline ::System::Object* GetTransparentProxy();
 
-  /// @brief Method InternalGetProxyType, addr 0x258a5e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetProxyType, addr 0x25edde0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Type* InternalGetProxyType(::System::Object* transparentProxy);
 
-  /// @brief Method InternalGetTransparentProxy, addr 0x258b638, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InternalGetTransparentProxy, addr 0x25eee34, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* InternalGetTransparentProxy(::StringW className);
 
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -116,15 +116,15 @@ public:
 
   static inline ::System::Runtime::Remoting::Proxies::RealProxy* New_ctor(::System::Type* classToProxy, void* stub, ::System::Object* stubData);
 
-  /// @brief Method PrivateInvoke, addr 0x2589824, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method PrivateInvoke, addr 0x25ed020, size 0x8d4, virtual false, abstract: false, final false
   static inline ::System::Object* PrivateInvoke(::System::Runtime::Remoting::Proxies::RealProxy* rp, ::System::Runtime::Remoting::Messaging::IMessage* msg, ByRef<::System::Exception*> exc,
                                                 ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> out_args);
 
-  /// @brief Method ProcessResponse, addr 0x258af34, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method ProcessResponse, addr 0x25ee730, size 0x704, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ProcessResponse(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* mrm,
                                                                                          ::System::Runtime::Remoting::Messaging::MonoMethodMessage* call);
 
-  /// @brief Method SetTargetDomain, addr 0x258b7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTargetDomain, addr 0x25eefa4, size 0x8, virtual false, abstract: false, final false
   inline void SetTargetDomain(int32_t domainId);
 
   constexpr ::System::Object*& __cordl_internal_get__objTP();
@@ -175,22 +175,22 @@ public:
 
   constexpr void __cordl_internal_set_class_to_proxy(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x258a3d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25edbd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x258a3e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25edbe4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* classToProxy);
 
-  /// @brief Method .ctor, addr 0x258a578, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25edd74, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* classToProxy, ::System::Runtime::Remoting::ClientIdentity* identity);
 
-  /// @brief Method .ctor, addr 0x258a448, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25edc44, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* classToProxy, void* stub, ::System::Object* stubData);
 
-  /// @brief Method get_ObjectIdentity, addr 0x258a72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x25edf28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Identity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x258a734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x25edf30, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::Identity* value);
 
 protected:

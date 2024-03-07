@@ -33,21 +33,21 @@ public:
   /// @brief Field _houdiniAsset, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__houdiniAsset, put = __cordl_internal_set__houdiniAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _houdiniAsset;
 
-  /// @brief Method ClearHoudiniEngineReferences, addr 0x22ce678, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ClearHoudiniEngineReferences, addr 0x232f450, size 0x74, virtual false, abstract: false, final false
   inline void ClearHoudiniEngineReferences();
 
-  /// @brief Method DestroyRootComponent, addr 0x22ce6ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DestroyRootComponent, addr 0x232f4c4, size 0x10, virtual false, abstract: false, final false
   static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x22ce3d4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x232f1ac, size 0x1c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x22ce59c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x232f374, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveHoudiniEngineAssetData();
 
-  /// @brief Method Reset, addr 0x22ce6fc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x232f4d4, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__bakeTargets();
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__houdiniAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  /// @brief Method .ctor, addr 0x22ce7e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232f5bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

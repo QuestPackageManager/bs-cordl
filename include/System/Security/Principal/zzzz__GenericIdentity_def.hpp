@@ -40,10 +40,10 @@ public:
   /// @brief Field m_type, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::StringW m_type;
 
-  /// @brief Method AddNameClaim, addr 0x256a38c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddNameClaim, addr 0x25ccb88, size 0xd8, virtual false, abstract: false, final false
   inline void AddNameClaim();
 
-  /// @brief Method Clone, addr 0x256a6a0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x25cce9c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* Clone();
 
   static inline ::System::Security::Principal::GenericIdentity* New_ctor();
@@ -64,22 +64,22 @@ public:
 
   constexpr void __cordl_internal_set_m_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x256a464, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ccc60, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x256a480, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ccc7c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::GenericIdentity* identity);
 
-  /// @brief Method .ctor, addr 0x256a2b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ccab0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW type);
 
-  /// @brief Method get_AuthenticationType, addr 0x256a784, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AuthenticationType, addr 0x25ccf80, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Claims, addr 0x256a700, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Claims, addr 0x25ccefc, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* get_Claims();
 
-  /// @brief Method get_Name, addr 0x256a77c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x25ccf78, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

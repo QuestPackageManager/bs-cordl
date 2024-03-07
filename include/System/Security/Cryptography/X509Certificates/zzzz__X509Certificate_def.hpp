@@ -96,61 +96,61 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2569098, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25cb894, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x25690a8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25cb8a4, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Equals, addr 0x25690bc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25cb8b8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2569150, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25cb94c, size 0xec, virtual true, abstract: false, final false
   inline bool Equals(::System::Security::Cryptography::X509Certificates::X509Certificate* other);
 
-  /// @brief Method FormatDate, addr 0x2569978, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FormatDate, addr 0x25cc174, size 0x110, virtual false, abstract: false, final false
   static inline ::StringW FormatDate(::System::DateTime date);
 
-  /// @brief Method GetCertHash, addr 0x256928c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0x25cba88, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method GetCertHashString, addr 0x2569300, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCertHashString, addr 0x25cbafc, size 0x28, virtual true, abstract: false, final false
   inline ::StringW GetCertHashString();
 
-  /// @brief Method GetHashCode, addr 0x2569360, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25cbb5c, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetKeyAlgorithm, addr 0x25693d8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetKeyAlgorithm, addr 0x25cbbd4, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW GetKeyAlgorithm();
 
-  /// @brief Method GetKeyAlgorithmParameters, addr 0x2569434, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetKeyAlgorithmParameters, addr 0x25cbc30, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyAlgorithmParameters();
 
-  /// @brief Method GetNotAfter, addr 0x2569a88, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetNotAfter, addr 0x25cc284, size 0xa0, virtual false, abstract: false, final false
   inline ::System::DateTime GetNotAfter();
 
-  /// @brief Method GetNotBefore, addr 0x25698d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetNotBefore, addr 0x25cc0d4, size 0xa0, virtual false, abstract: false, final false
   inline ::System::DateTime GetNotBefore();
 
-  /// @brief Method GetPublicKey, addr 0x2569494, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x25cbc90, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKey();
 
-  /// @brief Method GetRawCertData, addr 0x2569328, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetRawCertData, addr 0x25cbb24, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawCertData();
 
-  /// @brief Method GetRawCertHash, addr 0x25692b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetRawCertHash, addr 0x25cbab0, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawCertHash();
 
-  /// @brief Method GetRawSerialNumber, addr 0x256923c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetRawSerialNumber, addr 0x25cba38, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawSerialNumber();
 
-  /// @brief Method GetSerialNumber, addr 0x25694f4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetSerialNumber, addr 0x25cbcf0, size 0x6c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSerialNumber();
 
-  /// @brief Method GetSerialNumberString, addr 0x2569560, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetSerialNumberString, addr 0x25cbd5c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW GetSerialNumberString();
 
-  /// @brief Method ImportHandle, addr 0x2569b28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ImportHandle, addr 0x25cc324, size 0x30, virtual false, abstract: false, final false
   inline void ImportHandle(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate* New_ctor();
@@ -169,25 +169,25 @@ public:
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                               ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Reset, addr 0x2568850, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x25cb04c, size 0xb8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x2568f9c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x25cb798, size 0x40, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2568f5c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x25cb758, size 0x40, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ThrowIfInvalid, addr 0x2569034, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfInvalid, addr 0x25cb830, size 0xc, virtual false, abstract: false, final false
   inline void ThrowIfInvalid();
 
-  /// @brief Method ToString, addr 0x2569588, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25cbd84, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x256959c, size 0x33c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25cbd98, size 0x33c, virtual true, abstract: false, final false
   inline ::StringW ToString(bool fVerbose);
 
-  /// @brief Method ValidateKeyStorageFlags, addr 0x2568d20, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ValidateKeyStorageFlags, addr 0x25cb51c, size 0x114, virtual false, abstract: false, final false
   static inline void ValidateKeyStorageFlags(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*& __cordl_internal_get_impl();
@@ -250,37 +250,37 @@ public:
 
   constexpr void __cordl_internal_set_lazySubject(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2568908, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb104, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2568e34, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb630, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x256897c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb178, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2568ab0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb2ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
-  /// @brief Method .ctor, addr 0x2568abc, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb2b8, size 0x264, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method .ctor, addr 0x2568a1c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb218, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
 
-  /// @brief Method .ctor, addr 0x2568f18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb714, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Impl, addr 0x2569b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Impl, addr 0x25cc354, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Impl();
 
-  /// @brief Method get_IsValid, addr 0x2569b60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x25cc35c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_Issuer, addr 0x2568fdc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x25cb7d8, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_Issuer();
 
-  /// @brief Method get_Subject, addr 0x2569040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x25cb83c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_Subject();
 
   /// @brief Convert to "::System::IDisposable"

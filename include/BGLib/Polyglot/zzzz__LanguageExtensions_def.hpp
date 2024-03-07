@@ -22,13 +22,13 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToCultureInfoName, addr 0xe90fb4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToCultureInfoName, addr 0xeb1128, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::Language lang);
 
-  /// @brief Method ToLanguage, addr 0xe9109c, size 0x7e8, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0xeb1210, size 0x7e8, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ToLanguage(::StringW serializedName);
 
-  /// @brief Method ToSerializedName, addr 0xe90e04, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToSerializedName, addr 0xeb0f78, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW ToSerializedName(::BGLib::Polyglot::Language lang);
 
 protected:

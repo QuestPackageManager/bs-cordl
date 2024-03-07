@@ -37,25 +37,25 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XAttributeWrapper* New_ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method .ctor, addr 0x27ac70c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280d9c8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method get_Attribute, addr 0x27ad4f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x280e7ac, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XAttribute* get_Attribute();
 
-  /// @brief Method get_LocalName, addr 0x27ad5a8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x280e864, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x27ad5cc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x280e888, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_ParentNode, addr 0x27ad5f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x280e8ac, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Value, addr 0x27ad568, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x280e824, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x27ad584, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x280e840, size 0x24, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

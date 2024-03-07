@@ -82,28 +82,28 @@ public:
 
   __declspec(property(get = get_entryWidth)) int32_t entryWidth;
 
-  /// @brief Method Allocate, addr 0x2f96df8, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x2ff0630, size 0x41c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc Allocate(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* storage);
 
-  /// @brief Method Construct, addr 0x2f96b1c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x2ff0354, size 0x110, virtual false, abstract: false, final false
   inline void Construct(int32_t pageHeight, int32_t entryWidth, int32_t entryHeight);
 
-  /// @brief Method CountTrailingZeroes, addr 0x2f97214, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CountTrailingZeroes, addr 0x2ff0a4c, size 0x64, virtual false, abstract: false, final false
   static inline uint8_t CountTrailingZeroes(uint32_t val);
 
-  /// @brief Method ForceFirstAlloc, addr 0x2f96c2c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ForceFirstAlloc, addr 0x2ff0464, size 0x1cc, virtual false, abstract: false, final false
   inline void ForceFirstAlloc(uint16_t firstPageX, uint16_t firstPageY);
 
-  /// @brief Method Free, addr 0x2f97278, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x2ff0ab0, size 0x144, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method GetAllocPageAtlasLocation, addr 0x2f973cc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAllocPageAtlasLocation, addr 0x2ff0c04, size 0x78, virtual false, abstract: false, final false
   inline void GetAllocPageAtlasLocation(int32_t page, ByRef<uint16_t> x, ByRef<uint16_t> y);
 
-  /// @brief Method get_entryHeight, addr 0x2f973c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entryHeight, addr 0x2ff0bfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_entryHeight();
 
-  /// @brief Method get_entryWidth, addr 0x2f973bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entryWidth, addr 0x2ff0bf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_entryWidth();
 
   // Ctor Parameters []

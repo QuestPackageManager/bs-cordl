@@ -22,12 +22,12 @@ public:
   /// @brief Field Log, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Log, put = setStaticF_Log))::System::Collections::Concurrent::CDSCollectionETWBCLProvider* Log;
 
-  /// @brief Method ConcurrentDictionary_AcquiringAllLocks, addr 0x267f0ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConcurrentDictionary_AcquiringAllLocks, addr 0x26e043c, size 0x4c, virtual false, abstract: false, final false
   inline void ConcurrentDictionary_AcquiringAllLocks(int32_t numOfBuckets);
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x267f0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e0434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* getStaticF_Log();

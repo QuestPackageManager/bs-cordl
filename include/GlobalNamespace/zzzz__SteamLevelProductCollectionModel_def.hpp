@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set__levelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12e94ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1311ba0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_appId, addr 0x12e94dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_appId, addr 0x1311b90, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_appId();
 
-  /// @brief Method get_levelId, addr 0x12e94e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelId, addr 0x1311b98, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelId();
 
   /// @brief Convert to "::GlobalNamespace::ILevelProductData"
@@ -180,16 +180,16 @@ public:
   constexpr void __cordl_internal_set__levelProductsData(
       ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> value);
 
-  /// @brief Method .ctor, addr 0x12e950c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1311bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bundleId, addr 0x12e94f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bundleId, addr 0x1311ba8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bundleId();
 
-  /// @brief Method get_levelPackId, addr 0x12e94fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackId, addr 0x1311bb0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelPackId();
 
-  /// @brief Method get_levelProductsData, addr 0x12e9504, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelProductsData, addr 0x1311bb8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* get_levelProductsData();
 
   /// @brief Convert to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
@@ -285,19 +285,19 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12e9534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1311be8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_redirectedBundleId, addr 0x12e9524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedBundleId, addr 0x1311bd8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_redirectedBundleId();
 
-  /// @brief Method get_shouldOwnLevelPackId, addr 0x12e951c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shouldOwnLevelPackId, addr 0x1311bd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shouldOwnLevelPackId();
 
-  /// @brief Method get_targetLevelPackId, addr 0x12e9514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetLevelPackId, addr 0x1311bc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_targetLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x12e952c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x1311be0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
@@ -368,13 +368,13 @@ public:
 
   __declspec(property(get = get_levelProductsData))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* levelProductsData;
 
-  /// @brief Method GetLevelPackProductData, addr 0x12e93ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackProductData, addr 0x1311aa0, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
 
-  /// @brief Method GetLevelPackRedirectionData, addr 0x12e9464, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackRedirectionData, addr 0x1311b18, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* GetLevelPackRedirectionData(::StringW levelPackId);
 
-  /// @brief Method GetLevelProductData, addr 0x12e9374, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelProductData, addr 0x1311a28, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GetLevelProductData(::StringW levelId);
 
   static inline ::GlobalNamespace::SteamLevelProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs);
@@ -403,10 +403,10 @@ public:
   constexpr void
   __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>* value);
 
-  /// @brief Method .ctor, addr 0x12e88f4, size 0xa30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1310fa8, size 0xa30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs);
 
-  /// @brief Method get_levelProductsData, addr 0x12e9324, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductsData, addr 0x13119d8, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* get_levelProductsData();
 
 protected:

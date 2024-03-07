@@ -82,22 +82,22 @@ public:
   /// @brief Field useFABRIK, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_useFABRIK, put = __cordl_internal_set_useFABRIK)) bool useFABRIK;
 
-  /// @brief Method BackwardReach, addr 0x1339374, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BackwardReach, addr 0x13618cc, size 0xb4, virtual false, abstract: false, final false
   inline void BackwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method FixTransforms, addr 0x133864c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1360ba4, size 0x78, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method ForwardReach, addr 0x1339294, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ForwardReach, addr 0x13617ec, size 0xe0, virtual false, abstract: false, final false
   inline void ForwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method Initiate, addr 0x13386c4, size 0x614, virtual true, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1360c1c, size 0x614, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method IsValid, addr 0x1338014, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x136056c, size 0x320, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
-  /// @brief Method MapToSolverPositions, addr 0x1339428, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method MapToSolverPositions, addr 0x1361980, size 0x23c, virtual false, abstract: false, final false
   inline void MapToSolverPositions(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   static inline ::RootMotion::FinalIK::IKMappingSpine* New_ctor();
@@ -105,20 +105,20 @@ public:
   static inline ::RootMotion::FinalIK::IKMappingSpine* New_ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone,
                                                                 ::UnityEngine::Transform* rightUpperArmBone, ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method ReadPose, addr 0x1338d10, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ReadPose, addr 0x1361268, size 0x264, virtual false, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method SetBones, addr 0x13385e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetBones, addr 0x1360b38, size 0x10, virtual false, abstract: false, final false
   inline void SetBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone,
                        ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x13385f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1360b48, size 0x5c, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method UseFABRIK, addr 0x1338cd8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UseFABRIK, addr 0x1361230, size 0x38, virtual false, abstract: false, final false
   inline bool UseFABRIK();
 
-  /// @brief Method WritePose, addr 0x1338f74, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method WritePose, addr 0x13614cc, size 0x320, virtual false, abstract: false, final false
   inline void WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   constexpr int32_t const& __cordl_internal_get_iterations() const;
@@ -205,10 +205,10 @@ public:
 
   constexpr void __cordl_internal_set_useFABRIK(bool value);
 
-  /// @brief Method .ctor, addr 0x1338334, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136088c, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1338470, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13609c8, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone,
                     ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 

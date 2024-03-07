@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Vertex (*)()>(&::TMPro::TMP_Vertex::get_zero)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2ce8440;
+  constexpr static std::size_t addrs = 0x2d46c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Vertex>::get(), "get_zero",

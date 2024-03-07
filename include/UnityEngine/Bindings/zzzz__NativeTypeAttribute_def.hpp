@@ -66,25 +66,25 @@ public:
 
   constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e258cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81104, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e258e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81120, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
 
-  /// @brief Method .ctor, addr 0x2e25a18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81250, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
 
-  /// @brief Method .ctor, addr 0x2e25910, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81148, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method set_CodegenOptions, addr 0x2e258c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_CodegenOptions, addr 0x2e810fc, size 0x8, virtual true, abstract: false, final true
   inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
 
-  /// @brief Method set_Header, addr 0x2e258b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x2e810ec, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
-  /// @brief Method set_IntermediateScriptingStructName, addr 0x2e258bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IntermediateScriptingStructName, addr 0x2e810f4, size 0x8, virtual false, abstract: false, final false
   inline void set_IntermediateScriptingStructName(::StringW value);
 
 protected:

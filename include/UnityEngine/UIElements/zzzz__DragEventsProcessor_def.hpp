@@ -156,34 +156,34 @@ public:
   /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method OnPointerCancelEvent, addr 0x2f1c71c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCancelEvent, addr 0x2f75f54, size 0x40, virtual false, abstract: false, final false
   inline void OnPointerCancelEvent(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x2f1c580, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDownEvent, addr 0x2f75db8, size 0x94, virtual false, abstract: false, final false
   inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerLeaveEvent, addr 0x2f1c6d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnPointerLeaveEvent, addr 0x2f75f10, size 0x44, virtual false, abstract: false, final false
   inline void OnPointerLeaveEvent(::UnityEngine::UIElements::PointerLeaveEvent* evt);
 
-  /// @brief Method OnPointerMoveEvent, addr 0x2f1c75c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMoveEvent, addr 0x2f75f94, size 0x244, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUpEvent, addr 0x2f1c614, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUpEvent, addr 0x2f75e4c, size 0xc4, virtual false, abstract: false, final false
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x2f1bf30, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x2f75768, size 0x2ac, virtual false, abstract: false, final false
   inline void RegisterCallbacksFromTarget();
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x2f1c1dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x2f75a14, size 0x4, virtual false, abstract: false, final false
   inline void RegisterCallbacksFromTarget(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
   /// @brief Method StartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2f1c1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2f75a18, size 0x8, virtual false, abstract: false, final false
   inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2f1c1e8, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2f75a20, size 0x398, virtual false, abstract: false, final false
   inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
 
   /// @brief Method UpdateDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -219,16 +219,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2f18548, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f71d80, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method get_isEditorContext, addr 0x2f1be10, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_isEditorContext, addr 0x2f75648, size 0x120, virtual false, abstract: false, final false
   inline bool get_isEditorContext();
 
-  /// @brief Method get_supportsDragEvents, addr 0x2f1be08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_supportsDragEvents, addr 0x2f75640, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsDragEvents();
 
-  /// @brief Method get_useDragEvents, addr 0x2f1a108, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_useDragEvents, addr 0x2f73940, size 0x30, virtual false, abstract: false, final false
   inline bool get_useDragEvents();
 
 protected:

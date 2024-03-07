@@ -2,6 +2,7 @@
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__ScriptableObjectReferenceAsyncInstaller_1_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__ScriptableObjectReferenceAsyncInstaller_1_def.hpp"
@@ -9,30 +10,30 @@
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
-constexpr BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-template <typename T> inline void BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<T>::MoveNext() {
+template <typename T> inline void BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<T>>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<T>>::get(),
       "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline void BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<T>::SetStateMachine(
+inline void BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<T>::SetStateMachine(
     ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<T>>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<T>>::get(),
       "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
@@ -41,8 +42,8 @@ inline void BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInst
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: Some("nullptr") },
 // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: Some("{}") }]
 template <typename T>
-constexpr ::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<
-    T>::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+constexpr ::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<
+    T>::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                            ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -51,35 +52,31 @@ constexpr ::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInst
 }
 // Ctor Parameters []
 template <typename T>
-constexpr ::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3<
-    T>::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__3() {}
+constexpr ::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<
+    T>::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4() {}
 template <typename T>
-constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<T>*& BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_get__assetReference() {
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>&
+BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_get__operationHandle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____assetReference;
-}
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<T>*> const&
-BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_get__assetReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____assetReference;
+  return this->____operationHandle;
 }
 template <typename T>
-constexpr void BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_set__assetReference(::UnityEngine::AddressableAssets::AssetReferenceT_1<T>* value) {
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> const&
+BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_get__operationHandle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetReference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  return this->____operationHandle;
 }
-template <typename T> constexpr T& BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_get__instance() {
+template <typename T>
+constexpr void BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_set__operationHandle(
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____instance;
+  this->____operationHandle = value;
 }
-template <typename T> constexpr T const& BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_get__instance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____instance;
-}
-template <typename T> constexpr void BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::__cordl_internal_set__instance(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instance)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+template <typename T> inline ::StringW BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::get_assetRuntimeKey() {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T>
 inline void BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry,
@@ -102,10 +99,23 @@ BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::Lo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, registry, _);
 }
+template <typename T>
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::LoadAsync(::StringW runtimeKey) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>*>::get(), "LoadAsync",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>, false>(nullptr, ___internal_method, runtimeKey);
+}
 template <typename T> inline void BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::InstallBindings() {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline void BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::OnDestroy() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>*>::get(),
+                                               "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>* BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::New_ctor() {

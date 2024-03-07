@@ -60,22 +60,22 @@ public:
   /// @brief Field wildcards, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards))::System::Collections::Hashtable* wildcards;
 
-  /// @brief Method AddName, addr 0x29976c8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x29f8f00, size 0x134, virtual false, abstract: false, final false
   inline int32_t AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
 
-  /// @brief Method AddNamespaceList, addr 0x29977fc, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method AddNamespaceList, addr 0x29f9034, size 0x39c, virtual false, abstract: false, final false
   inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, bool allowLocal);
 
-  /// @brief Method AddWildcard, addr 0x2997b98, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddWildcard, addr 0x29f93d0, size 0x168, virtual false, abstract: false, final false
   inline void AddWildcard(::StringW wildcard, ::System::Object* particle);
 
-  /// @brief Method Exists, addr 0x299848c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x29f9cc4, size 0x30, virtual false, abstract: false, final false
   inline bool Exists(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetNamespaceListSymbols, addr 0x2997d00, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceListSymbols, addr 0x29f9538, size 0x78c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
 
-  /// @brief Method GetParticle, addr 0x29984bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetParticle, addr 0x29f9cf4, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* GetParticle(int32_t symbol);
 
   static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
@@ -116,16 +116,16 @@ public:
 
   constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x2997604, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f8e3c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x29976a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x29f8ee0, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsUpaEnforced, addr 0x29976b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpaEnforced, addr 0x29f8eec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUpaEnforced();
 
-  /// @brief Method set_IsUpaEnforced, addr 0x29976bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsUpaEnforced, addr 0x29f8ef4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsUpaEnforced(bool value);
 
 protected:

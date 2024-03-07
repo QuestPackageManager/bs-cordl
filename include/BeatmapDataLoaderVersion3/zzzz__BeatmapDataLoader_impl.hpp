@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter::*)(
     ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1306d7c;
+  constexpr static std::size_t addrs = 0x132f214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter::*)(float_t)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter::BeatToTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1306e08;
+  constexpr static std::size_t addrs = 0x132f2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter::*)(
     ::GlobalNamespace::BpmTimeProcessor*, ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x13052b8;
+  constexpr static std::size_t addrs = 0x132d764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventData* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter::*)(::BeatmapSaveDataVersion3::BasicEventData*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter::Convert)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x130530c;
+  constexpr static std::size_t addrs = 0x132d7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter::*)(::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1302fb8;
+  constexpr static std::size_t addrs = 0x132b464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter::*)(::BeatmapSaveDataVersion3::BombNoteData*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter::Convert)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x1303134;
+  constexpr static std::size_t addrs = 0x132b5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter::*)(::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13035c4;
+  constexpr static std::size_t addrs = 0x132ba70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BPMChangeBeatmapEventData* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter::*)(::BeatmapSaveDataVersion3::BpmChangeEventData*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter::Convert)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x13035ec;
+  constexpr static std::size_t addrs = 0x132ba98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter::*)(
     ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13052e4;
+  constexpr static std::size_t addrs = 0x132d790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventData* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter::*)(::BeatmapSaveDataVersion3::ColorBoostEventData*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter::Convert)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x13053dc;
+  constexpr static std::size_t addrs = 0x132d888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter::*)(::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1302f90;
+  constexpr static std::size_t addrs = 0x132b43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapObjectData* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter::*)(::BeatmapSaveDataVersion3::ColorNoteData*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter::Convert)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x1303080;
+  constexpr static std::size_t addrs = 0x132b52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter::*)(
     ::BeatmapSaveDataVersion3::FxEventsCollection*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13062ac;
+  constexpr static std::size_t addrs = 0x132e754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -396,8 +396,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventDataBox* (
     ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter::*)(::BeatmapSaveDataVersion3::FxEventBox*, ::GlobalNamespace::ILightGroup*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter::Convert)> {
-  constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x1306824;
+  constexpr static std::size_t size = 0x548;
+  constexpr static std::size_t addrs = 0x132ecc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter::*)(
     ::BeatmapSaveDataVersion3::FxEventsCollection*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1306284;
+  constexpr static std::size_t addrs = 0x132e72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,8 +461,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventDataBox* (
     ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter::*)(::BeatmapSaveDataVersion3::FxEventBox*, ::GlobalNamespace::ILightGroup*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter::Convert)> {
-  constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x13062d4;
+  constexpr static std::size_t size = 0x548;
+  constexpr static std::size_t addrs = 0x132e77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -511,8 +511,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IntFxBaseData* (*)(int32_t, ::BeatmapSaveDataVersion3::FxEventsCollection*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxBaseDataConvertor::Convert)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x13071b0;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x132f638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -537,8 +537,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::FloatFxBaseData* (*)(int32_t, ::BeatmapSaveDataVersion3::FxEventsCollection*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxBaseDataConvertor::Convert)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x13072c4;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x132f73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -564,8 +564,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (*)(::BeatmapSaveDataVersion3::IndexFilter*, int32_t)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IndexFilterConverter::Convert)> {
-  constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x1306e24;
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x132f2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -581,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::BeatmapSaveDataVersion3::IndexFilter*, int32_t)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IndexFilterConverter::IsIndexFilterValid)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x13073f0;
+  constexpr static std::size_t addrs = 0x132f85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -615,8 +615,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (*)(::BeatmapSaveDataVersion3::LightColorEventBox*, ::GlobalNamespace::ILightGroup*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightColorEventBoxConverter::Convert)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x1305474;
+  constexpr static std::size_t size = 0x344;
+  constexpr static std::size_t addrs = 0x132d920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightColorEventBoxConverter::*)()>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightColorEventBoxConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1307578;
+  constexpr static std::size_t addrs = 0x132f9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -667,8 +667,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightColorBaseData* (*)(::BeatmapSaveDataVersion3::LightColorBaseData*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightColoBaseDataConvertor::Convert)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x1307478;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x132f8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -692,7 +692,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (*)(::BeatmapSaveDataVersion3::LightRotationEventBox*, ::GlobalNamespace::ILightGroup*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationEventBoxConverter::Convert)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x13057bc;
+  constexpr static std::size_t addrs = 0x132dc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -709,7 +709,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationEventBoxConverter::*)()>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationEventBoxConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1307644;
+  constexpr static std::size_t addrs = 0x132faa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -744,7 +744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightRotationBaseData* (*)(::BeatmapSaveDataVersion3::LightRotationBaseData*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationBaseDataConvertor::Convert)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x1307580;
+  constexpr static std::size_t addrs = 0x132f9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -770,7 +770,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (*)(::BeatmapSaveDataVersion3::LightTranslationEventBox*, ::GlobalNamespace::ILightGroup*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationEventBoxConverter::Convert)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x1305d20;
+  constexpr static std::size_t addrs = 0x132e1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationEventBoxConverter::*)()>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationEventBoxConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13076e8;
+  constexpr static std::size_t addrs = 0x132fb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -822,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightTranslationBaseData* (*)(::BeatmapSaveDataVersion3::LightTranslationBaseData*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationBaseDataConvertor::Convert)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x130764c;
+  constexpr static std::size_t addrs = 0x132fab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -848,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter::*)(::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1302fe0;
+  constexpr static std::size_t addrs = 0x132b48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -863,7 +863,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter::*)(::BeatmapSaveDataVersion3::ObstacleData*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter::Convert)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x1303190;
+  constexpr static std::size_t addrs = 0x132b63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -878,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (*)(int32_t)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter::GetNoteLineLayer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x13076f0;
+  constexpr static std::size_t addrs = 0x132fb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -917,7 +917,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter::*)(
     ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1303680;
+  constexpr static std::size_t addrs = 0x132bb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -933,7 +933,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::SpawnRotationBeatmapEventData* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter::*)(::BeatmapSaveDataVersion3::RotationEventData*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter::Convert)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x13036a8;
+  constexpr static std::size_t addrs = 0x132bb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -948,7 +948,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType (*)(
     ::BeatmapSaveDataCommon::ExecutionTime)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter::SpawnRotationEventType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1307704;
+  constexpr static std::size_t addrs = 0x132fb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -989,7 +989,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter::*)(::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1303008;
+  constexpr static std::size_t addrs = 0x132b4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1004,7 +1004,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter::*)(::BeatmapSaveDataVersion3::SliderData*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter::Convert)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x1303270;
+  constexpr static std::size_t addrs = 0x132b71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BurstSliderConverter::*)(
     ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BurstSliderConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1303030;
+  constexpr static std::size_t addrs = 0x132b4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1053,7 +1053,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapObjectData* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BurstSliderConverter::*)(::BeatmapSaveDataVersion3::BurstSliderData*)>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BurstSliderConverter::Convert)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x13033d4;
+  constexpr static std::size_t addrs = 0x132b880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1086,7 +1086,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter::*)(
     ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*, ::GlobalNamespace::EnvironmentKeywords*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter::_ctor)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x1304fe0;
+  constexpr static std::size_t addrs = 0x132d48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1102,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter::*)(
     ::BeatmapSaveDataCommon::BeatmapEventType)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter::IsEventValid)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x1306da4;
+  constexpr static std::size_t addrs = 0x132f23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1153,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter::*)(::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1303058;
+  constexpr static std::size_t addrs = 0x132b504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1168,7 +1168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter::*)(::BeatmapSaveDataVersion3::WaypointData*)>(&::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter::Convert)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x13034fc;
+  constexpr static std::size_t addrs = 0x132b9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1201,7 +1201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0::*)()>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1301e18;
+  constexpr static std::size_t addrs = 0x132a2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1216,7 +1216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0::*)()>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0::_GetBeatmapDataFromSaveDataJsonAsync_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1307714;
+  constexpr static std::size_t addrs = 0x132fb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1334,7 +1334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0::*)()>(
     &::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1301f10;
+  constexpr static std::size_t addrs = 0x132a3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1350,7 +1350,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0::*)()>(
         &::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0::_GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1307730;
+  constexpr static std::size_t addrs = 0x132fb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1395,7 +1395,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapData*>* (*)(::StringW, ::StringW, ::GlobalNamespace::BeatmapDifficulty, float_t, bool, ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::BeatmapDataLoaderVersion3::BeatmapDataLoader::GetBeatmapDataFromSaveDataJsonAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x1301ce4;
+  constexpr static std::size_t addrs = 0x132a190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1414,7 +1414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* (*)(::StringW)>(
     &::BeatmapDataLoaderVersion3::BeatmapDataLoader::GetBeatmapDataBasicInfoFromSaveDataJsonAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x1301e20;
+  constexpr static std::size_t addrs = 0x132a2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1429,7 +1429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (*)(::StringW)>(
     &::BeatmapDataLoaderVersion3::BeatmapDataLoader::GetBeatmapDataBasicInfoFromSaveDataJson)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x1301f18;
+  constexpr static std::size_t addrs = 0x132a3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1445,7 +1445,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapData* (*)(::StringW, ::StringW, ::GlobalNamespace::BeatmapDifficulty, float_t, bool, ::GlobalNamespace::IEnvironmentInfo*,
                                                     ::GlobalNamespace::PlayerSpecificSettings*)>(&::BeatmapDataLoaderVersion3::BeatmapDataLoader::GetBeatmapDataFromSaveDataJson)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x1302018;
+  constexpr static std::size_t addrs = 0x132a4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1466,7 +1466,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                     ::GlobalNamespace::EnvironmentKeywords*, ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::PlayerSpecificSettings*,
                                                     ::System::Diagnostics::Stopwatch*)>(&::BeatmapDataLoaderVersion3::BeatmapDataLoader::GetBeatmapDataFromSaveData)> {
   constexpr static std::size_t size = 0xca8;
-  constexpr static std::size_t addrs = 0x13022e8;
+  constexpr static std::size_t addrs = 0x132a794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1489,7 +1489,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::BeatmapData*, ::BeatmapSaveDataVersion3::BeatmapSaveData*, ::GlobalNamespace::BpmTimeProcessor*, ::GlobalNamespace::EnvironmentKeywords*)>(
         &::BeatmapDataLoaderVersion3::BeatmapDataLoader::ConvertBasicEvents)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x130374c;
+  constexpr static std::size_t addrs = 0x132bbf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1508,7 +1508,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::BeatmapData*, ::BeatmapSaveDataVersion3::BeatmapSaveData*, ::GlobalNamespace::BpmTimeProcessor*, ::GlobalNamespace::IEnvironmentLightGroups*)>(
         &::BeatmapDataLoaderVersion3::BeatmapDataLoader::ConvertEventBoxGroups)> {
   constexpr static std::size_t size = 0x1244;
-  constexpr static std::size_t addrs = 0x1303d9c;
+  constexpr static std::size_t addrs = 0x132c248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1525,7 +1525,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion3::BeatmapDataLoader::*)()>(&::BeatmapDataLoaderVersion3::BeatmapDataLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1306d74;
+  constexpr static std::size_t addrs = 0x132f20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion3::BeatmapDataLoader*>::get(), ".ctor",

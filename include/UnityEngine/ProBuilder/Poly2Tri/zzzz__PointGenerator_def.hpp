@@ -34,13 +34,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
 
-  /// @brief Method UniformDistribution, addr 0x2c1b55c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method UniformDistribution, addr 0x2c7bd94, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
 
-  /// @brief Method UniformGrid, addr 0x2c1b724, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UniformGrid, addr 0x2c7bf5c, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
 
-  /// @brief Method .ctor, addr 0x2c1b8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7c0e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF_RNG();

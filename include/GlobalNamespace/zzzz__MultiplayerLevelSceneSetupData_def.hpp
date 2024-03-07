@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_hasSong(bool value);
 
-  /// @brief Method .ctor, addr 0x2416ddc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247c3ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                     bool hasSong);
 

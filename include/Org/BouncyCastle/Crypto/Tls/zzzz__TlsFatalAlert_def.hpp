@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set_alertDescription(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x101afe0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103c6e4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint8_t alertDescription);
 
-  /// @brief Method .ctor, addr 0x101b3d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103cad4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(uint8_t alertDescription, ::System::Exception* alertCause);
 
-  /// @brief Method get_AlertDescription, addr 0x101ee64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AlertDescription, addr 0x1040568, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_AlertDescription();
 
 protected:

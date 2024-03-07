@@ -85,19 +85,19 @@ namespace RootMotion::FinalIK {
 class CORDL_TYPE __InteractionSystem__InteractionDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x13653a4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x138e8fc, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x1365434, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x138e98c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x1365390, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x138e8e8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
   static inline ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x1363b24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138d07c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -128,20 +128,20 @@ namespace RootMotion::FinalIK {
 class CORDL_TYPE __InteractionSystem__InteractionEventDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x1365518, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x138ea70, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject,
                                              ::RootMotion::FinalIK::__InteractionObject__InteractionEvent* interactionEvent, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x13655b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x138eb08, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x1365504, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x138ea5c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject,
                      ::RootMotion::FinalIK::__InteractionObject__InteractionEvent* interactionEvent);
 
   static inline ::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x1365440, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138e998, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -262,162 +262,162 @@ public:
 
   __declspec(property(get = get_triggersInRange, put = set_triggersInRange))::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* triggersInRange;
 
-  /// @brief Method ASThread, addr 0x1361b20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x138b078, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method ContactIsInRange, addr 0x1364144, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ContactIsInRange, addr 0x138d69c, size 0x1a8, virtual false, abstract: false, final false
   inline bool ContactIsInRange(int32_t index, ByRef<int32_t> bestRangeIndex);
 
-  /// @brief Method GetClosestInteractionObjectInRange, addr 0x1362eb0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetClosestInteractionObjectInRange, addr 0x138c408, size 0x38, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::InteractionObject> GetClosestInteractionObjectInRange();
 
-  /// @brief Method GetClosestInteractionObjectsInRange, addr 0x1362f48, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetClosestInteractionObjectsInRange, addr 0x138c4a0, size 0x108, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionObject>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionObject>>*> GetClosestInteractionObjectsInRange();
 
-  /// @brief Method GetClosestInteractionRange, addr 0x1362c24, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetClosestInteractionRange, addr 0x138c17c, size 0xe8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__InteractionTrigger__Range* GetClosestInteractionRange();
 
-  /// @brief Method GetClosestInteractionTargetInRange, addr 0x1362ee8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetClosestInteractionTargetInRange, addr 0x138c440, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::InteractionTarget> GetClosestInteractionTargetInRange();
 
-  /// @brief Method GetClosestInteractionTargetsInRange, addr 0x1363050, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetClosestInteractionTargetsInRange, addr 0x138c5a8, size 0x1e0, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> GetClosestInteractionTargetsInRange();
 
-  /// @brief Method GetClosestTriggerIndex, addr 0x1362d0c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetClosestTriggerIndex, addr 0x138c264, size 0x1a4, virtual false, abstract: false, final false
   inline int32_t GetClosestTriggerIndex();
 
-  /// @brief Method GetInteractionObject, addr 0x1362378, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetInteractionObject, addr 0x138b8d0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::InteractionObject> GetInteractionObject(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method GetMinActiveProgress, addr 0x13624a0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetMinActiveProgress, addr 0x138b9f8, size 0xd0, virtual false, abstract: false, final false
   inline float_t GetMinActiveProgress();
 
-  /// @brief Method GetProgress, addr 0x13623f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetProgress, addr 0x138b950, size 0xa8, virtual false, abstract: false, final false
   inline float_t GetProgress(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method GetTriggerRange, addr 0x13634a4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetTriggerRange, addr 0x138c9fc, size 0x120, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__InteractionTrigger__Range* GetTriggerRange(int32_t index);
 
-  /// @brief Method InteractionPause, addr 0x1363e30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InteractionPause, addr 0x138d388, size 0x20, virtual false, abstract: false, final false
   inline void InteractionPause(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
-  /// @brief Method InteractionResume, addr 0x1363e50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InteractionResume, addr 0x138d3a8, size 0x1c, virtual false, abstract: false, final false
   inline void InteractionResume(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
-  /// @brief Method InteractionStop, addr 0x1363e6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InteractionStop, addr 0x138d3c4, size 0x1c, virtual false, abstract: false, final false
   inline void InteractionStop(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
-  /// @brief Method IsInInteraction, addr 0x1361cdc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsInInteraction, addr 0x138b234, size 0xb8, virtual false, abstract: false, final false
   inline bool IsInInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method IsInSync, addr 0x1361ee4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsInSync, addr 0x138b43c, size 0xe4, virtual false, abstract: false, final false
   inline bool IsInSync();
 
-  /// @brief Method IsPaused, addr 0x1361e4c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsPaused, addr 0x138b3a4, size 0x98, virtual false, abstract: false, final false
   inline bool IsPaused();
 
-  /// @brief Method IsPaused, addr 0x1361d94, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsPaused, addr 0x138b2ec, size 0xb8, virtual false, abstract: false, final false
   inline bool IsPaused(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method IsValid, addr 0x1361bfc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x138b154, size 0xe0, virtual false, abstract: false, final false
   inline bool IsValid(bool log);
 
-  /// @brief Method LookAtInteraction, addr 0x1363e88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LookAtInteraction, addr 0x138d3e0, size 0x54, virtual false, abstract: false, final false
   inline void LookAtInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
   static inline ::RootMotion::FinalIK::InteractionSystem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1364c04, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x138e15c, size 0x3e8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x13644a0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x138d9f8, size 0xe4, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnFixTransforms, addr 0x1364bec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnFixTransforms, addr 0x138e144, size 0x18, virtual false, abstract: false, final false
   inline void OnFixTransforms();
 
-  /// @brief Method OnPostFBBIK, addr 0x1364b2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnPostFBBIK, addr 0x138e084, size 0xc0, virtual false, abstract: false, final false
   inline void OnPostFBBIK();
 
-  /// @brief Method OnPreFBBIK, addr 0x1364aa4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnPreFBBIK, addr 0x138dffc, size 0x88, virtual false, abstract: false, final false
   inline void OnPreFBBIK();
 
-  /// @brief Method OnTriggerEnter, addr 0x1363edc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x138d434, size 0x16c, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* c);
 
-  /// @brief Method OnTriggerExit, addr 0x1364048, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x138d5a0, size 0xfc, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* c);
 
-  /// @brief Method OpenScriptReference, addr 0x1361988, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x138aee0, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial1, addr 0x13619cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial1, addr 0x138af24, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial1();
 
-  /// @brief Method OpenTutorial2, addr 0x1361a10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial2, addr 0x138af68, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial2();
 
-  /// @brief Method OpenTutorial3, addr 0x1361a54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial3, addr 0x138afac, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial3();
 
-  /// @brief Method OpenTutorial4, addr 0x1361a98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial4, addr 0x138aff0, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial4();
 
-  /// @brief Method OpenUserManual, addr 0x1361944, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x138ae9c, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method PauseAll, addr 0x136224c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PauseAll, addr 0x138b7a4, size 0x68, virtual false, abstract: false, final false
   inline void PauseAll();
 
-  /// @brief Method PauseInteraction, addr 0x13620c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PauseInteraction, addr 0x138b618, size 0x84, virtual false, abstract: false, final false
   inline bool PauseInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method Raycasting, addr 0x1364868, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Raycasting, addr 0x138ddc0, size 0x130, virtual false, abstract: false, final false
   inline void Raycasting();
 
-  /// @brief Method ResumeAll, addr 0x13622b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ResumeAll, addr 0x138b80c, size 0x68, virtual false, abstract: false, final false
   inline void ResumeAll();
 
-  /// @brief Method ResumeInteraction, addr 0x1362144, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ResumeInteraction, addr 0x138b69c, size 0x84, virtual false, abstract: false, final false
   inline bool ResumeInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method Start, addr 0x13635e4, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x138cb3c, size 0x540, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartInteraction, addr 0x1361fc8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StartInteraction, addr 0x138b520, size 0xf8, virtual false, abstract: false, final false
   inline bool StartInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject, bool interrupt);
 
-  /// @brief Method StopAll, addr 0x136231c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StopAll, addr 0x138b874, size 0x5c, virtual false, abstract: false, final false
   inline void StopAll();
 
-  /// @brief Method StopInteraction, addr 0x13621c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StopInteraction, addr 0x138b720, size 0x84, virtual false, abstract: false, final false
   inline bool StopInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method SupportGroup, addr 0x1361adc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x138b034, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method TriggerEffectorsReady, addr 0x1363230, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method TriggerEffectorsReady, addr 0x138c788, size 0x274, virtual false, abstract: false, final false
   inline bool TriggerEffectorsReady(int32_t index);
 
-  /// @brief Method TriggerIndexIsValid, addr 0x13626ec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TriggerIndexIsValid, addr 0x138bc44, size 0x114, virtual false, abstract: false, final false
   inline bool TriggerIndexIsValid(int32_t index);
 
-  /// @brief Method TriggerInteraction, addr 0x1362570, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method TriggerInteraction, addr 0x138bac8, size 0x17c, virtual false, abstract: false, final false
   inline bool TriggerInteraction(int32_t index, bool interrupt);
 
-  /// @brief Method TriggerInteraction, addr 0x1362800, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TriggerInteraction, addr 0x138bd58, size 0x1bc, virtual false, abstract: false, final false
   inline bool TriggerInteraction(int32_t index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionObject*> interactionObject);
 
-  /// @brief Method TriggerInteraction, addr 0x13629bc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TriggerInteraction, addr 0x138bf14, size 0x268, virtual false, abstract: false, final false
   inline bool TriggerInteraction(int32_t index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionTarget*> interactionTarget);
 
-  /// @brief Method Update, addr 0x1364584, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x138dadc, size 0x2e4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateEffectors, addr 0x1364998, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UpdateEffectors, addr 0x138def0, size 0x10c, virtual false, abstract: false, final false
   inline void UpdateEffectors();
 
-  /// @brief Method UpdateTriggerEventBroadcasting, addr 0x1363be8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method UpdateTriggerEventBroadcasting, addr 0x138d140, size 0x248, virtual false, abstract: false, final false
   inline void UpdateTriggerEventBroadcasting();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_FPSCamera() const;
@@ -565,22 +565,22 @@ public:
 
   constexpr void __cordl_internal_set_targetTag(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1364fec, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138e544, size 0x3a4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ik, addr 0x13635c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ik, addr 0x138cb1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> get_ik();
 
-  /// @brief Method get_inInteraction, addr 0x1361b64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_inInteraction, addr 0x138b0bc, size 0x98, virtual false, abstract: false, final false
   inline bool get_inInteraction();
 
-  /// @brief Method get_triggersInRange, addr 0x13635d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggersInRange, addr 0x138cb2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* get_triggersInRange();
 
-  /// @brief Method set_ik, addr 0x13635cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ik, addr 0x138cb24, size 0x8, virtual false, abstract: false, final false
   inline void set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
 
-  /// @brief Method set_triggersInRange, addr 0x13635dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggersInRange, addr 0x138cb34, size 0x8, virtual false, abstract: false, final false
   inline void set_triggersInRange(::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* value);
 
 protected:

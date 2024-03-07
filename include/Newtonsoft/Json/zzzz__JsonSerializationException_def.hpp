@@ -34,13 +34,13 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonSerializationException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x27438b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x27a3b70, size 0xbc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x2740320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x27a05dc, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
 
-  /// @brief Method Create, addr 0x2743830, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x27a3aec, size 0x84, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor();
@@ -51,16 +51,16 @@ public:
 
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2743824, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a3ae0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x274382c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a3ae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2742f58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a3214, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2743828, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a3ae4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

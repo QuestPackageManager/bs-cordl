@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__BeatmapLevelsEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
 #include "GlobalNamespace/zzzz__IAdditionalContentEntitlementModel_def.hpp"
+#include "GlobalNamespace/zzzz__IEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::IAdditionalContentEntitlementModel*)>(
     &::GlobalNamespace::BeatmapLevelsEntitlementModel::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x12c94b0;
+  constexpr static std::size_t addrs = 0x12f08b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,17 +23,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelsEntitlementModel.AddPack
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelsEntitlementModel.AddAlwaysOwnedPack
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::PackDefinitionSO*)>(
-    &::GlobalNamespace::BeatmapLevelsEntitlementModel::AddPack)> {
+    &::GlobalNamespace::BeatmapLevelsEntitlementModel::AddAlwaysOwnedPack)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x12c955c;
+  constexpr static std::size_t addrs = 0x12f0960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "AddPack", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "AddAlwaysOwnedPack", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PackDefinitionSO*>::get() })));
     return ___internal_method;
   }
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x12c989c;
+  constexpr static std::size_t addrs = 0x12f0ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,23 +54,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelsEntitlementModel.GetLevelPackEntitlementStatusAsync
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelsEntitlementModel.GetPackEntitlementStatusAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
-    ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelPackEntitlementStatusAsync)> {
+    ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetPackEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x12c99d0;
+  constexpr static std::size_t addrs = 0x12f0dd4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "GetLevelPackEntitlementStatusAsync",
-                                                 std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "GetPackEntitlementStatusAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
+/// @brief Convert operator to "::GlobalNamespace::IEntitlementModel"
+constexpr GlobalNamespace::BeatmapLevelsEntitlementModel::operator ::GlobalNamespace::IEntitlementModel*() noexcept {
+  return static_cast<::GlobalNamespace::IEntitlementModel*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IEntitlementModel"
+constexpr ::GlobalNamespace::IEntitlementModel* GlobalNamespace::BeatmapLevelsEntitlementModel::i___GlobalNamespace__IEntitlementModel() noexcept {
+  return static_cast<::GlobalNamespace::IEntitlementModel*>(static_cast<void*>(this));
+}
 constexpr ::GlobalNamespace::IAdditionalContentEntitlementModel*& GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__additionalContentEntitlementModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalContentEntitlementModel;
@@ -119,10 +127,10 @@ inline void GlobalNamespace::BeatmapLevelsEntitlementModel::_ctor(::GlobalNamesp
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAdditionalContentEntitlementModel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, additionalContentEntitlementModel);
 }
-inline void GlobalNamespace::BeatmapLevelsEntitlementModel::AddPack(::GlobalNamespace::PackDefinitionSO* pack) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "AddPack", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PackDefinitionSO*>::get() })));
+inline void GlobalNamespace::BeatmapLevelsEntitlementModel::AddAlwaysOwnedPack(::GlobalNamespace::PackDefinitionSO* pack) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "AddAlwaysOwnedPack", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PackDefinitionSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pack);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*
@@ -134,9 +142,9 @@ GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelEntitlementStatusAsync(:
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*, false>(this, ___internal_method, levelId, token);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*
-GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token) {
+GlobalNamespace::BeatmapLevelsEntitlementModel::GetPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "GetLevelPackEntitlementStatusAsync", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(), "GetPackEntitlementStatusAsync", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*, false>(this, ___internal_method, levelPackId, token);

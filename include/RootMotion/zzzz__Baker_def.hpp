@@ -156,10 +156,10 @@ public:
   /// @brief Field saveToFolder, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_saveToFolder, put = __cordl_internal_set_saveToFolder))::StringW saveToFolder;
 
-  /// @brief Method ASThread, addr 0x130cd40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1335298, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method BakeClip, addr 0x130cdb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BakeClip, addr 0x1335310, size 0x4, virtual false, abstract: false, final false
   inline void BakeClip();
 
   /// @brief Method GetCharacterRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -179,19 +179,19 @@ public:
   /// @brief Method OnStartBaking, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStartBaking();
 
-  /// @brief Method OpenScriptReference, addr 0x130ccb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1335210, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenUserManual, addr 0x130cc74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x13351cc, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method StartBaking, addr 0x130cdbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StartBaking, addr 0x1335314, size 0x4, virtual false, abstract: false, final false
   inline void StartBaking();
 
-  /// @brief Method StopBaking, addr 0x130cdc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StopBaking, addr 0x1335318, size 0x4, virtual false, abstract: false, final false
   inline void StopBaking();
 
-  /// @brief Method SupportGroup, addr 0x130ccfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x1335254, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
   constexpr float_t const& __cordl_internal_get__bakingProgress_k__BackingField() const;
@@ -278,25 +278,25 @@ public:
 
   constexpr void __cordl_internal_set_saveToFolder(::StringW value);
 
-  /// @brief Method .ctor, addr 0x130cdc4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133531c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakingProgress, addr 0x130cd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakingProgress, addr 0x13352f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bakingProgress();
 
-  /// @brief Method get_clipLength, addr 0x130cda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipLength, addr 0x1335300, size 0x8, virtual false, abstract: false, final false
   inline float_t get_clipLength();
 
-  /// @brief Method get_isBaking, addr 0x130cd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isBaking, addr 0x13352dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isBaking();
 
-  /// @brief Method set_bakingProgress, addr 0x130cda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bakingProgress, addr 0x13352f8, size 0x8, virtual false, abstract: false, final false
   inline void set_bakingProgress(float_t value);
 
-  /// @brief Method set_clipLength, addr 0x130cdb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipLength, addr 0x1335308, size 0x8, virtual false, abstract: false, final false
   inline void set_clipLength(float_t value);
 
-  /// @brief Method set_isBaking, addr 0x130cd8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isBaking, addr 0x13352e4, size 0xc, virtual false, abstract: false, final false
   inline void set_isBaking(bool value);
 
 protected:

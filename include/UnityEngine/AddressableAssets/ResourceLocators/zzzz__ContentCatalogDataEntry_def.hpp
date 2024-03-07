@@ -104,44 +104,44 @@ public:
 
   constexpr void __cordl_internal_set__ResourceType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b17c80, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b774b8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
                     ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies, ::System::Object* extraData);
 
-  /// @brief Method get_Data, addr 0x2b17c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x2b77498, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x2b17c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x2b77488, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Dependencies();
 
-  /// @brief Method get_InternalId, addr 0x2b17c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x2b77458, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Keys, addr 0x2b17c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x2b77478, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_Provider, addr 0x2b17c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x2b77468, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_ResourceType, addr 0x2b17c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x2b774a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_Data, addr 0x2b17c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x2b774a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method set_Dependencies, addr 0x2b17c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Dependencies, addr 0x2b77490, size 0x8, virtual false, abstract: false, final false
   inline void set_Dependencies(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_InternalId, addr 0x2b17c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalId, addr 0x2b77460, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalId(::StringW value);
 
-  /// @brief Method set_Keys, addr 0x2b17c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keys, addr 0x2b77480, size 0x8, virtual false, abstract: false, final false
   inline void set_Keys(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_Provider, addr 0x2b17c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Provider, addr 0x2b77470, size 0x8, virtual false, abstract: false, final false
   inline void set_Provider(::StringW value);
 
-  /// @brief Method set_ResourceType, addr 0x2b17c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ResourceType, addr 0x2b774b0, size 0x8, virtual false, abstract: false, final false
   inline void set_ResourceType(::System::Type* value);
 
 protected:

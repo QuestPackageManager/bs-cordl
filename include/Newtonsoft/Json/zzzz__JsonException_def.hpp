@@ -31,7 +31,7 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2731ed4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2792190, size 0xac, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor();
@@ -42,16 +42,16 @@ public:
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2731d24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791fe0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2731e54, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2792110, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2731d7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2792038, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2731de4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27920a0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

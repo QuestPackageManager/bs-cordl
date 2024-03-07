@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE RenderTextureExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture2D, addr 0x2253368, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetTexture2D, addr 0x22b432c, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetTexture2D(::UnityEngine::RenderTexture* rt);
 
 protected:

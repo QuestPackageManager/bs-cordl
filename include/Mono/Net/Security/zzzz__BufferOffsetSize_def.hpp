@@ -42,7 +42,7 @@ public:
 
   static inline ::Mono::Net::Security::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ToString, addr 0x2907b44, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x296a37c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_TotalBytes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2907a40, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x296a278, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method get_EndOffset, addr 0x2907a0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_EndOffset, addr 0x296a244, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_EndOffset();
 
-  /// @brief Method get_Remaining, addr 0x2907a18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x296a250, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

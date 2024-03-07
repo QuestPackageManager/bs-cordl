@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::TooBigPacketException::*)()>(&::LiteNetLib::TooBigPacketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235e298;
+  constexpr static std::size_t addrs = 0x23c0070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::TooBigPacketException*>::get(), ".ctor",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::TooBigPacketException::*)(::StringW)>(&::LiteNetLib::TooBigPacketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235e2a0;
+  constexpr static std::size_t addrs = 0x23c0078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::TooBigPacketException::*)(::StringW, ::System::Exception*)>(
     &::LiteNetLib::TooBigPacketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235e2a8;
+  constexpr static std::size_t addrs = 0x23c0080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

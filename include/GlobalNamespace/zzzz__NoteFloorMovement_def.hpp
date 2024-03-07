@@ -88,15 +88,15 @@ public:
 
   __declspec(property(get = get_worldRotation))::UnityEngine::Quaternion worldRotation;
 
-  /// @brief Method Init, addr 0x239db2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23fef10, size 0xb8, virtual false, abstract: false, final false
   inline void Init(float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float_t moveDuration, float_t startTime);
 
-  /// @brief Method ManualUpdate, addr 0x239dcd8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x23ff0bc, size 0x180, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ManualUpdate();
 
   static inline ::GlobalNamespace::NoteFloorMovement* New_ctor();
 
-  /// @brief Method SetToStart, addr 0x239dbe4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetToStart, addr 0x23fefc8, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SetToStart();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
@@ -165,37 +165,37 @@ public:
 
   constexpr void __cordl_internal_set_floorMovementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x239de58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ff23c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_floorMovementDidFinishEvent, addr 0x239d968, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_floorMovementDidFinishEvent, addr 0x23fed4c, size 0x9c, virtual false, abstract: false, final false
   inline void add_floorMovementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_distanceToPlayer, addr 0x239daa0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_distanceToPlayer, addr 0x23fee84, size 0x40, virtual false, abstract: false, final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_endPos, addr 0x239daec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_endPos, addr 0x23feed0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPos();
 
-  /// @brief Method get_inverseWorldRotation, addr 0x239db14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWorldRotation, addr 0x23feef8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_localPosition, addr 0x239db20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x23fef04, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_moveDuration, addr 0x239db00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDuration, addr 0x23feee4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_moveDuration();
 
-  /// @brief Method get_startPos, addr 0x239dae0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_startPos, addr 0x23feec4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPos();
 
-  /// @brief Method get_startTime, addr 0x239daf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x23feedc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method get_worldRotation, addr 0x239db08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldRotation, addr 0x23feeec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
-  /// @brief Method remove_floorMovementDidFinishEvent, addr 0x239da04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_floorMovementDidFinishEvent, addr 0x23fede8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_floorMovementDidFinishEvent(::System::Action* value);
 
 protected:

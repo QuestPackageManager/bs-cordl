@@ -24,7 +24,7 @@ namespace Zenject {
 struct CORDL_TYPE TypeValuePair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2ffb0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30528dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Object* value);
 
   // Ctor Parameters []

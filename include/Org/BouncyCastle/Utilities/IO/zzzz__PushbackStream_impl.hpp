@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::IO::PushbackStream::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x11cfa10;
+  constexpr static std::size_t addrs = 0x11f6114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::PushbackStream::ReadByte)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x11cfa20;
+  constexpr static std::size_t addrs = 0x11f6124;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x11cfa44;
+  constexpr static std::size_t addrs = 0x11f6148;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(int32_t)>(
     &::Org::BouncyCastle::Utilities::IO::PushbackStream::Unread)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x11cfaa4;
+  constexpr static std::size_t addrs = 0x11f61a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

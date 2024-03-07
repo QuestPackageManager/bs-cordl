@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2dc4ef8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e20730, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW url);
 
 protected:

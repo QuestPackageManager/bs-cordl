@@ -22,10 +22,10 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE SystemAcl : public ::System::Security::AccessControl::CommonAcl {
 public:
   // Declarations
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x2578838, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x25db034, size 0x20, virtual true, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method GetAceInsertPosition, addr 0x2578858, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAceInsertPosition, addr 0x25db054, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
 protected:

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::Vector3SO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe98d9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb8e1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

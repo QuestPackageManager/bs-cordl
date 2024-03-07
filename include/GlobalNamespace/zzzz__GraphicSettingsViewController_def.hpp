@@ -24,7 +24,7 @@ public:
   /// @brief Field _mainSettingsModel, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
-  /// @brief Method DidActivate, addr 0x23d8810, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x243d16c, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GraphicSettingsViewController* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  /// @brief Method .ctor, addr 0x23d8814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243d170, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

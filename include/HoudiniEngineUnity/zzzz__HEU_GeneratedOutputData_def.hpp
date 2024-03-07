@@ -47,7 +47,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x22b80b0, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2318e88, size 0x1ec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
 
   static inline ::HoudiniEngineUnity::HEU_GeneratedOutputData* New_ctor();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__renderMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  /// @brief Method .ctor, addr 0x22b8034, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2318e0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"

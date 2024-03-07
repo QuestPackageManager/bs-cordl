@@ -32,28 +32,28 @@ public:
   /// @brief Field k_DefaultWorldSpaceShaderName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_DefaultWorldSpaceShaderName, put = setStaticF_k_DefaultWorldSpaceShaderName))::StringW k_DefaultWorldSpaceShaderName;
 
-  /// @brief Method Destroy, addr 0x2f863e8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x2fdfc20, size 0xa8, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method GetNextPow2, addr 0x2f864c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2, addr 0x2fdfcfc, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2(int32_t n);
 
-  /// @brief Method GetNextPow2Exp, addr 0x2f864e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2Exp, addr 0x2fdfd18, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2Exp(int32_t n);
 
-  /// @brief Method GetPrevPow2, addr 0x2f86490, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetPrevPow2, addr 0x2fdfcc8, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetPrevPow2(int32_t n);
 
-  /// @brief Method IsElementSelfHidden, addr 0x2f86328, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsElementSelfHidden, addr 0x2fdfb60, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsElementSelfHidden(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsRoundRect, addr 0x2f86094, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method IsRoundRect, addr 0x2fdf8cc, size 0x204, virtual false, abstract: false, final false
   static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsVectorImageBackground, addr 0x2f86298, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsVectorImageBackground, addr 0x2fdfad0, size 0x90, virtual false, abstract: false, final false
   static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ShapeWindingIsClockwise, addr 0x2f86008, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ShapeWindingIsClockwise, addr 0x2fdf840, size 0x8c, virtual false, abstract: false, final false
   static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
 
   static inline ::StringW getStaticF_k_DefaultShaderName();

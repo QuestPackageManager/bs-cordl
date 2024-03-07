@@ -39,13 +39,13 @@ public:
 
   static inline ::UnityEngine::UIElements::DefaultGroupManager* New_ctor();
 
-  /// @brief Method OnOptionSelectionChanged, addr 0x2ed5eac, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method OnOptionSelectionChanged, addr 0x2f2f6e4, size 0x1d0, virtual true, abstract: false, final true
   inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
 
-  /// @brief Method RegisterOption, addr 0x2ed607c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method RegisterOption, addr 0x2f2f8b4, size 0xd4, virtual true, abstract: false, final true
   inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnregisterOption, addr 0x2ed6150, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterOption, addr 0x2f2f988, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*& __cordl_internal_get_m_GroupOptions();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
 
-  /// @brief Method .ctor, addr 0x2ed61a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2f9e0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"

@@ -53,24 +53,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__FakeMirrorObjectsInstaller____c* __9;
 
-  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0))::System::Func_2<::Zenject::BindingId, bool>* __9__11_0;
+  /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Func_2<::Zenject::BindingId, bool>* __9__10_0;
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__11_0, addr 0x249aac8, size 0x94, virtual false, abstract: false, final false
-  inline bool _InstallBindings_b__11_0(::Zenject::BindingId t);
+  /// @brief Method <InstallBindings>b__10_0, addr 0x25028f4, size 0x94, virtual false, abstract: false, final false
+  inline bool _InstallBindings_b__10_0(::Zenject::BindingId t);
 
-  /// @brief Method .ctor, addr 0x249aac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25028ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* getStaticF___9();
 
-  static inline ::System::Func_2<::Zenject::BindingId, bool>* getStaticF___9__11_0();
+  static inline ::System::Func_2<::Zenject::BindingId, bool>* getStaticF___9__10_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__FakeMirrorObjectsInstaller____c* value);
 
-  static inline void setStaticF___9__11_0(::System::Func_2<::Zenject::BindingId, bool>* value);
+  static inline void setStaticF___9__10_0(::System::Func_2<::Zenject::BindingId, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FakeMirrorObj
 
 } // namespace GlobalNamespace
 // Type: ::FakeMirrorObjectsInstaller
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FakeMirrorObjectsInstaller*
@@ -102,20 +102,16 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__FakeMirrorObjectsInstaller____c;
 
-  /// @brief Field _mirrorGraphicsSettings, offset 0x58, size 0x8
+  /// @brief Field _mirrorGraphicsSettings, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__mirrorGraphicsSettings, put = __cordl_internal_set__mirrorGraphicsSettings))::UnityW<::GlobalNamespace::IntSO> _mirrorGraphicsSettings;
 
-  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x60, size 0x8
+  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__mirrorRendererGraphicsSettingsPresets,
                       put = __cordl_internal_set__mirrorRendererGraphicsSettingsPresets))::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> _mirrorRendererGraphicsSettingsPresets;
 
-  /// @brief Field _mirroredBombNoteControllerPrefab, offset 0x40, size 0x8
+  /// @brief Field _mirroredBombNoteControllerPrefab, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__mirroredBombNoteControllerPrefab,
                       put = __cordl_internal_set__mirroredBombNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredBombNoteController> _mirroredBombNoteControllerPrefab;
-
-  /// @brief Field _mirroredBurstSliderFillControllerPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirroredBurstSliderFillControllerPrefab,
-                      put = __cordl_internal_set__mirroredBurstSliderFillControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredBurstSliderFillControllerPrefab;
 
   /// @brief Field _mirroredBurstSliderGameNoteControllerPrefab, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__mirroredBurstSliderGameNoteControllerPrefab,
@@ -130,17 +126,17 @@ public:
   __declspec(property(get = __cordl_internal_get__mirroredGameNoteControllerPrefab,
                       put = __cordl_internal_set__mirroredGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredGameNoteControllerPrefab;
 
-  /// @brief Field _mirroredObstacleControllerPrefab, offset 0x48, size 0x8
+  /// @brief Field _mirroredObstacleControllerPrefab, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__mirroredObstacleControllerPrefab,
                       put = __cordl_internal_set__mirroredObstacleControllerPrefab))::UnityW<::GlobalNamespace::MirroredObstacleController> _mirroredObstacleControllerPrefab;
 
-  /// @brief Field _mirroredSliderControllerPrefab, offset 0x50, size 0x8
+  /// @brief Field _mirroredSliderControllerPrefab, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__mirroredSliderControllerPrefab,
                       put = __cordl_internal_set__mirroredSliderControllerPrefab))::UnityW<::GlobalNamespace::MirroredSliderController> _mirroredSliderControllerPrefab;
 
   __declspec(property(get = get_mirroredGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> mirroredGameNoteControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x249a4d4, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x250235c, size 0x524, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
@@ -156,10 +152,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::MirroredBombNoteController> const& __cordl_internal_get__mirroredBombNoteControllerPrefab() const;
 
   constexpr ::UnityW<::GlobalNamespace::MirroredBombNoteController>& __cordl_internal_get__mirroredBombNoteControllerPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& __cordl_internal_get__mirroredBurstSliderFillControllerPrefab() const;
-
-  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& __cordl_internal_get__mirroredBurstSliderFillControllerPrefab();
 
   constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& __cordl_internal_get__mirroredBurstSliderGameNoteControllerPrefab() const;
 
@@ -187,8 +179,6 @@ public:
 
   constexpr void __cordl_internal_set__mirroredBombNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredBombNoteController> value);
 
-  constexpr void __cordl_internal_set__mirroredBurstSliderFillControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
-
   constexpr void __cordl_internal_set__mirroredBurstSliderGameNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
   constexpr void __cordl_internal_set__mirroredBurstSliderHeadGameNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
@@ -199,10 +189,10 @@ public:
 
   constexpr void __cordl_internal_set__mirroredSliderControllerPrefab(::UnityW<::GlobalNamespace::MirroredSliderController> value);
 
-  /// @brief Method .ctor, addr 0x249aa54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2502880, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x249a4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x2502354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
 protected:
@@ -228,28 +218,25 @@ public:
   /// @brief Field _mirroredBurstSliderGameNoteControllerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredBurstSliderGameNoteControllerPrefab;
 
-  /// @brief Field _mirroredBurstSliderFillControllerPrefab, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredBurstSliderFillControllerPrefab;
-
-  /// @brief Field _mirroredBombNoteControllerPrefab, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _mirroredBombNoteControllerPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredBombNoteController> ____mirroredBombNoteControllerPrefab;
 
-  /// @brief Field _mirroredObstacleControllerPrefab, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _mirroredObstacleControllerPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredObstacleController> ____mirroredObstacleControllerPrefab;
 
-  /// @brief Field _mirroredSliderControllerPrefab, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _mirroredSliderControllerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredSliderController> ____mirroredSliderControllerPrefab;
 
-  /// @brief Field _mirrorGraphicsSettings, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _mirrorGraphicsSettings, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::IntSO> ____mirrorGraphicsSettings;
 
-  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FakeMirrorObjectsInstaller, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FakeMirrorObjectsInstaller, 0x60>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredGameNoteControllerPrefab) == 0x20, "Offset mismatch!");
 
@@ -257,17 +244,15 @@ static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirror
 
 static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredBurstSliderGameNoteControllerPrefab) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredBurstSliderFillControllerPrefab) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredBombNoteControllerPrefab) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredBombNoteControllerPrefab) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredObstacleControllerPrefab) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredObstacleControllerPrefab) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredSliderControllerPrefab) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredSliderControllerPrefab) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirrorGraphicsSettings) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirrorGraphicsSettings) == 0x58, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirrorRendererGraphicsSettingsPresets) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirrorRendererGraphicsSettingsPresets) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FakeMirrorObjectsInstaller);

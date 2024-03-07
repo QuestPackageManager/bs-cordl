@@ -41,12 +41,12 @@ namespace UnityEngine::AI {
 class CORDL_TYPE __NavMesh__OnNavMeshPreUpdate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2d63888, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2dc10c0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2d637cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc1004, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -82,22 +82,22 @@ public:
   /// @brief Field onPreUpdate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_onPreUpdate, put = setStaticF_onPreUpdate))::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate* onPreUpdate;
 
-  /// @brief Method CalculatePath, addr 0x2d63590, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CalculatePath, addr 0x2dc0dc8, size 0xa0, virtual false, abstract: false, final false
   static inline bool CalculatePath(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath* path);
 
-  /// @brief Method CalculatePathInternal, addr 0x2d63630, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePathInternal, addr 0x2dc0e68, size 0x6c, virtual false, abstract: false, final false
   static inline bool CalculatePathInternal(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath* path);
 
-  /// @brief Method CalculatePathInternal_Injected, addr 0x2d6369c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePathInternal_Injected, addr 0x2dc0ed4, size 0x5c, virtual false, abstract: false, final false
   static inline bool CalculatePathInternal_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::Vector3> targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath* path);
 
-  /// @brief Method Internal_CallOnNavMeshPreUpdate, addr 0x2d6352c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallOnNavMeshPreUpdate, addr 0x2dc0d64, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_CallOnNavMeshPreUpdate();
 
-  /// @brief Method SamplePosition, addr 0x2d636f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SamplePosition, addr 0x2dc0f30, size 0x70, virtual false, abstract: false, final false
   static inline bool SamplePosition(::UnityEngine::Vector3 sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask);
 
-  /// @brief Method SamplePosition_Injected, addr 0x2d63768, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SamplePosition_Injected, addr 0x2dc0fa0, size 0x64, virtual false, abstract: false, final false
   static inline bool SamplePosition_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask);
 
   static inline ::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate* getStaticF_onPreUpdate();

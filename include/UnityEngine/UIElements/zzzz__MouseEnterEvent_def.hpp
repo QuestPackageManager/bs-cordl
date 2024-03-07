@@ -18,15 +18,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseEnterEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseEnterEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2f5f0cc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2fb8904, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2f5f120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2fb8958, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseEnterEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f5f12c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb8964, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

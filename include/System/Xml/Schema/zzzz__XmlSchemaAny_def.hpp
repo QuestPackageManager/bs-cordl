@@ -39,7 +39,7 @@ public:
   /// @brief Field processContents, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_processContents, put = __cordl_internal_set_processContents))::System::Xml::Schema::XmlSchemaContentProcessing processContents;
 
-  /// @brief Method BuildNamespaceList, addr 0x29b0bc8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method BuildNamespaceList, addr 0x2a12400, size 0x90, virtual false, abstract: false, final false
   inline void BuildNamespaceList(::StringW targetNamespace);
 
   static inline ::System::Xml::Schema::XmlSchemaAny* New_ctor();
@@ -62,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set_processContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
 
-  /// @brief Method .ctor, addr 0x29b0c58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a12490, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NamespaceList, addr 0x29b0bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceList, addr 0x2a123f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::NamespaceList* get_NamespaceList();
 
-  /// @brief Method set_ProcessContents, addr 0x29b0bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProcessContents, addr 0x2a123f0, size 0x8, virtual false, abstract: false, final false
   inline void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
 
 protected:

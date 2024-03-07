@@ -55,7 +55,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfe5bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1006300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcao();

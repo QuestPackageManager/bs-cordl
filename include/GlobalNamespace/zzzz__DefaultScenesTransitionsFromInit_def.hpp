@@ -63,7 +63,7 @@ public:
 
   static inline ::GlobalNamespace::DefaultScenesTransitionsFromInit* New_ctor();
 
-  /// @brief Method TransitionToNextScene, addr 0x237bbd0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x23dda64, size 0x1d0, virtual false, abstract: false, final false
   inline void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO> const& __cordl_internal_get__beatmapEditorScenesTransitionSetupData() const;
@@ -102,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set__shaderWarmupScenesTransitionSetupData(::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x237bda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ddc34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x237bbc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x23dda5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> get_mainMenuScenesTransitionSetupData();
 
 protected:

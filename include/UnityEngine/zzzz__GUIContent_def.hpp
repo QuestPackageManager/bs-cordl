@@ -49,7 +49,7 @@ public:
 
   __declspec(property(get = get_tooltip, put = set_tooltip))::StringW tooltip;
 
-  /// @brief Method ClearStaticCache, addr 0x2dfc274, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ClearStaticCache, addr 0x2e57aac, size 0xa0, virtual false, abstract: false, final false
   static inline void ClearStaticCache();
 
   static inline ::UnityEngine::GUIContent* New_ctor();
@@ -60,10 +60,10 @@ public:
 
   static inline ::UnityEngine::GUIContent* New_ctor(::StringW text, ::UnityEngine::Texture* image, ::StringW tooltip);
 
-  /// @brief Method Temp, addr 0x2df4abc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Temp, addr 0x2e502f4, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIContent* Temp(::StringW t);
 
-  /// @brief Method ToString, addr 0x2dfc908, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e58140, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Image() const;
@@ -84,16 +84,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Tooltip(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2dfc7c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e57ffc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2df40fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e4f934, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIContent* src);
 
-  /// @brief Method .ctor, addr 0x2dfc820, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e58058, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x2dfc884, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e580bc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::Texture* image, ::StringW tooltip);
 
   static inline ::UnityEngine::GUIContent* getStaticF_none();
@@ -104,10 +104,10 @@ public:
 
   static inline ::UnityEngine::GUIContent* getStaticF_s_TextImage();
 
-  /// @brief Method get_text, addr 0x2dfc7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2e57fdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_tooltip, addr 0x2df51a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tooltip, addr 0x2e509e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_tooltip();
 
   static inline void setStaticF_none(::UnityEngine::GUIContent* value);
@@ -118,13 +118,13 @@ public:
 
   static inline void setStaticF_s_TextImage(::UnityEngine::GUIContent* value);
 
-  /// @brief Method set_image, addr 0x2dfc7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_image, addr 0x2e57fec, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::Texture* value);
 
-  /// @brief Method set_text, addr 0x2dfc7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2e57fe4, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_tooltip, addr 0x2dfc7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x2e57ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:

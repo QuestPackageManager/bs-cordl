@@ -32,12 +32,12 @@ public:
 
   __declspec(property(get = get_isToggled, put = set_isToggled)) bool isToggled;
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x2291638, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x22f2400, size 0x14c, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwapToggle* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2291608, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22f23d0, size 0x30, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get__ignoreHighlight() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__resetToggleOnEnable(bool value);
 
-  /// @brief Method .ctor, addr 0x2291784, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f254c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isToggled, addr 0x22915c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isToggled, addr 0x22f2388, size 0x8, virtual false, abstract: false, final false
   inline bool get_isToggled();
 
-  /// @brief Method set_isToggled, addr 0x22915c8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_isToggled, addr 0x22f2390, size 0x40, virtual false, abstract: false, final false
   inline void set_isToggled(bool value);
 
 protected:

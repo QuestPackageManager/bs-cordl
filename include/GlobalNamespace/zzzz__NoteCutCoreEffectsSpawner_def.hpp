@@ -20,6 +20,9 @@ namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
+struct ColorType;
+}
+namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
@@ -32,13 +35,22 @@ namespace GlobalNamespace {
 class NoteCutParticlesEffect;
 }
 namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
 class NoteDebrisSpawner;
 }
 namespace GlobalNamespace {
 class ShockwaveEffect;
 }
 namespace GlobalNamespace {
-struct __NoteCutHapticEffect__Type;
+class SliderInteractionManager;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,7 +59,7 @@ class NoteCutCoreEffectsSpawner;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteCutCoreEffectsSpawner);
 // Type: ::NoteCutCoreEffectsSpawner
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteCutCoreEffectsSpawner*
@@ -67,6 +79,10 @@ public:
   /// @brief Field _colorManager, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
+  /// @brief Field _colorTypeToSliderInteractionManagerDictionary, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorTypeToSliderInteractionManagerDictionary, put = __cordl_internal_set__colorTypeToSliderInteractionManagerDictionary))::System::Collections::
+      Generic::Dictionary_2<::GlobalNamespace::ColorType, ::UnityW<::GlobalNamespace::SliderInteractionManager>>* _colorTypeToSliderInteractionManagerDictionary;
+
   /// @brief Field _noteCutHapticEffect, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__noteCutHapticEffect, put = __cordl_internal_set__noteCutHapticEffect))::UnityW<::GlobalNamespace::NoteCutHapticEffect> _noteCutHapticEffect;
 
@@ -83,24 +99,34 @@ public:
   /// @brief Field _shockwaveEffect, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__shockwaveEffect, put = __cordl_internal_set__shockwaveEffect))::UnityW<::GlobalNamespace::ShockwaveEffect> _shockwaveEffect;
 
-  /// @brief Method HandleNoteWasCut, addr 0x24306f0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Field _sliderInteractionManagers, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__sliderInteractionManagers,
+                      put = __cordl_internal_set__sliderInteractionManagers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
+
+  /// @brief Method HandleNoteWasCut, addr 0x2498814, size 0x198, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+
+  /// @brief Method IsArcHapticsCurrentlyActive, addr 0x24990d4, size 0x94, virtual false, abstract: false, final false
+  inline bool IsArcHapticsCurrentlyActive(::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::NoteCutCoreEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2430658, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x249877c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayHitNoteHapticEffect, addr 0x2430e30, size 0x50, virtual false, abstract: false, final false
-  inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::__NoteCutHapticEffect__Type hapticType);
+  /// @brief Method PlayHitChainNoteHapticEffect, addr 0x249906c, size 0x68, virtual false, abstract: false, final false
+  inline void PlayHitChainNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, bool isChainHead);
 
-  /// @brief Method SpawnBombCutEffect, addr 0x243086c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PlayHitNoteHapticEffect, addr 0x2498f18, size 0x104, virtual false, abstract: false, final false
+  inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::NoteData* noteData);
+
+  /// @brief Method SpawnBombCutEffect, addr 0x249901c, size 0x50, virtual false, abstract: false, final false
   inline void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method SpawnNoteCutEffect, addr 0x24308c0, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteCutEffect, addr 0x24989ac, size 0x56c, virtual false, abstract: false, final false
   inline void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount, int32_t explosionParticlesCount);
 
-  /// @brief Method Start, addr 0x24305cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2498598, size 0x1e4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -118,6 +144,12 @@ public:
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::UnityW<::GlobalNamespace::SliderInteractionManager>>*&
+  __cordl_internal_get__colorTypeToSliderInteractionManagerDictionary();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::UnityW<::GlobalNamespace::SliderInteractionManager>>*> const&
+  __cordl_internal_get__colorTypeToSliderInteractionManagerDictionary() const;
 
   constexpr ::UnityW<::GlobalNamespace::NoteCutHapticEffect> const& __cordl_internal_get__noteCutHapticEffect() const;
 
@@ -139,6 +171,11 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::ShockwaveEffect>& __cordl_internal_get__shockwaveEffect();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*& __cordl_internal_get__sliderInteractionManagers();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*> const&
+  __cordl_internal_get__sliderInteractionManagers() const;
+
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
@@ -146,6 +183,9 @@ public:
   constexpr void __cordl_internal_set__bombExplosionEffect(::UnityW<::GlobalNamespace::BombExplosionEffect> value);
 
   constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
+
+  constexpr void __cordl_internal_set__colorTypeToSliderInteractionManagerDictionary(
+      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
   constexpr void __cordl_internal_set__noteCutHapticEffect(::UnityW<::GlobalNamespace::NoteCutHapticEffect> value);
 
@@ -157,7 +197,9 @@ public:
 
   constexpr void __cordl_internal_set__shockwaveEffect(::UnityW<::GlobalNamespace::ShockwaveEffect> value);
 
-  /// @brief Method .ctor, addr 0x2431710, size 0x14, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__sliderInteractionManagers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
+
+  /// @brief Method .ctor, addr 0x24999f8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,6 +243,12 @@ public:
   /// @brief Field _audioTimeSyncController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// @brief Field _sliderInteractionManagers, offset: 0x60, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* ____sliderInteractionManagers;
+
+  /// @brief Field _colorTypeToSliderInteractionManagerDictionary, offset: 0x68, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::UnityW<::GlobalNamespace::SliderInteractionManager>>* ____colorTypeToSliderInteractionManagerDictionary;
+
   /// @brief Field kBurstSliderElementParticlesCount offset 0xffffffff size 0x4
   static constexpr int32_t kBurstSliderElementParticlesCount{ static_cast<int32_t>(0x14) };
 
@@ -216,7 +264,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutCoreEffectsSpawner, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutCoreEffectsSpawner, 0x70>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteCutCoreEffectsSpawner, ____shockWaveYPos) == 0x18, "Offset mismatch!");
 
@@ -235,6 +283,10 @@ static_assert(offsetof(::GlobalNamespace::NoteCutCoreEffectsSpawner, ____colorMa
 static_assert(offsetof(::GlobalNamespace::NoteCutCoreEffectsSpawner, ____beatmapObjectManager) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteCutCoreEffectsSpawner, ____audioTimeSyncController) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutCoreEffectsSpawner, ____sliderInteractionManagers) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutCoreEffectsSpawner, ____colorTypeToSliderInteractionManagerDictionary) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteCutCoreEffectsSpawner);

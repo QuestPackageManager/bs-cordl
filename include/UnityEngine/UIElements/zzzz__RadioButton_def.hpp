@@ -54,7 +54,7 @@ public:
   /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x2f3ff34, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f9876c, size 0x118, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__RadioButton__UxmlTraits* New_ctor();
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2f4004c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98884, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,26 +131,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBoxOption"
   constexpr operator ::UnityEngine::UIElements::IGroupBoxOption*() noexcept;
 
-  /// @brief Method InitLabel, addr 0x2f3fbf4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x2f9842c, size 0x78, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor(::StringW label);
 
-  /// @brief Method SetSelected, addr 0x2f3fcac, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method SetSelected, addr 0x2f984e4, size 0x14, virtual true, abstract: false, final true
   inline void SetSelected(bool selected);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x2f3fcc0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x2f984f8, size 0x1c, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ToggleValue, addr 0x2f3fc6c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x2f984a4, size 0x40, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UpdateCheckmark, addr 0x2f3f920, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCheckmark, addr 0x2f98158, size 0xf4, virtual false, abstract: false, final false
   inline void UpdateCheckmark();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x2f3fcdc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x2f98514, size 0xa0, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckmarkBackground();
@@ -159,10 +159,10 @@ public:
 
   constexpr void __cordl_internal_set_m_CheckmarkBackground(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2f3fa14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f9824c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f3fa1c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98254, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkBackgroundUssClassName();
@@ -177,7 +177,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_value, addr 0x2f3f7f8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x2f98030, size 0x48, virtual true, abstract: false, final false
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBoxOption"
@@ -195,7 +195,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_value, addr 0x2f3f840, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x2f98078, size 0xe0, virtual true, abstract: false, final false
   inline void set_value(bool value);
 
 protected:
@@ -233,7 +233,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__RadioButton__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f3feec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98724, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

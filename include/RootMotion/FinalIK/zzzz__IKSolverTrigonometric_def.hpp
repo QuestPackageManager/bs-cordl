@@ -49,13 +49,13 @@ public:
   /// @brief Field targetToLocalSpace, offset 0x74, size 0x10
   __declspec(property(get = __cordl_internal_get_targetToLocalSpace, put = __cordl_internal_set_targetToLocalSpace))::UnityEngine::Quaternion targetToLocalSpace;
 
-  /// @brief Method GetBendNormalFromCurrentRotation, addr 0x1346b38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetBendNormalFromCurrentRotation, addr 0x1370090, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
 
-  /// @brief Method GetRotation, addr 0x134be04, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x137535c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendNormal);
 
-  /// @brief Method Initiate, addr 0x134b55c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1374ab4, size 0xf0, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Vector3 childPosition, ::UnityEngine::Vector3 bendNormal);
 
   static inline ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_targetToLocalSpace(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x134bea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13753f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,73 +142,73 @@ public:
   /// @brief Field weightIKPosition, offset 0x98, size 0xc
   __declspec(property(get = __cordl_internal_get_weightIKPosition, put = __cordl_internal_set_weightIKPosition))::UnityEngine::Vector3 weightIKPosition;
 
-  /// @brief Method FixTransforms, addr 0x134a834, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1373d8c, size 0x50, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetBendDirection, addr 0x134bc44, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetBendDirection, addr 0x137519c, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetBendDirection(::UnityEngine::Vector3 IKPosition, ::UnityEngine::Vector3 bendNormal);
 
-  /// @brief Method GetDirectionToBendPoint, addr 0x134b168, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDirectionToBendPoint, addr 0x13746c0, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float_t directionMag, ::UnityEngine::Vector3 bendDirection, float_t sqrMag1, float_t sqrMag2);
 
-  /// @brief Method GetIKRotation, addr 0x134a5fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetIKRotation, addr 0x1373b54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetIKRotation();
 
-  /// @brief Method GetIKRotationWeight, addr 0x134a608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIKRotationWeight, addr 0x1373b60, size 0x8, virtual false, abstract: false, final false
   inline float_t GetIKRotationWeight();
 
-  /// @brief Method GetPoint, addr 0x134a6fc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x1373c54, size 0xf8, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetPoints, addr 0x134a610, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x1373b68, size 0xec, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method InitiateBones, addr 0x134b3ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InitiateBones, addr 0x1374944, size 0x80, virtual false, abstract: false, final false
   inline void InitiateBones();
 
-  /// @brief Method IsDirectHierarchy, addr 0x134b46c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsDirectHierarchy, addr 0x13749c4, size 0xf0, virtual false, abstract: false, final false
   inline bool IsDirectHierarchy();
 
-  /// @brief Method IsValid, addr 0x134a884, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x1373ddc, size 0x3a4, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverTrigonometric* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x134b2c0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x1374818, size 0x12c, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnInitiateVirtual, addr 0x134be94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitiateVirtual, addr 0x13753ec, size 0x4, virtual true, abstract: false, final false
   inline void OnInitiateVirtual();
 
-  /// @brief Method OnPostSolveVirtual, addr 0x134be9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPostSolveVirtual, addr 0x13753f4, size 0x4, virtual true, abstract: false, final false
   inline void OnPostSolveVirtual();
 
-  /// @brief Method OnUpdate, addr 0x134b64c, size 0x5f8, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x1374ba4, size 0x5f8, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method OnUpdateVirtual, addr 0x134be98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnUpdateVirtual, addr 0x13753f0, size 0x4, virtual true, abstract: false, final false
   inline void OnUpdateVirtual();
 
-  /// @brief Method SetBendGoalPosition, addr 0x134a2c0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetBendGoalPosition, addr 0x1373818, size 0x194, virtual false, abstract: false, final false
   inline void SetBendGoalPosition(::UnityEngine::Vector3 goalPosition, float_t weight);
 
-  /// @brief Method SetBendPlaneToCurrent, addr 0x134a454, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SetBendPlaneToCurrent, addr 0x13739ac, size 0x180, virtual false, abstract: false, final false
   inline void SetBendPlaneToCurrent();
 
-  /// @brief Method SetChain, addr 0x134ac28, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetChain, addr 0x1374180, size 0x4c, virtual false, abstract: false, final false
   inline bool SetChain(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* root);
 
-  /// @brief Method SetIKRotation, addr 0x134a5d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetIKRotation, addr 0x1373b2c, size 0xc, virtual false, abstract: false, final false
   inline void SetIKRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetIKRotationWeight, addr 0x134a5e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetIKRotationWeight, addr 0x1373b38, size 0x1c, virtual false, abstract: false, final false
   inline void SetIKRotationWeight(float_t weight);
 
-  /// @brief Method Solve, addr 0x134ac74, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x13741cc, size 0x4f4, virtual false, abstract: false, final false
   static inline void Solve(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal,
                            float_t weight);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x134a7f4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1373d4c, size 0x40, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
@@ -265,7 +265,7 @@ public:
 
   constexpr void __cordl_internal_set_weightIKPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1347ce0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1371238, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -82,54 +82,54 @@ public:
 
   __declspec(property(get = get_visualTreeAsset, put = set_visualTreeAsset))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> visualTreeAsset;
 
-  /// @brief Method AddChildAndInsertContentToVisualTree, addr 0x2f25b24, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddChildAndInsertContentToVisualTree, addr 0x2f7e35c, size 0x90, virtual false, abstract: false, final false
   inline void AddChildAndInsertContentToVisualTree(::UnityEngine::UIElements::UIDocument* child);
 
-  /// @brief Method AddRootVisualElementToTree, addr 0x2f256a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddRootVisualElementToTree, addr 0x2f7dee0, size 0xd4, virtual false, abstract: false, final false
   inline void AddRootVisualElementToTree();
 
-  /// @brief Method ApplySortingOrder, addr 0x2f256a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ApplySortingOrder, addr 0x2f7dedc, size 0x4, virtual false, abstract: false, final false
   inline void ApplySortingOrder();
 
-  /// @brief Method Awake, addr 0x2f257ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2f7e024, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FindUIDocumentParent, addr 0x2f25950, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FindUIDocumentParent, addr 0x2f7e188, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::UIDocument> FindUIDocumentParent();
 
   static inline ::UnityEngine::UIElements::UIDocument* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2f25d1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2f7e554, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2f25880, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2f7e0b8, size 0xc0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformChildrenChanged, addr 0x2f25d3c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnTransformChildrenChanged, addr 0x2f7e574, size 0x210, virtual false, abstract: false, final false
   inline void OnTransformChildrenChanged();
 
-  /// @brief Method OnTransformParentChanged, addr 0x2f25ff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x2f7e828, size 0x4, virtual false, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method ReactToHierarchyChanged, addr 0x2f25f4c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ReactToHierarchyChanged, addr 0x2f7e784, size 0xa4, virtual false, abstract: false, final false
   inline void ReactToHierarchyChanged();
 
-  /// @brief Method RecreateUI, addr 0x2f25278, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method RecreateUI, addr 0x2f7dab0, size 0x404, virtual false, abstract: false, final false
   inline void RecreateUI();
 
-  /// @brief Method RemoveChild, addr 0x2f25940, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RemoveChild, addr 0x2f7e178, size 0x10, virtual false, abstract: false, final false
   inline void RemoveChild(::UnityEngine::UIElements::UIDocument* child);
 
-  /// @brief Method RemoveFromHierarchy, addr 0x2f25bb4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromHierarchy, addr 0x2f7e3ec, size 0xcc, virtual false, abstract: false, final false
   inline void RemoveFromHierarchy();
 
-  /// @brief Method Reset, addr 0x2f25a20, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2f7e258, size 0x104, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetupFromHierarchy, addr 0x2f257f0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetupFromHierarchy, addr 0x2f7e028, size 0x90, virtual false, abstract: false, final false
   inline void SetupFromHierarchy();
 
-  /// @brief Method SetupRootClassList, addr 0x2f25c80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetupRootClassList, addr 0x2f7e4b8, size 0x9c, virtual false, abstract: false, final false
   inline void SetupRootClassList();
 
   constexpr ::UnityEngine::UIElements::UIDocumentList*& __cordl_internal_get_m_ChildrenContent();
@@ -192,41 +192,41 @@ public:
 
   constexpr void __cordl_internal_set_sourceAsset(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  /// @brief Method .ctor, addr 0x2f2577c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f7dfb4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_s_CurrentUIDocumentCounter();
 
-  /// @brief Method get_firstChildInserIndex, addr 0x2f2567c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstChildInserIndex, addr 0x2f7deb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_firstChildInserIndex();
 
-  /// @brief Method get_panelSettings, addr 0x2f24ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panelSettings, addr 0x2f7d6dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
-  /// @brief Method get_parentUI, addr 0x2f25258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentUI, addr 0x2f7da90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::UIDocument> get_parentUI();
 
-  /// @brief Method get_rootVisualElement, addr 0x2f24acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rootVisualElement, addr 0x2f7d304, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootVisualElement();
 
-  /// @brief Method get_sortingOrder, addr 0x2f25684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x2f7debc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sortingOrder();
 
-  /// @brief Method get_visualTreeAsset, addr 0x2f25268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualTreeAsset, addr 0x2f7daa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
 
   static inline void setStaticF_s_CurrentUIDocumentCounter(int32_t value);
 
-  /// @brief Method set_panelSettings, addr 0x2f24eac, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method set_panelSettings, addr 0x2f7d6e4, size 0x29c, virtual false, abstract: false, final false
   inline void set_panelSettings(::UnityEngine::UIElements::PanelSettings* value);
 
-  /// @brief Method set_parentUI, addr 0x2f25260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentUI, addr 0x2f7da98, size 0x8, virtual false, abstract: false, final false
   inline void set_parentUI(::UnityEngine::UIElements::UIDocument* value);
 
-  /// @brief Method set_sortingOrder, addr 0x2f2568c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_sortingOrder, addr 0x2f7dec4, size 0x18, virtual false, abstract: false, final false
   inline void set_sortingOrder(float_t value);
 
-  /// @brief Method set_visualTreeAsset, addr 0x2f25270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_visualTreeAsset, addr 0x2f7daa8, size 0x8, virtual false, abstract: false, final false
   inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* value);
 
 protected:

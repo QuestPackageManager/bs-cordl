@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (
     ::System::Text::EncodingProvider::*)(int32_t, ::System::Text::EncoderFallback*, ::System::Text::DecoderFallback*)>(&::System::Text::EncodingProvider::GetEncoding)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x252af68;
+  constexpr static std::size_t addrs = 0x258d764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(int32_t)>(&::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x252b064;
+  constexpr static std::size_t addrs = 0x258d860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(::StringW)>(&::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x252b140;
+  constexpr static std::size_t addrs = 0x258d93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(int32_t, ::System::Text::EncoderFallback*, ::System::Text::DecoderFallback*)>(
     &::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x252b21c;
+  constexpr static std::size_t addrs = 0x258da18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

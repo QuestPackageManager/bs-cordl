@@ -92,24 +92,24 @@ public:
 
   __declspec(property(get = get_scoreDiffText))::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> scoreDiffText;
 
-  /// @brief Method HideBigAvatar, addr 0x245d930, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HideBigAvatar, addr 0x24c5838, size 0x90, virtual false, abstract: false, final false
   inline void HideBigAvatar();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerFacade* New_ctor();
 
-  /// @brief Method PauseSpawning, addr 0x245d7a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PauseSpawning, addr 0x24c56b0, size 0xa4, virtual false, abstract: false, final false
   inline void PauseSpawning();
 
-  /// @brief Method ResumeSpawning, addr 0x245d84c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ResumeSpawning, addr 0x24c5754, size 0xa4, virtual false, abstract: false, final false
   inline void ResumeSpawning();
 
-  /// @brief Method SetSongStartSyncTime, addr 0x245d63c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetSongStartSyncTime, addr 0x24c5544, size 0x18, virtual false, abstract: false, final false
   inline void SetSongStartSyncTime(int64_t songStartSyncTime);
 
-  /// @brief Method __ForceStopSong, addr 0x245d8f0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method __ForceStopSong, addr 0x24c57f8, size 0x34, virtual false, abstract: false, final false
   inline void __ForceStopSong();
 
-  /// @brief Method __GetPlayerAvatar, addr 0x245db8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method __GetPlayerAvatar, addr 0x24c58c8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> __GetPlayerAvatar();
 
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
@@ -166,16 +166,16 @@ public:
 
   constexpr void __cordl_internal_set__songTimeSyncController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> value);
 
-  /// @brief Method .ctor, addr 0x245dbd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c5914, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_introAnimator, addr 0x245d624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x24c552c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> get_introAnimator();
 
-  /// @brief Method get_outroAnimator, addr 0x245d62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x24c5534, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_outroAnimator();
 
-  /// @brief Method get_scoreDiffText, addr 0x245d634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scoreDiffText, addr 0x24c553c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> get_scoreDiffText();
 
 protected:
@@ -254,7 +254,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245dbec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c5928, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

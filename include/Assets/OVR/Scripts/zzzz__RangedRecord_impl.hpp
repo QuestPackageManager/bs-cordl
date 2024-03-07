@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Assets::OVR::Scripts::RangedRecord::*)(int32_t, ::StringW, ::StringW, float_t, float_t, float_t)>(
     &::Assets::OVR::Scripts::RangedRecord::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28e9de4;
+  constexpr static std::size_t addrs = 0x294c61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

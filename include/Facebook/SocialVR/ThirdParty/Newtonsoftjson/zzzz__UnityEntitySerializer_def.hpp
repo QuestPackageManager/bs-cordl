@@ -33,18 +33,18 @@ namespace Facebook::SocialVR::ThirdParty::Newtonsoftjson {
 class CORDL_TYPE UnityEntitySerializer : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x241cc8c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x2482224, size 0xac, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x241cd38, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x24822d0, size 0x84, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x241cdbc, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x2482354, size 0xfc, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x241ceb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2482450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

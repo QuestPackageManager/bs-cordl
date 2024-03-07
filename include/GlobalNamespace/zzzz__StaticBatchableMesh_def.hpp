@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::StaticBatchableMesh* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe8c674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea9328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

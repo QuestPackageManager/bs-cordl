@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::get_subtypeGroupIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe552ac;
+  constexpr static std::size_t addrs = 0xe6f000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe552b4;
+  constexpr static std::size_t addrs = 0xe6f008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationBeatmapEventData*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::set_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe552bc;
+  constexpr static std::size_t addrs = 0xe6f010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventData::*)(
     float_t, ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType, float_t)>(&::GlobalNamespace::SpawnRotationBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xe552c4;
+  constexpr static std::size_t addrs = 0xe6f018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::Mirror)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xe5531c;
+  constexpr static std::size_t addrs = 0xe6f070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationBeatmapEventData*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0xe55338;
+  constexpr static std::size_t addrs = 0xe6f08c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventData::*)(::GlobalNamespace::SpawnRotationBeatmapEventData*)>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::RecalculateRotationFromPreviousEvent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0xe553d8;
+  constexpr static std::size_t addrs = 0xe6f12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::SetFirstRotationEventRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xe553fc;
+  constexpr static std::size_t addrs = 0xe6f150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationBeatmapEventData*>::get(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(
     &::GlobalNamespace::SpawnRotationBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xe55408;
+  constexpr static std::size_t addrs = 0xe6f15c;
 
   inline static ::MethodInfo const* methodInfo() {
 

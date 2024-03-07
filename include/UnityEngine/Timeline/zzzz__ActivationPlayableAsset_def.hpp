@@ -38,15 +38,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x2d368e0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x2d94118, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::UnityEngine::Timeline::ActivationPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d3694c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d94184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x2d368d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x2d94110, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

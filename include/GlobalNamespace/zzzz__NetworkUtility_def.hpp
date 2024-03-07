@@ -30,22 +30,22 @@ public:
   /// @brief Field _nameEncryptionKey, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__nameEncryptionKey, put = setStaticF__nameEncryptionKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _nameEncryptionKey;
 
-  /// @brief Method DecryptName, addr 0xebf828, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method DecryptName, addr 0xedff30, size 0x424, virtual false, abstract: false, final false
   static inline ::StringW DecryptName(::StringW text);
 
-  /// @brief Method EncryptName, addr 0xebf408, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method EncryptName, addr 0xedfb10, size 0x420, virtual false, abstract: false, final false
   static inline ::StringW EncryptName(::StringW text);
 
-  /// @brief Method GenerateId, addr 0xebfc4c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GenerateId, addr 0xee0354, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW GenerateId();
 
-  /// @brief Method GetHashBase64, addr 0xebf1fc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetHashBase64, addr 0xedf904, size 0x20c, virtual false, abstract: false, final false
   static inline ::StringW GetHashBase64(::StringW input);
 
-  /// @brief Method GetHashedUserId, addr 0xebf130, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetHashedUserId, addr 0xedf838, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::__AuthenticationToken__Platform platform);
 
-  /// @brief Method Init, addr 0xebf050, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xedf758, size 0xe0, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__nameEncryptionIv();

@@ -18,7 +18,7 @@ namespace HMUI {
 class CORDL_TYPE EventSystemHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsInputFieldSelected, addr 0x227e4f0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsInputFieldSelected, addr 0x22df428, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsInputFieldSelected();
 
 protected:

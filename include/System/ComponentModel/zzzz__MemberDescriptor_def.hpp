@@ -88,35 +88,35 @@ public:
   /// @brief Field originalAttributes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_originalAttributes, put = __cordl_internal_set_originalAttributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> originalAttributes;
 
-  /// @brief Method CheckAttributesValid, addr 0x2a0713c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckAttributesValid, addr 0x2a68974, size 0xb0, virtual false, abstract: false, final false
   inline void CheckAttributesValid();
 
-  /// @brief Method CreateAttributeCollection, addr 0x2a07c60, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CreateAttributeCollection, addr 0x2a69498, size 0x7c, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* CreateAttributeCollection();
 
-  /// @brief Method Equals, addr 0x2a07cdc, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2a69514, size 0x264, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes, addr 0x2a013cc, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x2a62c04, size 0xf4, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method FilterAttributesIfNeeded, addr 0x2a071ec, size 0x748, virtual false, abstract: false, final false
+  /// @brief Method FilterAttributesIfNeeded, addr 0x2a68a24, size 0x748, virtual false, abstract: false, final false
   inline void FilterAttributesIfNeeded();
 
-  /// @brief Method FindMethod, addr 0x2a01910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x2a63148, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType);
 
-  /// @brief Method FindMethod, addr 0x2a07f40, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x2a69778, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType,
                                                              bool publicOnly);
 
-  /// @brief Method GetHashCode, addr 0x2a07fe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2a6981c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget, addr 0x2a07fec, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationTarget, addr 0x2a69824, size 0x110, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetSite, addr 0x2a087d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetSite, addr 0x2a6a008, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ISite* GetSite(::System::Object* component);
 
   static inline ::System::ComponentModel::MemberDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
@@ -196,28 +196,28 @@ public:
 
   constexpr void __cordl_internal_set_originalAttributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x2a06b50, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a68388, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method .ctor, addr 0x2a06cf4, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a6852c, size 0x428, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes);
 
-  /// @brief Method get_AttributeArray, addr 0x2a0711c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_AttributeArray, addr 0x2a68954, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> get_AttributeArray();
 
-  /// @brief Method get_Attributes, addr 0x2a079f8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x2a69230, size 0xe8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* get_Attributes();
 
-  /// @brief Method get_DisplayName, addr 0x2a07b38, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x2a69370, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_Name, addr 0x2a07ae0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2a69318, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameHashCode, addr 0x2a07b30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x2a69368, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method set_AttributeArray, addr 0x2a07934, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method set_AttributeArray, addr 0x2a6916c, size 0xc4, virtual true, abstract: false, final false
   inline void set_AttributeArray(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
 protected:

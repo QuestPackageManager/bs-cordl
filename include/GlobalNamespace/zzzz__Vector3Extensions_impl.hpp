@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::InverseLerp)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0xe98fcc;
+  constexpr static std::size_t addrs = 0xeb904c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::RotatedAroundPivot)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0xe99020;
+  constexpr static std::size_t addrs = 0xeb90a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::Vector3Extensions::MirrorOnYZPlane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe99080;
+  constexpr static std::size_t addrs = 0xeb9100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::MirrorEulerAnglesOnYZPlane)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xe99088;
+  constexpr static std::size_t addrs = 0xeb9108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -27,11 +27,11 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GeometryTools* New_ctor();
 
-  /// @brief Method ThreePointsToBox, addr 0xe97d30, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method ThreePointsToBox, addr 0xeb7db0, size 0x3ec, virtual false, abstract: false, final false
   static inline bool ThreePointsToBox(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ByRef<::UnityEngine::Vector3> center, ByRef<::UnityEngine::Vector3> halfSize,
                                       ByRef<::UnityEngine::Quaternion> orientation);
 
-  /// @brief Method .ctor, addr 0xe9811c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb819c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

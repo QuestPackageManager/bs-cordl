@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_Timestamp(int64_t value);
 
-  /// @brief Method .ctor, addr 0x27f5788, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28581a4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

@@ -83,24 +83,24 @@ public:
 
   __declspec(property(get = get_transformPoleAxis))::UnityEngine::Vector3 transformPoleAxis;
 
-  /// @brief Method GetAngle, addr 0x133ac1c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAngle, addr 0x1363174, size 0x138, virtual false, abstract: false, final false
   inline float_t GetAngle();
 
-  /// @brief Method GetClampedIKPosition, addr 0x133b5ac, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetClampedIKPosition, addr 0x1363b04, size 0x364, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetClampedIKPosition();
 
   static inline ::RootMotion::FinalIK::IKSolverAim* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x133adb4, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x136330c, size 0x28c, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x133b040, size 0x56c, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x1363598, size 0x56c, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method RotateToTarget, addr 0x133b9c0, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method RotateToTarget, addr 0x1363f18, size 0x538, virtual false, abstract: false, final false
   inline void RotateToTarget(::UnityEngine::Vector3 targetPosition, ::RootMotion::FinalIK::__IKSolver__Bone* bone, float_t weight);
 
-  /// @brief Method Solve, addr 0x133b910, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x1363e68, size 0xa8, virtual false, abstract: false, final false
   inline void Solve();
 
   constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __cordl_internal_get_OnPreIteration();
@@ -181,19 +181,19 @@ public:
 
   constexpr void __cordl_internal_set_transformLimit(::UnityW<::RootMotion::FinalIK::RotationLimit> value);
 
-  /// @brief Method .ctor, addr 0x133bf58, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13644b0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localDirection, addr 0x133bef8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_localDirection, addr 0x1364450, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localDirection();
 
-  /// @brief Method get_minBones, addr 0x133b9b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minBones, addr 0x1363f10, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_minBones();
 
-  /// @brief Method get_transformAxis, addr 0x133ad54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_transformAxis, addr 0x13632ac, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_transformAxis();
 
-  /// @brief Method get_transformPoleAxis, addr 0x133ad84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_transformPoleAxis, addr 0x13632dc, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_transformPoleAxis();
 
 protected:

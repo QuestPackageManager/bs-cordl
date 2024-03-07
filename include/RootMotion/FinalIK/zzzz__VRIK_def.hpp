@@ -107,10 +107,10 @@ public:
   /// @brief Field spine, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_spine, put = __cordl_internal_set_spine))::UnityW<::UnityEngine::Transform> spine;
 
-  /// @brief Method AutoDetectReferences, addr 0x132bc18, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method AutoDetectReferences, addr 0x1354170, size 0x38c, virtual false, abstract: false, final false
   static inline bool AutoDetectReferences(::UnityEngine::Transform* root, ByRef<::RootMotion::FinalIK::__VRIK__References*> references);
 
-  /// @brief Method GetTransforms, addr 0x132c9e8, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method GetTransforms, addr 0x1354f40, size 0x43c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> GetTransforms();
 
   static inline ::RootMotion::FinalIK::__VRIK__References* New_ctor();
@@ -247,13 +247,13 @@ public:
 
   constexpr void __cordl_internal_set_spine(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x132c9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1354f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEmpty, addr 0x132c040, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x1354598, size 0x3bc, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_isFilled, addr 0x132c3fc, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method get_isFilled, addr 0x1354954, size 0x3bc, virtual false, abstract: false, final false
   inline bool get_isFilled();
 
 protected:
@@ -402,30 +402,30 @@ public:
   /// @brief Field solver, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverVR* solver;
 
-  /// @brief Method AutoDetectReferences, addr 0x132bbfc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AutoDetectReferences, addr 0x1354154, size 0x1c, virtual false, abstract: false, final false
   inline void AutoDetectReferences();
 
-  /// @brief Method GetIKSolver, addr 0x132bfcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIKSolver, addr 0x1354524, size 0x8, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
-  /// @brief Method GuessHandOrientations, addr 0x132bfa4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GuessHandOrientations, addr 0x13544fc, size 0x28, virtual false, abstract: false, final false
   inline void GuessHandOrientations();
 
-  /// @brief Method InitiateSolver, addr 0x132bfd4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method InitiateSolver, addr 0x135452c, size 0x6c, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
   static inline ::RootMotion::FinalIK::VRIK* New_ctor();
 
-  /// @brief Method OpenScriptReference, addr 0x132bb74, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x13540cc, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenSetupTutorial, addr 0x132bbb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenSetupTutorial, addr 0x1354110, size 0x44, virtual false, abstract: false, final false
   inline void OpenSetupTutorial();
 
-  /// @brief Method OpenUserManual, addr 0x132bb30, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x1354088, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method UpdateSolver, addr 0x132c7b8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method UpdateSolver, addr 0x1354d10, size 0x190, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
   constexpr ::RootMotion::FinalIK::__VRIK__References*& __cordl_internal_get_references();
@@ -440,7 +440,7 @@ public:
 
   constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverVR* value);
 
-  /// @brief Method .ctor, addr 0x132c948, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1354ea0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

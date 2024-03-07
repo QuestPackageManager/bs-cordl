@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colorNotes,
                       put = __cordl_internal_set__colorNotes))::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> _colorNotes;
 
-  /// @brief Method Convert, addr 0x12ffd00, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13281ac, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ColorNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
 
-  /// @brief Method .ctor, addr 0x12ffbf0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132809c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:

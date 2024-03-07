@@ -23,7 +23,7 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE SerializationBinder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BindToName, addr 0x25a6cd4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method BindToName, addr 0x260a4d0, size 0xc, virtual true, abstract: false, final false
   inline void BindToName(::System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName);
 
   /// @brief Method BindToType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25a6ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260a4dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

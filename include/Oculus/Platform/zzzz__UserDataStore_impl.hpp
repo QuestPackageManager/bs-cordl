@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::StringW)>(
     &::Oculus::Platform::UserDataStore::PrivateDeleteEntryByKey)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x27f115c;
+  constexpr static std::size_t addrs = 0x2853b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* (*)(uint64_t)>(
     &::Oculus::Platform::UserDataStore::PrivateGetEntries)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x27f12cc;
+  constexpr static std::size_t addrs = 0x2853ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* (*)(uint64_t, ::StringW)>(&::Oculus::Platform::UserDataStore::PrivateGetEntryByKey)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x27f142c;
+  constexpr static std::size_t addrs = 0x2853e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::StringW, ::StringW)>(&::Oculus::Platform::UserDataStore::PrivateWriteEntry)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x27f159c;
+  constexpr static std::size_t addrs = 0x2853fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::StringW)>(
     &::Oculus::Platform::UserDataStore::PublicDeleteEntryByKey)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x27f1714;
+  constexpr static std::size_t addrs = 0x2854130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* (*)(uint64_t)>(
     &::Oculus::Platform::UserDataStore::PublicGetEntries)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x27f1884;
+  constexpr static std::size_t addrs = 0x28542a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* (*)(uint64_t, ::StringW)>(&::Oculus::Platform::UserDataStore::PublicGetEntryByKey)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x27f19e4;
+  constexpr static std::size_t addrs = 0x2854400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::StringW, ::StringW)>(&::Oculus::Platform::UserDataStore::PublicWriteEntry)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x27f1b54;
+  constexpr static std::size_t addrs = 0x2854570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

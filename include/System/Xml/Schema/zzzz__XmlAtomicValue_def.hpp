@@ -216,10 +216,10 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
-  /// @brief Method LookupNamespace, addr 0x29b0b48, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method LookupNamespace, addr 0x2a12380, size 0x34, virtual true, abstract: false, final true
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x29b0b7c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method LookupPrefix, addr 0x2a123b4, size 0x2c, virtual true, abstract: false, final true
   inline ::StringW LookupPrefix(::StringW namespaceName);
 
   static inline ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* New_ctor(::StringW prefix, ::StringW ns);
@@ -236,7 +236,7 @@ public:
 
   constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29afeac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a116e4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW ns);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
@@ -320,7 +320,7 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method GetPrefixFromQName, addr 0x29afde0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixFromQName, addr 0x2a11618, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixFromQName(::StringW value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value);
@@ -341,13 +341,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int64_t value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x29b016c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2a119a4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x29b0b3c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2a12374, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValueAs, addr 0x29b0818, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x2a12050, size 0x230, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* type, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   constexpr ::System::TypeCode const& __cordl_internal_get_clrType() const;
@@ -380,58 +380,58 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method .ctor, addr 0x29afadc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a11314, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value);
 
-  /// @brief Method .ctor, addr 0x29afb80, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a113b8, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x29af8b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a110ec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x29afed8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a11710, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29aff7c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a117b4, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x29af828, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a11060, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, bool value);
 
-  /// @brief Method .ctor, addr 0x29af93c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a11174, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, double_t value);
 
-  /// @brief Method .ctor, addr 0x29af9cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a11204, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int32_t value);
 
-  /// @brief Method .ctor, addr 0x29afa54, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a1128c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int64_t value);
 
-  /// @brief Method get_TypedValue, addr 0x29b01a0, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x2a119d8, size 0x1c4, virtual true, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_Value, addr 0x29b0a48, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2a12280, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_ValueAsBoolean, addr 0x29b03dc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsBoolean, addr 0x2a11c14, size 0xcc, virtual true, abstract: false, final false
   inline bool get_ValueAsBoolean();
 
-  /// @brief Method get_ValueAsDateTime, addr 0x29b04a8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDateTime, addr 0x2a11ce0, size 0xe0, virtual true, abstract: false, final false
   inline ::System::DateTime get_ValueAsDateTime();
 
-  /// @brief Method get_ValueAsDouble, addr 0x29b0588, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDouble, addr 0x2a11dc0, size 0xdc, virtual true, abstract: false, final false
   inline double_t get_ValueAsDouble();
 
-  /// @brief Method get_ValueAsInt, addr 0x29b0664, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsInt, addr 0x2a11e9c, size 0xd4, virtual true, abstract: false, final false
   inline int32_t get_ValueAsInt();
 
-  /// @brief Method get_ValueAsLong, addr 0x29b0738, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsLong, addr 0x2a11f70, size 0xe0, virtual true, abstract: false, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method get_ValueType, addr 0x29b0178, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x2a119b0, size 0x28, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_XmlType, addr 0x29b0170, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x2a119a8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
   /// @brief Convert to "::System::ICloneable"

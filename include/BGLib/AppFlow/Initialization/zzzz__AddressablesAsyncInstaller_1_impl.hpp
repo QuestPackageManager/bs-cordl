@@ -14,8 +14,9 @@
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -104,11 +105,20 @@ BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::LoadResourcesBe
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, registry, _);
 }
-template <typename T> inline ::UnityEngine::AddressableAssets::AssetLabelReference* BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::get_assetLabel() {
+template <typename T>
+inline ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>>
+BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::LoadAsync(::StringW runtimeKey) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), "LoadAsync",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>>, false>(
+      nullptr, ___internal_method, runtimeKey);
+}
+template <typename T> inline ::StringW BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::get_assetLabelRuntimeKey() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AddressableAssets::AssetLabelReference*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T>
 inline void BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<T>* assets,
@@ -126,11 +136,12 @@ template <typename T> inline void BGLib::AppFlow::Initialization::AddressablesAs
 }
 template <typename T>
 inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
-BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::GetLocations() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), "GetLocations",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, false>(this, ___internal_method);
+BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::GetLocations(::StringW runtimeKey) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), "GetLocations",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, false>(nullptr, ___internal_method,
+                                                                                                                                                                          runtimeKey);
 }
 template <typename T> inline ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>* BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>());

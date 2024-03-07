@@ -6,14 +6,13 @@
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::TextMeshProInstaller.get_assetLabel
+//  Writing Method size for method: ::GlobalNamespace::TextMeshProInstaller.get_assetLabelRuntimeKey
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetLabelReference* (::GlobalNamespace::TextMeshProInstaller::*)()>(
-    &::GlobalNamespace::TextMeshProInstaller::get_assetLabel)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2380c90;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextMeshProInstaller::*)()>(
+    &::GlobalNamespace::TextMeshProInstaller::get_assetLabelRuntimeKey)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e31f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>*, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*)>(
     &::GlobalNamespace::TextMeshProInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2380c98;
+  constexpr static std::size_t addrs = 0x23e3238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextMeshProInstaller::*)()>(&::GlobalNamespace::TextMeshProInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2380cf0;
+  constexpr static std::size_t addrs = 0x23e3290;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextMeshProInstaller::*)()>(&::GlobalNamespace::TextMeshProInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2380e30;
+  constexpr static std::size_t addrs = 0x23e33d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextMeshProInstaller*>::get(), ".ctor",
@@ -65,18 +64,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AddressableAssets::AssetLabelReference*& GlobalNamespace::TextMeshProInstaller::__cordl_internal_get__fontAssetsLabel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fontAssetsLabel;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetLabelReference*> const& GlobalNamespace::TextMeshProInstaller::__cordl_internal_get__fontAssetsLabel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fontAssetsLabel;
-}
-constexpr void GlobalNamespace::TextMeshProInstaller::__cordl_internal_set__fontAssetsLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fontAssetsLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*& GlobalNamespace::TextMeshProInstaller::__cordl_internal_get__fontAssets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontAssets;
@@ -90,10 +77,10 @@ constexpr void GlobalNamespace::TextMeshProInstaller::__cordl_internal_set__font
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fontAssets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::AddressableAssets::AssetLabelReference* GlobalNamespace::TextMeshProInstaller::get_assetLabel() {
+inline ::StringW GlobalNamespace::TextMeshProInstaller::get_assetLabelRuntimeKey() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextMeshProInstaller*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AddressableAssets::AssetLabelReference*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::TextMeshProInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets,
                                                                               ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry) {

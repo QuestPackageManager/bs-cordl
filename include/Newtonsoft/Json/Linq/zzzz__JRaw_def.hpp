@@ -27,20 +27,20 @@ namespace Newtonsoft::Json::Linq {
 class CORDL_TYPE JRaw : public ::Newtonsoft::Json::Linq::JValue {
 public:
   // Declarations
-  /// @brief Method CloneToken, addr 0x2781cb4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CloneToken, addr 0x27e2f70, size 0x64, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CloneToken();
 
-  /// @brief Method Create, addr 0x278193c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x27e2bf8, size 0x378, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* reader);
 
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::Newtonsoft::Json::Linq::JRaw* other);
 
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::System::Object* rawJson);
 
-  /// @brief Method .ctor, addr 0x2781928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e2be4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JRaw* other);
 
-  /// @brief Method .ctor, addr 0x2781930, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e2bec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* rawJson);
 
 protected:

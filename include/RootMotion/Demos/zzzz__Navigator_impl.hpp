@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::Demos::Navigator::*)()>(
     &::RootMotion::Demos::Navigator::get_normalizedDeltaPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x131cb50;
+  constexpr static std::size_t addrs = 0x13450a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Demos::Navigator*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)(::UnityEngine::Vector3)>(
     &::RootMotion::Demos::Navigator::set_normalizedDeltaPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x131cb5c;
+  constexpr static std::size_t addrs = 0x13450b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::Demos::__Navigator__State (::RootMotion::Demos::Navigator::*)()>(
     &::RootMotion::Demos::Navigator::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x131cb68;
+  constexpr static std::size_t addrs = 0x13450c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Demos::Navigator*>::get(), "get_state",
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)(::RootMotion::Demos::__Navigator__State)>(
     &::RootMotion::Demos::Navigator::set_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x131cb70;
+  constexpr static std::size_t addrs = 0x13450c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)(::UnityEngine::Transform*)>(&::RootMotion::Demos::Navigator::Initiate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x131cb78;
+  constexpr static std::size_t addrs = 0x13450d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)(::UnityEngine::Vector3)>(&::RootMotion::Demos::Navigator::Update)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x131cc2c;
+  constexpr static std::size_t addrs = 0x1345184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)(::UnityEngine::Vector3)>(&::RootMotion::Demos::Navigator::CalculatePath)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x131d148;
+  constexpr static std::size_t addrs = 0x13456a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::Demos::Navigator::*)(::UnityEngine::Vector3)>(&::RootMotion::Demos::Navigator::Find)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x131d1ac;
+  constexpr static std::size_t addrs = 0x1345704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)()>(&::RootMotion::Demos::Navigator::Stop)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x131d070;
+  constexpr static std::size_t addrs = 0x13455c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Demos::Navigator*>::get(), "Stop",
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::Demos::Navigator::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::RootMotion::Demos::Navigator::HorDistance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x131d0cc;
+  constexpr static std::size_t addrs = 0x1345624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)()>(&::RootMotion::Demos::Navigator::Visualize)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x131d2e0;
+  constexpr static std::size_t addrs = 0x1345838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Demos::Navigator*>::get(), "Visualize",
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Demos::Navigator::*)()>(&::RootMotion::Demos::Navigator::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x131d4a4;
+  constexpr static std::size_t addrs = 0x13459fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Demos::Navigator*>::get(), ".ctor",

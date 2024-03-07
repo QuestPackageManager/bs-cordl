@@ -24,24 +24,24 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  /// @brief Method Finalize, addr 0x27de1d4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2840bf0, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::GroupPresenceOptions* New_ctor();
 
-  /// @brief Method SetDeeplinkMessageOverride, addr 0x27de114, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDeeplinkMessageOverride, addr 0x2840b30, size 0x68, virtual false, abstract: false, final false
   inline void SetDeeplinkMessageOverride(::StringW value);
 
-  /// @brief Method SetDestinationApiName, addr 0x27bbb4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationApiName, addr 0x281e568, size 0x68, virtual false, abstract: false, final false
   inline void SetDestinationApiName(::StringW value);
 
-  /// @brief Method SetIsJoinable, addr 0x27bbc84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIsJoinable, addr 0x281e6a0, size 0x68, virtual false, abstract: false, final false
   inline void SetIsJoinable(bool value);
 
-  /// @brief Method SetLobbySessionId, addr 0x27bbc1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLobbySessionId, addr 0x281e638, size 0x68, virtual false, abstract: false, final false
   inline void SetLobbySessionId(::StringW value);
 
-  /// @brief Method SetMatchSessionId, addr 0x27bbbb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMatchSessionId, addr 0x281e5d0, size 0x68, virtual false, abstract: false, final false
   inline void SetMatchSessionId(::StringW value);
 
   constexpr void* const& __cordl_internal_get_Handle() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(void* value);
 
-  /// @brief Method .ctor, addr 0x27bbae8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281e504, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x27de17c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2840b98, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::GroupPresenceOptions* options);
 
 protected:

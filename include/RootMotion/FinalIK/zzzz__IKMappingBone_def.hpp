@@ -42,26 +42,26 @@ public:
   /// @brief Field maintainRotationWeight, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_maintainRotationWeight, put = __cordl_internal_set_maintainRotationWeight)) float_t maintainRotationWeight;
 
-  /// @brief Method FixTransforms, addr 0x133738c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x135f8e4, size 0x1c, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method Initiate, addr 0x13373a8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Initiate, addr 0x135f900, size 0x8c, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method IsValid, addr 0x13371bc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x135f714, size 0x9c, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKMappingBone* New_ctor();
 
   static inline ::RootMotion::FinalIK::IKMappingBone* New_ctor(::UnityEngine::Transform* bone);
 
-  /// @brief Method ReadPose, addr 0x1337434, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadPose, addr 0x135f98c, size 0x18, virtual false, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x1337374, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x135f8cc, size 0x18, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method WritePose, addr 0x133744c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WritePose, addr 0x135f9a4, size 0x24, virtual false, abstract: false, final false
   inline void WritePose(float_t solverWeight);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone() const;
@@ -82,10 +82,10 @@ public:
 
   constexpr void __cordl_internal_set_maintainRotationWeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1337258, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135f7b0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13372dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135f834, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* bone);
 
 protected:

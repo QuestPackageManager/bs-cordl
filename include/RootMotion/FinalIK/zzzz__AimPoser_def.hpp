@@ -51,12 +51,12 @@ public:
   /// @brief Field yaw, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_yaw, put = __cordl_internal_set_yaw)) float_t yaw;
 
-  /// @brief Method IsInDirection, addr 0x136d084, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method IsInDirection, addr 0x13975dc, size 0x4b0, virtual false, abstract: false, final false
   inline bool IsInDirection(::UnityEngine::Vector3 d);
 
   static inline ::RootMotion::FinalIK::__AimPoser__Pose* New_ctor();
 
-  /// @brief Method SetAngleBuffer, addr 0x136d5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAngleBuffer, addr 0x1397b4c, size 0x8, virtual false, abstract: false, final false
   inline void SetAngleBuffer(float_t value);
 
   constexpr float_t const& __cordl_internal_get_angleBuffer() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_yaw(float_t value);
 
-  /// @brief Method .ctor, addr 0x136d5fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1397b54, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,12 +164,12 @@ public:
   /// @brief Field poses, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_poses, put = __cordl_internal_set_poses))::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> poses;
 
-  /// @brief Method GetPose, addr 0x136cfb4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetPose, addr 0x139750c, size 0xd0, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__AimPoser__Pose* GetPose(::UnityEngine::Vector3 localDirection);
 
   static inline ::RootMotion::FinalIK::AimPoser* New_ctor();
 
-  /// @brief Method SetPoseActive, addr 0x136d534, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetPoseActive, addr 0x1397a8c, size 0x60, virtual false, abstract: false, final false
   inline void SetPoseActive(::RootMotion::FinalIK::__AimPoser__Pose* pose);
 
   constexpr float_t const& __cordl_internal_get_angleBuffer() const;
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set_poses(::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> value);
 
-  /// @brief Method .ctor, addr 0x136d594, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1397aec, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
