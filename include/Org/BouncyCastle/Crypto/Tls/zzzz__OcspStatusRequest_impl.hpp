@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)(
     ::System::Collections::IList*, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1002eec;
+  constexpr static std::size_t addrs = 0x10235f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::get_ResponderIDList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1002f18;
+  constexpr static std::size_t addrs = 0x102361c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::get_RequestExtensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1002f20;
+  constexpr static std::size_t addrs = 0x1023624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::Encode)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x1002f28;
+  constexpr static std::size_t addrs = 0x102362c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::Parse)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x10032e8;
+  constexpr static std::size_t addrs = 0x10239ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

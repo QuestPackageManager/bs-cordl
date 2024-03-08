@@ -30,22 +30,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE TimeSpanConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x2a021f0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2a63a28, size 0xa8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x2a02298, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2a63ad0, size 0xa8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x2a023c8, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2a63c00, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2a025ac, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2a63de4, size 0x2fc, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::TimeSpanConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a028a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a640e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

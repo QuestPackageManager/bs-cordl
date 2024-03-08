@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride::get_objectType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2b2ea5c;
+  constexpr static std::size_t addrs = 0x2b8e294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::UnityEngine::InputSystem::InputBinding, ::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2b2904c;
+  constexpr static std::size_t addrs = 0x2b88884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ::UnityEngine::InputSystem::InputBinding, ::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2b2efc8;
+  constexpr static std::size_t addrs = 0x2b8e800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputActionMap*, ByRef<::UnityEngine::InputSystem::InputBinding>, ::StringW, ::StringW)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride::Find)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2b2a040;
+  constexpr static std::size_t addrs = 0x2b89878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*>, int32_t,
     ByRef<::UnityEngine::InputSystem::InputBinding>, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride::Find)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x2b2effc;
+  constexpr static std::size_t addrs = 0x2b8e834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Nullable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride::PickMoreSpecificOne)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x2b2f218;
+  constexpr static std::size_t addrs = 0x2b8ea50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,7 +247,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputActionState*, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, int32_t)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2b292ac;
+  constexpr static std::size_t addrs = 0x2b88ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable::GetEnumerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2b292e0;
+  constexpr static std::size_t addrs = 0x2b88b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable::
         System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputActionRebindingExtensions_Parameter__GetEnumerator)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2b2e8ec;
+  constexpr static std::size_t addrs = 0x2b8e124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable::*)()>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2b2e9a4;
+  constexpr static std::size_t addrs = 0x2b8e1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputActionState*, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, int32_t)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x2b2e6a4;
+  constexpr static std::size_t addrs = 0x2b8dedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::MoveToNextBinding)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x2b2ebdc;
+  constexpr static std::size_t addrs = 0x2b8e414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::MoveToNextInteraction)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b2ed98;
+  constexpr static std::size_t addrs = 0x2b8e5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::MoveToNextProcessor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b2eef0;
+  constexpr static std::size_t addrs = 0x2b8e728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::FindParameter)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2b2ee08;
+  constexpr static std::size_t addrs = 0x2b8e640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2b29354;
+  constexpr static std::size_t addrs = 0x2b88b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::Reset)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2b2eb10;
+  constexpr static std::size_t addrs = 0x2b8e348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2b29340;
+  constexpr static std::size_t addrs = 0x2b88b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2b2ef60;
+  constexpr static std::size_t addrs = 0x2b8e798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b2efc4;
+  constexpr static std::size_t addrs = 0x2b8e7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -686,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::*)()>(
     &::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2f99c;
+  constexpr static std::size_t addrs = 0x2b8f1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::*)(
     ::UnityEngine::InputSystem::InputControlScheme)>(&::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::_WithTargetBinding_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b31414;
+  constexpr static std::size_t addrs = 0x2b90c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -746,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2f498;
+  constexpr static std::size_t addrs = 0x2b8ecd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -761,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_bindingMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b2f4a0;
+  constexpr static std::size_t addrs = 0x2b8ecd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -776,7 +776,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_candidates)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2b2f4b0;
+  constexpr static std::size_t addrs = 0x2b8ece8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<float_t> (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_scores)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2b2f4c4;
+  constexpr static std::size_t addrs = 0x2b8ecfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<float_t> (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_magnitudes)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2b2f538;
+  constexpr static std::size_t addrs = 0x2b8ed70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -821,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControl* (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_selectedControl)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b2f5ac;
+  constexpr static std::size_t addrs = 0x2b8ede4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -836,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_started)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b2f61c;
+  constexpr static std::size_t addrs = 0x2b8ee54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -851,7 +851,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_completed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b2f628;
+  constexpr static std::size_t addrs = 0x2b8ee60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -866,7 +866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_canceled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b2f634;
+  constexpr static std::size_t addrs = 0x2b8ee6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -881,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_startTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2f640;
+  constexpr static std::size_t addrs = 0x2b8ee78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -896,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_timeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2f648;
+  constexpr static std::size_t addrs = 0x2b8ee80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -911,7 +911,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::get_expectedControlType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b2e0e0;
+  constexpr static std::size_t addrs = 0x2b8d918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -927,7 +927,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithAction)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x2b2dddc;
+  constexpr static std::size_t addrs = 0x2b8d614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -943,7 +943,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(bool)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithMatchingEventsBeingSuppressed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2b2e0a4;
+  constexpr static std::size_t addrs = 0x2b8d8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -959,7 +959,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::StringW)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithCancelingThrough)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2e0f0;
+  constexpr static std::size_t addrs = 0x2b8d928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -975,7 +975,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithCancelingThrough)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2b2f6f8;
+  constexpr static std::size_t addrs = 0x2b8ef30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -991,7 +991,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::StringW)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithExpectedControlType)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2b2f6b0;
+  constexpr static std::size_t addrs = 0x2b8eee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1007,7 +1007,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::System::Type*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithExpectedControlType)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x2b2f788;
+  constexpr static std::size_t addrs = 0x2b8efc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1023,7 +1023,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(int32_t)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithTargetBinding)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x2b2e118;
+  constexpr static std::size_t addrs = 0x2b8d950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1039,7 +1039,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithBindingMask)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2fad0;
+  constexpr static std::size_t addrs = 0x2b8f308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1056,7 +1056,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::StringW)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithBindingGroup)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2b2faf0;
+  constexpr static std::size_t addrs = 0x2b8f328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1072,7 +1072,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithoutGeneralizingPathOfSelectedControl)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b2fb88;
+  constexpr static std::size_t addrs = 0x2b8f3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1088,7 +1088,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::StringW)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithRebindAddingNewBinding)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2b2fb98;
+  constexpr static std::size_t addrs = 0x2b8f3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1104,7 +1104,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(float_t)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithMagnitudeHavingToBeGreaterThan)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2b2fbac;
+  constexpr static std::size_t addrs = 0x2b8f3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1120,7 +1120,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithoutIgnoringNoisyControls)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b2fc74;
+  constexpr static std::size_t addrs = 0x2b8f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1136,7 +1136,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::StringW)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithControlsHavingToMatchPath)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2b2f9a4;
+  constexpr static std::size_t addrs = 0x2b8f1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1152,7 +1152,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::StringW)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithControlsExcluding)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2b2df78;
+  constexpr static std::size_t addrs = 0x2b8d7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1167,7 +1167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(float_t)>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::WithTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fc98;
+  constexpr static std::size_t addrs = 0x2b8f4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1183,7 +1183,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnComplete)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fca0;
+  constexpr static std::size_t addrs = 0x2b8f4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1201,7 +1201,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnCancel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fca8;
+  constexpr static std::size_t addrs = 0x2b8f4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1219,7 +1219,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnPotentialMatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fcb0;
+  constexpr static std::size_t addrs = 0x2b8f4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1237,7 +1237,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnGeneratePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fcb8;
+  constexpr static std::size_t addrs = 0x2b8f4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1255,7 +1255,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                           ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnComputeScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fcc0;
+  constexpr static std::size_t addrs = 0x2b8f4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1274,7 +1274,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                             ::StringW>*)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnApplyBinding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fcc8;
+  constexpr static std::size_t addrs = 0x2b8f500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1292,7 +1292,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(float_t)>(
         &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnMatchWaitForAnother)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2df70;
+  constexpr static std::size_t addrs = 0x2b8d7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1307,7 +1307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::Start)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2b2fcd0;
+  constexpr static std::size_t addrs = 0x2b8f508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1322,7 +1322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::Cancel)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b2ffe0;
+  constexpr static std::size_t addrs = 0x2b8f818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1337,7 +1337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::Complete)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b3002c;
+  constexpr static std::size_t addrs = 0x2b8f864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1352,7 +1352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(
     ::UnityEngine::InputSystem::InputControl*, float_t, float_t)>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::AddCandidate)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2b30348;
+  constexpr static std::size_t addrs = 0x2b8fb80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1369,7 +1369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(
     ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::RemoveCandidate)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2b305e4;
+  constexpr static std::size_t addrs = 0x2b8fe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1384,7 +1384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2b30704;
+  constexpr static std::size_t addrs = 0x2b8ff3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1399,7 +1399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2b30864;
+  constexpr static std::size_t addrs = 0x2b9009c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1415,7 +1415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (
     ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::Reset)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2b308f8;
+  constexpr static std::size_t addrs = 0x2b90130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1430,7 +1430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::HookOnEvent)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2b2ff00;
+  constexpr static std::size_t addrs = 0x2b8f738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1445,7 +1445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::UnhookOnEvent)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2b30768;
+  constexpr static std::size_t addrs = 0x2b8ffa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1460,7 +1460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnEvent)> {
   constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x2b30990;
+  constexpr static std::size_t addrs = 0x2b901c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1477,7 +1477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::SortCandidatesByScore)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2b304c0;
+  constexpr static std::size_t addrs = 0x2b8fcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1492,7 +1492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputControl*, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::HavePathMatch)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2b310dc;
+  constexpr static std::size_t addrs = 0x2b90914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1510,7 +1510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::HookOnAfterUpdate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2b2fe38;
+  constexpr static std::size_t addrs = 0x2b8f670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1525,7 +1525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::UnhookOnAfterUpdate)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2b307f0;
+  constexpr static std::size_t addrs = 0x2b90028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1540,7 +1540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnAfterUpdate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2b31158;
+  constexpr static std::size_t addrs = 0x2b90990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1555,7 +1555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnComplete)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x2b3003c;
+  constexpr static std::size_t addrs = 0x2b8f874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1570,7 +1570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::OnCancel)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2b2fff0;
+  constexpr static std::size_t addrs = 0x2b8f828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1585,7 +1585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::ResetAfterMatchCompleted)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2b31350;
+  constexpr static std::size_t addrs = 0x2b90b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1600,7 +1600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::ThrowIfRebindInProgress)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2b2f650;
+  constexpr static std::size_t addrs = 0x2b8ee88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1615,7 +1615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)(
     ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::GeneratePathForControl)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2b31200;
+  constexpr static std::size_t addrs = 0x2b90a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1630,7 +1630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2b2dd4c;
+  constexpr static std::size_t addrs = 0x2b8d584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2465,7 +2465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper::Acquire)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2b2e654;
+  constexpr static std::size_t addrs = 0x2b8de8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2480,7 +2480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2b31438;
+  constexpr static std::size_t addrs = 0x2b90c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2495,7 +2495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2e64c;
+  constexpr static std::size_t addrs = 0x2b8de84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2542,7 +2542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0::*)()>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2b18c;
+  constexpr static std::size_t addrs = 0x2b8a9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2557,7 +2557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0::*)(::StringW)>(
     &::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0::_GetBindingDisplayString_b__0)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b314a4;
+  constexpr static std::size_t addrs = 0x2b90cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2640,7 +2640,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW, ::UnityEngine::InputSystem::InputBinding)>(&::UnityEngine::InputSystem::InputActionRebindingExtensions::GetParameterValue)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2b28f18;
+  constexpr static std::size_t addrs = 0x2b88750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2658,7 +2658,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetParameterValue)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x2b290f0;
+  constexpr static std::size_t addrs = 0x2b88928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2674,7 +2674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW, int32_t)>(&::UnityEngine::InputSystem::InputActionRebindingExtensions::GetParameterValue)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x2b29408;
+  constexpr static std::size_t addrs = 0x2b88c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2691,7 +2691,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::InputSystem::InputActionMap*, ::StringW, ::UnityEngine::InputSystem::Utilities::PrimitiveValue, ::UnityEngine::InputSystem::InputBinding)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x2b29620;
+  constexpr static std::size_t addrs = 0x2b88e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2710,7 +2710,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::InputSystem::InputActionAsset*, ::StringW, ::UnityEngine::InputSystem::Utilities::PrimitiveValue, ::UnityEngine::InputSystem::InputBinding)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2b29b34;
+  constexpr static std::size_t addrs = 0x2b8936c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2729,7 +2729,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::StringW, ::UnityEngine::InputSystem::Utilities::PrimitiveValue, ::UnityEngine::InputSystem::InputBinding)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2b29ccc;
+  constexpr static std::size_t addrs = 0x2b89504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2747,7 +2747,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::StringW, ::UnityEngine::InputSystem::Utilities::PrimitiveValue,
                                                                                            int32_t)>(&::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2b29e30;
+  constexpr static std::size_t addrs = 0x2b89668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2767,7 +2767,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*>>,
     ByRef<int32_t>, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride)>(&::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x2b2976c;
+  constexpr static std::size_t addrs = 0x2b88fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2787,7 +2787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingIndex)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2b2a1ec;
+  constexpr static std::size_t addrs = 0x2b89a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2803,7 +2803,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingIndex)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2b2a304;
+  constexpr static std::size_t addrs = 0x2b89b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2819,7 +2819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputAction*, ::StringW, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingIndex)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2b2a41c;
+  constexpr static std::size_t addrs = 0x2b89c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2835,7 +2835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> (*)(
     ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingForControl)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2b2a4dc;
+  constexpr static std::size_t addrs = 0x2b89d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2851,7 +2851,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingIndexForControl)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2b2a654;
+  constexpr static std::size_t addrs = 0x2b89e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2869,7 +2869,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions, ::StringW)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingDisplayString)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2b2a800;
+  constexpr static std::size_t addrs = 0x2b8a038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2887,7 +2887,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputBinding, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingDisplayString)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2b2a964;
+  constexpr static std::size_t addrs = 0x2b8a19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2905,7 +2905,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::UnityEngine::InputSystem::InputAction*, int32_t, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingDisplayString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2b2ab74;
+  constexpr static std::size_t addrs = 0x2b8a3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2923,7 +2923,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::UnityEngine::InputSystem::InputAction*, int32_t, ByRef<::StringW>, ByRef<::StringW>, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::GetBindingDisplayString)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x2b2abec;
+  constexpr static std::size_t addrs = 0x2b8a424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2941,7 +2941,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverride)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2b2b194;
+  constexpr static std::size_t addrs = 0x2b8a9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2958,7 +2958,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverride)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2b2b218;
+  constexpr static std::size_t addrs = 0x2b8aa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2974,7 +2974,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, int32_t, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverride)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2b2b458;
+  constexpr static std::size_t addrs = 0x2b8ac90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2991,7 +2991,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, int32_t, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverride)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2b2b6a4;
+  constexpr static std::size_t addrs = 0x2b8aedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3007,7 +3007,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverride)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2b2b324;
+  constexpr static std::size_t addrs = 0x2b8ab5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3023,7 +3023,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionMap*, int32_t, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverride)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x2b2b518;
+  constexpr static std::size_t addrs = 0x2b8ad50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3040,7 +3040,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, int32_t)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::RemoveBindingOverride)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2b2b740;
+  constexpr static std::size_t addrs = 0x2b8af78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3056,7 +3056,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::RemoveBindingOverride)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2b2b7c0;
+  constexpr static std::size_t addrs = 0x2b8aff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3072,7 +3072,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::RemoveBindingOverride)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2b2b848;
+  constexpr static std::size_t addrs = 0x2b8b080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3088,7 +3088,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::IInputActionCollection2*)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::RemoveAllBindingOverrides)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x2b2b8d0;
+  constexpr static std::size_t addrs = 0x2b8b108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3104,7 +3104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::RemoveAllBindingOverrides)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2b2be10;
+  constexpr static std::size_t addrs = 0x2b8b648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3120,7 +3120,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::InputSystem::InputActionMap*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverrides)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x2b2bf4c;
+  constexpr static std::size_t addrs = 0x2b8b784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3137,7 +3137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::InputSystem::InputActionMap*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::RemoveBindingOverrides)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x2b2c2d4;
+  constexpr static std::size_t addrs = 0x2b8bb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3153,7 +3153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverridesOnMatchingControls)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2b2c65c;
+  constexpr static std::size_t addrs = 0x2b8be94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3170,7 +3170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyBindingOverridesOnMatchingControls)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2b2c7b8;
+  constexpr static std::size_t addrs = 0x2b8bff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3187,7 +3187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::InputSystem::IInputActionCollection2*)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::SaveBindingOverridesAsJson)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x2b2c8dc;
+  constexpr static std::size_t addrs = 0x2b8c114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3203,7 +3203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::SaveBindingOverridesAsJson)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x2b2cf58;
+  constexpr static std::size_t addrs = 0x2b8c790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3220,7 +3220,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson>*, ::UnityEngine::InputSystem::InputAction*)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::AddBindingOverrideJsonTo)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x2b2cd74;
+  constexpr static std::size_t addrs = 0x2b8c5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3240,7 +3240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::IInputActionCollection2*, ::StringW, bool)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::LoadBindingOverridesFromJson)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2b2d2bc;
+  constexpr static std::size_t addrs = 0x2b8caf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3257,7 +3257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::StringW, bool)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::LoadBindingOverridesFromJson)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x2b2d788;
+  constexpr static std::size_t addrs = 0x2b8cfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3274,7 +3274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::IInputActionCollection2*, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::LoadBindingOverridesFromJsonInternal)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x2b2d490;
+  constexpr static std::size_t addrs = 0x2b8ccc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3292,7 +3292,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* (*)(::UnityEngine::InputSystem::InputAction*, int32_t)>(
         &::UnityEngine::InputSystem::InputActionRebindingExtensions::PerformInteractiveRebinding)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x2b2d970;
+  constexpr static std::size_t addrs = 0x2b8d1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3309,7 +3309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper* (*)()>(
     &::UnityEngine::InputSystem::InputActionRebindingExtensions::DeferBindingResolution)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2b28310;
+  constexpr static std::size_t addrs = 0x2b87b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

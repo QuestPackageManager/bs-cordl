@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131d508;
+  constexpr static std::size_t addrs = 0x1345a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), "OpenUserManual",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131d54c;
+  constexpr static std::size_t addrs = 0x1345aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), "OpenScriptReference",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::SupportGroup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131d590;
+  constexpr static std::size_t addrs = 0x1345ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), "SupportGroup",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::ASThread)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131d5d4;
+  constexpr static std::size_t addrs = 0x1345b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), "ASThread",
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(
     &::RootMotion::FinalIK::BipedIK::GetIKPositionWeight)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x131d618;
+  constexpr static std::size_t addrs = 0x1345b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(
     &::RootMotion::FinalIK::BipedIK::GetIKRotationWeight)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x131d6b0;
+  constexpr static std::size_t addrs = 0x1345c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, float_t)>(
     &::RootMotion::FinalIK::BipedIK::SetIKPositionWeight)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x131d6cc;
+  constexpr static std::size_t addrs = 0x1345c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, float_t)>(
     &::RootMotion::FinalIK::BipedIK::SetIKRotationWeight)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x131d6f8;
+  constexpr static std::size_t addrs = 0x1345c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::BipedIK::SetIKPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x131d724;
+  constexpr static std::size_t addrs = 0x1345c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::BipedIK::SetIKRotation)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x131d760;
+  constexpr static std::size_t addrs = 0x1345cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(
     &::RootMotion::FinalIK::BipedIK::GetIKPosition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x131d7a0;
+  constexpr static std::size_t addrs = 0x1345cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(
     &::RootMotion::FinalIK::BipedIK::GetIKRotation)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x131d7c0;
+  constexpr static std::size_t addrs = 0x1345d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::RootMotion::FinalIK::BipedIK::SetLookAtWeight)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x131d7e0;
+  constexpr static std::size_t addrs = 0x1345d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::BipedIK::SetLookAtPosition)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x131d804;
+  constexpr static std::size_t addrs = 0x1345d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::BipedIK::SetSpinePosition)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x131d82c;
+  constexpr static std::size_t addrs = 0x1345d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(float_t)>(&::RootMotion::FinalIK::BipedIK::SetSpineWeight)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x131d854;
+  constexpr static std::size_t addrs = 0x1345dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKSolverLimb* (::RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(
     &::RootMotion::FinalIK::BipedIK::GetGoalIK)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x131d634;
+  constexpr static std::size_t addrs = 0x1345b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::InitiateBipedIK)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x131d878;
+  constexpr static std::size_t addrs = 0x1345dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), "InitiateBipedIK",
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::UpdateBipedIK)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x131d884;
+  constexpr static std::size_t addrs = 0x1345ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), "UpdateBipedIK",
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::SetToDefaults)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x131d890;
+  constexpr static std::size_t addrs = 0x1345de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), "SetToDefaults",
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::FixTransforms)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x131dafc;
+  constexpr static std::size_t addrs = 0x1346054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::InitiateSolver)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x131db98;
+  constexpr static std::size_t addrs = 0x13460f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::UpdateSolver)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x131deb8;
+  constexpr static std::size_t addrs = 0x1346410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)(::StringW)>(&::RootMotion::FinalIK::BipedIK::LogWarning)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x131e324;
+  constexpr static std::size_t addrs = 0x134687c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIK::*)()>(&::RootMotion::FinalIK::BipedIK::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x131e348;
+  constexpr static std::size_t addrs = 0x13468a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIK*>::get(), ".ctor",

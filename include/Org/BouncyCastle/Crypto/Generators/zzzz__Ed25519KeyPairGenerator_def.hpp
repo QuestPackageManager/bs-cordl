@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0xf6b028, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0xf8b72c, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0xf6b00c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf8b710, size 0x1c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Ed25519KeyPairGenerator* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0xf6b0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8b7dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"

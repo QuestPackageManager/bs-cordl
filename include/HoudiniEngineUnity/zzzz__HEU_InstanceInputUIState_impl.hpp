@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_InstanceInputUIState::*)(::HoudiniEngineUnity::HEU_InstanceInputUIState*)>(
     &::HoudiniEngineUnity::HEU_InstanceInputUIState::CopyTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22d33b8;
+  constexpr static std::size_t addrs = 0x2334190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InstanceInputUIState::*)(::HoudiniEngineUnity::HEU_InstanceInputUIState*)>(
     &::HoudiniEngineUnity::HEU_InstanceInputUIState::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x22d33dc;
+  constexpr static std::size_t addrs = 0x23341b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_InstanceInputUIState::*)()>(&::HoudiniEngineUnity::HEU_InstanceInputUIState::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22d35c0;
+  constexpr static std::size_t addrs = 0x2334398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InstanceInputUIState*>::get(), ".ctor",

@@ -45,16 +45,16 @@ public:
   /// @brief Field s_KeyboardOnScreen, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_KeyboardOnScreen, put = setStaticF_s_KeyboardOnScreen))::UnityEngine::TouchScreenKeyboard* s_KeyboardOnScreen;
 
-  /// @brief Method DoPollTouchScreenKeyboard, addr 0x2f49890, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method DoPollTouchScreenKeyboard, addr 0x2fa20c8, size 0x728, virtual false, abstract: false, final false
   inline void DoPollTouchScreenKeyboard();
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2f49fb8, size 0x550, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2fa27f0, size 0x550, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine,
                                                                                        ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method PollTouchScreenKeyboard, addr 0x2f49634, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method PollTouchScreenKeyboard, addr 0x2fa1e6c, size 0x25c, virtual false, abstract: false, final false
   inline void PollTouchScreenKeyboard();
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_LastPointerDownTarget();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
-  /// @brief Method .ctor, addr 0x2f4962c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa1e64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
   static inline ::UnityEngine::TouchScreenKeyboard* getStaticF_s_KeyboardOnScreen();

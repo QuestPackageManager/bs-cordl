@@ -24,12 +24,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRKtxTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Load, addr 0x282b70c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x288bf44, size 0x250, virtual false, abstract: false, final false
   static inline bool Load(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<::GlobalNamespace::OVRTextureData> ktxData);
 
   static inline ::GlobalNamespace::OVRKtxTexture* New_ctor();
 
-  /// @brief Method .ctor, addr 0x282b95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288c194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

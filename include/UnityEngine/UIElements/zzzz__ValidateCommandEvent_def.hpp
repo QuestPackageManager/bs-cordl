@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ValidateCommandEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f5f9ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb9224, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

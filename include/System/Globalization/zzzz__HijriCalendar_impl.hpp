@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::HijriCalendar::*)()>(
     &::System::Globalization::HijriCalendar::get_MinSupportedDateTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26570d8;
+  constexpr static std::size_t addrs = 0x26b8428;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::HijriCalendar::*)()>(
     &::System::Globalization::HijriCalendar::get_MaxSupportedDateTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2657130;
+  constexpr static std::size_t addrs = 0x26b8480;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::HijriCalendar::*)()>(&::System::Globalization::HijriCalendar::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2657188;
+  constexpr static std::size_t addrs = 0x26b84d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::HijriCalendar*>::get(), ".ctor",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)()>(&::System::Globalization::HijriCalendar::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26571a4;
+  constexpr static std::size_t addrs = 0x26b84f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Globalization::HijriCalendar::*)(int32_t, int32_t, int32_t)>(
     &::System::Globalization::HijriCalendar::GetAbsoluteDateHijri)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x26571ac;
+  constexpr static std::size_t addrs = 0x26b84fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Globalization::HijriCalendar::*)(int32_t)>(
     &::System::Globalization::HijriCalendar::DaysUpToHijriYear)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2657274;
+  constexpr static std::size_t addrs = 0x26b85c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)()>(
     &::System::Globalization::HijriCalendar::get_HijriAdjustment)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2657330;
+  constexpr static std::size_t addrs = 0x26b8680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::HijriCalendar*>::get(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Globalization::HijriCalendar::GetAdvanceHijriDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2657398;
+  constexpr static std::size_t addrs = 0x26b86e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::HijriCalendar*>::get(),
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t)>(&::System::Globalization::HijriCalendar::CheckTicksRange)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x26573a0;
+  constexpr static std::size_t addrs = 0x26b86f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::System::Globalization::HijriCalendar::CheckEraRange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2657550;
+  constexpr static std::size_t addrs = 0x26b88a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::System::Globalization::HijriCalendar::CheckYearRange)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2657620;
+  constexpr static std::size_t addrs = 0x26b8970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::System::Globalization::HijriCalendar::CheckYearMonthRange)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x2657778;
+  constexpr static std::size_t addrs = 0x26b8ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(int64_t, int32_t)>(
     &::System::Globalization::HijriCalendar::GetDatePart)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x2657900;
+  constexpr static std::size_t addrs = 0x26b8c50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(::System::DateTime)>(
     &::System::Globalization::HijriCalendar::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2657b70;
+  constexpr static std::size_t addrs = 0x26b8ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DayOfWeek (::System::Globalization::HijriCalendar::*)(::System::DateTime)>(
     &::System::Globalization::HijriCalendar::GetDayOfWeek)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2657bb4;
+  constexpr static std::size_t addrs = 0x26b8f04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(int32_t, int32_t, int32_t)>(
     &::System::Globalization::HijriCalendar::GetDaysInMonth)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2657c1c;
+  constexpr static std::size_t addrs = 0x26b8f6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::HijriCalendar::GetDaysInYear)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2657ce8;
+  constexpr static std::size_t addrs = 0x26b9038;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(::System::DateTime)>(
     &::System::Globalization::HijriCalendar::GetEra)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2657d7c;
+  constexpr static std::size_t addrs = 0x26b90cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::System::Globalization::HijriCalendar::*)()>(
     &::System::Globalization::HijriCalendar::get_Eras)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2657df4;
+  constexpr static std::size_t addrs = 0x26b9144;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(::System::DateTime)>(
     &::System::Globalization::HijriCalendar::GetMonth)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2657e90;
+  constexpr static std::size_t addrs = 0x26b91e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::HijriCalendar::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2657ed4;
+  constexpr static std::size_t addrs = 0x26b9224;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(::System::DateTime)>(
     &::System::Globalization::HijriCalendar::GetYear)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2657f40;
+  constexpr static std::size_t addrs = 0x26b9290;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::HijriCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::HijriCalendar::IsLeapYear)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2657f84;
+  constexpr static std::size_t addrs = 0x26b92d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::HijriCalendar::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::Globalization::HijriCalendar::ToDateTime)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2658024;
+  constexpr static std::size_t addrs = 0x26b9374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)()>(
     &::System::Globalization::HijriCalendar::get_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2658204;
+  constexpr static std::size_t addrs = 0x26b9554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::HijriCalendar::*)(int32_t)>(
     &::System::Globalization::HijriCalendar::set_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2658248;
+  constexpr static std::size_t addrs = 0x26b9598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::HijriCalendar::*)(int32_t)>(
     &::System::Globalization::HijriCalendar::ToFourDigitYear)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2658360;
+  constexpr static std::size_t addrs = 0x26b96b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -74,10 +74,10 @@ public:
 
   constexpr void __cordl_internal_set_m_GenericData(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x2f183dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f71c14, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::System::Object* userData);
 
-  /// @brief Method get_userData, addr 0x2f18494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userData, addr 0x2f71ccc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_userData();
 
 protected:

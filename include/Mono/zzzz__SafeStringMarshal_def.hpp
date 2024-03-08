@@ -30,22 +30,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x2503a8c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2568288, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GFree, addr 0x2503a08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GFree, addr 0x2568204, size 0x4, virtual false, abstract: false, final false
   static inline void GFree(void* ptr);
 
-  /// @brief Method StringToUtf8, addr 0x25039f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToUtf8, addr 0x25681ec, size 0x18, virtual false, abstract: false, final false
   static inline void* StringToUtf8(::StringW str);
 
-  /// @brief Method StringToUtf8_icall, addr 0x25039ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StringToUtf8_icall, addr 0x25681e8, size 0x4, virtual false, abstract: false, final false
   static inline void* StringToUtf8_icall(ByRef<::StringW> str);
 
-  /// @brief Method .ctor, addr 0x25037c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2567fc0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method get_Value, addr 0x2503a0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2568208, size 0x80, virtual false, abstract: false, final false
   inline void* get_Value();
 
   /// @brief Convert to "::System::IDisposable"

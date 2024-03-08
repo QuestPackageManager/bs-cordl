@@ -37,42 +37,42 @@ public:
   /// @brief Field ik, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
 
-  /// @brief Method Initiate, addr 0x132740c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x134f964, size 0x238, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method IsReadyToInitiate, addr 0x1327330, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiate, addr 0x134f888, size 0x88, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
   static inline ::RootMotion::FinalIK::GrounderVRIK* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1327c8c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x13501e4, size 0x198, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x1327b58, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x13500b0, size 0x134, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnPostSolverUpdate, addr 0x13278bc, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method OnPostSolverUpdate, addr 0x134fe14, size 0x29c, virtual false, abstract: false, final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnSolverUpdate, addr 0x1327644, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method OnSolverUpdate, addr 0x134fb9c, size 0x1f4, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method OpenScriptReference, addr 0x13272d4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x134f82c, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial, addr 0x132724c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial, addr 0x134f7a4, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial();
 
-  /// @brief Method OpenUserManual, addr 0x1327290, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x134f7e8, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method ResetPosition, addr 0x1327318, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x134f870, size 0x18, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method SetLegIK, addr 0x1327838, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetLegIK, addr 0x134fd90, size 0x84, virtual false, abstract: false, final false
   inline void SetLegIK(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Transform* bone, ::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  /// @brief Method Update, addr 0x13273b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x134f910, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
-  /// @brief Method .ctor, addr 0x1327e24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135037c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

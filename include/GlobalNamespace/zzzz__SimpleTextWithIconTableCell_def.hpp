@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x22781b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d90e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_icon, addr 0x2278160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x22d9098, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Image> get_icon();
 
-  /// @brief Method get_text, addr 0x227818c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x22d90c4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_icon, addr 0x2278158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x22d9090, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_text, addr 0x2278168, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x22d90a0, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

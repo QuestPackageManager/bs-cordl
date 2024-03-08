@@ -26,7 +26,7 @@ public:
   /// @brief Field displayMask, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_displayMask, put = __cordl_internal_set_displayMask)) int32_t displayMask;
 
-  /// @brief Method GetGUITargetAttrValue, addr 0x2e00790, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetGUITargetAttrValue, addr 0x2e5bfc8, size 0x180, virtual false, abstract: false, final false
   static inline int32_t GetGUITargetAttrValue(::System::Type* klass, ::StringW methodName);
 
   constexpr int32_t const& __cordl_internal_get_displayMask() const;

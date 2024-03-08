@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSettings::*)(void*)>(&::OVR::OpenVR::CVRSettings::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x28e6b58;
+  constexpr static std::size_t addrs = 0x2949390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OVR::OpenVR::CVRSettings::*)(::OVR::OpenVR::EVRSettingsError)>(
     &::OVR::OpenVR::CVRSettings::GetSettingsErrorNameFromEnum)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x28e6c6c;
+  constexpr static std::size_t addrs = 0x29494a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::CVRSettings::*)(bool, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::Sync)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x28e6cf0;
+  constexpr static std::size_t addrs = 0x2949528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, bool, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::SetBool)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x28e6d18;
+  constexpr static std::size_t addrs = 0x2949550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, int32_t, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::SetInt32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6d40;
+  constexpr static std::size_t addrs = 0x2949578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, float_t, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::SetFloat)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6d64;
+  constexpr static std::size_t addrs = 0x294959c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, ::StringW, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::SetString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6d88;
+  constexpr static std::size_t addrs = 0x29495c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::GetBool)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6dac;
+  constexpr static std::size_t addrs = 0x29495e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::GetInt32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6dd0;
+  constexpr static std::size_t addrs = 0x2949608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::GetFloat)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6df4;
+  constexpr static std::size_t addrs = 0x294962c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::CVRSettings::GetString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6e18;
+  constexpr static std::size_t addrs = 0x2949650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSettings::*)(::StringW, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::RemoveSection)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6e3c;
+  constexpr static std::size_t addrs = 0x2949674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSettings::*)(::StringW, ::StringW, ByRef<::OVR::OpenVR::EVRSettingsError>)>(
     &::OVR::OpenVR::CVRSettings::RemoveKeyInSection)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28e6e60;
+  constexpr static std::size_t addrs = 0x2949698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

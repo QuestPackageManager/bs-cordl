@@ -60,37 +60,37 @@ public:
   /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Complete(T result, bool status, ::System::Exception* exception);
 
-  /// @brief Method GetDependencies, addr 0x2cbcf20, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x2d1c758, size 0xb4, virtual false, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* list);
 
   /// @brief Method GetDependency, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDepObject> inline TDepObject GetDependency(int32_t index);
 
-  /// @brief Method SetDownloadProgressCallbacks, addr 0x2cbb0d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadProgressCallbacks, addr 0x2d1a908, size 0xb4, virtual false, abstract: false, final false
   inline void SetDownloadProgressCallbacks(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
 
-  /// @brief Method SetProgressCallback, addr 0x2cbb01c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetProgressCallback, addr 0x2d1a854, size 0xb4, virtual false, abstract: false, final false
   inline void SetProgressCallback(::System::Func_1<float_t>* callback);
 
-  /// @brief Method SetWaitForCompletionCallback, addr 0x2cbb184, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetWaitForCompletionCallback, addr 0x2d1a9bc, size 0xb4, virtual false, abstract: false, final false
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
-  /// @brief Method .ctor, addr 0x2cbddd4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d1d60c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
 
-  /// @brief Method get_DependencyCount, addr 0x2cbdf9c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_DependencyCount, addr 0x2d1d7d4, size 0xac, virtual false, abstract: false, final false
   inline int32_t get_DependencyCount();
 
-  /// @brief Method get_InternalOp, addr 0x2cbde90, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_InternalOp, addr 0x2d1d6c8, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
 
-  /// @brief Method get_Location, addr 0x2cba7d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x2d1a008, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_ResourceManager, addr 0x2cbdf94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceManager, addr 0x2d1d7cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
 
-  /// @brief Method get_Type, addr 0x2cbd33c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2d1cb74, size 0xac, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
   // Ctor Parameters []

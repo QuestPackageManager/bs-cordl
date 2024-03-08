@@ -36,10 +36,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlace* New_ctor();
 
-  /// @brief Method SetPositionAndRotation, addr 0x247e144, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x24e7030, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 worldPos, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x247e1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e70a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x247e1c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e70b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

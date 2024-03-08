@@ -32,10 +32,10 @@ public:
   /// @brief Field req, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req))::Org::BouncyCastle::Asn1::Ocsp::Request* req;
 
-  /// @brief Method GetCertID, addr 0x11158f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCertID, addr 0x1139ffc, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-  /// @brief Method GetX509Extensions, addr 0x1115980, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x113a084, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::Request* value);
 
-  /// @brief Method .ctor, addr 0x1110998, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x113509c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-  /// @brief Method get_SingleRequestExtensions, addr 0x1115964, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SingleRequestExtensions, addr 0x113a068, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions();
 
 protected:

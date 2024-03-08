@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IteratorStateMachineAttribute* New_ctor(::System::Type* stateMachineType);
 
-  /// @brief Method .ctor, addr 0x25cbf84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262f780, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
 protected:

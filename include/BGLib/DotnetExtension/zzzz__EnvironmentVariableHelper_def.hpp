@@ -19,10 +19,10 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE EnvironmentVariableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDirectoryPath, addr 0xe8e728, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetDirectoryPath, addr 0xeab27c, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetDirectoryPath(::StringW variableName);
 
-  /// @brief Method SetDirectoryPath, addr 0xe8e7d8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetDirectoryPath, addr 0xeab32c, size 0x12c, virtual false, abstract: false, final false
   static inline void SetDirectoryPath(::StringW variableName, ::StringW path);
 
 protected:

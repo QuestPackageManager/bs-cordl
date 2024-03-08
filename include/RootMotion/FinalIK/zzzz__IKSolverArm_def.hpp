@@ -71,40 +71,40 @@ public:
   /// @brief Field upperArm, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_upperArm, put = __cordl_internal_set_upperArm))::RootMotion::FinalIK::__IKSolver__Point* upperArm;
 
-  /// @brief Method FixTransforms, addr 0x133c70c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1364c64, size 0x50, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetPoint, addr 0x133c56c, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x1364ac4, size 0x160, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetPoints, addr 0x133c428, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x1364980, size 0x144, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method IsValid, addr 0x133c06c, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x13645c4, size 0x35c, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverArm* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x133c75c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x1364cb4, size 0x58, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x133cabc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x1365014, size 0x20, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method Read, addr 0x133c7b4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x1364d0c, size 0x308, virtual false, abstract: false, final false
   inline void Read();
 
-  /// @brief Method SetChain, addr 0x133c3c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetChain, addr 0x1364920, size 0x60, virtual false, abstract: false, final false
   inline bool SetChain(::UnityEngine::Transform* chest, ::UnityEngine::Transform* shoulder, ::UnityEngine::Transform* upperArm, ::UnityEngine::Transform* forearm, ::UnityEngine::Transform* hand,
                        ::UnityEngine::Transform* root);
 
-  /// @brief Method Solve, addr 0x133cadc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x1365034, size 0x60, virtual false, abstract: false, final false
   inline void Solve();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x133c6cc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1364c24, size 0x40, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method Write, addr 0x133cb3c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x1365094, size 0x178, virtual false, abstract: false, final false
   inline void Write();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
@@ -173,7 +173,7 @@ public:
 
   constexpr void __cordl_internal_set_upperArm(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  /// @brief Method .ctor, addr 0x133ccb4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136520c, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

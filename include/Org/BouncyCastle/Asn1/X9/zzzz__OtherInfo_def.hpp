@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x121aa40, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x1240144, size 0x168, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*& __cordl_internal_get_keyInfo();
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_suppPubInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x121a62c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123fd30, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);
 
-  /// @brief Method .ctor, addr 0x121a668, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123fd6c, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyInfo, addr 0x121aa28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyInfo, addr 0x124012c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* get_KeyInfo();
 
-  /// @brief Method get_PartyAInfo, addr 0x121aa30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PartyAInfo, addr 0x1240134, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_PartyAInfo();
 
-  /// @brief Method get_SuppPubInfo, addr 0x121aa38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SuppPubInfo, addr 0x124013c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SuppPubInfo();
 
 protected:

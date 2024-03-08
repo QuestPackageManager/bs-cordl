@@ -22,7 +22,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x23345c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2395398, size 0x4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
 
 protected:

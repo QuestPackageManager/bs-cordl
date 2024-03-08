@@ -100,7 +100,7 @@ public:
   /// @brief Field use, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_use, put = __cordl_internal_set_use)) bool use;
 
-  /// @brief Method IsInRange, addr 0x1365b80, size 0x764, virtual false, abstract: false, final false
+  /// @brief Method IsInRange, addr 0x138f0d8, size 0x764, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* trigger, ByRef<float_t> error);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition* New_ctor();
@@ -147,13 +147,13 @@ public:
 
   constexpr void __cordl_internal_set_use(bool value);
 
-  /// @brief Method .ctor, addr 0x13662e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138f83c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_direction3D, addr 0x1365ac0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_direction3D, addr 0x138f018, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_direction3D();
 
-  /// @brief Method get_offset3D, addr 0x1365ab4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_offset3D, addr 0x138f00c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_offset3D();
 
 protected:
@@ -234,10 +234,10 @@ public:
   /// @brief Field maxDistance, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_maxDistance, put = __cordl_internal_set_maxDistance)) float_t maxDistance;
 
-  /// @brief Method GetRotation, addr 0x13662f8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x138f850, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method IsInRange, addr 0x1366470, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method IsInRange, addr 0x138f9c8, size 0x308, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit hit, ::UnityEngine::Transform* trigger, ByRef<float_t> error);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__CameraPosition* New_ctor();
@@ -272,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set_maxDistance(float_t value);
 
-  /// @brief Method .ctor, addr 0x1366778, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138fcd0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -349,7 +349,7 @@ public:
 
   constexpr void __cordl_internal_set_interactionObject(::UnityW<::RootMotion::FinalIK::InteractionObject> value);
 
-  /// @brief Method .ctor, addr 0x13667fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138fd54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -408,7 +408,7 @@ public:
   /// @brief Field show, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_show, put = __cordl_internal_set_show)) bool show;
 
-  /// @brief Method IsInRange, addr 0x13659ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsInRange, addr 0x138ef04, size 0xb0, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit, ::UnityEngine::Transform* trigger, ByRef<float_t> maxError);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__Range* New_ctor();
@@ -445,7 +445,7 @@ public:
 
   constexpr void __cordl_internal_set_show(bool value);
 
-  /// @brief Method .ctor, addr 0x13667ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138fd44, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -511,27 +511,27 @@ public:
   __declspec(property(get = __cordl_internal_get_ranges,
                       put = __cordl_internal_set_ranges))::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> ranges;
 
-  /// @brief Method ASThread, addr 0x1365964, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x138eebc, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method GetBestRangeIndex, addr 0x13642ec, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetBestRangeIndex, addr 0x138d844, size 0x1b4, virtual false, abstract: false, final false
   inline int32_t GetBestRangeIndex(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit);
 
   static inline ::RootMotion::FinalIK::InteractionTrigger* New_ctor();
 
-  /// @brief Method OpenScriptReference, addr 0x1365898, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x138edf0, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial4, addr 0x13658dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial4, addr 0x138ee34, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial4();
 
-  /// @brief Method OpenUserManual, addr 0x1365854, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x138edac, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method Start, addr 0x13659a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x138ef00, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SupportGroup, addr 0x1365920, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x138ee78, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
   constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> const& __cordl_internal_get_ranges() const;
@@ -540,7 +540,7 @@ public:
 
   constexpr void __cordl_internal_set_ranges(::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> value);
 
-  /// @brief Method .ctor, addr 0x1365a5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138efb4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

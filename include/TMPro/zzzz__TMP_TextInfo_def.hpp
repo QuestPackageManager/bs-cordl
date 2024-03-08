@@ -100,28 +100,28 @@ public:
   /// @brief Field wordInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo))::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> wordInfo;
 
-  /// @brief Method Clear, addr 0x2d2fe48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2d8e680, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearAllData, addr 0x2d2fea4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllData, addr 0x2d8e6dc, size 0x12c, virtual false, abstract: false, final false
   inline void ClearAllData();
 
-  /// @brief Method ClearAllMeshInfo, addr 0x2d30040, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearAllMeshInfo, addr 0x2d8e878, size 0x64, virtual false, abstract: false, final false
   inline void ClearAllMeshInfo();
 
-  /// @brief Method ClearLineInfo, addr 0x2d3017c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x2d8e9b4, size 0x180, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x2d2ffd0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x2d8e808, size 0x70, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearPageInfo, addr 0x2d302fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPageInfo, addr 0x2d8eb34, size 0x98, virtual false, abstract: false, final false
   inline void ClearPageInfo();
 
-  /// @brief Method ClearUnusedVertices, addr 0x2d30118, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x2d8e950, size 0x64, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materials);
 
-  /// @brief Method CopyMeshInfoVertexData, addr 0x2d30394, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method CopyMeshInfoVertexData, addr 0x2d8ebcc, size 0x3c8, virtual false, abstract: false, final false
   inline ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> CopyMeshInfoVertexData();
 
   static inline ::TMPro::TMP_TextInfo* New_ctor();
@@ -130,7 +130,7 @@ public:
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method ResetVertexLayout, addr 0x2d300a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResetVertexLayout, addr 0x2d8e8dc, size 0x74, virtual false, abstract: false, final false
   inline void ResetVertexLayout(bool isVolumetric);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -235,13 +235,13 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> value);
 
-  /// @brief Method .ctor, addr 0x2d2fa88, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d8e2c0, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d2fbb0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d8e3e8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t characterCount);
 
-  /// @brief Method .ctor, addr 0x2d2fcdc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d8e514, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_Text* textComponent);
 
   static inline ::UnityEngine::Vector2 getStaticF_k_InfinityVectorNegative();

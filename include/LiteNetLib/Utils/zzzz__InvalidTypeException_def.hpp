@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::LiteNetLib::Utils::InvalidTypeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x236dc14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cf9ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

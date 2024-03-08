@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22f3df0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2354bc8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t t, float_t v, float_t in_tangent, float_t out_tangent);
 
   // Ctor Parameters []

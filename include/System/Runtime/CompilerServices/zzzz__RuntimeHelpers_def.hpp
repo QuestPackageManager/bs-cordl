@@ -31,34 +31,34 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x25cfb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2631e5c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::System::Object* o);
 
-  /// @brief Method InitializeArray, addr 0x25cfa60, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitializeArray, addr 0x2631db0, size 0xa8, virtual false, abstract: false, final false
   static inline void InitializeArray(::System::Array* array, ::System::RuntimeFieldHandle fldHandle);
 
-  /// @brief Method InitializeArray, addr 0x25cfa5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeArray, addr 0x2631dac, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeArray(::System::Array* array, void* fldHandle);
 
   /// @brief Method IsReferenceOrContainsReferences, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsReferenceOrContainsReferences();
 
-  /// @brief Method PrepareConstrainedRegions, addr 0x25cfbe0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PrepareConstrainedRegions, addr 0x2631f30, size 0x4, virtual false, abstract: false, final false
   static inline void PrepareConstrainedRegions();
 
-  /// @brief Method RunClassConstructor, addr 0x25cfb18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RunClassConstructor, addr 0x2631e68, size 0xc0, virtual false, abstract: false, final false
   static inline void RunClassConstructor(::System::RuntimeTypeHandle type);
 
-  /// @brief Method RunClassConstructor, addr 0x25cfb14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RunClassConstructor, addr 0x2631e64, size 0x4, virtual false, abstract: false, final false
   static inline void RunClassConstructor(void* type);
 
-  /// @brief Method SufficientExecutionStack, addr 0x25cfbd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SufficientExecutionStack, addr 0x2631f28, size 0x4, virtual false, abstract: false, final false
   static inline bool SufficientExecutionStack();
 
-  /// @brief Method TryEnsureSufficientExecutionStack, addr 0x25cfbdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryEnsureSufficientExecutionStack, addr 0x2631f2c, size 0x4, virtual false, abstract: false, final false
   static inline bool TryEnsureSufficientExecutionStack();
 
-  /// @brief Method get_OffsetToStringData, addr 0x25cfb08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_OffsetToStringData, addr 0x2631e58, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_OffsetToStringData();
 
 protected:

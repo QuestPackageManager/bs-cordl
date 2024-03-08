@@ -22,7 +22,7 @@ namespace BeatSaber::AvatarCore {
 struct CORDL_TYPE AvatarPoseData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe5cdd0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe77b64, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose);
 
   // Ctor Parameters []

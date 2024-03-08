@@ -120,7 +120,7 @@ public:
 
   static inline ::System::Net::__MonoChunkParser__Chunk* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk);
 
-  /// @brief Method Read, addr 0x2ac0938, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x2b20170, size 0x60, virtual false, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Bytes() const;
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ac1434, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b20c6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk);
 
 protected:
@@ -216,36 +216,36 @@ public:
   /// @brief Field trailerState, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_trailerState, put = __cordl_internal_set_trailerState)) int32_t trailerState;
 
-  /// @brief Method GetChunkSize, addr 0x2ac0af4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GetChunkSize, addr 0x2b2032c, size 0x308, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State GetChunkSize(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method InternalWrite, addr 0x2ac09b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InternalWrite, addr 0x2b201f0, size 0x13c, virtual false, abstract: false, final false
   inline void InternalWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
   static inline ::System::Net::MonoChunkParser* New_ctor(::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method Read, addr 0x2ac061c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x2b1fe54, size 0x4, virtual false, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ReadBody, addr 0x2ac0dfc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReadBody, addr 0x2b20634, size 0x138, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State ReadBody(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method ReadCRLF, addr 0x2ac0f34, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ReadCRLF, addr 0x2b2076c, size 0x100, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State ReadCRLF(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method ReadFromChunks, addr 0x2ac0620, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method ReadFromChunks, addr 0x2b1fe58, size 0x318, virtual false, abstract: false, final false
   inline int32_t ReadFromChunks(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ReadTrailer, addr 0x2ac1034, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ReadTrailer, addr 0x2b2086c, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State ReadTrailer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method RemoveChunkExtension, addr 0x2ac14b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RemoveChunkExtension, addr 0x2b20cec, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW RemoveChunkExtension(::StringW input);
 
-  /// @brief Method ThrowProtocolViolation, addr 0x2ac145c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowProtocolViolation, addr 0x2b20c94, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowProtocolViolation(::StringW message);
 
-  /// @brief Method Write, addr 0x2ac0998, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2b201d0, size 0x20, virtual false, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
   constexpr int32_t const& __cordl_internal_get_chunkRead() const;
@@ -308,16 +308,16 @@ public:
 
   constexpr void __cordl_internal_set_trailerState(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ac0564, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1fd9c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method get_ChunkLeft, addr 0x2ac1428, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkLeft, addr 0x2b20c60, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_ChunkLeft();
 
-  /// @brief Method get_DataAvailable, addr 0x2ac1328, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_DataAvailable, addr 0x2b20b60, size 0x100, virtual false, abstract: false, final false
   inline bool get_DataAvailable();
 
-  /// @brief Method get_WantMore, addr 0x2ac1300, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_WantMore, addr 0x2b20b38, size 0x28, virtual false, abstract: false, final false
   inline bool get_WantMore();
 
 protected:

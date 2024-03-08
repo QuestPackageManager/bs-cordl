@@ -18,18 +18,18 @@ namespace UnityEngine::InputSystem::XR {
 class CORDL_TYPE XRController : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x2bad738, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2c0cf70, size 0xf0, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bad870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0d0a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHand, addr 0x2bad5f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_leftHand, addr 0x2c0ce30, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_leftHand();
 
-  /// @brief Method get_rightHand, addr 0x2bad698, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_rightHand, addr 0x2c0ced0, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_rightHand();
 
 protected:

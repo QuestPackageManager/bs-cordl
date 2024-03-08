@@ -24,24 +24,24 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  /// @brief Method Finalize, addr 0x27c06cc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x28230e8, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::ApplicationOptions* New_ctor();
 
-  /// @brief Method SetDeeplinkMessage, addr 0x27c0168, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDeeplinkMessage, addr 0x2822b84, size 0x68, virtual false, abstract: false, final false
   inline void SetDeeplinkMessage(::StringW value);
 
-  /// @brief Method SetDestinationApiName, addr 0x27c0270, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationApiName, addr 0x2822c8c, size 0x68, virtual false, abstract: false, final false
   inline void SetDestinationApiName(::StringW value);
 
-  /// @brief Method SetLobbySessionId, addr 0x27c0378, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLobbySessionId, addr 0x2822d94, size 0x68, virtual false, abstract: false, final false
   inline void SetLobbySessionId(::StringW value);
 
-  /// @brief Method SetMatchSessionId, addr 0x27c0480, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMatchSessionId, addr 0x2822e9c, size 0x68, virtual false, abstract: false, final false
   inline void SetMatchSessionId(::StringW value);
 
-  /// @brief Method SetRoomId, addr 0x27c0588, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRoomId, addr 0x2822fa4, size 0x68, virtual false, abstract: false, final false
   inline void SetRoomId(uint64_t value);
 
   constexpr void* const& __cordl_internal_get_Handle() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(void* value);
 
-  /// @brief Method .ctor, addr 0x27c009c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2822ab8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x27c0674, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2823090, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::ApplicationOptions* options);
 
 protected:

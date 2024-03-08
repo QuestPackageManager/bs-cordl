@@ -29,19 +29,19 @@ namespace RootMotion {
 class CORDL_TYPE BakerUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureQuaternionContinuity, addr 0x130ebf8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method EnsureQuaternionContinuity, addr 0x1337150, size 0x194, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion EnsureQuaternionContinuity(::UnityEngine::Quaternion lastQ, ::UnityEngine::Quaternion q);
 
-  /// @brief Method GetReducedKeyframes, addr 0x130e650, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method GetReducedKeyframes, addr 0x1336ba8, size 0x3c4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetReducedKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
 
-  /// @brief Method ReduceKeyframes, addr 0x130e618, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReduceKeyframes, addr 0x1336b70, size 0x38, virtual false, abstract: false, final false
   static inline void ReduceKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
 
-  /// @brief Method SetLoopFrame, addr 0x130ea14, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method SetLoopFrame, addr 0x1336f6c, size 0x1e0, virtual false, abstract: false, final false
   static inline void SetLoopFrame(float_t time, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method SetTangentMode, addr 0x130ebf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetTangentMode, addr 0x133714c, size 0x4, virtual false, abstract: false, final false
   static inline void SetTangentMode(::UnityEngine::AnimationCurve* curve);
 
 protected:

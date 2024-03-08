@@ -81,24 +81,24 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Awake, addr 0x243f4a8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24a7b8c, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetPositionForValue, addr 0x243f854, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPositionForValue, addr 0x24a7f38, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPositionForValue(int32_t value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x243f778, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x24a7e5c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::SmoothStepPositionEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x243f6dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24a7dc0, size 0x9c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPosition, addr 0x243f8b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x24a7f98, size 0x48, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method Start, addr 0x243f5b8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24a7c9c, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -173,7 +173,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x243f8fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a7fe0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

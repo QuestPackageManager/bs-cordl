@@ -35,23 +35,23 @@ public:
   static __declspec(property(get = getStaticF_atlasRequested,
                              put = setStaticF_atlasRequested))::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* atlasRequested;
 
-  /// @brief Method PostRegisteredAtlas, addr 0x2dd9090, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PostRegisteredAtlas, addr 0x2e348c8, size 0x6c, virtual false, abstract: false, final false
   static inline void PostRegisteredAtlas(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method Register, addr 0x2dd90fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x2e34934, size 0x3c, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method RequestAtlas, addr 0x2dd8e30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RequestAtlas, addr 0x2e34668, size 0xc0, virtual false, abstract: false, final false
   static inline bool RequestAtlas(::StringW tag);
 
-  /// @brief Method add_atlasRegistered, addr 0x2dd8ef0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_atlasRegistered, addr 0x2e34728, size 0xd0, virtual false, abstract: false, final false
   static inline void add_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* getStaticF_atlasRegistered();
 
   static inline ::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* getStaticF_atlasRequested();
 
-  /// @brief Method remove_atlasRegistered, addr 0x2dd8fc0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_atlasRegistered, addr 0x2e347f8, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline void setStaticF_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);

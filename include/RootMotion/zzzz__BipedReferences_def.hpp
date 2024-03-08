@@ -48,10 +48,10 @@ namespace RootMotion {
 struct CORDL_TYPE __BipedReferences__AutoDetectParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1318d58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13412b0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool legsParentInSpine, bool includeEyes);
 
-  /// @brief Method get_Default, addr 0x1318d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x13412c4, size 0x8, virtual false, abstract: false, final false
   static inline ::RootMotion::__BipedReferences__AutoDetectParams get_Default();
 
   // Ctor Parameters []
@@ -145,71 +145,71 @@ public:
   /// @brief Field spine, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_spine, put = __cordl_internal_set_spine))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> spine;
 
-  /// @brief Method AddBoneToEyes, addr 0x1317670, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddBoneToEyes, addr 0x133fbc8, size 0xf4, virtual false, abstract: false, final false
   static inline bool AddBoneToEyes(::UnityEngine::Transform* bone, ByRef<::RootMotion::BipedReferences*> references, ::RootMotion::__BipedReferences__AutoDetectParams autoDetectParams);
 
-  /// @brief Method AddBoneToHierarchy, addr 0x1317764, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddBoneToHierarchy, addr 0x133fcbc, size 0xec, virtual false, abstract: false, final false
   static inline void AddBoneToHierarchy(ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>> bones, ::UnityEngine::Transform* transform);
 
-  /// @brief Method AddBoneToSpine, addr 0x1317410, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddBoneToSpine, addr 0x133f968, size 0x150, virtual false, abstract: false, final false
   static inline bool AddBoneToSpine(::UnityEngine::Transform* bone, ByRef<::RootMotion::BipedReferences*> references, ::RootMotion::__BipedReferences__AutoDetectParams autoDetectParams);
 
-  /// @brief Method AssignHumanoidReferences, addr 0x1316138, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method AssignHumanoidReferences, addr 0x133e690, size 0x3c4, virtual false, abstract: false, final false
   static inline void AssignHumanoidReferences(ByRef<::RootMotion::BipedReferences*> references, ::UnityEngine::Animator* animator, ::RootMotion::__BipedReferences__AutoDetectParams autoDetectParams);
 
-  /// @brief Method AutoDetectReferences, addr 0x1315ed8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AutoDetectReferences, addr 0x133e430, size 0x1f8, virtual false, abstract: false, final false
   static inline bool AutoDetectReferences(ByRef<::RootMotion::BipedReferences*> references, ::UnityEngine::Transform* root, ::RootMotion::__BipedReferences__AutoDetectParams autoDetectParams);
 
-  /// @brief Method Contains, addr 0x1315b48, size 0x390, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x133e0a0, size 0x390, virtual true, abstract: false, final false
   inline bool Contains(::UnityEngine::Transform* t, bool ignoreRoot);
 
-  /// @brief Method DetectLimb, addr 0x1316e74, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method DetectLimb, addr 0x133f3cc, size 0xdc, virtual false, abstract: false, final false
   static inline void DetectLimb(::RootMotion::__BipedNaming__BoneType boneType, ::RootMotion::__BipedNaming__BoneSide boneSide, ByRef<::UnityEngine::Transform*> firstBone,
                                 ByRef<::UnityEngine::Transform*> secondBone, ByRef<::UnityEngine::Transform*> lastBone,
                                 ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  /// @brief Method DetectReferencesByNaming, addr 0x13164fc, size 0x748, virtual false, abstract: false, final false
+  /// @brief Method DetectReferencesByNaming, addr 0x133ea54, size 0x748, virtual false, abstract: false, final false
   static inline void DetectReferencesByNaming(ByRef<::RootMotion::BipedReferences*> references, ::UnityEngine::Transform* root, ::RootMotion::__BipedReferences__AutoDetectParams autoDetectParams);
 
-  /// @brief Method EyesError, addr 0x1318204, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method EyesError, addr 0x134075c, size 0x1ec, virtual false, abstract: false, final false
   static inline bool EyesError(::RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
 
-  /// @brief Method EyesWarning, addr 0x13186cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EyesWarning, addr 0x1340c24, size 0x8, virtual false, abstract: false, final false
   static inline bool EyesWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
 
-  /// @brief Method FacingAxisWarning, addr 0x1318888, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method FacingAxisWarning, addr 0x1340de0, size 0x2d8, virtual false, abstract: false, final false
   static inline bool FacingAxisWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
 
-  /// @brief Method GetVerticalOffset, addr 0x1318cf0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetVerticalOffset, addr 0x1341248, size 0x68, virtual false, abstract: false, final false
   static inline float_t GetVerticalOffset(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method IsEmpty, addr 0x13157bc, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x133dd14, size 0x38c, virtual true, abstract: false, final false
   inline bool IsEmpty(bool includeRoot);
 
-  /// @brief Method IsNeckBone, addr 0x1317850, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsNeckBone, addr 0x133fda8, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsNeckBone(::UnityEngine::Transform* bone, ::UnityEngine::Transform* leftUpperArm);
 
-  /// @brief Method LimbError, addr 0x1317930, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method LimbError, addr 0x133fe88, size 0x580, virtual false, abstract: false, final false
   static inline bool LimbError(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ByRef<::StringW> errorMessage);
 
-  /// @brief Method LimbWarning, addr 0x13183f0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method LimbWarning, addr 0x1340948, size 0x2d4, virtual false, abstract: false, final false
   static inline bool LimbWarning(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ByRef<::StringW> warningMessage);
 
   static inline ::RootMotion::BipedReferences* New_ctor();
 
-  /// @brief Method RootHeightWarning, addr 0x13186d4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RootHeightWarning, addr 0x1340c2c, size 0x1b4, virtual false, abstract: false, final false
   static inline bool RootHeightWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
 
-  /// @brief Method SetupError, addr 0x1316cf8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetupError, addr 0x133f250, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetupError(::RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
 
-  /// @brief Method SetupWarning, addr 0x1316dd8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetupWarning, addr 0x133f330, size 0x9c, virtual false, abstract: false, final false
   static inline bool SetupWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
 
-  /// @brief Method SpineError, addr 0x1317eb0, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method SpineError, addr 0x1340408, size 0x354, virtual false, abstract: false, final false
   static inline bool SpineError(::RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
 
-  /// @brief Method SpineWarning, addr 0x13186c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SpineWarning, addr 0x1340c1c, size 0x8, virtual false, abstract: false, final false
   static inline bool SpineWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_eyes() const;
@@ -314,13 +314,13 @@ public:
 
   constexpr void __cordl_internal_set_spine(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x13160d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133e628, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEmpty, addr 0x13157ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x133dd04, size 0x10, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_isFilled, addr 0x1315450, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method get_isFilled, addr 0x133d9a8, size 0x35c, virtual true, abstract: false, final false
   inline bool get_isFilled();
 
 protected:

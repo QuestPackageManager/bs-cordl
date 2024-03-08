@@ -40,21 +40,21 @@ public:
   /// @brief Field weight, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method GetParentBoneMap, addr 0x13739e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetParentBoneMap, addr 0x139df40, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKMapping__BoneMap* GetParentBoneMap(::RootMotion::FinalIK::FullBodyBipedChain chain);
 
   static inline ::RootMotion::FinalIK::ShoulderRotator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1373a1c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x139df74, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RotateShoulder, addr 0x13735e4, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method RotateShoulder, addr 0x139db3c, size 0x404, virtual false, abstract: false, final false
   inline void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float_t weight, float_t offset);
 
-  /// @brief Method RotateShoulders, addr 0x1373508, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RotateShoulders, addr 0x139da60, size 0xdc, virtual false, abstract: false, final false
   inline void RotateShoulders();
 
-  /// @brief Method Start, addr 0x1373418, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x139d970, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1373b28, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139e080, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

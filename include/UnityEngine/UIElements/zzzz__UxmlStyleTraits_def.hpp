@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Src(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2f1cd20, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f76558, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

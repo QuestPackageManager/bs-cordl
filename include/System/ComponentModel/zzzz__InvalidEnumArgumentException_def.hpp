@@ -37,16 +37,16 @@ public:
 
   static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x29ee918, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a50150, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29ee92c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a50164, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW argumentName, int32_t invalidValue, ::System::Type* enumClass);
 
-  /// @brief Method .ctor, addr 0x29eea10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a50248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29ee924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5015c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

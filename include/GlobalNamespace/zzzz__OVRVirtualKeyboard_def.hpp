@@ -321,21 +321,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2890e24, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28f165c, size 0x9c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2890ec0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x28f16f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2890ec8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x28f1700, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2890f08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28f1740, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2890e20, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x28f1658, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -356,7 +356,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* value);
 
-  /// @brief Method .ctor, addr 0x2890df8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f1630, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -424,21 +424,21 @@ public:
   __declspec(property(get = __cordl_internal_get_revertQueue, put = __cordl_internal_set_revertQueue))::System::Collections::Generic::Queue_1<
       ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* revertQueue;
 
-  /// @brief Method ApplyOverride, addr 0x2890c14, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ApplyOverride, addr 0x28f144c, size 0xdc, virtual false, abstract: false, final false
   static inline bool ApplyOverride(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData interactorOverride);
 
-  /// @brief Method Enqueue, addr 0x288ff3c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x28f0774, size 0x1cc, virtual false, abstract: false, final false
   inline void Enqueue(::UnityEngine::Transform* interactorRootTransform, ::GlobalNamespace::__OVRPlugin__Posef interactorRootPose);
 
-  /// @brief Method LateApply, addr 0x288fd00, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method LateApply, addr 0x28f0538, size 0x23c, virtual false, abstract: false, final false
   inline void LateApply(::UnityEngine::MonoBehaviour* coroutineRunner);
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* New_ctor();
 
-  /// @brief Method Reset, addr 0x2890d58, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x28f1590, size 0xa0, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RevertInteractorOverrides, addr 0x2890cf0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RevertInteractorOverrides, addr 0x28f1528, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RevertInteractorOverrides();
 
   constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*& __cordl_internal_get_applyQueue();
@@ -455,7 +455,7 @@ public:
 
   constexpr void __cordl_internal_set_revertQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* value);
 
-  /// @brief Method .ctor, addr 0x2890944, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f117c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -592,15 +592,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2891028, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x28f1860, size 0xd4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource* New_ctor();
 
-  /// @brief Method OnUpdatedAnchors, addr 0x2891004, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnUpdatedAnchors, addr 0x28f183c, size 0xc, virtual false, abstract: false, final false
   inline void OnUpdatedAnchors(::GlobalNamespace::OVRCameraRig* obj);
 
-  /// @brief Method Update, addr 0x2891010, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x28f1848, size 0x18, virtual true, abstract: false, final true
   inline void Update();
 
   /// @brief Method UpdateInput, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -618,7 +618,7 @@ public:
 
   constexpr void __cordl_internal_set__rig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  /// @brief Method .ctor, addr 0x2890f10, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f1748, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::__OVRVirtualKeyboard__IInputSource"
@@ -693,7 +693,7 @@ public:
                                                                                          ::GlobalNamespace::__OVRInput__Controller controllerType, ::UnityEngine::Transform* rootTransform,
                                                                                          ::UnityEngine::Transform* directTransform);
 
-  /// @brief Method UpdateInput, addr 0x289115c, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method UpdateInput, addr 0x28f1994, size 0x18c, virtual true, abstract: false, final false
   inline void UpdateInput();
 
   constexpr ::GlobalNamespace::__OVRInput__Controller const& __cordl_internal_get__controllerType() const;
@@ -738,11 +738,11 @@ public:
 
   constexpr void __cordl_internal_set__triggerButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method .ctor, addr 0x2890108, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f0940, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard, ::GlobalNamespace::__OVRVirtualKeyboard__InputSource inputSource, ::GlobalNamespace::__OVRInput__Controller controllerType,
                     ::UnityEngine::Transform* rootTransform, ::UnityEngine::Transform* directTransform);
 
-  /// @brief Method get_TriggerIsPressed, addr 0x28910fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_TriggerIsPressed, addr 0x28f1934, size 0x60, virtual false, abstract: false, final false
   inline bool get_TriggerIsPressed();
 
 protected:
@@ -819,13 +819,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__HandInputSource____c* New_ctor();
 
-  /// @brief Method <UpdateInput>b__6_0, addr 0x2891688, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <UpdateInput>b__6_0, addr 0x28f1ec0, size 0x20, virtual false, abstract: false, final false
   inline bool _UpdateInput_b__6_0(::GlobalNamespace::OVRBone* b);
 
-  /// @brief Method <UpdateInput>b__6_1, addr 0x28916a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <UpdateInput>b__6_1, addr 0x28f1ee0, size 0x20, virtual false, abstract: false, final false
   inline bool _UpdateInput_b__6_1(::GlobalNamespace::OVRBone* b);
 
-  /// @brief Method .ctor, addr 0x2891680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f1eb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__HandInputSource____c* getStaticF___9();
@@ -888,7 +888,7 @@ public:
   static inline ::GlobalNamespace::__OVRVirtualKeyboard__HandInputSource* New_ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard, ::GlobalNamespace::__OVRVirtualKeyboard__InputSource inputSource,
                                                                                    ::GlobalNamespace::OVRHand* hand);
 
-  /// @brief Method UpdateInput, addr 0x28912e8, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method UpdateInput, addr 0x28f1b20, size 0x334, virtual true, abstract: false, final false
   inline void UpdateInput();
 
   constexpr ::UnityW<::GlobalNamespace::OVRHand> const& __cordl_internal_get__hand() const;
@@ -921,7 +921,7 @@ public:
 
   constexpr void __cordl_internal_set__skeleton(::UnityW<::GlobalNamespace::OVRSkeleton> value);
 
-  /// @brief Method .ctor, addr 0x2890170, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f09a8, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard, ::GlobalNamespace::__OVRVirtualKeyboard__InputSource inputSource, ::GlobalNamespace::OVRHand* hand);
 
 protected:
@@ -988,13 +988,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard____c* New_ctor();
 
-  /// @brief Method <LoadRuntimeVirtualKeyboardMesh>b__68_0, addr 0x2891734, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <LoadRuntimeVirtualKeyboardMesh>b__68_0, addr 0x28f1f6c, size 0x8c, virtual false, abstract: false, final false
   inline bool _LoadRuntimeVirtualKeyboardMesh_b__68_0(::StringW p);
 
-  /// @brief Method <PopulateCollision>b__70_0, addr 0x28917c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <PopulateCollision>b__70_0, addr 0x28f1ff8, size 0x68, virtual false, abstract: false, final false
   inline bool _PopulateCollision_b__70_0(::UnityEngine::MeshFilter* mesh);
 
-  /// @brief Method .ctor, addr 0x289172c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f1f64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRVirtualKeyboard____c* getStaticF___9();
@@ -1173,107 +1173,107 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__OVRManager__EventListener"
   constexpr operator ::GlobalNamespace::__OVRManager__EventListener*() noexcept;
 
-  /// @brief Method ApplyHideFlags, addr 0x288ebdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ApplyHideFlags, addr 0x28ef414, size 0x7c, virtual false, abstract: false, final false
   static inline void ApplyHideFlags(::UnityEngine::Transform* t);
 
-  /// @brief Method Awake, addr 0x288cda0, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x28ed5d8, size 0x524, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ChangeTextContext, addr 0x288e724, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ChangeTextContext, addr 0x28eef5c, size 0xe0, virtual false, abstract: false, final false
   inline void ChangeTextContext(::StringW textContext);
 
-  /// @brief Method ChangeTextContextInternal, addr 0x288cce8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ChangeTextContextInternal, addr 0x28ed520, size 0xb8, virtual false, abstract: false, final false
   inline void ChangeTextContextInternal(::StringW textContext);
 
-  /// @brief Method ComputeLocation, addr 0x288dc70, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ComputeLocation, addr 0x28ee4a8, size 0xb8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__VirtualKeyboardLocationInfo ComputeLocation(::UnityEngine::Transform* transform);
 
-  /// @brief Method DestroyKeyboard, addr 0x288d5c0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method DestroyKeyboard, addr 0x28eddf8, size 0x15c, virtual false, abstract: false, final false
   inline void DestroyKeyboard();
 
-  /// @brief Method HideKeyboard, addr 0x288da38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HideKeyboard, addr 0x28ee270, size 0x14, virtual false, abstract: false, final false
   inline void HideKeyboard();
 
-  /// @brief Method LateUpdate, addr 0x288fce4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x28f051c, size 0x1c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LoadRuntimeVirtualKeyboardMesh, addr 0x288e804, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method LoadRuntimeVirtualKeyboardMesh, addr 0x28ef03c, size 0x3d8, virtual false, abstract: false, final false
   inline bool LoadRuntimeVirtualKeyboardMesh();
 
-  /// @brief Method MaxElement, addr 0x288f024, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MaxElement, addr 0x28ef85c, size 0x14, virtual false, abstract: false, final false
   inline float_t MaxElement(::UnityEngine::Vector3 vec);
 
   static inline ::GlobalNamespace::OVRVirtualKeyboard* New_ctor();
 
-  /// @brief Method OnBackspace, addr 0x2890544, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method OnBackspace, addr 0x28f0d7c, size 0x238, virtual false, abstract: false, final false
   inline void OnBackspace();
 
-  /// @brief Method OnCommitText, addr 0x2890334, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method OnCommitText, addr 0x28f0b6c, size 0x200, virtual false, abstract: false, final false
   inline void OnCommitText(::StringW text);
 
-  /// @brief Method OnDestroy, addr 0x288d2c4, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x28edafc, size 0x2fc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x288da34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x28ee26c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x288d71c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x28edf54, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEnter, addr 0x289077c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnEnter, addr 0x28f0fb4, size 0xd8, virtual false, abstract: false, final false
   inline void OnEnter();
 
-  /// @brief Method OnEvent, addr 0x288e5f4, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method OnEvent, addr 0x28eee2c, size 0x130, virtual true, abstract: false, final true
   inline void OnEvent(::GlobalNamespace::__OVRPlugin__EventDataBuffer eventDataBuffer);
 
-  /// @brief Method OnKeyboardHidden, addr 0x289086c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnKeyboardHidden, addr 0x28f10a4, size 0x14, virtual false, abstract: false, final false
   inline void OnKeyboardHidden();
 
-  /// @brief Method OnKeyboardShown, addr 0x2890854, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnKeyboardShown, addr 0x28f108c, size 0x18, virtual false, abstract: false, final false
   inline void OnKeyboardShown();
 
-  /// @brief Method OnTextCommitFieldChange, addr 0x2890534, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnTextCommitFieldChange, addr 0x28f0d6c, size 0x10, virtual false, abstract: false, final false
   inline void OnTextCommitFieldChange(::StringW textContext);
 
-  /// @brief Method PopulateCollision, addr 0x288ec58, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method PopulateCollision, addr 0x28ef490, size 0x224, virtual false, abstract: false, final false
   inline void PopulateCollision();
 
-  /// @brief Method SendVirtualKeyboardDirectInput, addr 0x288e524, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SendVirtualKeyboardDirectInput, addr 0x28eed5c, size 0xd0, virtual false, abstract: false, final false
   inline void SendVirtualKeyboardDirectInput(::UnityEngine::Vector3 position, ::GlobalNamespace::__OVRVirtualKeyboard__InputSource source, bool isPressed,
                                              ::UnityEngine::Transform* interactorRootTransform);
 
-  /// @brief Method SendVirtualKeyboardInput, addr 0x288e30c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method SendVirtualKeyboardInput, addr 0x28eeb44, size 0x218, virtual false, abstract: false, final false
   inline void SendVirtualKeyboardInput(::GlobalNamespace::__OVRPlugin__VirtualKeyboardInputSource inputSource, ::GlobalNamespace::OVRPose pose, bool isPressed,
                                        ::UnityEngine::Transform* interactorRootTransform);
 
-  /// @brief Method SendVirtualKeyboardRayInput, addr 0x288dfe4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method SendVirtualKeyboardRayInput, addr 0x28ee81c, size 0x328, virtual false, abstract: false, final false
   inline void SendVirtualKeyboardRayInput(::UnityEngine::Transform* inputTransform, ::GlobalNamespace::__OVRVirtualKeyboard__InputSource source, bool isPressed, bool useRaycastMask);
 
-  /// @brief Method SetKeyboardVisibility, addr 0x288eed4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardVisibility, addr 0x28ef70c, size 0x150, virtual false, abstract: false, final false
   inline void SetKeyboardVisibility(bool visible);
 
-  /// @brief Method ShowKeyboard, addr 0x288d720, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method ShowKeyboard, addr 0x28edf58, size 0x314, virtual false, abstract: false, final false
   inline void ShowKeyboard();
 
-  /// @brief Method SyncKeyboardLocation, addr 0x288dd28, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method SyncKeyboardLocation, addr 0x28ee560, size 0x2bc, virtual false, abstract: false, final false
   inline void SyncKeyboardLocation();
 
-  /// @brief Method Update, addr 0x288f038, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x28ef870, size 0x30, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAnimationState, addr 0x288f58c, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method UpdateAnimationState, addr 0x28efdc4, size 0x758, virtual false, abstract: false, final false
   inline void UpdateAnimationState();
 
-  /// @brief Method UpdateInputs, addr 0x288f068, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method UpdateInputs, addr 0x28ef8a0, size 0x524, virtual false, abstract: false, final false
   inline void UpdateInputs();
 
-  /// @brief Method UpdateVisibleState, addr 0x288ee7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibleState, addr 0x28ef6b4, size 0x58, virtual false, abstract: false, final false
   inline void UpdateVisibleState();
 
-  /// @brief Method UseSuggestedLocation, addr 0x288da4c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method UseSuggestedLocation, addr 0x28ee284, size 0x224, virtual false, abstract: false, final false
   inline void UseSuggestedLocation(::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition position);
 
-  /// @brief Method <LoadRuntimeVirtualKeyboardMesh>b__68_1, addr 0x28909e4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method <LoadRuntimeVirtualKeyboardMesh>b__68_1, addr 0x28f121c, size 0x230, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> _LoadRuntimeVirtualKeyboardMesh_b__68_1(::StringW rawUri, ::UnityEngine::Material* mat);
 
   constexpr ::System::Action*& __cordl_internal_get_Backspace();
@@ -1488,56 +1488,56 @@ public:
   constexpr void
   __cordl_internal_set_virtualKeyboardTextures_(::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>* value);
 
-  /// @brief Method .ctor, addr 0x2890880, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f10b8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_Backspace, addr 0x288c62c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_Backspace, addr 0x28ece64, size 0x9c, virtual false, abstract: false, final false
   inline void add_Backspace(::System::Action* value);
 
-  /// @brief Method add_CommitText, addr 0x288c4cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_CommitText, addr 0x28ecd04, size 0xb0, virtual false, abstract: false, final false
   inline void add_CommitText(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_Enter, addr 0x288c764, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_Enter, addr 0x28ecf9c, size 0x9c, virtual false, abstract: false, final false
   inline void add_Enter(::System::Action* value);
 
-  /// @brief Method add_KeyboardHidden, addr 0x288c9d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_KeyboardHidden, addr 0x28ed20c, size 0x9c, virtual false, abstract: false, final false
   inline void add_KeyboardHidden(::System::Action* value);
 
-  /// @brief Method add_KeyboardShown, addr 0x288c89c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_KeyboardShown, addr 0x28ed0d4, size 0x9c, virtual false, abstract: false, final false
   inline void add_KeyboardShown(::System::Action* value);
 
   static inline ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> getStaticF_singleton_();
 
-  /// @brief Method get_Collider, addr 0x288cb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Collider, addr 0x28ed344, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_Collider();
 
-  /// @brief Method get_TextCommitField, addr 0x288cb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextCommitField, addr 0x28ed354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::InputField> get_TextCommitField();
 
   /// @brief Convert to "::GlobalNamespace::__OVRManager__EventListener"
   constexpr ::GlobalNamespace::__OVRManager__EventListener* i___GlobalNamespace____OVRManager__EventListener() noexcept;
 
-  /// @brief Method remove_Backspace, addr 0x288c6c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_Backspace, addr 0x28ecf00, size 0x9c, virtual false, abstract: false, final false
   inline void remove_Backspace(::System::Action* value);
 
-  /// @brief Method remove_CommitText, addr 0x288c57c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_CommitText, addr 0x28ecdb4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_CommitText(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_Enter, addr 0x288c800, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_Enter, addr 0x28ed038, size 0x9c, virtual false, abstract: false, final false
   inline void remove_Enter(::System::Action* value);
 
-  /// @brief Method remove_KeyboardHidden, addr 0x288ca70, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_KeyboardHidden, addr 0x28ed2a8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_KeyboardHidden(::System::Action* value);
 
-  /// @brief Method remove_KeyboardShown, addr 0x288c938, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_KeyboardShown, addr 0x28ed170, size 0x9c, virtual false, abstract: false, final false
   inline void remove_KeyboardShown(::System::Action* value);
 
   static inline void setStaticF_singleton_(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
 
-  /// @brief Method set_Collider, addr 0x288cb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Collider, addr 0x28ed34c, size 0x8, virtual false, abstract: false, final false
   inline void set_Collider(::UnityEngine::Collider* value);
 
-  /// @brief Method set_TextCommitField, addr 0x288cb24, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method set_TextCommitField, addr 0x28ed35c, size 0x1c4, virtual false, abstract: false, final false
   inline void set_TextCommitField(::UnityEngine::UI::InputField* value);
 
 protected:

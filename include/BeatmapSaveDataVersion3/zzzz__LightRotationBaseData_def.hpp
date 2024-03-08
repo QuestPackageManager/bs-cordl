@@ -97,26 +97,26 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x12fcec8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1325354, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::BeatmapSaveDataCommon::EaseType easeType, int32_t loopsCount, float_t rotation,
                     ::BeatmapSaveDataCommon::RotationDirection rotationDirection);
 
-  /// @brief Method get_beat, addr 0x12fce90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x132531c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x12fcea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x1325334, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_loopsCount, addr 0x12fceb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loopsCount, addr 0x132533c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_loopsCount();
 
-  /// @brief Method get_rotation, addr 0x12fceb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x1325344, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_rotationDirection, addr 0x12fcec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDirection, addr 0x132534c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::RotationDirection get_rotationDirection();
 
-  /// @brief Method get_usePreviousEventRotationValue, addr 0x12fce98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventRotationValue, addr 0x1325324, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventRotationValue();
 
 protected:

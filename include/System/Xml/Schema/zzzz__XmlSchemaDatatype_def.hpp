@@ -78,7 +78,7 @@ public:
   /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method FromXmlTokenizedType, addr 0x29ae13c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlTokenizedType, addr 0x2a0f974, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaDatatype* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
 
   /// @brief Method IsEqual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -92,10 +92,10 @@ public:
   /// @brief Method TryParseValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method TypeCodeToString, addr 0x29b1870, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method TypeCodeToString, addr 0x2a130a8, size 0x4ac, virtual false, abstract: false, final false
   inline ::StringW TypeCodeToString(::System::Xml::Schema::XmlTypeCode typeCode);
 
-  /// @brief Method .ctor, addr 0x29b1d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a13554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_BuiltInWhitespaceFacet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -110,10 +110,10 @@ public:
   /// @brief Method get_TokenizedType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x29b1868, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a130a0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_TypeCodeString, addr 0x29aae08, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCodeString, addr 0x2a0c640, size 0x128, virtual false, abstract: false, final false
   inline ::StringW get_TypeCodeString();
 
   /// @brief Method get_ValueConverter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -122,7 +122,7 @@ public:
   /// @brief Method get_ValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_Variety, addr 0x29b1860, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Variety, addr 0x2a13098, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
 
 protected:

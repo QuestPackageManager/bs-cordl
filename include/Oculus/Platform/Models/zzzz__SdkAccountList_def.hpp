@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::SdkAccountList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x27fa4dc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285cef8, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

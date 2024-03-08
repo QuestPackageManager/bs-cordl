@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x12a6c10, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x12cde7c, size 0x238, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> const& __cordl_internal_get_prevObstacleDataInLines() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_prevObstacleDataInLines(::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> value);
 
-  /// @brief Method .ctor, addr 0x12a6b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cddf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,10 +88,10 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0;
 
-  /// @brief Method CanBeMerged, addr 0x12a6b90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CanBeMerged, addr 0x12cddfc, size 0x80, virtual false, abstract: false, final false
   static inline bool CanBeMerged(::GlobalNamespace::ObstacleData* firstObstacle, ::GlobalNamespace::ObstacleData* secondObstacle);
 
-  /// @brief Method CreateTransformedData, addr 0x12a69e8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x12cdc54, size 0x1a0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
 protected:

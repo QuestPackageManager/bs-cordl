@@ -5,6 +5,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(MoveInDirectionEffect)
 namespace UnityEngine {
 class Transform;
@@ -38,19 +39,19 @@ public:
   /// @brief Field _transform, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x2434808, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x249d038, size 0x11c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Move, addr 0x2434928, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x249d158, size 0x4c, virtual false, abstract: false, final false
   inline void Move(float_t value);
 
   static inline ::GlobalNamespace::MoveInDirectionEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x2434924, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(float_t value);
+  /// @brief Method SetValue, addr 0x249d154, size 0x4, virtual true, abstract: false, final false
+  inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x2434974, size 0x4, virtual true, abstract: false, final false
-  inline void TriggerValue(float_t value);
+  /// @brief Method TriggerValue, addr 0x249d1a4, size 0x4, virtual true, abstract: false, final false
+  inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveDirection() const;
 
@@ -82,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2434978, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249d1a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

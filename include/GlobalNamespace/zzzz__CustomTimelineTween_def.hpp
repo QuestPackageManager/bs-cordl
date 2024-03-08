@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::CustomTimelineTween* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x24107d0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x2475d6c, size 0xd4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_startPositions() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x24108a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2475e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

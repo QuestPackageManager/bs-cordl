@@ -38,18 +38,18 @@ public:
 
   __declspec(property(get = get_styles))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* styles;
 
-  /// @brief Method GetStyle, addr 0x2e573a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x2eb2bd8, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyle, addr 0x2e575ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x2eb2e24, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::StringW name);
 
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x2e57428, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x2eb2c60, size 0x1c4, virtual false, abstract: false, final false
   inline void LoadStyleDictionaryInternal();
 
   static inline ::UnityEngine::TextCore::Text::TextStyleSheet* New_ctor();
 
-  /// @brief Method RefreshStyles, addr 0x2e57684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyles, addr 0x2eb2ebc, size 0x4, virtual false, abstract: false, final false
   inline void RefreshStyles();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>*& __cordl_internal_get_m_StyleList();
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* value);
 
-  /// @brief Method .ctor, addr 0x2e57688, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb2ec0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_styles, addr 0x2e57398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styles, addr 0x2eb2bd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* get_styles();
 
 protected:

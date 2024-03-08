@@ -55,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set__minNumberOfNotOwnedPacks(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12f71d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131f320, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutOffTest, addr 0x12f71b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutOffTest, addr 0x131f300, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cutOffTest();
 
-  /// @brief Method get_defaultPromoInfoId, addr 0x12f71c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPromoInfoId, addr 0x131f310, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultPromoInfoId();
 
-  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x12f71bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x131f308, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minNumberOfNotOwnedPacks();
 
-  /// @brief Method set_defaultPromoInfoId, addr 0x12f71cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultPromoInfoId, addr 0x131f318, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultPromoInfoId(::StringW value);
 
 protected:

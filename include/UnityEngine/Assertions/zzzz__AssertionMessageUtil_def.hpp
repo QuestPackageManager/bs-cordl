@@ -22,19 +22,19 @@ namespace UnityEngine::Assertions {
 class CORDL_TYPE AssertionMessageUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BooleanFailureMessage, addr 0x2ddb88c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method BooleanFailureMessage, addr 0x2e370c4, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW BooleanFailureMessage(bool expected);
 
-  /// @brief Method GetEqualityMessage, addr 0x2ddbee0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetEqualityMessage, addr 0x2e37718, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
 
-  /// @brief Method GetMessage, addr 0x2ddc274, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x2e37aac, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage);
 
-  /// @brief Method GetMessage, addr 0x2ddc360, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x2e37b98, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
 
-  /// @brief Method NullFailureMessage, addr 0x2ddbb80, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method NullFailureMessage, addr 0x2e373b8, size 0x168, virtual false, abstract: false, final false
   static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
 
 protected:

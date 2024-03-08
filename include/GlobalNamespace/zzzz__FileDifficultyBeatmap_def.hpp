@@ -31,19 +31,19 @@ public:
   /// @brief Field _lightshowPath, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath))::StringW _lightshowPath;
 
-  /// @brief Method GetBeatmapChecksum, addr 0x12cbe6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapChecksum, addr 0x12f2d60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapChecksum();
 
-  /// @brief Method GetBeatmapString, addr 0x12cbd40, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapString, addr 0x12f2c34, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString();
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x12cbb78, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapStringAsync, addr 0x12f2a6c, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
-  /// @brief Method GetLightshowString, addr 0x12cbde4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowString, addr 0x12f2cd8, size 0x88, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString();
 
-  /// @brief Method GetLightshowStringAsync, addr 0x12cbc5c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowStringAsync, addr 0x12f2b50, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
 
   static inline ::GlobalNamespace::FileDifficultyBeatmap* New_ctor(::StringW beatmapChecksum, ::StringW beatmapPath, ::StringW lightshowPath);
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__lightshowPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12cbb3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f2a30, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapChecksum, ::StringW beatmapPath, ::StringW lightshowPath);
 
 protected:

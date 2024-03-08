@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__relativeSfxVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x12f98c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1321af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelId, addr 0x12f98a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_levelId, addr 0x1321acc, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_levelId();
 
-  /// @brief Method get_relativeSfxVolume, addr 0x12f98c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeSfxVolume, addr 0x1321ae8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeSfxVolume();
 
 protected:
@@ -135,13 +135,13 @@ public:
 
   constexpr void __cordl_internal_set__relativeSfxVolumePerPack(float_t value);
 
-  /// @brief Method .ctor, addr 0x12f989c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1321ac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_relativeSfxVolumePerLevel, addr 0x12f9894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeSfxVolumePerLevel, addr 0x1321abc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair*>*> get_relativeSfxVolumePerLevel();
 
-  /// @brief Method get_relativeSfxVolumePerPack, addr 0x12f988c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeSfxVolumePerPack, addr 0x1321ab4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeSfxVolumePerPack();
 
 protected:

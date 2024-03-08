@@ -57,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set_itemTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x29b2bf8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a14430, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseItemType, addr 0x29b2be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseItemType, addr 0x2a14420, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseItemType();
 
-  /// @brief Method set_BaseItemType, addr 0x29b2bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseItemType, addr 0x2a14428, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_ItemType, addr 0x29b2be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemType, addr 0x2a14418, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
 protected:

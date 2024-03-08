@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextEffect* New_ctor();
 
-  /// @brief Method ShowEffect, addr 0x24292c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShowEffect, addr 0x249027c, size 0x3c, virtual false, abstract: false, final false
   inline void ShowEffect();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x24292fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24902b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

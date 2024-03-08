@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x2fd5a78, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x302e2b0, size 0x104, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::Zenject::SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__tickManager(::Zenject::LazyInject_1<::Zenject::TickableManager*>* value);
 
-  /// @brief Method __zenCreate, addr 0x2fd5b7c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x302e3b4, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2fd5c98, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302e4d0, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x2fd5a4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x302e284, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
   /// @brief Convert to "::Zenject::IInitializable"

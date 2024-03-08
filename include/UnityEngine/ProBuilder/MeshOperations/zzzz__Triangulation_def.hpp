@@ -67,10 +67,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <Triangulate>b__0, addr 0x2ca9da8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__0, addr 0x2d095e0, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Triangulate_b__0(::UnityEngine::Vector2 x);
 
-  /// @brief Method <Triangulate>b__1, addr 0x2ca9e30, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__1, addr 0x2d09668, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__1(::UnityEngine::Vector2 x);
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ca9d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d095d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,10 +123,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <Triangulate>b__0, addr 0x2ca9eb8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__0, addr 0x2d096f0, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__0(::UnityEngine::Vector2 x);
 
-  /// @brief Method <Triangulate>b__1, addr 0x2ca9f40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__1, addr 0x2d09778, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__1(::UnityEngine::Vector2 x);
 
   constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*& __cordl_internal_get___9__1();
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ca9da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d095d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -189,33 +189,33 @@ public:
   /// @brief Field s_TriangulationContext, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_TriangulationContext, put = setStaticF_s_TriangulationContext))::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* s_TriangulationContext;
 
-  /// @brief Method SortAndTriangulate, addr 0x2ca7cf8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method SortAndTriangulate, addr 0x2d07530, size 0x314, virtual false, abstract: false, final false
   static inline bool SortAndTriangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
-  /// @brief Method Triangulate, addr 0x2ca917c, size 0xc1c, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x2d089b4, size 0xc1c, virtual false, abstract: false, final false
   static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points,
                                  ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>* holes,
                                  ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes);
 
-  /// @brief Method Triangulate, addr 0x2ca800c, size 0xb94, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x2d07844, size 0xb94, virtual false, abstract: false, final false
   static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
-  /// @brief Method TriangulateVertices, addr 0x2ca8fd0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method TriangulateVertices, addr 0x2d08808, size 0x1ac, virtual false, abstract: false, final false
   static inline bool
   TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
                       ::ArrayW<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::Array<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*> holes);
 
-  /// @brief Method TriangulateVertices, addr 0x2ca8dac, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method TriangulateVertices, addr 0x2d085e4, size 0x224, virtual false, abstract: false, final false
   static inline bool TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles, bool unordered,
                                          bool convex);
 
-  /// @brief Method TriangulateVertices, addr 0x2ca8ba0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method TriangulateVertices, addr 0x2d083d8, size 0x20c, virtual false, abstract: false, final false
   static inline bool TriangulateVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
                                          bool unordered, bool convex);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* getStaticF_s_TriangulationContext();
 
-  /// @brief Method get_triangulationContext, addr 0x2ca7c64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_triangulationContext, addr 0x2d0749c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* get_triangulationContext();
 
   static inline void setStaticF_s_TriangulationContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData::*)(
     int32_t, int32_t, ::GlobalNamespace::FloatFxGroupEffectTarget*)>(&::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2435238;
+  constexpr static std::size_t addrs = 0x249da70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffect::*)(
     ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData*, ::GlobalNamespace::BeatmapCallbacksController*)>(&::GlobalNamespace::TriggerFloatFxGroupEffect::_ctor)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x24350f4;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x249d924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffect::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2434fd8;
+  constexpr static std::size_t addrs = 0x249d808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffect*>::get(), "Cleanup",
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffect::*)(::GlobalNamespace::FloatFxBeatmapEventData*)>(
     &::GlobalNamespace::TriggerFloatFxGroupEffect::HandleFloatFxBeatmapEventCallback)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2435210;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x249da38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,17 +141,17 @@ constexpr void GlobalNamespace::TriggerFloatFxGroupEffect::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxBeatmapEventCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>& GlobalNamespace::TriggerFloatFxGroupEffect::__cordl_internal_get__target() {
+constexpr ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData*& GlobalNamespace::TriggerFloatFxGroupEffect::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____target;
+  return this->____initData;
 }
-constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> const& GlobalNamespace::TriggerFloatFxGroupEffect::__cordl_internal_get__target() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData*> const& GlobalNamespace::TriggerFloatFxGroupEffect::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____target;
+  return this->____initData;
 }
-constexpr void GlobalNamespace::TriggerFloatFxGroupEffect::__cordl_internal_set__target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value) {
+constexpr void GlobalNamespace::TriggerFloatFxGroupEffect::__cordl_internal_set__initData(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::TriggerFloatFxGroupEffect* GlobalNamespace::TriggerFloatFxGroupEffect::New_ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData,
                                                                                                           ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {

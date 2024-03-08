@@ -19,10 +19,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DBToNormalizedVolume, addr 0xe95a3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DBToNormalizedVolume, addr 0xeb5abc, size 0x18, virtual false, abstract: false, final false
   static inline float_t DBToNormalizedVolume(float_t db);
 
-  /// @brief Method NormalizedVolumeToDB, addr 0xe959c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NormalizedVolumeToDB, addr 0xeb5a48, size 0x74, virtual false, abstract: false, final false
   static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
 
 protected:

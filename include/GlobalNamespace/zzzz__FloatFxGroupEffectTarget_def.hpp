@@ -4,6 +4,7 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(FloatFxGroupEffectTarget)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,12 +23,12 @@ public:
   static inline ::GlobalNamespace::FloatFxGroupEffectTarget* New_ctor();
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetValue(float_t value);
+  inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
   /// @brief Method TriggerValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void TriggerValue(float_t value);
+  inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method .ctor, addr 0x2433878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249bbd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

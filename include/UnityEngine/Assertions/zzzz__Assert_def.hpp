@@ -29,7 +29,7 @@ public:
   /// @brief Field raiseExceptions, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_raiseExceptions, put = setStaticF_raiseExceptions)) bool raiseExceptions;
 
-  /// @brief Method AreEqual, addr 0x2ddbe18, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x2e37650, size 0xc8, virtual false, abstract: false, final false
   static inline void AreEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
 
   /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -41,10 +41,10 @@ public:
   /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AreEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method AreEqual, addr 0x2ddc19c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x2e379d4, size 0x8c, virtual false, abstract: false, final false
   static inline void AreEqual(int32_t expected, int32_t actual);
 
-  /// @brief Method AreNotEqual, addr 0x2ddc0d4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AreNotEqual, addr 0x2e3790c, size 0xc8, virtual false, abstract: false, final false
   static inline void AreNotEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
 
   /// @brief Method AreNotEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -56,13 +56,13 @@ public:
   /// @brief Method AreNotEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AreNotEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method Fail, addr 0x2ddb91c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Fail, addr 0x2e37154, size 0x128, virtual false, abstract: false, final false
   static inline void Fail(::StringW message, ::StringW userMessage);
 
-  /// @brief Method IsFalse, addr 0x2ddba44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x2e3727c, size 0x80, virtual false, abstract: false, final false
   static inline void IsFalse(bool condition, ::StringW message);
 
-  /// @brief Method IsNotNull, addr 0x2ddbce8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsNotNull, addr 0x2e37520, size 0xbc, virtual false, abstract: false, final false
   static inline void IsNotNull(::UnityEngine::Object* value, ::StringW message);
 
   /// @brief Method IsNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +71,7 @@ public:
   /// @brief Method IsNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsNotNull(T value, ::StringW message);
 
-  /// @brief Method IsNull, addr 0x2ddbac4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x2e372fc, size 0xbc, virtual false, abstract: false, final false
   static inline void IsNull(::UnityEngine::Object* value, ::StringW message);
 
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -80,10 +80,10 @@ public:
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsNull(T value, ::StringW message);
 
-  /// @brief Method IsTrue, addr 0x2ddb7a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x2e36fd8, size 0x6c, virtual false, abstract: false, final false
   static inline void IsTrue(bool condition);
 
-  /// @brief Method IsTrue, addr 0x2ddb80c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x2e37044, size 0x80, virtual false, abstract: false, final false
   static inline void IsTrue(bool condition, ::StringW message);
 
   static inline bool getStaticF_raiseExceptions();

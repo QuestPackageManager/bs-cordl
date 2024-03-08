@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifierToggle* New_ctor();
 
-  /// @brief Method Start, addr 0x24c7da4, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2531c2c, size 0x370, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> const& __cordl_internal_get__gameplayModifier() const;
@@ -106,13 +106,13 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x24c8114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2531f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayModifier, addr 0x24c7d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifier, addr 0x2531c24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> get_gameplayModifier();
 
-  /// @brief Method get_toggle, addr 0x24c7d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x2531c1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
 protected:

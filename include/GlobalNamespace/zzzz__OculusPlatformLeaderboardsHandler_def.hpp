@@ -100,10 +100,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x12b34a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x12da630, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__3_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* _);
 
-  /// @brief Method .ctor, addr 0x12b349c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12da628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c* getStaticF___9();
@@ -150,7 +150,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <AddOculusRequest>b__0, addr 0x12b34a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <AddOculusRequest>b__0, addr 0x12da634, size 0x64, virtual false, abstract: false, final false
   inline void _AddOculusRequest_b__0(::GlobalNamespace::HMAsyncRequest* _);
 
   constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& __cordl_internal_get___4__this();
@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set_oculusRequest(::Oculus::Platform::Request* value);
 
-  /// @brief Method .ctor, addr 0x12b2ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12da06c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -218,7 +218,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetScores>g__Callback|0, addr 0x12b350c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method <GetScores>g__Callback|0, addr 0x12da698, size 0x358, virtual false, abstract: false, final false
   inline void _GetScores_g__Callback_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message);
 
   constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& __cordl_internal_get___4__this();
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_referencePlayerId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12b31f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12da380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -294,7 +294,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <UploadScore>b__0, addr 0x12b3884, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <UploadScore>b__0, addr 0x12da9f0, size 0x98, virtual false, abstract: false, final false
   inline void _UploadScore_b__0(::Oculus::Platform::Message_1<bool>* messsage);
 
   constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& __cordl_internal_get___4__this();
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_completionHandler(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* value);
 
-  /// @brief Method .ctor, addr 0x12b3430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12da5bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -368,20 +368,20 @@ public:
   /// @brief Field _oculusRequestIds, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusRequestIds, put = __cordl_internal_set__oculusRequestIds))::System::Collections::Generic::HashSet_1<uint64_t>* _oculusRequestIds;
 
-  /// @brief Method AddOculusRequest, addr 0x12b2df4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddOculusRequest, addr 0x12d9f80, size 0xec, virtual false, abstract: false, final false
   inline void AddOculusRequest(::Oculus::Platform::Request* oculusRequest, ::GlobalNamespace::HMAsyncRequest* asyncRequest);
 
-  /// @brief Method CheckMessageForValidRequest, addr 0x12b2ee8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckMessageForValidRequest, addr 0x12da074, size 0x98, virtual false, abstract: false, final false
   inline bool CheckMessageForValidRequest(::Oculus::Platform::Message* message);
 
-  /// @brief Method GetScores, addr 0x12b2f80, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method GetScores, addr 0x12da10c, size 0x274, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method UploadScore, addr 0x12b31fc, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method UploadScore, addr 0x12da388, size 0x234, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
@@ -403,7 +403,7 @@ public:
 
   constexpr void __cordl_internal_set__oculusRequestIds(::System::Collections::Generic::HashSet_1<uint64_t>* value);
 
-  /// @brief Method .ctor, addr 0x12b2ccc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d9e58, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

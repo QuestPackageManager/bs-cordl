@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)()>(
     &::RootMotion::FinalIK::__FBIKChain__ChildConstraint::get_nominalDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1333af4;
+  constexpr static std::size_t addrs = 0x135c04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)(float_t)>(
     &::RootMotion::FinalIK::__FBIKChain__ChildConstraint::set_nominalDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1333afc;
+  constexpr static std::size_t addrs = 0x135c054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)()>(
     &::RootMotion::FinalIK::__FBIKChain__ChildConstraint::get_isRigid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1333b04;
+  constexpr static std::size_t addrs = 0x135c05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)(bool)>(
     &::RootMotion::FinalIK::__FBIKChain__ChildConstraint::set_isRigid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1333b0c;
+  constexpr static std::size_t addrs = 0x135c064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, float_t, float_t)>(&::RootMotion::FinalIK::__FBIKChain__ChildConstraint::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1333b18;
+  constexpr static std::size_t addrs = 0x135c070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::__FBIKChain__ChildConstraint::Initiate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1331800;
+  constexpr static std::size_t addrs = 0x1359d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::__FBIKChain__ChildConstraint::OnPreSolve)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x1331eac;
+  constexpr static std::size_t addrs = 0x135a404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__FBIKChain__ChildConstraint::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::__FBIKChain__ChildConstraint::Solve)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x13338b8;
+  constexpr static std::size_t addrs = 0x135be10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)()>(&::RootMotion::FinalIK::FBIKChain::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x1330bbc;
+  constexpr static std::size_t addrs = 0x1359114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FBIKChain*>::get(), ".ctor",
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(float_t, float_t, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(&::RootMotion::FinalIK::FBIKChain::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x1330d24;
+  constexpr static std::size_t addrs = 0x135927c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(
     &::RootMotion::FinalIK::FBIKChain::SetNodes)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x1330e58;
+  constexpr static std::size_t addrs = 0x13593b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::RootMotion::FinalIK::FBIKChain::*)(::UnityEngine::Transform*)>(
     &::RootMotion::FinalIK::FBIKChain::GetNodeIndex)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x1330f70;
+  constexpr static std::size_t addrs = 0x13594c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::FBIKChain::*)(ByRef<::StringW>)>(&::RootMotion::FinalIK::FBIKChain::IsValid)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x133102c;
+  constexpr static std::size_t addrs = 0x1359584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::FBIKChain::Initiate)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x1331138;
+  constexpr static std::size_t addrs = 0x1359690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*, bool)>(
     &::RootMotion::FinalIK::FBIKChain::ReadPose)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x1331ac8;
+  constexpr static std::size_t addrs = 0x135a020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::FBIKChain::CalculateBoneLengths)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x13312a4;
+  constexpr static std::size_t addrs = 0x13597fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::FBIKChain::Reach)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x1332090;
+  constexpr static std::size_t addrs = 0x135a5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::FBIKChain::Push)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x1332324;
+  constexpr static std::size_t addrs = 0x135a87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*, bool)>(
     &::RootMotion::FinalIK::FBIKChain::SolveTrigonometric)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x13325f4;
+  constexpr static std::size_t addrs = 0x135ab4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::FBIKChain::Stage1)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x1332fbc;
+  constexpr static std::size_t addrs = 0x135b514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*, ::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::FBIKChain::Stage2)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x13334b4;
+  constexpr static std::size_t addrs = 0x135ba0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::FBIKChain::SolveConstraintSystems)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x13336b4;
+  constexpr static std::size_t addrs = 0x135bc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::FBIKChain::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::RootMotion::FinalIK::FBIKChain::SolveFABRIKJoint)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x13333a0;
+  constexpr static std::size_t addrs = 0x135b8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::FBIKChain::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::RootMotion::FinalIK::FBIKChain::GetDirToBendPoint)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x1332e5c;
+  constexpr static std::size_t addrs = 0x135b3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::FBIKChain::SolveChildConstraints)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x133333c;
+  constexpr static std::size_t addrs = 0x135b894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -581,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(
     ::RootMotion::FinalIK::__IKSolver__Node*, ::RootMotion::FinalIK::__IKSolver__Node*, float_t, float_t)>(&::RootMotion::FinalIK::FBIKChain::SolveLinearConstraint)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x1333790;
+  constexpr static std::size_t addrs = 0x135bce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::FBIKChain::ForwardReach)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x1333268;
+  constexpr static std::size_t addrs = 0x135b7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -613,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBIKChain::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::FBIKChain::BackwardReach)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x13335b8;
+  constexpr static std::size_t addrs = 0x135bb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

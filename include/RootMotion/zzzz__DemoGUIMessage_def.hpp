@@ -28,7 +28,7 @@ public:
 
   static inline ::RootMotion::DemoGUIMessage* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x1318d7c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x13412d4, size 0xf8, virtual false, abstract: false, final false
   inline void OnGUI();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1318e74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13413cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

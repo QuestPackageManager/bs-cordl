@@ -70,42 +70,42 @@ public:
   /// @brief Field useRotationLimits, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_useRotationLimits, put = __cordl_internal_set_useRotationLimits)) bool useRotationLimits;
 
-  /// @brief Method AddBone, addr 0x1344f44, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddBone, addr 0x136d49c, size 0x12c, virtual false, abstract: false, final false
   inline void AddBone(::UnityEngine::Transform* bone);
 
-  /// @brief Method FixTransforms, addr 0x13450cc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x136d624, size 0x70, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetPoint, addr 0x1345508, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x136da60, size 0xdc, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetPoints, addr 0x1345500, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x136da58, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetSingularityOffset, addr 0x133d68c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method GetSingularityOffset, addr 0x1365be4, size 0x3ac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetSingularityOffset();
 
-  /// @brief Method InitiateBones, addr 0x133cf24, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method InitiateBones, addr 0x136547c, size 0x488, virtual false, abstract: false, final false
   inline void InitiateBones();
 
-  /// @brief Method IsValid, addr 0x134513c, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x136d694, size 0x3c4, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverHeuristic* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x13455fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x136db54, size 0x4, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x1345600, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x136db58, size 0x4, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method SetChain, addr 0x1344dc8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetChain, addr 0x136d320, size 0x17c, virtual false, abstract: false, final false
   inline bool SetChain(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> hierarchy, ::UnityEngine::Transform* root);
 
-  /// @brief Method SingularityDetected, addr 0x13456c0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method SingularityDetected, addr 0x136dc18, size 0x1294, virtual false, abstract: false, final false
   inline bool SingularityDetected();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x1345070, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x136d5c8, size 0x5c, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
   constexpr bool const& __cordl_internal_get_XY() const;
@@ -156,22 +156,22 @@ public:
 
   constexpr void __cordl_internal_set_useRotationLimits(bool value);
 
-  /// @brief Method .ctor, addr 0x133bff8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1364550, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowCommonParent, addr 0x13455f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_allowCommonParent, addr 0x136db4c, size 0x8, virtual true, abstract: false, final false
   inline bool get_allowCommonParent();
 
-  /// @brief Method get_boneLengthCanBeZero, addr 0x13455ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_boneLengthCanBeZero, addr 0x136db44, size 0x8, virtual true, abstract: false, final false
   inline bool get_boneLengthCanBeZero();
 
-  /// @brief Method get_localDirection, addr 0x1345604, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method get_localDirection, addr 0x136db5c, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localDirection();
 
-  /// @brief Method get_minBones, addr 0x13455e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minBones, addr 0x136db3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_minBones();
 
-  /// @brief Method get_positionOffset, addr 0x133da38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_positionOffset, addr 0x1365f90, size 0x48, virtual false, abstract: false, final false
   inline float_t get_positionOffset();
 
 protected:

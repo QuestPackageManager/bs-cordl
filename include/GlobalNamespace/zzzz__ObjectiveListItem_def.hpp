@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x23e45b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244939c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_conditionText, addr 0x23e4558, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x2449344, size 0x24, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideCondition, addr 0x23e457c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideCondition, addr 0x2449368, size 0x34, virtual false, abstract: false, final false
   inline void set_hideCondition(bool value);
 
-  /// @brief Method set_title, addr 0x23e4534, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x2449320, size 0x24, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
 protected:

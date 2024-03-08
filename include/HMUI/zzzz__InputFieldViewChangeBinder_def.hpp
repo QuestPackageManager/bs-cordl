@@ -40,22 +40,22 @@ public:
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x227ad58, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x22dbc90, size 0xd8, virtual false, abstract: false, final false
   inline void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>* action);
 
-  /// @brief Method AddBindings, addr 0x227abf4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x22dbb2c, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>* bindings);
 
-  /// @brief Method ClearBindings, addr 0x227ae30, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x22dbd68, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x227b064, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x22dbf9c, size 0x204, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x227b268, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x22dc1a0, size 0x208, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x227ab80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22dbab8, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::InputFieldViewChangeBinder* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x227ab5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dba94, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(GameplayCoreInstaller)
 namespace GlobalNamespace {
+class ArcAndObstacleHapticEffectManager;
+}
+namespace GlobalNamespace {
 class AudioManagerSO;
 }
 namespace GlobalNamespace {
@@ -35,9 +38,6 @@ namespace GlobalNamespace {
 class RelativeSfxVolumePerLevelModel;
 }
 namespace GlobalNamespace {
-class SongAutopilot;
-}
-namespace GlobalNamespace {
 class SongProfilingController;
 }
 namespace Tweening {
@@ -57,6 +57,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayCoreInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
+  /// @brief Field _arcAndObstacleHapticManagerEffectPrefab, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__arcAndObstacleHapticManagerEffectPrefab,
+                      put = __cordl_internal_set__arcAndObstacleHapticManagerEffectPrefab))::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> _arcAndObstacleHapticManagerEffectPrefab;
+
   /// @brief Field _audioManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
@@ -101,16 +105,17 @@ public:
   /// @brief Field _songTimeTweeningManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Field songAutopilotPrefab, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_songAutopilotPrefab, put = __cordl_internal_set_songAutopilotPrefab))::UnityW<::GlobalNamespace::SongAutopilot> songAutopilotPrefab;
-
-  /// @brief Method InstallBindings, addr 0x249ab5c, size 0x1524, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2502988, size 0x15cc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRecordingTool, addr 0x249c080, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method InstallRecordingTool, addr 0x2503f54, size 0xc0, virtual false, abstract: false, final false
   inline void InstallRecordingTool();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
+
+  constexpr ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> const& __cordl_internal_get__arcAndObstacleHapticManagerEffectPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager>& __cordl_internal_get__arcAndObstacleHapticManagerEffectPrefab();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
 
@@ -160,9 +165,7 @@ public:
 
   constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__songTimeTweeningManager();
 
-  constexpr ::UnityW<::GlobalNamespace::SongAutopilot> const& __cordl_internal_get_songAutopilotPrefab() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SongAutopilot>& __cordl_internal_get_songAutopilotPrefab();
+  constexpr void __cordl_internal_set__arcAndObstacleHapticManagerEffectPrefab(::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> value);
 
   constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
@@ -188,9 +191,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  constexpr void __cordl_internal_set_songAutopilotPrefab(::UnityW<::GlobalNamespace::SongAutopilot> value);
-
-  /// @brief Method .ctor, addr 0x249c1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2504014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -231,8 +232,8 @@ public:
   /// @brief Field _effectPoolsManualInstaller, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> ____effectPoolsManualInstaller;
 
-  /// @brief Field songAutopilotPrefab, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SongAutopilot> ___songAutopilotPrefab;
+  /// @brief Field _arcAndObstacleHapticManagerEffectPrefab, offset: 0x60, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> ____arcAndObstacleHapticManagerEffectPrefab;
 
   /// @brief Field _songProfilingControllerPrefab, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongProfilingController> ____songProfilingControllerPrefab;
@@ -267,7 +268,7 @@ static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____missedNoteE
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____effectPoolsManualInstaller) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ___songAutopilotPrefab) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____arcAndObstacleHapticManagerEffectPrefab) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____songProfilingControllerPrefab) == 0x68, "Offset mismatch!");
 

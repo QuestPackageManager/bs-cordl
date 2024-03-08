@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__assemblyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25cf9a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631cf0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method set_AllInternalsVisible, addr 0x25cf9d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllInternalsVisible, addr 0x2631d20, size 0xc, virtual false, abstract: false, final false
   inline void set_AllInternalsVisible(bool value);
 
 protected:

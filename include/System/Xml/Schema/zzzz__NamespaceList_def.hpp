@@ -112,17 +112,17 @@ public:
   /// @brief Field type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Xml::Schema::__NamespaceList__ListType type;
 
-  /// @brief Method Allows, addr 0x29ad8d0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Allows, addr 0x2a0f108, size 0x84, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
-  /// @brief Method Allows, addr 0x29ad954, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Allows, addr 0x2a0f18c, size 0x20, virtual false, abstract: false, final false
   inline bool Allows(::System::Xml::XmlQualifiedName* qname);
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor();
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method ToString, addr 0x29ad974, size 0x4c8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2a0f1ac, size 0x4c8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_set();
@@ -143,19 +143,19 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Xml::Schema::__NamespaceList__ListType value);
 
-  /// @brief Method .ctor, addr 0x29ad5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0ede4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29ad5b4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0edec, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method get_Enumerate, addr 0x29ad864, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Enumerate, addr 0x2a0f09c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Enumerate();
 
-  /// @brief Method get_Excluded, addr 0x29ad85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Excluded, addr 0x2a0f094, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Excluded();
 
-  /// @brief Method get_Type, addr 0x29ad854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2a0f08c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__NamespaceList__ListType get_Type();
 
 protected:

@@ -112,66 +112,66 @@ public:
   /// @brief Field si, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_si, put = __cordl_internal_set_si))::System::Runtime::Serialization::SerializationInfo* si;
 
-  /// @brief Method CheckTypeForwardedFrom, addr 0x25ba734, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CheckTypeForwardedFrom, addr 0x261df30, size 0x158, virtual false, abstract: false, final false
   static inline void CheckTypeForwardedFrom(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache, ::System::Type* objectType, ::StringW binderAssemblyString);
 
-  /// @brief Method GetAssemblyString, addr 0x25b2200, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblyString, addr 0x26159fc, size 0x28, virtual false, abstract: false, final false
   inline ::StringW GetAssemblyString();
 
-  /// @brief Method GetMemberInfo, addr 0x25bb034, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetMemberInfo, addr 0x261e830, size 0xa4, virtual false, abstract: false, final false
   inline void GetMemberInfo(ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> outMemberNames, ByRef<::ArrayW<::System::Type*, ::Array<::System::Type*>*>> outMemberTypes,
                             ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> outMemberData);
 
-  /// @brief Method GetMemberType, addr 0x25baec8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetMemberType, addr 0x261e6c4, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Type* GetMemberType(::System::Reflection::MemberInfo* objMember);
 
-  /// @brief Method GetObjectInfo, addr 0x25b9d7c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInfo, addr 0x261d578, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit);
 
-  /// @brief Method GetTypeFullName, addr 0x25b2228, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFullName, addr 0x2615a24, size 0x28, virtual false, abstract: false, final false
   inline ::StringW GetTypeFullName();
 
-  /// @brief Method InitMemberInfo, addr 0x25ba88c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method InitMemberInfo, addr 0x261e088, size 0x2d8, virtual false, abstract: false, final false
   inline void InitMemberInfo();
 
-  /// @brief Method InitNoMembers, addr 0x25ba32c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitNoMembers, addr 0x261db28, size 0xe8, virtual false, abstract: false, final false
   inline void InitNoMembers();
 
-  /// @brief Method InitSerialize, addr 0x25b9e54, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method InitSerialize, addr 0x261d650, size 0x4d8, virtual false, abstract: false, final false
   inline void InitSerialize(::System::Object* obj, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
                             ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter,
                             ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method InitSerialize, addr 0x25babec, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method InitSerialize, addr 0x261e3e8, size 0x2dc, virtual false, abstract: false, final false
   inline void InitSerialize(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
                             ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter,
                             ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method InitSiWrite, addr 0x25ba43c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method InitSiWrite, addr 0x261dc38, size 0x2f8, virtual false, abstract: false, final false
   inline void InitSiWrite();
 
-  /// @brief Method InternalInit, addr 0x25b9ccc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InternalInit, addr 0x261d4c8, size 0x20, virtual false, abstract: false, final false
   inline void InternalInit();
 
-  /// @brief Method InvokeSerializationBinder, addr 0x25ba414, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InvokeSerializationBinder, addr 0x261dc10, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSerializationBinder(::System::Runtime::Serialization::SerializationBinder* binder);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* New_ctor();
 
-  /// @brief Method ObjectEnd, addr 0x25b9ca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ObjectEnd, addr 0x261d49c, size 0xc, virtual false, abstract: false, final false
   inline void ObjectEnd();
 
-  /// @brief Method PutObjectInfo, addr 0x25b9cac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PutObjectInfo, addr 0x261d4a8, size 0x20, virtual false, abstract: false, final false
   static inline void PutObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
                                    ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo);
 
-  /// @brief Method Serialize, addr 0x25b9cec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x261d4e8, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*
   Serialize(::System::Object* obj, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
             ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter,
             ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method Serialize, addr 0x25bab64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x261e360, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* Serialize(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector,
                                                                                                  ::System::Runtime::Serialization::StreamingContext context,
                                                                                                  ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
@@ -280,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set_si(::System::Runtime::Serialization::SerializationInfo* value);
 
-  /// @brief Method .ctor, addr 0x25b9c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261d494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::Timeline::Marker* New_ctor();
 
-  /// @brief Method OnInitialize, addr 0x2d50418, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitialize, addr 0x2dadc50, size 0x4, virtual true, abstract: false, final false
   inline void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
 
-  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x2d502cc, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x2dadb04, size 0x14c, virtual true, abstract: false, final true
   inline void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
 
   constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset> const& __cordl_internal_get__parent_k__BackingField() const;
@@ -58,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(double_t value);
 
-  /// @brief Method .ctor, addr 0x2d5041c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dadc54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parent, addr 0x2d50244, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_parent, addr 0x2dada7c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parent();
 
-  /// @brief Method get_time, addr 0x2d50254, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x2dada8c, size 0x8, virtual true, abstract: false, final true
   inline double_t get_time();
 
   /// @brief Convert to "::UnityEngine::Timeline::IMarker"
   constexpr ::UnityEngine::Timeline::IMarker* i___UnityEngine__Timeline__IMarker() noexcept;
 
-  /// @brief Method set_parent, addr 0x2d5024c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parent, addr 0x2dada84, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Timeline::TrackAsset* value);
 
-  /// @brief Method set_time, addr 0x2d5025c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0x2dada94, size 0x70, virtual true, abstract: false, final true
   inline void set_time(double_t value);
 
 protected:

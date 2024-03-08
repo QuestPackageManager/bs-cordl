@@ -56,25 +56,25 @@ public:
 
   constexpr void __cordl_internal_set__memberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
-  /// @brief Method .ctor, addr 0x2732de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27930a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2732e18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27930d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x2732df0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27930ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
 
-  /// @brief Method get_ItemRequired, addr 0x2732d30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ItemRequired, addr 0x2792fec, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Required get_ItemRequired();
 
-  /// @brief Method get_MemberSerialization, addr 0x2732d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberSerialization, addr 0x2792fdc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
 
-  /// @brief Method set_ItemRequired, addr 0x2732d80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemRequired, addr 0x279303c, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemRequired(::Newtonsoft::Json::Required value);
 
-  /// @brief Method set_MemberSerialization, addr 0x2732d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberSerialization, addr 0x2792fe4, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
 protected:

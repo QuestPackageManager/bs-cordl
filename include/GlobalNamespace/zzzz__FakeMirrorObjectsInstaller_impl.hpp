@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FakeMirrorObjectsInstaller____c::*)()>(
     &::GlobalNamespace::__FakeMirrorObjectsInstaller____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249aac0;
+  constexpr static std::size_t addrs = 0x25028ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(),
@@ -25,17 +25,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FakeMirrorObjectsInstaller____c._InstallBindings_b__11_0
+//  Writing Method size for method: ::GlobalNamespace::__FakeMirrorObjectsInstaller____c._InstallBindings_b__10_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__FakeMirrorObjectsInstaller____c::*)(::Zenject::BindingId)>(
-    &::GlobalNamespace::__FakeMirrorObjectsInstaller____c::_InstallBindings_b__11_0)> {
+    &::GlobalNamespace::__FakeMirrorObjectsInstaller____c::_InstallBindings_b__10_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x249aac8;
+  constexpr static std::size_t addrs = 0x25028f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(), "<InstallBindings>b__11_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(), "<InstallBindings>b__10_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
     return ___internal_method;
   }
@@ -49,13 +49,13 @@ inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* GlobalNamespace::__
   return ::cordl_internals::getStaticField<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get>();
 }
-inline void GlobalNamespace::__FakeMirrorObjectsInstaller____c::setStaticF___9__11_0(::System::Func_2<::Zenject::BindingId, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::BindingId, bool>*, "<>9__11_0",
+inline void GlobalNamespace::__FakeMirrorObjectsInstaller____c::setStaticF___9__10_0(::System::Func_2<::Zenject::BindingId, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::BindingId, bool>*, "<>9__10_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get>(
       std::forward<::System::Func_2<::Zenject::BindingId, bool>*>(value));
 }
-inline ::System::Func_2<::Zenject::BindingId, bool>* GlobalNamespace::__FakeMirrorObjectsInstaller____c::getStaticF___9__11_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::BindingId, bool>*, "<>9__11_0",
+inline ::System::Func_2<::Zenject::BindingId, bool>* GlobalNamespace::__FakeMirrorObjectsInstaller____c::getStaticF___9__10_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::BindingId, bool>*, "<>9__10_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get>();
 }
 inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* GlobalNamespace::__FakeMirrorObjectsInstaller____c::New_ctor() {
@@ -66,9 +66,9 @@ inline void GlobalNamespace::__FakeMirrorObjectsInstaller____c::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__FakeMirrorObjectsInstaller____c::_InstallBindings_b__11_0(::Zenject::BindingId t) {
+inline bool GlobalNamespace::__FakeMirrorObjectsInstaller____c::_InstallBindings_b__10_0(::Zenject::BindingId t) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(), "<InstallBindings>b__11_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(), "<InstallBindings>b__10_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, t);
 }
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249a4cc;
+  constexpr static std::size_t addrs = 0x2502354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x249a4d4;
+  constexpr static std::size_t size = 0x524;
+  constexpr static std::size_t addrs = 0x250235c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&::GlobalNamespace::FakeMirrorObjectsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249aa54;
+  constexpr static std::size_t addrs = 0x2502880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller*>::get(), ".ctor",
@@ -153,19 +153,6 @@ constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& GlobalN
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_set__mirroredBurstSliderGameNoteControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderGameNoteControllerPrefab)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__mirroredBurstSliderFillControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirroredBurstSliderFillControllerPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__mirroredBurstSliderFillControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirroredBurstSliderFillControllerPrefab;
-}
-constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_set__mirroredBurstSliderFillControllerPrefab(::UnityW<::GlobalNamespace::MirroredGameNoteController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderFillControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::MirroredBombNoteController>& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__mirroredBombNoteControllerPrefab() {

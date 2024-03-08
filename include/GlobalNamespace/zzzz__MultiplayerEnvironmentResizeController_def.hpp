@@ -158,19 +158,19 @@ public:
 
   constexpr void __cordl_internal_set__resizeType(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType value);
 
-  /// @brief Method .ctor, addr 0x2478c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e1bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lights, addr 0x2478c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x24e1bdc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> get_lights();
 
-  /// @brief Method get_offset, addr 0x2478c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x24e1bd4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_offset();
 
-  /// @brief Method get_otherTransforms, addr 0x2478c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherTransforms, addr 0x24e1be4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> get_otherTransforms();
 
-  /// @brief Method get_resizeType, addr 0x2478c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizeType, addr 0x24e1bcc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType get_resizeType();
 
 protected:
@@ -255,24 +255,24 @@ public:
   /// @brief Field resizingDidFinishEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_resizingDidFinishEvent, put = __cordl_internal_set_resizingDidFinishEvent))::System::Action* resizingDidFinishEvent;
 
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x24788a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x24e1844, size 0x18, virtual false, abstract: false, final false
   inline void HandleEdgeDistanceFromCenterWasCalculated(float_t edgeDistanceFromCenter);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x24788bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x24e185c, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t distance);
 
   static inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24788d4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24e1874, size 0x150, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Resize, addr 0x2478a40, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x24e19dc, size 0x1e8, virtual false, abstract: false, final false
   inline void Resize();
 
-  /// @brief Method Start, addr 0x2478764, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24e1708, size 0x13c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TryResize, addr 0x2478a28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryResize, addr 0x24e19c4, size 0x18, virtual false, abstract: false, final false
   inline void TryResize();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__beatmapObjectSpawnCenter() const;
@@ -326,16 +326,16 @@ public:
 
   constexpr void __cordl_internal_set_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2478c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e1bc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_resizingDidFinishEvent, addr 0x247862c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_resizingDidFinishEvent, addr 0x24e15d0, size 0x9c, virtual false, abstract: false, final false
   inline void add_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_isResizingFinished, addr 0x2478624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isResizingFinished, addr 0x24e15c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isResizingFinished();
 
-  /// @brief Method remove_resizingDidFinishEvent, addr 0x24786c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_resizingDidFinishEvent, addr 0x24e166c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_resizingDidFinishEvent(::System::Action* value);
 
 protected:

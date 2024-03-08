@@ -41,10 +41,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method .ctor, addr 0x102362c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1044d30, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method get_IsServer, addr 0x102369c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x1044da0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsServer();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"

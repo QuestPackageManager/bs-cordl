@@ -20,7 +20,7 @@ namespace System::Net::Mail {
 class CORDL_TYPE DomainLiteralReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverse, addr 0x29eb25c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ReadReverse, addr 0x2a4ca94, size 0x228, virtual false, abstract: false, final false
   static inline int32_t ReadReverse(::StringW data, int32_t index);
 
 protected:

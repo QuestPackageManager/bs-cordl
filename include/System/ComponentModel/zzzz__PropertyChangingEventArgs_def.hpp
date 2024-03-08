@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__PropertyName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2731abc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791d78, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
-  /// @brief Method get_PropertyName, addr 0x2731b34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x2791df0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method set_PropertyName, addr 0x2731b3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PropertyName, addr 0x2791df8, size 0x8, virtual true, abstract: false, final false
   inline void set_PropertyName(::StringW value);
 
 protected:

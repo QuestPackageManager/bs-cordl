@@ -48,10 +48,10 @@ public:
 
   __declspec(property(get = get_forward))::UnityEngine::Vector3 forward;
 
-  /// @brief Method Initiate, addr 0x1349070, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x13725c8, size 0xec, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* root);
 
-  /// @brief Method LookAt, addr 0x1349fa8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LookAt, addr 0x1373500, size 0x108, virtual false, abstract: false, final false
   inline void LookAt(::UnityEngine::Vector3 direction, float_t weight);
 
   static inline ::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone* New_ctor();
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_baseForwardOffsetEuler(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x134a2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1373810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1348dc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1372318, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method get_forward, addr 0x1349c60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x13731b8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_forward();
 
 protected:
@@ -170,66 +170,66 @@ public:
   /// @brief Field target, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
-  /// @brief Method FixTransforms, addr 0x13482e8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1371840, size 0x12c, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetForwards, addr 0x1349c90, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetForwards, addr 0x13731e8, size 0x318, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetForwards(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> forwards,
                                                                                         ::UnityEngine::Vector3 baseForward, ::UnityEngine::Vector3 targetForward, int32_t bones, float_t clamp);
 
-  /// @brief Method GetPoint, addr 0x1348a44, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x1371f9c, size 0x160, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetPoints, addr 0x1348820, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x1371d78, size 0x224, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method IsValid, addr 0x1348414, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x137196c, size 0x1b0, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverLookAt* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x1348de8, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x1372340, size 0x288, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x134915c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x13726b4, size 0xc4, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method SetBones, addr 0x1348c54, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetBones, addr 0x13721ac, size 0x16c, virtual false, abstract: false, final false
   inline void SetBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> array,
                        ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*>> bones);
 
-  /// @brief Method SetChain, addr 0x1348ba4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetChain, addr 0x13720fc, size 0xb0, virtual false, abstract: false, final false
   inline bool SetChain(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spine, ::UnityEngine::Transform* head,
                        ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> eyes, ::UnityEngine::Transform* root);
 
-  /// @brief Method SetLookAtWeight, addr 0x1348040, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtWeight, addr 0x1371598, size 0x1c, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight);
 
-  /// @brief Method SetLookAtWeight, addr 0x134805c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtWeight, addr 0x13715b4, size 0x2c, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight);
 
-  /// @brief Method SetLookAtWeight, addr 0x1348088, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtWeight, addr 0x13715e0, size 0x38, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight);
 
-  /// @brief Method SetLookAtWeight, addr 0x13480c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtWeight, addr 0x1371618, size 0x48, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight);
 
-  /// @brief Method SetLookAtWeight, addr 0x1348108, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtWeight, addr 0x1371660, size 0x58, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight);
 
-  /// @brief Method SetLookAtWeight, addr 0x1348160, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetLookAtWeight, addr 0x13716b8, size 0x70, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight, float_t clampWeightHead, float_t clampWeightEyes);
 
-  /// @brief Method SolveEyes, addr 0x1349784, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method SolveEyes, addr 0x1372cdc, size 0x4dc, virtual false, abstract: false, final false
   inline void SolveEyes();
 
-  /// @brief Method SolveHead, addr 0x134943c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method SolveHead, addr 0x1372994, size 0x348, virtual false, abstract: false, final false
   inline void SolveHead();
 
-  /// @brief Method SolveSpine, addr 0x1349220, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method SolveSpine, addr 0x1372778, size 0x21c, virtual false, abstract: false, final false
   inline void SolveSpine();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x13481d0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1371728, size 0x118, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
   constexpr float_t const& __cordl_internal_get_bodyWeight() const;
@@ -328,25 +328,25 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x134a0b0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1373608, size 0x208, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eyesIsEmpty, addr 0x13487fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_eyesIsEmpty, addr 0x1371d54, size 0x24, virtual false, abstract: false, final false
   inline bool get_eyesIsEmpty();
 
-  /// @brief Method get_eyesIsValid, addr 0x13486a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_eyesIsValid, addr 0x1371bf8, size 0xcc, virtual false, abstract: false, final false
   inline bool get_eyesIsValid();
 
-  /// @brief Method get_headIsEmpty, addr 0x1348790, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_headIsEmpty, addr 0x1371ce8, size 0x6c, virtual false, abstract: false, final false
   inline bool get_headIsEmpty();
 
-  /// @brief Method get_headIsValid, addr 0x1348690, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_headIsValid, addr 0x1371be8, size 0x10, virtual false, abstract: false, final false
   inline bool get_headIsValid();
 
-  /// @brief Method get_spineIsEmpty, addr 0x134876c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_spineIsEmpty, addr 0x1371cc4, size 0x24, virtual false, abstract: false, final false
   inline bool get_spineIsEmpty();
 
-  /// @brief Method get_spineIsValid, addr 0x13485c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_spineIsValid, addr 0x1371b1c, size 0xcc, virtual false, abstract: false, final false
   inline bool get_spineIsValid();
 
 protected:

@@ -49,7 +49,7 @@ public:
   /// @brief Field sigAlgFinder, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sigAlgFinder, put = setStaticF_sigAlgFinder))::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* sigAlgFinder;
 
-  /// @brief Method IsVerified, addr 0x1246b48, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IsVerified, addr 0x126c24c, size 0x1f0, virtual false, abstract: false, final false
   inline bool IsVerified(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::Cmp::CertificateStatus* New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder,
@@ -67,15 +67,15 @@ public:
 
   constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-  /// @brief Method .ctor, addr 0x1246370, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126ba74, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder, ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* getStaticF_sigAlgFinder();
 
-  /// @brief Method get_CertRequestId, addr 0x1246b1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_CertRequestId, addr 0x126c220, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CertRequestId();
 
-  /// @brief Method get_PkiStatusInfo, addr 0x1246afc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_PkiStatusInfo, addr 0x126c200, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_PkiStatusInfo();
 
   static inline void setStaticF_sigAlgFinder(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* value);

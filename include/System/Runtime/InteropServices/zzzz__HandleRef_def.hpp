@@ -25,10 +25,10 @@ public:
   // Declarations
   __declspec(property(get = get_Handle)) void* Handle;
 
-  /// @brief Method .ctor, addr 0x25c74f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262acec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* wrapper, void* handle);
 
-  /// @brief Method get_Handle, addr 0x25c74f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x262acf4, size 0x8, virtual false, abstract: false, final false
   inline void* get_Handle();
 
   // Ctor Parameters []

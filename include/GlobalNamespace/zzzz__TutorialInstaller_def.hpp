@@ -48,7 +48,7 @@ public:
   /// @brief Field _songBPM, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__songBPM, put = __cordl_internal_set__songBPM)) float_t _songBPM;
 
-  /// @brief Method InstallBindings, addr 0x249dd14, size 0xd18, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2506be0, size 0xd20, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialInstaller* New_ctor();
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__songBPM(float_t value);
 
-  /// @brief Method .ctor, addr 0x249ea2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2507900, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

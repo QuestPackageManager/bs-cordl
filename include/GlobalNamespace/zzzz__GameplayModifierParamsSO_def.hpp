@@ -130,34 +130,34 @@ public:
 
   constexpr void __cordl_internal_set__requires(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x12acaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d3cf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_descriptionLocalizationKey, addr 0x12aca64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x12d3cb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_icon, addr 0x12aca7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x12d3cc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_isInBeta, addr 0x12aca9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBeta, addr 0x12d3ce8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBeta();
 
-  /// @brief Method get_modifierNameLocalizationKey, addr 0x12aca5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifierNameLocalizationKey, addr 0x12d3ca8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_modifierNameLocalizationKey();
 
-  /// @brief Method get_multiplier, addr 0x12aca6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x12d3cb8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_multiplier();
 
-  /// @brief Method get_multiplierConditionallyValid, addr 0x12aca74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplierConditionallyValid, addr 0x12d3cc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_multiplierConditionallyValid();
 
-  /// @brief Method get_mutuallyExclusives, addr 0x12aca84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mutuallyExclusives, addr 0x12d3cd0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_mutuallyExclusives();
 
-  /// @brief Method get_requiredBy, addr 0x12aca94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiredBy, addr 0x12d3ce0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requiredBy();
 
-  /// @brief Method get_requires, addr 0x12aca8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requires, addr 0x12d3cd8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requires();
 
 protected:

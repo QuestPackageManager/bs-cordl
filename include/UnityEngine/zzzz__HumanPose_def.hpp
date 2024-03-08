@@ -28,7 +28,7 @@ namespace UnityEngine {
 struct CORDL_TYPE HumanPose {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2d7cf78, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2dda7b0, size 0x138, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters []

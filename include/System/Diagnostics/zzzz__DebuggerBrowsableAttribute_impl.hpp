@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DebuggerBrowsableAttribute::*)(::System::Diagnostics::DebuggerBrowsableState)>(
     &::System::Diagnostics::DebuggerBrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x266d21c;
+  constexpr static std::size_t addrs = 0x26ce56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

@@ -67,6 +67,9 @@ public:
   /// @brief Method GetTriggerValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetTriggerValue(::UnityEngine::XR::XRNode node);
 
+  /// @brief Method IsAdvancedHapticsSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool IsAdvancedHapticsSupported(::UnityEngine::XR::XRNode node);
+
   /// @brief Method RefreshControllersReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RefreshControllersReference();
 

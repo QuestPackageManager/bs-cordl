@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x2deacd0, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e46508, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::TextureMixerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x2deacc4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2e464fc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"

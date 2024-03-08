@@ -49,39 +49,39 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
 
-  /// @brief Method LoadDataFile, addr 0x23f9840, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method LoadDataFile, addr 0x245ea68, size 0x5fc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* LoadDataFile(::StringW filePath);
 
-  /// @brief Method LoadInfoFile, addr 0x23f969c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method LoadInfoFile, addr 0x245e8c4, size 0x1a4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingInfoSaveData* LoadInfoFile(::StringW filePath);
 
-  /// @brief Method LoadRecording, addr 0x23fa284, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x245f4ac, size 0x118, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
-  /// @brief Method LoadRecordingFromDirectory, addr 0x23f9e3c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method LoadRecordingFromDirectory, addr 0x245f064, size 0x308, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingData* LoadRecordingFromDirectory(::StringW path);
 
   static inline ::GlobalNamespace::PosesSerializer* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method RecordingCanBeCreated, addr 0x23fa6dc, size 0x4d4, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x245f904, size 0x4d4, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x23fa39c, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x245f5c4, size 0x340, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method SaveDataFile, addr 0x23f9094, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method SaveDataFile, addr 0x245e2bc, size 0x368, virtual false, abstract: false, final false
   static inline void SaveDataFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveInfoFile, addr 0x23f8f90, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SaveInfoFile, addr 0x245e1b8, size 0x104, virtual false, abstract: false, final false
   static inline void SaveInfoFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveRecording, addr 0x23fa248, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x245f470, size 0x3c, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method SaveRecordingIntoDirectory, addr 0x23f93fc, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method SaveRecordingIntoDirectory, addr 0x245e624, size 0x2a0, virtual false, abstract: false, final false
   inline void SaveRecordingIntoDirectory(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveToOldFormat, addr 0x23fa144, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x245f36c, size 0x18, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
   constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingConverter(::GlobalNamespace::RecordingConverter* value);
 
-  /// @brief Method .ctor, addr 0x23f8ee8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245e110, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"

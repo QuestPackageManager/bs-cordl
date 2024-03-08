@@ -22,13 +22,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendNumber, addr 0xe8dde4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0xeaa938, size 0x14, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
-  /// @brief Method AppendNumber, addr 0xe8de10, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0xeaa964, size 0xa4, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
-  /// @brief Method Swap, addr 0xe8dbbc, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0xeaa710, size 0x228, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
 protected:

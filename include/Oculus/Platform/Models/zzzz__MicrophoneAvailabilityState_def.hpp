@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_MicrophoneAvailable(bool value);
 
-  /// @brief Method .ctor, addr 0x27f8d6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285b788, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

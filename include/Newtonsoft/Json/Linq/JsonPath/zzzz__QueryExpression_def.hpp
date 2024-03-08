@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
-  /// @brief Method .ctor, addr 0x27a1b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2802e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Operator, addr 0x27a1b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Operator, addr 0x2802e30, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::QueryOperator get_Operator();
 
-  /// @brief Method set_Operator, addr 0x27a1b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Operator, addr 0x2802e38, size 0x8, virtual false, abstract: false, final false
   inline void set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
 protected:

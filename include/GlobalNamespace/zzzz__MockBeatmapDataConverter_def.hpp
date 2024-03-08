@@ -72,28 +72,28 @@ public:
 
   static inline ::GlobalNamespace::__MockBeatmapDataConverter____c* New_ctor();
 
-  /// @brief Method <ToMockBeatmapData>b__0_0, addr 0x246c390, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_0, addr 0x24d3e7c, size 0x20, virtual false, abstract: false, final false
   inline bool _ToMockBeatmapData_b__0_0(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_1, addr 0x246c3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_1, addr 0x24d3e9c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_1(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_2, addr 0x246c3b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_2, addr 0x24d3ea4, size 0x20, virtual false, abstract: false, final false
   inline bool _ToMockBeatmapData_b__0_2(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_3, addr 0x246c3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_3, addr 0x24d3ec4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_3(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_4, addr 0x246c3e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_4, addr 0x24d3ecc, size 0x20, virtual false, abstract: false, final false
   inline bool _ToMockBeatmapData_b__0_4(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_5, addr 0x246c400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_5, addr 0x24d3eec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_5(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_6, addr 0x246c408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_6, addr 0x24d3ef4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockObstacleData* _ToMockBeatmapData_b__0_6(::GlobalNamespace::ObstacleData* od);
 
-  /// @brief Method .ctor, addr 0x246c388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d3e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MockBeatmapDataConverter____c* getStaticF___9();
@@ -158,13 +158,13 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__MockBeatmapDataConverter____c;
 
-  /// @brief Method ToMockBeatmapData, addr 0x246b948, size 0x8e4, virtual false, abstract: false, final false
+  /// @brief Method ToMockBeatmapData, addr 0x24d3434, size 0x8e4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method ToMockNoteData, addr 0x246c22c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToMockNoteData, addr 0x24d3d18, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockNoteData* ToMockNoteData(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method ToMockObstacleData, addr 0x246c2b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToMockObstacleData, addr 0x24d3d9c, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockObstacleData* ToMockObstacleData(::GlobalNamespace::ObstacleData* obstacleData);
 
 protected:

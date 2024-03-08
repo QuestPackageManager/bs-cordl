@@ -38,10 +38,10 @@ public:
   /// @brief Field _transform, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x23f597c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x245ab94, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x23f59c8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x245abe0, size 0x10c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MoveAndRotateWithMainCamera* New_ctor();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x23f5ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245acec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

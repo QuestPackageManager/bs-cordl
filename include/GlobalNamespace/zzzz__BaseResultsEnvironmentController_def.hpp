@@ -24,10 +24,10 @@ public:
   // Declarations
   __declspec(property(get = get_keyword))::StringW keyword;
 
-  /// @brief Method Activate, addr 0x2388ddc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x23eb30c, size 0x24, virtual true, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x2388e00, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x23eb330, size 0x24, virtual true, abstract: false, final false
   inline void Deactivate();
 
   static inline ::GlobalNamespace::BaseResultsEnvironmentController* New_ctor();
@@ -35,7 +35,7 @@ public:
   /// @brief Method Setup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method .ctor, addr 0x2388e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23eb354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -151,7 +151,7 @@ public:
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW, T, T>* converterFunc, T defaultValue,
                                  ByRef<T> value);
 
-  /// @brief Method TryGetValueFromBagAsString, addr 0x2f1d488, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBagAsString, addr 0x2f76cc0, size 0x474, virtual false, abstract: false, final false
   inline bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<::StringW> value);
 
   constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
@@ -190,28 +190,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ObsoleteNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2f1d3d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f76c10, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x2f1d3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x2f76c34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x2f1d404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x2f76c3c, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_obsoleteNames, addr 0x2f1d40c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_obsoleteNames, addr 0x2f76c44, size 0x5c, virtual false, abstract: false, final false
   inline void set_obsoleteNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_restriction, addr 0x2f1d480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_restriction, addr 0x2f76cb8, size 0x8, virtual false, abstract: false, final false
   inline void set_restriction(::UnityEngine::UIElements::UxmlTypeRestriction* value);
 
-  /// @brief Method set_type, addr 0x2f1d468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x2f76ca0, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::StringW value);
 
-  /// @brief Method set_typeNamespace, addr 0x2f1d470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_typeNamespace, addr 0x2f76ca8, size 0x8, virtual false, abstract: false, final false
   inline void set_typeNamespace(::StringW value);
 
-  /// @brief Method set_use, addr 0x2f1d478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_use, addr 0x2f76cb0, size 0x8, virtual false, abstract: false, final false
   inline void set_use(::UnityEngine::UIElements::__UxmlAttributeDescription__Use value);
 
 protected:

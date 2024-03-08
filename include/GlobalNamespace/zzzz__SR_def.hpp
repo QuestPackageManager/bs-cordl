@@ -3,12 +3,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SR)
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Object;
 }
@@ -26,26 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x2501930, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x29a5c94, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
-
-  /// @brief Method Format, addr 0x2502960, size 0x78, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
-
-  /// @brief Method Format, addr 0x25029d8, size 0x88, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
-
-  /// @brief Method GetResourceString, addr 0x2502a60, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetResourceString(::StringW str);
-
-  /// @brief Method GetString, addr 0x2502954, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
-  /// @brief Method GetString, addr 0x250295c, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name);
-
-  /// @brief Method GetString, addr 0x25028e4, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
   // Ctor Parameters []

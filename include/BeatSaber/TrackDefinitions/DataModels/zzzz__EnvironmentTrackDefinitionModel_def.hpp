@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_trackType(::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType value);
 
-  /// @brief Method .ctor, addr 0xe84a98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea0748, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup, ::StringW groupName, ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType trackType);
 
 protected:
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0xe84ad4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea0784, size 0x44, virtual false, abstract: false, final false
   inline void
   _ctor(::GlobalNamespace::LightGroupSO* lightGroup, ::StringW groupName, int32_t tracksCount,
         ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>* eventBoxGroupTracks);
@@ -312,40 +312,40 @@ public:
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel____c* New_ctor();
 
-  /// @brief Method <.ctor>b__11_0, addr 0xe84b84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_0, addr 0xea0834, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__11_0(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* info);
 
-  /// @brief Method <.ctor>b__11_1, addr 0xe84ba4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_1, addr 0xea0854, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType __ctor_b__11_1(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* trackInfo);
 
-  /// @brief Method <.ctor>b__11_2, addr 0xe84bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_2, addr 0xea086c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*
   __ctor_b__11_2(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* trackInfo);
 
-  /// @brief Method <.ctor>b__11_3, addr 0xe84bc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_3, addr 0xea0874, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> __ctor_b__11_3(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* trackInfo);
 
-  /// @brief Method <.ctor>b__11_4, addr 0xe84bdc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_4, addr 0xea088c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> __ctor_b__11_4(
       ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* group);
 
-  /// @brief Method <.ctor>b__11_5, addr 0xe84c78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_5, addr 0xea0928, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
   __ctor_b__11_5(
       ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* group);
 
-  /// @brief Method <.ctor>b__11_6, addr 0xe84cc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_6, addr 0xea0970, size 0x18, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType __ctor_b__11_6(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* info);
 
-  /// @brief Method <.ctor>b__11_7, addr 0xe84cd8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_7, addr 0xea0988, size 0x9c, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType
   __ctor_b__11_7(::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType, ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* group);
 
-  /// @brief Method <.ctor>b__11_8, addr 0xe84d74, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11_8, addr 0xea0a24, size 0xf0, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*
   __ctor_b__11_8(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo* trackInfo);
 
-  /// @brief Method .ctor, addr 0xe84b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea082c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel____c* getStaticF___9();
@@ -515,15 +515,15 @@ public:
   __declspec(property(get = get_visibleTrackInfos))::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
                                                             ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> visibleTrackInfos;
 
-  /// @brief Method GetSpawnableEventBoxGroupTracks, addr 0xe84670, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetSpawnableEventBoxGroupTracks, addr 0xea0320, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*
   GetSpawnableEventBoxGroupTracks(int32_t pageId);
 
-  /// @brief Method GetSpawnableEventBoxGroupTypeTracksForTrackInfo, addr 0xe8474c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method GetSpawnableEventBoxGroupTypeTracksForTrackInfo, addr 0xea03fc, size 0x34c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>*
   GetSpawnableEventBoxGroupTypeTracksForTrackInfo(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo* trackInfo);
 
-  /// @brief Method GetToolbarTypesOnPage, addr 0xe84614, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetToolbarTypesOnPage, addr 0xea02c4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType>*
   GetToolbarTypesOnPage(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage page);
 
@@ -623,42 +623,42 @@ public:
       ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
           value);
 
-  /// @brief Method .ctor, addr 0xe8361c, size 0xec0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9f2cc, size 0xec0, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
-  /// @brief Method get_Item, addr 0xe84570, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0xea0220, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
   get_Item(::BeatSaber::TrackDefinitions::EventTrackDefinitionSO* trackDefinition);
 
-  /// @brief Method get_Item, addr 0xe84500, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0xea01b0, size 0x70, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* get_Item(::GlobalNamespace::BasicBeatmapEventType type);
 
-  /// @brief Method get_Item, addr 0xe845e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0xea0294, size 0x30, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*
   get_Item(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage page);
 
-  /// @brief Method get_basicEventTrackInfos, addr 0xe844dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_basicEventTrackInfos, addr 0xea018c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
   get_basicEventTrackInfos();
 
-  /// @brief Method get_beatmapTypeToTrackInfoMap, addr 0xe84744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapTypeToTrackInfoMap, addr 0xea03f4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
                   ::Array<::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*>
   get_beatmapTypeToTrackInfoMap();
 
-  /// @brief Method get_eventBoxGroupPageInfos, addr 0xe84644, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_eventBoxGroupPageInfos, addr 0xea02f4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* get_eventBoxGroupPageInfos();
 
-  /// @brief Method get_groupIdToPageMap, addr 0xe84660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIdToPageMap, addr 0xea0310, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyDictionary_2<int32_t, int32_t>* get_groupIdToPageMap();
 
-  /// @brief Method get_groupIdToTrackInfo, addr 0xe84668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIdToTrackInfo, addr 0xea0318, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyDictionary_2<int32_t, ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* get_groupIdToTrackInfo();
 
-  /// @brief Method get_pageCount, addr 0xe845c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_pageCount, addr 0xea0278, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_pageCount();
 
-  /// @brief Method get_visibleTrackInfos, addr 0xe844f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visibleTrackInfos, addr 0xea01a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
   get_visibleTrackInfos();
 

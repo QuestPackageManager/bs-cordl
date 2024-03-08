@@ -49,21 +49,21 @@ public:
   /// @brief Field weightSpeed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_weightSpeed, put = __cordl_internal_set_weightSpeed)) float_t weightSpeed;
 
-  /// @brief Method Look, addr 0x1360304, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Look, addr 0x138985c, size 0x110, virtual false, abstract: false, final false
   inline void Look(::UnityEngine::Transform* target, float_t time);
 
   static inline ::RootMotion::FinalIK::InteractionLookAt* New_ctor();
 
-  /// @brief Method OnFixTransforms, addr 0x1360414, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnFixTransforms, addr 0x138996c, size 0x98, virtual false, abstract: false, final false
   inline void OnFixTransforms();
 
-  /// @brief Method SolveHead, addr 0x1360744, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SolveHead, addr 0x1389c9c, size 0xac, virtual false, abstract: false, final false
   inline void SolveHead();
 
-  /// @brief Method SolveSpine, addr 0x136069c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SolveSpine, addr 0x1389bf4, size 0xa8, virtual false, abstract: false, final false
   inline void SolveSpine();
 
-  /// @brief Method Update, addr 0x13604ac, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1389a04, size 0x1f0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_firstFBBIKSolve() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_weightSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x13607f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1389d48, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -46,28 +46,28 @@ public:
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType))::System::Type* listValueType;
 
-  /// @brief Method Compare, addr 0x29a8f5c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x2a0a794, size 0x94, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
   static inline ::System::Xml::Schema::Datatype_char* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x29a8ff0, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x2a0a828, size 0x1d4, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method TryParseValue, addr 0x29a91c4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2a0a9fc, size 0xac, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x29a9270, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0aaa8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_ListValueType, addr 0x29a8f04, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x2a0a73c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_ValueType, addr 0x29a8eac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x2a0a6e4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::*)(
     ::StringW, int32_t, ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*)>(&::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x274cc80;
+  constexpr static std::size_t addrs = 0x27acf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::PropertyNameTable::*)()>(
     &::Newtonsoft::Json::Utilities::PropertyNameTable::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x274c720;
+  constexpr static std::size_t addrs = 0x27ac9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::PropertyNameTable*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::Newtonsoft::Json::Utilities::PropertyNameTable::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::Newtonsoft::Json::Utilities::PropertyNameTable::Get)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x274c788;
+  constexpr static std::size_t addrs = 0x27aca44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::PropertyNameTable::*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::PropertyNameTable::Add)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x274c9c0;
+  constexpr static std::size_t addrs = 0x27acc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::PropertyNameTable::*)(::StringW, int32_t)>(
     &::Newtonsoft::Json::Utilities::PropertyNameTable::AddEntry)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x274cb74;
+  constexpr static std::size_t addrs = 0x27ace30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::PropertyNameTable::*)()>(
     &::Newtonsoft::Json::Utilities::PropertyNameTable::Grow)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x274ccc0;
+  constexpr static std::size_t addrs = 0x27acf7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::PropertyNameTable*>::get(), "Grow",
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::PropertyNameTable::TextEquals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x274c910;
+  constexpr static std::size_t addrs = 0x27acbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

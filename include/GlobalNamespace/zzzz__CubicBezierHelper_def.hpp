@@ -26,24 +26,24 @@ namespace GlobalNamespace {
 class CORDL_TYPE CubicBezierHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EstimateCurveLength, addr 0x2252e98, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method EstimateCurveLength, addr 0x22b3e5c, size 0x250, virtual false, abstract: false, final false
   static inline float_t EstimateCurveLength(ByRef<::UnityEngine::Vector3> p0, ByRef<::UnityEngine::Vector3> p1, ByRef<::UnityEngine::Vector3> p2, ByRef<::UnityEngine::Vector3> p3);
 
-  /// @brief Method EvaluateCurve, addr 0x22526b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurve, addr 0x22b367c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurve(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float_t t);
 
-  /// @brief Method EvaluateCurveDerivative, addr 0x2252748, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurveDerivative, addr 0x22b370c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurveDerivative(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2,
                                                                float_t t);
 
-  /// @brief Method EvaluateCurveSecondDerivative, addr 0x22527d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurveSecondDerivative, addr 0x22b379c, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurveSecondDerivative(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2,
                                                                      ByRef<::UnityEngine::Vector3> a2, float_t t);
 
-  /// @brief Method Normal, addr 0x225285c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Normal, addr 0x22b3820, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float_t t);
 
-  /// @brief Method SplitCurve, addr 0x22529c4, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method SplitCurve, addr 0x22b3988, size 0x4d4, virtual false, abstract: false, final false
   static inline void SplitCurve(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points, float_t t);
 
 protected:

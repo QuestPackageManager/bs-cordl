@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__colors(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> value);
 
-  /// @brief Method .ctor, addr 0xe6e708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe894d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colors, addr 0xe6e700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colors, addr 0xe894cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> get_colors();
 
 protected:

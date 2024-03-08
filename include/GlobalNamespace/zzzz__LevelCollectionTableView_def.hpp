@@ -12,13 +12,13 @@ namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
 class BeatmapLevelsPromoModel;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
+}
+namespace GlobalNamespace {
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 class LevelListTableCell;
@@ -83,24 +83,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__LevelCollectionTableView____c* __9;
 
-  /// @brief Field <>9__28_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__28_0, put = setStaticF___9__28_0))::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* __9__28_0;
+  /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0))::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* __9__27_0;
 
   static inline ::GlobalNamespace::__LevelCollectionTableView____c* New_ctor();
 
-  /// @brief Method <SetData>b__28_0, addr 0x23e3f44, size 0x20, virtual false, abstract: false, final false
-  inline bool _SetData_b__28_0(::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  /// @brief Method <SetData>b__27_0, addr 0x2448a38, size 0x20, virtual false, abstract: false, final false
+  inline bool _SetData_b__27_0(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method .ctor, addr 0x23e3f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2448a30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__LevelCollectionTableView____c* getStaticF___9();
 
-  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* getStaticF___9__28_0();
+  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* getStaticF___9__27_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__LevelCollectionTableView____c* value);
 
-  static inline void setStaticF___9__28_0(::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* value);
+  static inline void setStaticF___9__27_0(::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -142,14 +142,14 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapLevels,
                       put = __cordl_internal_set__beatmapLevels))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* _beatmapLevels;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
-
   /// @brief Field _beatmapLevelsPromoModel, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsPromoModel, put = __cordl_internal_set__beatmapLevelsPromoModel))::GlobalNamespace::BeatmapLevelsPromoModel* _beatmapLevelsPromoModel;
 
   /// @brief Field _cellHeight, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__cellHeight, put = __cordl_internal_set__cellHeight)) float_t _cellHeight;
+
+  /// @brief Field _entitlementModel, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__entitlementModel, put = __cordl_internal_set__entitlementModel))::GlobalNamespace::IEntitlementModel* _entitlementModel;
 
   /// @brief Field _favoriteLevelIds, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__favoriteLevelIds, put = __cordl_internal_set__favoriteLevelIds))::System::Collections::Generic::HashSet_1<::StringW>* _favoriteLevelIds;
@@ -184,10 +184,6 @@ public:
   /// @brief Field _selectedRow, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get__selectedRow, put = __cordl_internal_set__selectedRow)) int32_t _selectedRow;
 
-  /// @brief Field _showAlphabetScrollbarLevelCountThreshold, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__showAlphabetScrollbarLevelCountThreshold,
-                      put = __cordl_internal_set__showAlphabetScrollbarLevelCountThreshold)) int32_t _showAlphabetScrollbarLevelCountThreshold;
-
   /// @brief Field _showLevelPackHeader, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__showLevelPackHeader, put = __cordl_internal_set__showLevelPackHeader)) bool _showLevelPackHeader;
 
@@ -205,57 +201,57 @@ public:
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CancelAsyncOperations, addr 0x23e33e0, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x2446ed4, size 0x37c, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method CellForIdx, addr 0x23e2efc, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x24469f0, size 0x32c, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x23e2e44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x2446938, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method ClearSelection, addr 0x23e3c60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x2447754, size 0x30, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x23e333c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x2446e30, size 0xa4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleDidSelectRowEvent, addr 0x23e3228, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectRowEvent, addr 0x2446d1c, size 0x114, virtual false, abstract: false, final false
   inline void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method Init, addr 0x23e2688, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24461f8, size 0xc0, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Init, addr 0x23e2648, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24461b8, size 0x40, virtual false, abstract: false, final false
   inline void Init(::StringW headerText, ::UnityEngine::Sprite* headerSprite);
 
   static inline ::GlobalNamespace::LevelCollectionTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x23e2e4c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x2446940, size 0xb0, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x23e2d70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2446864, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x23e2c80, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2446774, size 0xf0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x23e2b94, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2446688, size 0xec, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshFavorites, addr 0x23e2a88, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method RefreshFavorites, addr 0x244657c, size 0x10c, virtual false, abstract: false, final false
   inline void RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds);
 
-  /// @brief Method RefreshLevelsAvailability, addr 0x23e375c, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method RefreshLevelsAvailability, addr 0x2447250, size 0x4d8, virtual false, abstract: false, final false
   inline void RefreshLevelsAvailability();
 
-  /// @brief Method SelectLevel, addr 0x23e3c90, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method SelectLevel, addr 0x2447784, size 0x1bc, virtual false, abstract: false, final false
   inline void SelectLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method SelectLevelPackHeaderCell, addr 0x23e3c34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SelectLevelPackHeaderCell, addr 0x2447728, size 0x2c, virtual false, abstract: false, final false
   inline void SelectLevelPackHeaderCell();
 
-  /// @brief Method SetData, addr 0x23e2748, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x24462b8, size 0x2c4, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds,
                       bool beatmapLevelsAreSorted, bool sortBeatmapLevels);
 
@@ -271,10 +267,6 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*> const& __cordl_internal_get__beatmapLevels() const;
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
-
   constexpr ::GlobalNamespace::BeatmapLevelsPromoModel*& __cordl_internal_get__beatmapLevelsPromoModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsPromoModel*> const& __cordl_internal_get__beatmapLevelsPromoModel() const;
@@ -282,6 +274,10 @@ public:
   constexpr float_t const& __cordl_internal_get__cellHeight() const;
 
   constexpr float_t& __cordl_internal_get__cellHeight();
+
+  constexpr ::GlobalNamespace::IEntitlementModel*& __cordl_internal_get__entitlementModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEntitlementModel*> const& __cordl_internal_get__entitlementModel() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__favoriteLevelIds();
 
@@ -327,10 +323,6 @@ public:
 
   constexpr int32_t& __cordl_internal_get__selectedRow();
 
-  constexpr int32_t const& __cordl_internal_get__showAlphabetScrollbarLevelCountThreshold() const;
-
-  constexpr int32_t& __cordl_internal_get__showAlphabetScrollbarLevelCountThreshold();
-
   constexpr bool const& __cordl_internal_get__showLevelPackHeader() const;
 
   constexpr bool& __cordl_internal_get__showLevelPackHeader();
@@ -354,11 +346,11 @@ public:
 
   constexpr void __cordl_internal_set__beatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* value);
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
-
   constexpr void __cordl_internal_set__beatmapLevelsPromoModel(::GlobalNamespace::BeatmapLevelsPromoModel* value);
 
   constexpr void __cordl_internal_set__cellHeight(float_t value);
+
+  constexpr void __cordl_internal_set__entitlementModel(::GlobalNamespace::IEntitlementModel* value);
 
   constexpr void __cordl_internal_set__favoriteLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
@@ -382,8 +374,6 @@ public:
 
   constexpr void __cordl_internal_set__selectedRow(int32_t value);
 
-  constexpr void __cordl_internal_set__showAlphabetScrollbarLevelCountThreshold(int32_t value);
-
   constexpr void __cordl_internal_set__showLevelPackHeader(bool value);
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
@@ -392,22 +382,22 @@ public:
 
   constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method .ctor, addr 0x23e3e4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447940, size 0x108c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectHeaderEvent, addr 0x23e24e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHeaderEvent, addr 0x2446058, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
-  /// @brief Method add_didSelectLevelEvent, addr 0x23e2388, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelEvent, addr 0x2445ef8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  /// @brief Method remove_didSelectHeaderEvent, addr 0x23e2598, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHeaderEvent, addr 0x2446108, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
-  /// @brief Method remove_didSelectLevelEvent, addr 0x23e2438, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelEvent, addr 0x2445fa8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
 protected:
@@ -445,14 +435,11 @@ public:
   /// @brief Field _cellHeight, offset: 0x48, size: 0x4, def value: None
   float_t ____cellHeight;
 
-  /// @brief Field _showAlphabetScrollbarLevelCountThreshold, offset: 0x4c, size: 0x4, def value: None
-  int32_t ____showAlphabetScrollbarLevelCountThreshold;
-
   /// @brief Field _additionalContentModel, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+  /// @brief Field _entitlementModel, offset: 0x58, size: 0x8, def value: None
+  ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
   /// @brief Field _beatmapLevelsPromoModel, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsPromoModel* ____beatmapLevelsPromoModel;
@@ -509,11 +496,9 @@ static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____packCell
 
 static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____cellHeight) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____showAlphabetScrollbarLevelCountThreshold) == 0x4c, "Offset mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____additionalContentModel) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____beatmapLevelsModel) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____entitlementModel) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____beatmapLevelsPromoModel) == 0x60, "Offset mismatch!");
 

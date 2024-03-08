@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x136dac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,12 +138,12 @@ public:
   /// @brief Field verticalWeight, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_verticalWeight, put = __cordl_internal_set_verticalWeight)) float_t verticalWeight;
 
-  /// @brief Method Multiply, addr 0x136da98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x1397ff0, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Multiply(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2);
 
   static inline ::RootMotion::FinalIK::__Amplifier__Body* New_ctor();
 
-  /// @brief Method Update, addr 0x136d768, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1397cc0, size 0x310, virtual false, abstract: false, final false
   inline void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t w, float_t deltaTime);
 
   constexpr ::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> const& __cordl_internal_get_effectorLinks() const;
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_verticalWeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x136daa8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398000, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -284,7 +284,7 @@ public:
 
   static inline ::RootMotion::FinalIK::Amplifier* New_ctor();
 
-  /// @brief Method OnModifyOffset, addr 0x136d618, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x1397b70, size 0x130, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
   constexpr ::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> const& __cordl_internal_get_bodies() const;
@@ -293,7 +293,7 @@ public:
 
   constexpr void __cordl_internal_set_bodies(::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> value);
 
-  /// @brief Method .ctor, addr 0x136da78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1397fd0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

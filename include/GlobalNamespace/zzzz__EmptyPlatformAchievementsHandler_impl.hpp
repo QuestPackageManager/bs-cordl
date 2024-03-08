@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EmptyPlatformAchievementsHandler::*)()>(
     &::GlobalNamespace::EmptyPlatformAchievementsHandler::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x12a00b0;
+  constexpr static std::size_t addrs = 0x12c67ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EmptyPlatformAchievementsHandler*>::get(),
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::EmptyPlatformAchievementsHandler::*)(::StringW, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler*)>(
     &::GlobalNamespace::EmptyPlatformAchievementsHandler::UnlockAchievement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12a00b4;
+  constexpr static std::size_t addrs = 0x12c67b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::EmptyPlatformAchievementsHandler::*)(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*)>(
     &::GlobalNamespace::EmptyPlatformAchievementsHandler::GetUnlockedAchievements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12a00bc;
+  constexpr static std::size_t addrs = 0x12c67b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EmptyPlatformAchievementsHandler::*)()>(
     &::GlobalNamespace::EmptyPlatformAchievementsHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12a00c4;
+  constexpr static std::size_t addrs = 0x12c67c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EmptyPlatformAchievementsHandler*>::get(),

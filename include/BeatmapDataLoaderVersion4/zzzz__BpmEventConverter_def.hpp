@@ -31,7 +31,7 @@ public:
   /// @brief Field _songFrequency, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__songFrequency, put = __cordl_internal_set__songFrequency)) int32_t _songFrequency;
 
-  /// @brief Method Convert, addr 0x12ffb28, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1327fd4, size 0xc8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapLevelSaveDataVersion4::BpmData* bpmData);
 
   static inline ::BeatmapDataLoaderVersion4::BpmEventConverter* New_ctor(int32_t songFrequency, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__songFrequency(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12ffafc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1327fa8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t songFrequency, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:

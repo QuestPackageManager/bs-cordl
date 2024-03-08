@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::Matrix4x4Converter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::Matrix4x4Converter::WriteJson)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x27a56f8;
+  constexpr static std::size_t addrs = 0x28069b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::Matrix4x4Converter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::Matrix4x4Converter::ReadJson)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x27a5c78;
+  constexpr static std::size_t addrs = 0x2806f34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::Matrix4x4Converter::*)()>(
     &::Newtonsoft::Json::Converters::Matrix4x4Converter::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27a5ff8;
+  constexpr static std::size_t addrs = 0x28072b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::Matrix4x4Converter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::Matrix4x4Converter::CanConvert)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27a6000;
+  constexpr static std::size_t addrs = 0x28072bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::Matrix4x4Converter::*)()>(
     &::Newtonsoft::Json::Converters::Matrix4x4Converter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27a6084;
+  constexpr static std::size_t addrs = 0x2807340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::Matrix4x4Converter*>::get(),

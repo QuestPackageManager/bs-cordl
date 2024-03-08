@@ -160,43 +160,43 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor2(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x24a844c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2511428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor1, addr 0x24a7c80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor1, addr 0x2510c5c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2, addr 0x24a7c8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor2, addr 0x2510c68, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_highlightColor1, addr 0x24a7b50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor1, addr 0x2510b2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2, addr 0x24a7b5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor2, addr 0x2510b38, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_normalColor1, addr 0x24a78ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor1, addr 0x2510888, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2, addr 0x24a78b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor2, addr 0x2510894, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_pressedColor1, addr 0x24a7be8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor1, addr 0x2510bc4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2, addr 0x24a7bf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor2, addr 0x2510bd0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1, addr 0x24a7db0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor1, addr 0x2510d8c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2, addr 0x24a7dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor2, addr 0x2510d98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
-  /// @brief Method get_selectedColor1, addr 0x24a7d18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor1, addr 0x2510cf4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2, addr 0x24a7d24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor2, addr 0x2510d00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor2();
 
 protected:

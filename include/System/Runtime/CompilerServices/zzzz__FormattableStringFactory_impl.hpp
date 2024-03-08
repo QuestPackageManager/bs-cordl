@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)(
     ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25cbed0;
+  constexpr static std::size_t addrs = 0x262f6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25cbefc;
+  constexpr static std::size_t addrs = 0x262f6f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)()>(
         &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::GetArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25cbf04;
+  constexpr static std::size_t addrs = 0x262f700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25cbf0c;
+  constexpr static std::size_t addrs = 0x262f708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)(int32_t)>(
         &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::GetArgument)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x25cbf28;
+  constexpr static std::size_t addrs = 0x262f724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)(
     ::System::IFormatProvider*)>(&::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x25cbf58;
+  constexpr static std::size_t addrs = 0x262f754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::FormattableString* (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory::Create)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x25cbdf0;
+  constexpr static std::size_t addrs = 0x262f5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

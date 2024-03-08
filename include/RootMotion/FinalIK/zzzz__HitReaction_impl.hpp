@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__HitReaction__HitPoint::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::get_inProgress)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x136dfdc;
+  constexpr static std::size_t addrs = 0x1398534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPoint*>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::__HitReaction__HitPoint::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::get_crossFader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x136e4dc;
+  constexpr static std::size_t addrs = 0x1398a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPoint*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPoint::*)(float_t)>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::set_crossFader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x136e4e4;
+  constexpr static std::size_t addrs = 0x1398a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::__HitReaction__HitPoint::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::get_timer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x136e4ec;
+  constexpr static std::size_t addrs = 0x1398a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPoint*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPoint::*)(float_t)>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::set_timer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x136e4f4;
+  constexpr static std::size_t addrs = 0x1398a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__HitReaction__HitPoint::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::get_force)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x136e4fc;
+  constexpr static std::size_t addrs = 0x1398a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPoint*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPoint::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::set_force)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x136e508;
+  constexpr static std::size_t addrs = 0x1398a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__HitReaction__HitPoint::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::get_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x136e514;
+  constexpr static std::size_t addrs = 0x1398a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPoint*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPoint::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::set_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x136e520;
+  constexpr static std::size_t addrs = 0x1398a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPoint::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::Hit)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x136e3a4;
+  constexpr static std::size_t addrs = 0x13988fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPoint::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, float_t)>(
     &::RootMotion::FinalIK::__HitReaction__HitPoint::Apply)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x136e0b0;
+  constexpr static std::size_t addrs = 0x1398608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPoint::*)()>(&::RootMotion::FinalIK::__HitReaction__HitPoint::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x136e52c;
+  constexpr static std::size_t addrs = 0x1398a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPoint*>::get(), ".ctor",
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink::*)(
     ::RootMotion::FinalIK::IKSolverFullBodyBiped*, ::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink::Apply)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x136e860;
+  constexpr static std::size_t addrs = 0x1398db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink::*)()>(
     &::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink::CrossFadeStart)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x136e6bc;
+  constexpr static std::size_t addrs = 0x1398c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink::*)()>(
     &::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x136e910;
+  constexpr static std::size_t addrs = 0x1398e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::__HitReaction__HitPointEffector::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPointEffector::GetLength)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x136e540;
+  constexpr static std::size_t addrs = 0x1398a98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPointEffector::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPointEffector::CrossFadeStart)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x136e65c;
+  constexpr static std::size_t addrs = 0x1398bb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPointEffector::*)(
     ::RootMotion::FinalIK::IKSolverFullBodyBiped*, float_t)>(&::RootMotion::FinalIK::__HitReaction__HitPointEffector::OnApply)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x136e6d0;
+  constexpr static std::size_t addrs = 0x1398c28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPointEffector::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPointEffector::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x136e8fc;
+  constexpr static std::size_t addrs = 0x1398e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>::get(),
@@ -700,7 +700,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HitReaction__HitPointBone__BoneLink::*)(
     ::RootMotion::FinalIK::IKSolverFullBodyBiped*, ::UnityEngine::Quaternion, float_t)>(&::GlobalNamespace::__HitReaction__HitPointBone__BoneLink::Apply)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x136ebd0;
+  constexpr static std::size_t addrs = 0x1399128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HitReaction__HitPointBone__BoneLink::*)()>(
     &::GlobalNamespace::__HitReaction__HitPointBone__BoneLink::CrossFadeStart)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x136e9fc;
+  constexpr static std::size_t addrs = 0x1398f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*>::get(),
@@ -731,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HitReaction__HitPointBone__BoneLink::*)()>(
     &::GlobalNamespace::__HitReaction__HitPointBone__BoneLink::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x136ed70;
+  constexpr static std::size_t addrs = 0x13992c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*>::get(),
@@ -816,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::__HitReaction__HitPointBone::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPointBone::GetLength)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x136e918;
+  constexpr static std::size_t addrs = 0x1398e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPointBone::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPointBone::CrossFadeStart)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x136e9a4;
+  constexpr static std::size_t addrs = 0x1398efc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -848,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPointBone::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, float_t)>(
     &::RootMotion::FinalIK::__HitReaction__HitPointBone::OnApply)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x136ea08;
+  constexpr static std::size_t addrs = 0x1398f60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__HitReaction__HitPointBone::*)()>(
     &::RootMotion::FinalIK::__HitReaction__HitPointBone::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x136ed5c;
+  constexpr static std::size_t addrs = 0x13992b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__HitReaction__HitPointBone*>::get(),
@@ -941,7 +941,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::HitReaction::*)()>(&::RootMotion::FinalIK::HitReaction::get_inProgress)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x136df40;
+  constexpr static std::size_t addrs = 0x1398498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::HitReaction*>::get(), "get_inProgress",
@@ -954,7 +954,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HitReaction::*)()>(&::RootMotion::FinalIK::HitReaction::OnModifyOffset)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x136dff0;
+  constexpr static std::size_t addrs = 0x1398548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -969,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::FinalIK::HitReaction::*)(::UnityEngine::Collider*, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::HitReaction::Hit)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x136e188;
+  constexpr static std::size_t addrs = 0x13986e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -985,7 +985,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::HitReaction::*)()>(&::RootMotion::FinalIK::HitReaction::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x136e4cc;
+  constexpr static std::size_t addrs = 0x1398a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::HitReaction*>::get(), ".ctor",

@@ -42,19 +42,19 @@ public:
 
   constexpr void __cordl_internal_set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
 
-  /// @brief Method .ctor, addr 0x2e2582c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e25834, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8106c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2e25838, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81070, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType);
 
-  /// @brief Method .ctor, addr 0x2e25868, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e810a0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType, bool isThreadSafe);
 
-  /// @brief Method set_TargetType, addr 0x2e25824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetType, addr 0x2e8105c, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);
 
 protected:

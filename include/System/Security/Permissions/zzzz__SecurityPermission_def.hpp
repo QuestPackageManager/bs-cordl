@@ -36,23 +36,23 @@ public:
   /// @brief Field flags, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Security::Permissions::SecurityPermissionFlag flags;
 
-  /// @brief Method Cast, addr 0x254ab78, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x25ac374, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Permissions::SecurityPermission* Cast(::System::Security::IPermission* target);
 
-  /// @brief Method IsEmpty, addr 0x254ac1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x25ac418, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsSubsetOf, addr 0x254ab20, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method IsSubsetOf, addr 0x25ac31c, size 0x58, virtual true, abstract: false, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method IsUnrestricted, addr 0x254ab0c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method IsUnrestricted, addr 0x25ac308, size 0x14, virtual true, abstract: false, final true
   inline bool IsUnrestricted();
 
   static inline ::System::Security::Permissions::SecurityPermission* New_ctor(::System::Security::Permissions::SecurityPermissionFlag flag);
 
   static inline ::System::Security::Permissions::SecurityPermission* New_ctor(::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method ToXml, addr 0x254ac2c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x25ac428, size 0xec, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr ::System::Security::Permissions::SecurityPermissionFlag const& __cordl_internal_get_flags() const;
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_flags(::System::Security::Permissions::SecurityPermissionFlag value);
 
-  /// @brief Method .ctor, addr 0x254aa28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ac224, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::SecurityPermissionFlag flag);
 
-  /// @brief Method .ctor, addr 0x254a9e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ac1e4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method set_Flags, addr 0x254aa54, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x25ac250, size 0xb8, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Permissions::SecurityPermissionFlag value);
 
 protected:

@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetFileDownloadCancelResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*> {
 public:
   // Declarations
-  /// @brief Method GetAssetFileDownloadCancelResult, addr 0x27e2a00, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadCancelResult, addr 0x284541c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadCancelResult* GetAssetFileDownloadCancelResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x27e2a3c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2845458, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadCancelResult* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAssetFileDownloadCancelResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e0570, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2842f8c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

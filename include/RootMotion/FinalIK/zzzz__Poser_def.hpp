@@ -43,24 +43,24 @@ public:
   /// @brief Method FixPoserTransforms, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FixPoserTransforms();
 
-  /// @brief Method FixTransforms, addr 0x1367594, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1390aec, size 0x18, virtual true, abstract: false, final false
   inline void FixTransforms();
 
   /// @brief Method InitiatePoser, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitiatePoser();
 
-  /// @brief Method InitiateSolver, addr 0x1367568, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method InitiateSolver, addr 0x1390ac0, size 0x2c, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
   static inline ::RootMotion::FinalIK::Poser* New_ctor();
 
-  /// @brief Method UpdateManual, addr 0x1367518, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateManual, addr 0x1390a70, size 0xc, virtual false, abstract: false, final false
   inline void UpdateManual();
 
   /// @brief Method UpdatePoser, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdatePoser();
 
-  /// @brief Method UpdateSolver, addr 0x1367524, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method UpdateSolver, addr 0x1390a7c, size 0x44, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
   constexpr bool const& __cordl_internal_get_initiated() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1366e80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13903d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

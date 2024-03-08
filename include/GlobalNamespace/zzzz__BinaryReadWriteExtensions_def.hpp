@@ -48,31 +48,31 @@ namespace GlobalNamespace {
 class CORDL_TYPE BinaryReadWriteExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadColor, addr 0xe964a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0xeb6520, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
   /// @brief Method ReadListOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* ReadListOf(::System::IO::BinaryReader* binaryReader, ::System::Func_2<::System::IO::BinaryReader*, T>* elementReader);
 
-  /// @brief Method ReadPose, addr 0xe9674c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadPose, addr 0xeb67cc, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ReadPose(::System::IO::BinaryReader* binaryReader);
 
-  /// @brief Method ReadQuaternion, addr 0xe96688, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadQuaternion, addr 0xeb6708, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion ReadQuaternion(::System::IO::BinaryReader* binaryReader);
 
-  /// @brief Method ReadVector3, addr 0xe96594, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0xeb6614, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ReadVector3(::System::IO::BinaryReader* binaryReader);
 
-  /// @brief Method Write, addr 0xe96418, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0xeb6498, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
 
-  /// @brief Method Write, addr 0xe96718, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0xeb6798, size 0x34, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Pose pose);
 
-  /// @brief Method Write, addr 0xe96600, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0xeb6680, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method Write, addr 0xe96530, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0xeb65b0, size 0x64, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Vector3 vector);
 
   /// @brief Method WriteListOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

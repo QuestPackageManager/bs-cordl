@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x297c4cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ded04, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, int32_t hashCode, ::System::Xml::__NameTable__Entry* next);
 
 protected:
@@ -118,24 +118,24 @@ public:
   /// @brief Field mask, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_mask, put = __cordl_internal_set_mask)) int32_t mask;
 
-  /// @brief Method Add, addr 0x297c13c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x29de974, size 0x178, virtual true, abstract: false, final false
   inline ::StringW Add(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t len);
 
-  /// @brief Method Add, addr 0x297beb8, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x29de6f0, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method AddEntry, addr 0x297c034, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x29de86c, size 0x108, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Get, addr 0x297c364, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x29deb9c, size 0x168, virtual true, abstract: false, final false
   inline ::StringW Get(::StringW value);
 
-  /// @brief Method Grow, addr 0x297c50c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x29ded44, size 0x124, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::System::Xml::NameTable* New_ctor();
 
-  /// @brief Method TextEquals, addr 0x297c2b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x29deaec, size 0xb0, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t, ::Array<char16_t>*> str2, int32_t str2Start, int32_t str2Length);
 
   constexpr int32_t const& __cordl_internal_get_count() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_mask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2973d7c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d65b4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

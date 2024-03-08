@@ -13,6 +13,7 @@
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "Zenject/zzzz__SceneContext_def.hpp"
 // Ctor Parameters [CppParam { name: "visualizer", ty: "::UnityW<::GlobalNamespace::PerformanceVisualizer>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "recorder", ty:
 // "::UnityW<::GlobalNamespace::PerformanceRecorder>", modifiers: "", def_value: Some("nullptr") }]
 constexpr ::GlobalNamespace::__PerformanceToolLauncher__Assets::__PerformanceToolLauncher__Assets(::UnityW<::GlobalNamespace::PerformanceVisualizer> visualizer,
@@ -31,10 +32,10 @@ inline ::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig GlobalNamesp
   return ::cordl_internals::getStaticField<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig, "kDefault",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig>::get>();
 }
-// Ctor Parameters [CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "minFpsWindow", ty: "float_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig::__PerformanceToolLauncher__OverrideConfig(bool enableRecording, float_t minFpsWindow) noexcept {
+// Ctor Parameters [CppParam { name: "enableAutoplay", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig::__PerformanceToolLauncher__OverrideConfig(bool enableAutoplay, bool enableRecording) noexcept {
+  this->enableAutoplay = enableAutoplay;
   this->enableRecording = enableRecording;
-  this->minFpsWindow = minFpsWindow;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig::__PerformanceToolLauncher__OverrideConfig() {}
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2401ac0;
+  constexpr static std::size_t addrs = 0x2466c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidStart_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2401b20;
+  constexpr static std::size_t addrs = 0x2466cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidFinish_1)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2401bc0;
+  constexpr static std::size_t addrs = 0x2466d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,15 +135,17 @@ constexpr ::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0::__
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher::*)(
-    ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::PlayerDataModel*, ::GlobalNamespace::MainCamera*, ::GlobalNamespace::SongController*, ::GlobalNamespace::IGamePause*,
-    ::GlobalNamespace::GameplayCoreSceneSetupData*, ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig>)>(&::GlobalNamespace::PerformanceToolLauncher::Initialize)> {
-  constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x24016c0;
+    ::Zenject::SceneContext*, ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::PlayerDataModel*, ::GlobalNamespace::MainCamera*, ::GlobalNamespace::SongController*,
+    ::GlobalNamespace::IGamePause*, ::GlobalNamespace::GameplayCoreSceneSetupData*, ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig>)>(
+    &::GlobalNamespace::PerformanceToolLauncher::Initialize)> {
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x2466884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+        ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SceneContext*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainCamera*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get(),
@@ -158,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::PerformanceRecorder*, ::GlobalNamespace::SongController*)>(
     &::GlobalNamespace::PerformanceToolLauncher::Run)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x24019b0;
+  constexpr static std::size_t addrs = 0x2466b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher::*)()>(&::GlobalNamespace::PerformanceToolLauncher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2401ac8;
+  constexpr static std::size_t addrs = 0x2466c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), ".ctor",
@@ -197,20 +200,22 @@ constexpr void GlobalNamespace::PerformanceToolLauncher::__cordl_internal_set__a
 /// @param gamePause: ::GlobalNamespace::IGamePause* (default: nullptr)
 /// @param sceneSetupData: ::GlobalNamespace::GameplayCoreSceneSetupData* (default: nullptr)
 /// @param overrideConfig: ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> (default: {})
-inline void GlobalNamespace::PerformanceToolLauncher::Initialize(::GlobalNamespace::MainSettingsModelSO* mainSettings, ::GlobalNamespace::PlayerDataModel* playerDataModel,
-                                                                 ::GlobalNamespace::MainCamera* mainCamera, ::GlobalNamespace::SongController* songController, ::GlobalNamespace::IGamePause* gamePause,
+inline void GlobalNamespace::PerformanceToolLauncher::Initialize(::Zenject::SceneContext* sceneContext, ::GlobalNamespace::MainSettingsModelSO* mainSettings,
+                                                                 ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::MainCamera* mainCamera,
+                                                                 ::GlobalNamespace::SongController* songController, ::GlobalNamespace::IGamePause* gamePause,
                                                                  ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData,
                                                                  ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> overrideConfig) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+      ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SceneContext*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainCamera*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGamePause*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mainSettings, playerDataModel, mainCamera, songController, gamePause, sceneSetupData, overrideConfig);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sceneContext, mainSettings, playerDataModel, mainCamera, songController, gamePause, sceneSetupData, overrideConfig);
 }
 inline void GlobalNamespace::PerformanceToolLauncher::Run(::GlobalNamespace::PerformanceRecorder* recorder, ::GlobalNamespace::SongController* songController) {
   static auto* ___internal_method = THROW_UNLESS(

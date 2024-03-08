@@ -49,13 +49,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Collider_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x234755c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x23a8334, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Collider* _ToTestObject_b__1_0(::UnityEngine::Collider* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x23475c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x23a8398, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Collider* _ToTestObject_b__2_0(::UnityEngine::Collider* lod);
 
-  /// @brief Method .ctor, addr 0x2347554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a832c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Collider_Extensions____c* getStaticF___9();
@@ -100,14 +100,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Collider_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x23472fc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x23a80d4, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Collider*, ::Array<::HoudiniEngineUnity::Test_Collider*>*>
   ToTestObject(::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x2344278, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x23a5050, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Collider* ToTestObject(::UnityEngine::Collider* self);
 
-  /// @brief Method ToTestObject, addr 0x23473f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x23a81cc, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Collider*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* self);
 
 protected:

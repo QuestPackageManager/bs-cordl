@@ -18,12 +18,12 @@ namespace System::Runtime::ConstrainedExecution {
 class CORDL_TYPE CriticalFinalizerObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x25cb480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x262ec7c, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c8418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262bc14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

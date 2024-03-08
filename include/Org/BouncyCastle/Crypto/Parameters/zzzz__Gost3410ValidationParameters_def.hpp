@@ -42,10 +42,10 @@ public:
   /// @brief Field x0L, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_x0L, put = __cordl_internal_set_x0L)) int64_t x0L;
 
-  /// @brief Method Equals, addr 0xfa664c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xfc7d50, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0xfa6714, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xfc7e18, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* New_ctor(int32_t x0, int32_t c);
@@ -76,22 +76,22 @@ public:
 
   constexpr void __cordl_internal_set_x0L(int64_t value);
 
-  /// @brief Method .ctor, addr 0xfa65d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc7cd8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t x0, int32_t c);
 
-  /// @brief Method .ctor, addr 0xfa6600, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc7d04, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int64_t x0L, int64_t cL);
 
-  /// @brief Method get_C, addr 0xfa662c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_C, addr 0xfc7d30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_C();
 
-  /// @brief Method get_CL, addr 0xfa663c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CL, addr 0xfc7d40, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_CL();
 
-  /// @brief Method get_X0, addr 0xfa6634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X0, addr 0xfc7d38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_X0();
 
-  /// @brief Method get_X0L, addr 0xfa6644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X0L, addr 0xfc7d48, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_X0L();
 
 protected:

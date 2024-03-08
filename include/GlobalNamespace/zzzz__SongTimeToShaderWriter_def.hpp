@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor();
 
-  /// @brief Method Update, addr 0x240b4a8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2470a20, size 0x240, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method .ctor, addr 0x240b6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2470c60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__songTimePropertyId();

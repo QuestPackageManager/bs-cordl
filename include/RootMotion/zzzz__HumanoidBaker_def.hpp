@@ -88,27 +88,27 @@ public:
   /// @brief Field rootQT, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_rootQT, put = __cordl_internal_set_rootQT))::RootMotion::BakerHumanoidQT* rootQT;
 
-  /// @brief Method Awake, addr 0x131099c, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x1338ef4, size 0x4b8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCharacterRoot, addr 0x1310e54, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCharacterRoot, addr 0x13393ac, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
 
   static inline ::RootMotion::HumanoidBaker* New_ctor();
 
-  /// @brief Method OnSetCurves, addr 0x1311008, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method OnSetCurves, addr 0x1339560, size 0x1a0, virtual true, abstract: false, final false
   inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method OnSetKeyframes, addr 0x13111a8, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method OnSetKeyframes, addr 0x1339700, size 0x2a4, virtual true, abstract: false, final false
   inline void OnSetKeyframes(float_t time, bool lastFrame);
 
-  /// @brief Method OnSetLoopFrame, addr 0x1310f4c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnSetLoopFrame, addr 0x13394a4, size 0xbc, virtual true, abstract: false, final false
   inline void OnSetLoopFrame(float_t time);
 
-  /// @brief Method OnStartBaking, addr 0x1310e70, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnStartBaking, addr 0x13393c8, size 0xdc, virtual true, abstract: false, final false
   inline void OnStartBaking();
 
-  /// @brief Method UpdateHumanPose, addr 0x131144c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateHumanPose, addr 0x13399a4, size 0xd8, virtual false, abstract: false, final false
   inline void UpdateHumanPose();
 
   constexpr float_t const& __cordl_internal_get_IKKeyReductionError() const;
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_rootQT(::RootMotion::BakerHumanoidQT* value);
 
-  /// @brief Method .ctor, addr 0x1311524, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1339a7c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

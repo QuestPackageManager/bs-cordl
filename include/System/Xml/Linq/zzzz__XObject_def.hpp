@@ -52,21 +52,21 @@ public:
   /// @brief Method Annotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Annotation();
 
-  /// @brief Method AnnotationForSealedType, addr 0x2949d14, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AnnotationForSealedType, addr 0x29ac54c, size 0x144, virtual false, abstract: false, final false
   inline ::System::Object* AnnotationForSealedType(::System::Type* type);
 
-  /// @brief Method GetSaveOptionsFromAnnotations, addr 0x2949744, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetSaveOptionsFromAnnotations, addr 0x29abf7c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::SaveOptions GetSaveOptionsFromAnnotations();
 
   static inline ::System::Xml::Linq::XObject* New_ctor();
 
-  /// @brief Method NotifyChanged, addr 0x2943ec0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NotifyChanged, addr 0x29a66f8, size 0xa8, virtual false, abstract: false, final false
   inline bool NotifyChanged(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method NotifyChanging, addr 0x2943e18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NotifyChanging, addr 0x29a6650, size 0xa8, virtual false, abstract: false, final false
   inline bool NotifyChanging(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method SkipNotify, addr 0x2945374, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SkipNotify, addr 0x29a7bac, size 0x70, virtual false, abstract: false, final false
   inline bool SkipNotify();
 
   constexpr ::System::Object*& __cordl_internal_get_annotations();
@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set_parent(::System::Xml::Linq::XContainer* value);
 
-  /// @brief Method .ctor, addr 0x2943588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a5dc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Parent, addr 0x2949c98, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x29ac4d0, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XElement* get_Parent();
 
 protected:

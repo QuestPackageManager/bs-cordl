@@ -80,10 +80,10 @@ public:
 
   __declspec(property(get = get_validScore)) bool validScore;
 
-  /// @brief Method GetBeatmapKey, addr 0x12f12c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapKey, addr 0x1319410, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey GetBeatmapKey();
 
-  /// @brief Method IncreaseNumberOfGameplays, addr 0x12f1884, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IncreaseNumberOfGameplays, addr 0x13199d0, size 0x10, virtual false, abstract: false, final false
   inline void IncreaseNumberOfGameplays();
 
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
@@ -95,7 +95,7 @@ public:
                                                                   int32_t highScore, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::__RankModel__Rank maxRank, bool validScore,
                                                                   int32_t playCount);
 
-  /// @brief Method UpdateScoreData, addr 0x12f69a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreData, addr 0x131eaec, size 0x4c, virtual false, abstract: false, final false
   inline void UpdateScoreData(int32_t score, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::__RankModel__Rank rank);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
@@ -152,41 +152,41 @@ public:
 
   constexpr void __cordl_internal_set__validScore(bool value);
 
-  /// @brief Method .ctor, addr 0x12f1420, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131956c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method .ctor, addr 0x12f6960, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131eaac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method .ctor, addr 0x12f54c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131d610, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int32_t highScore, int32_t maxCombo,
                     bool fullCombo, ::GlobalNamespace::__RankModel__Rank maxRank, bool validScore, int32_t playCount);
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x12f6928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x131ea74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_difficulty, addr 0x12f6920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x131ea6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
 
-  /// @brief Method get_fullCombo, addr 0x12f6940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x131ea8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_highScore, addr 0x12f6930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highScore, addr 0x131ea7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highScore();
 
-  /// @brief Method get_levelID, addr 0x12f6918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x131ea64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_maxCombo, addr 0x12f6938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x131ea84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method get_maxRank, addr 0x12f6948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxRank, addr 0x131ea94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RankModel__Rank get_maxRank();
 
-  /// @brief Method get_playCount, addr 0x12f6958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playCount, addr 0x131eaa4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playCount();
 
-  /// @brief Method get_validScore, addr 0x12f6950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validScore, addr 0x131ea9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_validScore();
 
 protected:

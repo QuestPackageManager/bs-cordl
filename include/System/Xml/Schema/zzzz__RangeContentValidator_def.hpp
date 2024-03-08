@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
-  /// @brief Method .ctor, addr 0x299ae14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fc64c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                     ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType,
                     bool isEmptiable, ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int32_t minmaxNodesCount);

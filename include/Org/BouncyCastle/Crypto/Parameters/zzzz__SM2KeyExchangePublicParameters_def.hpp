@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_mStaticPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0xfab590, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfccc94, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* staticPublicKey, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_EphemeralPublicKey, addr 0xfab694, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0xfccd98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
-  /// @brief Method get_StaticPublicKey, addr 0xfab68c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicKey, addr 0xfccd90, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_StaticPublicKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

@@ -39,22 +39,22 @@ public:
   /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor))::UnityEngine::Color32 k_DefaultColor;
 
-  /// @brief Method Clear, addr 0x2e53388, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2eaebc0, size 0x2c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x2e56c38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x2eb2470, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x2e56a50, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x2eb2288, size 0x1e8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method SortGeometry, addr 0x2e56c74, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x2eb24ac, size 0x7c, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x2e56cf0, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x2eb2528, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x2e566fc, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb1f34, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();

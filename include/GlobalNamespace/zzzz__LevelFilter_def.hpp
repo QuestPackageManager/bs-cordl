@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelsModel;
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -120,7 +120,7 @@ public:
 
   static inline ::GlobalNamespace::__LevelFilter____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <FilterLevelsAsync>b__3, addr 0x12cd57c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>b__3, addr 0x12f447c, size 0x24, virtual false, abstract: false, final false
   inline bool _FilterLevelsAsync_b__3(::GlobalNamespace::BeatmapCharacteristicSO* characteristic);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicFilter() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_characteristicFilter(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12cd40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f430c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,7 +173,7 @@ public:
 
   static inline ::GlobalNamespace::__LevelFilter____c__DisplayClass13_1* New_ctor();
 
-  /// @brief Method <FilterLevelsAsync>b__4, addr 0x12cd5a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>b__4, addr 0x12f44a0, size 0x54, virtual false, abstract: false, final false
   inline bool _FilterLevelsAsync_b__4(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicFilter() const;
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set_difficultyFilter(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x12cd574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f4474, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,31 +240,31 @@ public:
   /// @brief Field bpmOptions, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_bpmOptions, put = setStaticF_bpmOptions))::ArrayW<float_t, ::Array<float_t>*> bpmOptions;
 
-  /// @brief Method CleanText, addr 0x12ccd70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CleanText, addr 0x12f3c70, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW CleanText(::StringW s);
 
-  /// @brief Method FilterLevelByText, addr 0x12cc744, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelByText, addr 0x12f3644, size 0x62c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* FilterLevelByText(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* levels,
                                                                                                             ::ArrayW<::StringW, ::Array<::StringW>*> searchTerms);
 
-  /// @brief Method FilterLevelsAsync, addr 0x12cc610, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelsAsync, addr 0x12f3510, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>>*
   FilterLevelsAsync(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> packs, ::GlobalNamespace::LevelFilter filter,
-                    ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IBeatmapLevelsModel* levelsModel, ::System::Threading::CancellationToken cancellationToken);
+                    ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsWithoutFilter, addr 0x12cc560, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsWithoutFilter, addr 0x12f3460, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsWithoutFilter(ByRef<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs);
 
-  /// @brief Method <FilterLevelByText>g__CalculateMatchScore|14_1, addr 0x12ccdf8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelByText>g__CalculateMatchScore|14_1, addr 0x12f3cf8, size 0x12c, virtual false, abstract: false, final false
   static inline int32_t _FilterLevelByText_g__CalculateMatchScore_14_1(::StringW levelString, ::ArrayW<::StringW, ::Array<::StringW>*> searchTerms);
 
-  /// @brief Method <FilterLevelsAsync>g__HasPlayedAnyDifficulty|13_0, addr 0x12ccfb8, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__HasPlayedAnyDifficulty|13_0, addr 0x12f3eb8, size 0x36c, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__HasPlayedAnyDifficulty_13_0(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method <FilterLevelsAsync>g__MatchesCharacteristic|13_1, addr 0x12cd324, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__MatchesCharacteristic|13_1, addr 0x12f4224, size 0xe8, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__MatchesCharacteristic_13_1(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristicFilter);
 
-  /// @brief Method <FilterLevelsAsync>g__MatchesDifficulty|13_2, addr 0x12cd414, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__MatchesDifficulty|13_2, addr 0x12f4314, size 0x160, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__MatchesDifficulty_13_2(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficultyMask difficultyFilter,
                                                                   ::StringW characteristicFilter);
 
@@ -361,10 +361,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12cd5f4, size 0x700, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12f44f4, size 0x700, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12cdcf4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12f4bf4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -377,8 +377,8 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*,::Array<::GlobalNamespace::BeatmapLevel*>*>>", modifiers: "", def_value: None }, CppParam
   // { name: "packs", ty: "::ArrayW<::GlobalNamespace::BeatmapLevelPack*,::Array<::GlobalNamespace::BeatmapLevelPack*>*>", modifiers: "", def_value: None }, CppParam { name: "filter", ty:
-  // "::GlobalNamespace::LevelFilter", modifiers: "", def_value: None }, CppParam { name: "levelsModel", ty: "::GlobalNamespace::IBeatmapLevelsModel*", modifiers: "", def_value: None }, CppParam {
-  // name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>",
+  // "::GlobalNamespace::LevelFilter", modifiers: "", def_value: None }, CppParam { name: "levelsModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>",
   // modifiers: "", def_value: None }, CppParam { name: "_filteredLevels_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: None },
   // CppParam { name: "__7__wrap2", ty: "::ArrayW<::GlobalNamespace::BeatmapLevelPack*,::Array<::GlobalNamespace::BeatmapLevelPack*>*>", modifiers: "", def_value: None }, CppParam { name:
   // "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty: "::ArrayW<::GlobalNamespace::BeatmapLevel*,::Array<::GlobalNamespace::BeatmapLevel*>*>",
@@ -386,7 +386,7 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
   constexpr __LevelFilter___FilterLevelsAsync_d__13(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>> __t__builder,
-      ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> packs, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::IBeatmapLevelsModel* levelsModel,
+      ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> packs, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::IEntitlementModel* levelsModel,
       ::System::Threading::CancellationToken cancellationToken, ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel,
       ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* _filteredLevels_5__2,
       ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> __7__wrap2, int32_t __7__wrap3,
@@ -406,7 +406,7 @@ public:
   ::GlobalNamespace::LevelFilter filter;
 
   /// @brief Field levelsModel, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatmapLevelsModel* levelsModel;
+  ::GlobalNamespace::IEntitlementModel* levelsModel;
 
   /// @brief Field cancellationToken, offset: 0x80, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
@@ -488,10 +488,10 @@ public:
 
   static inline ::GlobalNamespace::__LevelFilter____c* New_ctor();
 
-  /// @brief Method <FilterLevelByText>b__14_0, addr 0x12cddb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelByText>b__14_0, addr 0x12f4cb8, size 0x24, virtual false, abstract: false, final false
   inline int32_t _FilterLevelByText_b__14_0(::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> x, ::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> y);
 
-  /// @brief Method .ctor, addr 0x12cddb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f4cb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__LevelFilter____c* getStaticF___9();

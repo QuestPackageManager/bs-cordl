@@ -122,10 +122,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xe690fc, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe83ec8, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe6935c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe84128, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -200,10 +200,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass61_0* New_ctor();
 
-  /// @brief Method <SetupColorButton>b__0, addr 0xe69368, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <SetupColorButton>b__0, addr 0xe84134, size 0xd0, virtual false, abstract: false, final false
   inline void _SetupColorButton_b__0();
 
-  /// @brief Method <SetupColorButton>b__1, addr 0xe69438, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <SetupColorButton>b__1, addr 0xe84204, size 0x58, virtual false, abstract: false, final false
   inline void _SetupColorButton_b__1(::UnityEngine::Color c);
 
   constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const& __cordl_internal_get___4__this() const;
@@ -242,7 +242,7 @@ public:
 
   constexpr void __cordl_internal_set_uvSegment(int32_t value);
 
-  /// @brief Method .ctor, addr 0xe68e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe83be0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -489,7 +489,7 @@ public:
   /// @brief Field randomizeAllButtonWasPressedEvent, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get_randomizeAllButtonWasPressedEvent, put = __cordl_internal_set_randomizeAllButtonWasPressedEvent))::System::Action* randomizeAllButtonWasPressedEvent;
 
-  /// @brief Method CreateColorValuePairsForAvatarPartCollection, addr 0xe68708, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateColorValuePairsForAvatarPartCollection, addr 0xe834d4, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>
   CreateColorValuePairsForAvatarPartCollection(::ArrayW<::BeatSaber::BeatAvatarSDK::SkinColorSO*, ::Array<::BeatSaber::BeatAvatarSDK::SkinColorSO*>*> colors);
 
@@ -498,57 +498,57 @@ public:
   static inline ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>
   CreateTextValuePairsForAvatarPartCollection(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* partCollection);
 
-  /// @brief Method DidActivate, addr 0xe67d9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0xe82b68, size 0x20, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DiscardLastEdit, addr 0xe6483c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method DiscardLastEdit, addr 0xe7f608, size 0x30, virtual false, abstract: false, final false
   inline void DiscardLastEdit();
 
-  /// @brief Method EyesValuePickerHasChanged, addr 0xe68a48, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method EyesValuePickerHasChanged, addr 0xe83814, size 0x98, virtual false, abstract: false, final false
   inline void EyesValuePickerHasChanged(::StringW eyesId);
 
-  /// @brief Method HandleApplyButtonWasPressed, addr 0xe68cc8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleApplyButtonWasPressed, addr 0xe83a94, size 0xb8, virtual false, abstract: false, final false
   inline void HandleApplyButtonWasPressed();
 
-  /// @brief Method HandleCancelButtonWasPressed, addr 0xe68d80, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleCancelButtonWasPressed, addr 0xe83b4c, size 0x94, virtual false, abstract: false, final false
   inline void HandleCancelButtonWasPressed();
 
-  /// @brief Method HandleRandomizeAllButtonWasPressed, addr 0xe68864, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleRandomizeAllButtonWasPressed, addr 0xe83630, size 0x9c, virtual false, abstract: false, final false
   inline void HandleRandomizeAllButtonWasPressed();
 
-  /// @brief Method HandleRandomizeColorsButtonWasPressed, addr 0xe68c58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleRandomizeColorsButtonWasPressed, addr 0xe83a24, size 0x70, virtual false, abstract: false, final false
   inline void HandleRandomizeColorsButtonWasPressed();
 
-  /// @brief Method HandleRandomizeModelsButtonWasPressed, addr 0xe68be0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleRandomizeModelsButtonWasPressed, addr 0xe839ac, size 0x78, virtual false, abstract: false, final false
   inline void HandleRandomizeModelsButtonWasPressed();
 
-  /// @brief Method HandleRedoButtonWasPressed, addr 0xe68ae0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleRedoButtonWasPressed, addr 0xe838ac, size 0xa8, virtual false, abstract: false, final false
   inline void HandleRedoButtonWasPressed();
 
-  /// @brief Method HandleSkinColorDidChanged, addr 0xe689b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleSkinColorDidChanged, addr 0xe83780, size 0x94, virtual false, abstract: false, final false
   inline void HandleSkinColorDidChanged(int32_t value);
 
-  /// @brief Method HandleUndoButtonWasPressed, addr 0xe68900, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleUndoButtonWasPressed, addr 0xe836cc, size 0xb4, virtual false, abstract: false, final false
   inline void HandleUndoButtonWasPressed();
 
-  /// @brief Method InitHistory, addr 0xe638f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InitHistory, addr 0xe7e6bc, size 0x40, virtual false, abstract: false, final false
   inline void InitHistory();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* New_ctor();
 
-  /// @brief Method OneTimeInitialize, addr 0xe67dbc, size 0x854, virtual false, abstract: false, final false
+  /// @brief Method OneTimeInitialize, addr 0xe82b88, size 0x854, virtual false, abstract: false, final false
   inline void OneTimeInitialize();
 
-  /// @brief Method RefreshUi, addr 0xe63a90, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method RefreshUi, addr 0xe7e85c, size 0x32c, virtual false, abstract: false, final false
   inline void RefreshUi();
 
-  /// @brief Method ReportAllChangedAndUpdate, addr 0xe68b88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReportAllChangedAndUpdate, addr 0xe83954, size 0x58, virtual false, abstract: false, final false
   inline void ReportAllChangedAndUpdate();
 
-  /// @brief Method Setup, addr 0xe63028, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0xe7ddf4, size 0x90, virtual false, abstract: false, final false
   inline void Setup(bool showAsCreateView);
 
-  /// @brief Method SetupColorButton, addr 0xe68610, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetupColorButton, addr 0xe833dc, size 0xf8, virtual false, abstract: false, final false
   inline void SetupColorButton(::UnityEngine::UI::Button* button, ::System::Action_1<::UnityEngine::Color>* colorSetter, ::System::Func_1<::UnityEngine::Color>* currentColor,
                                ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart, int32_t uvSegment);
 
@@ -557,55 +557,55 @@ public:
   inline void SetupValuePicker(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* partCollection, ::GlobalNamespace::NamedIntListController* valuePicker,
                                ::System::Action_1<::StringW>* setIdAction, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
-  /// @brief Method Update, addr 0xe68820, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xe835ec, size 0x44, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateButtons, addr 0xe67d44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtons, addr 0xe82b10, size 0x58, virtual false, abstract: false, final false
   inline void UpdateButtons();
 
-  /// @brief Method <OneTimeInitialize>b__46_0, addr 0xe68eb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_0, addr 0xe83c7c, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_0(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__46_1, addr 0xe68ed8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_1, addr 0xe83ca4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__46_1();
 
-  /// @brief Method <OneTimeInitialize>b__46_10, addr 0xe69040, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_10, addr 0xe83e0c, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_10(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__46_11, addr 0xe69068, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_11, addr 0xe83e34, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__46_11();
 
-  /// @brief Method <OneTimeInitialize>b__46_12, addr 0xe69090, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_12, addr 0xe83e5c, size 0x24, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_12(::StringW s);
 
-  /// @brief Method <OneTimeInitialize>b__46_13, addr 0xe690b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_13, addr 0xe83e80, size 0x24, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_13(::StringW s);
 
-  /// @brief Method <OneTimeInitialize>b__46_14, addr 0xe690d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_14, addr 0xe83ea4, size 0x24, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_14(::StringW s);
 
-  /// @brief Method <OneTimeInitialize>b__46_2, addr 0xe68f00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_2, addr 0xe83ccc, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_2(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__46_3, addr 0xe68f28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_3, addr 0xe83cf4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__46_3();
 
-  /// @brief Method <OneTimeInitialize>b__46_4, addr 0xe68f50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_4, addr 0xe83d1c, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_4(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__46_5, addr 0xe68f78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_5, addr 0xe83d44, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__46_5();
 
-  /// @brief Method <OneTimeInitialize>b__46_6, addr 0xe68fa0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_6, addr 0xe83d6c, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_6(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__46_7, addr 0xe68fc8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_7, addr 0xe83d94, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__46_7();
 
-  /// @brief Method <OneTimeInitialize>b__46_8, addr 0xe68ff0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_8, addr 0xe83dbc, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__46_8(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__46_9, addr 0xe69018, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__46_9, addr 0xe83de4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__46_9();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
@@ -784,37 +784,37 @@ public:
 
   constexpr void __cordl_internal_set_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0xe68e1c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe83be8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cancelButtonWasPressedEvent, addr 0xe63710, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_cancelButtonWasPressedEvent, addr 0xe7e4dc, size 0xa0, virtual false, abstract: false, final false
   inline void add_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_didChangedAvatarPartEvent, addr 0xe6365c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didChangedAvatarPartEvent, addr 0xe7e428, size 0xb4, virtual false, abstract: false, final false
   inline void add_didChangedAvatarPartEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* value);
 
-  /// @brief Method add_didRequestColorChangeEvent, addr 0xe635a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestColorChangeEvent, addr 0xe7e374, size 0xb4, virtual false, abstract: false, final false
   inline void add_didRequestColorChangeEvent(::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0xe637b0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0xe7e57c, size 0xa0, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_randomizeAllButtonWasPressedEvent, addr 0xe63850, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_randomizeAllButtonWasPressedEvent, addr 0xe7e61c, size 0xa0, virtual false, abstract: false, final false
   inline void add_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0xe64208, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0xe7efd4, size 0xa0, virtual false, abstract: false, final false
   inline void remove_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangedAvatarPartEvent, addr 0xe64154, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangedAvatarPartEvent, addr 0xe7ef20, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didChangedAvatarPartEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* value);
 
-  /// @brief Method remove_didRequestColorChangeEvent, addr 0xe640a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestColorChangeEvent, addr 0xe7ee6c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didRequestColorChangeEvent(::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0xe642a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0xe7f074, size 0xa0, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_randomizeAllButtonWasPressedEvent, addr 0xe64348, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_randomizeAllButtonWasPressedEvent, addr 0xe7f114, size 0xa0, virtual false, abstract: false, final false
   inline void remove_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
 protected:

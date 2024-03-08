@@ -35,22 +35,22 @@ public:
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d77208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd4a40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x2d76d30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x2dd4568, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method set_layer, addr 0x2d771c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_layer, addr 0x2dd49fc, size 0x44, virtual false, abstract: false, final false
   inline void set_layer(int32_t value);
 
-  /// @brief Method set_normalizedTime, addr 0x2d7712c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x2dd4964, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_speed, addr 0x2d77178, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x2dd49b0, size 0x4c, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_time, addr 0x2d770e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x2dd4918, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:

@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x27f5a54, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2858470, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

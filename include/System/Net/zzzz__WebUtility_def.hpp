@@ -58,16 +58,16 @@ public:
   /// @brief Field _numChars, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__numChars, put = __cordl_internal_set__numChars)) int32_t _numChars;
 
-  /// @brief Method AddByte, addr 0x2a915b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddByte, addr 0x2af0df0, size 0x98, virtual false, abstract: false, final false
   inline void AddByte(uint8_t b);
 
-  /// @brief Method AddChar, addr 0x2a91650, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddChar, addr 0x2af0e88, size 0x60, virtual false, abstract: false, final false
   inline void AddChar(char16_t ch);
 
-  /// @brief Method FlushBytes, addr 0x2a91868, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FlushBytes, addr 0x2af10a0, size 0x60, virtual false, abstract: false, final false
   inline void FlushBytes();
 
-  /// @brief Method GetString, addr 0x2a916b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2af0ee8, size 0x88, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::System::Net::__WebUtility__UrlDecoder* New_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__numChars(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2a914f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af0d2c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
 
 protected:
@@ -180,25 +180,25 @@ public:
   /// @brief Field _htmlEntityEndingChars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__htmlEntityEndingChars, put = setStaticF__htmlEntityEndingChars))::ArrayW<char16_t, ::Array<char16_t>*> _htmlEntityEndingChars;
 
-  /// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x2a9122c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x2af0a64, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetNextUnicodeScalarValueFromUtf16Surrogate(ByRef<::cordl_internals::Ptr<char16_t>> pch, ByRef<int32_t> charsRemaining);
 
-  /// @brief Method HexToInt, addr 0x2a91568, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HexToInt, addr 0x2af0da0, size 0x50, virtual false, abstract: false, final false
   static inline int32_t HexToInt(char16_t h);
 
-  /// @brief Method HtmlEncode, addr 0x2a90b2c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HtmlEncode, addr 0x2af0364, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW HtmlEncode(::StringW value);
 
-  /// @brief Method HtmlEncode, addr 0x2a90d94, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method HtmlEncode, addr 0x2af05cc, size 0x3b4, virtual false, abstract: false, final false
   static inline void HtmlEncode(::StringW value, ::System::IO::TextWriter* output);
 
-  /// @brief Method IndexOfHtmlEncodingChars, addr 0x2a90c4c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IndexOfHtmlEncodingChars, addr 0x2af0484, size 0x148, virtual false, abstract: false, final false
   static inline int32_t IndexOfHtmlEncodingChars(::StringW s, int32_t startPos);
 
-  /// @brief Method UrlDecode, addr 0x2a91738, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UrlDecode, addr 0x2af0f70, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW UrlDecode(::StringW encodedValue);
 
-  /// @brief Method UrlDecodeInternal, addr 0x2a912e4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method UrlDecodeInternal, addr 0x2af0b1c, size 0x210, virtual false, abstract: false, final false
   static inline ::StringW UrlDecodeInternal(::StringW value, ::System::Text::Encoding* encoding);
 
   static inline ::System::Net::Configuration::UnicodeDecodingConformance getStaticF__htmlDecodeConformance();
@@ -207,7 +207,7 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF__htmlEntityEndingChars();
 
-  /// @brief Method get_HtmlEncodeConformance, addr 0x2a91148, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_HtmlEncodeConformance, addr 0x2af0980, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
 
   static inline void setStaticF__htmlDecodeConformance(::System::Net::Configuration::UnicodeDecodingConformance value);

@@ -20,34 +20,34 @@ namespace System::Numerics {
 class CORDL_TYPE ConstantHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetByteWithAllBitsSet, addr 0x25ecc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetByteWithAllBitsSet, addr 0x264df58, size 0x8, virtual false, abstract: false, final false
   static inline uint8_t GetByteWithAllBitsSet();
 
-  /// @brief Method GetDoubleWithAllBitsSet, addr 0x25ecc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleWithAllBitsSet, addr 0x264dfa4, size 0x8, virtual false, abstract: false, final false
   static inline double_t GetDoubleWithAllBitsSet();
 
-  /// @brief Method GetInt16WithAllBitsSet, addr 0x25ecc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInt16WithAllBitsSet, addr 0x264df70, size 0x8, virtual false, abstract: false, final false
   static inline int16_t GetInt16WithAllBitsSet();
 
-  /// @brief Method GetInt32WithAllBitsSet, addr 0x25ecc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInt32WithAllBitsSet, addr 0x264df80, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetInt32WithAllBitsSet();
 
-  /// @brief Method GetInt64WithAllBitsSet, addr 0x25ecc40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInt64WithAllBitsSet, addr 0x264df90, size 0x8, virtual false, abstract: false, final false
   static inline int64_t GetInt64WithAllBitsSet();
 
-  /// @brief Method GetSByteWithAllBitsSet, addr 0x25ecc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSByteWithAllBitsSet, addr 0x264df60, size 0x8, virtual false, abstract: false, final false
   static inline int8_t GetSByteWithAllBitsSet();
 
-  /// @brief Method GetSingleWithAllBitsSet, addr 0x25ecc48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSingleWithAllBitsSet, addr 0x264df98, size 0xc, virtual false, abstract: false, final false
   static inline float_t GetSingleWithAllBitsSet();
 
-  /// @brief Method GetUInt16WithAllBitsSet, addr 0x25ecc18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUInt16WithAllBitsSet, addr 0x264df68, size 0x8, virtual false, abstract: false, final false
   static inline uint16_t GetUInt16WithAllBitsSet();
 
-  /// @brief Method GetUInt32WithAllBitsSet, addr 0x25ecc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUInt32WithAllBitsSet, addr 0x264df78, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetUInt32WithAllBitsSet();
 
-  /// @brief Method GetUInt64WithAllBitsSet, addr 0x25ecc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUInt64WithAllBitsSet, addr 0x264df88, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetUInt64WithAllBitsSet();
 
 protected:

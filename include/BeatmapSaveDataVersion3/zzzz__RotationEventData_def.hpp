@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x12fd12c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13255d8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
 
-  /// @brief Method get_executionTime, addr 0x12fd11c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTime, addr 0x13255c8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
 
-  /// @brief Method get_rotation, addr 0x12fd124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x13255d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:

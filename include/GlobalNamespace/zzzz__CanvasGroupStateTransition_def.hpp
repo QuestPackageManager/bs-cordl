@@ -39,49 +39,49 @@ public:
 
   static inline ::GlobalNamespace::CanvasGroupStateTransition* New_ctor();
 
-  /// @brief Method SetDisabledState, addr 0x24a6920, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x250f8fc, size 0x28, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetHighlightedState, addr 0x24a68d0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x250f8ac, size 0x28, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x24a68a8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x250f884, size 0x28, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetPressedState, addr 0x24a68f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x250f8d4, size 0x28, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x24a6970, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x250f94c, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method SetSelectedState, addr 0x24a6948, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x250f924, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method StartTween, addr 0x24a6640, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method StartTween, addr 0x250f61c, size 0x1dc, virtual false, abstract: false, final false
   inline void StartTween(float_t endAlpha);
 
-  /// @brief Method TransitionToDisabledState, addr 0x24a6854, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToDisabledState, addr 0x250f830, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToHighlightedState, addr 0x24a681c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToHighlightedState, addr 0x250f7f8, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToNormalState, addr 0x24a6624, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNormalState, addr 0x250f600, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToPressedState, addr 0x24a6838, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToPressedState, addr 0x250f814, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x24a688c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x250f868, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method TransitionToSelectedState, addr 0x24a6870, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedState, addr 0x250f84c, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToSelectedState();
 
-  /// @brief Method <StartTween>b__16_0, addr 0x24a69e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <StartTween>b__16_0, addr 0x250f9bc, size 0x1c, virtual false, abstract: false, final false
   inline void _StartTween_b__16_0(float_t alpha);
 
-  /// @brief Method <StartTween>b__16_1, addr 0x24a69fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <StartTween>b__16_1, addr 0x250f9d8, size 0x88, virtual false, abstract: false, final false
   inline void _StartTween_b__16_1();
 
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__floatTween();
@@ -96,10 +96,10 @@ public:
 
   constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> value);
 
-  /// @brief Method .ctor, addr 0x24a6998, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250f974, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transition, addr 0x24a661c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transition, addr 0x250f5f8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
 protected:

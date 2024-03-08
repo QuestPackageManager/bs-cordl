@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::Expression::*)()>(
     &::System::Linq::Expressions::Expression::get_NodeType)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x28fc780;
+  constexpr static std::size_t addrs = 0x295ffb8;
 
   inline static ::MethodInfo const* methodInfo() {
 

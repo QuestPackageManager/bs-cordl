@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::FinalIK::__GrounderQuadruped__Foot::*)(::RootMotion::FinalIK::IKSolver*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::__GrounderQuadruped__Foot::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1325c10;
+  constexpr static std::size_t addrs = 0x134e168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1325154;
+  constexpr static std::size_t addrs = 0x134d6ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(
     &::RootMotion::FinalIK::GrounderQuadruped::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1325198;
+  constexpr static std::size_t addrs = 0x134d6f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::ResetPosition)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13251dc;
+  constexpr static std::size_t addrs = 0x134d734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiate)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x1325204;
+  constexpr static std::size_t addrs = 0x134d75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::GrounderQuadruped::*)(
     ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>)>(&::RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiateLegs)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x1325308;
+  constexpr static std::size_t addrs = 0x134d860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::OnDisable)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x13254ec;
+  constexpr static std::size_t addrs = 0x134da44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "OnDisable",
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::Update)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1325550;
+  constexpr static std::size_t addrs = 0x134daa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "Update",
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::Initiate)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x13255a8;
+  constexpr static std::size_t addrs = 0x134db00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "Initiate",
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                  ByRef<::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>>, int32_t)>(
     &::RootMotion::FinalIK::GrounderQuadruped::InitiateFeet)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x13258bc;
+  constexpr static std::size_t addrs = 0x134de14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::LateUpdate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x1325c44;
+  constexpr static std::size_t addrs = 0x134e19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "LateUpdate",
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::RootRotation)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x1325cd4;
+  constexpr static std::size_t addrs = 0x134e22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "RootRotation",
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::OnSolverUpdate)> {
   constexpr static std::size_t size = 0x6c0;
-  constexpr static std::size_t addrs = 0x1326124;
+  constexpr static std::size_t addrs = 0x134e67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(
     &::RootMotion::FinalIK::GrounderQuadruped::UpdateForefeetRoot)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x13267e4;
+  constexpr static std::size_t addrs = 0x134ed3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)(::RootMotion::FinalIK::__GrounderQuadruped__Foot, float_t)>(
     &::RootMotion::FinalIK::GrounderQuadruped::SetFootIK)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x1326a9c;
+  constexpr static std::size_t addrs = 0x134eff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(
     &::RootMotion::FinalIK::GrounderQuadruped::OnPostSolverUpdate)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x1326bd0;
+  constexpr static std::size_t addrs = 0x134f128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(),
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::OnDestroy)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1326e98;
+  constexpr static std::size_t addrs = 0x134f3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), "OnDestroy",
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)(
     ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>)>(&::RootMotion::FinalIK::GrounderQuadruped::DestroyLegs)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x1326ec8;
+  constexpr static std::size_t addrs = 0x134f420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderQuadruped::*)()>(&::RootMotion::FinalIK::GrounderQuadruped::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x13270c4;
+  constexpr static std::size_t addrs = 0x134f61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderQuadruped*>::get(), ".ctor",

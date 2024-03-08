@@ -61,39 +61,39 @@ public:
   /// @brief Field spineSpeed, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_spineSpeed, put = __cordl_internal_set_spineSpeed)) float_t spineSpeed;
 
-  /// @brief Method Initiate, addr 0x1320b34, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x134908c, size 0x304, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method IsReadyToInitiate, addr 0x1320a40, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiate, addr 0x1348f98, size 0xa0, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
   static inline ::RootMotion::FinalIK::GrounderBipedIK* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1321568, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1349ac0, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x1320e38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x1349390, size 0x40, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPostSolverUpdate, addr 0x1321398, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnPostSolverUpdate, addr 0x13498f0, size 0x1d0, virtual false, abstract: false, final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnSolverUpdate, addr 0x1320e78, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method OnSolverUpdate, addr 0x13493d0, size 0x460, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method OpenScriptReference, addr 0x1320990, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1348ee8, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenUserManual, addr 0x132094c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x1348ea4, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method ResetPosition, addr 0x13209d4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x1348f2c, size 0x6c, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method SetLegIK, addr 0x13212d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetLegIK, addr 0x1349830, size 0xc0, virtual false, abstract: false, final false
   inline void SetLegIK(::RootMotion::FinalIK::IKSolverLimb* limb, int32_t index);
 
-  /// @brief Method Update, addr 0x1320ae0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1349038, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_animatedPelvisLocalPosition() const;
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_spineSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x1321710, size 0x108c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1349c68, size 0x108c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

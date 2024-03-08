@@ -21,12 +21,12 @@ namespace UnityEngine::UI {
 class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x2e9e0a4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x2ef78dc, size 0xbc, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e9e09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef78d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

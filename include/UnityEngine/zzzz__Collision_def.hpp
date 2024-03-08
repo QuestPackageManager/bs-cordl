@@ -100,19 +100,19 @@ public:
 
   __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method GetContact, addr 0x2e1e7b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetContact, addr 0x2e79ff0, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::ContactPoint GetContact(int32_t index);
 
-  /// @brief Method GetContacts, addr 0x2e1e8cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetContacts, addr 0x2e7a104, size 0x94, virtual false, abstract: false, final false
   inline int32_t GetContacts(::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> contacts);
 
-  /// @brief Method GetContacts, addr 0x2e1e960, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetContacts, addr 0x2e7a198, size 0xd4, virtual false, abstract: false, final false
   inline int32_t GetContacts(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* contacts);
 
-  /// @brief Method GetContacts_Internal, addr 0x2e1e570, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetContacts_Internal, addr 0x2e79da8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> GetContacts_Internal();
 
-  /// @brief Method GetEnumerator, addr 0x2e1e3e0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2e79c18, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::UnityEngine::Collision* New_ctor();
@@ -159,46 +159,46 @@ public:
 
   constexpr void __cordl_internal_set_m_ReusedContacts(::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> value);
 
-  /// @brief Method .ctor, addr 0x2e1ea40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e7a278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_articulationBody, addr 0x2e1e614, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_articulationBody, addr 0x2e79e4c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_articulationBody();
 
-  /// @brief Method get_body, addr 0x2e1e690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_body, addr 0x2e79ec8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_body();
 
-  /// @brief Method get_collider, addr 0x2e1e698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x2e79ed0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_contactCount, addr 0x2e1e7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactCount, addr 0x2e79fe8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contactCount();
 
-  /// @brief Method get_contacts, addr 0x2e1e3fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_contacts, addr 0x2e79c34, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> get_contacts();
 
-  /// @brief Method get_frictionForceSum, addr 0x2e1e4b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_frictionForceSum, addr 0x2e79cec, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_frictionForceSum();
 
-  /// @brief Method get_gameObject, addr 0x2e1e730, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x2e79f68, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_impactForceSum, addr 0x2e1e470, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_impactForceSum, addr 0x2e79ca8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impactForceSum();
 
-  /// @brief Method get_impulse, addr 0x2e1ea34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulse, addr 0x2e7a26c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulse();
 
-  /// @brief Method get_other, addr 0x2e1e4f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_other, addr 0x2e79d30, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_other();
 
-  /// @brief Method get_relativeVelocity, addr 0x2e1e58c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_relativeVelocity, addr 0x2e79dc4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_relativeVelocity();
 
-  /// @brief Method get_rigidbody, addr 0x2e1e598, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_rigidbody, addr 0x2e79dd0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_rigidbody();
 
-  /// @brief Method get_transform, addr 0x2e1e6a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x2e79ed8, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
 protected:

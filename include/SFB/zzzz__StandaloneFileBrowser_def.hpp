@@ -34,40 +34,40 @@ public:
 
   static inline ::SFB::StandaloneFileBrowser* New_ctor();
 
-  /// @brief Method OpenFilePanel, addr 0x241c190, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanel, addr 0x2481728, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFilePanel(::StringW title, ::StringW directory, ::StringW extension, bool multiselect);
 
-  /// @brief Method OpenFilePanel, addr 0x241c2d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanel, addr 0x2481868, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions,
                                                                        bool multiselect);
 
-  /// @brief Method OpenFilePanelAsync, addr 0x241c3c8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanelAsync, addr 0x2481960, size 0x148, virtual false, abstract: false, final false
   static inline void OpenFilePanelAsync(::StringW title, ::StringW directory, ::StringW extension, bool multiselect, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
 
-  /// @brief Method OpenFilePanelAsync, addr 0x241c510, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanelAsync, addr 0x2481aa8, size 0x104, virtual false, abstract: false, final false
   static inline void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions, bool multiselect,
                                         ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
 
-  /// @brief Method OpenFolderPanel, addr 0x241c614, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OpenFolderPanel, addr 0x2481bac, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFolderPanel(::StringW title, ::StringW directory, bool multiselect);
 
-  /// @brief Method OpenFolderPanelAsync, addr 0x241c700, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OpenFolderPanelAsync, addr 0x2481c98, size 0xfc, virtual false, abstract: false, final false
   static inline void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
 
-  /// @brief Method SaveFilePanel, addr 0x241c7fc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanel, addr 0x2481d94, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::StringW extension);
 
-  /// @brief Method SaveFilePanel, addr 0x241c93c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanel, addr 0x2481ed4, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions);
 
-  /// @brief Method SaveFilePanelAsync, addr 0x241ca38, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanelAsync, addr 0x2481fd0, size 0x148, virtual false, abstract: false, final false
   static inline void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::StringW extension, ::System::Action_1<::StringW>* cb);
 
-  /// @brief Method SaveFilePanelAsync, addr 0x241cb80, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanelAsync, addr 0x2482118, size 0x104, virtual false, abstract: false, final false
   static inline void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions,
                                         ::System::Action_1<::StringW>* cb);
 
-  /// @brief Method .ctor, addr 0x241cc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248221c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::SFB::IStandaloneFileBrowser* getStaticF__platformWrapper();

@@ -32,28 +32,28 @@ namespace System::Xml::Linq {
 struct CORDL_TYPE ElementWriter {
 public:
   // Declarations
-  /// @brief Method GetPrefixOfNamespace, addr 0x2948654, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x29aae8c, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
-  /// @brief Method PushAncestors, addr 0x2948374, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method PushAncestors, addr 0x29aabac, size 0x128, virtual false, abstract: false, final false
   inline void PushAncestors(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method PushElement, addr 0x2948928, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PushElement, addr 0x29ab160, size 0xd4, virtual false, abstract: false, final false
   inline void PushElement(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method WriteElement, addr 0x2947b1c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method WriteElement, addr 0x29aa354, size 0x1a8, virtual false, abstract: false, final false
   inline void WriteElement(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method WriteEndElement, addr 0x29485fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x29aae34, size 0x2c, virtual false, abstract: false, final false
   inline void WriteEndElement();
 
-  /// @brief Method WriteFullEndElement, addr 0x2948628, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteFullEndElement, addr 0x29aae60, size 0x2c, virtual false, abstract: false, final false
   inline void WriteFullEndElement();
 
-  /// @brief Method WriteStartElement, addr 0x294849c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x29aacd4, size 0x160, virtual false, abstract: false, final false
   inline void WriteStartElement(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method .ctor, addr 0x2947b10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aa348, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlWriter* writer);
 
   // Ctor Parameters []

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimationCurve*, float_t)>(&::RootMotion::BakerUtilities::ReduceKeyframes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x130e618;
+  constexpr static std::size_t addrs = 0x1336b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> (*)(::UnityEngine::AnimationCurve*, float_t)>(
     &::RootMotion::BakerUtilities::GetReducedKeyframes)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x130e650;
+  constexpr static std::size_t addrs = 0x1336ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, ::UnityEngine::AnimationCurve*)>(&::RootMotion::BakerUtilities::SetLoopFrame)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x130ea14;
+  constexpr static std::size_t addrs = 0x1336f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimationCurve*)>(&::RootMotion::BakerUtilities::SetTangentMode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x130ebf4;
+  constexpr static std::size_t addrs = 0x133714c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::RootMotion::BakerUtilities::EnsureQuaternionContinuity)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x130ebf8;
+  constexpr static std::size_t addrs = 0x1337150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

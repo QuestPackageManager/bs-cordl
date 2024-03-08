@@ -36,7 +36,7 @@ public:
   /// @brief Field _typeOrder, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__typeOrder, put = __cordl_internal_set__typeOrder))::System::Collections::Generic::List_1<::System::Type*>* _typeOrder;
 
-  /// @brief Method InstallBindings, addr 0x302d97c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x30851b4, size 0x164, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ExecutionOrderInstaller* New_ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__typeOrder(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method __zenCreate, addr 0x302dae0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3085318, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302dba4, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x30853dc, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x302d920, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3085158, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
 
 protected:

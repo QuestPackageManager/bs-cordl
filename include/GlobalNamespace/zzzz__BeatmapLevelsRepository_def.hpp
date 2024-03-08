@@ -49,13 +49,13 @@ public:
 
   __declspec(property(get = get_beatmapLevelPacks))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks;
 
-  /// @brief Method GetBeatmapLevelById, addr 0x12c9384, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelById, addr 0x12f07a8, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* GetBeatmapLevelById(::StringW levelId);
 
-  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x12c92e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x12f0724, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByBeatmapLevelId(::StringW levelId);
 
-  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x12c926c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x12f06cc, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByPackId(::StringW packId);
 
   static inline ::GlobalNamespace::BeatmapLevelsRepository* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
@@ -85,10 +85,10 @@ public:
 
   constexpr void __cordl_internal_set__idToBeatmapLevelPack(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method .ctor, addr 0x12c8da0, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f0200, size 0x4cc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  /// @brief Method get_beatmapLevelPacks, addr 0x12c8d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelPacks, addr 0x12f01f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* get_beatmapLevelPacks();
 
 protected:

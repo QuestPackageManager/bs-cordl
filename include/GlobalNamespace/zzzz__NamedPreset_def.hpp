@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__presetNameLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12d36a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fac70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_presetNameLocalizationKey, addr 0x12d5b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presetNameLocalizationKey, addr 0x12fd128, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_presetNameLocalizationKey();
 
 protected:

@@ -146,27 +146,27 @@ public:
   /// @brief Field transform, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method CalculatePath, addr 0x131d148, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CalculatePath, addr 0x13456a0, size 0x64, virtual false, abstract: false, final false
   inline void CalculatePath(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method Find, addr 0x131d1ac, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x1345704, size 0x134, virtual false, abstract: false, final false
   inline bool Find(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method HorDistance, addr 0x131d0cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HorDistance, addr 0x1345624, size 0x7c, virtual false, abstract: false, final false
   inline float_t HorDistance(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
-  /// @brief Method Initiate, addr 0x131cb78, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x13450d0, size 0xb4, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* transform);
 
   static inline ::RootMotion::Demos::Navigator* New_ctor();
 
-  /// @brief Method Stop, addr 0x131d070, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x13455c8, size 0x5c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x131cc2c, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1345184, size 0x444, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method Visualize, addr 0x131d2e0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Visualize, addr 0x1345838, size 0x1c4, virtual false, abstract: false, final false
   inline void Visualize();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__normalizedDeltaPosition_k__BackingField() const;
@@ -253,19 +253,19 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x131d4a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13459fc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_normalizedDeltaPosition, addr 0x131cb50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedDeltaPosition, addr 0x13450a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalizedDeltaPosition();
 
-  /// @brief Method get_state, addr 0x131cb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x13450c0, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::Demos::__Navigator__State get_state();
 
-  /// @brief Method set_normalizedDeltaPosition, addr 0x131cb5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedDeltaPosition, addr 0x13450b4, size 0xc, virtual false, abstract: false, final false
   inline void set_normalizedDeltaPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_state, addr 0x131cb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_state, addr 0x13450c8, size 0x8, virtual false, abstract: false, final false
   inline void set_state(::RootMotion::Demos::__Navigator__State value);
 
 protected:

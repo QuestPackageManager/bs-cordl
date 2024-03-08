@@ -23,13 +23,13 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  /// @brief Method AddSuggestedUser, addr 0x27bc6d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddSuggestedUser, addr 0x281f0f0, size 0x68, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearSuggestedUsers, addr 0x27f2760, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearSuggestedUsers, addr 0x285517c, size 0x58, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method Finalize, addr 0x27f27b8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x28551d4, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::RosterOptions* New_ctor();
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(void* value);
 
-  /// @brief Method .ctor, addr 0x27bc670, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281f08c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x27eec0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2851628, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::RosterOptions* options);
 
 protected:

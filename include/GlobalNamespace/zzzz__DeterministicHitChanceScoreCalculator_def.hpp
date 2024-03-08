@@ -35,7 +35,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Method GetScoreForNote, addr 0x246b918, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x24d3404, size 0x30, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* New_ctor(float_t hitChance);
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__hitChance(float_t value);
 
-  /// @brief Method .ctor, addr 0x246b8f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d33dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t hitChance);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"

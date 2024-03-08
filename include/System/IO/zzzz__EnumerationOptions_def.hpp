@@ -76,7 +76,7 @@ public:
   __declspec(property(get = __cordl_internal_get__ReturnSpecialDirectories_k__BackingField,
                       put = __cordl_internal_set__ReturnSpecialDirectories_k__BackingField)) bool _ReturnSpecialDirectories_k__BackingField;
 
-  /// @brief Method FromSearchOption, addr 0x25fd3c8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FromSearchOption, addr 0x265e718, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::IO::EnumerationOptions* FromSearchOption(::System::IO::SearchOption searchOption);
 
   static inline ::System::IO::EnumerationOptions* New_ctor();
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__ReturnSpecialDirectories_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x25fe16c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265f4bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::EnumerationOptions* getStaticF__CompatibleRecursive_k__BackingField();
@@ -126,31 +126,31 @@ public:
 
   static inline ::System::IO::EnumerationOptions* getStaticF__Default_k__BackingField();
 
-  /// @brief Method get_AttributesToSkip, addr 0x25fe1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributesToSkip, addr 0x265f50c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_AttributesToSkip();
 
-  /// @brief Method get_Compatible, addr 0x25fe064, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Compatible, addr 0x265f3b4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::EnumerationOptions* get_Compatible();
 
-  /// @brief Method get_CompatibleRecursive, addr 0x25fe0bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_CompatibleRecursive, addr 0x265f40c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::EnumerationOptions* get_CompatibleRecursive();
 
-  /// @brief Method get_Default, addr 0x25fe114, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x265f464, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::EnumerationOptions* get_Default();
 
-  /// @brief Method get_IgnoreInaccessible, addr 0x25fe1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreInaccessible, addr 0x265f4f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreInaccessible();
 
-  /// @brief Method get_MatchCasing, addr 0x25fe1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MatchCasing, addr 0x265f52c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::MatchCasing get_MatchCasing();
 
-  /// @brief Method get_MatchType, addr 0x25fe1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MatchType, addr 0x265f51c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::MatchType get_MatchType();
 
-  /// @brief Method get_RecurseSubdirectories, addr 0x25fe194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecurseSubdirectories, addr 0x265f4e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_RecurseSubdirectories();
 
-  /// @brief Method get_ReturnSpecialDirectories, addr 0x25fe1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnSpecialDirectories, addr 0x265f534, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReturnSpecialDirectories();
 
   static inline void setStaticF__CompatibleRecursive_k__BackingField(::System::IO::EnumerationOptions* value);
@@ -159,16 +159,16 @@ public:
 
   static inline void setStaticF__Default_k__BackingField(::System::IO::EnumerationOptions* value);
 
-  /// @brief Method set_AttributesToSkip, addr 0x25fe1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributesToSkip, addr 0x265f514, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributesToSkip(::System::IO::FileAttributes value);
 
-  /// @brief Method set_IgnoreInaccessible, addr 0x25fe1b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreInaccessible, addr 0x265f500, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreInaccessible(bool value);
 
-  /// @brief Method set_MatchType, addr 0x25fe1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MatchType, addr 0x265f524, size 0x8, virtual false, abstract: false, final false
   inline void set_MatchType(::System::IO::MatchType value);
 
-  /// @brief Method set_RecurseSubdirectories, addr 0x25fe19c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RecurseSubdirectories, addr 0x265f4ec, size 0xc, virtual false, abstract: false, final false
   inline void set_RecurseSubdirectories(bool value);
 
 protected:

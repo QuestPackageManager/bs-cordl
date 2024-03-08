@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__OldIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29fafb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5c7e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
 
-  /// @brief Method .ctor, addr 0x29fafb8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5c7f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex);
 
 protected:

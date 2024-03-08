@@ -70,24 +70,24 @@ public:
 
   __declspec(property(get = get_supportsDragEvents)) bool supportsDragEvents;
 
-  /// @brief Method Animate, addr 0x2f1aee8, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x2f74720, size 0x340, virtual false, abstract: false, final false
   inline void Animate(::UnityEngine::UIElements::ReusableCollectionItem* element, float_t paddingTop);
 
-  /// @brief Method ClearDragAndDropUI, addr 0x2f1bdbc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ClearDragAndDropUI, addr 0x2f755f4, size 0x4, virtual true, abstract: false, final false
   inline void ClearDragAndDropUI();
 
   static inline ::UnityEngine::UIElements::ListViewDraggerAnimated* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method OnDrop, addr 0x2f1babc, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x2f752f4, size 0x300, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method StartDrag, addr 0x2f1a808, size 0x6e0, virtual true, abstract: false, final false
+  /// @brief Method StartDrag, addr 0x2f74040, size 0x6e0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method TryGetDragPosition, addr 0x2f1bdc0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method TryGetDragPosition, addr 0x2f755f8, size 0x20, virtual true, abstract: false, final false
   inline bool TryGetDragPosition(::UnityEngine::Vector2 pointerPosition, ByRef<::UnityEngine::UIElements::__ListViewDragger__DragPosition> dragPosition);
 
-  /// @brief Method UpdateDrag, addr 0x2f1b228, size 0x894, virtual true, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x2f74a60, size 0x894, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
   constexpr int32_t const& __cordl_internal_get_m_CurrentIndex() const;
@@ -132,16 +132,16 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectionHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x2f1a804, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f7403c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method get_draggedItem, addr 0x2f1a7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_draggedItem, addr 0x2f7402c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ReusableCollectionItem* get_draggedItem();
 
-  /// @brief Method get_isDragging, addr 0x2f1a7e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isDragging, addr 0x2f7401c, size 0x10, virtual false, abstract: false, final false
   inline bool get_isDragging();
 
-  /// @brief Method get_supportsDragEvents, addr 0x2f1a7fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_supportsDragEvents, addr 0x2f74034, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsDragEvents();
 
 protected:

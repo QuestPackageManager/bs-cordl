@@ -30,30 +30,30 @@ namespace RootMotion {
 class CORDL_TYPE AxisTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAxisToDirection, addr 0x1311828, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetAxisToDirection, addr 0x1339d80, size 0xfc, virtual false, abstract: false, final false
   static inline ::RootMotion::Axis GetAxisToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method GetAxisToPoint, addr 0x13116e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetAxisToPoint, addr 0x1339c38, size 0xfc, virtual false, abstract: false, final false
   static inline ::RootMotion::Axis GetAxisToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
 
-  /// @brief Method GetAxisVectorToDirection, addr 0x1311968, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method GetAxisVectorToDirection, addr 0x1339ec0, size 0x48c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Quaternion r, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method GetAxisVectorToDirection, addr 0x1311924, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAxisVectorToDirection, addr 0x1339e7c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method GetAxisVectorToPoint, addr 0x13117dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAxisVectorToPoint, addr 0x1339d34, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetAxisVectorToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
 
   static inline ::RootMotion::AxisTools* New_ctor();
 
-  /// @brief Method ToAxis, addr 0x13116a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ToAxis, addr 0x1339c00, size 0x38, virtual false, abstract: false, final false
   static inline ::RootMotion::Axis ToAxis(::UnityEngine::Vector3 v);
 
-  /// @brief Method ToVector3, addr 0x13115c8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ToVector3, addr 0x1339b20, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ToVector3(::RootMotion::Axis axis);
 
-  /// @brief Method .ctor, addr 0x1311df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133a34c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

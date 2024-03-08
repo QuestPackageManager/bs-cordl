@@ -22,22 +22,22 @@ namespace ENet {
 class CORDL_TYPE Library : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CRC64, addr 0x2355ff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CRC64, addr 0x23b7dc8, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t CRC64(void* buffers, int32_t bufferCount);
 
-  /// @brief Method Deinitialize, addr 0x2355f88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x23b7d60, size 0x4, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method InitOpenSSL, addr 0x2355b20, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InitOpenSSL, addr 0x23b78f8, size 0x64, virtual false, abstract: false, final false
   static inline void InitOpenSSL();
 
-  /// @brief Method Initialize, addr 0x2355c88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x23b7a60, size 0x7c, virtual false, abstract: false, final false
   static inline bool Initialize();
 
-  /// @brief Method Initialize, addr 0x2355dd4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x23b7bac, size 0xf0, virtual false, abstract: false, final false
   static inline bool Initialize(::ENet::Callbacks* callbacks);
 
-  /// @brief Method get_Time, addr 0x2355ab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x23b788c, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t get_Time();
 
 protected:

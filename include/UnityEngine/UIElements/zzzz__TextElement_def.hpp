@@ -89,7 +89,7 @@ public:
   /// @brief Field m_Text, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x2ece2e8, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f27b20, size 0x18c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TextElement__UxmlTraits* New_ctor();
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2ece474, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f27cac, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,47 +217,47 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextElement"
   constexpr operator ::UnityEngine::UIElements::ITextElement*() noexcept;
 
-  /// @brief Method DoMeasure, addr 0x2ecddf4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x2f2762c, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method ElideText, addr 0x2ecd91c, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method ElideText, addr 0x2f27154, size 0x4cc, virtual false, abstract: false, final false
   inline ::StringW ElideText(::StringW drawText, ::StringW ellipsisText, float_t width, ::UnityEngine::UIElements::TextOverflowPosition textOverflowPosition);
 
-  /// @brief Method HandleEvent, addr 0x2ecd1b0, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x2f269e8, size 0x17c, virtual true, abstract: false, final false
   inline void HandleEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method MeasureTextSize, addr 0x2ecdde8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MeasureTextSize, addr 0x2f27620, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 MeasureTextSize(::StringW textToMeasure, float_t width, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t height,
                                                 ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
   static inline ::UnityEngine::UIElements::TextElement* New_ctor();
 
-  /// @brief Method OnGenerateVisualContent, addr 0x2ecd668, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnGenerateVisualContent, addr 0x2f26ea0, size 0x120, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method OnGeometryChanged, addr 0x2ecd32c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x2f26b64, size 0x4, virtual false, abstract: false, final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
-  /// @brief Method ShouldElide, addr 0x2ecd788, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ShouldElide, addr 0x2f26fc0, size 0x68, virtual false, abstract: false, final false
   inline bool ShouldElide();
 
-  /// @brief Method TextLibraryCanElide, addr 0x2ecd7f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method TextLibraryCanElide, addr 0x2f27028, size 0xc0, virtual false, abstract: false, final false
   inline bool TextLibraryCanElide();
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify, addr 0x2ece174, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify, addr 0x2f279ac, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_INotifyValueChanged_System_String__SetValueWithoutNotify(::StringW newValue);
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value, addr 0x2ecde54, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value, addr 0x2f2768c, size 0x54, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_UIElements_INotifyValueChanged_System_String__get_value();
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value, addr 0x2ecdea8, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value, addr 0x2f276e0, size 0x2cc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_INotifyValueChanged_System_String__set_value(::StringW value);
 
-  /// @brief Method UpdateTooltip, addr 0x2ecd8b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTooltip, addr 0x2f270e8, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateTooltip();
 
-  /// @brief Method UpdateVisibleText, addr 0x2ecd330, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibleText, addr 0x2f26b68, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateVisibleText();
 
   constexpr bool const& __cordl_internal_get__isElided_k__BackingField() const;
@@ -314,7 +314,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WasElided(bool value);
 
-  /// @brief Method .ctor, addr 0x2eccfe8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f26820, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_k_EllipsisText();
@@ -323,19 +323,19 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_displayTooltipWhenElided, addr 0x2ecd610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayTooltipWhenElided, addr 0x2f26e48, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayTooltipWhenElided();
 
-  /// @brief Method get_enableRichText, addr 0x2ecd5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRichText, addr 0x2f26e20, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRichText();
 
-  /// @brief Method get_isElided, addr 0x2ecd654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isElided, addr 0x2f26e8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isElided();
 
-  /// @brief Method get_text, addr 0x2ecd4ac, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_text, addr 0x2f26ce4, size 0x94, virtual true, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_textHandle, addr 0x2ecd1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textHandle, addr 0x2f269d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ITextHandle* get_textHandle();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>"
@@ -350,19 +350,19 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_displayTooltipWhenElided, addr 0x2ecd618, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_displayTooltipWhenElided, addr 0x2f26e50, size 0x3c, virtual false, abstract: false, final false
   inline void set_displayTooltipWhenElided(bool value);
 
-  /// @brief Method set_enableRichText, addr 0x2ecd5f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_enableRichText, addr 0x2f26e28, size 0x20, virtual false, abstract: false, final false
   inline void set_enableRichText(bool value);
 
-  /// @brief Method set_isElided, addr 0x2ecd65c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isElided, addr 0x2f26e94, size 0xc, virtual false, abstract: false, final false
   inline void set_isElided(bool value);
 
-  /// @brief Method set_text, addr 0x2ecd540, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method set_text, addr 0x2f26d78, size 0xa8, virtual true, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_textHandle, addr 0x2ecd1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textHandle, addr 0x2f269e0, size 0x8, virtual false, abstract: false, final false
   inline void set_textHandle(::UnityEngine::UIElements::ITextHandle* value);
 
 protected:
@@ -440,7 +440,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TextElement__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ece2a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f27ad8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

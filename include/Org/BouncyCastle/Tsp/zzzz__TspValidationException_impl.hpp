@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TspValidationException::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TspValidationException::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x11c0e3c;
+  constexpr static std::size_t addrs = 0x11e7540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TspValidationException::*)(::StringW, int32_t)>(
     &::Org::BouncyCastle::Tsp::TspValidationException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x11bf9c0;
+  constexpr static std::size_t addrs = 0x11e60c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::TspValidationException::*)()>(
     &::Org::BouncyCastle::Tsp::TspValidationException::get_FailureCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11c6cb0;
+  constexpr static std::size_t addrs = 0x11ed3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TspValidationException*>::get(),

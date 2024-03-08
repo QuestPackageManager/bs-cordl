@@ -45,70 +45,70 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method CopyTo, addr 0x2352bb8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x23b4990, size 0x100, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t startPos);
 
-  /// @brief Method Create, addr 0x2352448, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b4220, size 0x64, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Create, addr 0x235258c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b4364, size 0x1c, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x23524ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b4284, size 0x8, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length);
 
-  /// @brief Method Create, addr 0x23524b4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b428c, size 0xd8, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x23527f8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b45d0, size 0x120, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x2352644, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b441c, size 0x120, virtual false, abstract: false, final false
   inline void Create(void* data, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x23529bc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x23b4794, size 0x160, virtual false, abstract: false, final false
   inline void Create(void* data, int32_t offset, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method Dispose, addr 0x2351e18, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x23b3bf0, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SetFreeCallback, addr 0x23523b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetFreeCallback, addr 0x23b4190, size 0x90, virtual false, abstract: false, final false
   inline void SetFreeCallback(::ENet::PacketFreeCallback* callback);
 
-  /// @brief Method SetFreeCallback, addr 0x235230c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetFreeCallback, addr 0x23b40e4, size 0x28, virtual false, abstract: false, final false
   inline void SetFreeCallback(void* callback);
 
-  /// @brief Method ThrowIfNotCreated, addr 0x2351f74, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfNotCreated, addr 0x23b3d4c, size 0xa8, virtual false, abstract: false, final false
   inline void ThrowIfNotCreated();
 
-  /// @brief Method .ctor, addr 0x2351e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b3be8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* packet);
 
-  /// @brief Method get_Data, addr 0x2351f5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x23b3d34, size 0x18, virtual false, abstract: false, final false
   inline void* get_Data();
 
-  /// @brief Method get_HasReferences, addr 0x235226c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasReferences, addr 0x23b4044, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasReferences();
 
-  /// @brief Method get_IsSet, addr 0x2351f08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_IsSet, addr 0x23b3ce0, size 0x54, virtual false, abstract: false, final false
   inline bool get_IsSet();
 
-  /// @brief Method get_Length, addr 0x23521d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x23b3fb0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_NativeData, addr 0x2351e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x23b3bd8, size 0x8, virtual false, abstract: false, final false
   inline void* get_NativeData();
 
-  /// @brief Method get_UserData, addr 0x2352098, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_UserData, addr 0x23b3e70, size 0x18, virtual false, abstract: false, final false
   inline void* get_UserData();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_NativeData, addr 0x2351e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x23b3be0, size 0x8, virtual false, abstract: false, final false
   inline void set_NativeData(void* value);
 
-  /// @brief Method set_UserData, addr 0x235212c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_UserData, addr 0x23b3f04, size 0x28, virtual false, abstract: false, final false
   inline void set_UserData(void* value);
 
   // Ctor Parameters []

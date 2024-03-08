@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WaitForSeconds::*)(float_t)>(&::UnityEngine::WaitForSeconds::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2dbf9c4;
+  constexpr static std::size_t addrs = 0x2e1b1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

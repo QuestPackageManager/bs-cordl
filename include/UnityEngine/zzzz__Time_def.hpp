@@ -20,55 +20,55 @@ namespace UnityEngine {
 class CORDL_TYPE Time : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_captureDeltaTime, addr 0x2dbebec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_captureDeltaTime, addr 0x2e1a424, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_captureDeltaTime();
 
-  /// @brief Method get_captureFramerate, addr 0x2dbec4c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_captureFramerate, addr 0x2e1a484, size 0x104, virtual false, abstract: false, final false
   static inline int32_t get_captureFramerate();
 
-  /// @brief Method get_deltaTime, addr 0x2dbea24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x2e1a25c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_deltaTime();
 
-  /// @brief Method get_fixedDeltaTime, addr 0x2dbeac4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fixedDeltaTime, addr 0x2e1a2fc, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_fixedDeltaTime();
 
-  /// @brief Method get_fixedUnscaledTime, addr 0x2dbea74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fixedUnscaledTime, addr 0x2e1a2ac, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_fixedUnscaledTime();
 
-  /// @brief Method get_frameCount, addr 0x2dbeb9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x2e1a3d4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_frameCount();
 
-  /// @brief Method get_maximumDeltaTime, addr 0x2dbeaec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_maximumDeltaTime, addr 0x2e1a324, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_maximumDeltaTime();
 
-  /// @brief Method get_realtimeSinceStartup, addr 0x2dbebc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeSinceStartup, addr 0x2e1a3fc, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_realtimeSinceStartup();
 
-  /// @brief Method get_smoothDeltaTime, addr 0x2dbeb14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_smoothDeltaTime, addr 0x2e1a34c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_smoothDeltaTime();
 
-  /// @brief Method get_time, addr 0x2dbe9d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2e1a20c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_time();
 
-  /// @brief Method get_timeScale, addr 0x2dbeb3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_timeScale, addr 0x2e1a374, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_timeScale();
 
-  /// @brief Method get_timeSinceLevelLoad, addr 0x2dbe9fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_timeSinceLevelLoad, addr 0x2e1a234, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_timeSinceLevelLoad();
 
-  /// @brief Method get_unscaledDeltaTime, addr 0x2dbea9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_unscaledDeltaTime, addr 0x2e1a2d4, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_unscaledDeltaTime();
 
-  /// @brief Method get_unscaledTime, addr 0x2dbea4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_unscaledTime, addr 0x2e1a284, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_unscaledTime();
 
-  /// @brief Method set_captureDeltaTime, addr 0x2dbec14, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_captureDeltaTime, addr 0x2e1a44c, size 0x38, virtual false, abstract: false, final false
   static inline void set_captureDeltaTime(float_t value);
 
-  /// @brief Method set_captureFramerate, addr 0x2dbed50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_captureFramerate, addr 0x2e1a588, size 0x4c, virtual false, abstract: false, final false
   static inline void set_captureFramerate(int32_t value);
 
-  /// @brief Method set_timeScale, addr 0x2dbeb64, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_timeScale, addr 0x2e1a39c, size 0x38, virtual false, abstract: false, final false
   static inline void set_timeScale(float_t value);
 
 protected:

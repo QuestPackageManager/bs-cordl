@@ -33,18 +33,18 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE UriConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x27a8038, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x28092f4, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::UriConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x27a80bc, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2809378, size 0x128, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x27a81e4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x28094a0, size 0x134, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x27a8318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28095d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

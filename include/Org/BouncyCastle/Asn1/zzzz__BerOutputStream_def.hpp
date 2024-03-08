@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteObject, addr 0x122d704, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x1252e08, size 0x15c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x122bd8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1251490, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
 protected:

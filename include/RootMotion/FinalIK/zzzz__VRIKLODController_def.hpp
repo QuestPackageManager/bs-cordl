@@ -38,15 +38,15 @@ public:
   /// @brief Field ik, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
 
-  /// @brief Method GetLODLevel, addr 0x1376710, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetLODLevel, addr 0x13a0c68, size 0x120, virtual false, abstract: false, final false
   inline int32_t GetLODLevel();
 
   static inline ::RootMotion::FinalIK::VRIKLODController* New_ctor();
 
-  /// @brief Method Start, addr 0x1376698, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x13a0bf0, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x13766e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x13a0c40, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_LODDistance() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
-  /// @brief Method .ctor, addr 0x1376830, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a0d88, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

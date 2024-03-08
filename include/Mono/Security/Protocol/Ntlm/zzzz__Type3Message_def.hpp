@@ -58,19 +58,19 @@ public:
   /// @brief Field _username, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username))::StringW _username;
 
-  /// @brief Method Decode, addr 0x24f0b18, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x2556314, size 0x220, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method DecodeString, addr 0x24f0d38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DecodeString, addr 0x2556534, size 0x58, virtual false, abstract: false, final false
   inline ::StringW DecodeString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len);
 
-  /// @brief Method EncodeString, addr 0x24f0d90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EncodeString, addr 0x255658c, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeString(::StringW text);
 
-  /// @brief Method Finalize, addr 0x24f09a8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25561a4, size 0xe0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetBytes, addr 0x24f0e20, size 0x628, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x255661c, size 0x628, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::Protocol::Ntlm::Type3Message* New_ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2);
@@ -129,16 +129,16 @@ public:
 
   constexpr void __cordl_internal_set__username(::StringW value);
 
-  /// @brief Method .ctor, addr 0x24f07bc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2555fb8, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2);
 
-  /// @brief Method set_Domain, addr 0x24f0a88, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x2556284, size 0x80, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Password, addr 0x24f0b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x2556304, size 0x8, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method set_Username, addr 0x24f0b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Username, addr 0x255630c, size 0x8, virtual false, abstract: false, final false
   inline void set_Username(::StringW value);
 
 protected:

@@ -21,10 +21,10 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Misc : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Destroy, addr 0x2e894c4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x2ee3cfc, size 0x100, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method DestroyImmediate, addr 0x2e895c4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DestroyImmediate, addr 0x2ee3dfc, size 0xa8, virtual false, abstract: false, final false
   static inline void DestroyImmediate(::UnityEngine::Object* obj);
 
 protected:

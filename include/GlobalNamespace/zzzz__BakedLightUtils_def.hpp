@@ -31,7 +31,7 @@ public:
   /// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x23f14c4, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x24566dc, size 0x7a0, virtual false, abstract: false, final false
   static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
 
   static inline int32_t getStaticF__stencilCompPropertyId();

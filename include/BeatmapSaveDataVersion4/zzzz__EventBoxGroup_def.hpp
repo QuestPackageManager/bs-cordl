@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion4::EventBoxGroupType value);
 
-  /// @brief Method .ctor, addr 0x12fbd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13241f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x12fbd7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x13241e8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"

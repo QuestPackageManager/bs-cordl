@@ -44,7 +44,7 @@ public:
   /// @brief Field mRandom, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
 
-  /// @brief Method Build, addr 0xfb6040, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0xfd7744, size 0x2e4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* Build(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
                                                                     bool predictionResistant);
 
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method SetDateTimeVector, addr 0xfb6038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDateTimeVector, addr 0xfd773c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* SetDateTimeVector(::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mDateTimeVector() const;
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0xfb5f20, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd7624, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0xfb5f84, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd7688, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
-  /// @brief Method .ctor, addr 0xfb6010, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd7714, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
 protected:

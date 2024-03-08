@@ -32,16 +32,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>*();
 
-  /// @brief Method Equals, addr 0x2fc2fdc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x301b814, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2fc3064, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x301b89c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::MeshId other);
 
-  /// @brief Method GetHashCode, addr 0x2fc2fa8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x301b7e0, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2fc2f14, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x301b74c, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::XR::MeshId getStaticF_s_InvalidId();

@@ -28,15 +28,15 @@ namespace Tayx::Graphy::Utils {
 class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAllActive, addr 0x2af3180, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x2b529b8, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjects,
                                                                                                           bool active);
 
-  /// @brief Method SetAllActive, addr 0x2af3398, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x2b52bd0, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          bool active);
 
-  /// @brief Method SetOneActive, addr 0x2af32e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetOneActive, addr 0x2b52b1c, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          int32_t active);
 

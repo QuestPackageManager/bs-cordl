@@ -43,10 +43,10 @@ public:
 
   static inline ::RootMotion::FinalIK::BodyTilt* New_ctor();
 
-  /// @brief Method OnModifyOffset, addr 0x136db30, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x1398088, size 0x1ec, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
-  /// @brief Method Start, addr 0x136dac8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x1398020, size 0x48, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastForward() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_tiltSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x136ddd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398328, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

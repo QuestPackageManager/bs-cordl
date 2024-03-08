@@ -50,58 +50,58 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::SongPackMask>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::SongPackMask>*();
 
-  /// @brief Method Contains, addr 0x1380868, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x13abe48, size 0x54, virtual false, abstract: false, final false
   inline bool Contains(::GlobalNamespace::SongPackMask other);
 
-  /// @brief Method CreateFromSerializedData, addr 0x1380934, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x13abf14, size 0x2c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SongPackMask CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x1380960, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x13abf40, size 0x28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SongPackMask Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method DifferenceFrom, addr 0x13808bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DifferenceFrom, addr 0x13abe9c, size 0x74, virtual false, abstract: false, final false
   inline int32_t DifferenceFrom(::GlobalNamespace::SongPackMask other);
 
-  /// @brief Method Equals, addr 0x1380b10, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x13ac0f0, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x1380ac4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x13ac0a4, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::SongPackMask other);
 
-  /// @brief Method FromBytes, addr 0x1380d8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x13ac36c, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SongPackMask FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method GetHashCode, addr 0x1380ac0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x13ac0a0, size 0x4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Parse, addr 0x1380cf0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x13ac2d0, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SongPackMask Parse(::StringW stringSerializedMask);
 
-  /// @brief Method Serialize, addr 0x1380930, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x13abf10, size 0x4, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToBytes, addr 0x1380a60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToBytes, addr 0x13ac040, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes();
 
-  /// @brief Method ToShortString, addr 0x1380a00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToShortString, addr 0x13abfe0, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ToShortString();
 
-  /// @brief Method ToString, addr 0x1380988, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x13abf68, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x1380bc0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x13ac1a0, size 0x130, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW stringSerializedMask, ByRef<::GlobalNamespace::SongPackMask> songPackMask);
 
-  /// @brief Method .ctor, addr 0x13806fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13abcdc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BitMask256 bloomFilter);
 
-  /// @brief Method .ctor, addr 0x1380684, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13abc64, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW packId);
 
-  /// @brief Method .ctor, addr 0x1380708, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13abce8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* packs);
 
-  /// @brief Method get_all, addr 0x1380780, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x13abd60, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SongPackMask get_all();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>"
@@ -110,19 +110,19 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::SongPackMask>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::SongPackMask>* i___System__IEquatable_1___GlobalNamespace__SongPackMask_();
 
-  /// @brief Method op_BitwiseAnd, addr 0x13807a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x13abd84, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SongPackMask op_BitwiseAnd(::GlobalNamespace::SongPackMask a, ::GlobalNamespace::SongPackMask b);
 
-  /// @brief Method op_BitwiseOr, addr 0x138078c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x13abd6c, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SongPackMask op_BitwiseOr(::GlobalNamespace::SongPackMask a, ::GlobalNamespace::SongPackMask b);
 
-  /// @brief Method op_Equality, addr 0x13807bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x13abd9c, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::SongPackMask a, ::GlobalNamespace::SongPackMask b);
 
-  /// @brief Method op_Implicit, addr 0x1380854, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x13abe34, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SongPackMask op_Implicit___GlobalNamespace__SongPackMask(::StringW id);
 
-  /// @brief Method op_Inequality, addr 0x1380808, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x13abde8, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::SongPackMask a, ::GlobalNamespace::SongPackMask b);
 
   // Ctor Parameters []
@@ -139,7 +139,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field kHashBits offset 0xffffffff size 0x4
-  static constexpr int32_t kHashBits{ static_cast<int32_t>(0xd) };
+  static constexpr int32_t kHashBits{ static_cast<int32_t>(0xf) };
 
   /// @brief Field kHashCount offset 0xffffffff size 0x4
   static constexpr int32_t kHashCount{ static_cast<int32_t>(0x2) };

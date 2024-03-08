@@ -57,7 +57,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignatureFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::ISignatureFactory*() noexcept;
 
-  /// @brief Method CreateCalculator, addr 0xf9ca5c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method CreateCalculator, addr 0xfbe160, size 0xb4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
@@ -89,16 +89,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0xf9c8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbdff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0xf9c8fc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbe000, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf9ca54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0xfbe158, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method get_SignatureAlgNames, addr 0xf9cb8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0xfbe290, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISignatureFactory"

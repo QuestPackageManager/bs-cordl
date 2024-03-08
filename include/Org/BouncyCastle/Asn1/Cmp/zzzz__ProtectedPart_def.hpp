@@ -43,14 +43,14 @@ public:
   /// @brief Field header, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header;
 
-  /// @brief Method GetInstance, addr 0xee00a8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeff7ac, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xee026c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeff970, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __cordl_internal_get_body();
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_header(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* value);
 
-  /// @brief Method .ctor, addr 0xee0230, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeff934, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method .ctor, addr 0xedfffc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeff700, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Body, addr 0xee0264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Body, addr 0xeff968, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_Header, addr 0xee025c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Header, addr 0xeff960, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
 protected:

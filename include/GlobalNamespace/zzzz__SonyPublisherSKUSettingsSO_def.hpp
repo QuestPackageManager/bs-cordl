@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set__titleId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12e986c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1311f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_productLabel, addr 0x12ee910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_productLabel, addr 0x1316a5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_productLabel();
 
-  /// @brief Method get_serviceIdPrefix, addr 0x12ee900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serviceIdPrefix, addr 0x1316a4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serviceIdPrefix();
 
-  /// @brief Method get_skuName, addr 0x12ee8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skuName, addr 0x1316a44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_skuName();
 
-  /// @brief Method get_titleId, addr 0x12ee908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleId, addr 0x1316a54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleId();
 
 protected:

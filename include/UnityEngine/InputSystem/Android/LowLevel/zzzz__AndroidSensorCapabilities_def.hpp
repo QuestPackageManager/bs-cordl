@@ -23,13 +23,13 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 struct CORDL_TYPE AndroidSensorCapabilities {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x2bcd8b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x2c2e0ec, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToJson, addr 0x2bcd850, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x2c2e088, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method ToString, addr 0x2bcd954, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c2e18c, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

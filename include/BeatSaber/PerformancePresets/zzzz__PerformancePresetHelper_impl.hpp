@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11::*)()>(
     &::BeatSaber::PerformancePresets::__PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0xe81b88;
+  constexpr static std::size_t addrs = 0xe9cf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::PerformancePresets::__PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xe81fdc;
+  constexpr static std::size_t addrs = 0xe9d374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper____c::*)()>(
     &::BeatSaber::PerformancePresets::__PerformancePresetHelper____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe82098;
+  constexpr static std::size_t addrs = 0xe9d430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper____c::*)(::UnityEngine::TextAsset*)>(
     &::BeatSaber::PerformancePresets::__PerformancePresetHelper____c::_GetPerformancePresetAsync_b__12_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xe820a0;
+  constexpr static std::size_t addrs = 0xe9d438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetPerformancePresetAsync_d__12::*)()>(
     &::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetPerformancePresetAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0xe820a4;
+  constexpr static std::size_t addrs = 0xe9d43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetPerformancePresetAsync_d__12::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetPerformancePresetAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xe8274c;
+  constexpr static std::size_t addrs = 0xe9dae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__13::*)()>(
     &::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0xe827a4;
+  constexpr static std::size_t addrs = 0xe9db3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xe82eb0;
+  constexpr static std::size_t addrs = 0xe9e248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::StringW)>(
     &::BeatSaber::PerformancePresets::PerformancePresetHelper::IsPerformancePresetAvailableAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0xe81800;
+  constexpr static std::size_t addrs = 0xe9cb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaber::PerformancePresets::PerformancePreset*>* (*)(::StringW)>(
     &::BeatSaber::PerformancePresets::PerformancePresetHelper::GetPerformancePresetAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0xe818f8;
+  constexpr static std::size_t addrs = 0xe9cc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>>* (*)()>(
         &::BeatSaber::PerformancePresets::PerformancePresetHelper::GetDefaultPerformancePresetAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0xe819f0;
+  constexpr static std::size_t addrs = 0xe9cd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::BeatSaber::PerformancePresets::PerformancePresetHelper::GetHardwareCategory)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0xe81ad4;
+  constexpr static std::size_t addrs = 0xe9ce6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePresetHelper*>::get(),
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::PerformancePresetHelper::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePresetHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe81b80;
+  constexpr static std::size_t addrs = 0xe9cf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePresetHelper*>::get(),

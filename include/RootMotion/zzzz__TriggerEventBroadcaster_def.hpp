@@ -29,13 +29,13 @@ public:
 
   static inline ::RootMotion::TriggerEventBroadcaster* New_ctor();
 
-  /// @brief Method OnTriggerEnter, addr 0x131b898, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x1343df0, size 0xb4, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* collider);
 
-  /// @brief Method OnTriggerExit, addr 0x131ba00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x1343f58, size 0xb4, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* collider);
 
-  /// @brief Method OnTriggerStay, addr 0x131b94c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerStay, addr 0x1343ea4, size 0xb4, virtual false, abstract: false, final false
   inline void OnTriggerStay(::UnityEngine::Collider* collider);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_target() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x131bab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134400c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

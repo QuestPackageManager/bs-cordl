@@ -40,7 +40,7 @@ public:
       property(get = __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab,
                put = __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab))::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> _multiplayerResultsPyramidViewAvatarPrefab;
 
-  /// @brief Method InstallBindings, addr 0x24808e8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x24e97d4, size 0x144, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerObjectInstaller* New_ctor();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
 
-  /// @brief Method .ctor, addr 0x2480a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e9918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

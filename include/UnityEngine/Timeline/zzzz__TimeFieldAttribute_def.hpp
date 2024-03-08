@@ -97,10 +97,10 @@ public:
 
   constexpr void __cordl_internal_set__useEditMode_k__BackingField(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode value);
 
-  /// @brief Method .ctor, addr 0x2d553a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db2be0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode);
 
-  /// @brief Method get_useEditMode, addr 0x2d553a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useEditMode, addr 0x2db2bd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode get_useEditMode();
 
 protected:

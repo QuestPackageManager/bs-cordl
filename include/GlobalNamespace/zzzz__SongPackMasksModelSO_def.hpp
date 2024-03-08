@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x12e3e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130b500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customSongPackMaskItems, addr 0x12e3e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customSongPackMaskItems, addr 0x130b4f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> get_customSongPackMaskItems();
 
-  /// @brief Method get_defaultSongPackMaskItems, addr 0x12e3e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSongPackMaskItems, addr 0x130b4f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_defaultSongPackMaskItems();
 
 protected:

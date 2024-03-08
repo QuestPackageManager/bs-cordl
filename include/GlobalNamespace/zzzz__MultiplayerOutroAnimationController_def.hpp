@@ -128,30 +128,30 @@ public:
   /// @brief Field _songPreviewTrackName, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewTrackName, put = __cordl_internal_set__songPreviewTrackName))::StringW _songPreviewTrackName;
 
-  /// @brief Method AnimateOutro, addr 0x2475fcc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AnimateOutro, addr 0x24def80, size 0x1c0, virtual false, abstract: false, final false
   inline void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
 
-  /// @brief Method BindOutroTimeline, addr 0x2482750, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method BindOutroTimeline, addr 0x24eb63c, size 0x6b4, virtual false, abstract: false, final false
   inline void BindOutroTimeline();
 
-  /// @brief Method BindRingsAndAudio, addr 0x2483024, size 0x724, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndAudio, addr 0x24ebf10, size 0x724, virtual false, abstract: false, final false
   inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
 
-  /// @brief Method Completed, addr 0x2483d5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x24ecc48, size 0x24, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x2481d80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x24eac6c, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerSpawningDidFinish();
 
   static inline ::GlobalNamespace::MultiplayerOutroAnimationController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24825e4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24eb4d0, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnValidate, addr 0x2481e40, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x24ead2c, size 0x7a4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x2481ce0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24eabcc, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__badgeMidTransform() const;
@@ -280,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewTrackName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2484180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ed06c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

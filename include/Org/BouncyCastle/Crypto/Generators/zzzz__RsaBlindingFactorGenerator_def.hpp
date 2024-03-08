@@ -36,10 +36,10 @@ public:
   /// @brief Field random, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
-  /// @brief Method GenerateBlindingFactor, addr 0xf767fc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GenerateBlindingFactor, addr 0xf96f00, size 0x188, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateBlindingFactor();
 
-  /// @brief Method Init, addr 0xf76624, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf96d28, size 0x1d8, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator* New_ctor();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0xf76984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf97088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

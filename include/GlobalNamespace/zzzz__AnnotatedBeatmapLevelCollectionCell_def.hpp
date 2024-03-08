@@ -20,10 +20,10 @@ namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-struct EntitlementStatus;
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 struct __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__23;
@@ -79,10 +79,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x24a1e80, size 0x480, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x250ad78, size 0x4f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x24a2300, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x250b26c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -94,15 +94,15 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>", modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "::GlobalNamespace::BeatmapLevelsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_numberOfOwnedLevels_5__3", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "_error_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty:
+  // "::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>", modifiers: "", def_value: None }, CppParam { name: "entitlementModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers:
+  // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_numberOfOwnedLevels_5__3",
+  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_error_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty:
   // "::ArrayW<::GlobalNamespace::BeatmapLevel*,::Array<::GlobalNamespace::BeatmapLevel*>*>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap5", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
   constexpr __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                    ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell> __4__this,
-                                                                                   ::GlobalNamespace::BeatmapLevelsModel* contentModel, ::System::Threading::CancellationToken _cancellationToken_5__2,
-                                                                                   int32_t _numberOfOwnedLevels_5__3, bool _error_5__4,
+                                                                                   ::GlobalNamespace::IEntitlementModel* entitlementModel,
+                                                                                   ::System::Threading::CancellationToken _cancellationToken_5__2, int32_t _numberOfOwnedLevels_5__3, bool _error_5__4,
                                                                                    ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> __7__wrap4,
                                                                                    int32_t __7__wrap5,
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
@@ -116,8 +116,8 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell> __4__this;
 
-  /// @brief Field contentModel, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* contentModel;
+  /// @brief Field entitlementModel, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::IEntitlementModel* entitlementModel;
 
   /// @brief Field <cancellationToken>5__2, offset: 0x38, size: 0x8, def value: None
   ::System::Threading::CancellationToken _cancellationToken_5__2;
@@ -151,7 +151,7 @@ static_assert(offsetof(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell_
 
 static_assert(offsetof(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__23, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__23, contentModel) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__23, entitlementModel) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__23, _cancellationToken_5__2) == 0x38, "Offset mismatch!");
 
@@ -220,33 +220,33 @@ public:
 
   __declspec(property(get = get_cellIndex, put = set_cellIndex)) int32_t cellIndex;
 
-  /// @brief Method CancelAsyncOperations, addr 0x24a1e44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x250ad3c, size 0x14, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method GetInfoText, addr 0x24a1b58, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInfoText, addr 0x250aa50, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW GetInfoText(::StringW name, int32_t songs, int32_t purchased);
 
-  /// @brief Method HighlightDidChange, addr 0x24a1da0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x250ac98, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method InternalToggle, addr 0x24a1c8c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x250ab84, size 0x24, virtual true, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* New_ctor();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x24a1da4, size 0xa0, virtual false, abstract: false, final false
-  inline void RefreshAvailabilityAsync(::GlobalNamespace::BeatmapLevelsModel* contentModel);
+  /// @brief Method RefreshAvailabilityAsync, addr 0x250ac9c, size 0xa0, virtual false, abstract: false, final false
+  inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel);
 
-  /// @brief Method RefreshVisuals, addr 0x24a1cb4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x250abac, size 0xec, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x24a1cb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x250aba8, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x24a1a3c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x250a934, size 0x11c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, bool isPromoted, bool isUpdated);
 
-  /// @brief Method SetDownloadIconVisible, addr 0x24a1c48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadIconVisible, addr 0x250ab40, size 0x44, virtual false, abstract: false, final false
   inline void SetDownloadIconVisible(bool visible);
 
   constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get__beatmapLevelPack();
@@ -333,13 +333,13 @@ public:
 
   constexpr void __cordl_internal_set__updatedBadgeObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x24a1e58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250ad50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellIndex, addr 0x24a1a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellIndex, addr 0x250a924, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellIndex();
 
-  /// @brief Method set_cellIndex, addr 0x24a1a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cellIndex, addr 0x250a92c, size 0x8, virtual false, abstract: false, final false
   inline void set_cellIndex(int32_t value);
 
 protected:

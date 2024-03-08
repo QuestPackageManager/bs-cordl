@@ -42,15 +42,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
   constexpr operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() noexcept;
 
-  /// @brief Method ClearDirtyData, addr 0x12bd674, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearDirtyData, addr 0x12e49c0, size 0x50, virtual false, abstract: false, final false
   inline void ClearDirtyData();
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteData, addr 0x12be81c, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method ProcessBeforeDeleteData, addr 0x12e5b70, size 0x374, virtual true, abstract: false, final true
   inline void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedData, addr 0x12be220, size 0x5fc, virtual true, abstract: false, final true
+  /// @brief Method ProcessInsertedData, addr 0x12e556c, size 0x604, virtual true, abstract: false, final true
   inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
 
   constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& __cordl_internal_get__dirtyBoxGroups();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__dirtyBoxGroups(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
 
-  /// @brief Method .ctor, addr 0x12bd234, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e4580, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dirtyBoxGroups, addr 0x12be218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dirtyBoxGroups, addr 0x12e5564, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
 
   /// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"

@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x2434014, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249c968, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -133,22 +133,22 @@ public:
   /// @brief Field _floatTween, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__floatTween, put = __cordl_internal_set__floatTween))::Tweening::FloatTween* _floatTween;
 
-  /// @brief Field _target, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target))::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> _target;
+  /// @brief Field _initData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__FloatFxGroupEffect__InitData* _initData;
 
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x2434198, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x249caec, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x2434518, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x249ce64, size 0x10c, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::FloatFxGroupEffect* New_ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                 ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetValue, addr 0x2434630, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x249cf70, size 0x2c, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -163,9 +163,9 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__floatTween() const;
 
-  constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> const& __cordl_internal_get__target() const;
+  constexpr ::GlobalNamespace::__FloatFxGroupEffect__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>& __cordl_internal_get__target();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FloatFxGroupEffect__InitData*> const& __cordl_internal_get__initData() const;
 
   constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
@@ -177,11 +177,11 @@ public:
 
   constexpr void __cordl_internal_set__floatTween(::Tweening::FloatTween* value);
 
-  constexpr void __cordl_internal_set__target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__FloatFxGroupEffect__InitData* value);
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x243433c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249cc90, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -211,8 +211,8 @@ public:
   /// @brief Field _floatFxBeatmapEventCallbackWrapper, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____floatFxBeatmapEventCallbackWrapper;
 
-  /// @brief Field _target, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> ____target;
+  /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::__FloatFxGroupEffect__InitData* ____initData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -227,7 +227,7 @@ static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____floatTween) ==
 
 static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____floatFxBeatmapEventCallbackWrapper) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____target) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatFxGroupEffect, ____initData) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatFxGroupEffect);

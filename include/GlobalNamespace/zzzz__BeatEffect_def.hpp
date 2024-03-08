@@ -93,10 +93,10 @@ public:
 
   __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x2425350, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x248c30c, size 0xb8, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate, addr 0x2425408, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x248c3c4, size 0x2dc, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
@@ -167,10 +167,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x24256e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248c6a0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x2425348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x248c304, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -258,7 +258,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2425760, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248c71c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

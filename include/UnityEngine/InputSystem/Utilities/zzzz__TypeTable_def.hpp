@@ -50,10 +50,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::__TypeTable____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b446d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba3f08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_names>b__2_0, addr 0x2b446d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_names>b__2_0, addr 0x2ba3f10, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _get_names_b__2_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
   static inline ::UnityEngine::InputSystem::Utilities::__TypeTable____c* getStaticF___9();
@@ -98,22 +98,22 @@ public:
 
   __declspec(property(get = get_names))::System::Collections::Generic::IEnumerable_1<::StringW>* names;
 
-  /// @brief Method AddTypeRegistration, addr 0x2b4440c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddTypeRegistration, addr 0x2ba3c44, size 0x168, virtual false, abstract: false, final false
   inline void AddTypeRegistration(::StringW name, ::System::Type* type);
 
-  /// @brief Method FindNameForType, addr 0x2b441ec, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method FindNameForType, addr 0x2ba3a24, size 0x220, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindNameForType(::System::Type* type);
 
-  /// @brief Method Initialize, addr 0x2b44178, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2ba39b0, size 0x74, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LookupTypeRegistration, addr 0x2b44574, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LookupTypeRegistration, addr 0x2ba3dac, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Type* LookupTypeRegistration(::StringW name);
 
-  /// @brief Method get_internedNames, addr 0x2b44128, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_internedNames, addr 0x2ba3960, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_internedNames();
 
-  /// @brief Method get_names, addr 0x2b44000, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_names, addr 0x2ba3838, size 0x128, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_names();
 
   // Ctor Parameters []

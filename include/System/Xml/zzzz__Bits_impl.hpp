@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Xml::Bits::Count)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29371b4;
+  constexpr static std::size_t addrs = 0x29999ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Xml::Bits::LeastPosition)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2937250;
+  constexpr static std::size_t addrs = 0x2999a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

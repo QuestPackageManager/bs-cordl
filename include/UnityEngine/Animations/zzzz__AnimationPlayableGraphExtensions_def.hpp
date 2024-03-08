@@ -26,7 +26,7 @@ namespace UnityEngine::Animations {
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAnimationOutput, addr 0x2d7e29c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAnimationOutput, addr 0x2ddbad4, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
 protected:

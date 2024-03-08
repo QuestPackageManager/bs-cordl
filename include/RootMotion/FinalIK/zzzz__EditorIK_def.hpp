@@ -26,10 +26,10 @@ public:
 
   static inline ::RootMotion::FinalIK::EditorIK* New_ctor();
 
-  /// @brief Method Start, addr 0x136ddec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x1398344, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x136de78, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x13983d0, size 0xc0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::RootMotion::FinalIK::IK> const& __cordl_internal_get_ik() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::IK> value);
 
-  /// @brief Method .ctor, addr 0x136df38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1398490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

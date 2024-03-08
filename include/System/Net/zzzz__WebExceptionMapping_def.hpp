@@ -26,7 +26,7 @@ public:
   /// @brief Field s_Mapping, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Mapping, put = setStaticF_s_Mapping))::ArrayW<::StringW, ::Array<::StringW>*> s_Mapping;
 
-  /// @brief Method GetWebStatusString, addr 0x2a8b6b0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x2aeaee8, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus status);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_Mapping();

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::DebuggerNonUserCodeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266d1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ce53c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

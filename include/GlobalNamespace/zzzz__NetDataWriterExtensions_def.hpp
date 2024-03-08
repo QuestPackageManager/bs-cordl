@@ -25,10 +25,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE NetDataWriterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetUpPacket, addr 0xebec60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0xedf368, size 0x4, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, ::GlobalNamespace::PacketOption packetOptions);
 
-  /// @brief Method SetUpPacket, addr 0xebec64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0xedf36c, size 0x4c, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, uint8_t packetOptions);
 
 protected:

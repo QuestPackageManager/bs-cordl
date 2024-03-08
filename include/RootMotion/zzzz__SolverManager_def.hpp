@@ -49,42 +49,42 @@ public:
   /// @brief Field updateFrame, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_updateFrame, put = __cordl_internal_set_updateFrame)) bool updateFrame;
 
-  /// @brief Method Disable, addr 0x131b344, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x134389c, size 0x94, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method FindAnimatorRecursive, addr 0x131b52c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method FindAnimatorRecursive, addr 0x1343a84, size 0x1b8, virtual false, abstract: false, final false
   inline void FindAnimatorRecursive(::UnityEngine::Transform* t, bool findInChildren);
 
-  /// @brief Method FixTransforms, addr 0x131b3e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1343938, size 0x4, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method FixedUpdate, addr 0x131b7b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x1343d10, size 0x4c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Initiate, addr 0x131b40c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1343964, size 0x50, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method InitiateSolver, addr 0x131b3d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InitiateSolver, addr 0x1343930, size 0x4, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
-  /// @brief Method LateUpdate, addr 0x131b804, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x1343d5c, size 0x4c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::RootMotion::SolverManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x131b3e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x134393c, size 0x28, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x131b45c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x13439b4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x131b6e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1343c3c, size 0x3c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSolver, addr 0x131b3dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateSolver, addr 0x1343934, size 0x4, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
-  /// @brief Method UpdateSolverExternal, addr 0x131b850, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateSolverExternal, addr 0x1343da8, size 0x38, virtual false, abstract: false, final false
   inline void UpdateSolverExternal();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get_animator() const;
@@ -123,13 +123,13 @@ public:
 
   constexpr void __cordl_internal_set_updateFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x131b888, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1343de0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animatePhysics, addr 0x131b460, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_animatePhysics, addr 0x13439b8, size 0xcc, virtual false, abstract: false, final false
   inline bool get_animatePhysics();
 
-  /// @brief Method get_isAnimated, addr 0x131b720, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isAnimated, addr 0x1343c78, size 0x98, virtual false, abstract: false, final false
   inline bool get_isAnimated();
 
 protected:

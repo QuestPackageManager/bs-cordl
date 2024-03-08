@@ -30,12 +30,12 @@ public:
   /// @brief Field m_ListView, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
 
-  /// @brief Method HandleDragAndDrop, addr 0x2f17680, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method HandleDragAndDrop, addr 0x2f70eb8, size 0x19c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   static inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::ListView* view);
 
-  /// @brief Method OnDrop, addr 0x2f1781c, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x2f71054, size 0x288, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   constexpr ::UnityEngine::UIElements::ListView*& __cordl_internal_get_m_ListView();
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::ListView* value);
 
-  /// @brief Method .ctor, addr 0x2f1761c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f70e54, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ListView* view);
 
 protected:

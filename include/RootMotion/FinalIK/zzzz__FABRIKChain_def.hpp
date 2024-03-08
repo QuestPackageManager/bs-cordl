@@ -41,21 +41,21 @@ public:
   /// @brief Field pull, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_pull, put = __cordl_internal_set_pull)) float_t pull;
 
-  /// @brief Method GetCentroid, addr 0x132cfc8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetCentroid, addr 0x1355520, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
 
-  /// @brief Method Initiate, addr 0x132cee8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1355440, size 0x20, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method IsValid, addr 0x132ce24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x135537c, size 0xc4, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::FABRIKChain* New_ctor();
 
-  /// @brief Method Stage1, addr 0x132cf08, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Stage1, addr 0x1355460, size 0xc0, virtual false, abstract: false, final false
   inline void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
 
-  /// @brief Method Stage2, addr 0x132d15c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Stage2, addr 0x13556b4, size 0xe4, virtual false, abstract: false, final false
   inline void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_children() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_pull(float_t value);
 
-  /// @brief Method .ctor, addr 0x132d240, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1355798, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

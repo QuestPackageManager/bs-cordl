@@ -42,22 +42,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x2d87b1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2de4354, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool normalizeInputVolumes);
 
-  /// @brief Method CreateAudioMixerPlayableInternal, addr 0x2d87cf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateAudioMixerPlayableInternal, addr 0x2de452c, size 0x54, virtual false, abstract: false, final false
   static inline bool CreateAudioMixerPlayableInternal(ByRef<::UnityEngine::Playables::PlayableGraph> graph, bool normalizeInputVolumes, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandle, addr 0x2d87b58, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x2de4390, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool normalizeInputVolumes);
 
-  /// @brief Method Equals, addr 0x2d87dc8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2de4600, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Audio::AudioMixerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x2d87d48, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2de4580, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x2d87c34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de446c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>"
@@ -66,10 +66,10 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Explicit, addr 0x2d87d84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2de45bc, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioMixerPlayable op_Explicit___UnityEngine__Audio__AudioMixerPlayable(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method op_Implicit, addr 0x2d87d54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2de458c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Audio::AudioMixerPlayable playable);
 
   // Ctor Parameters []

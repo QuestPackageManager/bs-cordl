@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22677cc;
+  constexpr static std::size_t addrs = 0x22c827c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -18,13 +18,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer.OnEnable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
+    &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::OnEnable)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x22c8284;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer*>::get(), 4));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer.SetRenderer
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)(::UnityEngine::Renderer*)>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::SetRenderer)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22677d4;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x22c8420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22677dc;
+  constexpr static std::size_t addrs = 0x22c8568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,6 +81,12 @@ inline ::UnityW<::UnityEngine::Renderer> GlobalNamespace::BloomPrePassBackground
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Renderer>, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::OnEnable() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::SetRenderer(::UnityEngine::Renderer* renderer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

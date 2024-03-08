@@ -33,44 +33,44 @@ public:
   /// @brief Field count, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
-  /// @brief Method And, addr 0x2997104, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method And, addr 0x29f893c, size 0xb8, virtual false, abstract: false, final false
   inline void And(::System::Xml::Schema::BitSet* other);
 
-  /// @brief Method Clear, addr 0x2996f24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x29f875c, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x29973e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x29f8c18, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BitSet* Clone();
 
-  /// @brief Method EnsureLength, addr 0x2996fd4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method EnsureLength, addr 0x29f880c, size 0x94, virtual false, abstract: false, final false
   inline void EnsureLength(int32_t nRequiredLength);
 
-  /// @brief Method Equals, addr 0x2997298, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x29f8ad0, size 0x148, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Get, addr 0x2996ec8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x29f8700, size 0x5c, virtual false, abstract: false, final false
   inline bool Get(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x2997260, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29f8a98, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Intersects, addr 0x29974b4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Intersects, addr 0x29f8cec, size 0xe0, virtual false, abstract: false, final false
   inline bool Intersects(::System::Xml::Schema::BitSet* other);
 
   static inline ::System::Xml::Schema::BitSet* New_ctor();
 
   static inline ::System::Xml::Schema::BitSet* New_ctor(int32_t count);
 
-  /// @brief Method NextSet, addr 0x2997068, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method NextSet, addr 0x29f88a0, size 0x9c, virtual false, abstract: false, final false
   inline int32_t NextSet(int32_t startFrom);
 
-  /// @brief Method Or, addr 0x29971bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Or, addr 0x29f89f4, size 0xa4, virtual false, abstract: false, final false
   inline void Or(::System::Xml::Schema::BitSet* other);
 
-  /// @brief Method Set, addr 0x2996f78, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x29f87b0, size 0x5c, virtual false, abstract: false, final false
   inline void Set(int32_t index);
 
-  /// @brief Method Subscript, addr 0x2996eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Subscript, addr 0x29f86ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t Subscript(int32_t bitIndex);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_bits() const;
@@ -85,16 +85,16 @@ public:
 
   constexpr void __cordl_internal_set_count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2996e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f8674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2996e44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f867c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t count);
 
-  /// @brief Method get_Count, addr 0x2996ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x29f86f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2996ec4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x29f86fc, size 0x4, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
 protected:

@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_comment(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ca0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272b408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26ca0c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272b418, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
 protected:

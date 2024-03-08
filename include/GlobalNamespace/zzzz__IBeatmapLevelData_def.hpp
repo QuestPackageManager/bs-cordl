@@ -25,6 +25,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IBeatmapLevelData {
 public:
   // Declarations
+  __declspec(property(get = get_name))::StringW name;
+
   /// @brief Method GetAudioDataString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetAudioDataString();
 
@@ -45,6 +47,9 @@ public:
 
   /// @brief Method GetLightshowStringAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+
+  /// @brief Method get_name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_name();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

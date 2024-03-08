@@ -40,13 +40,13 @@ public:
 
   static inline ::GlobalNamespace::LobbyGameStateModel* New_ctor();
 
-  /// @brief Method SetGameState, addr 0x12dc768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetGameState, addr 0x1303d34, size 0x8, virtual false, abstract: false, final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method SetGameState, addr 0x12dc770, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetGameState, addr 0x1303d3c, size 0x70, virtual false, abstract: false, final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
 
-  /// @brief Method SetGameStateWithoutNotification, addr 0x12dc7e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetGameStateWithoutNotification, addr 0x1303dac, size 0x2c, virtual false, abstract: false, final false
   inline void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
 
   constexpr ::GlobalNamespace::MultiplayerGameState const& __cordl_internal_get__gameState() const;
@@ -67,22 +67,22 @@ public:
 
   constexpr void __cordl_internal_set_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method .ctor, addr 0x12dc80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1303dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_gameStateDidChangeAlwaysSentEvent, addr 0x12dc608, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_gameStateDidChangeAlwaysSentEvent, addr 0x1303bd4, size 0xb0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method add_gameStateDidChangeEvent, addr 0x12dc4a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_gameStateDidChangeEvent, addr 0x1303a74, size 0xb0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method get_gameState, addr 0x12dc4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameState, addr 0x1303a6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerGameState get_gameState();
 
-  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent, addr 0x12dc6b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent, addr 0x1303c84, size 0xb0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method remove_gameStateDidChangeEvent, addr 0x12dc558, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_gameStateDidChangeEvent, addr 0x1303b24, size 0xb0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
 protected:

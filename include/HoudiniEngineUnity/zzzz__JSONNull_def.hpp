@@ -49,50 +49,50 @@ public:
   /// @brief Field reuseSameInstance, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_reuseSameInstance, put = setStaticF_reuseSameInstance)) bool reuseSameInstance;
 
-  /// @brief Method CreateOrGet, addr 0x2337394, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateOrGet, addr 0x239816c, size 0x94, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNull* CreateOrGet();
 
-  /// @brief Method Equals, addr 0x233d078, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x239de50, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x233d014, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x239ddec, size 0x14, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x233d104, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x239dedc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::HoudiniEngineUnity::JSONNull* New_ctor();
 
-  /// @brief Method WriteToStringBuilder, addr 0x233d10c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x239dee4, size 0x54, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
 
-  /// @brief Method .ctor, addr 0x233cffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239ddd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::JSONNull* getStaticF_m_StaticInstance();
 
   static inline bool getStaticF_reuseSameInstance();
 
-  /// @brief Method get_AsBool, addr 0x233d06c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x239de44, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method get_IsNull, addr 0x233d00c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x239dde4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Tag, addr 0x233d004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x239dddc, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x233d028, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x239de00, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_m_StaticInstance(::HoudiniEngineUnity::JSONNull* value);
 
   static inline void setStaticF_reuseSameInstance(bool value);
 
-  /// @brief Method set_AsBool, addr 0x233d074, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x239de4c, size 0x4, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method set_Value, addr 0x233d068, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x239de40, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

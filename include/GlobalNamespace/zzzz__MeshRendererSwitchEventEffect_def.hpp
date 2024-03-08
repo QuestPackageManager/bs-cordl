@@ -52,18 +52,18 @@ public:
       property(get = __cordl_internal_get__deactivateOnBoostRenderers,
                put = __cordl_internal_set__deactivateOnBoostRenderers))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> _deactivateOnBoostRenderers;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x243c754, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x24a4e38, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::MeshRendererSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x243c738, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24a4e1c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x243c614, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24a4cf8, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x243c774, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x24a4e58, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__activateOnBoostRenderers() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x243c838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a4f1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -33,14 +33,14 @@ public:
   /// @brief Field restriction, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_restriction, put = __cordl_internal_set_restriction))::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction;
 
-  /// @brief Method GetInstance, addr 0xfebfe4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x100c6e8, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::StringW restriction);
 
-  /// @brief Method ToAsn1Object, addr 0xfec1e8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x100c8ec, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_restriction();
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_restriction(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0xfec13c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x100c840, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
 
-  /// @brief Method .ctor, addr 0xfec164, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x100c868, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW restriction);
 
-  /// @brief Method get_RestrictionString, addr 0xfec1e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RestrictionString, addr 0x100c8e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_RestrictionString();
 
 protected:

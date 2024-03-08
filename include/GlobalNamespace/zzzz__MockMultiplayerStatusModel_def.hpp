@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
 
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x246ca60, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x24d458c, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockMultiplayerStatusModel* New_ctor();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  /// @brief Method .ctor, addr 0x246cad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d45fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"

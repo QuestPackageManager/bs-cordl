@@ -39,28 +39,28 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x38
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRScreenshots FnTable;
 
-  /// @brief Method GetScreenshotPropertyFilename, addr 0x28e7018, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetScreenshotPropertyFilename, addr 0x2949850, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetScreenshotPropertyFilename(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, ::System::Text::StringBuilder* pchFilename, uint32_t cchFilename,
                                                 ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method GetScreenshotPropertyType, addr 0x28e6ff4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetScreenshotPropertyType, addr 0x294982c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotType GetScreenshotPropertyType(uint32_t screenshotHandle, ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method HookScreenshot, addr 0x28e6fc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HookScreenshot, addr 0x2949800, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError HookScreenshot(::ArrayW<::OVR::OpenVR::EVRScreenshotType, ::Array<::OVR::OpenVR::EVRScreenshotType>*> pSupportedTypes);
 
   static inline ::OVR::OpenVR::CVRScreenshots* New_ctor(void* pInterface);
 
-  /// @brief Method RequestScreenshot, addr 0x28e6fa0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RequestScreenshot, addr 0x29497d8, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError RequestScreenshot(ByRef<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method SubmitScreenshot, addr 0x28e7088, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SubmitScreenshot, addr 0x29498c0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError SubmitScreenshot(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchSourcePreviewFilename, ::StringW pchSourceVRFilename);
 
-  /// @brief Method TakeStereoScreenshot, addr 0x28e7060, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method TakeStereoScreenshot, addr 0x2949898, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError TakeStereoScreenshot(ByRef<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method UpdateScreenshotProgress, addr 0x28e703c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateScreenshotProgress, addr 0x2949874, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError UpdateScreenshotProgress(uint32_t screenshotHandle, float_t flProgress);
 
   constexpr ::OVR::OpenVR::IVRScreenshots const& __cordl_internal_get_FnTable() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRScreenshots value);
 
-  /// @brief Method .ctor, addr 0x28e6e84, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29496bc, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
 protected:

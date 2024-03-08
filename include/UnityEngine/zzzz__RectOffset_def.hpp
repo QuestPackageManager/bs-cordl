@@ -55,16 +55,16 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x2dbb2a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x2e16ae0, size 0xa0, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Finalize, addr 0x2dbb208, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2e16a40, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalCreate, addr 0x2dbb1b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InternalCreate, addr 0x2e169ec, size 0x28, virtual false, abstract: false, final false
   static inline void* InternalCreate();
 
-  /// @brief Method InternalDestroy, addr 0x2dbb904, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x2e1713c, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(void* ptr);
 
   static inline ::UnityEngine::RectOffset* New_ctor();
@@ -73,16 +73,16 @@ public:
 
   static inline ::UnityEngine::RectOffset* New_ctor(::System::Object* sourceStyle, void* source);
 
-  /// @brief Method Remove, addr 0x2dbb9b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2e171f0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect Remove(::UnityEngine::Rect rect);
 
-  /// @brief Method Remove_Injected, addr 0x2dbba1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Remove_Injected, addr 0x2e17254, size 0x54, virtual false, abstract: false, final false
   inline void Remove_Injected(ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method ToString, addr 0x2dbb56c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e16da4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2dbb578, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2e16db0, size 0x29c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
@@ -97,46 +97,46 @@ public:
 
   constexpr void __cordl_internal_set_m_SourceStyle(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2dbb16c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e169a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2dbb348, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e16b80, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
-  /// @brief Method .ctor, addr 0x2dbb1dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e16a14, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* sourceStyle, void* source);
 
-  /// @brief Method get_bottom, addr 0x2dbb8c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bottom, addr 0x2e17100, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_bottom();
 
-  /// @brief Method get_horizontal, addr 0x2dbb940, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_horizontal, addr 0x2e17178, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_horizontal();
 
-  /// @brief Method get_left, addr 0x2dbb814, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x2e1704c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_left();
 
-  /// @brief Method get_right, addr 0x2dbb850, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x2e17088, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_right();
 
-  /// @brief Method get_top, addr 0x2dbb88c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_top, addr 0x2e170c4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_top();
 
-  /// @brief Method get_vertical, addr 0x2dbb97c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertical, addr 0x2e171b4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_vertical();
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
 
-  /// @brief Method set_bottom, addr 0x2dbb528, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bottom, addr 0x2e16d60, size 0x44, virtual false, abstract: false, final false
   inline void set_bottom(int32_t value);
 
-  /// @brief Method set_left, addr 0x2dbb45c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x2e16c94, size 0x44, virtual false, abstract: false, final false
   inline void set_left(int32_t value);
 
-  /// @brief Method set_right, addr 0x2dbb4a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x2e16cd8, size 0x44, virtual false, abstract: false, final false
   inline void set_right(int32_t value);
 
-  /// @brief Method set_top, addr 0x2dbb4e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_top, addr 0x2e16d1c, size 0x44, virtual false, abstract: false, final false
   inline void set_top(int32_t value);
 
 protected:

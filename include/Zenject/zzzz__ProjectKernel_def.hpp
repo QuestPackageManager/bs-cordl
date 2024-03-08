@@ -60,7 +60,7 @@ public:
 
   static inline ::Zenject::__ProjectKernel____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <ForceUnloadAllScenes>b__0, addr 0x30262e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <ForceUnloadAllScenes>b__0, addr 0x307db20, size 0x78, virtual false, abstract: false, final false
   inline int32_t _ForceUnloadAllScenes_b__0(::Zenject::SceneContext* x);
 
   constexpr ::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>*& __cordl_internal_get___9__0();
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_sceneOrder(::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* value);
 
-  /// @brief Method __zenCreate, addr 0x3026360, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x307db98, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x30263bc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x307dbf4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3025c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307d4bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,15 +130,15 @@ public:
   /// @brief Field _settings, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::Zenject::ZenjectSettings* _settings;
 
-  /// @brief Method DestroyEverythingInOrder, addr 0x3025804, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DestroyEverythingInOrder, addr 0x307d03c, size 0x98, virtual false, abstract: false, final false
   inline void DestroyEverythingInOrder();
 
-  /// @brief Method ForceUnloadAllScenes, addr 0x302589c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ForceUnloadAllScenes, addr 0x307d0d4, size 0x3e8, virtual false, abstract: false, final false
   inline void ForceUnloadAllScenes(bool immediate);
 
   static inline ::Zenject::ProjectKernel* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x30257dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x307d014, size 0x28, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
   constexpr ::Zenject::SceneContextRegistry*& __cordl_internal_get__contextRegistry();
@@ -153,16 +153,16 @@ public:
 
   constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3025f4c, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x307d784, size 0x39c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x3025ce4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x307d51c, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x3025e18, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x307d650, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x3025cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307d514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

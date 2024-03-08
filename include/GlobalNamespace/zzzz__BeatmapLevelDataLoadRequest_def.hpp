@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12c2060, size 0x634, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12e9408, size 0x634, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12c2694, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12e9a3c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -147,6 +147,10 @@ public:
   // Declarations
   using _LoadDataAsyncInternal_d__8 = ::GlobalNamespace::__BeatmapLevelDataLoadRequest___LoadDataAsyncInternal_d__8;
 
+  __declspec(property(get = get_HasFailed)) bool HasFailed;
+
+  __declspec(property(get = get_HasValidResult)) bool HasValidResult;
+
   /// @brief Field _assetBundlePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__assetBundlePath, put = __cordl_internal_set__assetBundlePath))::StringW _assetBundlePath;
 
@@ -170,24 +174,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x12c1674, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x12e8a18, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HasFailed, addr 0x12c1638, size 0x3c, virtual false, abstract: false, final false
-  inline bool HasFailed();
-
-  /// @brief Method HasValidResult, addr 0x12c1e10, size 0x78, virtual false, abstract: false, final false
-  inline bool HasValidResult();
-
-  /// @brief Method LoadDataAsync, addr 0x12c16e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsync, addr 0x12e8a88, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsync();
 
-  /// @brief Method LoadDataAsyncInternal, addr 0x12c1ee0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsyncInternal, addr 0x12e9288, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::BeatmapLevelDataLoadRequest* New_ctor(::StringW assetBundlePath, ::StringW levelDataAssetName, ::System::Threading::CancellationToken externalCancellationToken);
 
-  /// @brief Method UnloadBundle, addr 0x12c1fdc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnloadBundle, addr 0x12e9384, size 0x84, virtual false, abstract: false, final false
   inline void UnloadBundle();
 
   constexpr ::StringW const& __cordl_internal_get__assetBundlePath() const;
@@ -226,8 +224,14 @@ public:
 
   constexpr void __cordl_internal_set_assetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  /// @brief Method .ctor, addr 0x12c171c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e8ac4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW assetBundlePath, ::StringW levelDataAssetName, ::System::Threading::CancellationToken externalCancellationToken);
+
+  /// @brief Method get_HasFailed, addr 0x12e89dc, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_HasFailed();
+
+  /// @brief Method get_HasValidResult, addr 0x12e91b8, size 0x78, virtual false, abstract: false, final false
+  inline bool get_HasValidResult();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;

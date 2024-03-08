@@ -583,255 +583,255 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  /// @brief Method Backspace, addr 0x2dfe93c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Backspace, addr 0x2e5a174, size 0xa0, virtual false, abstract: false, final false
   inline bool Backspace();
 
-  /// @brief Method CanPaste, addr 0x2dfe8f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CanPaste, addr 0x2e5a130, size 0x44, virtual false, abstract: false, final false
   inline bool CanPaste();
 
-  /// @brief Method ClampTextIndex, addr 0x2e004fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClampTextIndex, addr 0x2e5bd34, size 0x3c, virtual false, abstract: false, final false
   inline void ClampTextIndex(ByRef<int32_t> index);
 
-  /// @brief Method ClassifyChar, addr 0x2dffa58, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ClassifyChar, addr 0x2e5b290, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::__TextEditor__CharacterType ClassifyChar(int32_t index);
 
-  /// @brief Method ClearCursorPos, addr 0x2dfcff8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearCursorPos, addr 0x2e58830, size 0x10, virtual false, abstract: false, final false
   inline void ClearCursorPos();
 
-  /// @brief Method Copy, addr 0x2e001e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2e5ba18, size 0x90, virtual false, abstract: false, final false
   inline void Copy();
 
-  /// @brief Method Cut, addr 0x2e001b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x2e5b9ec, size 0x2c, virtual false, abstract: false, final false
   inline bool Cut();
 
-  /// @brief Method DblClickSnap, addr 0x2dff9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DblClickSnap, addr 0x2e5b1f0, size 0x8, virtual false, abstract: false, final false
   inline void DblClickSnap(::UnityEngine::__TextEditor__DblClickSnapping snapping);
 
-  /// @brief Method Delete, addr 0x2dfe7a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x2e59fe0, size 0x8c, virtual false, abstract: false, final false
   inline bool Delete();
 
-  /// @brief Method DeleteLineBack, addr 0x2dfe250, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DeleteLineBack, addr 0x2e59a88, size 0xb8, virtual false, abstract: false, final false
   inline bool DeleteLineBack();
 
-  /// @brief Method DeleteSelection, addr 0x2dfe318, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method DeleteSelection, addr 0x2e59b50, size 0x10c, virtual false, abstract: false, final false
   inline bool DeleteSelection();
 
-  /// @brief Method DeleteWordBack, addr 0x2dfe424, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DeleteWordBack, addr 0x2e59c5c, size 0x90, virtual false, abstract: false, final false
   inline bool DeleteWordBack();
 
-  /// @brief Method DeleteWordForward, addr 0x2dfe57c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DeleteWordForward, addr 0x2e59db4, size 0x7c, virtual false, abstract: false, final false
   inline bool DeleteWordForward();
 
-  /// @brief Method DetectFocusChange, addr 0x2dfed24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DetectFocusChange, addr 0x2e5a55c, size 0xc, virtual false, abstract: false, final false
   inline void DetectFocusChange();
 
-  /// @brief Method EnsureValidCodePointIndex, addr 0x2dfca8c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EnsureValidCodePointIndex, addr 0x2e582c4, size 0x40, virtual false, abstract: false, final false
   inline void EnsureValidCodePointIndex(ByRef<int32_t> index);
 
-  /// @brief Method ExpandSelectGraphicalLineEnd, addr 0x2dffed4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ExpandSelectGraphicalLineEnd, addr 0x2e5b70c, size 0x64, virtual false, abstract: false, final false
   inline void ExpandSelectGraphicalLineEnd();
 
-  /// @brief Method ExpandSelectGraphicalLineStart, addr 0x2dffe70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ExpandSelectGraphicalLineStart, addr 0x2e5b6a8, size 0x64, virtual false, abstract: false, final false
   inline void ExpandSelectGraphicalLineStart();
 
-  /// @brief Method FindEndOfClassification, addr 0x2dff6d0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FindEndOfClassification, addr 0x2e5af08, size 0x114, virtual false, abstract: false, final false
   inline int32_t FindEndOfClassification(int32_t p, ::UnityEngine::__TextEditor__Direction dir);
 
-  /// @brief Method FindEndOfPreviousWord, addr 0x2dfe4b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FindEndOfPreviousWord, addr 0x2e59cec, size 0xc8, virtual false, abstract: false, final false
   inline int32_t FindEndOfPreviousWord(int32_t p);
 
-  /// @brief Method FindNextSeperator, addr 0x2dff9c0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FindNextSeperator, addr 0x2e5b1f8, size 0x98, virtual false, abstract: false, final false
   inline int32_t FindNextSeperator(int32_t startPos);
 
-  /// @brief Method FindPrevSeperator, addr 0x2dffb40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FindPrevSeperator, addr 0x2e5b378, size 0x9c, virtual false, abstract: false, final false
   inline int32_t FindPrevSeperator(int32_t startPos);
 
-  /// @brief Method FindStartOfNextWord, addr 0x2dfe5f8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method FindStartOfNextWord, addr 0x2e59e30, size 0x1b0, virtual false, abstract: false, final false
   inline int32_t FindStartOfNextWord(int32_t p);
 
-  /// @brief Method GetGraphicalLineEnd, addr 0x2dff15c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicalLineEnd, addr 0x2e5a994, size 0xc4, virtual false, abstract: false, final false
   inline int32_t GetGraphicalLineEnd(int32_t p);
 
-  /// @brief Method GetGraphicalLineStart, addr 0x2dff064, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicalLineStart, addr 0x2e5a89c, size 0xb0, virtual false, abstract: false, final false
   inline int32_t GetGraphicalLineStart(int32_t p);
 
-  /// @brief Method GrabGraphicalCursorPos, addr 0x2dfd1e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GrabGraphicalCursorPos, addr 0x2e58a1c, size 0x84, virtual false, abstract: false, final false
   inline void GrabGraphicalCursorPos();
 
-  /// @brief Method HandleKeyEvent, addr 0x2dfd268, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyEvent, addr 0x2e58aa0, size 0x1b4, virtual false, abstract: false, final false
   inline bool HandleKeyEvent(::UnityEngine::Event* e, bool textIsReadOnly);
 
-  /// @brief Method IndexOfEndOfLine, addr 0x2dff280, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IndexOfEndOfLine, addr 0x2e5aab8, size 0x50, virtual false, abstract: false, final false
   inline int32_t IndexOfEndOfLine(int32_t startIndex);
 
-  /// @brief Method InitKeyActions, addr 0x2dfd41c, size 0xa5c, virtual false, abstract: false, final false
+  /// @brief Method InitKeyActions, addr 0x2e58c54, size 0xa5c, virtual false, abstract: false, final false
   inline void InitKeyActions();
 
-  /// @brief Method Insert, addr 0x2dfebc8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x2e5a400, size 0x34, virtual false, abstract: false, final false
   inline void Insert(char16_t c);
 
-  /// @brief Method IsValidCodePointIndex, addr 0x2e00538, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidCodePointIndex, addr 0x2e5bd70, size 0xb8, virtual false, abstract: false, final false
   inline bool IsValidCodePointIndex(int32_t index);
 
-  /// @brief Method MapKey, addr 0x2e003cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MapKey, addr 0x2e5bc04, size 0x8c, virtual false, abstract: false, final false
   static inline void MapKey(::StringW key, ::UnityEngine::__TextEditor__TextEditOp action);
 
-  /// @brief Method MouseDragSelectsWholeWords, addr 0x2dff9a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MouseDragSelectsWholeWords, addr 0x2e5b1dc, size 0x14, virtual false, abstract: false, final false
   inline void MouseDragSelectsWholeWords(bool on);
 
-  /// @brief Method MoveAltCursorToPosition, addr 0x2dff450, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MoveAltCursorToPosition, addr 0x2e5ac88, size 0x88, virtual false, abstract: false, final false
   inline void MoveAltCursorToPosition(::UnityEngine::Vector2 cursorPosition);
 
-  /// @brief Method MoveCursorToPosition_Internal, addr 0x2dff3c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MoveCursorToPosition_Internal, addr 0x2e5ac00, size 0x88, virtual false, abstract: false, final false
   inline void MoveCursorToPosition_Internal(::UnityEngine::Vector2 cursorPosition, bool shift);
 
-  /// @brief Method MoveDown, addr 0x2dfee38, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method MoveDown, addr 0x2e5a670, size 0xe0, virtual false, abstract: false, final false
   inline void MoveDown();
 
-  /// @brief Method MoveGraphicalLineEnd, addr 0x2dff114, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveGraphicalLineEnd, addr 0x2e5a94c, size 0x48, virtual false, abstract: false, final false
   inline void MoveGraphicalLineEnd();
 
-  /// @brief Method MoveGraphicalLineStart, addr 0x2dff01c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveGraphicalLineStart, addr 0x2e5a854, size 0x48, virtual false, abstract: false, final false
   inline void MoveGraphicalLineStart();
 
-  /// @brief Method MoveLeft, addr 0x2dfed30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MoveLeft, addr 0x2e5a568, size 0x58, virtual false, abstract: false, final false
   inline void MoveLeft();
 
-  /// @brief Method MoveLineEnd, addr 0x2dfef8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MoveLineEnd, addr 0x2e5a7c4, size 0x90, virtual false, abstract: false, final false
   inline void MoveLineEnd();
 
-  /// @brief Method MoveLineStart, addr 0x2dfef18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MoveLineStart, addr 0x2e5a750, size 0x74, virtual false, abstract: false, final false
   inline void MoveLineStart();
 
-  /// @brief Method MoveParagraphBackward, addr 0x2dff350, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MoveParagraphBackward, addr 0x2e5ab88, size 0x78, virtual false, abstract: false, final false
   inline void MoveParagraphBackward();
 
-  /// @brief Method MoveParagraphForward, addr 0x2dff2d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MoveParagraphForward, addr 0x2e5ab08, size 0x80, virtual false, abstract: false, final false
   inline void MoveParagraphForward();
 
-  /// @brief Method MoveRight, addr 0x2dfecb8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MoveRight, addr 0x2e5a4f0, size 0x6c, virtual false, abstract: false, final false
   inline void MoveRight();
 
-  /// @brief Method MoveSelectionToAltCursor, addr 0x2dfebfc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MoveSelectionToAltCursor, addr 0x2e5a434, size 0xbc, virtual false, abstract: false, final false
   inline void MoveSelectionToAltCursor();
 
-  /// @brief Method MoveTextEnd, addr 0x2dff240, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method MoveTextEnd, addr 0x2e5aa78, size 0x40, virtual false, abstract: false, final false
   inline void MoveTextEnd();
 
-  /// @brief Method MoveTextStart, addr 0x2dff220, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MoveTextStart, addr 0x2e5aa58, size 0x20, virtual false, abstract: false, final false
   inline void MoveTextStart();
 
-  /// @brief Method MoveToEndOfPreviousWord, addr 0x2dffca0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MoveToEndOfPreviousWord, addr 0x2e5b4d8, size 0x60, virtual false, abstract: false, final false
   inline void MoveToEndOfPreviousWord();
 
-  /// @brief Method MoveToStartOfNextWord, addr 0x2dffc40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MoveToStartOfNextWord, addr 0x2e5b478, size 0x60, virtual false, abstract: false, final false
   inline void MoveToStartOfNextWord();
 
-  /// @brief Method MoveUp, addr 0x2dfed88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MoveUp, addr 0x2e5a5c0, size 0xb0, virtual false, abstract: false, final false
   inline void MoveUp();
 
-  /// @brief Method MoveWordLeft, addr 0x2dffd58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveWordLeft, addr 0x2e5b590, size 0x48, virtual false, abstract: false, final false
   inline void MoveWordLeft();
 
-  /// @brief Method MoveWordRight, addr 0x2dffbdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MoveWordRight, addr 0x2e5b414, size 0x64, virtual false, abstract: false, final false
   inline void MoveWordRight();
 
   static inline ::UnityEngine::TextEditor* New_ctor();
 
-  /// @brief Method NextCodePointIndex, addr 0x2dfe834, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method NextCodePointIndex, addr 0x2e5a06c, size 0xc4, virtual false, abstract: false, final false
   inline int32_t NextCodePointIndex(int32_t index);
 
-  /// @brief Method OnCursorIndexChange, addr 0x2e004f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCursorIndexChange, addr 0x2e5bd2c, size 0x4, virtual true, abstract: false, final false
   inline void OnCursorIndexChange();
 
-  /// @brief Method OnDetectFocusChange, addr 0x2e00458, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDetectFocusChange, addr 0x2e5bc90, size 0x9c, virtual true, abstract: false, final false
   inline void OnDetectFocusChange();
 
-  /// @brief Method OnFocus, addr 0x2dfd108, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x2e58940, size 0x44, virtual false, abstract: false, final false
   inline void OnFocus();
 
-  /// @brief Method OnLostFocus, addr 0x2dfd190, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnLostFocus, addr 0x2e589c8, size 0x54, virtual false, abstract: false, final false
   inline void OnLostFocus();
 
-  /// @brief Method OnSelectIndexChange, addr 0x2e004f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSelectIndexChange, addr 0x2e5bd30, size 0x4, virtual true, abstract: false, final false
   inline void OnSelectIndexChange();
 
-  /// @brief Method Paste, addr 0x2e00270, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Paste, addr 0x2e5baa8, size 0xa4, virtual false, abstract: false, final false
   inline bool Paste();
 
-  /// @brief Method PerformOperation, addr 0x2dfde78, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method PerformOperation, addr 0x2e596b0, size 0x3d8, virtual false, abstract: false, final false
   inline bool PerformOperation(::UnityEngine::__TextEditor__TextEditOp operation, bool textIsReadOnly);
 
-  /// @brief Method PreviousCodePointIndex, addr 0x2dfe9dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PreviousCodePointIndex, addr 0x2e5a214, size 0xc0, virtual false, abstract: false, final false
   inline int32_t PreviousCodePointIndex(int32_t index);
 
-  /// @brief Method ReplaceNewlinesWithSpaces, addr 0x2e00338, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReplaceNewlinesWithSpaces, addr 0x2e5bb70, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ReplaceNewlinesWithSpaces(::StringW value);
 
-  /// @brief Method ReplaceSelection, addr 0x2dfeb4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReplaceSelection, addr 0x2e5a384, size 0x7c, virtual false, abstract: false, final false
   inline void ReplaceSelection(::StringW replace);
 
-  /// @brief Method SaveBackup, addr 0x2e00314, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SaveBackup, addr 0x2e5bb4c, size 0x24, virtual false, abstract: false, final false
   inline void SaveBackup();
 
-  /// @brief Method SelectAll, addr 0x2dfd14c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectAll, addr 0x2e58984, size 0x44, virtual false, abstract: false, final false
   inline void SelectAll();
 
-  /// @brief Method SelectCurrentParagraph, addr 0x2e00128, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentParagraph, addr 0x2e5b960, size 0x8c, virtual false, abstract: false, final false
   inline void SelectCurrentParagraph();
 
-  /// @brief Method SelectCurrentWord, addr 0x2e000bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentWord, addr 0x2e5b8f4, size 0x6c, virtual false, abstract: false, final false
   inline void SelectCurrentWord();
 
-  /// @brief Method SelectDown, addr 0x2dff8f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SelectDown, addr 0x2e5b130, size 0x80, virtual false, abstract: false, final false
   inline void SelectDown();
 
-  /// @brief Method SelectGraphicalLineEnd, addr 0x2dfff64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SelectGraphicalLineEnd, addr 0x2e5b79c, size 0x2c, virtual false, abstract: false, final false
   inline void SelectGraphicalLineEnd();
 
-  /// @brief Method SelectGraphicalLineStart, addr 0x2dfff38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SelectGraphicalLineStart, addr 0x2e5b770, size 0x2c, virtual false, abstract: false, final false
   inline void SelectGraphicalLineStart();
 
-  /// @brief Method SelectLeft, addr 0x2dff7e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SelectLeft, addr 0x2e5b01c, size 0x58, virtual false, abstract: false, final false
   inline void SelectLeft();
 
-  /// @brief Method SelectNone, addr 0x2dfea9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SelectNone, addr 0x2e5a2d4, size 0x24, virtual false, abstract: false, final false
   inline void SelectNone();
 
-  /// @brief Method SelectParagraphBackward, addr 0x2e00018, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SelectParagraphBackward, addr 0x2e5b850, size 0xa4, virtual false, abstract: false, final false
   inline void SelectParagraphBackward();
 
-  /// @brief Method SelectParagraphForward, addr 0x2dfff90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SelectParagraphForward, addr 0x2e5b7c8, size 0x88, virtual false, abstract: false, final false
   inline void SelectParagraphForward();
 
-  /// @brief Method SelectRight, addr 0x2dff83c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SelectRight, addr 0x2e5b074, size 0x58, virtual false, abstract: false, final false
   inline void SelectRight();
 
-  /// @brief Method SelectTextEnd, addr 0x2dff978, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SelectTextEnd, addr 0x2e5b1b0, size 0x24, virtual false, abstract: false, final false
   inline void SelectTextEnd();
 
-  /// @brief Method SelectTextStart, addr 0x2dff99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SelectTextStart, addr 0x2e5b1d4, size 0x8, virtual false, abstract: false, final false
   inline void SelectTextStart();
 
-  /// @brief Method SelectToEndOfPreviousWord, addr 0x2dffd2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SelectToEndOfPreviousWord, addr 0x2e5b564, size 0x2c, virtual false, abstract: false, final false
   inline void SelectToEndOfPreviousWord();
 
-  /// @brief Method SelectToPosition, addr 0x2dff4d8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SelectToPosition, addr 0x2e5ad10, size 0x1f8, virtual false, abstract: false, final false
   inline void SelectToPosition(::UnityEngine::Vector2 cursorPosition);
 
-  /// @brief Method SelectToStartOfNextWord, addr 0x2dffd00, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SelectToStartOfNextWord, addr 0x2e5b538, size 0x2c, virtual false, abstract: false, final false
   inline void SelectToStartOfNextWord();
 
-  /// @brief Method SelectUp, addr 0x2dff894, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SelectUp, addr 0x2e5b0cc, size 0x64, virtual false, abstract: false, final false
   inline void SelectUp();
 
-  /// @brief Method SelectWordLeft, addr 0x2dffe08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SelectWordLeft, addr 0x2e5b640, size 0x68, virtual false, abstract: false, final false
   inline void SelectWordLeft();
 
-  /// @brief Method SelectWordRight, addr 0x2dffda0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SelectWordRight, addr 0x2e5b5d8, size 0x68, virtual false, abstract: false, final false
   inline void SelectWordRight();
 
-  /// @brief Method UpdateScrollOffset, addr 0x2dfcb90, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollOffset, addr 0x2e583c8, size 0x3a4, virtual false, abstract: false, final false
   inline void UpdateScrollOffset();
 
   constexpr int32_t const& __cordl_internal_get_controlID() const;
@@ -972,47 +972,47 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x2dfd010, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e58848, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::__TextEditor__TextEditOp>* getStaticF_s_Keyactions();
 
-  /// @brief Method get_SelectedText, addr 0x2dfeac0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_SelectedText, addr 0x2e5a2f8, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW get_SelectedText();
 
-  /// @brief Method get_altCursorPosition, addr 0x2dfd008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_altCursorPosition, addr 0x2e58840, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_altCursorPosition();
 
-  /// @brief Method get_cursorIndex, addr 0x2dfcf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cursorIndex, addr 0x2e58778, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cursorIndex();
 
-  /// @brief Method get_hasSelection, addr 0x2dfe308, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasSelection, addr 0x2e59b40, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasSelection();
 
-  /// @brief Method get_localPosition, addr 0x2dfcf34, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x2e5876c, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Rect get_localPosition();
 
-  /// @brief Method get_position, addr 0x2dfcacc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2e58304, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_position();
 
-  /// @brief Method get_selectIndex, addr 0x2dfcfa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectIndex, addr 0x2e587d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectIndex();
 
-  /// @brief Method get_text, addr 0x2dfc9f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2e58230, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_s_Keyactions(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::__TextEditor__TextEditOp>* value);
 
-  /// @brief Method set_cursorIndex, addr 0x2dfcf48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_cursorIndex, addr 0x2e58780, size 0x58, virtual false, abstract: false, final false
   inline void set_cursorIndex(int32_t value);
 
-  /// @brief Method set_position, addr 0x2dfcad8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x2e58310, size 0xb8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Rect value);
 
-  /// @brief Method set_selectIndex, addr 0x2dfcfa8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_selectIndex, addr 0x2e587e0, size 0x50, virtual false, abstract: false, final false
   inline void set_selectIndex(int32_t value);
 
-  /// @brief Method set_text, addr 0x2dfca14, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2e5824c, size 0x78, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-#include "GlobalNamespace/zzzz__AppInit_impl.hpp"
+#include "BeatSaber/Init/zzzz__BSAppInit_impl.hpp"
 #include "GlobalNamespace/zzzz__PCAppInit_def.hpp"
 #include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::AppStartAndMultiSceneEditorSetup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x237f2b8;
+  constexpr static std::size_t addrs = 0x23e1160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PCAppInit::*)()>(
     &::GlobalNamespace::PCAppInit::RepeatableSetupAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x237f320;
+  constexpr static std::size_t addrs = 0x23e11c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::TransitionToNextScene)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x237f3bc;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x23e1264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::InstallBindings)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x237f490;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x23e13d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x237f62c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23e159c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), ".ctor",
@@ -97,30 +97,6 @@ constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& G
 constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultScenesTransitionsFromInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::StringW& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToMenuCommandArgument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____goStraightToMenuCommandArgument;
-}
-constexpr ::StringW const& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToMenuCommandArgument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____goStraightToMenuCommandArgument;
-}
-constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__goStraightToMenuCommandArgument(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____goStraightToMenuCommandArgument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::StringW& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToEditorCommandArgument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____goStraightToEditorCommandArgument;
-}
-constexpr ::StringW const& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToEditorCommandArgument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____goStraightToEditorCommandArgument;
-}
-constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__goStraightToEditorCommandArgument(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____goStraightToEditorCommandArgument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::PCAppInit::AppStartAndMultiSceneEditorSetup() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

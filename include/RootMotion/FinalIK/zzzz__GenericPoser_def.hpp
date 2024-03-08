@@ -46,15 +46,15 @@ public:
   /// @brief Field target, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
-  /// @brief Method FixTransform, addr 0x1366dec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method FixTransform, addr 0x1390344, size 0x40, virtual false, abstract: false, final false
   inline void FixTransform();
 
   static inline ::RootMotion::FinalIK::__GenericPoser__Map* New_ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target);
 
-  /// @brief Method StoreDefaultState, addr 0x1366e2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultState, addr 0x1390384, size 0x44, virtual false, abstract: false, final false
   inline void StoreDefaultState();
 
-  /// @brief Method Update, addr 0x1366c70, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x13901c8, size 0x120, virtual false, abstract: false, final false
   inline void Update(float_t localRotationWeight, float_t localPositionWeight);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x1366af0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1390048, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target);
 
 protected:
@@ -138,24 +138,24 @@ public:
   __declspec(property(get = __cordl_internal_get_maps,
                       put = __cordl_internal_set_maps))::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> maps;
 
-  /// @brief Method AutoMapping, addr 0x1366804, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method AutoMapping, addr 0x138fd5c, size 0x258, virtual true, abstract: false, final false
   inline void AutoMapping();
 
-  /// @brief Method FixPoserTransforms, addr 0x1366d90, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method FixPoserTransforms, addr 0x13902e8, size 0x5c, virtual true, abstract: false, final false
   inline void FixPoserTransforms();
 
-  /// @brief Method GetTargetNamed, addr 0x1366a5c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetTargetNamed, addr 0x138ffb4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetTargetNamed(::StringW tName, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> array);
 
-  /// @brief Method InitiatePoser, addr 0x1366b7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InitiatePoser, addr 0x13900d4, size 0x4, virtual true, abstract: false, final false
   inline void InitiatePoser();
 
   static inline ::RootMotion::FinalIK::GenericPoser* New_ctor();
 
-  /// @brief Method StoreDefaultState, addr 0x1366b20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultState, addr 0x1390078, size 0x5c, virtual false, abstract: false, final false
   inline void StoreDefaultState();
 
-  /// @brief Method UpdatePoser, addr 0x1366b80, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method UpdatePoser, addr 0x13900d8, size 0xf0, virtual true, abstract: false, final false
   inline void UpdatePoser();
 
   constexpr ::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> const& __cordl_internal_get_maps() const;
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_maps(::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> value);
 
-  /// @brief Method .ctor, addr 0x1366e70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13903c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

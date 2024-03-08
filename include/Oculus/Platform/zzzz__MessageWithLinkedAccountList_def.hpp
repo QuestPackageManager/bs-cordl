@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLinkedAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LinkedAccountList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e3d54, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2846770, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetLinkedAccountList, addr 0x27e3d18, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLinkedAccountList, addr 0x2846734, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();
 
   static inline ::Oculus::Platform::MessageWithLinkedAccountList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e3cc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28466dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

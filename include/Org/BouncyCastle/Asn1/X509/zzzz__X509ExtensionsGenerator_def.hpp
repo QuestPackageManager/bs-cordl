@@ -43,18 +43,18 @@ public:
   /// @brief Field extensions, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
 
-  /// @brief Method AddExtension, addr 0x1211084, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x1237788, size 0x28c, virtual false, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
 
-  /// @brief Method AddExtension, addr 0x1210f70, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x1237674, size 0x114, virtual false, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
-  /// @brief Method Generate, addr 0x12113c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x1237ac4, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Generate();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* New_ctor();
 
-  /// @brief Method Reset, addr 0x1210f08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x123760c, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_extOrdering();
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_extensions(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x1211428, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1237b2c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x1211310, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x1237a14, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:

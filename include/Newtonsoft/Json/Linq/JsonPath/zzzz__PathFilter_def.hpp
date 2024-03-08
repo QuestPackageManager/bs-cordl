@@ -29,12 +29,12 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          bool errorWhenNoMatch);
 
-  /// @brief Method GetTokenIndex, addr 0x279c5a8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetTokenIndex, addr 0x27fd864, size 0x2d8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, bool errorWhenNoMatch, int32_t index);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x279bf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fd1e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

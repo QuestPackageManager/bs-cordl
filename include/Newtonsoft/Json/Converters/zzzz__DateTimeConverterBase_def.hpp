@@ -21,12 +21,12 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE DateTimeConverterBase : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x27a45ac, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x2805868, size 0x140, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::DateTimeConverterBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27a46ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28059a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -64,10 +64,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xe5bea0, size 0x5d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe76c34, size 0x5d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe5c5f0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe77384, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -149,12 +149,12 @@ public:
 
   __declspec(property(get = get_avatar))::UnityW<::BeatSaber::AvatarCore::Avatar> avatar;
 
-  /// @brief Method LoadAndDisplayAvatar, addr 0xe5be04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LoadAndDisplayAvatar, addr 0xe76b98, size 0x94, virtual false, abstract: false, final false
   inline void LoadAndDisplayAvatar();
 
   static inline ::BeatSaber::AvatarCore::AvatarController* New_ctor();
 
-  /// @brief Method Start, addr 0xe5be00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe76b94, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::Avatar> const& __cordl_internal_get__avatar() const;
@@ -205,10 +205,10 @@ public:
 
   constexpr void __cordl_internal_set__visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  /// @brief Method .ctor, addr 0xe5be98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe76c2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_avatar, addr 0xe5bdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatar, addr 0xe76b8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> get_avatar();
 
 protected:

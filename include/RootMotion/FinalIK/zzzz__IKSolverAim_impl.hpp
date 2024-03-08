@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::IKSolverAim::*)()>(&::RootMotion::FinalIK::IKSolverAim::GetAngle)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x133ac1c;
+  constexpr static std::size_t addrs = 0x1363174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverAim*>::get(), "GetAngle",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverAim::*)()>(
     &::RootMotion::FinalIK::IKSolverAim::get_transformAxis)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x133ad54;
+  constexpr static std::size_t addrs = 0x13632ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverAim*>::get(), "get_transformAxis",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverAim::*)()>(
     &::RootMotion::FinalIK::IKSolverAim::get_transformPoleAxis)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x133ad84;
+  constexpr static std::size_t addrs = 0x13632dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverAim*>::get(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverAim::*)()>(&::RootMotion::FinalIK::IKSolverAim::OnInitiate)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x133adb4;
+  constexpr static std::size_t addrs = 0x136330c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverAim::*)()>(&::RootMotion::FinalIK::IKSolverAim::OnUpdate)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x133b040;
+  constexpr static std::size_t addrs = 0x1363598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::RootMotion::FinalIK::IKSolverAim::*)()>(&::RootMotion::FinalIK::IKSolverAim::get_minBones)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x133b9b8;
+  constexpr static std::size_t addrs = 0x1363f10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverAim::*)()>(&::RootMotion::FinalIK::IKSolverAim::Solve)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x133b910;
+  constexpr static std::size_t addrs = 0x1363e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverAim*>::get(), "Solve",
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverAim::*)()>(
     &::RootMotion::FinalIK::IKSolverAim::GetClampedIKPosition)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x133b5ac;
+  constexpr static std::size_t addrs = 0x1363b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverAim*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::FinalIK::IKSolverAim::*)(::UnityEngine::Vector3, ::RootMotion::FinalIK::__IKSolver__Bone*, float_t)>(&::RootMotion::FinalIK::IKSolverAim::RotateToTarget)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x133b9c0;
+  constexpr static std::size_t addrs = 0x1363f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverAim::*)()>(
     &::RootMotion::FinalIK::IKSolverAim::get_localDirection)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x133bef8;
+  constexpr static std::size_t addrs = 0x1364450;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverAim::*)()>(&::RootMotion::FinalIK::IKSolverAim::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x133bf58;
+  constexpr static std::size_t addrs = 0x13644b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverAim*>::get(), ".ctor",

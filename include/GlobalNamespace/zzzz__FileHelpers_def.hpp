@@ -26,16 +26,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEscapedURLForFilePath, addr 0xe97928, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedURLForFilePath, addr 0xeb79a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
 
-  /// @brief Method GetFileNamesFromFilePaths, addr 0xe97c74, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetFileNamesFromFilePaths, addr 0xeb7cf4, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
 
-  /// @brief Method GetFilePaths, addr 0xe97a40, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetFilePaths, addr 0xeb7ac0, size 0x234, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xe97984, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xeb7a04, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
 
 protected:

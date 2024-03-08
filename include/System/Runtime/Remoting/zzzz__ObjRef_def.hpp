@@ -90,13 +90,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method DeserializeInTheCurrentDomain, addr 0x2579844, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeInTheCurrentDomain, addr 0x25dc040, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* DeserializeInTheCurrentDomain(int32_t domainId, ::ArrayW<uint8_t, ::Array<uint8_t>*> tInfo);
 
-  /// @brief Method GetObjectData, addr 0x257a0c0, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x25dc8bc, size 0x1d8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x257a298, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x25dca94, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Remoting::ObjRef* New_ctor();
@@ -107,10 +107,10 @@ public:
 
   static inline ::System::Runtime::Remoting::ObjRef* New_ctor(::StringW uri, ::System::Runtime::Remoting::IChannelInfo* cinfo);
 
-  /// @brief Method SerializeType, addr 0x2579970, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SerializeType, addr 0x25dc16c, size 0x7c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeType();
 
-  /// @brief Method UpdateChannelInfo, addr 0x25797bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method UpdateChannelInfo, addr 0x25dbfb8, size 0x5c, virtual false, abstract: false, final false
   inline void UpdateChannelInfo();
 
   constexpr ::System::Type*& __cordl_internal_get__serverType();
@@ -149,38 +149,38 @@ public:
 
   constexpr void __cordl_internal_set_uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25797a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dbf9c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2579aec, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dc2e8, size 0x534, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25799ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dc1e8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW url, ::System::Object* remoteChannelData);
 
-  /// @brief Method .ctor, addr 0x2579818, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dc014, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW uri, ::System::Runtime::Remoting::IChannelInfo* cinfo);
 
   static inline int32_t getStaticF_MarshalledObjectRef();
 
   static inline int32_t getStaticF_WellKnowObjectRef();
 
-  /// @brief Method get_ChannelInfo, addr 0x257a088, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelInfo, addr 0x25dc884, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::IChannelInfo* get_ChannelInfo();
 
-  /// @brief Method get_EnvoyInfo, addr 0x257a090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EnvoyInfo, addr 0x25dc88c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::IEnvoyInfo* get_EnvoyInfo();
 
-  /// @brief Method get_IsReferenceToWellKnow, addr 0x257a020, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_IsReferenceToWellKnow, addr 0x25dc81c, size 0x68, virtual false, abstract: false, final false
   inline bool get_IsReferenceToWellKnow();
 
-  /// @brief Method get_ServerType, addr 0x257a394, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method get_ServerType, addr 0x25dcb90, size 0x144, virtual false, abstract: false, final false
   inline ::System::Type* get_ServerType();
 
-  /// @brief Method get_TypeInfo, addr 0x257a0a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeInfo, addr 0x25dc89c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::IRemotingTypeInfo* get_TypeInfo();
 
-  /// @brief Method get_URI, addr 0x257a0b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_URI, addr 0x25dc8ac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_URI();
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
@@ -193,13 +193,13 @@ public:
 
   static inline void setStaticF_WellKnowObjectRef(int32_t value);
 
-  /// @brief Method set_EnvoyInfo, addr 0x257a098, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_EnvoyInfo, addr 0x25dc894, size 0x8, virtual true, abstract: false, final false
   inline void set_EnvoyInfo(::System::Runtime::Remoting::IEnvoyInfo* value);
 
-  /// @brief Method set_TypeInfo, addr 0x257a0a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_TypeInfo, addr 0x25dc8a4, size 0x8, virtual true, abstract: false, final false
   inline void set_TypeInfo(::System::Runtime::Remoting::IRemotingTypeInfo* value);
 
-  /// @brief Method set_URI, addr 0x257a0b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_URI, addr 0x25dc8b4, size 0x8, virtual true, abstract: false, final false
   inline void set_URI(::StringW value);
 
 protected:

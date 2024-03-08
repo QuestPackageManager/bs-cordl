@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x2bcdb80, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x2c2e3b8, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 vector, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x2bcdb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c2e3d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -36,19 +36,19 @@ public:
 
   static inline ::System::IO::CStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Peek, addr 0x2638d10, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x269a060, size 0x88, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x2638d98, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x269a0e8, size 0xd0, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x2638e68, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x269a1b8, size 0x1b0, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x2639018, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x269a368, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x26390b0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x269a400, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
   constexpr ::System::TermInfoDriver*& __cordl_internal_get_driver();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_driver(::System::TermInfoDriver* value);
 
-  /// @brief Method .ctor, addr 0x2638bfc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2699f4c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
 protected:

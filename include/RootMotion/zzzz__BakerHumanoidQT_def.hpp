@@ -98,32 +98,32 @@ public:
   /// @brief Field transform, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method MoveLastKeyframe, addr 0x130f55c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MoveLastKeyframe, addr 0x1337ab4, size 0x7c, virtual false, abstract: false, final false
   inline void MoveLastKeyframe(float_t time, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method MoveLastKeyframes, addr 0x130f4f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MoveLastKeyframes, addr 0x1337a4c, size 0x68, virtual false, abstract: false, final false
   inline void MoveLastKeyframes(float_t time);
 
-  /// @brief Method MultiplyLength, addr 0x130f640, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MultiplyLength, addr 0x1337b98, size 0xa8, virtual false, abstract: false, final false
   inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
 
   static inline ::RootMotion::BakerHumanoidQT* New_ctor(::StringW name);
 
   static inline ::RootMotion::BakerHumanoidQT* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name);
 
-  /// @brief Method Reset, addr 0x130ef04, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x133745c, size 0x144, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetCurves, addr 0x130f6e8, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SetCurves, addr 0x1337c40, size 0x2ec, virtual false, abstract: false, final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
 
-  /// @brief Method SetIKKeyframes, addr 0x130f1d0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method SetIKKeyframes, addr 0x1337728, size 0x234, virtual false, abstract: false, final false
   inline void SetIKKeyframes(float_t time, ::UnityEngine::Avatar* avatar, float_t humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation);
 
-  /// @brief Method SetKeyframes, addr 0x130f404, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetKeyframes, addr 0x133795c, size 0xf0, virtual false, abstract: false, final false
   inline void SetKeyframes(float_t time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method SetLoopFrame, addr 0x130f5d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLoopFrame, addr 0x1337b30, size 0x68, virtual false, abstract: false, final false
   inline void SetLoopFrame(float_t time);
 
   constexpr ::StringW const& __cordl_internal_get_Qw() const;
@@ -234,10 +234,10 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x130ed8c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13372e4, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x130f048, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13375a0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name);
 
 protected:

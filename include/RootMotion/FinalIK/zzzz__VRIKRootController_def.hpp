@@ -49,21 +49,21 @@ public:
   /// @brief Field rightFootTarget, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_rightFootTarget, put = __cordl_internal_set_rightFootTarget))::UnityW<::UnityEngine::Transform> rightFootTarget;
 
-  /// @brief Method Awake, addr 0x1376860, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x13a0db8, size 0xf4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Calibrate, addr 0x137552c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x139fa84, size 0x1c0, virtual false, abstract: false, final false
   inline void Calibrate();
 
-  /// @brief Method Calibrate, addr 0x137633c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x13a0894, size 0x158, virtual false, abstract: false, final false
   inline void Calibrate(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data);
 
   static inline ::RootMotion::FinalIK::VRIKRootController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1376d1c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x13a1274, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPreUpdate, addr 0x1376954, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method OnPreUpdate, addr 0x13a0eac, size 0x3c8, virtual false, abstract: false, final false
   inline void OnPreUpdate();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__pelvisTargetRight_k__BackingField() const;
@@ -96,13 +96,13 @@ public:
 
   constexpr void __cordl_internal_set_rightFootTarget(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x1376e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a1380, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pelvisTargetRight, addr 0x1376848, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pelvisTargetRight, addr 0x13a0da0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pelvisTargetRight();
 
-  /// @brief Method set_pelvisTargetRight, addr 0x1376854, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pelvisTargetRight, addr 0x13a0dac, size 0xc, virtual false, abstract: false, final false
   inline void set_pelvisTargetRight(::UnityEngine::Vector3 value);
 
 protected:

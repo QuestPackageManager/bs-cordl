@@ -90,32 +90,32 @@ public:
   /// @brief Field weight, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method GetDir, addr 0x133282c, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method GetDir, addr 0x135ad84, size 0x630, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetDir(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Initiate, addr 0x1331860, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1359db8, size 0x268, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method IsValid, addr 0x1333b58, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x135c0b0, size 0x1d8, virtual false, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolverFullBody* solver, ::RootMotion::__Warning__Logger* logger);
 
-  /// @brief Method LimitBend, addr 0x133426c, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method LimitBend, addr 0x135c7c4, size 0x3c8, virtual false, abstract: false, final false
   inline void LimitBend(float_t solverWeight, float_t positionWeight);
 
   static inline ::RootMotion::FinalIK::IKConstraintBend* New_ctor();
 
   static inline ::RootMotion::FinalIK::IKConstraintBend* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
 
-  /// @brief Method OrthoToBone1, addr 0x1333e74, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OrthoToBone1, addr 0x135c3cc, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 OrthoToBone1(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
 
-  /// @brief Method OrthoToLimb, addr 0x1333dd0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OrthoToLimb, addr 0x135c328, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 OrthoToLimb(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
 
-  /// @brief Method SetBones, addr 0x1331854, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetBones, addr 0x1359dac, size 0xc, virtual false, abstract: false, final false
   inline void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
 
-  /// @brief Method SetLimbOrientation, addr 0x1333f18, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method SetLimbOrientation, addr 0x135c470, size 0x354, virtual false, abstract: false, final false
   inline void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower, ::UnityEngine::Vector3 last);
 
   constexpr bool const& __cordl_internal_get__initiated_k__BackingField() const;
@@ -226,16 +226,16 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1330cb8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1359210, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1333d44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135c29c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
 
-  /// @brief Method get_initiated, addr 0x1333d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_initiated, addr 0x135c288, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated, addr 0x1333d38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_initiated, addr 0x135c290, size 0xc, virtual false, abstract: false, final false
   inline void set_initiated(bool value);
 
 protected:

@@ -28,22 +28,22 @@ public:
   /// @brief Field LIV_TESSELLATION_PROPERTY, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_LIV_TESSELLATION_PROPERTY, put = setStaticF_LIV_TESSELLATION_PROPERTY)) int32_t LIV_TESSELLATION_PROPERTY;
 
-  /// @brief Method StartBackgroundRendering, addr 0x2373cc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundRendering, addr 0x23d5aa0, size 0x44, virtual false, abstract: false, final false
   static inline void StartBackgroundRendering();
 
-  /// @brief Method StartForegroundRendering, addr 0x23740f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartForegroundRendering, addr 0x23d5ec8, size 0x44, virtual false, abstract: false, final false
   static inline void StartForegroundRendering();
 
-  /// @brief Method StartRendering, addr 0x2373c84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartRendering, addr 0x23d5a5c, size 0x44, virtual false, abstract: false, final false
   static inline void StartRendering();
 
-  /// @brief Method StopBackgroundRendering, addr 0x2373e98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopBackgroundRendering, addr 0x23d5c70, size 0x44, virtual false, abstract: false, final false
   static inline void StopBackgroundRendering();
 
-  /// @brief Method StopForegroundRendering, addr 0x23741a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopForegroundRendering, addr 0x23d5f7c, size 0x44, virtual false, abstract: false, final false
   static inline void StopForegroundRendering();
 
-  /// @brief Method StopRendering, addr 0x2373edc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopRendering, addr 0x23d5cb4, size 0x44, virtual false, abstract: false, final false
   static inline void StopRendering();
 
   static inline int32_t getStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY();

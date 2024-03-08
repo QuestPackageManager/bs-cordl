@@ -31,7 +31,7 @@ public:
   /// @brief Field _LeaveStreamOpen, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__LeaveStreamOpen, put = __cordl_internal_set__LeaveStreamOpen)) bool _LeaveStreamOpen;
 
-  /// @brief Method Dispose, addr 0x29e93e4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2a4ac1c, size 0xe8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Security::AuthenticatedStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__LeaveStreamOpen(bool value);
 
-  /// @brief Method .ctor, addr 0x29e9244, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a4aa7c, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
 
-  /// @brief Method get_InnerStream, addr 0x29e93dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerStream, addr 0x2a4ac14, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
   /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

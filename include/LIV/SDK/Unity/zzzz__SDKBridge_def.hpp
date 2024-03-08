@@ -112,19 +112,19 @@ public:
   static __declspec(property(get = getStaticF__injection_SDKResolution,
                              put = setStaticF__injection_SDKResolution))::LIV::SDK::Unity::__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKResolution> _injection_SDKResolution;
 
-  /// @brief Method AddObjectToChannel, addr 0x2370c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddObjectToChannel, addr 0x23d29e4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddObjectToChannel(int32_t slot, void* obj, int32_t objectsize, uint64_t tag);
 
-  /// @brief Method AddObjectToCompositorChannel, addr 0x2370b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddObjectToCompositorChannel, addr 0x23d28fc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddObjectToCompositorChannel(int32_t slot, void* obj, int32_t objectsize, uint64_t tag);
 
-  /// @brief Method AddObjectToFrame, addr 0x2370b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddObjectToFrame, addr 0x23d2904, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddObjectToFrame(void* obj, int32_t objectsize, uint64_t tag);
 
-  /// @brief Method AddString, addr 0x2370c98, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddString, addr 0x23d2a70, size 0xfc, virtual false, abstract: false, final false
   static inline void AddString(::StringW tag, ::StringW value, int32_t slot);
 
-  /// @brief Method AddStringToChannel, addr 0x2370a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddStringToChannel, addr 0x23d2844, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AddStringToChannel(int32_t slot, void* str, int32_t length, uint64_t tag);
 
   /// @brief Method AddStructToFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -136,40 +136,40 @@ public:
   /// @brief Method AddStructToLocalChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t AddStructToLocalChannel(ByRef<T> mystruct, int32_t channel, uint64_t tag);
 
-  /// @brief Method AddTexture, addr 0x23715f0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddTexture, addr 0x23d33c8, size 0x130, virtual false, abstract: false, final false
   static inline void AddTexture(::LIV::SDK::Unity::SDKTexture texture);
 
-  /// @brief Method AddTexture, addr 0x2370d94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddTexture, addr 0x23d2b6c, size 0xc0, virtual false, abstract: false, final false
   static inline void AddTexture(::LIV::SDK::Unity::SDKTexture texture, uint64_t tag);
 
-  /// @brief Method CreateFrame, addr 0x2371720, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateFrame, addr 0x23d34f8, size 0x168, virtual false, abstract: false, final false
   static inline void CreateFrame(::LIV::SDK::Unity::SDKOutputFrame frame);
 
-  /// @brief Method GetChannelObject, addr 0x2370bc4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetChannelObject, addr 0x23d299c, size 0x48, virtual false, abstract: false, final false
   static inline void* GetChannelObject(int32_t slot, uint64_t tag, uint64_t timestamp);
 
-  /// @brief Method GetCompositorChannelObject, addr 0x2370adc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetCompositorChannelObject, addr 0x23d28b4, size 0x48, virtual false, abstract: false, final false
   static inline void* GetCompositorChannelObject(int32_t slot, uint64_t tag, uint64_t timestamp);
 
-  /// @brief Method GetCurrentTime, addr 0x2370eb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTime, addr 0x23d2c88, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t GetCurrentTime();
 
-  /// @brief Method GetCurrentTimeTicks, addr 0x2370a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTimeTicks, addr 0x23d285c, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetCurrentTimeTicks();
 
-  /// @brief Method GetIsCaptureActive, addr 0x2370a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIsCaptureActive, addr 0x23d2864, size 0x8, virtual false, abstract: false, final false
   static inline bool GetIsCaptureActive();
 
-  /// @brief Method GetObjectTime, addr 0x2370e54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectTime, addr 0x23d2c2c, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t GetObjectTime(void* objectptr);
 
-  /// @brief Method GetObjectTimeStamp, addr 0x2370a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectTimeStamp, addr 0x23d2854, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetObjectTimeStamp(void* obj);
 
-  /// @brief Method GetRenderEventFunc, addr 0x2370a94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetRenderEventFunc, addr 0x23d286c, size 0x48, virtual false, abstract: false, final false
   static inline void* GetRenderEventFunc();
 
-  /// @brief Method GetResolution, addr 0x2371928, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetResolution, addr 0x23d3700, size 0x130, virtual false, abstract: false, final false
   static inline bool GetResolution(ByRef<::LIV::SDK::Unity::SDKResolution> sdkResolution);
 
   /// @brief Method GetStructFromGlobalChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -178,28 +178,28 @@ public:
   /// @brief Method GetStructFromLocalChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool GetStructFromLocalChannel(ByRef<T> mystruct, int32_t channel, uint64_t tag);
 
-  /// @brief Method GetViewfinderTexture, addr 0x23713c0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetViewfinderTexture, addr 0x23d3198, size 0x1d4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTexture GetViewfinderTexture();
 
-  /// @brief Method GetViewportTexture, addr 0x2370b7c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetViewportTexture, addr 0x23d2954, size 0x48, virtual false, abstract: false, final false
   static inline void* GetViewportTexture();
 
-  /// @brief Method IssuePluginEvent, addr 0x2370f0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IssuePluginEvent, addr 0x23d2ce4, size 0xb0, virtual false, abstract: false, final false
   static inline void IssuePluginEvent();
 
-  /// @brief Method SetGroundPlane, addr 0x2371888, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetGroundPlane, addr 0x23d3660, size 0xa0, virtual false, abstract: false, final false
   static inline void SetGroundPlane(::LIV::SDK::Unity::SDKPlane groundPlane);
 
-  /// @brief Method SubmitApplicationOutput, addr 0x23704c8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SubmitApplicationOutput, addr 0x23d22a0, size 0x1f0, virtual false, abstract: false, final false
   static inline void SubmitApplicationOutput(::LIV::SDK::Unity::SDKApplicationOutput applicationOutput);
 
-  /// @brief Method Tag, addr 0x2370c14, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Tag, addr 0x23d29ec, size 0x84, virtual false, abstract: false, final false
   static inline uint64_t Tag(::StringW str);
 
-  /// @brief Method UpdateInputFrame, addr 0x2370fbc, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method UpdateInputFrame, addr 0x23d2d94, size 0x2c0, virtual false, abstract: false, final false
   static inline bool UpdateInputFrame(ByRef<::LIV::SDK::Unity::SDKInputFrame> setframe);
 
-  /// @brief Method addtexture, addr 0x2370a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method addtexture, addr 0x23d284c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t addtexture(void* sourcetexture, uint64_t tag);
 
   static inline bool getStaticF__injection_DisableAddTexture();
@@ -216,7 +216,7 @@ public:
 
   static inline ::LIV::SDK::Unity::__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKResolution> getStaticF__injection_SDKResolution();
 
-  /// @brief Method get_IsActive, addr 0x236fcb4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x23d1a8c, size 0x98, virtual false, abstract: false, final false
   static inline bool get_IsActive();
 
   static inline void setStaticF__injection_DisableAddTexture(bool value);
@@ -233,7 +233,7 @@ public:
 
   static inline void setStaticF__injection_SDKResolution(::LIV::SDK::Unity::__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKResolution> value);
 
-  /// @brief Method updatinputframe, addr 0x2370b34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method updatinputframe, addr 0x23d290c, size 0x48, virtual false, abstract: false, final false
   static inline void* updatinputframe(void* InputFrame);
 
 protected:

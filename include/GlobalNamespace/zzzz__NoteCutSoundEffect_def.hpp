@@ -145,28 +145,28 @@ public:
 
   __declspec(property(get = get_volumeMultiplier, put = set_volumeMultiplier)) float_t volumeMultiplier;
 
-  /// @brief Method Awake, addr 0x2384554, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23e6af4, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComputeDSPTimes, addr 0x23847a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeDSPTimes, addr 0x23e6d48, size 0xac, virtual false, abstract: false, final false
   inline void ComputeDSPTimes(double_t noteDSPTime, float_t aheadTime, float_t timeToPrevNote, float_t timeToNextNote);
 
-  /// @brief Method Init, addr 0x23845f8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23e6b98, size 0x1b0, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double_t noteDSPTime, float_t aheadTime, float_t missedTimeOffset, float_t timeToPrevNote,
                    float_t timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float_t volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
 
-  /// @brief Method LateUpdate, addr 0x2384854, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x23e6df4, size 0x1c0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteCutSoundEffect* New_ctor();
 
-  /// @brief Method NoteWasCut, addr 0x2384c04, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method NoteWasCut, addr 0x23e71a4, size 0x20c, virtual false, abstract: false, final false
   inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method Start, addr 0x23845d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23e6b78, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x2384a14, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x23e6fb4, size 0x1f0, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -319,19 +319,19 @@ public:
 
   constexpr void __cordl_internal_set__volumeMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x2384e10, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e73b0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x2384510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x23e6ab0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method get_time, addr 0x2384528, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x23e6ac8, size 0x2c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_volumeMultiplier, addr 0x2384520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeMultiplier, addr 0x23e6ac0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeMultiplier();
 
-  /// @brief Method set_volumeMultiplier, addr 0x2384518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeMultiplier, addr 0x23e6ab8, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeMultiplier(float_t value);
 
 protected:
@@ -495,7 +495,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__NoteCutSoundEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2384e94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e7434, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

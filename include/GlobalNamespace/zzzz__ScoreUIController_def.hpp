@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_scoreDisplayType(::GlobalNamespace::__ScoreUIController__ScoreDisplayType value);
 
-  /// @brief Method .ctor, addr 0x244eb00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b745c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
 protected:
@@ -161,30 +161,30 @@ public:
   /// @brief Field _stringBuilder, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method Append000Number, addr 0x244ea30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Append000Number, addr 0x24b738c, size 0x60, virtual false, abstract: false, final false
   static inline void Append000Number(::System::Text::StringBuilder* stringBuilder, int32_t number);
 
-  /// @brief Method HandleScoreDidChangeRealtime, addr 0x244ea2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChangeRealtime, addr 0x24b7388, size 0x4, virtual false, abstract: false, final false
   inline void HandleScoreDidChangeRealtime(int32_t multipliedScore, int32_t modifiedScore);
 
   static inline ::GlobalNamespace::ScoreUIController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x244e920, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24b727c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x244e91c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24b7278, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterForEvents, addr 0x244e600, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x24b6f5c, size 0x198, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method Start, addr 0x244e588, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24b6ee4, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromEvents, addr 0x244e924, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x24b7280, size 0x108, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method UpdateScore, addr 0x244e798, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x24b70f4, size 0x184, virtual false, abstract: false, final false
   inline void UpdateScore(int32_t multipliedScore, int32_t modifiedScore);
 
   constexpr ::GlobalNamespace::__ScoreUIController__InitData*& __cordl_internal_get__initData();
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x244ea90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b73ec, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

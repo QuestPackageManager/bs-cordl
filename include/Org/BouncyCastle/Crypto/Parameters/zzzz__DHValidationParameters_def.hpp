@@ -31,16 +31,16 @@ public:
   /// @brief Field seed, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
-  /// @brief Method Equals, addr 0xfa1560, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xfc2c64, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xfa15fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xfc2d00, size 0x90, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xfa168c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xfc2d90, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSeed, addr 0xfa14e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0xfc2be4, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0xfa13e4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc2ae8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method get_Counter, addr 0xfa1558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0xfc2c5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Counter();
 
 protected:

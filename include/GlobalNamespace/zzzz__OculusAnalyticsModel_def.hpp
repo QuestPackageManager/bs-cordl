@@ -30,30 +30,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method LogClick, addr 0xe7c7e0, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method LogClick, addr 0xe98b78, size 0x90, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogEditAvatarEvent, addr 0xe7c6e8, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method LogEditAvatarEvent, addr 0xe98a80, size 0xf8, virtual true, abstract: false, final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEvent, addr 0xe7c5f0, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method LogEvent, addr 0xe98988, size 0xf8, virtual true, abstract: false, final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0xe7c900, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method LogExposure, addr 0xe98c98, size 0x90, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-  /// @brief Method LogImpression, addr 0xe7c870, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method LogImpression, addr 0xe98c08, size 0x90, virtual true, abstract: false, final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
   static inline ::GlobalNamespace::OculusAnalyticsModel* New_ctor();
 
-  /// @brief Method OpenDataPrivacyPage, addr 0xe7c5ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OpenDataPrivacyPage, addr 0xe98984, size 0x4, virtual true, abstract: false, final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method .ctor, addr 0xe7c990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe98d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0xe7c5e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0xe9897c, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();
 
   /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"

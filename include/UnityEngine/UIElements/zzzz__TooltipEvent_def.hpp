@@ -33,10 +33,10 @@ public:
 
   __declspec(property(put = set_tooltip))::StringW tooltip;
 
-  /// @brief Method Init, addr 0x2f5ab0c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2fb4344, size 0x90, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2f5ab9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2fb43d4, size 0x5c, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::TooltipEvent* New_ctor();
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__tooltip_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f5ac14, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb444c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_rect, addr 0x2f5ab00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rect, addr 0x2fb4338, size 0xc, virtual false, abstract: false, final false
   inline void set_rect(::UnityEngine::Rect value);
 
-  /// @brief Method set_tooltip, addr 0x2f5aaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x2fb4330, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:

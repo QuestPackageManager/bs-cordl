@@ -26,10 +26,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe6d1b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe87f80, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0xe6d178, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0xe87f44, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
 protected:

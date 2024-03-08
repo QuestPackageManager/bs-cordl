@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (*)(::UnityEngine::Transform*, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRExtensions::ToTrackingSpacePose)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x28042c4;
+  constexpr static std::size_t addrs = 0x2866ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (*)(::GlobalNamespace::OVRPose)>(&::GlobalNamespace::OVRExtensions::ToWorldSpacePose)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x280bd84;
+  constexpr static std::size_t addrs = 0x286e7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (*)(::GlobalNamespace::OVRPose, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRExtensions::ToWorldSpacePose)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x27ff884;
+  constexpr static std::size_t addrs = 0x28622a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (*)(::GlobalNamespace::OVRPose)>(&::GlobalNamespace::OVRExtensions::ToHeadSpacePose)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x280bdd4;
+  constexpr static std::size_t addrs = 0x286e7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (*)(::UnityEngine::Transform*, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRExtensions::ToHeadSpacePose)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x280bbac;
+  constexpr static std::size_t addrs = 0x286e5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (*)(::UnityEngine::Transform*, bool)>(&::GlobalNamespace::OVRExtensions::ToOVRPose)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x280bef4;
+  constexpr static std::size_t addrs = 0x286e910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::GlobalNamespace::OVRPose, bool)>(
     &::GlobalNamespace::OVRExtensions::FromOVRPose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x28033fc;
+  constexpr static std::size_t addrs = 0x2865e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (*)(::GlobalNamespace::__OVRPlugin__Posef)>(
     &::GlobalNamespace::OVRExtensions::ToOVRPose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27ffa3c;
+  constexpr static std::size_t addrs = 0x2862458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRTracker__Frustum (*)(::GlobalNamespace::__OVRPlugin__Frustumf)>(
     &::GlobalNamespace::OVRExtensions::ToFrustum)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x280bf7c;
+  constexpr static std::size_t addrs = 0x286e998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::GlobalNamespace::__OVRPlugin__Colorf)>(&::GlobalNamespace::OVRExtensions::FromColorf)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bf90;
+  constexpr static std::size_t addrs = 0x286e9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Colorf (*)(::UnityEngine::Color)>(&::GlobalNamespace::OVRExtensions::ToColorf)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bf94;
+  constexpr static std::size_t addrs = 0x286e9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::__OVRPlugin__Sizef)>(&::GlobalNamespace::OVRExtensions::FromSizef)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2806340;
+  constexpr static std::size_t addrs = 0x2868d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Sizef (*)(::UnityEngine::Vector2)>(&::GlobalNamespace::OVRExtensions::ToSizef)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bf98;
+  constexpr static std::size_t addrs = 0x286e9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::__OVRPlugin__Vector2f)>(
     &::GlobalNamespace::OVRExtensions::FromVector2f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bf9c;
+  constexpr static std::size_t addrs = 0x286e9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::__OVRPlugin__Vector2f)>(
     &::GlobalNamespace::OVRExtensions::FromFlippedXVector2f)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2806344;
+  constexpr static std::size_t addrs = 0x2868d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Vector2f (*)(::UnityEngine::Vector2)>(
     &::GlobalNamespace::OVRExtensions::ToVector2f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bfa0;
+  constexpr static std::size_t addrs = 0x286e9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRPlugin__Size3f)>(&::GlobalNamespace::OVRExtensions::FromSize3f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2806918;
+  constexpr static std::size_t addrs = 0x2869334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Size3f (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::OVRExtensions::ToSize3f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bfa4;
+  constexpr static std::size_t addrs = 0x286e9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRPlugin__Vector3f)>(
     &::GlobalNamespace::OVRExtensions::FromVector3f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2808860;
+  constexpr static std::size_t addrs = 0x286b27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRPlugin__Vector3f)>(
     &::GlobalNamespace::OVRExtensions::FromFlippedXVector3f)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x280691c;
+  constexpr static std::size_t addrs = 0x2869338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRPlugin__Vector3f)>(
     &::GlobalNamespace::OVRExtensions::FromFlippedZVector3f)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2804ad0;
+  constexpr static std::size_t addrs = 0x28674ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Vector3f (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRExtensions::ToVector3f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bfa8;
+  constexpr static std::size_t addrs = 0x286e9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Vector3f (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRExtensions::ToFlippedXVector3f)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x280bfac;
+  constexpr static std::size_t addrs = 0x286e9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Vector3f (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRExtensions::ToFlippedZVector3f)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2804118;
+  constexpr static std::size_t addrs = 0x2866b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::GlobalNamespace::__OVRPlugin__Vector4f)>(
     &::GlobalNamespace::OVRExtensions::FromVector4f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bfb4;
+  constexpr static std::size_t addrs = 0x286e9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Vector4f (*)(::UnityEngine::Vector4)>(
     &::GlobalNamespace::OVRExtensions::ToVector4f)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bfb8;
+  constexpr static std::size_t addrs = 0x286e9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::GlobalNamespace::__OVRPlugin__Quatf)>(&::GlobalNamespace::OVRExtensions::FromQuatf)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bfbc;
+  constexpr static std::size_t addrs = 0x286e9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::GlobalNamespace::__OVRPlugin__Quatf)>(
     &::GlobalNamespace::OVRExtensions::FromFlippedXQuatf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x280bfc0;
+  constexpr static std::size_t addrs = 0x286e9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::GlobalNamespace::__OVRPlugin__Quatf)>(
     &::GlobalNamespace::OVRExtensions::FromFlippedZQuatf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2804d60;
+  constexpr static std::size_t addrs = 0x286777c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Quatf (*)(::UnityEngine::Quaternion)>(&::GlobalNamespace::OVRExtensions::ToQuatf)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280bfcc;
+  constexpr static std::size_t addrs = 0x286e9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Quatf (*)(::UnityEngine::Quaternion)>(
     &::GlobalNamespace::OVRExtensions::ToFlippedXQuatf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x280bfd0;
+  constexpr static std::size_t addrs = 0x286e9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Quatf (*)(::UnityEngine::Quaternion)>(
     &::GlobalNamespace::OVRExtensions::ToFlippedZQuatf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x280410c;
+  constexpr static std::size_t addrs = 0x2866b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HmdMatrix34_t (*)(::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::OVRExtensions::ConvertToHMDMatrix34)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x280bfdc;
+  constexpr static std::size_t addrs = 0x286e9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::StringW)>(
     &::GlobalNamespace::OVRExtensions::FindChildRecursive)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x280c138;
+  constexpr static std::size_t addrs = 0x286eb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Gradient*, ::UnityEngine::Gradient*)>(&::GlobalNamespace::OVRExtensions::Equals)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x280c230;
+  constexpr static std::size_t addrs = 0x286ec4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Gradient*, ::UnityEngine::Gradient*)>(&::GlobalNamespace::OVRExtensions::CopyFrom)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x280c440;
+  constexpr static std::size_t addrs = 0x286ee5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__SpaceStorageLocation (*)(::GlobalNamespace::__OVRSpace__StorageLocation)>(
     &::GlobalNamespace::OVRExtensions::ToSpaceStorageLocation)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x280c640;
+  constexpr static std::size_t addrs = 0x286f05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

@@ -23,19 +23,19 @@ public:
 
   __declspec(property(get = get_samplesQueued, put = set_samplesQueued)) uint32_t samplesQueued;
 
-  /// @brief Method .ctor, addr 0x2bb1404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c10c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t samplesQueued, uint32_t samplesAvailable);
 
-  /// @brief Method get_samplesAvailable, addr 0x2bb141c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesAvailable, addr 0x2c10c54, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesAvailable();
 
-  /// @brief Method get_samplesQueued, addr 0x2bb140c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesQueued, addr 0x2c10c44, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesQueued();
 
-  /// @brief Method set_samplesAvailable, addr 0x2bb1424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesAvailable, addr 0x2c10c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesAvailable(uint32_t value);
 
-  /// @brief Method set_samplesQueued, addr 0x2bb1414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesQueued, addr 0x2c10c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesQueued(uint32_t value);
 
   // Ctor Parameters []

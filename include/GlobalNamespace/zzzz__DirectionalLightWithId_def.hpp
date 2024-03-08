@@ -34,7 +34,7 @@ public:
   /// @brief Field _minIntensity, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minIntensity, put = __cordl_internal_set__minIntensity)) float_t _minIntensity;
 
-  /// @brief Method ColorWasSet, addr 0x2271ea8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x22d2da8, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithId* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__minIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x2271edc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d2ddc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

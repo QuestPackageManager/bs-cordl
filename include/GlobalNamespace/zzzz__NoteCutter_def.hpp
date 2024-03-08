@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_pos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2490b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,12 +129,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x2490b24, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x24f8b6c, size 0x124, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* p0, ::System::Object* p1);
 
   static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2490b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8b5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -183,7 +183,7 @@ public:
                       put = __cordl_internal_set__cuttableBySaberSortParams))::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*,
                                                                                       ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> _cuttableBySaberSortParams;
 
-  /// @brief Method Cut, addr 0x24903ac, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x24f83f4, size 0x524, virtual false, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::NoteCutter* New_ctor();
@@ -209,7 +209,7 @@ public:
   constexpr void
   __cordl_internal_set__cuttableBySaberSortParams(::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> value);
 
-  /// @brief Method .ctor, addr 0x24909dc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8a24, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

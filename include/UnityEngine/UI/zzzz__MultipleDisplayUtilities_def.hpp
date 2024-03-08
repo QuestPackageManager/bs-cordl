@@ -28,10 +28,10 @@ namespace UnityEngine::UI {
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x2e8966c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x2ee3ea4, size 0x68, virtual false, abstract: false, final false
   static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x2e896d4, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtScaled, addr 0x2ee3f0c, size 0x468, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position);
 
 protected:

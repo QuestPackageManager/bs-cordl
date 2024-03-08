@@ -36,18 +36,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __HMAsyncRequest__CancelHander : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2255cbc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22b6be8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::HMAsyncRequest* request, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2255cdc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x22b6c08, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2255ca8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22b6bd4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::HMAsyncRequest* request);
 
   static inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2255b7c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b6aa8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -90,7 +90,7 @@ public:
 
   __declspec(property(get = get_cancelled)) bool cancelled;
 
-  /// @brief Method Cancel, addr 0x2255aec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x22b6a18, size 0x28, virtual true, abstract: false, final false
   inline void Cancel();
 
   static inline ::GlobalNamespace::HMAsyncRequest* New_ctor();
@@ -107,16 +107,16 @@ public:
 
   constexpr void __cordl_internal_set__cancelled(bool value);
 
-  /// @brief Method .ctor, addr 0x2255b14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b6a40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CancelHandler, addr 0x2255ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancelHandler, addr 0x22b6a00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* get_CancelHandler();
 
-  /// @brief Method get_cancelled, addr 0x2255ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cancelled, addr 0x22b6a10, size 0x8, virtual false, abstract: false, final false
   inline bool get_cancelled();
 
-  /// @brief Method set_CancelHandler, addr 0x2255adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancelHandler, addr 0x22b6a08, size 0x8, virtual false, abstract: false, final false
   inline void set_CancelHandler(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
 
 protected:

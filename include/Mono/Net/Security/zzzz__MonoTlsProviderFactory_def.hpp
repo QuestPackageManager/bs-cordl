@@ -61,28 +61,28 @@ public:
   static __declspec(property(get = getStaticF_providerRegistration,
                              put = setStaticF_providerRegistration))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* providerRegistration;
 
-  /// @brief Method CreateDefaultProviderImpl, addr 0x290e594, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultProviderImpl, addr 0x2970dcc, size 0x194, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* CreateDefaultProviderImpl();
 
-  /// @brief Method GetProvider, addr 0x290ee48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x2971680, size 0x4c, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProvider();
 
-  /// @brief Method GetProviderInternal, addr 0x2909f64, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetProviderInternal, addr 0x296c79c, size 0x11c, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProviderInternal();
 
-  /// @brief Method InitializeInternal, addr 0x290dfdc, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternal, addr 0x2970814, size 0x3ac, virtual false, abstract: false, final false
   static inline void InitializeInternal();
 
-  /// @brief Method InitializeProviderRegistration, addr 0x290e388, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method InitializeProviderRegistration, addr 0x2970bc0, size 0x20c, virtual false, abstract: false, final false
   static inline void InitializeProviderRegistration();
 
-  /// @brief Method LookupProvider, addr 0x290e728, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method LookupProvider, addr 0x2970f60, size 0x594, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* LookupProvider(::StringW name, bool throwOnError);
 
-  /// @brief Method PopulateProviders, addr 0x290edf8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PopulateProviders, addr 0x2971630, size 0x50, virtual false, abstract: false, final false
   static inline void PopulateProviders();
 
-  /// @brief Method PopulateUnityProviders, addr 0x290ecbc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method PopulateUnityProviders, addr 0x29714f4, size 0x13c, virtual false, abstract: false, final false
   static inline void PopulateUnityProviders();
 
   static inline ::System::Guid getStaticF_AppleTlsId();

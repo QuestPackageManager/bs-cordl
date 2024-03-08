@@ -21,18 +21,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerCancelEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerCancelEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2f5dc14, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2fb744c, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2f5dc64, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2fb749c, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x2f5ddb8, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x2fb75f0, size 0x330, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x2f5dd68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb75a0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -43,7 +43,7 @@ public:
   /// @brief Field _obstaclePrefab, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab))::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
 
-  /// @brief Method InstallBindings, addr 0x249db80, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2506a4c, size 0x18c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__obstaclePrefab(::UnityW<::GlobalNamespace::ObstacleController> value);
 
-  /// @brief Method .ctor, addr 0x249dd0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2506bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

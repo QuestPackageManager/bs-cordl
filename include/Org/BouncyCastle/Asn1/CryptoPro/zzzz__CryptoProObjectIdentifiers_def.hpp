@@ -95,7 +95,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xefa8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf1afe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_GostElSgDH3410Default();

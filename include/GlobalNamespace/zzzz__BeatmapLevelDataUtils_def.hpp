@@ -56,7 +56,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelDataUtils____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ReadJsonStringFromPathAsync>b__0, addr 0x12c7dd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <ReadJsonStringFromPathAsync>b__0, addr 0x12ef250, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _ReadJsonStringFromPathAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12c7358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ee7d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelDataUtils____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <ReadJsonStringFromDataAsync>b__0, addr 0x12c7e30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ReadJsonStringFromDataAsync>b__0, addr 0x12ef2a8, size 0x64, virtual false, abstract: false, final false
   inline ::StringW _ReadJsonStringFromDataAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_filename() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_inputData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x12c7360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ee7d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -178,52 +178,52 @@ public:
   /// @brief Field sha1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sha1, put = setStaticF_sha1))::System::Security::Cryptography::SHA1* sha1;
 
-  /// @brief Method CalculateAndInjectContentChecksumIntoBeatmapJson, addr 0x12c7368, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CalculateAndInjectContentChecksumIntoBeatmapJson, addr 0x12ee7e0, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW CalculateAndInjectContentChecksumIntoBeatmapJson(::StringW beatmapJson);
 
-  /// @brief Method CalculateAudioContentHash, addr 0x12c7540, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculateAudioContentHash, addr 0x12ee9b8, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW CalculateAudioContentHash(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method CalculateBeatmapDataContentHash, addr 0x12c73c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CalculateBeatmapDataContentHash, addr 0x12ee840, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW CalculateBeatmapDataContentHash(::StringW beatmapJson);
 
-  /// @brief Method CalculateHashFromData, addr 0x12c749c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashFromData, addr 0x12ee914, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW CalculateHashFromData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method CalculateHashFromPath, addr 0x12c764c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashFromPath, addr 0x12eeac4, size 0x200, virtual false, abstract: false, final false
   static inline ::StringW CalculateHashFromPath(::StringW path);
 
-  /// @brief Method Compress, addr 0x12c784c, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Compress, addr 0x12eecc4, size 0x464, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compress(::StringW data);
 
-  /// @brief Method Decompress, addr 0x12c6e38, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method Decompress, addr 0x12ee2b0, size 0x430, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decompress(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decompress, addr 0x12c68a8, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method Decompress, addr 0x12edd20, size 0x434, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decompress(::StringW path);
 
-  /// @brief Method GetBytesFromUtf8String, addr 0x12c7cb0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetBytesFromUtf8String, addr 0x12ef128, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytesFromUtf8String(::StringW data);
 
-  /// @brief Method GetUtf8String, addr 0x12c6cdc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetUtf8String, addr 0x12ee154, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW GetUtf8String(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method InjectContentChecksumIntoBeatmapJson, addr 0x12c7440, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InjectContentChecksumIntoBeatmapJson, addr 0x12ee8b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW InjectContentChecksumIntoBeatmapJson(::StringW beatmapJson, ::StringW checksum);
 
-  /// @brief Method IsCompressed, addr 0x12c6854, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsCompressed, addr 0x12edccc, size 0x54, virtual false, abstract: false, final false
   static inline bool IsCompressed(::StringW path);
 
-  /// @brief Method ReadJsonStringFromData, addr 0x12c615c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ReadJsonStringFromData, addr 0x12ed5cc, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW ReadJsonStringFromData(::Unity::Collections::NativeArray_1<uint8_t> inputData, ::StringW filename);
 
-  /// @brief Method ReadJsonStringFromDataAsync, addr 0x12bb0bc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadJsonStringFromDataAsync, addr 0x12e2408, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadJsonStringFromDataAsync(::Unity::Collections::NativeArray_1<uint8_t> inputData, ::StringW filename);
 
-  /// @brief Method ReadJsonStringFromPath, addr 0x12c67b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReadJsonStringFromPath, addr 0x12edc30, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ReadJsonStringFromPath(::StringW path);
 
-  /// @brief Method ReadJsonStringFromPathAsync, addr 0x12c7268, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadJsonStringFromPathAsync, addr 0x12ee6e0, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadJsonStringFromPathAsync(::StringW path);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_kUtf8Bom();

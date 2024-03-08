@@ -32,15 +32,15 @@ public:
   /// @brief Convert operator to "::Zenject::IBindingFinalizer"
   constexpr operator ::Zenject::IBindingFinalizer*() noexcept;
 
-  /// @brief Method FinalizeBinding, addr 0x2ff1780, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method FinalizeBinding, addr 0x3048fb8, size 0x4, virtual true, abstract: false, final true
   inline void FinalizeBinding(::Zenject::DiContainer* container);
 
   static inline ::Zenject::NullBindingFinalizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ff1784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3048fbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindingInheritanceMethod, addr 0x2ff1778, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_BindingInheritanceMethod, addr 0x3048fb0, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
 
   /// @brief Convert to "::Zenject::IBindingFinalizer"

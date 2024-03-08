@@ -183,25 +183,25 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method FixRemotingException, addr 0x26da060, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FixRemotingException, addr 0x273b3b0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Exception* FixRemotingException();
 
-  /// @brief Method GetClassName, addr 0x26d952c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetClassName, addr 0x273a87c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetClassName();
 
-  /// @brief Method GetMessageFromNativeResources, addr 0x26d9fdc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetMessageFromNativeResources, addr 0x273b32c, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetMessageFromNativeResources(::System::__Exception__ExceptionMessageKind kind);
 
-  /// @brief Method GetObjectData, addr 0x26d9a04, size 0x4ac, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x273ad54, size 0x4ac, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetStackTrace, addr 0x26d95ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetStackTrace, addr 0x273a93c, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW GetStackTrace(bool needFileInfo);
 
-  /// @brief Method GetType, addr 0x26d95d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetType, addr 0x273a924, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetType();
 
-  /// @brief Method Init, addr 0x26d8ef0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x273a240, size 0x78, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Exception* New_ctor();
@@ -212,25 +212,25 @@ public:
 
   static inline ::System::Exception* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method OnDeserialized, addr 0x26d9eb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x273b200, size 0x80, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ReportUnhandledException, addr 0x26da148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReportUnhandledException, addr 0x273b498, size 0x4, virtual false, abstract: false, final false
   static inline void ReportUnhandledException(::System::Exception* exception);
 
-  /// @brief Method RestoreExceptionDispatchInfo, addr 0x26d9f30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RestoreExceptionDispatchInfo, addr 0x273b280, size 0x9c, virtual false, abstract: false, final false
   inline void RestoreExceptionDispatchInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
 
-  /// @brief Method SetErrorCode, addr 0x26d9640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetErrorCode, addr 0x273a990, size 0x8, virtual false, abstract: false, final false
   inline void SetErrorCode(int32_t hr);
 
-  /// @brief Method StripFileInfo, addr 0x26d9638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StripFileInfo, addr 0x273a988, size 0x8, virtual false, abstract: false, final false
   inline ::StringW StripFileInfo(::StringW stackTrace, bool isRemoteStackTrace);
 
-  /// @brief Method ToString, addr 0x26d9754, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x273aaa4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x26d9760, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x273aab0, size 0x2a4, virtual false, abstract: false, final false
   inline ::StringW ToString(bool needFileLineInfo, bool needMessage);
 
   constexpr int32_t const& __cordl_internal_get__HResult() const;
@@ -329,36 +329,36 @@ public:
 
   constexpr void __cordl_internal_set_native_trace_ips(::ArrayW<void*, ::Array<void*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d8f68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a2b8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26d8fec, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a33c, size 0x468, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x26d8f84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a2d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x26d8fb4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a304, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Object* getStaticF_s_EDILock();
 
-  /// @brief Method get_Data, addr 0x26d9568, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x273a8b8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Data();
 
-  /// @brief Method get_HResult, addr 0x26d9fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HResult, addr 0x273b31c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_HResult();
 
-  /// @brief Method get_InnerException, addr 0x26d95dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InnerException, addr 0x273a92c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Exception* get_InnerException();
 
-  /// @brief Method get_Message, addr 0x26d9454, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x273a7a4, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Source, addr 0x26d9648, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_Source, addr 0x273a998, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW get_Source();
 
-  /// @brief Method get_StackTrace, addr 0x26d95e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x273a934, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -366,7 +366,7 @@ public:
 
   static inline void setStaticF_s_EDILock(::System::Object* value);
 
-  /// @brief Method set_HResult, addr 0x26d9fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HResult, addr 0x273b324, size 0x8, virtual false, abstract: false, final false
   inline void set_HResult(int32_t value);
 
 protected:

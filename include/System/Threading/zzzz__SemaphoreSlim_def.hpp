@@ -90,10 +90,10 @@ public:
 
   static inline ::System::Threading::__SemaphoreSlim__TaskNode* New_ctor();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x2709bf8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x2769f48, size 0x4c, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x2709c44, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x2769f94, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
   constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& __cordl_internal_get_Next();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_Prev(::System::Threading::__SemaphoreSlim__TaskNode* value);
 
-  /// @brief Method .ctor, addr 0x27094d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2769828, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
@@ -155,10 +155,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2709c48, size 0x76c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2769f98, size 0x76c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x270a3b4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x276a704, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -289,62 +289,62 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CancellationTokenCanceledEventHandler, addr 0x27099b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CancellationTokenCanceledEventHandler, addr 0x2769d08, size 0x114, virtual false, abstract: false, final false
   static inline void CancellationTokenCanceledEventHandler(::System::Object* obj);
 
-  /// @brief Method CheckDispose, addr 0x2708ebc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckDispose, addr 0x276920c, size 0x84, virtual false, abstract: false, final false
   inline void CheckDispose();
 
-  /// @brief Method CreateAndAddAsyncWaiter, addr 0x2709330, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateAndAddAsyncWaiter, addr 0x2769680, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::__SemaphoreSlim__TaskNode* CreateAndAddAsyncWaiter();
 
-  /// @brief Method Dispose, addr 0x27098f0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2769c40, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x270995c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2769cac, size 0x5c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetResourceString, addr 0x27089c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetResourceString, addr 0x2768d18, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetResourceString(::StringW str);
 
   static inline ::System::Threading::SemaphoreSlim* New_ctor(int32_t initialCount);
 
   static inline ::System::Threading::SemaphoreSlim* New_ctor(int32_t initialCount, int32_t maxCount);
 
-  /// @brief Method QueueWaiterTask, addr 0x27098e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method QueueWaiterTask, addr 0x2769c34, size 0xc, virtual false, abstract: false, final false
   static inline void QueueWaiterTask(::System::Threading::__SemaphoreSlim__TaskNode* waiterTask);
 
-  /// @brief Method Release, addr 0x27095a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x27698f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t Release();
 
-  /// @brief Method Release, addr 0x27095a8, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x27698f8, size 0x2e4, virtual false, abstract: false, final false
   inline int32_t Release(int32_t releaseCount);
 
-  /// @brief Method RemoveAsyncWaiter, addr 0x2709520, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemoveAsyncWaiter, addr 0x2769870, size 0x80, virtual false, abstract: false, final false
   inline bool RemoveAsyncWaiter(::System::Threading::__SemaphoreSlim__TaskNode* task);
 
-  /// @brief Method Wait, addr 0x2708eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x2769204, size 0x8, virtual false, abstract: false, final false
   inline bool Wait(int32_t millisecondsTimeout);
 
-  /// @brief Method Wait, addr 0x27089dc, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x2768d2c, size 0x4d8, virtual false, abstract: false, final false
   inline bool Wait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Wait, addr 0x27089d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x2768d20, size 0xc, virtual false, abstract: false, final false
   inline void Wait();
 
-  /// @brief Method WaitAsync, addr 0x2709318, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x2769668, size 0xc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitAsync();
 
-  /// @brief Method WaitAsync, addr 0x2709324, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x2769674, size 0xc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitAsync, addr 0x2708f40, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x2769290, size 0x2e4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitUntilCountOrTimeout, addr 0x2709224, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilCountOrTimeout, addr 0x2769574, size 0x90, virtual false, abstract: false, final false
   inline bool WaitUntilCountOrTimeout(int32_t millisecondsTimeout, uint32_t startTime, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitUntilCountOrTimeoutAsync, addr 0x27093b4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilCountOrTimeoutAsync, addr 0x2769704, size 0x124, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(::System::Threading::__SemaphoreSlim__TaskNode* asyncWaiter, int32_t millisecondsTimeout,
                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
@@ -390,10 +390,10 @@ public:
 
   constexpr void __cordl_internal_set_m_waitHandle(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x270882c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2768b7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCount);
 
-  /// @brief Method .ctor, addr 0x2708834, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2768b84, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCount, int32_t maxCount);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_cancellationTokenCanceledEventHandler();
@@ -402,7 +402,7 @@ public:
 
   static inline ::System::Threading::Tasks::Task_1<bool>* getStaticF_s_trueTask();
 
-  /// @brief Method get_CurrentCount, addr 0x2708814, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentCount, addr 0x2768b64, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_CurrentCount();
 
   /// @brief Convert to "::System::IDisposable"

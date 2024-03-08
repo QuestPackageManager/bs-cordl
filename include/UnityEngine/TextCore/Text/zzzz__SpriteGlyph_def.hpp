@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x2e57c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb34b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

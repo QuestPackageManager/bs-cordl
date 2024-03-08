@@ -108,25 +108,25 @@ public:
   __declspec(property(get = __cordl_internal_get_sparkleEffectDidStartEvent,
                       put = __cordl_internal_set_sparkleEffectDidStartEvent))::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
 
-  /// @brief Method BurnMarkPosForSaberType, addr 0x2432f80, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method BurnMarkPosForSaberType, addr 0x249b2dc, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 BurnMarkPosForSaberType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method GetBurnMarkPos, addr 0x2432aa0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x249adfc, size 0x288, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Bounds bounds, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos,
                              ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method GetEffectRotation, addr 0x2432d28, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetEffectRotation, addr 0x249b084, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetEffectRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Transform* transform, ::UnityEngine::Bounds bounds);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x24323f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x249a74c, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x2432048, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x249a3a4, size 0x2ac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2432494, size 0x60c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x249a7f0, size 0x60c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -213,19 +213,19 @@ public:
 
   constexpr void __cordl_internal_set_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method .ctor, addr 0x243300c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249b368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x2431ee8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x249a244, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x2431d88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x249a0e4, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x2431f98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x249a2f4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x2431e38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x249a194, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
 protected:

@@ -24,7 +24,7 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x28fc870, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x29600a8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
 protected:

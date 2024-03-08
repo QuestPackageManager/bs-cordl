@@ -76,10 +76,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xe65fa4, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe80d70, size 0x2c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe6626c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe81038, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -156,32 +156,32 @@ public:
   /// @brief Field kAvatarSystemTypeIdentifier, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_kAvatarSystemTypeIdentifier, put = setStaticF_kAvatarSystemTypeIdentifier))::BeatSaber::AvatarCore::AvatarSystemIdentifier kAvatarSystemTypeIdentifier;
 
-  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0xe65d18, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0xe80ae4, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
 
-  /// @brief Method DeleteUserCreatedAvatar, addr 0xe65ea4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method DeleteUserCreatedAvatar, addr 0xe80c70, size 0x84, virtual true, abstract: false, final false
   inline void DeleteUserCreatedAvatar();
 
-  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xe65d10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xe80adc, size 0x8, virtual true, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider();
 
-  /// @brief Method GetMultiplayerAvatarsData, addr 0xe65c84, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarsData, addr 0xe80a50, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();
 
-  /// @brief Method InstantiateAvatar, addr 0xe65b10, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatar, addr 0xe808dc, size 0xac, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
                                                                                                           ::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarEditorUI, addr 0xe65bbc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatarEditorUI, addr 0xe80988, size 0x64, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarSelectionView, addr 0xe65c20, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatarSelectionView, addr 0xe809ec, size 0x64, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem* New_ctor(::Zenject::DiContainer* container, ::BeatSaber::BeatAvatarSDK::AvatarDataModel* model,
                                                                            ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* settings);
 
-  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0xe65e14, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0xe80be0, size 0x90, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* __GetRandomizedMultiplayerAvatarsData();
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
@@ -202,12 +202,12 @@ public:
 
   constexpr void __cordl_internal_set__settings(::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> value);
 
-  /// @brief Method .ctor, addr 0xe65a0c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe807d8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::BeatSaber::BeatAvatarSDK::AvatarDataModel* model, ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* settings);
 
   static inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier getStaticF_kAvatarSystemTypeIdentifier();
 
-  /// @brief Method get_avatarCreated, addr 0xe65af4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_avatarCreated, addr 0xe808c0, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
   static inline void setStaticF_kAvatarSystemTypeIdentifier(::BeatSaber::AvatarCore::AvatarSystemIdentifier value);

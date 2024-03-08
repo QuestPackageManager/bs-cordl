@@ -64,24 +64,24 @@ public:
 
   __declspec(property(get = get_tintColor, put = set_tintColor))::UnityEngine::Color tintColor;
 
-  /// @brief Method InitIfNeeded, addr 0x2269074, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x22c9c20, size 0x22c, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2269330, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22c9edc, size 0x24, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnValidate, addr 0x2269354, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x22c9f00, size 0xa8, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Render, addr 0x2269428, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x22c9fd4, size 0x1b8, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method Start, addr 0x22692a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22c9e4c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateGradientTexture, addr 0x22692a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGradientTexture, addr 0x22c9e50, size 0x8c, virtual false, abstract: false, final false
   inline void UpdateGradientTexture();
 
   /// @brief Method UpdatePixels, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x22673f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c7ea8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cameraToWorldMatrixID();
@@ -116,7 +116,7 @@ public:
 
   static inline int32_t getStaticF__inverseProjectionMatrixID();
 
-  /// @brief Method get_tintColor, addr 0x226905c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tintColor, addr 0x22c9c08, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_tintColor();
 
   static inline void setStaticF__cameraToWorldMatrixID(int32_t value);
@@ -127,7 +127,7 @@ public:
 
   static inline void setStaticF__inverseProjectionMatrixID(int32_t value);
 
-  /// @brief Method set_tintColor, addr 0x2269068, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tintColor, addr 0x22c9c14, size 0xc, virtual false, abstract: false, final false
   inline void set_tintColor(::UnityEngine::Color value);
 
 protected:

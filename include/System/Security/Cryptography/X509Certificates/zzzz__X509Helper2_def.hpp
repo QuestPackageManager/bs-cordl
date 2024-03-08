@@ -30,19 +30,19 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509Helper2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateChainImpl, addr 0x2a6feac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateChainImpl, addr 0x2ad06e4, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
 
-  /// @brief Method GetInvalidChainContextException, addr 0x2a6ff64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidChainContextException, addr 0x2ad079c, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidChainContextException();
 
-  /// @brief Method GetMonoCertificate, addr 0x2a6fdd8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetMonoCertificate, addr 0x2ad0610, size 0xd4, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Certificate* GetMonoCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method IsValid, addr 0x2a6ff10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2ad0748, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x2a6ff24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x2ad075c, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
 protected:

@@ -37,21 +37,21 @@ public:
   /// @brief Field _targetTransform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
 
-  /// @brief Method Awake, addr 0x23a2424, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2403808, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObstacleControllerDidInit, addr 0x23a2734, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidInit, addr 0x2403b18, size 0xd0, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
-  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x23a270c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x2403af0, size 0x28, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23a25d4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24039b8, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x23a24b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x240389c, size 0x11c, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScalePart() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x23a2804, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2403be8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -48,7 +48,7 @@ public:
   /// @brief Field pinWeight, offset 0x2c, size 0xc
   __declspec(property(get = __cordl_internal_get_pinWeight, put = __cordl_internal_set_pinWeight))::UnityEngine::Vector3 pinWeight;
 
-  /// @brief Method Apply, addr 0x137171c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x139bc74, size 0x250, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, ::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::__OffsetPose__EffectorLink* New_ctor();
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_pinWeight(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1371a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139bfc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,10 +135,10 @@ public:
       property(get = __cordl_internal_get_effectorLinks,
                put = __cordl_internal_set_effectorLinks))::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> effectorLinks;
 
-  /// @brief Method Apply, addr 0x136dd1c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1398274, size 0xb4, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
-  /// @brief Method Apply, addr 0x137196c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x139bec4, size 0xa4, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, ::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::OffsetPose* New_ctor();
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_effectorLinks(::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> value);
 
-  /// @brief Method .ctor, addr 0x1371a10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139bf68, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -6,127 +6,97 @@
 // Ctor Parameters []
 constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12() {}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16() {}
+constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24() {}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20() {}
+constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 96 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 96() {}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 28 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 28() {}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 40 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 40() {}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44() {}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48() {}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 72 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 72() {}
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_0E8F19C5EF50AABD49C829473A461B4447960A2D81DAAC569DBE4EF33329A759(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 40 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 40, "0E8F19C5EF50AABD49C829473A461B4447960A2D81DAAC569DBE4EF33329A759",
+constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 240 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 240() {}
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_00F6DEA1AEF89C31C3CD9B4F106BE9C4A57AB06704FBB4E465E49F5995E8325F(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "00F6DEA1AEF89C31C3CD9B4F106BE9C4A57AB06704FBB4E465E49F5995E8325F",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 40>(value));
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24>(value));
 }
 inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    40 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_0E8F19C5EF50AABD49C829473A461B4447960A2D81DAAC569DBE4EF33329A759() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 40, "0E8F19C5EF50AABD49C829473A461B4447960A2D81DAAC569DBE4EF33329A759",
+    24 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_00F6DEA1AEF89C31C3CD9B4F106BE9C4A57AB06704FBB4E465E49F5995E8325F() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "00F6DEA1AEF89C31C3CD9B4F106BE9C4A57AB06704FBB4E465E49F5995E8325F",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
 }
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_1FFC743A5ADD1717D2CCBD81FBFE384B3A75CD037E339D650AB8B5EE1611B6E6(
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_0A4F8EB7DD356436EE50F5460F2446D4D347703D265BF738112C63EF44D4D64C(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "0A4F8EB7DD356436EE50F5460F2446D4D347703D265BF738112C63EF44D4D64C",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24>(value));
+}
+inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+    24 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_0A4F8EB7DD356436EE50F5460F2446D4D347703D265BF738112C63EF44D4D64C() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "0A4F8EB7DD356436EE50F5460F2446D4D347703D265BF738112C63EF44D4D64C",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
+}
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_52001E42B1D28A34563B51E0064A9E699E3880245FC794CD0DCD4F58D5D3CA83(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 96 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 96, "52001E42B1D28A34563B51E0064A9E699E3880245FC794CD0DCD4F58D5D3CA83",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 96>(value));
+}
+inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+    96 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_52001E42B1D28A34563B51E0064A9E699E3880245FC794CD0DCD4F58D5D3CA83() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 96, "52001E42B1D28A34563B51E0064A9E699E3880245FC794CD0DCD4F58D5D3CA83",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
+}
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_A55571C9DB30026E44AC0BDD7674D9C597D8254732FEB18418F3AAF8A5B4F418(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "A55571C9DB30026E44AC0BDD7674D9C597D8254732FEB18418F3AAF8A5B4F418",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24>(value));
+}
+inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+    24 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_A55571C9DB30026E44AC0BDD7674D9C597D8254732FEB18418F3AAF8A5B4F418() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "A55571C9DB30026E44AC0BDD7674D9C597D8254732FEB18418F3AAF8A5B4F418",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
+}
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_A649149D1AE401596717C72AC8EBA8A7ABC0B52F782827AF6A40111A56D46F00(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "A649149D1AE401596717C72AC8EBA8A7ABC0B52F782827AF6A40111A56D46F00",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24>(value));
+}
+inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+    24 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_A649149D1AE401596717C72AC8EBA8A7ABC0B52F782827AF6A40111A56D46F00() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "A649149D1AE401596717C72AC8EBA8A7ABC0B52F782827AF6A40111A56D46F00",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
+}
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_CEC68AFEB3572A44829F6FC20DCF9C73A9DFCD19E604F8D9D4721656AF2CEB67(
     ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12, "1FFC743A5ADD1717D2CCBD81FBFE384B3A75CD037E339D650AB8B5EE1611B6E6",
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12, "CEC68AFEB3572A44829F6FC20DCF9C73A9DFCD19E604F8D9D4721656AF2CEB67",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
       std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12>(value));
 }
 inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    12 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_1FFC743A5ADD1717D2CCBD81FBFE384B3A75CD037E339D650AB8B5EE1611B6E6() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12, "1FFC743A5ADD1717D2CCBD81FBFE384B3A75CD037E339D650AB8B5EE1611B6E6",
+    12 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_CEC68AFEB3572A44829F6FC20DCF9C73A9DFCD19E604F8D9D4721656AF2CEB67() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12, "CEC68AFEB3572A44829F6FC20DCF9C73A9DFCD19E604F8D9D4721656AF2CEB67",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
 }
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_4B9C894CD0720F0FF12CF2B35F4F5AF5A7B1E883B1A2471C56E2818AD87375DC(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 28 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 28, "4B9C894CD0720F0FF12CF2B35F4F5AF5A7B1E883B1A2471C56E2818AD87375DC",
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_DCBEA4AF8FCA3574A40E0078B6F6F21226FA3AA4D9B1062ACDF0409F822D7375(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 240 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 240, "DCBEA4AF8FCA3574A40E0078B6F6F21226FA3AA4D9B1062ACDF0409F822D7375",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 28>(value));
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 240>(value));
 }
 inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    28 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_4B9C894CD0720F0FF12CF2B35F4F5AF5A7B1E883B1A2471C56E2818AD87375DC() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 28, "4B9C894CD0720F0FF12CF2B35F4F5AF5A7B1E883B1A2471C56E2818AD87375DC",
+    240 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_DCBEA4AF8FCA3574A40E0078B6F6F21226FA3AA4D9B1062ACDF0409F822D7375() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 240, "DCBEA4AF8FCA3574A40E0078B6F6F21226FA3AA4D9B1062ACDF0409F822D7375",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
 }
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_4D7D65751E3AB5D23F19D24F1B9B6F0EE09AB6B867065D2CCC7578635C0423BF(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16, "4D7D65751E3AB5D23F19D24F1B9B6F0EE09AB6B867065D2CCC7578635C0423BF",
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_EAB01B625D5C3788D47FF175375AB898118BCCAA359E7440C33488D029F10954(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "EAB01B625D5C3788D47FF175375AB898118BCCAA359E7440C33488D029F10954",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16>(value));
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24>(value));
 }
 inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    16 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_4D7D65751E3AB5D23F19D24F1B9B6F0EE09AB6B867065D2CCC7578635C0423BF() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16, "4D7D65751E3AB5D23F19D24F1B9B6F0EE09AB6B867065D2CCC7578635C0423BF",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
-}
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_54A671CD6F9BAD5C76040E6846B2518A8F0BB992CAEBA2BF80FE53480582F8FD(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20, "54A671CD6F9BAD5C76040E6846B2518A8F0BB992CAEBA2BF80FE53480582F8FD",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20>(value));
-}
-inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    20 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_54A671CD6F9BAD5C76040E6846B2518A8F0BB992CAEBA2BF80FE53480582F8FD() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20, "54A671CD6F9BAD5C76040E6846B2518A8F0BB992CAEBA2BF80FE53480582F8FD",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
-}
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_5977DD5162D59DBDBE39C78AC47FB1DCA975960AE028B8C73788928A12A9B2A8(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44, "5977DD5162D59DBDBE39C78AC47FB1DCA975960AE028B8C73788928A12A9B2A8",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44>(value));
-}
-inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    44 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_5977DD5162D59DBDBE39C78AC47FB1DCA975960AE028B8C73788928A12A9B2A8() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44, "5977DD5162D59DBDBE39C78AC47FB1DCA975960AE028B8C73788928A12A9B2A8",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
-}
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_82AB60A547244F012E9567892CDCE9CC64EEC04C97C008BFB1788490F946E82E(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20, "82AB60A547244F012E9567892CDCE9CC64EEC04C97C008BFB1788490F946E82E",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20>(value));
-}
-inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    20 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_82AB60A547244F012E9567892CDCE9CC64EEC04C97C008BFB1788490F946E82E() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20, "82AB60A547244F012E9567892CDCE9CC64EEC04C97C008BFB1788490F946E82E",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
-}
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_9115107869D7E1985929639F279AB618AD47250DC150AF83E857FFE0A0908158(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 72 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 72, "9115107869D7E1985929639F279AB618AD47250DC150AF83E857FFE0A0908158",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 72>(value));
-}
-inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    72 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_9115107869D7E1985929639F279AB618AD47250DC150AF83E857FFE0A0908158() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 72, "9115107869D7E1985929639F279AB618AD47250DC150AF83E857FFE0A0908158",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
-}
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_B9A544C16B8BAE67F13CB23D49EDC1C0B1514414B1C2101FD1E3748C4E889E56(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48, "B9A544C16B8BAE67F13CB23D49EDC1C0B1514414B1C2101FD1E3748C4E889E56",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48>(value));
-}
-inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    48 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_B9A544C16B8BAE67F13CB23D49EDC1C0B1514414B1C2101FD1E3748C4E889E56() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48, "B9A544C16B8BAE67F13CB23D49EDC1C0B1514414B1C2101FD1E3748C4E889E56",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
-}
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_F75A605A1FCBAEA023EB618377547DBFF016670BD1B0AEAFCE56232D837E0D71(
-    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16 value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16, "F75A605A1FCBAEA023EB618377547DBFF016670BD1B0AEAFCE56232D837E0D71",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
-      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16>(value));
-}
-inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-    16 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_F75A605A1FCBAEA023EB618377547DBFF016670BD1B0AEAFCE56232D837E0D71() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 16, "F75A605A1FCBAEA023EB618377547DBFF016670BD1B0AEAFCE56232D837E0D71",
+    24 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_EAB01B625D5C3788D47FF175375AB898118BCCAA359E7440C33488D029F10954() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 24, "EAB01B625D5C3788D47FF175375AB898118BCCAA359E7440C33488D029F10954",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
 }
 // Ctor Parameters []

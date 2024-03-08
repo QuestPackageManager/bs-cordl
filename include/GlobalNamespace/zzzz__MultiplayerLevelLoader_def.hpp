@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelsModel__GetBeatmapLevelDataResult;
+struct LoadBeatmapLevelDataResult;
 }
 namespace GlobalNamespace {
 struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
@@ -131,9 +131,8 @@ public:
                       put = __cordl_internal_set__getBeatmapCancellationTokenSource))::System::Threading::CancellationTokenSource* _getBeatmapCancellationTokenSource;
 
   /// @brief Field _getBeatmapLevelResultTask, offset 0x40, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__getBeatmapLevelResultTask,
-      put = __cordl_internal_set__getBeatmapLevelResultTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>* _getBeatmapLevelResultTask;
+  __declspec(property(get = __cordl_internal_get__getBeatmapLevelResultTask,
+                      put = __cordl_internal_set__getBeatmapLevelResultTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* _getBeatmapLevelResultTask;
 
   /// @brief Field _loaderState, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__loaderState, put = __cordl_internal_set__loaderState))::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState _loaderState;
@@ -158,18 +157,18 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method ClearLoading, addr 0x23a9234, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearLoading, addr 0x240c820, size 0x34, virtual false, abstract: false, final false
   inline void ClearLoading();
 
-  /// @brief Method LoadLevel, addr 0x23a90f4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method LoadLevel, addr 0x240c6e0, size 0x138, virtual false, abstract: false, final false
   inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
   static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  /// @brief Method SetNewStartTime, addr 0x23a922c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNewStartTime, addr 0x240c818, size 0x8, virtual false, abstract: false, final false
   inline void SetNewStartTime(int64_t newStartTime);
 
-  /// @brief Method Tick, addr 0x23a9268, size 0x1f4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x240c854, size 0x1f4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
@@ -188,10 +187,9 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__getBeatmapCancellationTokenSource() const;
 
-  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>*& __cordl_internal_get__getBeatmapLevelResultTask();
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>*& __cordl_internal_get__getBeatmapLevelResultTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>*> const&
-  __cordl_internal_get__getBeatmapLevelResultTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>*> const& __cordl_internal_get__getBeatmapLevelResultTask() const;
 
   constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const& __cordl_internal_get__loaderState() const;
 
@@ -226,7 +224,7 @@ public:
 
   constexpr void __cordl_internal_set__getBeatmapCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr void __cordl_internal_set__getBeatmapLevelResultTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>* value);
+  constexpr void __cordl_internal_set__getBeatmapLevelResultTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* value);
 
   constexpr void __cordl_internal_set__loaderState(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState value);
 
@@ -240,22 +238,22 @@ public:
 
   constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x23a945c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240ca48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_countdownFinishedEvent, addr 0x23a8f94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_countdownFinishedEvent, addr 0x240c580, size 0xb0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method add_stillDownloadingSongEvent, addr 0x23a8e5c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x240c448, size 0x9c, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_countdownFinishedEvent, addr 0x23a9044, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_countdownFinishedEvent, addr 0x240c630, size 0xb0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method remove_stillDownloadingSongEvent, addr 0x23a8ef8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x240c4e4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
 protected:
@@ -291,7 +289,7 @@ public:
   ::System::Threading::CancellationTokenSource* ____getBeatmapCancellationTokenSource;
 
   /// @brief Field _getBeatmapLevelResultTask, offset: 0x40, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>* ____getBeatmapLevelResultTask;
+  ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* ____getBeatmapLevelResultTask;
 
   /// @brief Field _gameplaySetupData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ILevelGameplaySetupData* ____gameplaySetupData;

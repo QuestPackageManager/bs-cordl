@@ -49,14 +49,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0xef6dac, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xf174b0, size 0x1a0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* New_ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedValue);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* New_ctor(::Org::BouncyCastle::Asn1::Cms::EnvelopedData* envelopedData);
 
-  /// @brief Method ToAsn1Object, addr 0xef706c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xf17770, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& __cordl_internal_get_encryptedValue();
@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedData* value);
 
-  /// @brief Method .ctor, addr 0xef6f74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf17678, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedValue);
 
-  /// @brief Method .ctor, addr 0xef6f4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf17650, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::EnvelopedData* envelopedData);
 
-  /// @brief Method get_IsEncryptedValue, addr 0xef7040, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsEncryptedValue, addr 0xf17744, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsEncryptedValue();
 
-  /// @brief Method get_Value, addr 0xef7050, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0xf17754, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

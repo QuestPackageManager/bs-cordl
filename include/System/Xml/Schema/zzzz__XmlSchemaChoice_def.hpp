@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_items(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method get_Items, addr 0x29b0dc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Items, addr 0x2a125f8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
 protected:

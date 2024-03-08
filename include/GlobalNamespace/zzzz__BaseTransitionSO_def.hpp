@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__transitionTiming(::UnityW<::GlobalNamespace::TransitionTimingSO> value);
 
-  /// @brief Method .ctor, addr 0x24a6614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250f5f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_easeDuration, addr 0x24a65f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x250f5d4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x24a65dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x250f5b8, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:

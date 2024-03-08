@@ -182,7 +182,7 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager__ScenesStackData* New_ctor(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method SetDiContainer, addr 0xe89328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDiContainer, addr 0xea5fd4, size 0x8, virtual false, abstract: false, final false
   inline void SetDiContainer(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container_k__BackingField();
@@ -197,19 +197,19 @@ public:
 
   constexpr void __cordl_internal_set__sceneNames_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0xe86e5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea3b08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method get_container, addr 0xe89318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_container, addr 0xea5fc4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_container();
 
-  /// @brief Method get_sceneNames, addr 0xe89308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneNames, addr 0xea5fb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_sceneNames();
 
-  /// @brief Method set_container, addr 0xe89320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_container, addr 0xea5fcc, size 0x8, virtual false, abstract: false, final false
   inline void set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method set_sceneNames, addr 0xe89310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sceneNames, addr 0xea5fbc, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneNames(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -379,10 +379,10 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0* New_ctor();
 
-  /// @brief Method <PushScenes>b__0, addr 0xe89330, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <PushScenes>b__0, addr 0xea5fdc, size 0x6c, virtual false, abstract: false, final false
   inline void _PushScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <PushScenes>b__1, addr 0xe894c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <PushScenes>b__1, addr 0xea6174, size 0x78, virtual false, abstract: false, final false
   inline void _PushScenes_b__1(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -409,7 +409,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0xe86d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea39d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -468,7 +468,7 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass35_0* New_ctor();
 
-  /// @brief Method <PopScenes>b__0, addr 0xe89540, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <PopScenes>b__0, addr 0xea61ec, size 0xa8, virtual false, abstract: false, final false
   inline void _PopScenes_b__0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -483,7 +483,7 @@ public:
 
   constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0xe8713c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea3de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -552,13 +552,13 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass36_0* New_ctor();
 
-  /// @brief Method <ReplaceScenes>b__0, addr 0xe895e8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceScenes>b__0, addr 0xea6294, size 0x128, virtual false, abstract: false, final false
   inline void _ReplaceScenes_b__0(::Zenject::DiContainer* emptySceneContainer);
 
-  /// @brief Method <ReplaceScenes>b__1, addr 0xe89710, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceScenes>b__1, addr 0xea63bc, size 0x6c, virtual false, abstract: false, final false
   inline void _ReplaceScenes_b__1(::Zenject::DiContainer* container);
 
-  /// @brief Method <ReplaceScenes>b__2, addr 0xe8977c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceScenes>b__2, addr 0xea6428, size 0x78, virtual false, abstract: false, final false
   inline void _ReplaceScenes_b__2(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -609,7 +609,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0xe8749c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -708,13 +708,13 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass37_0* New_ctor();
 
-  /// @brief Method <ClearAndOpenScenes>b__0, addr 0xe897f4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method <ClearAndOpenScenes>b__0, addr 0xea64a0, size 0x128, virtual false, abstract: false, final false
   inline void _ClearAndOpenScenes_b__0(::Zenject::DiContainer* emptySceneContainer);
 
-  /// @brief Method <ClearAndOpenScenes>b__1, addr 0xe8991c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <ClearAndOpenScenes>b__1, addr 0xea65c8, size 0x6c, virtual false, abstract: false, final false
   inline void _ClearAndOpenScenes_b__1(::Zenject::DiContainer* container);
 
-  /// @brief Method <ClearAndOpenScenes>b__2, addr 0xe89988, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <ClearAndOpenScenes>b__2, addr 0xea6634, size 0x78, virtual false, abstract: false, final false
   inline void _ClearAndOpenScenes_b__2(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -765,7 +765,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0xe87ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea477c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -851,10 +851,10 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0* New_ctor();
 
-  /// @brief Method <AppendScenes>b__0, addr 0xe89a00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <AppendScenes>b__0, addr 0xea66ac, size 0x6c, virtual false, abstract: false, final false
   inline void _AppendScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <AppendScenes>b__1, addr 0xe89a6c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <AppendScenes>b__1, addr 0xea6718, size 0x78, virtual false, abstract: false, final false
   inline void _AppendScenes_b__1(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -881,7 +881,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0xe87e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -943,10 +943,10 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass39_0* New_ctor();
 
-  /// @brief Method <RemoveScenes>b__0, addr 0xe89ae4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <RemoveScenes>b__0, addr 0xea6790, size 0xa8, virtual false, abstract: false, final false
   inline void _RemoveScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <RemoveScenes>b__1, addr 0xe89b8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <RemoveScenes>b__1, addr 0xea6838, size 0x64, virtual false, abstract: false, final false
   inline bool _RemoveScenes_b__1(::StringW scene);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -967,7 +967,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneNamesToRemove(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0xe8823c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4ee8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1082,21 +1082,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0xe89c30, size 0xffc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xea68dc, size 0xffc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__42* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe8accc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xea7978, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe8acd4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xea7980, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe8ad14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xea79c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe89bf0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xea689c, size 0x40, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1210,13 +1210,13 @@ public:
 
   constexpr void __cordl_internal_set_scenesToPresent(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method <>m__Finally1, addr 0xe8ac2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0xea78d8, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0xe8ac7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0xea7928, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0xe88244, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4ef0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1351,7 +1351,7 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass43_0* New_ctor();
 
-  /// @brief Method <WaitUntilTaskCompleted>b__0, addr 0xe8ad24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilTaskCompleted>b__0, addr 0xea79d0, size 0x1c, virtual false, abstract: false, final false
   inline bool _WaitUntilTaskCompleted_b__0();
 
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_task();
@@ -1360,7 +1360,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0xe8ad1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea79c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1421,21 +1421,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0xe8ad44, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xea79f0, size 0x210, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__GameScenesManager___WaitUntilTaskCompleted_d__43* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe8af54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xea7c00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe8af5c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xea7c08, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe8af9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xea7c48, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe8ad40, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xea79ec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1462,7 +1462,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0xe882d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4f80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1593,78 +1593,78 @@ public:
 
   __declspec(property(get = get_waitUntilSceneTransitionFinish))::UnityEngine::WaitUntil* waitUntilSceneTransitionFinish;
 
-  /// @brief Method ActivatePresentedSceneRootObjects, addr 0xe882fc, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ActivatePresentedSceneRootObjects, addr 0xea4fa8, size 0x300, virtual false, abstract: false, final false
   static inline void ActivatePresentedSceneRootObjects(::System::Collections::Generic::List_1<::StringW>* scenesToPresent);
 
-  /// @brief Method AppendScenes, addr 0xe87ad8, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method AppendScenes, addr 0xea4784, size 0x3bc, virtual false, abstract: false, final false
   inline void AppendScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                            ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method AreAllScenesInStack, addr 0xe88a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AreAllScenesInStack, addr 0xea56c0, size 0x8, virtual false, abstract: false, final false
   inline bool AreAllScenesInStack(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method ClearAndOpenScenes, addr 0xe874a4, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method ClearAndOpenScenes, addr 0xea4150, size 0x62c, virtual false, abstract: false, final false
   inline void ClearAndOpenScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                                  ::System::Action_1<::Zenject::DiContainer*>* finishCallback, bool unloadAllScenes);
 
-  /// @brief Method GetCurrentlyLoadedSceneNames, addr 0xe867a0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentlyLoadedSceneNames, addr 0xea344c, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetCurrentlyLoadedSceneNames();
 
-  /// @brief Method IsAnySceneInStack, addr 0xe885fc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method IsAnySceneInStack, addr 0xea52a8, size 0x164, virtual false, abstract: false, final false
   inline bool IsAnySceneInStack(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method IsSceneInStack, addr 0xe88760, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method IsSceneInStack, addr 0xea540c, size 0x2b4, virtual false, abstract: false, final false
   inline bool IsSceneInStack(::StringW searchSceneName);
 
-  /// @brief Method Log, addr 0xe8919c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0xea5e48, size 0x58, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method MarkSceneAsPersistent, addr 0xe86164, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkSceneAsPersistent, addr 0xea2e10, size 0x58, virtual false, abstract: false, final false
   inline void MarkSceneAsPersistent(::StringW sceneName);
 
-  /// @brief Method MoveGameObjectsFromContainerToSceneRoot, addr 0xe88e20, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method MoveGameObjectsFromContainerToSceneRoot, addr 0xea5acc, size 0x37c, virtual false, abstract: false, final false
   inline void MoveGameObjectsFromContainerToSceneRoot(::StringW sceneName);
 
   static inline ::GlobalNamespace::GameScenesManager* New_ctor();
 
-  /// @brief Method PopScenes, addr 0xe86f54, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method PopScenes, addr 0xea3c00, size 0x1e8, virtual false, abstract: false, final false
   inline void PopScenes(float_t minDuration, ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method PushScenes, addr 0xe869d8, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method PushScenes, addr 0xea3684, size 0x354, virtual false, abstract: false, final false
   inline void PushScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                          ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method RegisterExternallyLoadedScene, addr 0xe86954, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterExternallyLoadedScene, addr 0xea3600, size 0x84, virtual false, abstract: false, final false
   inline void
   RegisterExternallyLoadedScene(::StringW sceneName,
                                 ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> asyncOperationHandle);
 
-  /// @brief Method RemoveScenes, addr 0xe87e9c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method RemoveScenes, addr 0xea4b48, size 0x3a0, virtual false, abstract: false, final false
   inline void RemoveScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupDataSo, float_t minDuration, ::System::Action* afterMinDurationCallback,
                            ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method ReparentRootGameObjectsToDisabledGameObject, addr 0xe88b9c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReparentRootGameObjectsToDisabledGameObject, addr 0xea5848, size 0x284, virtual false, abstract: false, final false
   inline void ReparentRootGameObjectsToDisabledGameObject(::StringW sceneName);
 
-  /// @brief Method ReplaceScenes, addr 0xe87144, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method ReplaceScenes, addr 0xea3df0, size 0x358, virtual false, abstract: false, final false
   inline void ReplaceScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
                             ::ArrayW<::System::Collections::IEnumerator*, ::Array<::System::Collections::IEnumerator*>*> beforeNewScenesActivateRoutines, float_t minDuration,
                             ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method SceneNamesFromSceneInfoArray, addr 0xe86d34, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SceneNamesFromSceneInfoArray, addr 0xea39e0, size 0x128, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* SceneNamesFromSceneInfoArray(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> sceneInfos);
 
-  /// @brief Method ScenesTransitionCoroutine, addr 0xe86e84, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ScenesTransitionCoroutine, addr 0xea3b30, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator*
   ScenesTransitionCoroutine(::GlobalNamespace::ScenesTransitionSetupDataSO* newScenesTransitionSetupData, ::System::Collections::Generic::List_1<::StringW>* scenesToPresent,
                             ::GlobalNamespace::__GameScenesManager__ScenePresentType presentType, ::System::Collections::Generic::List_1<::StringW>* scenesToDismiss,
                             ::GlobalNamespace::__GameScenesManager__SceneDismissType dismissType, float_t minDuration, ::System::Action* afterMinDurationCallback,
                             ::System::Action_1<::Zenject::DiContainer*>* extraBindingsCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method SetActiveRootObjectsInScenes, addr 0xe88a1c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRootObjectsInScenes, addr 0xea56c8, size 0x180, virtual false, abstract: false, final false
   inline void SetActiveRootObjectsInScenes(::System::Collections::Generic::List_1<::StringW>* sceneNames, bool value);
 
-  /// @brief Method WaitUntilTaskCompleted, addr 0xe8826c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilTaskCompleted, addr 0xea4f18, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* WaitUntilTaskCompleted(::System::Threading::Tasks::Task* task);
 
   constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__emptyTransitionSceneInfo() const;
@@ -1735,48 +1735,48 @@ public:
 
   constexpr void __cordl_internal_set_transitionDidStartEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0xe891f4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea5ea0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilSceneTransitionFinish>b__22_0, addr 0xe892f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilSceneTransitionFinish>b__22_0, addr 0xea5fa4, size 0x10, virtual false, abstract: false, final false
   inline bool _get_waitUntilSceneTransitionFinish_b__22_0();
 
-  /// @brief Method add_beforeDismissingScenesEvent, addr 0xe861bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_beforeDismissingScenesEvent, addr 0xea2e68, size 0x9c, virtual false, abstract: false, final false
   inline void add_beforeDismissingScenesEvent(::System::Action* value);
 
-  /// @brief Method add_installEarlyBindingsEvent, addr 0xe8652c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_installEarlyBindingsEvent, addr 0xea31d8, size 0xb0, virtual false, abstract: false, final false
   inline void add_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method add_transitionDidFinishEvent, addr 0xe863cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_transitionDidFinishEvent, addr 0xea3078, size 0xb0, virtual false, abstract: false, final false
   inline void add_transitionDidFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method add_transitionDidStartEvent, addr 0xe8626c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_transitionDidStartEvent, addr 0xea2f18, size 0xb0, virtual false, abstract: false, final false
   inline void add_transitionDidStartEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_currentScenesContainer, addr 0xe8668c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_currentScenesContainer, addr 0xea3338, size 0x58, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_currentScenesContainer();
 
-  /// @brief Method get_isInTransition, addr 0xe866e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInTransition, addr 0xea3390, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInTransition();
 
-  /// @brief Method get_sceneNameToSceneOperationHandlesDictionary, addr 0xe86798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneNameToSceneOperationHandlesDictionary, addr 0xea3444, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW,
                                                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>*
   get_sceneNameToSceneOperationHandlesDictionary();
 
-  /// @brief Method get_waitUntilSceneTransitionFinish, addr 0xe866ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_waitUntilSceneTransitionFinish, addr 0xea3398, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilSceneTransitionFinish();
 
-  /// @brief Method remove_beforeDismissingScenesEvent, addr 0xe85360, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_beforeDismissingScenesEvent, addr 0xea2010, size 0x9c, virtual false, abstract: false, final false
   inline void remove_beforeDismissingScenesEvent(::System::Action* value);
 
-  /// @brief Method remove_installEarlyBindingsEvent, addr 0xe865dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_installEarlyBindingsEvent, addr 0xea3288, size 0xb0, virtual false, abstract: false, final false
   inline void remove_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method remove_transitionDidFinishEvent, addr 0xe8647c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_transitionDidFinishEvent, addr 0xea3128, size 0xb0, virtual false, abstract: false, final false
   inline void remove_transitionDidFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method remove_transitionDidStartEvent, addr 0xe8631c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_transitionDidStartEvent, addr 0xea2fc8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_transitionDidStartEvent(::System::Action_1<float_t>* value);
 
 protected:

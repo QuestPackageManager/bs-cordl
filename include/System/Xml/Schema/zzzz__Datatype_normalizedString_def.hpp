@@ -30,13 +30,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_normalizedString* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a5144, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0697c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x29a513c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2a06974, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_TypeCode, addr 0x29a5134, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a0696c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

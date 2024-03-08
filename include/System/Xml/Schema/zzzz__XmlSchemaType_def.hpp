@@ -79,24 +79,24 @@ public:
   /// @brief Field qname, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_qname, put = __cordl_internal_set_qname))::System::Xml::XmlQualifiedName* qname;
 
-  /// @brief Method GetBuiltInSimpleType, addr 0x29b2d94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInSimpleType, addr 0x2a145cc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* GetBuiltInSimpleType(::System::Xml::Schema::XmlTypeCode typeCode);
 
   static inline ::System::Xml::Schema::XmlSchemaType* New_ctor();
 
-  /// @brief Method SetBaseSchemaType, addr 0x29b2e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBaseSchemaType, addr 0x2a14650, size 0x8, virtual false, abstract: false, final false
   inline void SetBaseSchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method SetContentType, addr 0x29b2e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentType, addr 0x2a14668, size 0x8, virtual false, abstract: false, final false
   inline void SetContentType(::System::Xml::Schema::XmlSchemaContentType value);
 
-  /// @brief Method SetDatatype, addr 0x29b2e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDatatype, addr 0x2a14660, size 0x8, virtual false, abstract: false, final false
   inline void SetDatatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method SetDerivedBy, addr 0x29b2e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDerivedBy, addr 0x2a14658, size 0x8, virtual false, abstract: false, final false
   inline void SetDerivedBy(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method SetQualifiedName, addr 0x29b12e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x2a12b1c, size 0x24, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_baseSchemaType();
@@ -141,31 +141,31 @@ public:
 
   constexpr void __cordl_internal_set_qname(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x29b1760, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a12f98, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseXmlSchemaType, addr 0x29b2e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseXmlSchemaType, addr 0x2a1463c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_BaseXmlSchemaType();
 
-  /// @brief Method get_Datatype, addr 0x29b2e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x2a14644, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method get_ElementDecl, addr 0x29b132c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ElementDecl, addr 0x2a12b64, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* get_ElementDecl();
 
-  /// @brief Method get_QualifiedName, addr 0x29b2dec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x2a14624, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_TypeCode, addr 0x29afd2c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a11564, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValueConverter, addr 0x29b0364, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ValueConverter, addr 0x2a11b9c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
 
-  /// @brief Method set_ElementDecl, addr 0x29b1308, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_ElementDecl, addr 0x2a12b40, size 0x24, virtual false, abstract: false, final false
   inline void set_ElementDecl(::System::Xml::Schema::SchemaElementDecl* value);
 
-  /// @brief Method set_IsMixed, addr 0x29b2e14, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x2a1464c, size 0x4, virtual true, abstract: false, final false
   inline void set_IsMixed(bool value);
 
 protected:

@@ -40,7 +40,7 @@ public:
   /// @brief Field <MemberInfo>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField))::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
 
-  /// @brief Method Invoke, addr 0x2a24b90, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a863c8, size 0x358, virtual false, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x2a2466c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a85ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 
-  /// @brief Method .ctor, addr 0x2a24674, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a85eac, size 0x50c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
-  /// @brief Method get_Arguments, addr 0x2a24b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x2a863b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Arguments();
 
-  /// @brief Method get_MemberInfo, addr 0x2a24b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x2a863c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
 protected:

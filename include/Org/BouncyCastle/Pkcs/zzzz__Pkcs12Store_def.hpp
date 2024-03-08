@@ -94,10 +94,10 @@ public:
   /// @brief Field id, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::ArrayW<uint8_t, ::Array<uint8_t>*> id;
 
-  /// @brief Method Equals, addr 0x11564c4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x117bbc8, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x1156468, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x117bb6c, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
@@ -110,13 +110,13 @@ public:
 
   constexpr void __cordl_internal_set_id(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1156438, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117bb3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
-  /// @brief Method .ctor, addr 0x11563f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117baf8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method get_Id, addr 0x1156460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x117bb64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Id();
 
 protected:
@@ -169,15 +169,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Clear, addr 0x115659c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x117bca0, size 0x108, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetEnumerator, addr 0x11566a4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x117bda8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* New_ctor();
 
-  /// @brief Method Remove, addr 0x11567ec, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x117bef0, size 0x260, virtual false, abstract: false, final false
   inline ::System::Object* Remove(::StringW alias);
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_keys();
@@ -192,25 +192,25 @@ public:
 
   constexpr void __cordl_internal_set_orig(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x1156f84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117c688, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x1156ee0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x117c5e4, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x1156a4c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x117c150, size 0x18c, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::StringW alias);
 
-  /// @brief Method get_Keys, addr 0x1156748, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x117be4c, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_Values, addr 0x1156e3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x117c540, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x1156bd8, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x117c2dc, size 0x264, virtual false, abstract: false, final false
   inline void set_Item(::StringW alias, ::System::Object* value);
 
 protected:
@@ -292,54 +292,54 @@ public:
   /// @brief Field useDerEncoding, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_useDerEncoding, put = __cordl_internal_set_useDerEncoding)) bool useDerEncoding;
 
-  /// @brief Method CalculatePbeMac, addr 0x114eaf0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CalculatePbeMac, addr 0x11741f4, size 0x184, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculatePbeMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t itCount,
                                                                      ::ArrayW<char16_t, ::Array<char16_t>*> password, bool wrongPkcs12Zero, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ContainsAlias, addr 0x114f938, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ContainsAlias, addr 0x117503c, size 0x58, virtual false, abstract: false, final false
   inline bool ContainsAlias(::StringW alias);
 
-  /// @brief Method CreateSubjectKeyID, addr 0x114c428, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateSubjectKeyID, addr 0x1171b2c, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* CreateSubjectKeyID(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method CryptPbeData, addr 0x114ec74, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CryptPbeData, addr 0x1174378, size 0x254, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CryptPbeData(bool forEncryption, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                   bool wrongPkcs12Zero, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method DeleteEntry, addr 0x11512bc, size 0x574, virtual false, abstract: false, final false
+  /// @brief Method DeleteEntry, addr 0x11769c0, size 0x574, virtual false, abstract: false, final false
   inline void DeleteEntry(::StringW alias);
 
-  /// @brief Method GetAliasesTable, addr 0x114f0c0, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method GetAliasesTable, addr 0x11747c4, size 0x78c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetAliasesTable();
 
-  /// @brief Method GetCertificate, addr 0x114f990, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method GetCertificate, addr 0x1175094, size 0x250, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* GetCertificate(::StringW alias);
 
-  /// @brief Method GetCertificateAlias, addr 0x114fbe0, size 0x76c, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateAlias, addr 0x11752e4, size 0x76c, virtual false, abstract: false, final false
   inline ::StringW GetCertificateAlias(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetCertificateChain, addr 0x115034c, size 0xabc, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateChain, addr 0x1175a50, size 0xabc, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*, ::Array<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>*> GetCertificateChain(::StringW alias);
 
-  /// @brief Method GetKey, addr 0x114eec8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x11745cc, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* GetKey(::StringW alias);
 
-  /// @brief Method IsCertificateEntry, addr 0x114efa8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsCertificateEntry, addr 0x11746ac, size 0xa0, virtual false, abstract: false, final false
   inline bool IsCertificateEntry(::StringW alias);
 
-  /// @brief Method IsEntryOfType, addr 0x1151830, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method IsEntryOfType, addr 0x1176f34, size 0x118, virtual false, abstract: false, final false
   inline bool IsEntryOfType(::StringW alias, ::System::Type* entryType);
 
-  /// @brief Method IsKeyEntry, addr 0x114f048, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsKeyEntry, addr 0x117474c, size 0x78, virtual false, abstract: false, final false
   inline bool IsKeyEntry(::StringW alias);
 
-  /// @brief Method Load, addr 0x114c748, size 0x1a6c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x1171e4c, size 0x1a6c, virtual false, abstract: false, final false
   inline void Load(::System::IO::Stream* input, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method LoadKeyBag, addr 0x114e1b4, size 0x8f0, virtual true, abstract: false, final false
+  /// @brief Method LoadKeyBag, addr 0x11738b8, size 0x8f0, virtual true, abstract: false, final false
   inline void LoadKeyBag(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes);
 
-  /// @brief Method LoadPkcs8ShroudedKeyBag, addr 0x114eaa4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method LoadPkcs8ShroudedKeyBag, addr 0x11741a8, size 0x4c, virtual true, abstract: false, final false
   inline void LoadPkcs8ShroudedKeyBag(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encPrivKeyInfo, ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes,
                                       ::ArrayW<char16_t, ::Array<char16_t>*> password, bool wrongPkcs12Zero);
 
@@ -354,17 +354,17 @@ public:
                                                                  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certPrfAlgorithm,
                                                                  bool useDerEncoding);
 
-  /// @brief Method Save, addr 0x11519f8, size 0x49fc, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x11770fc, size 0x49fc, virtual false, abstract: false, final false
   inline void Save(::System::IO::Stream* stream, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method SetCertificateEntry, addr 0x1150e08, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method SetCertificateEntry, addr 0x117650c, size 0x228, virtual false, abstract: false, final false
   inline void SetCertificateEntry(::StringW alias, ::Org::BouncyCastle::Pkcs::X509CertificateEntry* certEntry);
 
-  /// @brief Method SetKeyEntry, addr 0x1151030, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyEntry, addr 0x1176734, size 0x28c, virtual false, abstract: false, final false
   inline void SetKeyEntry(::StringW alias, ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* keyEntry,
                           ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*, ::Array<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>*> chain);
 
-  /// @brief Method Size, addr 0x1151948, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Size, addr 0x117704c, size 0x4, virtual false, abstract: false, final false
   inline int32_t Size();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_certAlgorithm();
@@ -433,23 +433,23 @@ public:
 
   constexpr void __cordl_internal_set_useDerEncoding(bool value);
 
-  /// @brief Method .ctor, addr 0x114c6b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1171db4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x114c718, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1171e1c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method .ctor, addr 0x114c4a0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1171ba4, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm, bool useDerEncoding);
 
-  /// @brief Method .ctor, addr 0x114c5a0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1171ca4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certPrfAlgorithm, bool useDerEncoding);
 
-  /// @brief Method get_Aliases, addr 0x114f84c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_Aliases, addr 0x1174f50, size 0xec, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Aliases();
 
-  /// @brief Method get_Count, addr 0x115194c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x1177050, size 0xac, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:

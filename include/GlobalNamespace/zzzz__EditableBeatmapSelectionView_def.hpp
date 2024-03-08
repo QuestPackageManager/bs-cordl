@@ -53,13 +53,13 @@ public:
 
   static inline ::GlobalNamespace::EditableBeatmapSelectionView* New_ctor();
 
-  /// @brief Method SetBeatmap, addr 0x23df160, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetBeatmap, addr 0x244355c, size 0x64, virtual true, abstract: false, final false
   inline void SetBeatmap(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method SetVisibility, addr 0x23df12c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x243195c, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup, addr 0x23df154, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2431950, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool showClearButton);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearButton() const;
@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x23df1c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24435c0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clearButton, addr 0x23df0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearButton, addr 0x2443538, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_clearButton();
 
-  /// @brief Method get_editButton, addr 0x23df0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editButton, addr 0x2443530, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_editButton();
 
-  /// @brief Method get_interactable, addr 0x23df0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x2443540, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_showClearButton, addr 0x23df118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showClearButton, addr 0x2443548, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_interactable, addr 0x23df0b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x2431f50, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_showClearButton, addr 0x23df120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_showClearButton, addr 0x2443550, size 0xc, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
 protected:

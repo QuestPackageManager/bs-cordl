@@ -98,24 +98,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Textures,
                       put = __cordl_internal_set_m_Textures))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TextureRegistry__TextureInfo>* m_Textures;
 
-  /// @brief Method Acquire, addr 0x2f8b62c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x2fe4e64, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId Acquire(::UnityEngine::Texture* tex);
 
-  /// @brief Method AllocAndAcquire, addr 0x2f8b220, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquire, addr 0x2fe4a58, size 0x260, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquire(::UnityEngine::Texture* texture, bool dynamic);
 
-  /// @brief Method AllocAndAcquireDynamic, addr 0x2f8b204, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquireDynamic, addr 0x2fe4a3c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquireDynamic();
 
-  /// @brief Method GetTexture, addr 0x2f8b0c8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x2fe4900, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetTexture(::UnityEngine::UIElements::TextureId id);
 
   static inline ::UnityEngine::UIElements::TextureRegistry* New_ctor();
 
-  /// @brief Method Release, addr 0x2f8b76c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2fe4fa4, size 0x1f0, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method UpdateDynamic, addr 0x2f8b480, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamic, addr 0x2fe4cb8, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateDynamic(::UnityEngine::UIElements::TextureId id, ::UnityEngine::Texture* texture);
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::TextureId>*& __cordl_internal_get_m_FreeIds();
@@ -137,12 +137,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Textures(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TextureRegistry__TextureInfo>* value);
 
-  /// @brief Method .ctor, addr 0x2f8b95c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fe5194, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TextureRegistry* getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_instance, addr 0x2f8b070, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2fe48a8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextureRegistry* get_instance();
 
   static inline void setStaticF__instance_k__BackingField(::UnityEngine::UIElements::TextureRegistry* value);

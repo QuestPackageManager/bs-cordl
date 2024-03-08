@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::JumpDestinationMarker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2257c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b8b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

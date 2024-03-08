@@ -31,18 +31,18 @@ namespace System::ComponentModel {
 class CORDL_TYPE NotifyCollectionChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2731a88, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2791d44, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ComponentModel::NotifyCollectionChangedEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2731ab0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2791d6c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2731a74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2791d30, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::NotifyCollectionChangedEventArgs* e);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2731944, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791c00, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

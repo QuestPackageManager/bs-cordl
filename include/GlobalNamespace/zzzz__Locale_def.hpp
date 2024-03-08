@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE Locale : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetText, addr 0x25028dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x25670d8, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetText, addr 0x25028d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x25670d4, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW msg);
 
 protected:

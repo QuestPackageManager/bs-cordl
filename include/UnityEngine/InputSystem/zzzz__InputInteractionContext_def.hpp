@@ -119,76 +119,76 @@ public:
 
   __declspec(property(get = get_timerHasExpired, put = set_timerHasExpired)) bool timerHasExpired;
 
-  /// @brief Method Canceled, addr 0x2b4690c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Canceled, addr 0x2ba6144, size 0x40, virtual false, abstract: false, final false
   inline void Canceled();
 
-  /// @brief Method ComputeMagnitude, addr 0x2b46800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ComputeMagnitude, addr 0x2ba6038, size 0x8, virtual false, abstract: false, final false
   inline float_t ComputeMagnitude();
 
-  /// @brief Method ControlIsActuated, addr 0x2b46808, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ControlIsActuated, addr 0x2ba6040, size 0xc, virtual false, abstract: false, final false
   inline bool ControlIsActuated(float_t threshold);
 
-  /// @brief Method Performed, addr 0x2b4684c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Performed, addr 0x2ba6084, size 0x40, virtual false, abstract: false, final false
   inline void Performed();
 
-  /// @brief Method PerformedAndStayPerformed, addr 0x2b468cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method PerformedAndStayPerformed, addr 0x2ba6104, size 0x40, virtual false, abstract: false, final false
   inline void PerformedAndStayPerformed();
 
-  /// @brief Method PerformedAndStayStarted, addr 0x2b4688c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method PerformedAndStayStarted, addr 0x2ba60c4, size 0x40, virtual false, abstract: false, final false
   inline void PerformedAndStayStarted();
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline TValue ReadValue();
 
-  /// @brief Method SetTimeout, addr 0x2b4698c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetTimeout, addr 0x2ba61c4, size 0x24, virtual false, abstract: false, final false
   inline void SetTimeout(float_t seconds);
 
-  /// @brief Method SetTotalTimeoutCompletionTime, addr 0x2b469b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetTotalTimeoutCompletionTime, addr 0x2ba61e8, size 0x94, virtual false, abstract: false, final false
   inline void SetTotalTimeoutCompletionTime(float_t seconds);
 
-  /// @brief Method Started, addr 0x2b46814, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Started, addr 0x2ba604c, size 0x38, virtual false, abstract: false, final false
   inline void Started();
 
-  /// @brief Method Waiting, addr 0x2b4694c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Waiting, addr 0x2ba6184, size 0x40, virtual false, abstract: false, final false
   inline void Waiting();
 
-  /// @brief Method get_action, addr 0x2b46758, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x2ba5f90, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_bindingIndex, addr 0x2b46a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingIndex, addr 0x2ba6290, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bindingIndex();
 
-  /// @brief Method get_control, addr 0x2b4677c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x2ba5fb4, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_controlIndex, addr 0x2b46a4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_controlIndex, addr 0x2ba6284, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_controlIndex();
 
-  /// @brief Method get_interactionIndex, addr 0x2b46a60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_interactionIndex, addr 0x2ba6298, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_interactionIndex();
 
-  /// @brief Method get_isStarted, addr 0x2b467f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isStarted, addr 0x2ba6028, size 0x10, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
-  /// @brief Method get_isWaiting, addr 0x2b467e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isWaiting, addr 0x2ba6018, size 0x10, virtual false, abstract: false, final false
   inline bool get_isWaiting();
 
-  /// @brief Method get_mapIndex, addr 0x2b46a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mapIndex, addr 0x2ba627c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mapIndex();
 
-  /// @brief Method get_phase, addr 0x2b467a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x2ba5fd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
 
-  /// @brief Method get_startTime, addr 0x2b467b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x2ba5fe8, size 0x8, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method get_time, addr 0x2b467a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2ba5fe0, size 0x8, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_timerHasExpired, addr 0x2b467b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_timerHasExpired, addr 0x2ba5ff0, size 0xc, virtual false, abstract: false, final false
   inline bool get_timerHasExpired();
 
-  /// @brief Method set_timerHasExpired, addr 0x2b467c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_timerHasExpired, addr 0x2ba5ffc, size 0x1c, virtual false, abstract: false, final false
   inline void set_timerHasExpired(bool value);
 
   // Ctor Parameters []

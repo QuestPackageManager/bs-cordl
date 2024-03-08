@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::UriConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::UriConverter::CanConvert)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27a8038;
+  constexpr static std::size_t addrs = 0x28092f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::UriConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::UriConverter::ReadJson)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x27a80bc;
+  constexpr static std::size_t addrs = 0x2809378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::UriConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::UriConverter::WriteJson)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x27a81e4;
+  constexpr static std::size_t addrs = 0x28094a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::UriConverter::*)()>(&::Newtonsoft::Json::Converters::UriConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27a8318;
+  constexpr static std::size_t addrs = 0x28095d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::UriConverter*>::get(), ".ctor",

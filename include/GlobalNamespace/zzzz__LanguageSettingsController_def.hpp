@@ -27,15 +27,15 @@ public:
   /// @brief Field _settingsValue, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::LanguageSO> _settingsValue;
 
-  /// @brief Method ApplyValue, addr 0x23ad7e0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x2410dcc, size 0xe8, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x23ad6bc, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x2410ca8, size 0x124, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x23ad8c8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x2410eb4, size 0x64, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::UnityW<::GlobalNamespace::LanguageSO> const& __cordl_internal_get__settingsValue() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::LanguageSO> value);
 
-  /// @brief Method .ctor, addr 0x23ad92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2410f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

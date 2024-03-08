@@ -46,15 +46,15 @@ public:
   __declspec(property(get = __cordl_internal_get__defaultTextureGradient,
                       put = __cordl_internal_set__defaultTextureGradient))::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> _defaultTextureGradient;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x24330d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x249b434, size 0x50, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24330bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x249b418, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2433014, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x249b370, size 0xa8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> value);
 
-  /// @brief Method .ctor, addr 0x2433128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249b484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

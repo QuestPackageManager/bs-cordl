@@ -27,10 +27,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x2708780, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2768ad0, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Hold, addr 0x2708754, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hold, addr 0x2768aa4, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
 
   /// @brief Convert to "::System::IDisposable"

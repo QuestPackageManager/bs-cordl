@@ -31,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__WritableSelf_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2e25664, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e80e9c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WritableSelf, addr 0x2e25658, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_WritableSelf, addr 0x2e80e90, size 0xc, virtual true, abstract: false, final true
   inline void set_WritableSelf(bool value);
 
 protected:

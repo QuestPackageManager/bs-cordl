@@ -112,16 +112,16 @@ public:
   __declspec(property(get = __cordl_internal_get_trickleDownPath,
                       put = __cordl_internal_set_trickleDownPath))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* trickleDownPath;
 
-  /// @brief Method Build, addr 0x2f5a3d4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2fb3c0c, size 0x29c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt,
                                                                    ::UnityEngine::UIElements::__PropagationPaths__Type pathTypesRequested);
 
-  /// @brief Method Copy, addr 0x2f5a2f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2fb3b2c, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Copy(::UnityEngine::UIElements::PropagationPaths* paths);
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
 
-  /// @brief Method Release, addr 0x2f5a6cc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2fb3f04, size 0x110, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_bubbleUpPath();
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_trickleDownPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x2f5a228, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb3a60, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* getStaticF_s_Pool();

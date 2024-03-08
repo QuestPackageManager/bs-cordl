@@ -118,40 +118,40 @@ public:
 
   static inline ::System::Xml::Schema::SchemaEntity* New_ctor(::System::Xml::XmlQualifiedName* qname, bool isParameter);
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_BaseUriString, addr 0x29aed98, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_BaseUriString, addr 0x2a105d0, size 0x54, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdEntityInfo_get_BaseUriString();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_DeclaredUriString, addr 0x29aee40, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_DeclaredUriString, addr 0x2a10678, size 0x54, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdEntityInfo_get_DeclaredUriString();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal, addr 0x29aed60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal, addr 0x2a10598, size 0x8, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdEntityInfo_get_IsDeclaredInExternal();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsExternal, addr 0x29aed58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_IsExternal, addr 0x2a10590, size 0x8, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdEntityInfo_get_IsExternal();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsParameterEntity, addr 0x29aed90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_IsParameterEntity, addr 0x2a105c8, size 0x8, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdEntityInfo_get_IsParameterEntity();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsUnparsedEntity, addr 0x29aed68, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_IsUnparsedEntity, addr 0x2a105a0, size 0x28, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdEntityInfo_get_IsUnparsedEntity();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_LineNumber, addr 0x29aef00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_LineNumber, addr 0x2a10738, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Xml_IDtdEntityInfo_get_LineNumber();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_LinePosition, addr 0x29aef08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_LinePosition, addr 0x2a10740, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Xml_IDtdEntityInfo_get_LinePosition();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_Name, addr 0x29aed3c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_Name, addr 0x2a10574, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdEntityInfo_get_Name();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_PublicId, addr 0x29aeef0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_PublicId, addr 0x2a10728, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdEntityInfo_get_PublicId();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_SystemId, addr 0x29aeee8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_SystemId, addr 0x2a10720, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdEntityInfo_get_SystemId();
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_Text, addr 0x29aeef8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdEntityInfo.get_Text, addr 0x2a10730, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdEntityInfo_get_Text();
 
   constexpr ::StringW const& __cordl_internal_get_baseURI() const;
@@ -232,79 +232,79 @@ public:
 
   constexpr void __cordl_internal_set_url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29aecb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a104f0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* qname, bool isParameter);
 
-  /// @brief Method get_BaseURI, addr 0x29aedec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_BaseURI, addr 0x2a10624, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_DeclaredInExternal, addr 0x29aef54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeclaredInExternal, addr 0x2a1078c, size 0x8, virtual false, abstract: false, final false
   inline bool get_DeclaredInExternal();
 
-  /// @brief Method get_DeclaredURI, addr 0x29aee94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DeclaredURI, addr 0x2a106cc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DeclaredURI();
 
-  /// @brief Method get_IsExternal, addr 0x29aef40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsExternal, addr 0x2a10778, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsExternal();
 
-  /// @brief Method get_Line, addr 0x29aef8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Line, addr 0x2a107c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Line();
 
-  /// @brief Method get_NData, addr 0x29aef68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NData, addr 0x2a107a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_NData();
 
-  /// @brief Method get_Name, addr 0x29aef10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2a10748, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_ParsingInProgress, addr 0x29aefb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParsingInProgress, addr 0x2a107ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParsingInProgress();
 
-  /// @brief Method get_Pos, addr 0x29aef9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pos, addr 0x2a107d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Pos();
 
-  /// @brief Method get_Pubid, addr 0x29aef30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pubid, addr 0x2a10768, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pubid();
 
-  /// @brief Method get_Text, addr 0x29aef78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x2a107b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method get_Url, addr 0x29aef18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Url, addr 0x2a10750, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Url();
 
   /// @brief Convert to "::System::Xml::IDtdEntityInfo"
   constexpr ::System::Xml::IDtdEntityInfo* i___System__Xml__IDtdEntityInfo() noexcept;
 
-  /// @brief Method set_BaseURI, addr 0x29aefac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseURI, addr 0x2a107e4, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseURI(::StringW value);
 
-  /// @brief Method set_DeclaredInExternal, addr 0x29aef5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DeclaredInExternal, addr 0x2a10794, size 0xc, virtual false, abstract: false, final false
   inline void set_DeclaredInExternal(bool value);
 
-  /// @brief Method set_DeclaredURI, addr 0x29aefc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeclaredURI, addr 0x2a10800, size 0x8, virtual false, abstract: false, final false
   inline void set_DeclaredURI(::StringW value);
 
-  /// @brief Method set_IsExternal, addr 0x29aef48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsExternal, addr 0x2a10780, size 0xc, virtual false, abstract: false, final false
   inline void set_IsExternal(bool value);
 
-  /// @brief Method set_Line, addr 0x29aef94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Line, addr 0x2a107cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Line(int32_t value);
 
-  /// @brief Method set_NData, addr 0x29aef70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NData, addr 0x2a107a8, size 0x8, virtual false, abstract: false, final false
   inline void set_NData(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_ParsingInProgress, addr 0x29aefbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ParsingInProgress, addr 0x2a107f4, size 0xc, virtual false, abstract: false, final false
   inline void set_ParsingInProgress(bool value);
 
-  /// @brief Method set_Pos, addr 0x29aefa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pos, addr 0x2a107dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Pos(int32_t value);
 
-  /// @brief Method set_Pubid, addr 0x29aef38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pubid, addr 0x2a10770, size 0x8, virtual false, abstract: false, final false
   inline void set_Pubid(::StringW value);
 
-  /// @brief Method set_Text, addr 0x29aef80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x2a107b8, size 0xc, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
-  /// @brief Method set_Url, addr 0x29aef20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Url, addr 0x2a10758, size 0x10, virtual false, abstract: false, final false
   inline void set_Url(::StringW value);
 
 protected:

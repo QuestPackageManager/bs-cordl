@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPlatformInitialize : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e5d6c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2848788, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PlatformInitialize* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetPlatformInitialize, addr 0x27e5d30, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPlatformInitialize, addr 0x284874c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();
 
   static inline ::Oculus::Platform::MessageWithPlatformInitialize* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e14e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843f04, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

@@ -59,14 +59,14 @@ public:
   /// @brief Field weight, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method FixTransforms, addr 0x132e614, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1356b6c, size 0x28, virtual false, abstract: false, final false
   inline void FixTransforms();
 
   static inline ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone* New_ctor();
 
   static inline ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone* New_ctor(::UnityEngine::Transform* transform, float_t weight);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x132e244, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x135679c, size 0x2c, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1330ae0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1359038, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1330b40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1359098, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, float_t weight);
 
 protected:
@@ -284,45 +284,45 @@ public:
   /// @brief Field thighWeight, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_thighWeight, put = __cordl_internal_set_thighWeight)) float_t thighWeight;
 
-  /// @brief Method CCDPass, addr 0x132f330, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method CCDPass, addr 0x1357888, size 0x410, virtual false, abstract: false, final false
   inline void CCDPass();
 
-  /// @brief Method ChestDirection, addr 0x132ec7c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method ChestDirection, addr 0x13571d4, size 0x2bc, virtual false, abstract: false, final false
   inline void ChestDirection();
 
-  /// @brief Method Iterate, addr 0x132f740, size 0x798, virtual false, abstract: false, final false
+  /// @brief Method Iterate, addr 0x1357c98, size 0x798, virtual false, abstract: false, final false
   inline void Iterate(int32_t iteration);
 
-  /// @brief Method LerpSolverPosition, addr 0x132ffd8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LerpSolverPosition, addr 0x1358530, size 0xe8, virtual false, abstract: false, final false
   inline void LerpSolverPosition(::RootMotion::FinalIK::IKEffector* effector, ::UnityEngine::Vector3 position, float_t weight, ::UnityEngine::Vector3 offset);
 
   static inline ::RootMotion::FinalIK::FBBIKHeadEffector* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1330600, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1358b58, size 0x338, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnFixTransforms, addr 0x132e270, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method OnFixTransforms, addr 0x13567c8, size 0x3a4, virtual false, abstract: false, final false
   inline void OnFixTransforms();
 
-  /// @brief Method OnPostUpdate, addr 0x13300c0, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method OnPostUpdate, addr 0x1358618, size 0x23c, virtual false, abstract: false, final false
   inline void OnPostUpdate();
 
-  /// @brief Method OnPreRead, addr 0x132e63c, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method OnPreRead, addr 0x1356b94, size 0x640, virtual false, abstract: false, final false
   inline void OnPreRead();
 
-  /// @brief Method OnStoreDefaultLocalState, addr 0x132ddd0, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method OnStoreDefaultLocalState, addr 0x1356328, size 0x474, virtual false, abstract: false, final false
   inline void OnStoreDefaultLocalState();
 
-  /// @brief Method PostStretching, addr 0x13302fc, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method PostStretching, addr 0x1358854, size 0x304, virtual false, abstract: false, final false
   inline void PostStretching();
 
-  /// @brief Method Solve, addr 0x132fed8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x1358430, size 0x100, virtual false, abstract: false, final false
   inline void Solve(ByRef<::UnityEngine::Vector3> pos1, ByRef<::UnityEngine::Vector3> pos2, float_t nominalDistance);
 
-  /// @brief Method SpineBend, addr 0x132ef38, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method SpineBend, addr 0x1357490, size 0x3f8, virtual false, abstract: false, final false
   inline void SpineBend();
 
-  /// @brief Method Start, addr 0x132d9e4, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x1355f3c, size 0x3ec, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_CCDBones() const;
@@ -601,7 +601,7 @@ public:
 
   constexpr void __cordl_internal_set_thighWeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1330938, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1358e90, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

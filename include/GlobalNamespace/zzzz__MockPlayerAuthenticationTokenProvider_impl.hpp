@@ -1,7 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AuthenticationToken_impl.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerAuthenticationTokenProvider_def.hpp"
+#include "BGNet/Core/zzzz__IPlatformAccessTokenFetcher_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
@@ -14,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::get_hashedUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d59ec;
+  constexpr static std::size_t addrs = 0x253b1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(),
@@ -28,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d59f4;
+  constexpr static std::size_t addrs = 0x253b1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(),
@@ -42,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__AuthenticationToken__Platform (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::get_platform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d59fc;
+  constexpr static std::size_t addrs = 0x253b1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(),
@@ -53,16 +55,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MockPlayerAuthenticationTokenProvider._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)(::StringW, ::StringW, ::StringW)>(
-    &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x24d5a04;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)(
+    ::StringW, ::StringW, ::StringW, ::GlobalNamespace::XPlatformAccessTokenData)>(&::GlobalNamespace::MockPlayerAuthenticationTokenProvider::_ctor)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x253b1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::XPlatformAccessTokenData>::get() })));
     return ___internal_method;
   }
 };
@@ -72,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* (
     ::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)()>(&::GlobalNamespace::MockPlayerAuthenticationTokenProvider::GetAuthenticationToken)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x24d5a9c;
+  constexpr static std::size_t addrs = 0x253b2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(),
@@ -86,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__AuthenticationToken__Platform (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)(
     ::GlobalNamespace::PlatformEnvironment)>(&::GlobalNamespace::MockPlayerAuthenticationTokenProvider::GetTokenPlatform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d5b3c;
+  constexpr static std::size_t addrs = 0x253b364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)(::System::Threading::CancellationToken, bool)>(&::GlobalNamespace::MockPlayerAuthenticationTokenProvider::GetXPlatformAccessToken)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x24d5b44;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x253b36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,6 +121,14 @@ constexpr GlobalNamespace::MockPlayerAuthenticationTokenProvider::operator ::Glo
 /// @brief Convert to "::GlobalNamespace::IAuthenticationTokenProvider"
 constexpr ::GlobalNamespace::IAuthenticationTokenProvider* GlobalNamespace::MockPlayerAuthenticationTokenProvider::i___GlobalNamespace__IAuthenticationTokenProvider() noexcept {
   return static_cast<::GlobalNamespace::IAuthenticationTokenProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::BGNet::Core::IPlatformAccessTokenFetcher"
+constexpr GlobalNamespace::MockPlayerAuthenticationTokenProvider::operator ::BGNet::Core::IPlatformAccessTokenFetcher*() noexcept {
+  return static_cast<::BGNet::Core::IPlatformAccessTokenFetcher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"
+constexpr ::BGNet::Core::IPlatformAccessTokenFetcher* GlobalNamespace::MockPlayerAuthenticationTokenProvider::i___BGNet__Core__IPlatformAccessTokenFetcher() noexcept {
+  return static_cast<::BGNet::Core::IPlatformAccessTokenFetcher*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::MockPlayerAuthenticationTokenProvider::__cordl_internal_get__userId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -179,6 +190,18 @@ constexpr void GlobalNamespace::MockPlayerAuthenticationTokenProvider::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____platform_k__BackingField = value;
 }
+constexpr ::GlobalNamespace::XPlatformAccessTokenData& GlobalNamespace::MockPlayerAuthenticationTokenProvider::__cordl_internal_get__mockTokenData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mockTokenData;
+}
+constexpr ::GlobalNamespace::XPlatformAccessTokenData const& GlobalNamespace::MockPlayerAuthenticationTokenProvider::__cordl_internal_get__mockTokenData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mockTokenData;
+}
+constexpr void GlobalNamespace::MockPlayerAuthenticationTokenProvider::__cordl_internal_set__mockTokenData(::GlobalNamespace::XPlatformAccessTokenData value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____mockTokenData = value;
+}
 inline ::StringW GlobalNamespace::MockPlayerAuthenticationTokenProvider::get_hashedUserId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(),
                                                                              "get_hashedUserId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -194,15 +217,19 @@ inline ::GlobalNamespace::__AuthenticationToken__Platform GlobalNamespace::MockP
                                                                              "get_platform", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__AuthenticationToken__Platform, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MockPlayerAuthenticationTokenProvider* GlobalNamespace::MockPlayerAuthenticationTokenProvider::New_ctor(::StringW userId, ::StringW userName, ::StringW password) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>(userId, userName, password));
+/// @param mockTokenData: ::GlobalNamespace::XPlatformAccessTokenData (default: {})
+inline ::GlobalNamespace::MockPlayerAuthenticationTokenProvider* GlobalNamespace::MockPlayerAuthenticationTokenProvider::New_ctor(::StringW userId, ::StringW userName, ::StringW password,
+                                                                                                                                  ::GlobalNamespace::XPlatformAccessTokenData mockTokenData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>(userId, userName, password, mockTokenData));
 }
-inline void GlobalNamespace::MockPlayerAuthenticationTokenProvider::_ctor(::StringW userId, ::StringW userName, ::StringW password) {
+/// @param mockTokenData: ::GlobalNamespace::XPlatformAccessTokenData (default: {})
+inline void GlobalNamespace::MockPlayerAuthenticationTokenProvider::_ctor(::StringW userId, ::StringW userName, ::StringW password, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userId, userName, password);
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::XPlatformAccessTokenData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userId, userName, password, mockTokenData);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GlobalNamespace::MockPlayerAuthenticationTokenProvider::GetAuthenticationToken() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>::get(),

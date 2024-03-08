@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x11c5b94;
+  constexpr static std::size_t addrs = 0x11ec298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::HashSet*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::_ctor)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x11c68d0;
+  constexpr static std::size_t addrs = 0x11ecfd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::Add)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x11c7af4;
+  constexpr static std::size_t addrs = 0x11ee1f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::AddAll)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x11c7ba4;
+  constexpr static std::size_t addrs = 0x11ee2a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::Clear)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11c7e8c;
+  constexpr static std::size_t addrs = 0x11ee590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::HashSet::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::Contains)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x11c7f30;
+  constexpr static std::size_t addrs = 0x11ee634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)(::System::Array*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::CopyTo)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x11c7fdc;
+  constexpr static std::size_t addrs = 0x11ee6e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::get_Count)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11c810c;
+  constexpr static std::size_t addrs = 0x11ee810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::GetEnumerator)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x11c81b0;
+  constexpr static std::size_t addrs = 0x11ee8b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::get_IsEmpty)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x11c82c8;
+  constexpr static std::size_t addrs = 0x11ee9cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::get_IsFixedSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11c8378;
+  constexpr static std::size_t addrs = 0x11eea7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::get_IsReadOnly)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11c841c;
+  constexpr static std::size_t addrs = 0x11eeb20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::get_IsSynchronized)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11c84c0;
+  constexpr static std::size_t addrs = 0x11eebc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::Remove)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x11c8564;
+  constexpr static std::size_t addrs = 0x11eec68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::HashSet::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::RemoveAll)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x11c8610;
+  constexpr static std::size_t addrs = 0x11eed14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::HashSet::get_SyncRoot)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11c88f8;
+  constexpr static std::size_t addrs = 0x11eeffc;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPartyID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyID*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e4be4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2847600, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyID* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetPartyID, addr 0x27e4ba8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPartyID, addr 0x28475c4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyID* GetPartyID();
 
   static inline ::Oculus::Platform::MessageWithPartyID* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e4b50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284756c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

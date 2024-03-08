@@ -168,39 +168,39 @@ public:
   /// @brief Field weight, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method Initiate, addr 0x135da9c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1386ff4, size 0x94, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
   static inline ::RootMotion::FinalIK::InteractionEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method OnPostFBBIK, addr 0x13600c8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method OnPostFBBIK, addr 0x1389620, size 0x23c, virtual false, abstract: false, final false
   inline void OnPostFBBIK();
 
-  /// @brief Method Pause, addr 0x135e078, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x13875d0, size 0x120, virtual false, abstract: false, final false
   inline bool Pause();
 
-  /// @brief Method PickUp, addr 0x135f95c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method PickUp, addr 0x1388eb4, size 0x218, virtual false, abstract: false, final false
   inline void PickUp(::UnityEngine::Transform* root);
 
-  /// @brief Method ResetToDefaults, addr 0x135dc9c, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method ResetToDefaults, addr 0x13871f4, size 0x3dc, virtual false, abstract: false, final false
   inline bool ResetToDefaults(float_t speed);
 
-  /// @brief Method Resume, addr 0x135e198, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x13876f0, size 0x54, virtual false, abstract: false, final false
   inline bool Resume();
 
-  /// @brief Method Start, addr 0x135e1ec, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x1387744, size 0x48c, virtual false, abstract: false, final false
   inline bool Start(::RootMotion::FinalIK::InteractionObject* interactionObject, ::StringW tag, float_t fadeInTime, bool interrupt);
 
-  /// @brief Method Stop, addr 0x135fd80, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x13892d8, size 0x148, virtual false, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method StoreDefaults, addr 0x135db30, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaults, addr 0x1387088, size 0x16c, virtual false, abstract: false, final false
   inline void StoreDefaults();
 
-  /// @brief Method TriggerUntriggeredEvents, addr 0x135f73c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method TriggerUntriggeredEvents, addr 0x1388c94, size 0x220, virtual false, abstract: false, final false
   inline void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
 
-  /// @brief Method Update, addr 0x135ecf4, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x138824c, size 0x640, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Transform* root, float_t speed);
 
   constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get__effectorType_k__BackingField() const;
@@ -419,31 +419,31 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x135da0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1386f64, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method get_effectorType, addr 0x135d978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectorType, addr 0x1386ed0, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
 
-  /// @brief Method get_inInteraction, addr 0x135d9ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_inInteraction, addr 0x1386f04, size 0x60, virtual false, abstract: false, final false
   inline bool get_inInteraction();
 
-  /// @brief Method get_interactionObject, addr 0x135d99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactionObject, addr 0x1386ef4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::InteractionObject> get_interactionObject();
 
-  /// @brief Method get_isPaused, addr 0x135d988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x1386ee0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
-  /// @brief Method get_progress, addr 0x135fec8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x1389420, size 0x30, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method set_effectorType, addr 0x135d980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_effectorType, addr 0x1386ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  /// @brief Method set_interactionObject, addr 0x135d9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_interactionObject, addr 0x1386efc, size 0x8, virtual false, abstract: false, final false
   inline void set_interactionObject(::RootMotion::FinalIK::InteractionObject* value);
 
-  /// @brief Method set_isPaused, addr 0x135d990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isPaused, addr 0x1386ee8, size 0xc, virtual false, abstract: false, final false
   inline void set_isPaused(bool value);
 
 protected:

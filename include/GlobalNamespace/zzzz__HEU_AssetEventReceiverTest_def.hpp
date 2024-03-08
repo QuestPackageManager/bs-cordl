@@ -27,18 +27,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method BakedCallback, addr 0x22aefe4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method BakedCallback, addr 0x230fdbc, size 0x1ac, virtual false, abstract: false, final false
   inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method CookedCallback, addr 0x22aee38, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CookedCallback, addr 0x230fc10, size 0x1ac, virtual false, abstract: false, final false
   inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
   static inline ::GlobalNamespace::HEU_AssetEventReceiverTest* New_ctor();
 
-  /// @brief Method ReloadCallback, addr 0x22aec8c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ReloadCallback, addr 0x230fa64, size 0x1ac, virtual false, abstract: false, final false
   inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method .ctor, addr 0x22af190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230ff68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

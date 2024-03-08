@@ -69,16 +69,16 @@ public:
   /// @brief Method CanResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method Equals, addr 0x29fbc40, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2a5d478, size 0x200, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes, addr 0x29fbe40, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x2a5d678, size 0x14, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method GetHashCode, addr 0x29fbe54, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2a5d68c, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget, addr 0x29fbea8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationTarget, addr 0x2a5d6e0, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -88,7 +88,7 @@ public:
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method OnValueChanged, addr 0x29fbf90, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x2a5d7c8, size 0xb0, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
   /// @brief Method ResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -130,10 +130,10 @@ public:
 
   constexpr void __cordl_internal_set__valueChangedHandlers(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x29f9db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5b5e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor, addr 0x29fbc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5d470, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   /// @brief Method get_ComponentType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

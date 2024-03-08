@@ -28,21 +28,21 @@ public:
   /// @brief Field EPSILON, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EPSILON, put = setStaticF_EPSILON)) double_t EPSILON;
 
-  /// @brief Method InScanArea, addr 0x2c195f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InScanArea, addr 0x2c79e2c, size 0x78, virtual false, abstract: false, final false
   static inline bool InScanArea(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                 ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil* New_ctor();
 
-  /// @brief Method Orient2d, addr 0x2c17d04, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Orient2d, addr 0x2c7853c, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                                                           ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc);
 
-  /// @brief Method SmartIncircle, addr 0x2c19ec8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SmartIncircle, addr 0x2c7a700, size 0xc4, virtual false, abstract: false, final false
   static inline bool SmartIncircle(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
-  /// @brief Method .ctor, addr 0x2c1b4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7bd34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline double_t getStaticF_EPSILON();

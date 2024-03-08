@@ -38,21 +38,21 @@ public:
   /// @brief Field isBer, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_isBer, put = __cordl_internal_set_isBer)) bool isBer;
 
-  /// @brief Method Copy, addr 0xff6804, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x1016f08, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method GetContentInfo, addr 0xff6b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetContentInfo, addr 0x1017258, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> GetContentInfo();
 
-  /// @brief Method GetInstance, addr 0xff687c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1016f80, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xff6b5c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x1017260, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> const& __cordl_internal_get_info() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_isBer(bool value);
 
-  /// @brief Method .ctor, addr 0xff6b1c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1017220, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method .ctor, addr 0xff6920, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1017024, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -35,15 +35,15 @@ public:
   __declspec(property(get = __cordl_internal_get_trackingOriginUpdated,
                       put = __cordl_internal_set_trackingOriginUpdated))::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated;
 
-  /// @brief Method InvokeBoundaryChangedEvent, addr 0x2fc2dc0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InvokeBoundaryChangedEvent, addr 0x301b5f8, size 0xc4, virtual false, abstract: false, final false
   static inline void InvokeBoundaryChangedEvent(void* internalPtr);
 
-  /// @brief Method InvokeTrackingOriginUpdatedEvent, addr 0x2fc2cfc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InvokeTrackingOriginUpdatedEvent, addr 0x301b534, size 0xc4, virtual false, abstract: false, final false
   static inline void InvokeTrackingOriginUpdatedEvent(void* internalPtr);
 
   static inline ::UnityEngine::XR::XRInputSubsystem* New_ctor();
 
-  /// @brief Method TryRecenter, addr 0x2fc2a00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TryRecenter, addr 0x301b238, size 0x3c, virtual false, abstract: false, final false
   inline bool TryRecenter();
 
   constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*& __cordl_internal_get_boundaryChanged();
@@ -64,19 +64,19 @@ public:
 
   constexpr void __cordl_internal_set_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method .ctor, addr 0x2fc2e84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301b6bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_boundaryChanged, addr 0x2fc2b9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_boundaryChanged, addr 0x301b3d4, size 0xb0, virtual false, abstract: false, final false
   inline void add_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method add_trackingOriginUpdated, addr 0x2fc2a3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_trackingOriginUpdated, addr 0x301b274, size 0xb0, virtual false, abstract: false, final false
   inline void add_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method remove_boundaryChanged, addr 0x2fc2c4c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_boundaryChanged, addr 0x301b484, size 0xb0, virtual false, abstract: false, final false
   inline void remove_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method remove_trackingOriginUpdated, addr 0x2fc2aec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_trackingOriginUpdated, addr 0x301b324, size 0xb0, virtual false, abstract: false, final false
   inline void remove_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
 protected:

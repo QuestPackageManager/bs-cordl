@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_size)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2da4214;
+  constexpr static std::size_t addrs = 0x2e00a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LODGroup*>::get(), "get_size",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_lodCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2da4250;
+  constexpr static std::size_t addrs = 0x2e00a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LODGroup*>::get(), "get_lodCount",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::RecalculateBounds)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2da428c;
+  constexpr static std::size_t addrs = 0x2e00ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LODGroup*>::get(), "RecalculateBounds",
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> (::UnityEngine::LODGroup::*)()>(
     &::UnityEngine::LODGroup::GetLODs)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2da42c8;
+  constexpr static std::size_t addrs = 0x2e00b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LODGroup*>::get(), "GetLODs",
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LODGroup::*)(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*>)>(
     &::UnityEngine::LODGroup::SetLODs)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2da4304;
+  constexpr static std::size_t addrs = 0x2e00b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

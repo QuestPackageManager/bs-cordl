@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_Value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x274cc80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27acf3c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* next);
 
 protected:
@@ -119,21 +119,21 @@ public:
   /// @brief Field _mask, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
-  /// @brief Method Add, addr 0x274c9c0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x27acc7c, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method AddEntry, addr 0x274cb74, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x27ace30, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Get, addr 0x274c788, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x27aca44, size 0x188, virtual false, abstract: false, final false
   inline ::StringW Get(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t length);
 
-  /// @brief Method Grow, addr 0x274ccc0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x27acf7c, size 0x124, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::Newtonsoft::Json::Utilities::PropertyNameTable* New_ctor();
 
-  /// @brief Method TextEquals, addr 0x274c910, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x27acbcc, size 0xb0, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t, ::Array<char16_t>*> str2, int32_t str2Start, int32_t str2Length);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set__mask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x274c720, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ac9dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_HashCodeRandomizer();

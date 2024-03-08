@@ -36,19 +36,19 @@ public:
 
   constexpr void __cordl_internal_set__allowNullItems(bool value);
 
-  /// @brief Method .ctor, addr 0x27328cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2792b88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27328d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2792b90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool allowNullItems);
 
-  /// @brief Method .ctor, addr 0x27328fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2792bb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method get_AllowNullItems, addr 0x27328b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowNullItems, addr 0x2792b74, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowNullItems();
 
-  /// @brief Method set_AllowNullItems, addr 0x27328c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowNullItems, addr 0x2792b7c, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowNullItems(bool value);
 
 protected:

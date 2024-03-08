@@ -40,7 +40,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapLineData"
   constexpr operator ::GlobalNamespace::IReadonlyBeatmapLineData*() noexcept;
 
-  /// @brief Method AddBeatmapObjectData, addr 0xe56640, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapObjectData, addr 0xe70394, size 0xa8, virtual false, abstract: false, final false
   inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectsData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* value);
 
-  /// @brief Method .ctor, addr 0xe56618, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7036c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method .ctor, addr 0xe56588, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe702dc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_beatmapObjectsData, addr 0xe56580, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapObjectsData, addr 0xe702d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
   /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapLineData"

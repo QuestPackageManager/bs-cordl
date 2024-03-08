@@ -44,16 +44,16 @@ public:
 
   static inline ::System::Threading::ThreadHelper* New_ctor(::System::Delegate* start);
 
-  /// @brief Method SetExecutionContextHelper, addr 0x270d8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContextHelper, addr 0x276dc14, size 0x8, virtual false, abstract: false, final false
   inline void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
 
-  /// @brief Method ThreadStart, addr 0x270dad8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x276de28, size 0xf4, virtual false, abstract: false, final false
   inline void ThreadStart();
 
-  /// @brief Method ThreadStart, addr 0x270d9d8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x276dd28, size 0x100, virtual false, abstract: false, final false
   inline void ThreadStart(::System::Object* obj);
 
-  /// @brief Method ThreadStart_Context, addr 0x270d8cc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart_Context, addr 0x276dc1c, size 0x10c, virtual false, abstract: false, final false
   static inline void ThreadStart_Context(::System::Object* state);
 
   constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__executionContext();
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__startArg(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x270d89c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276dbec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* start);
 
   static inline ::System::Threading::ContextCallback* getStaticF__ccb();

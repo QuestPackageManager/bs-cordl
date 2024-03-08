@@ -188,88 +188,88 @@ public:
   /// @brief Method CheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method CustomStartsWith, addr 0x2f797dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CustomStartsWith, addr 0x2fd3014, size 0xc4, virtual false, abstract: false, final false
   static inline bool CustomStartsWith(::StringW originalString, ::StringW pattern);
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x2f79618, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x2fd2e50, size 0x7c, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive();
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x2f79694, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x2fd2ecc, size 0x148, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive(::UnityEngine::UIElements::StyleSheet* sheet);
 
   static inline ::UnityEngine::UIElements::StyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2f78ee4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2fd271c, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ReadAssetReference, addr 0x2f7a074, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadAssetReference, addr 0x2fd38ac, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadColor, addr 0x2f79ba8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x2fd33e0, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ReadColor(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadDimension, addr 0x2f7999c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadDimension, addr 0x2fd31d4, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Dimension ReadDimension(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadEnum, addr 0x2f79dc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadEnum, addr 0x2fd3600, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ReadEnum(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFloat, addr 0x2f78880, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x2fd20b8, size 0xd4, virtual false, abstract: false, final false
   inline float_t ReadFloat(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFunction, addr 0x2f7a208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadFunction, addr 0x2fd3a40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueFunction ReadFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFunctionName, addr 0x2f7a210, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadFunctionName, addr 0x2fd3a48, size 0x154, virtual false, abstract: false, final false
   inline ::StringW ReadFunctionName(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadKeyword, addr 0x2f798a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyword, addr 0x2fd30d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueKeyword ReadKeyword(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x2f7a0f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x2fd3930, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadResourcePath, addr 0x2f79f64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadResourcePath, addr 0x2fd379c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadScalableImage, addr 0x2f7a364, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadScalableImage, addr 0x2fd3b9c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::ScalableImage ReadScalableImage(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadString, addr 0x2f79cb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x2fd34f0, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ReadString(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadVariable, addr 0x2f78954, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadVariable, addr 0x2fd218c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ReadVariable(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method SetupReferences, addr 0x2f7908c, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method SetupReferences, addr 0x2fd28c4, size 0x55c, virtual false, abstract: false, final false
   inline void SetupReferences();
 
   /// @brief Method TryCheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool TryCheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle, ByRef<T> value);
 
-  /// @brief Method TryReadAssetReference, addr 0x2f7a17c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadAssetReference, addr 0x2fd39b4, size 0x8c, virtual false, abstract: false, final false
   inline bool TryReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Object*> value);
 
-  /// @brief Method TryReadColor, addr 0x2f79c2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadColor, addr 0x2fd3464, size 0x8c, virtual false, abstract: false, final false
   inline bool TryReadColor(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method TryReadDimension, addr 0x2f79a8c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryReadDimension, addr 0x2fd32c4, size 0x11c, virtual false, abstract: false, final false
   inline bool TryReadDimension(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::UIElements::StyleSheets::Dimension> value);
 
-  /// @brief Method TryReadEnum, addr 0x2f79e4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadEnum, addr 0x2fd3684, size 0x8c, virtual false, abstract: false, final false
   inline bool TryReadEnum(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method TryReadFloat, addr 0x2f798a8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryReadFloat, addr 0x2fd30e0, size 0xf4, virtual false, abstract: false, final false
   inline bool TryReadFloat(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<float_t> value);
 
-  /// @brief Method TryReadResourcePath, addr 0x2f79fe8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadResourcePath, addr 0x2fd3820, size 0x8c, virtual false, abstract: false, final false
   inline bool TryReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method TryReadString, addr 0x2f79d3c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadString, addr 0x2fd3574, size 0x8c, virtual false, abstract: false, final false
   inline bool TryReadString(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method TryReadVariable, addr 0x2f79ed8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadVariable, addr 0x2fd3710, size 0x8c, virtual false, abstract: false, final false
   inline bool TryReadVariable(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get_assets() const;
@@ -378,50 +378,50 @@ public:
 
   constexpr void __cordl_internal_set_strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2f78f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd2778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_kCustomPropertyMarker();
 
-  /// @brief Method get_complexSelectors, addr 0x2f795e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_complexSelectors, addr 0x2fd2e20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> get_complexSelectors();
 
-  /// @brief Method get_contentHash, addr 0x2f79600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentHash, addr 0x2fd2e38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentHash();
 
-  /// @brief Method get_flattenedRecursiveImports, addr 0x2f795f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flattenedRecursiveImports, addr 0x2fd2e30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_flattenedRecursiveImports();
 
-  /// @brief Method get_importedWithErrors, addr 0x2f79054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithErrors, addr 0x2fd288c, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithErrors();
 
-  /// @brief Method get_importedWithWarnings, addr 0x2f79068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithWarnings, addr 0x2fd28a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithWarnings();
 
-  /// @brief Method get_isDefaultStyleSheet, addr 0x2f79610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDefaultStyleSheet, addr 0x2fd2e48, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDefaultStyleSheet();
 
-  /// @brief Method get_rules, addr 0x2f7907c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rules, addr 0x2fd28b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> get_rules();
 
   static inline void setStaticF_kCustomPropertyMarker(::StringW value);
 
-  /// @brief Method set_complexSelectors, addr 0x2f795f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_complexSelectors, addr 0x2fd2e28, size 0x8, virtual false, abstract: false, final false
   inline void set_complexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
 
-  /// @brief Method set_contentHash, addr 0x2f79608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contentHash, addr 0x2fd2e40, size 0x8, virtual false, abstract: false, final false
   inline void set_contentHash(int32_t value);
 
-  /// @brief Method set_importedWithErrors, addr 0x2f7905c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithErrors, addr 0x2fd2894, size 0xc, virtual false, abstract: false, final false
   inline void set_importedWithErrors(bool value);
 
-  /// @brief Method set_importedWithWarnings, addr 0x2f79070, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithWarnings, addr 0x2fd28a8, size 0xc, virtual false, abstract: false, final false
   inline void set_importedWithWarnings(bool value);
 
-  /// @brief Method set_isDefaultStyleSheet, addr 0x2f78d84, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method set_isDefaultStyleSheet, addr 0x2fd25bc, size 0x160, virtual false, abstract: false, final false
   inline void set_isDefaultStyleSheet(bool value);
 
-  /// @brief Method set_rules, addr 0x2f79084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rules, addr 0x2fd28bc, size 0x8, virtual false, abstract: false, final false
   inline void set_rules(::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> value);
 
 protected:

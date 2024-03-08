@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_environmentKeywords))::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords;
 
-  /// @brief Method HasKeyword, addr 0x12a93e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasKeyword, addr 0x12d064c, size 0x58, virtual false, abstract: false, final false
   inline bool HasKeyword(::StringW keyword);
 
   static inline ::GlobalNamespace::EnvironmentKeywords* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentKeywordsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x12a92dc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d0548, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
 
-  /// @brief Method get_environmentKeywords, addr 0x12a92d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentKeywords, addr 0x12d0540, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
 protected:

@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2382874;
+  constexpr static std::size_t addrs = 0x23e4e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_threshold)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238287c;
+  constexpr static std::size_t addrs = 0x23e4e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_impact)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2382884;
+  constexpr static std::size_t addrs = 0x23e4e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_attackTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238288c;
+  constexpr static std::size_t addrs = 0x23e4e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_releaseTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2382894;
+  constexpr static std::size_t addrs = 0x23e4e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_minVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238289c;
+  constexpr static std::size_t addrs = 0x23e4e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23828a4;
+  constexpr static std::size_t addrs = 0x23e4e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(
     &::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_volumeSmooth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23828ac;
+  constexpr static std::size_t addrs = 0x23e4e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(),
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23828b4;
+  constexpr static std::size_t addrs = 0x23e4e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>::get(), ".ctor",

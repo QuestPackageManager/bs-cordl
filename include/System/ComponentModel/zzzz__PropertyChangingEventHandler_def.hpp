@@ -31,18 +31,18 @@ namespace System::ComponentModel {
 class CORDL_TYPE PropertyChangingEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2731c88, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2791f44, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ComponentModel::PropertyChangingEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2731cb0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2791f6c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2731c74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2791f30, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangingEventArgs* e);
 
   static inline ::System::ComponentModel::PropertyChangingEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2731b44, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791e00, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

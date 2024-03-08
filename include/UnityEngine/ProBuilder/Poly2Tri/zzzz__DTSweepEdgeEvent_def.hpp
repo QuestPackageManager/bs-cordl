@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_Right(bool value);
 
-  /// @brief Method .ctor, addr 0x2c1a0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7a91c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

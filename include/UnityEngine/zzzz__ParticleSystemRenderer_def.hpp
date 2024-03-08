@@ -106,210 +106,210 @@ public:
 
   __declspec(property(get = get_velocityScale, put = set_velocityScale)) float_t velocityScale;
 
-  /// @brief Method AreVertexStreamsEnabled, addr 0x2e0e134, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AreVertexStreamsEnabled, addr 0x2e6996c, size 0x1c, virtual false, abstract: false, final false
   inline bool AreVertexStreamsEnabled(::UnityEngine::ParticleSystemVertexStreams streams);
 
-  /// @brief Method BakeMesh, addr 0x2e0d398, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x2e68bd0, size 0x5c, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, bool useTransform);
 
-  /// @brief Method BakeMesh, addr 0x2e0d334, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x2e68b6c, size 0x64, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, bool useTransform);
 
-  /// @brief Method BakeTrailsMesh, addr 0x2e0d458, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BakeTrailsMesh, addr 0x2e68c90, size 0x5c, virtual false, abstract: false, final false
   inline void BakeTrailsMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, bool useTransform);
 
-  /// @brief Method BakeTrailsMesh, addr 0x2e0d3f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BakeTrailsMesh, addr 0x2e68c2c, size 0x64, virtual false, abstract: false, final false
   inline void BakeTrailsMesh(::UnityEngine::Mesh* mesh, bool useTransform);
 
-  /// @brief Method DisableVertexStreams, addr 0x2e0e12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DisableVertexStreams, addr 0x2e69964, size 0x8, virtual false, abstract: false, final false
   inline void DisableVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
-  /// @brief Method EnableVertexStreams, addr 0x2e0d578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnableVertexStreams, addr 0x2e68db0, size 0x8, virtual false, abstract: false, final false
   inline void EnableVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
-  /// @brief Method GetActiveVertexStreams, addr 0x2e0d534, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetActiveVertexStreams, addr 0x2e68d6c, size 0x44, virtual false, abstract: false, final false
   inline void GetActiveVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
 
-  /// @brief Method GetEnabledVertexStreams, addr 0x2e0e3cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledVertexStreams, addr 0x2e69c04, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemVertexStreams GetEnabledVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
-  /// @brief Method GetMeshWeightings, addr 0x2e0d204, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetMeshWeightings, addr 0x2e68a3c, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetMeshWeightings(ByRef<::ArrayW<float_t, ::Array<float_t>*>> weightings);
 
-  /// @brief Method GetMeshes, addr 0x2e0d110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetMeshes, addr 0x2e68948, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetMeshes(ByRef<::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*>> meshes);
 
-  /// @brief Method Internal_GetEnabledVertexStreams, addr 0x2e0e150, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetEnabledVertexStreams, addr 0x2e69988, size 0x27c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemVertexStreams Internal_GetEnabledVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
-  /// @brief Method Internal_SetVertexStreams, addr 0x2e0d580, size 0xbac, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetVertexStreams, addr 0x2e68db8, size 0xbac, virtual false, abstract: false, final false
   inline void Internal_SetVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams, bool enabled);
 
   static inline ::UnityEngine::ParticleSystemRenderer* New_ctor();
 
-  /// @brief Method SetActiveVertexStreams, addr 0x2e0d4f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetActiveVertexStreams, addr 0x2e68d28, size 0x44, virtual false, abstract: false, final false
   inline void SetActiveVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
 
-  /// @brief Method SetMeshWeightings, addr 0x2e0d29c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMeshWeightings, addr 0x2e68ad4, size 0x5c, virtual false, abstract: false, final false
   inline void SetMeshWeightings(::ArrayW<float_t, ::Array<float_t>*> weightings);
 
-  /// @brief Method SetMeshWeightings, addr 0x2e0d248, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetMeshWeightings, addr 0x2e68a80, size 0x54, virtual false, abstract: false, final false
   inline void SetMeshWeightings(::ArrayW<float_t, ::Array<float_t>*> weightings, int32_t size);
 
-  /// @brief Method SetMeshes, addr 0x2e0d1a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMeshes, addr 0x2e689e0, size 0x5c, virtual false, abstract: false, final false
   inline void SetMeshes(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes);
 
-  /// @brief Method SetMeshes, addr 0x2e0d154, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetMeshes, addr 0x2e6898c, size 0x54, virtual false, abstract: false, final false
   inline void SetMeshes(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes, int32_t size);
 
-  /// @brief Method .ctor, addr 0x2e0e3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e69c08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeVertexStreamsCount, addr 0x2e0d4b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_activeVertexStreamsCount, addr 0x2e68cec, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_activeVertexStreamsCount();
 
-  /// @brief Method get_alignment, addr 0x2e0c49c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x2e67cd4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemRenderSpace get_alignment();
 
-  /// @brief Method get_allowRoll, addr 0x2e0cf10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowRoll, addr 0x2e68748, size 0x3c, virtual false, abstract: false, final false
   inline bool get_allowRoll();
 
-  /// @brief Method get_cameraVelocityScale, addr 0x2e0c7ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cameraVelocityScale, addr 0x2e67fe4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_cameraVelocityScale();
 
-  /// @brief Method get_enableGPUInstancing, addr 0x2e0ce90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enableGPUInstancing, addr 0x2e686c8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enableGPUInstancing();
 
-  /// @brief Method get_flip, addr 0x2e0cc14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_flip, addr 0x2e6844c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_flip();
 
-  /// @brief Method get_flip_Injected, addr 0x2e0cc70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_flip_Injected, addr 0x2e684a8, size 0x44, virtual false, abstract: false, final false
   inline void get_flip_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_freeformStretching, addr 0x2e0cf90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_freeformStretching, addr 0x2e687c8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_freeformStretching();
 
-  /// @brief Method get_lengthScale, addr 0x2e0c69c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lengthScale, addr 0x2e67ed4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_lengthScale();
 
-  /// @brief Method get_maskInteraction, addr 0x2e0cd4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maskInteraction, addr 0x2e68584, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::SpriteMaskInteraction get_maskInteraction();
 
-  /// @brief Method get_maxParticleSize, addr 0x2e0ca54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxParticleSize, addr 0x2e6828c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxParticleSize();
 
-  /// @brief Method get_mesh, addr 0x2e0d090, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x2e688c8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_meshCount, addr 0x2e0d2f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_meshCount, addr 0x2e68b30, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_meshCount();
 
-  /// @brief Method get_meshDistribution, addr 0x2e0c59c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_meshDistribution, addr 0x2e67dd4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemMeshDistribution get_meshDistribution();
 
-  /// @brief Method get_minParticleSize, addr 0x2e0c9cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minParticleSize, addr 0x2e68204, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_minParticleSize();
 
-  /// @brief Method get_normalDirection, addr 0x2e0c834, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_normalDirection, addr 0x2e6806c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_normalDirection();
 
-  /// @brief Method get_pivot, addr 0x2e0cadc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_pivot, addr 0x2e68314, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivot();
 
-  /// @brief Method get_pivot_Injected, addr 0x2e0cb38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pivot_Injected, addr 0x2e68370, size 0x44, virtual false, abstract: false, final false
   inline void get_pivot_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_renderMode, addr 0x2e0c51c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x2e67d54, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemRenderMode get_renderMode();
 
-  /// @brief Method get_rotateWithStretchDirection, addr 0x2e0d010, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rotateWithStretchDirection, addr 0x2e68848, size 0x3c, virtual false, abstract: false, final false
   inline bool get_rotateWithStretchDirection();
 
-  /// @brief Method get_shadowBias, addr 0x2e0c8bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_shadowBias, addr 0x2e680f4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_shadowBias();
 
-  /// @brief Method get_sortMode, addr 0x2e0c61c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortMode, addr 0x2e67e54, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemSortMode get_sortMode();
 
-  /// @brief Method get_sortingFudge, addr 0x2e0c944, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingFudge, addr 0x2e6817c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_sortingFudge();
 
-  /// @brief Method get_trailMaterial, addr 0x2e0cdcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_trailMaterial, addr 0x2e68604, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_trailMaterial();
 
-  /// @brief Method get_velocityScale, addr 0x2e0c724, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_velocityScale, addr 0x2e67f5c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_velocityScale();
 
-  /// @brief Method set_alignment, addr 0x2e0c4d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x2e67d10, size 0x44, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::ParticleSystemRenderSpace value);
 
-  /// @brief Method set_allowRoll, addr 0x2e0cf4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowRoll, addr 0x2e68784, size 0x44, virtual false, abstract: false, final false
   inline void set_allowRoll(bool value);
 
-  /// @brief Method set_cameraVelocityScale, addr 0x2e0c7e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_cameraVelocityScale, addr 0x2e68020, size 0x4c, virtual false, abstract: false, final false
   inline void set_cameraVelocityScale(float_t value);
 
-  /// @brief Method set_enableGPUInstancing, addr 0x2e0cecc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enableGPUInstancing, addr 0x2e68704, size 0x44, virtual false, abstract: false, final false
   inline void set_enableGPUInstancing(bool value);
 
-  /// @brief Method set_flip, addr 0x2e0ccb4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_flip, addr 0x2e684ec, size 0x54, virtual false, abstract: false, final false
   inline void set_flip(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_flip_Injected, addr 0x2e0cd08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_flip_Injected, addr 0x2e68540, size 0x44, virtual false, abstract: false, final false
   inline void set_flip_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_freeformStretching, addr 0x2e0cfcc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_freeformStretching, addr 0x2e68804, size 0x44, virtual false, abstract: false, final false
   inline void set_freeformStretching(bool value);
 
-  /// @brief Method set_lengthScale, addr 0x2e0c6d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_lengthScale, addr 0x2e67f10, size 0x4c, virtual false, abstract: false, final false
   inline void set_lengthScale(float_t value);
 
-  /// @brief Method set_maskInteraction, addr 0x2e0cd88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_maskInteraction, addr 0x2e685c0, size 0x44, virtual false, abstract: false, final false
   inline void set_maskInteraction(::UnityEngine::SpriteMaskInteraction value);
 
-  /// @brief Method set_maxParticleSize, addr 0x2e0ca90, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxParticleSize, addr 0x2e682c8, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxParticleSize(float_t value);
 
-  /// @brief Method set_mesh, addr 0x2e0d0cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x2e68904, size 0x44, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_meshDistribution, addr 0x2e0c5d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_meshDistribution, addr 0x2e67e10, size 0x44, virtual false, abstract: false, final false
   inline void set_meshDistribution(::UnityEngine::ParticleSystemMeshDistribution value);
 
-  /// @brief Method set_minParticleSize, addr 0x2e0ca08, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minParticleSize, addr 0x2e68240, size 0x4c, virtual false, abstract: false, final false
   inline void set_minParticleSize(float_t value);
 
-  /// @brief Method set_normalDirection, addr 0x2e0c870, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalDirection, addr 0x2e680a8, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalDirection(float_t value);
 
-  /// @brief Method set_oldTrailMaterial, addr 0x2e0ce4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_oldTrailMaterial, addr 0x2e68684, size 0x44, virtual false, abstract: false, final false
   inline void set_oldTrailMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_pivot, addr 0x2e0cb7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_pivot, addr 0x2e683b4, size 0x54, virtual false, abstract: false, final false
   inline void set_pivot(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_pivot_Injected, addr 0x2e0cbd0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_pivot_Injected, addr 0x2e68408, size 0x44, virtual false, abstract: false, final false
   inline void set_pivot_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_renderMode, addr 0x2e0c558, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x2e67d90, size 0x44, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::ParticleSystemRenderMode value);
 
-  /// @brief Method set_rotateWithStretchDirection, addr 0x2e0d04c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rotateWithStretchDirection, addr 0x2e68884, size 0x44, virtual false, abstract: false, final false
   inline void set_rotateWithStretchDirection(bool value);
 
-  /// @brief Method set_shadowBias, addr 0x2e0c8f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_shadowBias, addr 0x2e68130, size 0x4c, virtual false, abstract: false, final false
   inline void set_shadowBias(float_t value);
 
-  /// @brief Method set_sortMode, addr 0x2e0c658, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortMode, addr 0x2e67e90, size 0x44, virtual false, abstract: false, final false
   inline void set_sortMode(::UnityEngine::ParticleSystemSortMode value);
 
-  /// @brief Method set_sortingFudge, addr 0x2e0c980, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_sortingFudge, addr 0x2e681b8, size 0x4c, virtual false, abstract: false, final false
   inline void set_sortingFudge(float_t value);
 
-  /// @brief Method set_trailMaterial, addr 0x2e0ce08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_trailMaterial, addr 0x2e68640, size 0x44, virtual false, abstract: false, final false
   inline void set_trailMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_velocityScale, addr 0x2e0c760, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_velocityScale, addr 0x2e67f98, size 0x4c, virtual false, abstract: false, final false
   inline void set_velocityScale(float_t value);
 
 protected:

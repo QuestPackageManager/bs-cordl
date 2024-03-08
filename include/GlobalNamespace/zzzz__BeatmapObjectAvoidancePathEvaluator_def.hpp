@@ -58,7 +58,7 @@ public:
   /// @brief Field _zOffset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
-  /// @brief Method GetCurrentPathPosition, addr 0xe6e7a4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPathPosition, addr 0xe8a570, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCurrentPathPosition();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms,
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0xe6e72c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8a4f8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
                     float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::*)(int32_t)>(
     &::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x136cd70;
+  constexpr static std::size_t addrs = 0x13972c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::*)()>(
     &::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x136ce7c;
+  constexpr static std::size_t addrs = 0x13973d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::*)()>(
     &::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::MoveNext)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x136ce80;
+  constexpr static std::size_t addrs = 0x13973d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::*)()>(
     &::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x136cf64;
+  constexpr static std::size_t addrs = 0x13974bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::*)()>(
     &::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x136cf6c;
+  constexpr static std::size_t addrs = 0x13974c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::*)()>(
     &::RootMotion::FinalIK::__AimController___TurnToTarget_d__33::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x136cfac;
+  constexpr static std::size_t addrs = 0x1397504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::AimController::*)()>(&::RootMotion::FinalIK::AimController::Start)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x136c2b4;
+  constexpr static std::size_t addrs = 0x139680c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimController*>::get(), "Start",
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::AimController::*)()>(&::RootMotion::FinalIK::AimController::LateUpdate)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x136c3b4;
+  constexpr static std::size_t addrs = 0x139690c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimController*>::get(), "LateUpdate",
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::AimController::*)()>(
     &::RootMotion::FinalIK::AimController::get_pivot)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x136c330;
+  constexpr static std::size_t addrs = 0x1396888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimController*>::get(), "get_pivot",
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::AimController::*)()>(&::RootMotion::FinalIK::AimController::ApplyMinDistance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x136c8e0;
+  constexpr static std::size_t addrs = 0x1396e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimController*>::get(), "ApplyMinDistance",
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::AimController::*)()>(&::RootMotion::FinalIK::AimController::RootRotation)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x136ca64;
+  constexpr static std::size_t addrs = 0x1396fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimController*>::get(), "RootRotation",
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::RootMotion::FinalIK::AimController::*)()>(
     &::RootMotion::FinalIK::AimController::TurnToTarget)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x136cd08;
+  constexpr static std::size_t addrs = 0x1397260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimController*>::get(), "TurnToTarget",
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::AimController::*)()>(&::RootMotion::FinalIK::AimController::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x136cd98;
+  constexpr static std::size_t addrs = 0x13972f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimController*>::get(), ".ctor",

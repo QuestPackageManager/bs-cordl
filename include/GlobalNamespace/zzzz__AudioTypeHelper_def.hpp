@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioTypeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioTypeFromPath, addr 0xe95a54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetAudioTypeFromPath, addr 0xeb5ad4, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioType GetAudioTypeFromPath(::StringW path);
 
 protected:

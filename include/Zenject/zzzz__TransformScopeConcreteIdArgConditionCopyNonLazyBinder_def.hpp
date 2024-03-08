@@ -45,13 +45,13 @@ public:
 
   static inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method UnderTransform, addr 0x2fe9944, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnderTransform, addr 0x304217c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::UnityEngine::Transform* parent);
 
-  /// @brief Method UnderTransform, addr 0x2fe9960, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnderTransform, addr 0x3042198, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* parentGetter);
 
-  /// @brief Method UnderTransformGroup, addr 0x2fe997c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnderTransformGroup, addr 0x30421b4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::StringW transformGroupname);
 
   constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__GameObjectInfo_k__BackingField();
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set__GameObjectInfo_k__BackingField(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x2fe98f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3042128, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method get_GameObjectInfo, addr 0x2fe9934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameObjectInfo, addr 0x304216c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectInfo();
 
-  /// @brief Method set_GameObjectInfo, addr 0x2fe993c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GameObjectInfo, addr 0x3042174, size 0x8, virtual false, abstract: false, final false
   inline void set_GameObjectInfo(::Zenject::GameObjectCreationParameters* value);
 
 protected:

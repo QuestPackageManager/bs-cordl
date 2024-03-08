@@ -63,21 +63,21 @@ public:
   __declspec(property(get = __cordl_internal_get_didFavoriteToggleChangeEvent,
                       put = __cordl_internal_set_didFavoriteToggleChangeEvent))::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* didFavoriteToggleChangeEvent;
 
-  /// @brief Method Awake, addr 0x23e5ebc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x244b658, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StandardLevelBuyView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23e5f80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x244b71c, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshFavouriteToggle, addr 0x23e5fc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RefreshFavouriteToggle, addr 0x244b764, size 0x3c, virtual false, abstract: false, final false
   inline void RefreshFavouriteToggle();
 
-  /// @brief Method SetContent, addr 0x23e5f94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x244b730, size 0x34, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method <Awake>b__11_0, addr 0x23e6008, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__11_0, addr 0x244b7a8, size 0x30, virtual false, abstract: false, final false
   inline void _Awake_b__11_0(bool on);
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
@@ -122,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method .ctor, addr 0x23e6000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244b7a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x23e5d54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x244b4f0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method get_buyButton, addr 0x23e5eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyButton, addr 0x244b650, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyButton();
 
-  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x23e5e04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x244b5a0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
 protected:

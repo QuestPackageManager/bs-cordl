@@ -97,7 +97,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <SaveFile>b__0, addr 0xe8eef8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <SaveFile>b__0, addr 0xeaee4c, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _SaveFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0xe8eaa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeae9f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -186,7 +186,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <LoadFile>b__0, addr 0xe8efb4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <LoadFile>b__0, addr 0xeaef08, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* _LoadFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0xe8eb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaead4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -264,7 +264,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <FileExists>b__0, addr 0xe8f068, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <FileExists>b__0, addr 0xeaefbc, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* _FileExists_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -285,7 +285,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0xe8ec60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaebb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -342,7 +342,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <DeleteFile>b__0, addr 0xe8f11c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <DeleteFile>b__0, addr 0xeaf070, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DeleteFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -363,7 +363,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0xe8ed2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaec80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -478,13 +478,13 @@ public:
 
   using __c__DisplayClass3_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0;
 
-  /// @brief Method DeleteFile, addr 0xe8ec68, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DeleteFile, addr 0xeaebbc, size 0xc4, virtual false, abstract: false, final false
   static inline void DeleteFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method FileExists, addr 0xe8eb88, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0xeaeadc, size 0xd8, virtual false, abstract: false, final false
   static inline bool FileExists(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method LoadFile, addr 0xe8eaa8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LoadFile, addr 0xeae9fc, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LoadFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   /// @brief Method LoadFromJSONFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -494,13 +494,13 @@ public:
   template <typename T>
   static inline ::System::Threading::Tasks::Task_1<T>* LoadFromJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method SaveFile, addr 0xe8e9cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SaveFile, addr 0xeae920, size 0xd4, virtual false, abstract: false, final false
   static inline void SaveFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method SaveToJSONFile, addr 0xe8ed34, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SaveToJSONFile, addr 0xeaec88, size 0xe8, virtual false, abstract: false, final false
   static inline void SaveToJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation, bool prettyPrint);
 
-  /// @brief Method SaveToJSONFileAsync, addr 0xe8ee1c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SaveToJSONFileAsync, addr 0xeaed70, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveToJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
                                                                       ::GlobalNamespace::StoragePreference storageLocation, bool prettyPrint);
 

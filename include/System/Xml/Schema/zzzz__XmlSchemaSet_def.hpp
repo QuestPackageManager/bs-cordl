@@ -78,7 +78,7 @@ public:
   /// @brief Field targetNamespaces, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_targetNamespaces, put = __cordl_internal_set_targetNamespaces))::System::Collections::Hashtable* targetNamespaces;
 
-  /// @brief Method InternalValidationCallback, addr 0x29b2b80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalValidationCallback, addr 0x2a143b8, size 0x44, virtual false, abstract: false, final false
   inline void InternalValidationCallback(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
   static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor();
@@ -151,10 +151,10 @@ public:
 
   constexpr void __cordl_internal_set_targetNamespaces(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x29b2894, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a140cc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29b28f8, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a14130, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
 protected:

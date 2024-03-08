@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Net::Configuration::HttpWebRequestElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a2e9e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a9021c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2a2ea1c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2a90254, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

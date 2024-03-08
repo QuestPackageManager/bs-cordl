@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::PlayableTrack* New_ctor();
 
-  /// @brief Method OnCreateClip, addr 0x2d55194, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnCreateClip, addr 0x2db29cc, size 0x94, virtual true, abstract: false, final false
   inline void OnCreateClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method .ctor, addr 0x2d55228, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db2a60, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

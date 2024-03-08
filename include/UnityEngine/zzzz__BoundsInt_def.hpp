@@ -65,25 +65,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method GetEnumerator, addr 0x2dbe300, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2e19b38, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::__BoundsInt__PositionEnumerator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x2dbe314, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2e19b4c, size 0x7c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2dbe2e4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2e19b1c, size 0x1c, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2dbe3a0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2e19bd8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2dbe404, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2e19c3c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method .ctor, addr 0x2dbe2c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e19afc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3Int min, ::UnityEngine::Vector3Int max);
 
-  /// @brief Method get_Current, addr 0x2dbe390, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2e19bc8, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3Int get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>"
@@ -163,52 +163,52 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x2dbe094, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e198cc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x2dbe124, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e1995c, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::BoundsInt other);
 
-  /// @brief Method GetHashCode, addr 0x2dbe19c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e199d4, size 0xd4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2dbdf2c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e19764, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2dbdf38, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2e19770, size 0x15c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x2dbdf18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e19750, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3Int position, ::UnityEngine::Vector3Int size);
 
-  /// @brief Method get_allPositionsWithin, addr 0x2dbe270, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_allPositionsWithin, addr 0x2e19aa8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::__BoundsInt__PositionEnumerator get_allPositionsWithin();
 
-  /// @brief Method get_max, addr 0x2dbdd44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x2e1957c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_max();
 
-  /// @brief Method get_min, addr 0x2dbdaec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_min, addr 0x2e19324, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_min();
 
-  /// @brief Method get_size, addr 0x2dbdf08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x2e19740, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_size();
 
-  /// @brief Method get_xMax, addr 0x2dbdd88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_xMax, addr 0x2e195c0, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_xMax();
 
-  /// @brief Method get_xMin, addr 0x2dbdb30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_xMin, addr 0x2e19368, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_xMin();
 
-  /// @brief Method get_yMax, addr 0x2dbddec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_yMax, addr 0x2e19624, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_yMax();
 
-  /// @brief Method get_yMin, addr 0x2dbdb94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_yMin, addr 0x2e193cc, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_yMin();
 
-  /// @brief Method get_zMax, addr 0x2dbde50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_zMax, addr 0x2e19688, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_zMax();
 
-  /// @brief Method get_zMin, addr 0x2dbdbf8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_zMin, addr 0x2e19430, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_zMin();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::BoundsInt>"
@@ -217,28 +217,28 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method set_max, addr 0x2dbdeb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_max, addr 0x2e196ec, size 0x24, virtual false, abstract: false, final false
   inline void set_max(::UnityEngine::Vector3Int value);
 
-  /// @brief Method set_min, addr 0x2dbdc5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_min, addr 0x2e19494, size 0x64, virtual false, abstract: false, final false
   inline void set_min(::UnityEngine::Vector3Int value);
 
-  /// @brief Method set_xMax, addr 0x2dbded8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_xMax, addr 0x2e19710, size 0x10, virtual false, abstract: false, final false
   inline void set_xMax(int32_t value);
 
-  /// @brief Method set_xMin, addr 0x2dbdcc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_xMin, addr 0x2e194f8, size 0x2c, virtual false, abstract: false, final false
   inline void set_xMin(int32_t value);
 
-  /// @brief Method set_yMax, addr 0x2dbdee8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_yMax, addr 0x2e19720, size 0x10, virtual false, abstract: false, final false
   inline void set_yMax(int32_t value);
 
-  /// @brief Method set_yMin, addr 0x2dbdcec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_yMin, addr 0x2e19524, size 0x2c, virtual false, abstract: false, final false
   inline void set_yMin(int32_t value);
 
-  /// @brief Method set_zMax, addr 0x2dbdef8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_zMax, addr 0x2e19730, size 0x10, virtual false, abstract: false, final false
   inline void set_zMax(int32_t value);
 
-  /// @brief Method set_zMin, addr 0x2dbdd18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_zMin, addr 0x2e19550, size 0x2c, virtual false, abstract: false, final false
   inline void set_zMin(int32_t value);
 
   // Ctor Parameters []

@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_t(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x130dd04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133625c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation);
 
 protected:

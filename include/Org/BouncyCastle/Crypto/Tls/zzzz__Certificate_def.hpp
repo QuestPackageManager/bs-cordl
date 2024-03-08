@@ -38,22 +38,22 @@ public:
                       put = __cordl_internal_set_mCertificateList))::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*,
                                                                             ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> mCertificateList;
 
-  /// @brief Method CloneCertificateList, addr 0xfcecf4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CloneCertificateList, addr 0xff03f8, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> CloneCertificateList();
 
-  /// @brief Method Encode, addr 0xfce3cc, size 0x4c4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfefad0, size 0x4c4, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method GetCertificateAt, addr 0xfce35c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetCertificateAt, addr 0xfefa60, size 0x30, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetCertificateAt(int32_t index);
 
-  /// @brief Method GetCertificateList, addr 0xfce350, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetCertificateList, addr 0xfefa54, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertificateList();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Certificate*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificateList);
 
-  /// @brief Method Parse, addr 0xfce890, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfeff94, size 0x464, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::Certificate* Parse(::System::IO::Stream* input);
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> const&
@@ -64,15 +64,15 @@ public:
   constexpr void
   __cordl_internal_set_mCertificateList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> value);
 
-  /// @brief Method .ctor, addr 0xfce2d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfef9dc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificateList);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Certificate* getStaticF_EmptyChain();
 
-  /// @brief Method get_IsEmpty, addr 0xfce3a8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0xfefaac, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Length, addr 0xfce38c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0xfefa90, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Length();
 
   static inline void setStaticF_EmptyChain(::Org::BouncyCastle::Crypto::Tls::Certificate* value);

@@ -32,12 +32,12 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE Logger : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2fb31e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x300ca1c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Yoga::YogaConfig* config, ::UnityEngine::Yoga::YogaNode* node, ::UnityEngine::Yoga::YogaLogLevel level, ::StringW message);
 
   static inline ::UnityEngine::Yoga::Logger* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2fb30b4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x300c8ec, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

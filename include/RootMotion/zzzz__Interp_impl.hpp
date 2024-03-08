@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::RootMotion::InterpolationMode)>(&::RootMotion::Interp::Float)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x1319544;
+  constexpr static std::size_t addrs = 0x1341a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::RootMotion::InterpolationMode)>(
     &::RootMotion::Interp::V3)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1319ecc;
+  constexpr static std::size_t addrs = 0x1342424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t)>(&::RootMotion::Interp::LerpValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1319f3c;
+  constexpr static std::size_t addrs = 0x1342494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::None)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1319944;
+  constexpr static std::size_t addrs = 0x1341e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InOutCubic)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1319950;
+  constexpr static std::size_t addrs = 0x1341ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InOutQuintic)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x1319974;
+  constexpr static std::size_t addrs = 0x1341ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InQuintic)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x13199b0;
+  constexpr static std::size_t addrs = 0x1341f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InQuartic)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x13199c8;
+  constexpr static std::size_t addrs = 0x1341f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InCubic)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x13199dc;
+  constexpr static std::size_t addrs = 0x1341f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InQuadratic)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x13199f0;
+  constexpr static std::size_t addrs = 0x1341f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutQuintic)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1319a00;
+  constexpr static std::size_t addrs = 0x1341f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutQuartic)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x1319a48;
+  constexpr static std::size_t addrs = 0x1341fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutCubic)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1319a80;
+  constexpr static std::size_t addrs = 0x1341fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutInCubic)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1319aa8;
+  constexpr static std::size_t addrs = 0x1342000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutInQuartic)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1319fac;
+  constexpr static std::size_t addrs = 0x1342504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::BackInCubic)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1319adc;
+  constexpr static std::size_t addrs = 0x1342034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::BackInQuartic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1319b04;
+  constexpr static std::size_t addrs = 0x134205c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutBackCubic)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1319b34;
+  constexpr static std::size_t addrs = 0x134208c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutBackQuartic)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1319b68;
+  constexpr static std::size_t addrs = 0x13420c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutElasticSmall)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x1319bac;
+  constexpr static std::size_t addrs = 0x1342104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutElasticBig)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x1319c10;
+  constexpr static std::size_t addrs = 0x1342168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InElasticSmall)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1319c74;
+  constexpr static std::size_t addrs = 0x13421cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InElasticBig)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1319cc8;
+  constexpr static std::size_t addrs = 0x1342220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InSine)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x1319d1c;
+  constexpr static std::size_t addrs = 0x1342274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutSine)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1319d54;
+  constexpr static std::size_t addrs = 0x13422ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InOutSine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1319d88;
+  constexpr static std::size_t addrs = 0x13422e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InElastic)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x1319fe0;
+  constexpr static std::size_t addrs = 0x1342538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutElastic)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x1319dcc;
+  constexpr static std::size_t addrs = 0x1342324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::InBack)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1319e5c;
+  constexpr static std::size_t addrs = 0x13423b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::RootMotion::Interp::OutBack)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1319e8c;
+  constexpr static std::size_t addrs = 0x13423e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::Interp::*)()>(&::RootMotion::Interp::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x131a070;
+  constexpr static std::size_t addrs = 0x13425c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Interp*>::get(), ".ctor",

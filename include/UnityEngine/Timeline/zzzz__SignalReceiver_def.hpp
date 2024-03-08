@@ -62,18 +62,18 @@ public:
 
   __declspec(property(get = get_signals))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* signals;
 
-  /// @brief Method Append, addr 0x2d50ff4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x2dae82c, size 0x128, virtual false, abstract: false, final false
   inline void Append(::UnityEngine::Timeline::SignalAsset* key, ::UnityEngine::Events::UnityEvent* value);
 
   static inline ::UnityEngine::Timeline::__SignalReceiver__EventKeyValue* New_ctor();
 
-  /// @brief Method Remove, addr 0x2d516a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2daeed8, size 0x94, virtual false, abstract: false, final false
   inline void Remove(int32_t idx);
 
-  /// @brief Method Remove, addr 0x2d51248, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2daea80, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::Timeline::SignalAsset* key);
 
-  /// @brief Method TryGetValue, addr 0x2d50e04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x2dae63c, size 0xb0, virtual false, abstract: false, final false
   inline bool TryGetValue(::UnityEngine::Timeline::SignalAsset* key, ByRef<::UnityEngine::Events::UnityEvent*> value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>*& __cordl_internal_get_m_Events();
@@ -88,13 +88,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Signals(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x2d519e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2daf218, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_events, addr 0x2d51aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_events, addr 0x2daf2e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* get_events();
 
-  /// @brief Method get_signals, addr 0x2d51aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_signals, addr 0x2daf2d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* get_signals();
 
 protected:
@@ -143,45 +143,45 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
 
-  /// @brief Method AddEmptyReaction, addr 0x2d5111c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddEmptyReaction, addr 0x2dae954, size 0x6c, virtual false, abstract: false, final false
   inline int32_t AddEmptyReaction(::UnityEngine::Events::UnityEvent* reaction);
 
-  /// @brief Method AddReaction, addr 0x2d50eb4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddReaction, addr 0x2dae6ec, size 0x140, virtual false, abstract: false, final false
   inline void AddReaction(::UnityEngine::Timeline::SignalAsset* asset, ::UnityEngine::Events::UnityEvent* reaction);
 
-  /// @brief Method ChangeReactionAtIndex, addr 0x2d51734, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ChangeReactionAtIndex, addr 0x2daef6c, size 0xcc, virtual false, abstract: false, final false
   inline void ChangeReactionAtIndex(int32_t idx, ::UnityEngine::Events::UnityEvent* reaction);
 
-  /// @brief Method ChangeSignalAtIndex, addr 0x2d513a4, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ChangeSignalAtIndex, addr 0x2daebdc, size 0x258, virtual false, abstract: false, final false
   inline void ChangeSignalAtIndex(int32_t idx, ::UnityEngine::Timeline::SignalAsset* newKey);
 
-  /// @brief Method Count, addr 0x2d51354, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x2daeb8c, size 0x50, virtual false, abstract: false, final false
   inline int32_t Count();
 
-  /// @brief Method GetReaction, addr 0x2d51324, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetReaction, addr 0x2daeb5c, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent* GetReaction(::UnityEngine::Timeline::SignalAsset* key);
 
-  /// @brief Method GetReactionAtIndex, addr 0x2d51800, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetReactionAtIndex, addr 0x2daf038, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent* GetReactionAtIndex(int32_t idx);
 
-  /// @brief Method GetRegisteredSignals, addr 0x2d51308, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRegisteredSignals, addr 0x2daeb40, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* GetRegisteredSignals();
 
-  /// @brief Method GetSignalAssetAtIndex, addr 0x2d518bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetSignalAssetAtIndex, addr 0x2daf0f4, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Timeline::SignalAsset> GetSignalAssetAtIndex(int32_t idx);
 
   static inline ::UnityEngine::Timeline::SignalReceiver* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2d51978, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2daf1b0, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnNotify, addr 0x2d50cec, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x2dae524, size 0x118, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
-  /// @brief Method Remove, addr 0x2d51188, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2dae9c0, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::Timeline::SignalAsset* asset);
 
-  /// @brief Method RemoveAtIndex, addr 0x2d515fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RemoveAtIndex, addr 0x2daee34, size 0xa4, virtual false, abstract: false, final false
   inline void RemoveAtIndex(int32_t idx);
 
   constexpr ::UnityEngine::Timeline::__SignalReceiver__EventKeyValue*& __cordl_internal_get_m_Events();
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Events(::UnityEngine::Timeline::__SignalReceiver__EventKeyValue* value);
 
-  /// @brief Method .ctor, addr 0x2d5197c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2daf1b4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"

@@ -41,14 +41,14 @@ public:
 
   __declspec(property(get = get_scenes, put = set_scenes))::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> scenes;
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0xe8b270, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0xea7f1c, size 0x88, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
-  /// @brief Method Init, addr 0xe8b230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xea7edc, size 0x8, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> scenes,
                    ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method InstallBindings, addr 0xe8939c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xea6048, size 0x12c, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::ScenesTransitionSetupDataSO* New_ctor();
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__scenes_k__BackingField(::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> value);
 
-  /// @brief Method .ctor, addr 0xe8b240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea7eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_scenes, addr 0xe8b260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scenes, addr 0xea7f0c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> get_scenes();
 
-  /// @brief Method set_scenes, addr 0xe8b268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scenes, addr 0xea7f14, size 0x8, virtual false, abstract: false, final false
   inline void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> value);
 
 protected:

@@ -118,7 +118,7 @@ public:
   /// @brief Field unityEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_unityEvent, put = __cordl_internal_set_unityEvent))::UnityEngine::Events::UnityEvent* unityEvent;
 
-  /// @brief Method Activate, addr 0x135fef8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x1389450, size 0xc4, virtual false, abstract: false, final false
   inline void Activate(::UnityEngine::Transform* t);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__InteractionEvent* New_ctor();
@@ -159,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method .ctor, addr 0x1361780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138acd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,7 +228,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__InteractionObject__Message* New_ctor();
 
-  /// @brief Method Send, addr 0x1361688, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x138abe0, size 0xf8, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::Transform* t);
 
   constexpr ::StringW const& __cordl_internal_get_function() const;
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_recipient(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x1361788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138ace0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -305,13 +305,13 @@ public:
   /// @brief Field resetNormalizedTime, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_resetNormalizedTime, put = __cordl_internal_set_resetNormalizedTime)) bool resetNormalizedTime;
 
-  /// @brief Method Activate, addr 0x1361840, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x138ad98, size 0xd8, virtual false, abstract: false, final false
   inline void Activate(::UnityEngine::Animation* animation);
 
-  /// @brief Method Activate, addr 0x1361790, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x138ace8, size 0xb0, virtual false, abstract: false, final false
   inline void Activate(::UnityEngine::Animator* animator);
 
-  /// @brief Method Activate, addr 0x13615ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x138ab04, size 0xdc, virtual false, abstract: false, final false
   inline void Activate(bool pickUp);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__AnimatorEvent* New_ctor();
@@ -352,7 +352,7 @@ public:
 
   constexpr void __cordl_internal_set_resetNormalizedTime(bool value);
 
-  /// @brief Method .ctor, addr 0x1361918, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138ae70, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -517,7 +517,7 @@ public:
   /// @brief Field type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__InteractionObject__WeightCurve__Type type;
 
-  /// @brief Method GetValue, addr 0x1360ebc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x138a414, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetValue(float_t timer);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__WeightCurve* New_ctor();
@@ -534,7 +534,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
 
-  /// @brief Method .ctor, addr 0x136192c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138ae84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -584,7 +584,7 @@ public:
   /// @brief Field result, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result))::GlobalNamespace::__InteractionObject__WeightCurve__Type result;
 
-  /// @brief Method GetValue, addr 0x13614c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x138aa1c, size 0x30, virtual false, abstract: false, final false
   inline float_t GetValue(::RootMotion::FinalIK::__InteractionObject__WeightCurve* weightCurve, float_t timer);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__Multiplier* New_ctor();
@@ -607,7 +607,7 @@ public:
 
   constexpr void __cordl_internal_set_result(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
 
-  /// @brief Method .ctor, addr 0x1361934, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138ae8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -706,71 +706,71 @@ public:
       get = __cordl_internal_get_weightCurves,
       put = __cordl_internal_set_weightCurves))::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> weightCurves;
 
-  /// @brief Method ASThread, addr 0x13609e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1389f38, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method Apply, addr 0x135f334, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x138888c, size 0x408, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionTarget* target, float_t timer,
                     float_t weight);
 
-  /// @brief Method Apply, addr 0x1360ed8, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x138a430, size 0x590, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::RootMotion::FinalIK::FullBodyBipedEffector effector, ::GlobalNamespace::__InteractionObject__WeightCurve__Type type,
                     float_t value, float_t weight);
 
-  /// @brief Method CurveUsed, addr 0x135e7bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CurveUsed, addr 0x1387d14, size 0x94, virtual false, abstract: false, final false
   inline bool CurveUsed(::GlobalNamespace::__InteractionObject__WeightCurve__Type type);
 
-  /// @brief Method GetMultiplierIndex, addr 0x13614f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplierIndex, addr 0x138aa50, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetMultiplierIndex(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType);
 
-  /// @brief Method GetTarget, addr 0x1360c74, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x138a1cc, size 0x178, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::InteractionTarget> GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
-  /// @brief Method GetTarget, addr 0x1360df4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x138a34c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method GetTarget, addr 0x135e678, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x1387bd0, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::StringW tag);
 
-  /// @brief Method GetTargets, addr 0x1360dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTargets, addr 0x138a344, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> GetTargets();
 
-  /// @brief Method GetValue, addr 0x135fb74, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x13890cc, size 0x20c, virtual false, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType, ::RootMotion::FinalIK::InteractionTarget* target, float_t timer);
 
-  /// @brief Method GetWeightCurveIndex, addr 0x1361468, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetWeightCurveIndex, addr 0x138a9c0, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetWeightCurveIndex(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType);
 
-  /// @brief Method Initiate, addr 0x1360a44, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x1389f9c, size 0x1b0, virtual false, abstract: false, final false
   inline void Initiate();
 
   static inline ::RootMotion::FinalIK::InteractionObject* New_ctor();
 
-  /// @brief Method OnStartInteraction, addr 0x135e7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnStartInteraction, addr 0x1387d0c, size 0x8, virtual false, abstract: false, final false
   inline void OnStartInteraction(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
-  /// @brief Method OpenScriptReference, addr 0x1360848, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1389da0, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial1, addr 0x136088c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial1, addr 0x1389de4, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial1();
 
-  /// @brief Method OpenTutorial2, addr 0x13608d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial2, addr 0x1389e28, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial2();
 
-  /// @brief Method OpenTutorial3, addr 0x1360914, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial3, addr 0x1389e6c, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial3();
 
-  /// @brief Method OpenTutorial4, addr 0x1360958, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial4, addr 0x1389eb0, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial4();
 
-  /// @brief Method OpenUserManual, addr 0x1360804, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x1389d5c, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method Start, addr 0x13614f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x138aa4c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SupportGroup, addr 0x136099c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x1389ef4, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
   constexpr ::UnityW<::RootMotion::FinalIK::InteractionSystem> const& __cordl_internal_get__lastUsedInteractionSystem_k__BackingField() const;
@@ -827,25 +827,25 @@ public:
 
   constexpr void __cordl_internal_set_weightCurves(::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> value);
 
-  /// @brief Method .ctor, addr 0x1361554, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138aaac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lastUsedInteractionSystem, addr 0x1360a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastUsedInteractionSystem, addr 0x1389f8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::InteractionSystem> get_lastUsedInteractionSystem();
 
-  /// @brief Method get_length, addr 0x1360a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x1389f7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method get_lookAtTarget, addr 0x1360bf4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_lookAtTarget, addr 0x138a14c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_lookAtTarget();
 
-  /// @brief Method get_targetsRoot, addr 0x135ffbc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_targetsRoot, addr 0x1389514, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_targetsRoot();
 
-  /// @brief Method set_lastUsedInteractionSystem, addr 0x1360a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastUsedInteractionSystem, addr 0x1389f94, size 0x8, virtual false, abstract: false, final false
   inline void set_lastUsedInteractionSystem(::RootMotion::FinalIK::InteractionSystem* value);
 
-  /// @brief Method set_length, addr 0x1360a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x1389f84, size 0x8, virtual false, abstract: false, final false
   inline void set_length(float_t value);
 
 protected:

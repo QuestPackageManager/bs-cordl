@@ -33,18 +33,18 @@ public:
   /// @brief Field flags, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Security::Permissions::ReflectionPermissionFlag flags;
 
-  /// @brief Method Cast, addr 0x254a74c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x25abf48, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Permissions::ReflectionPermission* Cast(::System::Security::IPermission* target);
 
-  /// @brief Method IsSubsetOf, addr 0x254a6fc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method IsSubsetOf, addr 0x25abef8, size 0x50, virtual true, abstract: false, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method IsUnrestricted, addr 0x254a7f0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsUnrestricted, addr 0x25abfec, size 0x10, virtual true, abstract: false, final true
   inline bool IsUnrestricted();
 
   static inline ::System::Security::Permissions::ReflectionPermission* New_ctor(::System::Security::Permissions::ReflectionPermissionFlag flag);
 
-  /// @brief Method ToXml, addr 0x254a800, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x25abffc, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr ::System::Security::Permissions::ReflectionPermissionFlag const& __cordl_internal_get_flags() const;
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_flags(::System::Security::Permissions::ReflectionPermissionFlag value);
 
-  /// @brief Method .ctor, addr 0x254a610, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25abe0c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::ReflectionPermissionFlag flag);
 
-  /// @brief Method get_Flags, addr 0x254a6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x25abef0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Permissions::ReflectionPermissionFlag get_Flags();
 
-  /// @brief Method set_Flags, addr 0x254a63c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x25abe38, size 0xb8, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Permissions::ReflectionPermissionFlag value);
 
 protected:

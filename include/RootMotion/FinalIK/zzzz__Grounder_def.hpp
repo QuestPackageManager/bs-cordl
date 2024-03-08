@@ -47,18 +47,18 @@ namespace RootMotion::FinalIK {
 class CORDL_TYPE __Grounder__GrounderDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x1320920, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x1348e78, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x1320940, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x1348e98, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x132090c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x1348e64, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::RootMotion::FinalIK::__Grounder__GrounderDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x1320850, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1348da8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -108,16 +108,16 @@ public:
   /// @brief Field weight, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method GetLegSpineBendVector, addr 0x132045c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetLegSpineBendVector, addr 0x13489b4, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLegSpineBendVector(::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  /// @brief Method GetLegSpineTangent, addr 0x132066c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetLegSpineTangent, addr 0x1348bc4, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLegSpineTangent(::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  /// @brief Method GetSpineOffsetTarget, addr 0x1320398, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetSpineOffsetTarget, addr 0x13488f0, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetSpineOffsetTarget();
 
-  /// @brief Method LogWarning, addr 0x1320648, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x1348ba0, size 0x24, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
   static inline ::RootMotion::FinalIK::Grounder* New_ctor();
@@ -161,13 +161,13 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x13207e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1348d38, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_initiated, addr 0x1320384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_initiated, addr 0x13488dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated, addr 0x132038c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_initiated, addr 0x13488e4, size 0xc, virtual false, abstract: false, final false
   inline void set_initiated(bool value);
 
 protected:

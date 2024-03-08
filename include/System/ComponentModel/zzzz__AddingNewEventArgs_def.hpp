@@ -36,16 +36,16 @@ public:
 
   constexpr void __cordl_internal_set__NewObject_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2731364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x273136c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791628, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* newObject);
 
-  /// @brief Method get_NewObject, addr 0x2731354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewObject, addr 0x2791610, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_NewObject();
 
-  /// @brief Method set_NewObject, addr 0x273135c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NewObject, addr 0x2791618, size 0x8, virtual false, abstract: false, final false
   inline void set_NewObject(::System::Object* value);
 
 protected:

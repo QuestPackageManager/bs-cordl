@@ -50,10 +50,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0xf7095c, size 0xf74, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0xf91060, size 0xf74, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0xf708b8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf90fbc, size 0xa4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator* New_ctor();
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0xf72008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9270c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method findFirstPrimes, addr 0xf718d0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method findFirstPrimes, addr 0xf91fd4, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* findFirstPrimes(int32_t count);
 
-  /// @brief Method generatePrime, addr 0xf71ef8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method generatePrime, addr 0xf925fc, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* generatePrime(int32_t bitLength, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_smallPrimes();
@@ -78,7 +78,7 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
-  /// @brief Method permuteList, addr 0xf71a54, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method permuteList, addr 0xf92158, size 0x4a4, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* permuteList(::System::Collections::IList* arr, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
   static inline void setStaticF_smallPrimes(::ArrayW<int32_t, ::Array<int32_t>*> value);

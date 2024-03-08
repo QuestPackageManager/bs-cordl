@@ -25,6 +25,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE INetworkConfig {
 public:
   // Declarations
+  __declspec(property(get = get_appId))::StringW appId;
+
   __declspec(property(get = get_discoveryPort)) int32_t discoveryPort;
 
   __declspec(property(get = get_forceGameLift)) bool forceGameLift;
@@ -46,6 +48,9 @@ public:
   __declspec(property(get = get_quickPlaySetupUrl))::StringW quickPlaySetupUrl;
 
   __declspec(property(get = get_serviceEnvironment))::GlobalNamespace::ServiceEnvironment serviceEnvironment;
+
+  /// @brief Method get_appId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_appId();
 
   /// @brief Method get_discoveryPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_discoveryPort();

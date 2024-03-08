@@ -7,6 +7,9 @@ CORDL_MODULE_EXPORT(CustomLevelLoader)
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
+namespace GlobalNamespace {
+class ICustomLevelLoader;
+}
 namespace UnityEngine::AddressableAssets {
 template <typename TObject> class AssetReferenceT_1;
 }
@@ -32,6 +35,9 @@ public:
   __declspec(property(get = __cordl_internal_get__defaultEnvironmentInfo,
                       put = __cordl_internal_set__defaultEnvironmentInfo))::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _defaultEnvironmentInfo;
 
+  /// @brief Convert operator to "::GlobalNamespace::ICustomLevelLoader"
+  constexpr operator ::GlobalNamespace::ICustomLevelLoader*() noexcept;
+
   static inline ::GlobalNamespace::CustomLevelLoader* New_ctor();
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__defaultAllDirectionsEnvironmentInfo();
@@ -48,8 +54,11 @@ public:
 
   constexpr void __cordl_internal_set__defaultEnvironmentInfo(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
-  /// @brief Method .ctor, addr 0x12a8860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cfacc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Convert to "::GlobalNamespace::ICustomLevelLoader"
+  constexpr ::GlobalNamespace::ICustomLevelLoader* i___GlobalNamespace__ICustomLevelLoader() noexcept;
 
 protected:
   // Ctor Parameters []

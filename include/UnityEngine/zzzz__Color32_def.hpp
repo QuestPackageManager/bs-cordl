@@ -50,13 +50,13 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Lerp, addr 0x2dccb98, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x2e283d0, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a, ::UnityEngine::Color32 b, float_t t);
 
-  /// @brief Method ToString, addr 0x2dccd4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e28584, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2dccd58, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2e28590, size 0x1dc, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   constexpr uint8_t const& __cordl_internal_get_a() const;
@@ -89,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set_rgba(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2dcc884, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e280bc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
 
-  /// @brief Method get_Item, addr 0x2dccc74, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2e284ac, size 0xd8, virtual false, abstract: false, final false
   inline uint8_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Implicit, addr 0x2dccb5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e28394, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::UnityEngine::Color32 c);
 
-  /// @brief Method op_Implicit, addr 0x2dcc898, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e280d0, size 0x2c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::UnityEngine::Color c);
 
   // Ctor Parameters []

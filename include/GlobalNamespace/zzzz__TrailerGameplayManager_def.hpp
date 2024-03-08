@@ -70,21 +70,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x244aeac, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24b3a90, size 0xec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__TrailerGameplayManager___Start_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x244af98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24b3b7c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x244afa0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24b3b84, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x244afe0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24b3bc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x244aea8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x24b3a8c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TrailerGameplayManager> value);
 
-  /// @brief Method .ctor, addr 0x244ae78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b3a5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -176,7 +176,7 @@ public:
 
   static inline ::GlobalNamespace::TrailerGameplayManager* New_ctor();
 
-  /// @brief Method Start, addr 0x244ae10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24b39f4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr bool const& __cordl_internal_get__disableMainCamera() const;
@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
-  /// @brief Method .ctor, addr 0x244aea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b3a84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

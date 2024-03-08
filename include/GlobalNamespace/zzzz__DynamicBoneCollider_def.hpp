@@ -29,27 +29,27 @@ public:
   /// @brief Field m_Radius, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Radius, put = __cordl_internal_set_m_Radius)) float_t m_Radius;
 
-  /// @brief Method Collide, addr 0x130c1f8, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method Collide, addr 0x1334750, size 0x1f4, virtual true, abstract: false, final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
 
-  /// @brief Method InsideCapsule, addr 0x130c618, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method InsideCapsule, addr 0x1334b70, size 0x15c, virtual false, abstract: false, final false
   static inline void InsideCapsule(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 capsuleP0, ::UnityEngine::Vector3 capsuleP1, float_t capsuleRadius);
 
-  /// @brief Method InsideSphere, addr 0x130c44c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InsideSphere, addr 0x13349a4, size 0x58, virtual false, abstract: false, final false
   static inline void InsideSphere(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
 
   static inline ::GlobalNamespace::DynamicBoneCollider* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x130c774, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x1334ccc, size 0x19c, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnValidate, addr 0x130c1e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x1334738, size 0x18, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method OutsideCapsule, addr 0x130c4a4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method OutsideCapsule, addr 0x13349fc, size 0x174, virtual false, abstract: false, final false
   static inline void OutsideCapsule(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 capsuleP0, ::UnityEngine::Vector3 capsuleP1, float_t capsuleRadius);
 
-  /// @brief Method OutsideSphere, addr 0x130c3ec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OutsideSphere, addr 0x1334944, size 0x60, virtual false, abstract: false, final false
   static inline void OutsideSphere(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
 
   constexpr float_t const& __cordl_internal_get_m_Height() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Radius(float_t value);
 
-  /// @brief Method .ctor, addr 0x130c910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1334e68, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

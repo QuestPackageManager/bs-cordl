@@ -30,16 +30,16 @@ namespace UnityEngine {
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DoLabel, addr 0x2e006c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DoLabel, addr 0x2e5befc, size 0xcc, virtual false, abstract: false, final false
   static inline void DoLabel(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method Height, addr 0x2df5744, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Height, addr 0x2e50f7c, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
-  /// @brief Method Label, addr 0x2e0061c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x2e5be54, size 0xa8, virtual false, abstract: false, final false
   static inline void Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method Width, addr 0x2df56a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Width, addr 0x2e50ee0, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
 protected:

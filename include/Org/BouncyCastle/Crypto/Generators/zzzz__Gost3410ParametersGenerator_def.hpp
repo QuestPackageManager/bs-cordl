@@ -38,10 +38,10 @@ public:
   /// @brief Field typeproc, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_typeproc, put = __cordl_internal_set_typeproc)) int32_t typeproc;
 
-  /// @brief Method GenerateParameters, addr 0xf6d728, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0xf8de2c, size 0x2fc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* GenerateParameters();
 
-  /// @brief Method Init, addr 0xf6b834, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf8bf38, size 0xc, virtual false, abstract: false, final false
   inline void Init(int32_t size, int32_t typeProcedure, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator* New_ctor();
@@ -64,22 +64,22 @@ public:
 
   constexpr void __cordl_internal_set_typeproc(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf6da24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method procedure_A, addr 0xf6b840, size 0x8f8, virtual false, abstract: false, final false
+  /// @brief Method procedure_A, addr 0xf8bf44, size 0x8f8, virtual false, abstract: false, final false
   inline int32_t procedure_A(int32_t x0, int32_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> pq, int32_t size);
 
-  /// @brief Method procedure_Aa, addr 0xf6c138, size 0x8d0, virtual false, abstract: false, final false
+  /// @brief Method procedure_Aa, addr 0xf8c83c, size 0x8d0, virtual false, abstract: false, final false
   inline int64_t procedure_Aa(int64_t x0, int64_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> pq, int32_t size);
 
-  /// @brief Method procedure_B, addr 0xf6ca08, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method procedure_B, addr 0xf8d10c, size 0x5d4, virtual false, abstract: false, final false
   inline void procedure_B(int32_t x0, int32_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> pq);
 
-  /// @brief Method procedure_Bb, addr 0xf6cfdc, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method procedure_Bb, addr 0xf8d6e0, size 0x5ac, virtual false, abstract: false, final false
   inline void procedure_Bb(int64_t x0, int64_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> pq);
 
-  /// @brief Method procedure_C, addr 0xf6d588, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method procedure_C, addr 0xf8dc8c, size 0x1a0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* procedure_C(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q);
 
 protected:

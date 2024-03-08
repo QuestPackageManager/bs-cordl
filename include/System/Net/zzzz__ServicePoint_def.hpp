@@ -145,36 +145,36 @@ public:
   /// @brief Field usesProxy, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_usesProxy, put = __cordl_internal_set_usesProxy)) bool usesProxy;
 
-  /// @brief Method CallEndPointDelegate, addr 0x2ac4dec, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CallEndPointDelegate, addr 0x2b24624, size 0x1a4, virtual false, abstract: false, final false
   inline bool CallEndPointDelegate(::System::Net::Sockets::Socket* sock, ::System::Net::IPEndPoint* remote);
 
-  /// @brief Method CloseConnectionGroup, addr 0x2ac4b78, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CloseConnectionGroup, addr 0x2b243b0, size 0xec, virtual false, abstract: false, final false
   inline bool CloseConnectionGroup(::StringW connectionGroupName);
 
-  /// @brief Method FreeServicePoint, addr 0x2ac4d74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FreeServicePoint, addr 0x2b245ac, size 0x10, virtual false, abstract: false, final false
   inline void FreeServicePoint();
 
-  /// @brief Method KeepAliveSetup, addr 0x2ac4238, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method KeepAliveSetup, addr 0x2b23a70, size 0xb4, virtual false, abstract: false, final false
   inline void KeepAliveSetup(::System::Net::Sockets::Socket* socket);
 
   static inline ::System::Net::ServicePoint* New_ctor(::System::Net::__ServicePointManager__SPKey* key, ::System::Uri* uri, int32_t connectionLimit, int32_t maxIdleTime);
 
-  /// @brief Method PutBytes, addr 0x2ac42ec, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method PutBytes, addr 0x2b23b24, size 0x144, virtual false, abstract: false, final false
   static inline void PutBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, uint32_t v, int32_t offset);
 
-  /// @brief Method SendRequest, addr 0x2ac4914, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SendRequest, addr 0x2b2414c, size 0x17c, virtual false, abstract: false, final false
   inline void SendRequest(::System::Net::WebOperation* operation, ::StringW groupName);
 
-  /// @brief Method SetTcpKeepAlive, addr 0x2ac4180, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetTcpKeepAlive, addr 0x2b239b8, size 0xb8, virtual false, abstract: false, final false
   inline void SetTcpKeepAlive(bool enabled, int32_t keepAliveTime, int32_t keepAliveInterval);
 
-  /// @brief Method SetVersion, addr 0x2ac490c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetVersion, addr 0x2b24144, size 0x8, virtual false, abstract: false, final false
   inline void SetVersion(::System::Version* version);
 
-  /// @brief Method UpdateClientCertificate, addr 0x2ac4db8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateClientCertificate, addr 0x2b245f0, size 0x34, virtual false, abstract: false, final false
   inline void UpdateClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
 
-  /// @brief Method UpdateServerCertificate, addr 0x2ac4d84, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateServerCertificate, addr 0x2b245bc, size 0x34, virtual false, abstract: false, final false
   inline void UpdateServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
 
   constexpr ::System::Net::__ServicePointManager__SPKey*& __cordl_internal_get__Key_k__BackingField();
@@ -309,58 +309,58 @@ public:
 
   constexpr void __cordl_internal_set_usesProxy(bool value);
 
-  /// @brief Method .ctor, addr 0x2ac3dd0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b23608, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::__ServicePointManager__SPKey* key, ::System::Uri* uri, int32_t connectionLimit, int32_t maxIdleTime);
 
-  /// @brief Method get_Address, addr 0x2ac40a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Address, addr 0x2b238d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_Address();
 
-  /// @brief Method get_ConnectionLimit, addr 0x2ac40a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionLimit, addr 0x2b238e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ConnectionLimit();
 
-  /// @brief Method get_HasTimedOut, addr 0x2ac4458, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_HasTimedOut, addr 0x2b23c90, size 0x12c, virtual false, abstract: false, final false
   inline bool get_HasTimedOut();
 
-  /// @brief Method get_HostEntry, addr 0x2ac4584, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method get_HostEntry, addr 0x2b23dbc, size 0x388, virtual false, abstract: false, final false
   inline ::System::Net::IPHostEntry* get_HostEntry();
 
-  /// @brief Method get_Key, addr 0x2ac4088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2b238c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::__ServicePointManager__SPKey* get_Key();
 
-  /// @brief Method get_ProtocolVersion, addr 0x2ac40b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x2b238e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Version* get_ProtocolVersion();
 
-  /// @brief Method get_Scheduler, addr 0x2ac4090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scheduler, addr 0x2b238c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePointScheduler* get_Scheduler();
 
-  /// @brief Method get_SendContinue, addr 0x2ac40d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_SendContinue, addr 0x2b23910, size 0x9c, virtual false, abstract: false, final false
   inline bool get_SendContinue();
 
-  /// @brief Method get_UseConnect, addr 0x2ac4444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseConnect, addr 0x2b23c7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseConnect();
 
-  /// @brief Method get_UseNagleAlgorithm, addr 0x2ac40c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseNagleAlgorithm, addr 0x2b238fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseNagleAlgorithm();
 
-  /// @brief Method get_UsesProxy, addr 0x2ac4430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UsesProxy, addr 0x2b23c68, size 0x8, virtual false, abstract: false, final false
   inline bool get_UsesProxy();
 
-  /// @brief Method set_Expect100Continue, addr 0x2ac40b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Expect100Continue, addr 0x2b238f0, size 0xc, virtual false, abstract: false, final false
   inline void set_Expect100Continue(bool value);
 
-  /// @brief Method set_Scheduler, addr 0x2ac4098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scheduler, addr 0x2b238d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Scheduler(::System::Net::ServicePointScheduler* value);
 
-  /// @brief Method set_SendContinue, addr 0x2ac4174, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SendContinue, addr 0x2b239ac, size 0xc, virtual false, abstract: false, final false
   inline void set_SendContinue(bool value);
 
-  /// @brief Method set_UseConnect, addr 0x2ac444c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseConnect, addr 0x2b23c84, size 0xc, virtual false, abstract: false, final false
   inline void set_UseConnect(bool value);
 
-  /// @brief Method set_UseNagleAlgorithm, addr 0x2ac40cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseNagleAlgorithm, addr 0x2b23904, size 0xc, virtual false, abstract: false, final false
   inline void set_UseNagleAlgorithm(bool value);
 
-  /// @brief Method set_UsesProxy, addr 0x2ac4438, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UsesProxy, addr 0x2b23c70, size 0xc, virtual false, abstract: false, final false
   inline void set_UsesProxy(bool value);
 
 protected:

@@ -52,7 +52,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE __StyleComplexSelector__PseudoStateData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2f773e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd0c1c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::PseudoStates state, bool negate);
 
   // Ctor Parameters []
@@ -98,10 +98,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__StyleComplexSelector____c* New_ctor();
 
-  /// @brief Method <ToString>b__20_0, addr 0x2f77460, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__20_0, addr 0x2fd0c98, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__20_0(::UnityEngine::UIElements::StyleSelector* x);
 
-  /// @brief Method .ctor, addr 0x2f77458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd0c90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__StyleComplexSelector____c* getStaticF___9();
@@ -174,12 +174,12 @@ public:
 
   __declspec(property(get = get_specificity)) int32_t specificity;
 
-  /// @brief Method CachePseudoStateMasks, addr 0x2f61360, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method CachePseudoStateMasks, addr 0x2fbab98, size 0x5d0, virtual false, abstract: false, final false
   inline void CachePseudoStateMasks();
 
   static inline ::UnityEngine::UIElements::StyleComplexSelector* New_ctor();
 
-  /// @brief Method ToString, addr 0x2f61930, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2fbb168, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::UIElements::StyleRule*& __cordl_internal_get__rule_k__BackingField();
@@ -218,26 +218,26 @@ public:
 
   constexpr void __cordl_internal_set_ruleIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f61aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fbb2d8, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData>* getStaticF_s_PseudoStates();
 
-  /// @brief Method get_rule, addr 0x2f61340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rule, addr 0x2fbab78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* get_rule();
 
-  /// @brief Method get_selectors, addr 0x2f61350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectors, addr 0x2fbab88, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> get_selectors();
 
-  /// @brief Method get_specificity, addr 0x2f61338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specificity, addr 0x2fbab70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_specificity();
 
   static inline void setStaticF_s_PseudoStates(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData>* value);
 
-  /// @brief Method set_rule, addr 0x2f61348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rule, addr 0x2fbab80, size 0x8, virtual false, abstract: false, final false
   inline void set_rule(::UnityEngine::UIElements::StyleRule* value);
 
-  /// @brief Method set_selectors, addr 0x2f61358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectors, addr 0x2fbab90, size 0x8, virtual false, abstract: false, final false
   inline void set_selectors(::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> value);
 
 protected:

@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_m_VisualTreeUpdaters(::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> value);
 
-  /// @brief Method .ctor, addr 0x2ebf034, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1986c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x2ebf298, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2f19ad0, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x2ebf520, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2f19d58, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* get_Item(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method set_Item, addr 0x2ebf650, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2f19e88, size 0x64, virtual false, abstract: false, final false
   inline void set_Item(::UnityEngine::UIElements::VisualTreeUpdatePhase phase, ::UnityEngine::UIElements::IVisualTreeUpdater* value);
 
 protected:
@@ -118,24 +118,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2ebf1cc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f19a04, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetUpdater, addr 0x2ebf638, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetUpdater, addr 0x2f19e70, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
   static inline ::UnityEngine::UIElements::VisualTreeUpdater* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method OnVersionChanged, addr 0x2ebf550, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x2f19d88, size 0xe8, virtual false, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method SetDefaultUpdaters, addr 0x2ebf090, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultUpdaters, addr 0x2f198c8, size 0x13c, virtual false, abstract: false, final false
   inline void SetDefaultUpdaters();
 
   /// @brief Method SetUpdater, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method UpdateVisualTreePhase, addr 0x2ebf2c8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisualTreePhase, addr 0x2f19b00, size 0x258, virtual false, abstract: false, final false
   inline void UpdateVisualTreePhase(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
   constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_m_Panel();
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdaterArray(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* value);
 
-  /// @brief Method .ctor, addr 0x2ebefb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f197f0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Convert to "::System::IDisposable"

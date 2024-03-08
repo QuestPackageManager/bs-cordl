@@ -318,10 +318,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c* New_ctor();
 
-  /// @brief Method <Properties>b__4_0, addr 0x2782054, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Properties>b__4_0, addr 0x27e3310, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* _Properties_b__4_0(::Newtonsoft::Json::Linq::JObject* d);
 
-  /// @brief Method .ctor, addr 0x278204c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e3308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c* getStaticF___9();
@@ -809,7 +809,7 @@ public:
   /// @brief Method AncestorsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AncestorsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method AsJEnumerable, addr 0x2781f98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AsJEnumerable, addr 0x27e3254, size 0x48, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// @brief Method AsJEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -833,7 +833,7 @@ public:
   /// @brief Method DescendantsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Properties, addr 0x2781e04, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Properties, addr 0x27e30c0, size 0x138, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JObject*>* source);
 
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -842,10 +842,10 @@ public:
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U Value(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  /// @brief Method Values, addr 0x2781fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x27e329c, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
-  /// @brief Method Values, addr 0x2781f3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x27e31f8, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source,
                                                                                                     ::System::Object* key);
 

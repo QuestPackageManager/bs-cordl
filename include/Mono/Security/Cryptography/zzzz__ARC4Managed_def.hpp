@@ -55,40 +55,40 @@ public:
   /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
   constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
 
-  /// @brief Method CheckInput, addr 0x24f33ec, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CheckInput, addr 0x2558be8, size 0x154, virtual false, abstract: false, final false
   inline void CheckInput(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method CreateDecryptor, addr 0x24f32bc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x2558ab8, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgvIV);
 
-  /// @brief Method CreateEncryptor, addr 0x24f329c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x2558a98, size 0x20, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgvIV);
 
-  /// @brief Method Dispose, addr 0x24f2fa4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25587a0, size 0xac, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x24f2f04, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2558700, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GenerateIV, addr 0x24f32e8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x2558ae4, size 0x5c, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x24f3344, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x2558b40, size 0x20, virtual true, abstract: false, final false
   inline void GenerateKey();
 
-  /// @brief Method InternalTransformBlock, addr 0x24f36b0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method InternalTransformBlock, addr 0x2558eac, size 0x130, virtual false, abstract: false, final false
   inline int32_t InternalTransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer,
                                         int32_t outputOffset);
 
-  /// @brief Method KeySetup, addr 0x24f31bc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method KeySetup, addr 0x25589b8, size 0xe0, virtual false, abstract: false, final false
   inline void KeySetup(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Mono::Security::Cryptography::ARC4Managed* New_ctor();
 
-  /// @brief Method TransformBlock, addr 0x24f3540, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method TransformBlock, addr 0x2558d3c, size 0x170, virtual true, abstract: false, final true
   inline int32_t TransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method TransformFinalBlock, addr 0x24f37e0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method TransformFinalBlock, addr 0x2558fdc, size 0x9c, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
@@ -121,19 +121,19 @@ public:
 
   constexpr void __cordl_internal_set_y(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x24f2e08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2558604, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanTransformMultipleBlocks, addr 0x24f33d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanTransformMultipleBlocks, addr 0x2558bd0, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanTransformMultipleBlocks();
 
-  /// @brief Method get_InputBlockSize, addr 0x24f33dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InputBlockSize, addr 0x2558bd8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_InputBlockSize();
 
-  /// @brief Method get_Key, addr 0x24f3050, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x255884c, size 0x94, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method get_OutputBlockSize, addr 0x24f33e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_OutputBlockSize, addr 0x2558be0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_OutputBlockSize();
 
   /// @brief Convert to "::System::IDisposable"
@@ -142,7 +142,7 @@ public:
   /// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
   constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
 
-  /// @brief Method set_Key, addr 0x24f30e4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x25588e0, size 0xd8, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

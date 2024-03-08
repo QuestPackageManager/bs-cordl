@@ -14,55 +14,55 @@
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::*)()>(
-    &::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::*)()>(
+    &::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x12c1bb0;
+  constexpr static std::size_t addrs = 0x12e8f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x12c1e88;
+  constexpr static std::size_t addrs = 0x12e9230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::MoveNext() {
+inline void GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
@@ -72,7 +72,7 @@ inline void GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFro
 // modifiers: "", def_value: Some("nullptr") }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "assetBundlePath", ty: "::StringW",
 // modifiers: "", def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1",
 // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2(
+constexpr ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::BeatmapLevelDataLoader* __4__this, ::StringW levelId,
     ::StringW assetBundlePath, ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -84,7 +84,21 @@ constexpr ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFro
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2() {}
+constexpr ::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4() {}
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelDataLoader.get_loadRequestCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapLevelDataLoader::*)()>(
+    &::GlobalNamespace::BeatmapLevelDataLoader::get_loadRequestCount)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x12e8858;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoader*>::get(),
+                                                                               "get_loadRequestCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelDataLoader.LoadBeatmapLevelDataFromAssetBundleAsync
 template <>
 
@@ -92,7 +106,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevelDataLoader::*)(::StringW, ::StringW, ::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::BeatmapLevelDataLoader::LoadBeatmapLevelDataFromAssetBundleAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x12c1504;
+  constexpr static std::size_t addrs = 0x12e88a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::BeatmapLevelDataLoader::*)(::StringW, ::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::BeatmapLevelDataLoader::CheckBeatmapLevelDataFromAssetBundleExistsAsync)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x12c17e0;
+  constexpr static std::size_t addrs = 0x12e8b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoader::*)()>(&::GlobalNamespace::BeatmapLevelDataLoader::Dispose)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x12c18f8;
+  constexpr static std::size_t addrs = 0x12e8ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoader*>::get(), "Dispose",
@@ -140,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelDataLoader::*)(::StringW)>(
     &::GlobalNamespace::BeatmapLevelDataLoader::TryUnload)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x12c1aac;
+  constexpr static std::size_t addrs = 0x12e8e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoader::*)()>(&::GlobalNamespace::BeatmapLevelDataLoader::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x12c1b34;
+  constexpr static std::size_t addrs = 0x12e8edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoader*>::get(), ".ctor",
@@ -183,6 +197,11 @@ constexpr void
 GlobalNamespace::BeatmapLevelDataLoader::__cordl_internal_set__loadRequests(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadRequests)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline int32_t GlobalNamespace::BeatmapLevelDataLoader::get_loadRequestCount() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoader*>::get(),
+                                                                             "get_loadRequestCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>*
 GlobalNamespace::BeatmapLevelDataLoader::LoadBeatmapLevelDataFromAssetBundleAsync(::StringW levelId, ::StringW assetBundlePath, ::StringW levelDataAssetName,

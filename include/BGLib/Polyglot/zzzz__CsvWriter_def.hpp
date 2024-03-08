@@ -3,8 +3,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CsvWriter)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -25,19 +29,23 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE CsvWriter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendElement, addr 0xe90bc4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AppendCSVLine, addr 0xeb0da0, size 0x24, virtual false, abstract: false, final false
+  static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::ArrayW<::StringW, ::Array<::StringW>*> values);
+
+  /// @brief Method AppendCSVLine, addr 0xeb0d7c, size 0x24, virtual false, abstract: false, final false
+  static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
+
+  /// @brief Method AppendElement, addr 0xeb0cf8, size 0x84, virtual false, abstract: false, final false
   static inline void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
 
-  /// @brief Method AppendRow, addr 0xe9075c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method AppendRow, addr 0xeb06b0, size 0x1f8, virtual false, abstract: false, final false
   static inline void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
 
-  /// @brief Method HasEscapeChars, addr 0xe90b10, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AppendRowInternal, addr 0xeb08a8, size 0x39c, virtual false, abstract: false, final false
+  static inline void AppendRowInternal(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* row);
+
+  /// @brief Method HasEscapeChars, addr 0xeb0c44, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasEscapeChars(::StringW element);
-
-  static inline ::BGLib::Polyglot::CsvWriter* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe90c48, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
 
 protected:
   // Ctor Parameters []

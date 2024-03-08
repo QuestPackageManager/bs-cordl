@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateEncodingException* New_ctor(::StringW msg, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x118d80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b3f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x118d814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b3f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x118d81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b3f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, ::System::Exception* e);
 
 protected:

@@ -24,7 +24,7 @@ public:
   /// @brief Field _component, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__component, put = __cordl_internal_set__component))::UnityW<::UnityEngine::MonoBehaviour> _component;
 
-  /// @brief Method Awake, addr 0x2250068, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22b102c, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableComponentOnNonSteam* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__component(::UnityW<::UnityEngine::MonoBehaviour> value);
 
-  /// @brief Method .ctor, addr 0x2250088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b104c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

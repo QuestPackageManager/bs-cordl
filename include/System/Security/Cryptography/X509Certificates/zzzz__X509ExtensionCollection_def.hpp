@@ -65,18 +65,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x2a6f814, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2ad004c, size 0x74, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Extension* extension);
 
-  /// @brief Method GetEnumerator, addr 0x2a6f98c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2ad01c4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator* GetEnumerator();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2a6f888, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2ad00c0, size 0x104, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2a6fa34, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2ad026c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
@@ -85,21 +85,21 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x2a6f3b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acfbe8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Empty();
 
-  /// @brief Method get_Count, addr 0x2a6f41c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2acfc54, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x2a6f440, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x2acfc78, size 0x24, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x2a6f468, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2acfca0, size 0x3ac, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Extension* get_Item(::StringW oid);
 
-  /// @brief Method get_SyncRoot, addr 0x2a6f464, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x2acfc9c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

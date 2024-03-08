@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x2382534, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e4ad4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -307,33 +307,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
   constexpr operator ::GlobalNamespace::IAudioTimeSource*() noexcept;
 
-  /// @brief Method Awake, addr 0x2381d10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23e42b0, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AudioTimeSyncController* New_ctor();
 
-  /// @brief Method Pause, addr 0x2382394, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x23e4934, size 0x58, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x23823ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x23e498c, size 0x50, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method SeekTo, addr 0x23821cc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x23e476c, size 0x180, virtual false, abstract: false, final false
   inline void SeekTo(float_t startTimeOffset);
 
-  /// @brief Method SetSongTimeIntoAudioTime, addr 0x238243c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetSongTimeIntoAudioTime, addr 0x23e49dc, size 0xe0, virtual false, abstract: false, final false
   inline void SetSongTimeIntoAudioTime();
 
-  /// @brief Method Start, addr 0x2381d58, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23e42f8, size 0xd8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x2382188, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x23e4728, size 0x44, virtual false, abstract: false, final false
   inline void StartSong(float_t startTimeOffset);
 
-  /// @brief Method StopSong, addr 0x238234c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method StopSong, addr 0x23e48ec, size 0x48, virtual false, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method Update, addr 0x2381e30, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23e43d0, size 0x358, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__audioLatency() const;
@@ -480,61 +480,61 @@ public:
 
   constexpr void __cordl_internal_set_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x238251c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e4abc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0, addr 0x2382530, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0, addr 0x23e4ad0, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilAudioIsLoaded_b__27_0();
 
-  /// @brief Method add_stateChangedEvent, addr 0x2381bb8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stateChangedEvent, addr 0x23e4158, size 0x9c, virtual false, abstract: false, final false
   inline void add_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method get_dspTimeOffset, addr 0x2381ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dspTimeOffset, addr 0x23e4080, size 0x8, virtual false, abstract: false, final false
   inline double_t get_dspTimeOffset();
 
-  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x2381ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x23e4144, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceNoAudioSyncOrAudioSyncErrorFixing();
 
-  /// @brief Method get_isAudioLoaded, addr 0x2381a3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x23e3fdc, size 0x30, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_isReady, addr 0x2381b94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x23e4134, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x238199c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x23e3f3c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x2381a6c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x23e400c, size 0x6c, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x23819a4, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x23e3f44, size 0x98, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0x2381994, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x23e3f34, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method get_songTimeOffset, addr 0x2381b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x23e413c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_state, addr 0x238198c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x23e3f2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AudioTimeSyncController__State get_state();
 
-  /// @brief Method get_timeScale, addr 0x2381ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeScale, addr 0x23e4078, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeScale();
 
-  /// @brief Method get_timeSinceStart, addr 0x2381cf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_timeSinceStart, addr 0x23e4290, size 0x20, virtual false, abstract: false, final false
   inline float_t get_timeSinceStart();
 
-  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x2381ae8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x23e4088, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
 
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  /// @brief Method remove_stateChangedEvent, addr 0x2381c54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stateChangedEvent, addr 0x23e41f4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x2381bac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x23e414c, size 0xc, virtual false, abstract: false, final false
   inline void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
 
 protected:

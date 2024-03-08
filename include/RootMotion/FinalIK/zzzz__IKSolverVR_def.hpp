@@ -215,10 +215,10 @@ public:
   /// @brief Method ApplyOffsets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyOffsets();
 
-  /// @brief Method MovePosition, addr 0x1355390, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MovePosition, addr 0x137e8e8, size 0x88, virtual false, abstract: false, final false
   inline void MovePosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method MoveRotation, addr 0x1355418, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method MoveRotation, addr 0x137e970, size 0x98, virtual false, abstract: false, final false
   inline void MoveRotation(::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__BodyPart* New_ctor();
@@ -230,29 +230,29 @@ public:
   /// @brief Method PreSolve, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PreSolve();
 
-  /// @brief Method Read, addr 0x1346788, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x136fce0, size 0xc0, virtual false, abstract: false, final false
   inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                    bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
   /// @brief Method ResetOffsets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetOffsets();
 
-  /// @brief Method RotateTo, addr 0x1354dec, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RotateTo, addr 0x137e344, size 0x168, virtual false, abstract: false, final false
   inline void RotateTo(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone, ::UnityEngine::Quaternion rotation, float_t weight);
 
-  /// @brief Method SetLOD, addr 0x1355388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLOD, addr 0x137e8e0, size 0x8, virtual false, abstract: false, final false
   inline void SetLOD(int32_t LOD);
 
-  /// @brief Method Translate, addr 0x13554b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x137ea08, size 0x48, virtual false, abstract: false, final false
   inline void Translate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method TranslateRoot, addr 0x1351658, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method TranslateRoot, addr 0x137abb0, size 0x128, virtual false, abstract: false, final false
   inline void TranslateRoot(::UnityEngine::Vector3 newRootPos, ::UnityEngine::Quaternion newRootRot);
 
-  /// @brief Method Visualize, addr 0x135561c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Visualize, addr 0x137eb74, size 0x14, virtual false, abstract: false, final false
   inline void Visualize();
 
-  /// @brief Method Visualize, addr 0x13554f8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Visualize, addr 0x137ea50, size 0x124, virtual false, abstract: false, final false
   inline void Visualize(::UnityEngine::Color color);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -307,19 +307,19 @@ public:
 
   constexpr void __cordl_internal_set_rootRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x13552d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137e828, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mag, addr 0x1355378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mag, addr 0x137e8d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mag();
 
-  /// @brief Method get_sqrMag, addr 0x1355368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sqrMag, addr 0x137e8c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sqrMag();
 
-  /// @brief Method set_mag, addr 0x1355380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mag, addr 0x137e8d8, size 0x8, virtual false, abstract: false, final false
   inline void set_mag(float_t value);
 
-  /// @brief Method set_sqrMag, addr 0x1355370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sqrMag, addr 0x137e8c8, size 0x8, virtual false, abstract: false, final false
   inline void set_sqrMag(float_t value);
 
 protected:
@@ -485,38 +485,38 @@ public:
   /// @brief Field wristToPalmAxis, offset 0x74, size 0xc
   __declspec(property(get = __cordl_internal_get_wristToPalmAxis, put = __cordl_internal_set_wristToPalmAxis))::UnityEngine::Vector3 wristToPalmAxis;
 
-  /// @brief Method ApplyOffsets, addr 0x13544fc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ApplyOffsets, addr 0x137da54, size 0x24, virtual true, abstract: false, final false
   inline void ApplyOffsets();
 
-  /// @brief Method DamperValue, addr 0x1354870, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DamperValue, addr 0x137ddc8, size 0x80, virtual false, abstract: false, final false
   inline float_t DamperValue(float_t value, float_t min, float_t max, float_t weight);
 
-  /// @brief Method GetBendNormal, addr 0x13548f0, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method GetBendNormal, addr 0x137de48, size 0x4fc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetBendNormal(::UnityEngine::Vector3 dir);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Arm* New_ctor();
 
-  /// @brief Method OnRead, addr 0x1353a0c, size 0x844, virtual true, abstract: false, final false
+  /// @brief Method OnRead, addr 0x137cf64, size 0x844, virtual true, abstract: false, final false
   inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                      bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  /// @brief Method PreSolve, addr 0x1354250, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method PreSolve, addr 0x137d7a8, size 0x2ac, virtual true, abstract: false, final false
   inline void PreSolve();
 
-  /// @brief Method ResetOffsets, addr 0x1354f54, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ResetOffsets, addr 0x137e4ac, size 0x58, virtual true, abstract: false, final false
   inline void ResetOffsets();
 
-  /// @brief Method Solve, addr 0x1351780, size 0x15e4, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x137acd8, size 0x15e4, virtual false, abstract: false, final false
   inline void Solve(bool isLeft);
 
-  /// @brief Method Stretching, addr 0x1354520, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method Stretching, addr 0x137da78, size 0x350, virtual false, abstract: false, final false
   inline void Stretching();
 
-  /// @brief Method Visualize, addr 0x13551b8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Visualize, addr 0x137e710, size 0x118, virtual false, abstract: false, final false
   inline void Visualize(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone1, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone2, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone3,
                         ::UnityEngine::Color color);
 
-  /// @brief Method Write, addr 0x1354fac, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x137e504, size 0x20c, virtual true, abstract: false, final false
   inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
                     ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
@@ -682,31 +682,31 @@ public:
 
   constexpr void __cordl_internal_set_wristToPalmAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1353688, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137cbe0, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_forearm, addr 0x135398c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_forearm, addr 0x137cee4, size 0x40, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_forearm();
 
-  /// @brief Method get_hand, addr 0x13539cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_hand, addr 0x137cf24, size 0x40, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_hand();
 
-  /// @brief Method get_position, addr 0x1353900, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x137ce58, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x1353918, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x137ce70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_shoulder, addr 0x1353930, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_shoulder, addr 0x137ce88, size 0x28, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_shoulder();
 
-  /// @brief Method get_upperArm, addr 0x1353958, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_upperArm, addr 0x137ceb0, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_upperArm();
 
-  /// @brief Method set_position, addr 0x135390c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x137ce64, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x1353924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x137ce7c, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
 protected:
@@ -927,19 +927,19 @@ public:
   static inline ::RootMotion::FinalIK::__IKSolverVR__Footstep* New_ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation,
                                                                         ::UnityEngine::Vector3 characterSpaceOffset);
 
-  /// @brief Method Reset, addr 0x1355818, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x137ed70, size 0x48, virtual false, abstract: false, final false
   inline void Reset(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation);
 
-  /// @brief Method StepTo, addr 0x1355860, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method StepTo, addr 0x137edb8, size 0x224, virtual false, abstract: false, final false
   inline void StepTo(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float_t stepThreshold);
 
-  /// @brief Method Update, addr 0x1355e70, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x137f3c8, size 0x174, virtual false, abstract: false, final false
   inline void Update(::RootMotion::InterpolationMode interpolation, ::UnityEngine::Events::UnityEvent* onStep);
 
-  /// @brief Method UpdateStanding, addr 0x1355c8c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateStanding, addr 0x137f1e4, size 0x1e4, virtual false, abstract: false, final false
   inline void UpdateStanding(::UnityEngine::Quaternion rootRotation, float_t minAngle, float_t speed);
 
-  /// @brief Method UpdateStepping, addr 0x1355a84, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdateStepping, addr 0x137efdc, size 0x208, virtual false, abstract: false, final false
   inline void UpdateStepping(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float_t speed);
 
   constexpr float_t const& __cordl_internal_get__stepProgress_k__BackingField() const;
@@ -1026,16 +1026,16 @@ public:
 
   constexpr void __cordl_internal_set_supportLegWV(float_t value);
 
-  /// @brief Method .ctor, addr 0x1355654, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137ebac, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation, ::UnityEngine::Vector3 characterSpaceOffset);
 
-  /// @brief Method get_isStepping, addr 0x1355630, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isStepping, addr 0x137eb88, size 0x14, virtual false, abstract: false, final false
   inline bool get_isStepping();
 
-  /// @brief Method get_stepProgress, addr 0x1355644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stepProgress, addr 0x137eb9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_stepProgress();
 
-  /// @brief Method set_stepProgress, addr 0x135564c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stepProgress, addr 0x137eba4, size 0x8, virtual false, abstract: false, final false
   inline void set_stepProgress(float_t value);
 
 protected:
@@ -1236,37 +1236,37 @@ public:
   /// @brief Field useAnimatedBendNormal, offset 0xc0, size 0x1
   __declspec(property(get = __cordl_internal_get_useAnimatedBendNormal, put = __cordl_internal_set_useAnimatedBendNormal)) bool useAnimatedBendNormal;
 
-  /// @brief Method ApplyOffsets, addr 0x1356dc4, size 0x4dc, virtual true, abstract: false, final false
+  /// @brief Method ApplyOffsets, addr 0x138031c, size 0x4dc, virtual true, abstract: false, final false
   inline void ApplyOffsets();
 
-  /// @brief Method ApplyPositionOffset, addr 0x1356d74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ApplyPositionOffset, addr 0x13802cc, size 0x50, virtual false, abstract: false, final false
   inline void ApplyPositionOffset(::UnityEngine::Vector3 offset, float_t weight);
 
-  /// @brief Method ApplyRotationOffset, addr 0x1356b28, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ApplyRotationOffset, addr 0x1380080, size 0x24c, virtual false, abstract: false, final false
   inline void ApplyRotationOffset(::UnityEngine::Quaternion offset, float_t weight);
 
-  /// @brief Method FixTwistRotations, addr 0x135767c, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method FixTwistRotations, addr 0x1380bd4, size 0x458, virtual false, abstract: false, final false
   inline void FixTwistRotations();
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Leg* New_ctor();
 
-  /// @brief Method OnRead, addr 0x13560ec, size 0x568, virtual true, abstract: false, final false
+  /// @brief Method OnRead, addr 0x137f644, size 0x568, virtual true, abstract: false, final false
   inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                      bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  /// @brief Method PreSolve, addr 0x1356654, size 0x4d4, virtual true, abstract: false, final false
+  /// @brief Method PreSolve, addr 0x137fbac, size 0x4d4, virtual true, abstract: false, final false
   inline void PreSolve();
 
-  /// @brief Method ResetOffsets, addr 0x1357cdc, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ResetOffsets, addr 0x1381234, size 0xe0, virtual true, abstract: false, final false
   inline void ResetOffsets();
 
-  /// @brief Method Solve, addr 0x13465e0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x136fb38, size 0x1a8, virtual false, abstract: false, final false
   inline void Solve(bool stretch);
 
-  /// @brief Method Stretching, addr 0x13572a0, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method Stretching, addr 0x13807f8, size 0x3dc, virtual false, abstract: false, final false
   inline void Stretching();
 
-  /// @brief Method Write, addr 0x1357ad4, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x138102c, size 0x208, virtual true, abstract: false, final false
   inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
                     ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
@@ -1432,46 +1432,46 @@ public:
 
   constexpr void __cordl_internal_set_useAnimatedBendNormal(bool value);
 
-  /// @brief Method .ctor, addr 0x13469dc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136ff34, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_calf, addr 0x1356050, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_calf, addr 0x137f5a8, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_calf();
 
-  /// @brief Method get_foot, addr 0x135607c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_foot, addr 0x137f5d4, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_foot();
 
-  /// @brief Method get_hasToes, addr 0x1356014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasToes, addr 0x137f56c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasToes();
 
-  /// @brief Method get_lastBone, addr 0x1351624, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_lastBone, addr 0x137ab7c, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_lastBone();
 
-  /// @brief Method get_position, addr 0x1355fe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x137f53c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x1355ffc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x137f554, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_thigh, addr 0x1356028, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_thigh, addr 0x137f580, size 0x28, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_thigh();
 
-  /// @brief Method get_thighRelativeToPelvis, addr 0x13560d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_thighRelativeToPelvis, addr 0x137f62c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_thighRelativeToPelvis();
 
-  /// @brief Method get_toes, addr 0x13560a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_toes, addr 0x137f600, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_toes();
 
-  /// @brief Method set_hasToes, addr 0x135601c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasToes, addr 0x137f574, size 0xc, virtual false, abstract: false, final false
   inline void set_hasToes(bool value);
 
-  /// @brief Method set_position, addr 0x1355ff0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x137f548, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x1356008, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x137f560, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_thighRelativeToPelvis, addr 0x13560e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_thighRelativeToPelvis, addr 0x137f638, size 0xc, virtual false, abstract: false, final false
   inline void set_thighRelativeToPelvis(::UnityEngine::Vector3 value);
 
 protected:
@@ -1732,33 +1732,33 @@ public:
   /// @brief Field weight, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Method AddDeltaPosition, addr 0x134ce74, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddDeltaPosition, addr 0x13763cc, size 0xb8, virtual false, abstract: false, final false
   inline void AddDeltaPosition(::UnityEngine::Vector3 delta);
 
-  /// @brief Method AddDeltaRotation, addr 0x134cf2c, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method AddDeltaRotation, addr 0x1376484, size 0x3c8, virtual false, abstract: false, final false
   inline void AddDeltaRotation(::UnityEngine::Quaternion delta, ::UnityEngine::Vector3 pivot);
 
-  /// @brief Method CanStep, addr 0x1357f88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CanStep, addr 0x13814e0, size 0x6c, virtual false, abstract: false, final false
   inline bool CanStep();
 
-  /// @brief Method GetLineSphereCollision, addr 0x1357ff4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetLineSphereCollision, addr 0x138154c, size 0x1b0, virtual false, abstract: false, final false
   static inline bool GetLineSphereCollision(::UnityEngine::Vector3 lineStart, ::UnityEngine::Vector3 lineEnd, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
 
-  /// @brief Method Initiate, addr 0x134ff60, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x13794b8, size 0x2f4, virtual false, abstract: false, final false
   inline void Initiate(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasToes);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Locomotion* New_ctor();
 
-  /// @brief Method Reset, addr 0x134da60, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x1376fb8, size 0x1e4, virtual false, abstract: false, final false
   inline void Reset(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations);
 
-  /// @brief Method Solve, addr 0x1350254, size 0x13d0, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x13797ac, size 0x13d0, virtual false, abstract: false, final false
   inline void Solve(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone, ::RootMotion::FinalIK::__IKSolverVR__Spine* spine, ::RootMotion::FinalIK::__IKSolverVR__Leg* leftLeg,
                     ::RootMotion::FinalIK::__IKSolverVR__Leg* rightLeg, ::RootMotion::FinalIK::__IKSolverVR__Arm* leftArm, ::RootMotion::FinalIK::__IKSolverVR__Arm* rightArm, int32_t supportLegIndex,
                     ByRef<::UnityEngine::Vector3> leftFootPosition, ByRef<::UnityEngine::Vector3> rightFootPosition, ByRef<::UnityEngine::Quaternion> leftFootRotation,
                     ByRef<::UnityEngine::Quaternion> rightFootRotation, ByRef<float_t> leftFootOffset, ByRef<float_t> rightFootOffset, ByRef<float_t> leftHeelOffset, ByRef<float_t> rightHeelOffset);
 
-  /// @brief Method StepBlocked, addr 0x1357dd4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method StepBlocked, addr 0x138132c, size 0x1b4, virtual false, abstract: false, final false
   inline bool StepBlocked(::UnityEngine::Vector3 fromPosition, ::UnityEngine::Vector3 toPosition, ::UnityEngine::Vector3 rootPosition);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__centerOfMass_k__BackingField() const;
@@ -1929,25 +1929,25 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x1353814, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137cd6c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_centerOfMass, addr 0x1357dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_centerOfMass, addr 0x1381314, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_centerOfMass();
 
-  /// @brief Method get_leftFootstepPosition, addr 0x13581a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_leftFootstepPosition, addr 0x13816fc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftFootstepPosition();
 
-  /// @brief Method get_leftFootstepRotation, addr 0x1358210, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_leftFootstepRotation, addr 0x1381768, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_leftFootstepRotation();
 
-  /// @brief Method get_rightFootstepPosition, addr 0x13581d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_rightFootstepPosition, addr 0x1381730, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightFootstepPosition();
 
-  /// @brief Method get_rightFootstepRotation, addr 0x1358244, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_rightFootstepRotation, addr 0x138179c, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rightFootstepRotation();
 
-  /// @brief Method set_centerOfMass, addr 0x1357dc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_centerOfMass, addr 0x1381320, size 0xc, virtual false, abstract: false, final false
   inline void set_centerOfMass(::UnityEngine::Vector3 value);
 
 protected:
@@ -2298,59 +2298,59 @@ public:
   /// @brief Field spineIndex, offset 0x1fc, size 0x4
   __declspec(property(get = __cordl_internal_get_spineIndex, put = __cordl_internal_set_spineIndex)) int32_t spineIndex;
 
-  /// @brief Method AdjustChestByHands, addr 0x1359c94, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method AdjustChestByHands, addr 0x13831ec, size 0x3f8, virtual false, abstract: false, final false
   inline void AdjustChestByHands(ByRef<::UnityEngine::Quaternion> chestTargetRotation, ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
 
-  /// @brief Method ApplyOffsets, addr 0x13592bc, size 0x794, virtual true, abstract: false, final false
+  /// @brief Method ApplyOffsets, addr 0x1382814, size 0x794, virtual true, abstract: false, final false
   inline void ApplyOffsets();
 
-  /// @brief Method Bend, addr 0x135af84, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Bend, addr 0x13844dc, size 0x1fc, virtual false, abstract: false, final false
   inline void Bend(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t firstIndex, int32_t lastIndex,
                    ::UnityEngine::Quaternion targetRotation, float_t clampWeight, bool uniformWeight, float_t w);
 
-  /// @brief Method Bend, addr 0x135ac38, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Bend, addr 0x1384190, size 0x270, virtual false, abstract: false, final false
   inline void Bend(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t firstIndex, int32_t lastIndex,
                    ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Quaternion rotationOffset, float_t clampWeight, bool uniformWeight, float_t w);
 
-  /// @brief Method CalculateChestTargetRotation, addr 0x1359a50, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CalculateChestTargetRotation, addr 0x1382fa8, size 0x244, virtual false, abstract: false, final false
   inline void CalculateChestTargetRotation(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone,
                                            ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
 
-  /// @brief Method FABRIKPass, addr 0x135a9d8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FABRIKPass, addr 0x1383f30, size 0x260, virtual false, abstract: false, final false
   inline void FABRIKPass(::UnityEngine::Vector3 animatedPelvisPos, ::UnityEngine::Vector3 rootUp, float_t weight);
 
-  /// @brief Method InverseTranslateToHead, addr 0x135aea8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InverseTranslateToHead, addr 0x1384400, size 0xdc, virtual false, abstract: false, final false
   inline void InverseTranslateToHead(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, bool limited, bool useCurrentLegMag,
                                      ::UnityEngine::Vector3 offset, float_t w);
 
-  /// @brief Method LimitPelvisPosition, addr 0x135be64, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method LimitPelvisPosition, addr 0x13853bc, size 0x2a8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 LimitPelvisPosition(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
                                                     ::UnityEngine::Vector3 pelvisPosition, bool useCurrentLegMag, int32_t it);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Spine* New_ctor();
 
-  /// @brief Method OnRead, addr 0x13583e4, size 0xc60, virtual true, abstract: false, final false
+  /// @brief Method OnRead, addr 0x138193c, size 0xc60, virtual true, abstract: false, final false
   inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                      bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  /// @brief Method PreSolve, addr 0x13590d4, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method PreSolve, addr 0x138262c, size 0x1e8, virtual true, abstract: false, final false
   inline void PreSolve();
 
-  /// @brief Method ResetOffsets, addr 0x135bd90, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ResetOffsets, addr 0x13852e8, size 0xd4, virtual true, abstract: false, final false
   inline void ResetOffsets();
 
-  /// @brief Method Solve, addr 0x135a08c, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x13835e4, size 0x53c, virtual false, abstract: false, final false
   inline void Solve(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone, ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
                     ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
 
-  /// @brief Method SolvePelvis, addr 0x135b180, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method SolvePelvis, addr 0x13846d8, size 0x290, virtual false, abstract: false, final false
   inline void SolvePelvis();
 
-  /// @brief Method TranslatePelvis, addr 0x135a5c8, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method TranslatePelvis, addr 0x1383b20, size 0x410, virtual false, abstract: false, final false
   inline void TranslatePelvis(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, ::UnityEngine::Vector3 deltaPosition,
                               ::UnityEngine::Quaternion deltaRotation);
 
-  /// @brief Method Write, addr 0x135bbc0, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x1385118, size 0x1d0, virtual true, abstract: false, final false
   inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
                     ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
@@ -2684,34 +2684,34 @@ public:
 
   constexpr void __cordl_internal_set_spineIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x135c27c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13857d4, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anchorRelativeToHead, addr 0x13583bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_anchorRelativeToHead, addr 0x1381914, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_anchorRelativeToHead();
 
-  /// @brief Method get_anchorRotation, addr 0x1358394, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_anchorRotation, addr 0x13818ec, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_anchorRotation();
 
-  /// @brief Method get_chest, addr 0x13582e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_chest, addr 0x138183c, size 0x48, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_chest();
 
-  /// @brief Method get_firstSpineBone, addr 0x13582b0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_firstSpineBone, addr 0x1381808, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_firstSpineBone();
 
-  /// @brief Method get_head, addr 0x1358360, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_head, addr 0x13818b8, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_head();
 
-  /// @brief Method get_neck, addr 0x135832c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_neck, addr 0x1381884, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_neck();
 
-  /// @brief Method get_pelvis, addr 0x135827c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_pelvis, addr 0x13817d4, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_pelvis();
 
-  /// @brief Method set_anchorRelativeToHead, addr 0x13583d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_anchorRelativeToHead, addr 0x1381928, size 0x14, virtual false, abstract: false, final false
   inline void set_anchorRelativeToHead(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_anchorRotation, addr 0x13583a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_anchorRotation, addr 0x1381900, size 0x14, virtual false, abstract: false, final false
   inline void set_anchorRotation(::UnityEngine::Quaternion value);
 
 protected:
@@ -3176,48 +3176,48 @@ public:
   /// @brief Field sqrMag, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_sqrMag, put = __cordl_internal_set_sqrMag)) float_t sqrMag;
 
-  /// @brief Method GetDirectionToBendPoint, addr 0x135cacc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDirectionToBendPoint, addr 0x1386024, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float_t directionMag, ::UnityEngine::Vector3 bendDirection, float_t sqrMag1, float_t sqrMag2);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method PreSolve, addr 0x135c598, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PreSolve, addr 0x1385af0, size 0x160, virtual false, abstract: false, final false
   static inline float_t PreSolve(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*>> bones);
 
-  /// @brief Method Read, addr 0x13590b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x138260c, size 0x20, virtual false, abstract: false, final false
   inline void Read(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateAroundPoint, addr 0x135c10c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RotateAroundPoint, addr 0x1385664, size 0x170, virtual false, abstract: false, final false
   static inline void RotateAroundPoint(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                                        ::UnityEngine::Vector3 point, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateBy, addr 0x135c6f8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method RotateBy, addr 0x1385c50, size 0x1a8, virtual false, abstract: false, final false
   static inline void RotateBy(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                               ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateBy, addr 0x135c8a0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method RotateBy, addr 0x1385df8, size 0x188, virtual false, abstract: false, final false
   static inline void RotateBy(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateTo, addr 0x135ca28, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RotateTo, addr 0x1385f80, size 0xa4, virtual false, abstract: false, final false
   static inline void RotateTo(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                               ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SolveCCD, addr 0x135cd38, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method SolveCCD, addr 0x1386290, size 0x1b4, virtual false, abstract: false, final false
   static inline void SolveCCD(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Vector3 targetPosition,
                               float_t weight, int32_t iterations);
 
-  /// @brief Method SolveFABRIK, addr 0x135b410, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method SolveFABRIK, addr 0x1384968, size 0x3cc, virtual false, abstract: false, final false
   static inline void SolveFABRIK(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Vector3 startPosition,
                                  ::UnityEngine::Vector3 targetPosition, float_t weight, float_t minNormalizedTargetDistance, int32_t iterations, float_t length, ::UnityEngine::Vector3 startOffset);
 
-  /// @brief Method SolveFABRIKJoint, addr 0x135cc24, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SolveFABRIKJoint, addr 0x138617c, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
 
-  /// @brief Method SolveTrigonometric, addr 0x135b7dc, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method SolveTrigonometric, addr 0x1384d34, size 0x3e4, virtual false, abstract: false, final false
   static inline void SolveTrigonometric(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t first, int32_t second,
                                         int32_t third, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal, float_t weight);
 
-  /// @brief Method SwingRotation, addr 0x135c398, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method SwingRotation, addr 0x13858f0, size 0x200, virtual false, abstract: false, final false
   static inline void SwingRotation(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                                    ::UnityEngine::Vector3 swingTarget, float_t weight);
 
@@ -3263,7 +3263,7 @@ public:
 
   constexpr void __cordl_internal_set_sqrMag(float_t value);
 
-  /// @brief Method .ctor, addr 0x1359044, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138259c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
 protected:
@@ -3461,88 +3461,88 @@ public:
   /// @brief Field supportLegIndex, offset 0xbc, size 0x4
   __declspec(property(get = __cordl_internal_get_supportLegIndex, put = __cordl_internal_set_supportLegIndex)) int32_t supportLegIndex;
 
-  /// @brief Method AddPlatformMotion, addr 0x134cda0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddPlatformMotion, addr 0x13762f8, size 0xd4, virtual false, abstract: false, final false
   inline void AddPlatformMotion(::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::UnityEngine::Vector3 platformPivot);
 
-  /// @brief Method AddPositionOffset, addr 0x134caf8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AddPositionOffset, addr 0x1376050, size 0x144, virtual false, abstract: false, final false
   inline void AddPositionOffset(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Vector3 value);
 
-  /// @brief Method AddRotationOffset, addr 0x134cc7c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method AddRotationOffset, addr 0x13761d4, size 0x124, virtual false, abstract: false, final false
   inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Quaternion value);
 
-  /// @brief Method AddRotationOffset, addr 0x134cc3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AddRotationOffset, addr 0x1376194, size 0x40, virtual false, abstract: false, final false
   inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Vector3 value);
 
-  /// @brief Method DefaultAnimationCurves, addr 0x134c17c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DefaultAnimationCurves, addr 0x13756d4, size 0x14c, virtual false, abstract: false, final false
   inline void DefaultAnimationCurves();
 
-  /// @brief Method FixTransforms, addr 0x134dd98, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x13772f0, size 0x1ec, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetNormal, addr 0x134e260, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetNormal, addr 0x13777b8, size 0x270, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNormal(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  /// @brief Method GetPelvisOffset, addr 0x1352d64, size 0x6ec, virtual false, abstract: false, final false
+  /// @brief Method GetPelvisOffset, addr 0x137c2bc, size 0x6ec, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPelvisOffset();
 
-  /// @brief Method GetPoint, addr 0x134dff4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x137754c, size 0x70, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetPoints, addr 0x134df84, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x13774dc, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPosition, addr 0x134feec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x1379444, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPosition(int32_t index);
 
-  /// @brief Method GetRotation, addr 0x134ff28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x1379480, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation(int32_t index);
 
-  /// @brief Method GetSineKeyframes, addr 0x134c9e4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSineKeyframes, addr 0x1375f3c, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetSineKeyframes(float_t mag);
 
-  /// @brief Method GuessHandOrientations, addr 0x134c2c8, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GuessHandOrientations, addr 0x1375820, size 0x2f0, virtual false, abstract: false, final false
   inline void GuessHandOrientations(::RootMotion::FinalIK::__VRIK__References* references, bool onlyIfZero);
 
-  /// @brief Method GuessPalmToThumbAxis, addr 0x134c69c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GuessPalmToThumbAxis, addr 0x1375bf4, size 0x348, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GuessPalmToThumbAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
 
-  /// @brief Method GuessWristToPalmAxis, addr 0x134c5b8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GuessWristToPalmAxis, addr 0x1375b10, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GuessWristToPalmAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
 
-  /// @brief Method IsValid, addr 0x134e064, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x13775bc, size 0x1fc, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverVR* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x134e4d0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x1377a28, size 0x3c, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x134e50c, size 0x408, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x1377a64, size 0x408, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method Read, addr 0x134d554, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x1376aac, size 0x50c, virtual false, abstract: false, final false
   inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                    bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs);
 
-  /// @brief Method Reset, addr 0x134d2f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x137684c, size 0x110, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetToReferences, addr 0x134bea8, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method SetToReferences, addr 0x1375400, size 0x2d4, virtual false, abstract: false, final false
   inline void SetToReferences(::RootMotion::FinalIK::__VRIK__References* references);
 
-  /// @brief Method Solve, addr 0x134e914, size 0x1048, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x1377e6c, size 0x1048, virtual false, abstract: false, final false
   inline void Solve();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x134dc44, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x137719c, size 0x154, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method UpdateSolverTransforms, addr 0x134d404, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UpdateSolverTransforms, addr 0x137695c, size 0x150, virtual false, abstract: false, final false
   inline void UpdateSolverTransforms();
 
-  /// @brief Method Write, addr 0x134f95c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x1378eb4, size 0x13c, virtual false, abstract: false, final false
   inline void Write();
 
-  /// @brief Method WriteTransforms, addr 0x134fa98, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method WriteTransforms, addr 0x1378ff0, size 0x454, virtual false, abstract: false, final false
   inline void WriteTransforms();
 
   constexpr int32_t const& __cordl_internal_get_LOD() const;
@@ -3761,13 +3761,13 @@ public:
 
   constexpr void __cordl_internal_set_supportLegIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1353460, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137c9b8, size 0x228, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootBone, addr 0x1353450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rootBone, addr 0x137c9a8, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_rootBone();
 
-  /// @brief Method set_rootBone, addr 0x1353458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rootBone, addr 0x137c9b0, size 0x8, virtual false, abstract: false, final false
   inline void set_rootBone(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* value);
 
 protected:

@@ -35,10 +35,10 @@ public:
 
   __declspec(property(get = get_transformedBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  /// @brief Method BeforeScenesWillBeActivated, addr 0x2415274, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivated, addr 0x247a8c4, size 0x18, virtual false, abstract: false, final false
   inline void BeforeScenesWillBeActivated();
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x2417df8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x247d3c8, size 0x18, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
   static inline ::GlobalNamespace::LevelScenesTransitionSetupDataSO* New_ctor();
@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__gameplayCoreSceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x2417e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247d3e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x2417de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x247d3b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x2417dcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x247d39c, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x2417df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x247d3c0, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
 protected:

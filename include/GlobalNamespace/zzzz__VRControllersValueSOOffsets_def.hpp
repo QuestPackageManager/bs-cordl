@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__rotationOffset(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  /// @brief Method .ctor, addr 0x12fbce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1324150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_positionOffset, addr 0x12fbc4c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_positionOffset, addr 0x13240b8, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionOffset();
 
-  /// @brief Method get_rotationOffset, addr 0x12fbc98, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_rotationOffset, addr 0x1324104, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rotationOffset();
 
 protected:

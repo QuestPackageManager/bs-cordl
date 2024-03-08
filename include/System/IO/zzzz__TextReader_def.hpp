@@ -73,16 +73,16 @@ public:
 
   static inline ::System::IO::__TextReader____c* New_ctor();
 
-  /// @brief Method <ReadAsyncInternal>b__17_0, addr 0x25f9ee4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <ReadAsyncInternal>b__17_0, addr 0x265b234, size 0xf0, virtual false, abstract: false, final false
   inline int32_t _ReadAsyncInternal_b__17_0(::System::Object* state);
 
-  /// @brief Method <ReadAsync>b__16_0, addr 0x25f9df4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <ReadAsync>b__16_0, addr 0x265b144, size 0xf0, virtual false, abstract: false, final false
   inline int32_t _ReadAsync_b__16_0(::System::Object* state);
 
-  /// @brief Method <ReadLineAsync>b__13_0, addr 0x25f9d44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <ReadLineAsync>b__13_0, addr 0x265b094, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW _ReadLineAsync_b__13_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x25f9d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b08c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::__TextReader____c* getStaticF___9();
@@ -141,51 +141,51 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x25f904c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x265a39c, size 0x6c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x25f90b8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x265a408, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x25f9124, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x265a474, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::IO::TextReader* New_ctor();
 
-  /// @brief Method Peek, addr 0x25f9128, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x265a478, size 0x8, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x25f9130, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x265a480, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x25f9138, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x265a488, size 0x1bc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Read, addr 0x25f29d8, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2653d28, size 0x290, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<char16_t> buffer);
 
-  /// @brief Method ReadAsync, addr 0x25f3f50, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x26552a0, size 0x208, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadAsync, addr 0x25f433c, size 0x2a0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x265568c, size 0x2a0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<char16_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsyncInternal, addr 0x25f94e0, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsyncInternal, addr 0x265a830, size 0x21c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsyncInternal(::System::Memory_1<char16_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadLine, addr 0x25f93f0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x265a740, size 0xf0, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadLineAsync, addr 0x25f39b0, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ReadLineAsync, addr 0x2654d00, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadLineAsync();
 
-  /// @brief Method ReadToEnd, addr 0x25f92f4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x265a644, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method Synchronized, addr 0x25f96fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Synchronized, addr 0x265aa4c, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::IO::TextReader* Synchronized(::System::IO::TextReader* reader);
 
-  /// @brief Method .ctor, addr 0x25f1ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652e18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::TextReader* getStaticF_Null();

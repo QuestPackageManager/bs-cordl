@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__BasePath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2fc9be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x302241c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fc9bec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3022424, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW basePath);
 
-  /// @brief Method get_BasePath, addr 0x2fc9c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BasePath, addr 0x302244c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BasePath();
 
-  /// @brief Method set_BasePath, addr 0x2fc9c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BasePath, addr 0x3022454, size 0x8, virtual false, abstract: false, final false
   inline void set_BasePath(::StringW value);
 
 protected:

@@ -30,43 +30,43 @@ namespace UnityEngine {
 class CORDL_TYPE Random : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ColorHSV, addr 0x2db34b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ColorHSV, addr 0x2e0ecf0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorHSV();
 
-  /// @brief Method ColorHSV, addr 0x2db34dc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ColorHSV, addr 0x2e0ed14, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorHSV(float_t hueMin, float_t hueMax, float_t saturationMin, float_t saturationMax, float_t valueMin, float_t valueMax, float_t alphaMin, float_t alphaMax);
 
-  /// @brief Method InitState, addr 0x2db31f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InitState, addr 0x2e0ea30, size 0x3c, virtual false, abstract: false, final false
   static inline void InitState(int32_t seed);
 
-  /// @brief Method RandomRangeInt, addr 0x2db32b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RandomRangeInt, addr 0x2e0eaf0, size 0x44, virtual false, abstract: false, final false
   static inline int32_t RandomRangeInt(int32_t minInclusive, int32_t maxExclusive);
 
-  /// @brief Method Range, addr 0x2db3234, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x2e0ea6c, size 0x40, virtual false, abstract: false, final false
   static inline float_t Range(float_t minInclusive, float_t maxInclusive);
 
-  /// @brief Method Range, addr 0x2db3274, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x2e0eaac, size 0x44, virtual false, abstract: false, final false
   static inline int32_t Range(int32_t minInclusive, int32_t maxExclusive);
 
-  /// @brief Method get_insideUnitSphere, addr 0x2db3324, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_insideUnitSphere, addr 0x2e0eb5c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 get_insideUnitSphere();
 
-  /// @brief Method get_insideUnitSphere_Injected, addr 0x2db3370, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_insideUnitSphere_Injected, addr 0x2e0eba8, size 0x3c, virtual false, abstract: false, final false
   static inline void get_insideUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_onUnitSphere, addr 0x2db33ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_onUnitSphere, addr 0x2e0ebe4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 get_onUnitSphere();
 
-  /// @brief Method get_onUnitSphere_Injected, addr 0x2db33f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_onUnitSphere_Injected, addr 0x2e0ec30, size 0x3c, virtual false, abstract: false, final false
   static inline void get_onUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_rotation, addr 0x2db3434, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x2e0ec6c, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_rotation_Injected, addr 0x2db347c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rotation_Injected, addr 0x2e0ecb4, size 0x3c, virtual false, abstract: false, final false
   static inline void get_rotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_value, addr 0x2db32fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2e0eb34, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_value();
 
 protected:

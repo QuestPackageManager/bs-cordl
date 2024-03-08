@@ -41,10 +41,10 @@ public:
   /// @brief Field <Value>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField))::Newtonsoft::Json::Linq::JValue* _Value_k__BackingField;
 
-  /// @brief Method EqualsWithStringCoercion, addr 0x27a22a8, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method EqualsWithStringCoercion, addr 0x2803564, size 0x4d4, virtual false, abstract: false, final false
   inline bool EqualsWithStringCoercion(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::Linq::JValue* queryValue);
 
-  /// @brief Method IsMatch, addr 0x27a1e38, size 0x470, virtual true, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x28030f4, size 0x470, virtual true, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* t);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression* New_ctor();
@@ -61,19 +61,19 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::Newtonsoft::Json::Linq::JValue* value);
 
-  /// @brief Method .ctor, addr 0x27a1628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28028e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Path, addr 0x27a1e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x28030d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* get_Path();
 
-  /// @brief Method get_Value, addr 0x27a1e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x28030e4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JValue* get_Value();
 
-  /// @brief Method set_Path, addr 0x27a1e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x28030dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Path(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* value);
 
-  /// @brief Method set_Value, addr 0x27a1e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x28030ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::Newtonsoft::Json::Linq::JValue* value);
 
 protected:

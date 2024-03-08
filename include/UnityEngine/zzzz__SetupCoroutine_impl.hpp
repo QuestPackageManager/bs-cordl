@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IEnumerator*, void*)>(&::UnityEngine::SetupCoroutine::InvokeMoveNext)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2dc3068;
+  constexpr static std::size_t addrs = 0x2e1e8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Object*, ::StringW, ::System::Object*)>(
     &::UnityEngine::SetupCoroutine::InvokeMember)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2dc31bc;
+  constexpr static std::size_t addrs = 0x2e1e9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

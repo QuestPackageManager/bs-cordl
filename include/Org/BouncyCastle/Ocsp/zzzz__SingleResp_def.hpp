@@ -45,13 +45,13 @@ public:
   /// @brief Field resp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp))::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp;
 
-  /// @brief Method GetCertID, addr 0x1115e90, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCertID, addr 0x113a594, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-  /// @brief Method GetCertStatus, addr 0x1115efc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetCertStatus, addr 0x113a600, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Object* GetCertStatus();
 
-  /// @brief Method GetX509Extensions, addr 0x11160e8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x113a7ec, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::SingleResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* value);
 
-  /// @brief Method .ctor, addr 0x110ced0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11315d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-  /// @brief Method get_NextUpdate, addr 0x1116040, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x113a744, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
 
-  /// @brief Method get_SingleExtensions, addr 0x11160cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SingleExtensions, addr 0x113a7d0, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions();
 
-  /// @brief Method get_ThisUpdate, addr 0x111601c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x113a720, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_ThisUpdate();
 
 protected:

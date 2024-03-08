@@ -32,16 +32,16 @@ public:
   static __declspec(property(get = getStaticF_s_ChildStack, put = setStaticF_s_ChildStack))::System::Collections::Generic::Dictionary_2<
       ::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>* s_ChildStack;
 
-  /// @brief Method InverseTransformVertex, addr 0x2c63380, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVertex, addr 0x2cc4bb8, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InverseTransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method ReparentChildren, addr 0x2c63074, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReparentChildren, addr 0x2cc48ac, size 0x128, virtual false, abstract: false, final false
   static inline void ReparentChildren(::UnityEngine::Transform* t);
 
-  /// @brief Method TransformVertex, addr 0x2c6319c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method TransformVertex, addr 0x2cc49d4, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* TransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method UnparentChildren, addr 0x2c62f24, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UnparentChildren, addr 0x2cc475c, size 0x150, virtual false, abstract: false, final false
   static inline void UnparentChildren(::UnityEngine::Transform* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>*

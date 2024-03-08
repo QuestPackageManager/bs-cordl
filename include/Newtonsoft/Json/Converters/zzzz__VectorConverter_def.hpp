@@ -70,29 +70,29 @@ public:
   /// @brief Field <EnableVector4>k__BackingField, offset 0x12, size 0x1
   __declspec(property(get = __cordl_internal_get__EnableVector4_k__BackingField, put = __cordl_internal_set__EnableVector4_k__BackingField)) bool _EnableVector4_k__BackingField;
 
-  /// @brief Method CanConvert, addr 0x27a8cf4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x2809fb0, size 0xd8, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::VectorConverter* New_ctor();
 
   static inline ::Newtonsoft::Json::Converters::VectorConverter* New_ctor(bool enableVector2, bool enableVector3, bool enableVector4);
 
-  /// @brief Method PopulateVector2, addr 0x27a8988, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method PopulateVector2, addr 0x2809c44, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PopulateVector2(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method PopulateVector3, addr 0x27a8a6c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method PopulateVector3, addr 0x2809d28, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 PopulateVector3(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method PopulateVector4, addr 0x27a8b90, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method PopulateVector4, addr 0x2809e4c, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 PopulateVector4(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ReadJson, addr 0x27a8850, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2809b0c, size 0x138, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x27a83d0, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x280968c, size 0x2b0, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteVector, addr 0x27a8680, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method WriteVector, addr 0x280993c, size 0x1d0, virtual false, abstract: false, final false
   static inline void WriteVector(::Newtonsoft::Json::JsonWriter* writer, float_t x, float_t y, ::System::Nullable_1<float_t> z, ::System::Nullable_1<float_t> w);
 
   constexpr bool const& __cordl_internal_get__EnableVector2_k__BackingField() const;
@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set__EnableVector4_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x27a835c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2809618, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27a8384, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2809640, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool enableVector2, bool enableVector3, bool enableVector4);
 
   static inline ::System::Type* getStaticF_V2();
@@ -125,13 +125,13 @@ public:
 
   static inline ::System::Type* getStaticF_V4();
 
-  /// @brief Method get_EnableVector2, addr 0x27a8320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableVector2, addr 0x28095dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableVector2();
 
-  /// @brief Method get_EnableVector3, addr 0x27a8334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableVector3, addr 0x28095f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableVector3();
 
-  /// @brief Method get_EnableVector4, addr 0x27a8348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableVector4, addr 0x2809604, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableVector4();
 
   static inline void setStaticF_V2(::System::Type* value);
@@ -140,13 +140,13 @@ public:
 
   static inline void setStaticF_V4(::System::Type* value);
 
-  /// @brief Method set_EnableVector2, addr 0x27a8328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EnableVector2, addr 0x28095e4, size 0xc, virtual false, abstract: false, final false
   inline void set_EnableVector2(bool value);
 
-  /// @brief Method set_EnableVector3, addr 0x27a833c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EnableVector3, addr 0x28095f8, size 0xc, virtual false, abstract: false, final false
   inline void set_EnableVector3(bool value);
 
-  /// @brief Method set_EnableVector4, addr 0x27a8350, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EnableVector4, addr 0x280960c, size 0xc, virtual false, abstract: false, final false
   inline void set_EnableVector4(bool value);
 
 protected:

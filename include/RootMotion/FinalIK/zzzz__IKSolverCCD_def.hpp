@@ -27,18 +27,18 @@ public:
   /// @brief Field OnPreIteration, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_OnPreIteration, put = __cordl_internal_set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
 
-  /// @brief Method FadeOutBoneWeights, addr 0x133ce48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FadeOutBoneWeights, addr 0x13653a0, size 0x70, virtual false, abstract: false, final false
   inline void FadeOutBoneWeights();
 
   static inline ::RootMotion::FinalIK::IKSolverCCD* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x133ceb8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x1365410, size 0x6c, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x133d3ac, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x1365904, size 0x2e0, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method Solve, addr 0x133da80, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x1365fd8, size 0x690, virtual false, abstract: false, final false
   inline void Solve(::UnityEngine::Vector3 targetPosition);
 
   constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __cordl_internal_get_OnPreIteration();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
 
-  /// @brief Method .ctor, addr 0x133e110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1366668, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

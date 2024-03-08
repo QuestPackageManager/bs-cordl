@@ -33,12 +33,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE __DtdValidator__NamespaceManager : public ::System::Xml::XmlNamespaceManager {
 public:
   // Declarations
-  /// @brief Method LookupNamespace, addr 0x29aa410, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x2a0bc48, size 0x8, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
   static inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29aa408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0bc40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   /// @brief Field namespaceManager, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_namespaceManager, put = setStaticF_namespaceManager))::System::Xml::Schema::__DtdValidator__NamespaceManager* namespaceManager;
 
-  /// @brief Method SetDefaultTypedValue, addr 0x29a9f60, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultTypedValue, addr 0x2a0b798, size 0x3dc, virtual false, abstract: false, final false
   static inline void SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::IDtdParserAdapter* readerAdapter);
 
   static inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* getStaticF_namespaceManager();

@@ -65,10 +65,10 @@ public:
   /// @brief Field versionSet, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_versionSet, put = __cordl_internal_set_versionSet)) bool versionSet;
 
-  /// @brief Method GetInstance, addr 0xff5890, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1015f94, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xff1c4c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1012350, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName, ::Org::BouncyCastle::Asn1::Asn1Sequence* requestList,
@@ -76,7 +76,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xff5c88, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x101638c, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_requestExtensions();
@@ -109,25 +109,25 @@ public:
 
   constexpr void __cordl_internal_set_versionSet(bool value);
 
-  /// @brief Method .ctor, addr 0xff5bdc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10162e0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName, ::Org::BouncyCastle::Asn1::Asn1Sequence* requestList,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method .ctor, addr 0xff5908, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x101600c, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_V1();
 
-  /// @brief Method get_RequestExtensions, addr 0xff5c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestExtensions, addr 0x1016384, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method get_RequestList, addr 0xff5c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestList, addr 0x101637c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_RequestList();
 
-  /// @brief Method get_RequestorName, addr 0xff5c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestorName, addr 0x1016374, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_RequestorName();
 
-  /// @brief Method get_Version, addr 0xff5c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x101636c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
   static inline void setStaticF_V1(::Org::BouncyCastle::Asn1::DerInteger* value);

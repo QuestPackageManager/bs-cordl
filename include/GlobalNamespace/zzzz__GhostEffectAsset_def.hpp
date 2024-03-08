@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x241114c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x24766e8, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::GhostEffectAsset* New_ctor();
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_arrayReference(::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> value);
 
-  /// @brief Method .ctor, addr 0x2411288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2476824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x2411144, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x24766e0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

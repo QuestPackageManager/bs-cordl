@@ -42,30 +42,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Pose>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Pose>*();
 
-  /// @brief Method Equals, addr 0x2d8c9d4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2de920c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2d8ca64, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2de929c, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Pose other);
 
-  /// @brief Method GetHashCode, addr 0x2d8cae8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2de9320, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTransformedBy, addr 0x2d8c818, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetTransformedBy, addr 0x2de9050, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose GetTransformedBy(::UnityEngine::Pose lhs);
 
-  /// @brief Method ToString, addr 0x2d8c724, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2de8f5c, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2d8c710, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de8f48, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::Pose getStaticF_k_Identity();
 
-  /// @brief Method get_forward, addr 0x2d8c8fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x2de9134, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_forward();
 
-  /// @brief Method get_identity, addr 0x2d8c96c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x2de91a4, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose get_identity();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Pose>"

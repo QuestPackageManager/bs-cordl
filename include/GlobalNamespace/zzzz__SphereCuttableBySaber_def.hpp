@@ -41,10 +41,10 @@ public:
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  /// @brief Method Awake, addr 0x2492aa0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24fa984, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Cut, addr 0x2492acc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x24fa9b0, size 0x34, virtual true, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::SphereCuttableBySaber* New_ctor();
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set__collider(::UnityW<::UnityEngine::SphereCollider> value);
 
-  /// @brief Method .ctor, addr 0x2492b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fa9e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeCut, addr 0x2492a98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x24fa97c, size 0x8, virtual true, abstract: false, final false
   inline bool get_canBeCut();
 
-  /// @brief Method get_radius, addr 0x2492a44, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x24fa928, size 0x1c, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_canBeCut, addr 0x2492a60, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x24fa944, size 0x38, virtual true, abstract: false, final false
   inline void set_canBeCut(bool value);
 
 protected:

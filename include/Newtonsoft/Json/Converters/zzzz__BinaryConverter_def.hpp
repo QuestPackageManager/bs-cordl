@@ -41,24 +41,24 @@ public:
   /// @brief Field _reflectionObject, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__reflectionObject, put = __cordl_internal_set__reflectionObject))::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
 
-  /// @brief Method CanConvert, addr 0x27a4004, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x28052c0, size 0x4c, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method EnsureReflectionObject, addr 0x27a38d0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method EnsureReflectionObject, addr 0x2804b8c, size 0x188, virtual false, abstract: false, final false
   inline void EnsureReflectionObject(::System::Type* t);
 
-  /// @brief Method GetByteArray, addr 0x27a3758, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetByteArray, addr 0x2804a14, size 0x178, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteArray(::System::Object* value);
 
   static inline ::Newtonsoft::Json::Converters::BinaryConverter* New_ctor();
 
-  /// @brief Method ReadByteArray, addr 0x27a3d78, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ReadByteArray, addr 0x2805034, size 0x28c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadByteArray(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ReadJson, addr 0x27a3a58, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2804d14, size 0x320, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x27a3704, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x28049c0, size 0x54, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr ::Newtonsoft::Json::Utilities::ReflectionObject*& __cordl_internal_get__reflectionObject();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
 
-  /// @brief Method .ctor, addr 0x27a4050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280530c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

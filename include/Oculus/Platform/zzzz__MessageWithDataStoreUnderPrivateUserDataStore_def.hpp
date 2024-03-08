@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithDataStoreUnderPrivateUserDataStore : public ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e30fc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2845b18, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetDataStore, addr 0x27e30c0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetDataStore, addr 0x2845adc, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataStore();
 
   static inline ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e0830, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284324c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

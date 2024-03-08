@@ -164,7 +164,7 @@ public:
   /// @brief Field m_Direction, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Direction, put = __cordl_internal_set_m_Direction))::GlobalNamespace::__DynamicBoneColliderBase__Direction m_Direction;
 
-  /// @brief Method Collide, addr 0x130c980, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Collide, addr 0x1334ed8, size 0x4, virtual true, abstract: false, final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
 
   static inline ::GlobalNamespace::DynamicBoneColliderBase* New_ctor();
@@ -187,7 +187,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Direction(::GlobalNamespace::__DynamicBoneColliderBase__Direction value);
 
-  /// @brief Method .ctor, addr 0x130c91c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1334e74, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

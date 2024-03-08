@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c::*)()>(
     &::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2720b48;
+  constexpr static std::size_t addrs = 0x2780e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c::*)(::System::Object*)>(
     &::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c::_Run_b__2_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2720b50;
+  constexpr static std::size_t addrs = 0x2780e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::*)(
     ::System::Threading::Tasks::TaskScheduler*, ::System::Action*, bool)>(&::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x271b1dc;
+  constexpr static std::size_t addrs = 0x277b52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::Run)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x27206f4;
+  constexpr static std::size_t addrs = 0x2780a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

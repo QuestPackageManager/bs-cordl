@@ -142,41 +142,41 @@ public:
   /// @brief Field usePlaneNodes, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get_usePlaneNodes, put = __cordl_internal_set_usePlaneNodes)) bool usePlaneNodes;
 
-  /// @brief Method GetNode, addr 0x1334634, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetNode, addr 0x135cb8c, size 0x5c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Node* GetNode(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method GetPlaneRotation, addr 0x1335974, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetPlaneRotation, addr 0x135decc, size 0x1c8, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetPlaneRotation(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method GetPosition, addr 0x1335d84, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x135e2dc, size 0x2b0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPosition(::RootMotion::FinalIK::IKSolverFullBody* solver, ByRef<::UnityEngine::Quaternion> planeRotationOffset);
 
-  /// @brief Method Initiate, addr 0x1334d78, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x135d2d0, size 0x28c, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method IsValid, addr 0x1334a84, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x135cfdc, size 0x2f4, virtual false, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKEffector* New_ctor();
 
   static inline ::RootMotion::FinalIK::IKEffector* New_ctor(::UnityEngine::Transform* bone, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> childBones);
 
-  /// @brief Method OnPostWrite, addr 0x133591c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnPostWrite, addr 0x135de74, size 0x58, virtual false, abstract: false, final false
   inline void OnPostWrite();
 
-  /// @brief Method OnPreSolve, addr 0x133527c, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method OnPreSolve, addr 0x135d7d4, size 0x6a0, virtual false, abstract: false, final false
   inline void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method PinToBone, addr 0x13346a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PinToBone, addr 0x135cbfc, size 0x84, virtual false, abstract: false, final false
   inline void PinToBone(float_t positionWeight, float_t rotationWeight);
 
-  /// @brief Method ResetOffset, addr 0x1335078, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ResetOffset, addr 0x135d5d0, size 0x118, virtual false, abstract: false, final false
   inline void ResetOffset(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SetToTarget, addr 0x13351e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetToTarget, addr 0x135d738, size 0x9c, virtual false, abstract: false, final false
   inline void SetToTarget();
 
-  /// @brief Method Update, addr 0x1335b3c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x135e094, size 0x248, virtual false, abstract: false, final false
   inline void Update(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   constexpr bool const& __cordl_internal_get__isEndEffector_k__BackingField() const;
@@ -371,16 +371,16 @@ public:
 
   constexpr void __cordl_internal_set_usePlaneNodes(bool value);
 
-  /// @brief Method .ctor, addr 0x1334728, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135cc80, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13348c8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135ce20, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* bone, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> childBones);
 
-  /// @brief Method get_isEndEffector, addr 0x1334690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEndEffector, addr 0x135cbe8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEndEffector();
 
-  /// @brief Method set_isEndEffector, addr 0x1334698, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEndEffector, addr 0x135cbf0, size 0xc, virtual false, abstract: false, final false
   inline void set_isEndEffector(bool value);
 
 protected:

@@ -23,7 +23,7 @@ public:
 
   static inline ::GlobalNamespace::BoolWithDefaultValueSO* New_ctor();
 
-  /// @brief Method OnEnable, addr 0xe98bb0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0xeb8c30, size 0x68, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get__defaultValue() const;
@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultValue(bool value);
 
-  /// @brief Method .ctor, addr 0xe98c18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb8c98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

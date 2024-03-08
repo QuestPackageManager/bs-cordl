@@ -151,26 +151,26 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>*();
 
-  /// @brief Method Equals, addr 0x2de53b4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e40bec, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2de4c74, size 0x740, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e404ac, size 0x740, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableCullingParameters other);
 
-  /// @brief Method GetCullingPlane, addr 0x2de4b84, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetCullingPlane, addr 0x2e403bc, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x2de546c, size 0x6a8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e40ca4, size 0x6a8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLayerCullingDistance, addr 0x2de4aa4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetLayerCullingDistance, addr 0x2e402dc, size 0xe0, virtual false, abstract: false, final false
   inline float_t GetLayerCullingDistance(int32_t layerIndex);
 
   static inline int32_t getStaticF_layerCount();
 
   static inline int32_t getStaticF_maximumCullingPlaneCount();
 
-  /// @brief Method get_cullingPlaneCount, addr 0x2de4a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingPlaneCount, addr 0x2e402d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPlaneCount();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"

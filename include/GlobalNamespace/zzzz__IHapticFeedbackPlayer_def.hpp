@@ -24,7 +24,7 @@ class CORDL_TYPE IHapticFeedbackPlayer {
 public:
   // Declarations
   /// @brief Method CanPlayHapticPreset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
+  inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
   /// @brief Method PlayHapticFeedback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);

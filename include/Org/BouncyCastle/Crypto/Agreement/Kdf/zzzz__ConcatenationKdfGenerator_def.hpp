@@ -46,10 +46,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x12875e0, size 0x5d8, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x12acce4, size 0x5d8, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
 
-  /// @brief Method Init, addr 0x128750c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x12acc10, size 0xcc, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_mShared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1287450, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12acb54, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest, addr 0x12875d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x12accdc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"

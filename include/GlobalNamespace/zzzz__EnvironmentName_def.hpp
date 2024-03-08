@@ -22,18 +22,18 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::GlobalNamespace::EnvironmentName Empty;
 
-  /// @brief Method ToString, addr 0x12a9870, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x12d0adc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x12a9860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d0acc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW environmentName);
 
   static inline ::GlobalNamespace::EnvironmentName getStaticF_Empty();
 
-  /// @brief Method op_Implicit, addr 0x12a986c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x12d0ad8, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentName op_Implicit___GlobalNamespace__EnvironmentName(::StringW environmentName);
 
-  /// @brief Method op_Implicit, addr 0x12a9868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x12d0ad4, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::GlobalNamespace::EnvironmentName e);
 
   static inline void setStaticF_Empty(::GlobalNamespace::EnvironmentName value);

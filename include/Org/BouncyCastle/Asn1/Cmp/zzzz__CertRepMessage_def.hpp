@@ -40,13 +40,13 @@ public:
   /// @brief Field response, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::Org::BouncyCastle::Asn1::Asn1Sequence* response;
 
-  /// @brief Method GetCAPubs, addr 0xed7210, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetCAPubs, addr 0xef6914, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCAPubs();
 
-  /// @brief Method GetInstance, addr 0xed6f94, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xef6698, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetResponse, addr 0xed730c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetResponse, addr 0xef6a10, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> GetResponse();
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xed7588, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xef6c8c, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_caPubs();
@@ -69,11 +69,11 @@ public:
 
   constexpr void __cordl_internal_set_response(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0xed711c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef6820, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> response);
 
-  /// @brief Method .ctor, addr 0xed6e9c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef65a0, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -29,7 +29,7 @@ public:
   /// @brief Field nameTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
-  /// @brief Method CreateDocument, addr 0x2973e14, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateDocument, addr 0x29d664c, size 0x64, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDocument* CreateDocument();
 
   static inline ::System::Xml::XmlImplementation* New_ctor();
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method .ctor, addr 0x2973d14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d654c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2973dec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d6624, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt);
 
-  /// @brief Method get_NameTable, addr 0x2973e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x29d66b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:

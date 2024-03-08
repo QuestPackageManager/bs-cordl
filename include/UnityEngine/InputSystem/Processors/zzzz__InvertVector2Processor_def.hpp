@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::InvertVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x2bdf024, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x2c4085c, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x2bdf048, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c40880, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_invertX() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_invertY(bool value);
 
-  /// @brief Method .ctor, addr 0x2bdf0e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c40920, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

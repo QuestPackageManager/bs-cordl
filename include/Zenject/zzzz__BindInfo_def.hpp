@@ -105,15 +105,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2fee3cc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3045c04, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::BindInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x2fee2d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3045b08, size 0xfc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetContextInfo, addr 0x2fee424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContextInfo, addr 0x3045c5c, size 0x8, virtual false, abstract: false, final false
   inline void SetContextInfo(::StringW contextInfo);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_Arguments();
@@ -224,7 +224,7 @@ public:
 
   constexpr void __cordl_internal_set_ToTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x2fee1e4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3045a1c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

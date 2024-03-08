@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x2bce218, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c2ea50, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand Create(bool enabled);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_ImeEnabled(uint8_t value);
 
-  /// @brief Method get_Type, addr 0x2bce1a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2c2e9e0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_imeEnabled, addr 0x2bce1d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_imeEnabled, addr 0x2c2ea10, size 0x10, virtual false, abstract: false, final false
   inline bool get_imeEnabled();
 
-  /// @brief Method get_typeStatic, addr 0x2bce1e8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2c2ea20, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

@@ -35,22 +35,22 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE ProBuilderSnapping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSnappingMaskBasedOnNormalVector, addr 0x2c46444, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSnappingMaskBasedOnNormalVector, addr 0x2ca7c7c, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(::UnityEngine::Vector3 normal);
 
-  /// @brief Method IsCardinalDirection, addr 0x2c45d4c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method IsCardinalDirection, addr 0x2ca7584, size 0x1e8, virtual false, abstract: false, final false
   static inline bool IsCardinalDirection(::UnityEngine::Vector3 direction);
 
-  /// @brief Method Snap, addr 0x2c45fd4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Snap, addr 0x2ca780c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Snap(::UnityEngine::Vector3 val, ::UnityEngine::Vector3 snap);
 
-  /// @brief Method Snap, addr 0x2c45f34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Snap, addr 0x2ca776c, size 0xa0, virtual false, abstract: false, final false
   static inline float_t Snap(float_t val, float_t snap);
 
-  /// @brief Method SnapValueOnRay, addr 0x2c46514, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method SnapValueOnRay, addr 0x2ca7d4c, size 0x4bc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 SnapValueOnRay(::UnityEngine::Ray ray, float_t distance, float_t snap, ::UnityEngine::ProBuilder::Vector3Mask mask);
 
-  /// @brief Method SnapVertices, addr 0x2c46074, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method SnapVertices, addr 0x2ca78ac, size 0x3d0, virtual false, abstract: false, final false
   static inline void SnapVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes, ::UnityEngine::Vector3 snap);
 
 protected:

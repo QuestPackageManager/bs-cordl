@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentManager::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*)>(&::GlobalNamespace::ResultsEnvironmentManager::Init)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x2389548;
+  constexpr static std::size_t addrs = 0x23ebab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> (::GlobalNamespace::ResultsEnvironmentManager::*)(
     ::StringW)>(&::GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2389958;
+  constexpr static std::size_t addrs = 0x23ebec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentManager::*)(::StringW)>(
     &::GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23899d0;
+  constexpr static std::size_t addrs = 0x23ebf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentManager::*)(::StringW)>(
     &::GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2389a54;
+  constexpr static std::size_t addrs = 0x23ebfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentManager::*)()>(&::GlobalNamespace::ResultsEnvironmentManager::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2389ad8;
+  constexpr static std::size_t addrs = 0x23ec040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsEnvironmentManager*>::get(), ".ctor",

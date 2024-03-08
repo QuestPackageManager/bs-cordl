@@ -47,19 +47,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2d7d18c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2dda9c4, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetHumanPose, addr 0x2d7d130, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetHumanPose, addr 0x2dda968, size 0x5c, virtual false, abstract: false, final false
   inline void GetHumanPose(ByRef<::UnityEngine::Vector3> bodyPosition, ByRef<::UnityEngine::Quaternion> bodyRotation, ByRef<::ArrayW<float_t, ::Array<float_t>*>> muscles);
 
-  /// @brief Method GetHumanPose, addr 0x2d7d484, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetHumanPose, addr 0x2ddacbc, size 0xf4, virtual false, abstract: false, final false
   inline void GetHumanPose(ByRef<::UnityEngine::HumanPose> humanPose);
 
-  /// @brief Method Internal_CreateFromRoot, addr 0x2d7d0b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateFromRoot, addr 0x2dda8e8, size 0x44, virtual false, abstract: false, final false
   static inline void* Internal_CreateFromRoot(::UnityEngine::Avatar* avatar, ::UnityEngine::Transform* root);
 
-  /// @brief Method Internal_Destroy, addr 0x2d7d0f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x2dda92c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(void* ptr);
 
   static inline ::UnityEngine::HumanPoseHandler* New_ctor(::UnityEngine::Avatar* avatar, ::UnityEngine::Transform* root);
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x2d7d258, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddaa90, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Avatar* avatar, ::UnityEngine::Transform* root);
 
   /// @brief Convert to "::System::IDisposable"

@@ -29,7 +29,7 @@ public:
 
   static inline ::RootMotion::FinalIK::ConstraintPosition* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method UpdateConstraint, addr 0x131e790, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method UpdateConstraint, addr 0x1346ce8, size 0x98, virtual true, abstract: false, final false
   inline void UpdateConstraint();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x131e828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346d80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x131e830, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346d88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
 protected:

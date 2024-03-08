@@ -18,12 +18,12 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE SHA384 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x255bf10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x25be70c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::SHA384* Create();
 
   static inline ::System::Security::Cryptography::SHA384* New_ctor();
 
-  /// @brief Method .ctor, addr 0x255bef0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25be6ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

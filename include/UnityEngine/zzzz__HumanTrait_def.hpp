@@ -21,13 +21,13 @@ namespace UnityEngine {
 class CORDL_TYPE HumanTrait : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBoneIndexFromMono, addr 0x2d754d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneIndexFromMono, addr 0x2dd2d0c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoneIndexFromMono(int32_t humanId);
 
-  /// @brief Method get_MuscleCount, addr 0x2d77308, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_MuscleCount, addr 0x2dd4b40, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_MuscleCount();
 
-  /// @brief Method get_MuscleName, addr 0x2d77330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_MuscleName, addr 0x2dd4b68, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_MuscleName();
 
 protected:

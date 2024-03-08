@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::System_Runtime_Serialization_ISerializationSurrogate_GetObjectData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x22b1604;
+  constexpr static std::size_t addrs = 0x23123dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                 ::System::Runtime::Serialization::ISurrogateSelector*)>(
     &::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::System_Runtime_Serialization_ISerializationSurrogate_SetObjectData)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x22b16cc;
+  constexpr static std::size_t addrs = 0x23124a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::*)()>(
     &::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b071c;
+  constexpr static std::size_t addrs = 0x23114f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate*>::get(),

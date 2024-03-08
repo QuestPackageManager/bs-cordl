@@ -77,27 +77,27 @@ public:
   /// @brief Field transform, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method AddLoopFrame, addr 0x130d538, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AddLoopFrame, addr 0x1335a90, size 0x1f8, virtual false, abstract: false, final false
   inline void AddLoopFrame(float_t time);
 
-  /// @brief Method AddRootMotionCurves, addr 0x13106ac, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method AddRootMotionCurves, addr 0x1338c04, size 0x288, virtual false, abstract: false, final false
   inline void AddRootMotionCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
   static inline ::RootMotion::BakerTransform* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
 
-  /// @brief Method ReduceKeyframes, addr 0x1310934, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReduceKeyframes, addr 0x1338e8c, size 0x68, virtual false, abstract: false, final false
   inline void ReduceKeyframes(float_t maxError);
 
-  /// @brief Method Reset, addr 0x130d3b0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x1335908, size 0x108, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetCurves, addr 0x130d794, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method SetCurves, addr 0x1335cec, size 0x2b4, virtual false, abstract: false, final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method SetKeyframes, addr 0x130dab4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method SetKeyframes, addr 0x133600c, size 0x1f4, virtual false, abstract: false, final false
   inline void SetKeyframes(float_t time);
 
-  /// @brief Method SetRelativeSpace, addr 0x130d4b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRelativeSpace, addr 0x1335a10, size 0x14, virtual false, abstract: false, final false
   inline void SetRelativeSpace(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   constexpr bool const& __cordl_internal_get_isRootNode() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x130d244, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133579c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
 
 protected:

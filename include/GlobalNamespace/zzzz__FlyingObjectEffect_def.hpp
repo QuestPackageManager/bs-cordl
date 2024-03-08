@@ -81,7 +81,7 @@ public:
 
   __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method InitAndPresent, addr 0x242729c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x248e258, size 0xe8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
 
   /// @brief Method ManualUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -89,7 +89,7 @@ public:
 
   static inline ::GlobalNamespace::FlyingObjectEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x2427384, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x248e340, size 0x3b8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
@@ -170,10 +170,10 @@ public:
 
   constexpr void __cordl_internal_set__targetPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x242773c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248e6f8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x2427294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x248e250, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:

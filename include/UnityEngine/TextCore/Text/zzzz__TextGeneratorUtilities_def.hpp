@@ -60,74 +60,74 @@ public:
   /// @brief Field largePositiveVector2, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_largePositiveVector2, put = setStaticF_largePositiveVector2))::UnityEngine::Vector2 largePositiveVector2;
 
-  /// @brief Method AdjustLineOffset, addr 0x2e52db4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method AdjustLineOffset, addr 0x2eae5ec, size 0x180, virtual false, abstract: false, final false
   static inline void AdjustLineOffset(int32_t startIndex, int32_t endIndex, float_t offset, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method Approximately, addr 0x2e4fae8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x2eab320, size 0x30, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b);
 
-  /// @brief Method ConvertToFloat, addr 0x2e50384, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ConvertToFloat, addr 0x2eabbbc, size 0x80, virtual false, abstract: false, final false
   static inline float_t ConvertToFloat(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startIndex, int32_t length);
 
-  /// @brief Method ConvertToFloat, addr 0x2e50404, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ConvertToFloat, addr 0x2eabc3c, size 0x164, virtual false, abstract: false, final false
   static inline float_t ConvertToFloat(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startIndex, int32_t length, ByRef<int32_t> lastIndex);
 
-  /// @brief Method FillCharacterVertexBuffers, addr 0x2e51d44, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method FillCharacterVertexBuffers, addr 0x2ead57c, size 0x880, virtual false, abstract: false, final false
   static inline void FillCharacterVertexBuffers(int32_t i, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method FillSpriteVertexBuffers, addr 0x2e525c4, size 0x7f0, virtual false, abstract: false, final false
+  /// @brief Method FillSpriteVertexBuffers, addr 0x2eaddfc, size 0x7f0, virtual false, abstract: false, final false
   static inline void FillSpriteVertexBuffers(int32_t i, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetStyle, addr 0x2e51ba0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x2ead3d8, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSetting, int32_t hashCode);
 
-  /// @brief Method GetTagHashCode, addr 0x2e51b0c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetTagHashCode, addr 0x2ead344, size 0x94, virtual false, abstract: false, final false
   static inline int32_t GetTagHashCode(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> text, int32_t index, ByRef<int32_t> closeIndex);
 
-  /// @brief Method GetTagHashCode, addr 0x2e51c8c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTagHashCode, addr 0x2ead4c4, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetTagHashCode(ByRef<::StringW> text, int32_t index, ByRef<int32_t> closeIndex);
 
-  /// @brief Method GetUtf16, addr 0x2e50f3c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetUtf16, addr 0x2eac774, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetUtf16(::StringW text, int32_t i);
 
-  /// @brief Method GetUtf32, addr 0x2e50e10, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetUtf32, addr 0x2eac648, size 0x12c, virtual false, abstract: false, final false
   static inline int32_t GetUtf32(::StringW text, int32_t i);
 
-  /// @brief Method HexCharsToColor, addr 0x2e50100, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method HexCharsToColor, addr 0x2eab938, size 0x284, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexCharsToColor(::ArrayW<char16_t, ::Array<char16_t>*> hexChars, int32_t startIndex, int32_t length);
 
-  /// @brief Method HexCharsToColor, addr 0x2e4fb18, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method HexCharsToColor, addr 0x2eab350, size 0x5bc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexCharsToColor(::ArrayW<char16_t, ::Array<char16_t>*> hexChars, int32_t tagCount);
 
-  /// @brief Method HexToInt, addr 0x2e500d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HexToInt, addr 0x2eab90c, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t HexToInt(char16_t hex);
 
-  /// @brief Method IsTagName, addr 0x2e5170c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsTagName, addr 0x2eacf44, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsTagName(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> text, ::StringW tag, int32_t index);
 
-  /// @brief Method IsTagName, addr 0x2e51008, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsTagName, addr 0x2eac840, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsTagName(ByRef<::StringW> text, ::StringW tag, int32_t index);
 
-  /// @brief Method LegacyAlignmentToNewAlignment, addr 0x2e530f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LegacyAlignmentToNewAlignment, addr 0x2eae928, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextAlignment LegacyAlignmentToNewAlignment(::UnityEngine::TextAnchor anchor);
 
-  /// @brief Method LegacyStyleToNewStyle, addr 0x2e530e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LegacyStyleToNewStyle, addr 0x2eae918, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::FontStyles LegacyStyleToNewStyle(::UnityEngine::FontStyle fontStyle);
 
-  /// @brief Method PackUV, addr 0x2e50568, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PackUV, addr 0x2eabda0, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PackUV(float_t x, float_t y, float_t scale);
 
-  /// @brief Method ReplaceClosingStyleTag, addr 0x2e513e4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ReplaceClosingStyleTag, addr 0x2eacc1c, size 0x328, virtual false, abstract: false, final false
   static inline void ReplaceClosingStyleTag(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> charBuffer, ByRef<int32_t> writeIndex,
                                             ByRef<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>> styleStack,
                                             ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings);
 
-  /// @brief Method ReplaceOpeningStyleTag, addr 0x2e517d8, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method ReplaceOpeningStyleTag, addr 0x2ead010, size 0x334, virtual false, abstract: false, final false
   static inline bool ReplaceOpeningStyleTag(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> sourceText, int32_t srcIndex, ByRef<int32_t> srcOffset, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> charBuffer,
                                             ByRef<int32_t> writeIndex, ByRef<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>> styleStack,
                                             ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings);
 
-  /// @brief Method ReplaceOpeningStyleTag, addr 0x2e510b0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method ReplaceOpeningStyleTag, addr 0x2eac8e8, size 0x334, virtual false, abstract: false, final false
   static inline bool ReplaceOpeningStyleTag(ByRef<::StringW> sourceText, int32_t srcIndex, ByRef<int32_t> srcOffset, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> charBuffer, ByRef<int32_t> writeIndex,
                                             ByRef<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>> styleStack,
                                             ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings);
@@ -135,10 +135,10 @@ public:
   /// @brief Method ResizeInternalArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResizeInternalArray(ByRef<::ArrayW<T, ::Array<T>*>> array);
 
-  /// @brief Method ResizeLineExtents, addr 0x2e52f34, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ResizeLineExtents, addr 0x2eae76c, size 0x1ac, virtual false, abstract: false, final false
   static inline void ResizeLineExtents(int32_t size, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method StringToCharArray, addr 0x2e505c8, size 0x848, virtual false, abstract: false, final false
+  /// @brief Method StringToCharArray, addr 0x2eabe00, size 0x848, virtual false, abstract: false, final false
   static inline void StringToCharArray(::StringW sourceText, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> charBuffer, ByRef<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>> styleStack,
                                        ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 

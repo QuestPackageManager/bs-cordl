@@ -32,19 +32,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Eyes>*();
 
-  /// @brief Method Equals, addr 0x2fc1f34, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x301a76c, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2fc1fbc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x301a7f4, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::Eyes other);
 
-  /// @brief Method GetHashCode, addr 0x2fc1fe0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x301a818, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deviceId, addr 0x2fc1f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x301a75c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_featureIndex, addr 0x2fc1f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureIndex, addr 0x301a764, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_featureIndex();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"

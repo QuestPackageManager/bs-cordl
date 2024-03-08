@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AvatarSyncMessageCounterManager* (*)()>(
     &::GlobalNamespace::AvatarSyncMessageCounterManager::get_Instance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2729f7c;
+  constexpr static std::size_t addrs = 0x278a238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounterManager*>::get(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarSyncMessageCounterManager::*)()>(
     &::GlobalNamespace::AvatarSyncMessageCounterManager::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x2729ff8;
+  constexpr static std::size_t addrs = 0x278a2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounterManager*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarSyncMessageCounterManager::*)(
     ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan)>(&::GlobalNamespace::AvatarSyncMessageCounterManager::SetMessageTypePeriod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x272a144;
+  constexpr static std::size_t addrs = 0x278a400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::AvatarSyncMessageCounterManager::*)(
     ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType)>(&::GlobalNamespace::AvatarSyncMessageCounterManager::GetMessageTypePeriod)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x272a1ac;
+  constexpr static std::size_t addrs = 0x278a468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarSyncMessageCounterManager::*)(
     ::StringW, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType)>(&::GlobalNamespace::AvatarSyncMessageCounterManager::MessageReceived)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x272a338;
+  constexpr static std::size_t addrs = 0x278a5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AvatarSyncMessageCounterManager::*)(
     ::StringW, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType)>(&::GlobalNamespace::AvatarSyncMessageCounterManager::GetPlayerMessageCount)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x272a54c;
+  constexpr static std::size_t addrs = 0x278a808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

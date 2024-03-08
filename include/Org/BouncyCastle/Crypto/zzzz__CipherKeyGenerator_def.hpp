@@ -40,10 +40,10 @@ public:
   /// @brief Field uninitialised, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_uninitialised, put = __cordl_internal_set_uninitialised)) bool uninitialised;
 
-  /// @brief Method GenerateKey, addr 0xf67a4c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0xf88150, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateKey();
 
-  /// @brief Method Init, addr 0xf679ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf880b0, size 0x68, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor();
@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set_uninitialised(bool value);
 
-  /// @brief Method .ctor, addr 0xf678fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf88000, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0xf6790c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf88010, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t defaultStrength);
 
-  /// @brief Method engineGenerateKey, addr 0xf67b6c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method engineGenerateKey, addr 0xf88270, size 0x64, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
-  /// @brief Method engineInit, addr 0xf67a14, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method engineInit, addr 0xf88118, size 0x38, virtual true, abstract: false, final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method get_DefaultStrength, addr 0xf679a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultStrength, addr 0xf880a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DefaultStrength();
 
 protected:

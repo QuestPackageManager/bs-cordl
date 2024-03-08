@@ -35,16 +35,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataAddTestSlidersTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x12a5e30, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x12cd09c, size 0x320, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method FindNextSameColorTypeNote, addr 0x12a6150, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FindNextSameColorTypeNote, addr 0x12cd3bc, size 0x1ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int32_t startIndex,
                                                                        ::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a633c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cd5a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

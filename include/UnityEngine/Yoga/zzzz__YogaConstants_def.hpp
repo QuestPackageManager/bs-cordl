@@ -19,7 +19,7 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE YogaConstants : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUndefined, addr 0x2fb28c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsUndefined, addr 0x300c0f8, size 0x64, virtual false, abstract: false, final false
   static inline bool IsUndefined(float_t value);
 
 protected:

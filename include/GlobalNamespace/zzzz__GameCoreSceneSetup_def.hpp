@@ -38,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get__screenCaptureAfterDelayPrefab,
                       put = __cordl_internal_set__screenCaptureAfterDelayPrefab))::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> _screenCaptureAfterDelayPrefab;
 
-  /// @brief Method InstallBindings, addr 0x24137b8, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2478d54, size 0x46c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::GameCoreSceneSetup* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__screenCaptureAfterDelayPrefab(::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> value);
 
-  /// @brief Method .ctor, addr 0x2413c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24791c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBoundary::*)()>(&::GlobalNamespace::OVRBoundary::GetConfigured)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x27ffec4;
+  constexpr static std::size_t addrs = 0x28628e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoundary*>::get(), "GetConfigured",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRBoundary__BoundaryTestResult (::GlobalNamespace::OVRBoundary::*)(
     ::GlobalNamespace::__OVRBoundary__Node, ::GlobalNamespace::__OVRBoundary__BoundaryType)>(&::GlobalNamespace::OVRBoundary::TestNode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2808544;
+  constexpr static std::size_t addrs = 0x286af60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRBoundary__BoundaryTestResult (::GlobalNamespace::OVRBoundary::*)(
     ::UnityEngine::Vector3, ::GlobalNamespace::__OVRBoundary__BoundaryType)>(&::GlobalNamespace::OVRBoundary::TestPoint)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2808608;
+  constexpr static std::size_t addrs = 0x286b024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::GlobalNamespace::OVRBoundary::*)(
     ::GlobalNamespace::__OVRBoundary__BoundaryType)>(&::GlobalNamespace::OVRBoundary::GetGeometry)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x27fff5c;
+  constexpr static std::size_t addrs = 0x2862978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRBoundary::*)(::GlobalNamespace::__OVRBoundary__BoundaryType)>(
     &::GlobalNamespace::OVRBoundary::GetDimensions)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2808790;
+  constexpr static std::size_t addrs = 0x286b1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBoundary::*)()>(&::GlobalNamespace::OVRBoundary::GetVisible)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2808864;
+  constexpr static std::size_t addrs = 0x286b280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoundary*>::get(), "GetVisible",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBoundary::*)(bool)>(&::GlobalNamespace::OVRBoundary::SetVisible)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x28088fc;
+  constexpr static std::size_t addrs = 0x286b318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBoundary::*)()>(&::GlobalNamespace::OVRBoundary::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2808998;
+  constexpr static std::size_t addrs = 0x286b3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoundary*>::get(), ".ctor",

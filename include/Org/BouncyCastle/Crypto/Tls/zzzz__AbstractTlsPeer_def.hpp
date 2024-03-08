@@ -41,7 +41,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPeer*() noexcept;
 
-  /// @brief Method Cancel, addr 0xfca1bc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0xfeb8c0, size 0xac, virtual true, abstract: false, final false
   inline void Cancel();
 
   /// @brief Method GetCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -50,30 +50,30 @@ public:
   /// @brief Method GetCompression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCompression* GetCompression();
 
-  /// @brief Method GetHandshakeTimeoutMillis, addr 0xfca28c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHandshakeTimeoutMillis, addr 0xfeb990, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHandshakeTimeoutMillis();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsPeer* New_ctor();
 
-  /// @brief Method NotifyAlertRaised, addr 0xfca2f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyAlertRaised, addr 0xfeb9f4, size 0x4, virtual true, abstract: false, final false
   inline void NotifyAlertRaised(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, ::System::Exception* cause);
 
-  /// @brief Method NotifyAlertReceived, addr 0xfca2f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyAlertReceived, addr 0xfeb9f8, size 0x4, virtual true, abstract: false, final false
   inline void NotifyAlertReceived(uint8_t alertLevel, uint8_t alertDescription);
 
-  /// @brief Method NotifyCloseHandle, addr 0xfca268, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method NotifyCloseHandle, addr 0xfeb96c, size 0x24, virtual true, abstract: false, final false
   inline void NotifyCloseHandle(::Org::BouncyCastle::Crypto::Tls::TlsCloseable* closeHandle);
 
-  /// @brief Method NotifyHandshakeComplete, addr 0xfca2f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyHandshakeComplete, addr 0xfeb9fc, size 0x4, virtual true, abstract: false, final false
   inline void NotifyHandshakeComplete();
 
-  /// @brief Method NotifySecureRenegotiation, addr 0xfca2a4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method NotifySecureRenegotiation, addr 0xfeb9a8, size 0x4c, virtual true, abstract: false, final false
   inline void NotifySecureRenegotiation(bool secureRenegotiation);
 
-  /// @brief Method RequiresExtendedMasterSecret, addr 0xfca294, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method RequiresExtendedMasterSecret, addr 0xfeb998, size 0x8, virtual true, abstract: false, final false
   inline bool RequiresExtendedMasterSecret();
 
-  /// @brief Method ShouldUseGmtUnixTime, addr 0xfca29c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldUseGmtUnixTime, addr 0xfeb9a0, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldUseGmtUnixTime();
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*& __cordl_internal_get_mCloseHandle();
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_mCloseHandle(::Org::BouncyCastle::Crypto::Tls::TlsCloseable* value);
 
-  /// @brief Method .ctor, addr 0xfca2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfeba00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"

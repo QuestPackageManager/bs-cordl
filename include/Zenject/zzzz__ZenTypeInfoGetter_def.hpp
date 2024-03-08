@@ -31,18 +31,18 @@ namespace Zenject {
 class CORDL_TYPE ZenTypeInfoGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x302dfb0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x30857e8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x302dfd0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3085808, size 0xc, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x302df9c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x30857d4, size 0x14, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* Invoke();
 
   static inline ::Zenject::ZenTypeInfoGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x302dee0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3085718, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

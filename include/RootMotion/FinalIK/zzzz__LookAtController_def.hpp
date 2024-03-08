@@ -91,18 +91,18 @@ public:
   /// @brief Field weightV, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_weightV, put = __cordl_internal_set_weightV)) float_t weightV;
 
-  /// @brief Method ApplyMinDistance, addr 0x1370828, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ApplyMinDistance, addr 0x139ad80, size 0x184, virtual false, abstract: false, final false
   inline void ApplyMinDistance();
 
-  /// @brief Method LateUpdate, addr 0x1370340, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x139a898, size 0x4e8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::RootMotion::FinalIK::LookAtController* New_ctor();
 
-  /// @brief Method RootRotation, addr 0x13709ac, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method RootRotation, addr 0x139af04, size 0x24c, virtual false, abstract: false, final false
   inline void RootRotation();
 
-  /// @brief Method Start, addr 0x1370254, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x139a7ac, size 0x68, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_dir() const;
@@ -225,10 +225,10 @@ public:
 
   constexpr void __cordl_internal_set_weightV(float_t value);
 
-  /// @brief Method .ctor, addr 0x1370bf8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139b150, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pivot, addr 0x13702bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_pivot, addr 0x139a814, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivot();
 
 protected:

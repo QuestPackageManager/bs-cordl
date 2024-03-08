@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::Direction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0xe56740;
+  constexpr static std::size_t addrs = 0xe70494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::RotationAngle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0xe5676c;
+  constexpr static std::size_t addrs = 0xe704c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::GlobalNamespace::NoteCutDirection, float_t)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::Rotation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0xe5678c;
+  constexpr static std::size_t addrs = 0xe704e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::IsMainDirection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xe567c4;
+  constexpr static std::size_t addrs = 0xe70518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutDirection (*)(float_t)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::MainNoteCutDirectionFromCutDirAngle)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xe567d0;
+  constexpr static std::size_t addrs = 0xe70524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::Mirrored)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xe56850;
+  constexpr static std::size_t addrs = 0xe705a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::Opposite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0xe5686c;
+  constexpr static std::size_t addrs = 0xe705c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::NoteCutDirection, ::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::IsOnSamePlane)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0xe56884;
+  constexpr static std::size_t addrs = 0xe705d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::NoteCutDirectionFromDirection)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0xe56954;
+  constexpr static std::size_t addrs = 0xe706a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

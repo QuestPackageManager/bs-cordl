@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x24a25d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250b544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fillAmount, addr 0x24a25bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fillAmount, addr 0x250b528, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_fillAmount();
 
-  /// @brief Method set_fillAmount, addr 0x24a248c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_fillAmount, addr 0x250b3f8, size 0x44, virtual false, abstract: false, final false
   inline void set_fillAmount(float_t value);
 
 protected:

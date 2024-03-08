@@ -32,26 +32,26 @@ public:
   /// @brief Field SquareThreshold, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_SquareThreshold, put = setStaticF_SquareThreshold)) int32_t SquareThreshold;
 
-  /// @brief Method Add, addr 0x292f6f8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2990f30, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Add(::ArrayW<uint32_t, ::Array<uint32_t>*> left, ::ArrayW<uint32_t, ::Array<uint32_t>*> right);
 
-  /// @brief Method Add, addr 0x292f620, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2990e58, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Add(::ArrayW<uint32_t, ::Array<uint32_t>*> left, uint32_t right);
 
-  /// @brief Method Add, addr 0x29304d0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2991d08, size 0x88, virtual false, abstract: false, final false
   static inline void Add(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength, ::cordl_internals::Ptr<uint32_t> bits,
                          int32_t bitsLength);
 
-  /// @brief Method Compare, addr 0x292fa28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x2991260, size 0x80, virtual false, abstract: false, final false
   static inline int32_t Compare(::ArrayW<uint32_t, ::Array<uint32_t>*> left, ::ArrayW<uint32_t, ::Array<uint32_t>*> right);
 
-  /// @brief Method Subtract, addr 0x292faa8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x29912e0, size 0x100, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> left, ::ArrayW<uint32_t, ::Array<uint32_t>*> right);
 
-  /// @brief Method Subtract, addr 0x292f970, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x29911a8, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> left, uint32_t right);
 
-  /// @brief Method Subtract, addr 0x2930558, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x2991d90, size 0x78, virtual false, abstract: false, final false
   static inline void Subtract(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength, ::cordl_internals::Ptr<uint32_t> bits,
                               int32_t bitsLength);
 

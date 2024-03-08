@@ -98,18 +98,18 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x23b7acc, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x241c0b8, size 0x108, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HowToPlayViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x23b7a9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x241c088, size 0x30, virtual false, abstract: false, final false
   inline void Setup(bool showTutorialButton);
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x23b7bdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x241c1c8, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x23b7bfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x241c1e8, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__creditsButton() const;
@@ -130,13 +130,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
 
-  /// @brief Method .ctor, addr 0x23b7bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241c1c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x23b793c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x241bf28, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x23b79ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x241bfd8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
 
 protected:

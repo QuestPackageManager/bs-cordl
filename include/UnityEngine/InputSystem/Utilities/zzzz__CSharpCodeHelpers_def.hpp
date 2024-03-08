@@ -19,19 +19,19 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE CSharpCodeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEmptyOrProperIdentifier, addr 0x2bf4efc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperIdentifier, addr 0x2c55734, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperIdentifier(::StringW name);
 
-  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x2bf4f28, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x2c55760, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperNamespaceName(::StringW name);
 
-  /// @brief Method IsProperIdentifier, addr 0x2bf4df4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsProperIdentifier, addr 0x2c5562c, size 0x108, virtual false, abstract: false, final false
   static inline bool IsProperIdentifier(::StringW name);
 
-  /// @brief Method MakeIdentifier, addr 0x2bf5000, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method MakeIdentifier, addr 0x2c55838, size 0x244, virtual false, abstract: false, final false
   static inline ::StringW MakeIdentifier(::StringW name, ::StringW suffix);
 
-  /// @brief Method MakeTypeName, addr 0x2bf5244, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MakeTypeName, addr 0x2c55a7c, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW MakeTypeName(::StringW name, ::StringW suffix);
 
 protected:

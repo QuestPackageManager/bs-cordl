@@ -42,33 +42,33 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE RegexConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x27a7500, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x28087bc, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method HasFlag, addr 0x27a704c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x2808308, size 0xc, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Text::RegularExpressions::RegexOptions options, ::System::Text::RegularExpressions::RegexOptions flag);
 
   static inline ::Newtonsoft::Json::Converters::RegexConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x27a7058, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2808314, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadRegexObject, addr 0x27a70fc, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReadRegexObject, addr 0x28083b8, size 0x284, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Regex* ReadRegexObject(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadRegexString, addr 0x27a7380, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ReadRegexString, addr 0x280863c, size 0x180, virtual false, abstract: false, final false
   inline ::System::Object* ReadRegexString(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method WriteBson, addr 0x27a6d58, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method WriteBson, addr 0x2808014, size 0x138, virtual false, abstract: false, final false
   inline void WriteBson(::Newtonsoft::Json::Bson::BsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex);
 
-  /// @brief Method WriteJson, addr 0x27a6e90, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x280814c, size 0x1bc, virtual false, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x27a6c60, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x2807f1c, size 0xf8, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x27a7584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2808840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

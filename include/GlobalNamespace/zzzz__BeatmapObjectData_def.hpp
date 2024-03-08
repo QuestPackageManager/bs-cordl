@@ -25,7 +25,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapObjectData* New_ctor(float_t time, int32_t subtypeIdentifier);
 
-  /// @brief Method .ctor, addr 0xe566e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7043c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t subtypeIdentifier);
 
 protected:

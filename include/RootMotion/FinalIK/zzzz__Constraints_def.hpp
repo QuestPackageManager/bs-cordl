@@ -47,15 +47,15 @@ public:
   /// @brief Field transform, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method Initiate, addr 0x131de68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x13463c0, size 0x50, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* transform);
 
-  /// @brief Method IsValid, addr 0x131ec20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x1347178, size 0x60, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::RootMotion::FinalIK::Constraints* New_ctor();
 
-  /// @brief Method Update, addr 0x131e02c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1346584, size 0x2f8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x131e720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1346c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

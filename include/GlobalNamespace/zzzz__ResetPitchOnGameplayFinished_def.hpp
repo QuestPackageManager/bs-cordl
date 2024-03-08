@@ -31,10 +31,10 @@ public:
   __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
                       put = __cordl_internal_set__gameplayLevelSceneTransitionEvents))::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
-  /// @brief Method Finalize, addr 0x2386310, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x23e88a0, size 0x110, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x2386420, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x23e89b0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
   static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  /// @brief Method .ctor, addr 0x2386268, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e87f8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager);
 
 protected:

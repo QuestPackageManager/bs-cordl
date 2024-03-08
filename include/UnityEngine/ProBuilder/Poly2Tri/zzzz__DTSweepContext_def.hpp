@@ -80,43 +80,43 @@ public:
   /// @brief Field _comparator, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__comparator, put = __cordl_internal_set__comparator))::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* _comparator;
 
-  /// @brief Method AddNode, addr 0x2c18130, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddNode, addr 0x2c78968, size 0x18, virtual false, abstract: false, final false
   inline void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method Clear, addr 0x2c1a384, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c7abbc, size 0x78, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateAdvancingFront, addr 0x2c1698c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method CreateAdvancingFront, addr 0x2c771c4, size 0x228, virtual false, abstract: false, final false
   inline void CreateAdvancingFront();
 
-  /// @brief Method FinalizeTriangulation, addr 0x2c17bc8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FinalizeTriangulation, addr 0x2c78400, size 0xf0, virtual false, abstract: false, final false
   inline void FinalizeTriangulation();
 
-  /// @brief Method LocateNode, addr 0x2c17f6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method LocateNode, addr 0x2c787a4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method MapTriangleToNodes, addr 0x2c17a94, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method MapTriangleToNodes, addr 0x2c782cc, size 0xdc, virtual false, abstract: false, final false
   inline void MapTriangleToNodes(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
 
-  /// @brief Method MeshClean, addr 0x2c17f68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MeshClean, addr 0x2c787a0, size 0x4, virtual false, abstract: false, final false
   inline void MeshClean(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
 
-  /// @brief Method MeshCleanReq, addr 0x2c1a260, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MeshCleanReq, addr 0x2c7aa98, size 0x124, virtual false, abstract: false, final false
   inline void MeshCleanReq(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
 
-  /// @brief Method NewConstraint, addr 0x2c1a828, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method NewConstraint, addr 0x2c7b060, size 0x70, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a,
                                                                                      ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* New_ctor();
 
-  /// @brief Method PrepareTriangulation, addr 0x2c1a47c, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method PrepareTriangulation, addr 0x2c7acb4, size 0x2a4, virtual true, abstract: false, final false
   inline void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
 
-  /// @brief Method RemoveFromList, addr 0x2c17b70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromList, addr 0x2c783a8, size 0x58, virtual false, abstract: false, final false
   inline void RemoveFromList(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
 
-  /// @brief Method RemoveNode, addr 0x2c19eb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RemoveNode, addr 0x2c7a6e8, size 0x18, virtual false, abstract: false, final false
   inline void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
   constexpr float_t const& __cordl_internal_get_ALPHA() const;
@@ -161,28 +161,28 @@ public:
 
   constexpr void __cordl_internal_set__comparator(::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* value);
 
-  /// @brief Method .ctor, addr 0x2c13968, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c741a0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Algorithm, addr 0x2c1a898, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2c7b0d0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm get_Algorithm();
 
-  /// @brief Method get_Head, addr 0x2c1a0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Head, addr 0x2c7a8fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Head();
 
-  /// @brief Method get_IsDebugEnabled, addr 0x2c1a1b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDebugEnabled, addr 0x2c7a9ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDebugEnabled();
 
-  /// @brief Method get_Tail, addr 0x2c1a0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tail, addr 0x2c7a90c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Tail();
 
-  /// @brief Method set_Head, addr 0x2c1a0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Head, addr 0x2c7a904, size 0x8, virtual false, abstract: false, final false
   inline void set_Head(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method set_IsDebugEnabled, addr 0x2c1a1bc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method set_IsDebugEnabled, addr 0x2c7a9f4, size 0x7c, virtual true, abstract: false, final false
   inline void set_IsDebugEnabled(bool value);
 
-  /// @brief Method set_Tail, addr 0x2c1a0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tail, addr 0x2c7a914, size 0x8, virtual false, abstract: false, final false
   inline void set_Tail(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
 protected:

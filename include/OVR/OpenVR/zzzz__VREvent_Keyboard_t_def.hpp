@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_cNewInput))::StringW cNewInput;
 
-  /// @brief Method get_cNewInput, addr 0x28e7f70, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_cNewInput, addr 0x294a7a8, size 0xec, virtual false, abstract: false, final false
   inline ::StringW get_cNewInput();
 
   // Ctor Parameters []

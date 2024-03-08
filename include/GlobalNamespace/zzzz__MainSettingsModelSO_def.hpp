@@ -345,7 +345,7 @@ public:
   /// @brief Field windowResolutionWidth, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_windowResolutionWidth, put = __cordl_internal_set_windowResolutionWidth)) int32_t windowResolutionWidth;
 
-  /// @brief Method ApplyPerformancePreset, addr 0x12d49b4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ApplyPerformancePreset, addr 0x12fbf80, size 0x1d4, virtual false, abstract: false, final false
   inline void ApplyPerformancePreset(::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> performancePresetToLoad);
 
   static inline ::GlobalNamespace::__MainSettingsModelSO__Config* New_ctor();
@@ -700,10 +700,10 @@ public:
 
   constexpr void __cordl_internal_set_windowResolutionWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12d3e98, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fb464, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12d48c4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fbe90, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> performancePresetToLoad);
 
 protected:
@@ -1027,10 +1027,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12d52e0, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12fc8ac, size 0x1c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12d54a8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12fca74, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1100,10 +1100,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12d54b4, size 0x2d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12fca80, size 0x2d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12d5788, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12fcd54, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1178,10 +1178,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12d5794, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12fcd60, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12d5af4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12fd0c0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1422,44 +1422,44 @@ public:
   /// @brief Field windowResolution, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_windowResolution, put = __cordl_internal_set_windowResolution))::UnityW<::GlobalNamespace::Vector2IntSO> windowResolution;
 
-  /// @brief Method ApplyPerformancePresetAsCustom, addr 0x12d4b88, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method ApplyPerformancePresetAsCustom, addr 0x12fc154, size 0x38c, virtual false, abstract: false, final false
   inline bool ApplyPerformancePresetAsCustom(::BeatSaber::PerformancePresets::PerformancePreset* preset);
 
-  /// @brief Method ForceApplyPerformancePresetAsync, addr 0x12d4ff8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ForceApplyPerformancePresetAsync, addr 0x12fc5c4, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ForceApplyPerformancePresetAsync(::GlobalNamespace::__MainSettingsModelSO__Config* config);
 
-  /// @brief Method GetDefaultAudioLatency, addr 0x12d4f14, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultAudioLatency, addr 0x12fc4e0, size 0xe4, virtual false, abstract: false, final false
   inline double_t GetDefaultAudioLatency();
 
-  /// @brief Method GetSaveConfig, addr 0x12d39d0, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method GetSaveConfig, addr 0x12faf9c, size 0x45c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MainSettingsModelSO__Config* GetSaveConfig();
 
-  /// @brief Method Initialize, addr 0x12d37d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x12fada4, size 0xdc, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::IFileStorage* fileStorage,
                          ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> defaultPerformancePreset);
 
-  /// @brief Method InitializeAsync, addr 0x12d36e8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x12facb4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync(::GlobalNamespace::IFileStorage* fileStorage,
                                                            ::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> defaultPerformancePreset);
 
-  /// @brief Method Load, addr 0x12d38b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x12fae80, size 0xb0, virtual false, abstract: false, final false
   inline void Load(::GlobalNamespace::IFileStorage* fileStorage, bool forced);
 
-  /// @brief Method LoadAsync, addr 0x12d47e0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x12fbdac, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync(::GlobalNamespace::IFileStorage* fileStorage, bool forced);
 
   static inline ::GlobalNamespace::MainSettingsModelSO* New_ctor();
 
-  /// @brief Method Save, addr 0x12d3e2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x12fb3f8, size 0x6c, virtual false, abstract: false, final false
   inline void Save(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method SaveAsync, addr 0x12d3964, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x12faf30, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method SetSaveConfig, addr 0x12d3f68, size 0x878, virtual false, abstract: false, final false
+  /// @brief Method SetSaveConfig, addr 0x12fb534, size 0x878, virtual false, abstract: false, final false
   inline void SetSaveConfig(::GlobalNamespace::__MainSettingsModelSO__Config* config);
 
-  /// @brief Method __DeleteSettingsFilesAsync, addr 0x12d50c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method __DeleteSettingsFilesAsync, addr 0x12fc68c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __DeleteSettingsFilesAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
   constexpr bool const& __cordl_internal_get__createScreenshotDuringTheGame_k__BackingField() const;
@@ -1756,17 +1756,17 @@ public:
 
   constexpr void __cordl_internal_set_windowResolution(::UnityW<::GlobalNamespace::Vector2IntSO> value);
 
-  /// @brief Method .ctor, addr 0x12d5180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fc74c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> getStaticF_bestGraphicsPreset();
 
-  /// @brief Method get_createScreenshotDuringTheGame, addr 0x12d36d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_createScreenshotDuringTheGame, addr 0x12faca0, size 0x8, virtual false, abstract: false, final false
   inline bool get_createScreenshotDuringTheGame();
 
   static inline void setStaticF_bestGraphicsPreset(::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> value);
 
-  /// @brief Method set_createScreenshotDuringTheGame, addr 0x12d36dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_createScreenshotDuringTheGame, addr 0x12faca8, size 0xc, virtual false, abstract: false, final false
   inline void set_createScreenshotDuringTheGame(bool value);
 
 protected:

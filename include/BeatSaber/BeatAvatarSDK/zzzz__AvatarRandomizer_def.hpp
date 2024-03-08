@@ -33,13 +33,13 @@ public:
                              put = setStaticF__randomizeColorsParamsCollection))::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*,
                                                                                          ::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*> _randomizeColorsParamsCollection;
 
-  /// @brief Method RandomizeAll, addr 0xe6b784, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RandomizeAll, addr 0xe86550, size 0x6c, virtual false, abstract: false, final false
   static inline void RandomizeAll(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
 
-  /// @brief Method RandomizeColors, addr 0xe6cecc, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method RandomizeColors, addr 0xe87c98, size 0x29c, virtual false, abstract: false, final false
   static inline void RandomizeColors(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
-  /// @brief Method RandomizeModels, addr 0xe6cd70, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method RandomizeModels, addr 0xe87b3c, size 0x15c, virtual false, abstract: false, final false
   static inline void RandomizeModels(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
 
   static inline ::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*, ::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*> getStaticF__randomizeColorsParamsCollection();

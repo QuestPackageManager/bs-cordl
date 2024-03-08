@@ -40,12 +40,12 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE NotificationUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateNotificationsPlayable, addr 0x2d579f0, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method CreateNotificationsPlayable, addr 0x2db5228, size 0x6e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*>
   CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers, double_t duration,
                               ::UnityEngine::Playables::DirectorWrapMode extrapolationMode);
 
-  /// @brief Method TrackTypeSupportsNotifications, addr 0x2d580d0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method TrackTypeSupportsNotifications, addr 0x2db5908, size 0x18c, virtual false, abstract: false, final false
   static inline bool TrackTypeSupportsNotifications(::System::Type* type);
 
 protected:

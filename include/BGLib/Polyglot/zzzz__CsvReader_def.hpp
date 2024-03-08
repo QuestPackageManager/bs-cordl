@@ -92,10 +92,10 @@ public:
 
   static inline ::BGLib::Polyglot::CsvReader* New_ctor();
 
-  /// @brief Method Parse, addr 0xe8ff6c, size 0x7e8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xeafec0, size 0x7e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
-  /// @brief Method .ctor, addr 0xe90754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb06a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

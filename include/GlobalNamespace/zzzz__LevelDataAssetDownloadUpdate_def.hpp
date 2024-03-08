@@ -87,7 +87,7 @@ public:
   // Declarations
   using AssetDownloadingState = ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState;
 
-  /// @brief Method .ctor, addr 0x12d1f64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f8f14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, uint32_t bytesTotal, uint32_t bytesTransferred, ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState assetDownloadingState);
 
   // Ctor Parameters []

@@ -191,7 +191,7 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x228c528, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x22ed2f0, size 0x2a8, virtual false, abstract: false, final false
   inline void _PushViewController_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
   constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get___4__this() const;
@@ -218,7 +218,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228c278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ed040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -283,7 +283,7 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x228c7d0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x22ed598, size 0x274, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
@@ -311,7 +311,7 @@ public:
 
   constexpr void __cordl_internal_set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x228c47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ed244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -385,28 +385,28 @@ public:
   /// @brief Field _viewControllersSeparator, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__viewControllersSeparator, put = __cordl_internal_set__viewControllersSeparator)) float_t _viewControllersSeparator;
 
-  /// @brief Method GetNewPositionsForViewControllers, addr 0x228bc58, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method GetNewPositionsForViewControllers, addr 0x22eca20, size 0x4f4, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
                                                                                 ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* fixedViewControllers, float_t fixedEndPos);
 
-  /// @brief Method LayoutViewControllers, addr 0x228bb40, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method LayoutViewControllers, addr 0x22ec908, size 0x118, virtual true, abstract: false, final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::NavigationController* New_ctor();
 
-  /// @brief Method PopViewController, addr 0x228c280, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PopViewController, addr 0x22ed048, size 0x14, virtual false, abstract: false, final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllers, addr 0x228c294, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllers, addr 0x22ed05c, size 0x1e8, virtual false, abstract: false, final false
   inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PositionVector, addr 0x228c178, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PositionVector, addr 0x22ecf40, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 PositionVector(float_t pos);
 
-  /// @brief Method PushViewController, addr 0x228c198, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PushViewController, addr 0x22ecf60, size 0xe0, virtual false, abstract: false, final false
   inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method SetupViewControllerRect, addr 0x228c14c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetupViewControllerRect, addr 0x22ecf14, size 0x2c, virtual false, abstract: false, final false
   inline void SetupViewControllerRect(::HMUI::ViewController* viewController);
 
   constexpr ::HMUI::__NavigationController__Alignment const& __cordl_internal_get__alignment() const;
@@ -439,7 +439,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllersSeparator(float_t value);
 
-  /// @brief Method .ctor, addr 0x228c518, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ed2e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

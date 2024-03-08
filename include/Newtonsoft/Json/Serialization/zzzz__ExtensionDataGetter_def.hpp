@@ -34,18 +34,18 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE ExtensionDataGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2769de8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27ca0a4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2769e08, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27ca0c4, size 0xc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2769dd4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27ca090, size 0x14, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* Invoke(::System::Object* o);
 
   static inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2762dcc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c3088, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

@@ -51,11 +51,11 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
-  /// @brief Method .ctor, addr 0x12d5c70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fd23c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
-  /// @brief Method get_IsMissionComplete, addr 0x12d5c08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_IsMissionComplete, addr 0x12fd1d4, size 0x68, virtual false, abstract: false, final false
   inline bool get_IsMissionComplete();
 
 protected:

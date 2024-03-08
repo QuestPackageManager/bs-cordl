@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::CoreMathUtils::CalculateHalfJumpDurationInBeats)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x129e818;
+  constexpr static std::size_t addrs = 0x12c4f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x129e858;
+  constexpr static std::size_t addrs = 0x12c4f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV1)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x129e88c;
+  constexpr static std::size_t addrs = 0x12c4f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreMathUtils::*)()>(&::GlobalNamespace::CoreMathUtils::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x129e8d4;
+  constexpr static std::size_t addrs = 0x12c4fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreMathUtils*>::get(), ".ctor",

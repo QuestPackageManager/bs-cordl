@@ -70,21 +70,21 @@ public:
 
   __declspec(property(get = get_beatmapObjectExecutionRatings))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* beatmapObjectExecutionRatings;
 
-  /// @brief Method HandleObstacleDidPassAvoidedMark, addr 0x238fce8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDidPassAvoidedMark, addr 0x23f11d8, size 0x15c, virtual false, abstract: false, final false
   inline void HandleObstacleDidPassAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacle, addr 0x238fbc8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacle, addr 0x23f10b8, size 0x120, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacle(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleScoringForNoteDidFinish, addr 0x238f754, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method HandleScoringForNoteDidFinish, addr 0x23f0c44, size 0x474, virtual false, abstract: false, final false
   inline void HandleScoringForNoteDidFinish(::GlobalNamespace::ScoringElement* scoringElement);
 
   static inline ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x238f4b8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23f09a8, size 0x1ec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x238f268, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23f0758, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -124,10 +124,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x238fe44, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f1334, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapObjectExecutionRatings, addr 0x238f260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapObjectExecutionRatings, addr 0x23f0750, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
 
 protected:

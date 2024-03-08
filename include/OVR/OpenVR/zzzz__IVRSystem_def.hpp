@@ -425,18 +425,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetRecommendedRenderTargetSize : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c0aec, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2922324, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c0b90, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29223c8, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c0ad8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2922310, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c0a00, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2922238, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -467,18 +467,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetProjectionMatrix : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c0c8c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29224c4, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, float_t fNearZ, float_t fFarZ, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c0d5c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2922594, size 0x38, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix44_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c0c78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29224b0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix44_t Invoke(::OVR::OpenVR::EVREye eEye, float_t fNearZ, float_t fFarZ);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c0bb4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29223ec, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -509,19 +509,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetProjectionRaw : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c0e6c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29226a4, size 0x110, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ByRef<float_t> pfLeft, ByRef<float_t> pfRight, ByRef<float_t> pfTop, ByRef<float_t> pfBottom,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c0f7c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29227b4, size 0x28, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<float_t> pfLeft, ByRef<float_t> pfRight, ByRef<float_t> pfTop, ByRef<float_t> pfBottom, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c0e58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2922690, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::EVREye eEye, ByRef<float_t> pfLeft, ByRef<float_t> pfRight, ByRef<float_t> pfTop, ByRef<float_t> pfBottom);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetProjectionRaw* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c0d94, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29225cc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -552,19 +552,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___ComputeDistortion : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c107c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29228b4, size 0x104, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, float_t fU, float_t fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c1180, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29229b8, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1068, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29228a0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::OVR::OpenVR::EVREye eEye, float_t fU, float_t fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates);
 
   static inline ::OVR::OpenVR::__IVRSystem___ComputeDistortion* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c0fa4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29227dc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -595,18 +595,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetEyeToHeadTransform : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c1284, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2922abc, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c1308, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2922b40, size 0x38, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1270, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2922aa8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t Invoke(::OVR::OpenVR::EVREye eEye);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c11ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29229e4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -637,18 +637,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetTimeSinceLastVsync : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c142c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2922c64, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<float_t> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c14ec, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2922d24, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<float_t> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1418, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2922c50, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<float_t> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c1340, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2922b78, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -679,18 +679,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetD3D9AdapterIndex : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c15f0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2922e28, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c1610, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2922e48, size 0x28, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c15dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2922e14, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c1520, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2922d58, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -721,18 +721,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetDXGIOutputInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c1720, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2922f58, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<int32_t> pnAdapterIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c17ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2922fe4, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<int32_t> pnAdapterIndex, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c170c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2922f44, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<int32_t> pnAdapterIndex);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c1638, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2922e70, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -763,18 +763,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetOutputDevice : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c18b4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29230ec, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<uint64_t> pnDevice, ::OVR::OpenVR::ETextureType textureType, void* pInstance, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c199c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29231d4, size 0x101c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<uint64_t> pnDevice, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c18a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29230d8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<uint64_t> pnDevice, ::OVR::OpenVR::ETextureType textureType, void* pInstance);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetOutputDevice* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c17c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2923000, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -805,18 +805,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___IsDisplayOnDesktop : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c1a88, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29242c0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c1aa8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29242e0, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1a74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29242ac, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c19b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29241f0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -847,18 +847,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___SetDisplayVisibility : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c1bac, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29243e4, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool bIsVisibleOnDesktop, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c1c34, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292446c, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1b94, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29243cc, size 0x18, virtual true, abstract: false, final false
   inline bool Invoke(bool bIsVisibleOnDesktop);
 
   static inline ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c1ad0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2924308, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -889,21 +889,21 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetDeviceToAbsoluteTrackingPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c1d34, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x292456c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsToPhotonsFromNow,
                                              ByRef<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*>> pTrackedDevicePoseArray,
                                              uint32_t unTrackedDevicePoseArrayCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c1e24, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292465c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1d20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924558, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsToPhotonsFromNow,
                      ByRef<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*>> pTrackedDevicePoseArray, uint32_t unTrackedDevicePoseArrayCount);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c1c5c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2924494, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -934,18 +934,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___ResetSeatedZeroPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c1f00, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2924738, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c1f20, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2924758, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1eec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924724, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c1e30, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2924668, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -976,18 +976,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c1ffc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2924834, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c201c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2924854, size 0x38, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c1fe8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924820, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c1f2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2924764, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1018,18 +1018,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2124, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x292495c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2144, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292497c, size 0x38, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2110, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924948, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c2054, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292488c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1060,20 +1060,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetSortedTrackedDeviceIndicesOfClass : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2254, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2924a8c, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> punTrackedDeviceIndexArray,
                                              uint32_t unTrackedDeviceIndexArrayCount, uint32_t unRelativeToTrackedDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2324, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2924b5c, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2240, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924a78, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> punTrackedDeviceIndexArray, uint32_t unTrackedDeviceIndexArrayCount,
                          uint32_t unRelativeToTrackedDeviceIndex);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c217c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29249b4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1104,18 +1104,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetTrackedDeviceActivityLevel : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2424, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2924c5c, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c24a8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2924ce0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EDeviceActivityLevel EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2410, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924c48, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EDeviceActivityLevel Invoke(uint32_t unDeviceId);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c234c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2924b84, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1146,20 +1146,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___ApplyTransform : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c25bc, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2924df4, size 0xd8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose,
                                              ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2694, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2924ecc, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform,
                         ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c25a8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924de0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform);
 
   static inline ::OVR::OpenVR::__IVRSystem___ApplyTransform* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c24d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2924d08, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1190,18 +1190,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetTrackedDeviceIndexForControllerRole : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2790, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2924fc8, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedControllerRole unDeviceType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2814, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292504c, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c277c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2924fb4, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::OVR::OpenVR::ETrackedControllerRole unDeviceType);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c26b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2924ef0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1232,18 +1232,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetControllerRoleForTrackedDeviceIndex : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2914, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x292514c, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2998, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29251d0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ETrackedControllerRole EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2900, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2925138, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ETrackedControllerRole Invoke(uint32_t unDeviceIndex);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c283c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2925074, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1274,18 +1274,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetTrackedDeviceClass : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2a98, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29252d0, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2b1c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2925354, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ETrackedDeviceClass EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2a84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29252bc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ETrackedDeviceClass Invoke(uint32_t unDeviceIndex);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c29c0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29251f8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1316,18 +1316,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___IsTrackedDeviceConnected : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2c1c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2925454, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2ca0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29254d8, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2c08, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2925440, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint32_t unDeviceIndex);
 
   static inline ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c2b44, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292537c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1358,19 +1358,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetBoolTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2da0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29255d8, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c2e88, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29256c0, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2d8c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29255c4, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c2cc8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2925500, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1401,19 +1401,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetFloatTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c2f8c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29257c4, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c3074, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29258ac, size 0x2c, virtual true, abstract: false, final false
   inline float_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c2f78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29257b0, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c2eb4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29256ec, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1444,19 +1444,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetInt32TrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c3178, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29259b0, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c3260, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2925a98, size 0x2c, virtual true, abstract: false, final false
   inline int32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c3164, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x292599c, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c30a0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29258d8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1487,19 +1487,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetUint64TrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c3364, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2925b9c, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c344c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2925c84, size 0x2c, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c3350, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2925b88, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c328c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2925ac4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1530,19 +1530,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetMatrix34TrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c3550, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2925d88, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c3638, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2925e70, size 0x44, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c353c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2925d74, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c3478, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2925cb0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1573,20 +1573,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetArrayTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c3754, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2925f8c, size 0x144, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t propType, void* pBuffer, uint32_t unBufferSize,
                                              ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c3898, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29260d0, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c3740, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2925f78, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t propType, void* pBuffer, uint32_t unBufferSize,
                          ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c367c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2925eb4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1617,20 +1617,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetStringTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c399c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29261d4, size 0x104, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize,
                                              ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c3aa0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29262d8, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c3988, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29261c0, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize,
                          ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c38c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29260fc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1661,18 +1661,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetPropErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c3ba4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29263dc, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedPropertyError error, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c3c28, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2926460, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c3b90, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29263c8, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::ETrackedPropertyError error);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c3acc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926304, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1703,18 +1703,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___PollNextEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c3d3c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2926574, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c3df4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292662c, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c3d28, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2926560, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent);
 
   static inline ::OVR::OpenVR::__IVRSystem___PollNextEvent* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c3c50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926488, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1745,19 +1745,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___PollNextEventWithPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c3ef8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2926730, size 0x11c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent,
                                              ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4014, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292684c, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c3ee4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x292671c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
 
   static inline ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c3e20, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926658, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1788,18 +1788,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetEventTypeNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c4120, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2926958, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREventType eType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c41a4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29269dc, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c410c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2926944, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVREventType eType);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4048, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926880, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1830,18 +1830,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetHiddenAreaMesh : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c42a4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2926adc, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ::OVR::OpenVR::EHiddenAreaMeshType type, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4358, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2926b90, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HiddenAreaMesh_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4290, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2926ac8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::HiddenAreaMesh_t Invoke(::OVR::OpenVR::EVREye eEye, ::OVR::OpenVR::EHiddenAreaMeshType type);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c41cc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926a04, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1872,19 +1872,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetControllerState : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c445c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2926c94, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint32_t unControllerStateSize,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4528, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2926d60, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4448, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2926c80, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint32_t unControllerStateSize);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetControllerState* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4384, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926bbc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1915,20 +1915,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetControllerStateWithPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c462c, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2926e64, size 0x134, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
                                              uint32_t unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4760, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2926f98, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4618, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2926e50, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint32_t unControllerStateSize,
                      ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4554, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926d8c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1959,18 +1959,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___TriggerHapticPulse : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c486c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29270a4, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unControllerDeviceIndex, uint32_t unAxisId, uint16_t usDurationMicroSec, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4938, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2927170, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4858, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927090, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(uint32_t unControllerDeviceIndex, uint32_t unAxisId, uint16_t usDurationMicroSec);
 
   static inline ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4794, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2926fcc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2001,18 +2001,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetButtonIdNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c4a1c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2927254, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRButtonId eButtonId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4aa0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29272d8, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4a08, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927240, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRButtonId eButtonId);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4944, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292717c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2043,18 +2043,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___GetControllerAxisTypeNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c4ba0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29273d8, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRControllerAxisType eAxisType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4c24, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292745c, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4b8c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29273c4, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRControllerAxisType eAxisType);
 
   static inline ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4ac8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2927300, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2085,18 +2085,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___IsInputAvailable : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c4d1c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2927554, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4d3c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2927574, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4d08, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927540, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___IsInputAvailable* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4c4c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2927484, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2127,18 +2127,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___IsSteamVRDrawingControllers : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c4e34, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x292766c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4e54, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x292768c, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4e20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927658, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4d64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292759c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2169,18 +2169,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___ShouldApplicationPause : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c4f4c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2927784, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c4f6c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29277a4, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c4f38, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927770, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4e7c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29276b4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2211,18 +2211,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___ShouldApplicationReduceRenderingWork : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c5064, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x292789c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c5084, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29278bc, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c5050, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927888, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c4f94, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29277cc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2253,19 +2253,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___DriverDebugRequest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c5184, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29279bc, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::StringW pchRequest, ::System::Text::StringBuilder* pchResponseBuffer, uint32_t unResponseBufferSize,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c5230, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2927a68, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c5170, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29279a8, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t unDeviceIndex, ::StringW pchRequest, ::System::Text::StringBuilder* pchResponseBuffer, uint32_t unResponseBufferSize);
 
   static inline ::OVR::OpenVR::__IVRSystem___DriverDebugRequest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c50ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29278e4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2296,18 +2296,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___PerformFirmwareUpdate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c5330, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2927b68, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c53b4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2927bec, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRFirmwareError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c531c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927b54, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRFirmwareError Invoke(uint32_t unDeviceIndex);
 
   static inline ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c5258, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2927a90, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2338,18 +2338,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___AcknowledgeQuit_Exiting : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c54ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2927ce4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c54cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2927d04, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c5498, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927cd0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c53dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2927c14, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2380,18 +2380,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSystem___AcknowledgeQuit_UserPrompt : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28c55a8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2927de0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28c55c8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2927e00, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28c5594, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2927dcc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c54d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2927d10, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

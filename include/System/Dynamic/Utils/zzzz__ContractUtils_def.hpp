@@ -21,7 +21,7 @@ namespace System::Dynamic::Utils {
 class CORDL_TYPE ContractUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Unreachable, addr 0x28fc9f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Unreachable, addr 0x296022c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* get_Unreachable();
 
 protected:

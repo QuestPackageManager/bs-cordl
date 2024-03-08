@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe54070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6ddc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

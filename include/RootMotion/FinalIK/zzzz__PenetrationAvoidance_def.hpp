@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x13720bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139c614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,15 +142,15 @@ public:
   /// @brief Field smoothTimeOut, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_smoothTimeOut, put = __cordl_internal_set_smoothTimeOut)) float_t smoothTimeOut;
 
-  /// @brief Method GetOffsetTarget, addr 0x1371c80, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetOffsetTarget, addr 0x139c1d8, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetOffsetTarget(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
 
   static inline ::RootMotion::FinalIK::__PenetrationAvoidance__Avoider* New_ctor();
 
-  /// @brief Method Raycast, addr 0x1371d88, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x139c2e0, size 0x320, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Raycast(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to);
 
-  /// @brief Method Solve, addr 0x1371ae0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x139c038, size 0x190, virtual false, abstract: false, final false
   inline void Solve(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
   constexpr ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> const&
@@ -215,7 +215,7 @@ public:
 
   constexpr void __cordl_internal_set_smoothTimeOut(float_t value);
 
-  /// @brief Method .ctor, addr 0x13720a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139c600, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -305,7 +305,7 @@ public:
 
   static inline ::RootMotion::FinalIK::PenetrationAvoidance* New_ctor();
 
-  /// @brief Method OnModifyOffset, addr 0x1371a70, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x139bfc8, size 0x70, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
   constexpr ::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> const& __cordl_internal_get_avoiders() const;
@@ -314,7 +314,7 @@ public:
 
   constexpr void __cordl_internal_set_avoiders(::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> value);
 
-  /// @brief Method .ctor, addr 0x1371c70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139c1c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

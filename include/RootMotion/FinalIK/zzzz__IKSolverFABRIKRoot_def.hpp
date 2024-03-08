@@ -54,36 +54,36 @@ public:
   /// @brief Field zeroWeightApplied, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_zeroWeightApplied, put = __cordl_internal_set_zeroWeightApplied)) bool zeroWeightApplied;
 
-  /// @brief Method AddPointsToArray, addr 0x1340fb4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AddPointsToArray, addr 0x136950c, size 0x138, virtual false, abstract: false, final false
   inline void AddPointsToArray(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*>> array, ::RootMotion::FinalIK::FABRIKChain* chain);
 
-  /// @brief Method FixTransforms, addr 0x1340908, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1368e60, size 0x94, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method GetCentroid, addr 0x1340cec, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetCentroid, addr 0x1369244, size 0x228, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCentroid();
 
-  /// @brief Method GetPoint, addr 0x13410ec, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x1369644, size 0x84, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetPoints, addr 0x1340f14, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x136946c, size 0xa0, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method IsRoot, addr 0x1340a84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsRoot, addr 0x1368fdc, size 0x90, virtual false, abstract: false, final false
   inline bool IsRoot(int32_t index);
 
-  /// @brief Method IsValid, addr 0x1340228, size 0x654, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x1368780, size 0x654, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverFABRIKRoot* New_ctor();
 
-  /// @brief Method OnInitiate, addr 0x134099c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x1368ef4, size 0xe8, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x1340b14, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x136906c, size 0x1d8, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method StoreDefaultLocalState, addr 0x134087c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1368dd4, size 0x8c, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
   constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> const& __cordl_internal_get_chains() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_zeroWeightApplied(bool value);
 
-  /// @brief Method .ctor, addr 0x1341170, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13696c8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

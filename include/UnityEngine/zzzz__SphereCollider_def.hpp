@@ -29,25 +29,25 @@ public:
 
   static inline ::UnityEngine::SphereCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e1ff5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e7b794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x2e1fd9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x2e7b5d4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x2e1fdf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x2e7b630, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_radius, addr 0x2e1fed4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x2e7b70c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_center, addr 0x2e1fe3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x2e7b674, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x2e1fe90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x2e7b6c8, size 0x44, virtual false, abstract: false, final false
   inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_radius, addr 0x2e1ff10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x2e7b748, size 0x4c, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
 protected:

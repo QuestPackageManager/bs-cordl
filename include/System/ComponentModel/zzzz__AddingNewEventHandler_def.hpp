@@ -31,18 +31,18 @@ namespace System::ComponentModel {
 class CORDL_TYPE AddingNewEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x27314d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2791794, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2731500, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27917bc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x27314c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2791780, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e);
 
   static inline ::System::ComponentModel::AddingNewEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2731394, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791650, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

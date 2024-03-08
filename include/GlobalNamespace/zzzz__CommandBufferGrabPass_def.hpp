@@ -45,13 +45,13 @@ public:
   /// @brief Field _textureName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__textureName, put = __cordl_internal_set__textureName))::StringW _textureName;
 
-  /// @brief Method CamerasDict, addr 0x28ef43c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CamerasDict, addr 0x2951c74, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent, addr 0x28ef494, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CommandBufferCameraEvent, addr 0x2951ccc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
-  /// @brief Method CreateCommandBuffer, addr 0x28ef250, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method CreateCommandBuffer, addr 0x2951a88, size 0x1ec, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::CommandBufferGrabPass* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__textureName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28ef49c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2951cd4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();

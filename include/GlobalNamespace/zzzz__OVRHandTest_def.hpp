@@ -67,18 +67,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __OVRHandTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x28a1e0c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2903644, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x28a1e2c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2903664, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x28a1df8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2903630, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28a0da0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29025d8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -132,12 +132,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x28a1b6c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x29033a4, size 0xd4, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(ByRef<::System::Text::StringBuilder*> sb);
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x28a1ad8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2903310, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x28a0e5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2902694, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
 protected:
@@ -256,13 +256,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest____c* New_ctor();
 
-  /// @brief Method <Start>b__14_0, addr 0x28a1ec0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x29036f8, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__14_0();
 
-  /// @brief Method <.cctor>b__19_0, addr 0x28a1f18, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__19_0, addr 0x2903750, size 0x108, virtual false, abstract: false, final false
   inline bool __cctor_b__19_0();
 
-  /// @brief Method .ctor, addr 0x28a1eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29036f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRHandTest____c* getStaticF___9();
@@ -352,10 +352,10 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTest* New_ctor();
 
-  /// @brief Method Start, addr 0x28a0abc, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x29022f4, size 0x2e4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x28a0ed4, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x290270c, size 0xc04, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_data();
@@ -436,7 +436,7 @@ public:
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x28a1c40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2903478, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* getStaticF_controllers();

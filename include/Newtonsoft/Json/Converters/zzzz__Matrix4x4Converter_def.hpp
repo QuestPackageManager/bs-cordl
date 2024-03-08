@@ -35,21 +35,21 @@ public:
   // Declarations
   __declspec(property(get = get_CanRead)) bool CanRead;
 
-  /// @brief Method CanConvert, addr 0x27a6000, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x28072bc, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::Matrix4x4Converter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x27a5c78, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2806f34, size 0x380, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x27a56f8, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x28069b4, size 0x580, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x27a6084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2807340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanRead, addr 0x27a5ff8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x28072b4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
 protected:

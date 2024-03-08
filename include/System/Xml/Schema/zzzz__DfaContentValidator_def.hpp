@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_transitionTable(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
 
-  /// @brief Method .ctor, addr 0x299b4f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fcd2c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable, ::System::Xml::Schema::SymbolsDictionary* symbols,
                     ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 

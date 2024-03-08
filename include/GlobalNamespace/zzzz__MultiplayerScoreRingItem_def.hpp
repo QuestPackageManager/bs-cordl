@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerScoreRingItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2487528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f03e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerScoreRingItem__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2487530, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f03ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

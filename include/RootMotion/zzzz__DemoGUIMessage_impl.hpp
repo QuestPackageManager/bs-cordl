@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::DemoGUIMessage::*)()>(&::RootMotion::DemoGUIMessage::OnGUI)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x1318d7c;
+  constexpr static std::size_t addrs = 0x13412d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::DemoGUIMessage*>::get(), "OnGUI",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::DemoGUIMessage::*)()>(&::RootMotion::DemoGUIMessage::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1318e74;
+  constexpr static std::size_t addrs = 0x13413cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::DemoGUIMessage*>::get(), ".ctor",

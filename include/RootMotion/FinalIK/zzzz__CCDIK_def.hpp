@@ -27,21 +27,21 @@ public:
   /// @brief Field solver, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverCCD* solver;
 
-  /// @brief Method ASThread, addr 0x132a43c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1352994, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method GetIKSolver, addr 0x132a480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIKSolver, addr 0x13529d8, size 0x8, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
   static inline ::RootMotion::FinalIK::CCDIK* New_ctor();
 
-  /// @brief Method OpenScriptReference, addr 0x132a3b4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x135290c, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenUserManual, addr 0x132a370, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x13528c8, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method SupportGroup, addr 0x132a3f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x1352950, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
   constexpr ::RootMotion::FinalIK::IKSolverCCD*& __cordl_internal_get_solver();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverCCD* value);
 
-  /// @brief Method .ctor, addr 0x132a488, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13529e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

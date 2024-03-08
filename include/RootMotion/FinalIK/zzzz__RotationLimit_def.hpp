@@ -54,42 +54,42 @@ public:
 
   __declspec(property(get = get_secondaryAxis))::UnityEngine::Vector3 secondaryAxis;
 
-  /// @brief Method Apply, addr 0x13690dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1392634, size 0x64, virtual false, abstract: false, final false
   inline bool Apply();
 
-  /// @brief Method Awake, addr 0x1368fe0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x1392538, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Disable, addr 0x1369140, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x1392698, size 0x2c, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method GetLimitedLocalRotation, addr 0x1368d5c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetLimitedLocalRotation, addr 0x13922b4, size 0x284, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetLimitedLocalRotation(::UnityEngine::Quaternion localRotation, ByRef<bool> changed);
 
-  /// @brief Method GetOrthogonalAngle, addr 0x1369514, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOrthogonalAngle, addr 0x1392a6c, size 0x154, virtual false, abstract: false, final false
   static inline float_t GetOrthogonalAngle(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method LateUpdate, addr 0x13691bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x1392714, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method Limit1DOF, addr 0x13691e8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Limit1DOF, addr 0x1392740, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Limit1DOF(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis);
 
   /// @brief Method LimitRotation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method LimitTwist, addr 0x13692bc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method LimitTwist, addr 0x1392814, size 0x258, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion LimitTwist(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis, ::UnityEngine::Vector3 orthoAxis, float_t twistLimit);
 
-  /// @brief Method LogWarning, addr 0x13691c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x1392718, size 0x28, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
   static inline ::RootMotion::FinalIK::RotationLimit* New_ctor();
 
-  /// @brief Method SetDefaultLocalRotation, addr 0x1368d08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultLocalRotation, addr 0x1392260, size 0x3c, virtual false, abstract: false, final false
   inline void SetDefaultLocalRotation();
 
-  /// @brief Method SetDefaultLocalRotation, addr 0x1368d44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultLocalRotation, addr 0x139229c, size 0x18, virtual false, abstract: false, final false
   inline void SetDefaultLocalRotation(::UnityEngine::Quaternion localRotation);
 
   constexpr bool const& __cordl_internal_get__defaultLocalRotationOverride_k__BackingField() const;
@@ -128,19 +128,19 @@ public:
 
   constexpr void __cordl_internal_set_initiated(bool value);
 
-  /// @brief Method .ctor, addr 0x1369668, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1392bc0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_crossAxis, addr 0x1369178, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_crossAxis, addr 0x13926d0, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_crossAxis();
 
-  /// @brief Method get_defaultLocalRotationOverride, addr 0x13691a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultLocalRotationOverride, addr 0x1392700, size 0x8, virtual false, abstract: false, final false
   inline bool get_defaultLocalRotationOverride();
 
-  /// @brief Method get_secondaryAxis, addr 0x136916c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_secondaryAxis, addr 0x13926c4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_secondaryAxis();
 
-  /// @brief Method set_defaultLocalRotationOverride, addr 0x13691b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_defaultLocalRotationOverride, addr 0x1392708, size 0xc, virtual false, abstract: false, final false
   inline void set_defaultLocalRotationOverride(bool value);
 
 protected:

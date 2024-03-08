@@ -37,13 +37,13 @@ public:
   /// @brief Field s_inputSubsystems, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_inputSubsystems, put = setStaticF_s_inputSubsystems))::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* s_inputSubsystems;
 
-  /// @brief Method GetCurrentDisplaySubsystem, addr 0x2262c98, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystem, addr 0x22c477c, size 0x140, virtual false, abstract: false, final false
   static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x2262dd8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x22c48bc, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  /// @brief Method GetCurrentInputSubsystem, addr 0x2262f10, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInputSubsystem, addr 0x22c49f4, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_displaySubsystemDescriptors();

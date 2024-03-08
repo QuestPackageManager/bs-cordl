@@ -67,107 +67,107 @@ public:
   /// @brief Field InitialJavaScriptDateTicks, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InitialJavaScriptDateTicks, put = setStaticF_InitialJavaScriptDateTicks)) int64_t InitialJavaScriptDateTicks;
 
-  /// @brief Method ConvertDateTimeToJavaScriptTicks, addr 0x2751ca8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ConvertDateTimeToJavaScriptTicks, addr 0x27b1f64, size 0x58, virtual false, abstract: false, final false
   static inline int64_t ConvertDateTimeToJavaScriptTicks(::System::DateTime dateTime);
 
-  /// @brief Method ConvertDateTimeToJavaScriptTicks, addr 0x2751d00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ConvertDateTimeToJavaScriptTicks, addr 0x27b1fbc, size 0x98, virtual false, abstract: false, final false
   static inline int64_t ConvertDateTimeToJavaScriptTicks(::System::DateTime dateTime, bool convertToUtc);
 
-  /// @brief Method ConvertDateTimeToJavaScriptTicks, addr 0x2751bc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ConvertDateTimeToJavaScriptTicks, addr 0x27b1e80, size 0x68, virtual false, abstract: false, final false
   static inline int64_t ConvertDateTimeToJavaScriptTicks(::System::DateTime dateTime, ::System::TimeSpan offset);
 
-  /// @brief Method ConvertJavaScriptTicksToDateTime, addr 0x2748c20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConvertJavaScriptTicksToDateTime, addr 0x27a8edc, size 0x88, virtual false, abstract: false, final false
   static inline ::System::DateTime ConvertJavaScriptTicksToDateTime(int64_t javaScriptTicks);
 
-  /// @brief Method CopyIntToCharArray, addr 0x2753e48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyIntToCharArray, addr 0x27b4104, size 0x68, virtual false, abstract: false, final false
   static inline void CopyIntToCharArray(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, int32_t value, int32_t digits);
 
-  /// @brief Method CreateDateTime, addr 0x2752104, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateDateTime, addr 0x27b23c0, size 0x80, virtual false, abstract: false, final false
   static inline ::System::DateTime CreateDateTime(::Newtonsoft::Json::Utilities::DateTimeParser dateTimeParser);
 
-  /// @brief Method EnsureDateTime, addr 0x2751818, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method EnsureDateTime, addr 0x27b1ad4, size 0x128, virtual false, abstract: false, final false
   static inline ::System::DateTime EnsureDateTime(::System::DateTime value, ::Newtonsoft::Json::DateTimeZoneHandling timeZone);
 
-  /// @brief Method GetDateValues, addr 0x2753c50, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetDateValues, addr 0x27b3f0c, size 0x1f8, virtual false, abstract: false, final false
   static inline void GetDateValues(::System::DateTime td, ByRef<int32_t> year, ByRef<int32_t> month, ByRef<int32_t> day);
 
-  /// @brief Method GetUtcOffset, addr 0x275176c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x27b1a28, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetUtcOffset(::System::DateTime d);
 
-  /// @brief Method SwitchToLocalTime, addr 0x2751940, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SwitchToLocalTime, addr 0x27b1bfc, size 0x78, virtual false, abstract: false, final false
   static inline ::System::DateTime SwitchToLocalTime(::System::DateTime value);
 
-  /// @brief Method SwitchToUtcTime, addr 0x27519b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SwitchToUtcTime, addr 0x27b1c74, size 0x78, virtual false, abstract: false, final false
   static inline ::System::DateTime SwitchToUtcTime(::System::DateTime value);
 
-  /// @brief Method ToSerializationMode, addr 0x2751798, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToSerializationMode, addr 0x27b1a54, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDateTimeSerializationMode ToSerializationMode(::System::DateTimeKind kind);
 
-  /// @brief Method ToUniversalTicks, addr 0x2751a30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ToUniversalTicks, addr 0x27b1cec, size 0x8c, virtual false, abstract: false, final false
   static inline int64_t ToUniversalTicks(::System::DateTime dateTime);
 
-  /// @brief Method ToUniversalTicks, addr 0x2751abc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToUniversalTicks, addr 0x27b1d78, size 0x108, virtual false, abstract: false, final false
   static inline int64_t ToUniversalTicks(::System::DateTime dateTime, ::System::TimeSpan offset);
 
-  /// @brief Method TryParseDateTime, addr 0x2752350, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTime, addr 0x27b260c, size 0x220, virtual false, abstract: false, final false
   static inline bool TryParseDateTime(::Newtonsoft::Json::Utilities::StringReference s, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString,
                                       ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTime> dt);
 
-  /// @brief Method TryParseDateTime, addr 0x27527bc, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTime, addr 0x27b2a78, size 0x2b4, virtual false, abstract: false, final false
   static inline bool TryParseDateTime(::StringW s, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture,
                                       ByRef<::System::DateTime> dt);
 
-  /// @brief Method TryParseDateTimeExact, addr 0x27526d4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeExact, addr 0x27b2990, size 0xe8, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeExact(::StringW text, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture,
                                            ByRef<::System::DateTime> dt);
 
-  /// @brief Method TryParseDateTimeIso, addr 0x2751d98, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeIso, addr 0x27b2054, size 0x36c, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeIso(::Newtonsoft::Json::Utilities::StringReference text, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ByRef<::System::DateTime> dt);
 
-  /// @brief Method TryParseDateTimeMicrosoft, addr 0x2752570, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeMicrosoft, addr 0x27b282c, size 0x164, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeMicrosoft(::Newtonsoft::Json::Utilities::StringReference text, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ByRef<::System::DateTime> dt);
 
-  /// @brief Method TryParseDateTimeOffset, addr 0x2752a70, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeOffset, addr 0x27b2d2c, size 0x210, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeOffset(::Newtonsoft::Json::Utilities::StringReference s, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture,
                                             ByRef<::System::DateTimeOffset> dt);
 
-  /// @brief Method TryParseDateTimeOffset, addr 0x2752e68, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeOffset, addr 0x27b3124, size 0x2b4, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeOffset(::StringW s, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTimeOffset> dt);
 
-  /// @brief Method TryParseDateTimeOffsetExact, addr 0x2752db8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeOffsetExact, addr 0x27b3074, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeOffsetExact(::StringW text, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTimeOffset> dt);
 
-  /// @brief Method TryParseDateTimeOffsetIso, addr 0x2752184, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeOffsetIso, addr 0x27b2440, size 0x1cc, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeOffsetIso(::Newtonsoft::Json::Utilities::StringReference text, ByRef<::System::DateTimeOffset> dt);
 
-  /// @brief Method TryParseDateTimeOffsetMicrosoft, addr 0x2752c80, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method TryParseDateTimeOffsetMicrosoft, addr 0x27b2f3c, size 0x138, virtual false, abstract: false, final false
   static inline bool TryParseDateTimeOffsetMicrosoft(::Newtonsoft::Json::Utilities::StringReference text, ByRef<::System::DateTimeOffset> dt);
 
-  /// @brief Method TryParseMicrosoftDate, addr 0x275311c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryParseMicrosoftDate, addr 0x27b33d8, size 0x174, virtual false, abstract: false, final false
   static inline bool TryParseMicrosoftDate(::Newtonsoft::Json::Utilities::StringReference text, ByRef<int64_t> ticks, ByRef<::System::TimeSpan> offset, ByRef<::System::DateTimeKind> kind);
 
-  /// @brief Method TryReadOffset, addr 0x2753290, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryReadOffset, addr 0x27b354c, size 0x174, virtual false, abstract: false, final false
   static inline bool TryReadOffset(::Newtonsoft::Json::Utilities::StringReference offsetText, int32_t startIndex, ByRef<::System::TimeSpan> offset);
 
-  /// @brief Method UniversialTicksToJavaScriptTicks, addr 0x2751c2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UniversialTicksToJavaScriptTicks, addr 0x27b1ee8, size 0x7c, virtual false, abstract: false, final false
   static inline int64_t UniversialTicksToJavaScriptTicks(int64_t universialTicks);
 
-  /// @brief Method WriteDateTimeOffset, addr 0x2753840, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method WriteDateTimeOffset, addr 0x27b3afc, size 0x178, virtual false, abstract: false, final false
   static inline int32_t WriteDateTimeOffset(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, ::System::TimeSpan offset, ::Newtonsoft::Json::DateFormatHandling format);
 
-  /// @brief Method WriteDateTimeOffsetString, addr 0x2753eb0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method WriteDateTimeOffsetString, addr 0x27b416c, size 0x174, virtual false, abstract: false, final false
   static inline void WriteDateTimeOffsetString(::System::IO::TextWriter* writer, ::System::DateTimeOffset value, ::Newtonsoft::Json::DateFormatHandling format, ::StringW formatString,
                                                ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method WriteDateTimeString, addr 0x275353c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method WriteDateTimeString, addr 0x27b37f8, size 0x304, virtual false, abstract: false, final false
   static inline int32_t WriteDateTimeString(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, ::System::DateTime value, ::System::Nullable_1<::System::TimeSpan> offset,
                                             ::System::DateTimeKind kind, ::Newtonsoft::Json::DateFormatHandling format);
 
-  /// @brief Method WriteDateTimeString, addr 0x2753404, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method WriteDateTimeString, addr 0x27b36c0, size 0x138, virtual false, abstract: false, final false
   static inline void WriteDateTimeString(::System::IO::TextWriter* writer, ::System::DateTime value, ::Newtonsoft::Json::DateFormatHandling format, ::StringW formatString,
                                          ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method WriteDefaultIsoDate, addr 0x27539b8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method WriteDefaultIsoDate, addr 0x27b3c74, size 0x298, virtual false, abstract: false, final false
   static inline int32_t WriteDefaultIsoDate(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, ::System::DateTime dt);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_DaysToMonth365();

@@ -32,25 +32,25 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*() noexcept;
 
-  /// @brief Method CheckValue, addr 0xfc30e4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CheckValue, addr 0xfe47e8, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CheckValue(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method Decode, addr 0xfc2e80, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0xfe4584, size 0x198, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> Decode(::Org::BouncyCastle::Math::BigInteger* n,
                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method DecodeValue, addr 0xfc3180, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DecodeValue, addr 0xfe4884, size 0xa0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* DecodeValue(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method Encode, addr 0xfc3018, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfe471c, size 0xcc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
-  /// @brief Method EncodeValue, addr 0xfc3220, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method EncodeValue, addr 0xfe4924, size 0x124, virtual true, abstract: false, final false
   inline void EncodeValue(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* x, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc33a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe4aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* getStaticF_Instance();

@@ -22,7 +22,7 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE Strings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x28fc974, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x29601ac, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
 protected:

@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_nextIteration(::System::Xml::Schema::BitSet* value);
 
-  /// @brief Method get_Max, addr 0x29997e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Max, addr 0x29fb01c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Max();
 
-  /// @brief Method get_Min, addr 0x29997f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x29fb028, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Min();
 
-  /// @brief Method get_NextIteration, addr 0x29997fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextIteration, addr 0x29fb034, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BitSet* get_NextIteration();
 
-  /// @brief Method set_NextIteration, addr 0x2999804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NextIteration, addr 0x29fb03c, size 0x8, virtual false, abstract: false, final false
   inline void set_NextIteration(::System::Xml::Schema::BitSet* value);
 
 protected:

@@ -20,10 +20,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKResolution {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2375d44, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x23d7b1c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_zero, addr 0x2371af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x23d38cc, size 0x8, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKResolution get_zero();
 
   // Ctor Parameters []

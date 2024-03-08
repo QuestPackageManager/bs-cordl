@@ -52,7 +52,7 @@ public:
   /// @brief Field m_Template, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Template, put = __cordl_internal_set_m_Template))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Template;
 
-  /// @brief Method Init, addr 0x2ec6ce4, size 0x39c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f2051c, size 0x39c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TemplateContainer__UxmlTraits* New_ctor();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Template(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2ec71b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f209ec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor(::StringW templateId);
 
-  /// @brief Method SetContentContainer, addr 0x2ec6be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentContainer, addr 0x2f20418, size 0x8, virtual false, abstract: false, final false
   inline void SetContentContainer(::UnityEngine::UIElements::VisualElement* content);
 
   constexpr ::StringW const& __cordl_internal_get__templateId_k__BackingField() const;
@@ -143,22 +143,22 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateSource(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  /// @brief Method .ctor, addr 0x2ec6b3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f20374, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ec6b58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f20390, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW templateId);
 
-  /// @brief Method get_contentContainer, addr 0x2ec6bd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x2f20410, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_templateId, addr 0x2ec6b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateId, addr 0x2f2035c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_templateId();
 
-  /// @brief Method set_templateId, addr 0x2ec6b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateId, addr 0x2f20364, size 0x8, virtual false, abstract: false, final false
   inline void set_templateId(::StringW value);
 
-  /// @brief Method set_templateSource, addr 0x2ec6b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateSource, addr 0x2f2036c, size 0x8, virtual false, abstract: false, final false
   inline void set_templateSource(::UnityEngine::UIElements::VisualTreeAsset* value);
 
 protected:
@@ -211,13 +211,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__TemplateContainer__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ec6c9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f204d4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x2ec6be8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x2f20420, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x2ec6c28, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x2f20460, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:

@@ -29,18 +29,18 @@ namespace Zenject {
 class CORDL_TYPE ZenInjectMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2fc91e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3021a20, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2fc9210, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3021a48, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2fc91d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3021a0c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::Zenject::ZenInjectMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2fc90a4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30218dc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

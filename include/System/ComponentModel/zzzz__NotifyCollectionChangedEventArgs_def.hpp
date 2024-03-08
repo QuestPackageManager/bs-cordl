@@ -114,67 +114,67 @@ public:
 
   constexpr void __cordl_internal_set__OldStartingIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x273155c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791818, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action);
 
-  /// @brief Method .ctor, addr 0x27315b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791870, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem);
 
-  /// @brief Method .ctor, addr 0x2731734, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27919f0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x27318f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791bb0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index, int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x2731584, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791840, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems);
 
-  /// @brief Method .ctor, addr 0x27318ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791b68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems, int32_t index, int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x27316f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27919b0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems, int32_t startingIndex);
 
-  /// @brief Method .ctor, addr 0x2731758, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791a14, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* newItem, ::System::Object* oldItem);
 
-  /// @brief Method .ctor, addr 0x2731920, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791bdc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* newItem, ::System::Object* oldItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x27316b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791970, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems);
 
-  /// @brief Method .ctor, addr 0x2731864, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2791b20, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems, int32_t startingIndex);
 
-  /// @brief Method get_Action, addr 0x273150c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x27917c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::NotifyCollectionChangedAction get_Action();
 
-  /// @brief Method get_NewItems, addr 0x273151c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewItems, addr 0x27917d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_NewItems();
 
-  /// @brief Method get_NewStartingIndex, addr 0x273152c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewStartingIndex, addr 0x27917e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NewStartingIndex();
 
-  /// @brief Method get_OldItems, addr 0x273153c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OldItems, addr 0x27917f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_OldItems();
 
-  /// @brief Method get_OldStartingIndex, addr 0x273154c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OldStartingIndex, addr 0x2791808, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OldStartingIndex();
 
-  /// @brief Method set_Action, addr 0x2731514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Action, addr 0x27917d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Action(::System::ComponentModel::NotifyCollectionChangedAction value);
 
-  /// @brief Method set_NewItems, addr 0x2731524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NewItems, addr 0x27917e0, size 0x8, virtual false, abstract: false, final false
   inline void set_NewItems(::System::Collections::IList* value);
 
-  /// @brief Method set_NewStartingIndex, addr 0x2731534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NewStartingIndex, addr 0x27917f0, size 0x8, virtual false, abstract: false, final false
   inline void set_NewStartingIndex(int32_t value);
 
-  /// @brief Method set_OldItems, addr 0x2731544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OldItems, addr 0x2791800, size 0x8, virtual false, abstract: false, final false
   inline void set_OldItems(::System::Collections::IList* value);
 
-  /// @brief Method set_OldStartingIndex, addr 0x2731554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OldStartingIndex, addr 0x2791810, size 0x8, virtual false, abstract: false, final false
   inline void set_OldStartingIndex(int32_t value);
 
 protected:

@@ -42,13 +42,13 @@ public:
   /// @brief Field _randomBuffer1, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__randomBuffer1, put = __cordl_internal_set__randomBuffer1))::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer1;
 
-  /// @brief Method FillBuffer, addr 0xec899c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FillBuffer, addr 0xee90a4, size 0x114, virtual false, abstract: false, final false
   inline void FillBuffer();
 
-  /// @brief Method GetByte, addr 0xec86e8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0xee8df0, size 0xa8, virtual false, abstract: false, final false
   inline uint8_t GetByte();
 
-  /// @brief Method GetBytes, addr 0xec85d0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0xee8cd8, size 0xb8, virtual false, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::GlobalNamespace::__SecureRandomProvider__SecureRandomState* New_ctor();
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__randomBuffer1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0xec88f8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xee9000, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,16 +136,16 @@ public:
   /// @brief Field _secureRandomState, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__secureRandomState, put = setStaticF__secureRandomState))::GlobalNamespace::__SecureRandomProvider__SecureRandomState* _secureRandomState;
 
-  /// @brief Method GetByte, addr 0xec8688, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0xee8d90, size 0x60, virtual false, abstract: false, final false
   static inline uint8_t GetByte();
 
-  /// @brief Method GetBytes, addr 0xec8528, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0xee8c30, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t length);
 
-  /// @brief Method GetBytes, addr 0xec8810, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0xee8f18, size 0x74, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method GetBytes, addr 0xec8790, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0xee8e98, size 0x80, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::GlobalNamespace::__SecureRandomProvider__SecureRandomState* getStaticF__secureRandomState();

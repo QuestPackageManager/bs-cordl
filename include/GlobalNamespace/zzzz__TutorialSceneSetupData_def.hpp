@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method .ctor, addr 0x2416ef0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247c4c0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
 protected:

@@ -43,21 +43,21 @@ public:
   /// @brief Field _serverCodeText, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText))::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
 
-  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x23e5c44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x244b3e0, size 0x10, virtual false, abstract: false, final false
   inline void HandleShowServerCodeButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x23e5c28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x244b3c4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x23e5b90, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x244b32c, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshText, addr 0x23e5af0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x244b28c, size 0xa0, virtual false, abstract: false, final false
   inline void RefreshText(bool showCode);
 
-  /// @brief Method SetCode, addr 0x23e5ae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCode, addr 0x244b280, size 0xc, virtual false, abstract: false, final false
   inline void SetCode(::StringW serverCode);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x23e5c54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244b3f0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

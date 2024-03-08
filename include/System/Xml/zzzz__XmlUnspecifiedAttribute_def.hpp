@@ -32,18 +32,18 @@ public:
   /// @brief Field fSpecified, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_fSpecified, put = __cordl_internal_set_fSpecified)) bool fSpecified;
 
-  /// @brief Method AppendChild, addr 0x297bc20, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x29de458, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* AppendChild(::System::Xml::XmlNode* newChild);
 
-  /// @brief Method CloneNode, addr 0x297bab0, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x29de2e8, size 0x130, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlUnspecifiedAttribute* New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method RemoveChild, addr 0x297bc00, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method RemoveChild, addr 0x29de438, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* RemoveChild(::System::Xml::XmlNode* oldChild);
 
-  /// @brief Method SetSpecified, addr 0x297bc40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetSpecified, addr 0x29de478, size 0xc, virtual false, abstract: false, final false
   inline void SetSpecified(bool f);
 
   constexpr bool const& __cordl_internal_get_fSpecified() const;
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_fSpecified(bool value);
 
-  /// @brief Method .ctor, addr 0x2976a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d92b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Specified, addr 0x297baa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Specified, addr 0x29de2e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_Specified();
 
-  /// @brief Method set_InnerText, addr 0x297bbe0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x29de418, size 0x20, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
 protected:

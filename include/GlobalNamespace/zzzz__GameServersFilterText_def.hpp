@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::GameServersFilterText* New_ctor();
 
-  /// @brief Method Setup, addr 0x23e0a14, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x243173c, size 0x214, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool visible);
 
-  /// @brief Method Setup, addr 0x23e07b0, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2444534, size 0x264, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameServersFilter* filter, bool visible);
 
   constexpr ::GlobalNamespace::SongPackMasksModel*& __cordl_internal_get__songPackMasksModel();
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x23e0c28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2444798, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

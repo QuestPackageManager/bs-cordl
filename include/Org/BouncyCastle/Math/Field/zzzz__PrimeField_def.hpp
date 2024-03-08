@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Method Equals, addr 0x10cd970, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x10f1074, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x10cda24, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x10f1128, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Math::Field::PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_characteristic(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x10cd2dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f09e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
-  /// @brief Method get_Characteristic, addr 0x10cd960, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x10f1064, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension, addr 0x10cd968, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x10f106c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Dimension();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"

@@ -55,10 +55,10 @@ public:
 
   static inline ::GlobalNamespace::__EnvironmentLightGroups____c* New_ctor();
 
-  /// @brief Method <Sort>b__9_0, addr 0x12a9848, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Sort>b__9_0, addr 0x12d0ab4, size 0x18, virtual false, abstract: false, final false
   inline int32_t _Sort_b__9_0(::GlobalNamespace::LightGroupSO* s);
 
-  /// @brief Method .ctor, addr 0x12a9840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d0aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__EnvironmentLightGroups____c* getStaticF___9();
@@ -119,12 +119,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEnvironmentLightGroups"
   constexpr operator ::GlobalNamespace::IEnvironmentLightGroups*() noexcept;
 
-  /// @brief Method GetDataForGroup, addr 0x12a9470, size 0x24c, virtual true, abstract: false, final true
+  /// @brief Method GetDataForGroup, addr 0x12d06dc, size 0x24c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ILightGroup* GetDataForGroup(int32_t groupId);
 
   static inline ::GlobalNamespace::EnvironmentLightGroups* New_ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
 
-  /// @brief Method Sort, addr 0x12a96bc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x12d0928, size 0x120, virtual false, abstract: false, final false
   inline void Sort();
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::LightGroupSO>>*& __cordl_internal_get__lightGroupSODict();
@@ -147,13 +147,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroupSOListForLightGroupDataDict(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
-  /// @brief Method .ctor, addr 0x12a9448, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d06b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
 
-  /// @brief Method get_lightGroupSOList, addr 0x12a9440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupSOList, addr 0x12d06ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* get_lightGroupSOList();
 
-  /// @brief Method get_lightGroups, addr 0x12a9438, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lightGroups, addr 0x12d06a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* get_lightGroups();
 
   /// @brief Convert to "::GlobalNamespace::IEnvironmentLightGroups"

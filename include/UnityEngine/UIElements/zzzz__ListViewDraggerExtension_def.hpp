@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRecycledItemFromIndex, addr 0x2f18094, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromIndex, addr 0x2f718cc, size 0x348, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:

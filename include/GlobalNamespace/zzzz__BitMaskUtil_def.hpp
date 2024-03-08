@@ -20,16 +20,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0xe53a94, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0xe6d7e8, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0xe5b0c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0xe74e58, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method ShiftLeft, addr 0xe5b128, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0xe74ebc, size 0x48, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0xe5b170, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0xe74f04, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
 protected:

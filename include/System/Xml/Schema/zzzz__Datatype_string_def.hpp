@@ -58,27 +58,27 @@ public:
 
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method CreateValueConverter, addr 0x29a1454, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x2a02c8c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_string* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x29a14d0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2a02d08, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x29a15a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a02ddc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x29a1460, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2a02c98, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x29a1468, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x2a02ca0, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TokenizedType, addr 0x29a14c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x2a02d00, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x29a14c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a02cf8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

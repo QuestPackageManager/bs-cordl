@@ -47,10 +47,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x24ce52c, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25351a4, size 0x21c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x24ce748, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x25353c0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -100,12 +100,12 @@ public:
   // Declarations
   using _IsConnectedToInternetAsync_d__0 = ::GlobalNamespace::__InternetConnectionChecker___IsConnectedToInternetAsync_d__0;
 
-  /// @brief Method IsConnectedToInternetAsync, addr 0x24ce438, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsConnectedToInternetAsync, addr 0x25350b0, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::InternetConnectionChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24ce524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253519c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

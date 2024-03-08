@@ -51,25 +51,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
   constexpr operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*();
 
-  /// @brief Method Dispose, addr 0x2706a78, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2766dc8, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x2706d2c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x276707c, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method Equals, addr 0x2706b8c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2766edc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2706c1c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2766f6c, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::System::Threading::CancellationTokenRegistration other);
 
-  /// @brief Method GetHashCode, addr 0x2706c9c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2766fec, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Unregister, addr 0x27069fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x2766d4c, size 0x7c, virtual false, abstract: false, final false
   inline bool Unregister();
 
-  /// @brief Method .ctor, addr 0x27069f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2766d40, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationCallbackInfo* callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo);
 
   /// @brief Convert to "::System::IAsyncDisposable"

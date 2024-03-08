@@ -96,16 +96,16 @@ public:
 
   constexpr void __cordl_internal_set__starTextSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0xe7540c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe911d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationLength, addr 0xe75404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationLength, addr 0xe911d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_animationLength();
 
-  /// @brief Method get_id, addr 0xe753f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0xe911c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_starTextSprite, addr 0xe753fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_starTextSprite, addr 0xe911c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_starTextSprite();
 
 protected:
@@ -175,13 +175,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0xe75424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe911f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0xe75414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0xe911e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_transform, addr 0xe7541c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0xe911e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
 protected:
@@ -261,15 +261,15 @@ public:
       property(get = __cordl_internal_get_startStarTextAnimationEvent,
                put = __cordl_internal_set_startStarTextAnimationEvent))::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* startStarTextAnimationEvent;
 
-  /// @brief Method HandleBeatmapEvent, addr 0xe7515c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0xe90f28, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::BTSStarTextEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xe75140, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe90f0c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0xe74f54, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe90d20, size 0x1ec, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -328,13 +328,13 @@ public:
 
   constexpr void __cordl_internal_set_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
 
-  /// @brief Method .ctor, addr 0xe75334, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe91100, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_startStarTextAnimationEvent, addr 0xe74af0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_startStarTextAnimationEvent, addr 0xe908bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
 
-  /// @brief Method remove_startStarTextAnimationEvent, addr 0xe74c28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_startStarTextAnimationEvent, addr 0xe909f4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
 
 protected:

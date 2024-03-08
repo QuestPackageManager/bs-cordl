@@ -58,13 +58,13 @@ public:
   /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation);
 
-  /// @brief Method BeginOperation, addr 0xe99f08, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method BeginOperation, addr 0xeba778, size 0x58, virtual true, abstract: false, final true
   inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
 
-  /// @brief Method ComputeThreadRun, addr 0xe99f60, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ComputeThreadRun, addr 0xeba7d0, size 0x160, virtual false, abstract: false, final false
   inline void ComputeThreadRun();
 
-  /// @brief Method Dispose, addr 0xe99ea0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xeba710, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__disposed(bool value);
 
-  /// @brief Method .ctor, addr 0xe99d60, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeba5d0, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"

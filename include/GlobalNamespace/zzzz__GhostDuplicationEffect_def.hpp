@@ -176,16 +176,16 @@ public:
 
   static inline ::GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <Animate>b__0, addr 0x2428b58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__0, addr 0x248fb14, size 0x18, virtual false, abstract: false, final false
   inline void _Animate_b__0(float_t val);
 
-  /// @brief Method <Animate>b__1, addr 0x2428b70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__1, addr 0x248fb2c, size 0x2c, virtual false, abstract: false, final false
   inline void _Animate_b__1(float_t val);
 
-  /// @brief Method <Animate>b__2, addr 0x2428b9c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__2, addr 0x248fb58, size 0x50, virtual false, abstract: false, final false
   inline void _Animate_b__2(::UnityEngine::Vector3 pos);
 
-  /// @brief Method <Animate>b__3, addr 0x2428bec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__3, addr 0x248fba8, size 0x40, virtual false, abstract: false, final false
   inline void _Animate_b__3(float_t val);
 
   constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect> const& __cordl_internal_get___4__this() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set_ghostEffectParams(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
 
-  /// @brief Method .ctor, addr 0x2428884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248f840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -277,21 +277,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2428c30, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x248fbec, size 0xfc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2428d2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x248fce8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2428d34, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x248fcf0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2428d74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x248fd30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2428c2c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x248fbe8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -318,7 +318,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x2428904, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248f8c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -400,24 +400,24 @@ public:
 
   __declspec(property(get = get_size, put = set_size)) float_t size;
 
-  /// @brief Method Animate, addr 0x24284d0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x248f48c, size 0x3b4, virtual false, abstract: false, final false
   inline void Animate(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ghostEffectParams);
 
-  /// @brief Method Awake, addr 0x24283b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x248f370, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HideRedundantWithDelay, addr 0x242888c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HideRedundantWithDelay, addr 0x248f848, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideRedundantWithDelay(float_t delay);
 
-  /// @brief Method Init, addr 0x24283c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x248f380, size 0x88, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GhostDuplicationEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x242832c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x248f2e8, size 0x88, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetDistances, addr 0x242892c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetDistances, addr 0x248f8e8, size 0xec, virtual false, abstract: false, final false
   inline void SetDistances(float_t distance, ::UnityEngine::Vector3 direction);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvases() const;
@@ -438,22 +438,22 @@ public:
 
   constexpr void __cordl_internal_set_isInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x2428b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248fb0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x2428b10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x248facc, size 0x40, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_size, addr 0x2428ac8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x248fa84, size 0x48, virtual false, abstract: false, final false
   inline float_t get_size();
 
-  /// @brief Method set_alpha, addr 0x242844c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x248f408, size 0x84, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_hide, addr 0x2428a18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x248f9d4, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
-  /// @brief Method set_size, addr 0x2428a44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x248fa00, size 0x84, virtual false, abstract: false, final false
   inline void set_size(float_t value);
 
 protected:

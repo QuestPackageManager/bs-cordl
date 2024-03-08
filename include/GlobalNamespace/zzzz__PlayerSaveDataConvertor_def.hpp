@@ -36,22 +36,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerSaveDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRuntimeData, addr 0x12f52a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x131d3f0, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ArcVisibilityType GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData saveData);
 
-  /// @brief Method GetRuntimeData, addr 0x12f52b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x131d400, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData saveData);
 
-  /// @brief Method GetRuntimeData, addr 0x12f5298, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x131d3e4, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData saveData);
 
-  /// @brief Method GetSaveData, addr 0x12f2fa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x131b0f0, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData GetSaveData(::GlobalNamespace::ArcVisibilityType data);
 
-  /// @brief Method GetSaveData, addr 0x12f2fb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x131b100, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data);
 
-  /// @brief Method GetSaveData, addr 0x12f2f98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x131b0e4, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data);
 
 protected:

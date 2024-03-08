@@ -36,22 +36,22 @@ public:
   /// @brief Field str, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::StringW str;
 
-  /// @brief Method Asn1Equals, addr 0x12342fc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x1259a00, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Encode, addr 0x12342c0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x12599c4, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetInstance, addr 0x1234158, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x125985c, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerT61String* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x1234068, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x125976c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerT61String* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctets, addr 0x12342f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x12599f4, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method GetString, addr 0x12342b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x12599bc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::DerT61String* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12271c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x124c8c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x1234240, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1259944, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
 protected:

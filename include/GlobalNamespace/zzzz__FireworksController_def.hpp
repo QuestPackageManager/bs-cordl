@@ -73,21 +73,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2426b18, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x248dad4, size 0x2fc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2426e14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x248ddd0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2426e1c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x248ddd8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2426e5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x248de18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2426b14, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x248dad0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  /// @brief Method .ctor, addr 0x24269c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248d980, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -188,18 +188,18 @@ public:
   /// @brief Field _spawnSize, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get__spawnSize, put = __cordl_internal_set__spawnSize))::UnityEngine::Vector3 _spawnSize;
 
-  /// @brief Method HandleFireworkItemControllerDidFinish, addr 0x24269ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleFireworkItemControllerDidFinish, addr 0x248d9a8, size 0xb8, virtual false, abstract: false, final false
   inline void HandleFireworkItemControllerDidFinish(::GlobalNamespace::FireworkItemController* fireworkItemController);
 
   static inline ::GlobalNamespace::FireworksController* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x2426aa4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x248da60, size 0x54, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x242693c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x248d8f8, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SpawningCoroutine, addr 0x242695c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SpawningCoroutine, addr 0x248d918, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawningCoroutine();
 
   constexpr int32_t const& __cordl_internal_get__currentLightId() const;
@@ -244,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnSize(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2426af8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248dab4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

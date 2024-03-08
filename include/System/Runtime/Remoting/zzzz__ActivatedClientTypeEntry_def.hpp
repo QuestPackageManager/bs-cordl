@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method ToString, addr 0x2578c50, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25db44c, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_applicationUrl() const;
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2578b00, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25db2fc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x2578c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x25db434, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ContextAttributes, addr 0x2578c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContextAttributes, addr 0x25db43c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Runtime::Remoting::Contexts::IContextAttribute*, ::Array<::System::Runtime::Remoting::Contexts::IContextAttribute*>*> get_ContextAttributes();
 
-  /// @brief Method get_ObjectType, addr 0x2578c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x25db444, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
 protected:

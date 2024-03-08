@@ -28,34 +28,34 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
-  /// @brief Method .ctor, addr 0x2d89508, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de5d40, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x2d89518, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de5d50, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
-  /// @brief Method get_inTangent, addr 0x2d8954c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inTangent, addr 0x2de5d84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inTangent();
 
-  /// @brief Method get_outTangent, addr 0x2d8955c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outTangent, addr 0x2de5d94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_outTangent();
 
-  /// @brief Method get_time, addr 0x2d8952c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2de5d64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_value, addr 0x2d8953c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2de5d74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_inTangent, addr 0x2d89554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inTangent, addr 0x2de5d8c, size 0x8, virtual false, abstract: false, final false
   inline void set_inTangent(float_t value);
 
-  /// @brief Method set_outTangent, addr 0x2d89564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_outTangent, addr 0x2de5d9c, size 0x8, virtual false, abstract: false, final false
   inline void set_outTangent(float_t value);
 
-  /// @brief Method set_time, addr 0x2d89534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x2de5d6c, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_value, addr 0x2d89544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x2de5d7c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []

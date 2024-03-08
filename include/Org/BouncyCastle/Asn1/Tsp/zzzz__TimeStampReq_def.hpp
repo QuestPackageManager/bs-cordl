@@ -72,7 +72,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x10eb040, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x110e744, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* New_ctor(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy,
@@ -81,7 +81,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10eb4fc, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x110ec00, size 0x1dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_certReq();
@@ -120,29 +120,29 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10eb428, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x110eb2c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy, ::Org::BouncyCastle::Asn1::DerInteger* nonce,
                     ::Org::BouncyCastle::Asn1::DerBoolean* certReq, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor, addr 0x10eb0e4, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x110e7e8, size 0x344, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertReq, addr 0x10eb4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertReq, addr 0x110ebf0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBoolean* get_CertReq();
 
-  /// @brief Method get_Extensions, addr 0x10eb4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x110ebf8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_MessageImprint, addr 0x10eb4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MessageImprint, addr 0x110ebd8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* get_MessageImprint();
 
-  /// @brief Method get_Nonce, addr 0x10eb4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x110ebe8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Nonce();
 
-  /// @brief Method get_ReqPolicy, addr 0x10eb4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReqPolicy, addr 0x110ebe0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ReqPolicy();
 
-  /// @brief Method get_Version, addr 0x10eb4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x110ebd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

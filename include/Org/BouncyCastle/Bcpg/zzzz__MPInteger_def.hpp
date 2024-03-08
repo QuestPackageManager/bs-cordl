@@ -32,10 +32,10 @@ public:
   /// @brief Field val, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val))::Org::BouncyCastle::Math::BigInteger* val;
 
-  /// @brief Method Encode, addr 0x1242d34, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1268438, size 0x70, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method Encode, addr 0x1242da4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x12684a8, size 0x6c, virtual false, abstract: false, final false
   static inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut, ::Org::BouncyCastle::Math::BigInteger* val);
 
   static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_val(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1241410, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1266b14, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1241630, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1266d34, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method get_Value, addr 0x1242d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x1268430, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
 protected:

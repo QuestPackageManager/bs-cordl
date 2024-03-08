@@ -61,31 +61,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>*();
 
-  /// @brief Method CreateFromSerializedData, addr 0xeacb04, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0xecd3bc, size 0x34, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayServerConfiguration CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0xeacb38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0xecd3f0, size 0x98, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayServerConfiguration Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0xeac964, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xecd21c, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xeac960, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0xecd218, size 0x4, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::GameplayServerConfiguration other);
 
-  /// @brief Method Equals, addr 0xeac8f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xecd1ac, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(ByRef<::GlobalNamespace::GameplayServerConfiguration> other);
 
-  /// @brief Method GetHashCode, addr 0xeaca2c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xecd2e4, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0xeaca88, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xecd340, size 0x7c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method WithMaxPlayerCount, addr 0xeacbd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithMaxPlayerCount, addr 0xecd488, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration WithMaxPlayerCount(int32_t maxPlayerCount);
 
-  /// @brief Method .ctor, addr 0xea9a68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeca320, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxPlayerCount, ::GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::GlobalNamespace::InvitePolicy invitePolicy, ::GlobalNamespace::GameplayServerMode gameplayServerMode,
                     ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings);
 
@@ -96,10 +96,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>* i___System__IEquatable_1___GlobalNamespace__GameplayServerConfiguration_();
 
-  /// @brief Method op_Equality, addr 0xeaca6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0xecd324, size 0x4, virtual false, abstract: false, final false
   static inline bool op_Equality(ByRef<::GlobalNamespace::GameplayServerConfiguration> a, ByRef<::GlobalNamespace::GameplayServerConfiguration> b);
 
-  /// @brief Method op_Inequality, addr 0xeaca70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0xecd328, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(ByRef<::GlobalNamespace::GameplayServerConfiguration> a, ByRef<::GlobalNamespace::GameplayServerConfiguration> b);
 
   // Ctor Parameters []

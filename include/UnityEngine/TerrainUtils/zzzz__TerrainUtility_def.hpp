@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_onlyAutoConnectedTerrains(bool value);
 
-  /// @brief Method .ctor, addr 0x2e2d1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e889d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
 
   static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* New_ctor();
 
-  /// @brief Method <CollectTerrains>b__0, addr 0x2e2d538, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <CollectTerrains>b__0, addr 0x2e88d70, size 0xdc, virtual false, abstract: false, final false
   inline bool _CollectTerrains_b__0(::UnityEngine::Terrain* x);
 
   constexpr ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*& __cordl_internal_get_CS$__8__locals1();
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Terrain> value);
 
-  /// @brief Method .ctor, addr 0x2e2d1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e889e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,16 +157,16 @@ public:
 
   using __c__DisplayClass2_1 = ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1;
 
-  /// @brief Method AutoConnect, addr 0x2e2d1b0, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method AutoConnect, addr 0x2e889e8, size 0x388, virtual false, abstract: false, final false
   static inline void AutoConnect();
 
-  /// @brief Method ClearConnectivity, addr 0x2e2cd84, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectivity, addr 0x2e885bc, size 0xf8, virtual false, abstract: false, final false
   static inline void ClearConnectivity();
 
-  /// @brief Method CollectTerrains, addr 0x2e2ce7c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CollectTerrains, addr 0x2e886b4, size 0x324, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains);
 
-  /// @brief Method ValidTerrainsExist, addr 0x2e2cd1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ValidTerrainsExist, addr 0x2e88554, size 0x68, virtual false, abstract: false, final false
   static inline bool ValidTerrainsExist();
 
 protected:

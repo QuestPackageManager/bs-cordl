@@ -47,16 +47,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Decode, addr 0x2359218, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x23baff0, size 0xcc, virtual false, abstract: false, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
-  /// @brief Method Dispose, addr 0x23595f4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x23bb3cc, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2359454, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x23bb22c, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2359554, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x23bb32c, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2359030, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bae08, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Convert to "::System::IDisposable"

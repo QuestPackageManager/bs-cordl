@@ -57,15 +57,15 @@ public:
   /// @brief Field untypedAnyType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_untypedAnyType, put = setStaticF_untypedAnyType))::System::Xml::Schema::XmlSchemaComplexType* untypedAnyType;
 
-  /// @brief Method CreateAnyType, addr 0x29b0f94, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CreateAnyType, addr 0x2a127cc, size 0x2e4, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* CreateAnyType(::System::Xml::Schema::XmlSchemaContentProcessing processContents);
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* New_ctor();
 
-  /// @brief Method SetAttributeWildcard, addr 0x29b1858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributeWildcard, addr 0x2a13090, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method SetContentTypeParticle, addr 0x29b1850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentTypeParticle, addr 0x2a13088, size 0x8, virtual false, abstract: false, final false
   inline void SetContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_attributeWildcard();
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_pvFlags(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x29b1278, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a12ab0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* getStaticF_anyTypeLax();
@@ -101,13 +101,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* getStaticF_untypedAnyType();
 
-  /// @brief Method get_AnyType, addr 0x29b17d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_AnyType, addr 0x2a1300c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* get_AnyType();
 
-  /// @brief Method get_AnyTypeContentValidator, addr 0x29b1344, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_AnyTypeContentValidator, addr 0x2a12b7c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::ContentValidator* get_AnyTypeContentValidator();
 
-  /// @brief Method get_ContentTypeParticle, addr 0x29b1848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentTypeParticle, addr 0x2a13080, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* get_ContentTypeParticle();
 
   static inline void setStaticF_anyTypeLax(::System::Xml::Schema::XmlSchemaComplexType* value);
@@ -116,7 +116,7 @@ public:
 
   static inline void setStaticF_untypedAnyType(::System::Xml::Schema::XmlSchemaComplexType* value);
 
-  /// @brief Method set_IsMixed, addr 0x29b182c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x2a13064, size 0x1c, virtual true, abstract: false, final false
   inline void set_IsMixed(bool value);
 
 protected:

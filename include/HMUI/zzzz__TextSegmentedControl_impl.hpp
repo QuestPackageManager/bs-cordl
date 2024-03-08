@@ -5,15 +5,13 @@
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "HMUI/zzzz__TextSegmentedControlCell_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::HMUI::TextSegmentedControl.SetTexts
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControl::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::HMUI::TextSegmentedControl::SetTexts)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22821e0;
+  constexpr static std::size_t addrs = 0x22e3124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::NumberOfCells)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22821f8;
+  constexpr static std::size_t addrs = 0x22e313c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), "NumberOfCells",
@@ -40,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::SegmentedControlCell> (::HMUI::TextSegmentedControl::*)(int32_t)>(
     &::HMUI::TextSegmentedControl::CellForCellNumber)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x22822a4;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x22e31e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,27 +48,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::TextSegmentedControl.InstantiateCell
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TextSegmentedControlCell> (::HMUI::TextSegmentedControl::*)(::UnityEngine::Object*)>(
-    &::HMUI::TextSegmentedControl::InstantiateCell)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2282538;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), "InstantiateCell", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::HMUI::TextSegmentedControl._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2282740;
+  constexpr static std::size_t addrs = 0x22e351c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), ".ctor",
@@ -182,18 +165,6 @@ constexpr void HMUI::TextSegmentedControl::__cordl_internal_set__middleCellPrefa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____middleCellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Zenject::DiContainer*& HMUI::TextSegmentedControl::__cordl_internal_get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____container;
-}
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& HMUI::TextSegmentedControl::__cordl_internal_get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____container;
-}
-constexpr void HMUI::TextSegmentedControl::__cordl_internal_set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& HMUI::TextSegmentedControl::__cordl_internal_get__texts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____texts;
@@ -222,12 +193,6 @@ inline ::UnityW<::HMUI::SegmentedControlCell> HMUI::TextSegmentedControl::CellFo
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), "CellForCellNumber",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::SegmentedControlCell>, false>(this, ___internal_method, cellNumber);
-}
-inline ::UnityW<::HMUI::TextSegmentedControlCell> HMUI::TextSegmentedControl::InstantiateCell(::UnityEngine::Object* prefab) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), "InstantiateCell", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::TextSegmentedControlCell>, false>(this, ___internal_method, prefab);
 }
 inline ::HMUI::TextSegmentedControl* HMUI::TextSegmentedControl::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::TextSegmentedControl*>());

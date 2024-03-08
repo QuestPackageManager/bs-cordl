@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12fd1ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1325698, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer);
 
-  /// @brief Method get_layer, addr 0x12fd1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x1325690, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x12fd1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x1325688, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:

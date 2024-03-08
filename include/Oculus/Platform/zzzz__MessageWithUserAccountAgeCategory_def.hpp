@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserAccountAgeCategory : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e5694, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x28480b0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetUserAccountAgeCategory, addr 0x27e5658, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserAccountAgeCategory, addr 0x2848074, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetUserAccountAgeCategory();
 
   static inline ::Oculus::Platform::MessageWithUserAccountAgeCategory* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e12d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843cf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

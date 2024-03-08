@@ -37,21 +37,21 @@ public:
   /// @brief Field fixedFrame, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_fixedFrame, put = __cordl_internal_set_fixedFrame)) bool fixedFrame;
 
-  /// @brief Method FixTransforms, addr 0x132b3fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1353954, size 0x7c, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method FixedUpdate, addr 0x132b478, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x13539d0, size 0x2c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x132b4a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x13539fc, size 0x84, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::RootMotion::FinalIK::IKExecutionOrder* New_ctor();
 
-  /// @brief Method Start, addr 0x132b374, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x13538cc, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x132b3d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1353930, size 0x24, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> const& __cordl_internal_get_IKComponents() const;
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_fixedFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x132b528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1353a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animatePhysics, addr 0x132b2e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_animatePhysics, addr 0x1353840, size 0x8c, virtual false, abstract: false, final false
   inline bool get_animatePhysics();
 
 protected:

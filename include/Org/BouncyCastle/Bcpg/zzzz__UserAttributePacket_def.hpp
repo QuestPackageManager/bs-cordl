@@ -32,10 +32,10 @@ public:
   __declspec(property(get = __cordl_internal_get_subpackets,
                       put = __cordl_internal_set_subpackets))::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> subpackets;
 
-  /// @brief Method Encode, addr 0x1245d9c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x126b4a0, size 0xd8, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetSubpackets, addr 0x1245d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSubpackets, addr 0x126b498, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> GetSubpackets();
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set_subpackets(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> value);
 
-  /// @brief Method .ctor, addr 0x123fcd0, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12653d4, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1245d6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126b470, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> subpackets);
 
 protected:

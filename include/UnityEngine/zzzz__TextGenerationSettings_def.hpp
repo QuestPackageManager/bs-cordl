@@ -47,13 +47,13 @@ namespace UnityEngine {
 struct CORDL_TYPE TextGenerationSettings {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x2e57c88, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x2eb34c0, size 0x138, virtual false, abstract: false, final false
   inline bool CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right);
 
-  /// @brief Method CompareVector2, addr 0x2e57dc0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompareVector2, addr 0x2eb35f8, size 0xc8, virtual false, abstract: false, final false
   inline bool CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right);
 
-  /// @brief Method Equals, addr 0x2e57e88, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2eb36c0, size 0x220, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextGenerationSettings other);
 
   // Ctor Parameters []

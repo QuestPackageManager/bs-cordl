@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::ResetLocalLeaderboardOnKey* New_ctor();
 
-  /// @brief Method Update, addr 0x12f98d0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1321af8, size 0xb8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value);
 
-  /// @brief Method .ctor, addr 0x12f9988, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1321bb0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

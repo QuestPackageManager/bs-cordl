@@ -32,13 +32,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*() noexcept;
 
-  /// @brief Method EnsureAvailable, addr 0xf84748, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method EnsureAvailable, addr 0xfa5e4c, size 0x268, virtual false, abstract: false, final false
   inline void EnsureAvailable(int32_t bit);
 
-  /// @brief Method ExponentiateX, addr 0xf84598, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method ExponentiateX, addr 0xfa5c9c, size 0x1b0, virtual true, abstract: false, final true
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Init, addr 0xf8438c, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xfa5a90, size 0x20c, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_lookupPowX2(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0xf849b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa60b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"

@@ -28,13 +28,13 @@ namespace System {
 class CORDL_TYPE Tuple : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CombineHashCodes, addr 0x26b9988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x2719cd8, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHashCodes, addr 0x26b9994, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x2719ce4, size 0x14, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHashCodes, addr 0x26b99a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x2719cf8, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::GenericBaker::*)()>(&::RootMotion::GenericBaker::Awake)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x130cebc;
+  constexpr static std::size_t addrs = 0x1335414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), "Awake",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::RootMotion::GenericBaker::*)()>(
     &::RootMotion::GenericBaker::GetCharacterRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x130d2d8;
+  constexpr static std::size_t addrs = 0x1335830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::GenericBaker::*)()>(&::RootMotion::GenericBaker::OnStartBaking)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x130d2e0;
+  constexpr static std::size_t addrs = 0x1335838;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::GenericBaker::*)(float_t)>(&::RootMotion::GenericBaker::OnSetLoopFrame)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x130d4cc;
+  constexpr static std::size_t addrs = 0x1335a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::GenericBaker::*)(ByRef<::UnityEngine::AnimationClip*>)>(
     &::RootMotion::GenericBaker::OnSetCurves)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x130d730;
+  constexpr static std::size_t addrs = 0x1335c88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::GenericBaker::*)(float_t, bool)>(&::RootMotion::GenericBaker::OnSetKeyframes)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x130da48;
+  constexpr static std::size_t addrs = 0x1335fa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::GenericBaker::*)(::UnityEngine::Transform*)>(&::RootMotion::GenericBaker::IsIgnored)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x130d0d4;
+  constexpr static std::size_t addrs = 0x133562c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::GenericBaker::*)(::UnityEngine::Transform*)>(&::RootMotion::GenericBaker::BakePosition)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x130d18c;
+  constexpr static std::size_t addrs = 0x13356e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::GenericBaker::*)()>(&::RootMotion::GenericBaker::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x130dca8;
+  constexpr static std::size_t addrs = 0x1336200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::GenericBaker*>::get(), ".ctor",

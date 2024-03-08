@@ -41,7 +41,7 @@ public:
 
   __declspec(property(get = get_up, put = set_up))::UnityEngine::InputSystem::Controls::AxisControl* up;
 
-  /// @brief Method FinishSetup, addr 0x2beffa4, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2c507dc, size 0xf8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DeltaControl* New_ctor();
@@ -70,31 +70,31 @@ public:
 
   constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x2bf013c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c50974, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_down, addr 0x2beff74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x2c507ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_down();
 
-  /// @brief Method get_left, addr 0x2beff84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x2c507bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_left();
 
-  /// @brief Method get_right, addr 0x2beff94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x2c507cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_right();
 
-  /// @brief Method get_up, addr 0x2beff64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x2c5079c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_up();
 
-  /// @brief Method set_down, addr 0x2beff7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_down, addr 0x2c507b4, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_left, addr 0x2beff8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x2c507c4, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_right, addr 0x2beff9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x2c507d4, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_up, addr 0x2beff6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x2c507a4, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:

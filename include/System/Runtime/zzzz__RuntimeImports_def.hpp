@@ -20,16 +20,16 @@ namespace System::Runtime {
 class CORDL_TYPE RuntimeImports : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Memmove, addr 0x25789e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Memmove, addr 0x25db1dc, size 0x4, virtual false, abstract: false, final false
   static inline void Memmove(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len);
 
-  /// @brief Method Memmove_wbarrier, addr 0x25789e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Memmove_wbarrier, addr 0x25db1e0, size 0x4, virtual false, abstract: false, final false
   static inline void Memmove_wbarrier(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len, void* type_handle);
 
-  /// @brief Method RhZeroMemory, addr 0x25789d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RhZeroMemory, addr 0x25db1d4, size 0x4, virtual false, abstract: false, final false
   static inline void RhZeroMemory(ByRef<uint8_t> b, uint64_t byteLength);
 
-  /// @brief Method ZeroMemory, addr 0x25789dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x25db1d8, size 0x4, virtual false, abstract: false, final false
   static inline void ZeroMemory(::cordl_internals::Ptr<void> p, uint32_t byteLength);
 
 protected:

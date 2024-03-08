@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ArrayExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidIndex, addr 0xe8c75c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsValidIndex, addr 0xea9410, size 0x34, virtual false, abstract: false, final false
   static inline bool IsValidIndex(::System::Array* array, int32_t index);
 
 protected:

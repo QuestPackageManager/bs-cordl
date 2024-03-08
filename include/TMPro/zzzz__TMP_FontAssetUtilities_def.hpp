@@ -53,28 +53,28 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::TMPro::TMP_FontAssetUtilities* s_Instance;
 
-  /// @brief Method GetCharacterFromFontAsset, addr 0x2cf80d0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAsset, addr 0x2d56908, size 0x158, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAsset(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset, bool includeFallbacks, ::TMPro::FontStyles fontStyle,
                                                                   ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 
-  /// @brief Method GetCharacterFromFontAsset_Internal, addr 0x2cf8228, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAsset_Internal, addr 0x2d56a60, size 0x3dc, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAsset_Internal(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset, bool includeFallbacks, ::TMPro::FontStyles fontStyle,
                                                                            ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 
-  /// @brief Method GetCharacterFromFontAssets, addr 0x2cf8604, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAssets, addr 0x2d56e3c, size 0x258, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAssets(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset,
                                                                    ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets, bool includeFallbacks,
                                                                    ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 
-  /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x2cf885c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x2d57094, size 0x30c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, bool includeFallbacks);
 
-  /// @brief Method GetSpriteCharacterFromSpriteAsset_Internal, addr 0x2cf8b68, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteCharacterFromSpriteAsset_Internal, addr 0x2d573a0, size 0x1dc, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset_Internal(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, bool includeFallbacks);
 
   static inline ::TMPro::TMP_FontAssetUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf8070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d568a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_k_IsFontEngineInitialized();
@@ -83,7 +83,7 @@ public:
 
   static inline ::TMPro::TMP_FontAssetUtilities* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x2cf8078, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2d568b0, size 0x58, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_FontAssetUtilities* get_instance();
 
   static inline void setStaticF_k_IsFontEngineInitialized(bool value);

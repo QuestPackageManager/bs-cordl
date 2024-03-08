@@ -83,16 +83,16 @@ public:
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  /// @brief Method AddHighlight, addr 0x2389c84, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddHighlight, addr 0x23ec1ec, size 0xdc, virtual false, abstract: false, final false
   inline void AddHighlight(float_t startTime, float_t arriveDuration, float_t jumpDuration);
 
-  /// @brief Method ColorWasSet, addr 0x2389c78, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x23ec1e0, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x2389bac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23ec114, size 0xcc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, float_t rotation);
 
-  /// @brief Method ManualUpdate, addr 0x2389d60, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x23ec2c8, size 0x14c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::BeatLine* New_ctor();
@@ -145,13 +145,13 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x2389eac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ec414, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFinished, addr 0x2389b54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x23ec0bc, size 0x50, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_rotation, addr 0x2389ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x23ec10c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -224,7 +224,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BeatLine__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2389f78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ec4e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

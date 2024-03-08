@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PerformanceRecorder)
@@ -9,7 +10,7 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct GameplayModifierMask;
 }
 namespace GlobalNamespace {
 class IGamePause;
@@ -55,9 +56,9 @@ public:
   /// @brief Field <gamePause>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gamePause_k__BackingField, put = __cordl_internal_set__gamePause_k__BackingField))::GlobalNamespace::IGamePause* _gamePause_k__BackingField;
 
-  /// @brief Field <gameplayModifiers>k__BackingField, offset 0x40, size 0x8
+  /// @brief Field <gameplayModifiers>k__BackingField, offset 0x40, size 0x2
   __declspec(property(get = __cordl_internal_get__gameplayModifiers_k__BackingField,
-                      put = __cordl_internal_set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
+                      put = __cordl_internal_set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifierMask _gameplayModifiers_k__BackingField;
 
   /// @brief Field <mainSettings>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettings_k__BackingField,
@@ -73,7 +74,7 @@ public:
 
   __declspec(property(get = get_gamePause, put = set_gamePause))::GlobalNamespace::IGamePause* gamePause;
 
-  __declspec(property(get = get_gameplayModifiers, put = set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+  __declspec(property(get = get_gameplayModifiers, put = set_gameplayModifiers))::GlobalNamespace::GameplayModifierMask gameplayModifiers;
 
   __declspec(property(get = get_mainSettings, put = set_mainSettings))::UnityW<::GlobalNamespace::MainSettingsModelSO> mainSettings;
 
@@ -84,21 +85,21 @@ public:
 
   __declspec(property(get = get_sceneSetupData, put = set_sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
 
-  /// @brief Method Awake, addr 0x2400a10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2465c38, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GenerateReports, addr 0x2400aa4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method GenerateReports, addr 0x2465ca8, size 0x2d0, virtual false, abstract: false, final false
   inline void GenerateReports();
 
   static inline ::GlobalNamespace::PerformanceRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2400aa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2465ca4, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2400a1c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2465c44, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x2400d88, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2465f78, size 0x148, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks*& __cordl_internal_get__configChecks();
@@ -117,9 +118,9 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause_k__BackingField() const;
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers_k__BackingField();
+  constexpr ::GlobalNamespace::GameplayModifierMask const& __cordl_internal_get__gameplayModifiers_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers_k__BackingField() const;
+  constexpr ::GlobalNamespace::GameplayModifierMask& __cordl_internal_get__gameplayModifiers_k__BackingField();
 
   constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettings_k__BackingField() const;
 
@@ -145,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__gamePause_k__BackingField(::GlobalNamespace::IGamePause* value);
 
-  constexpr void __cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifierMask value);
 
   constexpr void __cordl_internal_set__mainSettings_k__BackingField(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
@@ -155,37 +156,37 @@ public:
 
   constexpr void __cordl_internal_set_minFpsWindow(float_t value);
 
-  /// @brief Method .ctor, addr 0x2401508, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24666d0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gamePause, addr 0x24009c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gamePause, addr 0x2465be8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_gamePause();
 
-  /// @brief Method get_gameplayModifiers, addr 0x2400a00, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+  /// @brief Method get_gameplayModifiers, addr 0x2465c28, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayModifierMask get_gameplayModifiers();
 
-  /// @brief Method get_mainSettings, addr 0x24009e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainSettings, addr 0x2465c08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainSettingsModelSO> get_mainSettings();
 
-  /// @brief Method get_playerSpecificSettings, addr 0x24009f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x2465c18, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method get_sceneSetupData, addr 0x24009d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneSetupData, addr 0x2465bf8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_sceneSetupData();
 
-  /// @brief Method set_gamePause, addr 0x24009c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gamePause, addr 0x2465bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_gamePause(::GlobalNamespace::IGamePause* value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x2400a08, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  /// @brief Method set_gameplayModifiers, addr 0x2465c30, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method set_mainSettings, addr 0x24009e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainSettings, addr 0x2465c10, size 0x8, virtual false, abstract: false, final false
   inline void set_mainSettings(::GlobalNamespace::MainSettingsModelSO* value);
 
-  /// @brief Method set_playerSpecificSettings, addr 0x24009f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x2465c20, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method set_sceneSetupData, addr 0x24009d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sceneSetupData, addr 0x2465c00, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
 protected:
@@ -217,8 +218,8 @@ public:
   /// @brief Field <playerSpecificSettings>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ____playerSpecificSettings_k__BackingField;
 
-  /// @brief Field <gameplayModifiers>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers_k__BackingField;
+  /// @brief Field <gameplayModifiers>k__BackingField, offset: 0x40, size: 0x2, def value: None
+  ::GlobalNamespace::GameplayModifierMask ____gameplayModifiers_k__BackingField;
 
   /// @brief Field _frameTimes, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<float_t>* ____frameTimes;

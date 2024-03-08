@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousValue(bool value);
 
-  /// @brief Method .ctor, addr 0x12c01dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e7530, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency,
                     float_t strobeBrightness, bool strobeFade);
 

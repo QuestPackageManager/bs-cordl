@@ -30,22 +30,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE QuantizedMathf : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x137d80c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x13a8dec, size 0x60, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
 
-  /// @brief Method Approximately, addr 0x137d67c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x13a8c5c, size 0xd4, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-  /// @brief Method Approximately, addr 0x137d7d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x13a8db4, size 0x38, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-  /// @brief Method Approximately, addr 0x137d750, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x13a8d30, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t epsilon);
 
-  /// @brief Method Approximately, addr 0x137d760, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x13a8d40, size 0x74, virtual false, abstract: false, final false
   static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
 
-  /// @brief Method QuantizedVectorComponentToString, addr 0x137d86c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QuantizedVectorComponentToString, addr 0x13a8e4c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW QuantizedVectorComponentToString(int32_t v);
 
 protected:

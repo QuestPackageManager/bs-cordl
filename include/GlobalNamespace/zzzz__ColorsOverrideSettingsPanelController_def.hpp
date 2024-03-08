@@ -101,39 +101,39 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x24a0dc8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x2509cc4, size 0x18c, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleEditColorSchemeButtonWasPressed, addr 0x24a1180, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeButtonWasPressed, addr 0x250a07c, size 0x7c, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeButtonWasPressed();
 
-  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme, addr 0x24a126c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme, addr 0x250a160, size 0x2c, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidChangeColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method HandleEditColorSchemeControllerDidFinish, addr 0x24a121c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeControllerDidFinish, addr 0x250a110, size 0x50, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidFinish();
 
-  /// @brief Method HandleOverrideColorsToggleValueChanged, addr 0x24a0f54, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideColorsToggleValueChanged, addr 0x2509e50, size 0x22c, virtual false, abstract: false, final false
   inline void HandleOverrideColorsToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::ColorsOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24a0830, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2509730, size 0x23c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x24a0bb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2509ab8, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x24a0bdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2509adc, size 0x10, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x24a0bec, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x2509aec, size 0x1d8, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetData, addr 0x24a047c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x250937c, size 0x268, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
 
-  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__19_0, addr 0x24a12a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__19_0, addr 0x250a194, size 0x20, virtual false, abstract: false, final false
   inline void _HandleOverrideColorsToggleValueChanged_b__19_0();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method .ctor, addr 0x24a1298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250a18c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"

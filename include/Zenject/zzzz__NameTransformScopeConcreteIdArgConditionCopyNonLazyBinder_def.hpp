@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method WithGameObjectName, addr 0x2fe9918, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithGameObjectName, addr 0x3042150, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* WithGameObjectName(::StringW gameObjectName);
 
-  /// @brief Method .ctor, addr 0x2fdbc78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30344b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
 protected:

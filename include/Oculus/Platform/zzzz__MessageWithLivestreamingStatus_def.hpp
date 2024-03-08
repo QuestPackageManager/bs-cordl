@@ -23,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLivestreamingStatus : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingStatus*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x27e408c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2846aa8, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LivestreamingStatus* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetLivestreamingStatus, addr 0x27e4050, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLivestreamingStatus, addr 0x2846a6c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LivestreamingStatus* GetLivestreamingStatus();
 
   static inline ::Oculus::Platform::MessageWithLivestreamingStatus* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x27e0ca8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28436c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:
