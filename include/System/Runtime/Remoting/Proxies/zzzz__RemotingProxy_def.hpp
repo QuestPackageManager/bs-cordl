@@ -70,19 +70,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
   constexpr operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
 
-  /// @brief Method ActivateRemoteObject, addr 0x25ee0c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ActivateRemoteObject, addr 0x2715ff0, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* ActivateRemoteObject(::System::Runtime::Remoting::Messaging::IMethodMessage* request);
 
-  /// @brief Method AttachIdentity, addr 0x25f04f8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method AttachIdentity, addr 0x2717d0c, size 0x230, virtual false, abstract: false, final false
   inline void AttachIdentity(::System::Runtime::Remoting::Identity* identity);
 
-  /// @brief Method CanCastTo, addr 0x25f0df0, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method CanCastTo, addr 0x2718608, size 0x21c, virtual true, abstract: false, final true
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
-  /// @brief Method Finalize, addr 0x25f100c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2718824, size 0x118, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Invoke, addr 0x25efb9c, size 0x5c8, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2717474, size 0x5d8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* Invoke(::System::Runtime::Remoting::Messaging::IMessage* request);
 
   static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type* type, ::StringW activationUrl,
@@ -108,17 +108,17 @@ public:
 
   constexpr void __cordl_internal_set__sink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x25eca04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270f344, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW activationUrl, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method .ctor, addr 0x25ef19c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270fdb4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity);
 
   static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetHashCodeMethod();
 
   static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetTypeMethod();
 
-  /// @brief Method get_TypeName, addr 0x25f0cb8, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x27184d0, size 0x138, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
   /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"

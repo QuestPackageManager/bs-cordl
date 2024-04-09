@@ -54,10 +54,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::ColorPalette* New_ctor();
 
-  /// @brief Method SetColors, addr 0x2c83cfc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x30691ac, size 0xa4, virtual false, abstract: false, final false
   inline void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* colors);
 
-  /// @brief Method SetDefaultValues, addr 0x2c83da0, size 0x7c8, virtual true, abstract: false, final true
+  /// @brief Method SetDefaultValues, addr 0x3069250, size 0x7c8, virtual true, abstract: false, final true
   inline void SetDefaultValues();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__current_k__BackingField() const;
@@ -72,28 +72,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x2c84690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3069b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2c84648, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3069af8, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2c84568, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3069a18, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_Item(int32_t i);
 
-  /// @brief Method get_colors, addr 0x2c83c80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_colors, addr 0x3069130, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors();
 
-  /// @brief Method get_current, addr 0x2c83c68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x3069118, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_current();
 
   /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
   constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
 
-  /// @brief Method set_Item, addr 0x2c845c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3069a70, size 0x88, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, ::UnityEngine::Color value);
 
-  /// @brief Method set_current, addr 0x2c83c74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x3069124, size 0xc, virtual false, abstract: false, final false
   inline void set_current(::UnityEngine::Color value);
 
 protected:

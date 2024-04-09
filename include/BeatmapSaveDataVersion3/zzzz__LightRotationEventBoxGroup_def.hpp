@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatmapSaveDataVersion3/zzzz__EventBoxGroup_1_def.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__LightRotationEventBox_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationEventBoxGroup)
@@ -30,13 +29,13 @@ namespace BeatmapSaveDataVersion3 {
 class CORDL_TYPE LightRotationEventBoxGroup : public ::BeatmapSaveDataVersion3::EventBoxGroup_1<::BeatmapSaveDataVersion3::LightRotationEventBox*> {
 public:
   // Declarations
-  /// @brief Method CopyWith, addr 0x1324a28, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x1400798, size 0xe0, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup* CopyWith(::System::Nullable_1<float_t> newBeat, ::System::Nullable_1<int32_t> newGroupId);
 
   static inline ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup* New_ctor(float_t beat, int32_t groupId,
                                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBox*>* eventBoxes);
 
-  /// @brief Method .ctor, addr 0x13249b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1400728, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBox*>* eventBoxes);
 
 protected:

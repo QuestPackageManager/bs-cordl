@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"
 CORDL_MODULE_EXPORT(GameplayModifierInfoListItemsList)
+namespace GlobalNamespace {
+class GameplayModifierInfoListItem;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GameplayModifierInfoListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x250b6e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262fbd8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -38,46 +38,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>*();
 
-  /// @brief Method Equals, addr 0x2c8de08, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x30732b8, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* b);
 
-  /// @brief Method Equals, addr 0x2c8dca0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3073150, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::IntVec2 p);
 
-  /// @brief Method Equals, addr 0x2c8dd9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x307324c, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Vector2 p);
 
-  /// @brief Method GetHashCode, addr 0x2c8dec4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3073374, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2c8dbdc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x307308c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2c8dbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3073084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 vector);
 
-  /// @brief Method get_x, addr 0x2c8dbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x3073074, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x();
 
-  /// @brief Method get_y, addr 0x2c8dbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x307307c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_y();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>* i___System__IEquatable_1___UnityEngine__ProBuilder__IntVec2_();
 
-  /// @brief Method op_Equality, addr 0x2c8dc7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x307312c, size 0x24, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
 
-  /// @brief Method op_Implicit, addr 0x2c8ded4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3073384, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::IntVec2 op_Implicit___UnityEngine__ProBuilder__IntVec2(::UnityEngine::Vector2 p);
 
-  /// @brief Method op_Implicit, addr 0x2c8ded0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3073380, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::IntVec2 p);
 
-  /// @brief Method op_Inequality, addr 0x2c8dd0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x30731bc, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
 
-  /// @brief Method round, addr 0x2c8dd34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method round, addr 0x30731e4, size 0x68, virtual false, abstract: false, final false
   static inline int32_t round(float_t v);
 
   // Ctor Parameters []

@@ -18,7 +18,7 @@ namespace UnityEngine {
 class CORDL_TYPE LowerResBlitTexture : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x2e2dec8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x3214cb0, size 0x4, virtual false, abstract: false, final false
   inline void LowerResBlitTextureDontStripMe();
 
 protected:

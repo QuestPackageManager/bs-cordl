@@ -19,49 +19,49 @@ class HtmlUtf8RawTextWriterIndent;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::HtmlUtf8RawTextWriterIndent);
 // Type: System.Xml::HtmlUtf8RawTextWriterIndent
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::HtmlUtf8RawTextWriterIndent*
 class CORDL_TYPE HtmlUtf8RawTextWriterIndent : public ::System::Xml::HtmlUtf8RawTextWriter {
 public:
   // Declarations
-  /// @brief Field endBlockPos, offset 0xb8, size 0x4
+  /// @brief Field endBlockPos, offset 0xc0, size 0x4
   __declspec(property(get = __cordl_internal_get_endBlockPos, put = __cordl_internal_set_endBlockPos)) int32_t endBlockPos;
 
-  /// @brief Field indentChars, offset 0xc0, size 0x8
+  /// @brief Field indentChars, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_indentChars, put = __cordl_internal_set_indentChars))::StringW indentChars;
 
-  /// @brief Field indentLevel, offset 0xb4, size 0x4
+  /// @brief Field indentLevel, offset 0xbc, size 0x4
   __declspec(property(get = __cordl_internal_get_indentLevel, put = __cordl_internal_set_indentLevel)) int32_t indentLevel;
 
-  /// @brief Field newLineOnAttributes, offset 0xc8, size 0x1
+  /// @brief Field newLineOnAttributes, offset 0xd0, size 0x1
   __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
 
-  /// @brief Method FlushBuffer, addr 0x299ec64, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method FlushBuffer, addr 0x2d649b0, size 0x2c, virtual true, abstract: false, final false
   inline void FlushBuffer();
 
-  /// @brief Method Init, addr 0x299e8a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2d644ac, size 0x28, virtual false, abstract: false, final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlUtf8RawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method StartElementContent, addr 0x299eadc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x2d64818, size 0x78, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method WriteDocType, addr 0x299e8cc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteDocType, addr 0x2d644d4, size 0x20, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteEndElement, addr 0x299eb50, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x2d64890, size 0xa8, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteIndent, addr 0x299ea8c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteIndent, addr 0x2d647c8, size 0x50, virtual false, abstract: false, final false
   inline void WriteIndent();
 
-  /// @brief Method WriteStartAttribute, addr 0x299ebf0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x2d64938, size 0x78, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x299e8e8, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x2d644f4, size 0x1a8, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
   constexpr int32_t const& __cordl_internal_get_endBlockPos() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
 
-  /// @brief Method .ctor, addr 0x299e858, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d6446c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
 protected:
@@ -105,30 +105,30 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HtmlUtf8RawTextWriterIndent(HtmlUtf8RawTextWriterIndent const&) = delete;
 
-  /// @brief Field indentLevel, offset: 0xb4, size: 0x4, def value: None
+  /// @brief Field indentLevel, offset: 0xbc, size: 0x4, def value: None
   int32_t ___indentLevel;
 
-  /// @brief Field endBlockPos, offset: 0xb8, size: 0x4, def value: None
+  /// @brief Field endBlockPos, offset: 0xc0, size: 0x4, def value: None
   int32_t ___endBlockPos;
 
-  /// @brief Field indentChars, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field indentChars, offset: 0xc8, size: 0x8, def value: None
   ::StringW ___indentChars;
 
-  /// @brief Field newLineOnAttributes, offset: 0xc8, size: 0x1, def value: None
+  /// @brief Field newLineOnAttributes, offset: 0xd0, size: 0x1, def value: None
   bool ___newLineOnAttributes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::HtmlUtf8RawTextWriterIndent, 0xd0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::HtmlUtf8RawTextWriterIndent, 0xd8>, "Size mismatch!");
 
-static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___indentLevel) == 0xb4, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___indentLevel) == 0xbc, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___endBlockPos) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___endBlockPos) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___indentChars) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___indentChars) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___newLineOnAttributes) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::HtmlUtf8RawTextWriterIndent, ___newLineOnAttributes) == 0xd0, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::HtmlUtf8RawTextWriterIndent);

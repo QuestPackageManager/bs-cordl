@@ -3,7 +3,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NumericsHelpers)
 // Forward declare root types
@@ -20,19 +22,31 @@ namespace System::Numerics {
 class CORDL_TYPE NumericsHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Abs, addr 0x2990e4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x2c7bef8, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Abs(int32_t a);
 
-  /// @brief Method CombineHash, addr 0x29902c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CbitHighZero, addr 0x2c7ccc8, size 0x7c, virtual false, abstract: false, final false
+  static inline int32_t CbitHighZero(uint32_t u);
+
+  /// @brief Method CbitHighZero, addr 0x2c81214, size 0x24, virtual false, abstract: false, final false
+  static inline int32_t CbitHighZero(uint64_t uu);
+
+  /// @brief Method CombineHash, addr 0x2c7b1d4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t n1, int32_t n2);
 
-  /// @brief Method CombineHash, addr 0x2993680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c81238, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t CombineHash(uint32_t u1, uint32_t u2);
 
-  /// @brief Method DangerousMakeTwosComplement, addr 0x298ffb0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DangerousMakeTwosComplement, addr 0x2c7acf0, size 0xbc, virtual false, abstract: false, final false
   static inline void DangerousMakeTwosComplement(::ArrayW<uint32_t, ::Array<uint32_t>*> d);
 
-  /// @brief Method MakeUlong, addr 0x2993530, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleFromParts, addr 0x2c7cd44, size 0xa0, virtual false, abstract: false, final false
+  static inline double_t GetDoubleFromParts(int32_t sign, int32_t exp, uint64_t man);
+
+  /// @brief Method GetDoubleParts, addr 0x2c7a4ac, size 0x7c, virtual false, abstract: false, final false
+  static inline void GetDoubleParts(double_t dbl, ByRef<int32_t> sign, ByRef<int32_t> exp, ByRef<uint64_t> man, ByRef<bool> fFinite);
+
+  /// @brief Method MakeUlong, addr 0x2c7b37c, size 0x10, virtual false, abstract: false, final false
   static inline uint64_t MakeUlong(uint32_t uHi, uint32_t uLo);
 
 protected:

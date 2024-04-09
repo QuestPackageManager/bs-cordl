@@ -29,28 +29,28 @@ public:
   /// @brief Field IV, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IV, put = setStaticF_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
-  /// @brief Method Copy, addr 0x12bc5d0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x1394154, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x12bc540, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x13940c4, size 0x90, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetDigestSize, addr 0x12bc538, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x13940bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other);
 
-  /// @brief Method .ctor, addr 0x12bc408, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1393f8c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12bc494, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1394018, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV();
 
-  /// @brief Method get_AlgorithmName, addr 0x12bc3c8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x1393f4c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   static inline void setStaticF_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

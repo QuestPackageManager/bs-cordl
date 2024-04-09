@@ -7,6 +7,7 @@
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
@@ -113,16 +114,16 @@ inline ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* 
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>*>::get>();
 }
 template <typename TKey, typename TValue>
-inline void Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>::setStaticF___9__25_0(
+inline void Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>::setStaticF___9__29_0(
     ::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*, "<>9__25_0",
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*, "<>9__29_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>*>::get>(
       std::forward<::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(value));
 }
 template <typename TKey, typename TValue>
 inline ::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>::getStaticF___9__25_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*, "<>9__25_0",
+Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>::getStaticF___9__29_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*, "<>9__29_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>*>::get>();
 }
 template <typename TKey, typename TValue>
@@ -137,9 +138,9 @@ template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilitie
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>
-Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>::_GetEnumerator_b__25_0(::System::Collections::DictionaryEntry de) {
+Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>::_GetEnumerator_b__29_0(::System::Collections::DictionaryEntry de) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>*>::get(), "<GetEnumerator>b__25_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>*>::get(), "<GetEnumerator>b__29_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::DictionaryEntry>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, false>(this, ___internal_method, de);
 }
@@ -244,6 +245,22 @@ constexpr void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____genericDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*& Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_get__readOnlyDictionary() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____readOnlyDictionary;
+}
+template <typename TKey, typename TValue>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*> const&
+Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_get__readOnlyDictionary() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____readOnlyDictionary;
+}
+template <typename TKey, typename TValue>
+constexpr void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_set__readOnlyDictionary(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____readOnlyDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 template <typename TKey, typename TValue> constexpr ::System::Object*& Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_get__syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
@@ -277,6 +294,24 @@ template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilitie
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dictionary);
+}
+template <typename TKey, typename TValue>
+inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*
+Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(dictionary));
+}
+template <typename TKey, typename TValue>
+inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::_ctor(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dictionary);
+}
+template <typename TKey, typename TValue> inline ::System::Collections::Generic::IDictionary_2<TKey, TValue>* Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::get_GenericDictionary() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>::get(),
+                                               "get_GenericDictionary", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IDictionary_2<TKey, TValue>*, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::Add(TKey key, TValue value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

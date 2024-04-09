@@ -30,19 +30,19 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualElementExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddManipulator, addr 0x2f2a998, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddManipulator, addr 0x33107b4, size 0xac, virtual false, abstract: false, final false
   static inline void AddManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method LocalToWorld, addr 0x2f2a7c0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LocalToWorld, addr 0x33105dc, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LocalToWorld(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
-  /// @brief Method RemoveManipulator, addr 0x2f2aa44, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveManipulator, addr 0x3310860, size 0xa8, virtual false, abstract: false, final false
   static inline void RemoveManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method WorldToLocal, addr 0x2f2a8ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x33106c8, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Rect r);
 
-  /// @brief Method WorldToLocal, addr 0x2f2a6d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x33104f0, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
 protected:

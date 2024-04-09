@@ -45,10 +45,10 @@ namespace GlobalNamespace {
 struct __LevelPackDetailViewController__ContentType;
 }
 namespace GlobalNamespace {
-struct __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23;
+struct __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24;
 }
 namespace GlobalNamespace {
-struct __LevelPackDetailViewController___RefreshAvailabilityAsync_d__21;
+struct __LevelPackDetailViewController___RefreshAvailabilityAsync_d__22;
 }
 namespace HMUI {
 class ImageView;
@@ -82,16 +82,16 @@ namespace GlobalNamespace {
 class LevelPackDetailViewController;
 }
 namespace GlobalNamespace {
-struct __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23;
+struct __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24;
 }
 namespace GlobalNamespace {
-struct __LevelPackDetailViewController___RefreshAvailabilityAsync_d__21;
+struct __LevelPackDetailViewController___RefreshAvailabilityAsync_d__22;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__LevelPackDetailViewController__ContentType);
 MARK_REF_PTR_T(::GlobalNamespace::LevelPackDetailViewController);
-MARK_VAL_T(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23);
-MARK_VAL_T(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21);
+MARK_VAL_T(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24);
+MARK_VAL_T(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22);
 // Type: ::ContentType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -153,21 +153,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelPackDeta
 static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController__ContentType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<RefreshAvailabilityAsync>d__21
+// Type: ::<RefreshAvailabilityAsync>d__22
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LevelPackDetailViewController::<RefreshAvailabilityAsync>d__21
-struct CORDL_TYPE __LevelPackDetailViewController___RefreshAvailabilityAsync_d__21 {
+// CS Name: ::LevelPackDetailViewController::<RefreshAvailabilityAsync>d__22
+struct CORDL_TYPE __LevelPackDetailViewController___RefreshAvailabilityAsync_d__22 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2424674, size 0x458, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2547210, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2424acc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2547668, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -175,12 +175,12 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelPackDetailViewController___RefreshAvailabilityAsync_d__21();
+  constexpr __LevelPackDetailViewController___RefreshAvailabilityAsync_d__22();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelPackDetailViewController>",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
-  constexpr __LevelPackDetailViewController___RefreshAvailabilityAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr __LevelPackDetailViewController___RefreshAvailabilityAsync_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                              ::UnityW<::GlobalNamespace::LevelPackDetailViewController> __4__this,
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
@@ -202,32 +202,32 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<OpenLevelPackProductStoreAsync>d__23
+// Type: ::<OpenLevelPackProductStoreAsync>d__24
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LevelPackDetailViewController::<OpenLevelPackProductStoreAsync>d__23
-struct CORDL_TYPE __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23 {
+// CS Name: ::LevelPackDetailViewController::<OpenLevelPackProductStoreAsync>d__24
+struct CORDL_TYPE __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2424ad8, size 0x378, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2547674, size 0x378, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2424e50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x25479ec, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -235,12 +235,12 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23();
+  constexpr __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelPackDetailViewController>",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }]
-  constexpr __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                    ::UnityW<::GlobalNamespace::LevelPackDetailViewController> __4__this,
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
@@ -262,19 +262,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::LevelPackDetailViewController
-// SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelPackDetailViewController*
@@ -283,17 +283,17 @@ public:
   // Declarations
   using ContentType = ::GlobalNamespace::__LevelPackDetailViewController__ContentType;
 
-  using _OpenLevelPackProductStoreAsync_d__23 = ::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23;
+  using _OpenLevelPackProductStoreAsync_d__24 = ::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24;
 
-  using _RefreshAvailabilityAsync_d__21 = ::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21;
+  using _RefreshAvailabilityAsync_d__22 = ::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22;
 
-  /// @brief Field _additionalContentModel, offset 0xb0, size 0x8
+  /// @brief Field _additionalContentModel, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
-  /// @brief Field _analyticsModel, offset 0xc8, size 0x8
+  /// @brief Field _analyticsModel, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  /// @brief Field _blurredPackArtwork, offset 0xe8, size 0x8
+  /// @brief Field _blurredPackArtwork, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__blurredPackArtwork, put = __cordl_internal_set__blurredPackArtwork))::UnityW<::UnityEngine::Sprite> _blurredPackArtwork;
 
   /// @brief Field _buyButton, offset 0x80, size 0x8
@@ -302,31 +302,31 @@ public:
   /// @brief Field _buyContainer, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__buyContainer, put = __cordl_internal_set__buyContainer))::UnityW<::UnityEngine::GameObject> _buyContainer;
 
-  /// @brief Field _cancellationTokenSource, offset 0xd8, size 0x8
+  /// @brief Field _cancellationTokenSource, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
-  /// @brief Field _defaultCoverSprite, offset 0xa8, size 0x8
+  /// @brief Field _defaultCoverSprite, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultCoverSprite, put = __cordl_internal_set__defaultCoverSprite))::UnityW<::UnityEngine::Sprite> _defaultCoverSprite;
 
   /// @brief Field _detailWrapper, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__detailWrapper, put = __cordl_internal_set__detailWrapper))::UnityW<::UnityEngine::GameObject> _detailWrapper;
 
-  /// @brief Field _dlcPromoPanelModel, offset 0xc0, size 0x8
+  /// @brief Field _dlcPromoPanelModel, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__dlcPromoPanelModel, put = __cordl_internal_set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
 
-  /// @brief Field _entitlementModel, offset 0xb8, size 0x8
+  /// @brief Field _entitlementModel, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__entitlementModel, put = __cordl_internal_set__entitlementModel))::GlobalNamespace::IEntitlementModel* _entitlementModel;
 
-  /// @brief Field _eventBinder, offset 0xd0, size 0x8
+  /// @brief Field _eventBinder, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__eventBinder, put = __cordl_internal_set__eventBinder))::GlobalNamespace::EventBinder* _eventBinder;
 
-  /// @brief Field _kawaseBlurRenderer, offset 0xa0, size 0x8
+  /// @brief Field _kawaseBlurRenderer, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__kawaseBlurRenderer, put = __cordl_internal_set__kawaseBlurRenderer))::UnityW<::GlobalNamespace::KawaseBlurRendererSO> _kawaseBlurRenderer;
 
   /// @brief Field _loadingControl, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__loadingControl, put = __cordl_internal_set__loadingControl))::UnityW<::GlobalNamespace::LoadingControl> _loadingControl;
 
-  /// @brief Field _pack, offset 0xe0, size 0x8
+  /// @brief Field _pack, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__pack, put = __cordl_internal_set__pack))::GlobalNamespace::BeatmapLevelPack* _pack;
 
   /// @brief Field _packImage, offset 0x78, size 0x8
@@ -335,43 +335,46 @@ public:
   /// @brief Field _requireInternetContainer, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__requireInternetContainer, put = __cordl_internal_set__requireInternetContainer))::UnityW<::UnityEngine::GameObject> _requireInternetContainer;
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x242418c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Field _steamMessageGameObject, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__steamMessageGameObject, put = __cordl_internal_set__steamMessageGameObject))::UnityW<::UnityEngine::GameObject> _steamMessageGameObject;
+
+  /// @brief Method BuyPackButtonWasPressed, addr 0x2546d28, size 0x94, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method DidActivate, addr 0x2423d38, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x25468b4, size 0x1fc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2423f14, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2546ab0, size 0x10c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x24244ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x2547088, size 0x4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
   static inline ::GlobalNamespace::LevelPackDetailViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2424020, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2546bbc, size 0x16c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x2424220, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x2546dbc, size 0x94, virtual false, abstract: false, final false
   inline void OpenLevelPackProductStoreAsync();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x2423ca4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x2546820, size 0x94, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync();
 
-  /// @brief Method SetData, addr 0x241f59c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2542118, size 0x2cc, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method ShowContent, addr 0x24242b4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x2546e50, size 0x238, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::__LevelPackDetailViewController__ContentType contentType, ::StringW errorText);
 
-  /// @brief Method <DidActivate>b__18_1, addr 0x242455c, size 0x8c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__18_1();
+  /// @brief Method <DidActivate>b__19_1, addr 0x25470f8, size 0x8c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_1();
 
-  /// @brief Method <DidActivate>b__18_2, addr 0x24245e8, size 0x8c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__18_2();
+  /// @brief Method <DidActivate>b__19_2, addr 0x2547184, size 0x8c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_2();
 
-  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|18_0, addr 0x2424558, size 0x4, virtual false, abstract: false, final false
-  inline void _DidActivate_g__HandleDidPressRefreshButton_18_0();
+  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|19_0, addr 0x25470f4, size 0x4, virtual false, abstract: false, final false
+  inline void _DidActivate_g__HandleDidPressRefreshButton_19_0();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
@@ -437,6 +440,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__requireInternetContainer();
 
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__steamMessageGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__steamMessageGameObject();
+
   constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
   constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
@@ -469,7 +476,9 @@ public:
 
   constexpr void __cordl_internal_set__requireInternetContainer(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x24244f0, size 0x68, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  /// @brief Method .ctor, addr 0x254708c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -504,40 +513,43 @@ public:
   /// @brief Field _requireInternetContainer, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____requireInternetContainer;
 
-  /// @brief Field _kawaseBlurRenderer, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _steamMessageGameObject, offset: 0xa0, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::GameObject> ____steamMessageGameObject;
+
+  /// @brief Field _kawaseBlurRenderer, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;
 
-  /// @brief Field _defaultCoverSprite, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _defaultCoverSprite, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____defaultCoverSprite;
 
-  /// @brief Field _additionalContentModel, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _additionalContentModel, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
-  /// @brief Field _entitlementModel, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _entitlementModel, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
-  /// @brief Field _dlcPromoPanelModel, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _dlcPromoPanelModel, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
 
-  /// @brief Field _analyticsModel, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _analyticsModel, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
-  /// @brief Field _eventBinder, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _eventBinder, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::EventBinder* ____eventBinder;
 
-  /// @brief Field _cancellationTokenSource, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _cancellationTokenSource, offset: 0xe0, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
-  /// @brief Field _pack, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _pack, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ____pack;
 
-  /// @brief Field _blurredPackArtwork, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _blurredPackArtwork, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____blurredPackArtwork;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelPackDetailViewController, 0xf0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelPackDetailViewController, 0xf8>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____detailWrapper) == 0x70, "Offset mismatch!");
 
@@ -551,29 +563,31 @@ static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____loa
 
 static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____requireInternetContainer) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____kawaseBlurRenderer) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____steamMessageGameObject) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____defaultCoverSprite) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____kawaseBlurRenderer) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____additionalContentModel) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____defaultCoverSprite) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____entitlementModel) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____additionalContentModel) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____dlcPromoPanelModel) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____entitlementModel) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____analyticsModel) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____dlcPromoPanelModel) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____eventBinder) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____analyticsModel) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____cancellationTokenSource) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____eventBinder) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____pack) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____cancellationTokenSource) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____blurredPackArtwork) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____pack) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController, ____blurredPackArtwork) == 0xf0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelPackDetailViewController__ContentType, "", "LevelPackDetailViewController/ContentType");
 NEED_NO_BOX(::GlobalNamespace::LevelPackDetailViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelPackDetailViewController*, "", "LevelPackDetailViewController");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__23, "", "LevelPackDetailViewController/<OpenLevelPackProductStoreAsync>d__23");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__21, "", "LevelPackDetailViewController/<RefreshAvailabilityAsync>d__21");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24, "", "LevelPackDetailViewController/<OpenLevelPackProductStoreAsync>d__24");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22, "", "LevelPackDetailViewController/<RefreshAvailabilityAsync>d__22");

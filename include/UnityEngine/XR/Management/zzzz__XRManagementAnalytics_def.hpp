@@ -76,7 +76,7 @@ public:
   // Declarations
   using BuildEvent = ::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent;
 
-  /// @brief Method Initialize, addr 0x2db9a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x31a0f10, size 0x8, virtual false, abstract: false, final false
   static inline bool Initialize();
 
 protected:

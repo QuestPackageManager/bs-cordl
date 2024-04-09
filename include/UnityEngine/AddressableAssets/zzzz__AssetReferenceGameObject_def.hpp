@@ -3,9 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AssetReferenceGameObject)
+namespace UnityEngine {
+class GameObject;
+}
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceGameObject;
@@ -22,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x2b6df3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f533ec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:

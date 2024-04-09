@@ -30,24 +30,24 @@ public:
   /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(bool value);
 
-  /// @brief Method Awake, addr 0x2539cb0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x265d79c, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
   /// @brief Method GetInitValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValue();
 
-  /// @brief Method HandleToggleValueDidChange, addr 0x2539e60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueDidChange, addr 0x265d94c, size 0x10, virtual false, abstract: false, final false
   inline void HandleToggleValueDidChange(bool value);
 
   static inline ::GlobalNamespace::SwitchSettingsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2539d58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x265d844, size 0xa8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x2539e00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x265d8ec, size 0x3c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshUI, addr 0x2539e3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x265d928, size 0x24, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr bool const& __cordl_internal_get__on() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x2538578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265c064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

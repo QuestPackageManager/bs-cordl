@@ -1,5 +1,4 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLeaderboardEntryList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
@@ -9,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLeaderboardEntryList::*)(void*)>(
     &::Oculus::Platform::MessageWithLeaderboardEntryList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2843614;
+  constexpr static std::size_t addrs = 0x29c5bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardEntryList* (::Oculus::Platform::MessageWithLeaderboardEntryList::*)()>(
     &::Oculus::Platform::MessageWithLeaderboardEntryList::GetLeaderboardEntryList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2846604;
+  constexpr static std::size_t addrs = 0x29c8be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardEntryList* (::Oculus::Platform::MessageWithLeaderboardEntryList::*)(void*)>(
     &::Oculus::Platform::MessageWithLeaderboardEntryList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2846640;
+  constexpr static std::size_t addrs = 0x29c8c24;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRVirtualKeyboardSampleWPMPrompt : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x28f3cb4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a76298, size 0x58, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardSampleWPMPrompt* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28f3d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a762f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

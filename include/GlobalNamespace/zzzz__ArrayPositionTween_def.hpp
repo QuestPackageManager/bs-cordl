@@ -2,13 +2,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__TimelineArrayReference_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ArrayPositionTween)
 namespace GlobalNamespace {
 class CustomTweenBehaviour;
+}
+namespace GlobalNamespace {
+class TimelineArrayReference;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -54,7 +56,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x24754f8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x259992c, size 0x144, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::ArrayPositionTween* New_ctor();
@@ -77,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_elementDelay(float_t value);
 
-  /// @brief Method .ctor, addr 0x247563c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2599a70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x24754f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x2599924, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

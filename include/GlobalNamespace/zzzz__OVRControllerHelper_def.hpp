@@ -180,21 +180,21 @@ public:
   __declspec(property(get = __cordl_internal_get_showWhenHandsArePoweredByNaturalControllerPoses,
                       put = __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses)) bool showWhenHandsArePoweredByNaturalControllerPoses;
 
-  /// @brief Method InitializeControllerModels, addr 0x28f54e4, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method InitializeControllerModels, addr 0x2a77ac8, size 0x49c, virtual false, abstract: false, final false
   inline void InitializeControllerModels();
 
-  /// @brief Method InputFocusAquired, addr 0x28f6200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x2a787e4, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x28f620c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x2a787f0, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
   static inline ::GlobalNamespace::OVRControllerHelper* New_ctor();
 
-  /// @brief Method Start, addr 0x28f5474, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2a77a58, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x28f5980, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a77f64, size 0x880, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType const& __cordl_internal_get_activeControllerType() const;
@@ -329,7 +329,7 @@ public:
 
   constexpr void __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses(bool value);
 
-  /// @brief Method .ctor, addr 0x28f6214, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a787f8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

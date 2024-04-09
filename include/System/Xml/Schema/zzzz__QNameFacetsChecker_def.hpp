@@ -33,21 +33,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2a0e040, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2cb3da4, size 0x12c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x2a0e16c, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2cb3ed0, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2a0e440, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2cb41ac, size 0x114, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2a0e330, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2cb409c, size 0x110, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::Xml::XmlQualifiedName* value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::QNameFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0e554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb42c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

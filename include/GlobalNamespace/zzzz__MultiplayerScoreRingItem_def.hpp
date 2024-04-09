@@ -18,41 +18,6 @@ class __MultiplayerScoreRingItem__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreRingItem);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerScoreRingItem__Pool);
-// Type: ::MultiplayerScoreRingItem
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::MultiplayerScoreRingItem*
-class CORDL_TYPE MultiplayerScoreRingItem : public ::GlobalNamespace::MultiplayerScoreItem {
-public:
-  // Declarations
-  using Pool = ::GlobalNamespace::__MultiplayerScoreRingItem__Pool;
-
-  static inline ::GlobalNamespace::MultiplayerScoreRingItem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24f03e4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerScoreRingItem();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerScoreRingItem(MultiplayerScoreRingItem&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreRingItem(MultiplayerScoreRingItem const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreRingItem, 0x40>, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -63,7 +28,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerScoreRingItem__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f03ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26148d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,6 +49,41 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerScoreRingItem__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::MultiplayerScoreRingItem
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::MultiplayerScoreRingItem*
+class CORDL_TYPE MultiplayerScoreRingItem : public ::GlobalNamespace::MultiplayerScoreItem {
+public:
+  // Declarations
+  using Pool = ::GlobalNamespace::__MultiplayerScoreRingItem__Pool;
+
+  static inline ::GlobalNamespace::MultiplayerScoreRingItem* New_ctor();
+
+  /// @brief Method .ctor, addr 0x26148d0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerScoreRingItem();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MultiplayerScoreRingItem(MultiplayerScoreRingItem&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MultiplayerScoreRingItem(MultiplayerScoreRingItem const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreRingItem, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreRingItem);

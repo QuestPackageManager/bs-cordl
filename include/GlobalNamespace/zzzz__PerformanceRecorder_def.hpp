@@ -85,21 +85,21 @@ public:
 
   __declspec(property(get = get_sceneSetupData, put = set_sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
 
-  /// @brief Method Awake, addr 0x2465c38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x258cff0, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GenerateReports, addr 0x2465ca8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GenerateReports, addr 0x258d060, size 0x2c4, virtual false, abstract: false, final false
   inline void GenerateReports();
 
   static inline ::GlobalNamespace::PerformanceRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2465ca4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x258d05c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2465c44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x258cffc, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x2465f78, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x258d324, size 0x148, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks*& __cordl_internal_get__configChecks();
@@ -156,37 +156,37 @@ public:
 
   constexpr void __cordl_internal_set_minFpsWindow(float_t value);
 
-  /// @brief Method .ctor, addr 0x24666d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258da7c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gamePause, addr 0x2465be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gamePause, addr 0x258cfa0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_gamePause();
 
-  /// @brief Method get_gameplayModifiers, addr 0x2465c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x258cfe0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask get_gameplayModifiers();
 
-  /// @brief Method get_mainSettings, addr 0x2465c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainSettings, addr 0x258cfc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainSettingsModelSO> get_mainSettings();
 
-  /// @brief Method get_playerSpecificSettings, addr 0x2465c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x258cfd0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method get_sceneSetupData, addr 0x2465bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneSetupData, addr 0x258cfb0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_sceneSetupData();
 
-  /// @brief Method set_gamePause, addr 0x2465bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gamePause, addr 0x258cfa8, size 0x8, virtual false, abstract: false, final false
   inline void set_gamePause(::GlobalNamespace::IGamePause* value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x2465c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x258cfe8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method set_mainSettings, addr 0x2465c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainSettings, addr 0x258cfc8, size 0x8, virtual false, abstract: false, final false
   inline void set_mainSettings(::GlobalNamespace::MainSettingsModelSO* value);
 
-  /// @brief Method set_playerSpecificSettings, addr 0x2465c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x258cfd8, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method set_sceneSetupData, addr 0x2465c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sceneSetupData, addr 0x258cfb8, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
 protected:

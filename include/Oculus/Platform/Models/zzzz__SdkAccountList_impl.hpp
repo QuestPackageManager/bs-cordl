@@ -1,13 +1,13 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
-#include "Oculus/Platform/Models/zzzz__SdkAccount_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__SdkAccountList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__SdkAccount_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::SdkAccountList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::SdkAccountList::*)(void*)>(&::Oculus::Platform::Models::SdkAccountList::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x285cef8;
+  constexpr static std::size_t addrs = 0x29df4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

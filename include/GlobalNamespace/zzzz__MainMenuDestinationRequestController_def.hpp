@@ -72,10 +72,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x248b438, size 0x4cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25af6fc, size 0x4cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x248b904, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x25afbc8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -166,21 +166,21 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x248afe4, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25af2a8, size 0x1b4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x248b42c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x25af6f0, size 0x4, virtual false, abstract: false, final false
   inline void HandleDestinationRequestManagerDidSendMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x248b198, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x25af45c, size 0x294, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method Initialize, addr 0x248acd0, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x25aef94, size 0x274, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::MainMenuDestinationRequestController* New_ctor();
 
-  /// @brief Method ProcessDestinationRequest, addr 0x248af44, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ProcessDestinationRequest, addr 0x25af208, size 0xa0, virtual false, abstract: false, final false
   inline void ProcessDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set__menuScenesTransitionSetupData(::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x248b430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25af6f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MenuDestination* getStaticF__nextMenuDestination();

@@ -39,7 +39,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputInterface* New_ctor(int32_t priority);
 
-  /// @brief Method RegisterInterface, addr 0x2388fd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RegisterInterface, addr 0x24a751c, size 0x58, virtual false, abstract: false, final false
   inline void RegisterInterface();
 
   constexpr int32_t const& __cordl_internal_get__priority() const;
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__priority(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2388fa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a74f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t priority);
 
-  /// @brief Method get_Priority, addr 0x2388fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x24a74ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Priority();
 
 protected:

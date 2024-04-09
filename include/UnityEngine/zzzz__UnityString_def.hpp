@@ -23,7 +23,7 @@ namespace UnityEngine {
 class CORDL_TYPE UnityString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x2e80b14, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3264930, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:

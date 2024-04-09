@@ -28,10 +28,10 @@ public:
 
   static inline ::UnityEngine::Timeline::MarkerTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dae1a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3194650, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputs, addr 0x2dadfbc, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x319446c, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
 protected:

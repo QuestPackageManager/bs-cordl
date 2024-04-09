@@ -3,9 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ILevelPackProductDataContainer_2)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 template <typename TLevelPackProductData, typename TLevelProductData> class ILevelPackProductDataContainer_2;
@@ -22,13 +19,13 @@ template <typename TLevelPackProductData, typename TLevelProductData>
 class CORDL_TYPE ILevelPackProductDataContainer_2 {
 public:
   // Declarations
-  __declspec(property(get = get_levelPackProductsData))::System::Collections::Generic::IReadOnlyList_1<TLevelPackProductData>* levelPackProductsData;
+  __declspec(property(get = get_levelPackProductData)) TLevelPackProductData levelPackProductData;
 
   /// @brief Method SetLevelPackProductData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLevelPackProductData(TLevelPackProductData newProductPack);
 
-  /// @brief Method get_levelPackProductsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<TLevelPackProductData>* get_levelPackProductsData();
+  /// @brief Method get_levelPackProductData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline TLevelPackProductData get_levelPackProductData();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelPackProductDataContainer_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

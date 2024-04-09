@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_volumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x23e4dd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25073c0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
 protected:
@@ -147,22 +147,22 @@ public:
 
   static inline ::GlobalNamespace::AutomaticSFXVolume* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x23e4c24, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x250720c, size 0x154, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method OnDisable, addr 0x23e4b9c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2507184, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x23e4c20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x2507208, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RecalculateParams, addr 0x23e4b24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RecalculateParams, addr 0x250710c, size 0x78, virtual false, abstract: false, final false
   inline void RecalculateParams();
 
-  /// @brief Method Start, addr 0x23e4b20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2507108, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x23e4d78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2507360, size 0x4c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__attackCoef() const;
@@ -231,7 +231,7 @@ public:
 
   constexpr void __cordl_internal_set__volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x23e4dc4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25073ac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

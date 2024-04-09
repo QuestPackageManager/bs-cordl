@@ -3,13 +3,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
 CORDL_MODULE_EXPORT(ColorTMPTextStateTransition)
 namespace GlobalNamespace {
 class BaseTransitionSO;
 }
 namespace GlobalNamespace {
 class ColorTransitionSO;
+}
+namespace TMPro {
+class TMP_Text;
 }
 namespace Tweening {
 class ColorTween;
@@ -41,49 +43,49 @@ public:
 
   static inline ::GlobalNamespace::ColorTMPTextStateTransition* New_ctor();
 
-  /// @brief Method SetDisabledState, addr 0x2510480, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x2634974, size 0x3c, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetHighlightedState, addr 0x2510408, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x26348fc, size 0x3c, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x25103cc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x26348c0, size 0x3c, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetPressedState, addr 0x2510444, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x2634938, size 0x3c, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x25104f8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x26349ec, size 0x3c, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method SetSelectedState, addr 0x25104bc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x26349b0, size 0x3c, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method StartTween, addr 0x25100b8, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method StartTween, addr 0x26345ac, size 0x238, virtual false, abstract: false, final false
   inline void StartTween(::UnityEngine::Color endColor);
 
-  /// @brief Method TransitionToDisabledState, addr 0x2510348, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToDisabledState, addr 0x263483c, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToHighlightedState, addr 0x25102f0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToHighlightedState, addr 0x26347e4, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToNormalState, addr 0x251008c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNormalState, addr 0x2634580, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToPressedState, addr 0x251031c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToPressedState, addr 0x2634810, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x25103a0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x2634894, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method TransitionToSelectedState, addr 0x2510374, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedState, addr 0x2634868, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToSelectedState();
 
-  /// @brief Method <StartTween>b__16_0, addr 0x251057c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <StartTween>b__16_0, addr 0x2634a70, size 0x24, virtual false, abstract: false, final false
   inline void _StartTween_b__16_0(::UnityEngine::Color color);
 
-  /// @brief Method <StartTween>b__16_1, addr 0x25105a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <StartTween>b__16_1, addr 0x2634a94, size 0x88, virtual false, abstract: false, final false
   inline void _StartTween_b__16_1();
 
   constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTween();
@@ -98,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::ColorTransitionSO> value);
 
-  /// @brief Method .ctor, addr 0x2510534, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634a28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transition, addr 0x2510084, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transition, addr 0x2634578, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
 protected:

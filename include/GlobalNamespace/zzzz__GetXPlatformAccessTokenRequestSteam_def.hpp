@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_platformUserId(int64_t value);
 
-  /// @brief Method .ctor, addr 0x29515f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad3c00, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, int64_t platformUserId);
 
 protected:

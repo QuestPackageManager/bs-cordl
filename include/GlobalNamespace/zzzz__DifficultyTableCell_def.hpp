@@ -48,12 +48,12 @@ public:
 
   __declspec(property(put = set_difficultyValue)) int32_t difficultyValue;
 
-  /// @brief Method HighlightDidChange, addr 0x250b4e0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x262f9d4, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::DifficultyTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x250b43c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x262f930, size 0xa4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x250b520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262fa14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_difficultyText, addr 0x250b39c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyText, addr 0x262f890, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_difficultyText();
 
-  /// @brief Method set_difficultyText, addr 0x250b378, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyText, addr 0x262f86c, size 0x24, virtual false, abstract: false, final false
   inline void set_difficultyText(::StringW value);
 
-  /// @brief Method set_difficultyValue, addr 0x250b3c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyValue, addr 0x262f8b4, size 0x38, virtual false, abstract: false, final false
   inline void set_difficultyValue(int32_t value);
 
 protected:

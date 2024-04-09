@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__PidList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithPidList)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPidList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PidList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x28477b0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c9d94, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetPidList, addr 0x2847774, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPidList, addr 0x29c9d58, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetPidList();
 
   static inline ::Oculus::Platform::MessageWithPidList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x284392c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c5f10, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

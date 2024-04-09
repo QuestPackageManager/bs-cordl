@@ -1,14 +1,14 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__AchievementProgress_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementProgress_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::AchievementProgressList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::AchievementProgressList::*)(void*)>(
     &::Oculus::Platform::Models::AchievementProgressList::_ctor)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2857e24;
+  constexpr static std::size_t addrs = 0x29da408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

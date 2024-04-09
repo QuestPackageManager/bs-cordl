@@ -3,10 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ReferenceCountingCache_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioReferenceCountingCache)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace UnityEngine {
+class AudioClip;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class AudioReferenceCountingCache;
@@ -23,7 +27,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2533e54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2657474, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

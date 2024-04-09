@@ -119,54 +119,54 @@ public:
   /// @brief Field _timeSinceLastScoreUpdate, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__timeSinceLastScoreUpdate, put = __cordl_internal_set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
 
-  /// @brief Method AnimateColorsForAllPlayers, addr 0x24f12a4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method AnimateColorsForAllPlayers, addr 0x2615790, size 0x1c8, virtual false, abstract: false, final false
   inline void AnimateColorsForAllPlayers(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateColorsForPlayer, addr 0x24f1124, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method AnimateColorsForPlayer, addr 0x2615610, size 0x180, virtual false, abstract: false, final false
   inline void AnimateColorsForPlayer(::StringW userId, ::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method GetScoreRingItem, addr 0x24e3460, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetScoreRingItem, addr 0x260794c, size 0x104, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> GetScoreRingItem(::StringW userId);
 
-  /// @brief Method GetScoreRingItems, addr 0x24ebcf0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetScoreRingItems, addr 0x26101dc, size 0x220, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetScoreRingItems();
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x24f1bc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x26160ac, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x24f05fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x2614ae8, size 0x18, virtual false, abstract: false, final false
   inline void HandlePlayerSpawningDidFinish();
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x24f1b80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x261606c, size 0x40, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x24f05e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x2614ad0, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t spawnCenterDistance);
 
-  /// @brief Method HandleStateChanged, addr 0x24f0614, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x2614b00, size 0x4f4, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerScoreRingManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24f0b08, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2614ff4, size 0x354, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPlayerToFailedState, addr 0x24f146c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerToFailedState, addr 0x2615958, size 0x120, virtual false, abstract: false, final false
   inline void SetPlayerToFailedState(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method SpawnTexts, addr 0x24f15a4, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method SpawnTexts, addr 0x2615a90, size 0x5dc, virtual false, abstract: false, final false
   inline void SpawnTexts();
 
-  /// @brief Method Start, addr 0x24f0434, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2614920, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TrySpawnTexts, addr 0x24f158c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySpawnTexts, addr 0x2615a78, size 0x18, virtual false, abstract: false, final false
   inline void TrySpawnTexts();
 
-  /// @brief Method Update, addr 0x24f0e5c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2615348, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateScore, addr 0x24f0f30, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x261541c, size 0x1f4, virtual false, abstract: false, final false
   inline void UpdateScore(::GlobalNamespace::IConnectedPlayer* playerToUpdate);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get__allActivePlayers();
@@ -266,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x24f1bc4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26160b0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

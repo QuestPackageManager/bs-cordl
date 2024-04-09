@@ -26,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::StartMiddleEndButtonsGroup* New_ctor();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x250ef04, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method SetLayoutHorizontal, addr 0x26333f8, size 0xe8, virtual true, abstract: false, final true
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x250efec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetLayoutVertical, addr 0x26334e0, size 0x4, virtual true, abstract: false, final true
   inline void SetLayoutVertical();
 
-  /// @brief Method .ctor, addr 0x250eff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26334e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"

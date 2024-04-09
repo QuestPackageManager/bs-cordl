@@ -26,6 +26,39 @@ class __Label__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::Label);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::Label::UxmlFactory*
+class CORDL_TYPE __Label__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::__Label__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__Label__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x335f484, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Label__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Label__UxmlFactory(__Label__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Label__UxmlFactory(__Label__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -36,7 +69,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f85c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336ba5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,10 +111,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x2f85b90, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336b9ac, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f7b8e8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3361704, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_ussClassName();
@@ -106,39 +139,6 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 0x478>, "Size mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::Label::UxmlFactory*
-class CORDL_TYPE __Label__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::__Label__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__Label__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f79668, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Label__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Label__UxmlFactory(__Label__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Label__UxmlFactory(__Label__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Label);

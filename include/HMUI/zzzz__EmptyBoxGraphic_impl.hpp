@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EmptyBoxGraphic::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::EmptyBoxGraphic::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x22e7938;
+  constexpr static std::size_t addrs = 0x2406e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EmptyBoxGraphic::*)()>(&::HMUI::EmptyBoxGraphic::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x22e7ef0;
+  constexpr static std::size_t addrs = 0x24073ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::EmptyBoxGraphic*>::get(), "OnDrawGizmosSelected",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EmptyBoxGraphic::*)()>(&::HMUI::EmptyBoxGraphic::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22e807c;
+  constexpr static std::size_t addrs = 0x2407578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::EmptyBoxGraphic*>::get(), ".ctor",

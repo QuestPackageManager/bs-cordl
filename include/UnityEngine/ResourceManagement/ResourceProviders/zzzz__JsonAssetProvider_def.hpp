@@ -25,12 +25,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE JsonAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x2d1dbac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x310105c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d1dbb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3101068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

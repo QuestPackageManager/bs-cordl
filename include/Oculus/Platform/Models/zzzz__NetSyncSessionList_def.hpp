@@ -3,9 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__NetSyncSession_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetSyncSessionList)
+namespace Oculus::Platform::Models {
+class NetSyncSession;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncSessionList;
@@ -22,7 +24,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::NetSyncSessionList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x285b978, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ddf5c, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

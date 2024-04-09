@@ -35,18 +35,18 @@ public:
   /// @brief Field _strDefault, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault))::StringW _strDefault;
 
-  /// @brief Method Fallback, addr 0x2787474, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x28b799c, size 0x44, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x27874b8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x28b79e0, size 0x50, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x2787524, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x28b7a4c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
   static inline ::System::Text::DecoderReplacementFallbackBuffer* New_ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method Reset, addr 0x2787514, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x28b7a3c, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x278737c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b78a4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method get_Remaining, addr 0x2787508, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x28b7a30, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

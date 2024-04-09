@@ -27,6 +27,39 @@ class __SpawnRotationChevron__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationChevron);
 MARK_REF_PTR_T(::GlobalNamespace::__SpawnRotationChevron__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::SpawnRotationChevron::Pool*
+class CORDL_TYPE __SpawnRotationChevron__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SpawnRotationChevron>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__SpawnRotationChevron__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25cf964, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SpawnRotationChevron__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevron__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SpawnRotationChevron__Pool(__SpawnRotationChevron__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevron__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SpawnRotationChevron__Pool(__SpawnRotationChevron__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SpawnRotationChevron__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::SpawnRotationChevron
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -47,15 +80,15 @@ public:
   __declspec(property(get = __cordl_internal_get__lights,
                       put = __cordl_internal_set__lights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _lights;
 
-  /// @brief Method ColorWasSet, addr 0x24ab3f0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x25cf8d8, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpawnRotationChevron* New_ctor();
 
-  /// @brief Method SetLightAmount, addr 0x24ab46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLightAmount, addr 0x25cf954, size 0x8, virtual false, abstract: false, final false
   inline void SetLightAmount(float_t amount);
 
-  /// @brief Method UpdateLights, addr 0x24ab3fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateLights, addr 0x25cf8e4, size 0x70, virtual false, abstract: false, final false
   inline void UpdateLights();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -76,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method .ctor, addr 0x24ab474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cf95c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,39 +145,6 @@ static_assert(offsetof(::GlobalNamespace::SpawnRotationChevron, ____lights) == 0
 static_assert(offsetof(::GlobalNamespace::SpawnRotationChevron, ____color) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpawnRotationChevron, ____lightAmount) == 0x48, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::SpawnRotationChevron::Pool*
-class CORDL_TYPE __SpawnRotationChevron__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SpawnRotationChevron>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__SpawnRotationChevron__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24ab47c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SpawnRotationChevron__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevron__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SpawnRotationChevron__Pool(__SpawnRotationChevron__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevron__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SpawnRotationChevron__Pool(__SpawnRotationChevron__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SpawnRotationChevron__Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpawnRotationChevron);

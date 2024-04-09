@@ -56,15 +56,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method Init, addr 0xf6e470, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x1047ff4, size 0x1b8, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method Unwrap, addr 0xf6e974, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x10484f8, size 0x3c0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Wrap, addr 0xf6e6f0, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x1048274, size 0x284, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
   constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*& __cordl_internal_get_engine();
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0xf6e3f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1047f78, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method get_AlgorithmName, addr 0xf6e628, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x10481ac, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"

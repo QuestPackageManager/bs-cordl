@@ -3,9 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AssetReferenceTexture)
+namespace UnityEngine {
+class Texture;
+}
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceTexture;
@@ -22,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x2b6df94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f53444, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:

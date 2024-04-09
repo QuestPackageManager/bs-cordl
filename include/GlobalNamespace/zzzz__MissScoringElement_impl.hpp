@@ -5,12 +5,35 @@
 #include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::__MissScoringElement__Pool._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissScoringElement__Pool::*)()>(&::GlobalNamespace::__MissScoringElement__Pool::_ctor)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x26230f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissScoringElement__Pool*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline ::GlobalNamespace::__MissScoringElement__Pool* GlobalNamespace::__MissScoringElement__Pool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissScoringElement__Pool*>());
+}
+inline void GlobalNamespace::__MissScoringElement__Pool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissScoringElement__Pool*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__MissScoringElement__Pool::__MissScoringElement__Pool() {}
 //  Writing Method size for method: ::GlobalNamespace::MissScoringElement.get_cutScore
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MissScoringElement::*)()>(&::GlobalNamespace::MissScoringElement::get_cutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24fdbe0;
+  constexpr static std::size_t addrs = 0x26230cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType (::GlobalNamespace::MissScoringElement::*)()>(
     &::GlobalNamespace::MissScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24fdbe8;
+  constexpr static std::size_t addrs = 0x26230d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType (::GlobalNamespace::MissScoringElement::*)()>(
     &::GlobalNamespace::MissScoringElement::get_multiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24fdbf0;
+  constexpr static std::size_t addrs = 0x26230dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MissScoringElement::*)()>(&::GlobalNamespace::MissScoringElement::get_executionOrder)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24fdbf8;
+  constexpr static std::size_t addrs = 0x26230e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissScoringElement::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MissScoringElement::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x24fd71c;
+  constexpr static std::size_t addrs = 0x2622c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissScoringElement::*)()>(&::GlobalNamespace::MissScoringElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24fdc04;
+  constexpr static std::size_t addrs = 0x26230f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissScoringElement*>::get(), ".ctor",
@@ -151,26 +174,3 @@ inline void GlobalNamespace::MissScoringElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissScoringElement::MissScoringElement() {}
-//  Writing Method size for method: ::GlobalNamespace::__MissScoringElement__Pool._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissScoringElement__Pool::*)()>(&::GlobalNamespace::__MissScoringElement__Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x24fdc0c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissScoringElement__Pool*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__MissScoringElement__Pool* GlobalNamespace::__MissScoringElement__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissScoringElement__Pool*>());
-}
-inline void GlobalNamespace::__MissScoringElement__Pool::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissScoringElement__Pool*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__MissScoringElement__Pool::__MissScoringElement__Pool() {}

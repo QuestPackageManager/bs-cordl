@@ -880,6 +880,14 @@ template <typename TKey, typename TValue> inline ::System::Collections::Generic:
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::ICollection_1<TValue>*, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
+inline ::System::Collections::Generic::IEnumerable_1<TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(),
+                                  "System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Values", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal_method);
+}
+template <typename TKey, typename TValue>
 inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___Add(
     ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair) {
   static auto* ___internal_method = THROW_UNLESS(

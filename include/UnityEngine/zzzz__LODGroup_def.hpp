@@ -28,19 +28,19 @@ public:
 
   __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method GetLODs, addr 0x2e00b00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLODs, addr 0x31e704c, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> GetLODs();
 
-  /// @brief Method RecalculateBounds, addr 0x2e00ac4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x31e7010, size 0x3c, virtual false, abstract: false, final false
   inline void RecalculateBounds();
 
-  /// @brief Method SetLODs, addr 0x2e00b3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLODs, addr 0x31e7088, size 0x44, virtual false, abstract: false, final false
   inline void SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> lods);
 
-  /// @brief Method get_lodCount, addr 0x2e00a88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lodCount, addr 0x31e6fd4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_lodCount();
 
-  /// @brief Method get_size, addr 0x2e00a4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x31e6f98, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_size();
 
 protected:

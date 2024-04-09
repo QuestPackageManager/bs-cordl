@@ -106,7 +106,7 @@ public:
 
   static inline ::UnityEngine::EventSystems::__EventSystem____c__DisplayClass52_0* New_ctor();
 
-  /// @brief Method <CreateUIToolkitPanelGameObject>b__0, addr 0x2efe99c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <CreateUIToolkitPanelGameObject>b__0, addr 0x32e47b8, size 0x5c, virtual false, abstract: false, final false
   inline void _CreateUIToolkitPanelGameObject_b__0();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_go() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_go(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2efdde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e3bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,60 +217,60 @@ public:
 
   __declspec(property(get = get_sendUIToolkitEvents)) bool sendUIToolkitEvents;
 
-  /// @brief Method ChangeEventModule, addr 0x2efe65c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ChangeEventModule, addr 0x32e4478, size 0xf8, virtual false, abstract: false, final false
   inline void ChangeEventModule(::UnityEngine::EventSystems::BaseInputModule* _cordl_module);
 
-  /// @brief Method CreateUIToolkitPanelGameObject, addr 0x2efdb44, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateUIToolkitPanelGameObject, addr 0x32e3960, size 0x29c, virtual false, abstract: false, final false
   inline void CreateUIToolkitPanelGameObject(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method IsPointerOverGameObject, addr 0x2efd724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsPointerOverGameObject, addr 0x32e3540, size 0x8, virtual false, abstract: false, final false
   inline bool IsPointerOverGameObject();
 
-  /// @brief Method IsPointerOverGameObject, addr 0x2efd72c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsPointerOverGameObject, addr 0x32e3548, size 0xa4, virtual false, abstract: false, final false
   inline bool IsPointerOverGameObject(int32_t pointerId);
 
   static inline ::UnityEngine::EventSystems::EventSystem* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x2efe3e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x32e4204, size 0x14, virtual true, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDestroy, addr 0x2efe028, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x32e3e44, size 0xa4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2efe1e0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x32e3ffc, size 0x108, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2efe0d0, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x32e3eec, size 0x110, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RaycastAll, addr 0x2efd534, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method RaycastAll, addr 0x32e3350, size 0x1f0, virtual false, abstract: false, final false
   inline void RaycastAll(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* raycastResults);
 
-  /// @brief Method RaycastComparer, addr 0x2efd118, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method RaycastComparer, addr 0x32e2f34, size 0x364, virtual false, abstract: false, final false
   static inline int32_t RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs);
 
-  /// @brief Method SetSelectedGameObject, addr 0x2ef8d3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedGameObject, addr 0x32deb58, size 0x2c, virtual false, abstract: false, final false
   inline void SetSelectedGameObject(::UnityEngine::GameObject* selected);
 
-  /// @brief Method SetSelectedGameObject, addr 0x2efb7e8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedGameObject, addr 0x32e1604, size 0x224, virtual false, abstract: false, final false
   inline void SetSelectedGameObject(::UnityEngine::GameObject* selected, ::UnityEngine::EventSystems::BaseEventData* pointer);
 
-  /// @brief Method SetUITookitEventSystemOverride, addr 0x2efd9a8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetUITookitEventSystemOverride, addr 0x32e37c4, size 0x19c, virtual false, abstract: false, final false
   static inline void SetUITookitEventSystemOverride(::UnityEngine::EventSystems::EventSystem* activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart);
 
-  /// @brief Method Start, addr 0x2efdde8, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x32e3c04, size 0x23c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TickModules, addr 0x2efe2e8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method TickModules, addr 0x32e4104, size 0x100, virtual false, abstract: false, final false
   inline void TickModules();
 
-  /// @brief Method ToString, addr 0x2efe754, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32e4570, size 0x158, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Update, addr 0x2efe3fc, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x32e4218, size 0x260, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateModules, addr 0x2efcf60, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method UpdateModules, addr 0x32e2d7c, size 0x140, virtual false, abstract: false, final false
   inline void UpdateModules();
 
   constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule> const& __cordl_internal_get_m_CurrentInputModule() const;
@@ -328,7 +328,7 @@ public:
 
   constexpr void __cordl_internal_set_m_sendNavigationEvents(bool value);
 
-  /// @brief Method .ctor, addr 0x2efced0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e2cec, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* getStaticF_m_EventSystems();
@@ -337,43 +337,43 @@ public:
 
   static inline ::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig getStaticF_s_UIToolkitOverride();
 
-  /// @brief Method get_alreadySelecting, addr 0x2efd0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alreadySelecting, addr 0x32e2ebc, size 0x8, virtual false, abstract: false, final false
   inline bool get_alreadySelecting();
 
-  /// @brief Method get_baseEventDataCache, addr 0x2efd0a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_baseEventDataCache, addr 0x32e2ec4, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::BaseEventData* get_baseEventDataCache();
 
-  /// @brief Method get_createUIToolkitPanelGameObjectsOnStart, addr 0x2efd934, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_createUIToolkitPanelGameObjectsOnStart, addr 0x32e3750, size 0x74, virtual false, abstract: false, final false
   inline bool get_createUIToolkitPanelGameObjectsOnStart();
 
-  /// @brief Method get_current, addr 0x2efcc24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x32e2a40, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_current();
 
-  /// @brief Method get_currentInputModule, addr 0x2efcea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentInputModule, addr 0x32e2cbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
-  /// @brief Method get_currentSelectedGameObject, addr 0x2efceb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentSelectedGameObject, addr 0x32e2cd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_currentSelectedGameObject();
 
-  /// @brief Method get_firstSelectedGameObject, addr 0x2efcea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstSelectedGameObject, addr 0x32e2cc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_firstSelectedGameObject();
 
-  /// @brief Method get_isFocused, addr 0x2efcec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFocused, addr 0x32e2ce4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFocused();
 
-  /// @brief Method get_isUIToolkitActiveEventSystem, addr 0x2efd7d0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_isUIToolkitActiveEventSystem, addr 0x32e35ec, size 0xf0, virtual false, abstract: false, final false
   inline bool get_isUIToolkitActiveEventSystem();
 
-  /// @brief Method get_lastSelectedGameObject, addr 0x2efcec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastSelectedGameObject, addr 0x32e2cdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_lastSelectedGameObject();
 
-  /// @brief Method get_pixelDragThreshold, addr 0x2efce90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pixelDragThreshold, addr 0x32e2cac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pixelDragThreshold();
 
-  /// @brief Method get_sendNavigationEvents, addr 0x2efce7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sendNavigationEvents, addr 0x32e2c98, size 0x8, virtual false, abstract: false, final false
   inline bool get_sendNavigationEvents();
 
-  /// @brief Method get_sendUIToolkitEvents, addr 0x2efd8c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_sendUIToolkitEvents, addr 0x32e36dc, size 0x74, virtual false, abstract: false, final false
   inline bool get_sendUIToolkitEvents();
 
   static inline void setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* value);
@@ -382,16 +382,16 @@ public:
 
   static inline void setStaticF_s_UIToolkitOverride(::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig value);
 
-  /// @brief Method set_current, addr 0x2efcce8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x32e2b04, size 0x194, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::EventSystems::EventSystem* value);
 
-  /// @brief Method set_firstSelectedGameObject, addr 0x2efceb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstSelectedGameObject, addr 0x32e2ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_firstSelectedGameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pixelDragThreshold, addr 0x2efce98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pixelDragThreshold, addr 0x32e2cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_pixelDragThreshold(int32_t value);
 
-  /// @brief Method set_sendNavigationEvents, addr 0x2efce84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_sendNavigationEvents, addr 0x32e2ca0, size 0xc, virtual false, abstract: false, final false
   inline void set_sendNavigationEvents(bool value);
 
 protected:

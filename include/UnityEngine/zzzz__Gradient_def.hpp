@@ -53,36 +53,36 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Gradient*>*() noexcept;
 
-  /// @brief Method Cleanup, addr 0x2e2b640, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3212464, size 0x3c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Equals, addr 0x2e2ba14, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3212838, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x2e2badc, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3212900, size 0xc8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Gradient* other);
 
-  /// @brief Method Evaluate, addr 0x2e2b7c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x32125e4, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Color Evaluate(float_t time);
 
-  /// @brief Method Evaluate_Injected, addr 0x2e2b828, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Evaluate_Injected, addr 0x321264c, size 0x54, virtual false, abstract: false, final false
   inline void Evaluate_Injected(float_t time, ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method Finalize, addr 0x2e2b708, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x321252c, size 0xb8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashCode, addr 0x2e2bba4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32129c8, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Init, addr 0x2e2b618, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x321243c, size 0x28, virtual false, abstract: false, final false
   static inline void* Init();
 
-  /// @brief Method Internal_Equals, addr 0x2e2b67c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_Equals, addr 0x32124a0, size 0x44, virtual false, abstract: false, final false
   inline bool Internal_Equals(void* other);
 
   static inline ::UnityEngine::Gradient* New_ctor();
 
-  /// @brief Method SetKeys, addr 0x2e2b9c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetKeys, addr 0x32127e4, size 0x54, virtual false, abstract: false, final false
   inline void SetKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys,
                       ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys);
 
@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x2e2b6c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32124e4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alphaKeys, addr 0x2e2b8fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alphaKeys, addr 0x3212720, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> get_alphaKeys();
 
-  /// @brief Method get_colorKeys, addr 0x2e2b87c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_colorKeys, addr 0x32126a0, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> get_colorKeys();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr ::System::IEquatable_1<::UnityEngine::Gradient*>* i___System__IEquatable_1___UnityEngine__Gradient__() noexcept;
 
-  /// @brief Method set_alphaKeys, addr 0x2e2b938, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alphaKeys, addr 0x321275c, size 0x44, virtual false, abstract: false, final false
   inline void set_alphaKeys(::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> value);
 
-  /// @brief Method set_colorKeys, addr 0x2e2b8b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_colorKeys, addr 0x32126dc, size 0x44, virtual false, abstract: false, final false
   inline void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> value);
 
-  /// @brief Method set_mode, addr 0x2e2b97c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x32127a0, size 0x44, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::GradientMode value);
 
 protected:

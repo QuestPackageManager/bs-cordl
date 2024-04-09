@@ -33,7 +33,7 @@ public:
   /// @brief Field _actualValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__actualValue, put = __cordl_internal_set__actualValue))::System::Object* _actualValue;
 
-  /// @brief Method GetObjectData, addr 0x2671ef0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x27948ec, size 0xd8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor();
@@ -52,22 +52,22 @@ public:
 
   constexpr void __cordl_internal_set__actualValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2671d50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279474c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2671e18, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2794814, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2671dac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27947a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x266ea54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27913ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x266d934, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27902cc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method get_Message, addr 0x2671fc8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x27949c4, size 0xac, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

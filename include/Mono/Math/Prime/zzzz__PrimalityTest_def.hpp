@@ -28,12 +28,12 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2580770, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x26a625c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
   static inline ::Mono::Math::Prime::PrimalityTest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2580640, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a612c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

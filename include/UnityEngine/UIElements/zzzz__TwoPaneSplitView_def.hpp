@@ -53,6 +53,40 @@ class __TwoPaneSplitView__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::TwoPaneSplitView);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TwoPaneSplitView__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::TwoPaneSplitView::UxmlFactory*
+class CORDL_TYPE __TwoPaneSplitView__UxmlFactory
+    : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TwoPaneSplitView*, ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x338b84c, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TwoPaneSplitView__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__TwoPaneSplitView__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __TwoPaneSplitView__UxmlFactory(__TwoPaneSplitView__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__TwoPaneSplitView__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __TwoPaneSplitView__UxmlFactory(__TwoPaneSplitView__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TwoPaneSplitView__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -72,7 +106,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Orientation,
                       put = __cordl_internal_set_m_Orientation))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* m_Orientation;
 
-  /// @brief Method Init, addr 0x2fa6a78, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x338b894, size 0x16c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits* New_ctor();
@@ -96,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* value);
 
-  /// @brief Method .ctor, addr 0x2fa6be4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x338ba00, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -226,30 +260,30 @@ public:
   /// @brief Field s_VerticalClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_VerticalClassName, put = setStaticF_s_VerticalClassName))::StringW s_VerticalClassName;
 
-  /// @brief Method Init, addr 0x2fa4cd8, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3389af4, size 0x2dc, virtual false, abstract: false, final false
   inline void Init(int32_t fixedPaneIndex, float_t fixedPaneInitialDimension, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation);
 
   static inline ::UnityEngine::UIElements::TwoPaneSplitView* New_ctor();
 
-  /// @brief Method OnPostDisplaySetup, addr 0x2fa5f24, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnPostDisplaySetup, addr 0x338ad40, size 0x108, virtual false, abstract: false, final false
   inline void OnPostDisplaySetup(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnSizeChange, addr 0x2fa6030, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method OnSizeChange, addr 0x338ae4c, size 0x5d0, virtual false, abstract: false, final false
   inline void OnSizeChange();
 
-  /// @brief Method OnSizeChange, addr 0x2fa602c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnSizeChange, addr 0x338ae48, size 0x4, virtual false, abstract: false, final false
   inline void OnSizeChange(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x2fa6858, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x338b674, size 0x3c, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method PostDisplaySetup, addr 0x2fa4fb4, size 0xf70, virtual false, abstract: false, final false
+  /// @brief Method PostDisplaySetup, addr 0x3389dd0, size 0xf70, virtual false, abstract: false, final false
   inline void PostDisplaySetup();
 
-  /// @brief Method SetDragLineOffset, addr 0x2fa6600, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetDragLineOffset, addr 0x338b41c, size 0x128, virtual false, abstract: false, final false
   inline void SetDragLineOffset(float_t offset);
 
-  /// @brief Method SetFixedPaneDimension, addr 0x2fa6728, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetFixedPaneDimension, addr 0x338b544, size 0x128, virtual false, abstract: false, final false
   inline void SetFixedPaneDimension(float_t dimension);
 
   constexpr bool const& __cordl_internal_get_m_CollapseMode() const;
@@ -330,7 +364,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RightPane(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2fa4ac8, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33898e4, size 0x210, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_ContentContainerClassName();
@@ -353,19 +387,19 @@ public:
 
   static inline ::StringW getStaticF_s_VerticalClassName();
 
-  /// @brief Method get_contentContainer, addr 0x2fa6850, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x338b66c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_fixedPane, addr 0x2fa4a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPane, addr 0x338987c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_fixedPane();
 
-  /// @brief Method get_fixedPaneDimension, addr 0x2fa4a78, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneDimension, addr 0x3389894, size 0x34, virtual false, abstract: false, final false
   inline float_t get_fixedPaneDimension();
 
-  /// @brief Method get_fixedPaneIndex, addr 0x2fa4a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneIndex, addr 0x338988c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fixedPaneIndex();
 
-  /// @brief Method get_flexedPane, addr 0x2fa4a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flexedPane, addr 0x3389884, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_flexedPane();
 
   static inline void setStaticF_s_ContentContainerClassName(::StringW value);
@@ -388,7 +422,7 @@ public:
 
   static inline void setStaticF_s_VerticalClassName(::StringW value);
 
-  /// @brief Method set_fixedPaneDimension, addr 0x2fa4aac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_fixedPaneDimension, addr 0x33898c8, size 0x1c, virtual false, abstract: false, final false
   inline void set_fixedPaneDimension(float_t value);
 
 protected:
@@ -474,40 +508,6 @@ static_assert(offsetof(::UnityEngine::UIElements::TwoPaneSplitView, ___m_FixedPa
 static_assert(offsetof(::UnityEngine::UIElements::TwoPaneSplitView, ___m_FixedPaneInitialDimension) == 0x400, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TwoPaneSplitView, ___m_Resizer) == 0x408, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::TwoPaneSplitView::UxmlFactory*
-class CORDL_TYPE __TwoPaneSplitView__UxmlFactory
-    : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TwoPaneSplitView*, ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2fa6a30, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TwoPaneSplitView__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TwoPaneSplitView__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TwoPaneSplitView__UxmlFactory(__TwoPaneSplitView__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__TwoPaneSplitView__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TwoPaneSplitView__UxmlFactory(__TwoPaneSplitView__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TwoPaneSplitView__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TwoPaneSplitView);

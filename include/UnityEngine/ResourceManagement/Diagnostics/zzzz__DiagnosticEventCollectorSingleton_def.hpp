@@ -62,13 +62,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c* New_ctor();
 
-  /// @brief Method <Awake>b__11_0, addr 0x2d229c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__11_0, addr 0x3105e78, size 0x5c, virtual false, abstract: false, final false
   inline void _Awake_b__11_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method <RegisterEventHandler>b__8_0, addr 0x2d229c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterEventHandler>b__8_0, addr 0x3105e70, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterEventHandler_b__8_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
 
-  /// @brief Method .ctor, addr 0x2d229b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3105e68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c* getStaticF___9();
@@ -139,27 +139,27 @@ public:
   /// @brief Field s_editorConnectionGuid, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_editorConnectionGuid, put = setStaticF_s_editorConnectionGuid))::System::Guid s_editorConnectionGuid;
 
-  /// @brief Method Awake, addr 0x2d22594, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3105a44, size 0xe4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetGameObjectName, addr 0x2d21cf0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetGameObjectName, addr 0x31051a0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetGameObjectName();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton* New_ctor();
 
-  /// @brief Method PostEvent, addr 0x2d22370, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method PostEvent, addr 0x3105820, size 0x224, virtual false, abstract: false, final false
   inline void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method RegisterEventHandler, addr 0x2d21d30, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x31051e0, size 0xbc, virtual false, abstract: false, final false
   static inline bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _cordl_register, bool create);
 
-  /// @brief Method RegisterEventHandler, addr 0x2d21dec, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x310529c, size 0x4dc, virtual false, abstract: false, final false
   inline void RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method UnregisterEventHandler, addr 0x2d222c8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterEventHandler, addr 0x3105778, size 0xa8, virtual false, abstract: false, final false
   inline void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method Update, addr 0x2d22678, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3105b28, size 0x1d8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_fpsAvg() const;
@@ -201,12 +201,12 @@ public:
 
   constexpr void __cordl_internal_set_s_EventHandlers(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
 
-  /// @brief Method .ctor, addr 0x2d22850, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3105d00, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_s_editorConnectionGuid();
 
-  /// @brief Method get_PlayerConnectionGuid, addr 0x2d21bf4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerConnectionGuid, addr 0x31050a4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
   static inline void setStaticF_s_editorConnectionGuid(::System::Guid value);

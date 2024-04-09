@@ -66,59 +66,59 @@ namespace Oculus::Platform {
 class CORDL_TYPE GroupPresence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x281eae0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x29a10c4, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Clear();
 
-  /// @brief Method GetInvitableUsers, addr 0x285102c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetInvitableUsers, addr 0x29d3610, size 0x1a0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetInvitableUsers(::Oculus::Platform::InviteOptions* options);
 
-  /// @brief Method GetNextApplicationInviteListPage, addr 0x2851e70, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextApplicationInviteListPage, addr 0x29d4454, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationInviteList*>* GetNextApplicationInviteListPage(::Oculus::Platform::Models::ApplicationInviteList* list);
 
-  /// @brief Method GetSentInvites, addr 0x28511cc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetSentInvites, addr 0x29d37b0, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationInviteList*>* GetSentInvites();
 
-  /// @brief Method LaunchInvitePanel, addr 0x281edfc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method LaunchInvitePanel, addr 0x29a13e0, size 0x1a0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::InvitePanelResultInfo*>* LaunchInvitePanel(::Oculus::Platform::InviteOptions* options);
 
-  /// @brief Method LaunchMultiplayerErrorDialog, addr 0x2851324, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method LaunchMultiplayerErrorDialog, addr 0x29d3908, size 0x18c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* LaunchMultiplayerErrorDialog(::Oculus::Platform::MultiplayerErrorOptions* options);
 
-  /// @brief Method LaunchRejoinDialog, addr 0x28514b0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LaunchRejoinDialog, addr 0x29d3a94, size 0x178, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RejoinDialogResult*>* LaunchRejoinDialog(::StringW lobby_session_id, ::StringW match_session_id,
                                                                                                                    ::StringW destination_api_name);
 
-  /// @brief Method LaunchRosterPanel, addr 0x281f158, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method LaunchRosterPanel, addr 0x29a173c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* LaunchRosterPanel(::Oculus::Platform::RosterOptions* options);
 
-  /// @brief Method SendInvites, addr 0x2851680, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SendInvites, addr 0x29d3c64, size 0x174, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::SendInvitesResult*>* SendInvites(::ArrayW<uint64_t, ::Array<uint64_t>*> userIDs);
 
-  /// @brief Method Set, addr 0x281e708, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x29a0cec, size 0x18c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::GroupPresenceOptions* groupPresenceOptions);
 
-  /// @brief Method SetDeeplinkMessageOverride, addr 0x28517f4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetDeeplinkMessageOverride, addr 0x29d3dd8, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* SetDeeplinkMessageOverride(::StringW deeplink_message);
 
-  /// @brief Method SetDestination, addr 0x2851940, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetDestination, addr 0x29d3f24, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* SetDestination(::StringW api_name);
 
-  /// @brief Method SetInvitationsSentNotificationCallback, addr 0x2820aa0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetInvitationsSentNotificationCallback, addr 0x29a3084, size 0x74, virtual false, abstract: false, final false
   static inline void SetInvitationsSentNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*>* callback);
 
-  /// @brief Method SetIsJoinable, addr 0x2851a8c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetIsJoinable, addr 0x29d4070, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* SetIsJoinable(bool is_joinable);
 
-  /// @brief Method SetJoinIntentReceivedNotificationCallback, addr 0x28209b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetJoinIntentReceivedNotificationCallback, addr 0x29a2f9c, size 0x74, virtual false, abstract: false, final false
   static inline void SetJoinIntentReceivedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* callback);
 
-  /// @brief Method SetLeaveIntentReceivedNotificationCallback, addr 0x2820a2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetLeaveIntentReceivedNotificationCallback, addr 0x29a3010, size 0x74, virtual false, abstract: false, final false
   static inline void SetLeaveIntentReceivedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::GroupPresenceLeaveIntent*>* callback);
 
-  /// @brief Method SetLobbySession, addr 0x2851bd8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetLobbySession, addr 0x29d41bc, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* SetLobbySession(::StringW id);
 
-  /// @brief Method SetMatchSession, addr 0x2851d24, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetMatchSession, addr 0x29d4308, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* SetMatchSession(::StringW id);
 
 protected:

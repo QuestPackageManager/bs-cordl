@@ -219,6 +219,11 @@ template <typename T> inline void System::Collections::Generic::Stack_1<T>::Syst
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
 }
+template <typename T> inline ::System::Collections::Generic::__Stack_1__Enumerator<T> System::Collections::Generic::Stack_1<T>::GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Stack_1<T>*>::get(),
+                                                                             "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::__Stack_1__Enumerator<T>, false>(this, ___internal_method);
+}
 template <typename T> inline ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::Stack_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Stack_1<T>*>::get(),

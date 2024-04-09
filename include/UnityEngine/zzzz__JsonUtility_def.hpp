@@ -25,22 +25,22 @@ namespace UnityEngine {
 class CORDL_TYPE JsonUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x2e63cbc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x3247b20, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Object* FromJson(::StringW json, ::System::Type* type);
 
   /// @brief Method FromJson, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromJson(::StringW json);
 
-  /// @brief Method FromJsonInternal, addr 0x2e63aec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromJsonInternal, addr 0x3247950, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* FromJsonInternal(::StringW json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
-  /// @brief Method ToJson, addr 0x2e63b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x32479a4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj);
 
-  /// @brief Method ToJson, addr 0x2e63b48, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x32479ac, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj, bool prettyPrint);
 
-  /// @brief Method ToJsonInternal, addr 0x2e63aa8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ToJsonInternal, addr 0x324790c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW ToJsonInternal(::System::Object* obj, bool prettyPrint);
 
 protected:

@@ -5,7 +5,6 @@
 #include "TMPro/zzzz__HighlightState_impl.hpp"
 #include "TMPro/zzzz__HorizontalAlignmentOptions_impl.hpp"
 #include "TMPro/zzzz__MaterialReference_impl.hpp"
-#include "TMPro/zzzz__TMP_ColorGradient_impl.hpp"
 #include "TMPro/zzzz__TMP_FontStyleStack_impl.hpp"
 #include "TMPro/zzzz__TMP_LineInfo_impl.hpp"
 #include "TMPro/zzzz__TMP_TextProcessingStack_1_impl.hpp"

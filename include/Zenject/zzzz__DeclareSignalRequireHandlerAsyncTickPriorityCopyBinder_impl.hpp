@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
     &::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x302a410;
+  constexpr static std::size_t addrs = 0x340f29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* (
     ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::*)()>(&::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::RequireSubscriber)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x302a450;
+  constexpr static std::size_t addrs = 0x340f2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* (
     ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::*)()>(&::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::OptionalSubscriber)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x302a470;
+  constexpr static std::size_t addrs = 0x340f2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* (
     ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::*)()>(&::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::OptionalSubscriberWithWarning)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x302a48c;
+  constexpr static std::size_t addrs = 0x340f318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

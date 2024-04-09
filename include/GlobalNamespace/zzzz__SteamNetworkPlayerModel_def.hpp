@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::SteamNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x278e828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28bb338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"

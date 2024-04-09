@@ -36,26 +36,26 @@ public:
   /// @brief Field lockObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_lockObject, put = setStaticF_lockObject))::System::Object* lockObject;
 
-  /// @brief Method CreateFromName, addr 0x25c126c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x26e872c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
-  /// @brief Method CreateFromName, addr 0x25c2a40, size 0x1f14, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x26e99f4, size 0x1f2c, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method EncodeLongNumber, addr 0x25c5660, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method EncodeLongNumber, addr 0x26ec5b4, size 0x190, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeLongNumber(int64_t x);
 
-  /// @brief Method EncodeOID, addr 0x25c5254, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method EncodeOID, addr 0x26ec1a8, size 0x40c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeOID(::StringW str);
 
-  /// @brief Method MapNameToOID, addr 0x25c4aa0, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method MapNameToOID, addr 0x26eb9f4, size 0x7b4, virtual false, abstract: false, final false
   static inline ::StringW MapNameToOID(::StringW name);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* getStaticF_algorithms();
 
   static inline ::System::Object* getStaticF_lockObject();
 
-  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x25be82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x26e4450, size 0x8, virtual false, abstract: false, final false
   static inline bool get_AllowOnlyFipsAlgorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* value);

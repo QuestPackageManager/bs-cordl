@@ -64,7 +64,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __SongRunningHelper__QueuedSongParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x23eb2f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250dbdc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
                     ::GlobalNamespace::__RecordingToolManager__SetupData recordingToolData,
                     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback);
@@ -145,24 +145,24 @@ public:
   __declspec(property(get = __cordl_internal_get__playQueue,
                       put = __cordl_internal_set__playQueue))::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* _playQueue;
 
-  /// @brief Method EnqueueLevel, addr 0x23eacb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLevel, addr 0x250d59c, size 0xc0, virtual false, abstract: false, final false
   inline bool EnqueueLevel(::GlobalNamespace::__SongRunningHelper__QueuedSongParams queuedSongParams);
 
-  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x23eab48, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x250d430, size 0x16c, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> FindBeatmapLevelPackBeatmaps(::StringW packId);
 
   static inline ::GlobalNamespace::SongRunningHelper* New_ctor();
 
-  /// @brief Method StartLevel, addr 0x23ead74, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x250d65c, size 0x30c, virtual false, abstract: false, final false
   inline void StartLevel(::GlobalNamespace::__SongRunningHelper__QueuedSongParams queuedSongParams);
 
-  /// @brief Method StopAllLevels, addr 0x23eb080, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method StopAllLevels, addr 0x250d968, size 0x60, virtual false, abstract: false, final false
   inline void StopAllLevels();
 
-  /// @brief Method StopCurrentLevel, addr 0x23eb0e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopCurrentLevel, addr 0x250d9c8, size 0x1c, virtual false, abstract: false, final false
   inline void StopCurrentLevel();
 
-  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|9_0, addr 0x23eb178, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|9_0, addr 0x250da60, size 0x17c, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelDidFinishCallback_9_0(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransition,
                                                               ::GlobalNamespace::LevelCompletionResults* results);
 
@@ -202,7 +202,7 @@ public:
 
   constexpr void __cordl_internal_set__playQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* value);
 
-  /// @brief Method .ctor, addr 0x23eb0fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250d9e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

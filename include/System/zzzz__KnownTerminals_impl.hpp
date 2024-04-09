@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)()>(&::System::KnownTerminals::get_linux)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x274ec50;
+  constexpr static std::size_t addrs = 0x287c920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::KnownTerminals*>::get(), "get_linux",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)()>(&::System::KnownTerminals::get_xterm)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x274ecc0;
+  constexpr static std::size_t addrs = 0x287c990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::KnownTerminals*>::get(), "get_xterm",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)()>(&::System::KnownTerminals::get_ansi)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x274ed30;
+  constexpr static std::size_t addrs = 0x287ca00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::KnownTerminals*>::get(), "get_ansi",

@@ -51,46 +51,46 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextHandle"
   constexpr operator ::UnityEngine::UIElements::ITextHandle*();
 
-  /// @brief Method ComputeTextHeight, addr 0x2fad860, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method ComputeTextHeight, addr 0x339267c, size 0x64, virtual true, abstract: false, final true
   inline float_t ComputeTextHeight(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
 
-  /// @brief Method ComputeTextWidth, addr 0x2fadb9c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method ComputeTextWidth, addr 0x33929b8, size 0x80, virtual true, abstract: false, final true
   inline float_t ComputeTextWidth(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
 
-  /// @brief Method GetCursorPosition, addr 0x2fadb44, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetCursorPosition, addr 0x3392960, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetCursorPosition(::UnityEngine::UIElements::CursorPositionStylePainterParameters parms, float_t scaling);
 
-  /// @brief Method GetLineHeight, addr 0x2fad7f0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetLineHeight, addr 0x339260c, size 0x70, virtual true, abstract: false, final true
   inline float_t GetLineHeight(int32_t characterIndex, ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, float_t textScaling, float_t pixelPerPoint);
 
-  /// @brief Method GetVertices, addr 0x2fad934, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetVertices, addr 0x3392750, size 0x210, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex> GetVertices(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
 
-  /// @brief Method IsElided, addr 0x2fadc1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsElided, addr 0x3392a38, size 0x8, virtual true, abstract: false, final true
   inline bool IsElided();
 
-  /// @brief Method IsLegacy, addr 0x2fad7e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsLegacy, addr 0x3392604, size 0x8, virtual true, abstract: false, final true
   inline bool IsLegacy();
 
-  /// @brief Method New, addr 0x2fad78c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x33925a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ITextHandle* New();
 
-  /// @brief Method Update, addr 0x2fad8c4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x33926e0, size 0x70, virtual true, abstract: false, final true
   inline ::UnityEngine::TextCore::Text::TextInfo* Update(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t pixelsPerPoint);
 
-  /// @brief Method get_MeasuredSizes, addr 0x2fad76c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MeasuredSizes, addr 0x3392588, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_MeasuredSizes();
 
-  /// @brief Method get_RoundedSizes, addr 0x2fad77c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_RoundedSizes, addr 0x3392598, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_RoundedSizes();
 
   /// @brief Convert to "::UnityEngine::UIElements::ITextHandle"
   constexpr ::UnityEngine::UIElements::ITextHandle* i___UnityEngine__UIElements__ITextHandle();
 
-  /// @brief Method set_MeasuredSizes, addr 0x2fad774, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_MeasuredSizes, addr 0x3392590, size 0x8, virtual true, abstract: false, final true
   inline void set_MeasuredSizes(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_RoundedSizes, addr 0x2fad784, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_RoundedSizes, addr 0x33925a0, size 0x8, virtual true, abstract: false, final true
   inline void set_RoundedSizes(::UnityEngine::Vector2 value);
 
   // Ctor Parameters []

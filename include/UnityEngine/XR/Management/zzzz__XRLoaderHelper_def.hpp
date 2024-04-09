@@ -44,7 +44,7 @@ public:
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method Deinitialize, addr 0x2db998c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x31a0e3c, size 0x58, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
 
-  /// @brief Method .ctor, addr 0x2db99e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a0e94, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

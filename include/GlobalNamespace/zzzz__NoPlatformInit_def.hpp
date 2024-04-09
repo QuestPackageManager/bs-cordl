@@ -35,18 +35,18 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x2950f18, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2ad2550, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x2950f24, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x2ad255c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   static inline ::GlobalNamespace::NoPlatformInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2950f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad25c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x2950f1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x2ad2554, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformInit"

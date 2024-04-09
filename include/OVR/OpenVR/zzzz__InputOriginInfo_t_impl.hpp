@@ -6,7 +6,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OVR::OpenVR::InputOriginInfo_t::*)()>(
     &::OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName)> {
   constexpr static std::size_t size = 0x86c;
-  constexpr static std::size_t addrs = 0x294a94c;
+  constexpr static std::size_t addrs = 0x2acbf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

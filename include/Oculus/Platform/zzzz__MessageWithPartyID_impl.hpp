@@ -1,5 +1,4 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__PartyID_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithPartyID_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PartyID_def.hpp"
@@ -8,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithPartyID::*)(void*)>(&::Oculus::Platform::MessageWithPartyID::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x284756c;
+  constexpr static std::size_t addrs = 0x29c9b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyID* (::Oculus::Platform::MessageWithPartyID::*)()>(
     &::Oculus::Platform::MessageWithPartyID::GetPartyID)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x28475c4;
+  constexpr static std::size_t addrs = 0x29c9ba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyID* (::Oculus::Platform::MessageWithPartyID::*)(void*)>(
     &::Oculus::Platform::MessageWithPartyID::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2847600;
+  constexpr static std::size_t addrs = 0x29c9be4;
 
   inline static ::MethodInfo const* methodInfo() {
 

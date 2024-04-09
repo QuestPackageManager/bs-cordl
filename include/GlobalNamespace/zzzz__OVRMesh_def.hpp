@@ -141,21 +141,21 @@ public:
   /// @brief Field _meshType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__meshType, put = __cordl_internal_set__meshType))::GlobalNamespace::__OVRMesh__MeshType _meshType;
 
-  /// @brief Method Awake, addr 0x290387c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a85e60, size 0xf4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x2903990, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2a85f74, size 0xbc, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::__OVRMesh__MeshType meshType);
 
   static inline ::GlobalNamespace::OVRMesh* New_ctor();
 
-  /// @brief Method SetMeshType, addr 0x2903874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMeshType, addr 0x2a85e58, size 0x8, virtual false, abstract: false, final false
   inline void SetMeshType(::GlobalNamespace::__OVRMesh__MeshType type);
 
-  /// @brief Method ShouldInitialize, addr 0x2903970, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x2a85f54, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method TransformOvrpMesh, addr 0x2903a4c, size 0xab4, virtual false, abstract: false, final false
+  /// @brief Method TransformOvrpMesh, addr 0x2a86030, size 0xab4, virtual false, abstract: false, final false
   inline void TransformOvrpMesh(::GlobalNamespace::__OVRPlugin__Mesh* ovrpMesh, ::UnityEngine::Mesh* mesh);
 
   constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
@@ -182,16 +182,16 @@ public:
 
   constexpr void __cordl_internal_set__meshType(::GlobalNamespace::__OVRMesh__MeshType value);
 
-  /// @brief Method .ctor, addr 0x2904500, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a86ae4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x2903858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x2a85e3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_Mesh, addr 0x290386c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mesh, addr 0x2a85e50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
-  /// @brief Method set_IsInitialized, addr 0x2903860, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x2a85e44, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
 protected:

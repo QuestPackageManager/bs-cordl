@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_ByteCount, put = set_ByteCount)) int32_t ByteCount;
 
-  __declspec(property(get = get_IncludeLength, put = set_IncludeLength)) bool IncludeLength;
+  __declspec(property(get = get_IncludeLength)) bool IncludeLength;
 
   /// @brief Field <ByteCount>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__ByteCount_k__BackingField, put = __cordl_internal_set__ByteCount_k__BackingField)) int32_t _ByteCount_k__BackingField;
@@ -46,20 +46,17 @@ public:
 
   constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2819d90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299c014, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
-  /// @brief Method get_ByteCount, addr 0x2819fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ByteCount, addr 0x299c414, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
-  /// @brief Method get_IncludeLength, addr 0x2819fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeLength, addr 0x299c424, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
-  /// @brief Method set_ByteCount, addr 0x2819fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ByteCount, addr 0x299c41c, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
-
-  /// @brief Method set_IncludeLength, addr 0x2819fe4, size 0xc, virtual false, abstract: false, final false
-  inline void set_IncludeLength(bool value);
 
 protected:
   // Ctor Parameters []

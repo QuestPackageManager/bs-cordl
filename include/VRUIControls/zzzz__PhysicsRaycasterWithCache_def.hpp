@@ -40,7 +40,7 @@ namespace VRUIControls {
 struct CORDL_TYPE __PhysicsRaycasterWithCache__CachedRaycast {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x301cb80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3401a0c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask);
 
   // Ctor Parameters []
@@ -105,7 +105,7 @@ public:
 
   static inline ::VRUIControls::PhysicsRaycasterWithCache* New_ctor();
 
-  /// @brief Method Raycast, addr 0x301c614, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x34014a0, size 0x56c, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask);
 
   constexpr ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*& __cordl_internal_get__cachedRaycasts();
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x301cbc0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3401a4c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

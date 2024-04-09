@@ -86,22 +86,22 @@ public:
   /// @brief Field _toString, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__toString, put = __cordl_internal_set__toString))::StringW _toString;
 
-  /// @brief Method Equals, addr 0x2ad6af0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ebcfa0, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method Equals, addr 0x2ad69bc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ebce6c, size 0x134, virtual false, abstract: false, final false
   inline bool Equals(::System::Object* comparandObj, bool compareScopeId);
 
-  /// @brief Method GetAddressBytes, addr 0x2ad65f0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetAddressBytes, addr 0x2ebcaa0, size 0x154, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAddressBytes();
 
-  /// @brief Method GetHashCode, addr 0x2ad6af8, size 0x468, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ebcfa8, size 0x468, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsLoopback, addr 0x2ad68c0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsLoopback, addr 0x2ebcd70, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsLoopback(::System::Net::IPAddress* address);
 
-  /// @brief Method MapToIPv6, addr 0x2ad6f60, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method MapToIPv6, addr 0x2ebd410, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Net::IPAddress* MapToIPv6();
 
   static inline ::System::Net::IPAddress* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> address);
@@ -118,25 +118,25 @@ public:
 
   static inline ::System::Net::IPAddress* New_ctor(::cordl_internals::Ptr<uint16_t> numbers, int32_t numbersLength, uint32_t scopeid);
 
-  /// @brief Method Parse, addr 0x2ad6364, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2ebc814, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Net::IPAddress* Parse(::StringW ipString);
 
-  /// @brief Method ThrowAddressNullException, addr 0x2ad5c80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowAddressNullException, addr 0x2ebc130, size 0x50, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ThrowAddressNullException();
 
-  /// @brief Method ToString, addr 0x2ad67b4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ebcc64, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2ad60fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2ebc5ac, size 0x6c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW ipString, ByRef<::System::Net::IPAddress*> address);
 
-  /// @brief Method TryWriteBytes, addr 0x2ad6400, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TryWriteBytes, addr 0x2ebc8b0, size 0x118, virtual false, abstract: false, final false
   inline bool TryWriteBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten);
 
-  /// @brief Method WriteIPv4Bytes, addr 0x2ad65a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method WriteIPv4Bytes, addr 0x2ebca54, size 0x4c, virtual false, abstract: false, final false
   inline void WriteIPv4Bytes(::System::Span_1<uint8_t> destination);
 
-  /// @brief Method WriteIPv6Bytes, addr 0x2ad6518, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WriteIPv6Bytes, addr 0x2ebc9c8, size 0x8c, virtual false, abstract: false, final false
   inline void WriteIPv6Bytes(::System::Span_1<uint8_t> destination);
 
   constexpr uint32_t const& __cordl_internal_get__addressOrScopeId() const;
@@ -163,25 +163,25 @@ public:
 
   constexpr void __cordl_internal_set__toString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ad5f40, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebc3f0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> address);
 
-  /// @brief Method .ctor, addr 0x2ad5c04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebc0b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> address, int64_t scopeid);
 
-  /// @brief Method .ctor, addr 0x2ad5fac, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebc45c, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<uint8_t> address);
 
-  /// @brief Method .ctor, addr 0x2ad5cd0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebc180, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid);
 
-  /// @brief Method .ctor, addr 0x2ad5b80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebc030, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int64_t newAddress);
 
-  /// @brief Method .ctor, addr 0x2ad5f0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebc3bc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint16_t, ::Array<uint16_t>*> numbers, uint32_t scopeid);
 
-  /// @brief Method .ctor, addr 0x2ad5e54, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebc304, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<uint16_t> numbers, int32_t numbersLength, uint32_t scopeid);
 
   static inline ::System::Net::IPAddress* getStaticF_Any();
@@ -198,25 +198,25 @@ public:
 
   static inline ::System::Net::IPAddress* getStaticF_None();
 
-  /// @brief Method get_AddressFamily, addr 0x2ad6744, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x2ebcbf4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
-  /// @brief Method get_IsIPv4, addr 0x2ad5b30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsIPv4, addr 0x2ebbfe0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsIPv4();
 
-  /// @brief Method get_IsIPv6, addr 0x2ad5b40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsIPv6, addr 0x2ebbff0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsIPv6();
 
-  /// @brief Method get_IsIPv6Multicast, addr 0x2ad6988, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_IsIPv6Multicast, addr 0x2ebce38, size 0x34, virtual false, abstract: false, final false
   inline bool get_IsIPv6Multicast();
 
-  /// @brief Method get_PrivateAddress, addr 0x2ad5b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateAddress, addr 0x2ebc000, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_PrivateAddress();
 
-  /// @brief Method get_PrivateScopeId, addr 0x2ad5b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateScopeId, addr 0x2ebc018, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_PrivateScopeId();
 
-  /// @brief Method get_ScopeId, addr 0x2ad675c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ScopeId, addr 0x2ebcc0c, size 0x58, virtual false, abstract: false, final false
   inline int64_t get_ScopeId();
 
   static inline void setStaticF_Any(::System::Net::IPAddress* value);
@@ -233,10 +233,10 @@ public:
 
   static inline void setStaticF_None(::System::Net::IPAddress* value);
 
-  /// @brief Method set_PrivateAddress, addr 0x2ad5b58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_PrivateAddress, addr 0x2ebc008, size 0x10, virtual false, abstract: false, final false
   inline void set_PrivateAddress(uint32_t value);
 
-  /// @brief Method set_PrivateScopeId, addr 0x2ad5b70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_PrivateScopeId, addr 0x2ebc020, size 0x10, virtual false, abstract: false, final false
   inline void set_PrivateScopeId(uint32_t value);
 
 protected:

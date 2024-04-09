@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::HoudiniEngineUnity::HAPI_StorageType value);
 
-  /// @brief Method .ctor, addr 0x23466fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2465c48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

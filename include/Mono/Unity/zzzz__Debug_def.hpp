@@ -28,10 +28,10 @@ namespace Mono::Unity {
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckAndThrow, addr 0x2963ef8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x2b5e7cc, size 0xa0, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method CheckAndThrow, addr 0x2963f98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x2b5e86c, size 0xd8, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context,
                                    ::Mono::Security::Interface::AlertDescription defaultAlert);
 

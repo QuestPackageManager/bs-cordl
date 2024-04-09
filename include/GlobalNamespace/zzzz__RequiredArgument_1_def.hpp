@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RequiredArgument_1)
 // Forward declare root types
@@ -37,7 +38,7 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryParseWithValue(::StringW inValue);
+  inline bool TryParseWithValue(::StringW inValue, ByRef<::StringW> outError);
 
   constexpr T const& __cordl_internal_get__value() const;
 

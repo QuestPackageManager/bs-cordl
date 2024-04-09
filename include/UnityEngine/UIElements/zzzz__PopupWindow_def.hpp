@@ -29,6 +29,39 @@ class __PopupWindow__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::PopupWindow);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__PopupWindow__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__PopupWindow__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::PopupWindow::UxmlFactory*
+class CORDL_TYPE __PopupWindow__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::PopupWindow*, ::UnityEngine::UIElements::__PopupWindow__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__PopupWindow__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x335f514, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PopupWindow__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__PopupWindow__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __PopupWindow__UxmlFactory(__PopupWindow__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__PopupWindow__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __PopupWindow__UxmlFactory(__PopupWindow__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PopupWindow__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -39,7 +72,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__PopupWindow__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f81fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3367de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,14 +126,14 @@ public:
 
   constexpr void __cordl_internal_set_m_ContentContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2f81df8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3367c14, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_contentUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_contentContainer, addr 0x2f81f24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x3367d40, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   static inline void setStaticF_contentUssClassName(::StringW value);
@@ -130,39 +163,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PopupWindow, 0x480>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::PopupWindow, ___m_ContentContainer) == 0x478, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::PopupWindow::UxmlFactory*
-class CORDL_TYPE __PopupWindow__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::PopupWindow*, ::UnityEngine::UIElements::__PopupWindow__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__PopupWindow__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f796f8, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PopupWindow__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PopupWindow__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PopupWindow__UxmlFactory(__PopupWindow__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__PopupWindow__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PopupWindow__UxmlFactory(__PopupWindow__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PopupWindow__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PopupWindow);

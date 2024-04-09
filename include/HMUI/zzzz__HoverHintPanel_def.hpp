@@ -53,18 +53,18 @@ public:
 
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  /// @brief Method Awake, addr 0x22e0644, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23ffa8c, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculatePanelPosition, addr 0x22e06f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x23ffb40, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
 
-  /// @brief Method Hide, addr 0x22dfd18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x23ff160, size 0x28, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method Show, addr 0x22e0154, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x23ff59c, size 0x274, virtual false, abstract: false, final false
   inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x22e0804, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ffc4c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isShown, addr 0x22e0630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x23ffa78, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
-  /// @brief Method set_isShown, addr 0x22e0638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isShown, addr 0x23ffa80, size 0xc, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
 protected:

@@ -37,19 +37,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Alloc, addr 0x25a7cc8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x26cf83c, size 0x17c, virtual false, abstract: false, final false
   inline void Alloc(int32_t length, bool realloc);
 
-  /// @brief Method Decrypt, addr 0x25a8030, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0x26cfba4, size 0x4, virtual false, abstract: false, final false
   inline void Decrypt();
 
-  /// @brief Method Dispose, addr 0x25a7ff8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x26cfb6c, size 0x38, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Encrypt, addr 0x25a7f90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Encrypt, addr 0x26cfb04, size 0x4, virtual false, abstract: false, final false
   inline void Encrypt();
 
-  /// @brief Method GetBuffer, addr 0x25a8034, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x26cfba8, size 0xb0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer();
 
   static inline ::System::Security::SecureString* New_ctor();
@@ -74,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25a7ca4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cf818, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25a7e44, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cf9b8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method get_Length, addr 0x25a7f94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x26cfb08, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IDisposable"

@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Directive_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3022994, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3407820, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW directive);
 
-  /// @brief Method get_Directive, addr 0x30229bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Directive, addr 0x3407848, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Directive();
 
-  /// @brief Method set_Directive, addr 0x30229c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Directive, addr 0x3407850, size 0x8, virtual false, abstract: false, final false
   inline void set_Directive(::StringW value);
 
 protected:

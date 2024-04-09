@@ -24,10 +24,10 @@ public:
 
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
-  /// @brief Method .ctor, addr 0x2e80c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3264a40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e80c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3264a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
 protected:

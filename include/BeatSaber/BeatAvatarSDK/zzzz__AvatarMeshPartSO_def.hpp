@@ -3,7 +3,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartSO_1_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 CORDL_MODULE_EXPORT(AvatarMeshPartSO)
 namespace UnityEngine {
 class Mesh;
@@ -26,10 +25,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe86ed4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5e9ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0xe86e98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0xf5e970, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:

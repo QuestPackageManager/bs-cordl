@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::ReflectionProbeBakingEffect* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x22d0048, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x23ef490, size 0x74, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x22d00bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ef504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

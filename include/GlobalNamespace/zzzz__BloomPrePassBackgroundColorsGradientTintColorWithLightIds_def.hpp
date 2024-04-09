@@ -28,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bloomPrePassBackgroundColorsGradient,
                       put = __cordl_internal_set__bloomPrePassBackgroundColorsGradient))::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> _bloomPrePassBackgroundColorsGradient;
 
-  /// @brief Method ColorWasSet, addr 0x22d2668, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x23f1ab0, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds* New_ctor();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassBackgroundColorsGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value);
 
-  /// @brief Method .ctor, addr 0x22d2688, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f1ad0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -22,16 +22,16 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPad* New_ctor();
 
-  /// @brief Method PadSessionData, addr 0x11477c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PadSessionData, addr 0x1222344, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadSessionData(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo);
 
-  /// @brief Method PadSessionData, addr 0x114206c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method PadSessionData, addr 0x121cbf0, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadSessionData(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo, bool obfuscate);
 
-  /// @brief Method UnpadSessionData, addr 0x11477c8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UnpadSessionData, addr 0x122234c, size 0x138, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UnpadSessionData(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor, addr 0x11477b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122233c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

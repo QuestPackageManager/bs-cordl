@@ -39,10 +39,10 @@ public:
 
   __declspec(property(get = get_textInputField, put = set_textInputField))::UnityEngine::UIElements::ITextInputField* textInputField;
 
-  /// @brief Method ExecuteDefaultAction, addr 0x2f9aed4, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x3380cf0, size 0x158, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2f9aed0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x3380cec, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
@@ -59,19 +59,19 @@ public:
 
   constexpr void __cordl_internal_set__textInputField_k__BackingField(::UnityEngine::UIElements::ITextInputField* value);
 
-  /// @brief Method .ctor, addr 0x2f9ae10, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3380c2c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method get_editorEngine, addr 0x2f9adf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorEngine, addr 0x3380c0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
 
-  /// @brief Method get_textInputField, addr 0x2f9ae00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textInputField, addr 0x3380c1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ITextInputField* get_textInputField();
 
-  /// @brief Method set_editorEngine, addr 0x2f9adf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_editorEngine, addr 0x3380c14, size 0x8, virtual false, abstract: false, final false
   inline void set_editorEngine(::UnityEngine::UIElements::TextEditorEngine* value);
 
-  /// @brief Method set_textInputField, addr 0x2f9ae08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textInputField, addr 0x3380c24, size 0x8, virtual false, abstract: false, final false
   inline void set_textInputField(::UnityEngine::UIElements::ITextInputField* value);
 
 protected:

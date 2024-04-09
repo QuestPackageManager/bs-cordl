@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__ILateTickable_def.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LateTickablesTaskUpdater)
@@ -31,16 +30,16 @@ public:
   // Declarations
   static inline ::Zenject::LateTickablesTaskUpdater* New_ctor();
 
-  /// @brief Method UpdateItem, addr 0x30801c8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x3465054, size 0x9c, virtual true, abstract: false, final false
   inline void UpdateItem(::Zenject::ILateTickable* task);
 
-  /// @brief Method __zenCreate, addr 0x30802ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3465138, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3080304, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3465190, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3080264, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34650f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

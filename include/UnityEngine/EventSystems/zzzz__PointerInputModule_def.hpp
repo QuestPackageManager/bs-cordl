@@ -96,19 +96,19 @@ public:
 
   constexpr void __cordl_internal_set_m_EventData(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* value);
 
-  /// @brief Method .ctor, addr 0x2f031ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e9008, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x2f031dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x32e8ff8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerEventData__InputButton get_button();
 
-  /// @brief Method get_eventData, addr 0x2f031cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventData, addr 0x32e8fe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* get_eventData();
 
-  /// @brief Method set_button, addr 0x2f031e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x32e9000, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::__PointerEventData__InputButton value);
 
-  /// @brief Method set_eventData, addr 0x2f031d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventData, addr 0x32e8ff0, size 0x8, virtual false, abstract: false, final false
   inline void set_eventData(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* value);
 
 protected:
@@ -153,18 +153,18 @@ public:
   __declspec(property(get = __cordl_internal_get_m_TrackedButtons,
                       put = __cordl_internal_set_m_TrackedButtons))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>* m_TrackedButtons;
 
-  /// @brief Method AnyPressesThisFrame, addr 0x2f031f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AnyPressesThisFrame, addr 0x32e9010, size 0xb4, virtual false, abstract: false, final false
   inline bool AnyPressesThisFrame();
 
-  /// @brief Method AnyReleasesThisFrame, addr 0x2f032b8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AnyReleasesThisFrame, addr 0x32e90d4, size 0xb8, virtual false, abstract: false, final false
   inline bool AnyReleasesThisFrame();
 
-  /// @brief Method GetButtonState, addr 0x2f03384, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetButtonState, addr 0x32e91a0, size 0x198, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
 
   static inline ::UnityEngine::EventSystems::__PointerInputModule__MouseState* New_ctor();
 
-  /// @brief Method SetButtonState, addr 0x2f02780, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetButtonState, addr 0x32e859c, size 0x38, virtual false, abstract: false, final false
   inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
                              ::UnityEngine::EventSystems::PointerEventData* data);
 
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TrackedButtons(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>* value);
 
-  /// @brief Method .ctor, addr 0x2f03150, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e8f6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,10 +219,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* New_ctor();
 
-  /// @brief Method PressedThisFrame, addr 0x2f032a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PressedThisFrame, addr 0x32e90c4, size 0x10, virtual false, abstract: false, final false
   inline bool PressedThisFrame();
 
-  /// @brief Method ReleasedThisFrame, addr 0x2f03370, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReleasedThisFrame, addr 0x32e918c, size 0x14, virtual false, abstract: false, final false
   inline bool ReleasedThisFrame();
 
   constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_buttonData();
@@ -237,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
 
-  /// @brief Method .ctor, addr 0x2f0351c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e9338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -291,51 +291,51 @@ public:
   __declspec(property(get = __cordl_internal_get_m_PointerData,
                       put = __cordl_internal_set_m_PointerData))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* m_PointerData;
 
-  /// @brief Method ClearSelection, addr 0x2f02b90, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x32e89ac, size 0x1c0, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method CopyFromTo, addr 0x2f02358, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CopyFromTo, addr 0x32e8174, size 0x90, virtual false, abstract: false, final false
   inline void CopyFromTo(::UnityEngine::EventSystems::PointerEventData* from, ::UnityEngine::EventSystems::PointerEventData* to);
 
-  /// @brief Method DeselectIfSelectionChanged, addr 0x2f02fc0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DeselectIfSelectionChanged, addr 0x32e8ddc, size 0xec, virtual false, abstract: false, final false
   inline void DeselectIfSelectionChanged(::UnityEngine::GameObject* currentOverGo, ::UnityEngine::EventSystems::BaseEventData* pointerEvent);
 
-  /// @brief Method GetLastPointerEventData, addr 0x2f027b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetLastPointerEventData, addr 0x32e85d4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int32_t id);
 
-  /// @brief Method GetMousePointerEventData, addr 0x2f02464, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetMousePointerEventData, addr 0x32e8280, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseState* GetMousePointerEventData();
 
-  /// @brief Method GetMousePointerEventData, addr 0x2f02478, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method GetMousePointerEventData, addr 0x32e8294, size 0x308, virtual true, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseState* GetMousePointerEventData(int32_t id);
 
-  /// @brief Method GetPointerData, addr 0x2f01eac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetPointerData, addr 0x32e7cc8, size 0xe8, virtual false, abstract: false, final false
   inline bool GetPointerData(int32_t id, ByRef<::UnityEngine::EventSystems::PointerEventData*> data, bool create);
 
-  /// @brief Method GetTouchPointerEventData, addr 0x2f01ff0, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method GetTouchPointerEventData, addr 0x32e7e0c, size 0x368, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData* GetTouchPointerEventData(::UnityEngine::Touch input, ByRef<bool> pressed, ByRef<bool> released);
 
-  /// @brief Method IsPointerOverGameObject, addr 0x2f02af4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method IsPointerOverGameObject, addr 0x32e8910, size 0x9c, virtual true, abstract: false, final false
   inline bool IsPointerOverGameObject(int32_t pointerId);
 
   static inline ::UnityEngine::EventSystems::PointerInputModule* New_ctor();
 
-  /// @brief Method ProcessDrag, addr 0x2f0284c, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ProcessDrag, addr 0x32e8668, size 0x2a8, virtual true, abstract: false, final false
   inline void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method ProcessMove, addr 0x2f02808, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ProcessMove, addr 0x32e8624, size 0x44, virtual true, abstract: false, final false
   inline void ProcessMove(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method RemovePointerData, addr 0x2f01f94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RemovePointerData, addr 0x32e7db0, size 0x5c, virtual false, abstract: false, final false
   inline void RemovePointerData(::UnityEngine::EventSystems::PointerEventData* data);
 
-  /// @brief Method ShouldStartDrag, addr 0x2f027d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShouldStartDrag, addr 0x32e85f4, size 0x30, virtual false, abstract: false, final false
   static inline bool ShouldStartDrag(::UnityEngine::Vector2 pressPos, ::UnityEngine::Vector2 currentPos, float_t threshold, bool useDragThreshold);
 
-  /// @brief Method StateForMouseButton, addr 0x2f023e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method StateForMouseButton, addr 0x32e8204, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerEventData__FramePressState StateForMouseButton(int32_t buttonId);
 
-  /// @brief Method ToString, addr 0x2f02d50, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32e8b6c, size 0x270, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseState*& __cordl_internal_get_m_MouseState();
@@ -351,7 +351,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x2f030ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e8ec8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

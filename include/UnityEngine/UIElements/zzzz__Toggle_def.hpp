@@ -4,7 +4,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseBoolField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Toggle)
@@ -13,6 +12,9 @@ struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -40,6 +42,39 @@ class __Toggle__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::Toggle);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Toggle__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Toggle__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::Toggle::UxmlFactory*
+class CORDL_TYPE __Toggle__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*, ::UnityEngine::UIElements::__Toggle__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__Toggle__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x3380a0c, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Toggle__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Toggle__UxmlFactory(__Toggle__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Toggle__UxmlFactory(__Toggle__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Toggle__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -51,7 +86,7 @@ public:
   /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x2f9ac38, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3380a54, size 0x118, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Toggle__UxmlTraits* New_ctor();
@@ -62,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2f9ad50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3380b6c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,17 +155,17 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  /// @brief Method InitLabel, addr 0x2f9aa08, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x3380824, size 0x78, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x2f9a028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337fe44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f9a90c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3380728, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -175,39 +210,6 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle, 0x428>, "Size mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::Toggle::UxmlFactory*
-class CORDL_TYPE __Toggle__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*, ::UnityEngine::UIElements::__Toggle__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__Toggle__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f9abf0, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Toggle__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Toggle__UxmlFactory(__Toggle__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Toggle__UxmlFactory(__Toggle__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Toggle__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Toggle);

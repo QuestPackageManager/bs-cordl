@@ -168,30 +168,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
 
-  /// @brief Method FinishSetup, addr 0x2bb2f04, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2f993b4, size 0x2e0, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x2bb31e4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x2f99694, size 0x4c, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Gamepad* New_ctor();
 
-  /// @brief Method OnAdded, addr 0x2bb3234, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnAdded, addr 0x2f996e4, size 0x78, virtual true, abstract: false, final false
   inline void OnAdded();
 
-  /// @brief Method OnRemoved, addr 0x2bb32ac, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x2f9975c, size 0x118, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method PauseHaptics, addr 0x2bb33c4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method PauseHaptics, addr 0x2f99874, size 0x10, virtual true, abstract: false, final false
   inline void PauseHaptics();
 
-  /// @brief Method ResetHaptics, addr 0x2bb33e4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ResetHaptics, addr 0x2f99894, size 0x10, virtual true, abstract: false, final false
   inline void ResetHaptics();
 
-  /// @brief Method ResumeHaptics, addr 0x2bb33d4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ResumeHaptics, addr 0x2f99884, size 0x10, virtual true, abstract: false, final false
   inline void ResumeHaptics();
 
-  /// @brief Method SetMotorSpeeds, addr 0x2bb33f4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SetMotorSpeeds, addr 0x2f998a4, size 0x10, virtual true, abstract: false, final false
   inline void SetMotorSpeeds(float_t lowFrequency, float_t highFrequency);
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__buttonEast_k__BackingField();
@@ -290,7 +290,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Rumble(::UnityEngine::InputSystem::Haptics::DualMotorRumble value);
 
-  /// @brief Method .ctor, addr 0x2bb3404, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f998b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Gamepad* getStaticF__current_k__BackingField();
@@ -299,82 +299,82 @@ public:
 
   static inline ::ArrayW<::UnityEngine::InputSystem::Gamepad*, ::Array<::UnityEngine::InputSystem::Gamepad*>*> getStaticF_s_Gamepads();
 
-  /// @brief Method get_Item, addr 0x2bb2c8c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2f9913c, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_Item(::UnityEngine::InputSystem::LowLevel::GamepadButton button);
 
-  /// @brief Method get_aButton, addr 0x2bb2c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aButton, addr 0x2f990fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_aButton();
 
-  /// @brief Method get_all, addr 0x2bb2e84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x2f99334, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Gamepad*> get_all();
 
-  /// @brief Method get_bButton, addr 0x2bb2c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bButton, addr 0x2f99104, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_bButton();
 
-  /// @brief Method get_buttonEast, addr 0x2bb2b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buttonEast, addr 0x2f9903c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_buttonEast();
 
-  /// @brief Method get_buttonNorth, addr 0x2bb2b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buttonNorth, addr 0x2f9901c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_buttonNorth();
 
-  /// @brief Method get_buttonSouth, addr 0x2bb2b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buttonSouth, addr 0x2f9902c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_buttonSouth();
 
-  /// @brief Method get_buttonWest, addr 0x2bb2b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buttonWest, addr 0x2f9900c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_buttonWest();
 
-  /// @brief Method get_circleButton, addr 0x2bb2c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_circleButton, addr 0x2f9912c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_circleButton();
 
-  /// @brief Method get_crossButton, addr 0x2bb2c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_crossButton, addr 0x2f99134, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_crossButton();
 
-  /// @brief Method get_current, addr 0x2bb2df0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2f992a0, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Gamepad* get_current();
 
-  /// @brief Method get_dpad, addr 0x2bb2bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dpad, addr 0x2f9908c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DpadControl* get_dpad();
 
-  /// @brief Method get_leftShoulder, addr 0x2bb2bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftShoulder, addr 0x2f9909c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_leftShoulder();
 
-  /// @brief Method get_leftStick, addr 0x2bb2c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftStick, addr 0x2f990bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::StickControl* get_leftStick();
 
-  /// @brief Method get_leftStickButton, addr 0x2bb2b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftStickButton, addr 0x2f9904c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_leftStickButton();
 
-  /// @brief Method get_leftTrigger, addr 0x2bb2c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftTrigger, addr 0x2f990dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_leftTrigger();
 
-  /// @brief Method get_rightShoulder, addr 0x2bb2bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightShoulder, addr 0x2f990ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_rightShoulder();
 
-  /// @brief Method get_rightStick, addr 0x2bb2c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightStick, addr 0x2f990cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::StickControl* get_rightStick();
 
-  /// @brief Method get_rightStickButton, addr 0x2bb2bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightStickButton, addr 0x2f9905c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_rightStickButton();
 
-  /// @brief Method get_rightTrigger, addr 0x2bb2c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightTrigger, addr 0x2f990ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_rightTrigger();
 
-  /// @brief Method get_selectButton, addr 0x2bb2bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectButton, addr 0x2f9907c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_selectButton();
 
-  /// @brief Method get_squareButton, addr 0x2bb2c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squareButton, addr 0x2f99124, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_squareButton();
 
-  /// @brief Method get_startButton, addr 0x2bb2bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startButton, addr 0x2f9906c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_startButton();
 
-  /// @brief Method get_triangleButton, addr 0x2bb2c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triangleButton, addr 0x2f9911c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triangleButton();
 
-  /// @brief Method get_xButton, addr 0x2bb2c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xButton, addr 0x2f9910c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_xButton();
 
-  /// @brief Method get_yButton, addr 0x2bb2c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yButton, addr 0x2f99114, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_yButton();
 
   /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
@@ -389,52 +389,52 @@ public:
 
   static inline void setStaticF_s_Gamepads(::ArrayW<::UnityEngine::InputSystem::Gamepad*, ::Array<::UnityEngine::InputSystem::Gamepad*>*> value);
 
-  /// @brief Method set_buttonEast, addr 0x2bb2b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buttonEast, addr 0x2f99044, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonEast(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_buttonNorth, addr 0x2bb2b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buttonNorth, addr 0x2f99024, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonNorth(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_buttonSouth, addr 0x2bb2b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buttonSouth, addr 0x2f99034, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonSouth(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_buttonWest, addr 0x2bb2b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buttonWest, addr 0x2f99014, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonWest(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_current, addr 0x2bb2e38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x2f992e8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Gamepad* value);
 
-  /// @brief Method set_dpad, addr 0x2bb2be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dpad, addr 0x2f99094, size 0x8, virtual false, abstract: false, final false
   inline void set_dpad(::UnityEngine::InputSystem::Controls::DpadControl* value);
 
-  /// @brief Method set_leftShoulder, addr 0x2bb2bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftShoulder, addr 0x2f990a4, size 0x8, virtual false, abstract: false, final false
   inline void set_leftShoulder(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_leftStick, addr 0x2bb2c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftStick, addr 0x2f990c4, size 0x8, virtual false, abstract: false, final false
   inline void set_leftStick(::UnityEngine::InputSystem::Controls::StickControl* value);
 
-  /// @brief Method set_leftStickButton, addr 0x2bb2ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftStickButton, addr 0x2f99054, size 0x8, virtual false, abstract: false, final false
   inline void set_leftStickButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_leftTrigger, addr 0x2bb2c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftTrigger, addr 0x2f990e4, size 0x8, virtual false, abstract: false, final false
   inline void set_leftTrigger(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_rightShoulder, addr 0x2bb2c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightShoulder, addr 0x2f990b4, size 0x8, virtual false, abstract: false, final false
   inline void set_rightShoulder(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_rightStick, addr 0x2bb2c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightStick, addr 0x2f990d4, size 0x8, virtual false, abstract: false, final false
   inline void set_rightStick(::UnityEngine::InputSystem::Controls::StickControl* value);
 
-  /// @brief Method set_rightStickButton, addr 0x2bb2bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightStickButton, addr 0x2f99064, size 0x8, virtual false, abstract: false, final false
   inline void set_rightStickButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_rightTrigger, addr 0x2bb2c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightTrigger, addr 0x2f990f4, size 0x8, virtual false, abstract: false, final false
   inline void set_rightTrigger(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_selectButton, addr 0x2bb2bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectButton, addr 0x2f99084, size 0x8, virtual false, abstract: false, final false
   inline void set_selectButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_startButton, addr 0x2bb2bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startButton, addr 0x2f99074, size 0x8, virtual false, abstract: false, final false
   inline void set_startButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

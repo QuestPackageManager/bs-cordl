@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_AgeCategory(::Oculus::Platform::AccountAgeCategory value);
 
-  /// @brief Method .ctor, addr 0x285d2e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29df8c8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

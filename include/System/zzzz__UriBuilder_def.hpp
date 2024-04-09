@@ -71,13 +71,13 @@ public:
   /// @brief Field _username, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username))::StringW _username;
 
-  /// @brief Method Equals, addr 0x2a92ad4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e79f7c, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* rparam);
 
-  /// @brief Method GetHashCode, addr 0x2a92b30, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e79fd8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Init, addr 0x2a921e0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2e79688, size 0x174, virtual false, abstract: false, final false
   inline void Init(::System::Uri* uri);
 
   static inline ::System::UriBuilder* New_ctor();
@@ -86,10 +86,10 @@ public:
 
   static inline ::System::UriBuilder* New_ctor(::System::Uri* uri);
 
-  /// @brief Method SetFieldsFromUri, addr 0x2a924c8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetFieldsFromUri, addr 0x2e79970, size 0x164, virtual false, abstract: false, final false
   inline void SetFieldsFromUri(::System::Uri* uri);
 
-  /// @brief Method ToString, addr 0x2a92b50, size 0x4cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e79ff8, size 0x4cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get__changed() const;
@@ -158,31 +158,31 @@ public:
 
   constexpr void __cordl_internal_set__username(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a91f2c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e793d4, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2a92038, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e794e0, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW uri);
 
-  /// @brief Method .ctor, addr 0x2a92354, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e797fc, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri);
 
-  /// @brief Method get_Uri, addr 0x2a92a3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x2e79ee4, size 0x98, virtual false, abstract: false, final false
   inline ::System::Uri* get_Uri();
 
-  /// @brief Method set_Host, addr 0x2a9262c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x2e79ad4, size 0xec, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
-  /// @brief Method set_Path, addr 0x2a92718, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x2e79bc0, size 0xb4, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method set_Port, addr 0x2a927cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Port, addr 0x2e79c74, size 0x70, virtual false, abstract: false, final false
   inline void set_Port(int32_t value);
 
-  /// @brief Method set_Query, addr 0x2a9283c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Query, addr 0x2e79ce4, size 0xb8, virtual false, abstract: false, final false
   inline void set_Query(::StringW value);
 
-  /// @brief Method set_Scheme, addr 0x2a928f4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Scheme, addr 0x2e79d9c, size 0x148, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
 protected:

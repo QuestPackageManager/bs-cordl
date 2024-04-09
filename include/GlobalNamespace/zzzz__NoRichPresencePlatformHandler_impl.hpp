@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::get_currentPresenceApiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x246b444;
+  constexpr static std::size_t addrs = 0x25927ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoRichPresencePlatformHandler*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)(::StringW)>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::set_currentPresenceApiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x246b44c;
+  constexpr static std::size_t addrs = 0x25927b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)(::GlobalNamespace::IRichPresenceData*)>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::SetPresence)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x246b454;
+  constexpr static std::size_t addrs = 0x25927bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::Clear)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x246b4fc;
+  constexpr static std::size_t addrs = 0x2592864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoRichPresencePlatformHandler*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x246b54c;
+  constexpr static std::size_t addrs = 0x25928b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoRichPresencePlatformHandler*>::get(),

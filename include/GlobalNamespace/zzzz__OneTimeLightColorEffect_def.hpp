@@ -40,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::OneTimeLightColorEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x24910d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x25b545c, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__lightsId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x249112c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b54b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

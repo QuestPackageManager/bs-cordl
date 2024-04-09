@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_normalizedString::*)()>(
     &::System::Xml::Schema::Datatype_normalizedString::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a0696c;
+  constexpr static std::size_t addrs = 0x2e0b9a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,13 +25,29 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_normalizedString::*)()>(
     &::System::Xml::Schema::Datatype_normalizedString::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a06974;
+  constexpr static std::size_t addrs = 0x2e0b9ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(), 14));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(), 19));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Datatype_normalizedString.get_HasValueFacets
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_normalizedString::*)()>(
+    &::System::Xml::Schema::Datatype_normalizedString::get_HasValueFacets)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2e0b9b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(), 11));
     return ___internal_method;
   }
 };
@@ -41,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_normalizedString::*)()>(
     &::System::Xml::Schema::Datatype_normalizedString::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2a0697c;
+  constexpr static std::size_t addrs = 0x2e03e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(),
@@ -56,8 +72,13 @@ inline ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_normaliz
 }
 inline ::System::Xml::Schema::XmlSchemaWhiteSpace System::Xml::Schema::Datatype_normalizedString::get_BuiltInWhitespaceFacet() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(), 14)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaWhiteSpace, false>(this, ___internal_method);
+}
+inline bool System::Xml::Schema::Datatype_normalizedString::get_HasValueFacets() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Xml::Schema::Datatype_normalizedString* System::Xml::Schema::Datatype_normalizedString::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_normalizedString*>());

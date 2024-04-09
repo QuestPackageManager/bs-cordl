@@ -2,13 +2,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AssetBundle_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -18,6 +15,9 @@ class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelDataLoadRequest___LoadDataAsyncInternal_d__8;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x12e9408, size 0x634, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x13c13d0, size 0x650, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x12e9a3c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x13c1a20, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -154,16 +154,16 @@ public:
   /// @brief Field _assetBundlePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__assetBundlePath, put = __cordl_internal_set__assetBundlePath))::StringW _assetBundlePath;
 
+  /// @brief Field _externalCancellationTokens, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__externalCancellationTokens,
+                      put = __cordl_internal_set__externalCancellationTokens))::System::Collections::Generic::List_1<::System::Threading::CancellationToken>* _externalCancellationTokens;
+
   /// @brief Field _internalCancellationSource, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__internalCancellationSource,
                       put = __cordl_internal_set__internalCancellationSource))::System::Threading::CancellationTokenSource* _internalCancellationSource;
 
   /// @brief Field _levelDataAssetName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelDataAssetName, put = __cordl_internal_set__levelDataAssetName))::StringW _levelDataAssetName;
-
-  /// @brief Field _linkedCancellationSource, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__linkedCancellationSource,
-                      put = __cordl_internal_set__linkedCancellationSource))::System::Threading::CancellationTokenSource* _linkedCancellationSource;
 
   /// @brief Field _task, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__task, put = __cordl_internal_set__task))::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* _task;
@@ -174,23 +174,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x12e8a18, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x13c078c, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LoadDataAsync, addr 0x12e8a88, size 0x3c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsync();
+  /// @brief Method LoadDataAsync, addr 0x13c07ec, size 0xcc, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsync(::System::Threading::CancellationToken externalCancellationToken);
 
-  /// @brief Method LoadDataAsyncInternal, addr 0x12e9288, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsyncInternal, addr 0x13c107c, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
-  static inline ::GlobalNamespace::BeatmapLevelDataLoadRequest* New_ctor(::StringW assetBundlePath, ::StringW levelDataAssetName, ::System::Threading::CancellationToken externalCancellationToken);
+  static inline ::GlobalNamespace::BeatmapLevelDataLoadRequest* New_ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method UnloadBundle, addr 0x12e9384, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfExternalCancellationRequested, addr 0x13c1178, size 0x1d4, virtual false, abstract: false, final false
+  inline void ThrowIfExternalCancellationRequested();
+
+  /// @brief Method UnloadBundle, addr 0x13c134c, size 0x84, virtual false, abstract: false, final false
   inline void UnloadBundle();
 
   constexpr ::StringW const& __cordl_internal_get__assetBundlePath() const;
 
   constexpr ::StringW& __cordl_internal_get__assetBundlePath();
+
+  constexpr ::System::Collections::Generic::List_1<::System::Threading::CancellationToken>*& __cordl_internal_get__externalCancellationTokens();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::CancellationToken>*> const& __cordl_internal_get__externalCancellationTokens() const;
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__internalCancellationSource();
 
@@ -199,10 +206,6 @@ public:
   constexpr ::StringW const& __cordl_internal_get__levelDataAssetName() const;
 
   constexpr ::StringW& __cordl_internal_get__levelDataAssetName();
-
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__linkedCancellationSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__linkedCancellationSource() const;
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>*& __cordl_internal_get__task();
 
@@ -214,23 +217,23 @@ public:
 
   constexpr void __cordl_internal_set__assetBundlePath(::StringW value);
 
+  constexpr void __cordl_internal_set__externalCancellationTokens(::System::Collections::Generic::List_1<::System::Threading::CancellationToken>* value);
+
   constexpr void __cordl_internal_set__internalCancellationSource(::System::Threading::CancellationTokenSource* value);
 
   constexpr void __cordl_internal_set__levelDataAssetName(::StringW value);
-
-  constexpr void __cordl_internal_set__linkedCancellationSource(::System::Threading::CancellationTokenSource* value);
 
   constexpr void __cordl_internal_set__task(::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* value);
 
   constexpr void __cordl_internal_set_assetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  /// @brief Method .ctor, addr 0x12e8ac4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW assetBundlePath, ::StringW levelDataAssetName, ::System::Threading::CancellationToken externalCancellationToken);
+  /// @brief Method .ctor, addr 0x13c08b8, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method get_HasFailed, addr 0x12e89dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_HasFailed, addr 0x13c0750, size 0x3c, virtual false, abstract: false, final false
   inline bool get_HasFailed();
 
-  /// @brief Method get_HasValidResult, addr 0x12e91b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_HasValidResult, addr 0x13c0fac, size 0x78, virtual false, abstract: false, final false
   inline bool get_HasValidResult();
 
   /// @brief Convert to "::System::IDisposable"
@@ -262,8 +265,8 @@ public:
   /// @brief Field _internalCancellationSource, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____internalCancellationSource;
 
-  /// @brief Field _linkedCancellationSource, offset: 0x30, size: 0x8, def value: None
-  ::System::Threading::CancellationTokenSource* ____linkedCancellationSource;
+  /// @brief Field _externalCancellationTokens, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::System::Threading::CancellationToken>* ____externalCancellationTokens;
 
   /// @brief Field assetBundle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AssetBundle> ___assetBundle;
@@ -281,7 +284,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoadRequest, ____level
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoadRequest, ____internalCancellationSource) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoadRequest, ____linkedCancellationSource) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoadRequest, ____externalCancellationTokens) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoadRequest, ___assetBundle) == 0x38, "Offset mismatch!");
 

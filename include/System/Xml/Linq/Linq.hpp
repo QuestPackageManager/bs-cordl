@@ -3,7 +3,12 @@ module;
 #endif
 
 #pragma once
+#include "System/Xml/Linq/BaseUriAnnotation.hpp"
 #include "System/Xml/Linq/ElementWriter.hpp"
+#include "System/Xml/Linq/LineInfoAnnotation.hpp"
+#include "System/Xml/Linq/LineInfoEndElementAnnotation.hpp"
+#include "System/Xml/Linq/LoadOptions.hpp"
+#include "System/Xml/Linq/NamespaceCache.hpp"
 #include "System/Xml/Linq/NamespaceResolver.hpp"
 #include "System/Xml/Linq/SaveOptions.hpp"
 #include "System/Xml/Linq/XAttribute.hpp"

@@ -1,13 +1,13 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__BlockedUser_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__BlockedUserList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__BlockedUser_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::BlockedUserList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::BlockedUserList::*)(void*)>(&::Oculus::Platform::Models::BlockedUserList::_ctor)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2859078;
+  constexpr static std::size_t addrs = 0x29db65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

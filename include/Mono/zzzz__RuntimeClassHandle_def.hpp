@@ -30,25 +30,25 @@ public:
   // Declarations
   __declspec(property(get = get_Value))::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> Value;
 
-  /// @brief Method Equals, addr 0x2567878, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x268d364, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x256797c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x268d468, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeFromClass, addr 0x25679a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromClass, addr 0x268d490, size 0x4, virtual false, abstract: false, final false
   static inline void* GetTypeFromClass(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> klass);
 
-  /// @brief Method GetTypeHandle, addr 0x25679a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHandle, addr 0x268d494, size 0x8, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle GetTypeHandle();
 
-  /// @brief Method .ctor, addr 0x2567850, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268d33c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method .ctor, addr 0x2567848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268d334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value);
 
-  /// @brief Method get_Value, addr 0x2567870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x268d35c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> get_Value();
 
   // Ctor Parameters []

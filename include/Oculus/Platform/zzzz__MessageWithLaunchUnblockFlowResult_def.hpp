@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__LaunchUnblockFlowResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithLaunchUnblockFlowResult)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchUnblockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2846490, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c8a74, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetLaunchUnblockFlowResult, addr 0x2846454, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchUnblockFlowResult, addr 0x29c8a38, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchUnblockFlowResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2843564, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c5b48, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DsaParameters* value);
 
-  /// @brief Method .ctor, addr 0xfc2e18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x109c99c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0xfc2e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x109c9e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();
 
 protected:

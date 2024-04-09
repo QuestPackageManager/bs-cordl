@@ -12,7 +12,7 @@ class JsonDictionaryAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonDictionaryAttribute);
 // Type: Newtonsoft.Json::JsonDictionaryAttribute
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json::JsonDictionaryAttribute*
@@ -23,10 +23,10 @@ public:
 
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x2791f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c3974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2791f90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c397c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:
@@ -46,7 +46,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonDictionaryAttribute, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonDictionaryAttribute, 0x68>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonDictionaryAttribute);

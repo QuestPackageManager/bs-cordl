@@ -38,24 +38,24 @@ public:
 
   __declspec(property(get = get_playerDataFileModel))::GlobalNamespace::PlayerDataFileModel* playerDataFileModel;
 
-  /// @brief Method Inject, addr 0x131e500, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x13f79cc, size 0x28, virtual false, abstract: false, final false
   inline void Inject(::StringW playerDataJsonString, ::GlobalNamespace::PlayerDataFileModel* playerDataFileModel);
 
   static inline ::GlobalNamespace::PlayerDataModel* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x131e528, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x13f79f4, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDisable, addr 0x131e554, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x13f7a20, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method ResetData, addr 0x131e5d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetData, addr 0x13f7aa0, size 0x24, virtual false, abstract: false, final false
   inline void ResetData();
 
-  /// @brief Method Save, addr 0x131e534, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x13f7a00, size 0x20, virtual false, abstract: false, final false
   inline void Save();
 
-  /// @brief Method SaveAsync, addr 0x131e5f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x13f7ac4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
   constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataFileModel(::GlobalNamespace::PlayerDataFileModel* value);
 
-  /// @brief Method .ctor, addr 0x131e618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13f7ae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerData, addr 0x131e4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerData, addr 0x13f79c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* get_playerData();
 
-  /// @brief Method get_playerDataFileModel, addr 0x131e4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerDataFileModel, addr 0x13f79bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerDataFileModel* get_playerDataFileModel();
 
 protected:

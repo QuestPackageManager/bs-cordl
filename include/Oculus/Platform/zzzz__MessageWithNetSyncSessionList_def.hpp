@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__NetSyncSessionList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithNetSyncSessionList)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithNetSyncSessionList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2846eb8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c949c, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetNetSyncSessionList, addr 0x2846e7c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSessionList, addr 0x29c9460, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
 
   static inline ::Oculus::Platform::MessageWithNetSyncSessionList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2846e24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c9408, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

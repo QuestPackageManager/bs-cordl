@@ -19,6 +19,39 @@ class __Box__UxmlFactory;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Box);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Box__UxmlFactory);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::Box::UxmlFactory*
+class CORDL_TYPE __Box__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_1<::UnityEngine::UIElements::Box*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__Box__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x3378428, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Box__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Box__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Box__UxmlFactory(__Box__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Box__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Box__UxmlFactory(__Box__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Box__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Box
 // SizeInfo { instance_size: 944, native_size: -1, calculated_instance_size: 944, calculated_native_size: 944, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -34,7 +67,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Box* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f92518, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378334, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -59,39 +92,6 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x3b0>, "Size mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::Box::UxmlFactory*
-class CORDL_TYPE __Box__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_1<::UnityEngine::UIElements::Box*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__Box__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f9260c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Box__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Box__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Box__UxmlFactory(__Box__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Box__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Box__UxmlFactory(__Box__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Box__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Box);

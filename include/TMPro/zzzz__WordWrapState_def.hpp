@@ -8,7 +8,6 @@ CORDL_MODULE_INIT
 #include "TMPro/zzzz__HighlightState_def.hpp"
 #include "TMPro/zzzz__HorizontalAlignmentOptions_def.hpp"
 #include "TMPro/zzzz__MaterialReference_def.hpp"
-#include "TMPro/zzzz__TMP_ColorGradient_def.hpp"
 #include "TMPro/zzzz__TMP_FontStyleStack_def.hpp"
 #include "TMPro/zzzz__TMP_LineInfo_def.hpp"
 #include "TMPro/zzzz__TMP_TextProcessingStack_1_def.hpp"

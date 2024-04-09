@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_Message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x285a0e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dc6c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t code, ::StringW message, int32_t httpCode);
 
 protected:

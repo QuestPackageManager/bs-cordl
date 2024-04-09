@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12fd1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d6c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightColor, addr 0x12fd1a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_lightColor, addr 0x13d6bec, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_lightColor();
 
 protected:
@@ -157,16 +157,16 @@ public:
 
   constexpr void __cordl_internal_set__playersPlaceNeonsIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x12fd190, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d6bdc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightIdColorPairs, addr 0x12fd188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightIdColorPairs, addr 0x13d6bd4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> get_lightIdColorPairs();
 
-  /// @brief Method get_playersPlaceNeonsColor, addr 0x12fd178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playersPlaceNeonsColor, addr 0x13d6bc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSO> get_playersPlaceNeonsColor();
 
-  /// @brief Method get_playersPlaceNeonsIntensity, addr 0x12fd180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playersPlaceNeonsIntensity, addr 0x13d6bcc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playersPlaceNeonsIntensity();
 
 protected:

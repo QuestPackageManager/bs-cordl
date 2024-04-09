@@ -52,6 +52,40 @@ class __MultiplayerLocalInactivePlayerFacade__Factory;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory);
+// Type: ::Factory
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::MultiplayerLocalInactivePlayerFacade::Factory*
+class CORDL_TYPE __MultiplayerLocalInactivePlayerFacade__Factory
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25f77d8, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerLocalInactivePlayerFacade__Factory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalInactivePlayerFacade__Factory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __MultiplayerLocalInactivePlayerFacade__Factory(__MultiplayerLocalInactivePlayerFacade__Factory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalInactivePlayerFacade__Factory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __MultiplayerLocalInactivePlayerFacade__Factory(__MultiplayerLocalInactivePlayerFacade__Factory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory, 0x20>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::MultiplayerLocalInactivePlayerFacade
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -105,10 +139,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade* New_ctor();
 
-  /// @brief Method ReportPlayerDidFinish, addr 0x24d22a4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerDidFinish, addr 0x25f7798, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x24d22c0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x25f77b4, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> const& __cordl_internal_get__inactivePlayerSongSyncController() const;
@@ -147,28 +181,28 @@ public:
 
   constexpr void __cordl_internal_set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x24d22dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f77d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFinishEvent, addr 0x24d1fe4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x25f74d8, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x24d2144, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x25f7638, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method get_introAnimator, addr 0x24d1fb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x25f74ac, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_introAnimator();
 
-  /// @brief Method get_introPlayableDirector, addr 0x24d1fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introPlayableDirector, addr 0x25f74c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_introPlayableDirector();
 
-  /// @brief Method get_outroAnimator, addr 0x24d1fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x25f74d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> get_outroAnimator();
 
-  /// @brief Method get_songController, addr 0x24d1fa8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songController, addr 0x25f749c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
-  /// @brief Method get_spectatorController, addr 0x24d1fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spectatorController, addr 0x25f74a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> get_spectatorController();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsListener"
@@ -180,10 +214,10 @@ public:
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
-  /// @brief Method remove_playerDidFinishEvent, addr 0x24d2094, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x25f7588, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x24d21f4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x25f76e8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
 protected:
@@ -234,40 +268,6 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade, 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade, ___playerDidFinishEvent) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade, ___playerNetworkDidFailedEvent) == 0x40, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Factory
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::MultiplayerLocalInactivePlayerFacade::Factory*
-class CORDL_TYPE __MultiplayerLocalInactivePlayerFacade__Factory
-    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24d22e4, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerLocalInactivePlayerFacade__Factory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalInactivePlayerFacade__Factory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerLocalInactivePlayerFacade__Factory(__MultiplayerLocalInactivePlayerFacade__Factory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalInactivePlayerFacade__Factory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerLocalInactivePlayerFacade__Factory(__MultiplayerLocalInactivePlayerFacade__Factory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade);

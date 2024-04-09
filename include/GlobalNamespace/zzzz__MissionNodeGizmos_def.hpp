@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__missionProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel> value);
 
-  /// @brief Method .ctor, addr 0x24060bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2528c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

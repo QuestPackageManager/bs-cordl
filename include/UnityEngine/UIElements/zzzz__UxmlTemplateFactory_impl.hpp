@@ -1,10 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlTemplateTraits_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTemplateFactory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlTemplateTraits_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlTemplateFactory.get_uxmlName
 template <>
@@ -12,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlTemplateFactory::*)()>(
     &::UnityEngine::UIElements::UxmlTemplateFactory::get_uxmlName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2f76648;
+  constexpr static std::size_t addrs = 0x335b464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlTemplateFactory::*)()>(
     &::UnityEngine::UIElements::UxmlTemplateFactory::get_uxmlQualifiedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2f76688;
+  constexpr static std::size_t addrs = 0x335b4a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::UxmlTemplateFactory::*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
         &::UnityEngine::UIElements::UxmlTemplateFactory::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f766fc;
+  constexpr static std::size_t addrs = 0x335b518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlTemplateFactory::*)()>(&::UnityEngine::UIElements::UxmlTemplateFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2f76704;
+  constexpr static std::size_t addrs = 0x335b520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlTemplateFactory*>::get(), ".ctor",

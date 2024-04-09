@@ -2,11 +2,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
 #include "Zenject/zzzz__PoolableMemoryPool_3_def.hpp"
-#include "Zenject/zzzz__SignalDeclaration_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalSubscription)
 namespace System {
@@ -43,6 +41,45 @@ class __SignalSubscription__Pool;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalSubscription);
 MARK_REF_PTR_T(::Zenject::__SignalSubscription__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace Zenject {
+// Is value type: false
+// CS Name: ::SignalSubscription::Pool*
+class CORDL_TYPE __SignalSubscription__Pool : public ::Zenject::PoolableMemoryPool_3<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*, ::Zenject::SignalSubscription*> {
+public:
+  // Declarations
+  static inline ::Zenject::__SignalSubscription__Pool* New_ctor();
+
+  /// @brief Method __zenCreate, addr 0x3410fac, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3411004, size 0x1c0, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x3410f64, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SignalSubscription__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__SignalSubscription__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SignalSubscription__Pool(__SignalSubscription__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SignalSubscription__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SignalSubscription__Pool(__SignalSubscription__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Zenject::__SignalSubscription__Pool, 0x38>, "Size mismatch!");
+
+} // namespace Zenject
 // Type: Zenject::SignalSubscription
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
@@ -73,24 +110,24 @@ public:
   /// @brief Convert operator to "::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*,::Zenject::SignalDeclaration*>"
   constexpr operator ::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*>*() noexcept;
 
-  /// @brief Method Dispose, addr 0x302bcf4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3410b80, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Invoke, addr 0x302b13c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x340ffc8, size 0x24, virtual false, abstract: false, final false
   inline void Invoke(::System::Object* signal);
 
   static inline ::Zenject::SignalSubscription* New_ctor(::Zenject::__SignalSubscription__Pool* pool);
 
-  /// @brief Method OnDeclarationDespawned, addr 0x302ac1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDeclarationDespawned, addr 0x340faa8, size 0x8, virtual false, abstract: false, final false
   inline void OnDeclarationDespawned();
 
-  /// @brief Method OnDespawned, addr 0x302bcc8, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method OnDespawned, addr 0x3410b54, size 0x2c, virtual true, abstract: false, final true
   inline void OnDespawned();
 
-  /// @brief Method OnSpawned, addr 0x302bc84, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method OnSpawned, addr 0x3410b10, size 0x44, virtual true, abstract: false, final true
   inline void OnSpawned(::System::Action_1<::System::Object*>* callback, ::Zenject::SignalDeclaration* declaration);
 
-  /// @brief Method SetDefaults, addr 0x302bc68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x3410af4, size 0x10, virtual false, abstract: false, final false
   inline void SetDefaults();
 
   constexpr ::System::Action_1<::System::Object*>*& __cordl_internal_get__callback();
@@ -117,16 +154,16 @@ public:
 
   constexpr void __cordl_internal_set__signalId(::Zenject::BindingId value);
 
-  /// @brief Method __zenCreate, addr 0x302bd90, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3410c1c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302be64, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3410cf0, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x302bc34, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3410ac0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::__SignalSubscription__Pool* pool);
 
-  /// @brief Method get_SignalId, addr 0x302bc78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SignalId, addr 0x3410b04, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_SignalId();
 
   /// @brief Convert to "::System::IDisposable"
@@ -174,45 +211,6 @@ static_assert(offsetof(::Zenject::SignalSubscription, ____callback) == 0x18, "Of
 static_assert(offsetof(::Zenject::SignalSubscription, ____declaration) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::SignalSubscription, ____signalId) == 0x28, "Offset mismatch!");
-
-} // namespace Zenject
-// Type: ::Pool
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace Zenject {
-// Is value type: false
-// CS Name: ::SignalSubscription::Pool*
-class CORDL_TYPE __SignalSubscription__Pool : public ::Zenject::PoolableMemoryPool_3<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*, ::Zenject::SignalSubscription*> {
-public:
-  // Declarations
-  static inline ::Zenject::__SignalSubscription__Pool* New_ctor();
-
-  /// @brief Method __zenCreate, addr 0x302c120, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302c178, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
-  /// @brief Method .ctor, addr 0x302c0d8, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SignalSubscription__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SignalSubscription__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SignalSubscription__Pool(__SignalSubscription__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SignalSubscription__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SignalSubscription__Pool(__SignalSubscription__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::__SignalSubscription__Pool, 0x38>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SignalSubscription);

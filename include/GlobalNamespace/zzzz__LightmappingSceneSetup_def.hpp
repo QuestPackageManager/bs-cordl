@@ -49,7 +49,7 @@ public:
 
   __declspec(property(get = get_colorScheme, put = set_colorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
 
-  /// @brief Method InstallBindings, addr 0x247933c, size 0xdb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x259d770, size 0xdcc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LightmappingSceneSetup* New_ctor();
@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
-  /// @brief Method .ctor, addr 0x247a1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x247932c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x259d760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method set_colorScheme, addr 0x2479334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x259d768, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
 
 protected:

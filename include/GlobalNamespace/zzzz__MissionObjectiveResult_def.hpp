@@ -58,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set__value_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12fda6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d74b8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
-  /// @brief Method get_cleared, addr 0x12fda48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x13d7494, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_missionObjective, addr 0x12fda38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjective, addr 0x13d7484, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method get_value, addr 0x12fda5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x13d74a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method set_cleared, addr 0x12fda50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x13d749c, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
-  /// @brief Method set_missionObjective, addr 0x12fda40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionObjective, addr 0x13d748c, size 0x8, virtual false, abstract: false, final false
   inline void set_missionObjective(::GlobalNamespace::MissionObjective* value);
 
-  /// @brief Method set_value, addr 0x12fda64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x13d74b0, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
 protected:

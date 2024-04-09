@@ -1028,21 +1028,21 @@ public:
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig))::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x245fe34, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x25871ec, size 0x29c, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x245fdd8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2587190, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x24600d0, size 0xad0, virtual false, abstract: false, final false
+  /// @brief Method SetExpected, addr 0x2587488, size 0xad0, virtual false, abstract: false, final false
   inline bool SetExpected(::GlobalNamespace::MainSettingsModelSO* mainSettings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x2460ba0, size 0x1dec, virtual false, abstract: false, final false
+  /// @brief Method VerifyExpected, addr 0x2587f58, size 0x1dec, virtual false, abstract: false, final false
   inline bool VerifyExpected(::GlobalNamespace::MainSettingsModelSO* mainSettings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
   constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__AppConfig const& __cordl_internal_get_appConfig() const;
@@ -1094,7 +1094,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig value);
 
-  /// @brief Method .ctor, addr 0x246298c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2589d44, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

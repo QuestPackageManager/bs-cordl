@@ -49,12 +49,12 @@ public:
 
   __declspec(property(get = get_lowestFPS, put = set_lowestFPS)) int32_t lowestFPS;
 
-  /// @brief Method Awake, addr 0x22b1210, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23d0c58, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FPSCounter* New_ctor();
 
-  /// @brief Method Update, addr 0x22b1220, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23d0c68, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__currentFPS_k__BackingField() const;
@@ -99,31 +99,31 @@ public:
 
   constexpr void __cordl_internal_set__timeBuffer(float_t value);
 
-  /// @brief Method .ctor, addr 0x22b12cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d0d14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentFPS, addr 0x22b11d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentFPS, addr 0x23d0c18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentFPS();
 
-  /// @brief Method get_droppedFrames, addr 0x22b1200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_droppedFrames, addr 0x23d0c48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_droppedFrames();
 
-  /// @brief Method get_highestFPS, addr 0x22b11f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highestFPS, addr 0x23d0c38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highestFPS();
 
-  /// @brief Method get_lowestFPS, addr 0x22b11e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowestFPS, addr 0x23d0c28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowestFPS();
 
-  /// @brief Method set_currentFPS, addr 0x22b11d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentFPS, addr 0x23d0c20, size 0x8, virtual false, abstract: false, final false
   inline void set_currentFPS(int32_t value);
 
-  /// @brief Method set_droppedFrames, addr 0x22b1208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_droppedFrames, addr 0x23d0c50, size 0x8, virtual false, abstract: false, final false
   inline void set_droppedFrames(int32_t value);
 
-  /// @brief Method set_highestFPS, addr 0x22b11f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highestFPS, addr 0x23d0c40, size 0x8, virtual false, abstract: false, final false
   inline void set_highestFPS(int32_t value);
 
-  /// @brief Method set_lowestFPS, addr 0x22b11e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lowestFPS, addr 0x23d0c30, size 0x8, virtual false, abstract: false, final false
   inline void set_lowestFPS(int32_t value);
 
 protected:

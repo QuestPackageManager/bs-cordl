@@ -53,22 +53,22 @@ public:
   /// @brief Field version, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetAuthAttrs, addr 0xf065c0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetAuthAttrs, addr 0xfe0144, size 0x1b8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
 
-  /// @brief Method GetAuthEncryptedContentInfo, addr 0xf061e8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAuthEncryptedContentInfo, addr 0xfdfd6c, size 0x120, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetAuthEncryptedContentInfo();
 
-  /// @brief Method GetMac, addr 0xf06778, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0xfe02fc, size 0x130, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
 
-  /// @brief Method GetOriginatorInfo, addr 0xf05e08, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method GetOriginatorInfo, addr 0xfdf98c, size 0x2e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos, addr 0xf060e8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0xfdfc6c, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetUnauthAttrs, addr 0xf068a8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUnauthAttrs, addr 0xfe042c, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -97,10 +97,10 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0xf05cdc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfdf860, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xf05e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xfdf984, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

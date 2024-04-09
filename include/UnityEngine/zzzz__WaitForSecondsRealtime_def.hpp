@@ -31,7 +31,7 @@ public:
 
   static inline ::UnityEngine::WaitForSecondsRealtime* New_ctor(float_t time);
 
-  /// @brief Method Reset, addr 0x2e2168c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3208a60, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr float_t const& __cordl_internal_get__waitTime_k__BackingField() const;
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set_m_WaitUntilTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x2e2165c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3208a30, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
-  /// @brief Method get_keepWaiting, addr 0x2e215c0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x3208994, size 0x9c, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
-  /// @brief Method get_waitTime, addr 0x2e215b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_waitTime, addr 0x3208984, size 0x8, virtual false, abstract: false, final false
   inline float_t get_waitTime();
 
-  /// @brief Method set_waitTime, addr 0x2e215b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_waitTime, addr 0x320898c, size 0x8, virtual false, abstract: false, final false
   inline void set_waitTime(float_t value);
 
 protected:

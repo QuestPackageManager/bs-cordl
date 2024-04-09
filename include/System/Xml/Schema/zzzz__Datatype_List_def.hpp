@@ -14,6 +14,9 @@ namespace System::Xml::Schema {
 class FacetsChecker;
 }
 namespace System::Xml::Schema {
+struct RestrictionFlags;
+}
+namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::Schema {
@@ -62,6 +65,8 @@ public:
 
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
+  __declspec(property(get = get_ValidRestrictionFlags))::System::Xml::Schema::RestrictionFlags ValidRestrictionFlags;
+
   __declspec(property(get = get_ValueType))::System::Type* ValueType;
 
   /// @brief Field itemType, offset 0x38, size 0x8
@@ -70,16 +75,20 @@ public:
   /// @brief Field minListSize, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_minListSize, put = __cordl_internal_set_minListSize)) int32_t minListSize;
 
-  /// @brief Method Compare, addr 0x2a01fa0, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x2e06c1c, size 0x2a0, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method CreateValueConverter, addr 0x2a01cfc, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x2e06978, size 0x2a4, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_List* New_ctor(::System::Xml::Schema::DatatypeImplementation* type, int32_t minListSize);
 
-  /// @brief Method TryParseValue, addr 0x2a02308, size 0x418, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2e07588, size 0x424, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
+
+  /// @brief Method TryParseValue, addr 0x2e06f90, size 0x5f8, virtual true, abstract: false, final false
+  inline ::System::Exception* TryParseValue(::System::Object* value, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* namespaceResolver,
+                                            ByRef<::System::Object*> typedValue);
 
   constexpr ::System::Xml::Schema::DatatypeImplementation*& __cordl_internal_get_itemType();
 
@@ -93,22 +102,25 @@ public:
 
   constexpr void __cordl_internal_set_minListSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2a017cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e059e8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DatatypeImplementation* type, int32_t minListSize);
 
-  /// @brief Method get_FacetsChecker, addr 0x2a02290, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x2e06f10, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x2a0226c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x2e06eec, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x2a0224c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x2e06ecc, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x2a022e8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2e06f68, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValueType, addr 0x2a0223c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x2e06f88, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
+
+  /// @brief Method get_ValueType, addr 0x2e06ebc, size 0x10, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
 protected:

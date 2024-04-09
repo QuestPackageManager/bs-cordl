@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::TextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x22d8c50, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x23f8098, size 0x68, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method .ctor, addr 0x22d8cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f8100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

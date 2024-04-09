@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0xe8ce90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf63968, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method get_materialPairs, addr 0xe8ce88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPairs, addr 0xf63960, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* get_materialPairs();
 
-  /// @brief Method get_renderer, addr 0xe8ce80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0xf63958, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_materialIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0xe8cf20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf639f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -203,7 +203,7 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacterMaterialSwitcher* New_ctor();
 
-  /// @brief Method SwapMaterials, addr 0xe8cbd4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SwapMaterials, addr 0xf636ac, size 0x254, virtual false, abstract: false, final false
   inline void SwapMaterials(bool alternative);
 
   constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> const&
@@ -215,7 +215,7 @@ public:
   constexpr void __cordl_internal_set__rendererMaterialsPairs(
       ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> value);
 
-  /// @brief Method .ctor, addr 0xe8ce78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf63950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

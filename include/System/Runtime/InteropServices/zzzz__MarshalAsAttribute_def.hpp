@@ -60,7 +60,7 @@ public:
   /// @brief Field utype, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_utype, put = __cordl_internal_set_utype))::System::Runtime::InteropServices::UnmanagedType utype;
 
-  /// @brief Method Copy, addr 0x262ea8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2755b7c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::MarshalAsAttribute* Copy();
 
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* New_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
@@ -125,10 +125,10 @@ public:
 
   constexpr void __cordl_internal_set_utype(::System::Runtime::InteropServices::UnmanagedType value);
 
-  /// @brief Method .ctor, addr 0x262ea5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2755b4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
 
-  /// @brief Method get_Value, addr 0x262ea84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2755b74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::UnmanagedType get_Value();
 
 protected:

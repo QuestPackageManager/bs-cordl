@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_accessToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x295161c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad3c2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW accessToken);
 
 protected:

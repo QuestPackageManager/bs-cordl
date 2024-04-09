@@ -31,6 +31,39 @@ class __BombCutSoundEffect__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BombCutSoundEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__BombCutSoundEffect__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::BombCutSoundEffect::Pool*
+class CORDL_TYPE __BombCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__BombCutSoundEffect__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2507718, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BombCutSoundEffect__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__BombCutSoundEffect__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __BombCutSoundEffect__Pool(__BombCutSoundEffect__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__BombCutSoundEffect__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __BombCutSoundEffect__Pool(__BombCutSoundEffect__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BombCutSoundEffect__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::BombCutSoundEffect
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -50,15 +83,15 @@ public:
   /// @brief Field didFinishEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x23e4fd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25075bc, size 0x74, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float_t volume);
 
-  /// @brief Method LateUpdate, addr 0x23e5048, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2507630, size 0x90, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BombCutSoundEffect* New_ctor();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x23e50d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x25076c0, size 0x50, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -79,13 +112,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method .ctor, addr 0x23e5128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2507710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x23e4e74, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x250745c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x23e4f24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x250750c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
 protected:
@@ -121,39 +154,6 @@ static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____audioSource) =
 static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ___didFinishEvent) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____saber) == 0x28, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::BombCutSoundEffect::Pool*
-class CORDL_TYPE __BombCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__BombCutSoundEffect__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23e5130, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BombCutSoundEffect__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BombCutSoundEffect__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __BombCutSoundEffect__Pool(__BombCutSoundEffect__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__BombCutSoundEffect__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __BombCutSoundEffect__Pool(__BombCutSoundEffect__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BombCutSoundEffect__Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BombCutSoundEffect);

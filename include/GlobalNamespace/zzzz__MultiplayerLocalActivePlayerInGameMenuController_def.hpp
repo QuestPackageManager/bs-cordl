@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_value(bool value);
 
-  /// @brief Method .ctor, addr 0x24b8dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dd2a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_canShowInGameMenu>b__0, addr 0x24b9cbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_canShowInGameMenu>b__0, addr 0x25de1b0, size 0x10, virtual false, abstract: false, final false
   inline void _get_canShowInGameMenu_b__0(bool newValue);
 
 protected:
@@ -146,39 +146,39 @@ public:
   /// @brief Field requestsDisconnectEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_requestsDisconnectEvent, put = __cordl_internal_set_requestsDisconnectEvent))::System::Action* requestsDisconnectEvent;
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x24b9ac8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x25ddfbc, size 0x1c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressDisconnectButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x24b9a8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x25ddf80, size 0x3c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressGiveUpButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x24b9a88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x25ddf7c, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressResumeButton();
 
-  /// @brief Method HandleInputFocusWasCaptured, addr 0x24b9a84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x25ddf78, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleMenuButtonTriggered, addr 0x24b9a80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButtonTriggered, addr 0x25ddf74, size 0x4, virtual false, abstract: false, final false
   inline void HandleMenuButtonTriggered();
 
-  /// @brief Method HandleStateChanged, addr 0x24b9ae4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x25ddfd8, size 0x1d0, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HideInGameMenu, addr 0x24b9094, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method HideInGameMenu, addr 0x25dd588, size 0x150, virtual false, abstract: false, final false
   inline void HideInGameMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x24b98e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x25dddd4, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x24b93b8, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25dd8ac, size 0x354, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowInGameMenu, addr 0x24b98ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ShowInGameMenu, addr 0x25ddde0, size 0x100, virtual false, abstract: false, final false
   inline void ShowInGameMenu();
 
-  /// @brief Method Start, addr 0x24b8db4, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25dd2a8, size 0x2e0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -247,31 +247,31 @@ public:
 
   constexpr void __cordl_internal_set_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x24b9cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25de1a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_canShowInGameMenuEvent, addr 0x24b8a20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_canShowInGameMenuEvent, addr 0x25dcf14, size 0xb0, virtual false, abstract: false, final false
   inline void add_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
-  /// @brief Method add_didGiveUpEvent, addr 0x24b88e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGiveUpEvent, addr 0x25dcddc, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method add_requestsDisconnectEvent, addr 0x24b8b80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_requestsDisconnectEvent, addr 0x25dd074, size 0x9c, virtual false, abstract: false, final false
   inline void add_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method get_canShowInGameMenu, addr 0x24b8cc0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_canShowInGameMenu, addr 0x25dd1b4, size 0xec, virtual false, abstract: false, final false
   inline bool get_canShowInGameMenu();
 
-  /// @brief Method get_gameMenuIsShown, addr 0x24b8cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMenuIsShown, addr 0x25dd1ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameMenuIsShown();
 
-  /// @brief Method remove_canShowInGameMenuEvent, addr 0x24b8ad0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_canShowInGameMenuEvent, addr 0x25dcfc4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
-  /// @brief Method remove_didGiveUpEvent, addr 0x24b8984, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGiveUpEvent, addr 0x25dce78, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method remove_requestsDisconnectEvent, addr 0x24b8c1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_requestsDisconnectEvent, addr 0x25dd110, size 0x9c, virtual false, abstract: false, final false
   inline void remove_requestsDisconnectEvent(::System::Action* value);
 
 protected:

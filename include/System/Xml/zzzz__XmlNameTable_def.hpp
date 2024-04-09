@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Xml::XmlNameTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29f4068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbc688, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

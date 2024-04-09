@@ -24,9 +24,9 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE ErrorEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_CurrentObject, put = set_CurrentObject))::System::Object* CurrentObject;
+  __declspec(property(get = get_CurrentObject))::System::Object* CurrentObject;
 
-  __declspec(property(get = get_ErrorContext, put = set_ErrorContext))::Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
+  __declspec(property(get = get_ErrorContext))::Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
 
   /// @brief Field <CurrentObject>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__CurrentObject_k__BackingField, put = __cordl_internal_set__CurrentObject_k__BackingField))::System::Object* _CurrentObject_k__BackingField;
@@ -49,20 +49,14 @@ public:
 
   constexpr void __cordl_internal_set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext* value);
 
-  /// @brief Method .ctor, addr 0x27c0310, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292a3d4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
-  /// @brief Method get_CurrentObject, addr 0x27c02f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentObject, addr 0x292a3c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentObject();
 
-  /// @brief Method get_ErrorContext, addr 0x27c0300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorContext, addr 0x292a3cc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ErrorContext* get_ErrorContext();
-
-  /// @brief Method set_CurrentObject, addr 0x27c02f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_CurrentObject(::System::Object* value);
-
-  /// @brief Method set_ErrorContext, addr 0x27c0308, size 0x8, virtual false, abstract: false, final false
-  inline void set_ErrorContext(::Newtonsoft::Json::Serialization::ErrorContext* value);
 
 protected:
   // Ctor Parameters []

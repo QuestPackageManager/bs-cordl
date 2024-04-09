@@ -38,53 +38,53 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE DefaultTlsServer : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsServer {
 public:
   // Declarations
-  /// @brief Method CreateDHKeyExchange, addr 0xff6ce8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CreateDHKeyExchange, addr 0x10cf86c, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateDHKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateDheKeyExchange, addr 0xff6d84, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CreateDheKeyExchange, addr 0x10cf908, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateDheKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateECDHKeyExchange, addr 0xff6e20, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CreateECDHKeyExchange, addr 0x10cf9a4, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateECDHKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateECDheKeyExchange, addr 0xff6eb4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CreateECDheKeyExchange, addr 0x10cfa38, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateECDheKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateRsaKeyExchange, addr 0xff6f48, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CreateRsaKeyExchange, addr 0x10cfacc, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateRsaKeyExchange();
 
-  /// @brief Method GetCipherSuites, addr 0xff6a20, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x10cf5a4, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetCredentials, addr 0xff6a90, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method GetCredentials, addr 0x10cf614, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials();
 
-  /// @brief Method GetDHParameters, addr 0xff69c8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDHParameters, addr 0x10cf54c, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetDHParameters();
 
-  /// @brief Method GetDsaSignerCredentials, addr 0xff68b8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDsaSignerCredentials, addr 0x10cf43c, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* GetDsaSignerCredentials();
 
-  /// @brief Method GetECDsaSignerCredentials, addr 0xff68fc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetECDsaSignerCredentials, addr 0x10cf480, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* GetECDsaSignerCredentials();
 
-  /// @brief Method GetKeyExchange, addr 0xff6bc4, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x10cf748, size 0x124, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
-  /// @brief Method GetRsaEncryptionCredentials, addr 0xff6940, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetRsaEncryptionCredentials, addr 0x10cf4c4, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* GetRsaEncryptionCredentials();
 
-  /// @brief Method GetRsaSignerCredentials, addr 0xff6984, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetRsaSignerCredentials, addr 0x10cf508, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* GetRsaSignerCredentials();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsServer* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory);
 
-  /// @brief Method .ctor, addr 0xff688c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cf410, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0xff6890, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cf414, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory);
 
 protected:

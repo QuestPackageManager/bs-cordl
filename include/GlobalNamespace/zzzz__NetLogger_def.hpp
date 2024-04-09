@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::NetLogger* New_ctor();
 
-  /// @brief Method WriteNet, addr 0xedf3b8, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method WriteNet, addr 0xfb7f3c, size 0x174, virtual true, abstract: false, final true
   inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method .ctor, addr 0xedf52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb80b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::LiteNetLib::INetLogger"

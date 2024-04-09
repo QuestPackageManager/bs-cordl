@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatmapSaveDataVersion3/zzzz__EventBoxGroup_1_def.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__FxEventBox_def.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventType_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -45,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion3::FxEventType value);
 
-  /// @brief Method .ctor, addr 0x13244bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x140022c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes);
 
-  /// @brief Method get_type, addr 0x13244b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x1400224, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::FxEventType get_type();
 
 protected:

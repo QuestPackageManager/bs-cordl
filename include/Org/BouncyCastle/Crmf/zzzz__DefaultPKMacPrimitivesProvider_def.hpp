@@ -33,15 +33,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
   constexpr operator ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*() noexcept;
 
-  /// @brief Method CreateDigest, addr 0x12a6cc0, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateDigest, addr 0x137e844, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac, addr 0x12a6d38, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateMac, addr 0x137e8bc, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a6db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137e934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"

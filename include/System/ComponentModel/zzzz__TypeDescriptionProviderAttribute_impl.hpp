@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeDescriptionProviderAttribute::*)(::StringW)>(
     &::System::ComponentModel::TypeDescriptionProviderAttribute::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2a645d0;
+  constexpr static std::size_t addrs = 0x2e486d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::TypeDescriptionProviderAttribute::*)()>(
     &::System::ComponentModel::TypeDescriptionProviderAttribute::get_TypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a64648;
+  constexpr static std::size_t addrs = 0x2e4874c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

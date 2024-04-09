@@ -125,6 +125,39 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TreeView__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TreeView__UxmlTraits);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TreeView___GetAllItems_d__64);
 MARK_VAL_T(::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::TreeView::UxmlFactory*
+class CORDL_TYPE __TreeView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TreeView*, ::UnityEngine::UIElements::__TreeView__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__TreeView__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x335f55c, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TreeView__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__TreeView__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __TreeView__UxmlFactory(__TreeView__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__TreeView__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __TreeView__UxmlFactory(__TreeView__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TreeView__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -147,7 +180,7 @@ public:
   /// @brief Field m_ShowBorder, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowBorder, put = __cordl_internal_set_m_ShowBorder))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBorder;
 
-  /// @brief Method Init, addr 0x2f85238, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x336b054, size 0x260, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TreeView__UxmlTraits* New_ctor();
@@ -178,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowBorder(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2f85498, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336b2b4, size 0x208, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,377 +254,6 @@ static_assert(offsetof(::UnityEngine::UIElements::__TreeView__UxmlTraits, ___m_S
 static_assert(offsetof(::UnityEngine::UIElements::__TreeView__UxmlTraits, ___m_ShowAlternatingRowBackgrounds) == 0x88, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::TreeView
-// SizeInfo { instance_size: 1032, native_size: -1, calculated_instance_size: 1032, calculated_native_size: 1032, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::UnityEngine.UIElements::TreeView*
-class CORDL_TYPE TreeView : public ::UnityEngine::UIElements::VisualElement {
-public:
-  // Declarations
-  using TreeViewItemWrapper = ::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper;
-
-  using UxmlFactory = ::UnityEngine::UIElements::__TreeView__UxmlFactory;
-
-  using UxmlTraits = ::UnityEngine::UIElements::__TreeView__UxmlTraits;
-
-  using _GetAllItems_d__64 = ::UnityEngine::UIElements::__TreeView___GetAllItems_d__64;
-
-  /// @brief Field <unbindItem>k__BackingField, offset 0x3d8, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__unbindItem_k__BackingField,
-      put = __cordl_internal_set__unbindItem_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* _unbindItem_k__BackingField;
-
-  __declspec(property(put = set_itemHeight)) int32_t itemHeight;
-
-  /// @brief Field m_BindItem, offset 0x3d0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BindItem,
-                      put = __cordl_internal_set_m_BindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* m_BindItem;
-
-  /// @brief Field m_ExpandedItemIds, offset 0x3e8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ExpandedItemIds, put = __cordl_internal_set_m_ExpandedItemIds))::System::Collections::Generic::List_1<int32_t>* m_ExpandedItemIds;
-
-  /// @brief Field m_ItemWrappers, offset 0x3f0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ItemWrappers,
-                      put = __cordl_internal_set_m_ItemWrappers))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* m_ItemWrappers;
-
-  /// @brief Field m_ListView, offset 0x3f8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
-
-  /// @brief Field m_MakeItem, offset 0x3b0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MakeItem, put = __cordl_internal_set_m_MakeItem))::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeItem;
-
-  /// @brief Field m_RootItems, offset 0x3e0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RootItems, put = __cordl_internal_set_m_RootItems))::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* m_RootItems;
-
-  /// @brief Field m_ScrollView, offset 0x400, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
-
-  /// @brief Field m_SelectedItems, offset 0x3c8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectedItems,
-                      put = __cordl_internal_set_m_SelectedItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* m_SelectedItems;
-
-  /// @brief Field onItemsChosen, offset 0x3b8, size 0x8
-  __declspec(property(get = __cordl_internal_get_onItemsChosen,
-                      put = __cordl_internal_set_onItemsChosen))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onItemsChosen;
-
-  /// @brief Field onSelectionChange, offset 0x3c0, size 0x8
-  __declspec(property(get = __cordl_internal_get_onSelectionChange,
-                      put = __cordl_internal_set_onSelectionChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onSelectionChange;
-
-  /// @brief Field s_ItemContentContainerName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ItemContentContainerName, put = setStaticF_s_ItemContentContainerName))::StringW s_ItemContentContainerName;
-
-  /// @brief Field s_ItemIndentName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ItemIndentName, put = setStaticF_s_ItemIndentName))::StringW s_ItemIndentName;
-
-  /// @brief Field s_ItemIndentsContainerName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ItemIndentsContainerName, put = setStaticF_s_ItemIndentsContainerName))::StringW s_ItemIndentsContainerName;
-
-  /// @brief Field s_ItemName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ItemName, put = setStaticF_s_ItemName))::StringW s_ItemName;
-
-  /// @brief Field s_ItemToggleName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ItemToggleName, put = setStaticF_s_ItemToggleName))::StringW s_ItemToggleName;
-
-  /// @brief Field s_ListViewName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ListViewName, put = setStaticF_s_ListViewName))::StringW s_ListViewName;
-
-  __declspec(property(put = set_selectionType))::UnityEngine::UIElements::SelectionType selectionType;
-
-  __declspec(property(put = set_showAlternatingRowBackgrounds))::UnityEngine::UIElements::AlternatingRowBackground showAlternatingRowBackgrounds;
-
-  __declspec(property(put = set_showBorder)) bool showBorder;
-
-  __declspec(property(get = get_unbindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* unbindItem;
-
-  /// @brief Method BindTreeItem, addr 0x2f844c8, size 0x35c, virtual false, abstract: false, final false
-  inline void BindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
-
-  /// @brief Method CollapseItemByIndex, addr 0x2f82bd8, size 0x24c, virtual false, abstract: false, final false
-  inline void CollapseItemByIndex(int32_t index);
-
-  /// @brief Method CreateWrappers, addr 0x2f84938, size 0x520, virtual false, abstract: false, final false
-  inline void CreateWrappers(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* treeViewItems, int32_t depth,
-                             ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*> wrappers);
-
-  /// @brief Method ExpandItemByIndex, addr 0x2f828d0, size 0x308, virtual false, abstract: false, final false
-  inline void ExpandItemByIndex(int32_t index);
-
-  /// @brief Method GetAllItems, addr 0x2f826d0, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*
-  GetAllItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* rootItems);
-
-  /// @brief Method GetItemId, addr 0x2f84824, size 0x74, virtual false, abstract: false, final false
-  inline int32_t GetItemId(int32_t index);
-
-  /// @brief Method IsExpandedByIndex, addr 0x2f82834, size 0x9c, virtual false, abstract: false, final false
-  inline bool IsExpandedByIndex(int32_t index);
-
-  /// @brief Method ListViewRefresh, addr 0x2f82654, size 0x1c, virtual false, abstract: false, final false
-  inline void ListViewRefresh();
-
-  /// @brief Method MakeTreeItem, addr 0x2f83ecc, size 0x4e0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* MakeTreeItem();
-
-  static inline ::UnityEngine::UIElements::TreeView* New_ctor();
-
-  /// @brief Method OnCustomStyleResolved, addr 0x2f84fdc, size 0x150, virtual false, abstract: false, final false
-  inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
-
-  /// @brief Method OnItemMouseUp, addr 0x2f836d0, size 0x7fc, virtual false, abstract: false, final false
-  inline void OnItemMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
-
-  /// @brief Method OnItemsChosen, addr 0x2f82e24, size 0x420, virtual false, abstract: false, final false
-  inline void OnItemsChosen(::System::Collections::Generic::IEnumerable_1<::System::Object*>* chosenItems);
-
-  /// @brief Method OnKeyDown, addr 0x2f82778, size 0xbc, virtual false, abstract: false, final false
-  inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
-
-  /// @brief Method OnSelectionChange, addr 0x2f83244, size 0x454, virtual false, abstract: false, final false
-  inline void OnSelectionChange(::System::Collections::Generic::IEnumerable_1<::System::Object*>* selectedListItems);
-
-  /// @brief Method OnTreeViewMouseUp, addr 0x2f83698, size 0x38, virtual false, abstract: false, final false
-  inline void OnTreeViewMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
-
-  /// @brief Method OnViewDataReady, addr 0x2f82694, size 0x3c, virtual true, abstract: false, final false
-  inline void OnViewDataReady();
-
-  /// @brief Method Rebuild, addr 0x2f82670, size 0x24, virtual false, abstract: false, final false
-  inline void Rebuild();
-
-  /// @brief Method RefreshItems, addr 0x2f825a8, size 0x24, virtual false, abstract: false, final false
-  inline void RefreshItems();
-
-  /// @brief Method RegenerateWrappers, addr 0x2f825cc, size 0x88, virtual false, abstract: false, final false
-  inline void RegenerateWrappers();
-
-  /// @brief Method ToggleExpandedState, addr 0x2f84e58, size 0x184, virtual false, abstract: false, final false
-  inline void ToggleExpandedState(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
-
-  /// @brief Method UnbindTreeItem, addr 0x2f843ac, size 0x11c, virtual false, abstract: false, final false
-  inline void UnbindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
-
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get__unbindItem_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*> const&
-  __cordl_internal_get__unbindItem_k__BackingField() const;
-
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_BindItem();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*> const&
-  __cordl_internal_get_m_BindItem() const;
-
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_ExpandedItemIds();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_ExpandedItemIds() const;
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*& __cordl_internal_get_m_ItemWrappers();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*> const& __cordl_internal_get_m_ItemWrappers() const;
-
-  constexpr ::UnityEngine::UIElements::ListView*& __cordl_internal_get_m_ListView();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& __cordl_internal_get_m_ListView() const;
-
-  constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_MakeItem();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_MakeItem() const;
-
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_RootItems();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get_m_RootItems() const;
-
-  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_SelectedItems();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get_m_SelectedItems() const;
-
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __cordl_internal_get_onItemsChosen();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
-  __cordl_internal_get_onItemsChosen() const;
-
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __cordl_internal_get_onSelectionChange();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
-  __cordl_internal_get_onSelectionChange() const;
-
-  constexpr void __cordl_internal_set__unbindItem_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
-
-  constexpr void __cordl_internal_set_m_BindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
-
-  constexpr void __cordl_internal_set_m_ExpandedItemIds(::System::Collections::Generic::List_1<int32_t>* value);
-
-  constexpr void __cordl_internal_set_m_ItemWrappers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* value);
-
-  constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::ListView* value);
-
-  constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
-
-  constexpr void __cordl_internal_set_m_RootItems(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
-
-  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
-
-  constexpr void __cordl_internal_set_m_SelectedItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
-
-  constexpr void __cordl_internal_set_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
-
-  constexpr void __cordl_internal_set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
-
-  /// @brief Method .ctor, addr 0x2f82054, size 0x554, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::StringW getStaticF_s_ItemContentContainerName();
-
-  static inline ::StringW getStaticF_s_ItemIndentName();
-
-  static inline ::StringW getStaticF_s_ItemIndentsContainerName();
-
-  static inline ::StringW getStaticF_s_ItemName();
-
-  static inline ::StringW getStaticF_s_ItemToggleName();
-
-  static inline ::StringW getStaticF_s_ListViewName();
-
-  /// @brief Method get_unbindItem, addr 0x2f81fd4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* get_unbindItem();
-
-  static inline void setStaticF_s_ItemContentContainerName(::StringW value);
-
-  static inline void setStaticF_s_ItemIndentName(::StringW value);
-
-  static inline void setStaticF_s_ItemIndentsContainerName(::StringW value);
-
-  static inline void setStaticF_s_ItemName(::StringW value);
-
-  static inline void setStaticF_s_ItemToggleName(::StringW value);
-
-  static inline void setStaticF_s_ListViewName(::StringW value);
-
-  /// @brief Method set_itemHeight, addr 0x2f81fdc, size 0x20, virtual false, abstract: false, final false
-  inline void set_itemHeight(int32_t value);
-
-  /// @brief Method set_selectionType, addr 0x2f8201c, size 0x1c, virtual false, abstract: false, final false
-  inline void set_selectionType(::UnityEngine::UIElements::SelectionType value);
-
-  /// @brief Method set_showAlternatingRowBackgrounds, addr 0x2f82038, size 0x1c, virtual false, abstract: false, final false
-  inline void set_showAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value);
-
-  /// @brief Method set_showBorder, addr 0x2f81ffc, size 0x20, virtual false, abstract: false, final false
-  inline void set_showBorder(bool value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TreeView();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TreeView(TreeView&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TreeView(TreeView const&) = delete;
-
-  /// @brief Field m_MakeItem, offset: 0x3b0, size: 0x8, def value: None
-  ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeItem;
-
-  /// @brief Field onItemsChosen, offset: 0x3b8, size: 0x8, def value: None
-  ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* ___onItemsChosen;
-
-  /// @brief Field onSelectionChange, offset: 0x3c0, size: 0x8, def value: None
-  ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* ___onSelectionChange;
-
-  /// @brief Field m_SelectedItems, offset: 0x3c8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* ___m_SelectedItems;
-
-  /// @brief Field m_BindItem, offset: 0x3d0, size: 0x8, def value: None
-  ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* ___m_BindItem;
-
-  /// @brief Field <unbindItem>k__BackingField, offset: 0x3d8, size: 0x8, def value: None
-  ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* ____unbindItem_k__BackingField;
-
-  /// @brief Field m_RootItems, offset: 0x3e0, size: 0x8, def value: None
-  ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* ___m_RootItems;
-
-  /// @brief Field m_ExpandedItemIds, offset: 0x3e8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* ___m_ExpandedItemIds;
-
-  /// @brief Field m_ItemWrappers, offset: 0x3f0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* ___m_ItemWrappers;
-
-  /// @brief Field m_ListView, offset: 0x3f8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ListView* ___m_ListView;
-
-  /// @brief Field m_ScrollView, offset: 0x400, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ScrollView* ___m_ScrollView;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TreeView, 0x408>, "Size mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_MakeItem) == 0x3b0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___onItemsChosen) == 0x3b8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___onSelectionChange) == 0x3c0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_SelectedItems) == 0x3c8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_BindItem) == 0x3d0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ____unbindItem_k__BackingField) == 0x3d8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_RootItems) == 0x3e0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ExpandedItemIds) == 0x3e8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ItemWrappers) == 0x3f0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ListView) == 0x3f8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ScrollView) == 0x400, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::TreeView::UxmlFactory*
-class CORDL_TYPE __TreeView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TreeView*, ::UnityEngine::UIElements::__TreeView__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__TreeView__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f79740, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TreeView__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeView__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TreeView__UxmlFactory(__TreeView__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeView__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TreeView__UxmlFactory(__TreeView__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TreeView__UxmlFactory, 0x18>, "Size mismatch!");
-
-} // namespace UnityEngine::UIElements
 // Type: ::TreeViewItemWrapper
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -602,7 +264,7 @@ public:
   // Declarations
   __declspec(property(get = get_id)) int32_t id;
 
-  /// @brief Method get_id, addr 0x2f84898, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x336a6b4, size 0xa0, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   // Ctor Parameters []
@@ -690,27 +352,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2f856a4, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x336b4c0, size 0x3f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::__TreeView___GetAllItems_d__64* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator, addr 0x2f85aec, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator, addr 0x336b908, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current, addr 0x2f85a9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current, addr 0x336b8b8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::ITreeViewItem* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2f85b8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x336b9a8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2f85aa4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x336b8c0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2f85ae4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x336b900, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2f856a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x336b4bc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -768,7 +430,7 @@ public:
 
   constexpr void __cordl_internal_set_rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  /// @brief Method .ctor, addr 0x2f82734, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3368550, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
@@ -851,6 +513,344 @@ static_assert(offsetof(::UnityEngine::UIElements::__TreeView___GetAllItems_d__64
 static_assert(offsetof(::UnityEngine::UIElements::__TreeView___GetAllItems_d__64, ____hasNext_5__3) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::__TreeView___GetAllItems_d__64, ____currentItem_5__4) == 0x50, "Offset mismatch!");
+
+} // namespace UnityEngine::UIElements
+// Type: UnityEngine.UIElements::TreeView
+// SizeInfo { instance_size: 1032, native_size: -1, calculated_instance_size: 1032, calculated_native_size: 1032, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::UnityEngine.UIElements::TreeView*
+class CORDL_TYPE TreeView : public ::UnityEngine::UIElements::VisualElement {
+public:
+  // Declarations
+  using TreeViewItemWrapper = ::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper;
+
+  using UxmlFactory = ::UnityEngine::UIElements::__TreeView__UxmlFactory;
+
+  using UxmlTraits = ::UnityEngine::UIElements::__TreeView__UxmlTraits;
+
+  using _GetAllItems_d__64 = ::UnityEngine::UIElements::__TreeView___GetAllItems_d__64;
+
+  /// @brief Field <unbindItem>k__BackingField, offset 0x3d8, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__unbindItem_k__BackingField,
+      put = __cordl_internal_set__unbindItem_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* _unbindItem_k__BackingField;
+
+  __declspec(property(put = set_itemHeight)) int32_t itemHeight;
+
+  /// @brief Field m_BindItem, offset 0x3d0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_BindItem,
+                      put = __cordl_internal_set_m_BindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* m_BindItem;
+
+  /// @brief Field m_ExpandedItemIds, offset 0x3e8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ExpandedItemIds, put = __cordl_internal_set_m_ExpandedItemIds))::System::Collections::Generic::List_1<int32_t>* m_ExpandedItemIds;
+
+  /// @brief Field m_ItemWrappers, offset 0x3f0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ItemWrappers,
+                      put = __cordl_internal_set_m_ItemWrappers))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* m_ItemWrappers;
+
+  /// @brief Field m_ListView, offset 0x3f8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
+
+  /// @brief Field m_MakeItem, offset 0x3b0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MakeItem, put = __cordl_internal_set_m_MakeItem))::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeItem;
+
+  /// @brief Field m_RootItems, offset 0x3e0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RootItems, put = __cordl_internal_set_m_RootItems))::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* m_RootItems;
+
+  /// @brief Field m_ScrollView, offset 0x400, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
+
+  /// @brief Field m_SelectedItems, offset 0x3c8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SelectedItems,
+                      put = __cordl_internal_set_m_SelectedItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* m_SelectedItems;
+
+  /// @brief Field onItemsChosen, offset 0x3b8, size 0x8
+  __declspec(property(get = __cordl_internal_get_onItemsChosen,
+                      put = __cordl_internal_set_onItemsChosen))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onItemsChosen;
+
+  /// @brief Field onSelectionChange, offset 0x3c0, size 0x8
+  __declspec(property(get = __cordl_internal_get_onSelectionChange,
+                      put = __cordl_internal_set_onSelectionChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onSelectionChange;
+
+  /// @brief Field s_ItemContentContainerName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_ItemContentContainerName, put = setStaticF_s_ItemContentContainerName))::StringW s_ItemContentContainerName;
+
+  /// @brief Field s_ItemIndentName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_ItemIndentName, put = setStaticF_s_ItemIndentName))::StringW s_ItemIndentName;
+
+  /// @brief Field s_ItemIndentsContainerName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_ItemIndentsContainerName, put = setStaticF_s_ItemIndentsContainerName))::StringW s_ItemIndentsContainerName;
+
+  /// @brief Field s_ItemName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_ItemName, put = setStaticF_s_ItemName))::StringW s_ItemName;
+
+  /// @brief Field s_ItemToggleName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_ItemToggleName, put = setStaticF_s_ItemToggleName))::StringW s_ItemToggleName;
+
+  /// @brief Field s_ListViewName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_ListViewName, put = setStaticF_s_ListViewName))::StringW s_ListViewName;
+
+  __declspec(property(put = set_selectionType))::UnityEngine::UIElements::SelectionType selectionType;
+
+  __declspec(property(put = set_showAlternatingRowBackgrounds))::UnityEngine::UIElements::AlternatingRowBackground showAlternatingRowBackgrounds;
+
+  __declspec(property(put = set_showBorder)) bool showBorder;
+
+  __declspec(property(get = get_unbindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* unbindItem;
+
+  /// @brief Method BindTreeItem, addr 0x336a2e4, size 0x35c, virtual false, abstract: false, final false
+  inline void BindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
+
+  /// @brief Method CollapseItemByIndex, addr 0x33689f4, size 0x24c, virtual false, abstract: false, final false
+  inline void CollapseItemByIndex(int32_t index);
+
+  /// @brief Method CreateWrappers, addr 0x336a754, size 0x520, virtual false, abstract: false, final false
+  inline void CreateWrappers(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* treeViewItems, int32_t depth,
+                             ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*> wrappers);
+
+  /// @brief Method ExpandItemByIndex, addr 0x33686ec, size 0x308, virtual false, abstract: false, final false
+  inline void ExpandItemByIndex(int32_t index);
+
+  /// @brief Method GetAllItems, addr 0x33684ec, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*
+  GetAllItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* rootItems);
+
+  /// @brief Method GetItemId, addr 0x336a640, size 0x74, virtual false, abstract: false, final false
+  inline int32_t GetItemId(int32_t index);
+
+  /// @brief Method IsExpandedByIndex, addr 0x3368650, size 0x9c, virtual false, abstract: false, final false
+  inline bool IsExpandedByIndex(int32_t index);
+
+  /// @brief Method ListViewRefresh, addr 0x3368470, size 0x1c, virtual false, abstract: false, final false
+  inline void ListViewRefresh();
+
+  /// @brief Method MakeTreeItem, addr 0x3369ce8, size 0x4e0, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* MakeTreeItem();
+
+  static inline ::UnityEngine::UIElements::TreeView* New_ctor();
+
+  /// @brief Method OnCustomStyleResolved, addr 0x336adf8, size 0x150, virtual false, abstract: false, final false
+  inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
+
+  /// @brief Method OnItemMouseUp, addr 0x33694ec, size 0x7fc, virtual false, abstract: false, final false
+  inline void OnItemMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
+
+  /// @brief Method OnItemsChosen, addr 0x3368c40, size 0x420, virtual false, abstract: false, final false
+  inline void OnItemsChosen(::System::Collections::Generic::IEnumerable_1<::System::Object*>* chosenItems);
+
+  /// @brief Method OnKeyDown, addr 0x3368594, size 0xbc, virtual false, abstract: false, final false
+  inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
+
+  /// @brief Method OnSelectionChange, addr 0x3369060, size 0x454, virtual false, abstract: false, final false
+  inline void OnSelectionChange(::System::Collections::Generic::IEnumerable_1<::System::Object*>* selectedListItems);
+
+  /// @brief Method OnTreeViewMouseUp, addr 0x33694b4, size 0x38, virtual false, abstract: false, final false
+  inline void OnTreeViewMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
+
+  /// @brief Method OnViewDataReady, addr 0x33684b0, size 0x3c, virtual true, abstract: false, final false
+  inline void OnViewDataReady();
+
+  /// @brief Method Rebuild, addr 0x336848c, size 0x24, virtual false, abstract: false, final false
+  inline void Rebuild();
+
+  /// @brief Method RefreshItems, addr 0x33683c4, size 0x24, virtual false, abstract: false, final false
+  inline void RefreshItems();
+
+  /// @brief Method RegenerateWrappers, addr 0x33683e8, size 0x88, virtual false, abstract: false, final false
+  inline void RegenerateWrappers();
+
+  /// @brief Method ToggleExpandedState, addr 0x336ac74, size 0x184, virtual false, abstract: false, final false
+  inline void ToggleExpandedState(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
+
+  /// @brief Method UnbindTreeItem, addr 0x336a1c8, size 0x11c, virtual false, abstract: false, final false
+  inline void UnbindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
+
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get__unbindItem_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*> const&
+  __cordl_internal_get__unbindItem_k__BackingField() const;
+
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_BindItem();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*> const&
+  __cordl_internal_get_m_BindItem() const;
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_ExpandedItemIds();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_ExpandedItemIds() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*& __cordl_internal_get_m_ItemWrappers();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*> const& __cordl_internal_get_m_ItemWrappers() const;
+
+  constexpr ::UnityEngine::UIElements::ListView*& __cordl_internal_get_m_ListView();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& __cordl_internal_get_m_ListView() const;
+
+  constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_MakeItem();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_MakeItem() const;
+
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_RootItems();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get_m_RootItems() const;
+
+  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_SelectedItems();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get_m_SelectedItems() const;
+
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __cordl_internal_get_onItemsChosen();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
+  __cordl_internal_get_onItemsChosen() const;
+
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __cordl_internal_get_onSelectionChange();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
+  __cordl_internal_get_onSelectionChange() const;
+
+  constexpr void __cordl_internal_set__unbindItem_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
+
+  constexpr void __cordl_internal_set_m_BindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
+
+  constexpr void __cordl_internal_set_m_ExpandedItemIds(::System::Collections::Generic::List_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_ItemWrappers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* value);
+
+  constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::ListView* value);
+
+  constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
+
+  constexpr void __cordl_internal_set_m_RootItems(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
+
+  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
+
+  constexpr void __cordl_internal_set_m_SelectedItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
+
+  constexpr void __cordl_internal_set_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
+
+  constexpr void __cordl_internal_set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
+
+  /// @brief Method .ctor, addr 0x3367e70, size 0x554, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::StringW getStaticF_s_ItemContentContainerName();
+
+  static inline ::StringW getStaticF_s_ItemIndentName();
+
+  static inline ::StringW getStaticF_s_ItemIndentsContainerName();
+
+  static inline ::StringW getStaticF_s_ItemName();
+
+  static inline ::StringW getStaticF_s_ItemToggleName();
+
+  static inline ::StringW getStaticF_s_ListViewName();
+
+  /// @brief Method get_unbindItem, addr 0x3367df0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* get_unbindItem();
+
+  static inline void setStaticF_s_ItemContentContainerName(::StringW value);
+
+  static inline void setStaticF_s_ItemIndentName(::StringW value);
+
+  static inline void setStaticF_s_ItemIndentsContainerName(::StringW value);
+
+  static inline void setStaticF_s_ItemName(::StringW value);
+
+  static inline void setStaticF_s_ItemToggleName(::StringW value);
+
+  static inline void setStaticF_s_ListViewName(::StringW value);
+
+  /// @brief Method set_itemHeight, addr 0x3367df8, size 0x20, virtual false, abstract: false, final false
+  inline void set_itemHeight(int32_t value);
+
+  /// @brief Method set_selectionType, addr 0x3367e38, size 0x1c, virtual false, abstract: false, final false
+  inline void set_selectionType(::UnityEngine::UIElements::SelectionType value);
+
+  /// @brief Method set_showAlternatingRowBackgrounds, addr 0x3367e54, size 0x1c, virtual false, abstract: false, final false
+  inline void set_showAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value);
+
+  /// @brief Method set_showBorder, addr 0x3367e18, size 0x20, virtual false, abstract: false, final false
+  inline void set_showBorder(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TreeView();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TreeView(TreeView&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TreeView(TreeView const&) = delete;
+
+  /// @brief Field m_MakeItem, offset: 0x3b0, size: 0x8, def value: None
+  ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeItem;
+
+  /// @brief Field onItemsChosen, offset: 0x3b8, size: 0x8, def value: None
+  ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* ___onItemsChosen;
+
+  /// @brief Field onSelectionChange, offset: 0x3c0, size: 0x8, def value: None
+  ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* ___onSelectionChange;
+
+  /// @brief Field m_SelectedItems, offset: 0x3c8, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* ___m_SelectedItems;
+
+  /// @brief Field m_BindItem, offset: 0x3d0, size: 0x8, def value: None
+  ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* ___m_BindItem;
+
+  /// @brief Field <unbindItem>k__BackingField, offset: 0x3d8, size: 0x8, def value: None
+  ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* ____unbindItem_k__BackingField;
+
+  /// @brief Field m_RootItems, offset: 0x3e0, size: 0x8, def value: None
+  ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* ___m_RootItems;
+
+  /// @brief Field m_ExpandedItemIds, offset: 0x3e8, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<int32_t>* ___m_ExpandedItemIds;
+
+  /// @brief Field m_ItemWrappers, offset: 0x3f0, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* ___m_ItemWrappers;
+
+  /// @brief Field m_ListView, offset: 0x3f8, size: 0x8, def value: None
+  ::UnityEngine::UIElements::ListView* ___m_ListView;
+
+  /// @brief Field m_ScrollView, offset: 0x400, size: 0x8, def value: None
+  ::UnityEngine::UIElements::ScrollView* ___m_ScrollView;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TreeView, 0x408>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_MakeItem) == 0x3b0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___onItemsChosen) == 0x3b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___onSelectionChange) == 0x3c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_SelectedItems) == 0x3c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_BindItem) == 0x3d0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ____unbindItem_k__BackingField) == 0x3d8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_RootItems) == 0x3e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ExpandedItemIds) == 0x3e8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ItemWrappers) == 0x3f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ListView) == 0x3f8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ScrollView) == 0x400, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TreeView);

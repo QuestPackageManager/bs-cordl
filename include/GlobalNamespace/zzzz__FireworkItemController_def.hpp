@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__useOwnGradient(bool value);
 
-  /// @brief Method .ctor, addr 0x248d61c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b18e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -191,6 +191,193 @@ static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItem
 static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____particleColorGradient) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____randomizeSpeed) == 0x28, "Offset mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::FireworkItemController::Pool*
+class CORDL_TYPE __FireworkItemController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FireworkItemController>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__FireworkItemController__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25b18f0, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FireworkItemController__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __FireworkItemController__Pool(__FireworkItemController__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __FireworkItemController__Pool(__FireworkItemController__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemController__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<FireCoroutine>d__29
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::FireworkItemController::<FireCoroutine>d__29*
+class CORDL_TYPE __FireworkItemController___FireCoroutine_d__29 : public ::System::Object {
+public:
+  // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
+  /// @brief Field <>1__state, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+
+  /// @brief Field <>2__current, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FireworkItemController> __4__this;
+
+  /// @brief Field <elapsedTime>5__3, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
+
+  /// @brief Field <explosionSoundFired>5__4, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__explosionSoundFired_5__4, put = __cordl_internal_set__explosionSoundFired_5__4)) bool _explosionSoundFired_5__4;
+
+  /// @brief Field <soundTimeToCenter>5__2, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__soundTimeToCenter_5__2, put = __cordl_internal_set__soundTimeToCenter_5__2)) float_t _soundTimeToCenter_5__2;
+
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+
+  /// @brief Convert operator to "::System::Collections::IEnumerator"
+  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method MoveNext, addr 0x25b193c, size 0x230, virtual true, abstract: false, final true
+  inline bool MoveNext();
+
+  static inline ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25b1b6c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25b1b74, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25b1bb4, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x25b1938, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
+
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+  constexpr int32_t& __cordl_internal_get___1__state();
+
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController> const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController>& __cordl_internal_get___4__this();
+
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__3() const;
+
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__3();
+
+  constexpr bool const& __cordl_internal_get__explosionSoundFired_5__4() const;
+
+  constexpr bool& __cordl_internal_get__explosionSoundFired_5__4();
+
+  constexpr float_t const& __cordl_internal_get__soundTimeToCenter_5__2() const;
+
+  constexpr float_t& __cordl_internal_get__soundTimeToCenter_5__2();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworkItemController> value);
+
+  constexpr void __cordl_internal_set__elapsedTime_5__3(float_t value);
+
+  constexpr void __cordl_internal_set__explosionSoundFired_5__4(bool value);
+
+  constexpr void __cordl_internal_set__soundTimeToCenter_5__2(float_t value);
+
+  /// @brief Method .ctor, addr 0x25b14a8, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FireworkItemController___FireCoroutine_d__29();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController___FireCoroutine_d__29", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __FireworkItemController___FireCoroutine_d__29(__FireworkItemController___FireCoroutine_d__29&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController___FireCoroutine_d__29", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __FireworkItemController___FireCoroutine_d__29(__FireworkItemController___FireCoroutine_d__29 const&) = delete;
+
+  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+  int32_t _____1__state;
+
+  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+  ::System::Object* _____2__current;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::FireworkItemController> _____4__this;
+
+  /// @brief Field <soundTimeToCenter>5__2, offset: 0x28, size: 0x4, def value: None
+  float_t ____soundTimeToCenter_5__2;
+
+  /// @brief Field <elapsedTime>5__3, offset: 0x2c, size: 0x4, def value: None
+  float_t ____elapsedTime_5__3;
+
+  /// @brief Field <explosionSoundFired>5__4, offset: 0x30, size: 0x1, def value: None
+  bool ____explosionSoundFired_5__4;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____soundTimeToCenter_5__2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____elapsedTime_5__3) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____explosionSoundFired_5__4) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::FireworkItemController
@@ -270,27 +457,27 @@ public:
 
   __declspec(property(put = set_directionalLightIntensity)) float_t directionalLightIntensity;
 
-  /// @brief Method Awake, addr 0x248cf80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x25b1244, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Fire, addr 0x248d15c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x25b1420, size 0x20, virtual false, abstract: false, final false
   inline void Fire();
 
-  /// @brief Method FireCoroutine, addr 0x248d17c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FireCoroutine, addr 0x25b1440, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FireCoroutine();
 
-  /// @brief Method InitializeParticleSystem, addr 0x248d2e8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method InitializeParticleSystem, addr 0x25b15ac, size 0x314, virtual false, abstract: false, final false
   inline void InitializeParticleSystem();
 
   static inline ::GlobalNamespace::FireworkItemController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x248d004, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x25b12c8, size 0x58, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PlayExplosionSound, addr 0x248d20c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PlayExplosionSound, addr 0x25b14d0, size 0xdc, virtual false, abstract: false, final false
   inline void PlayExplosionSound();
 
-  /// @brief Method SetLightsColor, addr 0x248d05c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetLightsColor, addr 0x25b1320, size 0x100, virtual false, abstract: false, final false
   inline void SetLightsColor(float_t intensity);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -404,19 +591,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method .ctor, addr 0x248d5fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b18c0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x248ce20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x25b10e4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x248ced0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x25b1194, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method set_directionalLight, addr 0x248ce10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLight, addr 0x25b10d4, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
 
-  /// @brief Method set_directionalLightIntensity, addr 0x248ce18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLightIntensity, addr 0x25b10dc, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLightIntensity(float_t value);
 
 protected:
@@ -527,193 +714,6 @@ static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____directiona
 static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____initialized) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FireworkItemController, ___didFinishEvent) == 0x90, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::FireworkItemController::Pool*
-class CORDL_TYPE __FireworkItemController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FireworkItemController>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__FireworkItemController__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x248d62c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FireworkItemController__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __FireworkItemController__Pool(__FireworkItemController__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __FireworkItemController__Pool(__FireworkItemController__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemController__Pool, 0x40>, "Size mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<FireCoroutine>d__29
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::FireworkItemController::<FireCoroutine>d__29*
-class CORDL_TYPE __FireworkItemController___FireCoroutine_d__29 : public ::System::Object {
-public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
-
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FireworkItemController> __4__this;
-
-  /// @brief Field <elapsedTime>5__3, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
-
-  /// @brief Field <explosionSoundFired>5__4, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__explosionSoundFired_5__4, put = __cordl_internal_set__explosionSoundFired_5__4)) bool _explosionSoundFired_5__4;
-
-  /// @brief Field <soundTimeToCenter>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__soundTimeToCenter_5__2, put = __cordl_internal_set__soundTimeToCenter_5__2)) float_t _soundTimeToCenter_5__2;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method MoveNext, addr 0x248d678, size 0x230, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  static inline ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29* New_ctor(int32_t __1__state);
-
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x248d8a8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x248d8b0, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x248d8f0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x248d674, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
-
-  constexpr ::UnityW<::GlobalNamespace::FireworkItemController> const& __cordl_internal_get___4__this() const;
-
-  constexpr ::UnityW<::GlobalNamespace::FireworkItemController>& __cordl_internal_get___4__this();
-
-  constexpr float_t const& __cordl_internal_get__elapsedTime_5__3() const;
-
-  constexpr float_t& __cordl_internal_get__elapsedTime_5__3();
-
-  constexpr bool const& __cordl_internal_get__explosionSoundFired_5__4() const;
-
-  constexpr bool& __cordl_internal_get__explosionSoundFired_5__4();
-
-  constexpr float_t const& __cordl_internal_get__soundTimeToCenter_5__2() const;
-
-  constexpr float_t& __cordl_internal_get__soundTimeToCenter_5__2();
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworkItemController> value);
-
-  constexpr void __cordl_internal_set__elapsedTime_5__3(float_t value);
-
-  constexpr void __cordl_internal_set__explosionSoundFired_5__4(bool value);
-
-  constexpr void __cordl_internal_set__soundTimeToCenter_5__2(float_t value);
-
-  /// @brief Method .ctor, addr 0x248d1e4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FireworkItemController___FireCoroutine_d__29();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController___FireCoroutine_d__29", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __FireworkItemController___FireCoroutine_d__29(__FireworkItemController___FireCoroutine_d__29&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController___FireCoroutine_d__29", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __FireworkItemController___FireCoroutine_d__29(__FireworkItemController___FireCoroutine_d__29 const&) = delete;
-
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FireworkItemController> _____4__this;
-
-  /// @brief Field <soundTimeToCenter>5__2, offset: 0x28, size: 0x4, def value: None
-  float_t ____soundTimeToCenter_5__2;
-
-  /// @brief Field <elapsedTime>5__3, offset: 0x2c, size: 0x4, def value: None
-  float_t ____elapsedTime_5__3;
-
-  /// @brief Field <explosionSoundFired>5__4, offset: 0x30, size: 0x1, def value: None
-  bool ____explosionSoundFired_5__4;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, 0x38>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____1__state) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____2__current) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____4__this) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____soundTimeToCenter_5__2) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____elapsedTime_5__3) == 0x2c, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____explosionSoundFired_5__4) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FireworkItemController);

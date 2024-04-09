@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2faf164, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3393f80, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

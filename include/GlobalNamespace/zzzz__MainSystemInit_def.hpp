@@ -109,13 +109,7 @@ namespace GlobalNamespace {
 class OculusVRHelper;
 }
 namespace GlobalNamespace {
-class PS4NetworkPlayerModel;
-}
-namespace GlobalNamespace {
 class PS5ActivityIdsModelSO;
-}
-namespace GlobalNamespace {
-class PS5NetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class PSVR2Helper;
@@ -149,6 +143,9 @@ class SongPackMasksModelSO;
 }
 namespace GlobalNamespace {
 class SonyAchievementIdsModelSO;
+}
+namespace GlobalNamespace {
+class SonyNetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
@@ -201,63 +198,63 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__MainSystemInit____c* __9;
 
-  /// @brief Field <>9__52_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__52_0, put = setStaticF___9__52_0))::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
-                                                                                                      ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* __9__52_0;
+  /// @brief Field <>9__51_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__51_0, put = setStaticF___9__51_0))::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
+                                                                                                      ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* __9__51_0;
 
-  /// @brief Field <>9__52_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__52_1, put = setStaticF___9__52_1))::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
-                                                                                                      ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>* __9__52_1;
+  /// @brief Field <>9__51_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__51_1, put = setStaticF___9__51_1))::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
+                                                                                                      ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>* __9__51_1;
 
-  /// @brief Field <>9__52_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__52_2, put = setStaticF___9__52_2))::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
-                                                                                                      ::GlobalNamespace::OculusLevelProductCollectionModel*>* __9__52_2;
+  /// @brief Field <>9__51_2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__51_2, put = setStaticF___9__51_2))::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
+                                                                                                      ::GlobalNamespace::OculusLevelProductCollectionModel*>* __9__51_2;
 
-  /// @brief Field <>9__56_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__56_0, put = setStaticF___9__56_0))::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* __9__56_0;
+  /// @brief Field <>9__55_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__55_0, put = setStaticF___9__55_0))::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* __9__55_0;
 
   static inline ::GlobalNamespace::__MainSystemInit____c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__52_0, addr 0x23e0f90, size 0x78, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__52_0(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+  /// @brief Method <InstallBindings>b__51_0, addr 0x2503550, size 0x78, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__51_0(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallBindings>b__52_1, addr 0x23e1008, size 0x64, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* _InstallBindings_b__52_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+  /// @brief Method <InstallBindings>b__51_1, addr 0x25035c8, size 0x64, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* _InstallBindings_b__51_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallBindings>b__52_2, addr 0x23e106c, size 0x78, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__52_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+  /// @brief Method <InstallBindings>b__51_2, addr 0x250362c, size 0x78, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__51_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallPlatformLeaderboardsModel>b__56_0, addr 0x23e10e4, size 0x7c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LeaderboardIdsModel* _InstallPlatformLeaderboardsModel_b__56_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
+  /// @brief Method <InstallPlatformLeaderboardsModel>b__55_0, addr 0x25036a4, size 0x7c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::LeaderboardIdsModel* _InstallPlatformLeaderboardsModel_b__55_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method .ctor, addr 0x23e0f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2503548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MainSystemInit____c* getStaticF___9();
 
   static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*
-  getStaticF___9__52_0();
+  getStaticF___9__51_0();
 
   static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>*
-  getStaticF___9__52_1();
+  getStaticF___9__51_1();
 
   static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*
-  getStaticF___9__52_2();
+  getStaticF___9__51_2();
 
-  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* getStaticF___9__56_0();
+  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* getStaticF___9__55_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__MainSystemInit____c* value);
 
   static inline void
-  setStaticF___9__52_0(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* value);
+  setStaticF___9__51_0(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* value);
 
   static inline void
-  setStaticF___9__52_1(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>* value);
+  setStaticF___9__51_1(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::RelativeSfxVolumePerLevelModel*>* value);
 
   static inline void
-  setStaticF___9__52_2(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>* value);
+  setStaticF___9__51_2(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>* value);
 
-  static inline void setStaticF___9__56_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value);
+  static inline void setStaticF___9__55_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value);
 
 protected:
   // Ctor Parameters []
@@ -280,7 +277,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainSystemIni
 
 } // namespace GlobalNamespace
 // Type: ::MainSystemInit
-// SizeInfo { instance_size: 424, native_size: -1, calculated_instance_size: 424, calculated_native_size: 424, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 416, native_size: -1, calculated_instance_size: 416, calculated_native_size: 416, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainSystemInit*
@@ -289,10 +286,10 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__MainSystemInit____c;
 
-  /// @brief Field _achievementIdsModel, offset 0x178, size 0x8
+  /// @brief Field _achievementIdsModel, offset 0x170, size 0x8
   __declspec(property(get = __cordl_internal_get__achievementIdsModel, put = __cordl_internal_set__achievementIdsModel))::UnityW<::GlobalNamespace::AchievementIdsModelSO> _achievementIdsModel;
 
-  /// @brief Field _achievementsModel, offset 0x180, size 0x8
+  /// @brief Field _achievementsModel, offset 0x178, size 0x8
   __declspec(property(get = __cordl_internal_get__achievementsModel, put = __cordl_internal_set__achievementsModel))::UnityW<::GlobalNamespace::AchievementsModelSO> _achievementsModel;
 
   /// @brief Field _audioManager, offset 0x20, size 0x8
@@ -314,13 +311,13 @@ public:
   __declspec(property(get = __cordl_internal_get__campaignProgressModelPrefab,
                       put = __cordl_internal_set__campaignProgressModelPrefab))::UnityW<::GlobalNamespace::CampaignProgressModel> _campaignProgressModelPrefab;
 
-  /// @brief Field _coroutineStarter, offset 0x190, size 0x8
+  /// @brief Field _coroutineStarter, offset 0x188, size 0x8
   __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter))::UnityW<::GlobalNamespace::CoroutineStarter> _coroutineStarter;
 
   /// @brief Field _customLevelLoaderPrefab, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__customLevelLoaderPrefab, put = __cordl_internal_set__customLevelLoaderPrefab))::UnityW<::GlobalNamespace::CustomLevelLoader> _customLevelLoaderPrefab;
 
-  /// @brief Field _defaultMaxCachedBeatmapLevels, offset 0x1a0, size 0x4
+  /// @brief Field _defaultMaxCachedBeatmapLevels, offset 0x198, size 0x4
   __declspec(property(get = __cordl_internal_get__defaultMaxCachedBeatmapLevels, put = __cordl_internal_set__defaultMaxCachedBeatmapLevels)) int32_t _defaultMaxCachedBeatmapLevels;
 
   /// @brief Field _devicelessVRHelperPrefab, offset 0x110, size 0x8
@@ -346,7 +343,7 @@ public:
   __declspec(property(get = __cordl_internal_get__hapticFeedbackControllerPrefab,
                       put = __cordl_internal_set__hapticFeedbackControllerPrefab))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackControllerPrefab;
 
-  /// @brief Field _leaderboardScoreUploader, offset 0x158, size 0x8
+  /// @brief Field _leaderboardScoreUploader, offset 0x150, size 0x8
   __declspec(property(get = __cordl_internal_get__leaderboardScoreUploader,
                       put = __cordl_internal_set__leaderboardScoreUploader))::UnityW<::GlobalNamespace::LeaderboardScoreUploader> _leaderboardScoreUploader;
 
@@ -364,7 +361,7 @@ public:
   /// @brief Field _mainSettingsModel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
-  /// @brief Field _menuTransitionHelperPrefab, offset 0x198, size 0x8
+  /// @brief Field _menuTransitionHelperPrefab, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionHelperPrefab,
                       put = __cordl_internal_set__menuTransitionHelperPrefab))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionHelperPrefab;
 
@@ -406,7 +403,7 @@ public:
   /// @brief Field _oculusVRHelperPrefab, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusVRHelperPrefab, put = __cordl_internal_set__oculusVRHelperPrefab))::UnityW<::GlobalNamespace::OculusVRHelper> _oculusVRHelperPrefab;
 
-  /// @brief Field _platformLeaderboardsModel, offset 0x160, size 0x8
+  /// @brief Field _platformLeaderboardsModel, offset 0x158, size 0x8
   __declspec(property(get = __cordl_internal_get__platformLeaderboardsModel,
                       put = __cordl_internal_set__platformLeaderboardsModel))::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> _platformLeaderboardsModel;
 
@@ -416,27 +413,19 @@ public:
   /// @brief Field _playerDataModelPrefab, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModelPrefab, put = __cordl_internal_set__playerDataModelPrefab))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModelPrefab;
 
-  /// @brief Field _ps4AchievementIdsModel, offset 0x168, size 0x8
+  /// @brief Field _ps4AchievementIdsModel, offset 0x160, size 0x8
   __declspec(property(get = __cordl_internal_get__ps4AchievementIdsModel,
                       put = __cordl_internal_set__ps4AchievementIdsModel))::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> _ps4AchievementIdsModel;
 
-  /// @brief Field _ps4MaxCachedBeatmapLevels, offset 0x1a4, size 0x4
+  /// @brief Field _ps4MaxCachedBeatmapLevels, offset 0x19c, size 0x4
   __declspec(property(get = __cordl_internal_get__ps4MaxCachedBeatmapLevels, put = __cordl_internal_set__ps4MaxCachedBeatmapLevels)) int32_t _ps4MaxCachedBeatmapLevels;
 
-  /// @brief Field _ps4NetworkPlayerModelPrefab, offset 0x148, size 0x8
-  __declspec(property(get = __cordl_internal_get__ps4NetworkPlayerModelPrefab,
-                      put = __cordl_internal_set__ps4NetworkPlayerModelPrefab))::UnityW<::GlobalNamespace::PS4NetworkPlayerModel> _ps4NetworkPlayerModelPrefab;
-
-  /// @brief Field _ps5AchievmentIdsModel, offset 0x170, size 0x8
+  /// @brief Field _ps5AchievmentIdsModel, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get__ps5AchievmentIdsModel,
                       put = __cordl_internal_set__ps5AchievmentIdsModel))::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> _ps5AchievmentIdsModel;
 
-  /// @brief Field _ps5ActivityIdsModel, offset 0x188, size 0x8
+  /// @brief Field _ps5ActivityIdsModel, offset 0x180, size 0x8
   __declspec(property(get = __cordl_internal_get__ps5ActivityIdsModel, put = __cordl_internal_set__ps5ActivityIdsModel))::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO> _ps5ActivityIdsModel;
-
-  /// @brief Field _ps5NetworkPlayerModelPrefab, offset 0x150, size 0x8
-  __declspec(property(get = __cordl_internal_get__ps5NetworkPlayerModelPrefab,
-                      put = __cordl_internal_set__ps5NetworkPlayerModelPrefab))::UnityW<::GlobalNamespace::PS5NetworkPlayerModel> _ps5NetworkPlayerModelPrefab;
 
   /// @brief Field _psVR2HelperPrefab, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__psVR2HelperPrefab, put = __cordl_internal_set__psVR2HelperPrefab))::UnityW<::GlobalNamespace::PSVR2Helper> _psVR2HelperPrefab;
@@ -450,6 +439,10 @@ public:
 
   /// @brief Field _songPackMasksModel, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::UnityW<::GlobalNamespace::SongPackMasksModelSO> _songPackMasksModel;
+
+  /// @brief Field _sonyNetworkPlayerModelPrefab, offset 0x148, size 0x8
+  __declspec(property(get = __cordl_internal_get__sonyNetworkPlayerModelPrefab,
+                      put = __cordl_internal_set__sonyNetworkPlayerModelPrefab))::UnityW<::GlobalNamespace::SonyNetworkPlayerModel> _sonyNetworkPlayerModelPrefab;
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__standardLevelScenesTransitionSetupData,
@@ -471,28 +464,28 @@ public:
   /// @brief Field _voipManagerPrefab, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__voipManagerPrefab, put = __cordl_internal_set__voipManagerPrefab))::UnityW<::GlobalNamespace::VoipManager> _voipManagerPrefab;
 
-  /// @brief Method Init, addr 0x23deacc, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25010c4, size 0x34c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InstallBindings, addr 0x23def24, size 0x19e8, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x250151c, size 0x19b0, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container, bool isRunningFromTests);
 
-  /// @brief Method InstallHapticsController, addr 0x23e0d48, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method InstallHapticsController, addr 0x2503308, size 0x1c0, virtual false, abstract: false, final false
   inline void InstallHapticsController(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallOculusDestinationBindings, addr 0x23e0934, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InstallOculusDestinationBindings, addr 0x2502ef4, size 0xf8, virtual false, abstract: false, final false
   inline void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPS4Bindings, addr 0x23e0f0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InstallPS4Bindings, addr 0x25034cc, size 0x4, virtual false, abstract: false, final false
   inline void InstallPS4Bindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPS5Bindings, addr 0x23e0f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InstallPS5Bindings, addr 0x25034c8, size 0x4, virtual false, abstract: false, final false
   inline void InstallPS5Bindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x23e0b1c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x25030dc, size 0x22c, virtual false, abstract: false, final false
   inline void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container, bool isRunningFromTests);
 
-  /// @brief Method InstallRichPresence, addr 0x23e0a2c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InstallRichPresence, addr 0x2502fec, size 0xf0, virtual false, abstract: false, final false
   inline void InstallRichPresence(::Zenject::DiContainer* container, bool isRunningFromTests);
 
   static inline ::GlobalNamespace::MainSystemInit* New_ctor();
@@ -645,10 +638,6 @@ public:
 
   constexpr int32_t& __cordl_internal_get__ps4MaxCachedBeatmapLevels();
 
-  constexpr ::UnityW<::GlobalNamespace::PS4NetworkPlayerModel> const& __cordl_internal_get__ps4NetworkPlayerModelPrefab() const;
-
-  constexpr ::UnityW<::GlobalNamespace::PS4NetworkPlayerModel>& __cordl_internal_get__ps4NetworkPlayerModelPrefab();
-
   constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> const& __cordl_internal_get__ps5AchievmentIdsModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>& __cordl_internal_get__ps5AchievmentIdsModel();
@@ -656,10 +645,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO> const& __cordl_internal_get__ps5ActivityIdsModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO>& __cordl_internal_get__ps5ActivityIdsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::PS5NetworkPlayerModel> const& __cordl_internal_get__ps5NetworkPlayerModelPrefab() const;
-
-  constexpr ::UnityW<::GlobalNamespace::PS5NetworkPlayerModel>& __cordl_internal_get__ps5NetworkPlayerModelPrefab();
 
   constexpr ::UnityW<::GlobalNamespace::PSVR2Helper> const& __cordl_internal_get__psVR2HelperPrefab() const;
 
@@ -676,6 +661,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::SongPackMasksModelSO> const& __cordl_internal_get__songPackMasksModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::SongPackMasksModelSO>& __cordl_internal_get__songPackMasksModel();
+
+  constexpr ::UnityW<::GlobalNamespace::SonyNetworkPlayerModel> const& __cordl_internal_get__sonyNetworkPlayerModelPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SonyNetworkPlayerModel>& __cordl_internal_get__sonyNetworkPlayerModelPrefab();
 
   constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelScenesTransitionSetupData() const;
 
@@ -775,13 +764,9 @@ public:
 
   constexpr void __cordl_internal_set__ps4MaxCachedBeatmapLevels(int32_t value);
 
-  constexpr void __cordl_internal_set__ps4NetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::PS4NetworkPlayerModel> value);
-
   constexpr void __cordl_internal_set__ps5AchievmentIdsModel(::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> value);
 
   constexpr void __cordl_internal_set__ps5ActivityIdsModel(::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO> value);
-
-  constexpr void __cordl_internal_set__ps5NetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::PS5NetworkPlayerModel> value);
 
   constexpr void __cordl_internal_set__psVR2HelperPrefab(::UnityW<::GlobalNamespace::PSVR2Helper> value);
 
@@ -790,6 +775,8 @@ public:
   constexpr void __cordl_internal_set__richPresenceManagerPrefab(::UnityW<::GlobalNamespace::RichPresenceManager> value);
 
   constexpr void __cordl_internal_set__songPackMasksModel(::UnityW<::GlobalNamespace::SongPackMasksModelSO> value);
+
+  constexpr void __cordl_internal_set__sonyNetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::SonyNetworkPlayerModel> value);
 
   constexpr void __cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
@@ -803,7 +790,7 @@ public:
 
   constexpr void __cordl_internal_set__voipManagerPrefab(::UnityW<::GlobalNamespace::VoipManager> value);
 
-  /// @brief Method .ctor, addr 0x23e0f10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25034d0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -934,49 +921,46 @@ public:
   /// @brief Field _oculusNetworkPlayerModelPrefab, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OculusNetworkPlayerModel> ____oculusNetworkPlayerModelPrefab;
 
-  /// @brief Field _ps4NetworkPlayerModelPrefab, offset: 0x148, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PS4NetworkPlayerModel> ____ps4NetworkPlayerModelPrefab;
+  /// @brief Field _sonyNetworkPlayerModelPrefab, offset: 0x148, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::SonyNetworkPlayerModel> ____sonyNetworkPlayerModelPrefab;
 
-  /// @brief Field _ps5NetworkPlayerModelPrefab, offset: 0x150, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PS5NetworkPlayerModel> ____ps5NetworkPlayerModelPrefab;
-
-  /// @brief Field _leaderboardScoreUploader, offset: 0x158, size: 0x8, def value: None
+  /// @brief Field _leaderboardScoreUploader, offset: 0x150, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> ____leaderboardScoreUploader;
 
-  /// @brief Field _platformLeaderboardsModel, offset: 0x160, size: 0x8, def value: None
+  /// @brief Field _platformLeaderboardsModel, offset: 0x158, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> ____platformLeaderboardsModel;
 
-  /// @brief Field _ps4AchievementIdsModel, offset: 0x168, size: 0x8, def value: None
+  /// @brief Field _ps4AchievementIdsModel, offset: 0x160, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> ____ps4AchievementIdsModel;
 
-  /// @brief Field _ps5AchievmentIdsModel, offset: 0x170, size: 0x8, def value: None
+  /// @brief Field _ps5AchievmentIdsModel, offset: 0x168, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> ____ps5AchievmentIdsModel;
 
-  /// @brief Field _achievementIdsModel, offset: 0x178, size: 0x8, def value: None
+  /// @brief Field _achievementIdsModel, offset: 0x170, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementIdsModelSO> ____achievementIdsModel;
 
-  /// @brief Field _achievementsModel, offset: 0x180, size: 0x8, def value: None
+  /// @brief Field _achievementsModel, offset: 0x178, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementsModelSO> ____achievementsModel;
 
-  /// @brief Field _ps5ActivityIdsModel, offset: 0x188, size: 0x8, def value: None
+  /// @brief Field _ps5ActivityIdsModel, offset: 0x180, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO> ____ps5ActivityIdsModel;
 
-  /// @brief Field _coroutineStarter, offset: 0x190, size: 0x8, def value: None
+  /// @brief Field _coroutineStarter, offset: 0x188, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CoroutineStarter> ____coroutineStarter;
 
-  /// @brief Field _menuTransitionHelperPrefab, offset: 0x198, size: 0x8, def value: None
+  /// @brief Field _menuTransitionHelperPrefab, offset: 0x190, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionHelperPrefab;
 
-  /// @brief Field _defaultMaxCachedBeatmapLevels, offset: 0x1a0, size: 0x4, def value: None
+  /// @brief Field _defaultMaxCachedBeatmapLevels, offset: 0x198, size: 0x4, def value: None
   int32_t ____defaultMaxCachedBeatmapLevels;
 
-  /// @brief Field _ps4MaxCachedBeatmapLevels, offset: 0x1a4, size: 0x4, def value: None
+  /// @brief Field _ps4MaxCachedBeatmapLevels, offset: 0x19c, size: 0x4, def value: None
   int32_t ____ps4MaxCachedBeatmapLevels;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSystemInit, 0x1a8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSystemInit, 0x1a0>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____mainSettingsModel) == 0x18, "Offset mismatch!");
 
@@ -1054,31 +1038,29 @@ static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____steamNetworkPlayer
 
 static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____oculusNetworkPlayerModelPrefab) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps4NetworkPlayerModelPrefab) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____sonyNetworkPlayerModelPrefab) == 0x148, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps5NetworkPlayerModelPrefab) == 0x150, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____leaderboardScoreUploader) == 0x150, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____leaderboardScoreUploader) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____platformLeaderboardsModel) == 0x158, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____platformLeaderboardsModel) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps4AchievementIdsModel) == 0x160, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps4AchievementIdsModel) == 0x168, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps5AchievmentIdsModel) == 0x168, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps5AchievmentIdsModel) == 0x170, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____achievementIdsModel) == 0x170, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____achievementIdsModel) == 0x178, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____achievementsModel) == 0x178, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____achievementsModel) == 0x180, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps5ActivityIdsModel) == 0x180, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps5ActivityIdsModel) == 0x188, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____coroutineStarter) == 0x188, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____coroutineStarter) == 0x190, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____menuTransitionHelperPrefab) == 0x190, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____menuTransitionHelperPrefab) == 0x198, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____defaultMaxCachedBeatmapLevels) == 0x198, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____defaultMaxCachedBeatmapLevels) == 0x1a0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps4MaxCachedBeatmapLevels) == 0x1a4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps4MaxCachedBeatmapLevels) == 0x19c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainSystemInit);

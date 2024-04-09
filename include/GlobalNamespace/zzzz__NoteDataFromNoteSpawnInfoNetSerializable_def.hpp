@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable* New_ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
 
-  /// @brief Method .ctor, addr 0x24c4760, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e9c54, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
 
 protected:

@@ -30,12 +30,12 @@ public:
 
   __declspec(property(get = get_cellNumber, put = set_cellNumber)) int32_t cellNumber;
 
-  /// @brief Method InternalToggle, addr 0x22e3100, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x2402548, size 0x24, virtual true, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::HMUI::SegmentedControlCell* New_ctor();
 
-  /// @brief Method SegmentedControlSetup, addr 0x22e2e84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SegmentedControlSetup, addr 0x24022cc, size 0xc, virtual false, abstract: false, final false
   inline void SegmentedControlSetup(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   constexpr int32_t const& __cordl_internal_get__cellNumber_k__BackingField() const;
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__segmentedControl(::UnityW<::HMUI::SegmentedControl> value);
 
-  /// @brief Method .ctor, addr 0x22e2838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2401c80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellNumber, addr 0x22e30f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellNumber, addr 0x2402538, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellNumber();
 
-  /// @brief Method set_cellNumber, addr 0x22e30f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cellNumber, addr 0x2402540, size 0x8, virtual false, abstract: false, final false
   inline void set_cellNumber(int32_t value);
 
 protected:

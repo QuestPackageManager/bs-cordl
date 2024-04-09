@@ -37,6 +37,39 @@ class __FloorLightTile__Pool;
 // Write type traits
 MARK_REF_PTR_T(::Ice::FloorLightTile);
 MARK_REF_PTR_T(::Ice::__FloorLightTile__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace Ice {
+// Is value type: false
+// CS Name: ::FloorLightTile::Pool*
+class CORDL_TYPE __FloorLightTile__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::Ice::FloorLightTile>> {
+public:
+  // Declarations
+  static inline ::Ice::__FloorLightTile__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0xf6cf7c, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FloorLightTile__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__FloorLightTile__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __FloorLightTile__Pool(__FloorLightTile__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__FloorLightTile__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __FloorLightTile__Pool(__FloorLightTile__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Ice::__FloorLightTile__Pool, 0x40>, "Size mismatch!");
+
+} // namespace Ice
 // Type: Ice::FloorLightTile
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
@@ -65,24 +98,24 @@ public:
   /// @brief Field didFinish, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish))::System::Action_1<::UnityW<::Ice::FloorLightTile>>* didFinish;
 
-  /// @brief Method Awake, addr 0xe95c60, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xf6cb74, size 0x1f0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleFadeInTweenOnCompleted, addr 0xe95fbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeInTweenOnCompleted, addr 0xf6ced0, size 0x24, virtual false, abstract: false, final false
   inline void HandleFadeInTweenOnCompleted();
 
-  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0xe95fe0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0xf6cef4, size 0x20, virtual false, abstract: false, final false
   inline void HandleFadeOutTweenOnCompleted();
 
-  /// @brief Method HighlightWithColor, addr 0xe95ef0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HighlightWithColor, addr 0xf6ce04, size 0xcc, virtual false, abstract: false, final false
   inline void HighlightWithColor(::UnityEngine::Color color, float_t fadeInDuration, float_t fadeOutDuration);
 
   static inline ::Ice::FloorLightTile* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xe95e50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xf6cd64, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0xe96000, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0xf6cf14, size 0x60, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__colorSetter() const;
@@ -121,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_didFinish(::System::Action_1<::UnityW<::Ice::FloorLightTile>>* value);
 
-  /// @brief Method .ctor, addr 0xe96060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6cf74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,39 +205,6 @@ static_assert(offsetof(::Ice::FloorLightTile, ___didFinish) == 0x30, "Offset mis
 static_assert(offsetof(::Ice::FloorLightTile, ____fadeInTween) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Ice::FloorLightTile, ____fadeOutTween) == 0x40, "Offset mismatch!");
-
-} // namespace Ice
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace Ice {
-// Is value type: false
-// CS Name: ::FloorLightTile::Pool*
-class CORDL_TYPE __FloorLightTile__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::Ice::FloorLightTile>> {
-public:
-  // Declarations
-  static inline ::Ice::__FloorLightTile__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe96068, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FloorLightTile__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FloorLightTile__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __FloorLightTile__Pool(__FloorLightTile__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__FloorLightTile__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __FloorLightTile__Pool(__FloorLightTile__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Ice::__FloorLightTile__Pool, 0x40>, "Size mismatch!");
 
 } // namespace Ice
 NEED_NO_BOX(::Ice::FloorLightTile);

@@ -34,18 +34,18 @@ public:
   /// @brief Field _mainSystemInit, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x23e1160, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2503720, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x23e13d0, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2503984, size 0x1cc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PCAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x23e11c8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x2503788, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x23e1264, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x2503824, size 0x160, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
 
-  /// @brief Method .ctor, addr 0x23e159c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2503b50, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,6 +82,12 @@ public:
 
   /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
+
+  /// @brief Field kMissingOpenXRRuntimeErrorSubtitle offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMissingOpenXRRuntimeErrorSubtitle{ u"LABEL_MISSING_OPEN_XR_RUNTIME_ERROR" };
+
+  /// @brief Field kMissingOpenXRRuntimeErrorTitle offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMissingOpenXRRuntimeErrorTitle{ u"TITLE_MISSING_OPEN_XR_RUNTIME_ERROR" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

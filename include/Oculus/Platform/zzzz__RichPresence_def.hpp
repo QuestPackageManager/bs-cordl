@@ -30,16 +30,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x28533d0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x29d59b4, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Clear();
 
-  /// @brief Method GetDestinations, addr 0x2820860, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDestinations, addr 0x29a2e44, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
 
-  /// @brief Method GetNextDestinationListPage, addr 0x28536f8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextDestinationListPage, addr 0x29d5cdc, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
 
-  /// @brief Method Set, addr 0x2853514, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x29d5af8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
 
 protected:

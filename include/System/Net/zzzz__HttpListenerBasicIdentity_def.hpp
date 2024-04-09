@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_password(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b14888, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef9d38, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW username, ::StringW password);
 
 protected:

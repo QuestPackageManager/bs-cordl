@@ -9,13 +9,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_nonNegativeInteger::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a08694;
+  constexpr static std::size_t addrs = 0x2e0d6dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(), 13));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(), 18));
     return ___internal_method;
   }
 };
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_nonNegativeInteger::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a086ec;
+  constexpr static std::size_t addrs = 0x2e0d734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,13 +35,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Xml::Schema::Datatype_nonNegativeInteger.get_HasValueFacets
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
+    &::System::Xml::Schema::Datatype_nonNegativeInteger::get_HasValueFacets)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2e0d73c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(), 11));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_nonNegativeInteger._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_nonNegativeInteger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2a086f4;
+  constexpr static std::size_t addrs = 0x2e03e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(),
@@ -60,13 +76,18 @@ inline ::System::Xml::Schema::FacetsChecker* System::Xml::Schema::Datatype_nonNe
 }
 inline ::System::Xml::Schema::FacetsChecker* System::Xml::Schema::Datatype_nonNegativeInteger::get_FacetsChecker() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(), 13)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::FacetsChecker*, false>(this, ___internal_method);
 }
 inline ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_nonNegativeInteger::get_TypeCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlTypeCode, false>(this, ___internal_method);
+}
+inline bool System::Xml::Schema::Datatype_nonNegativeInteger::get_HasValueFacets() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Xml::Schema::Datatype_nonNegativeInteger* System::Xml::Schema::Datatype_nonNegativeInteger::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_nonNegativeInteger*>());

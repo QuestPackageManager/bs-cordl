@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__ApplicationVersion_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithApplicationVersion)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationVersion, addr 0x28450bc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x29c76a0, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetDataFromMessage, addr 0x28450f8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c76dc, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2842e2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c5410, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

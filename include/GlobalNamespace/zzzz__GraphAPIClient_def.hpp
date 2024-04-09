@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
-#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
@@ -301,7 +300,7 @@ public:
   /// @brief Field _networkConfig, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
-  /// @brief Method CalculateDelayMsBeforeRetry, addr 0xecd7e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CalculateDelayMsBeforeRetry, addr 0xfa6364, size 0x98, virtual false, abstract: false, final false
   static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions);
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig);
@@ -333,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  /// @brief Method .ctor, addr 0xecd764, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa62e8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig);
 
 protected:

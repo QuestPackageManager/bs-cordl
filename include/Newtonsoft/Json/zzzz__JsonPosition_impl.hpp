@@ -4,6 +4,7 @@
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/IO/zzzz__StringWriter_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonPosition._ctor
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonPosition::*)(::Newtonsoft::Json::JsonContainerType)>(
     &::Newtonsoft::Json::JsonPosition::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x27925b0;
+  constexpr static std::size_t addrs = 0x28c41d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonPosition::*)()>(&::Newtonsoft::Json::JsonPosition::CalculateLength)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x279263c;
+  constexpr static std::size_t addrs = 0x28c425c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonPosition>::get(), "CalculateLength",
@@ -37,15 +38,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Newtonsoft::Json::JsonPosition.WriteTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonPosition::*)(::System::Text::StringBuilder*)>(
-    &::Newtonsoft::Json::JsonPosition::WriteTo)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x27926d4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonPosition::*)(
+    ::System::Text::StringBuilder*, ByRef<::System::IO::StringWriter*>, ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>)>(&::Newtonsoft::Json::JsonPosition::WriteTo)> {
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x28c42f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonPosition>::get(), "WriteTo", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get() })));
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::IO::StringWriter*>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>>::get() })));
     return ___internal_method;
   }
 };
@@ -54,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonContainerType)>(&::Newtonsoft::Json::JsonPosition::TypeHasIndex)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x279262c;
+  constexpr static std::size_t addrs = 0x28c424c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition>)>(&::Newtonsoft::Json::JsonPosition::BuildPath)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x279283c;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x28c4514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::IJsonLineInfo*, ::StringW, ::StringW)>(
     &::Newtonsoft::Json::JsonPosition::FormatMessage)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x279223c;
+  constexpr static std::size_t addrs = 0x28c3c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,11 +117,13 @@ inline int32_t Newtonsoft::Json::JsonPosition::CalculateLength() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonPosition::WriteTo(::System::Text::StringBuilder* sb) {
+inline void Newtonsoft::Json::JsonPosition::WriteTo(::System::Text::StringBuilder* sb, ByRef<::System::IO::StringWriter*> writer, ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonPosition>::get(), "WriteTo", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sb);
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::IO::StringWriter*>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sb, writer, buffer);
 }
 inline bool Newtonsoft::Json::JsonPosition::TypeHasIndex(::Newtonsoft::Json::JsonContainerType type) {
   static auto* ___internal_method = THROW_UNLESS(

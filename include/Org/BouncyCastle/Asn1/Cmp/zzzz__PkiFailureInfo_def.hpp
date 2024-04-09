@@ -27,13 +27,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* New_ctor(int32_t info);
 
-  /// @brief Method ToString, addr 0xefc8d8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0xfd645c, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0xefc848, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd63cc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* info);
 
-  /// @brief Method .ctor, addr 0xefc7e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd6368, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t info);
 
 protected:

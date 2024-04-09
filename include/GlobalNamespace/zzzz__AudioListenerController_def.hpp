@@ -23,18 +23,18 @@ public:
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
-  /// @brief Method Awake, addr 0x23e3890, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2505e44, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AudioListenerController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23e38b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2505e64, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x23e38bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x2505e70, size 0xc, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x23e38c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x2505e7c, size 0xc, virtual false, abstract: false, final false
   inline void Resume();
 
   constexpr bool const& __cordl_internal_get__startAudioListenerPauseState() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__startAudioListenerPauseState(bool value);
 
-  /// @brief Method .ctor, addr 0x23e38d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505e88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPaused, addr 0x23e3888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x2505e3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
 protected:

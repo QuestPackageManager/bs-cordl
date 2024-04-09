@@ -46,24 +46,24 @@ public:
   /// @brief Field _selectedAnimationClip, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedAnimationClip, put = __cordl_internal_set__selectedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _selectedAnimationClip;
 
-  /// @brief Method Awake, addr 0x2307b44, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2427090, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleHighlightDidChange, addr 0x2307d88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHighlightDidChange, addr 0x24272d4, size 0x4, virtual false, abstract: false, final false
   inline void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HandleSelectionDidChange, addr 0x2307d84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionDidChange, addr 0x24272d0, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
 
   static inline ::HMUI::SelectableCellStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2307c98, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24271e4, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x2307c34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x2427180, size 0x64, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method Start, addr 0x2307c30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x242717c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__highlightedAnimationClip() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x2307d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24272d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

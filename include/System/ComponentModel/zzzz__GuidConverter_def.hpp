@@ -30,22 +30,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE GuidConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x2a5bbc4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2e3eb1c, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x2a5bc8c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2e3ebe4, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x2a5bd54, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2e3ecac, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2a5be34, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2e3ed8c, size 0x328, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::GuidConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a5c15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e3f0b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

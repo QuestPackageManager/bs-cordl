@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__ImageWithHint_def.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"
 CORDL_MODULE_EXPORT(ImageWithHintItemsList)
+namespace HMUI {
+class ImageWithHint;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ImageWithHintItemsList;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x250d410, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631904, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

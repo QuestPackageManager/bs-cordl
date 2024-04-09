@@ -27,7 +27,7 @@ public:
 
   static inline ::HMUI::TextPageScrollView* New_ctor();
 
-  /// @brief Method SetText, addr 0x230c750, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x242bc9c, size 0x68, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x230c7b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242bd04, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

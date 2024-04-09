@@ -25,9 +25,9 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Type, put = set_Type))::System::Type* Type;
+  __declspec(property(get = get_Type))::System::Type* Type;
 
-  __declspec(property(get = get_TypeCode, put = set_TypeCode))::Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
+  __declspec(property(get = get_TypeCode))::Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
 
   /// @brief Field <TypeCode>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__TypeCode_k__BackingField,
@@ -36,7 +36,7 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField))::System::Type* _Type_k__BackingField;
 
-  static inline ::Newtonsoft::Json::Utilities::TypeInformation* New_ctor();
+  static inline ::Newtonsoft::Json::Utilities::TypeInformation* New_ctor(::System::Type* type, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode);
 
   constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const& __cordl_internal_get__TypeCode_k__BackingField() const;
 
@@ -50,20 +50,14 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x27ae854, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method .ctor, addr 0x29054a0, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::System::Type* type, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode);
 
-  /// @brief Method get_Type, addr 0x27ae834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2905490, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeCode, addr 0x27ae844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2905498, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
-
-  /// @brief Method set_Type, addr 0x27ae83c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Type(::System::Type* value);
-
-  /// @brief Method set_TypeCode, addr 0x27ae84c, size 0x8, virtual false, abstract: false, final false
-  inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
 protected:
   // Ctor Parameters []

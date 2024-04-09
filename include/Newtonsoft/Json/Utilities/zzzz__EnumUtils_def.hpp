@@ -3,14 +3,22 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumUtils)
-namespace Newtonsoft::Json::Utilities {
-template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
+namespace Newtonsoft::Json::Serialization {
+class CamelCaseNamingStrategy;
+}
+namespace Newtonsoft::Json::Serialization {
+class NamingStrategy;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class EnumValue_1;
+class EnumInfo;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename T1, typename T2> struct StructMultiKey_2;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
@@ -19,13 +27,10 @@ namespace Newtonsoft::Json::Utilities {
 class __EnumUtils____c;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __EnumUtils____c__2_1;
+template <typename T> class __EnumUtils____c__4_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace System::Reflection {
-class FieldInfo;
 }
 namespace System::Runtime::Serialization {
 class EnumMemberAttribute;
@@ -34,7 +39,13 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
 class Object;
+}
+namespace System {
+struct StringComparison;
 }
 namespace System {
 class Type;
@@ -47,12 +58,12 @@ namespace Newtonsoft::Json::Utilities {
 class __EnumUtils____c;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __EnumUtils____c__2_1;
+template <typename T> class __EnumUtils____c__4_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::EnumUtils);
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__EnumUtils____c);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1);
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1);
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
@@ -64,44 +75,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__EnumUtils____c* __9;
 
-  /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* __9__1_0;
-
-  /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Func_2<::System::Reflection::FieldInfo*, bool>* __9__5_0;
-
-  /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0))::System::Func_2<::System::Reflection::FieldInfo*, bool>* __9__6_0;
+  /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* __9__3_0;
 
   static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c* New_ctor();
 
-  /// @brief Method <GetNames>b__6_0, addr 0x27b5460, size 0x18, virtual false, abstract: false, final false
-  inline bool _GetNames_b__6_0(::System::Reflection::FieldInfo* f);
+  /// @brief Method <InitializeValuesAndNames>b__3_0, addr 0x290f810, size 0x18, virtual false, abstract: false, final false
+  inline ::StringW _InitializeValuesAndNames_b__3_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
 
-  /// @brief Method <GetValues>b__5_0, addr 0x27b5448, size 0x18, virtual false, abstract: false, final false
-  inline bool _GetValues_b__5_0(::System::Reflection::FieldInfo* f);
-
-  /// @brief Method <InitializeEnumType>b__1_0, addr 0x27b5430, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _InitializeEnumType_b__1_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
-
-  /// @brief Method .ctor, addr 0x27b5428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290f808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c* getStaticF___9();
 
-  static inline ::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* getStaticF___9__1_0();
-
-  static inline ::System::Func_2<::System::Reflection::FieldInfo*, bool>* getStaticF___9__5_0();
-
-  static inline ::System::Func_2<::System::Reflection::FieldInfo*, bool>* getStaticF___9__6_0();
+  static inline ::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* getStaticF___9__3_0();
 
   static inline void setStaticF___9(::Newtonsoft::Json::Utilities::__EnumUtils____c* value);
 
-  static inline void setStaticF___9__1_0(::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* value);
-
-  static inline void setStaticF___9__5_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
-
-  static inline void setStaticF___9__6_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
+  static inline void setStaticF___9__3_0(::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -123,51 +114,51 @@ public:
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__EnumUtils____c, 0x10>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
-// Type: ::<>c__2`1
+// Type: ::<>c__4`1
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::EnumUtils::<>c__2`1<T>*
-class CORDL_TYPE __EnumUtils____c__2_1 : public ::System::Object {
+// CS Name: ::EnumUtils::<>c__4`1<T>*
+class CORDL_TYPE __EnumUtils____c__4_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>* __9;
 
-  /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>* __9__2_0;
+  /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_2<uint64_t, bool>* __9__4_0;
 
-  static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>* New_ctor();
+  static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>* New_ctor();
 
-  /// @brief Method <GetFlagsValues>b__2_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _GetFlagsValues_b__2_0(::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>* v);
+  /// @brief Method <GetFlagsValues>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool _GetFlagsValues_b__4_0(uint64_t v);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>* getStaticF___9();
+  static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>* getStaticF___9();
 
-  static inline ::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>* getStaticF___9__2_0();
+  static inline ::System::Func_2<uint64_t, bool>* getStaticF___9__4_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>* value);
 
-  static inline void setStaticF___9__2_0(::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>* value);
+  static inline void setStaticF___9__4_0(::System::Func_2<uint64_t, bool>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EnumUtils____c__2_1();
+  constexpr __EnumUtils____c__4_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EnumUtils____c__2_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__EnumUtils____c__4_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EnumUtils____c__2_1(__EnumUtils____c__2_1&&) = delete;
+  __EnumUtils____c__4_1(__EnumUtils____c__4_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EnumUtils____c__2_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__EnumUtils____c__4_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EnumUtils____c__2_1(__EnumUtils____c__2_1 const&) = delete;
+  __EnumUtils____c__4_1(__EnumUtils____c__4_1 const&) = delete;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -183,43 +174,59 @@ public:
   // Declarations
   using __c = ::Newtonsoft::Json::Utilities::__EnumUtils____c;
 
-  template <typename T> using __c__2_1 = ::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>;
+  template <typename T> using __c__4_1 = ::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>;
 
-  /// @brief Field EnumMemberNamesPerType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EnumMemberNamesPerType, put = setStaticF_EnumMemberNamesPerType))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
-      ::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>* EnumMemberNamesPerType;
+  /// @brief Field ValuesAndNamesPerEnum, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ValuesAndNamesPerEnum, put = setStaticF_ValuesAndNamesPerEnum))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
+      ::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>, ::Newtonsoft::Json::Utilities::EnumInfo*>* ValuesAndNamesPerEnum;
+
+  /// @brief Field _camelCaseNamingStrategy, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__camelCaseNamingStrategy, put = setStaticF__camelCaseNamingStrategy))::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* _camelCaseNamingStrategy;
+
+  /// @brief Method FindIndexByName, addr 0x290f4b0, size 0xf8, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<int32_t> FindIndexByName(::ArrayW<::StringW, ::Array<::StringW>*> enumNames, ::StringW value, int32_t valueIndex, int32_t valueSubstringLength,
+                                                              ::System::StringComparison comparison);
+
+  /// @brief Method GetEnumValuesAndNames, addr 0x290ec34, size 0xbc, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::EnumInfo* GetEnumValuesAndNames(::System::Type* enumType);
 
   /// @brief Method GetFlagsValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IList_1<T>* GetFlagsValues(T value);
 
-  /// @brief Method GetNames, addr 0x27b4714, size 0x524, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::StringW>* GetNames(::System::Type* enumType);
+  /// @brief Method InitializeValuesAndNames, addr 0x290e04c, size 0x500, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::EnumInfo*
+  InitializeValuesAndNames(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key);
 
-  /// @brief Method GetNamesAndValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TUnderlyingType> static inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<TUnderlyingType>*>* GetNamesAndValues(::System::Type* enumType);
+  /// @brief Method InternalFlagsFormat, addr 0x290ea98, size 0x19c, virtual false, abstract: false, final false
+  static inline ::StringW InternalFlagsFormat(::Newtonsoft::Json::Utilities::EnumInfo* entry, uint64_t result);
 
-  /// @brief Method GetNamesAndValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*>* GetNamesAndValues();
+  /// @brief Method MatchName, addr 0x290f5a8, size 0xe4, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<int32_t> MatchName(::StringW value, ::ArrayW<::StringW, ::Array<::StringW>*> enumNames, ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames, int32_t valueIndex,
+                                                        int32_t valueSubstringLength, ::System::StringComparison comparison);
 
-  /// @brief Method GetValues, addr 0x27a6da8, size 0x530, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Object*>* GetValues(::System::Type* enumType);
+  /// @brief Method ParseEnum, addr 0x290ecf0, size 0x7c0, virtual false, abstract: false, final false
+  static inline ::System::Object* ParseEnum(::System::Type* enumType, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value, bool disallowNumber);
 
-  /// @brief Method InitializeEnumType, addr 0x27b42e0, size 0x434, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* InitializeEnumType(::System::Type* type);
+  /// @brief Method ToUInt64, addr 0x290e54c, size 0x330, virtual false, abstract: false, final false
+  static inline uint64_t ToUInt64(::System::Object* value);
 
-  /// @brief Method ParseEnumName, addr 0x27b4c38, size 0x268, virtual false, abstract: false, final false
-  static inline ::System::Object* ParseEnumName(::StringW enumText, bool isNullable, ::System::Type* t);
+  /// @brief Method TryToString, addr 0x290e87c, size 0xa0, virtual false, abstract: false, final false
+  static inline bool TryToString(::System::Type* enumType, ::System::Object* value, bool camelCase, ByRef<::StringW> name);
 
-  /// @brief Method ResolvedEnumName, addr 0x27b4ea0, size 0x78, virtual false, abstract: false, final false
-  static inline ::StringW ResolvedEnumName(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* map, ::StringW enumText);
+  /// @brief Method TryToString, addr 0x290e91c, size 0x17c, virtual false, abstract: false, final false
+  static inline bool TryToString(::System::Type* enumType, ::System::Object* value, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ByRef<::StringW> name);
 
-  /// @brief Method ToEnumName, addr 0x27b4f18, size 0x1e8, virtual false, abstract: false, final false
-  static inline ::StringW ToEnumName(::System::Type* enumType, ::StringW enumText, bool camelCaseText);
+  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
+                                                                 ::Newtonsoft::Json::Utilities::EnumInfo*>*
+  getStaticF_ValuesAndNamesPerEnum();
 
-  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>* getStaticF_EnumMemberNamesPerType();
+  static inline ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* getStaticF__camelCaseNamingStrategy();
 
-  static inline void
-  setStaticF_EnumMemberNamesPerType(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>* value);
+  static inline void setStaticF_ValuesAndNamesPerEnum(
+      ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
+                                                       ::Newtonsoft::Json::Utilities::EnumInfo*>* value);
+
+  static inline void setStaticF__camelCaseNamingStrategy(::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* value);
 
 protected:
   // Ctor Parameters []
@@ -235,6 +242,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnumUtils(EnumUtils const&) = delete;
 
+  /// @brief Field EnumSeparatorChar offset 0xffffffff size 0x2
+  static constexpr char16_t EnumSeparatorChar{ u',' };
+
+  /// @brief Field EnumSeparatorString offset 0xffffffff size 0x8
+  static constexpr ::ConstString EnumSeparatorString{ u", " };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -245,4 +258,4 @@ NEED_NO_BOX(::Newtonsoft::Json::Utilities::EnumUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::EnumUtils*, "Newtonsoft.Json.Utilities", "EnumUtils");
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::__EnumUtils____c);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::__EnumUtils____c*, "Newtonsoft.Json.Utilities", "EnumUtils/<>c");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1, "Newtonsoft.Json.Utilities", "EnumUtils/<>c__2`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1, "Newtonsoft.Json.Utilities", "EnumUtils/<>c__4`1");

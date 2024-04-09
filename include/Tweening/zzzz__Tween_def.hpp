@@ -79,21 +79,21 @@ public:
 
   __declspec(property(get = get_startTime)) float_t startTime;
 
-  /// @brief Method Kill, addr 0x2b58a80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Kill, addr 0x2f3df30, size 0xc, virtual false, abstract: false, final false
   inline void Kill();
 
   static inline ::Tweening::Tween* New_ctor();
 
-  /// @brief Method Restart, addr 0x2b58a8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Restart, addr 0x2f3df3c, size 0x10, virtual false, abstract: false, final false
   inline void Restart(float_t startTime);
 
-  /// @brief Method Resume, addr 0x2b58a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x2f3df4c, size 0x8, virtual false, abstract: false, final false
   inline void Resume();
 
   /// @brief Method Sample, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Sample(float_t t);
 
-  /// @brief Method SetStartTimeAndEndTime, addr 0x2b58aa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetStartTimeAndEndTime, addr 0x2f3df54, size 0xc, virtual false, abstract: false, final false
   inline void SetStartTimeAndEndTime(float_t startTime, float_t endTime);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -165,49 +165,49 @@ public:
 
   constexpr void __cordl_internal_set_onStart(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2b58ab0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3df60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_delay, addr 0x2b58a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delay, addr 0x2f3df10, size 0x8, virtual false, abstract: false, final false
   inline float_t get_delay();
 
-  /// @brief Method get_duration, addr 0x2b58a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2f3deec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_easeType, addr 0x2b58a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x2f3df20, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_isActive, addr 0x2b589e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x2f3de90, size 0x30, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isComplete, addr 0x2b58a10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isComplete, addr 0x2f3dec0, size 0x14, virtual false, abstract: false, final false
   inline bool get_isComplete();
 
-  /// @brief Method get_isKilled, addr 0x2b58a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isKilled, addr 0x2f3ded4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isKilled();
 
-  /// @brief Method get_isStarted, addr 0x2b589d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isStarted, addr 0x2f3de88, size 0x8, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
-  /// @brief Method get_loop, addr 0x2b58a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x2f3defc, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_progress, addr 0x2b58a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x2f3dedc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method get_startTime, addr 0x2b58a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x2f3dee4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method set_delay, addr 0x2b58a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delay, addr 0x2f3df18, size 0x8, virtual false, abstract: false, final false
   inline void set_delay(float_t value);
 
-  /// @brief Method set_duration, addr 0x2b58a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x2f3def4, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_easeType, addr 0x2b58a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x2f3df28, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_loop, addr 0x2b58a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x2f3df04, size 0xc, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
 protected:

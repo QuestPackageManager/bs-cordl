@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::FloatFxBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::FloatFxEvent)>(
     &::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x132a0ec;
+  constexpr static std::size_t addrs = 0x1405ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

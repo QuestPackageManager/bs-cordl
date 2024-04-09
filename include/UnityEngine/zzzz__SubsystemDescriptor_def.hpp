@@ -38,7 +38,7 @@ public:
 
   static inline ::UnityEngine::SubsystemDescriptor* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2e82be4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x3266a00, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   constexpr ::StringW const& __cordl_internal_get__id_k__BackingField() const;
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e82bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3266a0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x2e82bdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x32669f8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"

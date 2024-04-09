@@ -12,7 +12,7 @@ namespace GlobalNamespace {
 class IPreviewMediaData;
 }
 namespace GlobalNamespace {
-class ISpriteAsyncLoader;
+class SpriteAsyncLoader;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -50,21 +50,21 @@ public:
   __declspec(property(get = __cordl_internal_get__previewAudioClipPath, put = __cordl_internal_set__previewAudioClipPath))::StringW _previewAudioClipPath;
 
   /// @brief Field _spriteAsyncLoader, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteAsyncLoader, put = __cordl_internal_set__spriteAsyncLoader))::GlobalNamespace::ISpriteAsyncLoader* _spriteAsyncLoader;
+  __declspec(property(get = __cordl_internal_get__spriteAsyncLoader, put = __cordl_internal_set__spriteAsyncLoader))::GlobalNamespace::SpriteAsyncLoader* _spriteAsyncLoader;
 
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x12f3368, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x13cbd9c, size 0x28, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetPreviewAudioClip, addr 0x12f3418, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x13cbdc4, size 0x24, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
 
-  static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+  static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                         ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x12f343c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x13cbde8, size 0x24, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
@@ -79,9 +79,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__previewAudioClipPath();
 
-  constexpr ::GlobalNamespace::ISpriteAsyncLoader*& __cordl_internal_get__spriteAsyncLoader();
+  constexpr ::GlobalNamespace::SpriteAsyncLoader*& __cordl_internal_get__spriteAsyncLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISpriteAsyncLoader*> const& __cordl_internal_get__spriteAsyncLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SpriteAsyncLoader*> const& __cordl_internal_get__spriteAsyncLoader() const;
 
   constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
 
@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set__previewAudioClipPath(::StringW value);
 
-  constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::ISpriteAsyncLoader* value);
+  constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::SpriteAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x12f31a0, size 0x1c8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
+  /// @brief Method .ctor, addr 0x13cbbd4, size 0x1c8, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
                     ::StringW previewAudioClipPath);
 
   /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
@@ -113,7 +113,7 @@ public:
   FileSystemPreviewMediaData(FileSystemPreviewMediaData const&) = delete;
 
   /// @brief Field _spriteAsyncLoader, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::ISpriteAsyncLoader* ____spriteAsyncLoader;
+  ::GlobalNamespace::SpriteAsyncLoader* ____spriteAsyncLoader;
 
   /// @brief Field _audioClipAsyncLoader, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::AudioClipAsyncLoader* ____audioClipAsyncLoader;

@@ -132,15 +132,15 @@ public:
   __declspec(property(get = __cordl_internal_get__trackLaneRingsRotationEffect,
                       put = __cordl_internal_set__trackLaneRingsRotationEffect))::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> _trackLaneRingsRotationEffect;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x24ae6bc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x25d2ba4, size 0xcc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24ae6a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25d2b88, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x24ae57c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25d2a64, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingsRotationEffect(::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> value);
 
-  /// @brief Method .ctor, addr 0x24ae788, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2c70, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -53,10 +53,10 @@ public:
   /// @brief Field signatureValue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_signatureValue, put = __cordl_internal_set_signatureValue))::Org::BouncyCastle::Asn1::DerBitString* signatureValue;
 
-  /// @brief Method GetInstance, addr 0x11198a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11f442c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSignatureOctets, addr 0x1119ca4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0x11f4828, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo,
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1119cc4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11f4848, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*& __cordl_internal_get_acinfo();
@@ -86,20 +86,20 @@ public:
 
   constexpr void __cordl_internal_set_signatureValue(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x1119ac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f464c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerBitString* signatureValue);
 
-  /// @brief Method .ctor, addr 0x111994c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f44d0, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ACInfo, addr 0x1119c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ACInfo, addr 0x11f4810, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* get_ACInfo();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x1119c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x11f4818, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_SignatureValue, addr 0x1119c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureValue, addr 0x11f4820, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SignatureValue();
 
 protected:

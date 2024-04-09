@@ -2,10 +2,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SerializableDictionary_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_OutputAttributeDictionary)
+namespace HoudiniEngineUnity {
+class HEU_OutputAttribute;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_OutputAttributeDictionary;
@@ -22,7 +24,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2346704, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2465c50, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

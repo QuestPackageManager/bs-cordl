@@ -28,13 +28,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x2c40534, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x30269e4, size 0x210, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x2c40744, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3026bf4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2c40784, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3026c34, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::MonoLimitationAttribute::*)(::StringW)>(&::System::MonoLimitationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x272b440;
+  constexpr static std::size_t addrs = 0x2859150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

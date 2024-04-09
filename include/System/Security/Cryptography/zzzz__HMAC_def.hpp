@@ -49,27 +49,27 @@ public:
   /// @brief Field m_outer, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_outer;
 
-  /// @brief Method Create, addr 0x25b4aa4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26dbed8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HMAC* Create();
 
-  /// @brief Method Dispose, addr 0x25b4d50, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x26dc168, size 0x15c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore, addr 0x25b4b84, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x26dbfb8, size 0x80, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ib, int32_t cb);
 
-  /// @brief Method HashFinal, addr 0x25b4c0c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x26dc038, size 0x130, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x25b4b3c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x26dbf70, size 0x48, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeKey, addr 0x25b48e4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitializeKey, addr 0x26dbd20, size 0xd0, virtual false, abstract: false, final false
   inline void InitializeKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::System::Security::Cryptography::HMAC* New_ctor();
 
-  /// @brief Method UpdateIOPadBuffers, addr 0x25b4780, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateIOPadBuffers, addr 0x26dbbbc, size 0x164, virtual false, abstract: false, final false
   inline void UpdateIOPadBuffers();
 
   constexpr int32_t const& __cordl_internal_get_blockSizeValue() const;
@@ -114,19 +114,19 @@ public:
 
   constexpr void __cordl_internal_set_m_outer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x25b4ee0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dc2fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlockSizeValue, addr 0x25b4770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSizeValue, addr 0x26dbbac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BlockSizeValue();
 
-  /// @brief Method get_Key, addr 0x25b49b8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x26dbdf0, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_BlockSizeValue, addr 0x25b4778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BlockSizeValue, addr 0x26dbbb4, size 0x8, virtual false, abstract: false, final false
   inline void set_BlockSizeValue(int32_t value);
 
-  /// @brief Method set_Key, addr 0x25b4a30, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x26dbe68, size 0x70, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

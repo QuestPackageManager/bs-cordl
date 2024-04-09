@@ -30,15 +30,15 @@ public:
   /// @brief Field _unityEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__unityEvent, put = __cordl_internal_set__unityEvent))::UnityEngine::Events::UnityEvent* _unityEvent;
 
-  /// @brief Method HandleEvent, addr 0x22b88a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x23d7d58, size 0x1c, virtual false, abstract: false, final false
   inline void HandleEvent();
 
   static inline ::GlobalNamespace::SignalListener* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x22b8820, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23d7cd0, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x22b878c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23d7c3c, size 0x94, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__signal() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method .ctor, addr 0x22b88c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

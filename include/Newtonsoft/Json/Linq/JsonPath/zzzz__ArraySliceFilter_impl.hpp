@@ -6,6 +6,7 @@
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__ArraySliceFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JArray_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonSelectSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
@@ -18,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)(int32_t)>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x27fe534;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x297a19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x27fe598;
+  constexpr static std::size_t addrs = 0x297a1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::MoveNext)> {
-  constexpr static std::size_t size = 0x994;
-  constexpr static std::size_t addrs = 0x27fe5b4;
+  constexpr static std::size_t size = 0x950;
+  constexpr static std::size_t addrs = 0x297a20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x27fef48;
+  constexpr static std::size_t addrs = 0x297ab5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
         &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27feff8;
+  constexpr static std::size_t addrs = 0x297ac0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27ff000;
+  constexpr static std::size_t addrs = 0x297ac14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27ff040;
+  constexpr static std::size_t addrs = 0x297ac54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,8 +126,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
         &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x27ff048;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x297ac5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +143,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::*)()>(
         &::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27ff0f8;
+  constexpr static std::size_t addrs = 0x297ad10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,14 +178,6 @@ constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq
 Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::i___System__Collections__Generic__IEnumerator_1___Newtonsoft__Json__Linq__JToken__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::IDisposable"
-constexpr Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
@@ -192,6 +185,14 @@ constexpr Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -273,103 +274,31 @@ Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Newtonsoft::Json::Linq::JArray*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__a_5__1() {
+constexpr ::Newtonsoft::Json::Linq::JsonSelectSettings*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get_settings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____a_5__1;
+  return this->___settings;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JArray*> const&
-Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__a_5__1() const {
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JsonSelectSettings*> const&
+Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get_settings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____a_5__1;
+  return this->___settings;
 }
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__a_5__1(::Newtonsoft::Json::Linq::JArray* value) {
+constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set_settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____a_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__i_5__2() {
+constexpr ::Newtonsoft::Json::Linq::JsonSelectSettings*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get___3__settings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____i_5__2;
+  return this->_____3__settings;
 }
-constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__i_5__2() const {
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JsonSelectSettings*> const&
+Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get___3__settings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____i_5__2;
+  return this->_____3__settings;
 }
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__i_5__2(int32_t value) {
+constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set___3__settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____i_5__2 = value;
-}
-constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stepCount_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stepCount_5__3;
-}
-constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stepCount_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stepCount_5__3;
-}
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__stepCount_5__3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____stepCount_5__3 = value;
-}
-constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stopIndex_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stopIndex_5__4;
-}
-constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stopIndex_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stopIndex_5__4;
-}
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__stopIndex_5__4(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____stopIndex_5__4 = value;
-}
-constexpr bool& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__positiveStep_5__5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____positiveStep_5__5;
-}
-constexpr bool const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__positiveStep_5__5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____positiveStep_5__5;
-}
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__positiveStep_5__5(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____positiveStep_5__5 = value;
-}
-constexpr bool& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get_errorWhenNoMatch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___errorWhenNoMatch;
-}
-constexpr bool const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get_errorWhenNoMatch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___errorWhenNoMatch;
-}
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set_errorWhenNoMatch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___errorWhenNoMatch = value;
-}
-constexpr bool& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get___3__errorWhenNoMatch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__errorWhenNoMatch;
-}
-constexpr bool const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get___3__errorWhenNoMatch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__errorWhenNoMatch;
-}
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set___3__errorWhenNoMatch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____3__errorWhenNoMatch = value;
-}
-constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__t_5__6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____t_5__6;
-}
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const&
-Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__t_5__6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____t_5__6;
-}
-constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__t_5__6(::Newtonsoft::Json::Linq::JToken* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____t_5__6)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*&
 Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get___7__wrap1() {
@@ -385,6 +314,67 @@ constexpr void
 Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::Newtonsoft::Json::Linq::JArray*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__a_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____a_5__3;
+}
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JArray*> const&
+Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__a_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____a_5__3;
+}
+constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__a_5__3(::Newtonsoft::Json::Linq::JArray* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____a_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stepCount_5__4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____stepCount_5__4;
+}
+constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stepCount_5__4() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____stepCount_5__4;
+}
+constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__stepCount_5__4(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____stepCount_5__4 = value;
+}
+constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stopIndex_5__5() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____stopIndex_5__5;
+}
+constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__stopIndex_5__5() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____stopIndex_5__5;
+}
+constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__stopIndex_5__5(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____stopIndex_5__5 = value;
+}
+constexpr bool& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__positiveStep_5__6() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____positiveStep_5__6;
+}
+constexpr bool const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__positiveStep_5__6() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____positiveStep_5__6;
+}
+constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__positiveStep_5__6(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____positiveStep_5__6 = value;
+}
+constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__i_5__7() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__7;
+}
+constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_get__i_5__7() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__7;
+}
+constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__cordl_internal_set__i_5__7(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____i_5__7 = value;
 }
 inline ::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12* Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12*>(__1__state));
@@ -452,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::get_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fe484;
+  constexpr static std::size_t addrs = 0x297a0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>::get(),
@@ -466,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::set_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fe48c;
+  constexpr static std::size_t addrs = 0x297a0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::get_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fe494;
+  constexpr static std::size_t addrs = 0x297a0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>::get(),
@@ -495,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::set_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fe49c;
+  constexpr static std::size_t addrs = 0x297a0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -510,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::get_Step)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fe4a4;
+  constexpr static std::size_t addrs = 0x297a0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>::get(),
@@ -524,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::set_Step)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fe4ac;
+  constexpr static std::size_t addrs = 0x297a104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -537,10 +527,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* (
-    ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*, bool)>(
-    &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::ExecuteFilter)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x27fe4b4;
+    ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::Newtonsoft::Json::Linq::JToken*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*,
+                                                             ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::ExecuteFilter)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x297a10c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -556,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(int32_t, int32_t, bool)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::IsValid)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27fe578;
+  constexpr static std::size_t addrs = 0x297a1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -572,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fe590;
+  constexpr static std::size_t addrs = 0x297a1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>::get(),
@@ -650,10 +640,11 @@ inline void Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::set_Step(::Syste
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current, bool errorWhenNoMatch) {
+Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
+                                                                  ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*, false>(this, ___internal_method, current, errorWhenNoMatch);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*, false>(this, ___internal_method, root, current, settings);
 }
 inline bool Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::IsValid(int32_t index, int32_t stopIndex, bool positiveStep) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

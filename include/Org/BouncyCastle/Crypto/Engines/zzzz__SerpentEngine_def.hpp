@@ -20,18 +20,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE SerpentEngine : public ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
 public:
   // Declarations
-  /// @brief Method DecryptBlock, addr 0xf774a8, size 0x1734, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x105002c, size 0x1734, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0xf75f64, size 0x1544, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x104eae8, size 0x1544, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method MakeWorkingKey, addr 0xf749d4, size 0x1590, virtual true, abstract: false, final false
+  /// @brief Method MakeWorkingKey, addr 0x104d558, size 0x1590, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> MakeWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SerpentEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf78bdc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1051760, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

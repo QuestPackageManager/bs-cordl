@@ -21,6 +21,10 @@ namespace System::Xml::Schema {
 class CORDL_TYPE UpaException : public ::System::Exception {
 public:
   // Declarations
+  __declspec(property(get = get_Particle1))::System::Object* Particle1;
+
+  __declspec(property(get = get_Particle2))::System::Object* Particle2;
+
   /// @brief Field particle1, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_particle1, put = __cordl_internal_set_particle1))::System::Object* particle1;
 
@@ -41,8 +45,14 @@ public:
 
   constexpr void __cordl_internal_set_particle2(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29f8dcc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df74e8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
+
+  /// @brief Method get_Particle1, addr 0x2df7558, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_Particle1();
+
+  /// @brief Method get_Particle2, addr 0x2df7560, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_Particle2();
 
 protected:
   // Ctor Parameters []

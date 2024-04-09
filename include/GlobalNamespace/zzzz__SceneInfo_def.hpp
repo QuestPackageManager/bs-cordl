@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::SceneInfo* New_ctor();
 
-  /// @brief Method SetSceneName, addr 0xea7c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSceneName, addr 0xf7eb7c, size 0x8, virtual false, abstract: false, final false
   inline void SetSceneName(::StringW newSceneName);
 
   constexpr bool const& __cordl_internal_get__disabledRootObjects() const;
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneName(::StringW value);
 
-  /// @brief Method .ctor, addr 0xea7c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf7eb84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledRootObjects, addr 0xea7c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledRootObjects, addr 0xf7eb74, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledRootObjects();
 
-  /// @brief Method get_sceneName, addr 0xea7c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneName, addr 0xf7eb6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sceneName();
 
 protected:

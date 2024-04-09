@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicLevelParamsPanel::*)(float_t)>(
     &::GlobalNamespace::BasicLevelParamsPanel::set_duration)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2441fc8;
+  constexpr static std::size_t addrs = 0x2565124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicLevelParamsPanel::*)(float_t)>(&::GlobalNamespace::BasicLevelParamsPanel::set_bpm)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2441ffc;
+  constexpr static std::size_t addrs = 0x2565158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicLevelParamsPanel::*)()>(&::GlobalNamespace::BasicLevelParamsPanel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2442044;
+  constexpr static std::size_t addrs = 0x25651a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicLevelParamsPanel*>::get(), ".ctor",

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Runtime::InteropServices::ComImportAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x262b800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27529fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

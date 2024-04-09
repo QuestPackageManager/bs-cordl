@@ -27,12 +27,12 @@ public:
   /// @brief Field mMode, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mMode, put = __cordl_internal_set_mMode)) uint8_t mMode;
 
-  /// @brief Method Encode, addr 0x1022cf0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x10fd874, size 0x6c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* New_ctor(uint8_t mode);
 
-  /// @brief Method Parse, addr 0x1022d5c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x10fd8e0, size 0xe4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* Parse(::System::IO::Stream* input);
 
   constexpr uint8_t const& __cordl_internal_get_mMode() const;
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_mMode(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x1022c3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10fd7c0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mode);
 
-  /// @brief Method get_Mode, addr 0x1022ce8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x10fd86c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Mode();
 
 protected:

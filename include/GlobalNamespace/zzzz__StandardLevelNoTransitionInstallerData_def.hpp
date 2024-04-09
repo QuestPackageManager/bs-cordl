@@ -190,58 +190,58 @@ public:
 
   constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x247aedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259f324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_backButtonText, addr 0x247aeb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backButtonText, addr 0x259f300, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_backButtonText();
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x247ae68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x259f2b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulty, addr 0x247ae78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficulty, addr 0x259f2c0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_beatmapLevel, addr 0x247ab50, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x259ef98, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_beatmapLevel();
 
-  /// @brief Method get_colorScheme, addr 0x247ac1c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x259f064, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method get_environmentInfo, addr 0x247a0f4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfo, addr 0x259e53c, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
-  /// @brief Method get_gameplayModifiers, addr 0x247ae88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x259f2d0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_playerSpecificSettings, addr 0x247ae98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x259f2e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method get_practiceSettings, addr 0x247aea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x259f2f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method get_useTestNoteCutSoundEffects, addr 0x247aec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useTestNoteCutSoundEffects, addr 0x259f310, size 0x8, virtual false, abstract: false, final false
   inline bool get_useTestNoteCutSoundEffects();
 
-  /// @brief Method set_backButtonText, addr 0x247aec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_backButtonText, addr 0x259f308, size 0x8, virtual false, abstract: false, final false
   inline void set_backButtonText(::StringW value);
 
-  /// @brief Method set_beatmapCharacteristic, addr 0x247ae70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapCharacteristic, addr 0x259f2b8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
 
-  /// @brief Method set_beatmapDifficulty, addr 0x247ae80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapDifficulty, addr 0x259f2c8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x247ae90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x259f2d8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method set_playerSpecificSettings, addr 0x247aea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x259f2e8, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method set_practiceSettings, addr 0x247aeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_practiceSettings, addr 0x259f2f8, size 0x8, virtual false, abstract: false, final false
   inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  /// @brief Method set_useTestNoteCutSoundEffects, addr 0x247aed0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useTestNoteCutSoundEffects, addr 0x259f318, size 0xc, virtual false, abstract: false, final false
   inline void set_useTestNoteCutSoundEffects(bool value);
 
 protected:

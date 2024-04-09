@@ -46,13 +46,13 @@ public:
   /// @brief Field trustAnchor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_trustAnchor, put = __cordl_internal_set_trustAnchor))::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor;
 
-  /// @brief Method Clone, addr 0x118a5d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x126415c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* New_ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method ToString, addr 0x118a650, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x12641d4, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& __cordl_internal_get_policyTree();
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_trustAnchor(::Org::BouncyCastle::Pkix::TrustAnchor* value);
 
-  /// @brief Method .ctor, addr 0x118a524, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12640a8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_PolicyTree, addr 0x118a50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PolicyTree, addr 0x1264090, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_PolicyTree();
 
-  /// @brief Method get_SubjectPublicKey, addr 0x118a51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKey, addr 0x12640a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_SubjectPublicKey();
 
-  /// @brief Method get_TrustAnchor, addr 0x118a514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchor, addr 0x1264098, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::TrustAnchor* get_TrustAnchor();
 
 protected:

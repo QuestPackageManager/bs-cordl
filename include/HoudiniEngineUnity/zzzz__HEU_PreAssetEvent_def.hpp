@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_PreAssetEventData_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 CORDL_MODULE_EXPORT(HEU_PreAssetEvent)
+namespace HoudiniEngineUnity {
+class HEU_PreAssetEventData;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_PreAssetEvent;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_PreAssetEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231028c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24307d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

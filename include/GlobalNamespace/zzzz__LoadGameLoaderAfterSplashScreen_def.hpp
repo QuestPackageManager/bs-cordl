@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c* New_ctor();
 
-  /// @brief Method <Start>b__2_0, addr 0x23de2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__2_0, addr 0x25008b0, size 0x8, virtual false, abstract: false, final false
   inline bool _Start_b__2_0();
 
-  /// @brief Method .ctor, addr 0x23de2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25008a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c* getStaticF___9();
@@ -130,21 +130,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x23de2c4, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25008bc, size 0x1ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23de4b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2500aa8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23de4b8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2500ab0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23de4f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2500af0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x23de2c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x25008b8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneAsyncLoad_5__2(::UnityEngine::AsyncOperation* value);
 
-  /// @brief Method .ctor, addr 0x23de21c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2500814, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -240,7 +240,7 @@ public:
 
   static inline ::GlobalNamespace::LoadGameLoaderAfterSplashScreen* New_ctor();
 
-  /// @brief Method Start, addr 0x23de1b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25007ac, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  /// @brief Method .ctor, addr 0x23de244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250083c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

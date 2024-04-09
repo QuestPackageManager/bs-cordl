@@ -85,24 +85,24 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12a9f70, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1381af4, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method get_Gx1, addr 0x12abfe8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx1, addr 0x1383b6c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx1();
 
-  /// @brief Method get_Gx2, addr 0x12abff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx2, addr 0x1383b74, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx2();
 
-  /// @brief Method get_KnowledgeProofForX1, addr 0x12abff8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX1, addr 0x1383b7c, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX1();
 
-  /// @brief Method get_KnowledgeProofForX2, addr 0x12ac074, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2, addr 0x1383bf8, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2();
 
-  /// @brief Method get_ParticipantId, addr 0x12abfe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x1383b64, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:

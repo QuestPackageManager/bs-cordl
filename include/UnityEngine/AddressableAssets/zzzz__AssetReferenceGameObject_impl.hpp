@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_impl.hpp"
-#include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceGameObject_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::AssetReferenceGameObject._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceGameObject::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceGameObject::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b6df3c;
+  constexpr static std::size_t addrs = 0x2f533ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_impl.hpp"
-#include "UnityEngine/zzzz__Texture3D_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceTexture3D_def.hpp"
+#include "UnityEngine/zzzz__Texture3D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::AssetReferenceTexture3D._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceTexture3D::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceTexture3D::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b6e044;
+  constexpr static std::size_t addrs = 0x2f534f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

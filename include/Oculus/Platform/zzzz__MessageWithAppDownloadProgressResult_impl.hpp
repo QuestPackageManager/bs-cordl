@@ -1,5 +1,4 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAppDownloadProgressResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_def.hpp"
@@ -9,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(void*)>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2842d24;
+  constexpr static std::size_t addrs = 0x29c5308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (
     ::Oculus::Platform::MessageWithAppDownloadProgressResult::*)()>(&::Oculus::Platform::MessageWithAppDownloadProgressResult::GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2844e34;
+  constexpr static std::size_t addrs = 0x29c7418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (
     ::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(void*)>(&::Oculus::Platform::MessageWithAppDownloadProgressResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2844e70;
+  constexpr static std::size_t addrs = 0x29c7454;
 
   inline static ::MethodInfo const* methodInfo() {
 

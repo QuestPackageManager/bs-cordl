@@ -30,6 +30,9 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
@@ -155,25 +158,25 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* __9;
 
-  /// @brief Field <>9__25_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_0,
-                             put = setStaticF___9__25_0))::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* __9__25_0;
+  /// @brief Field <>9__29_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__29_0,
+                             put = setStaticF___9__29_0))::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* __9__29_0;
 
   static inline ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* New_ctor();
 
-  /// @brief Method <GetEnumerator>b__25_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _GetEnumerator_b__25_0(::System::Collections::DictionaryEntry de);
+  /// @brief Method <GetEnumerator>b__29_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _GetEnumerator_b__29_0(::System::Collections::DictionaryEntry de);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* getStaticF___9();
 
-  static inline ::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* getStaticF___9__25_0();
+  static inline ::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* getStaticF___9__29_0();
 
   static inline void setStaticF___9(::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* value);
 
-  static inline void setStaticF___9__25_0(::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* value);
+  static inline void setStaticF___9__29_0(::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* value);
 
 protected:
   // Ctor Parameters []
@@ -194,7 +197,7 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::DictionaryWrapper`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
@@ -209,6 +212,8 @@ public:
   using __c = ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>;
 
   __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_GenericDictionary))::System::Collections::Generic::IDictionary_2<TKey, TValue>* GenericDictionary;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
@@ -238,7 +243,11 @@ public:
   /// @brief Field _genericDictionary, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__genericDictionary, put = __cordl_internal_set__genericDictionary))::System::Collections::Generic::IDictionary_2<TKey, TValue>* _genericDictionary;
 
-  /// @brief Field _syncRoot, offset 0x20, size 0x8
+  /// @brief Field _readOnlyDictionary, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__readOnlyDictionary,
+                      put = __cordl_internal_set__readOnlyDictionary))::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* _readOnlyDictionary;
+
+  /// @brief Field _syncRoot, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Utilities::IWrappedDictionary"
@@ -284,6 +293,8 @@ public:
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumerator();
 
   static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IDictionary_2<TKey, TValue>* dictionary);
+
+  static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary);
 
   static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* New_ctor(::System::Collections::IDictionary* dictionary);
 
@@ -343,6 +354,10 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TKey, TValue>*> const& __cordl_internal_get__genericDictionary() const;
 
+  constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*& __cordl_internal_get__readOnlyDictionary();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*> const& __cordl_internal_get__readOnlyDictionary() const;
+
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
@@ -351,16 +366,24 @@ public:
 
   constexpr void __cordl_internal_set__genericDictionary(::System::Collections::Generic::IDictionary_2<TKey, TValue>* value);
 
+  constexpr void __cordl_internal_set__readOnlyDictionary(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* value);
+
   constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IDictionary_2<TKey, TValue>* dictionary);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* dictionary);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
+
+  /// @brief Method get_GenericDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IDictionary_2<TKey, TValue>* get_GenericDictionary();
 
   /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
@@ -423,7 +446,10 @@ public:
   /// @brief Field _genericDictionary, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IDictionary_2<TKey, TValue>* ____genericDictionary;
 
-  /// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _readOnlyDictionary, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* ____readOnlyDictionary;
+
+  /// @brief Field _syncRoot, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

@@ -91,56 +91,56 @@ public:
   /// @brief Field s_blitShader, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_blitShader, put = setStaticF_s_blitShader))::UnityW<::UnityEngine::Shader> s_blitShader;
 
-  /// @brief Method ClosePaintElement, addr 0x2f4ab00, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ClosePaintElement, addr 0x333091c, size 0x190, virtual false, abstract: false, final false
   static inline void ClosePaintElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo closingInfo,
                                        ::UnityEngine::UIElements::UIR::RenderChain* renderChain, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method ComputeTransformMatrix, addr 0x2f47de8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTransformMatrix, addr 0x332dc04, size 0x12c, virtual false, abstract: false, final false
   static inline void ComputeTransformMatrix(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* ancestor, ByRef<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method CopyTransformVertsPos, addr 0x2f49cec, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method CopyTransformVertsPos, addr 0x332fb08, size 0x248, virtual false, abstract: false, final false
   static inline void CopyTransformVertsPos(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> source, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> target,
                                            ::UnityEngine::Matrix4x4 mat, ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids, ::UnityEngine::Color32 addFlags,
                                            ::UnityEngine::Color32 opacityPage, ::UnityEngine::Color32 textCoreSettingsPage, bool isText, float_t textureId);
 
-  /// @brief Method CopyTransformVertsPosAndVec, addr 0x2f49a7c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method CopyTransformVertsPosAndVec, addr 0x332f898, size 0x270, virtual false, abstract: false, final false
   static inline void CopyTransformVertsPosAndVec(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> source,
                                                  ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> target, ::UnityEngine::Matrix4x4 mat, ::UnityEngine::Color32 xformClipPages,
                                                  ::UnityEngine::Color32 ids, ::UnityEngine::Color32 addFlags, ::UnityEngine::Color32 opacityPage, ::UnityEngine::Color32 textCoreSettingsPage,
                                                  bool isText, float_t textureId);
 
-  /// @brief Method CopyTriangleIndices, addr 0x2f49f34, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CopyTriangleIndices, addr 0x332fd50, size 0xcc, virtual false, abstract: false, final false
   static inline void CopyTriangleIndices(::Unity::Collections::NativeSlice_1<uint16_t> source, ::Unity::Collections::NativeSlice_1<uint16_t> target, int32_t indexOffset);
 
-  /// @brief Method CopyTriangleIndicesFlipWindingOrder, addr 0x2f4a000, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CopyTriangleIndicesFlipWindingOrder, addr 0x332fe1c, size 0x1a4, virtual false, abstract: false, final false
   static inline void CopyTriangleIndicesFlipWindingOrder(::Unity::Collections::NativeSlice_1<uint16_t> source, ::Unity::Collections::NativeSlice_1<uint16_t> target, int32_t indexOffset);
 
-  /// @brief Method CreateBlitShader, addr 0x2f4a8f8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method CreateBlitShader, addr 0x3330714, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateBlitShader(float_t colorConversion);
 
-  /// @brief Method DoNudgeVertices, addr 0x2f4af48, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method DoNudgeVertices, addr 0x3330d64, size 0x2e0, virtual false, abstract: false, final false
   static inline void DoNudgeVertices(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device, ::UnityEngine::UIElements::UIR::MeshHandle* mesh,
                                      ByRef<::UnityEngine::Matrix4x4> nudgeTransform);
 
-  /// @brief Method FindClosingCommandInsertionPoint, addr 0x2f4a31c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FindClosingCommandInsertionPoint, addr 0x3330138, size 0x16c, virtual false, abstract: false, final false
   static inline void FindClosingCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                       ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method FindCommandInsertionPoint, addr 0x2f498bc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindCommandInsertionPoint, addr 0x332f6d8, size 0x1c0, virtual false, abstract: false, final false
   static inline void FindCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method GetBlitMaterial, addr 0x2f4a570, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method GetBlitMaterial, addr 0x333038c, size 0x2a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetBlitMaterial(::UnityEngine::UIElements::__VisualElement__RenderTargetMode mode);
 
-  /// @brief Method GetVerticesTransformInfo, addr 0x2f47c5c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetVerticesTransformInfo, addr 0x332da78, size 0x18c, virtual false, abstract: false, final false
   static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::Matrix4x4> transform);
 
-  /// @brief Method InjectClosingCommandInBetween, addr 0x2f4a488, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InjectClosingCommandInBetween, addr 0x33302a4, size 0xe8, virtual false, abstract: false, final false
   static inline void InjectClosingCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                                    ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectClosingMeshDrawCommand, addr 0x2f4a810, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InjectClosingMeshDrawCommand, addr 0x333062c, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* InjectClosingMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve,
                                                                                                  ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdPrev,
                                                                                                  ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdNext,
@@ -148,30 +148,30 @@ public:
                                                                                                  ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture,
                                                                                                  ::UnityEngine::Texture* font, int32_t stencilRef);
 
-  /// @brief Method InjectCommandInBetween, addr 0x2f4a284, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InjectCommandInBetween, addr 0x33300a0, size 0x98, virtual false, abstract: false, final false
   static inline void InjectCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                             ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectMeshDrawCommand, addr 0x2f4a1a4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InjectMeshDrawCommand, addr 0x332ffc0, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand*
   InjectMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdPrev,
                         ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdNext, ::UnityEngine::UIElements::UIR::MeshHandle* mesh, int32_t indexCount, int32_t indexOffset,
                         ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture, ::UnityEngine::Texture* font, int32_t stencilRef);
 
-  /// @brief Method IsParentOrAncestorOf, addr 0x2f47f14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsParentOrAncestorOf, addr 0x332dd30, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsParentOrAncestorOf(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method NudgeVerticesToNewSpace, addr 0x2f4ac90, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method NudgeVerticesToNewSpace, addr 0x3330aac, size 0x2b8, virtual false, abstract: false, final false
   static inline bool NudgeVerticesToNewSpace(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method PaintElement, addr 0x2f47f90, size 0x14f8, virtual false, abstract: false, final false
+  /// @brief Method PaintElement, addr 0x332ddac, size 0x14f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo
   PaintElement(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method ResetCommands, addr 0x2f49488, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method ResetCommands, addr 0x332f2a4, size 0x338, virtual false, abstract: false, final false
   static inline void ResetCommands(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UpdateOrAllocate, addr 0x2f497c0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UpdateOrAllocate, addr 0x332f5dc, size 0xfc, virtual false, abstract: false, final false
   static inline void UpdateOrAllocate(ByRef<::UnityEngine::UIElements::UIR::MeshHandle*> data, int32_t vertexCount, int32_t indexCount, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
                                       ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> verts, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indices,
                                       ByRef<uint16_t> indexOffset, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);

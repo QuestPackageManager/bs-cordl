@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
@@ -72,10 +71,10 @@ public:
 
   static inline ::GlobalNamespace::__PingUtility____c* New_ctor();
 
-  /// @brief Method <PingAsync>b__0_0, addr 0xee3c58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <PingAsync>b__0_0, addr 0xfbc7dc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Ping* _PingAsync_b__0_0(::System::Net::IPAddress* ip);
 
-  /// @brief Method .ctor, addr 0xee3c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbc7d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PingUtility____c* getStaticF___9();
@@ -117,10 +116,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xee3cd8, size 0x52c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xfbc85c, size 0x52c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xee4204, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xfbcd88, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -207,7 +206,7 @@ public:
 
   using __c = ::GlobalNamespace::__PingUtility____c;
 
-  /// @brief Method PingAsync, addr 0xee3aec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method PingAsync, addr 0xfbc670, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
 
 protected:

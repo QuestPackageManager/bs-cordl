@@ -58,13 +58,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x11f15f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x12cb17c, size 0x40, virtual true, abstract: false, final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll, addr 0x11f1638, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method AddAll, addr 0x12cb1bc, size 0x40, virtual true, abstract: false, final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear, addr 0x11f1678, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x12cb1fc, size 0x40, virtual true, abstract: false, final false
   inline void Clear();
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -78,13 +78,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* New_ctor();
 
-  /// @brief Method Remove, addr 0x11f16c0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x12cb244, size 0x40, virtual true, abstract: false, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAll, addr 0x11f1700, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x12cb284, size 0x40, virtual true, abstract: false, final false
   inline void RemoveAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method .ctor, addr 0x11f15f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cb174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -96,7 +96,7 @@ public:
   /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x11f16b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x12cb23c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Method get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

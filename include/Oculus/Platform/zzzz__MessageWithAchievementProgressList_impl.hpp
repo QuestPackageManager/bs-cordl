@@ -1,5 +1,4 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__AchievementProgressList_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAchievementProgressList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
@@ -9,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAchievementProgressList::*)(void*)>(
     &::Oculus::Platform::MessageWithAchievementProgressList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2842c74;
+  constexpr static std::size_t addrs = 0x29c5258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementProgressList* (::Oculus::Platform::MessageWithAchievementProgressList::*)()>(
     &::Oculus::Platform::MessageWithAchievementProgressList::GetAchievementProgressList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2844c84;
+  constexpr static std::size_t addrs = 0x29c7268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementProgressList* (
     ::Oculus::Platform::MessageWithAchievementProgressList::*)(void*)>(&::Oculus::Platform::MessageWithAchievementProgressList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2844cc0;
+  constexpr static std::size_t addrs = 0x29c72a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

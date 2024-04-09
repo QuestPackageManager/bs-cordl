@@ -32,23 +32,23 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 class CORDL_TYPE Curve25519Point : public ::Org::BouncyCastle::Math::EC::AbstractFpPoint {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x10647fc, size 0x6f8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x113d380, size 0x6f8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method CalculateJacobianModifiedW, addr 0x10651bc, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method CalculateJacobianModifiedW, addr 0x113dd40, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* CalculateJacobianModifiedW(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* Z,
                                                                                                         ::ArrayW<uint32_t, ::Array<uint32_t>*> ZSquared);
 
-  /// @brief Method Detach, addr 0x1064748, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Detach, addr 0x113d2cc, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method GetJacobianModifiedW, addr 0x106533c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetJacobianModifiedW, addr 0x113dec0, size 0x128, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* GetJacobianModifiedW();
 
-  /// @brief Method GetZCoord, addr 0x10647e0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetZCoord, addr 0x113d364, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int32_t index);
 
-  /// @brief Method Negate, addr 0x10650e8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x113dc6c, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -61,25 +61,25 @@ public:
   New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
            ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method ThreeTimes, addr 0x1065068, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ThreeTimes, addr 0x113dbec, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
 
-  /// @brief Method Twice, addr 0x1064ef4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Twice, addr 0x113da78, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
 
-  /// @brief Method TwiceJacobianModified, addr 0x1065464, size 0x470, virtual true, abstract: false, final false
+  /// @brief Method TwiceJacobianModified, addr 0x113dfe8, size 0x470, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* TwiceJacobianModified(bool calculateW);
 
-  /// @brief Method TwicePlus, addr 0x1064f98, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method TwicePlus, addr 0x113db1c, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method .ctor, addr 0x105f9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1138530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method .ctor, addr 0x105fcdc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1138860, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x105fdf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1138978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 

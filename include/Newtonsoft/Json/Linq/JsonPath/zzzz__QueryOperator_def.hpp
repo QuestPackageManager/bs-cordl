@@ -33,6 +33,9 @@ public:
     __E_GreaterThanOrEquals = static_cast<int32_t>(0x7),
     __E_And = static_cast<int32_t>(0x8),
     __E_Or = static_cast<int32_t>(0x9),
+    __E_RegexEquals = static_cast<int32_t>(0xa),
+    __E_StrictEquals = static_cast<int32_t>(0xb),
+    __E_StrictNotEquals = static_cast<int32_t>(0xc),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -84,6 +87,15 @@ public:
 
   /// @brief Field Or value: static_cast<int32_t>(0x9)
   static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const Or;
+
+  /// @brief Field RegexEquals value: static_cast<int32_t>(0xa)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const RegexEquals;
+
+  /// @brief Field StrictEquals value: static_cast<int32_t>(0xb)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const StrictEquals;
+
+  /// @brief Field StrictNotEquals value: static_cast<int32_t>(0xc)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const StrictNotEquals;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

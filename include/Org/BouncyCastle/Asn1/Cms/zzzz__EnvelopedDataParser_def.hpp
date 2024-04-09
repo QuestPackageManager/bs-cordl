@@ -50,16 +50,16 @@ public:
   /// @brief Field _version, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
 
-  /// @brief Method GetEncryptedContentInfo, addr 0xf093b0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedContentInfo, addr 0xfe2f34, size 0x120, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetEncryptedContentInfo();
 
-  /// @brief Method GetOriginatorInfo, addr 0xf08fd0, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method GetOriginatorInfo, addr 0xfe2b54, size 0x2e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos, addr 0xf092b0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0xfe2e34, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetUnprotectedAttrs, addr 0xf094d0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttrs, addr 0xfe3054, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnprotectedAttrs();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0xf08ea4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe2a28, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xf08fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xfe2b4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

@@ -118,16 +118,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*() noexcept;
 
-  /// @brief Method Clone, addr 0xe85278, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0xf5cd50, size 0x248, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* Clone();
 
-  /// @brief Method Equals, addr 0xe85a44, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5d51c, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xe85658, size 0x3ec, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0xf5d130, size 0x3ec, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::BeatAvatarSDK::AvatarData* other);
 
-  /// @brief Method GetHashCode, addr 0xe854c0, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf5cf98, size 0x198, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* New_ctor();
@@ -234,111 +234,111 @@ public:
 
   constexpr void __cordl_internal_set__skinColorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0xe85138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5cc10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0xe85140, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5cc18, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW headTopId, ::UnityEngine::Color headTopPrimaryColor, ::UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color glassesColor,
                     ::StringW facialHairId, ::UnityEngine::Color facialHairColor, ::StringW handsId, ::UnityEngine::Color handsColor, ::StringW clothesId, ::UnityEngine::Color clothesPrimaryColor,
                     ::UnityEngine::Color clothesSecondaryColor, ::UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId);
 
-  /// @brief Method get_clothesDetailColor, addr 0xe85110, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clothesDetailColor, addr 0xf5cbe8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clothesDetailColor();
 
-  /// @brief Method get_clothesId, addr 0xe85038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clothesId, addr 0xf5cb10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_clothesId();
 
-  /// @brief Method get_clothesPrimaryColor, addr 0xe850e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clothesPrimaryColor, addr 0xf5cbb8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clothesPrimaryColor();
 
-  /// @brief Method get_clothesSecondaryColor, addr 0xe850f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clothesSecondaryColor, addr 0xf5cbd0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clothesSecondaryColor();
 
-  /// @brief Method get_eyesId, addr 0xe85048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eyesId, addr 0xf5cb20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_eyesId();
 
-  /// @brief Method get_facialHairColor, addr 0xe850b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_facialHairColor, addr 0xf5cb88, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_facialHairColor();
 
-  /// @brief Method get_facialHairId, addr 0xe85018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_facialHairId, addr 0xf5caf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_facialHairId();
 
-  /// @brief Method get_glassesColor, addr 0xe85098, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glassesColor, addr 0xf5cb70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_glassesColor();
 
-  /// @brief Method get_glassesId, addr 0xe85008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glassesId, addr 0xf5cae0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_glassesId();
 
-  /// @brief Method get_handsColor, addr 0xe850c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_handsColor, addr 0xf5cba0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_handsColor();
 
-  /// @brief Method get_handsId, addr 0xe85028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handsId, addr 0xf5cb00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_handsId();
 
-  /// @brief Method get_headTopId, addr 0xe84ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTopId, addr 0xf5cad0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_headTopId();
 
-  /// @brief Method get_headTopPrimaryColor, addr 0xe85068, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headTopPrimaryColor, addr 0xf5cb40, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_headTopPrimaryColor();
 
-  /// @brief Method get_headTopSecondaryColor, addr 0xe85080, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headTopSecondaryColor, addr 0xf5cb58, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_headTopSecondaryColor();
 
-  /// @brief Method get_mouthId, addr 0xe85058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mouthId, addr 0xf5cb30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_mouthId();
 
-  /// @brief Method get_skinColorId, addr 0xe85128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skinColorId, addr 0xf5cc00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_skinColorId();
 
   /// @brief Convert to "::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>"
   constexpr ::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* i___System__IEquatable_1___BeatSaber__BeatAvatarSDK__AvatarData__() noexcept;
 
-  /// @brief Method set_clothesDetailColor, addr 0xe8511c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clothesDetailColor, addr 0xf5cbf4, size 0xc, virtual false, abstract: false, final false
   inline void set_clothesDetailColor(::UnityEngine::Color value);
 
-  /// @brief Method set_clothesId, addr 0xe85040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clothesId, addr 0xf5cb18, size 0x8, virtual false, abstract: false, final false
   inline void set_clothesId(::StringW value);
 
-  /// @brief Method set_clothesPrimaryColor, addr 0xe850ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clothesPrimaryColor, addr 0xf5cbc4, size 0xc, virtual false, abstract: false, final false
   inline void set_clothesPrimaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_clothesSecondaryColor, addr 0xe85104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clothesSecondaryColor, addr 0xf5cbdc, size 0xc, virtual false, abstract: false, final false
   inline void set_clothesSecondaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_eyesId, addr 0xe85050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eyesId, addr 0xf5cb28, size 0x8, virtual false, abstract: false, final false
   inline void set_eyesId(::StringW value);
 
-  /// @brief Method set_facialHairColor, addr 0xe850bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_facialHairColor, addr 0xf5cb94, size 0xc, virtual false, abstract: false, final false
   inline void set_facialHairColor(::UnityEngine::Color value);
 
-  /// @brief Method set_facialHairId, addr 0xe85020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_facialHairId, addr 0xf5caf8, size 0x8, virtual false, abstract: false, final false
   inline void set_facialHairId(::StringW value);
 
-  /// @brief Method set_glassesColor, addr 0xe850a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_glassesColor, addr 0xf5cb7c, size 0xc, virtual false, abstract: false, final false
   inline void set_glassesColor(::UnityEngine::Color value);
 
-  /// @brief Method set_glassesId, addr 0xe85010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glassesId, addr 0xf5cae8, size 0x8, virtual false, abstract: false, final false
   inline void set_glassesId(::StringW value);
 
-  /// @brief Method set_handsColor, addr 0xe850d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_handsColor, addr 0xf5cbac, size 0xc, virtual false, abstract: false, final false
   inline void set_handsColor(::UnityEngine::Color value);
 
-  /// @brief Method set_handsId, addr 0xe85030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handsId, addr 0xf5cb08, size 0x8, virtual false, abstract: false, final false
   inline void set_handsId(::StringW value);
 
-  /// @brief Method set_headTopId, addr 0xe85000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_headTopId, addr 0xf5cad8, size 0x8, virtual false, abstract: false, final false
   inline void set_headTopId(::StringW value);
 
-  /// @brief Method set_headTopPrimaryColor, addr 0xe85074, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_headTopPrimaryColor, addr 0xf5cb4c, size 0xc, virtual false, abstract: false, final false
   inline void set_headTopPrimaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_headTopSecondaryColor, addr 0xe8508c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_headTopSecondaryColor, addr 0xf5cb64, size 0xc, virtual false, abstract: false, final false
   inline void set_headTopSecondaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_mouthId, addr 0xe85060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mouthId, addr 0xf5cb38, size 0x8, virtual false, abstract: false, final false
   inline void set_mouthId(::StringW value);
 
-  /// @brief Method set_skinColorId, addr 0xe85130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_skinColorId, addr 0xf5cc08, size 0x8, virtual false, abstract: false, final false
   inline void set_skinColorId(::StringW value);
 
 protected:

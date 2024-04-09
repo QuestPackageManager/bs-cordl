@@ -122,7 +122,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x12c6c20, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x139e7a4, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -131,15 +131,15 @@ public:
   /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x12c6d14, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x139e898, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetLevelEntitlementStatusAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x12c6d24, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x139e8a8, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetPackEntitlementStatusAsync(::StringW levelPackId,
                                                                                                                                                     ::System::Threading::CancellationToken token);
 
-  /// @brief Method InvalidateData, addr 0x12c6cdc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvalidateData, addr 0x139e860, size 0x38, virtual false, abstract: false, final false
   inline void InvalidateData();
 
   /// @brief Method InvalidateDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -150,7 +150,7 @@ public:
 
   static inline ::GlobalNamespace::AdditionalContentModel* New_ctor();
 
-  /// @brief Method OnApplicationFocusChanged, addr 0x12c6ca0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocusChanged, addr 0x139e824, size 0x3c, virtual false, abstract: false, final false
   inline void OnApplicationFocusChanged(bool hasFocus);
 
   /// @brief Method OpenLevelPackProductStoreAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -165,10 +165,10 @@ public:
 
   constexpr void __cordl_internal_set_didInvalidateDataEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x12c6b94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x139e718, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInvalidateDataEvent, addr 0x12c6a5c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didInvalidateDataEvent, addr 0x139e5e0, size 0x9c, virtual true, abstract: false, final true
   inline void add_didInvalidateDataEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IAdditionalContentEntitlementModel"
@@ -180,7 +180,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_didInvalidateDataEvent, addr 0x12c6af8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didInvalidateDataEvent, addr 0x139e67c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didInvalidateDataEvent(::System::Action* value);
 
 protected:

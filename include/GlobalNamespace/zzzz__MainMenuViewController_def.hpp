@@ -3,6 +3,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainMenuViewController)
@@ -21,11 +24,26 @@ class __DlcPromoPanelModel__PromoInfo;
 namespace GlobalNamespace {
 struct __MainMenuViewController__MenuButton;
 }
+namespace GlobalNamespace {
+struct __MainMenuViewController___LoadMusicPackPromoDataAsync_d__21;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -37,9 +55,13 @@ struct __MainMenuViewController__MenuButton;
 namespace GlobalNamespace {
 class MainMenuViewController;
 }
+namespace GlobalNamespace {
+struct __MainMenuViewController___LoadMusicPackPromoDataAsync_d__21;
+}
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__MainMenuViewController__MenuButton);
 MARK_REF_PTR_T(::GlobalNamespace::MainMenuViewController);
+MARK_VAL_T(::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21);
 // Type: ::MenuButton
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -121,8 +143,69 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainMenuViewC
 static_assert(offsetof(::GlobalNamespace::__MainMenuViewController__MenuButton, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<LoadMusicPackPromoDataAsync>d__21
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::MainMenuViewController::<LoadMusicPackPromoDataAsync>d__21
+struct CORDL_TYPE __MainMenuViewController___LoadMusicPackPromoDataAsync_d__21 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x254f1d0, size 0x3b0, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x254f580, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MainMenuViewController___LoadMusicPackPromoDataAsync_d__21();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainMenuViewController>",
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*,bool>>", modifiers: "", def_value: None }]
+  constexpr __MainMenuViewController___LoadMusicPackPromoDataAsync_d__21(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::MainMenuViewController> __4__this,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, bool>> __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MainMenuViewController> __4__this;
+
+  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, bool>> __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21, __u__1) == 0x30, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::MainMenuViewController
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainMenuViewController*
@@ -130,6 +213,8 @@ class CORDL_TYPE MainMenuViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   using MenuButton = ::GlobalNamespace::__MainMenuViewController__MenuButton;
+
+  using _LoadMusicPackPromoDataAsync_d__21 = ::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21;
 
   /// @brief Field _analyticsModel, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
@@ -145,6 +230,9 @@ public:
 
   /// @brief Field _howToPlayButton, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__howToPlayButton, put = __cordl_internal_set__howToPlayButton))::UnityW<::UnityEngine::UI::Button> _howToPlayButton;
+
+  /// @brief Field _isLoadingPackPromoData, offset 0xe0, size 0x1
+  __declspec(property(get = __cordl_internal_get__isLoadingPackPromoData, put = __cordl_internal_set__isLoadingPackPromoData)) bool _isLoadingPackPromoData;
 
   /// @brief Field _multiplayerButton, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerButton, put = __cordl_internal_set__multiplayerButton))::UnityW<::UnityEngine::UI::Button> _multiplayerButton;
@@ -176,40 +264,43 @@ public:
   __declspec(property(get = __cordl_internal_get_promoButtonWasPressedEvent,
                       put = __cordl_internal_set_promoButtonWasPressedEvent))::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* promoButtonWasPressedEvent;
 
-  /// @brief Method DidActivate, addr 0x242be38, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x254ea44, size 0x49c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x242c398, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x254efd8, size 0x1b0, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__MainMenuViewController__MenuButton menuButton);
+
+  /// @brief Method LoadMusicPackPromoDataAsync, addr 0x254eee0, size 0x94, virtual false, abstract: false, final false
+  inline void LoadMusicPackPromoDataAsync();
 
   static inline ::GlobalNamespace::MainMenuViewController* New_ctor();
 
-  /// @brief Method PackPromoButtonWasPressed, addr 0x242c334, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PackPromoButtonWasPressed, addr 0x254ef74, size 0x64, virtual false, abstract: false, final false
   inline void PackPromoButtonWasPressed();
 
-  /// @brief Method <DidActivate>b__19_0, addr 0x242c550, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_0();
+  /// @brief Method <DidActivate>b__20_0, addr 0x254f190, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_0();
 
-  /// @brief Method <DidActivate>b__19_1, addr 0x242c558, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_1();
+  /// @brief Method <DidActivate>b__20_1, addr 0x254f198, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_1();
 
-  /// @brief Method <DidActivate>b__19_2, addr 0x242c560, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_2();
+  /// @brief Method <DidActivate>b__20_2, addr 0x254f1a0, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_2();
 
-  /// @brief Method <DidActivate>b__19_3, addr 0x242c568, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_3();
+  /// @brief Method <DidActivate>b__20_3, addr 0x254f1a8, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_3();
 
-  /// @brief Method <DidActivate>b__19_4, addr 0x242c570, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_4();
+  /// @brief Method <DidActivate>b__20_4, addr 0x254f1b0, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_4();
 
-  /// @brief Method <DidActivate>b__19_5, addr 0x242c578, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_5();
+  /// @brief Method <DidActivate>b__20_5, addr 0x254f1b8, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_5();
 
-  /// @brief Method <DidActivate>b__19_6, addr 0x242c580, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_6();
+  /// @brief Method <DidActivate>b__20_6, addr 0x254f1c0, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_6();
 
-  /// @brief Method <DidActivate>b__19_7, addr 0x242c588, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__19_7();
+  /// @brief Method <DidActivate>b__20_7, addr 0x254f1c8, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__20_7();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
@@ -230,6 +321,10 @@ public:
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__howToPlayButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__howToPlayButton();
+
+  constexpr bool const& __cordl_internal_get__isLoadingPackPromoData() const;
+
+  constexpr bool& __cordl_internal_get__isLoadingPackPromoData();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__multiplayerButton() const;
 
@@ -278,6 +373,8 @@ public:
 
   constexpr void __cordl_internal_set__howToPlayButton(::UnityW<::UnityEngine::UI::Button> value);
 
+  constexpr void __cordl_internal_set__isLoadingPackPromoData(bool value);
+
   constexpr void __cordl_internal_set__multiplayerButton(::UnityW<::UnityEngine::UI::Button> value);
 
   constexpr void __cordl_internal_set__musicPackPromoBanner(::UnityW<::GlobalNamespace::MusicPackPromoBanner> value);
@@ -296,19 +393,19 @@ public:
 
   constexpr void __cordl_internal_set_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x242c548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254f188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x242bb78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x254e784, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  /// @brief Method add_promoButtonWasPressedEvent, addr 0x242bcd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_promoButtonWasPressedEvent, addr 0x254e8e4, size 0xb0, virtual false, abstract: false, final false
   inline void add_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x242bc28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x254e834, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x242bd88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x254e994, size 0xb0, virtual false, abstract: false, final false
   inline void remove_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
 protected:
@@ -367,10 +464,13 @@ public:
   /// @brief Field promoButtonWasPressedEvent, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* ___promoButtonWasPressedEvent;
 
+  /// @brief Field _isLoadingPackPromoData, offset: 0xe0, size: 0x1, def value: None
+  bool ____isLoadingPackPromoData;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuViewController, 0xe0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuViewController, 0xe8>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____soloButton) == 0x70, "Offset mismatch!");
 
@@ -400,7 +500,10 @@ static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___didFinishEv
 
 static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___promoButtonWasPressedEvent) == 0xd8, "Offset mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____isLoadingPackPromoData) == 0xe0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainMenuViewController__MenuButton, "", "MainMenuViewController/MenuButton");
 NEED_NO_BOX(::GlobalNamespace::MainMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainMenuViewController*, "", "MainMenuViewController");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21, "", "MainMenuViewController/<LoadMusicPackPromoDataAsync>d__21");

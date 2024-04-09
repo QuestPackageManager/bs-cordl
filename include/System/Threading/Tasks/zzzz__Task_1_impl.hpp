@@ -124,6 +124,17 @@ inline void System::Threading::Tasks::Task_1<TResult>::_ctor(bool canceled, TRes
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, canceled, result, creationOptions, ct);
 }
 template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(function, cancellationToken));
+}
+template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Task_1<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_1<TResult>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, function, cancellationToken);
+}
+template <typename TResult>
 inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state,
                                                                                                         ::System::Threading::CancellationToken cancellationToken,
                                                                                                         ::System::Threading::Tasks::TaskCreationOptions creationOptions) {

@@ -47,22 +47,22 @@ public:
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x306cf90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3451e1c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x308854c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346d3d8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method get_InstantiateFailed, addr 0x3088580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x346d40c, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method get_MarkedType, addr 0x3088594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x346d420, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_InstantiateFailed, addr 0x3088588, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x346d414, size 0xc, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method set_MarkedType, addr 0x308859c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x346d428, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:

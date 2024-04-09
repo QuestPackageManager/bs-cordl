@@ -87,13 +87,13 @@ public:
   // Declarations
   using OutputMode = ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode;
 
-  /// @brief Method ApplyUVLayoutTo, addr 0x230edf4, size 0x840, virtual false, abstract: false, final false
+  /// @brief Method ApplyUVLayoutTo, addr 0x242f340, size 0x840, virtual false, abstract: false, final false
   static inline void ApplyUVLayoutTo(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> gameObjects,
                                      ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode outputMode, ::StringW output_name_suffix);
 
   static inline ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x230f6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242fc28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

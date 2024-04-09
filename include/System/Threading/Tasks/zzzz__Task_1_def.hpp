@@ -217,6 +217,8 @@ public:
   static inline ::System::Threading::Tasks::Task_1<TResult>* New_ctor(bool canceled, TResult result, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                       ::System::Threading::CancellationToken ct);
 
+  static inline ::System::Threading::Tasks::Task_1<TResult>* New_ctor(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken);
+
   static inline ::System::Threading::Tasks::Task_1<TResult>* New_ctor(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state,
                                                                       ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
@@ -256,6 +258,9 @@ public:
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(bool canceled, TResult result, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::CancellationToken ct);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state, ::System::Threading::CancellationToken cancellationToken,

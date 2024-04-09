@@ -63,51 +63,51 @@ public:
   /// @brief Field _viewportTransform, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__viewportTransform, put = __cordl_internal_set__viewportTransform))::UnityW<::UnityEngine::RectTransform> _viewportTransform;
 
-  /// @brief Method AnimateClose, addr 0x24409f0, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AnimateClose, addr 0x2563b4c, size 0x308, virtual false, abstract: false, final false
   inline void AnimateClose(int32_t selectedRow, bool animated);
 
-  /// @brief Method AnimateOpen, addr 0x244068c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method AnimateOpen, addr 0x25637e8, size 0x334, virtual false, abstract: false, final false
   inline void AnimateOpen(bool animated);
 
-  /// @brief Method DespawnAllActiveTweens, addr 0x2441c58, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DespawnAllActiveTweens, addr 0x2564db4, size 0xc8, virtual false, abstract: false, final false
   inline void DespawnAllActiveTweens();
 
-  /// @brief Method GetContentYOffset, addr 0x2441c28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetContentYOffset, addr 0x2564d84, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetContentYOffset();
 
-  /// @brief Method Init, addr 0x243f87c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25629d8, size 0xb0, virtual false, abstract: false, final false
   inline void Init(float_t rowHeight, int32_t rowCount);
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2441c54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2564db0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ScrollToRowIdxInstant, addr 0x24405dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScrollToRowIdxInstant, addr 0x2563738, size 0x5c, virtual false, abstract: false, final false
   inline void ScrollToRowIdxInstant(int32_t selectedRow);
 
-  /// @brief Method <AnimateClose>b__14_0, addr 0x2441e80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__14_0, addr 0x2564fdc, size 0x1c, virtual false, abstract: false, final false
   inline void _AnimateClose_b__14_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateClose>b__14_1, addr 0x2441e9c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__14_1, addr 0x2564ff8, size 0x88, virtual false, abstract: false, final false
   inline void _AnimateClose_b__14_1();
 
-  /// @brief Method <AnimateClose>b__14_2, addr 0x2441f24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__14_2, addr 0x2565080, size 0x1c, virtual false, abstract: false, final false
   inline void _AnimateClose_b__14_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateClose>b__14_3, addr 0x2441f40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__14_3, addr 0x256509c, size 0x88, virtual false, abstract: false, final false
   inline void _AnimateClose_b__14_3();
 
-  /// @brief Method <AnimateOpen>b__13_0, addr 0x2441d38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__13_0, addr 0x2564e94, size 0x1c, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__13_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateOpen>b__13_1, addr 0x2441d54, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__13_1, addr 0x2564eb0, size 0x88, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__13_1();
 
-  /// @brief Method <AnimateOpen>b__13_2, addr 0x2441ddc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__13_2, addr 0x2564f38, size 0x1c, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__13_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateOpen>b__13_3, addr 0x2441df8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__13_3, addr 0x2564f54, size 0x88, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__13_3();
 
   constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__contentPositionTween();
@@ -170,7 +170,7 @@ public:
 
   constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x2441d20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2564e7c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -2,8 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__WebRequestStream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
@@ -158,13 +156,13 @@ public:
 
   static inline ::System::Net::__WebConnection____c* New_ctor();
 
-  /// @brief Method <Connect>b__16_0, addr 0x2b2a110, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_0, addr 0x2f0e5c0, size 0xa0, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _Connect_b__16_0(::System::Net::IPEndPoint* targetEndPoint, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method <Connect>b__16_1, addr 0x2b2a1b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_1, addr 0x2f0e660, size 0xf4, virtual false, abstract: false, final false
   inline void _Connect_b__16_1(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method .ctor, addr 0x2b2a108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f0e5b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::__WebConnection____c* getStaticF___9();
@@ -210,10 +208,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2b2a2a4, size 0x8c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2f0e754, size 0x8c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2b2aba8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2f0f058, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -299,10 +297,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2b2abb4, size 0x66c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2f0f064, size 0x66c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2b2b330, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2f0f7e0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -389,10 +387,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2b2b388, size 0x4cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2f0f838, size 0x4cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2b2ba00, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2f0feb0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -526,57 +524,57 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CanReuse, addr 0x2b28eec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CanReuse, addr 0x2f0d39c, size 0x30, virtual false, abstract: false, final false
   inline bool CanReuse();
 
-  /// @brief Method CanReuseConnection, addr 0x2b27750, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method CanReuseConnection, addr 0x2f0bc00, size 0x42c, virtual false, abstract: false, final false
   inline bool CanReuseConnection(::System::Net::WebOperation* operation);
 
-  /// @brief Method CheckReusable, addr 0x2b28f1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckReusable, addr 0x2f0d3cc, size 0x9c, virtual false, abstract: false, final false
   inline bool CheckReusable();
 
-  /// @brief Method Close, addr 0x2b29a10, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x2f0dec0, size 0xc8, virtual false, abstract: false, final false
   inline void Close(bool reset);
 
-  /// @brief Method CloseSocket, addr 0x2b29ad8, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x2f0df88, size 0x26c, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method Connect, addr 0x2b28fb8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x2f0d468, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Connect(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Continue, addr 0x2b26538, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Continue, addr 0x2f0a9e8, size 0x160, virtual false, abstract: false, final false
   inline bool Continue(::System::Net::WebOperation* next);
 
-  /// @brief Method CreateStream, addr 0x2b2909c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreateStream, addr 0x2f0d54c, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateStream(::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x2b27394, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f0b844, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2b2a034, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2f0e4e4, size 0x38, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetException, addr 0x2b292c0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x2f0d770, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* GetException(::System::Net::WebExceptionStatus status, ::System::Exception* error);
 
-  /// @brief Method InitConnection, addr 0x2b291bc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InitConnection, addr 0x2f0d66c, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* InitConnection(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::WebConnection* New_ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method PrepareSharingNtlm, addr 0x2b29630, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method PrepareSharingNtlm, addr 0x2f0dae0, size 0x31c, virtual false, abstract: false, final false
   inline bool PrepareSharingNtlm(::System::Net::WebOperation* operation);
 
-  /// @brief Method ReadLine, addr 0x2b29448, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x2f0d8f8, size 0x1e8, virtual false, abstract: false, final false
   static inline bool ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> start, int32_t max, ByRef<::StringW> output);
 
-  /// @brief Method Reset, addr 0x2b2994c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2f0ddfc, size 0xb8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResetNtlm, addr 0x2b29a04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetNtlm, addr 0x2f0deb4, size 0xc, virtual false, abstract: false, final false
   inline void ResetNtlm();
 
-  /// @brief Method StartOperation, addr 0x2b27b7c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x2f0c02c, size 0x1f4, virtual false, abstract: false, final false
   inline bool StartOperation(::System::Net::WebOperation* operation, bool reused);
 
   constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
@@ -645,37 +643,37 @@ public:
 
   constexpr void __cordl_internal_set_unsafe_sharing(bool value);
 
-  /// @brief Method .ctor, addr 0x2b27d70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f0c220, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method get_Closed, addr 0x2b2739c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Closed, addr 0x2f0b84c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Closed();
 
-  /// @brief Method get_IdleSince, addr 0x2b29d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IdleSince, addr 0x2f0e1f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_IdleSince();
 
-  /// @brief Method get_NtlmAuthenticated, addr 0x2b2a06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmAuthenticated, addr 0x2f0e51c, size 0x8, virtual false, abstract: false, final false
   inline bool get_NtlmAuthenticated();
 
-  /// @brief Method get_NtlmCredential, addr 0x2b2a080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmCredential, addr 0x2f0e530, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::NetworkCredential* get_NtlmCredential();
 
-  /// @brief Method get_ServicePoint, addr 0x2b28ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePoint, addr 0x2f0d394, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x2b2a090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x2f0e540, size 0x8, virtual false, abstract: false, final false
   inline bool get_UnsafeAuthenticatedConnectionSharing();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_NtlmAuthenticated, addr 0x2b2a074, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmAuthenticated, addr 0x2f0e524, size 0xc, virtual false, abstract: false, final false
   inline void set_NtlmAuthenticated(bool value);
 
-  /// @brief Method set_NtlmCredential, addr 0x2b2a088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmCredential, addr 0x2f0e538, size 0x8, virtual false, abstract: false, final false
   inline void set_NtlmCredential(::System::Net::NetworkCredential* value);
 
-  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x2b2a098, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x2f0e548, size 0xc, virtual false, abstract: false, final false
   inline void set_UnsafeAuthenticatedConnectionSharing(bool value);
 
 protected:

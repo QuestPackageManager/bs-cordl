@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::User::*)(void*)>(&::Oculus::Platform::Models::User::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2858470;
+  constexpr static std::size_t addrs = 0x29daa54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

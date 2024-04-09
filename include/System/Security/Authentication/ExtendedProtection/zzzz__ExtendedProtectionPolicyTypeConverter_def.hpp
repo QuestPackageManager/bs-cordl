@@ -30,16 +30,16 @@ namespace System::Security::Authentication::ExtendedProtection {
 class CORDL_TYPE ExtendedProtectionPolicyTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x2abf72c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2ea5bdc, size 0x40, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x2abf76c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2ea5c1c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2abf7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea5c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

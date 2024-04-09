@@ -4,7 +4,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseBoolField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RadioButton)
@@ -16,6 +15,9 @@ class IGroupBoxOption;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -43,6 +45,39 @@ class __RadioButton__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::RadioButton);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__RadioButton__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__RadioButton__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::RadioButton::UxmlFactory*
+class CORDL_TYPE __RadioButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButton*, ::UnityEngine::UIElements::__RadioButton__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__RadioButton__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x337e540, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RadioButton__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__RadioButton__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __RadioButton__UxmlFactory(__RadioButton__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__RadioButton__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __RadioButton__UxmlFactory(__RadioButton__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__RadioButton__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -54,7 +89,7 @@ public:
   /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x2f9876c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x337e588, size 0x118, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__RadioButton__UxmlTraits* New_ctor();
@@ -65,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2f98884, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337e6a0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,26 +166,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBoxOption"
   constexpr operator ::UnityEngine::UIElements::IGroupBoxOption*() noexcept;
 
-  /// @brief Method InitLabel, addr 0x2f9842c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x337e248, size 0x78, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor(::StringW label);
 
-  /// @brief Method SetSelected, addr 0x2f984e4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method SetSelected, addr 0x337e300, size 0x14, virtual true, abstract: false, final true
   inline void SetSelected(bool selected);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x2f984f8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x337e314, size 0x1c, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ToggleValue, addr 0x2f984a4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x337e2c0, size 0x40, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UpdateCheckmark, addr 0x2f98158, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCheckmark, addr 0x337df74, size 0xf4, virtual false, abstract: false, final false
   inline void UpdateCheckmark();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x2f98514, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x337e330, size 0xa0, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckmarkBackground();
@@ -159,10 +194,10 @@ public:
 
   constexpr void __cordl_internal_set_m_CheckmarkBackground(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2f9824c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337e068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f98254, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337e070, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkBackgroundUssClassName();
@@ -177,7 +212,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_value, addr 0x2f98030, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x337de4c, size 0x48, virtual true, abstract: false, final false
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBoxOption"
@@ -195,7 +230,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_value, addr 0x2f98078, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x337de94, size 0xe0, virtual true, abstract: false, final false
   inline void set_value(bool value);
 
 protected:
@@ -221,39 +256,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RadioButton, 0x430>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::RadioButton, ___m_CheckmarkBackground) == 0x428, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::RadioButton::UxmlFactory*
-class CORDL_TYPE __RadioButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButton*, ::UnityEngine::UIElements::__RadioButton__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__RadioButton__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f98724, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RadioButton__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__RadioButton__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __RadioButton__UxmlFactory(__RadioButton__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__RadioButton__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __RadioButton__UxmlFactory(__RadioButton__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__RadioButton__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RadioButton);

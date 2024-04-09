@@ -24,16 +24,16 @@ public:
 
   static inline ::UnityEngine::Behaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e11940, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31f8e8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x2e1b0c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x32024d8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_isActiveAndEnabled, addr 0x2e1b148, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled, addr 0x3202558, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
-  /// @brief Method set_enabled, addr 0x2e1b104, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x3202514, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:

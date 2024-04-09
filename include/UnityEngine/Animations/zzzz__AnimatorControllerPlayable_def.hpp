@@ -37,16 +37,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x2ddb40c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31c1b7c, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimatorControllerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x2ddb400, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x31c1b70, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetHandle, addr 0x2ddb2f8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x31c1a68, size 0x108, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method .ctor, addr 0x2ddb280, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c19f0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimatorControllerPlayable getStaticF_m_NullPlayable();

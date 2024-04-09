@@ -48,79 +48,79 @@ public:
 
   __declspec(property(get = get_totalUpdateCount, put = set_totalUpdateCount)) int32_t totalUpdateCount;
 
-  /// @brief Method get_averageEventBytesPerFrame, addr 0x2c380fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_averageEventBytesPerFrame, addr 0x301f5ac, size 0x18, virtual false, abstract: false, final false
   inline float_t get_averageEventBytesPerFrame();
 
-  /// @brief Method get_averageLagTimePerEvent, addr 0x2c38128, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_averageLagTimePerEvent, addr 0x301f5d8, size 0x14, virtual false, abstract: false, final false
   inline double_t get_averageLagTimePerEvent();
 
-  /// @brief Method get_averageProcessingTimePerEvent, addr 0x2c38114, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_averageProcessingTimePerEvent, addr 0x301f5c4, size 0x14, virtual false, abstract: false, final false
   inline double_t get_averageProcessingTimePerEvent();
 
-  /// @brief Method get_currentControlCount, addr 0x2c3808c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentControlCount, addr 0x301f53c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentControlCount();
 
-  /// @brief Method get_currentLayoutCount, addr 0x2c3809c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentLayoutCount, addr 0x301f54c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentLayoutCount();
 
-  /// @brief Method get_currentNumDevices, addr 0x2c3805c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentNumDevices, addr 0x301f50c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentNumDevices();
 
-  /// @brief Method get_currentStateSizeInBytes, addr 0x2c3807c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentStateSizeInBytes, addr 0x301f52c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentStateSizeInBytes();
 
-  /// @brief Method get_maxNumDevices, addr 0x2c3804c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxNumDevices, addr 0x301f4fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxNumDevices();
 
-  /// @brief Method get_maxStateSizeInBytes, addr 0x2c3806c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxStateSizeInBytes, addr 0x301f51c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxStateSizeInBytes();
 
-  /// @brief Method get_totalEventBytes, addr 0x2c380ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalEventBytes, addr 0x301f55c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalEventBytes();
 
-  /// @brief Method get_totalEventCount, addr 0x2c380bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalEventCount, addr 0x301f56c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalEventCount();
 
-  /// @brief Method get_totalEventLagTime, addr 0x2c380ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalEventLagTime, addr 0x301f59c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_totalEventLagTime();
 
-  /// @brief Method get_totalEventProcessingTime, addr 0x2c380dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalEventProcessingTime, addr 0x301f58c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_totalEventProcessingTime();
 
-  /// @brief Method get_totalUpdateCount, addr 0x2c380cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalUpdateCount, addr 0x301f57c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalUpdateCount();
 
-  /// @brief Method set_currentControlCount, addr 0x2c38094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentControlCount, addr 0x301f544, size 0x8, virtual false, abstract: false, final false
   inline void set_currentControlCount(int32_t value);
 
-  /// @brief Method set_currentLayoutCount, addr 0x2c380a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentLayoutCount, addr 0x301f554, size 0x8, virtual false, abstract: false, final false
   inline void set_currentLayoutCount(int32_t value);
 
-  /// @brief Method set_currentNumDevices, addr 0x2c38064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentNumDevices, addr 0x301f514, size 0x8, virtual false, abstract: false, final false
   inline void set_currentNumDevices(int32_t value);
 
-  /// @brief Method set_currentStateSizeInBytes, addr 0x2c38084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentStateSizeInBytes, addr 0x301f534, size 0x8, virtual false, abstract: false, final false
   inline void set_currentStateSizeInBytes(int32_t value);
 
-  /// @brief Method set_maxNumDevices, addr 0x2c38054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxNumDevices, addr 0x301f504, size 0x8, virtual false, abstract: false, final false
   inline void set_maxNumDevices(int32_t value);
 
-  /// @brief Method set_maxStateSizeInBytes, addr 0x2c38074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxStateSizeInBytes, addr 0x301f524, size 0x8, virtual false, abstract: false, final false
   inline void set_maxStateSizeInBytes(int32_t value);
 
-  /// @brief Method set_totalEventBytes, addr 0x2c380b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalEventBytes, addr 0x301f564, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventBytes(int32_t value);
 
-  /// @brief Method set_totalEventCount, addr 0x2c380c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalEventCount, addr 0x301f574, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventCount(int32_t value);
 
-  /// @brief Method set_totalEventLagTime, addr 0x2c380f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalEventLagTime, addr 0x301f5a4, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventLagTime(double_t value);
 
-  /// @brief Method set_totalEventProcessingTime, addr 0x2c380e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalEventProcessingTime, addr 0x301f594, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventProcessingTime(double_t value);
 
-  /// @brief Method set_totalUpdateCount, addr 0x2c380d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalUpdateCount, addr 0x301f584, size 0x8, virtual false, abstract: false, final false
   inline void set_totalUpdateCount(int32_t value);
 
   // Ctor Parameters []

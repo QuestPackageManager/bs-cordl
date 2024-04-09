@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x24a387c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7d38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,21 +229,21 @@ public:
   /// @brief Field _transformR, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__transformR, put = __cordl_internal_set__transformR))::UnityW<::UnityEngine::Transform> _transformR;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x24a3a78, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x25c7f34, size 0x15c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightPairSinMoveEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24a3a5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25c7f18, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x24a356c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25c7a28, size 0x310, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x24a3884, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x25c7d40, size 0x1d8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateMovementData, addr 0x24a3bd4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UpdateMovementData, addr 0x25c8090, size 0x138, virtual false, abstract: false, final false
   inline void UpdateMovementData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* movementData, float_t movementValueOffset);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -342,7 +342,7 @@ public:
 
   constexpr void __cordl_internal_set__transformR(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x24a3d0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c81c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::SourceTemplateAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x302245c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34072e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -52,15 +52,15 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  /// @brief Method GetCopy, addr 0xe712a4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xf49d28, size 0x9c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method Mirror, addr 0xe71340, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0xf49dc4, size 0x18, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
   static inline ::GlobalNamespace::ObstacleData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method UpdateDuration, addr 0xe7129c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDuration, addr 0xf49d20, size 0x8, virtual false, abstract: false, final false
   inline void UpdateDuration(float_t duration);
 
   constexpr float_t const& __cordl_internal_get__duration_k__BackingField() const;
@@ -93,37 +93,37 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0xe71234, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf49cb8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method get_duration, addr 0xe71204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0xf49c88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_height, addr 0xe71224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0xf49ca8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_lineIndex, addr 0xe711e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0xf49c68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0xe711f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0xf49c78, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_width, addr 0xe71214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0xf49c98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_duration, addr 0xe7120c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0xf49c90, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_height, addr 0xe7122c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0xf49cb0, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_lineIndex, addr 0xe711ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0xf49c70, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0xe711fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0xf49c80, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_width, addr 0xe7121c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0xf49ca0, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:

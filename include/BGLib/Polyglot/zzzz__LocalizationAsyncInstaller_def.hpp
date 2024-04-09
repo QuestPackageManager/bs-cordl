@@ -4,7 +4,6 @@
 CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizationAsyncInstaller)
 namespace BGLib::AppFlow::Initialization {
@@ -60,10 +59,10 @@ public:
 
   static inline ::BGLib::Polyglot::__LocalizationAsyncInstaller____c* New_ctor();
 
-  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0xeb2ac0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0xf8b640, size 0x68, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationAsset* _LocalizationContentToAsset_b__6_0(::UnityEngine::TextAsset* localizationTextAsset);
 
-  /// @brief Method .ctor, addr 0xeb2ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8b638, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::Polyglot::__LocalizationAsyncInstaller____c* getStaticF___9();
@@ -112,17 +111,17 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0xeb2860, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xf8b3e0, size 0x150, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadLocalizationAssetsSync, addr 0xeb29b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadLocalizationAssetsSync, addr 0xf8b530, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* LoadLocalizationAssetsSync();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0xeb2730, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0xf8b2b0, size 0x1c, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>* assets,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
-  /// @brief Method LocalizationContentToAsset, addr 0xeb274c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method LocalizationContentToAsset, addr 0xf8b2cc, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*
   LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>* content);
 
@@ -140,10 +139,10 @@ public:
 
   constexpr void __cordl_internal_set__mainPolyglotAsset(::UnityW<::BGLib::Polyglot::Localization> value);
 
-  /// @brief Method .ctor, addr 0xeb2a0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8b58c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0xeb26f0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0xf8b270, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

@@ -50,28 +50,28 @@ public:
 
   __declspec(property(get = get_particleSystem, put = set_particleSystem))::UnityW<::UnityEngine::ParticleSystem> particleSystem;
 
-  /// @brief Method Create, addr 0x2db08f0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3197da0, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::ParticleSystem* component, uint32_t randomSeed);
 
-  /// @brief Method Initialize, addr 0x2db0a34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3197ee4, size 0x80, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::ParticleSystem* ps, uint32_t randomSeed);
 
   static inline ::UnityEngine::Timeline::ParticleControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x2db0e84, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x3198334, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x2db0e78, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x3198328, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method PrepareFrame, addr 0x2db0c00, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x31980b0, size 0x1b4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data);
 
-  /// @brief Method SetRandomSeed, addr 0x2db0ac4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetRandomSeed, addr 0x3197f74, size 0x13c, virtual false, abstract: false, final false
   static inline void SetRandomSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t randomSeed);
 
-  /// @brief Method Simulate, addr 0x2db0db4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x3198264, size 0xc4, virtual false, abstract: false, final false
   inline void Simulate(float_t time, bool restart);
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem_k__BackingField() const;
@@ -98,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set_m_RandomSeed(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x2db0e90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3198340, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_particleSystem, addr 0x2db0ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_particleSystem, addr 0x3197f64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ParticleSystem> get_particleSystem();
 
-  /// @brief Method set_particleSystem, addr 0x2db0abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_particleSystem, addr 0x3197f6c, size 0x8, virtual false, abstract: false, final false
   inline void set_particleSystem(::UnityEngine::ParticleSystem* value);
 
 protected:

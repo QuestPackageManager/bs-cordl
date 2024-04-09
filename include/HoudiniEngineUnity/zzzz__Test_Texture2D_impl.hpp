@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_Texture2D::*)(::UnityEngine::Texture2D*)>(
     &::HoudiniEngineUnity::Test_Texture2D::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23aaa34;
+  constexpr static std::size_t addrs = 0x24c9f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_Texture2D::*)()>(&::HoudiniEngineUnity::Test_Texture2D::IsNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23aaa5c;
+  constexpr static std::size_t addrs = 0x24c9fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Texture2D*>::get(), "IsNull",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_Texture2D::*)(::HoudiniEngineUnity::Test_Texture2D*)>(
     &::HoudiniEngineUnity::Test_Texture2D::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x23aaabc;
+  constexpr static std::size_t addrs = 0x24ca008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

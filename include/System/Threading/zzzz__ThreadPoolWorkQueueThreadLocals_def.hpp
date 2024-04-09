@@ -39,10 +39,10 @@ public:
   /// @brief Field workStealingQueue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_workStealingQueue, put = __cordl_internal_set_workStealingQueue))::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* workStealingQueue;
 
-  /// @brief Method CleanUp, addr 0x2770cc4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x28a12e4, size 0xcc, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Finalize, addr 0x2770d98, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x28a13b0, size 0xcc, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value);
 
-  /// @brief Method .ctor, addr 0x2770ba8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289f99c, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
   static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* getStaticF_threadLocals();

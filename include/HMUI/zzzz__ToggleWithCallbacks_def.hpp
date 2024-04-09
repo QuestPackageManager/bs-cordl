@@ -106,7 +106,7 @@ public:
   __declspec(property(get = __cordl_internal_get_stateDidChangeEvent,
                       put = __cordl_internal_set_stateDidChangeEvent))::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* stateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x230c7e8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x242bd34, size 0x4c, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::ToggleWithCallbacks* New_ctor();
@@ -117,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x230c834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242bd80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_stateDidChangeEvent, addr 0x2308904, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_stateDidChangeEvent, addr 0x2427e50, size 0xb4, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x2308ca4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x24281f0, size 0x54, virtual false, abstract: false, final false
   inline ::HMUI::__ToggleWithCallbacks__SelectionState get_selectionState();
 
-  /// @brief Method remove_stateDidChangeEvent, addr 0x2308be8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_stateDidChangeEvent, addr 0x2428134, size 0xb4, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
 protected:

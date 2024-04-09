@@ -56,40 +56,40 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*() noexcept;
 
-  /// @brief Method GetAttributes, addr 0x2a57f58, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x2e3aae4, size 0xd8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* GetAttributes();
 
-  /// @brief Method GetClassName, addr 0x2a58030, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetClassName, addr 0x2e3abbc, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW GetClassName();
 
-  /// @brief Method GetComponentName, addr 0x2a580e0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetComponentName, addr 0x2e3ac6c, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW GetComponentName();
 
-  /// @brief Method GetConverter, addr 0x2a58190, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x2e3ad1c, size 0xe0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* GetConverter();
 
-  /// @brief Method GetDefaultEvent, addr 0x2a58270, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultEvent, addr 0x2e3adfc, size 0xb0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* GetDefaultEvent();
 
-  /// @brief Method GetDefaultProperty, addr 0x2a58320, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultProperty, addr 0x2e3aeac, size 0xb0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* GetDefaultProperty();
 
-  /// @brief Method GetEditor, addr 0x2a583d0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetEditor, addr 0x2e3af5c, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* GetEditor(::System::Type* editorBaseType);
 
-  /// @brief Method GetEvents, addr 0x2a58488, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetEvents, addr 0x2e3b014, size 0xdc, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents();
 
-  /// @brief Method GetEvents, addr 0x2a58564, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetEvents, addr 0x2e3b0f0, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetProperties, addr 0x2a58648, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2e3b1d4, size 0xdc, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties();
 
-  /// @brief Method GetProperties, addr 0x2a58724, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2e3b2b0, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertyOwner, addr 0x2a58808, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertyOwner, addr 0x2e3b394, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
 
   static inline ::System::ComponentModel::CustomTypeDescriptor* New_ctor();
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::ICustomTypeDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x2a57f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e3aadc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"

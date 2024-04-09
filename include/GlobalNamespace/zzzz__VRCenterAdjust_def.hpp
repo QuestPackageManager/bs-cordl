@@ -30,6 +30,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRCenterAdjust : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _fileStorage, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
+
   /// @brief Field _mainSettingsModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
@@ -39,34 +42,38 @@ public:
   /// @brief Field _roomRotation, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__roomRotation, put = __cordl_internal_set__roomRotation))::UnityW<::GlobalNamespace::FloatSO> _roomRotation;
 
-  /// @brief Field _savedata, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__savedata, put = __cordl_internal_set__savedata))::GlobalNamespace::IFileStorage* _savedata;
-
-  /// @brief Method Awake, addr 0x2474cd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2599064, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleRoomCenterDidChange, addr 0x24750c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleRoomCenterDidChange, addr 0x2599474, size 0x70, virtual false, abstract: false, final false
   inline void HandleRoomCenterDidChange();
 
-  /// @brief Method HandleRoomRotationDidChange, addr 0x2475134, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleRoomRotationDidChange, addr 0x25994e4, size 0x7c, virtual false, abstract: false, final false
   inline void HandleRoomRotationDidChange();
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2474fbc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x259936c, size 0x108, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2474eb4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2599264, size 0x108, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetRoom, addr 0x2474e30, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x259958c, size 0x84, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method Start, addr 0x2474ce0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ResetRoomAndSave, addr 0x25991b8, size 0xac, virtual false, abstract: false, final false
+  inline void ResetRoomAndSave();
+
+  /// @brief Method Start, addr 0x2599070, size 0x148, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x24751b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2599560, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get__fileStorage() const;
 
   constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
@@ -80,9 +87,7 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__roomRotation();
 
-  constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__savedata();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get__savedata() const;
+  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
 
   constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
@@ -90,9 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__roomRotation(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr void __cordl_internal_set__savedata(::GlobalNamespace::IFileStorage* value);
-
-  /// @brief Method .ctor, addr 0x24751dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2599610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,8 +121,8 @@ public:
   /// @brief Field _mainSettingsModel, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
-  /// @brief Field _savedata, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::IFileStorage* ____savedata;
+  /// @brief Field _fileStorage, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::IFileStorage* ____fileStorage;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +135,7 @@ static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____roomRotation) == 0
 
 static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____mainSettingsModel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____savedata) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____fileStorage) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRCenterAdjust);

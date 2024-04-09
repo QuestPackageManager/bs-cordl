@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::TimelineHelpURLAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2da6ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318d390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:

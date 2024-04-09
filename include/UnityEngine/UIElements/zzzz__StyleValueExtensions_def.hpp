@@ -52,22 +52,22 @@ public:
   /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
-  /// @brief Method ToLength, addr 0x2fd830c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x33bd128, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToLength, addr 0x2fd8828, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x33bd644, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
-  /// @brief Method ToRotate, addr 0x2fd8424, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ToRotate, addr 0x33bd240, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToScale, addr 0x2fd85a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToScale, addr 0x33bd3bc, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToTranslate, addr 0x2fd86bc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ToTranslate, addr 0x33bd4d8, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToYogaValue, addr 0x2fd81c0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ToYogaValue, addr 0x33bcfdc, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue ToYogaValue(::UnityEngine::UIElements::Length length);
 
 protected:

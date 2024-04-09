@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::MonoLimitationAttribute* New_ctor(::StringW comment);
 
-  /// @brief Method .ctor, addr 0x272b440, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2859150, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
 protected:

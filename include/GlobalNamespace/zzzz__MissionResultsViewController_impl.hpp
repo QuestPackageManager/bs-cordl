@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::*)(int32_t)>(
     &::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x242ddb8;
+  constexpr static std::size_t addrs = 0x2550db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::*)()>(
     &::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x242de30;
+  constexpr static std::size_t addrs = 0x2550e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::*)()>(
     &::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::MoveNext)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x242de34;
+  constexpr static std::size_t addrs = 0x2550e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::*)()>(
     &::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242def0;
+  constexpr static std::size_t addrs = 0x2550eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::*)()>(
     &::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x242def8;
+  constexpr static std::size_t addrs = 0x2550ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::*)()>(
     &::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242df38;
+  constexpr static std::size_t addrs = 0x2550f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::*)()>(
     &::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242dde0;
+  constexpr static std::size_t addrs = 0x2550ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::*)(
     int32_t, ::GlobalNamespace::ResultObjectiveListItem*)>(&::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0::_SetDataToUI_b__0)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x242df40;
+  constexpr static std::size_t addrs = 0x2550f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x242d624;
+  constexpr static std::size_t addrs = 0x2550620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x242d6d8;
+  constexpr static std::size_t addrs = 0x25506d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x242d78c;
+  constexpr static std::size_t addrs = 0x2550788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(&::GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x242d840;
+  constexpr static std::size_t addrs = 0x255083c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(
     ::GlobalNamespace::MissionNode*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::MissionResultsViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242d8f4;
+  constexpr static std::size_t addrs = 0x25508f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionResultsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x242d8fc;
+  constexpr static std::size_t addrs = 0x25508f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(bool, bool)>(
     &::GlobalNamespace::MissionResultsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x242dd7c;
+  constexpr static std::size_t addrs = 0x2550d78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionResultsViewController::*)(float_t)>(
     &::GlobalNamespace::MissionResultsViewController::StartFireworksAfterDelay)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x242dd04;
+  constexpr static std::size_t addrs = 0x2550d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(
     &::GlobalNamespace::MissionResultsViewController::SetDataToUI)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x242da94;
+  constexpr static std::size_t addrs = 0x2550a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(
     &::GlobalNamespace::MissionResultsViewController::ContinueButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x242dde8;
+  constexpr static std::size_t addrs = 0x2550de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(
     &::GlobalNamespace::MissionResultsViewController::RetryButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x242de08;
+  constexpr static std::size_t addrs = 0x2550e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(),
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(
     &::GlobalNamespace::MissionResultsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242de28;
+  constexpr static std::size_t addrs = 0x2550e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionResultsViewController*>::get(), ".ctor",

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::*)(
     ::Org::BouncyCastle::Asn1::BerOctetStringGenerator*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x12527d4;
+  constexpr static std::size_t addrs = 0x132c358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::WriteByte)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x12528b8;
+  constexpr static std::size_t addrs = 0x132c43c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::Write)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x1252920;
+  constexpr static std::size_t addrs = 0x132c4a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::*)()>(
     &::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::Close)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1252a40;
+  constexpr static std::size_t addrs = 0x132c5c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetStringGenerator::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::BerOctetStringGenerator::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1252618;
+  constexpr static std::size_t addrs = 0x132c19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetStringGenerator::*)(::System::IO::Stream*, int32_t, bool)>(
     &::Org::BouncyCastle::Asn1::BerOctetStringGenerator::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x125264c;
+  constexpr static std::size_t addrs = 0x132c1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::BerOctetStringGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetStringGenerator::GetOctetOutputStream)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x12526a0;
+  constexpr static std::size_t addrs = 0x132c224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetStringGenerator*>::get(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::BerOctetStringGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::BerOctetStringGenerator::GetOctetOutputStream)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1252764;
+  constexpr static std::size_t addrs = 0x132c2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::BerOctetStringGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::BerOctetStringGenerator::GetOctetOutputStream)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x12526f4;
+  constexpr static std::size_t addrs = 0x132c278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -67,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x27ad334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2915f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Getter, addr 0x27ad314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Getter, addr 0x2915ef4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_Getter();
 
-  /// @brief Method get_MemberType, addr 0x27ad304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x2915ee4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_Setter, addr 0x27ad324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Setter, addr 0x2915f04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_Setter();
 
-  /// @brief Method set_Getter, addr 0x27ad31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Getter, addr 0x2915efc, size 0x8, virtual false, abstract: false, final false
   inline void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_MemberType, addr 0x27ad30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x2915eec, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
-  /// @brief Method set_Setter, addr 0x27ad32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Setter, addr 0x2915f0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
 protected:

@@ -3,7 +3,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextMeshProUGUI)
 namespace BGLib::Polyglot {
@@ -29,24 +28,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedTextMeshProUGUI : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshProUGUI>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0xeb5834, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0xf8e3b4, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0xeb580c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0xf8e38c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0xeb57b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0xf8e330, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshProUGUI* New_ctor();
 
-  /// @brief Method SetText, addr 0xeb567c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0xf8e1fc, size 0x2c, virtual true, abstract: false, final false
   inline void SetText(::TMPro::TextMeshProUGUI* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0xeb56a8, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0xf8e228, size 0x108, virtual true, abstract: false, final false
   inline void UpdateAlignment(::TMPro::TextMeshProUGUI* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0xeb585c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e3dc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

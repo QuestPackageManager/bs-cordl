@@ -2,11 +2,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_3_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 CORDL_MODULE_EXPORT(ReloadEvent)
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class ReloadEvent;
@@ -24,7 +30,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::ReloadEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23100dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2430628, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -2,9 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/zzzz__UxmlAttributeOverridesTraits_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlAttributeOverridesFactory)
 namespace UnityEngine::UIElements {
@@ -12,6 +10,9 @@ struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlAttributeOverridesTraits;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -34,18 +35,18 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method Create, addr 0x2f768f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x335b714, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlAttributeOverridesFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f76900, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335b71c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x2f76844, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x335b660, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x2f76884, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x335b6a0, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:

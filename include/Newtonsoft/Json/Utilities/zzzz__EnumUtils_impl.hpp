@@ -1,15 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__EnumUtils_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__CamelCaseNamingStrategy_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__EnumInfo_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__EnumUtils_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__EnumValue_1_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__StructMultiKey_2_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__EnumMemberAttribute_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__StringComparison_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::__EnumUtils____c._ctor
 template <>
@@ -17,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__EnumUtils____c::*)()>(
     &::Newtonsoft::Json::Utilities::__EnumUtils____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27b5428;
+  constexpr static std::size_t addrs = 0x290f808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), ".ctor",
@@ -25,48 +28,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__EnumUtils____c._InitializeEnumType_b__1_0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__EnumUtils____c._InitializeValuesAndNames_b__3_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::__EnumUtils____c::*)(
-    ::System::Runtime::Serialization::EnumMemberAttribute*)>(&::Newtonsoft::Json::Utilities::__EnumUtils____c::_InitializeEnumType_b__1_0)> {
+    ::System::Runtime::Serialization::EnumMemberAttribute*)>(&::Newtonsoft::Json::Utilities::__EnumUtils____c::_InitializeValuesAndNames_b__3_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27b5430;
+  constexpr static std::size_t addrs = 0x290f810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<InitializeEnumType>b__1_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<InitializeValuesAndNames>b__3_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::EnumMemberAttribute*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__EnumUtils____c._GetValues_b__5_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__EnumUtils____c::*)(::System::Reflection::FieldInfo*)>(
-    &::Newtonsoft::Json::Utilities::__EnumUtils____c::_GetValues_b__5_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27b5448;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<GetValues>b__5_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__EnumUtils____c._GetNames_b__6_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__EnumUtils____c::*)(::System::Reflection::FieldInfo*)>(
-    &::Newtonsoft::Json::Utilities::__EnumUtils____c::_GetNames_b__6_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27b5460;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<GetNames>b__6_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
     return ___internal_method;
   }
 };
@@ -79,31 +52,13 @@ inline ::Newtonsoft::Json::Utilities::__EnumUtils____c* Newtonsoft::Json::Utilit
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__EnumUtils____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get>();
 }
-inline void Newtonsoft::Json::Utilities::__EnumUtils____c::setStaticF___9__1_0(::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>*, "<>9__1_0",
+inline void Newtonsoft::Json::Utilities::__EnumUtils____c::setStaticF___9__3_0(::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>*, "<>9__3_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get>(
       std::forward<::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* Newtonsoft::Json::Utilities::__EnumUtils____c::getStaticF___9__1_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>*, "<>9__1_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get>();
-}
-inline void Newtonsoft::Json::Utilities::__EnumUtils____c::setStaticF___9__5_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::FieldInfo*, bool>*, "<>9__5_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get>(
-      std::forward<::System::Func_2<::System::Reflection::FieldInfo*, bool>*>(value));
-}
-inline ::System::Func_2<::System::Reflection::FieldInfo*, bool>* Newtonsoft::Json::Utilities::__EnumUtils____c::getStaticF___9__5_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::FieldInfo*, bool>*, "<>9__5_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get>();
-}
-inline void Newtonsoft::Json::Utilities::__EnumUtils____c::setStaticF___9__6_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::FieldInfo*, bool>*, "<>9__6_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get>(
-      std::forward<::System::Func_2<::System::Reflection::FieldInfo*, bool>*>(value));
-}
-inline ::System::Func_2<::System::Reflection::FieldInfo*, bool>* Newtonsoft::Json::Utilities::__EnumUtils____c::getStaticF___9__6_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::FieldInfo*, bool>*, "<>9__6_0",
+inline ::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* Newtonsoft::Json::Utilities::__EnumUtils____c::getStaticF___9__3_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>*, "<>9__3_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get>();
 }
 inline ::Newtonsoft::Json::Utilities::__EnumUtils____c* Newtonsoft::Json::Utilities::__EnumUtils____c::New_ctor() {
@@ -114,167 +69,234 @@ inline void Newtonsoft::Json::Utilities::__EnumUtils____c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW Newtonsoft::Json::Utilities::__EnumUtils____c::_InitializeEnumType_b__1_0(::System::Runtime::Serialization::EnumMemberAttribute* a) {
+inline ::StringW Newtonsoft::Json::Utilities::__EnumUtils____c::_InitializeValuesAndNames_b__3_0(::System::Runtime::Serialization::EnumMemberAttribute* a) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<InitializeEnumType>b__1_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<InitializeValuesAndNames>b__3_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::EnumMemberAttribute*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, a);
 }
-inline bool Newtonsoft::Json::Utilities::__EnumUtils____c::_GetValues_b__5_0(::System::Reflection::FieldInfo* f) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<GetValues>b__5_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, f);
-}
-inline bool Newtonsoft::Json::Utilities::__EnumUtils____c::_GetNames_b__6_0(::System::Reflection::FieldInfo* f) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), "<GetNames>b__6_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, f);
-}
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::__EnumUtils____c::__EnumUtils____c() {}
-template <typename T> inline void Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>(value));
+template <typename T> inline void Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>(value));
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>* Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>::get>();
+template <typename T> inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>* Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>::get>();
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::setStaticF___9__2_0(::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>*, "<>9__2_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>::get>(
-      std::forward<::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>*>(value));
+template <typename T> inline void Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::setStaticF___9__4_0(::System::Func_2<uint64_t, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<uint64_t, bool>*, "<>9__4_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>::get>(
+      std::forward<::System::Func_2<uint64_t, bool>*>(value));
 }
-template <typename T> inline ::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>* Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::getStaticF___9__2_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*, bool>*, "<>9__2_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>::get>();
+template <typename T> inline ::System::Func_2<uint64_t, bool>* Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::getStaticF___9__4_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<uint64_t, bool>*, "<>9__4_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>::get>();
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>* Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>());
+template <typename T> inline ::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>* Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>());
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>::get(),
+template <typename T> inline void Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline bool Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::_GetFlagsValues_b__2_0(::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>* v) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>*>::get(), "<GetFlagsValues>b__2_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*>::get() })));
+template <typename T> inline bool Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::_GetFlagsValues_b__4_0(uint64_t v) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>*>::get(), "<GetFlagsValues>b__4_0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, v);
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1<T>::__EnumUtils____c__2_1() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.InitializeEnumType
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::__EnumUtils____c__4_1<T>::__EnumUtils____c__4_1() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.InitializeValuesAndNames
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* (*)(::System::Type*)>(
-    &::Newtonsoft::Json::Utilities::EnumUtils::InitializeEnumType)> {
-  constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x27b42e0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>)>(
+        &::Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames)> {
+  constexpr static std::size_t size = 0x500;
+  constexpr static std::size_t addrs = 0x290e04c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "InitializeValuesAndNames", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.TryToString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Object*, bool, ByRef<::StringW>)>(
+    &::Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x290e87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "InitializeEnumType",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "TryToString", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 4>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.TryToString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Object*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ByRef<::StringW>)>(
+    &::Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x290e91c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "TryToString", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.InternalFlagsFormat
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::Utilities::EnumInfo*, uint64_t)>(
+    &::Newtonsoft::Json::Utilities::EnumUtils::InternalFlagsFormat)> {
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x290ea98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "InternalFlagsFormat", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::EnumInfo*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.GetEnumValuesAndNames
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::System::Type*)>(
+    &::Newtonsoft::Json::Utilities::EnumUtils::GetEnumValuesAndNames)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x290ec34;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetEnumValuesAndNames",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.GetValues
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.ToUInt64
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::System::Object*>* (*)(::System::Type*)>(
-    &::Newtonsoft::Json::Utilities::EnumUtils::GetValues)> {
-  constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x27a6da8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Object*)>(&::Newtonsoft::Json::Utilities::EnumUtils::ToUInt64)> {
+  constexpr static std::size_t size = 0x330;
+  constexpr static std::size_t addrs = 0x290e54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetValues", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ToUInt64", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.GetNames
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.ParseEnum
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::StringW>* (*)(::System::Type*)>(
-    &::Newtonsoft::Json::Utilities::EnumUtils::GetNames)> {
-  constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x27b4714;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetNames", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.ParseEnumName
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW, bool, ::System::Type*)>(&::Newtonsoft::Json::Utilities::EnumUtils::ParseEnumName)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x27b4c38;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ::StringW, bool)>(
+    &::Newtonsoft::Json::Utilities::EnumUtils::ParseEnum)> {
+  constexpr static std::size_t size = 0x7c0;
+  constexpr static std::size_t addrs = 0x290ecf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ParseEnumName", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ParseEnum", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.ToEnumName
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.MatchName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::StringW, bool)>(&::Newtonsoft::Json::Utilities::EnumUtils::ToEnumName)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x27b4f18;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Nullable_1<int32_t> (*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t, int32_t, ::System::StringComparison)>(
+        &::Newtonsoft::Json::Utilities::EnumUtils::MatchName)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x290f5a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "MatchName", std::span<Il2CppClass const* const, 0>(),
+            ::std::array<Il2CppType const*, 6>{
+                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
+                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::StringComparison>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.FindIndexByName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (*)(
+    ::ArrayW<::StringW, ::Array<::StringW>*>, ::StringW, int32_t, int32_t, ::System::StringComparison)>(&::Newtonsoft::Json::Utilities::EnumUtils::FindIndexByName)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x290f4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ToEnumName", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "FindIndexByName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::StringComparison>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.ResolvedEnumName
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*, ::StringW)>(
-    &::Newtonsoft::Json::Utilities::EnumUtils::ResolvedEnumName)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x27b4ea0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ResolvedEnumName", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-inline void Newtonsoft::Json::Utilities::EnumUtils::setStaticF_EnumMemberNamesPerType(
-    ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>*,
-                                    "EnumMemberNamesPerType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>*>(value));
+inline void Newtonsoft::Json::Utilities::EnumUtils::setStaticF_ValuesAndNamesPerEnum(
+    ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
+                                                     ::Newtonsoft::Json::Utilities::EnumInfo*>* value) {
+  ::cordl_internals::setStaticField<
+      ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
+                                                       ::Newtonsoft::Json::Utilities::EnumInfo*>*,
+      "ValuesAndNamesPerEnum", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
+                                                                    ::Newtonsoft::Json::Utilities::EnumInfo*>*>(value));
 }
-inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>*
-Newtonsoft::Json::Utilities::EnumUtils::getStaticF_EnumMemberNamesPerType() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>*,
-                                           "EnumMemberNamesPerType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get>();
+inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
+                                                        ::Newtonsoft::Json::Utilities::EnumInfo*>*
+Newtonsoft::Json::Utilities::EnumUtils::getStaticF_ValuesAndNamesPerEnum() {
+  return ::cordl_internals::getStaticField<
+      ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
+                                                       ::Newtonsoft::Json::Utilities::EnumInfo*>*,
+      "ValuesAndNamesPerEnum", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get>();
 }
-inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* Newtonsoft::Json::Utilities::EnumUtils::InitializeEnumType(::System::Type* type) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "InitializeEnumType",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*, false>(nullptr, ___internal_method, type);
+inline void Newtonsoft::Json::Utilities::EnumUtils::setStaticF__camelCaseNamingStrategy(::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy*, "_camelCaseNamingStrategy",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get>(
+      std::forward<::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy*>(value));
+}
+inline ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* Newtonsoft::Json::Utilities::EnumUtils::getStaticF__camelCaseNamingStrategy() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy*, "_camelCaseNamingStrategy",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get>();
+}
+inline ::Newtonsoft::Json::Utilities::EnumInfo*
+Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "InitializeValuesAndNames", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::EnumInfo*, false>(nullptr, ___internal_method, key);
 }
 template <typename T> inline ::System::Collections::Generic::IList_1<T>* Newtonsoft::Json::Utilities::EnumUtils::GetFlagsValues(T value) {
   static auto* ___internal_method_base =
@@ -285,56 +307,73 @@ template <typename T> inline ::System::Collections::Generic::IList_1<T>* Newtons
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<T>*, false>(nullptr, ___internal_method, value);
 }
-template <typename T> inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*>* Newtonsoft::Json::Utilities::EnumUtils::GetNamesAndValues() {
-  static auto* ___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetNamesAndValues",
-                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }, ::std::span<Il2CppType const* const, 0>())));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>*>*, false>(nullptr, ___internal_method);
-}
-template <typename TUnderlyingType>
-inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<TUnderlyingType>*>* Newtonsoft::Json::Utilities::EnumUtils::GetNamesAndValues(::System::Type* enumType) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetNamesAndValues",
-                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUnderlyingType>::get() },
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUnderlyingType>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<TUnderlyingType>*>*, false>(nullptr, ___internal_method, enumType);
-}
-inline ::System::Collections::Generic::IList_1<::System::Object*>* Newtonsoft::Json::Utilities::EnumUtils::GetValues(::System::Type* enumType) {
+inline bool Newtonsoft::Json::Utilities::EnumUtils::TryToString(::System::Type* enumType, ::System::Object* value, bool camelCase, ByRef<::StringW> name) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetValues", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::System::Object*>*, false>(nullptr, ___internal_method, enumType);
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "TryToString", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 4>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, enumType, value, camelCase, name);
 }
-inline ::System::Collections::Generic::IList_1<::StringW>* Newtonsoft::Json::Utilities::EnumUtils::GetNames(::System::Type* enumType) {
+inline bool Newtonsoft::Json::Utilities::EnumUtils::TryToString(::System::Type* enumType, ::System::Object* value, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy,
+                                                                ByRef<::StringW> name) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetNames", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::StringW>*, false>(nullptr, ___internal_method, enumType);
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "TryToString", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, enumType, value, namingStrategy, name);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::EnumUtils::ParseEnumName(::StringW enumText, bool isNullable, ::System::Type* t) {
+inline ::StringW Newtonsoft::Json::Utilities::EnumUtils::InternalFlagsFormat(::Newtonsoft::Json::Utilities::EnumInfo* entry, uint64_t result) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ParseEnumName", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, enumText, isNullable, t);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "InternalFlagsFormat", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::EnumInfo*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, entry, result);
 }
-inline ::StringW Newtonsoft::Json::Utilities::EnumUtils::ToEnumName(::System::Type* enumType, ::StringW enumText, bool camelCaseText) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ToEnumName", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, enumType, enumText, camelCaseText);
+inline ::Newtonsoft::Json::Utilities::EnumInfo* Newtonsoft::Json::Utilities::EnumUtils::GetEnumValuesAndNames(::System::Type* enumType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "GetEnumValuesAndNames",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::EnumInfo*, false>(nullptr, ___internal_method, enumType);
 }
-inline ::StringW Newtonsoft::Json::Utilities::EnumUtils::ResolvedEnumName(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* map, ::StringW enumText) {
+inline uint64_t Newtonsoft::Json::Utilities::EnumUtils::ToUInt64(::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ToUInt64", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, value);
+}
+inline ::System::Object* Newtonsoft::Json::Utilities::EnumUtils::ParseEnum(::System::Type* enumType, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value,
+                                                                           bool disallowNumber) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ResolvedEnumName", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, map, enumText);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "ParseEnum", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, enumType, namingStrategy, value, disallowNumber);
+}
+inline ::System::Nullable_1<int32_t> Newtonsoft::Json::Utilities::EnumUtils::MatchName(::StringW value, ::ArrayW<::StringW, ::Array<::StringW>*> enumNames,
+                                                                                       ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames, int32_t valueIndex, int32_t valueSubstringLength,
+                                                                                       ::System::StringComparison comparison) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "MatchName", std::span<Il2CppClass const* const, 0>(),
+          ::std::array<Il2CppType const*, 6>{
+              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
+              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::StringComparison>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<int32_t>, false>(nullptr, ___internal_method, value, enumNames, resolvedNames, valueIndex, valueSubstringLength, comparison);
+}
+inline ::System::Nullable_1<int32_t> Newtonsoft::Json::Utilities::EnumUtils::FindIndexByName(::ArrayW<::StringW, ::Array<::StringW>*> enumNames, ::StringW value, int32_t valueIndex,
+                                                                                             int32_t valueSubstringLength, ::System::StringComparison comparison) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::EnumUtils*>::get(), "FindIndexByName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::StringComparison>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<int32_t>, false>(nullptr, ___internal_method, enumNames, value, valueIndex, valueSubstringLength, comparison);
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::EnumUtils::EnumUtils() {}

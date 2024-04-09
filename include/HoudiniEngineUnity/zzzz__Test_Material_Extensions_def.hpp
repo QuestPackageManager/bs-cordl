@@ -49,13 +49,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x23a7f7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x24c74c8, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__1_0(::UnityEngine::Material* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x23a7fe0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x24c752c, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__2_0(::UnityEngine::Material* lod);
 
-  /// @brief Method .ctor, addr 0x23a7f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c74c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* getStaticF___9();
@@ -100,14 +100,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Material_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x23a7cec, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x24c7238, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Material*, ::Array<::HoudiniEngineUnity::Test_Material*>*>
   ToTestObject(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x23a7c88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x24c71d4, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Material* ToTestObject(::UnityEngine::Material* self);
 
-  /// @brief Method ToTestObject, addr 0x23a7e14, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x24c7360, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Material*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* self);
 
 protected:

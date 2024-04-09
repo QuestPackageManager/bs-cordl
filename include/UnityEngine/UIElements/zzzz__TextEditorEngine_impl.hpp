@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::*)(::System::Object*, void*)>(
     &::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2f9a76c;
+  constexpr static std::size_t addrs = 0x3380588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::*)()>(
     &::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2f9a828;
+  constexpr static std::size_t addrs = 0x3380644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::*)(::System::Object*, void*)>(
     &::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2f9a83c;
+  constexpr static std::size_t addrs = 0x3380658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::*)()>(
     &::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2f9a8f8;
+  constexpr static std::size_t addrs = 0x3380714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*, ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*)>(
     &::UnityEngine::UIElements::TextEditorEngine::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2f9a64c;
+  constexpr static std::size_t addrs = 0x3380468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::get_localPosition)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2f9a678;
+  constexpr static std::size_t addrs = 0x3380494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::OnDetectFocusChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2f9a700;
+  constexpr static std::size_t addrs = 0x338051c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::OnCursorIndexChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2f9a724;
+  constexpr static std::size_t addrs = 0x3380540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::OnSelectIndexChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2f9a748;
+  constexpr static std::size_t addrs = 0x3380564;
 
   inline static ::MethodInfo const* methodInfo() {
 

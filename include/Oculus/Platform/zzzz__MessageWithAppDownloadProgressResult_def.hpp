@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithAppDownloadProgressResult)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAppDownloadProgressResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AppDownloadProgressResult*> {
 public:
   // Declarations
-  /// @brief Method GetAppDownloadProgressResult, addr 0x2844e34, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAppDownloadProgressResult, addr 0x29c7418, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadProgressResult* GetAppDownloadProgressResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x2844e70, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c7454, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadProgressResult* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAppDownloadProgressResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2842d24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c5308, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

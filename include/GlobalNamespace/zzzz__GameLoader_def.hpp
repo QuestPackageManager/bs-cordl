@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x23dde6c, size 0x33c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2500464, size 0x33c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x23de1a8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x25007a0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -126,12 +126,12 @@ public:
       get = __cordl_internal_get__handle,
       put = __cordl_internal_set__handle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _handle;
 
-  /// @brief Method HandleSceneContextPostInstall, addr 0x23ddd38, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneContextPostInstall, addr 0x2500330, size 0x12c, virtual false, abstract: false, final false
   inline void HandleSceneContextPostInstall();
 
   static inline ::GlobalNamespace::GameLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x23ddca0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2500298, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__context() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__handle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
 
-  /// @brief Method .ctor, addr 0x23dde64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250045c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

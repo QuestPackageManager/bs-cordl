@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::LevelGameplaySetupData::*)()>(
     &::GlobalNamespace::LevelGameplaySetupData::get_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x13032a8;
+  constexpr static std::size_t addrs = 0x13dccf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::LevelGameplaySetupData::*)()>(
     &::GlobalNamespace::LevelGameplaySetupData::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13032bc;
+  constexpr static std::size_t addrs = 0x13dcd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13032c4;
+  constexpr static std::size_t addrs = 0x13dcd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), ".ctor",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x130332c;
+  constexpr static std::size_t addrs = 0x13dcd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(
     &::GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13033dc;
+  constexpr static std::size_t addrs = 0x13dce28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1303444;
+  constexpr static std::size_t addrs = 0x13dce90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1303458;
+  constexpr static std::size_t addrs = 0x13dcea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

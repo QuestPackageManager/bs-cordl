@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__StateMachineType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x262ecd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2755edc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
-  /// @brief Method get_StateMachineType, addr 0x262fa68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateMachineType, addr 0x2756c78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_StateMachineType();
 
 protected:

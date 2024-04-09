@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Net::Http::HttpRequestException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x297fd64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6a390, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x297efbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c695e8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x297c96c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c66f98, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

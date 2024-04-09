@@ -36,29 +36,29 @@ namespace Org::BouncyCastle::Pkcs {
 class CORDL_TYPE EncryptedPrivateKeyInfoFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x116c5fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x1246180, size 0x54, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm,
                                                                                                         ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                                         int32_t iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x116b804, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x1245388, size 0x4c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount,
                                                                                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x116c650, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x12461d4, size 0x2a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount,
                                                                                                         ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x116c8f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x1246478, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* cipherAlgorithm,
                                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* prfAlgorithm,
                                                                                                         ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                                         int32_t iterationCount, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x116c958, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x12464dc, size 0x2f4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* cipherAlgorithm,
                                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* prfAlgorithm,
                                                                                                         ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x116c5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1246178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

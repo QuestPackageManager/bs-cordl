@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__RejoinDialogResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithRejoinDialogResult)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithRejoinDialogResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::RejoinDialogResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2847b10, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29ca0f4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::RejoinDialogResult* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetRejoinDialogResult, addr 0x2847ad4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetRejoinDialogResult, addr 0x29ca0b8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::RejoinDialogResult* GetRejoinDialogResult();
 
   static inline ::Oculus::Platform::MessageWithRejoinDialogResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2843a8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6070, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

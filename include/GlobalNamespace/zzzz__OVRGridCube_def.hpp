@@ -61,21 +61,21 @@ public:
   /// @brief Field gridSizeZ, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeZ, put = __cordl_internal_set_gridSizeZ)) int32_t gridSizeZ;
 
-  /// @brief Method CreateCubeGrid, addr 0x2901738, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeGrid, addr 0x2a83d1c, size 0x3a8, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor, addr 0x2901ae0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CubeGridSwitchColor, addr 0x2a840c4, size 0x188, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method SetOVRCameraController, addr 0x290172c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOVRCameraController, addr 0x2a83d10, size 0xc, virtual false, abstract: false, final false
   inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method Update, addr 0x2901510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a83af4, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCubeGrid, addr 0x2901514, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method UpdateCubeGrid, addr 0x2a83af8, size 0x218, virtual false, abstract: false, final false
   inline void UpdateCubeGrid();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2901c68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8424c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

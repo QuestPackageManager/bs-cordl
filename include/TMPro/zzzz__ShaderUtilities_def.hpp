@@ -235,22 +235,22 @@ public:
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetFontExtent, addr 0x2d872a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFontExtent, addr 0x316c754, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetFontExtent(::UnityEngine::Material* material);
 
-  /// @brief Method GetPadding, addr 0x2d87484, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x316c934, size 0x6a8, virtual false, abstract: false, final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetPadding, addr 0x2d87b2c, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x316cfdc, size 0x880, virtual false, abstract: false, final false
   static inline float_t GetPadding(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x2d80348, size 0xaec, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x31657f8, size 0xaec, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method IsMaskingEnabled, addr 0x2d872e8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method IsMaskingEnabled, addr 0x316c798, size 0x19c, virtual false, abstract: false, final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method UpdateShaderRatios, addr 0x2d86e48, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderRatios, addr 0x316c2f8, size 0x45c, virtual false, abstract: false, final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -389,10 +389,10 @@ public:
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x2d86bbc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x316c06c, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x2d86ac0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x316bf70, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);

@@ -35,7 +35,7 @@ public:
   /// @brief Nested struct ____TimeSlider__TimeType_Unwrapped
   enum struct ____TimeSlider__TimeType_Unwrapped : int32_t {
     __E_Default = static_cast<int32_t>(0x0),
-    __E_Miliseconds = static_cast<int32_t>(0x1),
+    __E_Milliseconds = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -61,8 +61,8 @@ public:
   /// @brief Field Default value: static_cast<int32_t>(0x0)
   static ::HMUI::__TimeSlider__TimeType const Default;
 
-  /// @brief Field Miliseconds value: static_cast<int32_t>(0x1)
-  static ::HMUI::__TimeSlider__TimeType const Miliseconds;
+  /// @brief Field Milliseconds value: static_cast<int32_t>(0x1)
+  static ::HMUI::__TimeSlider__TimeType const Milliseconds;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -90,7 +90,7 @@ public:
 
   static inline ::HMUI::TimeSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x22e6ea0, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x24062e8, size 0x308, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr ::HMUI::__TimeSlider__TimeType const& __cordl_internal_get__timeType() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__timeType(::HMUI::__TimeSlider__TimeType value);
 
-  /// @brief Method .ctor, addr 0x22e70f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24065f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

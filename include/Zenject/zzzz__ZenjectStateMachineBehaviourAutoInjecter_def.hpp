@@ -37,12 +37,12 @@ public:
   /// @brief Field _container, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
-  /// @brief Method Construct, addr 0x3088018, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x346cea4, size 0x64, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* container);
 
   static inline ::Zenject::ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
 
-  /// @brief Method Start, addr 0x308807c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x346cf08, size 0xe8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3088254, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346d0e0, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x308816c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x346cff8, size 0xe8, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x3088164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346cff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

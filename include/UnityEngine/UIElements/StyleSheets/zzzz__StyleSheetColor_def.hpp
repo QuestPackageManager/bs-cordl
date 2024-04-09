@@ -33,10 +33,10 @@ public:
   /// @brief Field s_NameToColor, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_NameToColor, put = setStaticF_s_NameToColor))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* s_NameToColor;
 
-  /// @brief Method HexToColor32, addr 0x2f52798, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HexToColor32, addr 0x33385b4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
 
-  /// @brief Method TryGetColor, addr 0x2f4f890, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryGetColor, addr 0x33356ac, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryGetColor(::StringW name, ByRef<::UnityEngine::Color> color);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* getStaticF_s_NameToColor();

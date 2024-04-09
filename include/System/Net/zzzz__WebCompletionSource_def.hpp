@@ -3,8 +3,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/zzzz__WebCompletionSource_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WebCompletionSource)
+namespace System {
+class Object;
+}
 // Forward declare root types
 namespace System::Net {
 class WebCompletionSource;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::System::Net::WebCompletionSource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b28e98, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f0d348, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

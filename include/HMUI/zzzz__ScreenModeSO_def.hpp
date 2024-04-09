@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__data(::HMUI::ScreenModeData* value);
 
-  /// @brief Method .ctor, addr 0x22ee390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240d8a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x22ee388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x240d898, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ScreenModeData* get_data();
 
 protected:

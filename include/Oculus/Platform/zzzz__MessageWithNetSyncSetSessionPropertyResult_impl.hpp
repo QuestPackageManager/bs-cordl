@@ -1,5 +1,4 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__NetSyncSetSessionPropertyResult_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithNetSyncSetSessionPropertyResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSetSessionPropertyResult_def.hpp"
@@ -9,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::*)(void*)>(
     &::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x284702c;
+  constexpr static std::size_t addrs = 0x29c9610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (
     ::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::*)()>(&::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::GetNetSyncSetSessionPropertyResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2847084;
+  constexpr static std::size_t addrs = 0x29c9668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (
     ::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::*)(void*)>(&::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x28470c0;
+  constexpr static std::size_t addrs = 0x29c96a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

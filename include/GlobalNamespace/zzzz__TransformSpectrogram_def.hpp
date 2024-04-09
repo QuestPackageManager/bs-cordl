@@ -59,12 +59,12 @@ public:
   __declspec(property(get = __cordl_internal_get__transforms,
                       put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
 
-  /// @brief Method Awake, addr 0x24ad090, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x25d1578, size 0x188, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x24ad218, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x25d1700, size 0x268, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x24ad480, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d1968, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

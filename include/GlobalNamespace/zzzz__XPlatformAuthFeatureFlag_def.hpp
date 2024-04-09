@@ -31,13 +31,13 @@ public:
 
   constexpr void __cordl_internal_set__UseXPlatformAuth_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0xeef448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc8fcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseXPlatformAuth, addr 0xeef434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseXPlatformAuth, addr 0xfc8fb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseXPlatformAuth();
 
-  /// @brief Method set_UseXPlatformAuth, addr 0xeef43c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseXPlatformAuth, addr 0xfc8fc0, size 0xc, virtual false, abstract: false, final false
   inline void set_UseXPlatformAuth(bool value);
 
 protected:

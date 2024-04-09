@@ -45,7 +45,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DefaultDragAndDropClient* New_ctor();
 
-  /// @brief Method StartDrag, addr 0x2f75638, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method StartDrag, addr 0x335a454, size 0x8, virtual true, abstract: false, final true
   inline void StartDrag(::UnityEngine::UIElements::StartDragArgs* args);
 
   constexpr ::UnityEngine::UIElements::StartDragArgs*& __cordl_internal_get_m_StartDragArgs();
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_m_StartDragArgs(::UnityEngine::UIElements::StartDragArgs* value);
 
-  /// @brief Method .ctor, addr 0x2f75618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335a434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x2f73970, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_data, addr 0x335878c, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IDragAndDropData* get_data();
 
-  /// @brief Method get_userData, addr 0x2f75620, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_userData, addr 0x335a43c, size 0x18, virtual true, abstract: false, final true
   inline ::System::Object* get_userData();
 
   /// @brief Convert to "::UnityEngine::UIElements::IDragAndDrop"

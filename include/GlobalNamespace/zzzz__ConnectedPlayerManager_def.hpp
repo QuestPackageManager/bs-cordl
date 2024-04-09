@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerStateHash_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
@@ -311,39 +310,39 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
 
-  /// @brief Method CreateDirectlyConnectedPlayer, addr 0xec07d8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CreateDirectlyConnectedPlayer, addr 0xf9935c, size 0x1e0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* CreateDirectlyConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager* manager, uint8_t connectionId,
                                                                                                             ::GlobalNamespace::IConnection* connection);
 
-  /// @brief Method CreateLocalPlayer, addr 0xec06b0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateLocalPlayer, addr 0xf99234, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* CreateLocalPlayer(::GlobalNamespace::ConnectedPlayerManager* manager, ::StringW userId, ::StringW userName,
                                                                                                 bool isConnectionOwner, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicEncryptionKey,
                                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> random);
 
-  /// @brief Method CreateRemoteConnectedPlayer, addr 0xec14bc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateRemoteConnectedPlayer, addr 0xf9a040, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* CreateRemoteConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager* manager, uint8_t connectionId,
                                                                                                           ::GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket* packet,
                                                                                                           ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* parent);
 
-  /// @brief Method Disconnect, addr 0xebc304, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0xf94e88, size 0x148, virtual false, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method GetPlayerAvatarPacket, addr 0xec04a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerAvatarPacket, addr 0xf9902c, size 0x80, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket* GetPlayerAvatarPacket();
 
-  /// @brief Method GetPlayerConnectedPacket, addr 0xebca30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerConnectedPacket, addr 0xf955b4, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket* GetPlayerConnectedPacket();
 
-  /// @brief Method GetPlayerIdentityPacket, addr 0xebccec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerIdentityPacket, addr 0xf95870, size 0x90, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket* GetPlayerIdentityPacket();
 
-  /// @brief Method GetPlayerSortOrderPacket, addr 0xebcc84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerSortOrderPacket, addr 0xf95808, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket* GetPlayerSortOrderPacket();
 
-  /// @brief Method GetPlayerStatePacket, addr 0xec03b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerStatePacket, addr 0xf98f38, size 0x60, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket* GetPlayerStatePacket();
 
-  /// @brief Method HasState, addr 0xec2708, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method HasState, addr 0xf9b28c, size 0xc, virtual true, abstract: false, final true
   inline bool HasState(::StringW state);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* New_ctor(::GlobalNamespace::ConnectedPlayerManager* manager, uint8_t connectionId, uint8_t remoteConnectionId,
@@ -351,31 +350,31 @@ public:
                                                                                        ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe,
                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> publicEncryptionKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> random);
 
-  /// @brief Method SetEncryptionState, addr 0xec2700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEncryptionState, addr 0xf9b284, size 0x8, virtual false, abstract: false, final false
   inline void SetEncryptionState(::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState);
 
-  /// @brief Method SetKicked, addr 0xec02c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKicked, addr 0xf98e4c, size 0xc, virtual false, abstract: false, final false
   inline void SetKicked();
 
-  /// @brief Method SetPlayerState, addr 0xec2714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerState, addr 0xf9b298, size 0x8, virtual false, abstract: false, final false
   inline void SetPlayerState(::GlobalNamespace::PlayerStateHash playerState);
 
-  /// @brief Method ToString, addr 0xec271c, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0xf9b2a0, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateAvatar, addr 0xec19bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatar, addr 0xf9a540, size 0x24, virtual false, abstract: false, final false
   inline void UpdateAvatar(::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket* packet);
 
-  /// @brief Method UpdateIdentity, addr 0xec1714, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateIdentity, addr 0xf9a298, size 0x64, virtual false, abstract: false, final false
   inline void UpdateIdentity(::GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket* packet);
 
-  /// @brief Method UpdateLatency, addr 0xec2344, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateLatency, addr 0xf9aec8, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateLatency(int64_t latency);
 
-  /// @brief Method UpdateSortIndex, addr 0xec0610, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateSortIndex, addr 0xf99194, size 0x20, virtual false, abstract: false, final false
   inline bool UpdateSortIndex(int32_t index);
 
-  /// @brief Method UpdateState, addr 0xec18d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateState, addr 0xf9a45c, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateState(::GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket* packet);
 
   constexpr ::GlobalNamespace::IConnection*& __cordl_internal_get__connection();
@@ -492,72 +491,72 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0xec256c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b0f0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectedPlayerManager* manager, uint8_t connectionId, uint8_t remoteConnectionId, ::GlobalNamespace::IConnection* connection,
                     ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* parent, ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> publicEncryptionKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> random);
 
-  /// @brief Method get_connection, addr 0xec23ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_connection, addr 0xf9af70, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnection* get_connection();
 
-  /// @brief Method get_connectionId, addr 0xec23f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_connectionId, addr 0xf9af78, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_connectionId();
 
-  /// @brief Method get_currentLatency, addr 0xec2474, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_currentLatency, addr 0xf9aff8, size 0x6c, virtual true, abstract: false, final true
   inline int64_t get_currentLatency();
 
-  /// @brief Method get_disconnectedReason, addr 0xec241c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_disconnectedReason, addr 0xf9afa0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
 
-  /// @brief Method get_encryptionState, addr 0xec2564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_encryptionState, addr 0xf9b0e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EncryptionUtility__IEncryptionState* get_encryptionState();
 
-  /// @brief Method get_hasValidLatency, addr 0xec2444, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_hasValidLatency, addr 0xf9afc8, size 0x30, virtual true, abstract: false, final true
   inline bool get_hasValidLatency();
 
-  /// @brief Method get_isConnected, addr 0xec2404, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0xf9af88, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnectionOwner, addr 0xec240c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0xf9af90, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDirectConnection, addr 0xebcb94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isDirectConnection, addr 0xf95718, size 0x10, virtual false, abstract: false, final false
   inline bool get_isDirectConnection();
 
-  /// @brief Method get_isKicked, addr 0xec2414, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isKicked, addr 0xf9af98, size 0x8, virtual true, abstract: false, final true
   inline bool get_isKicked();
 
-  /// @brief Method get_isMe, addr 0xec243c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMe, addr 0xf9afc0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMe();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0xec252c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerAvatarsData, addr 0xf9b0b0, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
-  /// @brief Method get_offsetSyncTime, addr 0xec24e0, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0xf9b064, size 0x4c, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_publicEncryptionKey, addr 0xec2554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_publicEncryptionKey, addr 0xf9b0d8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicEncryptionKey();
 
-  /// @brief Method get_random, addr 0xec255c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_random, addr 0xf9b0e0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_random();
 
-  /// @brief Method get_remoteConnectionId, addr 0xec23fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_remoteConnectionId, addr 0xf9af80, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_remoteConnectionId();
 
-  /// @brief Method get_sortIndex, addr 0xec2424, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_sortIndex, addr 0xf9afa8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_sortIndex();
 
-  /// @brief Method get_userId, addr 0xec242c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0xf9afb0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0xec2434, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0xf9afb8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
   constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
-  /// @brief Method set_multiplayerAvatarsData, addr 0xec2540, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_multiplayerAvatarsData, addr 0xf9b0c4, size 0x14, virtual false, abstract: false, final false
   inline void set_multiplayerAvatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
 protected:
@@ -854,18 +853,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec28f8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b47c, size 0x68, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec266c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf9b1f0, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket* Init(uint8_t connectionId, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec158c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9a110, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2898, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b41c, size 0x60, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get_isConnectionOwner() const;
@@ -892,10 +891,10 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0xec2960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b4e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf2cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf97e50, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -970,19 +969,19 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec29c0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b544, size 0x80, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec2680, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf9b204, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket* Init(::GlobalNamespace::PlayerStateHash states, ::GlobalNamespace::MultiplayerAvatarsData avatar,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> random, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicEncryptionKey);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec2a40, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9b5c4, size 0x6c, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2968, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b4ec, size 0x58, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get_playerAvatar() const;
@@ -1009,10 +1008,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::GlobalNamespace::ByteArrayNetSerializable* value);
 
-  /// @brief Method .ctor, addr 0xec2aac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b630, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf30c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf97e90, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1078,18 +1077,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2ba4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b728, size 0x40, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec26e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf9b264, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket* Init(::GlobalNamespace::MultiplayerAvatarsData avatar);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec2be4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9b768, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2b98, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b71c, size 0xc, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get_playerAvatar() const;
@@ -1098,10 +1097,10 @@ public:
 
   constexpr void __cordl_internal_set_playerAvatar(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0xec2c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b7bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf44c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf97fd0, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1152,18 +1151,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2c4c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b7d0, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec26d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf9b25c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket* Init(::GlobalNamespace::PlayerStateHash states);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec2c6c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9b7f0, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2c40, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b7c4, size 0xc, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::PlayerStateHash const& __cordl_internal_get_playerState() const;
@@ -1172,10 +1171,10 @@ public:
 
   constexpr void __cordl_internal_set_playerState(::GlobalNamespace::PlayerStateHash value);
 
-  /// @brief Method .ctor, addr 0xec2cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b844, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf48c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf98010, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1229,18 +1228,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2d08, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b88c, size 0x44, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec26f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf9b278, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket* Init(::StringW userId, int32_t sortIndex);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec1d3c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9a8c0, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2cc8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b84c, size 0x40, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int32_t const& __cordl_internal_get_sortIndex() const;
@@ -1255,10 +1254,10 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0xec2d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b8d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf38c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf97f10, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1314,18 +1313,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2d68, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b8ec, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec0ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf99654, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket* Init(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec1a88, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9a60c, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2d54, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b8d8, size 0x14, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::DisconnectedReason const& __cordl_internal_get_disconnectedReason() const;
@@ -1334,10 +1333,10 @@ public:
 
   constexpr void __cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason value);
 
-  /// @brief Method .ctor, addr 0xec2d88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b90c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf34c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf97ed0, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1388,18 +1387,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2dac, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b930, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec02c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf98e44, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket* Init(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec1bbc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9a740, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2d98, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b91c, size 0x14, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::DisconnectedReason const& __cordl_internal_get_disconnectedReason() const;
@@ -1408,10 +1407,10 @@ public:
 
   constexpr void __cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason value);
 
-  /// @brief Method .ctor, addr 0xec2dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf40c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf97f90, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1462,18 +1461,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2de8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b96c, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec2174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf9acf8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket* Init(int64_t syncTime);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec1ed0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9aa54, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2dd4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b958, size 0x14, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int64_t const& __cordl_internal_get_syncTime() const;
@@ -1482,10 +1481,10 @@ public:
 
   constexpr void __cordl_internal_set_syncTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0xec2e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b98c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf3cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf97f50, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1536,18 +1535,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2e24, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b9a8, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xebc944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf954c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PingPacket* Init(int64_t pingTime);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PingPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec2118, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9ac9c, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2e10, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b994, size 0x14, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int64_t const& __cordl_internal_get_pingTime() const;
@@ -1556,10 +1555,10 @@ public:
 
   constexpr void __cordl_internal_set_pingTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0xec2e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9b9c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebc838, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf953bc, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PingPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1610,18 +1609,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xec2e60, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xf9b9e4, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xec216c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf9acf0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__PongPacket* Init(int64_t pingTime);
 
   static inline ::GlobalNamespace::__ConnectedPlayerManager__PongPacket* New_ctor();
 
-  /// @brief Method Release, addr 0xec22f0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xf9ae74, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xec2e4c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xf9b9d0, size 0x14, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int64_t const& __cordl_internal_get_pingTime() const;
@@ -1630,10 +1629,10 @@ public:
 
   constexpr void __cordl_internal_set_pingTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0xec2e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9ba04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xebf4cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xf98050, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PongPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -1678,10 +1677,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xec2e88, size 0x4e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xf9ba0c, size 0x4e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xec34dc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xf9c060, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1907,97 +1906,97 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddPlayer, addr 0xebc59c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method AddPlayer, addr 0xf95120, size 0x29c, virtual false, abstract: false, final false
   inline void AddPlayer(::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* player);
 
-  /// @brief Method Disconnect, addr 0xebc4f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0xf95074, size 0xac, virtual false, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method Dispose, addr 0xebfc70, size 0x584, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xf987f4, size 0x584, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FlushReliableQueue, addr 0xebf9bc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FlushReliableQueue, addr 0xf98540, size 0xdc, virtual false, abstract: false, final false
   inline void FlushReliableQueue();
 
-  /// @brief Method FlushUnreliableQueue, addr 0xebfa98, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FlushUnreliableQueue, addr 0xf9861c, size 0xdc, virtual false, abstract: false, final false
   inline void FlushUnreliableQueue();
 
-  /// @brief Method GetConnectedPlayer, addr 0xebd01c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedPlayer, addr 0xf95ba0, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* GetConnectedPlayer(int32_t index);
 
   /// @brief Method GetConnectionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetConnectionManager();
 
-  /// @brief Method GetNextConnectionId, addr 0xebc0b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetNextConnectionId, addr 0xf94c34, size 0x40, virtual false, abstract: false, final false
   inline uint8_t GetNextConnectionId();
 
-  /// @brief Method GetPlayer, addr 0xebce5c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetPlayer, addr 0xf959e0, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* GetPlayer(::GlobalNamespace::IConnection* connection, uint8_t remoteConnectionId);
 
-  /// @brief Method GetPlayer, addr 0xebc0f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetPlayer, addr 0xf94c74, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* GetPlayer(uint8_t connectionId);
 
-  /// @brief Method GetPlayer, addr 0xebcf50, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPlayer, addr 0xf95ad4, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* GetPlayer(::StringW userId);
 
-  /// @brief Method HandleConnected, addr 0xebf534, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method HandleConnected, addr 0xf980b8, size 0x2e8, virtual false, abstract: false, final false
   inline void HandleConnected();
 
-  /// @brief Method HandleConnectionConnected, addr 0xebf81c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionConnected, addr 0xf983a0, size 0x38, virtual false, abstract: false, final false
   inline void HandleConnectionConnected(::GlobalNamespace::IConnection* connection);
 
-  /// @brief Method HandleConnectionDisconnected, addr 0xec09b8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionDisconnected, addr 0xf9953c, size 0x118, virtual false, abstract: false, final false
   inline void HandleConnectionDisconnected(::GlobalNamespace::IConnection* connection, ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleConnectionFailed, addr 0xec07bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionFailed, addr 0xf99340, size 0x1c, virtual false, abstract: false, final false
   inline void HandleConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method HandleDisconnected, addr 0xec0770, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnected, addr 0xf992f4, size 0x4c, virtual false, abstract: false, final false
   inline void HandleDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleInitialized, addr 0xec0630, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleInitialized, addr 0xf991b4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleInitialized();
 
-  /// @brief Method HandleKickPlayerPacket, addr 0xec1adc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayerPacket, addr 0xf9a660, size 0xe0, virtual false, abstract: false, final false
   inline void HandleKickPlayerPacket(::GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket* packet, ::GlobalNamespace::IConnectedPlayer* iPlayer);
 
-  /// @brief Method HandleNetworkReceive, addr 0xec0bc4, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method HandleNetworkReceive, addr 0xf99748, size 0x500, virtual false, abstract: false, final false
   inline void HandleNetworkReceive(::GlobalNamespace::IConnection* connection, ::LiteNetLib::Utils::NetDataReader* reader, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method HandlePing, addr 0xec1f24, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HandlePing, addr 0xf9aaa8, size 0x1f4, virtual false, abstract: false, final false
   inline void HandlePing(::GlobalNamespace::__ConnectedPlayerManager__PingPacket* packet, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerAvatarUpdate, addr 0xec18f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerAvatarUpdate, addr 0xf9a478, size 0xc8, virtual false, abstract: false, final false
   inline void HandlePlayerAvatarUpdate(::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket* packet, ::GlobalNamespace::IConnectedPlayer* iPlayer);
 
-  /// @brief Method HandlePlayerIdentityUpdate, addr 0xec15e0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerIdentityUpdate, addr 0xf9a164, size 0x134, virtual false, abstract: false, final false
   inline void HandlePlayerIdentityUpdate(::GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket* packet, ::GlobalNamespace::IConnectedPlayer* iPlayer);
 
-  /// @brief Method HandlePlayerSortOrderUpdate, addr 0xec1c10, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSortOrderUpdate, addr 0xf9a794, size 0x12c, virtual false, abstract: false, final false
   inline void HandlePlayerSortOrderUpdate(::GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket* packet, ::GlobalNamespace::IConnectedPlayer* iPlayer);
 
-  /// @brief Method HandlePlayerStateUpdate, addr 0xec1818, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateUpdate, addr 0xf9a39c, size 0xc0, virtual false, abstract: false, final false
   inline void HandlePlayerStateUpdate(::GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket* packet, ::GlobalNamespace::IConnectedPlayer* iPlayer);
 
-  /// @brief Method HandlePong, addr 0xec217c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method HandlePong, addr 0xf9ad00, size 0x174, virtual false, abstract: false, final false
   inline void HandlePong(::GlobalNamespace::__ConnectedPlayerManager__PongPacket* packet, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleServerPlayerConnected, addr 0xec13f0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerConnected, addr 0xf99f74, size 0xcc, virtual false, abstract: false, final false
   inline void HandleServerPlayerConnected(::GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket* packet, ::GlobalNamespace::IConnectedPlayer* iPlayer);
 
-  /// @brief Method HandleServerPlayerDisconnected, addr 0xec19e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerDisconnected, addr 0xf9a564, size 0xa8, virtual false, abstract: false, final false
   inline void HandleServerPlayerDisconnected(::GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket* packet, ::GlobalNamespace::IConnectedPlayer* iPlayer);
 
-  /// @brief Method HandleSyncTimePacket, addr 0xec1d90, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandleSyncTimePacket, addr 0xf9a914, size 0x140, virtual false, abstract: false, final false
   inline void HandleSyncTimePacket(::GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket* packet, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method InitializePlayerEncryption, addr 0xec1778, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitializePlayerEncryption, addr 0xf9a2fc, size 0xa0, virtual false, abstract: false, final false
   inline void InitializePlayerEncryption(::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* player);
 
-  /// @brief Method KickPlayer, addr 0xec01f4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method KickPlayer, addr 0xf98d78, size 0xcc, virtual false, abstract: false, final false
   inline void KickPlayer(::StringW userId, ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method Log, addr 0xec2360, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0xf9aee4, size 0x8c, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::ConnectedPlayerManager* New_ctor(::GlobalNamespace::IConnectionManager* connectionManager);
@@ -2005,38 +2004,38 @@ public:
   static inline ::GlobalNamespace::ConnectedPlayerManager* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                     ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method PollLateUpdateOptional, addr 0xebfb74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method PollLateUpdateOptional, addr 0xf986f8, size 0x2c, virtual false, abstract: false, final false
   inline void PollLateUpdateOptional();
 
-  /// @brief Method PollUpdate, addr 0xebf854, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PollUpdate, addr 0xf983d8, size 0x168, virtual false, abstract: false, final false
   inline void PollUpdate(int32_t frameCount);
 
-  /// @brief Method RegisterSerializer, addr 0xebfba0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RegisterSerializer, addr 0xf98724, size 0x68, virtual false, abstract: false, final false
   inline void RegisterSerializer(::GlobalNamespace::__ConnectedPlayerManager__MessageType serializerType,
                                  ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>* subSerializer);
 
-  /// @brief Method RemoveAllPlayers, addr 0xebc1b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllPlayers, addr 0xf94d38, size 0x8c, virtual false, abstract: false, final false
   inline void RemoveAllPlayers(::GlobalNamespace::DisconnectedReason reason);
 
-  /// @brief Method RemovePlayer, addr 0xebc240, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RemovePlayer, addr 0xf94dc4, size 0xc4, virtual false, abstract: false, final false
   inline void RemovePlayer(::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* player, ::GlobalNamespace::DisconnectedReason reason);
 
-  /// @brief Method ResetLocalState, addr 0xebf50c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResetLocalState, addr 0xf98090, size 0x28, virtual false, abstract: false, final false
   inline void ResetLocalState();
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Send(T message);
 
-  /// @brief Method SendImmediately, addr 0xebc94c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SendImmediately, addr 0xf954d0, size 0xe4, virtual false, abstract: false, final false
   inline void SendImmediately(::LiteNetLib::Utils::INetSerializable* message, bool onlyFirstDegree);
 
-  /// @brief Method SendImmediatelyExcludingPlayer, addr 0xebcaa0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SendImmediatelyExcludingPlayer, addr 0xf95624, size 0xf4, virtual false, abstract: false, final false
   inline void SendImmediatelyExcludingPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* excludingPlayer, bool onlyFirstDegree);
 
-  /// @brief Method SendImmediatelyFromPlayer, addr 0xec0ad8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SendImmediatelyFromPlayer, addr 0xf9965c, size 0xec, virtual false, abstract: false, final false
   inline void SendImmediatelyFromPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* fromPlayer, bool onlyFirstDegree);
 
-  /// @brief Method SendImmediatelyFromPlayerToPlayer, addr 0xebcd7c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SendImmediatelyFromPlayerToPlayer, addr 0xf95900, size 0xe0, virtual false, abstract: false, final false
   inline void SendImmediatelyFromPlayerToPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* fromPlayer,
                                                 ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* toPlayer);
 
@@ -2045,7 +2044,7 @@ public:
   inline void SendImmediatelyFromPlayerToPlayerUnreliable(T message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* fromPlayer,
                                                           ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* toPlayer);
 
-  /// @brief Method SendImmediatelyToPlayer, addr 0xebcba4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SendImmediatelyToPlayer, addr 0xf95728, size 0xe0, virtual false, abstract: false, final false
   inline void SendImmediatelyToPlayer(::LiteNetLib::Utils::INetSerializable* message, ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* toPlayer);
 
   /// @brief Method SendToPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -2063,33 +2062,33 @@ public:
   /// @brief Method SendUnreliableOnlyToFirstDegreeConnections, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SendUnreliableOnlyToFirstDegreeConnections(T message);
 
-  /// @brief Method SetLocalPlayerAvatar, addr 0xec0414, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerAvatar, addr 0xf98f98, size 0x94, virtual false, abstract: false, final false
   inline void SetLocalPlayerAvatar(::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData);
 
-  /// @brief Method SetLocalPlayerSortIndex, addr 0xec0528, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerSortIndex, addr 0xf990ac, size 0x10, virtual false, abstract: false, final false
   inline void SetLocalPlayerSortIndex(int32_t sortIndex);
 
-  /// @brief Method SetLocalPlayerState, addr 0xec02d4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerState, addr 0xf98e58, size 0xe0, virtual false, abstract: false, final false
   inline void SetLocalPlayerState(::StringW state, bool setState);
 
-  /// @brief Method SetPlayerSortIndex, addr 0xec0538, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerSortIndex, addr 0xf990bc, size 0xd8, virtual false, abstract: false, final false
   inline void SetPlayerSortIndex(::GlobalNamespace::IConnectedPlayer* player, int32_t sortIndex);
 
-  /// @brief Method UnregisterSerializer, addr 0xebfc08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnregisterSerializer, addr 0xf9878c, size 0x68, virtual false, abstract: false, final false
   inline void UnregisterSerializer(::GlobalNamespace::__ConnectedPlayerManager__MessageType serializerType,
                                    ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>* subSerializer);
 
-  /// @brief Method Write, addr 0xec1130, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0xf99cb4, size 0xf8, virtual false, abstract: false, final false
   inline void Write(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
-  /// @brief Method WriteOne, addr 0xec10c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteOne, addr 0xf99c48, size 0x6c, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NetDataWriter* WriteOne(uint8_t senderId, uint8_t receiverId, ::LiteNetLib::Utils::INetSerializable* message);
 
-  /// @brief Method WriteOneEncrypted, addr 0xec1228, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method WriteOneEncrypted, addr 0xf99dac, size 0x168, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NetDataWriter* WriteOneEncrypted(::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState, uint8_t senderId, uint8_t receiverId,
                                                                ::LiteNetLib::Utils::INetSerializable* message);
 
-  /// @brief Method WriteOneOnlyToFirstDegreeConnections, addr 0xec1390, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WriteOneOnlyToFirstDegreeConnections, addr 0xf99f14, size 0x60, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NetDataWriter* WriteOneOnlyToFirstDegreeConnections(uint8_t senderId, ::LiteNetLib::Utils::INetSerializable* message);
 
   constexpr ::GlobalNamespace::IConnectionManager*& __cordl_internal_get__connectionManager();
@@ -2282,109 +2281,109 @@ public:
 
   constexpr void __cordl_internal_set_syncTimeInitializedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0xebe1dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf96d60, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method .ctor, addr 0xebe298, size 0x1034, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf96e1c, size 0x1034, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method add_connectedEvent, addr 0xebd074, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_connectedEvent, addr 0xf95bf8, size 0x9c, virtual false, abstract: false, final false
   inline void add_connectedEvent(::System::Action* value);
 
-  /// @brief Method add_connectionFailedEvent, addr 0xebd444, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_connectionFailedEvent, addr 0xf95fc8, size 0xb0, virtual false, abstract: false, final false
   inline void add_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_disconnectedEvent, addr 0xebd2e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_disconnectedEvent, addr 0xf95e68, size 0xb0, virtual false, abstract: false, final false
   inline void add_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_initializedEvent, addr 0xebd1ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_initializedEvent, addr 0xf95d30, size 0x9c, virtual false, abstract: false, final false
   inline void add_initializedEvent(::System::Action* value);
 
-  /// @brief Method add_playerAvatarChangedEvent, addr 0xebd9c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerAvatarChangedEvent, addr 0xf96548, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerConnectedEvent, addr 0xebd5a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerConnectedEvent, addr 0xf96128, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerDisconnectedEvent, addr 0xebd704, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerDisconnectedEvent, addr 0xf96288, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerLatencyInitializedEvent, addr 0xebdc84, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerLatencyInitializedEvent, addr 0xf96808, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerLatencyInitializedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerOrderChangedEvent, addr 0xebdb24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerOrderChangedEvent, addr 0xf966a8, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerOrderChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerStateChangedEvent, addr 0xebd864, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerStateChangedEvent, addr 0xf963e8, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_syncTimeInitializedEvent, addr 0xebdde4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_syncTimeInitializedEvent, addr 0xf96968, size 0x9c, virtual false, abstract: false, final false
   inline void add_syncTimeInitializedEvent(::System::Action* value);
 
-  /// @brief Method get_connectedPlayerCount, addr 0xebe138, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_connectedPlayerCount, addr 0xf96cbc, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_connectedPlayerCount();
 
-  /// @brief Method get_isConnected, addr 0xebc44c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_isConnected, addr 0xf94fd0, size 0xa4, virtual false, abstract: false, final false
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnectedOrConnecting, addr 0xebdfc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isConnectedOrConnecting, addr 0xf96b44, size 0x28, virtual false, abstract: false, final false
   inline bool get_isConnectedOrConnecting();
 
-  /// @brief Method get_isConnecting, addr 0xebdfe8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_isConnecting, addr 0xf96b6c, size 0xa4, virtual false, abstract: false, final false
   inline bool get_isConnecting();
 
-  /// @brief Method get_isConnectionOwner, addr 0xebdf1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_isConnectionOwner, addr 0xf96aa0, size 0xa4, virtual false, abstract: false, final false
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDisconnecting, addr 0xebe08c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_isDisconnecting, addr 0xf96c10, size 0xa4, virtual false, abstract: false, final false
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_localPlayer, addr 0xebe130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayer, addr 0xf96cb4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_localPlayer();
 
-  /// @brief Method get_runTime, addr 0xebc878, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_runTime, addr 0xf953fc, size 0xcc, virtual false, abstract: false, final false
   inline int64_t get_runTime();
 
-  /// @brief Method get_syncTime, addr 0xebe180, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_syncTime, addr 0xf96d04, size 0x28, virtual false, abstract: false, final false
   inline int64_t get_syncTime();
 
-  /// @brief Method get_syncTimeInitialized, addr 0xebe1a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_syncTimeInitialized, addr 0xf96d2c, size 0x34, virtual false, abstract: false, final false
   inline bool get_syncTimeInitialized();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_connectedEvent, addr 0xebd110, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_connectedEvent, addr 0xf95c94, size 0x9c, virtual false, abstract: false, final false
   inline void remove_connectedEvent(::System::Action* value);
 
-  /// @brief Method remove_connectionFailedEvent, addr 0xebd4f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_connectionFailedEvent, addr 0xf96078, size 0xb0, virtual false, abstract: false, final false
   inline void remove_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_disconnectedEvent, addr 0xebd394, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_disconnectedEvent, addr 0xf95f18, size 0xb0, virtual false, abstract: false, final false
   inline void remove_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_initializedEvent, addr 0xebd248, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_initializedEvent, addr 0xf95dcc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_initializedEvent(::System::Action* value);
 
-  /// @brief Method remove_playerAvatarChangedEvent, addr 0xebda74, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerAvatarChangedEvent, addr 0xf965f8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerConnectedEvent, addr 0xebd654, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerConnectedEvent, addr 0xf961d8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerDisconnectedEvent, addr 0xebd7b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerDisconnectedEvent, addr 0xf96338, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerLatencyInitializedEvent, addr 0xebdd34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerLatencyInitializedEvent, addr 0xf968b8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerLatencyInitializedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerOrderChangedEvent, addr 0xebdbd4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerOrderChangedEvent, addr 0xf96758, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerOrderChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerStateChangedEvent, addr 0xebd914, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerStateChangedEvent, addr 0xf96498, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_syncTimeInitializedEvent, addr 0xebde80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_syncTimeInitializedEvent, addr 0xf96a04, size 0x9c, virtual false, abstract: false, final false
   inline void remove_syncTimeInitializedEvent(::System::Action* value);
 
 protected:

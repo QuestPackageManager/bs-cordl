@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelBar)
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
-struct __LevelBar___Setup_d__16;
+struct __LevelBar___Setup_d__17;
 }
 namespace HMUI {
 class ImageView;
@@ -55,26 +54,26 @@ namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-struct __LevelBar___Setup_d__16;
+struct __LevelBar___Setup_d__17;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelBar);
-MARK_VAL_T(::GlobalNamespace::__LevelBar___Setup_d__16);
-// Type: ::<Setup>d__16
+MARK_VAL_T(::GlobalNamespace::__LevelBar___Setup_d__17);
+// Type: ::<Setup>d__17
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LevelBar::<Setup>d__16
-struct CORDL_TYPE __LevelBar___Setup_d__16 {
+// CS Name: ::LevelBar::<Setup>d__17
+struct CORDL_TYPE __LevelBar___Setup_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2445880, size 0x66c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25689dc, size 0x69c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2445eec, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2569078, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -82,7 +81,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelBar___Setup_d__16();
+  constexpr __LevelBar___Setup_d__17();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
@@ -90,7 +89,7 @@ public:
   // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "",
   // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
-  constexpr __LevelBar___Setup_d__16(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
+  constexpr __LevelBar___Setup_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
                                      ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                      ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic, ::System::Threading::CancellationToken _cancellationToken_5__2,
                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
@@ -125,34 +124,34 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelBar___Setup_d__16, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelBar___Setup_d__17, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, beatmapLevel) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, beatmapLevel) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, beatmapDifficulty) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, beatmapDifficulty) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, beatmapCharacteristic) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, beatmapCharacteristic) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, _cancellationToken_5__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, _cancellationToken_5__2) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__16, __u__1) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __u__1) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::LevelBar
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelBar*
 class CORDL_TYPE LevelBar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _Setup_d__16 = ::GlobalNamespace::__LevelBar___Setup_d__16;
+  using _Setup_d__17 = ::GlobalNamespace::__LevelBar___Setup_d__17;
 
   /// @brief Field _artworkBackgroundImage, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__artworkBackgroundImage, put = __cordl_internal_set__artworkBackgroundImage))::UnityW<::HMUI::ImageView> _artworkBackgroundImage;
@@ -160,11 +159,14 @@ public:
   /// @brief Field _authorNameText, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__authorNameText, put = __cordl_internal_set__authorNameText))::UnityW<::TMPro::TextMeshProUGUI> _authorNameText;
 
-  /// @brief Field _cancellationTokenSource, offset 0x80, size 0x8
+  /// @brief Field _cancellationTokenSource, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _characteristicIconImageView, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__characteristicIconImageView, put = __cordl_internal_set__characteristicIconImageView))::UnityW<::HMUI::ImageView> _characteristicIconImageView;
+
+  /// @brief Field _defaultArtworkImage, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultArtworkImage, put = __cordl_internal_set__defaultArtworkImage))::UnityW<::UnityEngine::Sprite> _defaultArtworkImage;
 
   /// @brief Field _difficultyText, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__difficultyText, put = __cordl_internal_set__difficultyText))::UnityW<::TMPro::TextMeshProUGUI> _difficultyText;
@@ -201,10 +203,10 @@ public:
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2445864, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25689c0, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Setup, addr 0x2432f98, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2555f94, size 0xbc, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__artworkBackgroundImage() const;
@@ -222,6 +224,10 @@ public:
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__characteristicIconImageView() const;
 
   constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__characteristicIconImageView();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__defaultArtworkImage() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__defaultArtworkImage();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__difficultyText() const;
 
@@ -271,6 +277,8 @@ public:
 
   constexpr void __cordl_internal_set__characteristicIconImageView(::UnityW<::HMUI::ImageView> value);
 
+  constexpr void __cordl_internal_set__defaultArtworkImage(::UnityW<::UnityEngine::Sprite> value);
+
   constexpr void __cordl_internal_set__difficultyText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   constexpr void __cordl_internal_set__multiLineAuthorNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
@@ -291,10 +299,10 @@ public:
 
   constexpr void __cordl_internal_set__useArtworkBackground(bool value);
 
-  /// @brief Method .ctor, addr 0x2445878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25689d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x2442874, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x25659d0, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -350,13 +358,16 @@ public:
   /// @brief Field _artworkBackgroundImage, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____artworkBackgroundImage;
 
-  /// @brief Field _cancellationTokenSource, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _defaultArtworkImage, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Sprite> ____defaultArtworkImage;
+
+  /// @brief Field _cancellationTokenSource, offset: 0x88, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelBar, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelBar, 0x90>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelBar, ____songArtworkImageView) == 0x18, "Offset mismatch!");
 
@@ -384,9 +395,11 @@ static_assert(offsetof(::GlobalNamespace::LevelBar, ____useArtworkBackground) ==
 
 static_assert(offsetof(::GlobalNamespace::LevelBar, ____artworkBackgroundImage) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelBar, ____cancellationTokenSource) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____defaultArtworkImage) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____cancellationTokenSource) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelBar);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelBar*, "", "LevelBar");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelBar___Setup_d__16, "", "LevelBar/<Setup>d__16");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelBar___Setup_d__17, "", "LevelBar/<Setup>d__17");

@@ -5,7 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"

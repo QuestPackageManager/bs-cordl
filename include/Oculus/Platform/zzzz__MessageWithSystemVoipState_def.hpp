@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__SystemVoipState_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithSystemVoipState)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithSystemVoipState : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SystemVoipState*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2847f00, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29ca4e4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetSystemVoipState, addr 0x2847ec4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetSystemVoipState, addr 0x29ca4a8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
 
   static inline ::Oculus::Platform::MessageWithSystemVoipState* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2843c44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6228, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

@@ -3,10 +3,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
 CORDL_MODULE_EXPORT(LightColorBeatmapEventDataProcessor)
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+class LightColorBeatmapEventData;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
@@ -27,13 +29,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightColorBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0xe6f868, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0xf482ec, size 0x104, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0xe6f748, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0xf481cc, size 0x120, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0xe6f96c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf483f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

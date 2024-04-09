@@ -44,18 +44,18 @@ public:
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker))::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x2f21660, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x330747c, size 0xa8, virtual false, abstract: false, final false
   static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method DirtyHierarchy, addr 0x2f2150c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method DirtyHierarchy, addr 0x3307328, size 0x154, virtual false, abstract: false, final false
   static inline void DirtyHierarchy(::UnityEngine::UIElements::VisualElement* ve, bool mustDirtyWorldTransform, bool mustDirtyWorldClip);
 
   static inline ::UnityEngine::UIElements::VisualTreeTransformClipUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x2f21418, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x3307234, size 0xf4, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x2f21708, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3307524, size 0x64, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
@@ -70,14 +70,14 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x2f2196c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3307788, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x2f213c0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x33071dc, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);

@@ -42,37 +42,37 @@ public:
   static __declspec(property(get = getStaticF_ColorNameLookup,
                              put = setStaticF_ColorNameLookup))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::ProBuilder::CIELabColor*>* ColorNameLookup;
 
-  /// @brief Method CIELabFromRGB, addr 0x2c85704, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CIELabFromRGB, addr 0x306abb4, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* CIELabFromRGB(float_t R, float_t G, float_t B, float_t Scale);
 
-  /// @brief Method DeltaE, addr 0x2c8534c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DeltaE, addr 0x306a7fc, size 0x48, virtual false, abstract: false, final false
   static inline float_t DeltaE(::UnityEngine::ProBuilder::CIELabColor* lhs, ::UnityEngine::ProBuilder::CIELabColor* rhs);
 
-  /// @brief Method GetColor, addr 0x2c8526c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x306a71c, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color GetColor(::UnityEngine::Vector3 vec);
 
-  /// @brief Method GetColorName, addr 0x2c854f4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetColorName, addr 0x306a9a4, size 0x210, virtual false, abstract: false, final false
   static inline ::StringW GetColorName(::UnityEngine::Color InColor);
 
-  /// @brief Method HSVtoRGB, addr 0x2c85410, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method HSVtoRGB, addr 0x306a8c0, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color HSVtoRGB(float_t h, float_t s, float_t v);
 
-  /// @brief Method HSVtoRGB, addr 0x2c85394, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HSVtoRGB, addr 0x306a844, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color HSVtoRGB(::UnityEngine::ProBuilder::HSVColor* hsv);
 
-  /// @brief Method RGBToXYZ, addr 0x2c84b7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RGBToXYZ, addr 0x306a02c, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(::UnityEngine::Color col);
 
-  /// @brief Method RGBToXYZ, addr 0x2c84c64, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method RGBToXYZ, addr 0x306a114, size 0x19c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(float_t r, float_t g, float_t b);
 
-  /// @brief Method RGBtoHSV, addr 0x2c84798, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method RGBtoHSV, addr 0x3069c48, size 0x220, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* RGBtoHSV(::UnityEngine::Color color);
 
-  /// @brief Method XYZToCIE_Lab, addr 0x2c84f54, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method XYZToCIE_Lab, addr 0x306a404, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* XYZToCIE_Lab(::UnityEngine::ProBuilder::XYZColor* xyz);
 
-  /// @brief Method approx, addr 0x2c85208, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method approx, addr 0x306a6b8, size 0x64, virtual false, abstract: false, final false
   static inline bool approx(float_t lhs, float_t rhs);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::ProBuilder::CIELabColor*>* getStaticF_ColorNameLookup();

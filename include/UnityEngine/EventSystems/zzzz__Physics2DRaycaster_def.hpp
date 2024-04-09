@@ -36,7 +36,7 @@ public:
 
   static inline ::UnityEngine::EventSystems::Physics2DRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x2f067c0, size 0x5c0, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x32ec5dc, size 0x5c0, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> const& __cordl_internal_get_m_Hits() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Hits(::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> value);
 
-  /// @brief Method .ctor, addr 0x2f06770, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ec58c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

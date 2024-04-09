@@ -28,7 +28,7 @@ public:
   /// @brief Method TriggerValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method .ctor, addr 0x249bbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c0090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

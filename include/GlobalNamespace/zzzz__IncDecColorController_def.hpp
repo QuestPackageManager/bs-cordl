@@ -33,7 +33,7 @@ public:
 
   __declspec(property(put = set_enableInc)) bool enableInc;
 
-  /// @brief Method Awake, addr 0x2538b4c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x265c638, size 0xb8, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -44,7 +44,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecColorController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2538c04, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x265c6f0, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ColorStepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -53,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::ColorStepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x2538d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265c7f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x2538b20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x265c60c, size 0x2c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_enableDec, addr 0x2538ad0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x265c5bc, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x2538af8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x265c5e4, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
 protected:

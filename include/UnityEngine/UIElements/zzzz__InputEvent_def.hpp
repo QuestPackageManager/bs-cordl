@@ -29,13 +29,13 @@ public:
 
   __declspec(property(put = set_previousData))::StringW previousData;
 
-  /// @brief Method GetPooled, addr 0x2fba0fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x339ef18, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
-  /// @brief Method Init, addr 0x2fba094, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x339eeb0, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2fba0ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x339ef08, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2fba180, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339ef9c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_newData, addr 0x2fba08c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_newData, addr 0x339eea8, size 0x8, virtual false, abstract: false, final false
   inline void set_newData(::StringW value);
 
-  /// @brief Method set_previousData, addr 0x2fba084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousData, addr 0x339eea0, size 0x8, virtual false, abstract: false, final false
   inline void set_previousData(::StringW value);
 
 protected:

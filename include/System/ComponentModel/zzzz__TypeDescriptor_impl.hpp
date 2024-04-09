@@ -25,6 +25,7 @@
 #include "System/Diagnostics/zzzz__BooleanSwitch_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__IServiceProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__AttributeFilterCacheItem._ctor
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeDescriptor__AttributeFilterCacheItem::*)(
     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>, ::System::Collections::ICollection*)>(&::System::ComponentModel::__TypeDescriptor__AttributeFilterCacheItem::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2a7eab0;
+  constexpr static std::size_t addrs = 0x2e6395c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::__TypeDescriptor__AttributeFilterCacheItem::*)(
     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::__TypeDescriptor__AttributeFilterCacheItem::IsValid)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2a7ea38;
+  constexpr static std::size_t addrs = 0x2e638e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeDescriptor__FilterCacheItem::*)(
     ::System::ComponentModel::Design::ITypeDescriptorFilterService*, ::System::Collections::ICollection*)>(&::System::ComponentModel::__TypeDescriptor__FilterCacheItem::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2a7eaec;
+  constexpr static std::size_t addrs = 0x2e63998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::__TypeDescriptor__FilterCacheItem::*)(
     ::System::ComponentModel::Design::ITypeDescriptorFilterService*)>(&::System::ComponentModel::__TypeDescriptor__FilterCacheItem::IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2a7eadc;
+  constexpr static std::size_t addrs = 0x2e63988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer::*)(
     ::System::Object*, ::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer::Compare)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2a7efc0;
+  constexpr static std::size_t addrs = 0x2e63e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer::*)()>(
     &::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a7f12c;
+  constexpr static std::size_t addrs = 0x2e63fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -253,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)(
     ::System::ComponentModel::ICustomTypeDescriptor*, ::System::ComponentModel::ICustomTypeDescriptor*)>(&::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2a7d1fc;
+  constexpr static std::size_t addrs = 0x2e620a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,7 +271,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::AttributeCollection* (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(
         &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetAttributes)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2a7f198;
+  constexpr static std::size_t addrs = 0x2e64044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(
     &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetClassName)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a7f2a8;
+  constexpr static std::size_t addrs = 0x2e64154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -300,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(
     &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetComponentName)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a7f3c0;
+  constexpr static std::size_t addrs = 0x2e6426c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(
     &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a7f4d8;
+  constexpr static std::size_t addrs = 0x2e64384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(
     &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a7f5f0;
+  constexpr static std::size_t addrs = 0x2e6449c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +347,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptor* (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(
         &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a7f708;
+  constexpr static std::size_t addrs = 0x2e645b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)(::System::Type*)>(
     &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEditor)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x2a7f820;
+  constexpr static std::size_t addrs = 0x2e646cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -376,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptorCollection* (
     ::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(&::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a7f9d4;
+  constexpr static std::size_t addrs = 0x2e64880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -392,7 +393,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2a7faec;
+  constexpr static std::size_t addrs = 0x2e64998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,7 +410,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)()>(
         &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a7fc1c;
+  constexpr static std::size_t addrs = 0x2e64ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -425,7 +426,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2a7fd34;
+  constexpr static std::size_t addrs = 0x2e64be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +443,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::*)(::System::ComponentModel::PropertyDescriptor*)>(
         &::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2a7fe64;
+  constexpr static std::size_t addrs = 0x2e64d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -583,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)(
     ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*, ::System::Object*)>(&::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a800b0;
+  constexpr static std::size_t addrs = 0x2e650e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +602,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::AttributeCollection* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetAttributes)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x2a8037c;
+  constexpr static std::size_t addrs = 0x2e653b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -616,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetClassName)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x2a80658;
+  constexpr static std::size_t addrs = 0x2e6568c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -631,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetComponentName)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x2a8089c;
+  constexpr static std::size_t addrs = 0x2e658d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -647,7 +648,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::TypeConverter* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x2a80aa8;
+  constexpr static std::size_t addrs = 0x2e65adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -663,7 +664,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::EventDescriptor* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x2a80d50;
+  constexpr static std::size_t addrs = 0x2e65d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -679,7 +680,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptor* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x2a80f5c;
+  constexpr static std::size_t addrs = 0x2e65f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -695,7 +696,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)(::System::Type*)>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEditor)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x2a81168;
+  constexpr static std::size_t addrs = 0x2e6619c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -712,7 +713,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::EventDescriptorCollection* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x2a81410;
+  constexpr static std::size_t addrs = 0x2e66444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -728,7 +729,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x2a816f0;
+  constexpr static std::size_t addrs = 0x2e66724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -745,7 +746,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x2a819d8;
+  constexpr static std::size_t addrs = 0x2e66a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -761,7 +762,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x2a81c80;
+  constexpr static std::size_t addrs = 0x2e66cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -778,7 +779,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::*)(::System::ComponentModel::PropertyDescriptor*)>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
   constexpr static std::size_t size = 0x1228;
-  constexpr static std::size_t addrs = 0x2a81f30;
+  constexpr static std::size_t addrs = 0x2e66f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -905,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)(
     ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*, ::System::Type*, ::System::Object*)>(&::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a83158;
+  constexpr static std::size_t addrs = 0x2e6818c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -924,7 +925,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::AttributeCollection* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetAttributes)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x2a83164;
+  constexpr static std::size_t addrs = 0x2e68198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -939,7 +940,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetClassName)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2a8340c;
+  constexpr static std::size_t addrs = 0x2e68440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -954,7 +955,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetComponentName)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2a83648;
+  constexpr static std::size_t addrs = 0x2e6867c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -970,7 +971,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::TypeConverter* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x2a83858;
+  constexpr static std::size_t addrs = 0x2e6888c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -986,7 +987,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::EventDescriptor* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2a83b04;
+  constexpr static std::size_t addrs = 0x2e68b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1002,7 +1003,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptor* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2a83d14;
+  constexpr static std::size_t addrs = 0x2e68d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1018,7 +1019,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)(::System::Type*)>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEditor)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x2a83f24;
+  constexpr static std::size_t addrs = 0x2e68f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1035,7 +1036,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::EventDescriptorCollection* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x2a841d0;
+  constexpr static std::size_t addrs = 0x2e69204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1051,7 +1052,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x2a8447c;
+  constexpr static std::size_t addrs = 0x2e694b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1068,7 +1069,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)()>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x2a84730;
+  constexpr static std::size_t addrs = 0x2e69764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1084,7 +1085,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x2a849dc;
+  constexpr static std::size_t addrs = 0x2e69a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1101,7 +1102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::*)(::System::ComponentModel::PropertyDescriptor*)>(
         &::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2a84c90;
+  constexpr static std::size_t addrs = 0x2e69cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1224,7 +1225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(
     ::System::ComponentModel::TypeDescriptionProvider*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2a786e8;
+  constexpr static std::size_t addrs = 0x2e5d2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1233,13 +1234,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetCache
+//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.CreateInstance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (
-    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetCache)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2a7ff94;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::IServiceProvider*, ::System::Type*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
+                                                                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
+    &::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::CreateInstance)> {
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x2e64e40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1249,13 +1252,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetExtendedTypeDescriptor
+//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetCache
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (
-    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetExtendedTypeDescriptor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2a80004;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (
+    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetCache)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x2e64fc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1265,13 +1268,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetExtenderProviders
+//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetExtendedTypeDescriptor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> (
-    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetExtenderProviders)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2a800b8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (
+    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetExtendedTypeDescriptor)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x2e65038;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1281,13 +1284,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetReflectionType
+//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetExtenderProviders
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (
-    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetReflectionType)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2a80128;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> (
+    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetExtenderProviders)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x2e650ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1297,19 +1300,35 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetTypeDescriptor
+//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetReflectionType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (
-    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetTypeDescriptor)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2a80204;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (
+    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetReflectionType)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x2e6515c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode.GetTypeDescriptor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (
+    ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetTypeDescriptor)> {
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x2e65238;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -1349,35 +1368,43 @@ inline void System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::_ctor
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::TypeDescriptionProvider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provider);
 }
-inline ::System::Collections::IDictionary* System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetCache(::System::Object* instance) {
+inline ::System::Object* System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType,
+                                                                                                       ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
+                                                                                                       ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, provider, objectType, argTypes, args);
+}
+inline ::System::Collections::IDictionary* System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetCache(::System::Object* instance) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method, instance);
 }
 inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetExtendedTypeDescriptor(::System::Object* instance) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 5)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ICustomTypeDescriptor*, false>(this, ___internal_method, instance);
 }
 inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*>
 System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetExtenderProviders(::System::Object* instance) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 6)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*>, false>(this, ___internal_method, instance);
 }
 inline ::System::Type* System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetReflectionType(::System::Type* objectType, ::System::Object* instance) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, objectType, instance);
 }
 inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::__TypeDescriptor__TypeDescriptionNode::GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 8)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ICustomTypeDescriptor*, false>(this, ___internal_method, objectType, instance);
 }
 // Ctor Parameters []
@@ -1391,7 +1418,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)()>(&::System::ComponentModel::TypeDescriptor::get_ComObjectType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2a77e1c;
+  constexpr static std::size_t addrs = 0x2e5c9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(),
@@ -1404,7 +1431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)()>(&::System::ComponentModel::TypeDescriptor::get_InterfaceType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2a77e88;
+  constexpr static std::size_t addrs = 0x2e5ca68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(),
@@ -1417,7 +1444,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::ComponentModel::TypeDescriptor::get_MetadataVersion)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a77ef4;
+  constexpr static std::size_t addrs = 0x2e5cad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(),
@@ -1431,7 +1458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ComponentModel::TypeDescriptionProvider*, ::System::Type*)>(
     &::System::ComponentModel::TypeDescriptor::AddProvider)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x2a77f4c;
+  constexpr static std::size_t addrs = 0x2e5cb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1446,12 +1473,31 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::ComponentModel::TypeDescriptor::CheckDefaultProvider)> {
   constexpr static std::size_t size = 0x60c;
-  constexpr static std::size_t addrs = 0x2a78d38;
+  constexpr static std::size_t addrs = 0x2e5d918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(), "CheckDefaultProvider",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::TypeDescriptor.CreateInstance
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Object* (*)(::System::IServiceProvider*, ::System::Type*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
+        &::System::ComponentModel::TypeDescriptor::CreateInstance)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x2e5df24;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(), "CreateInstance", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IServiceProvider*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -1461,7 +1507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::ArrayList* (*)(::System::Collections::IList*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::TypeDescriptor::FilterMembers)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x2a79344;
+  constexpr static std::size_t addrs = 0x2e5e248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1477,7 +1523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*, ::System::Object*)>(
     &::System::ComponentModel::TypeDescriptor::GetAssociation)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x2a69934;
+  constexpr static std::size_t addrs = 0x2e4e0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(),
@@ -1493,7 +1539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (*)(::System::Type*)>(
     &::System::ComponentModel::TypeDescriptor::GetAttributes)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2a6d748;
+  constexpr static std::size_t addrs = 0x2e51ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1508,7 +1554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (*)(::System::Object*)>(
     &::System::ComponentModel::TypeDescriptor::GetAttributes)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a76480;
+  constexpr static std::size_t addrs = 0x2e5adf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1523,7 +1569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (*)(::System::Object*, bool)>(
     &::System::ComponentModel::TypeDescriptor::GetAttributes)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x2a79820;
+  constexpr static std::size_t addrs = 0x2e5e724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1537,7 +1583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (*)(::System::Object*)>(&::System::ComponentModel::TypeDescriptor::GetCache)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2a72218;
+  constexpr static std::size_t addrs = 0x2e56b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1552,7 +1598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (*)(::System::Type*)>(
     &::System::ComponentModel::TypeDescriptor::GetConverter)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2a7d0bc;
+  constexpr static std::size_t addrs = 0x2e61fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1567,7 +1613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (*)(::System::Type*, ::StringW)>(
     &::System::ComponentModel::TypeDescriptor::GetDescriptor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2a7972c;
+  constexpr static std::size_t addrs = 0x2e5e630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1582,7 +1628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (*)(::System::Object*, bool)>(
     &::System::ComponentModel::TypeDescriptor::GetDescriptor)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2a79c40;
+  constexpr static std::size_t addrs = 0x2e5eb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1597,7 +1643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (*)(::System::Object*)>(
     &::System::ComponentModel::TypeDescriptor::GetExtendedDescriptor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2a79e54;
+  constexpr static std::size_t addrs = 0x2e5ed58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1612,7 +1658,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptorCollection* (*)(::System::Type*)>(
     &::System::ComponentModel::TypeDescriptor::GetEvents)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2a766dc;
+  constexpr static std::size_t addrs = 0x2e5b04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1627,7 +1673,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptorCollection* (*)(::System::Object*)>(
     &::System::ComponentModel::TypeDescriptor::GetEvents)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2a76680;
+  constexpr static std::size_t addrs = 0x2e5aff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1643,7 +1689,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::EventDescriptorCollection* (*)(::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>, bool)>(
         &::System::ComponentModel::TypeDescriptor::GetEvents)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x2a7d228;
+  constexpr static std::size_t addrs = 0x2e620d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1660,7 +1706,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::ComponentModel::MemberDescriptor*)>(
     &::System::ComponentModel::TypeDescriptor::GetExtenderCollisionSuffix)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x2a7dd5c;
+  constexpr static std::size_t addrs = 0x2e62c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1674,7 +1720,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::ComponentModel::TypeDescriptor::GetNodeForBaseType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2a7e074;
+  constexpr static std::size_t addrs = 0x2e62f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1689,7 +1735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::System::Type*)>(
     &::System::ComponentModel::TypeDescriptor::GetProperties)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2a76898;
+  constexpr static std::size_t addrs = 0x2e5b208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1704,7 +1750,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::System::Object*)>(
     &::System::ComponentModel::TypeDescriptor::GetProperties)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a76840;
+  constexpr static std::size_t addrs = 0x2e5b1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1719,7 +1765,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::System::Object*, bool)>(
     &::System::ComponentModel::TypeDescriptor::GetProperties)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2a7e148;
+  constexpr static std::size_t addrs = 0x2e62ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1735,7 +1781,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
         &::System::ComponentModel::TypeDescriptor::GetProperties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2a6581c;
+  constexpr static std::size_t addrs = 0x2e49fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1752,7 +1798,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>, bool)>(
         &::System::ComponentModel::TypeDescriptor::GetProperties)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2a7e804;
+  constexpr static std::size_t addrs = 0x2e636b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1770,7 +1816,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>, bool, bool)>(
         &::System::ComponentModel::TypeDescriptor::GetPropertiesImpl)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x2a7e1b4;
+  constexpr static std::size_t addrs = 0x2e63060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1787,7 +1833,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeDescriptionProvider* (*)(::System::Type*)>(
     &::System::ComponentModel::TypeDescriptor::GetProviderRecursive)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a7e874;
+  constexpr static std::size_t addrs = 0x2e63720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1801,7 +1847,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::ComponentModel::TypeDescriptor::GetReflectionType)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2a68178;
+  constexpr static std::size_t addrs = 0x2e4c928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1816,7 +1862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* (*)(::System::Type*)>(
     &::System::ComponentModel::TypeDescriptor::NodeFor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a7d1a4;
+  constexpr static std::size_t addrs = 0x2e5e1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1831,7 +1877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* (*)(::System::Type*, bool)>(
     &::System::ComponentModel::TypeDescriptor::NodeFor)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x2a781d0;
+  constexpr static std::size_t addrs = 0x2e5cdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1846,7 +1892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* (*)(::System::Object*)>(
     &::System::ComponentModel::TypeDescriptor::NodeFor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a7d064;
+  constexpr static std::size_t addrs = 0x2e61f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1861,7 +1907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* (*)(::System::Object*, bool)>(
     &::System::ComponentModel::TypeDescriptor::NodeFor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2a7e8cc;
+  constexpr static std::size_t addrs = 0x2e63778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1877,7 +1923,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ICollection* (*)(int32_t, ::System::Collections::ICollection*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>, ::System::Object*,
                                                         ::System::Collections::IDictionary*)>(&::System::ComponentModel::TypeDescriptor::PipelineAttributeFilter)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x2a7d70c;
+  constexpr static std::size_t addrs = 0x2e625b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1896,7 +1942,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ICollection* (*)(int32_t, ::System::Collections::ICollection*, ::System::Object*, ::System::Collections::IDictionary*)>(
         &::System::ComponentModel::TypeDescriptor::PipelineFilter)> {
   constexpr static std::size_t size = 0x18fc;
-  constexpr static std::size_t addrs = 0x2a7b054;
+  constexpr static std::size_t addrs = 0x2e5ff58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1913,7 +1959,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::ICollection* (*)(int32_t, ::System::Collections::ICollection*, ::System::Collections::IDictionary*)>(&::System::ComponentModel::TypeDescriptor::PipelineInitialize)> {
   constexpr static std::size_t size = 0x714;
-  constexpr static std::size_t addrs = 0x2a7c950;
+  constexpr static std::size_t addrs = 0x2e61854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1931,7 +1977,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ICollection* (*)(int32_t, ::System::Collections::ICollection*, ::System::Collections::ICollection*, ::System::Object*, ::System::Collections::IDictionary*)>(
         &::System::ComponentModel::TypeDescriptor::PipelineMerge)> {
   constexpr static std::size_t size = 0x1144;
-  constexpr static std::size_t addrs = 0x2a79f10;
+  constexpr static std::size_t addrs = 0x2e5ee14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1948,7 +1994,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::ComponentModel::TypeDescriptor::RaiseRefresh)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2a7eb18;
+  constexpr static std::size_t addrs = 0x2e639c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1962,7 +2008,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::ComponentModel::TypeDescriptor::Refresh)> {
   constexpr static std::size_t size = 0x628;
-  constexpr static std::size_t addrs = 0x2a78710;
+  constexpr static std::size_t addrs = 0x2e5d2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1977,7 +2023,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ComponentModel::MemberDescriptor*, ::System::Attribute*)>(
     &::System::ComponentModel::TypeDescriptor::ShouldHideMember)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2a7969c;
+  constexpr static std::size_t addrs = 0x2e5e5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1992,7 +2038,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IList*)>(&::System::ComponentModel::TypeDescriptor::SortDescriptorArray)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2a7ebc8;
+  constexpr static std::size_t addrs = 0x2e63a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2133,6 +2179,17 @@ inline void System::ComponentModel::TypeDescriptor::CheckDefaultProvider(::Syste
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(), "CheckDefaultProvider",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Object* System::ComponentModel::TypeDescriptor::CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType,
+                                                                                ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
+                                                                                ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeDescriptor*>::get(), "CreateInstance", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IServiceProvider*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, provider, objectType, argTypes, args);
 }
 inline ::System::Collections::ArrayList* System::ComponentModel::TypeDescriptor::FilterMembers(::System::Collections::IList* members,
                                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {

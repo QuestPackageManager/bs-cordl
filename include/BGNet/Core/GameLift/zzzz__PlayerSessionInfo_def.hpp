@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_privateGameSecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0xef2440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfcbfc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -60,98 +60,98 @@ public:
   /// @brief Field sceneUnloaded, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sceneUnloaded, put = setStaticF_sceneUnloaded))::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* sceneUnloaded;
 
-  /// @brief Method GetActiveScene, addr 0x2e42eb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveScene, addr 0x3228c6c, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::Scene GetActiveScene();
 
-  /// @brief Method GetActiveScene_Injected, addr 0x2e42f30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveScene_Injected, addr 0x3228ce8, size 0x3c, virtual false, abstract: false, final false
   static inline void GetActiveScene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> ret);
 
-  /// @brief Method GetSceneAt, addr 0x2e426d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetSceneAt, addr 0x3228490, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::Scene GetSceneAt(int32_t index);
 
-  /// @brief Method GetSceneAt_Injected, addr 0x2e430f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSceneAt_Injected, addr 0x3228eac, size 0x44, virtual false, abstract: false, final false
   static inline void GetSceneAt_Injected(int32_t index, ByRef<::UnityEngine::SceneManagement::Scene> ret);
 
-  /// @brief Method GetSceneByName, addr 0x2e43024, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetSceneByName, addr 0x3228ddc, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::Scene GetSceneByName(::StringW name);
 
-  /// @brief Method GetSceneByName_Injected, addr 0x2e430b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSceneByName_Injected, addr 0x3228e68, size 0x44, virtual false, abstract: false, final false
   static inline void GetSceneByName_Injected(::StringW name, ByRef<::UnityEngine::SceneManagement::Scene> ret);
 
-  /// @brief Method Internal_ActiveSceneChanged, addr 0x2e42cfc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Internal_ActiveSceneChanged, addr 0x3228ab4, size 0xb0, virtual false, abstract: false, final false
   static inline void Internal_ActiveSceneChanged(::UnityEngine::SceneManagement::Scene previousActiveScene, ::UnityEngine::SceneManagement::Scene newActiveScene);
 
-  /// @brief Method Internal_SceneLoaded, addr 0x2e42bb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Internal_SceneLoaded, addr 0x3228968, size 0xb0, virtual false, abstract: false, final false
   static inline void Internal_SceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method Internal_SceneUnloaded, addr 0x2e42c60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SceneUnloaded, addr 0x3228a18, size 0x9c, virtual false, abstract: false, final false
   static inline void Internal_SceneUnloaded(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method LoadFirstScene_Internal, addr 0x2e43248, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadFirstScene_Internal, addr 0x3229000, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadFirstScene_Internal(bool async);
 
-  /// @brief Method LoadScene, addr 0x2e427cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x3228584, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::Scene LoadScene(int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
 
-  /// @brief Method LoadScene, addr 0x2e424dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x3228294, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::Scene LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
 
-  /// @brief Method LoadScene, addr 0x2e42764, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x322851c, size 0x68, virtual false, abstract: false, final false
   static inline void LoadScene(int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method LoadScene, addr 0x2e4257c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x3228334, size 0x58, virtual false, abstract: false, final false
   static inline void LoadScene(::StringW sceneName);
 
-  /// @brief Method LoadScene, addr 0x2e42474, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x322822c, size 0x68, virtual false, abstract: false, final false
   static inline void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method LoadSceneAsync, addr 0x2e4286c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x3228624, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method LoadSceneAsync, addr 0x2e428d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x322868c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
 
-  /// @brief Method LoadSceneAsync, addr 0x2e42a14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x32287cc, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName);
 
-  /// @brief Method LoadSceneAsync, addr 0x2e42940, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x32286f8, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method LoadSceneAsync, addr 0x2e429a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x3228760, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x2e425d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x322838c, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
 
-  /// @brief Method MoveGameObjectToScene, addr 0x2e4317c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MoveGameObjectToScene, addr 0x3228f34, size 0x88, virtual false, abstract: false, final false
   static inline void MoveGameObjectToScene(::UnityEngine::GameObject* go, ::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method MoveGameObjectToScene_Injected, addr 0x2e43204, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method MoveGameObjectToScene_Injected, addr 0x3228fbc, size 0x44, virtual false, abstract: false, final false
   static inline void MoveGameObjectToScene_Injected(::UnityEngine::GameObject* go, ByRef<::UnityEngine::SceneManagement::Scene> scene);
 
-  /// @brief Method SetActiveScene, addr 0x2e42f6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetActiveScene, addr 0x3228d24, size 0x7c, virtual false, abstract: false, final false
   static inline bool SetActiveScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method SetActiveScene_Injected, addr 0x2e42fe8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetActiveScene_Injected, addr 0x3228da0, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetActiveScene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> scene);
 
-  /// @brief Method UnloadSceneAsync, addr 0x2e42a6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneAsync, addr 0x3228824, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadSceneAsync(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method UnloadSceneAsync, addr 0x2e42b4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneAsync, addr 0x3228904, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadSceneAsync(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
 
-  /// @brief Method UnloadSceneAsyncInternal, addr 0x2e42ac4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneAsyncInternal, addr 0x322887c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadSceneAsyncInternal(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
 
-  /// @brief Method UnloadSceneAsyncInternal_Injected, addr 0x2e43138, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneAsyncInternal_Injected, addr 0x3228ef0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadSceneAsyncInternal_Injected(ByRef<::UnityEngine::SceneManagement::Scene> scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
 
-  /// @brief Method add_sceneLoaded, addr 0x2e420ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_sceneLoaded, addr 0x3227e64, size 0xf0, virtual false, abstract: false, final false
   static inline void add_sceneLoaded(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>* value);
 
-  /// @brief Method add_sceneUnloaded, addr 0x2e4228c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_sceneUnloaded, addr 0x3228044, size 0xf4, virtual false, abstract: false, final false
   static inline void add_sceneUnloaded(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* value);
 
   static inline ::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene>* getStaticF_activeSceneChanged();
@@ -162,16 +162,16 @@ public:
 
   static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* getStaticF_sceneUnloaded();
 
-  /// @brief Method get_sceneCount, addr 0x2e426b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_sceneCount, addr 0x3228468, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_sceneCount();
 
-  /// @brief Method get_sceneCountInBuildSettings, addr 0x2e42dac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_sceneCountInBuildSettings, addr 0x3228b64, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_sceneCountInBuildSettings();
 
-  /// @brief Method remove_sceneLoaded, addr 0x2e4219c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_sceneLoaded, addr 0x3227f54, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_sceneLoaded(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>* value);
 
-  /// @brief Method remove_sceneUnloaded, addr 0x2e42380, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_sceneUnloaded, addr 0x3228138, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_sceneUnloaded(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* value);
 
   static inline void setStaticF_activeSceneChanged(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene>* value);

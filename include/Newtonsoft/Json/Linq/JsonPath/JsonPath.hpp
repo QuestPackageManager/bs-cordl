@@ -15,7 +15,10 @@ module;
 #include "Newtonsoft/Json/Linq/JsonPath/QueryExpression.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/QueryFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/QueryOperator.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/QueryScanFilter.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/RootFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/ScanFilter.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/ScanMultipleFilter.hpp"
 #ifdef __cpp_modules
 export module JsonPath;
 #endif

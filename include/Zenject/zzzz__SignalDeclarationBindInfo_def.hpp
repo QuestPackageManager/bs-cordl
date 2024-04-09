@@ -87,37 +87,37 @@ public:
 
   constexpr void __cordl_internal_set__TickPriority_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x302a4f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340f380, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier, addr 0x302a51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x340f3a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method get_MissingHandlerResponse, addr 0x302a560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MissingHandlerResponse, addr 0x340f3ec, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerResponse();
 
-  /// @brief Method get_RunAsync, addr 0x302a53c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RunAsync, addr 0x340f3c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunAsync();
 
-  /// @brief Method get_SignalType, addr 0x302a52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x340f3b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method get_TickPriority, addr 0x302a550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TickPriority, addr 0x340f3dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
-  /// @brief Method set_Identifier, addr 0x302a524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x340f3b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method set_MissingHandlerResponse, addr 0x302a568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MissingHandlerResponse, addr 0x340f3f4, size 0x8, virtual false, abstract: false, final false
   inline void set_MissingHandlerResponse(::Zenject::SignalMissingHandlerResponses value);
 
-  /// @brief Method set_RunAsync, addr 0x302a544, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RunAsync, addr 0x340f3d0, size 0xc, virtual false, abstract: false, final false
   inline void set_RunAsync(bool value);
 
-  /// @brief Method set_SignalType, addr 0x302a534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x340f3c0, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
-  /// @brief Method set_TickPriority, addr 0x302a558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TickPriority, addr 0x340f3e4, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
 protected:

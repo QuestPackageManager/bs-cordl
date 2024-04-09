@@ -40,17 +40,17 @@ public:
   /// @brief Field target, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::StringW target;
 
-  /// @brief Method CloneNode, addr 0x29acb24, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2c9ea9c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::System::Xml::Linq::XProcessingInstruction* other);
 
   static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::StringW target, ::StringW data);
 
-  /// @brief Method ValidateName, addr 0x29ac848, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidateName, addr 0x2c9e7c0, size 0xe0, virtual false, abstract: false, final false
   static inline void ValidateName(::StringW name);
 
-  /// @brief Method WriteTo, addr 0x29acab0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2c9ea28, size 0x74, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
@@ -65,22 +65,22 @@ public:
 
   constexpr void __cordl_internal_set_target(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29ac928, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9e8a0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* other);
 
-  /// @brief Method .ctor, addr 0x29ac7c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9a488, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW target, ::StringW data);
 
-  /// @brief Method get_Data, addr 0x29ac9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x2c9e91c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method get_NodeType, addr 0x29acaa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2c9ea18, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Target, addr 0x29acaa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x2c9ea20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Data, addr 0x29ac9ac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x2c9e924, size 0xf4, virtual false, abstract: false, final false
   inline void set_Data(::StringW value);
 
 protected:

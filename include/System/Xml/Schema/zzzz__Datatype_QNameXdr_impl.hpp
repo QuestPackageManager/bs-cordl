@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_QNameXdr::*)()>(
     &::System::Xml::Schema::Datatype_QNameXdr::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a0a29c;
+  constexpr static std::size_t addrs = 0x2e0f0a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::Datatype_QNameXdr::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::Datatype_QNameXdr::ParseValue)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x2a0a2a4;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x2e0f0a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_QNameXdr::*)()>(
     &::System::Xml::Schema::Datatype_QNameXdr::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a0a518;
+  constexpr static std::size_t addrs = 0x2e0f324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,12 +57,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_QNameXdr::*)()>(
     &::System::Xml::Schema::Datatype_QNameXdr::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a0a570;
+  constexpr static std::size_t addrs = 0x2e0f37c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_QNameXdr*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_QNameXdr*>::get(), 17));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_QNameXdr*>::get(), 26));
     return ___internal_method;
   }
 };
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_QNameXdr::*)()>(&::System::Xml::Schema::Datatype_QNameXdr::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2a0a5c8;
+  constexpr static std::size_t addrs = 0x2e03f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_QNameXdr*>::get(), ".ctor",
@@ -110,7 +110,7 @@ inline ::System::Type* System::Xml::Schema::Datatype_QNameXdr::get_ValueType() {
 }
 inline ::System::Type* System::Xml::Schema::Datatype_QNameXdr::get_ListValueType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_QNameXdr*>::get(), 17)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_QNameXdr*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 inline ::System::Xml::Schema::Datatype_QNameXdr* System::Xml::Schema::Datatype_QNameXdr::New_ctor() {

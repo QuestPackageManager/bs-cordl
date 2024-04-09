@@ -3,9 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Product_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProductList)
+namespace Oculus::Platform::Models {
+class Product;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ProductList;
@@ -22,7 +24,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::ProductList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x285c874, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dee58, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

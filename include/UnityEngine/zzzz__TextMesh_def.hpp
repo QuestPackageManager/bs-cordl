@@ -26,13 +26,13 @@ public:
 
   __declspec(property(put = set_text))::StringW text;
 
-  /// @brief Method get_alignment, addr 0x2eb4c30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x3299a4c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAlignment get_alignment();
 
-  /// @brief Method set_alignment, addr 0x2eb4c6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x3299a88, size 0x44, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::TextAlignment value);
 
-  /// @brief Method set_text, addr 0x2eb4bec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3299a08, size 0x44, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

@@ -9,6 +9,7 @@ module;
 #include "Unity/Collections/NativeArrayDispose.hpp"
 #include "Unity/Collections/NativeArrayDisposeJob.hpp"
 #include "Unity/Collections/NativeArrayOptions.hpp"
+#include "Unity/Collections/NativeArrayReadOnlyDebugView_1.hpp"
 #include "Unity/Collections/NativeArray_1.hpp"
 #include "Unity/Collections/NativeDisableParallelForRestrictionAttribute.hpp"
 #include "Unity/Collections/NativeFixedLengthAttribute.hpp"

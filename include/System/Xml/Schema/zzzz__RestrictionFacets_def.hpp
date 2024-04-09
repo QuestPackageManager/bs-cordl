@@ -20,7 +20,7 @@ class RestrictionFacets;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::RestrictionFacets);
 // Type: System.Xml.Schema::RestrictionFacets
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::RestrictionFacets*
@@ -29,6 +29,9 @@ public:
   // Declarations
   /// @brief Field Enumeration, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Enumeration, put = __cordl_internal_set_Enumeration))::System::Collections::ArrayList* Enumeration;
+
+  /// @brief Field FixedFlags, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_FixedFlags, put = __cordl_internal_set_FixedFlags))::System::Xml::Schema::RestrictionFlags FixedFlags;
 
   /// @brief Field Flags, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags))::System::Xml::Schema::RestrictionFlags Flags;
@@ -66,9 +69,15 @@ public:
   /// @brief Field WhiteSpace, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_WhiteSpace, put = __cordl_internal_set_WhiteSpace))::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace;
 
+  static inline ::System::Xml::Schema::RestrictionFacets* New_ctor();
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_Enumeration();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_Enumeration() const;
+
+  constexpr ::System::Xml::Schema::RestrictionFlags const& __cordl_internal_get_FixedFlags() const;
+
+  constexpr ::System::Xml::Schema::RestrictionFlags& __cordl_internal_get_FixedFlags();
 
   constexpr ::System::Xml::Schema::RestrictionFlags const& __cordl_internal_get_Flags() const;
 
@@ -120,6 +129,8 @@ public:
 
   constexpr void __cordl_internal_set_Enumeration(::System::Collections::ArrayList* value);
 
+  constexpr void __cordl_internal_set_FixedFlags(::System::Xml::Schema::RestrictionFlags value);
+
   constexpr void __cordl_internal_set_Flags(::System::Xml::Schema::RestrictionFlags value);
 
   constexpr void __cordl_internal_set_FractionDigits(int32_t value);
@@ -143,6 +154,9 @@ public:
   constexpr void __cordl_internal_set_TotalDigits(int32_t value);
 
   constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
+
+  /// @brief Method .ctor, addr 0x2dffca4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
   // Ctor Parameters []
@@ -197,6 +211,9 @@ public:
   /// @brief Field Flags, offset: 0x60, size: 0x4, def value: None
   ::System::Xml::Schema::RestrictionFlags ___Flags;
 
+  /// @brief Field FixedFlags, offset: 0x64, size: 0x4, def value: None
+  ::System::Xml::Schema::RestrictionFlags ___FixedFlags;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -227,6 +244,8 @@ static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___TotalDigits)
 static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___FractionDigits) == 0x5c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___Flags) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___FixedFlags) == 0x64, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::RestrictionFacets);

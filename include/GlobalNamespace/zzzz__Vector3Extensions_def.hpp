@@ -25,16 +25,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector3Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InverseLerp, addr 0xeb904c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InverseLerp, addr 0xf91cb0, size 0x54, virtual false, abstract: false, final false
   static inline float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);
 
-  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0xeb9108, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0xf91d6c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method MirrorOnYZPlane, addr 0xeb9100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MirrorOnYZPlane, addr 0xf91d64, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method RotatedAroundPivot, addr 0xeb90a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RotatedAroundPivot, addr 0xf91d04, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot);
 
 protected:

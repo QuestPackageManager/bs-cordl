@@ -46,12 +46,12 @@ public:
   /// @brief Field serialNumber, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::StringW serialNumber;
 
-  /// @brief Method FromJson, addr 0x2c0d060, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x2ff3510, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* FromJson(::StringW json);
 
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* New_ctor();
 
-  /// @brief Method ToJson, addr 0x2c0f7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x2ff5c50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
   constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& __cordl_internal_get_characteristics() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c0f7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff5c58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

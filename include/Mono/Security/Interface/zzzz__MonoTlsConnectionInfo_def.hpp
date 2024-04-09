@@ -46,7 +46,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoTlsConnectionInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x2556e3c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x267b928, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::CipherSuiteCode const& __cordl_internal_get__CipherSuiteCode_k__BackingField() const;
@@ -67,22 +67,22 @@ public:
 
   constexpr void __cordl_internal_set__ProtocolVersion_k__BackingField(::Mono::Security::Interface::TlsProtocols value);
 
-  /// @brief Method .ctor, addr 0x2556ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267b9e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CipherSuiteCode, addr 0x2556e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherSuiteCode, addr 0x267b900, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
 
-  /// @brief Method get_ProtocolVersion, addr 0x2556e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x267b910, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
 
-  /// @brief Method set_CipherSuiteCode, addr 0x2556e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CipherSuiteCode, addr 0x267b908, size 0x8, virtual false, abstract: false, final false
   inline void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
 
-  /// @brief Method set_PeerDomainName, addr 0x2556e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PeerDomainName, addr 0x267b920, size 0x8, virtual false, abstract: false, final false
   inline void set_PeerDomainName(::StringW value);
 
-  /// @brief Method set_ProtocolVersion, addr 0x2556e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x267b918, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
 
 protected:

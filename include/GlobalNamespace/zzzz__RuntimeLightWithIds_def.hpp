@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x22d6858, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f5ca0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x22d6848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x23f5c90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x22d6850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x23f5c98, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -120,15 +120,15 @@ public:
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method GetLightWithIds, addr 0x22d6840, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x23f5c88, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::RuntimeLightWithIds* New_ctor();
 
-  /// @brief Method ProcessColor, addr 0x22d6808, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x23f5c50, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method ProcessNewColorData, addr 0x22d6694, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x23f5adc, size 0x174, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr float_t const& __cordl_internal_get__intensity() const;
@@ -164,10 +164,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplyColorByAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x22d6640, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f5a88, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mixType, addr 0x22d6690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x23f5ad8, size 0x4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
 protected:

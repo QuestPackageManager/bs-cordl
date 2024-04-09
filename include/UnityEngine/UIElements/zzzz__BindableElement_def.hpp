@@ -44,6 +44,40 @@ class __BindableElement__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::BindableElement);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__BindableElement__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__BindableElement__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::BindableElement::UxmlFactory*
+class CORDL_TYPE __BindableElement__UxmlFactory
+    : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::BindableElement*, ::UnityEngine::UIElements::__BindableElement__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__BindableElement__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x330a074, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BindableElement__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__BindableElement__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __BindableElement__UxmlFactory(__BindableElement__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__BindableElement__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __BindableElement__UxmlFactory(__BindableElement__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BindableElement__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -55,7 +89,7 @@ public:
   /// @brief Field m_PropertyPath, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PropertyPath, put = __cordl_internal_set_m_PropertyPath))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_PropertyPath;
 
-  /// @brief Method Init, addr 0x2f208b8, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33066d4, size 0x134, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__BindableElement__UxmlTraits* New_ctor();
@@ -66,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PropertyPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x2f20a74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3306890, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,16 +167,16 @@ public:
 
   constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::IBinding* value);
 
-  /// @brief Method .ctor, addr 0x2f203b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33061d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_binding, addr 0x2f24248, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_binding, addr 0x330a064, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
   /// @brief Convert to "::UnityEngine::UIElements::IBindable"
   constexpr ::UnityEngine::UIElements::IBindable* i___UnityEngine__UIElements__IBindable() noexcept;
 
-  /// @brief Method set_bindingPath, addr 0x2f24250, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_bindingPath, addr 0x330a06c, size 0x8, virtual true, abstract: false, final true
   inline void set_bindingPath(::StringW value);
 
 protected:
@@ -173,40 +207,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Bindabl
 static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____binding_k__BackingField) == 0x3b0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____bindingPath_k__BackingField) == 0x3b8, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::BindableElement::UxmlFactory*
-class CORDL_TYPE __BindableElement__UxmlFactory
-    : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::BindableElement*, ::UnityEngine::UIElements::__BindableElement__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__BindableElement__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f24258, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BindableElement__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BindableElement__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __BindableElement__UxmlFactory(__BindableElement__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__BindableElement__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __BindableElement__UxmlFactory(__BindableElement__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BindableElement__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BindableElement);

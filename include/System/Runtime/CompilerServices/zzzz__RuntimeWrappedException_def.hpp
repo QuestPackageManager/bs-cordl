@@ -27,10 +27,12 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
 public:
   // Declarations
+  __declspec(property(get = get_WrappedException))::System::Object* WrappedException;
+
   /// @brief Field _wrappedException, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException))::System::Object* _wrappedException;
 
-  /// @brief Method GetObjectData, addr 0x262f954, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2756b5c, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
@@ -46,14 +48,17 @@ public:
 
   constexpr void __cordl_internal_set__wrappedException(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x262fa30, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2756c40, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x262f854, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2756a5c, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x262f7c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27569cc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* thrownObject);
+
+  /// @brief Method get_WrappedException, addr 0x2756c38, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_WrappedException();
 
 protected:
   // Ctor Parameters []

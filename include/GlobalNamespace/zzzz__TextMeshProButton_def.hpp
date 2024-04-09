@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x250f020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x250f018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x263350c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method get_text, addr 0x250f010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2633504, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshProUGUI> get_text();
 
 protected:

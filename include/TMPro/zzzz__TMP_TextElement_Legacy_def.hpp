@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x2d883b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316d864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

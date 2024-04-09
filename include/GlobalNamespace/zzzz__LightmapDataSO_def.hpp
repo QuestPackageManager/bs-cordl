@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set__lightmap2(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x2458974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x257fd4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightmap1, addr 0x2458954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap1, addr 0x257fd2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap1();
 
-  /// @brief Method get_lightmap2, addr 0x2458964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap2, addr 0x257fd3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap2();
 
-  /// @brief Method set_lightmap1, addr 0x245895c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap1, addr 0x257fd34, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap1(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_lightmap2, addr 0x245896c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap2, addr 0x257fd44, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap2(::UnityEngine::Texture2D* value);
 
 protected:

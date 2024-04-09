@@ -26,7 +26,6 @@ module;
 #include "System/Threading/Interlocked.hpp"
 #include "System/Threading/InternalThread.hpp"
 #include "System/Threading/LazyInitializer.hpp"
-#include "System/Threading/LazyThreadSafetyMode.hpp"
 #include "System/Threading/Lock.hpp"
 #include "System/Threading/LockHolder.hpp"
 #include "System/Threading/LockQueue.hpp"

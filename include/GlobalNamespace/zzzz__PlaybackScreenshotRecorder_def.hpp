@@ -40,24 +40,24 @@ public:
 
   __declspec(property(get = get_directory))::StringW directory;
 
-  /// @brief Method ConvertRenderTexture, addr 0x245d188, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ConvertRenderTexture, addr 0x2584840, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method HandleTexturesReady, addr 0x245cfd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleTexturesReady, addr 0x2584690, size 0x7c, virtual false, abstract: false, final false
   inline void HandleTexturesReady();
 
-  /// @brief Method Init, addr 0x245b804, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2582eb0, size 0xf4, virtual false, abstract: false, final false
   inline void Init(::StringW directory, int32_t framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
 
   static inline ::GlobalNamespace::PlaybackScreenshotRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x245cf50, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2584608, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x245cec8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2584580, size 0x88, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SaveScreenshot, addr 0x245d054, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshot, addr 0x258470c, size 0x134, virtual false, abstract: false, final false
   inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
 
   constexpr ::StringW const& __cordl_internal_get__directory() const;
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set__playbackRenderer(::UnityW<::GlobalNamespace::PlaybackRenderer> value);
 
-  /// @brief Method .ctor, addr 0x245d2a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258495c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_directory, addr 0x245cec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_directory, addr 0x2584578, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
 
 protected:

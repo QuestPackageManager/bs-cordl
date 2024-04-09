@@ -6,8 +6,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)()>(
     &::System::Collections::Concurrent::CDSCollectionETWBCLProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e0434;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x280b99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)(int32_t)>(
     &::System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26e043c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x280b9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

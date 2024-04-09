@@ -43,13 +43,13 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::System::Collections::IDictionary* attributes;
 
-  /// @brief Method GetBagAttribute, addr 0x116be80, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttribute, addr 0x1245a04, size 0xfc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBagAttribute, addr 0x116bf7c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttribute, addr 0x1245b00, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::StringW oid);
 
-  /// @brief Method GetBagAttributeKeys, addr 0x116c070, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttributeKeys, addr 0x1245bf4, size 0x118, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetBagAttributeKeys();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Entry* New_ctor(::System::Collections::IDictionary* attributes);
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x116b934, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12454b8, size 0x54c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_BagAttributeKeys, addr 0x116c378, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_BagAttributeKeys, addr 0x1245efc, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_BagAttributeKeys();
 
-  /// @brief Method get_Item, addr 0x116c188, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x1245d0c, size 0xfc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Item, addr 0x116c284, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x1245e08, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::StringW oid);
 
 protected:

@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_minHeadYPos(float_t value);
 
-  /// @brief Method .ctor, addr 0xe7ba04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53488, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,12 +206,12 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept;
 
-  /// @brief Method LimitHandPositionRelativeToHead, addr 0xe7b958, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LimitHandPositionRelativeToHead, addr 0xf533dc, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 LimitHandPositionRelativeToHead(::UnityEngine::Vector3 handPosition, ::UnityEngine::Vector3 headCenter);
 
   static inline ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method RestrictPose, addr 0xe7b764, size 0x1f4, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0xf531e8, size 0x1f4, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
                            ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
@@ -221,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set__parameters(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* value);
 
-  /// @brief Method .ctor, addr 0xe7b9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"

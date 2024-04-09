@@ -67,32 +67,32 @@ public:
   /// @brief Field signatureType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_signatureType, put = __cordl_internal_set_signatureType)) int32_t signatureType;
 
-  /// @brief Method Cast, addr 0x1146bb8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x122173c, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* Cast(::Org::BouncyCastle::Bcpg::Packet* packet);
 
-  /// @brief Method Encode, addr 0x1147654, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x12221d8, size 0x2c, virtual false, abstract: false, final false
   inline void Encode(::System::IO::Stream* outStr);
 
-  /// @brief Method GetEncoded, addr 0x11475dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1222160, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method InitVerify, addr 0x1146cc0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method InitVerify, addr 0x1221844, size 0x274, virtual false, abstract: false, final false
   inline void InitVerify(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* New_ctor(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack);
 
-  /// @brief Method Update, addr 0x1146f34, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1221ab8, size 0xcc, virtual false, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method Update, addr 0x11471f0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1221d74, size 0x110, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method Update, addr 0x1147300, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1221e84, size 0x114, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t length);
 
-  /// @brief Method Verify, addr 0x1147414, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x1221f98, size 0x158, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* pgpSig);
 
   constexpr uint8_t const& __cordl_internal_get_lastb() const;
@@ -119,28 +119,28 @@ public:
 
   constexpr void __cordl_internal_set_signatureType(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1146894, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1221418, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor, addr 0x1146c88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122180c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack);
 
-  /// @brief Method doCanonicalUpdateByte, addr 0x1147000, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method doCanonicalUpdateByte, addr 0x1221b84, size 0xe0, virtual false, abstract: false, final false
   inline void doCanonicalUpdateByte(uint8_t b);
 
-  /// @brief Method doUpdateCRLF, addr 0x11470e0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method doUpdateCRLF, addr 0x1221c64, size 0x110, virtual false, abstract: false, final false
   inline void doUpdateCRLF();
 
-  /// @brief Method get_HashAlgorithm, addr 0x11475a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x1222128, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x11475c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x1222144, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
 
-  /// @brief Method get_KeyId, addr 0x114756c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x12220f0, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_SignatureType, addr 0x1147588, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureType, addr 0x122210c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_SignatureType();
 
 protected:

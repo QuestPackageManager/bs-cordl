@@ -51,49 +51,49 @@ public:
   /// @brief Field s_Corners, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Corners, put = setStaticF_s_Corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> s_Corners;
 
-  /// @brief Method FlipLayoutAxes, addr 0x300f8f8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method FlipLayoutAxes, addr 0x33f3714, size 0x250, virtual false, abstract: false, final false
   static inline void FlipLayoutAxes(::UnityEngine::RectTransform* rect, bool keepPositioning, bool recursive);
 
-  /// @brief Method FlipLayoutOnAxis, addr 0x300f634, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method FlipLayoutOnAxis, addr 0x33f3450, size 0x2c4, virtual false, abstract: false, final false
   static inline void FlipLayoutOnAxis(::UnityEngine::RectTransform* rect, int32_t axis, bool keepPositioning, bool recursive);
 
-  /// @brief Method GetTransposed, addr 0x300fb48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetTransposed, addr 0x33f3964, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetTransposed(::UnityEngine::Vector2 input);
 
-  /// @brief Method PixelAdjustPoint, addr 0x300ebf0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustPoint, addr 0x33f2a0c, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PixelAdjustPoint(::UnityEngine::Vector2 point, ::UnityEngine::Transform* elementTransform, ::UnityEngine::Canvas* canvas);
 
-  /// @brief Method PixelAdjustPoint_Injected, addr 0x300ec94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustPoint_Injected, addr 0x33f2ab0, size 0x5c, virtual false, abstract: false, final false
   static inline void PixelAdjustPoint_Injected(ByRef<::UnityEngine::Vector2> point, ::UnityEngine::Transform* elementTransform, ::UnityEngine::Canvas* canvas, ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method PixelAdjustRect, addr 0x300ecf0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustRect, addr 0x33f2b0c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect PixelAdjustRect(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Canvas* canvas);
 
-  /// @brief Method PixelAdjustRect_Injected, addr 0x300ed90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustRect_Injected, addr 0x33f2bac, size 0x54, virtual false, abstract: false, final false
   static inline void PixelAdjustRect_Injected(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Canvas* canvas, ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method PointInRectangle, addr 0x300ede4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PointInRectangle, addr 0x33f2c00, size 0xa8, virtual false, abstract: false, final false
   static inline bool PointInRectangle(::UnityEngine::Vector2 screenPoint, ::UnityEngine::RectTransform* rect, ::UnityEngine::Camera* cam, ::UnityEngine::Vector4 offset);
 
-  /// @brief Method PointInRectangle_Injected, addr 0x300ee8c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PointInRectangle_Injected, addr 0x33f2ca8, size 0x5c, virtual false, abstract: false, final false
   static inline bool PointInRectangle_Injected(ByRef<::UnityEngine::Vector2> screenPoint, ::UnityEngine::RectTransform* rect, ::UnityEngine::Camera* cam, ByRef<::UnityEngine::Vector4> offset);
 
-  /// @brief Method RectangleContainsScreenPoint, addr 0x300eee8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RectangleContainsScreenPoint, addr 0x33f2d04, size 0xd4, virtual false, abstract: false, final false
   static inline bool RectangleContainsScreenPoint(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam);
 
-  /// @brief Method RectangleContainsScreenPoint, addr 0x300efbc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method RectangleContainsScreenPoint, addr 0x33f2dd8, size 0xac, virtual false, abstract: false, final false
   static inline bool RectangleContainsScreenPoint(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam, ::UnityEngine::Vector4 offset);
 
-  /// @brief Method ScreenPointToLocalPointInRectangle, addr 0x300f484, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ScreenPointToLocalPointInRectangle, addr 0x33f32a0, size 0x100, virtual false, abstract: false, final false
   static inline bool ScreenPointToLocalPointInRectangle(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam, ByRef<::UnityEngine::Vector2> localPoint);
 
-  /// @brief Method ScreenPointToRay, addr 0x300f354, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ScreenPointToRay, addr 0x33f3170, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Camera* cam, ::UnityEngine::Vector2 screenPos);
 
-  /// @brief Method ScreenPointToWorldPointInRectangle, addr 0x300f068, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ScreenPointToWorldPointInRectangle, addr 0x33f2e84, size 0x2ec, virtual false, abstract: false, final false
   static inline bool ScreenPointToWorldPointInRectangle(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam, ByRef<::UnityEngine::Vector3> worldPoint);
 
-  /// @brief Method WorldToScreenPoint, addr 0x300f584, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WorldToScreenPoint, addr 0x33f33a0, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 WorldToScreenPoint(::UnityEngine::Camera* cam, ::UnityEngine::Vector3 worldPoint);
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF_s_Corners();

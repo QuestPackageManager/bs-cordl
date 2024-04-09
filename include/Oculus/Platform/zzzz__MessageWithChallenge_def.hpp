@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithChallenge)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithChallenge : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
-  /// @brief Method GetChallenge, addr 0x2845854, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetChallenge, addr 0x29c7e38, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-  /// @brief Method GetDataFromMessage, addr 0x2845890, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c7e74, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2843144, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c5728, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

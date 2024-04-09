@@ -1,13 +1,13 @@
 #pragma once
-#include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverterCollection_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonConverterCollection._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonConverterCollection::*)()>(&::Newtonsoft::Json::JsonConverterCollection::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x279e0f0;
+  constexpr static std::size_t addrs = 0x28c392c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonConverterCollection*>::get(), ".ctor",

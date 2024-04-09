@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set_screenshotWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x245bca0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2583358, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView,
                     bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
                     ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots,
@@ -461,15 +461,15 @@ public:
   /// @brief Field _recordingPath, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingPath, put = __cordl_internal_set__recordingPath))::StringW _recordingPath;
 
-  /// @brief Method HandleGameStateChanged, addr 0x245bb28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleGameStateChanged, addr 0x25831e4, size 0x70, virtual false, abstract: false, final false
   inline void HandleGameStateChanged();
 
-  /// @brief Method Init, addr 0x245add4, size 0x710, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x258219c, size 0x704, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x245b8f8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2582fa4, size 0x228, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -576,7 +576,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x245bc90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2583348, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

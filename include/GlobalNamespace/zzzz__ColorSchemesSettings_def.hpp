@@ -53,10 +53,10 @@ public:
 
   static inline ::GlobalNamespace::__ColorSchemesSettings____c* New_ctor();
 
-  /// @brief Method <.ctor>b__8_0, addr 0x1317b2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__8_0, addr 0x13f10ac, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* __ctor_b__8_0(::GlobalNamespace::ColorSchemeSO* csSO);
 
-  /// @brief Method .ctor, addr 0x1317b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13f10a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__ColorSchemesSettings____c* getStaticF___9();
@@ -113,29 +113,29 @@ public:
 
   __declspec(property(get = get_selectedColorSchemeId, put = set_selectedColorSchemeId))::StringW selectedColorSchemeId;
 
-  /// @brief Method GetColorSchemeForId, addr 0x1317850, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForId, addr 0x13f0dd0, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForId(::StringW id);
 
-  /// @brief Method GetColorSchemeForIdx, addr 0x13177f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForIdx, addr 0x13f0d78, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForIdx(int32_t idx);
 
-  /// @brief Method GetNumberOfColorSchemes, addr 0x13177b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfColorSchemes, addr 0x13f0d30, size 0x48, virtual false, abstract: false, final false
   inline int32_t GetNumberOfColorSchemes();
 
-  /// @brief Method GetOverrideColorScheme, addr 0x1317aac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetOverrideColorScheme, addr 0x13f102c, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetOverrideColorScheme();
 
-  /// @brief Method GetSelectedColorScheme, addr 0x13179b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedColorScheme, addr 0x13f0f38, size 0x54, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetSelectedColorScheme();
 
-  /// @brief Method GetSelectedColorSchemeIdx, addr 0x1317a0c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedColorSchemeIdx, addr 0x13f0f8c, size 0xa0, virtual false, abstract: false, final false
   inline int32_t GetSelectedColorSchemeIdx();
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
-  /// @brief Method SetColorSchemeForId, addr 0x13178a8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetColorSchemeForId, addr 0x13f0e28, size 0x110, virtual false, abstract: false, final false
   inline void SetColorSchemeForId(::GlobalNamespace::ColorScheme* colorScheme);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>*& __cordl_internal_get__colorSchemesDict();
@@ -162,16 +162,16 @@ public:
 
   constexpr void __cordl_internal_set_overrideDefaultColors(bool value);
 
-  /// @brief Method .ctor, addr 0x13176a8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13f0c28, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
-  /// @brief Method .ctor, addr 0x1317448, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13f09c8, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
-  /// @brief Method get_selectedColorSchemeId, addr 0x1317440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColorSchemeId, addr 0x13f09c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedColorSchemeId();
 
-  /// @brief Method set_selectedColorSchemeId, addr 0x1317438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedColorSchemeId, addr 0x13f09b8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedColorSchemeId(::StringW value);
 
 protected:

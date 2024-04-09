@@ -95,36 +95,36 @@ public:
   /// @brief Field source, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::StringW source;
 
-  /// @brief Method AppendBufferPrimitive, addr 0x2572674, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AppendBufferPrimitive, addr 0x2698160, size 0xc8, virtual false, abstract: false, final false
   inline void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buf, ByRef<int32_t> bidx);
 
-  /// @brief Method AppendCJKExtension, addr 0x256ed40, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppendCJKExtension, addr 0x269482c, size 0x94, virtual false, abstract: false, final false
   inline void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
 
-  /// @brief Method AppendKana, addr 0x256ee88, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppendKana, addr 0x2694974, size 0x94, virtual false, abstract: false, final false
   inline void AppendKana(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3, bool isSmallKana, uint8_t markType, bool isKatakana, bool isHalfWidth);
 
-  /// @brief Method AppendLevel5, addr 0x257273c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AppendLevel5, addr 0x2698228, size 0x98, virtual false, abstract: false, final false
   inline void AppendLevel5(uint8_t category, uint8_t lv1);
 
-  /// @brief Method AppendNormal, addr 0x256ebfc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AppendNormal, addr 0x26946e8, size 0x144, virtual false, abstract: false, final false
   inline void AppendNormal(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3);
 
-  /// @brief Method GetOptimizedLength, addr 0x2572cb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetOptimizedLength, addr 0x269879c, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetOptimizedLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t len, uint8_t defaultValue);
 
-  /// @brief Method GetResult, addr 0x25727d4, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x26982c0, size 0x4dc, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* GetResult();
 
-  /// @brief Method GetResultAndReset, addr 0x256e800, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetResultAndReset, addr 0x26942ec, size 0x24, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* GetResultAndReset();
 
-  /// @brief Method Initialize, addr 0x256e30c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2693df8, size 0x178, virtual false, abstract: false, final false
   inline void Initialize(::System::Globalization::CompareOptions options, int32_t lcid, ::StringW s, bool frenchSort);
 
   static inline ::Mono::Globalization::Unicode::SortKeyBuffer* New_ctor(int32_t lcid);
 
-  /// @brief Method Reset, addr 0x2572660, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x269814c, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_frenchSort() const;
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x256e304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2693df0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid);
 
 protected:

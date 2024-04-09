@@ -54,16 +54,16 @@ public:
   /// @brief Field UserData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_UserData, put = __cordl_internal_set_UserData))::System::Object* UserData;
 
-  /// @brief Method FromBytes, addr 0x23c37c0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x24e3d0c, size 0x12c, virtual false, abstract: false, final false
   inline bool FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t packetSize);
 
-  /// @brief Method GetHeaderSize, addr 0x23c00f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetHeaderSize, addr 0x24e0640, size 0x88, virtual false, abstract: false, final false
   inline int32_t GetHeaderSize();
 
-  /// @brief Method GetHeaderSize, addr 0x23c54d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetHeaderSize, addr 0x24e5a20, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t GetHeaderSize(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method MarkFragmented, addr 0x23c695c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method MarkFragmented, addr 0x24e6ea8, size 0x30, virtual false, abstract: false, final false
   inline void MarkFragmented();
 
   static inline ::LiteNetLib::NetPacket* New_ctor(::LiteNetLib::PacketProperty property, int32_t size);
@@ -88,59 +88,59 @@ public:
 
   constexpr void __cordl_internal_set_UserData(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x23c6ba0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e70ec, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method .ctor, addr 0x23c6b34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e7080, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline int32_t getStaticF_LastProperty();
 
-  /// @brief Method get_ChannelId, addr 0x23c698c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelId, addr 0x24e6ed8, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t get_ChannelId();
 
-  /// @brief Method get_ConnectionNumber, addr 0x23c688c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionNumber, addr 0x24e6dd8, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t get_ConnectionNumber();
 
-  /// @brief Method get_FragmentId, addr 0x23c69e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentId, addr 0x24e6f30, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_FragmentId();
 
-  /// @brief Method get_FragmentPart, addr 0x23c6a54, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentPart, addr 0x24e6fa0, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_FragmentPart();
 
-  /// @brief Method get_FragmentsTotal, addr 0x23c6ac4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentsTotal, addr 0x24e7010, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_FragmentsTotal();
 
-  /// @brief Method get_IsFragmented, addr 0x23c692c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsFragmented, addr 0x24e6e78, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsFragmented();
 
-  /// @brief Method get_Property, addr 0x23c38ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x24e3e38, size 0x2c, virtual false, abstract: false, final false
   inline ::LiteNetLib::PacketProperty get_Property();
 
-  /// @brief Method get_Sequence, addr 0x23c68b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Sequence, addr 0x24e6e04, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_Sequence();
 
   static inline void setStaticF_LastProperty(int32_t value);
 
-  /// @brief Method set_ChannelId, addr 0x23c69b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_ChannelId, addr 0x24e6f04, size 0x2c, virtual false, abstract: false, final false
   inline void set_ChannelId(uint8_t value);
 
-  /// @brief Method set_ConnectionNumber, addr 0x23c2e88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_ConnectionNumber, addr 0x24e33d4, size 0x34, virtual false, abstract: false, final false
   inline void set_ConnectionNumber(uint8_t value);
 
-  /// @brief Method set_FragmentId, addr 0x23c6a44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentId, addr 0x24e6f90, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentId(uint16_t value);
 
-  /// @brief Method set_FragmentPart, addr 0x23c6ab4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentPart, addr 0x24e7000, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentPart(uint16_t value);
 
-  /// @brief Method set_FragmentsTotal, addr 0x23c6b24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentsTotal, addr 0x24e7070, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentsTotal(uint16_t value);
 
-  /// @brief Method set_Property, addr 0x23c5500, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x24e5a4c, size 0x34, virtual false, abstract: false, final false
   inline void set_Property(::LiteNetLib::PacketProperty value);
 
-  /// @brief Method set_Sequence, addr 0x23c6918, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Sequence, addr 0x24e6e64, size 0x10, virtual false, abstract: false, final false
   inline void set_Sequence(uint16_t value);
 
 protected:

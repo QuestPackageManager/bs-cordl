@@ -26,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get__whitelistPlatforms,
                       put = __cordl_internal_set__whitelistPlatforms))::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> _whitelistPlatforms;
 
-  /// @brief Method Awake, addr 0x22b1054, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23d0ad8, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableIfNotPlatform* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
 
-  /// @brief Method .ctor, addr 0x22b10ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d0b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

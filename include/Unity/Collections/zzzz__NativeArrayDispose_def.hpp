@@ -22,7 +22,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE NativeArrayDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x2de5398, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x31cbc78, size 0x44, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []

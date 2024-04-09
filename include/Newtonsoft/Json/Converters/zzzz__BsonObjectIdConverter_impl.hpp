@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::BsonObjectIdConverter::WriteJson)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2806698;
+  constexpr static std::size_t addrs = 0x29833f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,8 +28,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::BsonObjectIdConverter::ReadJson)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x2806798;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x29834f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::BsonObjectIdConverter::CanConvert)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2806928;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x2983694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)()>(
     &::Newtonsoft::Json::Converters::BsonObjectIdConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28069ac;
+  constexpr static std::size_t addrs = 0x298371c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>::get(),

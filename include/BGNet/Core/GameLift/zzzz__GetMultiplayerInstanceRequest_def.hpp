@@ -39,7 +39,7 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xef1b70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfcb6f4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW authUserId,
                     ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,

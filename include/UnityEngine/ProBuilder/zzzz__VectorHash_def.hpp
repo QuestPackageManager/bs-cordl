@@ -29,16 +29,16 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x2cc7934, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x30aade4, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x2cb2260, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3095710, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetHashCode, addr 0x2cc79b0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x30aae60, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
 
-  /// @brief Method HashFloat, addr 0x2cc78f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HashFloat, addr 0x30aada4, size 0x40, virtual false, abstract: false, final false
   static inline int32_t HashFloat(float_t f);
 
 protected:

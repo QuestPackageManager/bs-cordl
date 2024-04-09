@@ -273,10 +273,10 @@ public:
   /// @brief Field s_Settings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Settings, put = setStaticF_s_Settings))::UnityW<::Unity::XR::Oculus::OculusSettings> s_Settings;
 
-  /// @brief Method Awake, addr 0x2dbf07c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x31a752c, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetStereoRenderingMode, addr 0x2dbb864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetStereoRenderingMode, addr 0x31a3d14, size 0x8, virtual false, abstract: false, final false
   inline uint16_t GetStereoRenderingMode();
 
   static inline ::Unity::XR::Oculus::OculusSettings* New_ctor();
@@ -395,7 +395,7 @@ public:
 
   constexpr void __cordl_internal_set_m_StereoRenderingModeDesktop(::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop value);
 
-  /// @brief Method .ctor, addr 0x2dbf0c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a7578, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::Unity::XR::Oculus::OculusSettings> getStaticF_s_Settings();

@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(
     ::System::Type*, ::StringW, ::System::Type*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::ReflectPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x2a6a104;
+  constexpr static std::size_t addrs = 0x2e4e8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::StringW, ::System::Type*, ::System::Reflection::PropertyInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*,
     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::ReflectPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2a6a3f4;
+  constexpr static std::size_t addrs = 0x2e4eba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::StringW, ::System::Type*, ::System::Type*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*,
     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::ReflectPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2a6a514;
+  constexpr static std::size_t addrs = 0x2e4ecc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_AmbientValue)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2a6a5e0;
+  constexpr static std::size_t addrs = 0x2e4ed90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a6a75c;
+  constexpr static std::size_t addrs = 0x2e4ef0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_DefaultValue)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x2a6a764;
+  constexpr static std::size_t addrs = 0x2e4ef14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_GetMethodValue)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x2a6a9f4;
+  constexpr static std::size_t addrs = 0x2e4f1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_IsExtender)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2a6ae30;
+  constexpr static std::size_t addrs = 0x2e4f5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -150,23 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2a6ae90;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 14));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.get_PropertyType
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
-    &::System::ComponentModel::ReflectPropertyDescriptor::get_PropertyType)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a6b494;
+  constexpr static std::size_t addrs = 0x2e4f640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,13 +160,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.get_PropertyType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
+    &::System::ComponentModel::ReflectPropertyDescriptor::get_PropertyType)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2e4fc44;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 16));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.get_ResetMethodValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_ResetMethodValue)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2a6b49c;
+  constexpr static std::size_t addrs = 0x2e4fc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_SetMethodValue)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x2a6af90;
+  constexpr static std::size_t addrs = 0x2e4f740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::get_ShouldSerializeMethodValue)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2a6b6a4;
+  constexpr static std::size_t addrs = 0x2e4fe54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReflectPropertyDescriptor::*)(
     ::System::ComponentModel::IExtenderProvider*, ::System::Object*)>(&::System::ComponentModel::ReflectPropertyDescriptor::ExtenderCanResetValue)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x2a6b8ac;
+  constexpr static std::size_t addrs = 0x2e5005c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ReflectPropertyDescriptor::*)()>(
     &::System::ComponentModel::ReflectPropertyDescriptor::ExtenderGetReceiverType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a6bc60;
+  constexpr static std::size_t addrs = 0x2e50410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (
     ::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::ComponentModel::IExtenderProvider*)>(&::System::ComponentModel::ReflectPropertyDescriptor::ExtenderGetType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2a6bc68;
+  constexpr static std::size_t addrs = 0x2e50418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::ComponentModel::IExtenderProvider*, ::System::Object*)>(&::System::ComponentModel::ReflectPropertyDescriptor::ExtenderGetValue)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2a6bb30;
+  constexpr static std::size_t addrs = 0x2e502e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(
     ::System::ComponentModel::IExtenderProvider*, ::System::Object*, ::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ReflectPropertyDescriptor::ExtenderResetValue)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x2a6bc78;
+  constexpr static std::size_t addrs = 0x2e50428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,7 +303,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::IExtenderProvider*, ::System::Object*, ::System::Object*, ::System::ComponentModel::PropertyDescriptor*)>(
     &::System::ComponentModel::ReflectPropertyDescriptor::ExtenderSetValue)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x2a6c18c;
+  constexpr static std::size_t addrs = 0x2e5093c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReflectPropertyDescriptor::*)(
     ::System::ComponentModel::IExtenderProvider*, ::System::Object*)>(&::System::ComponentModel::ReflectPropertyDescriptor::ExtenderShouldSerializeValue)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x2a6c5ec;
+  constexpr static std::size_t addrs = 0x2e50d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,13 +337,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ReflectPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x2a6ca1c;
+  constexpr static std::size_t addrs = 0x2e511cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 16));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 17));
     return ___internal_method;
   }
 };
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Collections::IList*)>(
     &::System::ComponentModel::ReflectPropertyDescriptor::FillAttributes)> {
   constexpr static std::size_t size = 0xab8;
-  constexpr static std::size_t addrs = 0x2a6cc90;
+  constexpr static std::size_t addrs = 0x2e51440;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -369,23 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ReflectPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x2a6d8a4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 17));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.OnValueChanged
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*, ::System::EventArgs*)>(
-    &::System::ComponentModel::ReflectPropertyDescriptor::OnValueChanged)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2a6dc6c;
+  constexpr static std::size_t addrs = 0x2e52054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -395,13 +379,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.ResetValue
+//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.OnValueChanged
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*)>(
-    &::System::ComponentModel::ReflectPropertyDescriptor::ResetValue)> {
-  constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x2a6dd14;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*, ::System::EventArgs*)>(
+    &::System::ComponentModel::ReflectPropertyDescriptor::OnValueChanged)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x2e5241c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -411,13 +395,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.SetValue
+//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.ResetValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
-    &::System::ComponentModel::ReflectPropertyDescriptor::SetValue)> {
-  constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x2a6e168;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*)>(
+    &::System::ComponentModel::ReflectPropertyDescriptor::ResetValue)> {
+  constexpr static std::size_t size = 0x454;
+  constexpr static std::size_t addrs = 0x2e524c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -427,19 +411,35 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.ShouldSerializeValue
+//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.SetValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*)>(
-    &::System::ComponentModel::ReflectPropertyDescriptor::ShouldSerializeValue)> {
-  constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x2a6e744;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
+    &::System::ComponentModel::ReflectPropertyDescriptor::SetValue)> {
+  constexpr static std::size_t size = 0x5dc;
+  constexpr static std::size_t addrs = 0x2e52918;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 21));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ReflectPropertyDescriptor.ShouldSerializeValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReflectPropertyDescriptor::*)(::System::Object*)>(
+    &::System::ComponentModel::ReflectPropertyDescriptor::ShouldSerializeValue)> {
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x2e52ef4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 22));
     return ___internal_method;
   }
 };
@@ -769,12 +769,12 @@ inline bool System::ComponentModel::ReflectPropertyDescriptor::get_IsExtender() 
 }
 inline bool System::ComponentModel::ReflectPropertyDescriptor::get_IsReadOnly() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 14)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Type* System::ComponentModel::ReflectPropertyDescriptor::get_PropertyType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 15)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 inline ::System::Reflection::MethodInfo* System::ComponentModel::ReflectPropertyDescriptor::get_ResetMethodValue() {
@@ -845,7 +845,7 @@ inline bool System::ComponentModel::ReflectPropertyDescriptor::ExtenderShouldSer
 }
 inline bool System::ComponentModel::ReflectPropertyDescriptor::CanResetValue(::System::Object* component) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 16)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, component);
 }
 inline void System::ComponentModel::ReflectPropertyDescriptor::FillAttributes(::System::Collections::IList* attributes) {
@@ -855,27 +855,27 @@ inline void System::ComponentModel::ReflectPropertyDescriptor::FillAttributes(::
 }
 inline ::System::Object* System::ComponentModel::ReflectPropertyDescriptor::GetValue(::System::Object* component) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 17)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, component);
 }
 inline void System::ComponentModel::ReflectPropertyDescriptor::OnValueChanged(::System::Object* component, ::System::EventArgs* e) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 18)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, component, e);
 }
 inline void System::ComponentModel::ReflectPropertyDescriptor::ResetValue(::System::Object* component) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 19)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, component);
 }
 inline void System::ComponentModel::ReflectPropertyDescriptor::SetValue(::System::Object* component, ::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 20)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, component, value);
 }
 inline bool System::ComponentModel::ReflectPropertyDescriptor::ShouldSerializeValue(::System::Object* component) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 21)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectPropertyDescriptor*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, component);
 }
 // Ctor Parameters []

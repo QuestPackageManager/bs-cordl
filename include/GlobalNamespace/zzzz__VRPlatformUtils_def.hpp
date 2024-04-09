@@ -31,19 +31,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRPlatformUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x22ba40c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x23d98bc, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x22b9c68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x23d9118, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDefaultImplementation();
 
-  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x22b9ce4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x23d9194, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDownDefaultImplementation();
 
-  /// @brief Method StopXR, addr 0x22ba544, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method StopXR, addr 0x23d99f4, size 0x100, virtual false, abstract: false, final false
   static inline void StopXR(::GlobalNamespace::IVerboseLogger* logger);
 
-  /// @brief Method TriggerValueDefaultImplementation, addr 0x22ba38c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method TriggerValueDefaultImplementation, addr 0x23d983c, size 0x80, virtual false, abstract: false, final false
   static inline float_t TriggerValueDefaultImplementation(::UnityEngine::XR::XRNode node);
 
 protected:

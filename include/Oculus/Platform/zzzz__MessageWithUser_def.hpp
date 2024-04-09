@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithUser)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUser : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2847fd8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29ca5bc, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::User* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetUser, addr 0x2847f9c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUser, addr 0x29ca580, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::User* GetUser();
 
   static inline ::Oculus::Platform::MessageWithUser* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2843c9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6280, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

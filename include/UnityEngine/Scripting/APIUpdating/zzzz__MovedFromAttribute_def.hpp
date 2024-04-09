@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
 
-  /// @brief Method .ctor, addr 0x2e37ec8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321ecb0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
-  /// @brief Method .ctor, addr 0x2e37f34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321ed1c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceNamespace);
 
 protected:

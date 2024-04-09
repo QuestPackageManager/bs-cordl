@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::OidTokenizer::*)(::StringW)>(&::Org::BouncyCastle::Asn1::OidTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x125c02c;
+  constexpr static std::size_t addrs = 0x1335bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::OidTokenizer::*)()>(&::Org::BouncyCastle::Asn1::OidTokenizer::get_HasMoreTokens)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x125c054;
+  constexpr static std::size_t addrs = 0x1335bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::OidTokenizer*>::get(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::OidTokenizer::*)()>(&::Org::BouncyCastle::Asn1::OidTokenizer::NextToken)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x125c064;
+  constexpr static std::size_t addrs = 0x1335be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::OidTokenizer*>::get(), "NextToken",

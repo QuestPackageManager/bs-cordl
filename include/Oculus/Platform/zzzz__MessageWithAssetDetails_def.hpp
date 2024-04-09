@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithAssetDetails)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetDetails : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetails*> {
 public:
   // Declarations
-  /// @brief Method GetAssetDetails, addr 0x2845194, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetDetails, addr 0x29c7778, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetails* GetAssetDetails();
 
-  /// @brief Method GetDataFromMessage, addr 0x28451d0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c77b4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetails* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAssetDetails* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2842e84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c5468, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

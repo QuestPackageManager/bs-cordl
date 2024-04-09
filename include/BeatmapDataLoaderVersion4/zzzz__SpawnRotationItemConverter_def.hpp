@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnRotations,
                       put = __cordl_internal_set__spawnRotations))::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> _spawnRotations;
 
-  /// @brief Method Convert, addr 0x132881c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1404608, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::SpawnRotationItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations,
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnRotations(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> value);
 
-  /// @brief Method .ctor, addr 0x13287f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14045dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations, ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:

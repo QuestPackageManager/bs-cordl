@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlReaderSection)
+namespace System::Xml {
+class XmlResolver;
+}
 // Forward declare root types
 namespace System::Xml::XmlConfiguration {
 class XmlReaderSection;
@@ -18,10 +21,13 @@ namespace System::Xml::XmlConfiguration {
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x29ea4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultResolver, addr 0x2df08fc, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Xml::XmlResolver* CreateDefaultResolver();
+
+  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x2df0958, size 0x8, virtual false, abstract: false, final false
   static inline bool get_CollapseWhiteSpaceIntoEmptyString();
 
-  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x29f82ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x2df08f4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_ProhibitDefaultUrlResolver();
 
 protected:

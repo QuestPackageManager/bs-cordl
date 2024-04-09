@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IList*, ::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::AddRange)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x11ed3bc;
+  constexpr static std::size_t addrs = 0x12c6f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Collections::IEnumerable*, ::System::Type*)>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::CheckElementsAreOfType)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x11ed718;
+  constexpr static std::size_t addrs = 0x12c729c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (*)(::System::Collections::IDictionary*)>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x11eda2c;
+  constexpr static std::size_t addrs = 0x12c75b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x11ec360;
+  constexpr static std::size_t addrs = 0x12c5ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x11ec2fc;
+  constexpr static std::size_t addrs = 0x12c5e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Collections::IEnumerator*)>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::RequireNext)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x11edb08;
+  constexpr static std::size_t addrs = 0x12c768c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ToString)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x11edc40;
+  constexpr static std::size_t addrs = 0x12c77c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11edf4c;
+  constexpr static std::size_t addrs = 0x12c7ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

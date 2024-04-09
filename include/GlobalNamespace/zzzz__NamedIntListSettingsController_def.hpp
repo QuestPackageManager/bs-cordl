@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x24106e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2533258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x24106b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x2533228, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
 protected:
@@ -109,15 +109,15 @@ public:
                       put = __cordl_internal_set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*,
                                                                            ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> _textValuePairs;
 
-  /// @brief Method ApplyValue, addr 0x2410600, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x2533178, size 0x7c, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x2410538, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x25330b0, size 0xc8, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::NamedIntListSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x241067c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x25331f4, size 0x34, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__settingsValue() const;
@@ -135,7 +135,7 @@ public:
   constexpr void __cordl_internal_set__textValuePairs(
       ::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> value);
 
-  /// @brief Method .ctor, addr 0x24106d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2533250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

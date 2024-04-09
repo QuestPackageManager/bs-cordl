@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DoubleSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb8c9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf91900, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

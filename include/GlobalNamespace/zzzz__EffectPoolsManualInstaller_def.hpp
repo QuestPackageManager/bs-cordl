@@ -63,7 +63,7 @@ public:
   /// @brief Field _shortBeatEffectPrefab, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__shortBeatEffectPrefab, put = __cordl_internal_set__shortBeatEffectPrefab))::UnityW<::GlobalNamespace::BeatEffect> _shortBeatEffectPrefab;
 
-  /// @brief Method ManualInstallBindings, addr 0x2502104, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ManualInstallBindings, addr 0x26275f0, size 0x248, virtual false, abstract: false, final false
   inline void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
 
   static inline ::GlobalNamespace::EffectPoolsManualInstaller* New_ctor();
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__shortBeatEffectPrefab(::UnityW<::GlobalNamespace::BeatEffect> value);
 
-  /// @brief Method .ctor, addr 0x250234c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2627838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

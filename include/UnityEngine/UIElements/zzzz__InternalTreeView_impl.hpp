@@ -31,6 +31,31 @@
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView__UxmlFactory._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView__UxmlFactory::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView__UxmlFactory::_ctor)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x33cecb8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__UxmlFactory*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::UIElements::__InternalTreeView__UxmlFactory* UnityEngine::UIElements::__InternalTreeView__UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__InternalTreeView__UxmlFactory*>());
+}
+inline void UnityEngine::UIElements::__InternalTreeView__UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__UxmlFactory*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::__InternalTreeView__UxmlFactory::__InternalTreeView__UxmlFactory() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView__UxmlTraits.Init
 template <>
 
@@ -38,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::__InternalTreeView__UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x2feaee4;
+  constexpr static std::size_t addrs = 0x33ced00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView__UxmlTraits::*)()>(
     &::UnityEngine::UIElements::__InternalTreeView__UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x2feb144;
+  constexpr static std::size_t addrs = 0x33cef60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,13 +161,381 @@ inline void UnityEngine::UIElements::__InternalTreeView__UxmlTraits::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__InternalTreeView__UxmlTraits::__InternalTreeView__UxmlTraits() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper.get_id
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::get_id)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x33ce318;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper>::get(), "get_id",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline int32_t UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::get_id() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper>::get(), "get_id",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "item", ty: "::UnityEngine::UIElements::ITreeViewItem*", modifiers: "", def_value:
+// Some("nullptr") }]
+constexpr ::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::__InternalTreeView__TreeViewItemWrapper(int32_t depth, ::UnityEngine::UIElements::ITreeViewItem* item) noexcept {
+  this->depth = depth;
+  this->item = item;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::__InternalTreeView__TreeViewItemWrapper() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)(int32_t)>(
+    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::_ctor)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x33cc1b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_IDisposable_Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x33cf16c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::MoveNext)> {
+  constexpr static std::size_t size = 0x3f8;
+  constexpr static std::size_t addrs = 0x33cf170;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ITreeViewItem* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x33cf568;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+        "System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_IEnumerator_Reset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x33cf570;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_IEnumerator_get_Current
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x33cf5b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
+        &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x33cf5b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+        "System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_IEnumerable_GetEnumerator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
+    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerable_GetEnumerator)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x33cf658;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
+constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__ITreeViewItem__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>"
+constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__ITreeViewItem__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+constexpr int32_t& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::UnityEngine::UIElements::ITreeViewItem*& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___2__current(::UnityEngine::UIElements::ITreeViewItem* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___l__initialThreadId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
+}
+constexpr int32_t const& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___l__initialThreadId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
+}
+constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___l__initialThreadId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____l__initialThreadId = value;
+}
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get_rootItems() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rootItems;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get_rootItems() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rootItems;
+}
+constexpr void
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set_rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___3__rootItems() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__rootItems;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___3__rootItems() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__rootItems;
+}
+constexpr void
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___3__rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__rootItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>*&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__iteratorStack_5__1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____iteratorStack_5__1;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__iteratorStack_5__1() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____iteratorStack_5__1;
+}
+constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__iteratorStack_5__1(
+    ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____iteratorStack_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentIterator_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentIterator_5__2;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*> const&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentIterator_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentIterator_5__2;
+}
+constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__currentIterator_5__2(
+    ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentIterator_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__hasNext_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasNext_5__3;
+}
+constexpr bool const& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__hasNext_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasNext_5__3;
+}
+constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__hasNext_5__3(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hasNext_5__3 = value;
+}
+constexpr ::UnityEngine::UIElements::ITreeViewItem*& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentItem_5__4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentItem_5__4;
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const&
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentItem_5__4() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentItem_5__4;
+}
+constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__currentItem_5__4(::UnityEngine::UIElements::ITreeViewItem* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentItem_5__4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>(__1__state));
+}
+inline void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+}
+inline void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ITreeViewItem*
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+      "System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ITreeViewItem*, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Object* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*
+UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+      "System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*, false>(this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
+                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__InternalTreeView___GetAllItems_d__64() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::InternalTreeView.get_unbindItem
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* (
     ::UnityEngine::UIElements::InternalTreeView::*)()>(&::UnityEngine::UIElements::InternalTreeView::get_unbindItem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fe7c38;
+  constexpr static std::size_t addrs = 0x33cba54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InternalTreeView*>::get(),
@@ -156,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(int32_t)>(
     &::UnityEngine::UIElements::InternalTreeView::set_itemHeight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2fe7c40;
+  constexpr static std::size_t addrs = 0x33cba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(bool)>(
     &::UnityEngine::UIElements::InternalTreeView::set_showBorder)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2fe7c60;
+  constexpr static std::size_t addrs = 0x33cba7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -186,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::SelectionType)>(
     &::UnityEngine::UIElements::InternalTreeView::set_selectionType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2fe7c80;
+  constexpr static std::size_t addrs = 0x33cba9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::AlternatingRowBackground)>(
     &::UnityEngine::UIElements::InternalTreeView::set_showAlternatingRowBackgrounds)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2fe7c9c;
+  constexpr static std::size_t addrs = 0x33cbab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)()>(&::UnityEngine::UIElements::InternalTreeView::_ctor)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x2fe7cb8;
+  constexpr static std::size_t addrs = 0x33cbad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InternalTreeView*>::get(), ".ctor",
@@ -229,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)()>(
     &::UnityEngine::UIElements::InternalTreeView::RefreshItems)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2fe820c;
+  constexpr static std::size_t addrs = 0x33cc028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InternalTreeView*>::get(),
@@ -242,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)()>(&::UnityEngine::UIElements::InternalTreeView::Rebuild)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2fe82d4;
+  constexpr static std::size_t addrs = 0x33cc0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InternalTreeView*>::get(), "Rebuild",
@@ -256,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)()>(
     &::UnityEngine::UIElements::InternalTreeView::OnViewDataReady)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2fe82f8;
+  constexpr static std::size_t addrs = 0x33cc114;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -272,7 +665,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*)>(
     &::UnityEngine::UIElements::InternalTreeView::GetAllItems)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2fe8334;
+  constexpr static std::size_t addrs = 0x33cc150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -288,7 +681,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::KeyDownEvent*)>(
     &::UnityEngine::UIElements::InternalTreeView::OnKeyDown)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2fe83dc;
+  constexpr static std::size_t addrs = 0x33cc1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)()>(
     &::UnityEngine::UIElements::InternalTreeView::ListViewRefresh)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2fe82b8;
+  constexpr static std::size_t addrs = 0x33cc0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InternalTreeView*>::get(),
@@ -317,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Object*>*)>(&::UnityEngine::UIElements::InternalTreeView::OnItemsChosen)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x2fe8a88;
+  constexpr static std::size_t addrs = 0x33cc8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,7 +725,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Object*>*)>(&::UnityEngine::UIElements::InternalTreeView::OnSelectionChange)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x2fe8ea8;
+  constexpr static std::size_t addrs = 0x33cccc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::MouseUpEvent*)>(
     &::UnityEngine::UIElements::InternalTreeView::OnTreeViewMouseUp)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2fe92fc;
+  constexpr static std::size_t addrs = 0x33cd118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -362,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::MouseUpEvent*)>(
     &::UnityEngine::UIElements::InternalTreeView::OnItemMouseUp)> {
   constexpr static std::size_t size = 0x7fc;
-  constexpr static std::size_t addrs = 0x2fe9334;
+  constexpr static std::size_t addrs = 0x33cd150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,7 +770,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::InternalTreeView::*)()>(
     &::UnityEngine::UIElements::InternalTreeView::MakeTreeItem)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x2fe9b30;
+  constexpr static std::size_t addrs = 0x33cd94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InternalTreeView*>::get(),
@@ -391,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::InternalTreeView::UnbindTreeItem)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2fea010;
+  constexpr static std::size_t addrs = 0x33cde2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -407,7 +800,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::InternalTreeView::BindTreeItem)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x2fea12c;
+  constexpr static std::size_t addrs = 0x33cdf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -423,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::InternalTreeView::*)(int32_t)>(
     &::UnityEngine::UIElements::InternalTreeView::GetItemId)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2fea488;
+  constexpr static std::size_t addrs = 0x33ce2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::InternalTreeView::*)(int32_t)>(
     &::UnityEngine::UIElements::InternalTreeView::IsExpandedByIndex)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2fe8498;
+  constexpr static std::size_t addrs = 0x33cc2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(int32_t)>(
     &::UnityEngine::UIElements::InternalTreeView::CollapseItemByIndex)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x2fe883c;
+  constexpr static std::size_t addrs = 0x33cc658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(int32_t)>(
     &::UnityEngine::UIElements::InternalTreeView::ExpandItemByIndex)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x2fe8534;
+  constexpr static std::size_t addrs = 0x33cc350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,7 +876,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::ChangeEvent_1<bool>*)>(
     &::UnityEngine::UIElements::InternalTreeView::ToggleExpandedState)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2feaabc;
+  constexpr static std::size_t addrs = 0x33ce8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -499,7 +892,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*, int32_t,
     ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper>*>)>(&::UnityEngine::UIElements::InternalTreeView::CreateWrappers)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x2fea59c;
+  constexpr static std::size_t addrs = 0x33ce3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -517,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)()>(
     &::UnityEngine::UIElements::InternalTreeView::RegenerateWrappers)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2fe8230;
+  constexpr static std::size_t addrs = 0x33cc04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InternalTreeView*>::get(),
@@ -531,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InternalTreeView::*)(::UnityEngine::UIElements::CustomStyleResolvedEvent*)>(
     &::UnityEngine::UIElements::InternalTreeView::OnCustomStyleResolved)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2feac40;
+  constexpr static std::size_t addrs = 0x33cea5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -895,396 +1288,3 @@ inline void UnityEngine::UIElements::InternalTreeView::OnCustomStyleResolved(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::InternalTreeView::InternalTreeView() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView__UxmlFactory._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView__UxmlFactory::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView__UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2feae9c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__UxmlFactory*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-inline ::UnityEngine::UIElements::__InternalTreeView__UxmlFactory* UnityEngine::UIElements::__InternalTreeView__UxmlFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__InternalTreeView__UxmlFactory*>());
-}
-inline void UnityEngine::UIElements::__InternalTreeView__UxmlFactory::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__UxmlFactory*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__InternalTreeView__UxmlFactory::__InternalTreeView__UxmlFactory() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper.get_id
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::get_id)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2fea4fc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper>::get(), "get_id",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-inline int32_t UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::get_id() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper>::get(), "get_id",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-// Ctor Parameters [CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "item", ty: "::UnityEngine::UIElements::ITreeViewItem*", modifiers: "", def_value:
-// Some("nullptr") }]
-constexpr ::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::__InternalTreeView__TreeViewItemWrapper(int32_t depth, ::UnityEngine::UIElements::ITreeViewItem* item) noexcept {
-  this->depth = depth;
-  this->item = item;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper::__InternalTreeView__TreeViewItemWrapper() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)(int32_t)>(
-    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2fe8398;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_IDisposable_Dispose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2feb350;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::MoveNext)> {
-  constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x2feb354;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ITreeViewItem* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2feb74c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-        "System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_IEnumerator_Reset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2feb754;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_IEnumerator_get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2feb794;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
-        &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2feb79c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-        "System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64.System_Collections_IEnumerable_GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::*)()>(
-    &::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2feb83c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
-constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__ITreeViewItem__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>"
-constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__ITreeViewItem__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr int32_t& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::UnityEngine::UIElements::ITreeViewItem*& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___2__current(::UnityEngine::UIElements::ITreeViewItem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr int32_t const& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____l__initialThreadId = value;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get_rootItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___rootItems;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get_rootItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___rootItems;
-}
-constexpr void
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set_rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___3__rootItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__rootItems;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get___3__rootItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__rootItems;
-}
-constexpr void
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set___3__rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__rootItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>*&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__iteratorStack_5__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____iteratorStack_5__1;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__iteratorStack_5__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____iteratorStack_5__1;
-}
-constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__iteratorStack_5__1(
-    ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____iteratorStack_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentIterator_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____currentIterator_5__2;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*> const&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentIterator_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____currentIterator_5__2;
-}
-constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__currentIterator_5__2(
-    ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentIterator_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr bool& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__hasNext_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasNext_5__3;
-}
-constexpr bool const& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__hasNext_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasNext_5__3;
-}
-constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__hasNext_5__3(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____hasNext_5__3 = value;
-}
-constexpr ::UnityEngine::UIElements::ITreeViewItem*& UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentItem_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____currentItem_5__4;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const&
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_get__currentItem_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____currentItem_5__4;
-}
-constexpr void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__cordl_internal_set__currentItem_5__4(::UnityEngine::UIElements::ITreeViewItem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentItem_5__4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>(__1__state));
-}
-inline void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::ITreeViewItem*
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-      "System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ITreeViewItem*, false>(this, ___internal_method);
-}
-inline void UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*
-UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-      "System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*, false>(this, ___internal_method);
-}
-inline ::System::Collections::IEnumerator* UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64*>::get(),
-                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__InternalTreeView___GetAllItems_d__64() {}

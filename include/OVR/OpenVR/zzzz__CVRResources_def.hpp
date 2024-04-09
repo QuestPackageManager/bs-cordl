@@ -27,10 +27,10 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRResources FnTable;
 
-  /// @brief Method GetResourceFullPath, addr 0x2949a14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetResourceFullPath, addr 0x2acaff8, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
 
-  /// @brief Method LoadSharedResource, addr 0x29499f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LoadSharedResource, addr 0x2acafd4, size 0x24, virtual false, abstract: false, final false
   inline uint32_t LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
 
   static inline ::OVR::OpenVR::CVRResources* New_ctor(void* pInterface);
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources value);
 
-  /// @brief Method .ctor, addr 0x29498e4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acaec8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
 protected:

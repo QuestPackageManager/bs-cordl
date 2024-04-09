@@ -37,22 +37,22 @@ public:
 
   __declspec(property(get = get_thisCollider))::UnityW<::UnityEngine::Collider> thisCollider;
 
-  /// @brief Method GetColliderByInstanceID, addr 0x2e7ec2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColliderByInstanceID, addr 0x3262a90, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Collider> GetColliderByInstanceID(int32_t instanceID);
 
-  /// @brief Method get_normal, addr 0x2e7ebe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x3262a48, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_otherCollider, addr 0x2e7ec68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_otherCollider, addr 0x3262acc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
 
-  /// @brief Method get_point, addr 0x2e7ebd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x3262a3c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_separation, addr 0x2e7eca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separation, addr 0x3262b08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separation();
 
-  /// @brief Method get_thisCollider, addr 0x2e7ebf0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_thisCollider, addr 0x3262a54, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_thisCollider();
 
   // Ctor Parameters []

@@ -11,7 +11,7 @@ class XmlSchemaSimpleTypeContent;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeContent);
 // Type: System.Xml.Schema::XmlSchemaSimpleTypeContent
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeContent*
@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeContent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a14410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d1f658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +40,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleTypeContent, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleTypeContent, 0x50>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleTypeContent);

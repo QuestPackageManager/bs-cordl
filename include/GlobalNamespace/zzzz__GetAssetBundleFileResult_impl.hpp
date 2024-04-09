@@ -6,7 +6,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GetAssetBundleFileResult::*)(bool, ::StringW)>(
     &::GlobalNamespace::GetAssetBundleFileResult::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x12f8ea4;
+  constexpr static std::size_t addrs = 0x13d28f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GetAssetBundleFileResult (*)(::StringW)>(&::GlobalNamespace::GetAssetBundleFileResult::Sucess)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x12f8eb4;
+  constexpr static std::size_t addrs = 0x13d2900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -35,6 +35,10 @@ public:
   /// @brief Field severity, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_severity, put = __cordl_internal_set_severity))::System::Xml::Schema::XmlSeverityType severity;
 
+  static inline ::System::Xml::Schema::ValidationEventArgs* New_ctor(::System::Xml::Schema::XmlSchemaException* ex);
+
+  static inline ::System::Xml::Schema::ValidationEventArgs* New_ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity);
+
   constexpr ::System::Xml::Schema::XmlSchemaException*& __cordl_internal_get_ex();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaException*> const& __cordl_internal_get_ex() const;
@@ -47,10 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method get_Exception, addr 0x2a10f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d01960, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex);
+
+  /// @brief Method .ctor, addr 0x2d019d0, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity);
+
+  /// @brief Method get_Exception, addr 0x2d01a4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
-  /// @brief Method get_Severity, addr 0x2a10f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x2d01a44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();
 
 protected:

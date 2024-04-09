@@ -63,10 +63,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0xf08b84, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfe2708, size 0x1b4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* GetInstance(::System::Object* o);
 
-  /// @brief Method GetKekInfo, addr 0xf0e28c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetKekInfo, addr 0xfe7e10, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetKekInfo(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
@@ -81,7 +81,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
-  /// @brief Method ToAsn1Object, addr 0xf0e46c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfe7ff0, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_info();
@@ -90,31 +90,31 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0xf0e264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe7de8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
 
-  /// @brief Method .ctor, addr 0xf0e0d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe7c5c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xf0e054, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe7bd8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xf0e02c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe7bb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xf0e1e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe7d64, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xf0e15c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe7ce0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
-  /// @brief Method get_Info, addr 0xf0e32c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method get_Info, addr 0xfe7eb0, size 0x140, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Info();
 
-  /// @brief Method get_IsTagged, addr 0xf0e2b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsTagged, addr 0xfe7e34, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsTagged();
 
-  /// @brief Method get_Version, addr 0xf08d38, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xfe28bc, size 0x16c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

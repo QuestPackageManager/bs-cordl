@@ -65,14 +65,14 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method CreateSubContext, addr 0x3074784, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContext, addr 0x3459610, size 0x3c, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x30747c0, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x345964c, size 0x1a8, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x307477c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x3459608, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator,
@@ -102,13 +102,13 @@ public:
 
   constexpr void __cordl_internal_set__subContainerCreator(::Zenject::ISubContainerCreator* value);
 
-  /// @brief Method .ctor, addr 0x3074728, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34595b4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll);
 
-  /// @brief Method get_IsCached, addr 0x307476c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x34595f8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x3074774, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x3459600, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
