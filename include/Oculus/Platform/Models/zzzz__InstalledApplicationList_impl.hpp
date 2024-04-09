@@ -1,14 +1,14 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
-#include "Oculus/Platform/Models/zzzz__InstalledApplication_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__InstalledApplicationList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__InstalledApplication_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::InstalledApplicationList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::InstalledApplicationList::*)(void*)>(
     &::Oculus::Platform::Models::InstalledApplicationList::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x285a470;
+  constexpr static std::size_t addrs = 0x29dca54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

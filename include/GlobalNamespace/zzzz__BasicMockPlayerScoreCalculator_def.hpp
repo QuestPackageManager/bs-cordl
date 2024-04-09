@@ -44,7 +44,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Method GetScoreForNote, addr 0x253ab30, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x265e61c, size 0x74, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x253aa74, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265e560, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"

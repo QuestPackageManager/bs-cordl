@@ -2,11 +2,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/AddressableAssets/Initialization/zzzz__ResourceManagerRuntimeData_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InitalizationObjectsOperation)
 namespace System::Collections::Generic {
@@ -51,22 +48,22 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RtdOp, put = __cordl_internal_set_m_RtdOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> m_RtdOp;
 
-  /// @brief Method Execute, addr 0x2b59b9c, size 0x6a0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x2f3f04c, size 0x6a0, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x2b595c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2f3ea70, size 0x34, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> rtdOp,
                    ::UnityEngine::AddressableAssets::AddressablesImpl* addressables);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2b599fc, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x2f3eeac, size 0x1a0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method LogRuntimeWarnings, addr 0x2b596d0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method LogRuntimeWarnings, addr 0x2f3eb80, size 0x1fc, virtual false, abstract: false, final false
   inline bool LogRuntimeWarnings(::StringW pathToBuildLogs);
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* New_ctor();
 
-  /// @brief Method <Execute>b__8_0, addr 0x2b5a380, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__8_0, addr 0x2f3f830, size 0x1ac, virtual false, abstract: false, final false
   inline void _Execute_b__8_0(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           obj);
@@ -97,10 +94,10 @@ public:
   constexpr void
   __cordl_internal_set_m_RtdOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> value);
 
-  /// @brief Method .ctor, addr 0x2b5a338, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f7e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName, addr 0x2b59690, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x2f3eb40, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
 protected:

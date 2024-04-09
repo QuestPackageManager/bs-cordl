@@ -35,13 +35,13 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x280af1c, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x29884e8, size 0x33c, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x280ad60, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x2988328, size 0x1c0, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x280b388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2988824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

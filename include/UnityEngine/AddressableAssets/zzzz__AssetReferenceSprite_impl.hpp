@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_impl.hpp"
-#include "UnityEngine/zzzz__Sprite_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceSprite_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::AssetReferenceSprite._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceSprite::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b6e09c;
+  constexpr static std::size_t addrs = 0x2f5354c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReferenceSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceSprite::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b6e0f4;
+  constexpr static std::size_t addrs = 0x2f535a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

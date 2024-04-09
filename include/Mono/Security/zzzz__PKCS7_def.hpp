@@ -70,7 +70,7 @@ public:
   /// @brief Field contentType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::StringW contentType;
 
-  /// @brief Method GetASN1, addr 0x2543528, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetASN1, addr 0x2668014, size 0xb4, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* GetASN1();
 
   static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor();
@@ -93,31 +93,31 @@ public:
 
   constexpr void __cordl_internal_set_contentType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2543290, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2667d7c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x254339c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2667e88, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x254332c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2667e18, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2543308, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2667df4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_ASN1, addr 0x2543524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x2668010, size 0x4, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_Content, addr 0x25435dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x26680c8, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_Content();
 
-  /// @brief Method get_ContentType, addr 0x25435ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x26680d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContentType();
 
-  /// @brief Method set_Content, addr 0x25435e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x26680d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::Mono::Security::ASN1* value);
 
-  /// @brief Method set_ContentType, addr 0x25435f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x26680e0, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentType(::StringW value);
 
 protected:
@@ -202,16 +202,16 @@ public:
 
   constexpr void __cordl_internal_set__version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x25435fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26680e8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2543618, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2668104, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_EncryptedContent, addr 0x25438f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedContent, addr 0x26683e4, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_EncryptedContent();
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0x25438f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0x26683dc, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::__PKCS7__ContentInfo* get_EncryptionAlgorithm();
 
 protected:
@@ -293,7 +293,7 @@ public:
 
   static inline ::Mono::Security::__PKCS7__SignedData* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method OidToName, addr 0x2544468, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OidToName, addr 0x2668f54, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW OidToName(::StringW oid);
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_certs();
@@ -338,19 +338,19 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x254396c, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2668458, size 0x4e4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_Certificates, addr 0x254463c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x2669128, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_ContentInfo, addr 0x2544644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x2669130, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::__PKCS7__ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_SignerInfo, addr 0x254464c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignerInfo, addr 0x2669138, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::__PKCS7__SignerInfo* get_SignerInfo();
 
-  /// @brief Method set_HashName, addr 0x254461c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x2669108, size 0x20, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
 protected:
@@ -506,34 +506,34 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x25443d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2668ec4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2544060, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2668b4c, size 0x378, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_AuthenticatedAttributes, addr 0x2544808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticatedAttributes, addr 0x26692f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_AuthenticatedAttributes();
 
-  /// @brief Method get_HashName, addr 0x2544810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashName, addr 0x26692fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HashName();
 
-  /// @brief Method get_IssuerName, addr 0x254478c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x2669278, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_SerialNumber, addr 0x2544794, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x2669280, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_Signature, addr 0x2544820, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x266930c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
 
-  /// @brief Method get_UnauthenticatedAttributes, addr 0x2544894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthenticatedAttributes, addr 0x2669380, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_UnauthenticatedAttributes();
 
-  /// @brief Method get_Version, addr 0x254489c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2669388, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Version();
 
-  /// @brief Method set_HashName, addr 0x2544818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x2669304, size 0x8, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
 protected:

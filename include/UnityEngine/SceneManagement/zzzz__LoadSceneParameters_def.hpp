@@ -28,10 +28,10 @@ public:
   // Declarations
   __declspec(property(put = set_loadSceneMode))::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode;
 
-  /// @brief Method .ctor, addr 0x2e420a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3227e5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method set_loadSceneMode, addr 0x2e4209c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loadSceneMode, addr 0x3227e54, size 0x8, virtual false, abstract: false, final false
   inline void set_loadSceneMode(::UnityEngine::SceneManagement::LoadSceneMode value);
 
   // Ctor Parameters []

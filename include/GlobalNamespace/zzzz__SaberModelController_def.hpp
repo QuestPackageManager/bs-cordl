@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_trailTintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x24fa1c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261f6ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x24fa1e0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261f6cc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color trailTintColor);
 
 protected:
@@ -128,7 +128,7 @@ public:
       property(get = __cordl_internal_get__setSaberGlowColors,
                put = __cordl_internal_set__setSaberGlowColors))::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> _setSaberGlowColors;
 
-  /// @brief Method Init, addr 0x24f9e40, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x261f32c, size 0x2f0, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::SaberModelController* New_ctor();
@@ -169,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set__setSaberGlowColors(::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> value);
 
-  /// @brief Method .ctor, addr 0x24fa150, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261f63c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

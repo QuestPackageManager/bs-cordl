@@ -7,6 +7,7 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__NodeColor_def.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
@@ -478,6 +479,14 @@ inline bool System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>::__SortedSet_1____c__DisplayClass53_0() {}
+/// @brief Convert operator to "::System::Collections::Generic::ISet_1<T>"
+template <typename T> constexpr System::Collections::Generic::SortedSet_1<T>::operator ::System::Collections::Generic::ISet_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ISet_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ISet_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ISet_1<T>* System::Collections::Generic::SortedSet_1<T>::i___System__Collections__Generic__ISet_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ISet_1<T>*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
 template <typename T> constexpr System::Collections::Generic::SortedSet_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));

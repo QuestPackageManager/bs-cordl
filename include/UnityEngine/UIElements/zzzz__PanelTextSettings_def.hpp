@@ -50,15 +50,15 @@ public:
   static __declspec(property(get = getStaticF_s_DefaultPanelTextSettings,
                              put = setStaticF_s_DefaultPanelTextSettings))::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
-  /// @brief Method GetCachedFontAsset, addr 0x2fae24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFontAsset, addr 0x3393068, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAsset(::UnityEngine::Font* font);
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method UpdateLocalizationFontAsset, addr 0x2faec3c, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalizationFontAsset, addr 0x3393a58, size 0x4c0, virtual false, abstract: false, final false
   static inline void UpdateLocalizationFontAsset();
 
-  /// @brief Method .ctor, addr 0x2faf0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3393f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* getStaticF_EditorGUIUtilityLoad();
@@ -69,7 +69,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
-  /// @brief Method get_defaultPanelTextSettings, addr 0x2fae754, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPanelTextSettings, addr 0x3393570, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
   static inline void setStaticF_EditorGUIUtilityLoad(::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* value);

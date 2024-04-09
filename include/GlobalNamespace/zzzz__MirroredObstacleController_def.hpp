@@ -31,6 +31,39 @@ class __MirroredObstacleController__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MirroredObstacleController);
 MARK_REF_PTR_T(::GlobalNamespace::__MirroredObstacleController__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::MirroredObstacleController::Pool*
+class CORDL_TYPE __MirroredObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredObstacleController>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__MirroredObstacleController__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2525348, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MirroredObstacleController__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__MirroredObstacleController__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __MirroredObstacleController__Pool(__MirroredObstacleController__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__MirroredObstacleController__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __MirroredObstacleController__Pool(__MirroredObstacleController__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MirroredObstacleController__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::MirroredObstacleController
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -55,27 +88,27 @@ public:
 
   __declspec(property(put = set_hide)) bool hide;
 
-  /// @brief Method Awake, addr 0x2402414, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2524f8c, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDidStartDissolving, addr 0x2402784, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleDidStartDissolving, addr 0x25252fc, size 0x20, virtual false, abstract: false, final false
   inline void HandleDidStartDissolving(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
-  /// @brief Method Mirror, addr 0x23f71b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x2519d28, size 0xfc, virtual false, abstract: false, final false
   inline void Mirror(::GlobalNamespace::ObstacleController* obstacleController);
 
   static inline ::GlobalNamespace::MirroredObstacleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2402430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2524fa8, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveListeners, addr 0x2402434, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RemoveListeners, addr 0x2524fac, size 0xcc, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method Update, addr 0x2402500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2525078, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionAndRotation, addr 0x2402504, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionAndRotation, addr 0x252507c, size 0x104, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotation();
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__followedObstacle() const;
@@ -102,10 +135,10 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x24027c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x23f7dc4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x251a93c, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -146,39 +179,6 @@ static_assert(offsetof(::GlobalNamespace::MirroredObstacleController, ____follow
 static_assert(offsetof(::GlobalNamespace::MirroredObstacleController, ____transform) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MirroredObstacleController, ____followedTransform) == 0x40, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::MirroredObstacleController::Pool*
-class CORDL_TYPE __MirroredObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredObstacleController>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__MirroredObstacleController__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24027d0, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MirroredObstacleController__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MirroredObstacleController__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __MirroredObstacleController__Pool(__MirroredObstacleController__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__MirroredObstacleController__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __MirroredObstacleController__Pool(__MirroredObstacleController__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MirroredObstacleController__Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirroredObstacleController);

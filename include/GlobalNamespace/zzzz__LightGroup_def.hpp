@@ -70,37 +70,37 @@ public:
 
   constexpr void __cordl_internal_set_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x22d206c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f14b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRefreshContentEvent, addr 0x22d1f0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRefreshContentEvent, addr 0x23f1354, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_respawnEvent, addr 0x22d1dac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_respawnEvent, addr 0x23f11f4, size 0xb0, virtual false, abstract: false, final false
   inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method get_groupId, addr 0x22d1c30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x23f1078, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x22d1d28, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x23f1170, size 0x84, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_lightGroupSO, addr 0x22d1b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupSO, addr 0x23f0f78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO();
 
-  /// @brief Method get_numberOfElements, addr 0x22d1b38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfElements, addr 0x23f0f80, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x22d1cac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x23f10f4, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x22d1bb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x23f0ffc, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
-  /// @brief Method remove_didRefreshContentEvent, addr 0x22d1fbc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRefreshContentEvent, addr 0x23f1404, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_respawnEvent, addr 0x22d1e5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_respawnEvent, addr 0x23f12a4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
 protected:

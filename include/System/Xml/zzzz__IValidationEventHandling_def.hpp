@@ -9,6 +9,9 @@ struct XmlSeverityType;
 namespace System {
 class Exception;
 }
+namespace System {
+class Object;
+}
 // Forward declare root types
 namespace System::Xml {
 class IValidationEventHandling;
@@ -23,8 +26,13 @@ namespace System::Xml {
 class CORDL_TYPE IValidationEventHandling {
 public:
   // Declarations
+  __declspec(property(get = get_EventHandler))::System::Object* EventHandler;
+
   /// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendEvent(::System::Exception* exception, ::System::Xml::Schema::XmlSeverityType severity);
+
+  /// @brief Method get_EventHandler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* get_EventHandler();
 
   // Ctor Parameters [CppParam { name: "", ty: "IValidationEventHandling", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

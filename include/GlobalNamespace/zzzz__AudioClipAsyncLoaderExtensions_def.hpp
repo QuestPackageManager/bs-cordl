@@ -33,18 +33,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioClipAsyncLoaderExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LoadPreview, addr 0x12ebc7c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LoadPreview, addr 0x13c3c60, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadPreview(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method LoadSong, addr 0x12ebe00, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x13c3de4, size 0x208, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                  ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method UnloadPreview, addr 0x12ebd58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UnloadPreview, addr 0x13c3d3c, size 0xa8, virtual false, abstract: false, final false
   static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader* _, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method UnloadSong, addr 0x12ea570, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method UnloadSong, addr 0x13c2554, size 0x1c8, virtual false, abstract: false, final false
   static inline void UnloadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
 protected:

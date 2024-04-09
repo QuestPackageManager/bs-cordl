@@ -31,13 +31,13 @@ public:
 
   static inline ::System::StackOverflowException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x271768c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2845244, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2717704, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28452bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x27176e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284529c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -105,18 +104,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __AudioClipAsyncLoader__LoadMethodDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2534b4c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x265816c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2534b6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x265818c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2534b38, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2658158, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Invoke();
 
   static inline ::GlobalNamespace::__AudioClipAsyncLoader__LoadMethodDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x253478c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2657dac, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -152,7 +151,7 @@ public:
 
   static inline ::GlobalNamespace::__AudioClipAsyncLoader____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <Load>b__0, addr 0x2534b78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <Load>b__0, addr 0x2658198, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* _Load_b__0();
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_audioClip() const;
@@ -161,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x2534764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2657d84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -205,7 +204,7 @@ public:
 
   static inline ::GlobalNamespace::__AudioClipAsyncLoader____c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <Load>b__0, addr 0x2534be8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <Load>b__0, addr 0x2658208, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* _Load_b__0();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get___4__this();
@@ -220,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set_audioClipFilePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2534a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265802c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -269,10 +268,10 @@ public:
 
   static inline ::GlobalNamespace::__AudioClipAsyncLoader____c* New_ctor();
 
-  /// @brief Method <Unload>b__16_0, addr 0x2534d04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Unload>b__16_0, addr 0x2658324, size 0x18, virtual false, abstract: false, final false
   inline void _Unload_b__16_0(::UnityEngine::AudioClip* loadedAudioClip);
 
-  /// @brief Method .ctor, addr 0x2534cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265831c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__AudioClipAsyncLoader____c* getStaticF___9();
@@ -314,10 +313,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2534d1c, size 0x388, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x265833c, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x25350a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26586c4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -399,61 +398,61 @@ public:
   /// @brief Field _mediaAsyncLoader, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__mediaAsyncLoader, put = __cordl_internal_set__mediaAsyncLoader))::GlobalNamespace::IMediaAsyncLoader* _mediaAsyncLoader;
 
-  /// @brief Method CreateDefault, addr 0x2533da0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateDefault, addr 0x26573c0, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::AudioClipAsyncLoader* CreateDefault();
 
-  /// @brief Method GetCacheKey, addr 0x253476c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCacheKey, addr 0x2657d8c, size 0x20, virtual false, abstract: false, final false
   inline int32_t GetCacheKey(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method GetCacheKey, addr 0x2534a14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCacheKey, addr 0x2658034, size 0x20, virtual false, abstract: false, final false
   inline int32_t GetCacheKey(::StringW audioClipFilePath);
 
-  /// @brief Method Load, addr 0x2533f50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2657570, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method Load, addr 0x2534180, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x26577a0, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(::StringW audioClipFilePath);
 
-  /// @brief Method Load, addr 0x2534848, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2657e68, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(int32_t cacheKey, ::GlobalNamespace::__AudioClipAsyncLoader__LoadMethodDelegate* loadMethodDelegate);
 
-  /// @brief Method Load, addr 0x2534028, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2657648, size 0xac, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(::GlobalNamespace::IAssetSongAudioClipProvider* source);
 
-  /// @brief Method Load, addr 0x2533ea4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x26574c4, size 0xac, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(::GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
 
-  /// @brief Method Load, addr 0x2534258, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2657878, size 0xac, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(::GlobalNamespace::IFilePathSongAudioClipProvider* source);
 
-  /// @brief Method Load, addr 0x25340d4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x26576f4, size 0xac, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
 
-  /// @brief Method LogError, addr 0x2534ae0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x2658100, size 0x58, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
   static inline ::GlobalNamespace::AudioClipAsyncLoader* New_ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>* cache,
                                                                   ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader);
 
-  /// @brief Method Unload, addr 0x25343b0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x26579d0, size 0x10c, virtual false, abstract: false, final false
   inline void Unload(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method Unload, addr 0x2534614, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x2657c34, size 0xa4, virtual false, abstract: false, final false
   inline void Unload(::StringW audioClipFilePath);
 
-  /// @brief Method Unload, addr 0x2534a34, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x2658054, size 0xac, virtual false, abstract: false, final false
   inline void Unload(int32_t cacheKey, ::System::Action_1<::UnityW<::UnityEngine::AudioClip>>* onDelete);
 
-  /// @brief Method Unload, addr 0x25344bc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x2657adc, size 0xac, virtual false, abstract: false, final false
   inline void Unload(::GlobalNamespace::IAssetSongAudioClipProvider* source);
 
-  /// @brief Method Unload, addr 0x2534304, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x2657924, size 0xac, virtual false, abstract: false, final false
   inline void Unload(::GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
 
-  /// @brief Method Unload, addr 0x25346b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x2657cd8, size 0xac, virtual false, abstract: false, final false
   inline void Unload(::GlobalNamespace::IFilePathSongAudioClipProvider* source);
 
-  /// @brief Method Unload, addr 0x2534568, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x2657b88, size 0xac, virtual false, abstract: false, final false
   inline void Unload(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
 
   constexpr ::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>*& __cordl_internal_get__cache();
@@ -469,7 +468,7 @@ public:
 
   constexpr void __cordl_internal_set__mediaAsyncLoader(::GlobalNamespace::IMediaAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x2533d74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2657394, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>* cache,
                     ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader);
 

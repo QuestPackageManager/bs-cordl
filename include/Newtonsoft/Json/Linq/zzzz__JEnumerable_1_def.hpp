@@ -24,6 +24,9 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -56,10 +59,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// @brief Convert operator to "::System::IEquatable_1<::Newtonsoft::Json::Linq::JEnumerable_1<T>>"
+  constexpr operator ::System::IEquatable_1<::Newtonsoft::Json::Linq::JEnumerable_1<T>>*();
+
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::Newtonsoft::Json::Linq::JEnumerable_1<T> other);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -87,6 +93,9 @@ public:
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+
+  /// @brief Convert to "::System::IEquatable_1<::Newtonsoft::Json::Linq::JEnumerable_1<T>>"
+  constexpr ::System::IEquatable_1<::Newtonsoft::Json::Linq::JEnumerable_1<T>>* i___System__IEquatable_1___Newtonsoft__Json__Linq__JEnumerable_1_T__();
 
   static inline void setStaticF_Empty(::Newtonsoft::Json::Linq::JEnumerable_1<T> value);
 

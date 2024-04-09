@@ -63,22 +63,22 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE LightDataGI {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e440c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3229e7c, size 0x68, virtual false, abstract: false, final false
   inline void Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x2e44284, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x322a03c, size 0x70, virtual false, abstract: false, final false
   inline void Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight> light, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x2e4412c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3229ee4, size 0x70, virtual false, abstract: false, final false
   inline void Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight> light, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x2e44214, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3229fcc, size 0x70, virtual false, abstract: false, final false
   inline void Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> light, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x2e4419c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3229f54, size 0x78, virtual false, abstract: false, final false
   inline void Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method InitNoBake, addr 0x2e442f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InitNoBake, addr 0x322a0ac, size 0x10, virtual false, abstract: false, final false
   inline void InitNoBake(int32_t lightInstanceID);
 
   // Ctor Parameters []

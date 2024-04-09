@@ -32,18 +32,18 @@ public:
   /// @brief Field _targetFrequency, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__targetFrequency, put = __cordl_internal_set__targetFrequency)) float_t _targetFrequency;
 
-  /// @brief Method LateUpdate, addr 0x23e6900, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2508ee8, size 0xbc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MainAudioEffects* New_ctor();
 
-  /// @brief Method ResumeNormalSound, addr 0x23e69bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResumeNormalSound, addr 0x2508fa4, size 0x28, virtual false, abstract: false, final false
   inline void ResumeNormalSound();
 
-  /// @brief Method Start, addr 0x23e68cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2508eb4, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerLowPass, addr 0x23e69e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TriggerLowPass, addr 0x2508fcc, size 0x3c, virtual false, abstract: false, final false
   inline void TriggerLowPass();
 
   constexpr ::UnityW<::UnityEngine::AudioLowPassFilter> const& __cordl_internal_get__audioLowPassFilter() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__targetFrequency(float_t value);
 
-  /// @brief Method .ctor, addr 0x23e6a20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2509008, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

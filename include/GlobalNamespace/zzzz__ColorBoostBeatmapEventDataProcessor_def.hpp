@@ -3,8 +3,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
-#include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
 CORDL_MODULE_EXPORT(ColorBoostBeatmapEventDataProcessor)
+namespace GlobalNamespace {
+class ColorBoostBeatmapEventData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ColorBoostBeatmapEventDataProcessor;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ColorBoostBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe6f698, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf4811c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -23,16 +23,16 @@ namespace UnityEngine {
 class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ManagedStreamLength, addr 0x2e219e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamLength, addr 0x3208db4, size 0xfc, virtual false, abstract: false, final false
   static inline void ManagedStreamLength(::System::IO::Stream* stream, void* returnValueAddress);
 
-  /// @brief Method ManagedStreamRead, addr 0x2e217a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamRead, addr 0x3208b7c, size 0x120, virtual false, abstract: false, final false
   static inline void ManagedStreamRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, void* returnValueAddress);
 
-  /// @brief Method ManagedStreamSeek, addr 0x2e218c8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamSeek, addr 0x3208c9c, size 0x118, virtual false, abstract: false, final false
   static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, void* returnValueAddress);
 
-  /// @brief Method ValidateLoadFromStream, addr 0x2e21698, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadFromStream, addr 0x3208a6c, size 0x110, virtual false, abstract: false, final false
   static inline void ValidateLoadFromStream(::System::IO::Stream* stream);
 
 protected:

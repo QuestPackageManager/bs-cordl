@@ -4,7 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UQueryExtensions)
 namespace UnityEngine::UIElements {
@@ -60,7 +59,7 @@ public:
   static __declspec(property(get = getStaticF_SingleElementTypeQuery,
                              put = setStaticF_SingleElementTypeQuery))::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> SingleElementTypeQuery;
 
-  /// @brief Method Q, addr 0x2f6cdac, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x3351bc8, size 0x3e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
   /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

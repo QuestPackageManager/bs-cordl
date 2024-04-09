@@ -19,7 +19,7 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlTypeConvertorAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Method))::StringW Method;
+  __declspec(property(get = get_Method, put = set_Method))::StringW Method;
 
   /// @brief Field <Method>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Method_k__BackingField, put = __cordl_internal_set__Method_k__BackingField))::StringW _Method_k__BackingField;
@@ -32,10 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29f81c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc37f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
-  /// @brief Method set_Method, addr 0x29f81bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x2dc37e0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Method();
+
+  /// @brief Method set_Method, addr 0x2dc37e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Method(::StringW value);
 
 protected:

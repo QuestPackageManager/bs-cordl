@@ -21,9 +21,6 @@ class SecurityElement;
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 // Forward declare root types
 namespace System::Security {
 class CodeAccessPermission;
@@ -44,19 +41,16 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method CheckPermissionState, addr 0x25a6838, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckPermissionState, addr 0x26ce450, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted);
 
-  /// @brief Method Demand, addr 0x25a6484, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Demand, addr 0x26ce204, size 0x2c, virtual true, abstract: false, final true
   inline void Demand();
 
-  /// @brief Method Element, addr 0x25a66d0, size 0x168, virtual false, abstract: false, final false
-  inline ::System::Security::SecurityElement* Element(int32_t version);
-
-  /// @brief Method Equals, addr 0x25a657c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26ce2fc, size 0x124, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x25a66a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26ce420, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -64,19 +58,16 @@ public:
 
   static inline ::System::Security::CodeAccessPermission* New_ctor();
 
-  /// @brief Method System.Security.IPermission.Demand, addr 0x25a698c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Security.IPermission.Demand, addr 0x26ce500, size 0x4, virtual true, abstract: false, final true
   inline void System_Security_IPermission_Demand();
 
-  /// @brief Method ThrowInvalidPermission, addr 0x25a68e8, size 0xa4, virtual false, abstract: false, final false
-  static inline void ThrowInvalidPermission(::System::Security::IPermission* target, ::System::Type* expected);
-
-  /// @brief Method ToString, addr 0x25a66a8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26ce428, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method ToXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method .ctor, addr 0x25a647c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ce1fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Security::IPermission"

@@ -7,6 +7,7 @@ module;
 #include "System/Numerics/BigIntegerCalculator.hpp"
 #include "System/Numerics/BigNumber.hpp"
 #include "System/Numerics/ConstantHelper.hpp"
+#include "System/Numerics/DoubleUlong.hpp"
 #include "System/Numerics/NumericsHelpers.hpp"
 #include "System/Numerics/Register.hpp"
 #include "System/Numerics/Vector.hpp"

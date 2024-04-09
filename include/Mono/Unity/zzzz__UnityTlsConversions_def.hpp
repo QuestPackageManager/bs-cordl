@@ -39,23 +39,23 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTlsConversions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertProtocolVersion, addr 0x2967a70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConvertProtocolVersion, addr 0x2b62344, size 0x20, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::__UnityTls__unitytls_protocol protocol);
 
-  /// @brief Method GetMaxProtocol, addr 0x2966d58, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMaxProtocol, addr 0x2b6162c, size 0x38, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method GetMinProtocol, addr 0x2966d20, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMinProtocol, addr 0x2b615f4, size 0x38, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method VerifyResultToAlertDescription, addr 0x2964070, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToAlertDescription, addr 0x2b5e944, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult,
                                                                                              ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method VerifyResultToChainStatus, addr 0x2968f74, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToChainStatus, addr 0x2b63848, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult);
 
-  /// @brief Method VerifyResultToPolicyErrror, addr 0x2968f44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToPolicyErrror, addr 0x2b63818, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult);
 
 protected:

@@ -5,7 +5,6 @@
 #include "UnityEngine/TextCore/Text/zzzz__LineInfo_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MaterialReference_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_impl.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextColorGradient_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"

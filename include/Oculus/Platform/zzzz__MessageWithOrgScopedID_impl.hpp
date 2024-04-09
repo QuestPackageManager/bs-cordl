@@ -1,5 +1,4 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__OrgScopedID_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithOrgScopedID_def.hpp"
 #include "Oculus/Platform/Models/zzzz__OrgScopedID_def.hpp"
@@ -8,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithOrgScopedID::*)(void*)>(&::Oculus::Platform::MessageWithOrgScopedID::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2843824;
+  constexpr static std::size_t addrs = 0x29c5e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::OrgScopedID* (::Oculus::Platform::MessageWithOrgScopedID::*)()>(
     &::Oculus::Platform::MessageWithOrgScopedID::GetOrgScopedID)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x284728c;
+  constexpr static std::size_t addrs = 0x29c9870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::OrgScopedID* (::Oculus::Platform::MessageWithOrgScopedID::*)(void*)>(
     &::Oculus::Platform::MessageWithOrgScopedID::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x28472c8;
+  constexpr static std::size_t addrs = 0x29c98ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

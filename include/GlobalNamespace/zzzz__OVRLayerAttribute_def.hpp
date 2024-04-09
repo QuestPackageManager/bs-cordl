@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRLayerAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x288c19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0f780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

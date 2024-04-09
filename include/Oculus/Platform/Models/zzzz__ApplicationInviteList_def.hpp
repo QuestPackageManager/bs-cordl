@@ -2,10 +2,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__ApplicationInvite_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ApplicationInviteList)
+namespace Oculus::Platform::Models {
+class ApplicationInvite;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ApplicationInviteList;
@@ -22,7 +24,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::ApplicationInviteList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x2858588, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dab6c, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

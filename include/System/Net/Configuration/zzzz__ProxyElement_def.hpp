@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Net::Configuration::ProxyElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a901ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e77654, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2a901e4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2e7768c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

@@ -66,10 +66,10 @@ template <typename T> inline void GlobalNamespace::OptionalArgument_1<T>::Reset(
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionalArgument_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::OptionalArgument_1<T>::TryParseWithValue(::StringW inValue) {
+template <typename T> inline bool GlobalNamespace::OptionalArgument_1<T>::TryParseWithValue(::StringW inValue, ByRef<::StringW> outError) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionalArgument_1<T>*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, inValue);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, inValue, outError);
 }
 template <typename T> inline ::StringW GlobalNamespace::OptionalArgument_1<T>::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

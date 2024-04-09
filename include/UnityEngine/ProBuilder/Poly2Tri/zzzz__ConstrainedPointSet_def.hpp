@@ -42,7 +42,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points,
                                                                                    ::ArrayW<int32_t, ::Array<int32_t>*> index);
 
-  /// @brief Method Prepare, addr 0x2c7b2dc, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Prepare, addr 0x306178c, size 0x1a4, virtual true, abstract: false, final false
   inline void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__EdgeIndex_k__BackingField() const;
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__EdgeIndex_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2c7b220, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30616d0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points, ::ArrayW<int32_t, ::Array<int32_t>*> index);
 
-  /// @brief Method get_EdgeIndex, addr 0x2c7b210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EdgeIndex, addr 0x30616c0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_EdgeIndex();
 
-  /// @brief Method get_TriangulationMode, addr 0x2c7b2d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TriangulationMode, addr 0x3061784, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
 
-  /// @brief Method set_EdgeIndex, addr 0x2c7b218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EdgeIndex, addr 0x30616c8, size 0x8, virtual false, abstract: false, final false
   inline void set_EdgeIndex(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
 protected:

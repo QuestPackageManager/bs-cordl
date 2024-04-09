@@ -78,21 +78,21 @@ public:
   /// @brief Field _valueText, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText))::UnityW<::TMPro::TextMeshProUGUI> _valueText;
 
-  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x24b55ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x25d9ad4, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x24b55e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x25d9ad0, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
   static inline ::GlobalNamespace::MissionObjectiveGameUIView* New_ctor();
 
-  /// @brief Method RefreshIcon, addr 0x24b548c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RefreshIcon, addr 0x25d9974, size 0x104, virtual false, abstract: false, final false
   inline void RefreshIcon();
 
-  /// @brief Method RefreshValue, addr 0x24b5590, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RefreshValue, addr 0x25d9a78, size 0x58, virtual false, abstract: false, final false
   inline void RefreshValue();
 
-  /// @brief Method SetMissionObjectiveChecker, addr 0x24b5210, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method SetMissionObjectiveChecker, addr 0x25d96f8, size 0x27c, virtual false, abstract: false, final false
   inline void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__clearedIcon() const;
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x24b55f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d9ad8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

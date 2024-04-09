@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_k(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13261e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1401fa8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* eventTypes);
 
-  /// @brief Method get_eventTypes, addr 0x13261dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventTypes, addr 0x1401fa0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* get_eventTypes();
 
-  /// @brief Method get_keyword, addr 0x13261d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x1401f98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
 protected:
@@ -122,10 +122,10 @@ public:
 
   constexpr void __cordl_internal_set_d(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::__BasicEventTypesWithKeywords__BasicEventTypesForKeyword*>* value);
 
-  /// @brief Method .ctor, addr 0x13261ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fff90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::__BasicEventTypesWithKeywords__BasicEventTypesForKeyword*>* data);
 
-  /// @brief Method get_data, addr 0x13261a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x1401f90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::__BasicEventTypesWithKeywords__BasicEventTypesForKeyword*>* get_data();
 
 protected:

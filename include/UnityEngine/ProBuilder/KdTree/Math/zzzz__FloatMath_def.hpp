@@ -31,42 +31,42 @@ public:
 
   __declspec(property(get = get_Zero)) float_t Zero;
 
-  /// @brief Method Add, addr 0x2c73b44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3059ff4, size 0x8, virtual true, abstract: false, final false
   inline float_t Add(float_t a, float_t b);
 
-  /// @brief Method AreEqual, addr 0x2c73b00, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x3059fb0, size 0xc, virtual true, abstract: false, final false
   inline bool AreEqual(float_t a, float_t b);
 
-  /// @brief Method Compare, addr 0x2c73ae0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x3059f90, size 0x20, virtual true, abstract: false, final false
   inline int32_t Compare(float_t a, float_t b);
 
-  /// @brief Method DistanceSquaredBetweenPoints, addr 0x2c73b5c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DistanceSquaredBetweenPoints, addr 0x305a00c, size 0x100, virtual true, abstract: false, final false
   inline float_t DistanceSquaredBetweenPoints(::ArrayW<float_t, ::Array<float_t>*> a, ::ArrayW<float_t, ::Array<float_t>*> b);
 
-  /// @brief Method Multiply, addr 0x2c73b54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x305a004, size 0x8, virtual true, abstract: false, final false
   inline float_t Multiply(float_t a, float_t b);
 
   static inline ::UnityEngine::ProBuilder::KdTree::Math::FloatMath* New_ctor();
 
-  /// @brief Method Subtract, addr 0x2c73b4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x3059ffc, size 0x8, virtual true, abstract: false, final false
   inline float_t Subtract(float_t a, float_t b);
 
-  /// @brief Method .ctor, addr 0x2c73c5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x305a10c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxValue, addr 0x2c73b18, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x3059fc8, size 0xc, virtual true, abstract: false, final false
   inline float_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x2c73b0c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x3059fbc, size 0xc, virtual true, abstract: false, final false
   inline float_t get_MinValue();
 
-  /// @brief Method get_NegativeInfinity, addr 0x2c73b2c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_NegativeInfinity, addr 0x3059fdc, size 0xc, virtual true, abstract: false, final false
   inline float_t get_NegativeInfinity();
 
-  /// @brief Method get_PositiveInfinity, addr 0x2c73b38, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_PositiveInfinity, addr 0x3059fe8, size 0xc, virtual true, abstract: false, final false
   inline float_t get_PositiveInfinity();
 
-  /// @brief Method get_Zero, addr 0x2c73b24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Zero, addr 0x3059fd4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_Zero();
 
 protected:

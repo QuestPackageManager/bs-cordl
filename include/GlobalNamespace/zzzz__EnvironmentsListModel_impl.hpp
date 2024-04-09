@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnvironmentsListModel____c::*)()>(
     &::GlobalNamespace::__EnvironmentsListModel____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12d13b4;
+  constexpr static std::size_t addrs = 0x13a9294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), ".ctor",
@@ -25,47 +25,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c.__ctor_b__4_0
+//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c.__ctor_b__12_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__EnvironmentsListModel____c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
-    &::GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__4_0)> {
+    &::GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x12d13bc;
+  constexpr static std::size_t addrs = 0x13a929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__4_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c.__ctor_b__4_1
+//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c.__ctor_b__12_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__EnvironmentsListModel____c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
-    &::GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__4_1)> {
+    &::GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x12d13d4;
+  constexpr static std::size_t addrs = 0x13a92b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c._CreateFromAddressables_b__5_0
+//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c.__ctor_b__12_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnvironmentsListModel____c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
-    &::GlobalNamespace::__EnvironmentsListModel____c::_CreateFromAddressables_b__5_0)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x12d13ec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__EnvironmentsListModel____c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
+    &::GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_2)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x13a92cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<CreateFromAddressables>b__5_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_2", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c.__ctor_b__12_3
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__EnvironmentsListModel____c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
+    &::GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_3)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x13a92e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_3", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__EnvironmentsListModel____c._CreateFromAddressables_b__13_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnvironmentsListModel____c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
+    &::GlobalNamespace::__EnvironmentsListModel____c::_CreateFromAddressables_b__13_0)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x13a92fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<CreateFromAddressables>b__13_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
     return ___internal_method;
   }
@@ -79,31 +109,49 @@ inline ::GlobalNamespace::__EnvironmentsListModel____c* GlobalNamespace::__Envir
   return ::cordl_internals::getStaticField<::GlobalNamespace::__EnvironmentsListModel____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>();
 }
-inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__4_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>*, "<>9__4_0",
+inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__12_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>*, "<>9__12_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>(
       std::forward<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__4_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>*, "<>9__4_0",
+inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__12_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>*, "<>9__12_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>();
 }
-inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__4_1(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__4_1",
+inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__12_1(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__12_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>(
       std::forward<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__4_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__4_1",
+inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__12_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__12_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>();
 }
-inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__5_0(::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, "<>9__5_0",
+inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__12_2(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__12_2",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>(
+      std::forward<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*>(value));
+}
+inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__12_2() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__12_2",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>();
+}
+inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__12_3(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__12_3",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>(
+      std::forward<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*>(value));
+}
+inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__12_3() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__12_3",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>();
+}
+inline void GlobalNamespace::__EnvironmentsListModel____c::setStaticF___9__13_0(::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, "<>9__13_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>(
       std::forward<::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>(value));
 }
-inline ::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__5_0() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, "<>9__5_0",
+inline ::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GlobalNamespace::__EnvironmentsListModel____c::getStaticF___9__13_0() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, "<>9__13_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get>();
 }
 inline ::GlobalNamespace::__EnvironmentsListModel____c* GlobalNamespace::__EnvironmentsListModel____c::New_ctor() {
@@ -114,21 +162,33 @@ inline void GlobalNamespace::__EnvironmentsListModel____c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__4_0(::GlobalNamespace::EnvironmentInfoSO* envInfo) {
+inline int32_t GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_0(::GlobalNamespace::EnvironmentInfoSO* envInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__4_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, envInfo);
 }
-inline ::StringW GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__4_1(::GlobalNamespace::EnvironmentInfoSO* envInfo) {
+inline ::StringW GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_1(::GlobalNamespace::EnvironmentInfoSO* e) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_1", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, e);
+}
+inline ::StringW GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_2(::GlobalNamespace::EnvironmentInfoSO* e) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_2", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, e);
+}
+inline ::StringW GlobalNamespace::__EnvironmentsListModel____c::__ctor_b__12_3(::GlobalNamespace::EnvironmentInfoSO* envInfo) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<.ctor>b__12_3", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, envInfo);
 }
-inline void GlobalNamespace::__EnvironmentsListModel____c::_CreateFromAddressables_b__5_0(::GlobalNamespace::EnvironmentInfoSO* _) {
+inline void GlobalNamespace::__EnvironmentsListModel____c::_CreateFromAddressables_b__13_0(::GlobalNamespace::EnvironmentInfoSO* _) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<CreateFromAddressables>b__5_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentsListModel____c*>::get(), "<CreateFromAddressables>b__13_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _);
 }
@@ -140,11 +200,53 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::EnvironmentsListModel::*)()>(
     &::GlobalNamespace::EnvironmentsListModel::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x12d0b08;
+  constexpr static std::size_t addrs = 0x13a8870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
                                                                                "get_loggerPrefix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentsListModel.get_environmentInfos
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
+    ::GlobalNamespace::EnvironmentsListModel::*)()>(&::GlobalNamespace::EnvironmentsListModel::get_environmentInfos)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x13a88b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
+                                                                               "get_environmentInfos", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentsListModel.get_environmentNames
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::GlobalNamespace::EnvironmentsListModel::*)()>(
+    &::GlobalNamespace::EnvironmentsListModel::get_environmentNames)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x13a88b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
+                                                                               "get_environmentNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentsListModel.get_environmentSerializedNames
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::GlobalNamespace::EnvironmentsListModel::*)()>(
+    &::GlobalNamespace::EnvironmentsListModel::get_environmentSerializedNames)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x13a88c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
+                                                                               "get_environmentSerializedNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -153,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentsListModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*)>(&::GlobalNamespace::EnvironmentsListModel::_ctor)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x12d0b48;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x13a88c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,25 +271,11 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentsListModel* (*)()>(&::GlobalNamespace::EnvironmentsListModel::CreateFromAddressables)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x12d0d30;
+  constexpr static std::size_t addrs = 0x13a8c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
                                                                                "CreateFromAddressables", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::EnvironmentsListModel.get_environmentInfos
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
-    ::GlobalNamespace::EnvironmentsListModel::*)()>(&::GlobalNamespace::EnvironmentsListModel::get_environmentInfos)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12d0f7c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
-                                                                               "get_environmentInfos", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -197,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(::StringW)>(
     &::GlobalNamespace::EnvironmentsListModel::GetEnvironmentInfoBySerializedName)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x12d0f84;
+  constexpr static std::size_t addrs = 0x13a8e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(::StringW)>(
     &::GlobalNamespace::EnvironmentsListModel::GetEnvironmentInfoBySerializedNameSafe)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x12d0ff4;
+  constexpr static std::size_t addrs = 0x13a8ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
     ::GlobalNamespace::EnvironmentsListModel::*)(::GlobalNamespace::EnvironmentType)>(&::GlobalNamespace::EnvironmentsListModel::GetAllEnvironmentInfosWithType)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x12d1164;
+  constexpr static std::size_t addrs = 0x13a9044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(
     ::GlobalNamespace::EnvironmentType)>(&::GlobalNamespace::EnvironmentsListModel::GetFirstEnvironmentInfoWithType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x12d1298;
+  constexpr static std::size_t addrs = 0x13a9178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(
     ::GlobalNamespace::EnvironmentType)>(&::GlobalNamespace::EnvironmentsListModel::GetLastEnvironmentInfoWithType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x12d12f4;
+  constexpr static std::size_t addrs = 0x13a91d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,6 +376,30 @@ GlobalNamespace::EnvironmentsListModel::__cordl_internal_set__envInfos(::ArrayW<
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____envInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::EnvironmentsListModel::__cordl_internal_get__environmentSerializedNames() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentSerializedNames;
+}
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::EnvironmentsListModel::__cordl_internal_get__environmentSerializedNames() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentSerializedNames;
+}
+constexpr void GlobalNamespace::EnvironmentsListModel::__cordl_internal_set__environmentSerializedNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentSerializedNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::EnvironmentsListModel::__cordl_internal_get__environmentNames() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentNames;
+}
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::EnvironmentsListModel::__cordl_internal_get__environmentNames() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentNames;
+}
+constexpr void GlobalNamespace::EnvironmentsListModel::__cordl_internal_set__environmentNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& GlobalNamespace::EnvironmentsListModel::__cordl_internal_get__envInfoMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____envInfoMap;
@@ -307,6 +419,21 @@ inline ::StringW GlobalNamespace::EnvironmentsListModel::get_loggerPrefix() {
                                                                              "get_loggerPrefix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
+inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GlobalNamespace::EnvironmentsListModel::get_environmentInfos() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
+                                                                             "get_environmentInfos", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, false>(this, ___internal_method);
+}
+inline ::ArrayW<::StringW, ::Array<::StringW>*> GlobalNamespace::EnvironmentsListModel::get_environmentNames() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
+                                                                             "get_environmentNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method);
+}
+inline ::ArrayW<::StringW, ::Array<::StringW>*> GlobalNamespace::EnvironmentsListModel::get_environmentSerializedNames() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
+                                                                             "get_environmentSerializedNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method);
+}
 inline ::GlobalNamespace::EnvironmentsListModel*
 GlobalNamespace::EnvironmentsListModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentsListModel*>(envInfoSOs));
@@ -322,11 +449,6 @@ inline ::GlobalNamespace::EnvironmentsListModel* GlobalNamespace::EnvironmentsLi
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
                                                                              "CreateFromAddressables", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EnvironmentsListModel*, false>(nullptr, ___internal_method);
-}
-inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GlobalNamespace::EnvironmentsListModel::get_environmentInfos() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentsListModel*>::get(),
-                                                                             "get_environmentInfos", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, false>(this, ___internal_method);
 }
 inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GlobalNamespace::EnvironmentsListModel::GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName) {
   static auto* ___internal_method = THROW_UNLESS(

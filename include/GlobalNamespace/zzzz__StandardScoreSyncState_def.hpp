@@ -122,37 +122,37 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method ApplyDelta, addr 0xeecb00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0xfc5684, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::StandardScoreSyncState ApplyDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
 
-  /// @brief Method Deserialize, addr 0xeecbe0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xfc5764, size 0x6c, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0xeecc4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xfc57d0, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(ByRef<::GlobalNamespace::StandardScoreSyncState> other);
 
-  /// @brief Method GetDelta, addr 0xeecadc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDelta, addr 0xfc5660, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::StandardScoreSyncState GetDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
-  /// @brief Method GetSize, addr 0xeecca8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetSize, addr 0xfc582c, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetSize();
 
-  /// @brief Method GetState, addr 0xeecb24, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetState, addr 0xfc56a8, size 0x50, virtual true, abstract: false, final true
   inline int32_t GetState(::GlobalNamespace::__StandardScoreSyncState__Score s);
 
-  /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0xeecd7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0xfc5900, size 0x4, virtual true, abstract: false, final true
   inline bool IEquatableByReference_StandardScoreSyncState__Equals(ByRef<::GlobalNamespace::StandardScoreSyncState> other);
 
-  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0xeecd58, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0xfc58dc, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
 
-  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0xeecd34, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0xfc58b8, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
-  /// @brief Method Serialize, addr 0xeecb74, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xfc56f8, size 0x6c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetState, addr 0xeeca94, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0xfc5618, size 0x48, virtual true, abstract: false, final true
   inline void SetState(::GlobalNamespace::__StandardScoreSyncState__Score s, int32_t value);
 
   /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>"

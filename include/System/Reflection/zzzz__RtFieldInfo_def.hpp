@@ -42,7 +42,7 @@ public:
   inline void UnsafeSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                              ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x2645d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276d7c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

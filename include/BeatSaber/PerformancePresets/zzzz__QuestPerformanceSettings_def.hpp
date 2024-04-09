@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_gpuLevel(::BeatSaber::PerformancePresets::ProcessorPerformanceLevel value);
 
-  /// @brief Method .ctor, addr 0xe9cb88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf73aa4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cpuPerformanceLevel, addr 0xe9cb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cpuPerformanceLevel, addr 0xf73a8c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel get_cpuPerformanceLevel();
 
-  /// @brief Method get_gpuPerformanceLevel, addr 0xe9cb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gpuPerformanceLevel, addr 0xf73a84, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel get_gpuPerformanceLevel();
 
-  /// @brief Method get_useFoveatedRenderingDuringGameplay, addr 0xe9cb78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_useFoveatedRenderingDuringGameplay, addr 0xf73a94, size 0x10, virtual false, abstract: false, final false
   inline bool get_useFoveatedRenderingDuringGameplay();
 
 protected:

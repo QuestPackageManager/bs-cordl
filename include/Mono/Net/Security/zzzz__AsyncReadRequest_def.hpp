@@ -29,10 +29,10 @@ public:
   static inline ::Mono::Net::Security::AsyncReadRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                                   int32_t size);
 
-  /// @brief Method Run, addr 0x296c014, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b668e8, size 0x68, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x296c00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b668e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
 protected:

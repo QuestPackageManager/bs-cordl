@@ -45,10 +45,10 @@ public:
 
   static inline ::GlobalNamespace::LightTranslationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24a2708, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25c6bc4, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x24a2314, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25c67d0, size 0x3f4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__lightTranslationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightTranslationGroup>, ::Array<::UnityW<::GlobalNamespace::LightTranslationGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x24a2850, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c6d0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

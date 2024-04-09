@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::AspDataFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3022880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340770c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

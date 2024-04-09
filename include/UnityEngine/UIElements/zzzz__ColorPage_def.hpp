@@ -28,7 +28,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ColorPage {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2fe0dc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x33c5bdc, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
   // Ctor Parameters []

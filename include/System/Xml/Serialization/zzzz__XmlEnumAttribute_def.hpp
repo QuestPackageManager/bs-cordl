@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlEnumAttribute)
+namespace System::Text {
+class StringBuilder;
+}
 // Forward declare root types
 namespace System::Xml::Serialization {
 class XmlEnumAttribute;
@@ -19,8 +22,13 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlEnumAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_Name))::StringW Name;
+
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+
+  /// @brief Method AddKeyHash, addr 0x2dcd470, size 0x7c, virtual false, abstract: false, final false
+  inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
 
@@ -30,8 +38,11 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29f8248, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dcf244, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
+
+  /// @brief Method get_Name, addr 0x2dcf26c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
   // Ctor Parameters []

@@ -31,15 +31,15 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonWriterException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
-  __declspec(property(get = get_Path, put = set_Path))::StringW Path;
+  __declspec(property(get = get_Path))::StringW Path;
 
   /// @brief Field <Path>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField))::StringW _Path_k__BackingField;
 
-  /// @brief Method Create, addr 0x279ddac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2902660, size 0xbc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x279c448, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2901b3c, size 0x34, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::Newtonsoft::Json::JsonWriter* writer, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonWriterException* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonWriterException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  static inline ::Newtonsoft::Json::JsonWriterException* New_ctor(::StringW message, ::System::Exception* innerException, ::StringW path);
+  static inline ::Newtonsoft::Json::JsonWriterException* New_ctor(::StringW message, ::StringW path, ::System::Exception* innerException);
 
   constexpr ::StringW const& __cordl_internal_get__Path_k__BackingField() const;
 
@@ -58,26 +58,23 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x279dd78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2902614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x279dd84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290262c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x279dd7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290261c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x279dd80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2902624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x279dd88, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path);
+  /// @brief Method .ctor, addr 0x2902634, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::StringW path, ::System::Exception* innerException);
 
-  /// @brief Method get_Path, addr 0x279dd68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x290260c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
-
-  /// @brief Method set_Path, addr 0x279dd70, size 0x8, virtual false, abstract: false, final false
-  inline void set_Path(::StringW value);
 
 protected:
   // Ctor Parameters []

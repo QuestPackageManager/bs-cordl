@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__AbuseReportRecording_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithAbuseReportRecording)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAbuseReportRecording : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AbuseReportRecording*> {
 public:
   // Declarations
-  /// @brief Method GetAbuseReportRecording, addr 0x2844ad4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAbuseReportRecording, addr 0x29c70b8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
 
-  /// @brief Method GetDataFromMessage, addr 0x2844b10, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c70f4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAbuseReportRecording* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2844a7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c7060, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

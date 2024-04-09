@@ -24,16 +24,16 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x25bbbf0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26e2df0, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* Create();
 
-  /// @brief Method EncryptValue, addr 0x25bbc90, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method EncryptValue, addr 0x26e2e90, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptValue(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb);
 
   /// @brief Method ExportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method FromXmlString, addr 0x25bbcf0, size 0x558, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x26e2ef0, size 0x538, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
   /// @brief Method ImportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -41,10 +41,10 @@ public:
 
   static inline ::System::Security::Cryptography::RSA* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x25bc248, size 0x43c, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x26e3444, size 0x43c, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
-  /// @brief Method .ctor, addr 0x25bbbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e2de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

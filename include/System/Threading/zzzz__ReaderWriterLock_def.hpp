@@ -45,36 +45,36 @@ public:
   /// @brief Field writer_queue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_writer_queue, put = __cordl_internal_set_writer_queue))::System::Threading::LockQueue* writer_queue;
 
-  /// @brief Method AcquireReaderLock, addr 0x2773278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x28a386c, size 0x8, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireReaderLock, addr 0x2773280, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x28a3874, size 0x39c, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method AcquireWriterLock, addr 0x27737f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x28a3dec, size 0x8, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireWriterLock, addr 0x2773650, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x28a3c44, size 0x1a8, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method Finalize, addr 0x2773194, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x28a3788, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HasWriterLock, addr 0x277361c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HasWriterLock, addr 0x28a3c10, size 0x34, virtual false, abstract: false, final false
   inline bool HasWriterLock();
 
   static inline ::System::Threading::ReaderWriterLock* New_ctor();
 
-  /// @brief Method ReleaseReaderLock, addr 0x2773800, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x28a3df4, size 0x1ec, virtual false, abstract: false, final false
   inline void ReleaseReaderLock();
 
-  /// @brief Method ReleaseReaderLock, addr 0x2773b1c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x28a4110, size 0x120, virtual false, abstract: false, final false
   inline void ReleaseReaderLock(int32_t currentCount, int32_t releaseCount);
 
-  /// @brief Method ReleaseWriterLock, addr 0x27739ec, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x28a3fe0, size 0x130, virtual false, abstract: false, final false
   inline void ReleaseWriterLock();
 
-  /// @brief Method ReleaseWriterLock, addr 0x2773c3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x28a4230, size 0x60, virtual false, abstract: false, final false
   inline void ReleaseWriterLock(int32_t releaseCount);
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_reader_locks();
@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_writer_queue(::System::Threading::LockQueue* value);
 
-  /// @brief Method .ctor, addr 0x27730c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a36b4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsWriterLockHeld, addr 0x277319c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IsWriterLockHeld, addr 0x28a3790, size 0xdc, virtual false, abstract: false, final false
   inline bool get_IsWriterLockHeld();
 
 protected:

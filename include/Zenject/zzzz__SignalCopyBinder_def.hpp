@@ -30,26 +30,26 @@ public:
   /// @brief Field _bindInfos, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bindInfos, put = __cordl_internal_set__bindInfos))::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _bindInfos;
 
-  /// @brief Method AddCopyBindInfo, addr 0x302a6e8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddCopyBindInfo, addr 0x340f574, size 0xa8, virtual false, abstract: false, final false
   inline void AddCopyBindInfo(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method CopyIntoAllSubContainers, addr 0x302a790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoAllSubContainers, addr 0x340f61c, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoAllSubContainers();
 
-  /// @brief Method CopyIntoDirectSubContainers, addr 0x302a82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoDirectSubContainers, addr 0x340f6b8, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoDirectSubContainers();
 
-  /// @brief Method MoveIntoAllSubContainers, addr 0x302a834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoAllSubContainers, addr 0x340f6c0, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoAllSubContainers();
 
-  /// @brief Method MoveIntoDirectSubContainers, addr 0x302a83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoDirectSubContainers, addr 0x340f6c8, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoDirectSubContainers();
 
   static inline ::Zenject::SignalCopyBinder* New_ctor();
 
   static inline ::Zenject::SignalCopyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method SetInheritanceMethod, addr 0x302a798, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetInheritanceMethod, addr 0x340f624, size 0x94, virtual false, abstract: false, final false
   inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __cordl_internal_get__bindInfos();
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set__bindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x302a570, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340f3fc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x302a5f0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340f47c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

@@ -1,37 +1,23 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-template <typename TKey, typename TValue> constexpr ::System::Object*& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__lock() {
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__concurrentStore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lock;
+  return this->____concurrentStore;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__lock() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*> const&
+Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__concurrentStore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lock;
-}
-template <typename TKey, typename TValue> constexpr void Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_set__lock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  return this->____concurrentStore;
 }
 template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__store() {
+constexpr void Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_set__concurrentStore(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____store;
-}
-template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const&
-Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__store() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____store;
-}
-template <typename TKey, typename TValue>
-constexpr void Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_set__store(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____store)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____concurrentStore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::System::Func_2<TKey, TValue>*& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__creator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -59,12 +45,6 @@ template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilitie
 template <typename TKey, typename TValue> inline TValue Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::Get(TKey key) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>*>::get(), "Get",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
-  return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, key);
-}
-template <typename TKey, typename TValue> inline TValue Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::AddValue(TKey key) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>*>::get(), "AddValue",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, key);
 }

@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x24a8854, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25ccd10, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x24a888c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x25ccd48, size 0x310, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__environmentLayerMask() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x24a8b8c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cd058, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

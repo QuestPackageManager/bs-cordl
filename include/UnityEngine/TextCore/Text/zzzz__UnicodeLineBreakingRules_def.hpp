@@ -51,10 +51,10 @@ public:
   /// @brief Field s_LeadingCharactersLookup, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_LeadingCharactersLookup, put = setStaticF_s_LeadingCharactersLookup))::System::Collections::Generic::HashSet_1<uint32_t>* s_LeadingCharactersLookup;
 
-  /// @brief Method GetCharacters, addr 0x2eb3364, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x3298180, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
 
-  /// @brief Method LoadLineBreakingRules, addr 0x2eb2fc8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method LoadLineBreakingRules, addr 0x3297de4, size 0x314, virtual false, abstract: false, final false
   static inline void LoadLineBreakingRules();
 
   static inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* New_ctor();
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value);
 
-  /// @brief Method .ctor, addr 0x2eb344c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3298268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* getStaticF_s_FollowingCharactersLookup();
@@ -92,10 +92,10 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* getStaticF_s_LeadingCharactersLookup();
 
-  /// @brief Method get_followingCharactersLookup, addr 0x2eb32dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharactersLookup, addr 0x32980f8, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_followingCharactersLookup();
 
-  /// @brief Method get_leadingCharactersLookup, addr 0x2eb2f40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharactersLookup, addr 0x3297d5c, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_leadingCharactersLookup();
 
   static inline void setStaticF_s_FollowingCharactersLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);

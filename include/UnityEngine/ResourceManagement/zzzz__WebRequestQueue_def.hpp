@@ -48,16 +48,16 @@ public:
   static __declspec(property(get = getStaticF_s_QueuedOperations,
                              put = setStaticF_s_QueuedOperations))::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>* s_QueuedOperations;
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x2d15820, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x30f8cd0, size 0x260, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
 
-  /// @brief Method QueueRequest, addr 0x2d154dc, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method QueueRequest, addr 0x30f898c, size 0x344, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method SetMaxConcurrentRequests, addr 0x2d15418, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetMaxConcurrentRequests, addr 0x30f88c8, size 0xc4, virtual false, abstract: false, final false
   static inline void SetMaxConcurrentRequests(int32_t maxRequests);
 
-  /// @brief Method WaitForRequestToBeActive, addr 0x2d15a80, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method WaitForRequestToBeActive, addr 0x30f8f30, size 0x48c, virtual false, abstract: false, final false
   static inline void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation* request, int32_t millisecondsTimeout);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* getStaticF_s_ActiveRequests();

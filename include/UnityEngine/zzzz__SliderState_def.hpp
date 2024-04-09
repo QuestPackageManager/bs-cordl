@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::SliderState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e51ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3236510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

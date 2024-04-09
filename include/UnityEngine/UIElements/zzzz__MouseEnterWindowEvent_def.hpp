@@ -21,18 +21,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseEnterWindowEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseEnterWindowEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2fb8a6c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x339d888, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2fb8ac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x339d8dc, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseEnterWindowEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x2fb8b20, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x339d93c, size 0x15c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x2fb8acc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339d8e8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

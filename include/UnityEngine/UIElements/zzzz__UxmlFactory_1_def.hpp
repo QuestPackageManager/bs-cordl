@@ -3,8 +3,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 CORDL_MODULE_EXPORT(UxmlFactory_1)
+namespace UnityEngine::UIElements {
+class __VisualElement__UxmlTraits;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template <typename TCreatedType> class UxmlFactory_1;

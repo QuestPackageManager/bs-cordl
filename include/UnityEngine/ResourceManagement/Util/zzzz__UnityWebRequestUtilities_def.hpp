@@ -28,15 +28,15 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE UnityWebRequestUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsAssetBundleDownloaded, addr 0x2d15f0c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsAssetBundleDownloaded, addr 0x30f93bc, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* New_ctor();
 
-  /// @brief Method RequestHasErrors, addr 0x2d195e8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RequestHasErrors, addr 0x30fca98, size 0x138, virtual false, abstract: false, final false
   static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq, ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result);
 
-  /// @brief Method .ctor, addr 0x2d19828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30fccd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

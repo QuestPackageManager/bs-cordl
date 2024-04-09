@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__ConditionType_k__BackingField(::JetBrains::Annotations::AssertionConditionType value);
 
-  /// @brief Method .ctor, addr 0x30227c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3407650, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
-  /// @brief Method get_ConditionType, addr 0x30227ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConditionType, addr 0x3407678, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::AssertionConditionType get_ConditionType();
 
-  /// @brief Method set_ConditionType, addr 0x30227f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ConditionType, addr 0x3407680, size 0x8, virtual false, abstract: false, final false
   inline void set_ConditionType(::JetBrains::Annotations::AssertionConditionType value);
 
 protected:

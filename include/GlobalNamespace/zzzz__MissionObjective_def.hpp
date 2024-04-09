@@ -113,10 +113,10 @@ public:
 
   __declspec(property(get = get_type))::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> type;
 
-  /// @brief Method Equals, addr 0x12fd82c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x13d7278, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x12fd938, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x13d7384, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::MissionObjective* New_ctor();
@@ -139,22 +139,22 @@ public:
 
   constexpr void __cordl_internal_set__type(::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> value);
 
-  /// @brief Method .ctor, addr 0x12fd99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d73e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_referenceValue, addr 0x12fd750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceValue, addr 0x13d719c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_referenceValue();
 
-  /// @brief Method get_referenceValueComparisonType, addr 0x12fd748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceValueComparisonType, addr 0x13d7194, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType get_referenceValueComparisonType();
 
-  /// @brief Method get_type, addr 0x12fd740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x13d718c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> get_type();
 
-  /// @brief Method op_Equality, addr 0x12fd758, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x13d71a4, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective* obj2);
 
-  /// @brief Method op_Inequality, addr 0x12fd814, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x13d7260, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective* obj2);
 
 protected:

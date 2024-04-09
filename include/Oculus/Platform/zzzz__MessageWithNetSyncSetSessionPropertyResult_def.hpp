@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__NetSyncSetSessionPropertyResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithNetSyncSetSessionPropertyResult)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithNetSyncSetSessionPropertyResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x28470c0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c96a4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x2847084, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x29c9668, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetNetSyncSetSessionPropertyResult();
 
   static inline ::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x284702c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c9610, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

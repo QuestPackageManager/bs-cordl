@@ -58,13 +58,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
 
-  /// @brief Method CheckExisting, addr 0x10ca8d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckExisting, addr 0x11a4458, size 0x58, virtual false, abstract: false, final false
   inline bool CheckExisting(::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo* existingEndo, ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback* New_ctor(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism,
                                                                                                  ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method Precompute, addr 0x10ca6dc, size 0x1f8, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x11a4260, size 0x1f8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __cordl_internal_get_m_endomorphism();
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_m_point(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x10ca648, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a41cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -128,19 +128,19 @@ public:
   /// @brief Field PRECOMP_NAME, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PRECOMP_NAME, put = setStaticF_PRECOMP_NAME))::StringW PRECOMP_NAME;
 
-  /// @brief Method CalculateB, addr 0x10ca420, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CalculateB, addr 0x11a3fa4, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateB(::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::BigInteger* g, int32_t t);
 
-  /// @brief Method DecomposeScalar, addr 0x10ca1ec, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method DecomposeScalar, addr 0x11a3d70, size 0x234, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> DecomposeScalar(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* p,
                                                                                                                                    ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method MapPoint, addr 0x10ca520, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method MapPoint, addr 0x11a40a4, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* MapPoint(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, ::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::EndoUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ca6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a4258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_PRECOMP_NAME();

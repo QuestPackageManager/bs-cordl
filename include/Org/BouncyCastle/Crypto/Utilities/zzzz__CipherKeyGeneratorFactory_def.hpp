@@ -28,15 +28,15 @@ namespace Org::BouncyCastle::Crypto::Utilities {
 class CORDL_TYPE CipherKeyGeneratorFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateCipherKeyGenerator, addr 0x1053cdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateCipherKeyGenerator, addr 0x112d860, size 0xb0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateCipherKeyGenerator(::Org::BouncyCastle::Security::SecureRandom* random, int32_t keySize);
 
-  /// @brief Method CreateKeyGenerator, addr 0x10538a8, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyGenerator, addr 0x112d42c, size 0x434, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10538a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x112d424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

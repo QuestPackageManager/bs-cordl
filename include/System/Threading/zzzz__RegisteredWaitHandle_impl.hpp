@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(
     ::System::Threading::WaitHandle*, ::System::Threading::WaitOrTimerCallback*, ::System::Object*, ::System::TimeSpan, bool)>(&::System::Threading::RegisteredWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x277132c;
+  constexpr static std::size_t addrs = 0x28a193c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(
     &::System::Threading::RegisteredWaitHandle::Wait)> {
-  constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x2773c9c;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x28a4290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(
     &::System::Threading::RegisteredWaitHandle::DoCallBack)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x27741cc;
+  constexpr static std::size_t addrs = 0x28a47bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::RegisteredWaitHandle::*)(::System::Threading::WaitHandle*)>(
     &::System::Threading::RegisteredWaitHandle::Unregister)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x27742d0;
+  constexpr static std::size_t addrs = 0x28a48c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

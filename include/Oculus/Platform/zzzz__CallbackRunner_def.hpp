@@ -21,18 +21,18 @@ public:
   /// @brief Field IsPersistantBetweenSceneLoads, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_IsPersistantBetweenSceneLoads, put = __cordl_internal_set_IsPersistantBetweenSceneLoads)) bool IsPersistantBetweenSceneLoads;
 
-  /// @brief Method Awake, addr 0x2823e78, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x29a645c, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Oculus::Platform::CallbackRunner* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x2823fec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x29a65d0, size 0x4c, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method OnDestroy, addr 0x2823fe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x29a65cc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x2823f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x29a655c, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_IsPersistantBetweenSceneLoads() const;
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_IsPersistantBetweenSceneLoads(bool value);
 
-  /// @brief Method .ctor, addr 0x2824038, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a661c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ovr_UnityResetTestPlatform, addr 0x2823e14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovr_UnityResetTestPlatform, addr 0x29a63f8, size 0x64, virtual false, abstract: false, final false
   static inline void ovr_UnityResetTestPlatform();
 
 protected:

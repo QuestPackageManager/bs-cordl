@@ -51,7 +51,7 @@ public:
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
 
-  /// @brief Method Equals, addr 0x263956c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x276077c, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -60,7 +60,7 @@ public:
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetHashCode, addr 0x263957c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x276078c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsDefined, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -68,7 +68,7 @@ public:
 
   static inline ::System::Reflection::MemberInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2639404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2760614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_DeclaringType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -77,10 +77,10 @@ public:
   /// @brief Method get_MemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method get_MetadataToken, addr 0x263aaec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x2761f30, size 0x40, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method get_Module, addr 0x263aa18, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x2761e5c, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -92,10 +92,10 @@ public:
   /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
   constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
 
-  /// @brief Method op_Equality, addr 0x263ab2c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2761f70, size 0x35c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x263b0bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2762500, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
 protected:

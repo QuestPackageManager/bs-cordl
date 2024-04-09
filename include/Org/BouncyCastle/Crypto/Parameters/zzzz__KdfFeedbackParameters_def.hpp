@@ -54,11 +54,11 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method CreateWithCounter, addr 0xfc8a74, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateWithCounter, addr 0x10a25f8, size 0xe0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r);
 
-  /// @brief Method CreateWithoutCounter, addr 0xfc8b54, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateWithoutCounter, addr 0x10a26d8, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithoutCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData);
 
@@ -95,24 +95,24 @@ public:
 
   constexpr void __cordl_internal_set_useCounter(bool value);
 
-  /// @brief Method .ctor, addr 0xfc8904, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a2488, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
   static inline int32_t getStaticF_UNUSED_R();
 
-  /// @brief Method get_FixedInputData, addr 0xfc8cb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0x10a2838, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
-  /// @brief Method get_Iv, addr 0xfc8c48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Iv, addr 0x10a27cc, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Iv();
 
-  /// @brief Method get_Ki, addr 0xfc8bec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0x10a2770, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_R, addr 0xfc8cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x10a2830, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
-  /// @brief Method get_UseCounter, addr 0xfc8ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCounter, addr 0x10a2828, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCounter();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

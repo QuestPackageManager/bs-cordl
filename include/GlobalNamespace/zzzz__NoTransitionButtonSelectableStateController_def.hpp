@@ -3,8 +3,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SelectableStateController_1_def.hpp"
-#include "HMUI/zzzz__NoTransitionsButton_def.hpp"
 CORDL_MODULE_EXPORT(NoTransitionButtonSelectableStateController)
+namespace HMUI {
+class NoTransitionsButton;
+}
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
 }
@@ -22,21 +24,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsButton>> {
 public:
   // Declarations
-  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x2511fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x26364c4, size 0x8, virtual false, abstract: false, final false
   inline void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionButtonSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2511f44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2636438, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2511de8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x26362dc, size 0xa4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x2511e8c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x2636380, size 0xb8, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::__NoTransitionsButton__SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x2511fd8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26364cc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

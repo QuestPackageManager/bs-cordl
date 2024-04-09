@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::CrossContextDelegate::*)(::System::Object*, void*)>(
     &::System::Runtime::Remoting::Contexts::CrossContextDelegate::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x25f5fe8;
+  constexpr static std::size_t addrs = 0x271d76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::CrossContextDelegate::*)()>(
     &::System::Runtime::Remoting::Contexts::CrossContextDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x25f60a4;
+  constexpr static std::size_t addrs = 0x271d828;
 
   inline static ::MethodInfo const* methodInfo() {
 

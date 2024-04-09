@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_next(::BGNet::Logging::__Debug__LoggerLinkedList* value);
 
-  /// @brief Method .ctor, addr 0xef2b6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfcc6f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
 protected:
@@ -142,25 +142,25 @@ public:
   /// @brief Field _loggersMutex, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__loggersMutex, put = setStaticF__loggersMutex))::System::Object* _loggersMutex;
 
-  /// @brief Method AddLogger, addr 0xef297c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method AddLogger, addr 0xfcc500, size 0x178, virtual false, abstract: false, final false
   static inline void AddLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method Log, addr 0xef2de0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0xfcc964, size 0xf4, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogError, addr 0xef2ed4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0xfcca58, size 0xf8, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0xef2fcc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LogException, addr 0xfccb50, size 0x100, virtual false, abstract: false, final false
   static inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogWarning, addr 0xef30cc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0xfccc50, size 0xf8, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
-  /// @brief Method NoDomainReloadInit, addr 0xef28e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0xfcc468, size 0x90, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method RemoveLogger, addr 0xef2b94, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method RemoveLogger, addr 0xfcc718, size 0x24c, virtual false, abstract: false, final false
   static inline void RemoveLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
   static inline ::BGNet::Logging::__Debug__LoggerLinkedList* getStaticF__loggers();

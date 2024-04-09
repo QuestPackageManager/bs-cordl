@@ -264,18 +264,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___AddApplicationManifest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2929c80, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aac264, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchApplicationManifestFullPath, bool bTemporary, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2929d18, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aac2fc, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2929c68, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aac24c, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchApplicationManifestFullPath, bool bTemporary);
 
   static inline ::OVR::OpenVR::__IVRApplications___AddApplicationManifest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2929b90, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aac174, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -306,18 +306,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___RemoveApplicationManifest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2929e28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aac40c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchApplicationManifestFullPath, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2929e48, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aac42c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2929e14, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aac3f8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchApplicationManifestFullPath);
 
   static inline ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2929d40, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aac324, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -348,18 +348,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___IsApplicationInstalled : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2929f58, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aac53c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2929f78, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aac55c, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2929f44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aac528, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2929e70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aac454, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -390,18 +390,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationCount : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292a070, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aac654, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292a090, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aac674, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292a05c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aac640, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationCount* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2929fa0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aac584, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -432,19 +432,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationKeyByIndex : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292a190, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aac774, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292a234, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aac818, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292a17c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aac760, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292a0b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aac69c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -475,19 +475,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationKeyByProcessId : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292a334, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aac918, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unProcessId, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292a3d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aac9bc, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292a320, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aac904, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unProcessId, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292a25c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aac840, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -518,18 +518,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___LaunchApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292a4e8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aacacc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292a508, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aacaec, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292a4d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aacab8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___LaunchApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292a400, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aac9e4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -560,20 +560,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___LaunchTemplateApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292a61c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aacc00, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey, ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>> pKeys,
                                              uint32_t unKeys, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292a6c4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aacca8, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292a608, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aacbec, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey,
                                                    ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>> pKeys, uint32_t unKeys);
 
   static inline ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292a530, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aacb14, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -604,18 +604,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___LaunchApplicationFromMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292a7d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aacdbc, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::StringW pchArgs, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292a800, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aacde4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292a7c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aacda8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchMimeType, ::StringW pchArgs);
 
   static inline ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292a6ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aaccd0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -646,18 +646,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___LaunchDashboardOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292a910, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aacef4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292a930, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aacf14, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292a8fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aacee0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292a828, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aace0c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -688,18 +688,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___CancelApplicationLaunch : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292aa40, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aad024, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292aa60, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aad044, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292aa2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aad010, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292a958, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aacf3c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -730,18 +730,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___IdentifyApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292ab60, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aad144, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unProcessId, ::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292abf0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aad1d4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292ab4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aad130, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unProcessId, ::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___IdentifyApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292aa88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aad06c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -772,18 +772,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationProcessId : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292ad00, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aad2e4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292ad20, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aad304, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292acec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aad2d0, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292ac18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aad1fc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -814,18 +814,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationsErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292ae20, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aad404, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationError error, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292aea4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aad488, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292ae0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aad3f0, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRApplicationError error);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292ad48, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aad32c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -856,20 +856,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyString : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292afb8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aad59c, size 0xfc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer,
                                              uint32_t unPropertyValueBufferLen, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292b0b4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aad698, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292afa4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aad588, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer, uint32_t unPropertyValueBufferLen,
                          ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292aecc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aad4b0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -900,19 +900,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyBool : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292b1cc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aad7b0, size 0xc8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292b294, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aad878, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292b1b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aad79c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292b0e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aad6c4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -943,19 +943,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyUint64 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292b3ac, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aad990, size 0xc8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292b474, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aada58, size 0x2c, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292b398, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aad97c, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292b2c0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aad8a4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -986,18 +986,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___SetApplicationAutoLaunch : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292b590, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aadb74, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, bool bAutoLaunch, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292b628, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aadc0c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292b578, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aadb5c, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey, bool bAutoLaunch);
 
   static inline ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292b4a0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aada84, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1028,18 +1028,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationAutoLaunch : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292b738, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aadd1c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292b758, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aadd3c, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292b724, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aadd08, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292b650, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aadc34, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1070,18 +1070,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___SetDefaultApplicationForMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292b86c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aade50, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::StringW pchMimeType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292b894, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aade78, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292b858, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aade3c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey, ::StringW pchMimeType);
 
   static inline ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292b780, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aadd64, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1112,19 +1112,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetDefaultApplicationForMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292b9a8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aadf8c, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292ba40, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aae024, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292b994, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aadf78, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292b8bc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aadea0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1155,19 +1155,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationSupportedMimeTypes : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292bb54, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aae138, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::Text::StringBuilder* pchMimeTypesBuffer, uint32_t unMimeTypesBuffer, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292bbec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aae1d0, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292bb40, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aae124, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey, ::System::Text::StringBuilder* pchMimeTypesBuffer, uint32_t unMimeTypesBuffer);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292ba68, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae04c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1198,19 +1198,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationsThatSupportMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292bd00, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aae2e4, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint32_t unAppKeysThatSupportBuffer, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292bd98, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aae37c, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292bcec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aae2d0, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint32_t unAppKeysThatSupportBuffer);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292bc14, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae1f8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1241,18 +1241,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationLaunchArguments : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292be98, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aae47c, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unHandle, ::System::Text::StringBuilder* pchArgs, uint32_t unArgs, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292bf3c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aae520, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292be84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aae468, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t unHandle, ::System::Text::StringBuilder* pchArgs, uint32_t unArgs);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292bdc0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae3a4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1283,18 +1283,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetStartingApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292c050, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aae634, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292c0e4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aae6c8, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292c03c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aae620, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetStartingApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292bf64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae548, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1325,18 +1325,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetTransitionState : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292c1dc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aae7c0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292c1fc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aae7e0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationTransitionState EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292c1c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aae7ac, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationTransitionState Invoke();
 
   static inline ::OVR::OpenVR::__IVRApplications___GetTransitionState* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292c10c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae6f0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1367,18 +1367,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___PerformApplicationPrelaunchCheck : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292c30c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aae8f0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292c32c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aae910, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292c2f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aae8dc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
 
   static inline ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292c224, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae808, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1409,18 +1409,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetApplicationsTransitionStateNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292c42c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aaea10, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationTransitionState state, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292c4b0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aaea94, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292c418, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aae9fc, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRApplicationTransitionState state);
 
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292c354, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae938, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1451,18 +1451,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___IsQuitUserPromptRequested : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292c5a8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aaeb8c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292c5c8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aaebac, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292c594, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aaeb78, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292c4d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aaeabc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1493,18 +1493,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___LaunchInternalProcess : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292c6dc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aaecc0, size 0x2c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchBinaryPath, ::StringW pchArguments, ::StringW pchWorkingDirectory, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292c708, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aaecec, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292c6c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aaecac, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchBinaryPath, ::StringW pchArguments, ::StringW pchWorkingDirectory);
 
   static inline ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292c5f0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aaebd4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1535,18 +1535,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRApplications___GetCurrentSceneProcessId : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292c800, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2aaede4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292c820, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2aaee04, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292c7ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2aaedd0, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
   static inline ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x292c730, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aaed14, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

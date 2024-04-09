@@ -37,7 +37,7 @@ public:
   /// @brief Field m_WorldCorners, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WorldCorners, put = __cordl_internal_set_m_WorldCorners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_WorldCorners;
 
-  /// @brief Method GetCanvasRect, addr 0x2eb9900, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasRect, addr 0x329e71c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
 
   static inline ::UnityEngine::UI::RectangularVertexClipper* New_ctor();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x2eb9a70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x329e88c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -44,7 +44,7 @@ public:
   /// @brief Field noticeRef, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_noticeRef, put = __cordl_internal_set_noticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef;
 
-  /// @brief Method GetInstance, addr 0x1230c80, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x130a804, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1230d34, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x130a8b8, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& __cordl_internal_get_explicitText();
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_noticeRef(::Org::BouncyCastle::Asn1::X509::NoticeReference* value);
 
-  /// @brief Method .ctor, addr 0x12309d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a554, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
-  /// @brief Method .ctor, addr 0x12309fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a580, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
-  /// @brief Method .ctor, addr 0x1230a78, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a5fc, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ExplicitText, addr 0x1230d2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExplicitText, addr 0x130a8b0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DisplayText* get_ExplicitText();
 
-  /// @brief Method get_NoticeRef, addr 0x1230d24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NoticeRef, addr 0x130a8a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* get_NoticeRef();
 
 protected:

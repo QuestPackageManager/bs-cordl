@@ -44,13 +44,13 @@ public:
   /// @brief Field TargetAddress, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
 
-  /// @brief Method FromData, addr 0x23c3a24, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x24e3f70, size 0x1ac, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method GetProtocolId, addr 0x23c3918, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetProtocolId, addr 0x24e3e64, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetProtocolId(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x23c6dc8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x24e7314, size 0x144, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
 
   static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23c6d44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e7290, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress, ::LiteNetLib::Utils::NetDataReader* data);
 
 protected:

@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__EventArgs_def.hpp"
 CORDL_MODULE_EXPORT(AddingNewEventArgs)
 namespace System {
 class Object;
@@ -18,17 +18,15 @@ MARK_REF_PTR_T(::System::ComponentModel::AddingNewEventArgs);
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::AddingNewEventArgs*
-class CORDL_TYPE AddingNewEventArgs : public ::System::Object {
+class CORDL_TYPE AddingNewEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_NewObject, put = set_NewObject))::System::Object* NewObject;
+  __declspec(property(get = get_NewObject))::System::Object* NewObject;
 
   /// @brief Field <NewObject>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__NewObject_k__BackingField, put = __cordl_internal_set__NewObject_k__BackingField))::System::Object* _NewObject_k__BackingField;
 
   static inline ::System::ComponentModel::AddingNewEventArgs* New_ctor();
-
-  static inline ::System::ComponentModel::AddingNewEventArgs* New_ctor(::System::Object* newObject);
 
   constexpr ::System::Object*& __cordl_internal_get__NewObject_k__BackingField();
 
@@ -36,17 +34,11 @@ public:
 
   constexpr void __cordl_internal_set__NewObject_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2791620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e32ca0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2791628, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* newObject);
-
-  /// @brief Method get_NewObject, addr 0x2791610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewObject, addr 0x2e32cf8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_NewObject();
-
-  /// @brief Method set_NewObject, addr 0x2791618, size 0x8, virtual false, abstract: false, final false
-  inline void set_NewObject(::System::Object* value);
 
 protected:
   // Ctor Parameters []

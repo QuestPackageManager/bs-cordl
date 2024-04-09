@@ -39,21 +39,21 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method DrawFadeQuad, addr 0x2953f84, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DrawFadeQuad, addr 0x2ad6594, size 0xec, virtual false, abstract: false, final false
   inline void DrawFadeQuad(float_t alpha);
 
   static inline ::GlobalNamespace::NoPostProcessMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2953f08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2ad6518, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2953e88, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2ad6498, size 0x80, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PostRender, addr 0x2953f78, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x2ad6588, size 0xc, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x2953f14, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x2ad6524, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set__fadeShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x2954070, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad6680, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x2953e80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x2ad6490, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:

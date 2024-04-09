@@ -60,18 +60,18 @@ public:
   /// @brief Field width, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) float_t width;
 
-  /// @brief Method Awake, addr 0x22cd0fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23ec630, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ParametricBoxFrameController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x22cd260, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23ec794, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x22cd11c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23ec650, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x22cd144, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x23ec678, size 0x11c, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_width(float_t value);
 
-  /// @brief Method .ctor, addr 0x22cd280, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ec7b4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
@@ -127,7 +127,7 @@ public:
 
   static inline void setStaticF__sizeParamsID(int32_t value);
 
-  /// @brief Method set_localPosition, addr 0x22cd0b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition, addr 0x23ec5e8, size 0x48, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
 protected:

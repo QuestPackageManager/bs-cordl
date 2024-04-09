@@ -30,10 +30,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE UserAgeCategory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x28538d4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x29d5eb8, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* Get();
 
-  /// @brief Method Report, addr 0x2853a2c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Report, addr 0x29d6010, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Report(::Oculus::Platform::AppAgeCategory age_category);
 
 protected:

@@ -48,7 +48,7 @@ public:
 
   static inline ::GlobalNamespace::ResultsTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x2449b90, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x256cda8, size 0x38c, virtual false, abstract: false, final false
   inline void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__border() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2449f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256d134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

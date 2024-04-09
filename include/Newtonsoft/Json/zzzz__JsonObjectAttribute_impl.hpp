@@ -1,10 +1,14 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__MemberSerialization_impl.hpp"
+#include "Newtonsoft/Json/zzzz__MissingMemberHandling_impl.hpp"
+#include "Newtonsoft/Json/zzzz__NullValueHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__Required_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonObjectAttribute_def.hpp"
 #include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
+#include "Newtonsoft/Json/zzzz__MissingMemberHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__Required_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonObjectAttribute.get_MemberSerialization
 template <>
@@ -12,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::MemberSerialization (::Newtonsoft::Json::JsonObjectAttribute::*)()>(
     &::Newtonsoft::Json::JsonObjectAttribute::get_MemberSerialization)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2792fdc;
+  constexpr static std::size_t addrs = 0x28c3f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(),
@@ -26,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonObjectAttribute::*)(::Newtonsoft::Json::MemberSerialization)>(
     &::Newtonsoft::Json::JsonObjectAttribute::set_MemberSerialization)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2792fe4;
+  constexpr static std::size_t addrs = 0x28c3f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,13 +39,71 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Newtonsoft::Json::JsonObjectAttribute.get_MissingMemberHandling
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::MissingMemberHandling (::Newtonsoft::Json::JsonObjectAttribute::*)()>(
+    &::Newtonsoft::Json::JsonObjectAttribute::get_MissingMemberHandling)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x28c3f8c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(),
+                                                                               "get_MissingMemberHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::JsonObjectAttribute.set_MissingMemberHandling
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonObjectAttribute::*)(::Newtonsoft::Json::MissingMemberHandling)>(
+    &::Newtonsoft::Json::JsonObjectAttribute::set_MissingMemberHandling)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x28c3fc8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(), "set_MissingMemberHandling", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::MissingMemberHandling>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::JsonObjectAttribute.get_ItemNullValueHandling
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::NullValueHandling (::Newtonsoft::Json::JsonObjectAttribute::*)()>(
+    &::Newtonsoft::Json::JsonObjectAttribute::get_ItemNullValueHandling)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x28c4030;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(),
+                                                                               "get_ItemNullValueHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::JsonObjectAttribute.set_ItemNullValueHandling
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonObjectAttribute::*)(::Newtonsoft::Json::NullValueHandling)>(
+    &::Newtonsoft::Json::JsonObjectAttribute::set_ItemNullValueHandling)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x28c406c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(), "set_ItemNullValueHandling", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::NullValueHandling>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Newtonsoft::Json::JsonObjectAttribute.get_ItemRequired
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Required (::Newtonsoft::Json::JsonObjectAttribute::*)()>(
     &::Newtonsoft::Json::JsonObjectAttribute::get_ItemRequired)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2792fec;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x28c40d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(),
@@ -55,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonObjectAttribute::*)(::Newtonsoft::Json::Required)>(
     &::Newtonsoft::Json::JsonObjectAttribute::set_ItemRequired)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x279303c;
+  constexpr static std::size_t addrs = 0x28c4110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonObjectAttribute::*)()>(&::Newtonsoft::Json::JsonObjectAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27930a4;
+  constexpr static std::size_t addrs = 0x28c4178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(), ".ctor",
@@ -83,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonObjectAttribute::*)(::Newtonsoft::Json::MemberSerialization)>(
     &::Newtonsoft::Json::JsonObjectAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27930ac;
+  constexpr static std::size_t addrs = 0x28c4180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonObjectAttribute::*)(::StringW)>(&::Newtonsoft::Json::JsonObjectAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27930d4;
+  constexpr static std::size_t addrs = 0x28c41a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,6 +180,18 @@ constexpr void Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_set__memb
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____memberSerialization = value;
 }
+constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling>& Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_get__missingMemberHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____missingMemberHandling;
+}
+constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> const& Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_get__missingMemberHandling() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____missingMemberHandling;
+}
+constexpr void Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_set__missingMemberHandling(::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____missingMemberHandling = value;
+}
 constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_get__itemRequired() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemRequired;
@@ -130,6 +204,18 @@ constexpr void Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_set__item
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____itemRequired = value;
 }
+constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_get__itemNullValueHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____itemNullValueHandling;
+}
+constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_get__itemNullValueHandling() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____itemNullValueHandling;
+}
+constexpr void Newtonsoft::Json::JsonObjectAttribute::__cordl_internal_set__itemNullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____itemNullValueHandling = value;
+}
 inline ::Newtonsoft::Json::MemberSerialization Newtonsoft::Json::JsonObjectAttribute::get_MemberSerialization() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(),
                                                                              "get_MemberSerialization", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -139,6 +225,28 @@ inline void Newtonsoft::Json::JsonObjectAttribute::set_MemberSerialization(::New
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(), "set_MemberSerialization", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::MemberSerialization>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::Newtonsoft::Json::MissingMemberHandling Newtonsoft::Json::JsonObjectAttribute::get_MissingMemberHandling() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(),
+                                                                             "get_MissingMemberHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::MissingMemberHandling, false>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::JsonObjectAttribute::set_MissingMemberHandling(::Newtonsoft::Json::MissingMemberHandling value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(), "set_MissingMemberHandling", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::MissingMemberHandling>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::Newtonsoft::Json::NullValueHandling Newtonsoft::Json::JsonObjectAttribute::get_ItemNullValueHandling() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(),
+                                                                             "get_ItemNullValueHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::NullValueHandling, false>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::JsonObjectAttribute::set_ItemNullValueHandling(::Newtonsoft::Json::NullValueHandling value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonObjectAttribute*>::get(), "set_ItemNullValueHandling", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::NullValueHandling>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::Newtonsoft::Json::Required Newtonsoft::Json::JsonObjectAttribute::get_ItemRequired() {

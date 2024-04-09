@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE AuthenticationTokenPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAuthenticationTokenPlatform, addr 0x2789f40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToAuthenticationTokenPlatform, addr 0x2ad1de4, size 0x28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__AuthenticationToken__Platform ToAuthenticationTokenPlatform(::GlobalNamespace::__UserInfo__Platform platform);
 
-  /// @brief Method ToUserInfoPlatform, addr 0x2789f68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToUserInfoPlatform, addr 0x2ad1e0c, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__UserInfo__Platform ToUserInfoPlatform(::GlobalNamespace::__AuthenticationToken__Platform platform);
 
 protected:

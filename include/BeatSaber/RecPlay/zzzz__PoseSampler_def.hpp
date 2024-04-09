@@ -31,13 +31,13 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE PoseSampler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindPoseSample, addr 0xe9e5cc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FindPoseSample, addr 0xf754e8, size 0x158, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::FrameSample FindPoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, float_t time, int32_t nearest);
 
-  /// @brief Method InterpolatePoseSample, addr 0xe9e724, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePoseSample, addr 0xf75640, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, ByRef<::BeatSaber::RecPlay::FrameSample> sample);
 
-  /// @brief Method SamplePose, addr 0xe9e3bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SamplePose, addr 0xf752d8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose SamplePose(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, float_t time, ByRef<int32_t> nearest);
 
 protected:

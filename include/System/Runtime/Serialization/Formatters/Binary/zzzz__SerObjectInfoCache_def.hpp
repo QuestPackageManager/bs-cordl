@@ -85,10 +85,10 @@ public:
 
   constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x261f8ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27452e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x261f870, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2745370, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
 protected:

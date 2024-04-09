@@ -30,49 +30,49 @@ public:
   /// @brief Field EPHEMERON_TOMBSTONE, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EPHEMERON_TOMBSTONE, put = setStaticF_EPHEMERON_TOMBSTONE))::System::Object* EPHEMERON_TOMBSTONE;
 
-  /// @brief Method Collect, addr 0x273b5c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Collect, addr 0x28692d0, size 0x50, virtual false, abstract: false, final false
   static inline void Collect();
 
-  /// @brief Method CollectionCount, addr 0x273b65c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CollectionCount, addr 0x286936c, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t CollectionCount(int32_t generation);
 
-  /// @brief Method GetCollectionCount, addr 0x273b514, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionCount, addr 0x2869224, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetCollectionCount(int32_t generation);
 
-  /// @brief Method GetMaxGeneration, addr 0x273b518, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetMaxGeneration, addr 0x2869228, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetMaxGeneration();
 
-  /// @brief Method GetMemoryInfo, addr 0x273b528, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetMemoryInfo, addr 0x2869238, size 0x98, virtual false, abstract: false, final false
   static inline void GetMemoryInfo(ByRef<uint32_t> highMemLoadThreshold, ByRef<uint64_t> totalPhysicalMem, ByRef<uint32_t> lastRecordedMemLoad, ByRef<void*> lastRecordedHeapSize,
                                    ByRef<void*> lastRecordedFragmentation);
 
-  /// @brief Method InternalCollect, addr 0x273b51c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalCollect, addr 0x286922c, size 0x4, virtual false, abstract: false, final false
   static inline void InternalCollect(int32_t generation);
 
-  /// @brief Method KeepAlive, addr 0x273b71c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method KeepAlive, addr 0x286942c, size 0x4, virtual false, abstract: false, final false
   static inline void KeepAlive(::System::Object* obj);
 
-  /// @brief Method ReRegisterForFinalize, addr 0x273b7cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ReRegisterForFinalize, addr 0x28694dc, size 0xa4, virtual false, abstract: false, final false
   static inline void ReRegisterForFinalize(::System::Object* obj);
 
-  /// @brief Method SuppressFinalize, addr 0x273b724, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SuppressFinalize, addr 0x2869434, size 0xa4, virtual false, abstract: false, final false
   static inline void SuppressFinalize(::System::Object* obj);
 
-  /// @brief Method _ReRegisterForFinalize, addr 0x273b7c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ReRegisterForFinalize, addr 0x28694d8, size 0x4, virtual false, abstract: false, final false
   static inline void _ReRegisterForFinalize(::System::Object* o);
 
-  /// @brief Method _SuppressFinalize, addr 0x273b720, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _SuppressFinalize, addr 0x2869430, size 0x4, virtual false, abstract: false, final false
   static inline void _SuppressFinalize(::System::Object* o);
 
   static inline ::System::Object* getStaticF_EPHEMERON_TOMBSTONE();
 
-  /// @brief Method get_MaxGeneration, addr 0x273b610, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_MaxGeneration, addr 0x2869320, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t get_MaxGeneration();
 
-  /// @brief Method get_ephemeron_tombstone, addr 0x273b524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ephemeron_tombstone, addr 0x2869234, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* get_ephemeron_tombstone();
 
-  /// @brief Method register_ephemeron_array, addr 0x273b520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method register_ephemeron_array, addr 0x2869230, size 0x4, virtual false, abstract: false, final false
   static inline void register_ephemeron_array(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> array);
 
   static inline void setStaticF_EPHEMERON_TOMBSTONE(::System::Object* value);

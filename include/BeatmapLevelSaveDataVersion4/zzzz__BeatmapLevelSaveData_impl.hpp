@@ -28,24 +28,125 @@ constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData::__B
 }
 // Ctor Parameters []
 constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData::__BeatmapLevelSaveData__AudioData() {}
-// Ctor Parameters [CppParam { name: "useOverride", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorSchemeName", ty: "::StringW", modifiers: "", def_value: Some("nullptr")
-// }, CppParam { name: "saberAColor", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "saberBColor", ty: "::StringW", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "obstaclesColor", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "environmentColor0", ty: "::StringW", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "environmentColor1", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "environmentColor0Boost", ty: "::StringW", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "environmentColor1Boost", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__BeatmapLevelSaveData__ColorScheme(bool useOverride, ::StringW colorSchemeName, ::StringW saberAColor,
-                                                                                                                   ::StringW saberBColor, ::StringW obstaclesColor, ::StringW environmentColor0,
-                                                                                                                   ::StringW environmentColor1, ::StringW environmentColor0Boost,
-                                                                                                                   ::StringW environmentColor1Boost) noexcept {
-  this->useOverride = useOverride;
-  this->colorSchemeName = colorSchemeName;
-  this->saberAColor = saberAColor;
-  this->saberBColor = saberBColor;
-  this->obstaclesColor = obstaclesColor;
-  this->environmentColor0 = environmentColor0;
-  this->environmentColor1 = environmentColor1;
-  this->environmentColor0Boost = environmentColor0Boost;
-  this->environmentColor1Boost = environmentColor1Boost;
+//  Writing Method size for method: ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::*)()>(
+    &::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x140213c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_colorSchemeName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___colorSchemeName;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_colorSchemeName() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___colorSchemeName;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_colorSchemeName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorSchemeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_saberAColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___saberAColor;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_saberAColor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___saberAColor;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_saberAColor(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saberAColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_saberBColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___saberBColor;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_saberBColor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___saberBColor;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_saberBColor(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saberBColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_obstaclesColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___obstaclesColor;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_obstaclesColor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___obstaclesColor;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_obstaclesColor(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obstaclesColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor0() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor0;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor0() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor0;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_environmentColor0(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentColor0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor1;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor1() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor1;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_environmentColor1(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentColor1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor0Boost() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor0Boost;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor0Boost() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor0Boost;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_environmentColor0Boost(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentColor0Boost)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor1Boost() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor1Boost;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_get_environmentColor1Boost() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentColor1Boost;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__cordl_internal_set_environmentColor1Boost(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentColor1Boost)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme* BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>());
+}
+inline void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::__BeatmapLevelSaveData__ColorScheme() {}
@@ -58,23 +159,139 @@ constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors
 }
 // Ctor Parameters []
 constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors::__BeatmapLevelSaveData__BeatmapAuthors() {}
-// Ctor Parameters [CppParam { name: "characteristic", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "difficulty", ty: "::StringW", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "beatmapAuthors", ty: "::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "environmentNameIdx", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapColorSchemeIdx", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "lightshowDataFilename", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "beatmapDataFilename", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__BeatmapLevelSaveData__DifficultyBeatmap(
-    ::StringW characteristic, ::StringW difficulty, ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors beatmapAuthors, int32_t environmentNameIdx, int32_t beatmapColorSchemeIdx,
-    float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::StringW lightshowDataFilename, ::StringW beatmapDataFilename) noexcept {
-  this->characteristic = characteristic;
-  this->difficulty = difficulty;
-  this->beatmapAuthors = beatmapAuthors;
-  this->environmentNameIdx = environmentNameIdx;
-  this->beatmapColorSchemeIdx = beatmapColorSchemeIdx;
-  this->noteJumpMovementSpeed = noteJumpMovementSpeed;
-  this->noteJumpStartBeatOffset = noteJumpStartBeatOffset;
-  this->lightshowDataFilename = lightshowDataFilename;
-  this->beatmapDataFilename = beatmapDataFilename;
+//  Writing Method size for method: ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::*)()>(
+    &::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x1402144;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_characteristic() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___characteristic;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_characteristic() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___characteristic;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_characteristic(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___characteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_difficulty() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___difficulty;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_difficulty() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___difficulty;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_difficulty(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___difficulty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_beatmapAuthors() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapAuthors;
+}
+constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors const&
+BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_beatmapAuthors() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapAuthors;
+}
+constexpr void
+BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_beatmapAuthors(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___beatmapAuthors = value;
+}
+constexpr int32_t& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_environmentNameIdx() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentNameIdx;
+}
+constexpr int32_t const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_environmentNameIdx() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___environmentNameIdx;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_environmentNameIdx(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___environmentNameIdx = value;
+}
+constexpr int32_t& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_beatmapColorSchemeIdx() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapColorSchemeIdx;
+}
+constexpr int32_t const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_beatmapColorSchemeIdx() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapColorSchemeIdx;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_beatmapColorSchemeIdx(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___beatmapColorSchemeIdx = value;
+}
+constexpr float_t& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_noteJumpMovementSpeed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___noteJumpMovementSpeed;
+}
+constexpr float_t const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_noteJumpMovementSpeed() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___noteJumpMovementSpeed;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_noteJumpMovementSpeed(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___noteJumpMovementSpeed = value;
+}
+constexpr float_t& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_noteJumpStartBeatOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___noteJumpStartBeatOffset;
+}
+constexpr float_t const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_noteJumpStartBeatOffset() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___noteJumpStartBeatOffset;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_noteJumpStartBeatOffset(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___noteJumpStartBeatOffset = value;
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_lightshowDataFilename() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lightshowDataFilename;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_lightshowDataFilename() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lightshowDataFilename;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_lightshowDataFilename(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightshowDataFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_beatmapDataFilename() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapDataFilename;
+}
+constexpr ::StringW const& BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_get_beatmapDataFilename() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapDataFilename;
+}
+constexpr void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__cordl_internal_set_beatmapDataFilename(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapDataFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap* BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>());
+}
+inline void BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::__BeatmapLevelSaveData__DifficultyBeatmap() {}
@@ -84,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::*)()>(
     &::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x1326328;
+  constexpr static std::size_t addrs = 0x14020ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>::get(),
@@ -164,33 +381,33 @@ constexpr void BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*>&
+constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*>&
 BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::__cordl_internal_get_colorSchemes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemes;
 }
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*> const&
+constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*> const&
 BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::__cordl_internal_get_colorSchemes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemes;
 }
 constexpr void BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::__cordl_internal_set_colorSchemes(
-    ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*> value) {
+    ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorSchemes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*>&
+constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*>&
 BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::__cordl_internal_get_difficultyBeatmaps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___difficultyBeatmaps;
 }
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*> const&
+constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> const&
 BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::__cordl_internal_get_difficultyBeatmaps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___difficultyBeatmaps;
 }
 constexpr void BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::__cordl_internal_set_difficultyBeatmaps(
-    ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*> value) {
+    ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___difficultyBeatmaps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

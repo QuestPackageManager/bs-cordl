@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/UIR/zzzz__BasicNode_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
 CORDL_MODULE_EXPORT(BasicNodePool_1)
 namespace UnityEngine::UIElements::UIR {

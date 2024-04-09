@@ -55,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3022494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3407320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Editable, addr 0x3022474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Editable, addr 0x3407300, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
-  /// @brief Method get_Expression, addr 0x3022464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x34072f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_Target, addr 0x3022484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x3407310, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Editable, addr 0x302247c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Editable, addr 0x3407308, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
-  /// @brief Method set_Expression, addr 0x302246c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x34072f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method set_Target, addr 0x302248c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x3407318, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
 protected:

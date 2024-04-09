@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::OVRPointerVisualizer* New_ctor();
 
-  /// @brief Method Update, addr 0x28d1e44, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a54428, size 0x1a0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_linePointer() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x28d1fe4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a545c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

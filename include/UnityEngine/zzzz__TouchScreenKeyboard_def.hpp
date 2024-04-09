@@ -122,35 +122,35 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  /// @brief Method Destroy, addr 0x2e1a610, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x3201a20, size 0xcc, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Finalize, addr 0x2e1a6dc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3201aec, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetSelection, addr 0x2e1ae24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSelection, addr 0x3202234, size 0x44, virtual false, abstract: false, final false
   static inline void GetSelection(ByRef<int32_t> start, ByRef<int32_t> length);
 
-  /// @brief Method Internal_Destroy, addr 0x2e1a5d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x32019e4, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(void* ptr);
 
-  /// @brief Method IsInPlaceEditingAllowed, addr 0x2e1aa2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsInPlaceEditingAllowed, addr 0x3201e3c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsInPlaceEditingAllowed();
 
   static inline ::UnityEngine::TouchScreenKeyboard* New_ctor(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert,
                                                              ::StringW textPlaceholder, int32_t characterLimit);
 
-  /// @brief Method Open, addr 0x2e1ab14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x3201f24, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TouchScreenKeyboard* Open(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure);
 
-  /// @brief Method Open, addr 0x2e1aa54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x3201e64, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TouchScreenKeyboard* Open(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert,
                                                          ::StringW textPlaceholder, int32_t characterLimit);
 
-  /// @brief Method SetSelection, addr 0x2e1af60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetSelection, addr 0x3202370, size 0x44, virtual false, abstract: false, final false
   static inline void SetSelection(int32_t start, int32_t length);
 
-  /// @brief Method TouchScreenKeyboard_InternalConstructorHelper, addr 0x2e1a8cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TouchScreenKeyboard_InternalConstructorHelper, addr 0x3201cdc, size 0x54, virtual false, abstract: false, final false
   static inline void* TouchScreenKeyboard_InternalConstructorHelper(ByRef<::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments> arguments, ::StringW text, ::StringW textPlaceholder);
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
@@ -159,54 +159,54 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x2e1a770, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3201b80, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::StringW textPlaceholder,
                     int32_t characterLimit);
 
   static inline bool getStaticF__disableInPlaceEditing_k__BackingField();
 
-  /// @brief Method get_active, addr 0x2e1ac5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x320206c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_canGetSelection, addr 0x2e1ad5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canGetSelection, addr 0x320216c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canGetSelection();
 
-  /// @brief Method get_canSetSelection, addr 0x2e1ad98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canSetSelection, addr 0x32021a8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canSetSelection();
 
-  /// @brief Method get_disableInPlaceEditing, addr 0x2e1a978, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_disableInPlaceEditing, addr 0x3201d88, size 0x48, virtual false, abstract: false, final false
   static inline bool get_disableInPlaceEditing();
 
-  /// @brief Method get_isInPlaceEditingAllowed, addr 0x2e1a9c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_isInPlaceEditingAllowed, addr 0x3201dd0, size 0x6c, virtual false, abstract: false, final false
   static inline bool get_isInPlaceEditingAllowed();
 
-  /// @brief Method get_isSupported, addr 0x2e1a920, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_isSupported, addr 0x3201d30, size 0x58, virtual false, abstract: false, final false
   static inline bool get_isSupported();
 
-  /// @brief Method get_selection, addr 0x2e1add4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_selection, addr 0x32021e4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::RangeInt get_selection();
 
-  /// @brief Method get_status, addr 0x2e1acdc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x32020ec, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::__TouchScreenKeyboard__Status get_status();
 
-  /// @brief Method get_text, addr 0x2e1aba0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3201fb0, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF__disableInPlaceEditing_k__BackingField(bool value);
 
-  /// @brief Method set_active, addr 0x2e1ac98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x32020a8, size 0x44, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
-  /// @brief Method set_characterLimit, addr 0x2e1ad18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_characterLimit, addr 0x3202128, size 0x44, virtual false, abstract: false, final false
   inline void set_characterLimit(int32_t value);
 
-  /// @brief Method set_hideInput, addr 0x2e1ac20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_hideInput, addr 0x3202030, size 0x3c, virtual false, abstract: false, final false
   static inline void set_hideInput(bool value);
 
-  /// @brief Method set_selection, addr 0x2e1ae68, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_selection, addr 0x3202278, size 0xf8, virtual false, abstract: false, final false
   inline void set_selection(::UnityEngine::RangeInt value);
 
-  /// @brief Method set_text, addr 0x2e1abdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3201fec, size 0x44, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

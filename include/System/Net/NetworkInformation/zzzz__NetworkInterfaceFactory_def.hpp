@@ -22,7 +22,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE NetworkInterfaceFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2b3c640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2f20af0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
   /// @brief Method GetAllNetworkInterfaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b3c694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f20b44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

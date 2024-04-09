@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_Size(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28587e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dadc8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

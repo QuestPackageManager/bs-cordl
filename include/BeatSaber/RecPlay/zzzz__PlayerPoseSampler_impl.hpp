@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseSampler::*)(float_t, ByRef<::BeatSaber::RecPlay::PlayerPose>)>(
     &::BeatSaber::RecPlay::PlayerPoseSampler::Sample)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0xe9e2a0;
+  constexpr static std::size_t addrs = 0xf751bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseSampler::*)()>(&::BeatSaber::RecPlay::PlayerPoseSampler::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0xe9e560;
+  constexpr static std::size_t addrs = 0xf7547c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::RecPlay::PlayerPoseSampler*>::get(), ".ctor",

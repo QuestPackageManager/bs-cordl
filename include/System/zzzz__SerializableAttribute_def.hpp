@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::SerializableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2713ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2841838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

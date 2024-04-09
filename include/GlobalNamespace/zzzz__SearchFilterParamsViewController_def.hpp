@@ -37,6 +37,9 @@ class Button;
 namespace UnityEngine::UI {
 class Toggle;
 }
+namespace UnityEngine {
+class GameObject;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class SearchFilterParamsViewController;
@@ -44,7 +47,7 @@ class SearchFilterParamsViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SearchFilterParamsViewController);
 // Type: ::SearchFilterParamsViewController
-// SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SearchFilterParamsViewController*
@@ -59,7 +62,7 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapDifficultyDropdown,
                       put = __cordl_internal_set__beatmapDifficultyDropdown))::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> _beatmapDifficultyDropdown;
 
-  /// @brief Field _currentSearchFilter, offset 0xf0, size 0x50
+  /// @brief Field _currentSearchFilter, offset 0xf8, size 0x50
   __declspec(property(get = __cordl_internal_get__currentSearchFilter, put = __cordl_internal_set__currentSearchFilter))::GlobalNamespace::LevelFilter _currentSearchFilter;
 
   /// @brief Field _filterByCharacteristicToggle, offset 0x80, size 0x8
@@ -90,52 +93,56 @@ public:
   /// @brief Field _filterBySongPacksToggle, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__filterBySongPacksToggle, put = __cordl_internal_set__filterBySongPacksToggle))::UnityW<::UnityEngine::UI::Toggle> _filterBySongPacksToggle;
 
+  /// @brief Field _forcedSensitivityOptionNotice, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get__forcedSensitivityOptionNotice,
+                      put = __cordl_internal_set__forcedSensitivityOptionNotice))::UnityW<::UnityEngine::GameObject> _forcedSensitivityOptionNotice;
+
   /// @brief Field _maxBpmController, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__maxBpmController, put = __cordl_internal_set__maxBpmController))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _maxBpmController;
 
   /// @brief Field _minBpmController, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__minBpmController, put = __cordl_internal_set__minBpmController))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _minBpmController;
 
-  /// @brief Field _okButton, offset 0xe0, size 0x8
+  /// @brief Field _okButton, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
 
-  /// @brief Field _playerDataModel, offset 0xe8, size 0x8
+  /// @brief Field _playerDataModel, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _songPacksDropdown, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__songPacksDropdown, put = __cordl_internal_set__songPacksDropdown))::UnityW<::GlobalNamespace::SongPacksDropdown> _songPacksDropdown;
 
-  /// @brief Field didFinishEvent, offset 0x140, size 0x8
+  /// @brief Field didFinishEvent, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x2426904, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2549510, size 0x260, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2426b64, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2549770, size 0x1c8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x2427040, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x2549c4c, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByNotOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x2427014, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x2549c20, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method MaxBpmControllerValueDidChange, addr 0x2426f8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MaxBpmControllerValueDidChange, addr 0x2549b98, size 0x88, virtual false, abstract: false, final false
   inline void MaxBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float_t value);
 
-  /// @brief Method MinBpmControllerValueDidChange, addr 0x2426f04, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MinBpmControllerValueDidChange, addr 0x2549b10, size 0x88, virtual false, abstract: false, final false
   inline void MinBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float_t value);
 
   static inline ::GlobalNamespace::SearchFilterParamsViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x2426d2c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x2549938, size 0x1d8, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
-  /// @brief Method Refresh, addr 0x2426560, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2549168, size 0x3a8, virtual false, abstract: false, final false
   inline void Refresh(ByRef<::GlobalNamespace::LevelFilter> filter);
 
-  /// @brief Method Setup, addr 0x2426530, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2549138, size 0x30, virtual false, abstract: false, final false
   inline void Setup(ByRef<::GlobalNamespace::LevelFilter> filter);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> const& __cordl_internal_get__beatmapCharacteristicsDropdown() const;
@@ -186,6 +193,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterBySongPacksToggle();
 
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__forcedSensitivityOptionNotice() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__forcedSensitivityOptionNotice();
+
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__maxBpmController() const;
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__maxBpmController();
@@ -235,6 +246,8 @@ public:
 
   constexpr void __cordl_internal_set__filterBySongPacksToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
+  constexpr void __cordl_internal_set__forcedSensitivityOptionNotice(::UnityW<::UnityEngine::GameObject> value);
+
   constexpr void __cordl_internal_set__maxBpmController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
   constexpr void __cordl_internal_set__minBpmController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
@@ -247,13 +260,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method .ctor, addr 0x242706c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2549c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x24263c8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x2548fd0, size 0xb4, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x242647c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2549084, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
 protected:
@@ -312,22 +325,25 @@ public:
   /// @brief Field _filterBySensitivity, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerSensitivityDropdown> ____filterBySensitivity;
 
-  /// @brief Field _okButton, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _forcedSensitivityOptionNotice, offset: 0xe0, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::GameObject> ____forcedSensitivityOptionNotice;
+
+  /// @brief Field _okButton, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
-  /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _currentSearchFilter, offset: 0xf0, size: 0x50, def value: None
+  /// @brief Field _currentSearchFilter, offset: 0xf8, size: 0x50, def value: None
   ::GlobalNamespace::LevelFilter ____currentSearchFilter;
 
-  /// @brief Field didFinishEvent, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x148, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SearchFilterParamsViewController, 0x148>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SearchFilterParamsViewController, 0x150>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____filterByOwnedToggle) == 0x70, "Offset mismatch!");
 
@@ -357,13 +373,15 @@ static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____
 
 static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____filterBySensitivity) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____okButton) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____forcedSensitivityOptionNotice) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____playerDataModel) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____okButton) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____currentSearchFilter) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____playerDataModel) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ___didFinishEvent) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____currentSearchFilter) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ___didFinishEvent) == 0x148, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SearchFilterParamsViewController);

@@ -53,13 +53,13 @@ public:
 
   static inline ::GlobalNamespace::PresentHiddenSettingsAfterNClicks* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x24116dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2534254, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2411640, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x25341b8, size 0x9c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method <OnEnable>b__6_0, addr 0x2411768, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__6_0, addr 0x25342e0, size 0x48, virtual false, abstract: false, final false
   inline void _OnEnable_b__6_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsFlowCoordinator(::UnityW<::GlobalNamespace::SettingsFlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x24116f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2534270, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

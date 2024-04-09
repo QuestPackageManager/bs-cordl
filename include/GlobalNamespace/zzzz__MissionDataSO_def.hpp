@@ -119,28 +119,28 @@ public:
 
   constexpr void __cordl_internal_set__songName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12fd728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d7174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x12fd708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x13d7154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulty, addr 0x12fd710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficulty, addr 0x13d715c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_beatmapKey, addr 0x12fd6e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x13d7134, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_gameplayModifiers, addr 0x12fd718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x13d7164, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_missionHelp, addr 0x12fd720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelp, addr 0x13d716c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionHelpSO> get_missionHelp();
 
-  /// @brief Method get_missionObjectives, addr 0x12fd6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjectives, addr 0x13d712c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> get_missionObjectives();
 
-  /// @brief Method get_songName, addr 0x12fd6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x13d7124, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
 protected:

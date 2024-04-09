@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelMissionParser__ParserFunction::*)(::System::Object*, void*)>(
     &::GlobalNamespace::__LevelMissionParser__ParserFunction::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x12de744;
+  constexpr static std::size_t addrs = 0x13b6654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LevelMissionParser__ParserFunction::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(
     &::GlobalNamespace::__LevelMissionParser__ParserFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x12de81c;
+  constexpr static std::size_t addrs = 0x13b672c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::GlobalNamespace::__LevelMissionParser__ParserFunction::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::GlobalNamespace::__LevelMissionParser__ParserFunction::BeginInvoke)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x12de830;
+  constexpr static std::size_t addrs = 0x13b6740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LevelMissionParser__ParserFunction::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__LevelMissionParser__ParserFunction::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x12de8c4;
+  constexpr static std::size_t addrs = 0x13b67d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelMissionParser::*)()>(&::GlobalNamespace::LevelMissionParser::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x12de080;
+  constexpr static std::size_t addrs = 0x13b5f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelMissionParser*>::get(), ".ctor",
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelMissionParser::*)(::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*)>(
     &::GlobalNamespace::LevelMissionParser::AddFunction)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x12de104;
+  constexpr static std::size_t addrs = 0x13b6014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelMissionParser::*)(::StringW)>(&::GlobalNamespace::LevelMissionParser::Parse)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x12de16c;
+  constexpr static std::size_t addrs = 0x13b607c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelMissionParser::*)(::StringW, int32_t, int32_t)>(
     &::GlobalNamespace::LevelMissionParser::Parse)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x12de188;
+  constexpr static std::size_t addrs = 0x13b6098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelMissionParser::*)(::StringW, int32_t, int32_t)>(
     &::GlobalNamespace::LevelMissionParser::ParseFunction)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x12de450;
+  constexpr static std::size_t addrs = 0x13b6360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

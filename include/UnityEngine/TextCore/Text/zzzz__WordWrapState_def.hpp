@@ -8,7 +8,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/TextCore/Text/zzzz__LineInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MaterialReference_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextColorGradient_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"

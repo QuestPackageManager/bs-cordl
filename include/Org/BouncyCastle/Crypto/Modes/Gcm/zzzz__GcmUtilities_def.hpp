@@ -23,108 +23,108 @@ public:
   /// @brief Field LOOKUP, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_LOOKUP, put = setStaticF_LOOKUP))::ArrayW<uint32_t, ::Array<uint32_t>*> LOOKUP;
 
-  /// @brief Method AsBytes, addr 0xfa4ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AsBytes, addr 0x107d72c, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AsBytes(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method AsBytes, addr 0xfa4bb0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AsBytes, addr 0x107d734, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AsBytes(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
-  /// @brief Method AsBytes, addr 0xfa4910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AsBytes, addr 0x107d494, size 0xc, virtual false, abstract: false, final false
   static inline void AsBytes(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method AsBytes, addr 0xfa4c18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AsBytes, addr 0x107d79c, size 0xc, virtual false, abstract: false, final false
   static inline void AsBytes(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method AsUints, addr 0xfa4668, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AsUints, addr 0x107d1ec, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> AsUints(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method AsUints, addr 0xfa4c24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AsUints, addr 0x107d7a8, size 0x10, virtual false, abstract: false, final false
   static inline void AsUints(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, ::ArrayW<uint32_t, ::Array<uint32_t>*> output);
 
-  /// @brief Method AsUlongs, addr 0xfa4c34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AsUlongs, addr 0x107d7b8, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> AsUlongs(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method AsUlongs, addr 0xfa4c9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AsUlongs, addr 0x107d820, size 0x10, virtual false, abstract: false, final false
   static inline void AsUlongs(::ArrayW<uint8_t, ::Array<uint8_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method GenerateLookup, addr 0xfa4a14, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GenerateLookup, addr 0x107d598, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> GenerateLookup();
 
-  /// @brief Method Multiply, addr 0xfa4844, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x107d3c8, size 0xcc, virtual false, abstract: false, final false
   static inline void Multiply(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
-  /// @brief Method Multiply, addr 0xfa4d38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x107d8bc, size 0x94, virtual false, abstract: false, final false
   static inline void Multiply(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
 
-  /// @brief Method Multiply, addr 0xfa4cac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x107d830, size 0x8c, virtual false, abstract: false, final false
   static inline void Multiply(::ArrayW<uint8_t, ::Array<uint8_t>*> x, ::ArrayW<uint8_t, ::Array<uint8_t>*> y);
 
-  /// @brief Method MultiplyP, addr 0xfa4dcc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MultiplyP, addr 0x107d950, size 0x84, virtual false, abstract: false, final false
   static inline void MultiplyP(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method MultiplyP, addr 0xfa4ec0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method MultiplyP, addr 0x107da44, size 0x94, virtual false, abstract: false, final false
   static inline void MultiplyP(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method MultiplyP8, addr 0xfa4fe4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MultiplyP8, addr 0x107db68, size 0xa4, virtual false, abstract: false, final false
   static inline void MultiplyP8(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method MultiplyP8, addr 0xfa511c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MultiplyP8, addr 0x107dca0, size 0xb4, virtual false, abstract: false, final false
   static inline void MultiplyP8(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::GcmUtilities* New_ctor();
 
-  /// @brief Method OneAsBytes, addr 0xfa4ae0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OneAsBytes, addr 0x107d664, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> OneAsBytes();
 
-  /// @brief Method OneAsUints, addr 0xfa47e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OneAsUints, addr 0x107d364, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> OneAsUints();
 
-  /// @brief Method OneAsUlongs, addr 0xfa4b44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OneAsUlongs, addr 0x107d6c8, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> OneAsUlongs();
 
-  /// @brief Method ShiftRight, addr 0xfa4e50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x107d9d4, size 0x70, virtual false, abstract: false, final false
   static inline uint32_t ShiftRight(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method ShiftRight, addr 0xfa4f54, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x107dad8, size 0x90, virtual false, abstract: false, final false
   static inline uint32_t ShiftRight(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method ShiftRightN, addr 0xfa5088, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ShiftRightN, addr 0x107dc0c, size 0x94, virtual false, abstract: false, final false
   static inline uint32_t ShiftRightN(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t n);
 
-  /// @brief Method ShiftRightN, addr 0xfa51d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ShiftRightN, addr 0x107dd54, size 0xb4, virtual false, abstract: false, final false
   static inline uint32_t ShiftRightN(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t n, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Xor, addr 0xfa5808, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e38c, size 0x9c, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
-  /// @brief Method Xor, addr 0xfa58a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e428, size 0xc0, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Xor, addr 0xfa5964, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e4e8, size 0x60, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
 
-  /// @brief Method Xor, addr 0xfa59c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e548, size 0x78, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method Xor, addr 0xfa5674, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e1f8, size 0x64, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> x, int32_t xOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> y, int32_t yOff, int32_t len);
 
-  /// @brief Method Xor, addr 0xfa547c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e000, size 0x190, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> x, int32_t xOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> y, int32_t yOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> z, int32_t zOff);
 
-  /// @brief Method Xor, addr 0xfa5284, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107de08, size 0xec, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> x, ::ArrayW<uint8_t, ::Array<uint8_t>*> y);
 
-  /// @brief Method Xor, addr 0xfa5370, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107def4, size 0x10c, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> x, ::ArrayW<uint8_t, ::Array<uint8_t>*> y, int32_t yOff);
 
-  /// @brief Method Xor, addr 0xfa560c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e190, size 0x68, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> x, ::ArrayW<uint8_t, ::Array<uint8_t>*> y, int32_t yOff, int32_t yLen);
 
-  /// @brief Method Xor, addr 0xfa56d8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x107e25c, size 0x130, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> x, ::ArrayW<uint8_t, ::Array<uint8_t>*> y, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method .ctor, addr 0xfa5a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x107e60c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_LOOKUP();

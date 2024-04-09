@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute* New_ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
-  /// @brief Method .ctor, addr 0x1109b6c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e46f0, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
 protected:

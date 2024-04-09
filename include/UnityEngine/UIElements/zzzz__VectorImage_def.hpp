@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::ArrayW<::UnityEngine::UIElements::VectorImageVertex, ::Array<::UnityEngine::UIElements::VectorImageVertex>*> value);
 
-  /// @brief Method .ctor, addr 0x2f242a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330a0bc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

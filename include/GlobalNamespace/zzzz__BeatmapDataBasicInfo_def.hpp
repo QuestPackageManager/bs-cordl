@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12e0800, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b8710, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount);
 
-  /// @brief Method get_bombsCount, addr 0x12e07f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombsCount, addr 0x13b8708, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_cuttableNotesCount, addr 0x12e07e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableNotesCount, addr 0x13b86f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_numberOfLines, addr 0x12e07e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x13b86f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstaclesCount, addr 0x12e07f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesCount, addr 0x13b8700, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
 protected:

@@ -29,22 +29,22 @@ public:
 
   __declspec(property(get = get_StartIndex)) int32_t StartIndex;
 
-  /// @brief Method ToString, addr 0x27ae630, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x291c8b8, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x27ae624, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291c8ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startIndex, int32_t length);
 
-  /// @brief Method get_Chars, addr 0x27ae60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Chars, addr 0x291c894, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> get_Chars();
 
-  /// @brief Method get_Item, addr 0x27ae5dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x291c864, size 0x30, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x27ae61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x291c8a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_StartIndex, addr 0x27ae614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartIndex, addr 0x291c89c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartIndex();
 
   // Ctor Parameters []

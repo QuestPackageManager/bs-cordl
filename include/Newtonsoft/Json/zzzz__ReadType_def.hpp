@@ -25,13 +25,14 @@ public:
   enum struct __ReadType_Unwrapped : int32_t {
     __E_Read = static_cast<int32_t>(0x0),
     __E_ReadAsInt32 = static_cast<int32_t>(0x1),
-    __E_ReadAsBytes = static_cast<int32_t>(0x2),
-    __E_ReadAsString = static_cast<int32_t>(0x3),
-    __E_ReadAsDecimal = static_cast<int32_t>(0x4),
-    __E_ReadAsDateTime = static_cast<int32_t>(0x5),
-    __E_ReadAsDateTimeOffset = static_cast<int32_t>(0x6),
-    __E_ReadAsDouble = static_cast<int32_t>(0x7),
-    __E_ReadAsBoolean = static_cast<int32_t>(0x8),
+    __E_ReadAsInt64 = static_cast<int32_t>(0x2),
+    __E_ReadAsBytes = static_cast<int32_t>(0x3),
+    __E_ReadAsString = static_cast<int32_t>(0x4),
+    __E_ReadAsDecimal = static_cast<int32_t>(0x5),
+    __E_ReadAsDateTime = static_cast<int32_t>(0x6),
+    __E_ReadAsDateTimeOffset = static_cast<int32_t>(0x7),
+    __E_ReadAsDouble = static_cast<int32_t>(0x8),
+    __E_ReadAsBoolean = static_cast<int32_t>(0x9),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -57,28 +58,31 @@ public:
   /// @brief Field Read value: static_cast<int32_t>(0x0)
   static ::Newtonsoft::Json::ReadType const Read;
 
-  /// @brief Field ReadAsBoolean value: static_cast<int32_t>(0x8)
+  /// @brief Field ReadAsBoolean value: static_cast<int32_t>(0x9)
   static ::Newtonsoft::Json::ReadType const ReadAsBoolean;
 
-  /// @brief Field ReadAsBytes value: static_cast<int32_t>(0x2)
+  /// @brief Field ReadAsBytes value: static_cast<int32_t>(0x3)
   static ::Newtonsoft::Json::ReadType const ReadAsBytes;
 
-  /// @brief Field ReadAsDateTime value: static_cast<int32_t>(0x5)
+  /// @brief Field ReadAsDateTime value: static_cast<int32_t>(0x6)
   static ::Newtonsoft::Json::ReadType const ReadAsDateTime;
 
-  /// @brief Field ReadAsDateTimeOffset value: static_cast<int32_t>(0x6)
+  /// @brief Field ReadAsDateTimeOffset value: static_cast<int32_t>(0x7)
   static ::Newtonsoft::Json::ReadType const ReadAsDateTimeOffset;
 
-  /// @brief Field ReadAsDecimal value: static_cast<int32_t>(0x4)
+  /// @brief Field ReadAsDecimal value: static_cast<int32_t>(0x5)
   static ::Newtonsoft::Json::ReadType const ReadAsDecimal;
 
-  /// @brief Field ReadAsDouble value: static_cast<int32_t>(0x7)
+  /// @brief Field ReadAsDouble value: static_cast<int32_t>(0x8)
   static ::Newtonsoft::Json::ReadType const ReadAsDouble;
 
   /// @brief Field ReadAsInt32 value: static_cast<int32_t>(0x1)
   static ::Newtonsoft::Json::ReadType const ReadAsInt32;
 
-  /// @brief Field ReadAsString value: static_cast<int32_t>(0x3)
+  /// @brief Field ReadAsInt64 value: static_cast<int32_t>(0x2)
+  static ::Newtonsoft::Json::ReadType const ReadAsInt64;
+
+  /// @brief Field ReadAsString value: static_cast<int32_t>(0x4)
   static ::Newtonsoft::Json::ReadType const ReadAsString;
 
   /// @brief The size of the true value type

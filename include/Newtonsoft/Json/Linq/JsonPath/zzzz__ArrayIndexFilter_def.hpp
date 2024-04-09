@@ -13,6 +13,9 @@ class __ArrayIndexFilter___ExecuteFilter_d__4;
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
+namespace Newtonsoft::Json::Linq {
+class JsonSelectSettings;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -66,8 +69,8 @@ public:
   /// @brief Field <>3__current, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get___3__current, put = __cordl_internal_set___3__current))::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* __3__current;
 
-  /// @brief Field <>3__errorWhenNoMatch, offset 0x41, size 0x1
-  __declspec(property(get = __cordl_internal_get___3__errorWhenNoMatch, put = __cordl_internal_set___3__errorWhenNoMatch)) bool __3__errorWhenNoMatch;
+  /// @brief Field <>3__settings, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get___3__settings, put = __cordl_internal_set___3__settings))::Newtonsoft::Json::Linq::JsonSelectSettings* __3__settings;
 
   /// @brief Field <>4__this, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter* __4__this;
@@ -81,14 +84,11 @@ public:
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
-  /// @brief Field <t>5__1, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__t_5__1, put = __cordl_internal_set__t_5__1))::Newtonsoft::Json::Linq::JToken* _t_5__1;
-
   /// @brief Field current, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current;
 
-  /// @brief Field errorWhenNoMatch, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_errorWhenNoMatch, put = __cordl_internal_set_errorWhenNoMatch)) bool errorWhenNoMatch;
+  /// @brief Field settings, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::Newtonsoft::Json::Linq::JsonSelectSettings* settings;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
@@ -105,27 +105,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27fd2a4, size 0x5c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2978eb4, size 0x5f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x27fdcec, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x2979920, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x27fdc9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x29798d0, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x27fdd9c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x29799d4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27fdca4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x29798d8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27fdce4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2979918, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27fd1f0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2978e00, size 0xb4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -140,9 +140,9 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*> const& __cordl_internal_get___3__current() const;
 
-  constexpr bool const& __cordl_internal_get___3__errorWhenNoMatch() const;
+  constexpr ::Newtonsoft::Json::Linq::JsonSelectSettings*& __cordl_internal_get___3__settings();
 
-  constexpr bool& __cordl_internal_get___3__errorWhenNoMatch();
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JsonSelectSettings*> const& __cordl_internal_get___3__settings() const;
 
   constexpr ::Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter*& __cordl_internal_get___4__this();
 
@@ -160,17 +160,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__t_5__1();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__t_5__1() const;
-
   constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*& __cordl_internal_get_current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*> const& __cordl_internal_get_current() const;
 
-  constexpr bool const& __cordl_internal_get_errorWhenNoMatch() const;
+  constexpr ::Newtonsoft::Json::Linq::JsonSelectSettings*& __cordl_internal_get_settings();
 
-  constexpr bool& __cordl_internal_get_errorWhenNoMatch();
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JsonSelectSettings*> const& __cordl_internal_get_settings() const;
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -178,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set___3__current(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  constexpr void __cordl_internal_set___3__errorWhenNoMatch(bool value);
+  constexpr void __cordl_internal_set___3__settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value);
 
   constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter* value);
 
@@ -188,19 +184,17 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr void __cordl_internal_set__t_5__1(::Newtonsoft::Json::Linq::JToken* value);
-
   constexpr void __cordl_internal_set_current(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  constexpr void __cordl_internal_set_errorWhenNoMatch(bool value);
+  constexpr void __cordl_internal_set_settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value);
 
-  /// @brief Method <>m__Finally1, addr 0x27fdbec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2979820, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x27fdb3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x2979770, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x27fd19c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2978dbc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -250,14 +244,11 @@ public:
   /// @brief Field <>4__this, offset: 0x38, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter* _____4__this;
 
-  /// @brief Field errorWhenNoMatch, offset: 0x40, size: 0x1, def value: None
-  bool ___errorWhenNoMatch;
+  /// @brief Field settings, offset: 0x40, size: 0x8, def value: None
+  ::Newtonsoft::Json::Linq::JsonSelectSettings* ___settings;
 
-  /// @brief Field <>3__errorWhenNoMatch, offset: 0x41, size: 0x1, def value: None
-  bool _____3__errorWhenNoMatch;
-
-  /// @brief Field <t>5__1, offset: 0x48, size: 0x8, def value: None
-  ::Newtonsoft::Json::Linq::JToken* ____t_5__1;
+  /// @brief Field <>3__settings, offset: 0x48, size: 0x8, def value: None
+  ::Newtonsoft::Json::Linq::JsonSelectSettings* _____3__settings;
 
   /// @brief Field <>7__wrap1, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* _____7__wrap1;
@@ -282,11 +273,9 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___
 
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4, _____4__this) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4, ___errorWhenNoMatch) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4, ___settings) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4, _____3__errorWhenNoMatch) == 0x41, "Offset mismatch!");
-
-static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4, ____t_5__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4, _____3__settings) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___ExecuteFilter_d__4, _____7__wrap1) == 0x50, "Offset mismatch!");
 
@@ -308,9 +297,10 @@ public:
   /// @brief Field <Index>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Index_k__BackingField, put = __cordl_internal_set__Index_k__BackingField))::System::Nullable_1<int32_t> _Index_k__BackingField;
 
-  /// @brief Method ExecuteFilter, addr 0x27fd120, size 0x7c, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                                                                         bool errorWhenNoMatch);
+  /// @brief Method ExecuteFilter, addr 0x2978d30, size 0x8c, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
+                                                                                                         ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
+                                                                                                         ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter* New_ctor();
 
@@ -320,13 +310,13 @@ public:
 
   constexpr void __cordl_internal_set__Index_k__BackingField(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x27fd1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2978df0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Index, addr 0x27fd110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x2978d20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Index();
 
-  /// @brief Method set_Index, addr 0x27fd118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Index, addr 0x2978d28, size 0x8, virtual false, abstract: false, final false
   inline void set_Index(::System::Nullable_1<int32_t> value);
 
 protected:

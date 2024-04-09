@@ -4,6 +4,12 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IXmlNamespaceResolver)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Xml {
+struct XmlNamespaceScope;
+}
 // Forward declare root types
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -18,6 +24,9 @@ namespace System::Xml {
 class CORDL_TYPE IXmlNamespaceResolver {
 public:
   // Declarations
+  /// @brief Method GetNamespacesInScope, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
+
   /// @brief Method LookupNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 

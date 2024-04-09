@@ -63,13 +63,13 @@ public:
   // Declarations
   __declspec(property(get = get_lastClosingOrLastCommand))::UnityEngine::UIElements::UIR::RenderChainCommand* lastClosingOrLastCommand;
 
-  /// @brief Method AllocatesID, addr 0x2ff9178, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AllocatesID, addr 0x33dcf94, size 0x34, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID, addr 0x2ff91ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InheritsID, addr 0x33dcfc8, size 0x30, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method get_lastClosingOrLastCommand, addr 0x2ff9160, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_lastClosingOrLastCommand, addr 0x33dcf7c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
 
   // Ctor Parameters []

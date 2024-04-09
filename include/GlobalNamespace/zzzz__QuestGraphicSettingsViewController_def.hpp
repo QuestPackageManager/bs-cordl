@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
@@ -65,10 +64,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x243d9a8, size 0x3b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2560a1c, size 0x3b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x243dd60, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2560dd4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -131,10 +130,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x243dd6c, size 0x724, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2560de0, size 0x724, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x243e490, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2561504, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -223,13 +222,13 @@ public:
   __declspec(property(get = __cordl_internal_get__stinsonOnlyEntries,
                       put = __cordl_internal_set__stinsonOnlyEntries))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _stinsonOnlyEntries;
 
-  /// @brief Method DidActivate, addr 0x243d74c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x25607c0, size 0x10c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Handle120HzToggleValueChangedAsync, addr 0x243d8f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Handle120HzToggleValueChangedAsync, addr 0x256096c, size 0xa8, virtual false, abstract: false, final false
   inline void Handle120HzToggleValueChangedAsync(bool newState);
 
-  /// @brief Method Initialize120HzToggleAsync, addr 0x243d858, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Initialize120HzToggleAsync, addr 0x25608cc, size 0xa0, virtual false, abstract: false, final false
   inline void Initialize120HzToggleAsync(bool firstActivation);
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController* New_ctor();
@@ -246,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set__stinsonOnlyEntries(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x243d9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2560a14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

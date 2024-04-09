@@ -21,9 +21,6 @@ namespace GlobalNamespace {
 template <typename T, typename TBase> class SortedList_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
@@ -60,25 +57,18 @@ public:
   __declspec(property(get = __cordl_internal_get__sortedList,
                       put = __cordl_internal_set__sortedList))::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>* _sortedList;
 
-  /// @brief Field _usedBeatmapEventDataBoxes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__usedBeatmapEventDataBoxes,
-                             put = setStaticF__usedBeatmapEventDataBoxes))::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* _usedBeatmapEventDataBoxes;
-
   /// @brief Field updateBeatmapDataOnInsert, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_updateBeatmapDataOnInsert, put = __cordl_internal_set_updateBeatmapDataOnInsert)) bool updateBeatmapDataOnInsert;
 
-  /// @brief Method Insert, addr 0x12e45fc, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x13bc4a4, size 0x370, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
 
-  /// @brief Method NoDomainReloadInit, addr 0x12e4430, size 0x78, virtual false, abstract: false, final false
-  static inline void NoDomainReloadInit();
-
-  /// @brief Method Remove, addr 0x12e4a10, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x13bc864, size 0x374, virtual false, abstract: false, final false
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method SyncWithBeatmapData, addr 0x12e4dd8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SyncWithBeatmapData, addr 0x13bcbd8, size 0x178, virtual false, abstract: false, final false
   inline void SyncWithBeatmapData();
 
   constexpr ::GlobalNamespace::IBeatToTimeConverter*& __cordl_internal_get__beatToTimeConverter();
@@ -124,12 +114,8 @@ public:
 
   constexpr void __cordl_internal_set_updateBeatmapDataOnInsert(bool value);
 
-  /// @brief Method .ctor, addr 0x12e44a8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13bc350, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
-
-  static inline ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* getStaticF__usedBeatmapEventDataBoxes();
-
-  static inline void setStaticF__usedBeatmapEventDataBoxes(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
 
 protected:
   // Ctor Parameters []

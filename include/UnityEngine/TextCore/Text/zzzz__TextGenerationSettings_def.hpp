@@ -186,13 +186,13 @@ public:
   /// @brief Field wordWrappingRatio, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_wordWrappingRatio, put = __cordl_internal_set_wordWrappingRatio)) float_t wordWrappingRatio;
 
-  /// @brief Method Equals, addr 0x2ea8630, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x328c44c, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2ea827c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x328c098, size 0x3b4, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
 
-  /// @brief Method GetHashCode, addr 0x2ea86f8, size 0x56c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x328c514, size 0x56c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
@@ -467,7 +467,7 @@ public:
 
   constexpr void __cordl_internal_set_wordWrappingRatio(float_t value);
 
-  /// @brief Method .ctor, addr 0x2ea8c64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x328ca80, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

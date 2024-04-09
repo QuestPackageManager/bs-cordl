@@ -49,13 +49,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Texture2D_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x23aae24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x24ca370, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Texture2D* _ToTestObject_b__1_0(::UnityEngine::Texture2D* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x23aae88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x24ca3d4, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Texture2D* _ToTestObject_b__2_0(::UnityEngine::Texture2D* lod);
 
-  /// @brief Method .ctor, addr 0x23aae1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ca368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Texture2D_Extensions____c* getStaticF___9();
@@ -100,14 +100,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Texture2D_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x23aabc4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x24ca110, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Texture2D*, ::Array<::HoudiniEngineUnity::Test_Texture2D*>*>
   ToTestObject(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x23aa644, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x24c9b90, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Texture2D* ToTestObject(::UnityEngine::Texture2D* self);
 
-  /// @brief Method ToTestObject, addr 0x23aacbc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x24ca208, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Texture2D*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>* self);
 
 protected:

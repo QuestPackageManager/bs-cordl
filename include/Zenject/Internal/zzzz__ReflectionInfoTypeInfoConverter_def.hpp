@@ -139,7 +139,7 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <ConvertMethod>b__0, addr 0x308940c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ConvertMethod>b__0, addr 0x346e298, size 0x1c, virtual false, abstract: false, final false
   inline void _ConvertMethod_b__0(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_methodInfo();
@@ -148,13 +148,13 @@ public:
 
   constexpr void __cordl_internal_set_methodInfo(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x3089428, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x346e2b4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3089484, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346e310, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3088b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346d9b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,22 +206,22 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c* New_ctor();
 
-  /// @brief Method <ConvertConstructor>b__1_0, addr 0x30896c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ConvertConstructor>b__1_0, addr 0x346e554, size 0x18, virtual false, abstract: false, final false
   inline ::Zenject::InjectableInfo* _ConvertConstructor_b__1_0(::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo* x);
 
-  /// @brief Method <ConvertMethod>b__0_1, addr 0x30896b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ConvertMethod>b__0_1, addr 0x346e53c, size 0x18, virtual false, abstract: false, final false
   inline ::Zenject::InjectableInfo* _ConvertMethod_b__0_1(::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo* x);
 
-  /// @brief Method <GetOnlyPropertySetter>b__8_1, addr 0x30896e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetOnlyPropertySetter>b__8_1, addr 0x346e56c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _GetOnlyPropertySetter_b__8_1(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method __zenCreate, addr 0x3089700, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x346e58c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x308975c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346e5e8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x30896a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346e534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c* getStaticF___9();
@@ -273,7 +273,7 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <TryCreateFactoryMethod>b__0, addr 0x308991c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <TryCreateFactoryMethod>b__0, addr 0x346e7a8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* _TryCreateFactoryMethod_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   constexpr ::System::Type*& __cordl_internal_get_type();
@@ -282,13 +282,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x3089998, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x346e824, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x30899f4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346e880, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3088ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346dd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -332,10 +332,10 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <GetOnlyPropertySetter>b__0, addr 0x3089bb4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <GetOnlyPropertySetter>b__0, addr 0x346ea40, size 0xac, virtual false, abstract: false, final false
   inline bool _GetOnlyPropertySetter_b__0(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetOnlyPropertySetter>b__2, addr 0x3089c60, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <GetOnlyPropertySetter>b__2, addr 0x346eaec, size 0xe0, virtual false, abstract: false, final false
   inline void _GetOnlyPropertySetter_b__2(::System::Object* injectable, ::System::Object* value);
 
   constexpr ::StringW const& __cordl_internal_get_propertyName() const;
@@ -350,13 +350,13 @@ public:
 
   constexpr void __cordl_internal_set_writeableFields(::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>* value);
 
-  /// @brief Method __zenCreate, addr 0x3089d48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x346ebd4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3089da4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346ec30, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x30893f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346e280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -405,7 +405,7 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1* New_ctor();
 
-  /// @brief Method <GetOnlyPropertySetter>b__3, addr 0x3089f64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetOnlyPropertySetter>b__3, addr 0x346edf0, size 0x24, virtual false, abstract: false, final false
   inline void _GetOnlyPropertySetter_b__3(::System::Reflection::FieldInfo* f);
 
   constexpr ::System::Object*& __cordl_internal_get_injectable();
@@ -420,13 +420,13 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method __zenCreate, addr 0x3089f88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x346ee14, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3089fe4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346ee70, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3089d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346ebcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -475,10 +475,10 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <GetSetter>b__0, addr 0x308a1a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GetSetter>b__0, addr 0x346f030, size 0x1c, virtual false, abstract: false, final false
   inline void _GetSetter_b__0(::System::Object* injectable, ::System::Object* value);
 
-  /// @brief Method <GetSetter>b__1, addr 0x308a1c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetSetter>b__1, addr 0x346f04c, size 0x28, virtual false, abstract: false, final false
   inline void _GetSetter_b__1(::System::Object* injectable, ::System::Object* value);
 
   constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get_fieldInfo();
@@ -493,13 +493,13 @@ public:
 
   constexpr void __cordl_internal_set_propInfo(::System::Reflection::PropertyInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x308a1e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x346f074, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x308a244, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346f0d0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x30893fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346e288, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -552,37 +552,37 @@ public:
 
   using __c__DisplayClass9_0 = ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0;
 
-  /// @brief Method ConvertConstructor, addr 0x3086370, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ConvertConstructor, addr 0x346b1fc, size 0x174, virtual false, abstract: false, final false
   static inline ::Zenject::__InjectTypeInfo__InjectConstructorInfo* ConvertConstructor(::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo* injectConstructor, ::System::Type* type);
 
-  /// @brief Method ConvertField, addr 0x30865c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConvertField, addr 0x346b450, size 0x88, virtual false, abstract: false, final false
   static inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* ConvertField(::System::Type* parentType, ::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo* injectField);
 
-  /// @brief Method ConvertMethod, addr 0x3088924, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ConvertMethod, addr 0x346d7b0, size 0x204, virtual false, abstract: false, final false
   static inline ::Zenject::__InjectTypeInfo__InjectMethodInfo* ConvertMethod(::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo* injectMethod);
 
-  /// @brief Method ConvertProperty, addr 0x3086654, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConvertProperty, addr 0x346b4e0, size 0x88, virtual false, abstract: false, final false
   static inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* ConvertProperty(::System::Type* parentType, ::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo* injectProperty);
 
-  /// @brief Method GetAllFields, addr 0x3088f08, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetAllFields, addr 0x346dd94, size 0x150, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetAllFields(::System::Type* t, ::System::Reflection::BindingFlags flags);
 
-  /// @brief Method GetOnlyPropertySetter, addr 0x3089058, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method GetOnlyPropertySetter, addr 0x346dee4, size 0x39c, virtual false, abstract: false, final false
   static inline ::Zenject::ZenMemberSetterMethod* GetOnlyPropertySetter(::System::Type* parentType, ::StringW propertyName);
 
-  /// @brief Method GetSetter, addr 0x3088cfc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetSetter, addr 0x346db88, size 0x1fc, virtual false, abstract: false, final false
   static inline ::Zenject::ZenMemberSetterMethod* GetSetter(::System::Type* parentType, ::System::Reflection::MemberInfo* memInfo);
 
-  /// @brief Method TryCreateActionForMethod, addr 0x3088b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryCreateActionForMethod, addr 0x346d9bc, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ZenInjectMethod* TryCreateActionForMethod(::System::Reflection::MethodInfo* methodInfo);
 
-  /// @brief Method TryCreateFactoryMethod, addr 0x3088b38, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method TryCreateFactoryMethod, addr 0x346d9c4, size 0x1c4, virtual false, abstract: false, final false
   static inline ::Zenject::ZenFactoryMethod* TryCreateFactoryMethod(::System::Type* type, ::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo* reflectionInfo);
 
-  /// @brief Method TryCreateFactoryMethodCompiledLambdaExpression, addr 0x3088f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryCreateFactoryMethodCompiledLambdaExpression, addr 0x346dd8c, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ZenFactoryMethod* TryCreateFactoryMethodCompiledLambdaExpression(::System::Type* type, ::System::Reflection::ConstructorInfo* constructor);
 
-  /// @brief Method TryGetSetterAsCompiledExpression, addr 0x3089404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryGetSetterAsCompiledExpression, addr 0x346e290, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ZenMemberSetterMethod* TryGetSetterAsCompiledExpression(::System::Type* parentType, ::System::Reflection::MemberInfo* memInfo);
 
 protected:

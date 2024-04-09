@@ -42,7 +42,7 @@ public:
   static inline ::System::Net::NetworkInformation::AixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface,
                                                                                       ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x2b384c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x2f1c970, size 0x44, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
   constexpr int32_t const& __cordl_internal_get__mtu() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__mtu(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2b38414, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1c8c4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
 
-  /// @brief Method get_GatewayAddresses, addr 0x2b38504, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x2f1c9b4, size 0x254, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:

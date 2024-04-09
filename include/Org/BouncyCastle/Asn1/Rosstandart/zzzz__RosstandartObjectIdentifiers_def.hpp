@@ -95,7 +95,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1100118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11dac9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_id_tc26();

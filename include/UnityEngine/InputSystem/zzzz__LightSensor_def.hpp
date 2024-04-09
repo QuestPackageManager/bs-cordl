@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_lightLevel, put = set_lightLevel))::UnityEngine::InputSystem::Controls::AxisControl* lightLevel;
 
-  /// @brief Method FinishSetup, addr 0x2bf0db0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2fd7260, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x2bf0cd8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x2fd7188, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::LightSensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x2bf0d2c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x2fd71dc, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__lightLevel_k__BackingField();
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__lightLevel_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x2bf0e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd72d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::LightSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_current, addr 0x2bf0c44, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2fd70f4, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LightSensor* get_current();
 
-  /// @brief Method get_lightLevel, addr 0x2bf0c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightLevel, addr 0x2fd70e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_lightLevel();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::LightSensor* value);
 
-  /// @brief Method set_current, addr 0x2bf0c8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x2fd713c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::LightSensor* value);
 
-  /// @brief Method set_lightLevel, addr 0x2bf0c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightLevel, addr 0x2fd70ec, size 0x8, virtual false, abstract: false, final false
   inline void set_lightLevel(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:

@@ -28,10 +28,10 @@ public:
   /// @brief Field m_tokenizer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_tokenizer, put = __cordl_internal_set_m_tokenizer))::System::Net::CookieTokenizer* m_tokenizer;
 
-  /// @brief Method CheckQuoted, addr 0x2af70d4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckQuoted, addr 0x2edd584, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CheckQuoted(::StringW value);
 
-  /// @brief Method Get, addr 0x2af8a6c, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2edef1c, size 0x55c, virtual false, abstract: false, final false
   inline ::System::Net::Cookie* Get();
 
   static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_m_tokenizer(::System::Net::CookieTokenizer* value);
 
-  /// @brief Method .ctor, addr 0x2af89f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2edeea4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW cookieString);
 
 protected:

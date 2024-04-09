@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithInvitePanelResultInfo)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithInvitePanelResultInfo : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2846000, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c85e4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InvitePanelResultInfo* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetInvitePanelResultInfo, addr 0x2845fc4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetInvitePanelResultInfo, addr 0x29c85a8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InvitePanelResultInfo* GetInvitePanelResultInfo();
 
   static inline ::Oculus::Platform::MessageWithInvitePanelResultInfo* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2843404, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c59e8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* New_ctor();
 
-  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x24766d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x259ab0c, size 0x8, virtual false, abstract: false, final false
   inline float_t _OnBehaviourPlay_b__21_0(int32_t i);
 
-  /// @brief Method .ctor, addr 0x24766d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259ab04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* getStaticF___9();
@@ -158,16 +158,16 @@ public:
 
   static inline ::GlobalNamespace::CustomTweenBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPlay, addr 0x2476468, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x259a89c, size 0x1ec, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x2475e48, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x259a27c, size 0x13c, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x2476364, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x259a798, size 0x104, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x2475f84, size 0x3e0, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x259a3b8, size 0x3e0, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__duration() const;
@@ -278,7 +278,7 @@ public:
 
   constexpr void __cordl_internal_set_startLocationCurrentPosition(bool value);
 
-  /// @brief Method .ctor, addr 0x2476654, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259aa88, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

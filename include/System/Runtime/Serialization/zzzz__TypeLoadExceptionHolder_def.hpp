@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26122cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27396b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName, addr 0x26122f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x27396e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:

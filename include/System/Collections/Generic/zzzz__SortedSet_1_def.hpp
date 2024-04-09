@@ -25,6 +25,9 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class ISet_1;
+}
+namespace System::Collections::Generic {
 struct NodeColor;
 }
 namespace System::Collections::Generic {
@@ -619,6 +622,9 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
 
+  /// @brief Convert operator to "::System::Collections::Generic::ISet_1<T>"
+  constexpr operator ::System::Collections::Generic::ISet_1<T>*() noexcept;
+
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
@@ -790,6 +796,9 @@ public:
 
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::ISet_1<T>"
+  constexpr ::System::Collections::Generic::ISet_1<T>* i___System__Collections__Generic__ISet_1_T_() noexcept;
 
   /// @brief Convert to "::System::Collections::ICollection"
   constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;

@@ -3,9 +3,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(ContractUtils)
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System {
 class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Dynamic::Utils {
@@ -21,7 +29,25 @@ namespace System::Dynamic::Utils {
 class CORDL_TYPE ContractUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Unreachable, addr 0x296022c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetParamName, addr 0x2b56048, size 0x94, virtual false, abstract: false, final false
+  static inline ::StringW GetParamName(::StringW paramName, int32_t index);
+
+  /// @brief Method Requires, addr 0x2b559d8, size 0x34, virtual false, abstract: false, final false
+  static inline void Requires(bool precondition, ::StringW paramName);
+
+  /// @brief Method RequiresArrayRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void RequiresArrayRange(::System::Collections::Generic::IList_1<T>* array, int32_t offset, int32_t count, ::StringW offsetName, ::StringW countName);
+
+  /// @brief Method RequiresNotNull, addr 0x2b53708, size 0x54, virtual false, abstract: false, final false
+  static inline void RequiresNotNull(::System::Object* value, ::StringW paramName);
+
+  /// @brief Method RequiresNotNull, addr 0x2b55fe8, size 0x60, virtual false, abstract: false, final false
+  static inline void RequiresNotNull(::System::Object* value, ::StringW paramName, int32_t index);
+
+  /// @brief Method RequiresNotNullItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void RequiresNotNullItems(::System::Collections::Generic::IList_1<T>* array, ::StringW arrayName);
+
+  /// @brief Method get_Unreachable, addr 0x2b55f74, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* get_Unreachable();
 
 protected:

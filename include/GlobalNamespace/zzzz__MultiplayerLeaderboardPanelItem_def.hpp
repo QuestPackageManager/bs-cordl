@@ -70,7 +70,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelItem* New_ctor();
 
-  /// @brief Method SetData, addr 0x24b5df0, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x25da2d8, size 0x2d0, virtual false, abstract: false, final false
   inline void SetData(int32_t position, ::StringW playerName, int32_t score, bool failed, int32_t numberOfPlayers);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -151,10 +151,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x24b60c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25da5b0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x24b5b7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x25da064, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:

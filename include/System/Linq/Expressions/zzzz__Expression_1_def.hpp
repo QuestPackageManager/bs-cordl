@@ -3,7 +3,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__LambdaExpression_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Expression_1)
+namespace System::Linq::Expressions {
+class ExpressionVisitor;
+}
+namespace System::Linq::Expressions {
+class Expression;
+}
+namespace System::Linq::Expressions {
+class ParameterExpression;
+}
+namespace System {
+class Type;
+}
 // Forward declare root types
 namespace System::Linq::Expressions {
 template <typename TDelegate> class Expression_1;
@@ -20,6 +33,34 @@ template <typename TDelegate>
 class CORDL_TYPE Expression_1 : public ::System::Linq::Expressions::LambdaExpression {
 public:
   // Declarations
+  __declspec(property(get = get_PublicType))::System::Type* PublicType;
+
+  __declspec(property(get = get_TypeCore))::System::Type* TypeCore;
+
+  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
+
+  /// @brief Method Compile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TDelegate Compile();
+
+  /// @brief Method Compile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TDelegate Compile(bool preferInterpretation);
+
+  static inline ::System::Linq::Expressions::Expression_1<TDelegate>* New_ctor(::System::Linq::Expressions::Expression* body);
+
+  /// @brief Method Rewrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Linq::Expressions::Expression_1<TDelegate>*
+  Rewrite(::System::Linq::Expressions::Expression* body, ::ArrayW<::System::Linq::Expressions::ParameterExpression*, ::Array<::System::Linq::Expressions::ParameterExpression*>*> parameters);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Linq::Expressions::Expression* body);
+
+  /// @brief Method get_PublicType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Type* get_PublicType();
+
+  /// @brief Method get_TypeCore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Type* get_TypeCore();
+
 protected:
   // Ctor Parameters []
   // @brief default ctor

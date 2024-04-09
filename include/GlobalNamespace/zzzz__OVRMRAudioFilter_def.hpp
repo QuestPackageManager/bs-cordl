@@ -32,10 +32,10 @@ public:
 
   static inline ::GlobalNamespace::OVRMRAudioFilter* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x28661ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x29e8790, size 0x18, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method Start, addr 0x28661a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x29e8784, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::OVRExternalComposition*& __cordl_internal_get_composition();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_running(bool value);
 
-  /// @brief Method .ctor, addr 0x28661c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e87a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

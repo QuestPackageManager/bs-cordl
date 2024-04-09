@@ -3,8 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HumanTrait)
 // Forward declare root types
@@ -21,14 +19,8 @@ namespace UnityEngine {
 class CORDL_TYPE HumanTrait : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBoneIndexFromMono, addr 0x2dd2d0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneIndexFromMono, addr 0x31b9b10, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoneIndexFromMono(int32_t humanId);
-
-  /// @brief Method get_MuscleCount, addr 0x2dd4b40, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t get_MuscleCount();
-
-  /// @brief Method get_MuscleName, addr 0x2dd4b68, size 0x28, virtual false, abstract: false, final false
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_MuscleName();
 
 protected:
   // Ctor Parameters []

@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0xfca2b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a2e34, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool privateKey, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound);
 
-  /// @brief Method get_G, addr 0xfca2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x10a2e74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_LowerSigmaBound, addr 0xfca2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LowerSigmaBound, addr 0x10a2e7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LowerSigmaBound();
 
-  /// @brief Method get_Modulus, addr 0xfca300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x10a2e84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
 protected:

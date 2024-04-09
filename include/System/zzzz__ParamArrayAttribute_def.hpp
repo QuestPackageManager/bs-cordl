@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::ParamArrayAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2710ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283e620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -17,10 +17,10 @@ namespace BeatmapLevelSaveDataVersion4 {
 struct __BeatmapLevelSaveData__BeatmapAuthors;
 }
 namespace BeatmapLevelSaveDataVersion4 {
-struct __BeatmapLevelSaveData__ColorScheme;
+class __BeatmapLevelSaveData__ColorScheme;
 }
 namespace BeatmapLevelSaveDataVersion4 {
-struct __BeatmapLevelSaveData__DifficultyBeatmap;
+class __BeatmapLevelSaveData__DifficultyBeatmap;
 }
 namespace BeatmapLevelSaveDataVersion4 {
 struct __BeatmapLevelSaveData__SongData;
@@ -30,26 +30,26 @@ namespace BeatmapLevelSaveDataVersion4 {
 class BeatmapLevelSaveData;
 }
 namespace BeatmapLevelSaveDataVersion4 {
+class __BeatmapLevelSaveData__ColorScheme;
+}
+namespace BeatmapLevelSaveDataVersion4 {
+class __BeatmapLevelSaveData__DifficultyBeatmap;
+}
+namespace BeatmapLevelSaveDataVersion4 {
 struct __BeatmapLevelSaveData__AudioData;
 }
 namespace BeatmapLevelSaveDataVersion4 {
 struct __BeatmapLevelSaveData__BeatmapAuthors;
 }
 namespace BeatmapLevelSaveDataVersion4 {
-struct __BeatmapLevelSaveData__ColorScheme;
-}
-namespace BeatmapLevelSaveDataVersion4 {
-struct __BeatmapLevelSaveData__DifficultyBeatmap;
-}
-namespace BeatmapLevelSaveDataVersion4 {
 struct __BeatmapLevelSaveData__SongData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData);
+MARK_REF_PTR_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme);
+MARK_REF_PTR_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap);
 MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData);
 MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors);
-MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme);
-MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap);
 MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__SongData);
 // Type: ::SongData
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -155,77 +155,148 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__A
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: ::ColorScheme
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
-// Is value type: true
-// CS Name: ::BeatmapLevelSaveData::ColorScheme
-struct CORDL_TYPE __BeatmapLevelSaveData__ColorScheme {
+// Is value type: false
+// CS Name: ::BeatmapLevelSaveData::ColorScheme*
+class CORDL_TYPE __BeatmapLevelSaveData__ColorScheme : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field colorSchemeName, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_colorSchemeName, put = __cordl_internal_set_colorSchemeName))::StringW colorSchemeName;
+
+  /// @brief Field environmentColor0, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentColor0, put = __cordl_internal_set_environmentColor0))::StringW environmentColor0;
+
+  /// @brief Field environmentColor0Boost, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentColor0Boost, put = __cordl_internal_set_environmentColor0Boost))::StringW environmentColor0Boost;
+
+  /// @brief Field environmentColor1, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentColor1, put = __cordl_internal_set_environmentColor1))::StringW environmentColor1;
+
+  /// @brief Field environmentColor1Boost, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentColor1Boost, put = __cordl_internal_set_environmentColor1Boost))::StringW environmentColor1Boost;
+
+  /// @brief Field obstaclesColor, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_obstaclesColor, put = __cordl_internal_set_obstaclesColor))::StringW obstaclesColor;
+
+  /// @brief Field saberAColor, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_saberAColor, put = __cordl_internal_set_saberAColor))::StringW saberAColor;
+
+  /// @brief Field saberBColor, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_saberBColor, put = __cordl_internal_set_saberBColor))::StringW saberBColor;
+
+  static inline ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme* New_ctor();
+
+  constexpr ::StringW const& __cordl_internal_get_colorSchemeName() const;
+
+  constexpr ::StringW& __cordl_internal_get_colorSchemeName();
+
+  constexpr ::StringW const& __cordl_internal_get_environmentColor0() const;
+
+  constexpr ::StringW& __cordl_internal_get_environmentColor0();
+
+  constexpr ::StringW const& __cordl_internal_get_environmentColor0Boost() const;
+
+  constexpr ::StringW& __cordl_internal_get_environmentColor0Boost();
+
+  constexpr ::StringW const& __cordl_internal_get_environmentColor1() const;
+
+  constexpr ::StringW& __cordl_internal_get_environmentColor1();
+
+  constexpr ::StringW const& __cordl_internal_get_environmentColor1Boost() const;
+
+  constexpr ::StringW& __cordl_internal_get_environmentColor1Boost();
+
+  constexpr ::StringW const& __cordl_internal_get_obstaclesColor() const;
+
+  constexpr ::StringW& __cordl_internal_get_obstaclesColor();
+
+  constexpr ::StringW const& __cordl_internal_get_saberAColor() const;
+
+  constexpr ::StringW& __cordl_internal_get_saberAColor();
+
+  constexpr ::StringW const& __cordl_internal_get_saberBColor() const;
+
+  constexpr ::StringW& __cordl_internal_get_saberBColor();
+
+  constexpr void __cordl_internal_set_colorSchemeName(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentColor0(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentColor0Boost(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentColor1(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentColor1Boost(::StringW value);
+
+  constexpr void __cordl_internal_set_obstaclesColor(::StringW value);
+
+  constexpr void __cordl_internal_set_saberAColor(::StringW value);
+
+  constexpr void __cordl_internal_set_saberBColor(::StringW value);
+
+  /// @brief Method .ctor, addr 0x140213c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
   // Ctor Parameters []
   // @brief default ctor
   constexpr __BeatmapLevelSaveData__ColorScheme();
 
-  // Ctor Parameters [CppParam { name: "useOverride", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "colorSchemeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "saberAColor", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "::StringW",
-  // modifiers: "", def_value: None }]
-  constexpr __BeatmapLevelSaveData__ColorScheme(bool useOverride, ::StringW colorSchemeName, ::StringW saberAColor, ::StringW saberBColor, ::StringW obstaclesColor, ::StringW environmentColor0,
-                                                ::StringW environmentColor1, ::StringW environmentColor0Boost, ::StringW environmentColor1Boost) noexcept;
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelSaveData__ColorScheme", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __BeatmapLevelSaveData__ColorScheme(__BeatmapLevelSaveData__ColorScheme&&) = delete;
 
-  /// @brief Field useOverride, offset: 0x0, size: 0x1, def value: None
-  bool useOverride;
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelSaveData__ColorScheme", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __BeatmapLevelSaveData__ColorScheme(__BeatmapLevelSaveData__ColorScheme const&) = delete;
 
-  /// @brief Field colorSchemeName, offset: 0x8, size: 0x8, def value: None
-  ::StringW colorSchemeName;
+  /// @brief Field colorSchemeName, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___colorSchemeName;
 
-  /// @brief Field saberAColor, offset: 0x10, size: 0x8, def value: None
-  ::StringW saberAColor;
+  /// @brief Field saberAColor, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___saberAColor;
 
-  /// @brief Field saberBColor, offset: 0x18, size: 0x8, def value: None
-  ::StringW saberBColor;
+  /// @brief Field saberBColor, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___saberBColor;
 
-  /// @brief Field obstaclesColor, offset: 0x20, size: 0x8, def value: None
-  ::StringW obstaclesColor;
+  /// @brief Field obstaclesColor, offset: 0x28, size: 0x8, def value: None
+  ::StringW ___obstaclesColor;
 
-  /// @brief Field environmentColor0, offset: 0x28, size: 0x8, def value: None
-  ::StringW environmentColor0;
+  /// @brief Field environmentColor0, offset: 0x30, size: 0x8, def value: None
+  ::StringW ___environmentColor0;
 
-  /// @brief Field environmentColor1, offset: 0x30, size: 0x8, def value: None
-  ::StringW environmentColor1;
+  /// @brief Field environmentColor1, offset: 0x38, size: 0x8, def value: None
+  ::StringW ___environmentColor1;
 
-  /// @brief Field environmentColor0Boost, offset: 0x38, size: 0x8, def value: None
-  ::StringW environmentColor0Boost;
+  /// @brief Field environmentColor0Boost, offset: 0x40, size: 0x8, def value: None
+  ::StringW ___environmentColor0Boost;
 
-  /// @brief Field environmentColor1Boost, offset: 0x40, size: 0x8, def value: None
-  ::StringW environmentColor1Boost;
+  /// @brief Field environmentColor1Boost, offset: 0x48, size: 0x8, def value: None
+  ::StringW ___environmentColor1Boost;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, useOverride) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___colorSchemeName) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, colorSchemeName) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___saberAColor) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, saberAColor) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___saberBColor) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, saberBColor) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___obstaclesColor) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, obstaclesColor) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___environmentColor0) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, environmentColor0) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___environmentColor1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, environmentColor1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___environmentColor0Boost) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, environmentColor0Boost) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, environmentColor1Boost) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ___environmentColor1Boost) == 0x48, "Offset mismatch!");
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: ::BeatmapAuthors
@@ -264,78 +335,162 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__B
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: ::DifficultyBeatmap
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
-// Is value type: true
-// CS Name: ::BeatmapLevelSaveData::DifficultyBeatmap
-struct CORDL_TYPE __BeatmapLevelSaveData__DifficultyBeatmap {
+// Is value type: false
+// CS Name: ::BeatmapLevelSaveData::DifficultyBeatmap*
+class CORDL_TYPE __BeatmapLevelSaveData__DifficultyBeatmap : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field beatmapAuthors, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get_beatmapAuthors, put = __cordl_internal_set_beatmapAuthors))::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors beatmapAuthors;
+
+  /// @brief Field beatmapColorSchemeIdx, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_beatmapColorSchemeIdx, put = __cordl_internal_set_beatmapColorSchemeIdx)) int32_t beatmapColorSchemeIdx;
+
+  /// @brief Field beatmapDataFilename, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapDataFilename, put = __cordl_internal_set_beatmapDataFilename))::StringW beatmapDataFilename;
+
+  /// @brief Field characteristic, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::StringW characteristic;
+
+  /// @brief Field difficulty, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::StringW difficulty;
+
+  /// @brief Field environmentNameIdx, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_environmentNameIdx, put = __cordl_internal_set_environmentNameIdx)) int32_t environmentNameIdx;
+
+  /// @brief Field lightshowDataFilename, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_lightshowDataFilename, put = __cordl_internal_set_lightshowDataFilename))::StringW lightshowDataFilename;
+
+  /// @brief Field noteJumpMovementSpeed, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteJumpMovementSpeed, put = __cordl_internal_set_noteJumpMovementSpeed)) float_t noteJumpMovementSpeed;
+
+  /// @brief Field noteJumpStartBeatOffset, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteJumpStartBeatOffset, put = __cordl_internal_set_noteJumpStartBeatOffset)) float_t noteJumpStartBeatOffset;
+
+  static inline ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap* New_ctor();
+
+  constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors const& __cordl_internal_get_beatmapAuthors() const;
+
+  constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors& __cordl_internal_get_beatmapAuthors();
+
+  constexpr int32_t const& __cordl_internal_get_beatmapColorSchemeIdx() const;
+
+  constexpr int32_t& __cordl_internal_get_beatmapColorSchemeIdx();
+
+  constexpr ::StringW const& __cordl_internal_get_beatmapDataFilename() const;
+
+  constexpr ::StringW& __cordl_internal_get_beatmapDataFilename();
+
+  constexpr ::StringW const& __cordl_internal_get_characteristic() const;
+
+  constexpr ::StringW& __cordl_internal_get_characteristic();
+
+  constexpr ::StringW const& __cordl_internal_get_difficulty() const;
+
+  constexpr ::StringW& __cordl_internal_get_difficulty();
+
+  constexpr int32_t const& __cordl_internal_get_environmentNameIdx() const;
+
+  constexpr int32_t& __cordl_internal_get_environmentNameIdx();
+
+  constexpr ::StringW const& __cordl_internal_get_lightshowDataFilename() const;
+
+  constexpr ::StringW& __cordl_internal_get_lightshowDataFilename();
+
+  constexpr float_t const& __cordl_internal_get_noteJumpMovementSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_noteJumpMovementSpeed();
+
+  constexpr float_t const& __cordl_internal_get_noteJumpStartBeatOffset() const;
+
+  constexpr float_t& __cordl_internal_get_noteJumpStartBeatOffset();
+
+  constexpr void __cordl_internal_set_beatmapAuthors(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors value);
+
+  constexpr void __cordl_internal_set_beatmapColorSchemeIdx(int32_t value);
+
+  constexpr void __cordl_internal_set_beatmapDataFilename(::StringW value);
+
+  constexpr void __cordl_internal_set_characteristic(::StringW value);
+
+  constexpr void __cordl_internal_set_difficulty(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentNameIdx(int32_t value);
+
+  constexpr void __cordl_internal_set_lightshowDataFilename(::StringW value);
+
+  constexpr void __cordl_internal_set_noteJumpMovementSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_noteJumpStartBeatOffset(float_t value);
+
+  /// @brief Method .ctor, addr 0x1402144, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
   // Ctor Parameters []
   // @brief default ctor
   constexpr __BeatmapLevelSaveData__DifficultyBeatmap();
 
-  // Ctor Parameters [CppParam { name: "characteristic", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "beatmapAuthors", ty: "::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors", modifiers: "", def_value: None }, CppParam { name: "environmentNameIdx", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "beatmapColorSchemeIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lightshowDataFilename", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapDataFilename", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr __BeatmapLevelSaveData__DifficultyBeatmap(::StringW characteristic, ::StringW difficulty, ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors beatmapAuthors,
-                                                      int32_t environmentNameIdx, int32_t beatmapColorSchemeIdx, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset,
-                                                      ::StringW lightshowDataFilename, ::StringW beatmapDataFilename) noexcept;
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelSaveData__DifficultyBeatmap", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __BeatmapLevelSaveData__DifficultyBeatmap(__BeatmapLevelSaveData__DifficultyBeatmap&&) = delete;
 
-  /// @brief Field characteristic, offset: 0x0, size: 0x8, def value: None
-  ::StringW characteristic;
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelSaveData__DifficultyBeatmap", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __BeatmapLevelSaveData__DifficultyBeatmap(__BeatmapLevelSaveData__DifficultyBeatmap const&) = delete;
 
-  /// @brief Field difficulty, offset: 0x8, size: 0x8, def value: None
-  ::StringW difficulty;
+  /// @brief Field characteristic, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___characteristic;
 
-  /// @brief Field beatmapAuthors, offset: 0x10, size: 0x10, def value: None
-  ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors beatmapAuthors;
+  /// @brief Field difficulty, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___difficulty;
 
-  /// @brief Field environmentNameIdx, offset: 0x20, size: 0x4, def value: None
-  int32_t environmentNameIdx;
+  /// @brief Field beatmapAuthors, offset: 0x20, size: 0x10, def value: None
+  ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors ___beatmapAuthors;
 
-  /// @brief Field beatmapColorSchemeIdx, offset: 0x24, size: 0x4, def value: None
-  int32_t beatmapColorSchemeIdx;
+  /// @brief Field environmentNameIdx, offset: 0x30, size: 0x4, def value: None
+  int32_t ___environmentNameIdx;
 
-  /// @brief Field noteJumpMovementSpeed, offset: 0x28, size: 0x4, def value: None
-  float_t noteJumpMovementSpeed;
+  /// @brief Field beatmapColorSchemeIdx, offset: 0x34, size: 0x4, def value: None
+  int32_t ___beatmapColorSchemeIdx;
 
-  /// @brief Field noteJumpStartBeatOffset, offset: 0x2c, size: 0x4, def value: None
-  float_t noteJumpStartBeatOffset;
+  /// @brief Field noteJumpMovementSpeed, offset: 0x38, size: 0x4, def value: None
+  float_t ___noteJumpMovementSpeed;
 
-  /// @brief Field lightshowDataFilename, offset: 0x30, size: 0x8, def value: None
-  ::StringW lightshowDataFilename;
+  /// @brief Field noteJumpStartBeatOffset, offset: 0x3c, size: 0x4, def value: None
+  float_t ___noteJumpStartBeatOffset;
 
-  /// @brief Field beatmapDataFilename, offset: 0x38, size: 0x8, def value: None
-  ::StringW beatmapDataFilename;
+  /// @brief Field lightshowDataFilename, offset: 0x40, size: 0x8, def value: None
+  ::StringW ___lightshowDataFilename;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  /// @brief Field beatmapDataFilename, offset: 0x48, size: 0x8, def value: None
+  ::StringW ___beatmapDataFilename;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, characteristic) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___characteristic) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, difficulty) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___difficulty) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, beatmapAuthors) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___beatmapAuthors) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, environmentNameIdx) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___environmentNameIdx) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, beatmapColorSchemeIdx) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___beatmapColorSchemeIdx) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, noteJumpMovementSpeed) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___noteJumpMovementSpeed) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, noteJumpStartBeatOffset) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___noteJumpStartBeatOffset) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, lightshowDataFilename) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___lightshowDataFilename) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, beatmapDataFilename) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ___beatmapDataFilename) == 0x48, "Offset mismatch!");
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData
@@ -361,16 +516,16 @@ public:
 
   /// @brief Field colorSchemes, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_colorSchemes,
-                      put = __cordl_internal_set_colorSchemes))::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme,
-                                                                        ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*> colorSchemes;
+                      put = __cordl_internal_set_colorSchemes))::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*,
+                                                                        ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*> colorSchemes;
 
   /// @brief Field coverImageFilename, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_coverImageFilename, put = __cordl_internal_set_coverImageFilename))::StringW coverImageFilename;
 
   /// @brief Field difficultyBeatmaps, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_difficultyBeatmaps,
-                      put = __cordl_internal_set_difficultyBeatmaps))::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap,
-                                                                              ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*> difficultyBeatmaps;
+                      put = __cordl_internal_set_difficultyBeatmaps))::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*,
+                                                                              ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> difficultyBeatmaps;
 
   /// @brief Field environmentNames, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_environmentNames, put = __cordl_internal_set_environmentNames))::ArrayW<::StringW, ::Array<::StringW>*> environmentNames;
@@ -390,20 +545,20 @@ public:
 
   constexpr ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData& __cordl_internal_get_audio();
 
-  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*> const&
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*> const&
   __cordl_internal_get_colorSchemes() const;
 
-  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*>&
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*>&
   __cordl_internal_get_colorSchemes();
 
   constexpr ::StringW const& __cordl_internal_get_coverImageFilename() const;
 
   constexpr ::StringW& __cordl_internal_get_coverImageFilename();
 
-  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*> const&
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> const&
   __cordl_internal_get_difficultyBeatmaps() const;
 
-  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*>&
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*>&
   __cordl_internal_get_difficultyBeatmaps();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_environmentNames() const;
@@ -424,13 +579,13 @@ public:
 
   constexpr void __cordl_internal_set_audio(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData value);
 
-  constexpr void
-  __cordl_internal_set_colorSchemes(::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*> value);
+  constexpr void __cordl_internal_set_colorSchemes(
+      ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*> value);
 
   constexpr void __cordl_internal_set_coverImageFilename(::StringW value);
 
   constexpr void __cordl_internal_set_difficultyBeatmaps(
-      ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*> value);
+      ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> value);
 
   constexpr void __cordl_internal_set_environmentNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
@@ -440,7 +595,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1326328, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14020ec, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -476,10 +631,10 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> ___environmentNames;
 
   /// @brief Field colorSchemes, offset: 0x70, size: 0x8, def value: None
-  ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme>*> ___colorSchemes;
+  ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*> ___colorSchemes;
 
   /// @brief Field difficultyBeatmaps, offset: 0x78, size: 0x8, def value: None
-  ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap>*> ___difficultyBeatmaps;
+  ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> ___difficultyBeatmaps;
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };
@@ -508,8 +663,10 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData, ___
 } // namespace BeatmapLevelSaveDataVersion4
 NEED_NO_BOX(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData");
+NEED_NO_BOX(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme);
+DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData/ColorScheme");
+NEED_NO_BOX(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap);
+DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData/DifficultyBeatmap");
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData/AudioData");
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData/BeatmapAuthors");
-DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData/ColorScheme");
-DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData/DifficultyBeatmap");
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__SongData, "BeatmapLevelSaveDataVersion4", "BeatmapLevelSaveData/SongData");

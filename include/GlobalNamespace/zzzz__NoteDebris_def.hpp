@@ -57,6 +57,39 @@ class __NoteDebris__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteDebris);
 MARK_REF_PTR_T(::GlobalNamespace::__NoteDebris__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::NoteDebris::Pool*
+class CORDL_TYPE __NoteDebris__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::NoteDebris>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__NoteDebris__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25214ac, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NoteDebris__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__NoteDebris__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __NoteDebris__Pool(__NoteDebris__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__NoteDebris__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __NoteDebris__Pool(__NoteDebris__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteDebris__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::NoteDebris
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -116,17 +149,17 @@ public:
 
   __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Awake, addr 0x23fdf10, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2520a88, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x23fe224, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2520d9c, size 0x570, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ColorType colorType, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRot, ::UnityEngine::Vector3 noteMoveVec, ::UnityEngine::Vector3 noteScale,
                    ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Quaternion rotationOffset, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 force,
                    ::UnityEngine::Vector3 torque, float_t lifeTime);
 
   static inline ::GlobalNamespace::NoteDebris* New_ctor();
 
-  /// @brief Method Update, addr 0x23fdfa8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2520b20, size 0x27c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__centroidComputationMesh() const;
@@ -189,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set__physics(::UnityW<::GlobalNamespace::NoteDebrisPhysics> value);
 
-  /// @brief Method .ctor, addr 0x23fe794, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252130c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
@@ -202,7 +235,7 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF__meshVertices();
 
-  /// @brief Method get_didFinishEvent, addr 0x23fdf08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x2520a80, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* get_didFinishEvent();
 
   static inline void setStaticF__colorID(int32_t value);
@@ -283,39 +316,6 @@ static_assert(offsetof(::GlobalNamespace::NoteDebris, ____elapsedTime) == 0x50, 
 static_assert(offsetof(::GlobalNamespace::NoteDebris, ____lifeTime) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteDebris, ____didFinishEvent) == 0x58, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::NoteDebris::Pool*
-class CORDL_TYPE __NoteDebris__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::NoteDebris>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__NoteDebris__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23fe934, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NoteDebris__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NoteDebris__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __NoteDebris__Pool(__NoteDebris__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__NoteDebris__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __NoteDebris__Pool(__NoteDebris__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteDebris__Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteDebris);

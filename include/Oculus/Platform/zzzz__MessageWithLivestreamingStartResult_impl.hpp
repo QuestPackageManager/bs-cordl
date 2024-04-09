@@ -1,5 +1,4 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__LivestreamingStartResult_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLivestreamingStartResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LivestreamingStartResult_def.hpp"
@@ -9,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLivestreamingStartResult::*)(void*)>(
     &::Oculus::Platform::MessageWithLivestreamingStartResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x284693c;
+  constexpr static std::size_t addrs = 0x29c8f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStartResult* (::Oculus::Platform::MessageWithLivestreamingStartResult::*)()>(
     &::Oculus::Platform::MessageWithLivestreamingStartResult::GetLivestreamingStartResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2846994;
+  constexpr static std::size_t addrs = 0x29c8f78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStartResult* (
     ::Oculus::Platform::MessageWithLivestreamingStartResult::*)(void*)>(&::Oculus::Platform::MessageWithLivestreamingStartResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x28469d0;
+  constexpr static std::size_t addrs = 0x29c8fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -20,7 +20,7 @@ namespace BGLib::AppFlow::Initialization {
 class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCommandLineArgs, addr 0xea8fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0xf802ec, size 0x1008, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
 protected:

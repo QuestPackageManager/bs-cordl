@@ -59,56 +59,56 @@ public:
   /// @brief Field s_defaultInstance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_defaultInstance, put = setStaticF_s_defaultInstance))::System::Globalization::Calendar* s_defaultInstance;
 
-  /// @brief Method GetAbsoluteDate, addr 0x26b5e30, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetAbsoluteDate, addr 0x27e0020, size 0x1e8, virtual false, abstract: false, final false
   static inline int64_t GetAbsoluteDate(int32_t year, int32_t month, int32_t day);
 
-  /// @brief Method GetDatePart, addr 0x26b5c34, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method GetDatePart, addr 0x27dfe24, size 0x1fc, virtual true, abstract: false, final false
   inline int32_t GetDatePart(int64_t ticks, int32_t part);
 
-  /// @brief Method GetDayOfMonth, addr 0x26b6018, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfMonth, addr 0x27e0208, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetDayOfMonth(::System::DateTime time);
 
-  /// @brief Method GetDayOfWeek, addr 0x26b605c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfWeek, addr 0x27e024c, size 0x68, virtual true, abstract: false, final false
   inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-  /// @brief Method GetDaysInMonth, addr 0x26b60c4, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInMonth, addr 0x27e02b4, size 0x2b0, virtual true, abstract: false, final false
   inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method GetDaysInYear, addr 0x26b6374, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInYear, addr 0x27e0564, size 0x194, virtual true, abstract: false, final false
   inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetDefaultInstance, addr 0x26b59dc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultInstance, addr 0x27dfbcc, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Globalization::Calendar* GetDefaultInstance();
 
-  /// @brief Method GetEra, addr 0x26b6508, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetEra, addr 0x27e06f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetEra(::System::DateTime time);
 
-  /// @brief Method GetMonth, addr 0x26b6574, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetMonth, addr 0x27e0764, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetMonth(::System::DateTime time);
 
-  /// @brief Method GetMonthsInYear, addr 0x26b65b8, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetMonthsInYear, addr 0x27e07a8, size 0x150, virtual true, abstract: false, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetYear, addr 0x26b6708, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetYear, addr 0x27e08f8, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method IsLeapYear, addr 0x26b674c, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x27e093c, size 0x19c, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
   static inline ::System::Globalization::GregorianCalendar* New_ctor();
 
   static inline ::System::Globalization::GregorianCalendar* New_ctor(::System::Globalization::GregorianCalendarTypes type);
 
-  /// @brief Method OnDeserialized, addr 0x26b5850, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x27dfa40, size 0xdc, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method ToDateTime, addr 0x26b68e8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x27e0ad8, size 0xa0, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method ToFourDigitYear, addr 0x26b6bd8, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ToFourDigitYear, addr 0x27e0dc8, size 0x120, virtual true, abstract: false, final false
   inline int32_t ToFourDigitYear(int32_t year);
 
-  /// @brief Method TryToDateTime, addr 0x26b6988, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method TryToDateTime, addr 0x27e0b78, size 0xf4, virtual true, abstract: false, final false
   inline bool TryToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era, ByRef<::System::DateTime> result);
 
   constexpr ::System::Globalization::GregorianCalendarTypes const& __cordl_internal_get_m_type() const;
@@ -117,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set_m_type(::System::Globalization::GregorianCalendarTypes value);
 
-  /// @brief Method .ctor, addr 0x26b5aac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dfc9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26b5ad8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dfcc8, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::GregorianCalendarTypes type);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_DaysToMonth365();
@@ -129,19 +129,19 @@ public:
 
   static inline ::System::Globalization::Calendar* getStaticF_s_defaultInstance();
 
-  /// @brief Method get_Eras, addr 0x26b6510, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Eras, addr 0x27e0700, size 0x64, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Eras();
 
-  /// @brief Method get_ID, addr 0x26b5c2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x27dfe1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ID();
 
-  /// @brief Method get_MaxSupportedDateTime, addr 0x26b5984, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSupportedDateTime, addr 0x27dfb74, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
-  /// @brief Method get_MinSupportedDateTime, addr 0x26b592c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MinSupportedDateTime, addr 0x27dfb1c, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_TwoDigitYearMax, addr 0x26b6a7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TwoDigitYearMax, addr 0x27e0c6c, size 0x44, virtual true, abstract: false, final false
   inline int32_t get_TwoDigitYearMax();
 
   static inline void setStaticF_DaysToMonth365(::ArrayW<int32_t, ::Array<int32_t>*> value);
@@ -150,7 +150,7 @@ public:
 
   static inline void setStaticF_s_defaultInstance(::System::Globalization::Calendar* value);
 
-  /// @brief Method set_TwoDigitYearMax, addr 0x26b6ac0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method set_TwoDigitYearMax, addr 0x27e0cb0, size 0x118, virtual true, abstract: false, final false
   inline void set_TwoDigitYearMax(int32_t value);
 
 protected:

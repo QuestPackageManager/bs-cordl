@@ -11,6 +11,9 @@ namespace System::Xml::Schema {
 class FacetsChecker;
 }
 namespace System::Xml::Schema {
+struct RestrictionFlags;
+}
+namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::Schema {
@@ -59,6 +62,8 @@ public:
 
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
+  __declspec(property(get = get_ValidRestrictionFlags))::System::Xml::Schema::RestrictionFlags ValidRestrictionFlags;
+
   __declspec(property(get = get_ValueType))::System::Type* ValueType;
 
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
@@ -70,18 +75,18 @@ public:
   /// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker))::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
 
-  /// @brief Method Compare, addr 0x2a03c44, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x2e09444, size 0xbc, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method CreateValueConverter, addr 0x2a03ac4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x2e09318, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_decimal* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x2a03d00, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2e09500, size 0x164, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x2a03e64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e03838, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
@@ -90,19 +95,22 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2a03c3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2e09434, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x2a03b2c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x2e09324, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x2a03be4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x2e093dc, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TypeCode, addr 0x2a03b84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2e0937c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValueType, addr 0x2a03b8c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x2e0943c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
+
+  /// @brief Method get_ValueType, addr 0x2e09384, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);

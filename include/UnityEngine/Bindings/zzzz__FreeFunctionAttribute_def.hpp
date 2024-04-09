@@ -25,13 +25,13 @@ public:
 
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name, bool isThreadSafe);
 
-  /// @brief Method .ctor, addr 0x2e812b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32650d4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e812d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32650f4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2e812f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3265110, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isThreadSafe);
 
 protected:

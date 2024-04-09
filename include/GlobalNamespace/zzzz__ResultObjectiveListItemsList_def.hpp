@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ResultObjectiveListItem_def.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"
 CORDL_MODULE_EXPORT(ResultObjectiveListItemsList)
+namespace GlobalNamespace {
+class ResultObjectiveListItem;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ResultObjectiveListItemsList;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ResultObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2449b48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256cd60, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

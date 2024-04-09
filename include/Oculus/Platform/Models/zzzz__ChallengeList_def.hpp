@@ -2,10 +2,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChallengeList)
+namespace Oculus::Platform::Models {
+class Challenge;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ChallengeList;
@@ -31,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2859880, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dbe64, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

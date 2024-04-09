@@ -49,27 +49,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddDisposable, addr 0x3045f28, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddDisposable, addr 0x342bdb4, size 0xa8, virtual false, abstract: false, final false
   inline void AddDisposable(::System::IDisposable* disposable);
 
-  /// @brief Method AssertHasFinalizer, addr 0x3045ecc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AssertHasFinalizer, addr 0x342bd58, size 0x44, virtual false, abstract: false, final false
   inline void AssertHasFinalizer();
 
-  /// @brief Method Dispose, addr 0x30460f0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x342bf7c, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FinalizeBinding, addr 0x304603c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBinding, addr 0x342bec8, size 0xb4, virtual false, abstract: false, final false
   inline void FinalizeBinding(::Zenject::DiContainer* container);
 
   static inline ::Zenject::BindStatement* New_ctor();
 
-  /// @brief Method Reset, addr 0x3045ce8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x342bb74, size 0x13c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetFinalizer, addr 0x3045f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFinalizer, addr 0x342bdac, size 0x8, virtual false, abstract: false, final false
   inline void SetFinalizer(::Zenject::IBindingFinalizer* bindingFinalizer);
 
-  /// @brief Method SpawnBindInfo, addr 0x3045fd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SpawnBindInfo, addr 0x342be5c, size 0x6c, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* SpawnBindInfo();
 
   constexpr ::Zenject::IBindingFinalizer*& __cordl_internal_get__bindingFinalizer();
@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set__disposables(::System::Collections::Generic::List_1<::System::IDisposable*>* value);
 
-  /// @brief Method .ctor, addr 0x3045c64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x342baf0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindingInheritanceMethod, addr 0x3045e24, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingInheritanceMethod, addr 0x342bcb0, size 0xa8, virtual false, abstract: false, final false
   inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
 
-  /// @brief Method get_HasFinalizer, addr 0x3045f10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasFinalizer, addr 0x342bd9c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasFinalizer();
 
   /// @brief Convert to "::System::IDisposable"

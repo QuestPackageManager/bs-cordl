@@ -32,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get__simpleDialogPromptViewControllerPrefab,
                       put = __cordl_internal_set__simpleDialogPromptViewControllerPrefab))::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> _simpleDialogPromptViewControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x2501b10, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2626ffc, size 0xac, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BaseViewControllersInstaller* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__simpleDialogPromptViewControllerPrefab(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-  /// @brief Method .ctor, addr 0x2501bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26270a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

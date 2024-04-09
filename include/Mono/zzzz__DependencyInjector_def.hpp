@@ -30,17 +30,17 @@ public:
   /// @brief Field systemDependency, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_systemDependency, put = setStaticF_systemDependency))::Mono::ISystemDependencyProvider* systemDependency;
 
-  /// @brief Method ReflectionLoad, addr 0x2567464, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReflectionLoad, addr 0x268cf50, size 0x14c, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* ReflectionLoad();
 
-  /// @brief Method Register, addr 0x25675b0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x268d09c, size 0x1a8, virtual false, abstract: false, final false
   static inline void Register(::Mono::ISystemDependencyProvider* provider);
 
   static inline ::System::Object* getStaticF_locker();
 
   static inline ::Mono::ISystemDependencyProvider* getStaticF_systemDependency();
 
-  /// @brief Method get_SystemProvider, addr 0x2567260, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method get_SystemProvider, addr 0x268cd4c, size 0x204, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* get_SystemProvider();
 
   static inline void setStaticF_locker(::System::Object* value);

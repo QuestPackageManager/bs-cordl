@@ -41,13 +41,13 @@ public:
 
   __declspec(property(get = get_prefab, put = set_prefab))::UnityW<::UnityEngine::GameObject> prefab;
 
-  /// @brief Method Equals, addr 0x2e84ce4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3268b00, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2e84d48, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3268b64, size 0xd8, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TreePrototype* other);
 
-  /// @brief Method GetHashCode, addr 0x2e84e20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3268c3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TreePrototype* New_ctor();
@@ -70,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Prefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2e84cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3268af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bendFactor, addr 0x2e84cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bendFactor, addr 0x3268ae0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bendFactor();
 
-  /// @brief Method get_navMeshLod, addr 0x2e84cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_navMeshLod, addr 0x3268af0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_navMeshLod();
 
-  /// @brief Method get_prefab, addr 0x2e84cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefab, addr 0x3268ad0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_prefab();
 
-  /// @brief Method set_bendFactor, addr 0x2e84ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bendFactor, addr 0x3268ae8, size 0x8, virtual false, abstract: false, final false
   inline void set_bendFactor(float_t value);
 
-  /// @brief Method set_prefab, addr 0x2e84cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prefab, addr 0x3268ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_prefab(::UnityEngine::GameObject* value);
 
 protected:

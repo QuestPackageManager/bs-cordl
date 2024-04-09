@@ -52,6 +52,39 @@ class __TutorialNoteController__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TutorialNoteController);
 MARK_REF_PTR_T(::GlobalNamespace::__TutorialNoteController__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::TutorialNoteController::Pool*
+class CORDL_TYPE __TutorialNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::TutorialNoteController>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__TutorialNoteController__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2524f44, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TutorialNoteController__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__TutorialNoteController__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __TutorialNoteController__Pool(__TutorialNoteController__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__TutorialNoteController__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __TutorialNoteController__Pool(__TutorialNoteController__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialNoteController__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::TutorialNoteController
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -90,31 +123,31 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Method Awake, addr 0x2401c08, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2524780, size 0xe8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x2401e94, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x2524a0c, size 0x10c, virtual false, abstract: false, final false
   inline void HandleBeforeNoteWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleCoreWasCutBySaber, addr 0x2401fa0, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method HandleCoreWasCutBySaber, addr 0x2524b18, size 0x3f4, virtual false, abstract: false, final false
   inline void HandleCoreWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x2402394, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x2524f0c, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x2401b08, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2524680, size 0x100, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity, float_t cutAngleTolerance, float_t uniformScale);
 
   static inline ::GlobalNamespace::TutorialNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x2401e4c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x25249c4, size 0x48, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method OnDestroy, addr 0x2401cf0, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2524868, size 0x15c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x24023b8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x2524f30, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr bool const& __cordl_internal_get__beforeNoteCutWasOk() const;
@@ -147,16 +180,16 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x24023c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524f40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayType, addr 0x2401b00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayType, addr 0x2524678, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method get_noteMovement, addr 0x2401af0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x2524668, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x2401af8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x2524670, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
@@ -208,39 +241,6 @@ static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____wrapperGO)
 static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____beforeNoteCutWasOk) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cutAngleTolerance) == 0x9c, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::TutorialNoteController::Pool*
-class CORDL_TYPE __TutorialNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::TutorialNoteController>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__TutorialNoteController__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24023cc, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TutorialNoteController__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TutorialNoteController__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TutorialNoteController__Pool(__TutorialNoteController__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__TutorialNoteController__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TutorialNoteController__Pool(__TutorialNoteController__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialNoteController__Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialNoteController);

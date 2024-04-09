@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockVectorAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockVectorAnimator::SetProperty)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22d82e8;
+  constexpr static std::size_t addrs = 0x23f7730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockVectorAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockVectorAnimator::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d831c;
+  constexpr static std::size_t addrs = 0x23f7764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockVectorAnimator*>::get(),

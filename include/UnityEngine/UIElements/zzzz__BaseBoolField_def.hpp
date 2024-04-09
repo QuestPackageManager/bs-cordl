@@ -51,27 +51,27 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  /// @brief Method InitLabel, addr 0x2f92adc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x33788f8, size 0x94, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
 
-  /// @brief Method OnClickEvent, addr 0x2f92c50, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method OnClickEvent, addr 0x3378a6c, size 0x288, virtual false, abstract: false, final false
   inline void OnClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnKeyDown, addr 0x2f929ac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x33787c8, size 0x114, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x2f92978, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x3378794, size 0x34, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x2f92b70, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x337898c, size 0xe0, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ToggleValue, addr 0x2f92ed8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x3378cf4, size 0x38, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x2f92f10, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x3378d2c, size 0x184, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckMark();
@@ -98,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f92654, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378470, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method get_text, addr 0x2f92ac0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x33788dc, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x2f928f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x337870c, size 0x88, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

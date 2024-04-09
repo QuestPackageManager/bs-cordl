@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b39d3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1e1ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

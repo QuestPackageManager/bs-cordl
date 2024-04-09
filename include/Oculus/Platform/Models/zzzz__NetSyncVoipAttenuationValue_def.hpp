@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_Distance(float_t value);
 
-  /// @brief Method .ctor, addr 0x285bd24, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29de308, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

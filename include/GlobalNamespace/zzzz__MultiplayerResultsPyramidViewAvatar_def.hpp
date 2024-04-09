@@ -4,7 +4,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -69,6 +68,40 @@ class __MultiplayerResultsPyramidViewAvatar__Factory;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory);
+// Type: ::Factory
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::MultiplayerResultsPyramidViewAvatar::Factory*
+class CORDL_TYPE __MultiplayerResultsPyramidViewAvatar__Factory
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2613774, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerResultsPyramidViewAvatar__Factory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __MultiplayerResultsPyramidViewAvatar__Factory(__MultiplayerResultsPyramidViewAvatar__Factory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __MultiplayerResultsPyramidViewAvatar__Factory(__MultiplayerResultsPyramidViewAvatar__Factory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory, 0x20>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::MultiplayerResultsPyramidViewAvatar
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -188,15 +221,15 @@ public:
 
   __declspec(property(get = get_badgeDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> badgeDirector;
 
-  /// @brief Method Awake, addr 0x24ef23c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2613728, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method Setup, addr 0x24eed24, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2613210, size 0x48c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline, addr 0x24ee7a8, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method SetupBadgeTimeline, addr 0x2612c94, size 0x57c, virtual false, abstract: false, final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
   constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__avatarRiseTween();
@@ -409,10 +442,10 @@ public:
 
   constexpr void __cordl_internal_set__trophyImage(::UnityW<::HMUI::ImageView> value);
 
-  /// @brief Method .ctor, addr 0x24ef25c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613748, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeDirector, addr 0x24ef234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeDirector, addr 0x2613720, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_badgeDirector();
 
 protected:
@@ -608,40 +641,6 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, _
 static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____originalBadgeLocalPos) == 0x1c0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____connectedPlayer) == 0x1d0, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Factory
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::MultiplayerResultsPyramidViewAvatar::Factory*
-class CORDL_TYPE __MultiplayerResultsPyramidViewAvatar__Factory
-    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24ef288, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerResultsPyramidViewAvatar__Factory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerResultsPyramidViewAvatar__Factory(__MultiplayerResultsPyramidViewAvatar__Factory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerResultsPyramidViewAvatar__Factory(__MultiplayerResultsPyramidViewAvatar__Factory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar);

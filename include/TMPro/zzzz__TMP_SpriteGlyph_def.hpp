@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x2d8aab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316ff64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d8ae28, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31702d8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method .ctor, addr 0x2d8aee4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3170394, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite* sprite);
 
 protected:

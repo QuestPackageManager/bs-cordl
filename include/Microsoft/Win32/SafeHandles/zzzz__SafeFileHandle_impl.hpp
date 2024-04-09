@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeFileHandle::*)(void*, bool)>(
     &::Microsoft::Win32::SafeHandles::SafeFileHandle::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2581474;
+  constexpr static std::size_t addrs = 0x26a6f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafeFileHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafeFileHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2581500;
+  constexpr static std::size_t addrs = 0x26a6fec;
 
   inline static ::MethodInfo const* methodInfo() {
 

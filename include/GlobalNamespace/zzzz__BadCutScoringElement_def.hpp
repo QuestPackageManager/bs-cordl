@@ -25,6 +25,39 @@ class __BadCutScoringElement__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BadCutScoringElement);
 MARK_REF_PTR_T(::GlobalNamespace::__BadCutScoringElement__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::BadCutScoringElement::Pool*
+class CORDL_TYPE __BadCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::BadCutScoringElement*> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__BadCutScoringElement__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2623084, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BadCutScoringElement__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__BadCutScoringElement__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __BadCutScoringElement__Pool(__BadCutScoringElement__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__BadCutScoringElement__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __BadCutScoringElement__Pool(__BadCutScoringElement__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BadCutScoringElement__Pool, 0x38>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::BadCutScoringElement
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -52,7 +85,7 @@ public:
 
   __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
 
-  /// @brief Method Init, addr 0x24fd5c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2622ab0, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::BadCutScoringElement* New_ctor();
@@ -69,19 +102,19 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
 
-  /// @brief Method .ctor, addr 0x24fdb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262307c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutScore, addr 0x24fdb6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x2623058, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_executionOrder, addr 0x24fdb84, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x2623070, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_multiplierEventType, addr 0x24fdb7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x2623068, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x24fdb74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x2623060, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
 protected:
@@ -112,39 +145,6 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BadCutScoringEl
 static_assert(offsetof(::GlobalNamespace::BadCutScoringElement, ____multiplierEventType) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BadCutScoringElement, ____wouldBeCorrectCutBestPossibleMultiplierEventType) == 0x28, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::BadCutScoringElement::Pool*
-class CORDL_TYPE __BadCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::BadCutScoringElement*> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__BadCutScoringElement__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24fdb98, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BadCutScoringElement__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BadCutScoringElement__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __BadCutScoringElement__Pool(__BadCutScoringElement__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__BadCutScoringElement__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __BadCutScoringElement__Pool(__BadCutScoringElement__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BadCutScoringElement__Pool, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BadCutScoringElement);

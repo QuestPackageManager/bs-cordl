@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "Newtonsoft/Json/Linq/CommentHandling.hpp"
+#include "Newtonsoft/Json/Linq/DuplicatePropertyNameHandling.hpp"
 #include "Newtonsoft/Json/Linq/Extensions.hpp"
 #include "Newtonsoft/Json/Linq/IJEnumerable_1.hpp"
 #include "Newtonsoft/Json/Linq/JArray.hpp"
@@ -21,8 +22,10 @@ module;
 #include "Newtonsoft/Json/Linq/JTokenType.hpp"
 #include "Newtonsoft/Json/Linq/JTokenWriter.hpp"
 #include "Newtonsoft/Json/Linq/JValue.hpp"
+#include "Newtonsoft/Json/Linq/JsonCloneSettings.hpp"
 #include "Newtonsoft/Json/Linq/JsonLoadSettings.hpp"
 #include "Newtonsoft/Json/Linq/JsonMergeSettings.hpp"
+#include "Newtonsoft/Json/Linq/JsonSelectSettings.hpp"
 #include "Newtonsoft/Json/Linq/LineInfoHandling.hpp"
 #include "Newtonsoft/Json/Linq/MergeArrayHandling.hpp"
 #include "Newtonsoft/Json/Linq/MergeNullValueHandling.hpp"

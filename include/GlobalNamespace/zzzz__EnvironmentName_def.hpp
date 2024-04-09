@@ -4,7 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
+#include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentName)
+namespace System {
+class Object;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct EnvironmentName;
@@ -22,19 +26,34 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::GlobalNamespace::EnvironmentName Empty;
 
-  /// @brief Method ToString, addr 0x12d0adc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x13a86d0, size 0x7c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x13a86c4, size 0xc, virtual false, abstract: false, final false
+  inline bool Equals(::GlobalNamespace::EnvironmentName other);
+
+  /// @brief Method GetHashCode, addr 0x13a874c, size 0x18, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method ToString, addr 0x13a87e8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x12d0acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a86bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW environmentName);
 
   static inline ::GlobalNamespace::EnvironmentName getStaticF_Empty();
 
-  /// @brief Method op_Implicit, addr 0x12d0ad8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x13a876c, size 0x8, virtual false, abstract: false, final false
+  static inline bool op_Equality(::GlobalNamespace::EnvironmentName a, ::GlobalNamespace::EnvironmentName b);
+
+  /// @brief Method op_Implicit, addr 0x13a8768, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentName op_Implicit___GlobalNamespace__EnvironmentName(::StringW environmentName);
 
-  /// @brief Method op_Implicit, addr 0x12d0ad4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x13a8764, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::GlobalNamespace::EnvironmentName e);
+
+  /// @brief Method op_Inequality, addr 0x13a8774, size 0x74, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::GlobalNamespace::EnvironmentName a, ::GlobalNamespace::EnvironmentName b);
 
   static inline void setStaticF_Empty(::GlobalNamespace::EnvironmentName value);
 

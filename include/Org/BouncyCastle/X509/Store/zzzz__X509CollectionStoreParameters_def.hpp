@@ -34,12 +34,12 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509StoreParameters*() noexcept;
 
-  /// @brief Method GetCollection, addr 0x120912c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCollection, addr 0x12e2cb0, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetCollection();
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters* New_ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method ToString, addr 0x1209184, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x12e2d08, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_collection();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_collection(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x1209070, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e2bf4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"

@@ -27,10 +27,10 @@ public:
   /// @brief Field _unsubscribes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__unsubscribes, put = __cordl_internal_set__unsubscribes))::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
 
-  /// @brief Method Bind, addr 0x22b60dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x23d558c, size 0xcc, virtual false, abstract: false, final false
   inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
 
-  /// @brief Method ClearAllBindings, addr 0x22b61a8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllBindings, addr 0x23d5658, size 0x18c, virtual false, abstract: false, final false
   inline void ClearAllBindings();
 
   static inline ::GlobalNamespace::EventBinder* New_ctor();
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x22b6334, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d57e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

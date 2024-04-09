@@ -61,30 +61,30 @@ public:
 
   __declspec(property(get = get_isSpawned)) bool isSpawned;
 
-  /// @brief Method HandleAnimationFinished, addr 0xe8e4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleAnimationFinished, addr 0xf64f84, size 0x8, virtual false, abstract: false, final false
   inline void HandleAnimationFinished();
 
-  /// @brief Method HandleGamePauseDidPause, addr 0xe8e3d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0xf64eb0, size 0x40, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0xe8e45c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0xf64f34, size 0x28, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method HandleGamePauseWillResume, addr 0xe8e418, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseWillResume, addr 0xf64ef0, size 0x44, virtual false, abstract: false, final false
   inline void HandleGamePauseWillResume();
 
-  /// @brief Method HandleLevelEndActionsLevelFailed, addr 0xe8e484, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelEndActionsLevelFailed, addr 0xf64f5c, size 0x28, virtual false, abstract: false, final false
   inline void HandleLevelEndActionsLevelFailed();
 
-  /// @brief Method HandleStartCharacterAnimation, addr 0xe8e330, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleStartCharacterAnimation, addr 0xf64e08, size 0xa8, virtual false, abstract: false, final false
   inline void HandleStartCharacterAnimation(::GlobalNamespace::BTSCharacter* btsCharacter);
 
   static inline ::GlobalNamespace::BTSCharacterSpawnController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xe8de88, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xf64960, size 0x3f8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0xe8da58, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xf64530, size 0x380, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__animatorNormalizedTimeBeforePause() const;
@@ -129,13 +129,13 @@ public:
 
   constexpr void __cordl_internal_set__playableDirectorTimeBeforePause(double_t value);
 
-  /// @brief Method .ctor, addr 0xe8e4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf64f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isCharacterVisible, addr 0xe8da38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_isCharacterVisible, addr 0xf64510, size 0x18, virtual false, abstract: false, final false
   inline bool get_isCharacterVisible();
 
-  /// @brief Method get_isSpawned, addr 0xe8da50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSpawned, addr 0xf64528, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSpawned();
 
 protected:

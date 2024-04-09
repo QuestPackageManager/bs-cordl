@@ -37,87 +37,87 @@ public:
   /// @brief Field _pathSet, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__pathSet, put = setStaticF__pathSet)) bool _pathSet;
 
-  /// @brief Method BuildPath, addr 0x2347cc8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method BuildPath, addr 0x2467214, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW BuildPath(::StringW folder1, ::StringW folder2, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method CreateDirectory, addr 0x234cc64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateDirectory, addr 0x246c1b0, size 0x28, virtual false, abstract: false, final false
   static inline bool CreateDirectory(::StringW inPath);
 
-  /// @brief Method DoesDirectoryExist, addr 0x234cc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DoesDirectoryExist, addr 0x246c1a8, size 0x8, virtual false, abstract: false, final false
   static inline bool DoesDirectoryExist(::StringW inPath);
 
-  /// @brief Method DoesFileExist, addr 0x2348ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DoesFileExist, addr 0x2468430, size 0x8, virtual false, abstract: false, final false
   static inline bool DoesFileExist(::StringW inPath);
 
-  /// @brief Method DoesPathExist, addr 0x2348aec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method DoesPathExist, addr 0x2468038, size 0x30, virtual false, abstract: false, final false
   static inline bool DoesPathExist(::StringW inPath);
 
-  /// @brief Method GetAllFoldersInPath, addr 0x234c680, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAllFoldersInPath, addr 0x246bbcc, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetAllFoldersInPath(::StringW path);
 
-  /// @brief Method GetAllFoldersInPathHelper, addr 0x234c74c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetAllFoldersInPathHelper, addr 0x246bc98, size 0x15c, virtual false, abstract: false, final false
   static inline void GetAllFoldersInPathHelper(::StringW inPath, ::System::Text::StringBuilder* pathBuilder);
 
-  /// @brief Method GetEnvironmentValue, addr 0x234cfdc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentValue, addr 0x246c528, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetEnvironmentValue(::StringW key);
 
-  /// @brief Method GetFileName, addr 0x234c9dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFileName, addr 0x246bf28, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetFileName(::StringW path);
 
-  /// @brief Method GetFileNameWithoutExtension, addr 0x234ca34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFileNameWithoutExtension, addr 0x246bf80, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetFileNameWithoutExtension(::StringW path);
 
-  /// @brief Method GetFilesInFolder, addr 0x234c8a8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetFilesInFolder, addr 0x246bdf4, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilesInFolder(::StringW folderPath, ::StringW searchPattern, bool bRecursive);
 
-  /// @brief Method GetFolderPath, addr 0x234ca8c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetFolderPath, addr 0x246bfd8, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW GetFolderPath(::StringW path, bool bRemoveDirectorySeparatorAtEnd);
 
-  /// @brief Method GetFullPath, addr 0x23471b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFullPath, addr 0x2466704, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetFullPath(::StringW inPath);
 
-  /// @brief Method GetHoudiniEngineDefaultPath, addr 0x234c2e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetHoudiniEngineDefaultPath, addr 0x246b834, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetHoudiniEngineDefaultPath();
 
-  /// @brief Method GetHoudiniEngineEnvironmentFilePathFull, addr 0x234d050, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetHoudiniEngineEnvironmentFilePathFull, addr 0x246c59c, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW GetHoudiniEngineEnvironmentFilePathFull();
 
-  /// @brief Method GetHoudiniEnginePath, addr 0x2348770, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetHoudiniEnginePath, addr 0x2467cbc, size 0x54, virtual false, abstract: false, final false
   static inline ::StringW GetHoudiniEnginePath();
 
-  /// @brief Method GetParentDirectory, addr 0x234cc8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetParentDirectory, addr 0x246c1d8, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW GetParentDirectory(::StringW inPath);
 
-  /// @brief Method GetSavedHoudiniPath, addr 0x234c35c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetSavedHoudiniPath, addr 0x246b8a8, size 0x18c, virtual false, abstract: false, final false
   static inline ::StringW GetSavedHoudiniPath();
 
-  /// @brief Method IsPathRooted, addr 0x234ccb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsPathRooted, addr 0x246c1fc, size 0x58, virtual false, abstract: false, final false
   static inline bool IsPathRooted(::StringW inPath);
 
-  /// @brief Method LoadFileIntoMemory, addr 0x234d174, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LoadFileIntoMemory, addr 0x246c6c0, size 0x21c, virtual false, abstract: false, final false
   static inline bool LoadFileIntoMemory(::StringW path, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer);
 
   static inline ::HoudiniEngineUnity::HEU_Platform* New_ctor();
 
-  /// @brief Method ReadAllText, addr 0x234ce58, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ReadAllText, addr 0x246c3a4, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW ReadAllText(::StringW path);
 
-  /// @brief Method SetHapiClientName, addr 0x234c288, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetHapiClientName, addr 0x246b7d4, size 0x5c, virtual false, abstract: false, final false
   static inline void SetHapiClientName();
 
-  /// @brief Method SetHoudiniEnginePath, addr 0x234c2e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetHoudiniEnginePath, addr 0x246b830, size 0x4, virtual false, abstract: false, final false
   static inline void SetHoudiniEnginePath();
 
-  /// @brief Method TrimLastDirectorySeparator, addr 0x234cbb0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TrimLastDirectorySeparator, addr 0x246c0fc, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW TrimLastDirectorySeparator(::StringW inPath);
 
-  /// @brief Method WriteAllText, addr 0x234cd10, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method WriteAllText, addr 0x246c25c, size 0x148, virtual false, abstract: false, final false
   static inline bool WriteAllText(::StringW path, ::StringW text);
 
-  /// @brief Method WriteBytes, addr 0x234cd08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WriteBytes, addr 0x246c254, size 0x8, virtual false, abstract: false, final false
   static inline void WriteBytes(::StringW path, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x234d390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x246c8dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF__lastErrorMsg();
@@ -126,16 +126,16 @@ public:
 
   static inline bool getStaticF__pathSet();
 
-  /// @brief Method get_DirectorySeparator, addr 0x234cba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DirectorySeparator, addr 0x246c0f4, size 0x8, virtual false, abstract: false, final false
   static inline char16_t get_DirectorySeparator();
 
-  /// @brief Method get_DirectorySeparatorStr, addr 0x2346b74, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_DirectorySeparatorStr, addr 0x24660c0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_DirectorySeparatorStr();
 
-  /// @brief Method get_IsPathSet, addr 0x234c22c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IsPathSet, addr 0x246b778, size 0x58, virtual false, abstract: false, final false
   static inline bool get_IsPathSet();
 
-  /// @brief Method get_LibPath, addr 0x234c1d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_LibPath, addr 0x246b720, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW get_LibPath();
 
   static inline void setStaticF__lastErrorMsg(::StringW value);

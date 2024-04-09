@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0xfbe214;
+  constexpr static std::size_t addrs = 0x1097d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::get_Stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfbf268;
+  constexpr static std::size_t addrs = 0x1098dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::GetResult)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0xfbf270;
+  constexpr static std::size_t addrs = 0x1098df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

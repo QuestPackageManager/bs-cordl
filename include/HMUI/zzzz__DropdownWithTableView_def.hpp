@@ -53,46 +53,48 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
                       put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* didSelectCellWithIdxEvent;
 
+  __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
+
   __declspec(property(get = get_selectedIndex, put = set_selectedIndex)) int32_t selectedIndex;
 
   __declspec(property(get = get_tableViewDataSource))::HMUI::__TableView__IDataSource* tableViewDataSource;
 
-  /// @brief Method Awake, addr 0x22f2bd0, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x241211c, size 0x17c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleModalViewBlockerClicked, addr 0x22f3048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleModalViewBlockerClicked, addr 0x2412594, size 0x8, virtual false, abstract: false, final false
   inline void HandleModalViewBlockerClicked();
 
-  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x22f3010, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x241255c, size 0x38, virtual false, abstract: false, final false
   inline void HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method Hide, addr 0x22f2d54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x24122a0, size 0x3c, virtual false, abstract: false, final false
   inline void Hide(bool animated);
 
-  /// @brief Method Init, addr 0x22f29d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2411f1c, size 0x20, virtual false, abstract: false, final false
   inline void Init(::HMUI::__TableView__IDataSource* tableViewDataSource);
 
   static inline ::HMUI::DropdownWithTableView* New_ctor();
 
-  /// @brief Method OnButtonClick, addr 0x22f2f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnButtonClick, addr 0x24124d4, size 0x8, virtual false, abstract: false, final false
   inline void OnButtonClick();
 
-  /// @brief Method OnDestroy, addr 0x22f2d90, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24122dc, size 0x1f8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x22f2d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2412298, size 0x8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RefreshSize, addr 0x22f2a28, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RefreshSize, addr 0x2411f74, size 0x180, virtual false, abstract: false, final false
   inline void RefreshSize(::HMUI::__TableView__IDataSource* dataSource);
 
-  /// @brief Method ReloadData, addr 0x22f29f0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x2411f3c, size 0x38, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method SelectCellWithIdx, addr 0x22f2ba8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x24120f4, size 0x28, virtual true, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method Show, addr 0x22f2f90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x24124dc, size 0x80, virtual false, abstract: false, final false
   inline void Show(bool animated);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -131,22 +133,28 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x22f3050, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241259c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22f2844, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x2411d54, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  /// @brief Method get_selectedIndex, addr 0x22f29c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x2411ee0, size 0x1c, virtual false, abstract: false, final false
+  inline bool get_interactable();
+
+  /// @brief Method get_selectedIndex, addr 0x2411ed0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedIndex();
 
-  /// @brief Method get_tableViewDataSource, addr 0x22f29a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_tableViewDataSource, addr 0x2411eb4, size 0x1c, virtual false, abstract: false, final false
   inline ::HMUI::__TableView__IDataSource* get_tableViewDataSource();
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x22f28f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x2411e04, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  /// @brief Method set_selectedIndex, addr 0x22f29c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x2411efc, size 0x20, virtual false, abstract: false, final false
+  inline void set_interactable(bool value);
+
+  /// @brief Method set_selectedIndex, addr 0x2411ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedIndex(int32_t value);
 
 protected:

@@ -36,7 +36,7 @@ public:
   /// @brief Field _value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::StringW _value;
 
-  /// @brief Method FromOidValue, addr 0x2ac1034, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FromOidValue, addr 0x2ea74e4, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::Oid* FromOidValue(::StringW oidValue, ::System::Security::Cryptography::OidGroup group);
 
   static inline ::System::Security::Cryptography::Oid* New_ctor();
@@ -67,28 +67,28 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ac0ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea73a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ac0ef8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea73a8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x2ac0fb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea7460, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method .ctor, addr 0x2ac0f84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea7434, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName);
 
-  /// @brief Method .ctor, addr 0x2ac1170, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea7620, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group);
 
-  /// @brief Method get_FriendlyName, addr 0x2ac11bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_FriendlyName, addr 0x2ea766c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_FriendlyName();
 
-  /// @brief Method get_Value, addr 0x2ac11ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2ea765c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2ac11b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2ea7664, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

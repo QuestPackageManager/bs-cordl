@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 template <typename TCreatedType> inline ::UnityEngine::UIElements::UxmlFactory_1<TCreatedType>* UnityEngine::UIElements::UxmlFactory_1<TCreatedType>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlFactory_1<TCreatedType>*>());
 }

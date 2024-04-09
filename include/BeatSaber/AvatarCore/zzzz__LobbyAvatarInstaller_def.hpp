@@ -24,7 +24,7 @@ public:
   /// @brief Field _connectedPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  /// @brief Method InstallBindings, addr 0xe7ba48, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xf534cc, size 0x264, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::AvatarCore::LobbyAvatarInstaller* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0xe7bcac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

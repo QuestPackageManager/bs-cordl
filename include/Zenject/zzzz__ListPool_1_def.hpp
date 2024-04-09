@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
 CORDL_MODULE_EXPORT(ListPool_1)
 namespace System::Collections::Generic {

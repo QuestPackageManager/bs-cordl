@@ -65,7 +65,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerMockSettings* New_ctor();
 
-  /// @brief Method SharedSettings, addr 0x24d9ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SharedSettings, addr 0x25fe3bc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::MultiplayerMockSettings> SharedSettings();
 
   constexpr bool const& __cordl_internal_get__isEnabled() const;
@@ -104,34 +104,34 @@ public:
 
   constexpr void __cordl_internal_set__quickplayServer(::GlobalNamespace::MockServerSettings* value);
 
-  /// @brief Method .ctor, addr 0x24d9ed8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe3c4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEnabled, addr 0x24d9ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x25fe3a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_localPlayer, addr 0x24d9de8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayer, addr 0x25fe2d4, size 0xac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerSettings* get_localPlayer();
 
-  /// @brief Method get_multiplayerStatusData, addr 0x24d9ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerStatusData, addr 0x25fe390, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
 
-  /// @brief Method get_otherPlayers, addr 0x24d9eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayers, addr 0x25fe3a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
 
-  /// @brief Method get_quickPlaySetupData, addr 0x24d9e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quickPlaySetupData, addr 0x25fe380, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
 
-  /// @brief Method get_quickplayServer, addr 0x24d9de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quickplayServer, addr 0x25fe2cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockServerSettings* get_quickplayServer();
 
-  /// @brief Method set_isEnabled, addr 0x24d9ec4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x25fe3b0, size 0xc, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
-  /// @brief Method set_multiplayerStatusData, addr 0x24d9eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiplayerStatusData, addr 0x25fe398, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  /// @brief Method set_quickPlaySetupData, addr 0x24d9e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_quickPlaySetupData, addr 0x25fe388, size 0x8, virtual false, abstract: false, final false
   inline void set_quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
 protected:

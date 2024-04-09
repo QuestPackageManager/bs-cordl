@@ -20,7 +20,7 @@ namespace System::Net::NetworkInformation::AixStructs {
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x2b39998, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x2f1de48, size 0x190, virtual false, abstract: false, final false
   inline void Read(void* ptr);
 
   // Ctor Parameters []

@@ -26,17 +26,20 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEscapedURLForFilePath, addr 0xeb79a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedURLForFilePath, addr 0xf905f0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
 
-  /// @brief Method GetFileNamesFromFilePaths, addr 0xeb7cf4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetFileNamesFromFilePaths, addr 0xf90958, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
 
-  /// @brief Method GetFilePaths, addr 0xeb7ac0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetFilePaths, addr 0xf90724, size 0x234, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xeb7a04, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xf90668, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
+
+  /// @brief Method PathIsUrl, addr 0xf9059c, size 0x54, virtual false, abstract: false, final false
+  static inline bool PathIsUrl(::StringW filePath);
 
 protected:
   // Ctor Parameters []
@@ -51,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FileHelpers(FileHelpers const&) = delete;
+
+  /// @brief Field kProtocolInfix offset 0xffffffff size 0x8
+  static constexpr ::ConstString kProtocolInfix{ u"://" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

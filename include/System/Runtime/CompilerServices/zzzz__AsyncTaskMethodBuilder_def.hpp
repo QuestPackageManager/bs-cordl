@@ -47,16 +47,16 @@ public:
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x2630fa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x27581b4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
 
-  /// @brief Method SetException, addr 0x262edf8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x2756000, size 0x58, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x262ed7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x2755f84, size 0x78, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x262ed0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x2755f14, size 0x58, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -64,7 +64,7 @@ public:
 
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* getStaticF_s_cachedCompleted();
 
-  /// @brief Method get_Task, addr 0x262ee98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x27560a0, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
   static inline void setStaticF_s_cachedCompleted(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* value);

@@ -97,13 +97,13 @@ public:
   __declspec(property(get = __cordl_internal_get_wordInfo,
                       put = __cordl_internal_set_wordInfo))::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> wordInfo;
 
-  /// @brief Method Clear, addr 0x2eaeae4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3293900, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearLineInfo, addr 0x2eaebec, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x3293a08, size 0x16c, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x2eaeb40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x329395c, size 0x80, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor();
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> value);
 
-  /// @brief Method .ctor, addr 0x2eae9b0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32937cc, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_s_InfinityVectorNegative();

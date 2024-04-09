@@ -45,7 +45,7 @@ public:
   /// @brief Field lightshowSaveData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_lightshowSaveData, put = __cordl_internal_set_lightshowSaveData))::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData;
 
-  /// @brief Method Convert, addr 0x1328ea0, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1404c8c, size 0x2c0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBoxGroup* Convert(::BeatmapSaveDataVersion4::EventBoxGroup* eventBoxGroup);
 
   /// @brief Method ConvertEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_lightshowSaveData(::BeatmapSaveDataVersion4::LightshowSaveData* value);
 
-  /// @brief Method .ctor, addr 0x1329208, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1404ff4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:

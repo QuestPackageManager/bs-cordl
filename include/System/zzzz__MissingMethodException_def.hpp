@@ -35,19 +35,19 @@ public:
 
   static inline ::System::MissingMethodException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2703548, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2831098, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27035c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2831118, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW methodName);
 
-  /// @brief Method .ctor, addr 0x27035f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2831144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x27035a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28310f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x27035fc, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x283114c, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

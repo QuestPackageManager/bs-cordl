@@ -19,6 +19,10 @@ namespace System::Diagnostics {
 class CORDL_TYPE DebuggerDisplayAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(put = set_Name))::StringW Name;
+
+  __declspec(property(put = set_Type))::StringW Type;
+
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
@@ -48,8 +52,14 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ce6d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f889c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
+
+  /// @brief Method set_Name, addr 0x27f890c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Name(::StringW value);
+
+  /// @brief Method set_Type, addr 0x27f8914, size 0x8, virtual false, abstract: false, final false
+  inline void set_Type(::StringW value);
 
 protected:
   // Ctor Parameters []

@@ -3,9 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AssetReferenceSprite)
+namespace UnityEngine {
+class Sprite;
+}
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceSprite;
@@ -22,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceSprite* New_ctor(::StringW guid);
 
-  /// @brief Method ValidateAsset, addr 0x2b6e0f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x2f535a4, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x2b6e09c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5354c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:

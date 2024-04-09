@@ -8,6 +8,9 @@ CORDL_MODULE_EXPORT(PathFilter)
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
+namespace Newtonsoft::Json::Linq {
+class JsonSelectSettings;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -26,15 +29,20 @@ class CORDL_TYPE PathFilter : public ::System::Object {
 public:
   // Declarations
   /// @brief Method ExecuteFilter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                                                                         bool errorWhenNoMatch);
+  inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
+                                                                                                         ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
+                                                                                                         ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method GetTokenIndex, addr 0x27fd864, size 0x2d8, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, bool errorWhenNoMatch, int32_t index);
+  /// @brief Method GetNextScanValue, addr 0x297f180, size 0xa8, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Linq::JToken* GetNextScanValue(::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
+                                                                   ::Newtonsoft::Json::Linq::JToken* value);
+
+  /// @brief Method GetTokenIndex, addr 0x29794a4, size 0x2cc, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27fd1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2978df8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set__Message_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d01e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa3c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
-  /// @brief Method set_EventId, addr 0x26d0210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventId, addr 0x27fa3ec, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
-  /// @brief Method set_Keywords, addr 0x26d0220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keywords, addr 0x27fa3fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
-  /// @brief Method set_Level, addr 0x26d0218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x27fa3f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
-  /// @brief Method set_Message, addr 0x26d0228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x27fa404, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
 protected:

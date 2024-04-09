@@ -40,7 +40,7 @@ public:
   static inline ::System::Threading::Tasks::StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options,
                                                                                ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method Run, addr 0x27801c4, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x28b07e0, size 0x198, virtual true, abstract: false, final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
   constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_options() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
 
-  /// @brief Method .ctor, addr 0x277cf28, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ad544, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
 protected:

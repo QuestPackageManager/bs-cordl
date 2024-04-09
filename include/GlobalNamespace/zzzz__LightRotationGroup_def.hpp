@@ -2,11 +2,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__LightGroupRotationXTransform_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroupRotationYTransform_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroupRotationZTransform_def.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_def.hpp"
 CORDL_MODULE_EXPORT(LightRotationGroup)
+namespace GlobalNamespace {
+class LightGroupRotationXTransform;
+}
+namespace GlobalNamespace {
+class LightGroupRotationYTransform;
+}
+namespace GlobalNamespace {
+class LightGroupRotationZTransform;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class LightRotationGroup;
@@ -25,7 +31,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightRotationGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a01b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c4674, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

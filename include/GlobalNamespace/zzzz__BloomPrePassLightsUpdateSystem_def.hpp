@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE BloomPrePassLightsUpdateSystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method LateUpdate, addr 0x22ca834, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x23e9d68, size 0x2f0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BloomPrePassLightsUpdateSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cab24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ea058, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

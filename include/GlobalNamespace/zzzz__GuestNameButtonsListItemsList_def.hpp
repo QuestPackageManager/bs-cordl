@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__GuestNameButtonsListItem_def.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"
 CORDL_MODULE_EXPORT(GuestNameButtonsListItemsList)
+namespace GlobalNamespace {
+class GuestNameButtonsListItem;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GuestNameButtonsListItemsList;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2532088, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2655758, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

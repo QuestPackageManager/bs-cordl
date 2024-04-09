@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithAchievementUpdate)
@@ -23,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAchievementUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetAchievementUpdate, addr 0x2844d5c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementUpdate, addr 0x29c7340, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x2844d98, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c737c, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAchievementUpdate* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x2842ccc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c52b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

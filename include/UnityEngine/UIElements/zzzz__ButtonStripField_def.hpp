@@ -32,6 +32,40 @@ class __ButtonStripField__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::ButtonStripField);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__ButtonStripField__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__ButtonStripField__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::ButtonStripField::UxmlFactory*
+class CORDL_TYPE __ButtonStripField__UxmlFactory
+    : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ButtonStripField*, ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x3381164, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ButtonStripField__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__ButtonStripField__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __ButtonStripField__UxmlFactory(__ButtonStripField__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__ButtonStripField__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __ButtonStripField__UxmlFactory(__ButtonStripField__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ButtonStripField__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -42,7 +76,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f9b390, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33811ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,10 +118,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
 
-  /// @brief Method RefreshButtonsState, addr 0x2f9b268, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtonsState, addr 0x3381084, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshButtonsState();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x2f9b1e0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x3380ffc, size 0x88, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& __cordl_internal_get_m_Buttons();
@@ -96,10 +130,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method .ctor, addr 0x2f9b120, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3380f3c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_buttons, addr 0x2f9b02c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_buttons, addr 0x3380e48, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* get_buttons();
 
 protected:
@@ -125,40 +159,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ButtonStripField, 0x410>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ButtonStripField, ___m_Buttons) == 0x408, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::ButtonStripField::UxmlFactory*
-class CORDL_TYPE __ButtonStripField__UxmlFactory
-    : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ButtonStripField*, ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f9b348, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ButtonStripField__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ButtonStripField__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __ButtonStripField__UxmlFactory(__ButtonStripField__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__ButtonStripField__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __ButtonStripField__UxmlFactory(__ButtonStripField__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ButtonStripField__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ButtonStripField);

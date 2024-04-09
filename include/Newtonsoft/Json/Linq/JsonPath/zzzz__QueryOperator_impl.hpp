@@ -16,3 +16,6 @@ constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Li
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::GreaterThanOrEquals{ static_cast<int32_t>(0x7) };
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::And{ static_cast<int32_t>(0x8) };
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::Or{ static_cast<int32_t>(0x9) };
+constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::RegexEquals{ static_cast<int32_t>(0xa) };
+constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::StrictEquals{ static_cast<int32_t>(0xb) };
+constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::StrictNotEquals{ static_cast<int32_t>(0xc) };

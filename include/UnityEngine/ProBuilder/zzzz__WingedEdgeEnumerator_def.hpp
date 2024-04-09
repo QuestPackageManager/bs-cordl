@@ -52,18 +52,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2cce1d8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x30b2688, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x2cce184, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x30b2634, size 0x3c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::ProBuilder::WingedEdgeEnumerator* New_ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method Reset, addr 0x2cce1c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x30b2670, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2cce1d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x30b2680, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::UnityEngine::ProBuilder::WingedEdge*& __cordl_internal_get_m_Current();
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Start(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  /// @brief Method .ctor, addr 0x2cce15c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30b260c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method get_Current, addr 0x2cce1c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x30b2678, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ProBuilder::WingedEdge* get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"

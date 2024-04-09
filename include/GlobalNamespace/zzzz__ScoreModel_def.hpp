@@ -116,13 +116,13 @@ public:
 
   constexpr void __cordl_internal_set_minBeforeCutScore(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1323e28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13ff17c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore);
 
-  /// @brief Method get_executionOrder, addr 0x1323e94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x13ff1e8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_maxCutScore, addr 0x1322ec0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_maxCutScore, addr 0x13fe214, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_maxCutScore();
 
 protected:
@@ -192,7 +192,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x1323eb0, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x13ff204, size 0x90, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* other);
 
   static inline ::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* New_ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time);
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x132395c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fecb0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time);
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>"
@@ -269,21 +269,21 @@ public:
   static __declspec(property(get = getStaticF_fullScoreScoringTypes,
                              put = setStaticF_fullScoreScoringTypes))::System::Collections::Generic::HashSet_1<::GlobalNamespace::__NoteData__ScoringType>* fullScoreScoringTypes;
 
-  /// @brief Method ComputeMaxMultipliedScoreForBeatmap, addr 0x1322edc, size 0xa80, virtual false, abstract: false, final false
+  /// @brief Method ComputeMaxMultipliedScoreForBeatmap, addr 0x13fe230, size 0xa80, virtual false, abstract: false, final false
   static inline int32_t ComputeMaxMultipliedScoreForBeatmap(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method ComputeQuickInaccurateMaxMultipliedScoreForBeatmap, addr 0x1322e10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ComputeQuickInaccurateMaxMultipliedScoreForBeatmap, addr 0x13fe164, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t ComputeQuickInaccurateMaxMultipliedScoreForBeatmap(::GlobalNamespace::BeatmapBasicData* beatmapBasicData);
 
-  /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier, addr 0x1323a94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier, addr 0x13fede8, size 0x74, virtual false, abstract: false, final false
   static inline int32_t GetModifiedScoreForGameplayModifiersScoreMultiplier(int32_t multipliedScore, float_t gameplayModifiersScoreMultiplier);
 
-  /// @brief Method GetNoteScoreDefinition, addr 0x1322d90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNoteScoreDefinition, addr 0x13fe0e4, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__ScoreModel__NoteScoreDefinition* GetNoteScoreDefinition(::GlobalNamespace::__NoteData__ScoringType scoringType);
 
   static inline ::GlobalNamespace::ScoreModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1323b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fee5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__NoteData__ScoringType, ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*>* getStaticF__scoreDefinitions();

@@ -90,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x25128b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2636dac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x2512894, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x2636d88, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x251287c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x2636d70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x2512870, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x2636d64, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x2512888, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x2636d7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x25128ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x2636da0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x25128a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x2636d94, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedState();
 
 protected:

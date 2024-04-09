@@ -47,6 +47,39 @@ class __BeatEffect__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatEffect__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::BeatEffect::Pool*
+class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatEffect>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25b09e0, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatEffect__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __BeatEffect__Pool(__BeatEffect__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __BeatEffect__Pool(__BeatEffect__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatEffect__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::BeatEffect
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -93,10 +126,10 @@ public:
 
   __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x248c30c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25b05d0, size 0xb8, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate, addr 0x248c3c4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x25b0688, size 0x2dc, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
@@ -167,10 +200,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x248c6a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b0964, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x248c304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x25b05c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -246,39 +279,6 @@ static_assert(offsetof(::GlobalNamespace::BeatEffect, ____animationDuration) == 
 static_assert(offsetof(::GlobalNamespace::BeatEffect, ____elapsedTime) == 0x5c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x60, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::BeatEffect::Pool*
-class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatEffect>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x248c71c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatEffect__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __BeatEffect__Pool(__BeatEffect__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __BeatEffect__Pool(__BeatEffect__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatEffect__Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatEffect);

@@ -1,6 +1,5 @@
 #pragma once
 #include "BGLib/AppFlow/Initialization/zzzz__ScriptableObjectReferenceAsyncInstaller_1_impl.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollectionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollectionSO_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
@@ -10,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::get_assetRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23dd8dc;
+  constexpr static std::size_t addrs = 0x24ffe28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23dd91c;
+  constexpr static std::size_t addrs = 0x24ffe68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> (*)()>(
         &::GlobalNamespace::BeatmapCharacteristicInstaller::LoadCharacteristicCollectionAsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23dd998;
+  constexpr static std::size_t addrs = 0x24ffee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x23dda14;
+  constexpr static std::size_t addrs = 0x24fff60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicInstaller*>::get(),

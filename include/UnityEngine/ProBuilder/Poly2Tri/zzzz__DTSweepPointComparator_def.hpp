@@ -28,12 +28,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*() noexcept;
 
-  /// @brief Method Compare, addr 0x2c7b1c0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3061670, size 0x50, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7a924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3060dd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>"

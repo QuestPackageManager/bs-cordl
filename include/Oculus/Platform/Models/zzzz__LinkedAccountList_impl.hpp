@@ -1,14 +1,14 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
-#include "Oculus/Platform/Models/zzzz__LinkedAccount_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LinkedAccountList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LinkedAccount_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::LinkedAccountList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::LinkedAccountList::*)(void*)>(
     &::Oculus::Platform::Models::LinkedAccountList::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x285b2f8;
+  constexpr static std::size_t addrs = 0x29dd8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

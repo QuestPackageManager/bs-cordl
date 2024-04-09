@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidGravitySensor::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidGravitySensor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c2ce70;
+  constexpr static std::size_t addrs = 0x3014320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MainSettingsDefaultValues* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12fac98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d46e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field kDefaultWindowResolutionWidth offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultWindowResolutionWidth{ static_cast<int32_t>(0x780) };
+
+  /// @brief Field kMaxRoomDistanceFromCenterPerAxis offset 0xffffffff size 0x4
+  static constexpr float_t kMaxRoomDistanceFromCenterPerAxis{ 4.0 };
 
   /// @brief Field kSystemLanguageSerializedName offset 0xffffffff size 0x8
   static constexpr ::ConstString kSystemLanguageSerializedName{ u"SystemLanguage" };

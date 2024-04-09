@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventDataProcessor_1_def.hpp"
 CORDL_MODULE_EXPORT(FloatFxBeatmapEventDataProcessor)
 namespace GlobalNamespace {
@@ -24,10 +23,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method UpdateByOther, addr 0xe6f6e0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method UpdateByOther, addr 0xf48164, size 0x20, virtual true, abstract: false, final false
   inline void UpdateByOther(::GlobalNamespace::FloatFxBeatmapEventData* current, ::GlobalNamespace::FloatFxBeatmapEventData* other);
 
-  /// @brief Method .ctor, addr 0xe6f700, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf48184, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

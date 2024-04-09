@@ -23,28 +23,28 @@ public:
   // Declarations
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
-  /// @brief Method CombineDependencies, addr 0x2de4e50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CombineDependencies, addr 0x31cb730, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Jobs::JobHandle job0, ::Unity::Jobs::JobHandle job1);
 
-  /// @brief Method CombineDependenciesInternal2, addr 0x2de4e78, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternal2, addr 0x31cb758, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependenciesInternal2(ByRef<::Unity::Jobs::JobHandle> job0, ByRef<::Unity::Jobs::JobHandle> job1);
 
-  /// @brief Method CombineDependenciesInternal2_Injected, addr 0x2de4ed4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternal2_Injected, addr 0x31cb7b4, size 0x54, virtual false, abstract: false, final false
   static inline void CombineDependenciesInternal2_Injected(ByRef<::Unity::Jobs::JobHandle> job0, ByRef<::Unity::Jobs::JobHandle> job1, ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method Complete, addr 0x2de4ce8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x31cb5c8, size 0x8c, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method ScheduleBatchedJobs, addr 0x2de4e28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobs, addr 0x31cb708, size 0x28, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobs();
 
-  /// @brief Method ScheduleBatchedJobsAndComplete, addr 0x2de4d74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobsAndComplete, addr 0x31cb654, size 0x3c, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobsAndComplete(ByRef<::Unity::Jobs::JobHandle> job);
 
-  /// @brief Method ScheduleBatchedJobsAndIsCompleted, addr 0x2de4dec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobsAndIsCompleted, addr 0x31cb6cc, size 0x3c, virtual false, abstract: false, final false
   static inline bool ScheduleBatchedJobsAndIsCompleted(ByRef<::Unity::Jobs::JobHandle> job);
 
-  /// @brief Method get_IsCompleted, addr 0x2de4db0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x31cb690, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   // Ctor Parameters []

@@ -34,6 +34,8 @@ public:
   /// @brief Field xmlType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType))::System::Xml::Schema::XmlSchemaSimpleType* xmlType;
 
+  static inline ::System::Xml::Schema::XsdSimpleValue* New_ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
+
   constexpr ::System::Object*& __cordl_internal_get_typedValue();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_typedValue() const;
@@ -46,10 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method get_TypedValue, addr 0x29fd04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dffc68, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
+
+  /// @brief Method get_TypedValue, addr 0x2dffc9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_XmlType, addr 0x29fd044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x2dffc94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
 protected:

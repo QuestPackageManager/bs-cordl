@@ -41,12 +41,12 @@ public:
                                                                                   ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                                   ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method .ctor, addr 0x25d9b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2701eb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited,
                     ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags,
                     ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_FileSystemRights, addr 0x25d9b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileSystemRights, addr 0x2701ec0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::FileSystemRights get_FileSystemRights();
 
 protected:

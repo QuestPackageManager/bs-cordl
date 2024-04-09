@@ -58,44 +58,64 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__EnvironmentsListModel____c* __9;
 
-  /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* __9__4_0;
+  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* __9__12_0;
 
-  /// @brief Field <>9__4_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_1, put = setStaticF___9__4_1))::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* __9__4_1;
+  /// @brief Field <>9__12_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_1, put = setStaticF___9__12_1))::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* __9__12_1;
 
-  /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* __9__5_0;
+  /// @brief Field <>9__12_2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_2, put = setStaticF___9__12_2))::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* __9__12_2;
+
+  /// @brief Field <>9__12_3, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_3, put = setStaticF___9__12_3))::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* __9__12_3;
+
+  /// @brief Field <>9__13_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0))::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* __9__13_0;
 
   static inline ::GlobalNamespace::__EnvironmentsListModel____c* New_ctor();
 
-  /// @brief Method <CreateFromAddressables>b__5_0, addr 0x12d13ec, size 0x4, virtual false, abstract: false, final false
-  inline void _CreateFromAddressables_b__5_0(::GlobalNamespace::EnvironmentInfoSO* _);
+  /// @brief Method <CreateFromAddressables>b__13_0, addr 0x13a92fc, size 0x4, virtual false, abstract: false, final false
+  inline void _CreateFromAddressables_b__13_0(::GlobalNamespace::EnvironmentInfoSO* _);
 
-  /// @brief Method <.ctor>b__4_0, addr 0x12d13bc, size 0x18, virtual false, abstract: false, final false
-  inline int32_t __ctor_b__4_0(::GlobalNamespace::EnvironmentInfoSO* envInfo);
+  /// @brief Method <.ctor>b__12_0, addr 0x13a929c, size 0x18, virtual false, abstract: false, final false
+  inline int32_t __ctor_b__12_0(::GlobalNamespace::EnvironmentInfoSO* envInfo);
 
-  /// @brief Method <.ctor>b__4_1, addr 0x12d13d4, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW __ctor_b__4_1(::GlobalNamespace::EnvironmentInfoSO* envInfo);
+  /// @brief Method <.ctor>b__12_1, addr 0x13a92b4, size 0x18, virtual false, abstract: false, final false
+  inline ::StringW __ctor_b__12_1(::GlobalNamespace::EnvironmentInfoSO* e);
 
-  /// @brief Method .ctor, addr 0x12d13b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__12_2, addr 0x13a92cc, size 0x18, virtual false, abstract: false, final false
+  inline ::StringW __ctor_b__12_2(::GlobalNamespace::EnvironmentInfoSO* e);
+
+  /// @brief Method <.ctor>b__12_3, addr 0x13a92e4, size 0x18, virtual false, abstract: false, final false
+  inline ::StringW __ctor_b__12_3(::GlobalNamespace::EnvironmentInfoSO* envInfo);
+
+  /// @brief Method .ctor, addr 0x13a9294, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__EnvironmentsListModel____c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* getStaticF___9__4_0();
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* getStaticF___9__12_0();
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* getStaticF___9__4_1();
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* getStaticF___9__12_1();
 
-  static inline ::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* getStaticF___9__5_0();
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* getStaticF___9__12_2();
+
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* getStaticF___9__12_3();
+
+  static inline ::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* getStaticF___9__13_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__EnvironmentsListModel____c* value);
 
-  static inline void setStaticF___9__4_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* value);
+  static inline void setStaticF___9__12_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* value);
 
-  static inline void setStaticF___9__4_1(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value);
+  static inline void setStaticF___9__12_1(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value);
 
-  static inline void setStaticF___9__5_0(::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
+  static inline void setStaticF___9__12_2(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value);
+
+  static inline void setStaticF___9__12_3(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value);
+
+  static inline void setStaticF___9__13_0(::System::Action_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
 protected:
   // Ctor Parameters []
@@ -118,7 +138,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentsL
 
 } // namespace GlobalNamespace
 // Type: ::EnvironmentsListModel
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnvironmentsListModel*
@@ -127,7 +147,7 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__EnvironmentsListModel____c;
 
-  /// @brief Field _envInfoMap, offset 0x18, size 0x8
+  /// @brief Field _envInfoMap, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__envInfoMap,
                       put = __cordl_internal_set__envInfoMap))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _envInfoMap;
 
@@ -135,29 +155,40 @@ public:
   __declspec(property(get = __cordl_internal_get__envInfos,
                       put = __cordl_internal_set__envInfos))::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> _envInfos;
 
+  /// @brief Field _environmentNames, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentNames, put = __cordl_internal_set__environmentNames))::ArrayW<::StringW, ::Array<::StringW>*> _environmentNames;
+
+  /// @brief Field _environmentSerializedNames, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentSerializedNames,
+                      put = __cordl_internal_set__environmentSerializedNames))::ArrayW<::StringW, ::Array<::StringW>*> _environmentSerializedNames;
+
   __declspec(property(get = get_environmentInfos))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* environmentInfos;
+
+  __declspec(property(get = get_environmentNames))::ArrayW<::StringW, ::Array<::StringW>*> environmentNames;
+
+  __declspec(property(get = get_environmentSerializedNames))::ArrayW<::StringW, ::Array<::StringW>*> environmentSerializedNames;
 
   __declspec(property(get = get_loggerPrefix))::StringW loggerPrefix;
 
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method CreateFromAddressables, addr 0x12d0d30, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromAddressables, addr 0x13a8c18, size 0x24c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentsListModel* CreateFromAddressables();
 
-  /// @brief Method GetAllEnvironmentInfosWithType, addr 0x12d1164, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetAllEnvironmentInfosWithType, addr 0x13a9044, size 0x134, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GetAllEnvironmentInfosWithType(::GlobalNamespace::EnvironmentType environmentType);
 
-  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x12d0f84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x13a8e64, size 0x70, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName);
 
-  /// @brief Method GetEnvironmentInfoBySerializedNameSafe, addr 0x12d0ff4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedNameSafe, addr 0x13a8ed4, size 0x170, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedNameSafe(::StringW environmentSerializedName);
 
-  /// @brief Method GetFirstEnvironmentInfoWithType, addr 0x12d1298, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetFirstEnvironmentInfoWithType, addr 0x13a9178, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
-  /// @brief Method GetLastEnvironmentInfoWithType, addr 0x12d12f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetLastEnvironmentInfoWithType, addr 0x13a91d4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
   static inline ::GlobalNamespace::EnvironmentsListModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
@@ -171,17 +202,35 @@ public:
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>& __cordl_internal_get__envInfos();
 
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__environmentNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__environmentNames();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__environmentSerializedNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__environmentSerializedNames();
+
   constexpr void __cordl_internal_set__envInfoMap(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
   constexpr void __cordl_internal_set__envInfos(::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x12d0b48, size 0x1e8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__environmentNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set__environmentSerializedNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  /// @brief Method .ctor, addr 0x13a88c8, size 0x350, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
 
-  /// @brief Method get_environmentInfos, addr 0x12d0f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfos, addr 0x13a88b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
-  /// @brief Method get_loggerPrefix, addr 0x12d0b08, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_environmentNames, addr 0x13a88b8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_environmentNames();
+
+  /// @brief Method get_environmentSerializedNames, addr 0x13a88c0, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_environmentSerializedNames();
+
+  /// @brief Method get_loggerPrefix, addr 0x13a8870, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
@@ -204,17 +253,27 @@ public:
   /// @brief Field _envInfos, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> ____envInfos;
 
-  /// @brief Field _envInfoMap, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _environmentSerializedNames, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> ____environmentSerializedNames;
+
+  /// @brief Field _environmentNames, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> ____environmentNames;
+
+  /// @brief Field _envInfoMap, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____envInfoMap;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentsListModel, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentsListModel, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentsListModel, ____envInfos) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentsListModel, ____envInfoMap) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentsListModel, ____environmentSerializedNames) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentsListModel, ____environmentNames) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentsListModel, ____envInfoMap) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentsListModel);

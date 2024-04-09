@@ -60,22 +60,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0xe7da14, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xf55498, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleOptionalAvatarDataChanged, addr 0xe7dadc, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataChanged, addr 0xf55560, size 0x260, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarData HandleOptionalAvatarDataChanged(uint32_t dataType, ::GlobalNamespace::ByteArrayNetSerializable* data,
                                                                                      ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandleOptionalAvatarDataPacket, addr 0xe7dd3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataPacket, addr 0xf557c0, size 0x80, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataPacket(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* packet, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method SendOptionalAvatarData, addr 0xe7d610, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method SendOptionalAvatarData, addr 0xf55094, size 0x248, virtual false, abstract: false, final false
   inline void SendOptionalAvatarData(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
-  /// @brief Method TryGetAllLatestOptionalAvatarData, addr 0xe7c630, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryGetAllLatestOptionalAvatarData, addr 0xf540b4, size 0x68, virtual false, abstract: false, final false
   inline bool TryGetAllLatestOptionalAvatarData(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                 ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*> data);
 
@@ -102,16 +102,16 @@ public:
 
   constexpr void __cordl_internal_set_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  /// @brief Method .ctor, addr 0xe7d858, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf552dc, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method add_didChangeOptionalAvatarDataEvent, addr 0xe7c9d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeOptionalAvatarDataEvent, addr 0xf5445c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_didChangeOptionalAvatarDataEvent, addr 0xe7cb1c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeOptionalAvatarDataEvent, addr 0xf545a0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
 protected:

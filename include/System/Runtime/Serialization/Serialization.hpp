@@ -19,6 +19,7 @@ module;
 #include "System/Runtime/Serialization/ISerializable.hpp"
 #include "System/Runtime/Serialization/ISerializationSurrogate.hpp"
 #include "System/Runtime/Serialization/ISurrogateSelector.hpp"
+#include "System/Runtime/Serialization/IgnoreDataMemberAttribute.hpp"
 #include "System/Runtime/Serialization/LongList.hpp"
 #include "System/Runtime/Serialization/MemberHolder.hpp"
 #include "System/Runtime/Serialization/ObjectHolder.hpp"

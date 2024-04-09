@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ArgumentBase)
 namespace System {
@@ -39,7 +40,7 @@ public:
   inline void Reset();
 
   /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryParseWithValue(::StringW value);
+  inline bool TryParseWithValue(::StringW inValue, ByRef<::StringW> outError);
 
   constexpr ::StringW const& __cordl_internal_get_description() const;
 
@@ -59,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2470cd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x257279c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
   /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -33,18 +33,18 @@ public:
   /// @brief Field valueChangedEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_valueChangedEvent, put = __cordl_internal_set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
 
-  /// @brief Method ApplyValue, addr 0x24104f4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x253306c, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x24104dc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x2533054, size 0x18, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method InitValues, addr 0x24104bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InitValues, addr 0x2533034, size 0x20, virtual false, abstract: false, final false
   inline void InitValues(int32_t numberOfElements, int32_t index);
 
   static inline ::GlobalNamespace::IntListSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x2410514, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x253308c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__customIndex() const;
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2410530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25330a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueChangedEvent, addr 0x241035c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueChangedEvent, addr 0x2532ed4, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueChangedEvent, addr 0x241040c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueChangedEvent, addr 0x2532f84, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
 protected:

@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11fbc0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d5790, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_cpdext();
@@ -112,26 +112,26 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_fixed_tl();
 
-  /// @brief Method huft_build, addr 0x11ff320, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method huft_build, addr 0x12d8ea4, size 0x750, virtual false, abstract: false, final false
   inline int32_t huft_build(::ArrayW<int32_t, ::Array<int32_t>*> b, int32_t bindex, int32_t n, int32_t s, ::ArrayW<int32_t, ::Array<int32_t>*> d, ::ArrayW<int32_t, ::Array<int32_t>*> e,
                             ::ArrayW<int32_t, ::Array<int32_t>*> t, ::ArrayW<int32_t, ::Array<int32_t>*> m, ::ArrayW<int32_t, ::Array<int32_t>*> hp, ::ArrayW<int32_t, ::Array<int32_t>*> hn,
                             ::ArrayW<int32_t, ::Array<int32_t>*> v);
 
-  /// @brief Method inflate_trees_bits, addr 0x11fd014, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method inflate_trees_bits, addr 0x12d6b98, size 0x114, virtual false, abstract: false, final false
   inline int32_t inflate_trees_bits(::ArrayW<int32_t, ::Array<int32_t>*> c, ::ArrayW<int32_t, ::Array<int32_t>*> bb, ::ArrayW<int32_t, ::Array<int32_t>*> tb, ::ArrayW<int32_t, ::Array<int32_t>*> hp,
                                     ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_trees_dynamic, addr 0x11fd128, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method inflate_trees_dynamic, addr 0x12d6cac, size 0x24c, virtual false, abstract: false, final false
   inline int32_t inflate_trees_dynamic(int32_t nl, int32_t nd, ::ArrayW<int32_t, ::Array<int32_t>*> c, ::ArrayW<int32_t, ::Array<int32_t>*> bl, ::ArrayW<int32_t, ::Array<int32_t>*> bd,
                                        ::ArrayW<int32_t, ::Array<int32_t>*> tl, ::ArrayW<int32_t, ::Array<int32_t>*> td, ::ArrayW<int32_t, ::Array<int32_t>*> hp,
                                        ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_trees_fixed, addr 0x11fcee4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method inflate_trees_fixed, addr 0x12d6a68, size 0x10c, virtual false, abstract: false, final false
   static inline int32_t inflate_trees_fixed(::ArrayW<int32_t, ::Array<int32_t>*> bl, ::ArrayW<int32_t, ::Array<int32_t>*> bd,
                                             ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> tl,
                                             ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> td, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method initWorkArea, addr 0x11ffa70, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method initWorkArea, addr 0x12d95f4, size 0x194, virtual false, abstract: false, final false
   inline void initWorkArea(int32_t vsize);
 
   static inline void setStaticF_cpdext(::ArrayW<int32_t, ::Array<int32_t>*> value);

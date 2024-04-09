@@ -26,9 +26,9 @@ public:
     __E_UNDEFINED = static_cast<uint32_t>(0x3020100u),
     __E_FORWARD = static_cast<uint32_t>(0x4030201u),
     __E_DEFERRED = static_cast<uint32_t>(0x5040302u),
-    __E_VERTEX_LIT = static_cast<uint32_t>(0xcd050403u),
-    __E_UNIVERSAL = static_cast<uint32_t>(0xcccd0504u),
-    __E_HIGH_DEFINITION = static_cast<uint32_t>(0x4ccccd05u),
+    __E_VERTEX_LIT = static_cast<uint32_t>(0x50403u),
+    __E_UNIVERSAL = static_cast<uint32_t>(0x504u),
+    __E_HIGH_DEFINITION = static_cast<uint32_t>(0x5u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -57,16 +57,16 @@ public:
   /// @brief Field FORWARD value: static_cast<uint32_t>(0x4030201u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const FORWARD;
 
-  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x4ccccd05u)
+  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x5u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
 
   /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x3020100u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNDEFINED;
 
-  /// @brief Field UNIVERSAL value: static_cast<uint32_t>(0xcccd0504u)
+  /// @brief Field UNIVERSAL value: static_cast<uint32_t>(0x504u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
 
-  /// @brief Field VERTEX_LIT value: static_cast<uint32_t>(0xcd050403u)
+  /// @brief Field VERTEX_LIT value: static_cast<uint32_t>(0x50403u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
 
   /// @brief The size of the true value type

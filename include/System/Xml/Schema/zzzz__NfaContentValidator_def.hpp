@@ -3,9 +3,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NfaContentValidator)
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Xml::Schema {
 class BitSet;
 }
@@ -16,7 +20,19 @@ namespace System::Xml::Schema {
 class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
+class ValidationState;
+}
+namespace System::Xml::Schema {
 struct XmlSchemaContentType;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSet;
+}
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -47,10 +63,25 @@ public:
   /// @brief Field symbols, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
 
+  /// @brief Method CompleteValidation, addr 0x2dfdbb0, size 0x48, virtual true, abstract: false, final false
+  inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
+
+  /// @brief Method ExpectedElements, addr 0x2dfdbf8, size 0x1e8, virtual true, abstract: false, final false
+  inline ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
+
+  /// @brief Method ExpectedParticles, addr 0x2dfdde0, size 0x180, virtual true, abstract: false, final false
+  inline ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
+
+  /// @brief Method InitValidation, addr 0x2dfd904, size 0xfc, virtual true, abstract: false, final false
+  inline void InitValidation(::System::Xml::Schema::ValidationState* context);
+
   static inline ::System::Xml::Schema::NfaContentValidator* New_ctor(::System::Xml::Schema::BitSet* firstpos,
                                                                      ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
                                                                      ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
+
+  /// @brief Method ValidateElement, addr 0x2dfda00, size 0x1b0, virtual true, abstract: false, final false
+  inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode);
 
   constexpr int32_t const& __cordl_internal_get_endMarkerPos() const;
 
@@ -82,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
-  /// @brief Method .ctor, addr 0x29fcdcc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dfd850, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                     ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType,
                     bool isOpen, bool isEmptiable);

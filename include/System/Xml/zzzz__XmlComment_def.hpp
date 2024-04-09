@@ -14,6 +14,9 @@ struct XmlNodeType;
 namespace System::Xml {
 class XmlNode;
 }
+namespace System::Xml {
+class XmlWriter;
+}
 // Forward declare root types
 namespace System::Xml {
 class XmlComment;
@@ -34,21 +37,27 @@ public:
 
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
-  /// @brief Method CloneNode, addr 0x29d03a8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2d8fac4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlComment* New_ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x29d0324, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x2d8fb60, size 0x4, virtual true, abstract: false, final false
+  inline void WriteContentTo(::System::Xml::XmlWriter* w);
+
+  /// @brief Method WriteTo, addr 0x2d8fb20, size 0x40, virtual true, abstract: false, final false
+  inline void WriteTo(::System::Xml::XmlWriter* w);
+
+  /// @brief Method .ctor, addr 0x2d8fa40, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_LocalName, addr 0x29d0378, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2d8fa94, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x29d0350, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2d8fa6c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x29d03a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2d8fabc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
 protected:

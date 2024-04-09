@@ -20,43 +20,11 @@ namespace UnityEngine {
 struct CORDL_TYPE Keyframe {
 public:
   // Declarations
-  __declspec(property(get = get_inTangent, put = set_inTangent)) float_t inTangent;
-
-  __declspec(property(get = get_outTangent, put = set_outTangent)) float_t outTangent;
-
-  __declspec(property(get = get_time, put = set_time)) float_t time;
-
-  __declspec(property(get = get_value, put = set_value)) float_t value;
-
-  /// @brief Method .ctor, addr 0x2de5d40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cc628, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x2de5d50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cc638, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
-
-  /// @brief Method get_inTangent, addr 0x2de5d84, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_inTangent();
-
-  /// @brief Method get_outTangent, addr 0x2de5d94, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_outTangent();
-
-  /// @brief Method get_time, addr 0x2de5d64, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_time();
-
-  /// @brief Method get_value, addr 0x2de5d74, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_value();
-
-  /// @brief Method set_inTangent, addr 0x2de5d8c, size 0x8, virtual false, abstract: false, final false
-  inline void set_inTangent(float_t value);
-
-  /// @brief Method set_outTangent, addr 0x2de5d9c, size 0x8, virtual false, abstract: false, final false
-  inline void set_outTangent(float_t value);
-
-  /// @brief Method set_time, addr 0x2de5d6c, size 0x8, virtual false, abstract: false, final false
-  inline void set_time(float_t value);
-
-  /// @brief Method set_value, addr 0x2de5d7c, size 0x8, virtual false, abstract: false, final false
-  inline void set_value(float_t value);
 
   // Ctor Parameters []
   // @brief default ctor

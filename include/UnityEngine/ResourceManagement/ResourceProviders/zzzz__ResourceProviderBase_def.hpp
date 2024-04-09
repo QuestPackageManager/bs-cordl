@@ -68,13 +68,13 @@ public:
   /// @brief Field m_CallBack, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CallBack, put = __cordl_internal_set_m_CallBack))::System::Func_1<bool>* m_CallBack;
 
-  /// @brief Method Execute, addr 0x2d1e780, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x3101c30, size 0x88, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x2d1e708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3101bb8, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2d1e710, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x3101bc0, size 0x70, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp* New_ctor();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CallBack(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x2d1e6b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3101b68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <InitializeAsync>b__0, addr 0x2d1e808, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__0, addr 0x3101cb8, size 0x2c, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__0();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& __cordl_internal_get___4__this();
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d1e6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3101b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,16 +221,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IInitializableObject*() noexcept;
 
-  /// @brief Method CanProvide, addr 0x2d1e4a0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanProvide, addr 0x3101950, size 0x40, virtual true, abstract: false, final false
   inline bool CanProvide(::System::Type* t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method GetDefaultType, addr 0x2d1e4f0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultType, addr 0x31019a0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Initialize, addr 0x2d1e47c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x310192c, size 0x24, virtual true, abstract: false, final false
   inline bool Initialize(::StringW id, ::StringW data);
 
-  /// @brief Method InitializeAsync, addr 0x2d1e55c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x3101a0c, size 0x154, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* New_ctor();
@@ -238,13 +238,13 @@ public:
   /// @brief Method Provide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method Release, addr 0x2d1e4ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x310199c, size 0x4, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
 
-  /// @brief Method ToString, addr 0x2d1e4e0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3101990, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags, addr 0x2d1e700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags, addr 0x3101bb0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_get_BehaviourFlags();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags const& __cordl_internal_get_m_BehaviourFlags() const;
@@ -259,10 +259,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ProviderId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d1bfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30ff454, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ProviderId, addr 0x2d1e42c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_ProviderId, addr 0x31018dc, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_ProviderId();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider"

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::RazorWriteLiteralMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3022a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34078dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

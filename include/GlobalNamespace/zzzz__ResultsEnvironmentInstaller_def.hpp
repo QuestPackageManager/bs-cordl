@@ -4,7 +4,6 @@
 CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResultsEnvironmentInstaller)
 namespace BGLib::AppFlow::Initialization {
@@ -55,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::__ResultsEnvironmentInstaller____c* New_ctor();
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x23eba60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x250e348, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> _LoadResourcesBeforeInstall_b__3_0(::UnityEngine::GameObject* asset);
 
-  /// @brief Method .ctor, addr 0x23eba58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250e340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__ResultsEnvironmentInstaller____c* getStaticF___9();
@@ -106,10 +105,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x23eb8e4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x250e1cc, size 0x80, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x23eb784, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x250e06c, size 0x160, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::GameObject>>* assets,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
@@ -122,10 +121,10 @@ public:
 
   constexpr void __cordl_internal_set__resultsEnvironmentControllers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value);
 
-  /// @brief Method .ctor, addr 0x23eb964, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250e24c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x23eb744, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x250e02c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

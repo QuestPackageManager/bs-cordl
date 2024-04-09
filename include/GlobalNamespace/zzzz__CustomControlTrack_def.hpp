@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::CustomControlTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2475d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259a198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

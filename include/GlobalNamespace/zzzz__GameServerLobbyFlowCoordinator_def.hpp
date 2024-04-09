@@ -105,10 +105,10 @@ namespace GlobalNamespace {
 struct __GameServerLobbyFlowCoordinator__LobbyType;
 }
 namespace GlobalNamespace {
-class __GameServerLobbyFlowCoordinator____c__DisplayClass70_0;
+class __GameServerLobbyFlowCoordinator____c__DisplayClass71_0;
 }
 namespace GlobalNamespace {
-class __GameServerLobbyFlowCoordinator____c__DisplayClass85_0;
+class __GameServerLobbyFlowCoordinator____c__DisplayClass86_0;
 }
 namespace GlobalNamespace {
 class __LevelSelectionFlowCoordinator__State;
@@ -124,6 +124,9 @@ class ViewController;
 }
 namespace HMUI {
 struct __ViewController__AnimationType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Text {
 class StringBuilder;
@@ -148,16 +151,16 @@ namespace GlobalNamespace {
 class GameServerLobbyFlowCoordinator;
 }
 namespace GlobalNamespace {
-class __GameServerLobbyFlowCoordinator____c__DisplayClass70_0;
+class __GameServerLobbyFlowCoordinator____c__DisplayClass71_0;
 }
 namespace GlobalNamespace {
-class __GameServerLobbyFlowCoordinator____c__DisplayClass85_0;
+class __GameServerLobbyFlowCoordinator____c__DisplayClass86_0;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__GameServerLobbyFlowCoordinator__LobbyType);
 MARK_REF_PTR_T(::GlobalNamespace::GameServerLobbyFlowCoordinator);
-MARK_REF_PTR_T(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0);
-MARK_REF_PTR_T(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0);
+MARK_REF_PTR_T(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0);
+MARK_REF_PTR_T(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0);
 // Type: ::LobbyType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -219,12 +222,12 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerLob
 static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator__LobbyType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass70_0
+// Type: ::<>c__DisplayClass71_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameServerLobbyFlowCoordinator::<>c__DisplayClass70_0*
-class CORDL_TYPE __GameServerLobbyFlowCoordinator____c__DisplayClass70_0 : public ::System::Object {
+// CS Name: ::GameServerLobbyFlowCoordinator::<>c__DisplayClass71_0*
+class CORDL_TYPE __GameServerLobbyFlowCoordinator____c__DisplayClass71_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -236,9 +239,9 @@ public:
   /// @brief Field finishedCallback, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
-  static inline ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0* New_ctor();
+  static inline ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0* New_ctor();
 
-  /// @brief Method <Finish>b__0, addr 0x252a1ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <Finish>b__0, addr 0x264d800, size 0x70, virtual false, abstract: false, final false
   inline void _Finish_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -259,22 +262,22 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2527774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264acfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GameServerLobbyFlowCoordinator____c__DisplayClass70_0();
+  constexpr __GameServerLobbyFlowCoordinator____c__DisplayClass71_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass70_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass71_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __GameServerLobbyFlowCoordinator____c__DisplayClass70_0(__GameServerLobbyFlowCoordinator____c__DisplayClass70_0&&) = delete;
+  __GameServerLobbyFlowCoordinator____c__DisplayClass71_0(__GameServerLobbyFlowCoordinator____c__DisplayClass71_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass70_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass71_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __GameServerLobbyFlowCoordinator____c__DisplayClass70_0(__GameServerLobbyFlowCoordinator____c__DisplayClass70_0 const&) = delete;
+  __GameServerLobbyFlowCoordinator____c__DisplayClass71_0(__GameServerLobbyFlowCoordinator____c__DisplayClass71_0 const&) = delete;
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> _____4__this;
@@ -288,21 +291,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0, ___finishedCallback) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0, ___finishedCallback) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0, ___eventSystem) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0, ___eventSystem) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass85_0
+// Type: ::<>c__DisplayClass86_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameServerLobbyFlowCoordinator::<>c__DisplayClass85_0*
-class CORDL_TYPE __GameServerLobbyFlowCoordinator____c__DisplayClass85_0 : public ::System::Object {
+// CS Name: ::GameServerLobbyFlowCoordinator::<>c__DisplayClass86_0*
+class CORDL_TYPE __GameServerLobbyFlowCoordinator____c__DisplayClass86_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -311,9 +314,9 @@ public:
   /// @brief Field userId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
 
-  static inline ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0* New_ctor();
+  static inline ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0* New_ctor();
 
-  /// @brief Method <HandleServerPlayerListViewControllerKickPlayer>b__0, addr 0x252a21c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <HandleServerPlayerListViewControllerKickPlayer>b__0, addr 0x264d870, size 0xd8, virtual false, abstract: false, final false
   inline void _HandleServerPlayerListViewControllerKickPlayer_b__0(int32_t btnId);
 
   constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -328,22 +331,22 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2528890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264be18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GameServerLobbyFlowCoordinator____c__DisplayClass85_0();
+  constexpr __GameServerLobbyFlowCoordinator____c__DisplayClass86_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass85_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass86_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __GameServerLobbyFlowCoordinator____c__DisplayClass85_0(__GameServerLobbyFlowCoordinator____c__DisplayClass85_0&&) = delete;
+  __GameServerLobbyFlowCoordinator____c__DisplayClass86_0(__GameServerLobbyFlowCoordinator____c__DisplayClass86_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass85_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__GameServerLobbyFlowCoordinator____c__DisplayClass86_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __GameServerLobbyFlowCoordinator____c__DisplayClass85_0(__GameServerLobbyFlowCoordinator____c__DisplayClass85_0 const&) = delete;
+  __GameServerLobbyFlowCoordinator____c__DisplayClass86_0(__GameServerLobbyFlowCoordinator____c__DisplayClass86_0 const&) = delete;
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> _____4__this;
@@ -354,15 +357,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0, 0x20>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0, ___userId) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0, ___userId) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::GameServerLobbyFlowCoordinator
-// SizeInfo { instance_size: 448, native_size: -1, calculated_instance_size: 448, calculated_native_size: 441, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 449, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameServerLobbyFlowCoordinator*
@@ -371,9 +374,9 @@ public:
   // Declarations
   using LobbyType = ::GlobalNamespace::__GameServerLobbyFlowCoordinator__LobbyType;
 
-  using __c__DisplayClass70_0 = ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0;
+  using __c__DisplayClass71_0 = ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0;
 
-  using __c__DisplayClass85_0 = ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0;
+  using __c__DisplayClass86_0 = ::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0;
 
   /// @brief Field _ambienceAudioClip, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__ambienceAudioClip, put = __cordl_internal_set__ambienceAudioClip))::UnityW<::UnityEngine::AudioClip> _ambienceAudioClip;
@@ -381,7 +384,7 @@ public:
   /// @brief Field _analyticsModel, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  /// @brief Field _canStartGameCts, offset 0x188, size 0x8
+  /// @brief Field _canStartGameCts, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get__canStartGameCts, put = __cordl_internal_set__canStartGameCts))::System::Threading::CancellationTokenSource* _canStartGameCts;
 
   /// @brief Field _centerStageScreenController, offset 0x108, size 0x8
@@ -428,6 +431,10 @@ public:
   /// @brief Field _lobbyStateDataModel, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
+  /// @brief Field _missingEntitlementsStringBuilder, offset 0x180, size 0x8
+  __declspec(property(get = __cordl_internal_get__missingEntitlementsStringBuilder,
+                      put = __cordl_internal_set__missingEntitlementsStringBuilder))::System::Text::StringBuilder* _missingEntitlementsStringBuilder;
+
   /// @brief Field _multiplayerLevelSelectionFlowCoordinator, offset 0xc8, size 0x8
   __declspec(
       property(get = __cordl_internal_get__multiplayerLevelSelectionFlowCoordinator,
@@ -452,7 +459,11 @@ public:
   /// @brief Field _playerDataModel, offset 0x150, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field <rejoinQuickPlay>k__BackingField, offset 0x1b8, size 0x1
+  /// @brief Field _playerIdsWithoutEntitlements, offset 0x188, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerIdsWithoutEntitlements,
+                      put = __cordl_internal_set__playerIdsWithoutEntitlements))::System::Collections::Generic::List_1<::StringW>* _playerIdsWithoutEntitlements;
+
+  /// @brief Field <rejoinQuickPlay>k__BackingField, offset 0x1c0, size 0x1
   __declspec(property(get = __cordl_internal_get__rejoinQuickPlay_k__BackingField, put = __cordl_internal_set__rejoinQuickPlay_k__BackingField)) bool _rejoinQuickPlay_k__BackingField;
 
   /// @brief Field _screenMode, offset 0xa8, size 0x8
@@ -476,20 +487,17 @@ public:
   /// @brief Field _songPreviewPlayer, offset 0x160, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
-  /// @brief Field _stringBuilder, offset 0x180, size 0x8
-  __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
-
   /// @brief Field _unifiedNetworkPlayerModel, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
                       put = __cordl_internal_set__unifiedNetworkPlayerModel))::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
-  /// @brief Field didFinishEvent, offset 0x198, size 0x8
+  /// @brief Field didFinishEvent, offset 0x1a0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
 
-  /// @brief Field didOpenInvitePanelEvent, offset 0x1b0, size 0x8
+  /// @brief Field didOpenInvitePanelEvent, offset 0x1b8, size 0x8
   __declspec(property(get = __cordl_internal_get_didOpenInvitePanelEvent, put = __cordl_internal_set_didOpenInvitePanelEvent))::System::Action* didOpenInvitePanelEvent;
 
-  /// @brief Field didSetupEvent, offset 0x1a8, size 0x8
+  /// @brief Field didSetupEvent, offset 0x1b0, size 0x8
   __declspec(property(get = __cordl_internal_get_didSetupEvent, put = __cordl_internal_set_didSetupEvent))::System::Action* didSetupEvent;
 
   __declspec(property(get = get_isManaged)) bool isManaged;
@@ -504,173 +512,176 @@ public:
 
   __declspec(property(get = get_rejoinQuickPlay, put = set_rejoinQuickPlay)) bool rejoinQuickPlay;
 
-  /// @brief Field startGameOrReadyEvent, offset 0x1a0, size 0x8
+  /// @brief Field startGameOrReadyEvent, offset 0x1a8, size 0x8
   __declspec(property(get = __cordl_internal_get_startGameOrReadyEvent, put = __cordl_internal_set_startGameOrReadyEvent))::System::Action* startGameOrReadyEvent;
 
-  /// @brief Field willFinishEvent, offset 0x190, size 0x8
+  /// @brief Field willFinishEvent, offset 0x198, size 0x8
   __declspec(property(get = __cordl_internal_get_willFinishEvent, put = __cordl_internal_set_willFinishEvent))::System::Action* willFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x2527164, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x264a6ec, size 0x168, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x252382c, size 0x1170, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2646dc0, size 0x1170, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x25251a8, size 0xe58, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2648730, size 0xe58, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DismissViewControllersAndCoordinators, addr 0x252777c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DismissViewControllersAndCoordinators, addr 0x264ad04, size 0xf8, virtual false, abstract: false, final false
   inline void DismissViewControllersAndCoordinators();
 
-  /// @brief Method Finish, addr 0x2527580, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x264ab08, size 0x1f4, virtual false, abstract: false, final false
   inline void Finish(::System::Action* finishedCallback, bool withFadeOut);
 
-  /// @brief Method GetInitialGameState, addr 0x2526228, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetInitialGameState, addr 0x26497b0, size 0x148, virtual false, abstract: false, final false
   inline void GetInitialGameState();
 
-  /// @brief Method GetLobbyType, addr 0x25237dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetLobbyType, addr 0x2646d70, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameServerLobbyFlowCoordinator__LobbyType GetLobbyType();
 
-  /// @brief Method GetLocalizedTitle, addr 0x2529a6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetLocalizedTitle, addr 0x264d290, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW GetLocalizedTitle();
 
-  /// @brief Method HandleLobbyGameBeforeSceneSwitchCallback, addr 0x2529af8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameBeforeSceneSwitchCallback, addr 0x264d31c, size 0x1f4, virtual false, abstract: false, final false
   inline void HandleLobbyGameBeforeSceneSwitchCallback();
 
-  /// @brief Method HandleLobbyGameStateControllerCancelStartTime, addr 0x2529420, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerCancelStartTime, addr 0x264c9a8, size 0x38, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerCancelStartTime();
 
-  /// @brief Method HandleLobbyGameStateControllerCountdownCancelled, addr 0x2528aa4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerCountdownCancelled, addr 0x264c02c, size 0x38, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerCountdownCancelled();
 
-  /// @brief Method HandleLobbyGameStateControllerCountdownStarted, addr 0x2528898, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerCountdownStarted, addr 0x264be20, size 0x20c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerCountdownStarted();
 
-  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x2528adc, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x264c064, size 0x2c8, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStarted(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method HandleLobbyGameStateControllerGameStartedPresentView, addr 0x2529458, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStartedPresentView, addr 0x264c9e0, size 0xac, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStartedPresentView(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method HandleLobbyGameStateControllerGameStateChanged, addr 0x25283fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStateChanged, addr 0x264b984, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStateChanged(::GlobalNamespace::MultiplayerLobbyState state);
 
-  /// @brief Method HandleLobbyGameStateControllerLevelDidGetDisconnected, addr 0x2529910, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLevelDidGetDisconnected, addr 0x264ce98, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLevelDidGetDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleLobbyGameStateControllerLevelFinished, addr 0x2529504, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLevelFinished, addr 0x264ca8c, size 0x40c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLevelFinished(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                                           ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
-  /// @brief Method HandleLobbyGameStateControllerLobbyDisconnected, addr 0x2527eec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLobbyDisconnected, addr 0x264b474, size 0xb0, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLobbyDisconnected();
 
-  /// @brief Method HandleLobbyGameStateControllerSongStillDownloading, addr 0x2528f90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerSongStillDownloading, addr 0x264c518, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerSongStillDownloading();
 
-  /// @brief Method HandleLobbyGameStateControllerStartTimeChanged, addr 0x2528da4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerStartTimeChanged, addr 0x264c32c, size 0x1ec, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerStartTimeChanged();
 
-  /// @brief Method HandleLobbyGameStateStartButtonEnabled, addr 0x2529cec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateStartButtonEnabled, addr 0x264d510, size 0x34, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateStartButtonEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
-  /// @brief Method HandleLobbyPlayerPermissionsModelPermissionsChanged, addr 0x2529fec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionsModelPermissionsChanged, addr 0x264d5fc, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionsModelPermissionsChanged();
 
-  /// @brief Method HandleLobbyPlayersDataModelDidChange, addr 0x2527874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayersDataModelDidChange, addr 0x264adfc, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayersDataModelDidChange(::StringW userId);
 
-  /// @brief Method HandleLobbySetupViewControllerCancelGameOrUnready, addr 0x25292ac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerCancelGameOrUnready, addr 0x264c834, size 0x174, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerCancelGameOrUnready();
 
-  /// @brief Method HandleLobbySetupViewControllerClearSelectedBeatmap, addr 0x25282b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerClearSelectedBeatmap, addr 0x264b83c, size 0xa4, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerClearSelectedBeatmap();
 
-  /// @brief Method HandleLobbySetupViewControllerClearSelectedModifiers, addr 0x2528358, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerClearSelectedModifiers, addr 0x264b8e0, size 0xa4, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerClearSelectedModifiers();
 
-  /// @brief Method HandleLobbySetupViewControllerSelectBeatmap, addr 0x2527894, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerSelectBeatmap, addr 0x264ae1c, size 0x1e8, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerSelectBeatmap();
 
-  /// @brief Method HandleLobbySetupViewControllerSelectModifiers, addr 0x25280bc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerSelectModifiers, addr 0x264b644, size 0x1f8, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerSelectModifiers();
 
-  /// @brief Method HandleLobbySetupViewControllerStartGameOrReady, addr 0x2528f94, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerStartGameOrReady, addr 0x264c51c, size 0x318, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerStartGameOrReady();
 
-  /// @brief Method HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel, addr 0x2529d20, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel, addr 0x264d544, size 0xb8, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
 
-  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel, addr 0x2528084, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel, addr 0x264b60c, size 0x38, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel();
 
-  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel, addr 0x2527f9c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel, addr 0x264b524, size 0xe8, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(::GlobalNamespace::__LevelSelectionFlowCoordinator__State* state);
 
-  /// @brief Method HandleMultiplayerResultsViewControllerBackToLobbyPressed, addr 0x2529914, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerResultsViewControllerBackToLobbyPressed, addr 0x264ce9c, size 0x14c, virtual false, abstract: false, final false
   inline void HandleMultiplayerResultsViewControllerBackToLobbyPressed(::GlobalNamespace::MultiplayerResultsViewController* viewController);
 
-  /// @brief Method HandleMultiplayerResultsViewControllerBackToMenuPressed, addr 0x2529a60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerResultsViewControllerBackToMenuPressed, addr 0x264cfe8, size 0xc, virtual false, abstract: false, final false
   inline void HandleMultiplayerResultsViewControllerBackToMenuPressed(::GlobalNamespace::MultiplayerResultsViewController* viewController);
 
-  /// @brief Method HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged, addr 0x2527a9c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged, addr 0x264b024, size 0x230, virtual false, abstract: false, final false
   inline void HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged(bool isActive);
 
-  /// @brief Method HandleServerPlayerListViewControllerDidOpenInvitePanel, addr 0x2527878, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerDidOpenInvitePanel, addr 0x264ae00, size 0x1c, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerDidOpenInvitePanel();
 
-  /// @brief Method HandleServerPlayerListViewControllerKickPlayer, addr 0x2528570, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerKickPlayer, addr 0x264baf8, size 0x320, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerKickPlayer(::StringW userId);
 
-  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedBeatmap, addr 0x2528418, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedBeatmap, addr 0x264b9a0, size 0xac, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerSelectSuggestedBeatmap(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers, addr 0x25284c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers, addr 0x264ba4c, size 0xac, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method InitialViewControllerWasPresented, addr 0x252614c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method InitialViewControllerWasPresented, addr 0x26496d4, size 0xdc, virtual true, abstract: false, final false
   inline void InitialViewControllerWasPresented();
 
   static inline ::GlobalNamespace::GameServerLobbyFlowCoordinator* New_ctor();
 
-  /// @brief Method PresentBackButtonConfirmationDialog, addr 0x25272cc, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method PresentBackButtonConfirmationDialog, addr 0x264a854, size 0x2b4, virtual false, abstract: false, final false
   inline void PresentBackButtonConfirmationDialog();
 
-  /// @brief Method SetLobbyPlayerDataToViews, addr 0x2524ae8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyPlayerDataToViews, addr 0x264807c, size 0x204, virtual false, abstract: false, final false
   inline void SetLobbyPlayerDataToViews(::StringW userId);
 
-  /// @brief Method SetTitle, addr 0x2527038, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetPlayersMissingLevelText, addr 0x264cff4, size 0x29c, virtual false, abstract: false, final false
+  inline void SetPlayersMissingLevelText();
+
+  /// @brief Method SetTitle, addr 0x264a5c0, size 0x12c, virtual false, abstract: false, final false
   inline void SetTitle(::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method SetupLobbyWithPermissions, addr 0x2524cec, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method SetupLobbyWithPermissions, addr 0x2648280, size 0x4b0, virtual false, abstract: false, final false
   inline void SetupLobbyWithPermissions();
 
-  /// @brief Method ShowBackButton, addr 0x252702c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ShowBackButton, addr 0x264a5b4, size 0xc, virtual false, abstract: false, final false
   inline void ShowBackButton(bool show);
 
-  /// @brief Method ShowDisconnectDialogAndFinish, addr 0x2526acc, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method ShowDisconnectDialogAndFinish, addr 0x264a054, size 0x454, virtual false, abstract: false, final false
   inline void ShowDisconnectDialogAndFinish(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method ShowSideViewControllers, addr 0x2526fc8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShowSideViewControllers, addr 0x264a550, size 0x64, virtual false, abstract: false, final false
   inline void ShowSideViewControllers(bool showSideViewControllers, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x2526f20, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x264a4a8, size 0xa8, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method TransitionDidFinish, addr 0x2526548, size 0x584, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidFinish, addr 0x2649ad0, size 0x584, virtual true, abstract: false, final false
   inline void TransitionDidFinish();
 
-  /// @brief Method TransitionDidStart, addr 0x2526370, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidStart, addr 0x26498f8, size 0x1d8, virtual true, abstract: false, final false
   inline void TransitionDidStart();
 
-  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x2527ccc, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x264b254, size 0x220, virtual false, abstract: false, final false
   inline void UpdateLocalPlayerIsActiveState(bool isActive);
 
-  /// @brief Method <PresentBackButtonConfirmationDialog>b__69_0, addr 0x252a058, size 0x148, virtual false, abstract: false, final false
-  inline void _PresentBackButtonConfirmationDialog_b__69_0(int32_t btnIndex);
+  /// @brief Method <PresentBackButtonConfirmationDialog>b__70_0, addr 0x264d6ac, size 0x148, virtual false, abstract: false, final false
+  inline void _PresentBackButtonConfirmationDialog_b__70_0(int32_t btnIndex);
 
-  /// @brief Method <ShowDisconnectDialogAndFinish>b__105_0, addr 0x252a1a0, size 0xc, virtual false, abstract: false, final false
-  inline void _ShowDisconnectDialogAndFinish_b__105_0();
+  /// @brief Method <ShowDisconnectDialogAndFinish>b__106_0, addr 0x264d7f4, size 0xc, virtual false, abstract: false, final false
+  inline void _ShowDisconnectDialogAndFinish_b__106_0();
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__ambienceAudioClip() const;
 
@@ -732,6 +743,10 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
 
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__missingEntitlementsStringBuilder();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__missingEntitlementsStringBuilder() const;
+
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator> const& __cordl_internal_get__multiplayerLevelSelectionFlowCoordinator() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator>& __cordl_internal_get__multiplayerLevelSelectionFlowCoordinator();
@@ -755,6 +770,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__playerIdsWithoutEntitlements();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__playerIdsWithoutEntitlements() const;
 
   constexpr bool const& __cordl_internal_get__rejoinQuickPlay_k__BackingField() const;
 
@@ -783,10 +802,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
 
   constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
-
-  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__stringBuilder() const;
 
   constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __cordl_internal_get__unifiedNetworkPlayerModel();
 
@@ -842,6 +857,8 @@ public:
 
   constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
 
+  constexpr void __cordl_internal_set__missingEntitlementsStringBuilder(::System::Text::StringBuilder* value);
+
   constexpr void __cordl_internal_set__multiplayerLevelSelectionFlowCoordinator(::UnityW<::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator> value);
 
   constexpr void __cordl_internal_set__multiplayerLobbyController(::UnityW<::GlobalNamespace::MultiplayerLobbyController> value);
@@ -853,6 +870,8 @@ public:
   constexpr void __cordl_internal_set__platformLeaderboardsModel(::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> value);
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+
+  constexpr void __cordl_internal_set__playerIdsWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value);
 
   constexpr void __cordl_internal_set__rejoinQuickPlay_k__BackingField(bool value);
 
@@ -868,8 +887,6 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
-
   constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
@@ -882,58 +899,58 @@ public:
 
   constexpr void __cordl_internal_set_willFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2529ff0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264d600, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x25232c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x264685c, size 0xa0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method add_didOpenInvitePanelEvent, addr 0x2523688, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_didOpenInvitePanelEvent, addr 0x2646c1c, size 0xa0, virtual false, abstract: false, final false
   inline void add_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method add_didSetupEvent, addr 0x2523548, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetupEvent, addr 0x2646adc, size 0xa0, virtual false, abstract: false, final false
   inline void add_didSetupEvent(::System::Action* value);
 
-  /// @brief Method add_startGameOrReadyEvent, addr 0x2523408, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_startGameOrReadyEvent, addr 0x264699c, size 0xa0, virtual false, abstract: false, final false
   inline void add_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method add_willFinishEvent, addr 0x2523188, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_willFinishEvent, addr 0x264671c, size 0xa0, virtual false, abstract: false, final false
   inline void add_willFinishEvent(::System::Action* value);
 
-  /// @brief Method get_isManaged, addr 0x2522f48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_isManaged, addr 0x26464dc, size 0xc0, virtual false, abstract: false, final false
   inline bool get_isManaged();
 
-  /// @brief Method get_isPartyOwner, addr 0x2522e6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isPartyOwner, addr 0x2646400, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isPartyOwner();
 
-  /// @brief Method get_isPublicGame, addr 0x2522e88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_isPublicGame, addr 0x264641c, size 0xc0, virtual false, abstract: false, final false
   inline bool get_isPublicGame();
 
-  /// @brief Method get_isQuickPlayServer, addr 0x25230c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_isQuickPlayServer, addr 0x264665c, size 0xc0, virtual false, abstract: false, final false
   inline bool get_isQuickPlayServer();
 
-  /// @brief Method get_isQuickStartServer, addr 0x2523008, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_isQuickStartServer, addr 0x264659c, size 0xc0, virtual false, abstract: false, final false
   inline bool get_isQuickStartServer();
 
-  /// @brief Method get_rejoinQuickPlay, addr 0x25237c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rejoinQuickPlay, addr 0x2646d5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_rejoinQuickPlay();
 
-  /// @brief Method remove_didFinishEvent, addr 0x2523368, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x26468fc, size 0xa0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x2523728, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x2646cbc, size 0xa0, virtual false, abstract: false, final false
   inline void remove_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method remove_didSetupEvent, addr 0x25235e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetupEvent, addr 0x2646b7c, size 0xa0, virtual false, abstract: false, final false
   inline void remove_didSetupEvent(::System::Action* value);
 
-  /// @brief Method remove_startGameOrReadyEvent, addr 0x25234a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_startGameOrReadyEvent, addr 0x2646a3c, size 0xa0, virtual false, abstract: false, final false
   inline void remove_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method remove_willFinishEvent, addr 0x2523228, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_willFinishEvent, addr 0x26467bc, size 0xa0, virtual false, abstract: false, final false
   inline void remove_willFinishEvent(::System::Action* value);
 
-  /// @brief Method set_rejoinQuickPlay, addr 0x25237d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rejoinQuickPlay, addr 0x2646d64, size 0xc, virtual false, abstract: false, final false
   inline void set_rejoinQuickPlay(bool value);
 
 protected:
@@ -1031,28 +1048,31 @@ public:
   /// @brief Field _isAlreadyFinishing, offset: 0x178, size: 0x1, def value: None
   bool ____isAlreadyFinishing;
 
-  /// @brief Field _stringBuilder, offset: 0x180, size: 0x8, def value: None
-  ::System::Text::StringBuilder* ____stringBuilder;
+  /// @brief Field _missingEntitlementsStringBuilder, offset: 0x180, size: 0x8, def value: None
+  ::System::Text::StringBuilder* ____missingEntitlementsStringBuilder;
 
-  /// @brief Field _canStartGameCts, offset: 0x188, size: 0x8, def value: None
+  /// @brief Field _playerIdsWithoutEntitlements, offset: 0x188, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::StringW>* ____playerIdsWithoutEntitlements;
+
+  /// @brief Field _canStartGameCts, offset: 0x190, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____canStartGameCts;
 
-  /// @brief Field willFinishEvent, offset: 0x190, size: 0x8, def value: None
+  /// @brief Field willFinishEvent, offset: 0x198, size: 0x8, def value: None
   ::System::Action* ___willFinishEvent;
 
-  /// @brief Field didFinishEvent, offset: 0x198, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x1a0, size: 0x8, def value: None
   ::System::Action* ___didFinishEvent;
 
-  /// @brief Field startGameOrReadyEvent, offset: 0x1a0, size: 0x8, def value: None
+  /// @brief Field startGameOrReadyEvent, offset: 0x1a8, size: 0x8, def value: None
   ::System::Action* ___startGameOrReadyEvent;
 
-  /// @brief Field didSetupEvent, offset: 0x1a8, size: 0x8, def value: None
+  /// @brief Field didSetupEvent, offset: 0x1b0, size: 0x8, def value: None
   ::System::Action* ___didSetupEvent;
 
-  /// @brief Field didOpenInvitePanelEvent, offset: 0x1b0, size: 0x8, def value: None
+  /// @brief Field didOpenInvitePanelEvent, offset: 0x1b8, size: 0x8, def value: None
   ::System::Action* ___didOpenInvitePanelEvent;
 
-  /// @brief Field <rejoinQuickPlay>k__BackingField, offset: 0x1b8, size: 0x1, def value: None
+  /// @brief Field <rejoinQuickPlay>k__BackingField, offset: 0x1c0, size: 0x1, def value: None
   bool ____rejoinQuickPlay_k__BackingField;
 
   /// @brief Field kMaxPredictedStartTimeDifferenceMs offset 0xffffffff size 0x8
@@ -1064,7 +1084,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerLobbyFlowCoordinator, 0x1c0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerLobbyFlowCoordinator, 0x1c8>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____screenMode) == 0xa8, "Offset mismatch!");
 
@@ -1120,27 +1140,29 @@ static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____la
 
 static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____isAlreadyFinishing) == 0x178, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____stringBuilder) == 0x180, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____missingEntitlementsStringBuilder) == 0x180, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____canStartGameCts) == 0x188, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____playerIdsWithoutEntitlements) == 0x188, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___willFinishEvent) == 0x190, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____canStartGameCts) == 0x190, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___didFinishEvent) == 0x198, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___willFinishEvent) == 0x198, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___startGameOrReadyEvent) == 0x1a0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___didFinishEvent) == 0x1a0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___didSetupEvent) == 0x1a8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___startGameOrReadyEvent) == 0x1a8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___didOpenInvitePanelEvent) == 0x1b0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___didSetupEvent) == 0x1b0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____rejoinQuickPlay_k__BackingField) == 0x1b8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ___didOpenInvitePanelEvent) == 0x1b8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator, ____rejoinQuickPlay_k__BackingField) == 0x1c0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerLobbyFlowCoordinator__LobbyType, "", "GameServerLobbyFlowCoordinator/LobbyType");
 NEED_NO_BOX(::GlobalNamespace::GameServerLobbyFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerLobbyFlowCoordinator*, "", "GameServerLobbyFlowCoordinator");
-NEED_NO_BOX(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass70_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass70_0");
-NEED_NO_BOX(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass85_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass85_0");
+NEED_NO_BOX(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass71_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass71_0");
+NEED_NO_BOX(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerLobbyFlowCoordinator____c__DisplayClass86_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass86_0");

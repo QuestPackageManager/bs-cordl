@@ -28,10 +28,10 @@ public:
 
   static inline ::System::TypeAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x271da98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284b73c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x271daf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284b798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

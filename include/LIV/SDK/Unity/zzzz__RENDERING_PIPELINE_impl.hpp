@@ -9,6 +9,6 @@ constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE::RENDERING_PIPELINE() {}
 constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::UNDEFINED{ static_cast<uint32_t>(0x3020100u) };
 constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::FORWARD{ static_cast<uint32_t>(0x4030201u) };
 constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::DEFERRED{ static_cast<uint32_t>(0x5040302u) };
-constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::VERTEX_LIT{ static_cast<uint32_t>(0xcd050403u) };
-constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::UNIVERSAL{ static_cast<uint32_t>(0xcccd0504u) };
-constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::HIGH_DEFINITION{ static_cast<uint32_t>(0x4ccccd05u) };
+constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::VERTEX_LIT{ static_cast<uint32_t>(0x50403u) };
+constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::UNIVERSAL{ static_cast<uint32_t>(0x504u) };
+constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE LIV::SDK::Unity::RENDERING_PIPELINE::HIGH_DEFINITION{ static_cast<uint32_t>(0x5u) };

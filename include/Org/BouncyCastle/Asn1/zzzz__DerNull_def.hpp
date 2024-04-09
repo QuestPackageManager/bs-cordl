@@ -32,13 +32,13 @@ public:
   /// @brief Field zeroBytes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_zeroBytes, put = __cordl_internal_set_zeroBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> zeroBytes;
 
-  /// @brief Method Asn1Equals, addr 0x12516bc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x132b240, size 0x78, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x1251734, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x132b2b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x1251698, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x132b21c, size 0x24, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor();
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_zeroBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x12515e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132b16c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1251640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132b1c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* getStaticF_Instance();

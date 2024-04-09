@@ -175,6 +175,9 @@ public:
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(T item);
 
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::__Stack_1__Enumerator<T> GetEnumerator();
+
   static inline ::System::Collections::Generic::Stack_1<T>* New_ctor();
 
   static inline ::System::Collections::Generic::Stack_1<T>* New_ctor(int32_t capacity);

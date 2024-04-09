@@ -86,23 +86,23 @@ public:
   /// @brief Field trustedTimestampRoot, offset 0x7d, size 0x1
   __declspec(property(get = __cordl_internal_get_trustedTimestampRoot, put = __cordl_internal_set_trustedTimestampRoot)) bool trustedTimestampRoot;
 
-  /// @brief Method CheckSignature, addr 0x25603ac, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CheckSignature, addr 0x2684e98, size 0x2f4, virtual false, abstract: false, final false
   inline bool CheckSignature();
 
-  /// @brief Method CompareIssuerSerial, addr 0x25610f0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CompareIssuerSerial, addr 0x2685bdc, size 0xf4, virtual false, abstract: false, final false
   inline bool CompareIssuerSerial(::StringW issuer, ::ArrayW<uint8_t, ::Array<uint8_t>*> serial, ::Mono::Security::X509::X509Certificate* x509);
 
   static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor();
 
   static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method Reset, addr 0x2560308, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2684df4, size 0xa4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method VerifyCounterSignature, addr 0x25611e4, size 0xa00, virtual false, abstract: false, final false
+  /// @brief Method VerifyCounterSignature, addr 0x2685cd0, size 0xa00, virtual false, abstract: false, final false
   inline bool VerifyCounterSignature(::Mono::Security::__PKCS7__SignerInfo* cs, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method VerifySignature, addr 0x25606a8, size 0xa48, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x2685194, size 0xa48, virtual false, abstract: false, final false
   inline bool VerifySignature(::Mono::Security::__PKCS7__SignedData* sd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedMessageDigest, ::System::Security::Cryptography::HashAlgorithm* ha);
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_coll();
@@ -183,16 +183,16 @@ public:
 
   constexpr void __cordl_internal_set_trustedTimestampRoot(bool value);
 
-  /// @brief Method .ctor, addr 0x2560184, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2684c70, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2560210, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2684cfc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method get_SigningCertificate, addr 0x25606a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigningCertificate, addr 0x268518c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_SigningCertificate();
 
-  /// @brief Method set_RawData, addr 0x2560238, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_RawData, addr 0x2684d24, size 0xd0, virtual false, abstract: false, final false
   inline void set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

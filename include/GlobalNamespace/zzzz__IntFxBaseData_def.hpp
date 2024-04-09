@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12e62a4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13be018, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, int32_t value);
 
 protected:

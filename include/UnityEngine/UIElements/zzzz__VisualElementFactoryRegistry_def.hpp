@@ -34,21 +34,21 @@ public:
       property(get = getStaticF_s_Factories,
                put = setStaticF_s_Factories))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* s_Factories;
 
-  /// @brief Method RegisterEngineFactories, addr 0x2f7839c, size 0xb2c, virtual false, abstract: false, final false
+  /// @brief Method RegisterEngineFactories, addr 0x335e1b8, size 0xb2c, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterFactory, addr 0x2f79198, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x335efb4, size 0x470, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IUxmlFactory* factory);
 
-  /// @brief Method RegisterUserFactories, addr 0x2f78ec8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x335ece4, size 0x2d0, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
-  /// @brief Method TryGetValue, addr 0x2f79608, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x335f424, size 0x60, virtual false, abstract: false, final false
   static inline bool TryGetValue(::StringW fullTypeName, ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*> factoryList);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* getStaticF_s_Factories();
 
-  /// @brief Method get_factories, addr 0x2f782ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_factories, addr 0x335e108, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* get_factories();
 
   static inline void setStaticF_s_Factories(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* value);

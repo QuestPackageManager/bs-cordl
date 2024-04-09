@@ -21,24 +21,24 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x2788670, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x26b2454, size 0xb4, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x2788754, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x26b2538, size 0x260, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x2788bac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x26b2990, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x2788bb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x26b2998, size 0x8, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27885fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b23e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x2788bbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x26b29a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

@@ -45,6 +45,39 @@ class __Button__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::Button);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Button__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Button__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::Button::UxmlFactory*
+class CORDL_TYPE __Button__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Button*, ::UnityEngine::UIElements::__Button__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__Button__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x3386ce4, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Button__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Button__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Button__UxmlFactory(__Button__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Button__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Button__UxmlFactory(__Button__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Button__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -55,7 +88,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2fa0f10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3386d2c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +134,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  /// @brief Method DoMeasure, addr 0x2fa0d80, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x3386b9c, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
@@ -109,10 +142,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::System::Action* clickEvent);
 
-  /// @brief Method OnKeyDown, addr 0x2fa0c68, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x3386a84, size 0x118, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x2fa0c30, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x3386a4c, size 0x38, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
@@ -121,24 +154,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x2fa0c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3386a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f93e3c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3379c58, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent);
 
   static inline ::StringW getStaticF_NonEmptyString();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x2fa0bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x33869d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
   static inline void setStaticF_NonEmptyString(::StringW value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x2fa0bc4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x33869e0, size 0x64, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
 protected:
@@ -164,39 +197,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Button, 0x480>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Clickable) == 0x478, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::Button::UxmlFactory*
-class CORDL_TYPE __Button__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Button*, ::UnityEngine::UIElements::__Button__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__Button__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2fa0ec8, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Button__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Button__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Button__UxmlFactory(__Button__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Button__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Button__UxmlFactory(__Button__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Button__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Button);

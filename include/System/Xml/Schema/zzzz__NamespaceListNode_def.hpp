@@ -48,14 +48,14 @@ public:
   /// @brief Field particle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_particle, put = __cordl_internal_set_particle))::System::Object* particle;
 
-  /// @brief Method ConstructPos, addr 0x29fa448, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x2df9340, size 0x40, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x29f9fc8, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x2df8ec0, size 0x478, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method GetResolvedSymbols, addr 0x29f9fa8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetResolvedSymbols, addr 0x2df8ea0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* GetResolvedSymbols(::System::Xml::Schema::SymbolsDictionary* symbols);
 
   static inline ::System::Xml::Schema::NamespaceListNode* New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_particle(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29f9f7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df8e74, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
 
-  /// @brief Method get_IsNullable, addr 0x29fa488, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x2df9380, size 0x40, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:

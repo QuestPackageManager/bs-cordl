@@ -23,13 +23,13 @@ namespace Unity::Profiling::LowLevel::Unsafe {
 class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeginSample, addr 0x2de4be0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x31cb4c0, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(void* markerPtr);
 
-  /// @brief Method CreateMarker, addr 0x2de4a5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x31cb33c, size 0x5c, virtual false, abstract: false, final false
   static inline void* CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method EndSample, addr 0x2de4cac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x31cb58c, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(void* markerPtr);
 
 protected:

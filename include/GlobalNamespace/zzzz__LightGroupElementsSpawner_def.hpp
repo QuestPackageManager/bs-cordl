@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__useAlternatePrefab(bool value);
 
-  /// @brief Method .ctor, addr 0x22d20bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f1504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

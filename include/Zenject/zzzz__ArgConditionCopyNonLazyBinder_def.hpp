@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithArguments, addr 0x302e7dc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WithArguments, addr 0x3413668, size 0x18c, virtual false, abstract: false, final false
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method WithArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -60,10 +60,10 @@ public:
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6);
 
-  /// @brief Method WithArgumentsExplicit, addr 0x302e968, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method WithArgumentsExplicit, addr 0x34137f4, size 0x3a8, virtual false, abstract: false, final false
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method .ctor, addr 0x302e7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

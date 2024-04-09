@@ -38,10 +38,10 @@ public:
   /// @brief Field _typeId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__typeId, put = __cordl_internal_set__typeId))::StringW _typeId;
 
-  /// @brief Method Equals, addr 0x2a5a12c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e3d084, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2a5a1d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e3d128, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::EditorAttribute* New_ctor(::StringW typeName, ::StringW baseTypeName);
@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set__typeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a5a000, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e3cf58, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW baseTypeName);
 
-  /// @brief Method get_EditorBaseTypeName, addr 0x2a5a090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorBaseTypeName, addr 0x2e3cfe8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorBaseTypeName();
 
-  /// @brief Method get_EditorTypeName, addr 0x2a5a098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorTypeName, addr 0x2e3cff0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorTypeName();
 
-  /// @brief Method get_TypeId, addr 0x2a5a0a0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x2e3cff8, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
 protected:

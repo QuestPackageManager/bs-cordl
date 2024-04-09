@@ -3,10 +3,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Debug)
 namespace System {
@@ -16,16 +14,10 @@ namespace System {
 class Object;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 class ILogger;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -47,86 +39,77 @@ public:
   /// @brief Field s_Logger, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Logger, put = setStaticF_s_Logger))::UnityEngine::ILogger* s_Logger;
 
-  /// @brief Method Break, addr 0x2de69a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Break, addr 0x31ccf48, size 0x28, virtual false, abstract: false, final false
   static inline void Break();
 
-  /// @brief Method CallOverridenDebugHandler, addr 0x2de7cb4, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method CallOverridenDebugHandler, addr 0x31ce254, size 0x3f8, virtual false, abstract: false, final false
   static inline bool CallOverridenDebugHandler(::System::Exception* exception, ::UnityEngine::Object* obj);
 
-  /// @brief Method DrawLine, addr 0x2de67a0, size 0xe8, virtual false, abstract: false, final false
-  static inline void DrawLine(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color color);
-
-  /// @brief Method DrawLine, addr 0x2de6888, size 0xb4, virtual false, abstract: false, final false
-  static inline void DrawLine(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color color, float_t duration, bool depthTest);
-
-  /// @brief Method DrawLine_Injected, addr 0x2de693c, size 0x6c, virtual false, abstract: false, final false
-  static inline void DrawLine_Injected(ByRef<::UnityEngine::Vector3> start, ByRef<::UnityEngine::Vector3> end, ByRef<::UnityEngine::Color> color, float_t duration, bool depthTest);
-
-  /// @brief Method ExtractStackTraceNoAlloc, addr 0x2de69d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractStackTraceNoAlloc, addr 0x31ccf70, size 0x54, virtual false, abstract: false, final false
   static inline int32_t ExtractStackTraceNoAlloc(::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferMax, ::StringW projectFolder);
 
-  /// @brief Method IsLoggingEnabled, addr 0x2de80ac, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method IsLoggingEnabled, addr 0x31ce64c, size 0x224, virtual false, abstract: false, final false
   static inline bool IsLoggingEnabled();
 
-  /// @brief Method Log, addr 0x2de6a24, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x31ccfc4, size 0x108, virtual false, abstract: false, final false
   static inline void Log(::System::Object* message);
 
-  /// @brief Method Log, addr 0x2de6b2c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x31cd0cc, size 0x118, virtual false, abstract: false, final false
   static inline void Log(::System::Object* message, ::UnityEngine::Object* context);
 
-  /// @brief Method LogAssertion, addr 0x2de7a6c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LogAssertion, addr 0x31ce00c, size 0x108, virtual false, abstract: false, final false
   static inline void LogAssertion(::System::Object* message);
 
-  /// @brief Method LogAssertionFormat, addr 0x2de7b74, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method LogAssertionFormat, addr 0x31ce114, size 0x118, virtual false, abstract: false, final false
   static inline void LogAssertionFormat(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogError, addr 0x2de6d5c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x31cd2fc, size 0x108, virtual false, abstract: false, final false
   static inline void LogError(::System::Object* message);
 
-  /// @brief Method LogError, addr 0x2de6e64, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x31cd404, size 0x118, virtual false, abstract: false, final false
   static inline void LogError(::System::Object* message, ::UnityEngine::Object* context);
 
-  /// @brief Method LogErrorFormat, addr 0x2de7094, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method LogErrorFormat, addr 0x31cd634, size 0x11c, virtual false, abstract: false, final false
   static inline void LogErrorFormat(::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogErrorFormat, addr 0x2de6f7c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method LogErrorFormat, addr 0x31cd51c, size 0x118, virtual false, abstract: false, final false
   static inline void LogErrorFormat(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogException, addr 0x2de71b0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LogException, addr 0x31cd750, size 0x108, virtual false, abstract: false, final false
   static inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x2de72b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method LogException, addr 0x31cd858, size 0x114, virtual false, abstract: false, final false
   static inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
-  /// @brief Method LogFormat, addr 0x2de6c44, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method LogFormat, addr 0x31cd1e4, size 0x118, virtual false, abstract: false, final false
   static inline void LogFormat(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogWarning, addr 0x2de73cc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x31cd96c, size 0x108, virtual false, abstract: false, final false
   static inline void LogWarning(::System::Object* message);
 
-  /// @brief Method LogWarning, addr 0x2de74d4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x31cda74, size 0x118, virtual false, abstract: false, final false
   static inline void LogWarning(::System::Object* message, ::UnityEngine::Object* context);
 
-  /// @brief Method LogWarningFormat, addr 0x2de7704, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method LogWarningFormat, addr 0x31cdca4, size 0x11c, virtual false, abstract: false, final false
   static inline void LogWarningFormat(::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogWarningFormat, addr 0x2de75ec, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method LogWarningFormat, addr 0x31cdb8c, size 0x118, virtual false, abstract: false, final false
   static inline void LogWarningFormat(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Assert, addr 0x2de7820, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Assert, addr 0x31cddc0, size 0x130, virtual false, abstract: false, final false
   static inline void _cordl_Assert(bool condition);
 
-  /// @brief Method Assert, addr 0x2de7950, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Assert, addr 0x31cdef0, size 0x11c, virtual false, abstract: false, final false
   static inline void _cordl_Assert(bool condition, ::StringW message);
 
   static inline ::UnityEngine::ILogger* getStaticF_s_DefaultLogger();
 
   static inline ::UnityEngine::ILogger* getStaticF_s_Logger();
 
-  /// @brief Method get_isDebugBuild, addr 0x2de7c8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isDebugBuild, addr 0x31ce22c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isDebugBuild();
 
-  /// @brief Method get_unityLogger, addr 0x2de6748, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_unityLogger, addr 0x31ccef0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::ILogger* get_unityLogger();
 
   static inline void setStaticF_s_DefaultLogger(::UnityEngine::ILogger* value);

@@ -24,25 +24,25 @@ namespace System::Net::Mail {
 class CORDL_TYPE MailAddressParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeOrThrow, addr 0x2a4dfd8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method NormalizeOrThrow, addr 0x2e30720, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW NormalizeOrThrow(::StringW input);
 
-  /// @brief Method ParseAddress, addr 0x2a4d2b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ParseAddress, addr 0x2e2f9f8, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data);
 
-  /// @brief Method ParseAddress, addr 0x2a4d2e0, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method ParseAddress, addr 0x2e2fa28, size 0x378, virtual false, abstract: false, final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data, bool expectMultipleAddresses, ByRef<int32_t> index);
 
-  /// @brief Method ParseDisplayName, addr 0x2a4da74, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ParseDisplayName, addr 0x2e301bc, size 0x204, virtual false, abstract: false, final false
   static inline ::StringW ParseDisplayName(::StringW data, ByRef<int32_t> index, bool expectMultipleAddresses);
 
-  /// @brief Method ParseDomain, addr 0x2a4d6b8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ParseDomain, addr 0x2e2fe00, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW ParseDomain(::StringW data, ByRef<int32_t> index);
 
-  /// @brief Method ParseLocalPart, addr 0x2a4d7a0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method ParseLocalPart, addr 0x2e2fee8, size 0x2d4, virtual false, abstract: false, final false
   static inline ::StringW ParseLocalPart(::StringW data, ByRef<int32_t> index, bool expectAngleBracket, bool expectMultipleAddresses);
 
-  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x2a4d658, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x2e2fda0, size 0x60, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsAndThrowIfIncomplete(::StringW data, int32_t index);
 
 protected:

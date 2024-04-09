@@ -113,16 +113,16 @@ public:
   // Declarations
   using ObjectType = ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType;
 
-  /// @brief Method ReadInt32FromByteArray, addr 0x2b739d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32FromByteArray, addr 0x2f58e84, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ReadInt32FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset);
 
-  /// @brief Method ReadObjectFromByteArray, addr 0x2b73acc, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectFromByteArray, addr 0x2f58f7c, size 0x5a0, virtual false, abstract: false, final false
   static inline ::System::Object* ReadObjectFromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData, int32_t dataIndex);
 
-  /// @brief Method WriteInt32ToByteArray, addr 0x2b73a48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteInt32ToByteArray, addr 0x2f58ef8, size 0x84, virtual false, abstract: false, final false
   static inline int32_t WriteInt32ToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t val, int32_t offset);
 
-  /// @brief Method WriteObjectToByteList, addr 0x2b7406c, size 0xb60, virtual false, abstract: false, final false
+  /// @brief Method WriteObjectToByteList, addr 0x2f5951c, size 0xb60, virtual false, abstract: false, final false
   static inline int32_t WriteObjectToByteList(::System::Object* obj, ::System::Collections::Generic::List_1<uint8_t>* buffer);
 
 protected:

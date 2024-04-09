@@ -57,13 +57,13 @@ public:
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* New_ctor();
 
-  /// @brief Method <.ctor>b__1_0, addr 0xea0bf0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0xf77b0c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> __ctor_b__1_0(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
-  /// @brief Method <.ctor>b__1_1, addr 0xea0c08, size 0x1060, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_1, addr 0xf77b24, size 0x1060, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* __ctor_b__1_1(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
-  /// @brief Method .ctor, addr 0xea0be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf77b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* getStaticF___9();
@@ -129,10 +129,10 @@ public:
   constexpr void __cordl_internal_set__environmentTracksTypeMap(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
 
-  /// @brief Method .ctor, addr 0xe9eda0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf75cbc, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions);
 
-  /// @brief Method get_Item, addr 0xea0b14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0xf77a30, size 0x70, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* get_Item(::GlobalNamespace::EnvironmentInfoSO* type);
 
 protected:

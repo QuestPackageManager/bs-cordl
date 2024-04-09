@@ -36,6 +36,39 @@ class __FlyingTextEffect__Pool;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingTextEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__FlyingTextEffect__Pool);
+// Type: ::Pool
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::FlyingTextEffect::Pool*
+class CORDL_TYPE __FlyingTextEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingTextEffect>> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::__FlyingTextEffect__Pool* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25b3564, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FlyingTextEffect__Pool();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__FlyingTextEffect__Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __FlyingTextEffect__Pool(__FlyingTextEffect__Pool&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__FlyingTextEffect__Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __FlyingTextEffect__Pool(__FlyingTextEffect__Pool const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FlyingTextEffect__Pool, 0x40>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::FlyingTextEffect
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -55,10 +88,10 @@ public:
   /// @brief Field _text, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
 
-  /// @brief Method InitAndPresent, addr 0x248f194, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x25b3458, size 0x78, virtual false, abstract: false, final false
   inline void InitAndPresent(::StringW text, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float_t fontSize, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x248f20c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x25b34d0, size 0x64, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingTextEffect* New_ctor();
@@ -81,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x248f270, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b3534, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,39 +150,6 @@ static_assert(offsetof(::GlobalNamespace::FlyingTextEffect, ____text) == 0x80, "
 static_assert(offsetof(::GlobalNamespace::FlyingTextEffect, ____fadeAnimationCurve) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingTextEffect, ____color) == 0x90, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::FlyingTextEffect::Pool*
-class CORDL_TYPE __FlyingTextEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingTextEffect>> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::__FlyingTextEffect__Pool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x248f2a0, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FlyingTextEffect__Pool();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FlyingTextEffect__Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __FlyingTextEffect__Pool(__FlyingTextEffect__Pool&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__FlyingTextEffect__Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __FlyingTextEffect__Pool(__FlyingTextEffect__Pool const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FlyingTextEffect__Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingTextEffect);

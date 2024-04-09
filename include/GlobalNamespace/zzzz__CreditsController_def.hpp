@@ -2,10 +2,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
@@ -26,10 +25,10 @@ namespace GlobalNamespace {
 class PackDefinitionSO;
 }
 namespace GlobalNamespace {
-class __CreditsController___ScrollCoroutine_d__17;
+class __CreditsController___ScrollCoroutine_d__18;
 }
 namespace GlobalNamespace {
-struct __CreditsController___Start_d__14;
+struct __CreditsController___StartAsync_d__15;
 }
 namespace GlobalNamespace {
 class __CreditsController____c;
@@ -47,7 +46,7 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -57,6 +56,9 @@ template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -81,19 +83,19 @@ namespace GlobalNamespace {
 class CreditsController;
 }
 namespace GlobalNamespace {
-class __CreditsController___ScrollCoroutine_d__17;
+class __CreditsController___ScrollCoroutine_d__18;
 }
 namespace GlobalNamespace {
 class __CreditsController____c;
 }
 namespace GlobalNamespace {
-struct __CreditsController___Start_d__14;
+struct __CreditsController___StartAsync_d__15;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CreditsController);
-MARK_REF_PTR_T(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17);
+MARK_REF_PTR_T(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18);
 MARK_REF_PTR_T(::GlobalNamespace::__CreditsController____c);
-MARK_VAL_T(::GlobalNamespace::__CreditsController___Start_d__14);
+MARK_VAL_T(::GlobalNamespace::__CreditsController___StartAsync_d__15);
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -105,56 +107,56 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__CreditsController____c* __9;
 
-  /// @brief Field <>9__14_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* __9__14_0;
-
-  /// @brief Field <>9__14_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__14_1, put = setStaticF___9__14_1))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* __9__14_1;
-
-  /// @brief Field <>9__14_2, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF___9__14_2,
-               put = setStaticF___9__14_2))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>*>* __9__14_2;
-
   /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* __9__15_0;
 
+  /// @brief Field <>9__15_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__15_1, put = setStaticF___9__15_1))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* __9__15_1;
+
+  /// @brief Field <>9__15_2, offset 0xffffffff, size 0x8
+  static __declspec(
+      property(get = getStaticF___9__15_2,
+               put = setStaticF___9__15_2))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>*>* __9__15_2;
+
+  /// @brief Field <>9__16_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__16_0, put = setStaticF___9__16_0))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* __9__16_0;
+
   static inline ::GlobalNamespace::__CreditsController____c* New_ctor();
 
-  /// @brief Method <OnDestroy>b__15_0, addr 0x251642c, size 0x28, virtual false, abstract: false, final false
-  inline bool _OnDestroy_b__15_0(::GlobalNamespace::PackDefinitionSO* p);
+  /// @brief Method <OnDestroy>b__16_0, addr 0x263a9c4, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnDestroy_b__16_0(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <Start>b__14_0, addr 0x2516354, size 0x28, virtual false, abstract: false, final false
-  inline bool _Start_b__14_0(::GlobalNamespace::PackDefinitionSO* p);
+  /// @brief Method <StartAsync>b__15_0, addr 0x263a8fc, size 0x18, virtual false, abstract: false, final false
+  inline bool _StartAsync_b__15_0(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <Start>b__14_1, addr 0x251637c, size 0x20, virtual false, abstract: false, final false
-  inline int32_t _Start_b__14_1(::GlobalNamespace::PackDefinitionSO* p);
+  /// @brief Method <StartAsync>b__15_1, addr 0x263a914, size 0x20, virtual false, abstract: false, final false
+  inline int32_t _StartAsync_b__15_1(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method <Start>b__14_2, addr 0x251639c, size 0x90, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>* _Start_b__14_2(::GlobalNamespace::PackDefinitionSO* p);
+  /// @brief Method <StartAsync>b__15_2, addr 0x263a934, size 0x90, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>* _StartAsync_b__15_2(::GlobalNamespace::PackDefinitionSO* p);
 
-  /// @brief Method .ctor, addr 0x251634c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263a8f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__CreditsController____c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* getStaticF___9__14_0();
-
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* getStaticF___9__14_1();
-
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>*>* getStaticF___9__14_2();
-
   static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* getStaticF___9__15_0();
+
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* getStaticF___9__15_1();
+
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>*>* getStaticF___9__15_2();
+
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* getStaticF___9__16_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__CreditsController____c* value);
 
-  static inline void setStaticF___9__14_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* value);
-
-  static inline void setStaticF___9__14_1(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* value);
-
-  static inline void setStaticF___9__14_2(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>*>* value);
-
   static inline void setStaticF___9__15_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* value);
+
+  static inline void setStaticF___9__15_1(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* value);
+
+  static inline void setStaticF___9__15_2(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>*>* value);
+
+  static inline void setStaticF___9__16_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -176,21 +178,21 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CreditsController____c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<Start>d__14
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// Type: ::<StartAsync>d__15
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::CreditsController::<Start>d__14
-struct CORDL_TYPE __CreditsController___Start_d__14 {
+// CS Name: ::CreditsController::<StartAsync>d__15
+struct CORDL_TYPE __CreditsController___StartAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2516454, size 0x8b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x263a9dc, size 0x8b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2516d08, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x263b290, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -198,51 +200,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CreditsController___Start_d__14();
+  constexpr __CreditsController___StartAsync_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::CreditsController>", modifiers: "",
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::CreditsController>", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>,::Array<::UnityW<::UnityEngine::GameObject>>*>>", modifiers: "", def_value: None }]
-  constexpr __CreditsController___Start_d__14(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::CreditsController> __4__this,
+  constexpr __CreditsController___StartAsync_d__15(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::CreditsController> __4__this,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>> __u__1) noexcept;
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CreditsController> __4__this;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>> __u__1;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CreditsController___Start_d__14, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CreditsController___StartAsync_d__15, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___Start_d__14, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___StartAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___Start_d__14, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___StartAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___Start_d__14, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___StartAsync_d__15, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___Start_d__14, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___StartAsync_d__15, __u__1) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<ScrollCoroutine>d__17
+// Type: ::<ScrollCoroutine>d__18
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CreditsController::<ScrollCoroutine>d__17*
-class CORDL_TYPE __CreditsController___ScrollCoroutine_d__17 : public ::System::Object {
+// CS Name: ::CreditsController::<ScrollCoroutine>d__18*
+class CORDL_TYPE __CreditsController___ScrollCoroutine_d__18 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -279,21 +281,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2516d18, size 0x26c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x263b2a0, size 0x26c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2516f84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x263b50c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2516f8c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x263b514, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2516fcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x263b554, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2516d14, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x263b29c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -338,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollingSpeed_5__5(float_t value);
 
-  /// @brief Method .ctor, addr 0x2515c60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263a208, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -353,16 +355,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CreditsController___ScrollCoroutine_d__17();
+  constexpr __CreditsController___ScrollCoroutine_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CreditsController___ScrollCoroutine_d__17", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__CreditsController___ScrollCoroutine_d__18", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CreditsController___ScrollCoroutine_d__17(__CreditsController___ScrollCoroutine_d__17&&) = delete;
+  __CreditsController___ScrollCoroutine_d__18(__CreditsController___ScrollCoroutine_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CreditsController___ScrollCoroutine_d__17", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__CreditsController___ScrollCoroutine_d__18", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CreditsController___ScrollCoroutine_d__17(__CreditsController___ScrollCoroutine_d__17 const&) = delete;
+  __CreditsController___ScrollCoroutine_d__18(__CreditsController___ScrollCoroutine_d__18 const&) = delete;
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -388,21 +390,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, ____contentHeight_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, ____contentHeight_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, ____contentWrapperHeight_5__3) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, ____contentWrapperHeight_5__3) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, ____posY_5__4) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, ____posY_5__4) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17, ____scrollingSpeed_5__5) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18, ____scrollingSpeed_5__5) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::CreditsController
@@ -413,9 +415,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE CreditsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _ScrollCoroutine_d__17 = ::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17;
+  using _ScrollCoroutine_d__18 = ::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18;
 
-  using _Start_d__14 = ::GlobalNamespace::__CreditsController___Start_d__14;
+  using _StartAsync_d__15 = ::GlobalNamespace::__CreditsController___StartAsync_d__15;
 
   using __c = ::GlobalNamespace::__CreditsController____c;
 
@@ -465,42 +467,45 @@ public:
   /// @brief Field anchor, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_anchor, put = setStaticF_anchor))::UnityEngine::Vector2 anchor;
 
-  /// @brief Method Finish, addr 0x25158fc, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x2639ea4, size 0x2fc, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method HandleHmdMounted, addr 0x2515d40, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdMounted, addr 0x263a2e8, size 0x2c, virtual false, abstract: false, final false
   inline void HandleHmdMounted();
 
-  /// @brief Method HandleHmdUnmounted, addr 0x2515d6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdUnmounted, addr 0x263a314, size 0x30, virtual false, abstract: false, final false
   inline void HandleHmdUnmounted();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x2515c88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x263a230, size 0x30, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x2515ce8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x263a290, size 0x2c, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::CreditsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2515268, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2639810, size 0x694, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PauseCredits, addr 0x2515cb8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PauseCredits, addr 0x263a260, size 0x30, virtual false, abstract: false, final false
   inline void PauseCredits();
 
-  /// @brief Method ScrollCoroutine, addr 0x2515bf8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ScrollCoroutine, addr 0x263a1a0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ScrollCoroutine();
 
-  /// @brief Method SpawnAllCredits, addr 0x2515d9c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SpawnAllCredits, addr 0x263a344, size 0x98, virtual false, abstract: false, final false
   inline void SpawnAllCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* musicPackCredits);
 
-  /// @brief Method SpawnCredits, addr 0x2515e34, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method SpawnCredits, addr 0x263a3dc, size 0x454, virtual false, abstract: false, final false
   inline float_t SpawnCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* creditsToSpawn, float_t initialHeight);
 
-  /// @brief Method Start, addr 0x25151d4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26396c8, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnpauseCredits, addr 0x2515d14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method StartAsync, addr 0x2639748, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* StartAsync();
+
+  /// @brief Method UnpauseCredits, addr 0x263a2bc, size 0x2c, virtual false, abstract: false, final false
   inline void UnpauseCredits();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__afterMusicPacksCredits() const;
@@ -581,7 +586,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x2516288, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263a830, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_anchor();
@@ -675,8 +680,8 @@ static_assert(offsetof(::GlobalNamespace::CreditsController, ____isPaused) == 0x
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreditsController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CreditsController*, "", "CreditsController");
-NEED_NO_BOX(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__17*, "", "CreditsController/<ScrollCoroutine>d__17");
+NEED_NO_BOX(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__18*, "", "CreditsController/<ScrollCoroutine>d__18");
 NEED_NO_BOX(::GlobalNamespace::__CreditsController____c);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CreditsController____c*, "", "CreditsController/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CreditsController___Start_d__14, "", "CreditsController/<Start>d__14");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CreditsController___StartAsync_d__15, "", "CreditsController/<StartAsync>d__15");

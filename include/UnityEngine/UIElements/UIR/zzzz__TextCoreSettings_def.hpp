@@ -37,13 +37,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*();
 
-  /// @brief Method Equals, addr 0x2f34a80, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x331a89c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2f34b10, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x331a92c, size 0xe8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
 
-  /// @brief Method GetHashCode, addr 0x2f34bf8, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x331aa14, size 0x198, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"

@@ -38,14 +38,14 @@ public:
   /// @brief Field g, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
 
-  /// @brief Method GenerateVerifier, addr 0x12af884, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GenerateVerifier, addr 0x1387408, size 0x40, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateVerifier(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity,
                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method Init, addr 0x12af850, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x13873d4, size 0xc, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0x12af85c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x13873e0, size 0x28, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x12af848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13873cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

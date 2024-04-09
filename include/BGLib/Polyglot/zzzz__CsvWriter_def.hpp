@@ -29,22 +29,22 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE CsvWriter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendCSVLine, addr 0xeb0da0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AppendCSVLine, addr 0xf89920, size 0x24, virtual false, abstract: false, final false
   static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::ArrayW<::StringW, ::Array<::StringW>*> values);
 
-  /// @brief Method AppendCSVLine, addr 0xeb0d7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AppendCSVLine, addr 0xf898fc, size 0x24, virtual false, abstract: false, final false
   static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method AppendElement, addr 0xeb0cf8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AppendElement, addr 0xf89878, size 0x84, virtual false, abstract: false, final false
   static inline void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
 
-  /// @brief Method AppendRow, addr 0xeb06b0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AppendRow, addr 0xf89230, size 0x1f8, virtual false, abstract: false, final false
   static inline void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
 
-  /// @brief Method AppendRowInternal, addr 0xeb08a8, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method AppendRowInternal, addr 0xf89428, size 0x39c, virtual false, abstract: false, final false
   static inline void AppendRowInternal(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* row);
 
-  /// @brief Method HasEscapeChars, addr 0xeb0c44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HasEscapeChars, addr 0xf897c4, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasEscapeChars(::StringW element);
 
 protected:

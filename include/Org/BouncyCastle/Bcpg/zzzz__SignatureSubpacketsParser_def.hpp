@@ -30,12 +30,12 @@ public:
   /// @brief Field input, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
 
-  /// @brief Method CheckData, addr 0x126b07c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CheckData, addr 0x1343c00, size 0xf0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t expected, int32_t bytesRead, ::StringW name);
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket, addr 0x1269e60, size 0x650, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x13429e4, size 0x650, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* ReadPacket();
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_input();
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x1269e38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13429bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
 protected:

@@ -31,10 +31,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKTrackedSpace {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x23d9400, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24fa94c, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x23d92d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x24fa824, size 0x64, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTrackedSpace get_empty();
 
   // Ctor Parameters []

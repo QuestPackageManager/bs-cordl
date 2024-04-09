@@ -19,7 +19,9 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlSchemaProviderAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_IsAny)) bool IsAny;
+  __declspec(property(get = get_IsAny, put = set_IsAny)) bool IsAny;
+
+  __declspec(property(get = get_MethodName))::StringW MethodName;
 
   /// @brief Field _isAny, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__isAny, put = __cordl_internal_set__isAny)) bool _isAny;
@@ -41,10 +43,16 @@ public:
 
   constexpr void __cordl_internal_set__methodName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29f8278, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd6730, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName);
 
-  /// @brief Method set_IsAny, addr 0x29f82a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsAny, addr 0x2dd6760, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsAny();
+
+  /// @brief Method get_MethodName, addr 0x2dd6758, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_MethodName();
+
+  /// @brief Method set_IsAny, addr 0x2dd6768, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAny(bool value);
 
 protected:

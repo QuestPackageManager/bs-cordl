@@ -109,21 +109,21 @@ public:
   /// @brief Field totalDistanceDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_totalDistanceDidChangeEvent, put = __cordl_internal_set_totalDistanceDidChangeEvent))::System::Action_1<float_t>* totalDistanceDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x24f9094, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x261e580, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDidPauseEvent, addr 0x24f9870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPauseEvent, addr 0x261ed5c, size 0x8, virtual false, abstract: false, final false
   inline void HandleDidPauseEvent();
 
-  /// @brief Method HandleSaberPositionsWereUpdated, addr 0x24f943c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method HandleSaberPositionsWereUpdated, addr 0x261e928, size 0x434, virtual false, abstract: false, final false
   inline void HandleSaberPositionsWereUpdated(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
 
   static inline ::GlobalNamespace::SaberActivityCounter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24f929c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x261e788, size 0x1a0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x24f9148, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x261e634, size 0x154, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__averageWindowDuration() const;
@@ -240,31 +240,31 @@ public:
 
   constexpr void __cordl_internal_set_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x24f9878, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261ed64, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_totalDistanceDidChangeEvent, addr 0x24f8f14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_totalDistanceDidChangeEvent, addr 0x261e400, size 0xb0, virtual false, abstract: false, final false
   inline void add_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_handMovementAveragingValueRecorder, addr 0x24f63b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_handMovementAveragingValueRecorder, addr 0x261b8a0, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
 
-  /// @brief Method get_leftHandMovementDistance, addr 0x24f9084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandMovementDistance, addr 0x261e570, size 0x8, virtual false, abstract: false, final false
   inline float_t get_leftHandMovementDistance();
 
-  /// @brief Method get_leftSaberMovementDistance, addr 0x24f9074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftSaberMovementDistance, addr 0x261e560, size 0x8, virtual false, abstract: false, final false
   inline float_t get_leftSaberMovementDistance();
 
-  /// @brief Method get_rightHandMovementDistance, addr 0x24f908c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandMovementDistance, addr 0x261e578, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rightHandMovementDistance();
 
-  /// @brief Method get_rightSaberMovementDistance, addr 0x24f907c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightSaberMovementDistance, addr 0x261e568, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rightSaberMovementDistance();
 
-  /// @brief Method get_saberMovementAveragingValueRecorder, addr 0x24f6398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_saberMovementAveragingValueRecorder, addr 0x261b884, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
 
-  /// @brief Method remove_totalDistanceDidChangeEvent, addr 0x24f8fc4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_totalDistanceDidChangeEvent, addr 0x261e4b0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:

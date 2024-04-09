@@ -23,7 +23,7 @@ public:
 
   static inline ::System::Net::SystemNetworkCredential* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae69c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ecce78, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::SystemNetworkCredential* getStaticF_defaultCredential();

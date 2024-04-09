@@ -22,25 +22,25 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ColorWithAlpha, addr 0xeb68a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithAlpha, addr 0xf8f428, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float_t alpha);
 
-  /// @brief Method ColorWithB, addr 0xeb68c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithB, addr 0xf8f440, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float_t b);
 
-  /// @brief Method ColorWithG, addr 0xeb68b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithG, addr 0xf8f438, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float_t g);
 
-  /// @brief Method ColorWithR, addr 0xeb68b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithR, addr 0xf8f430, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float_t r);
 
-  /// @brief Method ColorWithValue, addr 0xeb68c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ColorWithValue, addr 0xf8f448, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float_t value);
 
-  /// @brief Method LerpRGBUnclamped, addr 0xeb691c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LerpRGBUnclamped, addr 0xf8f49c, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
-  /// @brief Method SaturatedColor, addr 0xeb6850, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SaturatedColor, addr 0xf8f3d0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float_t saturation);
 
 protected:

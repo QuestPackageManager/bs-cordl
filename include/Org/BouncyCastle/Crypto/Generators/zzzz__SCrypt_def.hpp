@@ -23,37 +23,37 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE SCrypt : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BlockMix, addr 0xf98284, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method BlockMix, addr 0x1071e08, size 0x11c, virtual false, abstract: false, final false
   static inline void BlockMix(::ArrayW<uint32_t, ::Array<uint32_t>*> B, ::ArrayW<uint32_t, ::Array<uint32_t>*> X1, ::ArrayW<uint32_t, ::Array<uint32_t>*> X2, ::ArrayW<uint32_t, ::Array<uint32_t>*> Y,
                               int32_t r);
 
-  /// @brief Method Clear, addr 0xf98420, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x1071fa4, size 0x30, virtual false, abstract: false, final false
   static inline void Clear(::System::Array* array);
 
-  /// @brief Method ClearAll, addr 0xf98450, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearAll, addr 0x1071fd4, size 0x5c, virtual false, abstract: false, final false
   static inline void ClearAll(::ArrayW<::System::Array*, ::Array<::System::Array*>*> arrays);
 
-  /// @brief Method Generate, addr 0xf97880, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x1071404, size 0x334, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> S, int32_t N, int32_t r, int32_t p, int32_t dkLen);
 
-  /// @brief Method IsPowerOf2, addr 0xf97bb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPowerOf2, addr 0x1071738, size 0x10, virtual false, abstract: false, final false
   static inline bool IsPowerOf2(int32_t x);
 
-  /// @brief Method MFcrypt, addr 0xf97bc4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method MFcrypt, addr 0x1071748, size 0x1e8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MFcrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> S, int32_t N, int32_t r, int32_t p, int32_t dkLen);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::SCrypt* New_ctor();
 
-  /// @brief Method SMix, addr 0xf97ec0, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method SMix, addr 0x1071a44, size 0x3c4, virtual false, abstract: false, final false
   static inline void SMix(::ArrayW<uint32_t, ::Array<uint32_t>*> B, int32_t BOff, int32_t N, int32_t d, int32_t r);
 
-  /// @brief Method SingleIterationPBKDF2, addr 0xf97dac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SingleIterationPBKDF2, addr 0x1071930, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SingleIterationPBKDF2(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> S, int32_t dkLen);
 
-  /// @brief Method Xor, addr 0xf983a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x1071f24, size 0x80, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> b, int32_t bOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> output);
 
-  /// @brief Method .ctor, addr 0xf984ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1072030, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

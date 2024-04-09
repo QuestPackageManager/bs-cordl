@@ -18,12 +18,13 @@ namespace System {
 class CORDL_TYPE LocalAppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field DontThrowOnInvalidSurrogatePairs, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_DontThrowOnInvalidSurrogatePairs, put = setStaticF_DontThrowOnInvalidSurrogatePairs)) bool DontThrowOnInvalidSurrogatePairs;
+  /// @brief Field MemberDescriptorEqualsReturnsFalseIfEquivalent, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent,
+                             put = setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent)) bool MemberDescriptorEqualsReturnsFalseIfEquivalent;
 
-  static inline bool getStaticF_DontThrowOnInvalidSurrogatePairs();
+  static inline bool getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent();
 
-  static inline void setStaticF_DontThrowOnInvalidSurrogatePairs(bool value);
+  static inline void setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value);
 
 protected:
   // Ctor Parameters []

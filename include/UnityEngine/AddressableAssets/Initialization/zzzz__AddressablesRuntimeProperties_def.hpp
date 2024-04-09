@@ -45,25 +45,25 @@ public:
   /// @brief Field s_TokenStartStack, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_TokenStartStack, put = setStaticF_s_TokenStartStack))::System::Collections::Generic::Stack_1<int32_t>* s_TokenStartStack;
 
-  /// @brief Method ClearCachedPropertyValues, addr 0x2b79c88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearCachedPropertyValues, addr 0x2f5f138, size 0x78, virtual false, abstract: false, final false
   static inline void ClearCachedPropertyValues();
 
-  /// @brief Method EvaluateProperty, addr 0x2b79d00, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method EvaluateProperty, addr 0x2f5f1b0, size 0x438, virtual false, abstract: false, final false
   static inline ::StringW EvaluateProperty(::StringW name);
 
-  /// @brief Method EvaluateString, addr 0x2b666cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method EvaluateString, addr 0x2f4bb7c, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW input);
 
-  /// @brief Method EvaluateString, addr 0x2b7a138, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateString, addr 0x2f5f5e8, size 0x58c, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter, ::System::Func_2<::StringW, ::StringW>* varFunc);
 
-  /// @brief Method GetAssemblies, addr 0x2b79b60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblies, addr 0x2f5f010, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies();
 
-  /// @brief Method GetCachedValueCount, addr 0x2b79b80, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetCachedValueCount, addr 0x2f5f030, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetCachedValueCount();
 
-  /// @brief Method SetPropertyValue, addr 0x2b79bf8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyValue, addr 0x2f5f0a8, size 0x90, virtual false, abstract: false, final false
   static inline void SetPropertyValue(::StringW name, ::StringW val);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_CachedValues();

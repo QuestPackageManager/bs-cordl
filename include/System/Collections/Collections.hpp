@@ -6,6 +6,7 @@ module;
 #include "System/Collections/ArrayList.hpp"
 #include "System/Collections/ArrayList_IListWrapper.hpp"
 #include "System/Collections/ArrayList_ReadOnlyArrayList.hpp"
+#include "System/Collections/BitArray.hpp"
 #include "System/Collections/CaseInsensitiveComparer.hpp"
 #include "System/Collections/CaseInsensitiveHashCodeProvider.hpp"
 #include "System/Collections/CollectionBase.hpp"

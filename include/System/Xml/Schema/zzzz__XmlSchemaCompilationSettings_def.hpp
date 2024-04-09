@@ -18,6 +18,8 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaCompilationSettings : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_EnableUpaCheck)) bool EnableUpaCheck;
+
   /// @brief Field enableUpaCheck, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_enableUpaCheck, put = __cordl_internal_set_enableUpaCheck)) bool enableUpaCheck;
 
@@ -29,8 +31,11 @@ public:
 
   constexpr void __cordl_internal_set_enableUpaCheck(bool value);
 
-  /// @brief Method .ctor, addr 0x2a12600, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d11154, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_EnableUpaCheck, addr 0x2d11174, size 0x8, virtual false, abstract: false, final false
+  inline bool get_EnableUpaCheck();
 
 protected:
   // Ctor Parameters []

@@ -56,7 +56,7 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <GenerateUniqueActorName>b__0, addr 0x2db6ad4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <GenerateUniqueActorName>b__0, addr 0x319df84, size 0x30, virtual false, abstract: false, final false
   inline bool _GenerateUniqueActorName_b__0(::UnityEngine::ScriptableObject* x);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2db65ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319da9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1* New_ctor();
 
-  /// @brief Method <GenerateUniqueActorName>b__1, addr 0x2db6b04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <GenerateUniqueActorName>b__1, addr 0x319dfb4, size 0x30, virtual false, abstract: false, final false
   inline bool _GenerateUniqueActorName_b__1(::UnityEngine::ScriptableObject* x);
 
   constexpr ::StringW const& __cordl_internal_get_result() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_result(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2db65f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319daa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,19 +155,19 @@ public:
 
   using __c__DisplayClass0_1 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1;
 
-  /// @brief Method CreateAnimationClipForTrack, addr 0x2db65fc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationClipForTrack, addr 0x319daac, size 0x1b8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
 
-  /// @brief Method GenerateUniqueActorName, addr 0x2db62fc, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GenerateUniqueActorName, addr 0x319d7ac, size 0x2f0, virtual false, abstract: false, final false
   static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* tracks, ::StringW name);
 
-  /// @brief Method RemoveAssetFromObject, addr 0x2db6200, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAssetFromObject, addr 0x319d6b0, size 0x9c, virtual false, abstract: false, final false
   static inline void RemoveAssetFromObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
 
-  /// @brief Method SaveAssetIntoObject, addr 0x2db6118, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetIntoObject, addr 0x319d5c8, size 0xe8, virtual false, abstract: false, final false
   static inline void SaveAssetIntoObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
 
-  /// @brief Method ValidateParentTrack, addr 0x2db67b4, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method ValidateParentTrack, addr 0x319dc64, size 0x320, virtual false, abstract: false, final false
   static inline bool ValidateParentTrack(::UnityEngine::Timeline::TrackAsset* parent, ::System::Type* childType);
 
 protected:

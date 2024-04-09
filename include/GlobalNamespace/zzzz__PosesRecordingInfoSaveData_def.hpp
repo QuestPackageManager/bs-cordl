@@ -86,22 +86,22 @@ public:
 
   constexpr void __cordl_internal_set__nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x245e0c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2585478, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
-  /// @brief Method get_farClip, addr 0x245e0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_farClip, addr 0x2585460, size 0x8, virtual false, abstract: false, final false
   inline float_t get_farClip();
 
-  /// @brief Method get_fieldOfVision, addr 0x245e098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfVision, addr 0x2585450, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfVision();
 
-  /// @brief Method get_hmdOffset, addr 0x245e0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hmdOffset, addr 0x2585468, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hmdOffset();
 
-  /// @brief Method get_nearClip, addr 0x245e0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearClip, addr 0x2585458, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearClip();
 
-  /// @brief Method get_nearOffset, addr 0x245e0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearOffset, addr 0x2585470, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearOffset();
 
 protected:
@@ -207,20 +207,20 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x245e024, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25853dc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration,
                     ::StringW dataFileName);
 
-  /// @brief Method get_dataFileName, addr 0x245e01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataFileName, addr 0x25853d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_dataFileName();
 
-  /// @brief Method get_externalCameraCalibration, addr 0x245e014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_externalCameraCalibration, addr 0x25853cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
 
-  /// @brief Method get_objectIds, addr 0x245e00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectIds, addr 0x25853c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_objectIds();
 
-  /// @brief Method get_version, addr 0x245e004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x25853bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:

@@ -20,36 +20,36 @@ namespace Org::BouncyCastle::Utilities::Net {
 class CORDL_TYPE IPAddress : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsMaskValue, addr 0x11f6e9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsMaskValue, addr 0x12d0a20, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsMaskValue(::StringW component, int32_t size);
 
-  /// @brief Method IsValid, addr 0x11f6acc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x12d0650, size 0x28, virtual false, abstract: false, final false
   static inline bool IsValid(::StringW address);
 
-  /// @brief Method IsValidIPv4, addr 0x11f6af4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidIPv4, addr 0x12d0678, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsValidIPv4(::StringW address);
 
-  /// @brief Method IsValidIPv4WithNetmask, addr 0x11f6c64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsValidIPv4WithNetmask, addr 0x12d07e8, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsValidIPv4WithNetmask(::StringW address);
 
-  /// @brief Method IsValidIPv6, addr 0x11f6b98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidIPv6, addr 0x12d071c, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsValidIPv6(::StringW address);
 
-  /// @brief Method IsValidIPv6WithNetmask, addr 0x11f6d04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsValidIPv6WithNetmask, addr 0x12d0888, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsValidIPv6WithNetmask(::StringW address);
 
-  /// @brief Method IsValidWithNetMask, addr 0x11f6c3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsValidWithNetMask, addr 0x12d07c0, size 0x28, virtual false, abstract: false, final false
   static inline bool IsValidWithNetMask(::StringW address);
 
   static inline ::Org::BouncyCastle::Utilities::Net::IPAddress* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11f7070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d0bf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method unsafeIsValidIPv4, addr 0x11f6da4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method unsafeIsValidIPv4, addr 0x12d0928, size 0xf8, virtual false, abstract: false, final false
   static inline bool unsafeIsValidIPv4(::StringW address);
 
-  /// @brief Method unsafeIsValidIPv6, addr 0x11f6ec8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method unsafeIsValidIPv6, addr 0x12d0a4c, size 0x1a8, virtual false, abstract: false, final false
   static inline bool unsafeIsValidIPv6(::StringW address);
 
 protected:

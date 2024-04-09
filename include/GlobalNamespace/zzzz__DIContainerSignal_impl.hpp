@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__GenericSignal_1_impl.hpp"
-#include "Zenject/zzzz__DiContainer_impl.hpp"
 #include "GlobalNamespace/zzzz__DIContainerSignal_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DIContainerSignal._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DIContainerSignal::*)()>(&::GlobalNamespace::DIContainerSignal::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22b8574;
+  constexpr static std::size_t addrs = 0x23d7a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DIContainerSignal*>::get(), ".ctor",

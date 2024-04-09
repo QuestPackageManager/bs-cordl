@@ -25,7 +25,7 @@ public:
   /// @brief Field KeyValue, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_KeyValue, put = __cordl_internal_set_KeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyValue;
 
-  /// @brief Method Dispose, addr 0x25b4e98, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x26dc2c4, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Security::Cryptography::KeyedHashAlgorithm* New_ctor();
@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set_KeyValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x25b4ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dc30c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0x25b5838, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x26dca1c, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_Key, addr 0x25b58b0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x26dca94, size 0x108, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

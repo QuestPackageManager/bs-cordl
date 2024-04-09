@@ -72,15 +72,15 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x23319e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2451f30, size 0x74, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
 
-  /// @brief Method IsEquivalentTo, addr 0x2333d04, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2454250, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectInfo* New_ctor();
 
-  /// @brief Method SetReferencesFromGameObject, addr 0x2331ccc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetReferencesFromGameObject, addr 0x2452218, size 0xec, virtual false, abstract: false, final false
   inline void SetReferencesFromGameObject();
 
   constexpr ::UnityW<::GlobalNamespace::HEU_BoundingVolume> const& __cordl_internal_get__boundingVolumeReference() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x23318fc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2451e48, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"

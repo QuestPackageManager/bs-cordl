@@ -20,7 +20,7 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE FontEngineUtilities {
 public:
   // Declarations
-  /// @brief Method MaxValue, addr 0x2e8ad24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MaxValue, addr 0x326eb40, size 0x20, virtual false, abstract: false, final false
   static inline int32_t MaxValue(int32_t a, int32_t b, int32_t c);
 
   // Ctor Parameters []

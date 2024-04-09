@@ -24,15 +24,15 @@ namespace Zenject {
 class CORDL_TYPE NonLazyBinder : public ::Zenject::IfNotBoundBinder {
 public:
   // Declarations
-  /// @brief Method Lazy, addr 0x3042304, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Lazy, addr 0x3428190, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::IfNotBoundBinder* Lazy();
 
   static inline ::Zenject::NonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method NonLazy, addr 0x30422e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method NonLazy, addr 0x3428170, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::IfNotBoundBinder* NonLazy();
 
-  /// @brief Method .ctor, addr 0x30422bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3428148, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

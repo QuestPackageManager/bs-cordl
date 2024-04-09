@@ -1,6 +1,5 @@
 #pragma once
 #include "BeatmapSaveDataVersion3/zzzz__EventBoxGroup_1_impl.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__FxEventBox_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventType_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventBoxGroup_def.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventBox_def.hpp"
@@ -12,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::FxEventType (::BeatmapSaveDataVersion3::FxEventBoxGroup::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBoxGroup::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13244b4;
+  constexpr static std::size_t addrs = 0x1400224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FxEventBoxGroup*>::get(), "get_type",
@@ -26,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::FxEventBoxGroup::*)(
     float_t, int32_t, ::BeatmapSaveDataVersion3::FxEventType, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>*)>(&::BeatmapSaveDataVersion3::FxEventBoxGroup::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x13244bc;
+  constexpr static std::size_t addrs = 0x140022c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,7 +3,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartSO_1_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 CORDL_MODULE_EXPORT(AvatarSpritePartSO)
 namespace UnityEngine {
 class Sprite;
@@ -26,10 +25,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe87f80, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5fa58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0xe87f44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0xf5fa1c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
 protected:

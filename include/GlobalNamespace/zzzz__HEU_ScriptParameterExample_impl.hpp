@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptParameterExample::*)()>(&::GlobalNamespace::HEU_ScriptParameterExample::Start)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x230f6e4;
+  constexpr static std::size_t addrs = 0x242fc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ScriptParameterExample*>::get(), "Start",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptParameterExample::*)()>(
     &::GlobalNamespace::HEU_ScriptParameterExample::UpdateGravity)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x230f96c;
+  constexpr static std::size_t addrs = 0x242feb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ScriptParameterExample*>::get(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptParameterExample::*)()>(&::GlobalNamespace::HEU_ScriptParameterExample::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x230fa50;
+  constexpr static std::size_t addrs = 0x242ff9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ScriptParameterExample*>::get(), ".ctor",

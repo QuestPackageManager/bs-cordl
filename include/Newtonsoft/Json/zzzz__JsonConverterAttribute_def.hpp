@@ -25,7 +25,7 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonConverterAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_ConverterParameters, put = set_ConverterParameters))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ConverterParameters;
+  __declspec(property(get = get_ConverterParameters))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ConverterParameters;
 
   __declspec(property(get = get_ConverterType))::System::Type* ConverterType;
 
@@ -52,20 +52,17 @@ public:
 
   constexpr void __cordl_internal_set__converterType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2792f40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c383c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType);
 
-  /// @brief Method .ctor, addr 0x2792fb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c3908, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
 
-  /// @brief Method get_ConverterParameters, addr 0x2792f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterParameters, addr 0x28c3834, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ConverterParameters();
 
-  /// @brief Method get_ConverterType, addr 0x2792f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterType, addr 0x28c382c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ConverterType();
-
-  /// @brief Method set_ConverterParameters, addr 0x2792f38, size 0x8, virtual false, abstract: false, final false
-  inline void set_ConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
 protected:
   // Ctor Parameters []

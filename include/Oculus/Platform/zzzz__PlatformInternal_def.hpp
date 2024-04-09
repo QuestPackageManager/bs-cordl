@@ -368,7 +368,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE __PlatformInternal__HTTP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetHttpTransferUpdateCallback, addr 0x2854a54, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetHttpTransferUpdateCallback, addr 0x29d7038, size 0x74, virtual false, abstract: false, final false
   static inline void SetHttpTransferUpdateCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::HttpTransferUpdate*>* callback);
 
 protected:
@@ -399,7 +399,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE __PlatformInternal__Users : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLinkedAccounts, addr 0x2854ac8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetLinkedAccounts, addr 0x29d70ac, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>*
   GetLinkedAccounts(::ArrayW<::Oculus::Platform::ServiceProvider, ::Array<::Oculus::Platform::ServiceProvider>*> providers);
 
@@ -437,13 +437,13 @@ public:
 
   using Users = ::Oculus::Platform::__PlatformInternal__Users;
 
-  /// @brief Method CrashApplication, addr 0x28547d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CrashApplication, addr 0x29d6db4, size 0x4c, virtual false, abstract: false, final false
   static inline void CrashApplication();
 
-  /// @brief Method InitializeStandaloneAsync, addr 0x285481c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InitializeStandaloneAsync, addr 0x29d6e00, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken);
 
-  /// @brief Method ParseMessageHandle, addr 0x2843f5c, size 0x8b4, virtual false, abstract: false, final false
+  /// @brief Method ParseMessageHandle, addr 0x29c6540, size 0x8b4, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Message* ParseMessageHandle(void* messageHandle, ::Oculus::Platform::__Message__MessageType messageType);
 
 protected:

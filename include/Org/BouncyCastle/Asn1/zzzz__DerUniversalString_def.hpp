@@ -39,22 +39,22 @@ public:
   /// @brief Field table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_table, put = setStaticF_table))::ArrayW<char16_t, ::Array<char16_t>*> table;
 
-  /// @brief Method Asn1Equals, addr 0x1259e94, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x1333a18, size 0xc8, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Encode, addr 0x1259e70, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x13339f4, size 0x24, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetInstance, addr 0x1259b90, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1333714, size 0xfc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerUniversalString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x1259aa0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1333624, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerUniversalString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctets, addr 0x1259df8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x133397c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method GetString, addr 0x1259c8c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x1333810, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::DerUniversalString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x124c8ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1326470, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_table();

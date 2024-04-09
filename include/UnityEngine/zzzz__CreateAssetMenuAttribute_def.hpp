@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e2065c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3207a30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_fileName, addr 0x2e20654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fileName, addr 0x3207a28, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
-  /// @brief Method set_menuName, addr 0x2e2064c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuName, addr 0x3207a20, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
 protected:

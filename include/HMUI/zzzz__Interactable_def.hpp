@@ -44,19 +44,19 @@ public:
 
   constexpr void __cordl_internal_set_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method .ctor, addr 0x22da9bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f9e04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_interactableChangeEvent, addr 0x22e0824, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_interactableChangeEvent, addr 0x23ffc6c, size 0xb0, virtual false, abstract: false, final false
   inline void add_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method get_interactable, addr 0x22e0984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x23ffdcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method remove_interactableChangeEvent, addr 0x22e08d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_interactableChangeEvent, addr 0x23ffd1c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method set_interactable, addr 0x22e098c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x23ffdd4, size 0x3c, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:

@@ -2,7 +2,6 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "BGLib/AsyncInitialization/zzzz__AddressablesLoader_def.hpp"
 #include "BGLib/AsyncInitialization/zzzz__AddressablesLoader_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"

@@ -33,24 +33,24 @@ public:
 
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x2a637cc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2e477c0, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x2a6370c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2e47700, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::SingleConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x2a6383c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e47830, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x2a638ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e478e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x2a63698, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x2e4768c, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x2a636a0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x2e47694, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:

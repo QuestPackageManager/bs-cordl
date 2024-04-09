@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_recordingSettings(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> value);
 
-  /// @brief Method .ctor, addr 0x2469510, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2590890, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> recordingSettings);
 
 protected:

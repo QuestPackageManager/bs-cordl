@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 CORDL_MODULE_EXPORT(HEU_CookedDataEvent)
+namespace HoudiniEngineUnity {
+class HEU_CookedEventData;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_CookedDataEvent;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_CookedDataEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23101b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2430700, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

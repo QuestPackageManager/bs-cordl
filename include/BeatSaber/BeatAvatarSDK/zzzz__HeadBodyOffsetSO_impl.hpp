@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::get_headNeckOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xe89074;
+  constexpr static std::size_t addrs = 0xf60b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::get_verticalOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe89080;
+  constexpr static std::size_t addrs = 0xf60b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::*)()>(&::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0xe89088;
+  constexpr static std::size_t addrs = 0xf60b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*>::get(), ".ctor",

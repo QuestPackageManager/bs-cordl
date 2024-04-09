@@ -4,13 +4,10 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__ScaleMode_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Image)
@@ -45,6 +42,9 @@ namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
@@ -64,6 +64,39 @@ class __Image__UxmlTraits;
 MARK_REF_PTR_T(::UnityEngine::UIElements::Image);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Image__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Image__UxmlTraits);
+// Type: ::UxmlFactory
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::Image::UxmlFactory*
+class CORDL_TYPE __Image__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Image*, ::UnityEngine::UIElements::__Image__UxmlTraits*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::__Image__UxmlFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x337faa4, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Image__UxmlFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Image__UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Image__UxmlFactory(__Image__UxmlFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Image__UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Image__UxmlFactory(__Image__UxmlFactory const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Image__UxmlFactory, 0x18>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
@@ -74,7 +107,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Image__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f99cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337faec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,28 +202,28 @@ public:
 
   __declspec(property(get = get_vectorImage))::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
 
-  /// @brief Method DoMeasure, addr 0x2f98f80, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x337ed9c, size 0x244, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method GetSourceRect, addr 0x2f98940, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetSourceRect, addr 0x337e75c, size 0x244, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetSourceRect();
 
-  /// @brief Method GetTextureDisplaySize, addr 0x2f98e78, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetTextureDisplaySize, addr 0x337ec94, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTextureDisplaySize(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetTextureDisplaySize, addr 0x2f98d9c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetTextureDisplaySize, addr 0x337ebb8, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTextureDisplaySize(::UnityEngine::Texture* texture);
 
   static inline ::UnityEngine::UIElements::Image* New_ctor();
 
-  /// @brief Method OnCustomStyleResolved, addr 0x2f99690, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method OnCustomStyleResolved, addr 0x337f4ac, size 0x3f8, virtual false, abstract: false, final false
   inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
-  /// @brief Method OnGenerateVisualContent, addr 0x2f991c4, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method OnGenerateVisualContent, addr 0x337efe0, size 0x4cc, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method SetScaleMode, addr 0x2f99a88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetScaleMode, addr 0x337f8a4, size 0x24, virtual false, abstract: false, final false
   inline void SetScaleMode(::UnityEngine::ScaleMode mode);
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Image() const;
@@ -247,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VectorImage(::UnityW<::UnityEngine::UIElements::VectorImage> value);
 
-  /// @brief Method .ctor, addr 0x2f98bb4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337e9d0, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> getStaticF_s_ImageProperty();
@@ -262,25 +295,25 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_image, addr 0x2f98924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_image, addr 0x337e740, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_image();
 
-  /// @brief Method get_scaleMode, addr 0x2f98b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scaleMode, addr 0x337e9b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ScaleMode get_scaleMode();
 
-  /// @brief Method get_sourceRect, addr 0x2f9893c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_sourceRect, addr 0x337e758, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_sourceRect();
 
-  /// @brief Method get_sprite, addr 0x2f9892c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x337e748, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_tintColor, addr 0x2f98ba0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_tintColor, addr 0x337e9bc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_tintColor();
 
-  /// @brief Method get_uv, addr 0x2f98b84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_uv, addr 0x337e9a0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uv();
 
-  /// @brief Method get_vectorImage, addr 0x2f98934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImage, addr 0x337e750, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VectorImage> get_vectorImage();
 
   static inline void setStaticF_s_ImageProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> value);
@@ -358,39 +391,6 @@ static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_ImageIsInline) == 
 static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_ScaleModeIsInline) == 0x3f1, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_TintColorIsInline) == 0x3f2, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::Image::UxmlFactory*
-class CORDL_TYPE __Image__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Image*, ::UnityEngine::UIElements::__Image__UxmlTraits*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__Image__UxmlFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f99c88, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Image__UxmlFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Image__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Image__UxmlFactory(__Image__UxmlFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Image__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Image__UxmlFactory(__Image__UxmlFactory const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Image__UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Image);

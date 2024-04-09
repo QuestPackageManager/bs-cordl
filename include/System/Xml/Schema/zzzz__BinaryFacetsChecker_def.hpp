@@ -32,21 +32,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE BinaryFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2a0e5f4, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2cb4360, size 0x1b8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x2a0e564, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2cb42d0, size 0x90, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2a0e7a4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2cb4518, size 0x118, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2a0e8b8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2cb4630, size 0x84, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::BinaryFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0e93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb46b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -111,7 +111,7 @@ public:
   /// @brief Field allBakeIds, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_allBakeIds, put = setStaticF_allBakeIds))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* allBakeIds;
 
-  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x22d3164, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x23f25ac, size 0x168, virtual false, abstract: false, final false
   static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId);
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, int32_t>* getStaticF__probeLightPropertyIds();

@@ -3,6 +3,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -16,6 +17,9 @@ struct JsonContainerType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::IO {
+class StringWriter;
 }
 namespace System::Text {
 class StringBuilder;
@@ -40,22 +44,22 @@ public:
   /// @brief Field SpecialCharacters, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SpecialCharacters, put = setStaticF_SpecialCharacters))::ArrayW<char16_t, ::Array<char16_t>*> SpecialCharacters;
 
-  /// @brief Method BuildPath, addr 0x279283c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method BuildPath, addr 0x28c4514, size 0x2b4, virtual false, abstract: false, final false
   static inline ::StringW BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* positions, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> currentPosition);
 
-  /// @brief Method CalculateLength, addr 0x279263c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CalculateLength, addr 0x28c425c, size 0x98, virtual false, abstract: false, final false
   inline int32_t CalculateLength();
 
-  /// @brief Method FormatMessage, addr 0x279223c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method FormatMessage, addr 0x28c3c00, size 0x32c, virtual false, abstract: false, final false
   static inline ::StringW FormatMessage(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
-  /// @brief Method TypeHasIndex, addr 0x279262c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TypeHasIndex, addr 0x28c424c, size 0x10, virtual false, abstract: false, final false
   static inline bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type);
 
-  /// @brief Method WriteTo, addr 0x27926d4, size 0x168, virtual false, abstract: false, final false
-  inline void WriteTo(::System::Text::StringBuilder* sb);
+  /// @brief Method WriteTo, addr 0x28c42f4, size 0x220, virtual false, abstract: false, final false
+  inline void WriteTo(::System::Text::StringBuilder* sb, ByRef<::System::IO::StringWriter*> writer, ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> buffer);
 
-  /// @brief Method .ctor, addr 0x27925b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c41d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonContainerType type);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_SpecialCharacters();

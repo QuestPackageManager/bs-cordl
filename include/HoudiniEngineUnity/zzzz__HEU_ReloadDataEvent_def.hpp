@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 CORDL_MODULE_EXPORT(HEU_ReloadDataEvent)
+namespace HoudiniEngineUnity {
+class HEU_ReloadEventData;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_ReloadDataEvent;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_ReloadDataEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2310124, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2430670, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

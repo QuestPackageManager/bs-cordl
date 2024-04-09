@@ -125,27 +125,27 @@ public:
   /// @brief Field scaleFactor, offset 0x114, size 0x4
   __declspec(property(get = __cordl_internal_get_scaleFactor, put = __cordl_internal_set_scaleFactor)) float_t scaleFactor;
 
-  /// @brief Method CompareValue, addr 0x2c501ec, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method CompareValue, addr 0x303769c, size 0xec, virtual true, abstract: false, final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x2c502d8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x3037788, size 0xe8, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method FinishSetup, addr 0x2c500d4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x3037584, size 0xa4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::AxisControl* New_ctor();
 
-  /// @brief Method Preprocess, addr 0x2c4ff2c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Preprocess, addr 0x30373dc, size 0xd4, virtual false, abstract: false, final false
   inline float_t Preprocess(float_t value);
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2c50178, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x3037628, size 0x34, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method Unpreprocess, addr 0x2c50000, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Unpreprocess, addr 0x30374b0, size 0x4c, virtual false, abstract: false, final false
   inline float_t Unpreprocess(float_t value);
 
-  /// @brief Method WriteValueIntoState, addr 0x2c501ac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x303765c, size 0x40, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp const& __cordl_internal_get_clamp() const;
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleFactor(float_t value);
 
-  /// @brief Method .ctor, addr 0x2c5004c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30374fc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

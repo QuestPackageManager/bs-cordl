@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__ArithmeticException_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DivideByZeroException)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -28,11 +29,16 @@ public:
 
   static inline ::System::DivideByZeroException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x26e8f74, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::DivideByZeroException* New_ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x2815864, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26e8fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28158e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x28158c0, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
 protected:
   // Ctor Parameters []

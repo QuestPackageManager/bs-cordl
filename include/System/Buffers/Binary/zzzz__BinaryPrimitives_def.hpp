@@ -19,19 +19,19 @@ namespace System::Buffers::Binary {
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x26e0fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x280c488, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x26e0fd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x280c490, size 0x14, virtual false, abstract: false, final false
   static inline int64_t ReverseEndianness(int64_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x26e0fec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x280c4a4, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x26e0ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x280c4b0, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x26e1000, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x280c4b8, size 0x14, virtual false, abstract: false, final false
   static inline uint64_t ReverseEndianness(uint64_t value);
 
 protected:

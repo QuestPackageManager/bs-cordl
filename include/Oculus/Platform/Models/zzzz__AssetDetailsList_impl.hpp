@@ -1,14 +1,14 @@
 #pragma once
-#include "Oculus/Platform/Models/zzzz__AssetDetails_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetDetailsList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::AssetDetailsList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::AssetDetailsList::*)(void*)>(
     &::Oculus::Platform::Models::AssetDetailsList::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2858aac;
+  constexpr static std::size_t addrs = 0x29db090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

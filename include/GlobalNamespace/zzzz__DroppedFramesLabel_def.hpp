@@ -49,13 +49,13 @@ public:
 
   static inline ::GlobalNamespace::DroppedFramesLabel* New_ctor();
 
-  /// @brief Method RefreshText, addr 0x22b41b0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x23d3660, size 0x168, virtual false, abstract: false, final false
   inline void RefreshText();
 
-  /// @brief Method Start, addr 0x22b40ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23d355c, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x22b4120, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23d35d0, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__expectedFrameRate() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__totalNumberOfDroppedFrames(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22b4318, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d37c8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

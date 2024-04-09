@@ -50,33 +50,33 @@ public:
 
   __declspec(property(get = get_otherPlayersTitle))::StringW otherPlayersTitle;
 
-  /// @brief Method DidActivate, addr 0x24354a4, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x25584a0, size 0x2e8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2435920, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x255891c, size 0x2b4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleInviteRequest, addr 0x2435c14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleInviteRequest, addr 0x2558c10, size 0x1c, virtual false, abstract: false, final false
   inline void HandleInviteRequest(::GlobalNamespace::INetworkPlayer* player);
 
-  /// @brief Method HandleJoinRequest, addr 0x2435bf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleJoinRequest, addr 0x2558bf4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleJoinRequest(::GlobalNamespace::INetworkPlayer* player);
 
-  /// @brief Method HandlePartyChanged, addr 0x2435be0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyChanged, addr 0x2558bdc, size 0x18, virtual false, abstract: false, final false
   inline void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
 
-  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x243591c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x2558918, size 0x4, virtual true, abstract: false, final false
   inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method NetworkPlayersViewControllerDidDeactivate, addr 0x2435bd4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NetworkPlayersViewControllerDidDeactivate, addr 0x2558bd0, size 0x4, virtual true, abstract: false, final false
   inline void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
 
   static inline ::GlobalNamespace::NetworkPlayersViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2435bd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2558bd4, size 0x8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x243578c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2558788, size 0x190, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::NetworkPlayersTableView> const& __cordl_internal_get__networkPlayersTableView() const;
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x2435c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2558c2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onInviteRequestEvent, addr 0x2435344, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_onInviteRequestEvent, addr 0x2558340, size 0xb0, virtual false, abstract: false, final false
   inline void add_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method add_onJoinRequestEvent, addr 0x24351e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_onJoinRequestEvent, addr 0x25581e0, size 0xb0, virtual false, abstract: false, final false
   inline void add_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
   /// @brief Method get_myPartyTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -121,10 +121,10 @@ public:
   /// @brief Method get_otherPlayersTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_otherPlayersTitle();
 
-  /// @brief Method remove_onInviteRequestEvent, addr 0x24353f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onInviteRequestEvent, addr 0x25583f0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_onJoinRequestEvent, addr 0x2435294, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onJoinRequestEvent, addr 0x2558290, size 0xb0, virtual false, abstract: false, final false
   inline void remove_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
 protected:

@@ -216,7 +216,7 @@ public:
 
   constexpr void __cordl_internal_set_vrResolutionScale(float_t value);
 
-  /// @brief Method .ctor, addr 0xe9caac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf739c8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

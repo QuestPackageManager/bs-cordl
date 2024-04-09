@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x243f360, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25624bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::System::Action* action);
 
 protected:
@@ -124,24 +124,24 @@ public:
 
   __declspec(property(get = get_sizeToFit, put = set_sizeToFit)) bool sizeToFit;
 
-  /// @brief Method Clear, addr 0x243f114, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2562270, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method DidActivate, addr 0x243f168, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x25622c4, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleDidSelectCell, addr 0x243f308, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCell, addr 0x2562464, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::TabBarViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x243f22c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2562388, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectItem, addr 0x243f0f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SelectItem, addr 0x2562254, size 0x1c, virtual false, abstract: false, final false
   inline void SelectItem(int32_t index);
 
-  /// @brief Method Setup, addr 0x243ef6c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x25620c8, size 0x18c, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> items);
 
   constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter> const& __cordl_internal_get__contentSizeFilter() const;
@@ -174,16 +174,16 @@ public:
 
   constexpr void __cordl_internal_set__shouldReloadData(bool value);
 
-  /// @brief Method .ctor, addr 0x243f358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25624b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_selectedCellNumber, addr 0x243ef50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCellNumber, addr 0x25620ac, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_selectedCellNumber();
 
-  /// @brief Method get_sizeToFit, addr 0x243ef34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sizeToFit, addr 0x2562090, size 0x1c, virtual false, abstract: false, final false
   inline bool get_sizeToFit();
 
-  /// @brief Method set_sizeToFit, addr 0x243ef14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sizeToFit, addr 0x2562070, size 0x20, virtual false, abstract: false, final false
   inline void set_sizeToFit(bool value);
 
 protected:

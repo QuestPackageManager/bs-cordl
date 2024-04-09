@@ -42,6 +42,8 @@ public:
 
   __declspec(property(get = get_IsUpaEnforced, put = set_IsUpaEnforced)) bool IsUpaEnforced;
 
+  __declspec(property(get = get_Item)) int32_t Item[];
+
   /// @brief Field isUpaEnforced, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_isUpaEnforced, put = __cordl_internal_set_isUpaEnforced)) bool isUpaEnforced;
 
@@ -60,23 +62,26 @@ public:
   /// @brief Field wildcards, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards))::System::Collections::Hashtable* wildcards;
 
-  /// @brief Method AddName, addr 0x29f8f00, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x2df762c, size 0x134, virtual false, abstract: false, final false
   inline int32_t AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
 
-  /// @brief Method AddNamespaceList, addr 0x29f9034, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method AddNamespaceList, addr 0x2df7760, size 0x39c, virtual false, abstract: false, final false
   inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, bool allowLocal);
 
-  /// @brief Method AddWildcard, addr 0x29f93d0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddWildcard, addr 0x2df7afc, size 0x168, virtual false, abstract: false, final false
   inline void AddWildcard(::StringW wildcard, ::System::Object* particle);
 
-  /// @brief Method Exists, addr 0x29f9cc4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x2df84ac, size 0x30, virtual false, abstract: false, final false
   inline bool Exists(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetNamespaceListSymbols, addr 0x29f9538, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceListSymbols, addr 0x2df7c64, size 0x790, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
 
-  /// @brief Method GetParticle, addr 0x29f9cf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetParticle, addr 0x2df84dc, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* GetParticle(int32_t symbol);
+
+  /// @brief Method NameOf, addr 0x2df8518, size 0x710, virtual false, abstract: false, final false
+  inline ::StringW NameOf(int32_t symbol);
 
   static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
 
@@ -116,16 +121,19 @@ public:
 
   constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x29f8e3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df7568, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x29f8ee0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2df760c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsUpaEnforced, addr 0x29f8eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpaEnforced, addr 0x2df7618, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUpaEnforced();
 
-  /// @brief Method set_IsUpaEnforced, addr 0x29f8ef4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2df83f4, size 0xb8, virtual false, abstract: false, final false
+  inline int32_t get_Item(::System::Xml::XmlQualifiedName* name);
+
+  /// @brief Method set_IsUpaEnforced, addr 0x2df7620, size 0xc, virtual false, abstract: false, final false
   inline void set_IsUpaEnforced(bool value);
 
 protected:

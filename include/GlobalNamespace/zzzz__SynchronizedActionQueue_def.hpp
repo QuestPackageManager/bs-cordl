@@ -33,7 +33,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __SynchronizedActionQueue__SynchronizedAction {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xeeba58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc45dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::System::Action* action);
 
   // Ctor Parameters []
@@ -77,15 +77,15 @@ public:
       property(get = __cordl_internal_get__synchronizedActionQueue,
                put = __cordl_internal_set__synchronizedActionQueue))::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* _synchronizedActionQueue;
 
-  /// @brief Method Clear, addr 0xeeb92c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0xfc44b0, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method EnqueueAction, addr 0xeeb99c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnqueueAction, addr 0xfc4520, size 0xbc, virtual false, abstract: false, final false
   inline void EnqueueAction(float_t time, ::System::Action* action);
 
   static inline ::GlobalNamespace::SynchronizedActionQueue* New_ctor();
 
-  /// @brief Method Update, addr 0xeeba64, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xfc45e8, size 0x114, virtual false, abstract: false, final false
   inline void Update(float_t time);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>*& __cordl_internal_get__synchronizedActionQueue();
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* value);
 
-  /// @brief Method .ctor, addr 0xeebb78, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc46fc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

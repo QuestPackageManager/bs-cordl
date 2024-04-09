@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MenuDestination* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12cfae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a76d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

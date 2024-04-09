@@ -48,21 +48,21 @@ public:
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
 
-  /// @brief Method GetConsoleScreenBufferInfo, addr 0x275df78, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleScreenBufferInfo, addr 0x288cc54, size 0x94, virtual false, abstract: false, final false
   static inline bool GetConsoleScreenBufferInfo(void* handle, ByRef<::System::ConsoleScreenBufferInfo> info);
 
-  /// @brief Method GetStdHandle, addr 0x275def4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetStdHandle, addr 0x288cbd0, size 0x84, virtual false, abstract: false, final false
   static inline void* GetStdHandle(::System::Handles handle);
 
-  /// @brief Method IsModifierKey, addr 0x275e254, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x288cf30, size 0x34, virtual false, abstract: false, final false
   static inline bool IsModifierKey(int16_t virtualKeyCode);
 
   static inline ::System::WindowsConsoleDriver* New_ctor();
 
-  /// @brief Method ReadConsoleInput, addr 0x275e14c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReadConsoleInput, addr 0x288ce28, size 0x108, virtual false, abstract: false, final false
   static inline bool ReadConsoleInput(void* handle, ByRef<::System::InputRecord> record, int32_t length, ByRef<int32_t> nread);
 
-  /// @brief Method ReadKey, addr 0x275e00c, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x288cce8, size 0x140, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
   constexpr int16_t const& __cordl_internal_get_defaultAttribute() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_outputHandle(void* value);
 
-  /// @brief Method .ctor, addr 0x275dea0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288cb7c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IConsoleDriver"

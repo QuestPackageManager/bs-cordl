@@ -40,15 +40,15 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE QuadUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBestQuadConnection, addr 0x2d0533c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetBestQuadConnection, addr 0x30e97ec, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* GetBestQuadConnection(::UnityEngine::ProBuilder::WingedEdge* wing,
                                                                        ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>* connections);
 
-  /// @brief Method GetQuadScore, addr 0x2d04cd0, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method GetQuadScore, addr 0x30e9180, size 0x66c, virtual false, abstract: false, final false
   static inline float_t GetQuadScore(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
                                      float_t normalThreshold);
 
-  /// @brief Method ToQuads, addr 0x2d00fd0, size 0x854, virtual false, abstract: false, final false
+  /// @brief Method ToQuads, addr 0x30e5480, size 0x854, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing);
 

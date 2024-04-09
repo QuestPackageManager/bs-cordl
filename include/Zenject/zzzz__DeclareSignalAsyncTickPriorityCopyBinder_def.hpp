@@ -29,13 +29,13 @@ public:
   // Declarations
   static inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method RunAsync, addr 0x302a3b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RunAsync, addr 0x340f23c, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::SignalTickPriorityCopyBinder* RunAsync();
 
-  /// @brief Method RunSync, addr 0x302a3d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RunSync, addr 0x340f25c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* RunSync();
 
-  /// @brief Method .ctor, addr 0x302a368, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340f1f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
 protected:

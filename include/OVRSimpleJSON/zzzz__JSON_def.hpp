@@ -22,7 +22,7 @@ namespace OVRSimpleJSON {
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x2922234, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2aa4818, size 0x4, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
 protected:

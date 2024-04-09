@@ -3,8 +3,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 CORDL_MODULE_EXPORT(DIContainerSignal)
+namespace Zenject {
+class DiContainer;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class DIContainerSignal;
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DIContainerSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b8574, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7a24, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

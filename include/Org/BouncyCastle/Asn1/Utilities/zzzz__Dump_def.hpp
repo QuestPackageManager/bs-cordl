@@ -20,12 +20,12 @@ namespace Org::BouncyCastle::Asn1::Utilities {
 class CORDL_TYPE Dump : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Main, addr 0x1113c00, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Main, addr 0x11ee784, size 0x144, virtual false, abstract: false, final false
   static inline void Main(::ArrayW<::StringW, ::Array<::StringW>*> args);
 
   static inline ::Org::BouncyCastle::Asn1::Utilities::Dump* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1113bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ee77c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

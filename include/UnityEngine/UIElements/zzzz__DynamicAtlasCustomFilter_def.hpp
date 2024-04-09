@@ -29,12 +29,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE DynamicAtlasCustomFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f1b620, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x330043c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::UIElements::DynamicAtlasFilters> filtersToApply);
 
   static inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2f1b548, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3300364, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
                       put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
-  /// @brief Method AnimateCutout, addr 0x2485be0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x25a9ea4, size 0x28, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::SliderControllerBase* New_ctor();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x2486620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25aa8e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

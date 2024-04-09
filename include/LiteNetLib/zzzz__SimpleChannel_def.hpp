@@ -26,13 +26,13 @@ public:
   // Declarations
   static inline ::LiteNetLib::SimpleChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method ProcessPacket, addr 0x23cbf5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x24ec4a8, size 0x8, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x23cbdec, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x24ec338, size 0x170, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
-  /// @brief Method .ctor, addr 0x23cbde8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec334, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
 protected:

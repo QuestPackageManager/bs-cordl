@@ -23,19 +23,19 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE DynamicBitfield {
 public:
   // Declarations
-  /// @brief Method BitCountToULongCount, addr 0x2c0c5b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BitCountToULongCount, addr 0x2ff2a64, size 0x18, virtual false, abstract: false, final false
   static inline int32_t BitCountToULongCount(int32_t bitCount);
 
-  /// @brief Method ClearBit, addr 0x2bfe3b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearBit, addr 0x2fe4868, size 0x98, virtual false, abstract: false, final false
   inline void ClearBit(int32_t bitIndex);
 
-  /// @brief Method SetBit, addr 0x2c0c5cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetBit, addr 0x2ff2a7c, size 0x98, virtual false, abstract: false, final false
   inline void SetBit(int32_t bitIndex);
 
-  /// @brief Method SetLength, addr 0x2bfe290, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2fe4740, size 0x74, virtual false, abstract: false, final false
   inline void SetLength(int32_t newLength);
 
-  /// @brief Method TestBit, addr 0x2c0c664, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TestBit, addr 0x2ff2b14, size 0x78, virtual false, abstract: false, final false
   inline bool TestBit(int32_t bitIndex);
 
   // Ctor Parameters []

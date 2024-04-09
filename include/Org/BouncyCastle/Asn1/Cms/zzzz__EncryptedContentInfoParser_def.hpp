@@ -48,7 +48,7 @@ public:
   /// @brief Field _encryptedContent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__encryptedContent, put = __cordl_internal_set__encryptedContent))::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* _encryptedContent;
 
-  /// @brief Method GetEncryptedContent, addr 0xf07bdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedContent, addr 0xfe1760, size 0xb0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetEncryptedContent(int32_t tag);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set__encryptedContent(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* value);
 
-  /// @brief Method .ctor, addr 0xf06308, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfdfe8c, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_ContentEncryptionAlgorithm, addr 0xf07bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncryptionAlgorithm, addr 0xfe1758, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ContentEncryptionAlgorithm();
 
-  /// @brief Method get_ContentType, addr 0xf07bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0xfe1750, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
 protected:

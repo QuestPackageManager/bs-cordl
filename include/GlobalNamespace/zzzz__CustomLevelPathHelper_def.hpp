@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::CustomLevelPathHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12cfad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a76c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

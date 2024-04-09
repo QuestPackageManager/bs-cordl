@@ -3,9 +3,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INotifyPropertyChanging)
-namespace System::ComponentModel {
-class PropertyChangingEventHandler;
-}
 // Forward declare root types
 namespace System::ComponentModel {
 class INotifyPropertyChanging;
@@ -20,12 +17,6 @@ namespace System::ComponentModel {
 class CORDL_TYPE INotifyPropertyChanging {
 public:
   // Declarations
-  /// @brief Method add_PropertyChanging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void add_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler* value);
-
-  /// @brief Method remove_PropertyChanging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void remove_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler* value);
-
   // Ctor Parameters [CppParam { name: "", ty: "INotifyPropertyChanging", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   INotifyPropertyChanging(INotifyPropertyChanging&&) = delete;

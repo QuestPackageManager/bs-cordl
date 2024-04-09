@@ -25,19 +25,19 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnableDynamicFFR, addr 0x2dba610, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnableDynamicFFR, addr 0x31a2ac0, size 0x8c, virtual false, abstract: false, final false
   static inline bool EnableDynamicFFR(bool enable);
 
-  /// @brief Method GetFoveationLevel, addr 0x2dba6a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetFoveationLevel, addr 0x31a2b54, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetFoveationLevel();
 
-  /// @brief Method GetSystemHeadsetType, addr 0x2dba574, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHeadsetType, addr 0x31a2a24, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method SetColorScaleAndOffset, addr 0x2dba52c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetColorScaleAndOffset, addr 0x31a29dc, size 0x40, virtual false, abstract: false, final false
   static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset);
 
-  /// @brief Method SetFoveationLevel, addr 0x2dba57c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetFoveationLevel, addr 0x31a2a2c, size 0x8c, virtual false, abstract: false, final false
   static inline bool SetFoveationLevel(int32_t level);
 
 protected:

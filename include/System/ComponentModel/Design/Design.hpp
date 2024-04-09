@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "System/ComponentModel/Design/CheckoutException.hpp"
+#include "System/ComponentModel/Design/DesignerOptionService.hpp"
 #include "System/ComponentModel/Design/IComponentChangeService.hpp"
 #include "System/ComponentModel/Design/IDesigner.hpp"
 #include "System/ComponentModel/Design/IDesignerHost.hpp"

@@ -53,17 +53,17 @@ public:
   /// @brief Field m_MenuItems, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MenuItems, put = __cordl_internal_set_m_MenuItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
 
-  /// @brief Method AppendAction, addr 0x2f70954, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x3355770, size 0x104, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
                            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method InsertSeparator, addr 0x2f70a58, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method InsertSeparator, addr 0x3355874, size 0x140, virtual false, abstract: false, final false
   inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
 
-  /// @brief Method MenuItems, addr 0x2f7094c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MenuItems, addr 0x3355768, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
 
-  /// @brief Method PrepareForDisplay, addr 0x2f70b98, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method PrepareForDisplay, addr 0x33559b4, size 0x2bc, virtual false, abstract: false, final false
   inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __cordl_internal_get_m_DropdownMenuEventInfo();

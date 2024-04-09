@@ -1,5 +1,4 @@
 #pragma once
-#include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventDataProcessor_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventDataProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
@@ -9,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventDataProcessor::*)(
     ::GlobalNamespace::FloatFxBeatmapEventData*, ::GlobalNamespace::FloatFxBeatmapEventData*)>(&::GlobalNamespace::FloatFxBeatmapEventDataProcessor::UpdateByOther)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0xe6f6e0;
+  constexpr static std::size_t addrs = 0xf48164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventDataProcessor::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventDataProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0xe6f700;
+  constexpr static std::size_t addrs = 0xf48184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventDataProcessor*>::get(),
