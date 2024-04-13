@@ -169,22 +169,22 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__LightCompiler__QuoteVisitor* New_ctor();
 
-  /// @brief Method PopParameters, addr 0x2b374ac, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method PopParameters, addr 0x2b394a8, size 0x384, virtual false, abstract: false, final false
   inline void PopParameters(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method PushParameters, addr 0x2b3712c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method PushParameters, addr 0x2b39128, size 0x380, virtual false, abstract: false, final false
   inline void PushParameters(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method VisitBlock, addr 0x2b370c4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method VisitBlock, addr 0x2b390c0, size 0x68, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitBlock(::System::Linq::Expressions::BlockExpression* node);
 
-  /// @brief Method VisitCatchBlock, addr 0x2b37830, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method VisitCatchBlock, addr 0x2b3982c, size 0x130, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::CatchBlock* VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node);
 
   /// @brief Method VisitLambda, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Linq::Expressions::Expression* VisitLambda(::System::Linq::Expressions::Expression_1<T>* node);
 
-  /// @brief Method VisitParameter, addr 0x2b37038, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method VisitParameter, addr 0x2b39034, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* node);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, int32_t>*& __cordl_internal_get__definedParameters();
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set__hoistedParameters(::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>* value);
 
-  /// @brief Method .ctor, addr 0x2b37960, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3995c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -256,16 +256,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__LightCompiler____c* New_ctor();
 
-  /// @brief Method <CompileNoLabelPush>b__101_0, addr 0x2b37c04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CompileNoLabelPush>b__101_0, addr 0x2b39c00, size 0x1c, virtual false, abstract: false, final false
   inline void _CompileNoLabelPush_b__101_0(::System::Linq::Expressions::Interpreter::LightCompiler* _cordl_this, ::System::Linq::Expressions::Expression* e);
 
-  /// @brief Method <CompileSwitchExpression>b__56_0, addr 0x2b37a8c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method <CompileSwitchExpression>b__56_0, addr 0x2b39a88, size 0x100, virtual false, abstract: false, final false
   inline bool _CompileSwitchExpression_b__56_0(::System::Linq::Expressions::SwitchCase* c);
 
-  /// @brief Method <CompileSwitchExpression>b__56_1, addr 0x2b37b8c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <CompileSwitchExpression>b__56_1, addr 0x2b39b88, size 0x78, virtual false, abstract: false, final false
   inline bool _CompileSwitchExpression_b__56_1(::System::Linq::Expressions::Expression* t);
 
-  /// @brief Method .ctor, addr 0x2b37a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b39a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::__LightCompiler____c* getStaticF___9();
@@ -351,278 +351,278 @@ public:
       property(get = getStaticF_s_emptyLocals,
                put = setStaticF_s_emptyLocals))::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> s_emptyLocals;
 
-  /// @brief Method CheckRethrow, addr 0x2b31fdc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckRethrow, addr 0x2b32fd8, size 0x54, virtual false, abstract: false, final false
   inline void CheckRethrow();
 
-  /// @brief Method Compile, addr 0x2b2ab6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x2b2bb68, size 0x48, virtual false, abstract: false, final false
   inline void Compile(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method Compile, addr 0x2b2bb78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x2b2cb74, size 0xc, virtual false, abstract: false, final false
   inline void Compile(::System::Linq::Expressions::Expression* expr, bool asVoid);
 
-  /// @brief Method CompileAddress, addr 0x2b2dfd0, size 0x944, virtual false, abstract: false, final false
+  /// @brief Method CompileAddress, addr 0x2b2efcc, size 0x944, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* CompileAddress(::System::Linq::Expressions::Expression* node, int32_t index);
 
-  /// @brief Method CompileAndAlsoBinaryExpression, addr 0x2b2f4b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CompileAndAlsoBinaryExpression, addr 0x2b304b0, size 0x88, virtual false, abstract: false, final false
   inline void CompileAndAlsoBinaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileArithmetic, addr 0x2b2d4f0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method CompileArithmetic, addr 0x2b2e4ec, size 0x234, virtual false, abstract: false, final false
   inline void CompileArithmetic(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method CompileArrayIndexAddress, addr 0x2b33448, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method CompileArrayIndexAddress, addr 0x2b34444, size 0x204, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* CompileArrayIndexAddress(::System::Linq::Expressions::Expression* array, ::System::Linq::Expressions::Expression* index,
                                                                                           int32_t argumentIndex);
 
-  /// @brief Method CompileAsVoid, addr 0x2b2bc20, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CompileAsVoid, addr 0x2b2cc1c, size 0x188, virtual false, abstract: false, final false
   inline void CompileAsVoid(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileAssignBinaryExpression, addr 0x2b2c6e0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CompileAssignBinaryExpression, addr 0x2b2d6dc, size 0x154, virtual false, abstract: false, final false
   inline void CompileAssignBinaryExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
 
-  /// @brief Method CompileBinaryExpression, addr 0x2b2c834, size 0xcbc, virtual false, abstract: false, final false
+  /// @brief Method CompileBinaryExpression, addr 0x2b2d830, size 0xcbc, virtual false, abstract: false, final false
   inline void CompileBinaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileBlockEnd, addr 0x2b2bb84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CompileBlockEnd, addr 0x2b2cb80, size 0x9c, virtual false, abstract: false, final false
   inline void CompileBlockEnd(::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> locals);
 
-  /// @brief Method CompileBlockExpression, addr 0x2b2b5b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CompileBlockExpression, addr 0x2b2c5b4, size 0x13c, virtual false, abstract: false, final false
   inline void CompileBlockExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
 
-  /// @brief Method CompileBlockStart, addr 0x2b2b6f4, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method CompileBlockStart, addr 0x2b2c6f0, size 0x484, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>
   CompileBlockStart(::System::Linq::Expressions::BlockExpression* node);
 
-  /// @brief Method CompileCoalesceBinaryExpression, addr 0x2b34da4, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method CompileCoalesceBinaryExpression, addr 0x2b35da0, size 0x5b0, virtual false, abstract: false, final false
   inline void CompileCoalesceBinaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileComparison, addr 0x2b2d804, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method CompileComparison, addr 0x2b2e800, size 0x190, virtual false, abstract: false, final false
   inline void CompileComparison(::System::Linq::Expressions::BinaryExpression* node);
 
-  /// @brief Method CompileConditionalExpression, addr 0x2b3004c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method CompileConditionalExpression, addr 0x2b31048, size 0x1fc, virtual false, abstract: false, final false
   inline void CompileConditionalExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
 
-  /// @brief Method CompileConstantExpression, addr 0x2b2aef4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CompileConstantExpression, addr 0x2b2bef0, size 0xa8, virtual false, abstract: false, final false
   inline void CompileConstantExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileConvertToType, addr 0x2b2e914, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method CompileConvertToType, addr 0x2b2f910, size 0x550, virtual false, abstract: false, final false
   inline void CompileConvertToType(::System::Type* typeFrom, ::System::Type* typeTo, bool isChecked, bool isLiftedToNull);
 
-  /// @brief Method CompileConvertUnaryExpression, addr 0x2b2d994, size 0x63c, virtual false, abstract: false, final false
+  /// @brief Method CompileConvertUnaryExpression, addr 0x2b2e990, size 0x63c, virtual false, abstract: false, final false
   inline void CompileConvertUnaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileDebugInfoExpression, addr 0x2b346e8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CompileDebugInfoExpression, addr 0x2b356e4, size 0x198, virtual false, abstract: false, final false
   inline void CompileDebugInfoExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileDefaultExpression, addr 0x2b2af9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CompileDefaultExpression, addr 0x2b2bf98, size 0x34, virtual false, abstract: false, final false
   inline void CompileDefaultExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileDefaultExpression, addr 0x2b2afd0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CompileDefaultExpression, addr 0x2b2bfcc, size 0x128, virtual false, abstract: false, final false
   inline void CompileDefaultExpression(::System::Type* type);
 
-  /// @brief Method CompileEqual, addr 0x2b2d724, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CompileEqual, addr 0x2b2e720, size 0x70, virtual false, abstract: false, final false
   inline void CompileEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftedToNull);
 
-  /// @brief Method CompileGetBoxedVariable, addr 0x2b2b424, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CompileGetBoxedVariable, addr 0x2b2c420, size 0x54, virtual false, abstract: false, final false
   inline void CompileGetBoxedVariable(::System::Linq::Expressions::ParameterExpression* variable);
 
-  /// @brief Method CompileGetVariable, addr 0x2b2b284, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CompileGetVariable, addr 0x2b2c280, size 0x40, virtual false, abstract: false, final false
   inline void CompileGetVariable(::System::Linq::Expressions::ParameterExpression* variable);
 
-  /// @brief Method CompileGotoExpression, addr 0x2b31730, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CompileGotoExpression, addr 0x2b3272c, size 0x1d8, virtual false, abstract: false, final false
   inline void CompileGotoExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileIndexAssignment, addr 0x2b2bf6c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CompileIndexAssignment, addr 0x2b2cf68, size 0x29c, virtual false, abstract: false, final false
   inline void CompileIndexAssignment(::System::Linq::Expressions::BinaryExpression* node, bool asVoid);
 
-  /// @brief Method CompileIndexExpression, addr 0x2b2bda8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CompileIndexExpression, addr 0x2b2cda4, size 0xcc, virtual false, abstract: false, final false
   inline void CompileIndexExpression(::System::Linq::Expressions::Expression* expr);
 
   /// @brief Method CompileIntSwitchExpression, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void CompileIntSwitchExpression(::System::Linq::Expressions::SwitchExpression* node);
 
-  /// @brief Method CompileInvocationExpression, addr 0x2b35354, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method CompileInvocationExpression, addr 0x2b36350, size 0x268, virtual false, abstract: false, final false
   inline void CompileInvocationExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileLabelExpression, addr 0x2b31590, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method CompileLabelExpression, addr 0x2b3258c, size 0x1a0, virtual false, abstract: false, final false
   inline void CompileLabelExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileLambdaExpression, addr 0x2b34b84, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CompileLambdaExpression, addr 0x2b35b80, size 0x220, virtual false, abstract: false, final false
   inline void CompileLambdaExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileLiftedLogicalBinaryExpression, addr 0x2b2f888, size 0x6e4, virtual false, abstract: false, final false
+  /// @brief Method CompileLiftedLogicalBinaryExpression, addr 0x2b30884, size 0x6e4, virtual false, abstract: false, final false
   inline void CompileLiftedLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* node, bool andAlso);
 
-  /// @brief Method CompileListInit, addr 0x2b35638, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method CompileListInit, addr 0x2b36634, size 0x3e4, virtual false, abstract: false, final false
   inline void CompileListInit(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* initializers);
 
-  /// @brief Method CompileListInitExpression, addr 0x2b355bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CompileListInitExpression, addr 0x2b365b8, size 0x7c, virtual false, abstract: false, final false
   inline void CompileListInitExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileLogicalBinaryExpression, addr 0x2b2f53c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CompileLogicalBinaryExpression, addr 0x2b30538, size 0x160, virtual false, abstract: false, final false
   inline void CompileLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* b, bool andAlso);
 
-  /// @brief Method CompileLoopExpression, addr 0x2b30248, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CompileLoopExpression, addr 0x2b31244, size 0x1bc, virtual false, abstract: false, final false
   inline void CompileLoopExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileMember, addr 0x2b34010, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method CompileMember, addr 0x2b3500c, size 0x340, virtual false, abstract: false, final false
   inline void CompileMember(::System::Linq::Expressions::Expression* from, ::System::Reflection::MemberInfo* member, bool forBinding);
 
-  /// @brief Method CompileMemberAssignment, addr 0x2b2c2d0, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method CompileMemberAssignment, addr 0x2b2d2cc, size 0x364, virtual false, abstract: false, final false
   inline void CompileMemberAssignment(bool asVoid, ::System::Reflection::MemberInfo* refMember, ::System::Linq::Expressions::Expression* value, bool forBinding);
 
-  /// @brief Method CompileMemberAssignment, addr 0x2b2c208, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompileMemberAssignment, addr 0x2b2d204, size 0xc8, virtual false, abstract: false, final false
   inline void CompileMemberAssignment(::System::Linq::Expressions::BinaryExpression* node, bool asVoid);
 
-  /// @brief Method CompileMemberExpression, addr 0x2b33f70, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CompileMemberExpression, addr 0x2b34f6c, size 0xa0, virtual false, abstract: false, final false
   inline void CompileMemberExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileMemberInit, addr 0x2b35a98, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method CompileMemberInit, addr 0x2b36a94, size 0x508, virtual false, abstract: false, final false
   inline void CompileMemberInit(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* bindings);
 
-  /// @brief Method CompileMemberInitExpression, addr 0x2b35a1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CompileMemberInitExpression, addr 0x2b36a18, size 0x7c, virtual false, abstract: false, final false
   inline void CompileMemberInitExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileMethodCallExpression, addr 0x2b32e70, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CompileMethodCallExpression, addr 0x2b33e6c, size 0x9c, virtual false, abstract: false, final false
   inline void CompileMethodCallExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileMethodCallExpression, addr 0x2b32f0c, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method CompileMethodCallExpression, addr 0x2b33f08, size 0x53c, virtual false, abstract: false, final false
   inline void CompileMethodCallExpression(::System::Linq::Expressions::Expression* object, ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::IArgumentProvider* arguments);
 
-  /// @brief Method CompileMethodLogicalBinaryExpression, addr 0x2b2f724, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CompileMethodLogicalBinaryExpression, addr 0x2b30720, size 0x164, virtual false, abstract: false, final false
   inline void CompileMethodLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* expr, bool andAlso);
 
-  /// @brief Method CompileMultiDimArrayAccess, addr 0x2b337d0, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method CompileMultiDimArrayAccess, addr 0x2b347cc, size 0x3f8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* CompileMultiDimArrayAccess(::System::Linq::Expressions::Expression* array, ::System::Linq::Expressions::IArgumentProvider* arguments,
                                                                                             int32_t index);
 
-  /// @brief Method CompileNewArrayExpression, addr 0x2b34350, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method CompileNewArrayExpression, addr 0x2b3534c, size 0x398, virtual false, abstract: false, final false
   inline void CompileNewArrayExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileNewExpression, addr 0x2b33bc8, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method CompileNewExpression, addr 0x2b34bc4, size 0x3a8, virtual false, abstract: false, final false
   inline void CompileNewExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileNoLabelPush, addr 0x2b36918, size 0x684, virtual false, abstract: false, final false
+  /// @brief Method CompileNoLabelPush, addr 0x2b37914, size 0x684, virtual false, abstract: false, final false
   inline void CompileNoLabelPush(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileNotEqual, addr 0x2b2d794, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CompileNotEqual, addr 0x2b2e790, size 0x70, virtual false, abstract: false, final false
   inline void CompileNotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftedToNull);
 
-  /// @brief Method CompileNotExpression, addr 0x2b2ee64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CompileNotExpression, addr 0x2b2fe60, size 0x58, virtual false, abstract: false, final false
   inline void CompileNotExpression(::System::Linq::Expressions::UnaryExpression* node);
 
-  /// @brief Method CompileOrElseBinaryExpression, addr 0x2b2f69c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CompileOrElseBinaryExpression, addr 0x2b30698, size 0x88, virtual false, abstract: false, final false
   inline void CompileOrElseBinaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileParameterExpression, addr 0x2b2b534, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CompileParameterExpression, addr 0x2b2c530, size 0x84, virtual false, abstract: false, final false
   inline void CompileParameterExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileQuoteUnaryExpression, addr 0x2b36108, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method CompileQuoteUnaryExpression, addr 0x2b37104, size 0x2b4, virtual false, abstract: false, final false
   inline void CompileQuoteUnaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileRuntimeVariablesExpression, addr 0x2b34880, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method CompileRuntimeVariablesExpression, addr 0x2b3587c, size 0x304, virtual false, abstract: false, final false
   inline void CompileRuntimeVariablesExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileSetVariable, addr 0x2b2b478, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CompileSetVariable, addr 0x2b2c474, size 0xbc, virtual false, abstract: false, final false
   inline void CompileSetVariable(::System::Linq::Expressions::ParameterExpression* variable, bool isVoid);
 
-  /// @brief Method CompileStringSwitchExpression, addr 0x2b30f44, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method CompileStringSwitchExpression, addr 0x2b31f40, size 0x64c, virtual false, abstract: false, final false
   inline void CompileStringSwitchExpression(::System::Linq::Expressions::SwitchExpression* node);
 
-  /// @brief Method CompileSwitchExpression, addr 0x2b30524, size 0xa20, virtual false, abstract: false, final false
+  /// @brief Method CompileSwitchExpression, addr 0x2b31520, size 0xa20, virtual false, abstract: false, final false
   inline void CompileSwitchExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileThrowUnaryExpression, addr 0x2b32030, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CompileThrowUnaryExpression, addr 0x2b3302c, size 0x100, virtual false, abstract: false, final false
   inline void CompileThrowUnaryExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
 
-  /// @brief Method CompileTop, addr 0x2b2a970, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method CompileTop, addr 0x2b2b96c, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LightDelegateCreator* CompileTop(::System::Linq::Expressions::LambdaExpression* node);
 
-  /// @brief Method CompileTryExpression, addr 0x2b32130, size 0xb10, virtual false, abstract: false, final false
+  /// @brief Method CompileTryExpression, addr 0x2b3312c, size 0xb10, virtual false, abstract: false, final false
   inline void CompileTryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileTryFaultExpression, addr 0x2b32c40, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CompileTryFaultExpression, addr 0x2b33c3c, size 0x230, virtual false, abstract: false, final false
   inline void CompileTryFaultExpression(::System::Linq::Expressions::TryExpression* expr);
 
-  /// @brief Method CompileTypeAsExpression, addr 0x2b2f288, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CompileTypeAsExpression, addr 0x2b30284, size 0x4c, virtual false, abstract: false, final false
   inline void CompileTypeAsExpression(::System::Linq::Expressions::UnaryExpression* node);
 
-  /// @brief Method CompileTypeEqualExpression, addr 0x2b364e0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method CompileTypeEqualExpression, addr 0x2b374dc, size 0x1f8, virtual false, abstract: false, final false
   inline void CompileTypeEqualExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileTypeIsExpression, addr 0x2b366d8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method CompileTypeIsExpression, addr 0x2b376d4, size 0x240, virtual false, abstract: false, final false
   inline void CompileTypeIsExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileUnaryExpression, addr 0x2b2eebc, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CompileUnaryExpression, addr 0x2b2feb8, size 0x2e4, virtual false, abstract: false, final false
   inline void CompileUnaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileUnboxUnaryExpression, addr 0x2b363bc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CompileUnboxUnaryExpression, addr 0x2b373b8, size 0x124, virtual false, abstract: false, final false
   inline void CompileUnboxUnaryExpression(::System::Linq::Expressions::Expression* expr);
 
-  /// @brief Method CompileUnliftedLogicalBinaryExpression, addr 0x2b2ff6c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CompileUnliftedLogicalBinaryExpression, addr 0x2b30f68, size 0xe0, virtual false, abstract: false, final false
   inline void CompileUnliftedLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* expr, bool andAlso);
 
-  /// @brief Method CompileVariableAssignment, addr 0x2b2c634, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CompileVariableAssignment, addr 0x2b2d630, size 0xac, virtual false, abstract: false, final false
   inline void CompileVariableAssignment(::System::Linq::Expressions::BinaryExpression* node, bool asVoid);
 
-  /// @brief Method DefineBlockLabels, addr 0x2b31ea0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method DefineBlockLabels, addr 0x2b32e9c, size 0x13c, virtual false, abstract: false, final false
   inline void DefineBlockLabels(::System::Linq::Expressions::Expression* node);
 
-  /// @brief Method DefineLabel, addr 0x2b3047c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DefineLabel, addr 0x2b31478, size 0x88, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LabelInfo* DefineLabel(::System::Linq::Expressions::LabelTarget* node);
 
-  /// @brief Method EmitCopyValueType, addr 0x2b2b340, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EmitCopyValueType, addr 0x2b2c33c, size 0x88, virtual false, abstract: false, final false
   inline void EmitCopyValueType(::System::Type* valueType);
 
-  /// @brief Method EmitIndexGet, addr 0x2b2be7c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EmitIndexGet, addr 0x2b2ce78, size 0xf0, virtual false, abstract: false, final false
   inline void EmitIndexGet(::System::Linq::Expressions::IndexExpression* index);
 
-  /// @brief Method EmitThisForMethodCall, addr 0x2b2be74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EmitThisForMethodCall, addr 0x2b2ce70, size 0x8, virtual false, abstract: false, final false
   inline void EmitThisForMethodCall(::System::Linq::Expressions::Expression* node);
 
-  /// @brief Method EmitUnaryBoolCheck, addr 0x2b2f2d4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method EmitUnaryBoolCheck, addr 0x2b302d0, size 0x1e0, virtual false, abstract: false, final false
   inline void EmitUnaryBoolCheck(::System::Linq::Expressions::UnaryExpression* node);
 
-  /// @brief Method EmitUnaryMethodCall, addr 0x2b2f1a0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method EmitUnaryMethodCall, addr 0x2b3019c, size 0xe8, virtual false, abstract: false, final false
   inline void EmitUnaryMethodCall(::System::Linq::Expressions::UnaryExpression* node);
 
-  /// @brief Method EnsureAvailableForClosure, addr 0x2b2b0f8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method EnsureAvailableForClosure, addr 0x2b2c0f4, size 0x138, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalVariable* EnsureAvailableForClosure(::System::Linq::Expressions::ParameterExpression* expr);
 
-  /// @brief Method EnsureLabel, addr 0x2b3193c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EnsureLabel, addr 0x2b32938, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LabelInfo* EnsureLabel(::System::Linq::Expressions::LabelTarget* node);
 
-  /// @brief Method GetMemberType, addr 0x2b35fa0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetMemberType, addr 0x2b36f9c, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Type* GetMemberType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method LoadLocalNoValueTypeCopy, addr 0x2b2b2c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LoadLocalNoValueTypeCopy, addr 0x2b2c2c0, size 0x7c, virtual false, abstract: false, final false
   inline void LoadLocalNoValueTypeCopy(::System::Linq::Expressions::ParameterExpression* variable);
 
-  /// @brief Method MakeInterpreter, addr 0x2b2abb4, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method MakeInterpreter, addr 0x2b2bbb0, size 0x340, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Interpreter* MakeInterpreter(::StringW lambdaName);
 
-  /// @brief Method MaybeMutableValueType, addr 0x2b2b3c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MaybeMutableValueType, addr 0x2b2c3c4, size 0x5c, virtual false, abstract: false, final false
   inline bool MaybeMutableValueType(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::LightCompiler* New_ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::LightCompiler* New_ctor(::System::Linq::Expressions::Interpreter::LightCompiler* parent);
 
-  /// @brief Method PopLabelBlock, addr 0x2b30504, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PopLabelBlock, addr 0x2b31500, size 0x20, virtual false, abstract: false, final false
   inline void PopLabelBlock(::System::Linq::Expressions::Interpreter::LabelScopeKind kind);
 
-  /// @brief Method PushLabelBlock, addr 0x2b30404, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PushLabelBlock, addr 0x2b31400, size 0x78, virtual false, abstract: false, final false
   inline void PushLabelBlock(::System::Linq::Expressions::Interpreter::LabelScopeKind type);
 
-  /// @brief Method ReferenceLabel, addr 0x2b31908, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReferenceLabel, addr 0x2b32904, size 0x34, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LabelInfo* ReferenceLabel(::System::Linq::Expressions::LabelTarget* node);
 
-  /// @brief Method ResolveLocal, addr 0x2b2b230, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ResolveLocal, addr 0x2b2c22c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalVariable* ResolveLocal(::System::Linq::Expressions::ParameterExpression* variable);
 
-  /// @brief Method ShouldWritebackNode, addr 0x2b3364c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ShouldWritebackNode, addr 0x2b34648, size 0x184, virtual false, abstract: false, final false
   static inline bool ShouldWritebackNode(::System::Linq::Expressions::Expression* node);
 
-  /// @brief Method TryPushLabelBlock, addr 0x2b31a10, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method TryPushLabelBlock, addr 0x2b32a0c, size 0x490, virtual false, abstract: false, final false
   inline bool TryPushLabelBlock(::System::Linq::Expressions::Expression* node);
 
   constexpr ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*& __cordl_internal_get__debugInfos();
@@ -678,15 +678,15 @@ public:
   constexpr void __cordl_internal_set__treeLabels(
       ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x2b2a774, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2b770, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2b2a944, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2b940, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LightCompiler* parent);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> getStaticF_s_emptyLocals();
 
-  /// @brief Method get_Instructions, addr 0x2b2a968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Instructions, addr 0x2b2b964, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InstructionList* get_Instructions();
 
   static inline void setStaticF_s_emptyLocals(::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> value);

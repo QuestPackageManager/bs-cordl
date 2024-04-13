@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAssetDetailsList::*)(void*)>(
     &::Oculus::Platform::MessageWithAssetDetailsList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c54c0;
+  constexpr static std::size_t addrs = 0x29c74bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetDetailsList* (::Oculus::Platform::MessageWithAssetDetailsList::*)()>(
     &::Oculus::Platform::MessageWithAssetDetailsList::GetAssetDetailsList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29c7850;
+  constexpr static std::size_t addrs = 0x29c984c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetDetailsList* (::Oculus::Platform::MessageWithAssetDetailsList::*)(void*)>(
     &::Oculus::Platform::MessageWithAssetDetailsList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29c788c;
+  constexpr static std::size_t addrs = 0x29c9888;
 
   inline static ::MethodInfo const* methodInfo() {
 

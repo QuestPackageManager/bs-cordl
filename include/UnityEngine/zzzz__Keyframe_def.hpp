@@ -20,10 +20,10 @@ namespace UnityEngine {
 struct CORDL_TYPE Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x31cc628, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cf624, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x31cc638, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cf634, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
   // Ctor Parameters []

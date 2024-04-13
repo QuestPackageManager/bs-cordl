@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__SpaceComponentType (::GlobalNamespace::OVRSharable::*)()>(
     &::GlobalNamespace::OVRSharable::IOVRAnchorComponent_OVRSharable__get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eac58;
+  constexpr static std::size_t addrs = 0x29ebc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRSharable::*)()>(
     &::GlobalNamespace::OVRSharable::IOVRAnchorComponent_OVRSharable__get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eac68;
+  constexpr static std::size_t addrs = 0x29ebc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSharable (::GlobalNamespace::OVRSharable::*)(::GlobalNamespace::OVRAnchor)>(
     &::GlobalNamespace::OVRSharable::IOVRAnchorComponent_OVRSharable__FromAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eac70;
+  constexpr static std::size_t addrs = 0x29ebc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSharable::*)()>(&::GlobalNamespace::OVRSharable::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x29eac84;
+  constexpr static std::size_t addrs = 0x29ebc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSharable>::get(), "get_IsNull",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSharable::*)()>(&::GlobalNamespace::OVRSharable::get_IsEnabled)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x29eac94;
+  constexpr static std::size_t addrs = 0x29ebc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSharable>::get(), "get_IsEnabled",
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRSharable::*)(bool, double_t)>(
     &::GlobalNamespace::OVRSharable::SetEnabledAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x29ead3c;
+  constexpr static std::size_t addrs = 0x29ebd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSharable::*)(::GlobalNamespace::OVRSharable)>(&::GlobalNamespace::OVRSharable::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x29eae18;
+  constexpr static std::size_t addrs = 0x29ebe14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRSharable, ::GlobalNamespace::OVRSharable)>(
     &::GlobalNamespace::OVRSharable::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29eae28;
+  constexpr static std::size_t addrs = 0x29ebe24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRSharable, ::GlobalNamespace::OVRSharable)>(
     &::GlobalNamespace::OVRSharable::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29eae34;
+  constexpr static std::size_t addrs = 0x29ebe30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSharable::*)(::System::Object*)>(&::GlobalNamespace::OVRSharable::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x29eae40;
+  constexpr static std::size_t addrs = 0x29ebe3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRSharable::*)()>(&::GlobalNamespace::OVRSharable::GetHashCode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x29eaeb8;
+  constexpr static std::size_t addrs = 0x29ebeb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRSharable::*)()>(&::GlobalNamespace::OVRSharable::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x29eaf04;
+  constexpr static std::size_t addrs = 0x29ebf00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__SpaceComponentType (::GlobalNamespace::OVRSharable::*)()>(
     &::GlobalNamespace::OVRSharable::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eac60;
+  constexpr static std::size_t addrs = 0x29ebc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSharable>::get(), "get_Type",
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRSharable::*)()>(&::GlobalNamespace::OVRSharable::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eaf88;
+  constexpr static std::size_t addrs = 0x29ebf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSharable>::get(), "get_Handle",
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSharable::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRSharable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29eac78;
+  constexpr static std::size_t addrs = 0x29ebc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

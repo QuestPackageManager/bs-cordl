@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExternalCamerasManager::*)()>(&::GlobalNamespace::ExternalCamerasManager::OnEnable)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2ad4f44;
+  constexpr static std::size_t addrs = 0x2ad6f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExternalCamerasManager*>::get(), "OnEnable",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::ExternalCamerasManager::*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityBackgroundCameraGameObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2ad5010;
+  constexpr static std::size_t addrs = 0x2ad700c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::ExternalCamerasManager::*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityForegroundCameraGameObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2ad5090;
+  constexpr static std::size_t addrs = 0x2ad708c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExternalCamerasManager::*)()>(&::GlobalNamespace::ExternalCamerasManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad5110;
+  constexpr static std::size_t addrs = 0x2ad710c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExternalCamerasManager*>::get(), ".ctor",

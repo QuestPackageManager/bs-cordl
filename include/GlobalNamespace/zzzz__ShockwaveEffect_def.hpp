@@ -43,10 +43,10 @@ public:
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method SpawnShockwave, addr 0x25bb0f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x25c20f4, size 0xd4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Start, addr 0x25bafa8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25c1fa4, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__maxShockwaveParticles() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method .ctor, addr 0x25bb1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c21c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

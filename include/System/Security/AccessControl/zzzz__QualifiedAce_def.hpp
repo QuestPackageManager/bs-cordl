@@ -38,7 +38,7 @@ public:
   /// @brief Field opaque, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_opaque, put = __cordl_internal_set_opaque))::ArrayW<uint8_t, ::Array<uint8_t>*> opaque;
 
-  /// @brief Method GetOpaque, addr 0x26ffa20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetOpaque, addr 0x2704a1c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOpaque();
 
   static inline ::System::Security::AccessControl::QualifiedAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
@@ -46,7 +46,7 @@ public:
   static inline ::System::Security::AccessControl::QualifiedAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags,
                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method SetOpaque, addr 0x26ff77c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetOpaque, addr 0x2704778, size 0xa8, virtual false, abstract: false, final false
   inline void SetOpaque(::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_opaque() const;
@@ -55,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set_opaque(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x26ff6c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27046c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x26ff4ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27044a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method get_AceQualifier, addr 0x27004c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_AceQualifier, addr 0x27054bc, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceQualifier get_AceQualifier();
 
-  /// @brief Method get_IsCallback, addr 0x2700ce4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCallback, addr 0x2705ce0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsCallback();
 
-  /// @brief Method get_OpaqueLength, addr 0x26ff85c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_OpaqueLength, addr 0x2704858, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_OpaqueLength();
 
 protected:

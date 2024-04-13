@@ -32,16 +32,16 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_normalizedString* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e03e34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e05e30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2e0b9ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2e0d9a8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_HasValueFacets, addr 0x2e0b9b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x2e0d9b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x2e0b9a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2e0d9a0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

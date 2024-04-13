@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeKind (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)()>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::get_DateTimeKindHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29986f8;
+  constexpr static std::size_t addrs = 0x299a6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonBinaryWriter*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::System::DateTimeKind)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::set_DateTimeKindHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2998700;
+  constexpr static std::size_t addrs = 0x299a6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::System::IO::BinaryWriter*)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2998708;
+  constexpr static std::size_t addrs = 0x299a704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)()>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2998738;
+  constexpr static std::size_t addrs = 0x299a734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonBinaryWriter*>::get(), "Flush",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)()>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::Close)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2998758;
+  constexpr static std::size_t addrs = 0x299a754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonBinaryWriter*>::get(), "Close",
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::Newtonsoft::Json::Bson::BsonToken*)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteToken)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2998778;
+  constexpr static std::size_t addrs = 0x299a774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::Newtonsoft::Json::Bson::BsonToken*)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteTokenInternal)> {
   constexpr static std::size_t size = 0xe2c;
-  constexpr static std::size_t addrs = 0x299903c;
+  constexpr static std::size_t addrs = 0x299b038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::StringW, int32_t, ::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteString)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2999ef8;
+  constexpr static std::size_t addrs = 0x299bef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::StringW, int32_t)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteUtf8Bytes)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x299a02c;
+  constexpr static std::size_t addrs = 0x299c028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(int32_t)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::CalculateSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x299a18c;
+  constexpr static std::size_t addrs = 0x299c188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(int32_t, bool)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::CalculateSizeWithLength)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x299a194;
+  constexpr static std::size_t addrs = 0x299c190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::Newtonsoft::Json::Bson::BsonToken*)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::CalculateSize)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x29987a0;
+  constexpr static std::size_t addrs = 0x299a79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

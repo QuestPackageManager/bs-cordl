@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::StringW)>(&::System::Net::HeaderInfoTable::ParseSingleValue)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2ed77b8;
+  constexpr static std::size_t addrs = 0x2eda7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::StringW)>(&::System::Net::HeaderInfoTable::ParseMultiValue)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x2ed7848;
+  constexpr static std::size_t addrs = 0x2eda844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HeaderInfo* (::System::Net::HeaderInfoTable::*)(::StringW)>(
     &::System::Net::HeaderInfoTable::get_Item)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2ed17e4;
+  constexpr static std::size_t addrs = 0x2ed47e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HeaderInfoTable::*)()>(&::System::Net::HeaderInfoTable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ed3f44;
+  constexpr static std::size_t addrs = 0x2ed6f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HeaderInfoTable*>::get(), ".ctor",

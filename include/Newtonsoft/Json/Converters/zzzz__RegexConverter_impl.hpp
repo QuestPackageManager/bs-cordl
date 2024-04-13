@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::RegexConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::RegexConverter::WriteJson)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x29893b8;
+  constexpr static std::size_t addrs = 0x298b3b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::RegexConverter::*)(
     ::System::Text::RegularExpressions::RegexOptions, ::System::Text::RegularExpressions::RegexOptions)>(&::Newtonsoft::Json::Converters::RegexConverter::HasFlag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29897d4;
+  constexpr static std::size_t addrs = 0x298b7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::RegexConverter::*)(
     ::Newtonsoft::Json::Bson::BsonWriter*, ::System::Text::RegularExpressions::Regex*)>(&::Newtonsoft::Json::Converters::RegexConverter::WriteBson)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x29894d8;
+  constexpr static std::size_t addrs = 0x298b4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::RegexConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Text::RegularExpressions::Regex*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::RegexConverter::WriteJson)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x2989610;
+  constexpr static std::size_t addrs = 0x298b60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::RegexConverter::ReadJson)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x29897e0;
+  constexpr static std::size_t addrs = 0x298b7dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::Converters::RegexConverter::ReadRegexString)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2989b18;
+  constexpr static std::size_t addrs = 0x298bb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Regex* (
     ::Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::RegexConverter::ReadRegexObject)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x2989890;
+  constexpr static std::size_t addrs = 0x298b88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::RegexConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::RegexConverter::CanConvert)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2989c84;
+  constexpr static std::size_t addrs = 0x298bc80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::RegexConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::RegexConverter::IsRegex)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2989d00;
+  constexpr static std::size_t addrs = 0x298bcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::RegexConverter::*)()>(&::Newtonsoft::Json::Converters::RegexConverter::_ctor)> {
   constexpr static std::size_t size = 0x1008;
-  constexpr static std::size_t addrs = 0x2989d88;
+  constexpr static std::size_t addrs = 0x298bd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::RegexConverter*>::get(), ".ctor",

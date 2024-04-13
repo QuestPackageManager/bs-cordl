@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetInnerUV)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x321b3d0;
+  constexpr static std::size_t addrs = 0x321d3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetOuterUV)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x321b3e0;
+  constexpr static std::size_t addrs = 0x321d3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetPadding)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x321b3f0;
+  constexpr static std::size_t addrs = 0x321d3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetMinSize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x321b400;
+  constexpr static std::size_t addrs = 0x321d3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

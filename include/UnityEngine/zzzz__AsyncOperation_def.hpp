@@ -38,13 +38,13 @@ public:
 
   __declspec(property(get = get_progress)) float_t progress;
 
-  /// @brief Method Finalize, addr 0x3205878, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3207874, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalDestroy, addr 0x3205934, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x3207930, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(void* ptr);
 
-  /// @brief Method InvokeCompletionEvent, addr 0x3205970, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InvokeCompletionEvent, addr 0x320796c, size 0x30, virtual false, abstract: false, final false
   inline void InvokeCompletionEvent();
 
   static inline ::UnityEngine::AsyncOperation* New_ctor();
@@ -61,28 +61,28 @@ public:
 
   constexpr void __cordl_internal_set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method .ctor, addr 0x3205c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3207c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_completed, addr 0x32059a0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method add_completed, addr 0x320799c, size 0xfc, virtual false, abstract: false, final false
   inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method get_allowSceneActivation, addr 0x3205c00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowSceneActivation, addr 0x3207bfc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_allowSceneActivation();
 
-  /// @brief Method get_isDone, addr 0x3205a9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x3207a98, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_progress, addr 0x3205b80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x3207b7c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method remove_completed, addr 0x3205ad8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_completed, addr 0x3207ad4, size 0xa8, virtual false, abstract: false, final false
   inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method set_allowSceneActivation, addr 0x3205c3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowSceneActivation, addr 0x3207c38, size 0x44, virtual false, abstract: false, final false
   inline void set_allowSceneActivation(bool value);
 
-  /// @brief Method set_priority, addr 0x3205bbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x3207bb8, size 0x44, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
 protected:

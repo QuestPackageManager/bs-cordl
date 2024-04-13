@@ -71,18 +71,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac597c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac7978, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchDescriptor, ByRef<uint32_t> pHandleOut, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac5a10, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac7a0c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<uint32_t> pHandleOut, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac5968, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac7964, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(::StringW pchDescriptor, ByRef<uint32_t> pHandleOut);
 
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac5890, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac788c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -113,20 +113,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSpatialAnchors___CreateSpatialAnchorFromPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac5b14, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac7b10, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint32_t> pHandleOut,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac5c14, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac7c10, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint32_t> pHandleOut, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac5b00, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac7afc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose,
                                                      ByRef<uint32_t> pHandleOut);
 
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___CreateSpatialAnchorFromPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac5a3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac7a38, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -157,19 +157,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSpatialAnchors___GetSpatialAnchorPose : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac5d20, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac7d1c, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac5e08, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac7e04, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac5d0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac7d08, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut);
 
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___GetSpatialAnchorPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac5c48, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac7c44, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -200,19 +200,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRSpatialAnchors___GetSpatialAnchorDescriptor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac5f0c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac7f08, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unHandle, ::System::Text::StringBuilder* pchDescriptorOut, ByRef<uint32_t> punDescriptorBufferLenInOut, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac5fb4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac7fb0, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<uint32_t> punDescriptorBufferLenInOut, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac5ef8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac7ef4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(uint32_t unHandle, ::System::Text::StringBuilder* pchDescriptorOut, ByRef<uint32_t> punDescriptorBufferLenInOut);
 
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___GetSpatialAnchorDescriptor* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac5e34, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac7e30, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

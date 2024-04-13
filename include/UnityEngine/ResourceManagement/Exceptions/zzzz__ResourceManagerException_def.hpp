@@ -37,19 +37,19 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
                                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x30f96f8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x30ff6f4, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x30f9548, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30ff544, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x30f95a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30ff59c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x30f9608, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30ff604, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x30f9678, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30ff674, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

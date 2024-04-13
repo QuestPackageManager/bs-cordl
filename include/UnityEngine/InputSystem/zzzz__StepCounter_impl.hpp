@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::InputSystem::StepCounter::*)()>(
     &::UnityEngine::InputSystem::StepCounter::get_stepCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fd7ad0;
+  constexpr static std::size_t addrs = 0x2fddacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::StepCounter*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)(::UnityEngine::InputSystem::Controls::IntegerControl*)>(
     &::UnityEngine::InputSystem::StepCounter::set_stepCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fd7ad8;
+  constexpr static std::size_t addrs = 0x2fddad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::StepCounter* (*)()>(&::UnityEngine::InputSystem::StepCounter::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2fd7ae0;
+  constexpr static std::size_t addrs = 0x2fddadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::StepCounter*>::get(), "get_current",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::StepCounter*)>(&::UnityEngine::InputSystem::StepCounter::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2fd7b28;
+  constexpr static std::size_t addrs = 0x2fddb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::MakeCurrent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2fd7b74;
+  constexpr static std::size_t addrs = 0x2fddb70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::OnRemoved)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2fd7bc8;
+  constexpr static std::size_t addrs = 0x2fddbc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2fd7c4c;
+  constexpr static std::size_t addrs = 0x2fddc48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fd7cc4;
+  constexpr static std::size_t addrs = 0x2fddcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::StepCounter*>::get(), ".ctor",

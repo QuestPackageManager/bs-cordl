@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::BMPAlloc::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::BMPAlloc::Equals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x33d3fe8;
+  constexpr static std::size_t addrs = 0x33d6fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::BMPAlloc::*)()>(&::UnityEngine::UIElements::UIR::BMPAlloc::IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x33d4020;
+  constexpr static std::size_t addrs = 0x33d701c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BMPAlloc>::get(), "IsValid",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UIR::BMPAlloc::*)()>(&::UnityEngine::UIElements::UIR::BMPAlloc::ToString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x33d4030;
+  constexpr static std::size_t addrs = 0x33d702c;
 
   inline static ::MethodInfo const* methodInfo() {
 

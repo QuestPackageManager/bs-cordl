@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableCell::*)(::StringW)>(&::GlobalNamespace::FileBrowserTableCell::set_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x263c588;
+  constexpr static std::size_t addrs = 0x2643584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileBrowserTableCell::*)()>(&::GlobalNamespace::FileBrowserTableCell::get_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x263c5ac;
+  constexpr static std::size_t addrs = 0x26435a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableCell*>::get(), "get_text",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableCell::*)(::HMUI::__SelectableCell__TransitionType)>(
     &::GlobalNamespace::FileBrowserTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x263c5d0;
+  constexpr static std::size_t addrs = 0x26435cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableCell::*)(::HMUI::__SelectableCell__TransitionType)>(
     &::GlobalNamespace::FileBrowserTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x263c674;
+  constexpr static std::size_t addrs = 0x2643670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableCell::*)()>(&::GlobalNamespace::FileBrowserTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263c6b4;
+  constexpr static std::size_t addrs = 0x26436b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableCell*>::get(), ".ctor",

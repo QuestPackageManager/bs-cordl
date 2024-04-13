@@ -42,24 +42,24 @@ public:
   /// @brief Field _subtree, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__subtree, put = __cordl_internal_set__subtree))::System::Xml::Schema::ForwardAxis* _subtree;
 
-  /// @brief Method Equal, addr 0x2df1008, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x2df3004, size 0x7c, virtual false, abstract: false, final false
   static inline bool Equal(::StringW thisname, ::StringW thisURN, ::StringW name, ::StringW URN);
 
-  /// @brief Method MoveToAttribute, addr 0x2df14b8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x2df34b4, size 0x174, virtual false, abstract: false, final false
   inline bool MoveToAttribute(::StringW name, ::StringW URN, int32_t depth);
 
-  /// @brief Method MoveToChild, addr 0x2df1378, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MoveToChild, addr 0x2df3374, size 0x140, virtual false, abstract: false, final false
   inline bool MoveToChild(::StringW name, ::StringW URN, int32_t depth);
 
-  /// @brief Method MoveToParent, addr 0x2df1230, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x2df322c, size 0x148, virtual false, abstract: false, final false
   inline void MoveToParent(::StringW name, ::StringW URN, int32_t depth);
 
   static inline ::System::Xml::Schema::AxisStack* New_ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent);
 
-  /// @brief Method Pop, addr 0x2df11f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x2df31ec, size 0x40, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method Push, addr 0x2df1158, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x2df3154, size 0x98, virtual false, abstract: false, final false
   inline void Push(int32_t depth);
 
   constexpr ::System::Xml::Schema::ActiveAxis*& __cordl_internal_get__parent();
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set__subtree(::System::Xml::Schema::ForwardAxis* value);
 
-  /// @brief Method .ctor, addr 0x2df10b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df30ac, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent);
 
-  /// @brief Method get_Length, addr 0x2df108c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2df3088, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Subtree, addr 0x2df1084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subtree, addr 0x2df3080, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ForwardAxis* get_Subtree();
 
 protected:

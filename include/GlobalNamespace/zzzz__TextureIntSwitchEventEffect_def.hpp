@@ -117,18 +117,18 @@ public:
   __declspec(property(get = __cordl_internal_get__valueToTextureMap,
                       put = __cordl_internal_set__valueToTextureMap))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* _valueToTextureMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x25cccf0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x25d3cec, size 0x18, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
   static inline ::GlobalNamespace::TextureIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25cccd4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25d3cd0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureByIndex, addr 0x25ccc04, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureByIndex, addr 0x25d3c00, size 0xd0, virtual false, abstract: false, final false
   inline void SetTextureByIndex(int32_t value);
 
-  /// @brief Method Start, addr 0x25cca58, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25d3a54, size 0x1ac, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set__valueToTextureMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method .ctor, addr 0x25ccd08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d3d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

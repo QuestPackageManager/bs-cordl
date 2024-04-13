@@ -45,21 +45,21 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectMissionNodeEvent,
                       put = __cordl_internal_set_didSelectMissionNodeEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* didSelectMissionNodeEvent;
 
-  /// @brief Method DeselectSelectedNode, addr 0x2528da4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DeselectSelectedNode, addr 0x2531da0, size 0x80, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
 
-  /// @brief Method HandleNodeWasDisplayed, addr 0x252946c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleNodeWasDisplayed, addr 0x2532468, size 0x80, virtual false, abstract: false, final false
   inline void HandleNodeWasDisplayed(::GlobalNamespace::MissionNodeVisualController* missionNode);
 
-  /// @brief Method HandleNodeWasSelect, addr 0x25293b8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleNodeWasSelect, addr 0x25323b4, size 0xb4, virtual false, abstract: false, final false
   inline void HandleNodeWasSelect(::GlobalNamespace::MissionNodeVisualController* missionNode);
 
   static inline ::GlobalNamespace::MissionNodeSelectionManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25290e8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25320e4, size 0x170, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2528e50, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2531e4c, size 0x138, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> const& __cordl_internal_get__missionNodes() const;
@@ -86,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method .ctor, addr 0x25294ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25324e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectMissionNodeEvent, addr 0x2528c44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectMissionNodeEvent, addr 0x2531c40, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method remove_didSelectMissionNodeEvent, addr 0x2528cf4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectMissionNodeEvent, addr 0x2531cf0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
 protected:

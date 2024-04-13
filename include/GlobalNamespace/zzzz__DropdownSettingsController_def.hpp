@@ -48,21 +48,21 @@ public:
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method HandleDropdownValueDidChange, addr 0x253255c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDropdownValueDidChange, addr 0x253b558, size 0x40, virtual false, abstract: false, final false
   inline void HandleDropdownValueDidChange(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::DropdownSettingsController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x253248c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x253b488, size 0xd0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2532290, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x253b28c, size 0xbc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x253259c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x253b598, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x253234c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x253b348, size 0x140, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -92,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set_dropDownValueDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x25325f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253b5f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_dropDownValueDidChangeEvent, addr 0x2532158, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_dropDownValueDidChangeEvent, addr 0x253b154, size 0x9c, virtual false, abstract: false, final false
   inline void add_dropDownValueDidChangeEvent(::System::Action* value);
 
-  /// @brief Method remove_dropDownValueDidChangeEvent, addr 0x25321f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_dropDownValueDidChangeEvent, addr 0x253b1f0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_dropDownValueDidChangeEvent(::System::Action* value);
 
 protected:

@@ -60,15 +60,15 @@ public:
   /// @brief Field _texturedCoreMaterial, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__texturedCoreMaterial, put = __cordl_internal_set__texturedCoreMaterial))::UnityW<::UnityEngine::Material> _texturedCoreMaterial;
 
-  /// @brief Method Awake, addr 0x2526184, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x252f180, size 0x68, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ObstacleMaterialSetter* New_ctor();
 
-  /// @brief Method SetCoreMaterial, addr 0x25261ec, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetCoreMaterial, addr 0x252f1e8, size 0x14c, virtual false, abstract: false, final false
   inline void SetCoreMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality);
 
-  /// @brief Method SetFakeGlowMaterial, addr 0x2526338, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetFakeGlowMaterial, addr 0x252f334, size 0x40, virtual false, abstract: false, final false
   inline void SetFakeGlowMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fakeGlowLWMaterial() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__texturedCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x2526378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252f374, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

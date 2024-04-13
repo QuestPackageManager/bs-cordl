@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE AppInitSetupInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x24ffd50, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2507d4c, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::AppInitSetupInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24ffdac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2507da8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

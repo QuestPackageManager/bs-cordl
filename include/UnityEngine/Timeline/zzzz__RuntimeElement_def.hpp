@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__intervalBit_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3193064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3196060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_intervalBit, addr 0x31939cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalBit, addr 0x31969c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intervalBit();
 
   /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -72,7 +72,7 @@ public:
   /// @brief Method set_enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_enable(bool value);
 
-  /// @brief Method set_intervalBit, addr 0x31939d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalBit, addr 0x31969d0, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalBit(int32_t value);
 
 protected:

@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__LaterInitParam::*)()>(
     &::System::Xml::__XmlTextReaderImpl__LaterInitParam::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2d72e7c;
+  constexpr static std::size_t addrs = 0x2d75e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__LaterInitParam*>::get(),
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__ParsingState::*)()>(
     &::System::Xml::__XmlTextReaderImpl__ParsingState::Clear)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2d72e8c;
+  constexpr static std::size_t addrs = 0x2d75e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__ParsingState>::get(), "Clear",
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__ParsingState::*)(bool)>(
     &::System::Xml::__XmlTextReaderImpl__ParsingState::Close)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2d72f08;
+  constexpr static std::size_t addrs = 0x2d75f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__ParsingState::*)()>(
     &::System::Xml::__XmlTextReaderImpl__ParsingState::get_LineNo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d72f40;
+  constexpr static std::size_t addrs = 0x2d75f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__ParsingState>::get(),
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__ParsingState::*)()>(
     &::System::Xml::__XmlTextReaderImpl__ParsingState::get_LinePos)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2d72f48;
+  constexpr static std::size_t addrs = 0x2d75f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__ParsingState>::get(),
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__XmlContext::*)()>(&::System::Xml::__XmlTextReaderImpl__XmlContext::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d72f58;
+  constexpr static std::size_t addrs = 0x2d75f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__XmlContext*>::get(), ".ctor",
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__XmlContext::*)(::System::Xml::__XmlTextReaderImpl__XmlContext*)>(
     &::System::Xml::__XmlTextReaderImpl__XmlContext::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2d72fbc;
+  constexpr static std::size_t addrs = 0x2d75fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d72ffc;
+  constexpr static std::size_t addrs = 0x2d75ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NoNamespaceManager*>::get(),
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::get_DefaultNamespace)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2d73004;
+  constexpr static std::size_t addrs = 0x2d76000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::PushScope)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d7304c;
+  constexpr static std::size_t addrs = 0x2d76048;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::PopScope)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d73050;
+  constexpr static std::size_t addrs = 0x2d7604c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)(::StringW, ::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::AddNamespace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d73058;
+  constexpr static std::size_t addrs = 0x2d76054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)(::StringW, ::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::RemoveNamespace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d7305c;
+  constexpr static std::size_t addrs = 0x2d76058;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::GetEnumerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d73060;
+  constexpr static std::size_t addrs = 0x2d7605c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::GetNamespacesInScope)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d73068;
+  constexpr static std::size_t addrs = 0x2d76064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -638,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)(::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2d73070;
+  constexpr static std::size_t addrs = 0x2d7606c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::*)(::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NoNamespaceManager::LookupPrefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d730b8;
+  constexpr static std::size_t addrs = 0x2d760b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::System::Xml::XmlTextReaderImpl*)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2d730c0;
+  constexpr static std::size_t addrs = 0x2d760bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_NameTable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d730e8;
+  constexpr static std::size_t addrs = 0x2d760e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IXmlNamespaceResolver* (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_NamespaceResolver)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73104;
+  constexpr static std::size_t addrs = 0x2d76100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_BaseUri)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73120;
+  constexpr static std::size_t addrs = 0x2d7611c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_IsEof)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d7313c;
+  constexpr static std::size_t addrs = 0x2d76138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_ParsingBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73158;
+  constexpr static std::size_t addrs = 0x2d76154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -824,7 +824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_ParsingBufferLength)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73174;
+  constexpr static std::size_t addrs = 0x2d76170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_CurrentPosition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73190;
+  constexpr static std::size_t addrs = 0x2d7618c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -854,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(int32_t)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_set_CurrentPosition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d731ac;
+  constexpr static std::size_t addrs = 0x2d761a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__DtdParserProxy*>::get(),
@@ -869,7 +869,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_EntityStackLength)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d731c8;
+  constexpr static std::size_t addrs = 0x2d761c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -884,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_IsEntityEolNormalized)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d731e4;
+  constexpr static std::size_t addrs = 0x2d761e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -899,7 +899,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(int32_t)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_OnNewLine)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73200;
+  constexpr static std::size_t addrs = 0x2d761fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -914,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_LineNo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d7321c;
+  constexpr static std::size_t addrs = 0x2d76218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -929,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_get_LineStartPosition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73238;
+  constexpr static std::size_t addrs = 0x2d76234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -944,7 +944,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_ReadData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73254;
+  constexpr static std::size_t addrs = 0x2d76250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -959,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_ParseNumericCharRef)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73270;
+  constexpr static std::size_t addrs = 0x2d7626c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -974,7 +974,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(bool, ::System::Text::StringBuilder*)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_ParseNamedCharRef)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2d7328c;
+  constexpr static std::size_t addrs = 0x2d76288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -991,7 +991,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_ParsePI)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d732ac;
+  constexpr static std::size_t addrs = 0x2d762a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1006,7 +1006,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_ParseComment)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d732c8;
+  constexpr static std::size_t addrs = 0x2d762c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1021,7 +1021,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::System::Xml::IDtdEntityInfo*, ByRef<int32_t>)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_PushEntity)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d732e4;
+  constexpr static std::size_t addrs = 0x2d762e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1038,7 +1038,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(ByRef<::System::Xml::IDtdEntityInfo*>, ByRef<int32_t>)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_PopEntity)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73300;
+  constexpr static std::size_t addrs = 0x2d762fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1055,7 +1055,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::StringW, ::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_PushExternalSubset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d7331c;
+  constexpr static std::size_t addrs = 0x2d76318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1071,7 +1071,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::StringW, ::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_PushInternalDtd)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73338;
+  constexpr static std::size_t addrs = 0x2d76334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1087,7 +1087,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(::System::Exception*)>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_Throw)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73354;
+  constexpr static std::size_t addrs = 0x2d76350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1102,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(
     ::StringW, ::System::Xml::LineInfo, ::System::Xml::LineInfo)>(&::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_OnSystemId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73370;
+  constexpr static std::size_t addrs = 0x2d7636c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1120,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)(
     ::StringW, ::System::Xml::LineInfo, ::System::Xml::LineInfo)>(&::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapter_OnPublicId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d7338c;
+  constexpr static std::size_t addrs = 0x2d76388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1138,7 +1138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapterWithValidation_get_DtdValidation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d733a8;
+  constexpr static std::size_t addrs = 0x2d763a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1153,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IValidationEventHandling* (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapterWithValidation_get_ValidationEventHandling)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d733c4;
+  constexpr static std::size_t addrs = 0x2d763c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1168,7 +1168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapterV1_get_Normalization)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d733e0;
+  constexpr static std::size_t addrs = 0x2d763dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapterV1_get_Namespaces)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d733fc;
+  constexpr static std::size_t addrs = 0x2d763f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1198,7 +1198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__DtdParserProxy::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdParserProxy::System_Xml_IDtdParserAdapterV1_get_V1CompatibilityMode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d73418;
+  constexpr static std::size_t addrs = 0x2d76414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1455,7 +1455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__NodeData* (*)()>(&::System::Xml::__XmlTextReaderImpl__NodeData::get_None)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2d73434;
+  constexpr static std::size_t addrs = 0x2d76430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(), "get_None",
@@ -1468,7 +1468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(&::System::Xml::__XmlTextReaderImpl__NodeData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2d734d4;
+  constexpr static std::size_t addrs = 0x2d764d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(), ".ctor",
@@ -1482,7 +1482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::get_LineNo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d73588;
+  constexpr static std::size_t addrs = 0x2d76584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1496,7 +1496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::get_LinePos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d73590;
+  constexpr static std::size_t addrs = 0x2d7658c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1510,7 +1510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d73598;
+  constexpr static std::size_t addrs = 0x2d76594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1524,7 +1524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(bool)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::set_IsEmptyElement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d735bc;
+  constexpr static std::size_t addrs = 0x2d765b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1539,7 +1539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::get_IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d735c8;
+  constexpr static std::size_t addrs = 0x2d765c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1553,7 +1553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(bool)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::set_IsDefaultAttribute)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d735ec;
+  constexpr static std::size_t addrs = 0x2d765e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1568,7 +1568,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::get_ValueBuffered)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2d735f8;
+  constexpr static std::size_t addrs = 0x2d765f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1582,7 +1582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::get_StringValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d73608;
+  constexpr static std::size_t addrs = 0x2d76604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1596,7 +1596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::TrimSpacesInValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d73634;
+  constexpr static std::size_t addrs = 0x2d76630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1610,7 +1610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::System::Xml::XmlNodeType)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::Clear)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2d734fc;
+  constexpr static std::size_t addrs = 0x2d764f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1624,7 +1624,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(&::System::Xml::__XmlTextReaderImpl__NodeData::ClearName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d73670;
+  constexpr static std::size_t addrs = 0x2d7666c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1638,7 +1638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(int32_t, int32_t)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::SetLineInfo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d736c4;
+  constexpr static std::size_t addrs = 0x2d766c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1653,7 +1653,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(int32_t, int32_t)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::SetLineInfo2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d736d0;
+  constexpr static std::size_t addrs = 0x2d766cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1668,7 +1668,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::System::Xml::XmlNodeType, ::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::SetValueNode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2d736dc;
+  constexpr static std::size_t addrs = 0x2d766d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1684,7 +1684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(
     ::System::Xml::XmlNodeType, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::Xml::__XmlTextReaderImpl__NodeData::SetValueNode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2d7374c;
+  constexpr static std::size_t addrs = 0x2d76748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1701,7 +1701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::System::Xml::XmlNodeType, ::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::SetNamedNode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2d737c8;
+  constexpr static std::size_t addrs = 0x2d767c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1717,7 +1717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::System::Xml::XmlNodeType, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::SetNamedNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2d73870;
+  constexpr static std::size_t addrs = 0x2d7686c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1734,7 +1734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::StringW)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::SetValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2d738f8;
+  constexpr static std::size_t addrs = 0x2d768f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1749,7 +1749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::SetValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d73908;
+  constexpr static std::size_t addrs = 0x2d76904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1765,7 +1765,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)()>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::OnBufferInvalidated)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2d73914;
+  constexpr static std::size_t addrs = 0x2d76910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlTextReaderImpl__NodeData*>::get(),
@@ -1779,7 +1779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__NodeData::*)(int32_t, ::System::Text::StringBuilder*)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::CopyTo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2d7394c;
+  constexpr static std::size_t addrs = 0x2d76948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1795,7 +1795,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__NodeData::*)(int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::Xml::__XmlTextReaderImpl__NodeData::CopyTo)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2d739cc;
+  constexpr static std::size_t addrs = 0x2d769c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1812,7 +1812,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::System::Xml::XmlNameTable*)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::GetNameWPrefix)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d73a2c;
+  constexpr static std::size_t addrs = 0x2d76a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1827,7 +1827,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::System::Xml::XmlNameTable*)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::CreateNameWPrefix)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2d73a40;
+  constexpr static std::size_t addrs = 0x2d76a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1842,7 +1842,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__NodeData::*)(::System::Object*)>(
     &::System::Xml::__XmlTextReaderImpl__NodeData::System_IComparable_CompareTo)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2d73acc;
+  constexpr static std::size_t addrs = 0x2d76ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2268,7 +2268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IComparer_1<::System::Object*>* (*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::get_Instance)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2d73ba4;
+  constexpr static std::size_t addrs = 0x2d76ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2283,7 +2283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::*)(
     ::System::Object*, ::System::Object*)>(&::System::Xml::__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::Compare)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x2d73bfc;
+  constexpr static std::size_t addrs = 0x2d76bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2300,7 +2300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::*)()>(
     &::System::Xml::__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d73f44;
+  constexpr static std::size_t addrs = 0x2d76f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2358,7 +2358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate::*)(::System::Object*, void*)>(
     &::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2d73fb0;
+  constexpr static std::size_t addrs = 0x2d76fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2373,7 +2373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate::*)(
     ::System::Xml::IDtdDefaultAttributeInfo*, ::System::Xml::XmlTextReaderImpl*)>(&::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d740e0;
+  constexpr static std::size_t addrs = 0x2d770dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2405,7 +2405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlNameTable*)>(&::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x2c9fd3c;
+  constexpr static std::size_t addrs = 0x2ca1d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2420,7 +2420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(
     ::System::Xml::XmlResolver*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*)>(&::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x2ca00b0;
+  constexpr static std::size_t addrs = 0x2ca20ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2436,7 +2436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::IO::Stream*)>(&::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ca075c;
+  constexpr static std::size_t addrs = 0x2ca2758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2451,7 +2451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::IO::Stream*, ::System::Xml::XmlNameTable*)>(
     &::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2ca07f4;
+  constexpr static std::size_t addrs = 0x2ca27f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2467,7 +2467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::IO::TextReader*)>(&::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ca095c;
+  constexpr static std::size_t addrs = 0x2ca2958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2482,7 +2482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::IO::TextReader*, ::System::Xml::XmlNameTable*)>(
     &::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2ca0ac4;
+  constexpr static std::size_t addrs = 0x2ca2ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2498,7 +2498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::IO::TextReader*, ::System::Xml::XmlNameTable*)>(
     &::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2ca09f4;
+  constexpr static std::size_t addrs = 0x2ca29f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2515,7 +2515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::Xml::XmlNodeType, ::System::Xml::XmlParserContext*)>(
     &::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2ca0b38;
+  constexpr static std::size_t addrs = 0x2ca2b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2532,7 +2532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::Xml::XmlParserContext*)>(
     &::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2ca0efc;
+  constexpr static std::size_t addrs = 0x2ca2ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2547,7 +2547,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishInitUriString)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x2ca1034;
+  constexpr static std::size_t addrs = 0x2ca3030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "FinishInitUriString",
@@ -2562,7 +2562,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IO::Stream*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::System::Xml::XmlReaderSettings*, ::System::Uri*, ::StringW, ::System::Xml::XmlParserContext*, bool)>(
     &::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2ca15f8;
+  constexpr static std::size_t addrs = 0x2ca35f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2580,7 +2580,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishInitStream)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2ca1898;
+  constexpr static std::size_t addrs = 0x2ca3894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "FinishInitStream",
@@ -2594,7 +2594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(
     ::System::IO::TextReader*, ::System::Xml::XmlReaderSettings*, ::StringW, ::System::Xml::XmlParserContext*)>(&::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2ca1918;
+  constexpr static std::size_t addrs = 0x2ca3914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2611,7 +2611,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishInitTextReader)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ca1a00;
+  constexpr static std::size_t addrs = 0x2ca39fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "FinishInitTextReader",
@@ -2625,7 +2625,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReaderSettings*)>(&::System::Xml::XmlTextReaderImpl::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2ca1a64;
+  constexpr static std::size_t addrs = 0x2ca3a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2642,7 +2642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_Settings)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2ca1b08;
+  constexpr static std::size_t addrs = 0x2ca3b04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2657,7 +2657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_NodeType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1c60;
+  constexpr static std::size_t addrs = 0x2ca3c5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2671,7 +2671,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_Name)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ca1c7c;
+  constexpr static std::size_t addrs = 0x2ca3c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2685,7 +2685,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_LocalName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1ca0;
+  constexpr static std::size_t addrs = 0x2ca3c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2699,7 +2699,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1cbc;
+  constexpr static std::size_t addrs = 0x2ca3cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2713,7 +2713,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_Prefix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1cd8;
+  constexpr static std::size_t addrs = 0x2ca3cd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2727,7 +2727,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_Value)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2ca1cf4;
+  constexpr static std::size_t addrs = 0x2ca3cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2741,7 +2741,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_Depth)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1f08;
+  constexpr static std::size_t addrs = 0x2ca3f04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2755,7 +2755,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_BaseURI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca1f24;
+  constexpr static std::size_t addrs = 0x2ca3f20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2769,7 +2769,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1f2c;
+  constexpr static std::size_t addrs = 0x2ca3f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2783,7 +2783,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_IsDefault)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1f48;
+  constexpr static std::size_t addrs = 0x2ca3f44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2797,7 +2797,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_QuoteChar)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2ca1f64;
+  constexpr static std::size_t addrs = 0x2ca3f60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2811,7 +2811,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_XmlSpace)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1f94;
+  constexpr static std::size_t addrs = 0x2ca3f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2825,7 +2825,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_XmlLang)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca1fb0;
+  constexpr static std::size_t addrs = 0x2ca3fac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2839,7 +2839,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ReadState (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_ReadState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca1fcc;
+  constexpr static std::size_t addrs = 0x2ca3fc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2853,7 +2853,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_EOF)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ca1fd4;
+  constexpr static std::size_t addrs = 0x2ca3fd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2868,7 +2868,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca1fe4;
+  constexpr static std::size_t addrs = 0x2ca3fe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2882,7 +2882,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_CanResolveEntity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca1fec;
+  constexpr static std::size_t addrs = 0x2ca3fe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2896,7 +2896,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_AttributeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca1ff4;
+  constexpr static std::size_t addrs = 0x2ca3ff0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2910,7 +2910,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::GetAttribute)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2ca1ffc;
+  constexpr static std::size_t addrs = 0x2ca3ff8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2925,7 +2925,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::GetAttribute)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2ca222c;
+  constexpr static std::size_t addrs = 0x2ca4228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2939,7 +2939,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::GetAttribute)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2ca23a8;
+  constexpr static std::size_t addrs = 0x2ca43a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2953,7 +2953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::MoveToAttribute)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2ca2448;
+  constexpr static std::size_t addrs = 0x2ca4444;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2967,7 +2967,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::MoveToAttribute)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2ca25d0;
+  constexpr static std::size_t addrs = 0x2ca45cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2981,7 +2981,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2ca269c;
+  constexpr static std::size_t addrs = 0x2ca4698;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2995,7 +2995,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2ca2710;
+  constexpr static std::size_t addrs = 0x2ca470c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3009,7 +3009,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::MoveToElement)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2ca2798;
+  constexpr static std::size_t addrs = 0x2ca4794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3023,7 +3023,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishInit)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2ca2820;
+  constexpr static std::size_t addrs = 0x2ca481c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "FinishInit",
@@ -3036,7 +3036,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::Read)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x2ca2868;
+  constexpr static std::size_t addrs = 0x2ca4864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3050,7 +3050,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::Close)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca49e8;
+  constexpr static std::size_t addrs = 0x2ca69e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3064,7 +3064,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::Skip)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2ca4aac;
+  constexpr static std::size_t addrs = 0x2ca6aa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3078,7 +3078,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::LookupNamespace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2ca4c2c;
+  constexpr static std::size_t addrs = 0x2ca6c28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3092,7 +3092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ReadAttributeValue)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x2ca4c64;
+  constexpr static std::size_t addrs = 0x2ca6c60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3106,7 +3106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ResolveEntity)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x2ca5344;
+  constexpr static std::size_t addrs = 0x2ca7340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3121,7 +3121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlTextReaderImpl::set_OuterReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca5a3c;
+  constexpr static std::size_t addrs = 0x2ca7a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3135,7 +3135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::MoveOffEntityReference)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2ca5a44;
+  constexpr static std::size_t addrs = 0x2ca7a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -3148,7 +3148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ReadString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca5afc;
+  constexpr static std::size_t addrs = 0x2ca7af8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3162,7 +3162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_CanReadValueChunk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca5b18;
+  constexpr static std::size_t addrs = 0x2ca7b14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3177,7 +3177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::ReadValueChunk)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x2ca5b20;
+  constexpr static std::size_t addrs = 0x2ca7b1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3191,7 +3191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6664;
+  constexpr static std::size_t addrs = 0x2ca8660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "HasLineInfo",
@@ -3204,7 +3204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_LineNumber)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca666c;
+  constexpr static std::size_t addrs = 0x2ca8668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_LineNumber",
@@ -3217,7 +3217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_LinePosition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca6688;
+  constexpr static std::size_t addrs = 0x2ca8684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_LinePosition",
@@ -3231,7 +3231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlTextReaderImpl::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ca66a4;
+  constexpr static std::size_t addrs = 0x2ca86a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3246,7 +3246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(
     &::System::Xml::XmlTextReaderImpl::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ca66ec;
+  constexpr static std::size_t addrs = 0x2ca86e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3261,7 +3261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(
     &::System::Xml::XmlTextReaderImpl::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ca66fc;
+  constexpr static std::size_t addrs = 0x2ca86f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3276,7 +3276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlTextReaderImpl::GetNamespacesInScope)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ca66c8;
+  constexpr static std::size_t addrs = 0x2ca86c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3290,7 +3290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::LookupPrefix)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ca6720;
+  constexpr static std::size_t addrs = 0x2ca871c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3304,7 +3304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_Namespaces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6744;
+  constexpr static std::size_t addrs = 0x2ca8740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_Namespaces",
@@ -3317,7 +3317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(bool)>(&::System::Xml::XmlTextReaderImpl::set_Namespaces)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x2ca674c;
+  constexpr static std::size_t addrs = 0x2ca8748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3331,7 +3331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_Normalization)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca691c;
+  constexpr static std::size_t addrs = 0x2ca8918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_Normalization",
@@ -3344,7 +3344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(bool)>(&::System::Xml::XmlTextReaderImpl::set_Normalization)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2ca6924;
+  constexpr static std::size_t addrs = 0x2ca8920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3359,7 +3359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::WhitespaceHandling)>(
     &::System::Xml::XmlTextReaderImpl::set_WhitespaceHandling)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2ca6a48;
+  constexpr static std::size_t addrs = 0x2ca8a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -3374,7 +3374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::EntityHandling)>(
     &::System::Xml::XmlTextReaderImpl::set_EntityHandling)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2ca6b1c;
+  constexpr static std::size_t addrs = 0x2ca8b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3388,7 +3388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_IsResolverSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6ba4;
+  constexpr static std::size_t addrs = 0x2ca8ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_IsResolverSet",
@@ -3402,7 +3402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlResolver*)>(
     &::System::Xml::XmlTextReaderImpl::set_XmlResolver)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2ca6bac;
+  constexpr static std::size_t addrs = 0x2ca8ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3417,7 +3417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6c08;
+  constexpr static std::size_t addrs = 0x2ca8c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -3431,7 +3431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IXmlNamespaceResolver* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_NamespaceResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6c10;
+  constexpr static std::size_t addrs = 0x2ca8c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3445,7 +3445,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_DtdValidation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ca6c18;
+  constexpr static std::size_t addrs = 0x2ca8c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3459,7 +3459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_Normalization)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6c38;
+  constexpr static std::size_t addrs = 0x2ca8c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3473,7 +3473,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_Namespaces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6c40;
+  constexpr static std::size_t addrs = 0x2ca8c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -3487,7 +3487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_V1CompatibilityMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6c48;
+  constexpr static std::size_t addrs = 0x2ca8c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3502,7 +3502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_BaseUri)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2ca6c50;
+  constexpr static std::size_t addrs = 0x2ca8c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -3515,7 +3515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_IsEof)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6cf4;
+  constexpr static std::size_t addrs = 0x2ca8cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -3529,7 +3529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_ParsingBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6cfc;
+  constexpr static std::size_t addrs = 0x2ca8cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3544,7 +3544,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_ParsingBufferLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6d04;
+  constexpr static std::size_t addrs = 0x2ca8d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3559,7 +3559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_CurrentPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6d0c;
+  constexpr static std::size_t addrs = 0x2ca8d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3574,7 +3574,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(
     &::System::Xml::XmlTextReaderImpl::set_DtdParserProxy_CurrentPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6d14;
+  constexpr static std::size_t addrs = 0x2ca8d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3589,7 +3589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_EntityStackLength)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ca6d1c;
+  constexpr static std::size_t addrs = 0x2ca8d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3604,7 +3604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_IsEntityEolNormalized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6d28;
+  constexpr static std::size_t addrs = 0x2ca8d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3619,7 +3619,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IValidationEventHandling* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_ValidationEventHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6d30;
+  constexpr static std::size_t addrs = 0x2ca8d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3633,7 +3633,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::DtdParserProxy_OnNewLine)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ca6d38;
+  constexpr static std::size_t addrs = 0x2ca8d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3647,7 +3647,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_LineNo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6d60;
+  constexpr static std::size_t addrs = 0x2ca8d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -3661,7 +3661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_DtdParserProxy_LineStartPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca6d68;
+  constexpr static std::size_t addrs = 0x2ca8d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3675,7 +3675,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::DtdParserProxy_ReadData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2ca6d70;
+  constexpr static std::size_t addrs = 0x2ca8d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -3689,7 +3689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_ParseNumericCharRef)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2ca71a4;
+  constexpr static std::size_t addrs = 0x2ca91a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3704,7 +3704,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(bool, ::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_ParseNamedCharRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca7270;
+  constexpr static std::size_t addrs = 0x2ca926c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3720,7 +3720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_ParsePI)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ca72dc;
+  constexpr static std::size_t addrs = 0x2ca92d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -3735,7 +3735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_ParseComment)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2ca7690;
+  constexpr static std::size_t addrs = 0x2ca968c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3749,7 +3749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_IsResolverNull)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ca7a18;
+  constexpr static std::size_t addrs = 0x2ca9a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_IsResolverNull",
@@ -3763,7 +3763,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlResolver* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::GetTempResolver)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2ca7a58;
+  constexpr static std::size_t addrs = 0x2ca9a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "GetTempResolver",
@@ -3777,7 +3777,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::IDtdEntityInfo*, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_PushEntity)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2ca7ac0;
+  constexpr static std::size_t addrs = 0x2ca9abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3793,7 +3793,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(ByRef<::System::Xml::IDtdEntityInfo*>, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_PopEntity)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ca827c;
+  constexpr static std::size_t addrs = 0x2caa278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3809,7 +3809,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_PushExternalSubset)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2ca8314;
+  constexpr static std::size_t addrs = 0x2caa310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3824,7 +3824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_PushInternalDtd)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ca8a5c;
+  constexpr static std::size_t addrs = 0x2caaa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3839,7 +3839,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Exception*)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_Throw)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca8cbc;
+  constexpr static std::size_t addrs = 0x2caacb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3854,7 +3854,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::Xml::LineInfo, ::System::Xml::LineInfo)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_OnSystemId)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ca8d54;
+  constexpr static std::size_t addrs = 0x2caad50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3871,7 +3871,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::Xml::LineInfo, ::System::Xml::LineInfo)>(
     &::System::Xml::XmlTextReaderImpl::DtdParserProxy_OnPublicId)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ca8e5c;
+  constexpr static std::size_t addrs = 0x2caae58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3888,7 +3888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t, ::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ca8ee8;
+  constexpr static std::size_t addrs = 0x2caaee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3904,7 +3904,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t, ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ca8f98;
+  constexpr static std::size_t addrs = 0x2caaf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3919,7 +3919,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t, ::StringW)>(&::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2ca9048;
+  constexpr static std::size_t addrs = 0x2cab044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3933,7 +3933,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2ca1844;
+  constexpr static std::size_t addrs = 0x2ca3840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3947,7 +3947,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, int32_t, int32_t)>(&::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2ca90a4;
+  constexpr static std::size_t addrs = 0x2cab0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3962,7 +3962,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW)>(&::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2ca8efc;
+  constexpr static std::size_t addrs = 0x2caaef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3977,7 +3977,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ca914c;
+  constexpr static std::size_t addrs = 0x2cab148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3993,7 +3993,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2ca8fac;
+  constexpr static std::size_t addrs = 0x2caafa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4009,7 +4009,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW, ::System::Exception*)>(
     &::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ca91d8;
+  constexpr static std::size_t addrs = 0x2cab1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4025,7 +4025,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Exception*)>(&::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2ca9264;
+  constexpr static std::size_t addrs = 0x2cab260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4041,7 +4041,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Exception*)>(&::System::Xml::XmlTextReaderImpl::Throw)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2ca8cc4;
+  constexpr static std::size_t addrs = 0x2caacc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4056,7 +4056,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Exception*, int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::ReThrow)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2ca9320;
+  constexpr static std::size_t addrs = 0x2cab31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4071,7 +4071,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::ThrowWithoutLineInfo)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2ca47d4;
+  constexpr static std::size_t addrs = 0x2ca67d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4086,7 +4086,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::ThrowWithoutLineInfo)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2ca93c8;
+  constexpr static std::size_t addrs = 0x2cab3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4101,7 +4101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Exception*)>(&::System::Xml::XmlTextReaderImpl::ThrowWithoutLineInfo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ca9440;
+  constexpr static std::size_t addrs = 0x2cab43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4118,7 +4118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::ThrowInvalidChar)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2ca94cc;
+  constexpr static std::size_t addrs = 0x2cab4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4133,7 +4133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::SetErrorState)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ca930c;
+  constexpr static std::size_t addrs = 0x2cab308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "SetErrorState",
@@ -4147,7 +4147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::Schema::XmlSeverityType, ::StringW, ::StringW, int32_t, int32_t)>(&::System::Xml::XmlTextReaderImpl::SendValidationEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2ca796c;
+  constexpr static std::size_t addrs = 0x2ca9968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4164,7 +4164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(
     ::System::Xml::Schema::XmlSeverityType, ::System::Xml::Schema::XmlSchemaException*)>(&::System::Xml::XmlTextReaderImpl::SendValidationEvent)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2ca953c;
+  constexpr static std::size_t addrs = 0x2cab538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4179,7 +4179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_InAttributeValueIterator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ca2508;
+  constexpr static std::size_t addrs = 0x2ca4504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4192,7 +4192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishAttributeValueIterator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2ca252c;
+  constexpr static std::size_t addrs = 0x2ca4528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4205,7 +4205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_DtdValidation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ca6c28;
+  constexpr static std::size_t addrs = 0x2ca8c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_DtdValidation",
@@ -4219,7 +4219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::Xml::XmlTextReaderImpl::InitStreamInput)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2ca08cc;
+  constexpr static std::size_t addrs = 0x2ca28c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4235,7 +4235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::Xml::XmlTextReaderImpl::InitStreamInput)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca0940;
+  constexpr static std::size_t addrs = 0x2ca293c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4252,7 +4252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Uri*, ::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::Xml::XmlTextReaderImpl::InitStreamInput)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2ca972c;
+  constexpr static std::size_t addrs = 0x2cab728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4269,7 +4269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Uri*, ::StringW, ::System::IO::Stream*, ::System::Text::Encoding*)>(&::System::Xml::XmlTextReaderImpl::InitStreamInput)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ca978c;
+  constexpr static std::size_t addrs = 0x2cab788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4286,7 +4286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(
     ::System::Uri*, ::StringW, ::System::IO::Stream*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::System::Text::Encoding*)>(&::System::Xml::XmlTextReaderImpl::InitStreamInput)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x2ca1320;
+  constexpr static std::size_t addrs = 0x2ca331c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4304,7 +4304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::IO::TextReader*)>(
     &::System::Xml::XmlTextReaderImpl::InitTextReaderInput)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ca0b2c;
+  constexpr static std::size_t addrs = 0x2ca2b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4320,7 +4320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::Uri*, ::System::IO::TextReader*)>(
     &::System::Xml::XmlTextReaderImpl::InitTextReaderInput)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2ca9b10;
+  constexpr static std::size_t addrs = 0x2cabb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4336,7 +4336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::System::Text::Encoding*, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::InitStringInput)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2ca0c44;
+  constexpr static std::size_t addrs = 0x2ca2c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4353,7 +4353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlNodeType, ::System::Xml::XmlParserContext*, bool)>(
     &::System::Xml::XmlTextReaderImpl::InitFragmentReader)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x2ca0d10;
+  constexpr static std::size_t addrs = 0x2ca2d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4370,7 +4370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlParserContext*)>(
     &::System::Xml::XmlTextReaderImpl::ProcessDtdFromParserContext)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2ca158c;
+  constexpr static std::size_t addrs = 0x2ca3588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4384,7 +4384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::OpenUrl)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x2ca343c;
+  constexpr static std::size_t addrs = 0x2ca5438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "OpenUrl",
@@ -4397,7 +4397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Object*)>(&::System::Xml::XmlTextReaderImpl::OpenUrlDelegate)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2ca9de8;
+  constexpr static std::size_t addrs = 0x2cabde4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4412,7 +4412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::DetectEncoding)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2ca979c;
+  constexpr static std::size_t addrs = 0x2cab798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "DetectEncoding",
@@ -4426,7 +4426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Text::Encoding*)>(
     &::System::Xml::XmlTextReaderImpl::SetupEncoding)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2ca99c8;
+  constexpr static std::size_t addrs = 0x2cab9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4441,7 +4441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Text::Encoding*)>(
     &::System::Xml::XmlTextReaderImpl::SwitchEncoding)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2ca9f0c;
+  constexpr static std::size_t addrs = 0x2cabf08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4456,7 +4456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(
     &::System::Xml::XmlTextReaderImpl::CheckEncoding)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x2caa0a4;
+  constexpr static std::size_t addrs = 0x2cac0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4470,7 +4470,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::UnDecodeChars)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2ca9ffc;
+  constexpr static std::size_t addrs = 0x2cabff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "UnDecodeChars",
@@ -4483,7 +4483,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::SwitchEncodingToUTF8)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2caa3e4;
+  constexpr static std::size_t addrs = 0x2cac3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "SwitchEncodingToUTF8",
@@ -4496,7 +4496,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ReadData)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x2ca6d74;
+  constexpr static std::size_t addrs = 0x2ca8d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ReadData",
@@ -4509,7 +4509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::GetChars)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2caa458;
+  constexpr static std::size_t addrs = 0x2cac454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4524,7 +4524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::InvalidCharRecovery)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2caa570;
+  constexpr static std::size_t addrs = 0x2cac56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4539,7 +4539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(bool)>(&::System::Xml::XmlTextReaderImpl::Close)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ca49f0;
+  constexpr static std::size_t addrs = 0x2ca69ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4554,7 +4554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t, int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::ShiftBuffer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2caa758;
+  constexpr static std::size_t addrs = 0x2cac754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4569,7 +4569,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(bool)>(&::System::Xml::XmlTextReaderImpl::ParseXmlDeclaration)> {
   constexpr static std::size_t size = 0xd7c;
-  constexpr static std::size_t addrs = 0x2ca35c8;
+  constexpr static std::size_t addrs = 0x2ca55c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4583,7 +4583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseDocumentContent)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x2ca2f4c;
+  constexpr static std::size_t addrs = 0x2ca4f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseDocumentContent",
@@ -4596,7 +4596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseElementContent)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x2ca2c14;
+  constexpr static std::size_t addrs = 0x2ca4c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseElementContent",
@@ -4609,7 +4609,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ThrowUnclosedElements)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x2cabce4;
+  constexpr static std::size_t addrs = 0x2cadce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4622,7 +4622,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseElement)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x2caac3c;
+  constexpr static std::size_t addrs = 0x2cacc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseElement",
@@ -4635,7 +4635,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::AddDefaultAttributesAndNormalize)> {
   constexpr static std::size_t size = 0xa14;
-  constexpr static std::size_t addrs = 0x2cac4cc;
+  constexpr static std::size_t addrs = 0x2cae4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4649,7 +4649,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseEndElement)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x2cab8f8;
+  constexpr static std::size_t addrs = 0x2cad8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseEndElement",
@@ -4663,7 +4663,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::__XmlTextReaderImpl__NodeData*)>(
     &::System::Xml::XmlTextReaderImpl::ThrowTagMismatch)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x2cad638;
+  constexpr static std::size_t addrs = 0x2caf634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4677,7 +4677,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseAttributes)> {
   constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x2cabe90;
+  constexpr static std::size_t addrs = 0x2cade8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseAttributes",
@@ -4690,7 +4690,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ElementNamespaceLookup)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2cacee0;
+  constexpr static std::size_t addrs = 0x2caeedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4703,7 +4703,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::AttributeNamespaceLookup)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2cad594;
+  constexpr static std::size_t addrs = 0x2caf590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4716,7 +4716,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::AttributeDuplCheck)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x2cae764;
+  constexpr static std::size_t addrs = 0x2cb0760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "AttributeDuplCheck",
@@ -4730,7 +4730,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::__XmlTextReaderImpl__NodeData*)>(
     &::System::Xml::XmlTextReaderImpl::OnDefaultNamespaceDecl)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2cae3a0;
+  constexpr static std::size_t addrs = 0x2cb039c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -4745,7 +4745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::__XmlTextReaderImpl__NodeData*)>(
     &::System::Xml::XmlTextReaderImpl::OnNamespaceDecl)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2cae49c;
+  constexpr static std::size_t addrs = 0x2cb0498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4760,7 +4760,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::__XmlTextReaderImpl__NodeData*)>(
     &::System::Xml::XmlTextReaderImpl::OnXmlReservedAttribute)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x2cae578;
+  constexpr static std::size_t addrs = 0x2cb0574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -4775,7 +4775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t, char16_t, ::System::Xml::__XmlTextReaderImpl__NodeData*)>(
     &::System::Xml::XmlTextReaderImpl::ParseAttributeValueSlow)> {
   constexpr static std::size_t size = 0x948;
-  constexpr static std::size_t addrs = 0x2cada58;
+  constexpr static std::size_t addrs = 0x2cafa54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4792,7 +4792,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::__XmlTextReaderImpl__NodeData*, ::System::Xml::__XmlTextReaderImpl__NodeData*, ByRef<::System::Xml::__XmlTextReaderImpl__NodeData*>)>(
     &::System::Xml::XmlTextReaderImpl::AddAttributeChunkToList)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2caee70;
+  constexpr static std::size_t addrs = 0x2cb0e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4808,7 +4808,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseText)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x2cab388;
+  constexpr static std::size_t addrs = 0x2cad384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseText",
@@ -4822,7 +4822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(ByRef<int32_t>, ByRef<int32_t>, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::ParseText)> {
   constexpr static std::size_t size = 0x6cc;
-  constexpr static std::size_t addrs = 0x2ca5f84;
+  constexpr static std::size_t addrs = 0x2ca7f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4837,7 +4837,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishPartialValue)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ca1d3c;
+  constexpr static std::size_t addrs = 0x2ca3d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "FinishPartialValue",
@@ -4850,7 +4850,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishOtherValueIterator)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2ca1df8;
+  constexpr static std::size_t addrs = 0x2ca3df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4863,7 +4863,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::SkipPartialTextValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ca4868;
+  constexpr static std::size_t addrs = 0x2ca6864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "SkipPartialTextValue",
@@ -4876,7 +4876,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishReadValueChunk)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2ca48a8;
+  constexpr static std::size_t addrs = 0x2ca68a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "FinishReadValueChunk",
@@ -4889,7 +4889,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishReadContentAsBinary)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2ca48c8;
+  constexpr static std::size_t addrs = 0x2ca68c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4902,7 +4902,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishReadElementContentAsBinary)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2ca4918;
+  constexpr static std::size_t addrs = 0x2ca6914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4916,7 +4916,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseRootLevelWhitespace)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x2cab6fc;
+  constexpr static std::size_t addrs = 0x2cad6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -4929,7 +4929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseEntityReference)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2ca43f8;
+  constexpr static std::size_t addrs = 0x2ca63f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseEntityReference",
@@ -4943,7 +4943,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__EntityType (::System::Xml::XmlTextReaderImpl::*)(
     bool, ::System::Xml::__XmlTextReaderImpl__EntityExpandType, ByRef<int32_t>)>(&::System::Xml::XmlTextReaderImpl::HandleEntityReference)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x2cab0dc;
+  constexpr static std::size_t addrs = 0x2cad0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4960,7 +4960,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__EntityType (::System::Xml::XmlTextReaderImpl::*)(::StringW, bool, bool, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::HandleGeneralEntityReference)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x2ca5598;
+  constexpr static std::size_t addrs = 0x2ca7594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4975,7 +4975,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_InEntity)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2caa3d4;
+  constexpr static std::size_t addrs = 0x2cac3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_InEntity",
@@ -4988,7 +4988,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(bool)>(&::System::Xml::XmlTextReaderImpl::HandleEntityEnd)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2ca9604;
+  constexpr static std::size_t addrs = 0x2cab600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5002,7 +5002,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::SetupEndEntityNodeInContent)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2ca446c;
+  constexpr static std::size_t addrs = 0x2ca6468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5015,7 +5015,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::SetupEndEntityNodeInAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2caf20c;
+  constexpr static std::size_t addrs = 0x2cb1208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5028,7 +5028,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParsePI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2caa928;
+  constexpr static std::size_t addrs = 0x2cac924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParsePI",
@@ -5042,7 +5042,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::ParsePI)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x2ca7320;
+  constexpr static std::size_t addrs = 0x2ca931c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5057,7 +5057,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::ParsePIValue)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x2caf274;
+  constexpr static std::size_t addrs = 0x2cb1270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5072,7 +5072,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseComment)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2caa930;
+  constexpr static std::size_t addrs = 0x2cac92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseComment",
@@ -5085,7 +5085,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseCData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2caa994;
+  constexpr static std::size_t addrs = 0x2cac990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseCData",
@@ -5099,7 +5099,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlNodeType)>(
     &::System::Xml::XmlTextReaderImpl::ParseCDataOrComment)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2ca7814;
+  constexpr static std::size_t addrs = 0x2ca9810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5114,7 +5114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlNodeType, ByRef<int32_t>, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::ParseCDataOrComment)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x2caf608;
+  constexpr static std::size_t addrs = 0x2cb1604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5130,7 +5130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseDoctypeDecl)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x2caa99c;
+  constexpr static std::size_t addrs = 0x2cac998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseDoctypeDecl",
@@ -5143,7 +5143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseDtd)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x2cafa44;
+  constexpr static std::size_t addrs = 0x2cb1a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseDtd",
@@ -5156,7 +5156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::SkipDtd)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x2cafd60;
+  constexpr static std::size_t addrs = 0x2cb1d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "SkipDtd",
@@ -5169,7 +5169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::SkipPublicOrSystemIdLiteral)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2cb00b8;
+  constexpr static std::size_t addrs = 0x2cb20b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5182,7 +5182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(char16_t, bool)>(&::System::Xml::XmlTextReaderImpl::SkipUntil)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x2cb0170;
+  constexpr static std::size_t addrs = 0x2cb216c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5197,7 +5197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::EatWhitespaces)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x2ca8808;
+  constexpr static std::size_t addrs = 0x2caa804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5212,7 +5212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(int32_t, ByRef<int32_t>, ByRef<::System::Xml::__XmlTextReaderImpl__EntityType>)>(&::System::Xml::XmlTextReaderImpl::ParseCharRefInline)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2caf034;
+  constexpr static std::size_t addrs = 0x2cb1030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5228,7 +5228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(
     bool, ::System::Text::StringBuilder*, ByRef<::System::Xml::__XmlTextReaderImpl__EntityType>)>(&::System::Xml::XmlTextReaderImpl::ParseNumericCharRef)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2ca71c4;
+  constexpr static std::size_t addrs = 0x2ca91c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5245,7 +5245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(
     int32_t, bool, ::System::Text::StringBuilder*, ByRef<int32_t>, ByRef<::System::Xml::__XmlTextReaderImpl__EntityType>)>(&::System::Xml::XmlTextReaderImpl::ParseNumericCharRefInline)> {
   constexpr static std::size_t size = 0x660;
-  constexpr static std::size_t addrs = 0x2cb05ac;
+  constexpr static std::size_t addrs = 0x2cb25a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5263,7 +5263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(bool, ::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::ParseNamedCharRef)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ca7278;
+  constexpr static std::size_t addrs = 0x2ca9274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5279,7 +5279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(int32_t, bool, ::System::Text::StringBuilder*)>(
     &::System::Xml::XmlTextReaderImpl::ParseNamedCharRefInline)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x2cb0c0c;
+  constexpr static std::size_t addrs = 0x2cb2c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5294,7 +5294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2caa780;
+  constexpr static std::size_t addrs = 0x2cac77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseName",
@@ -5307,7 +5307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(ByRef<int32_t>)>(&::System::Xml::XmlTextReaderImpl::ParseQName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2cabe80;
+  constexpr static std::size_t addrs = 0x2cade7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5322,7 +5322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(bool, int32_t, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::ParseQName)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x2cb0ee8;
+  constexpr static std::size_t addrs = 0x2cb2ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5337,7 +5337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(ByRef<int32_t>)>(&::System::Xml::XmlTextReaderImpl::ReadDataInName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2cb1170;
+  constexpr static std::size_t addrs = 0x2cb316c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5351,7 +5351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseEntityName)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2caeea0;
+  constexpr static std::size_t addrs = 0x2cb0e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseEntityName",
@@ -5365,7 +5365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__NodeData* (::System::Xml::XmlTextReaderImpl::*)(int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::AddNode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ca4370;
+  constexpr static std::size_t addrs = 0x2ca636c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5380,7 +5380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__NodeData* (::System::Xml::XmlTextReaderImpl::*)(int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::AllocNode)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2cb11b0;
+  constexpr static std::size_t addrs = 0x2cb31ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5395,7 +5395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__NodeData* (::System::Xml::XmlTextReaderImpl::*)(::StringW, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::AddAttributeNoChecks)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2ca8de0;
+  constexpr static std::size_t addrs = 0x2caaddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5410,7 +5410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__NodeData* (::System::Xml::XmlTextReaderImpl::*)(int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::AddAttribute)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2cad8b4;
+  constexpr static std::size_t addrs = 0x2caf8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5425,7 +5425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__NodeData* (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::AddAttribute)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2cb12e8;
+  constexpr static std::size_t addrs = 0x2cb32e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5440,7 +5440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::PopElementContext)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ca43b4;
+  constexpr static std::size_t addrs = 0x2ca63b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "PopElementContext",
@@ -5453,7 +5453,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::OnNewLine)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ca6d4c;
+  constexpr static std::size_t addrs = 0x2ca8d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5467,7 +5467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::OnEof)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2ca474c;
+  constexpr static std::size_t addrs = 0x2ca6748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "OnEof",
@@ -5481,7 +5481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::__XmlTextReaderImpl__NodeData*)>(
     &::System::Xml::XmlTextReaderImpl::LookupNamespace)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2caead8;
+  constexpr static std::size_t addrs = 0x2cb0ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5496,7 +5496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW, ::System::Xml::__XmlTextReaderImpl__NodeData*)>(
     &::System::Xml::XmlTextReaderImpl::AddNamespace)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2caec14;
+  constexpr static std::size_t addrs = 0x2cb0c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5511,7 +5511,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ResetAttributes)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2ca4344;
+  constexpr static std::size_t addrs = 0x2ca6340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ResetAttributes",
@@ -5524,7 +5524,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FullAttributeCleanup)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2cb1448;
+  constexpr static std::size_t addrs = 0x2cb3444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "FullAttributeCleanup",
@@ -5537,7 +5537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::PushXmlContext)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2caeb9c;
+  constexpr static std::size_t addrs = 0x2cb0b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "PushXmlContext",
@@ -5550,7 +5550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::PopXmlContext)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2cb141c;
+  constexpr static std::size_t addrs = 0x2cb3418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "PopXmlContext",
@@ -5564,7 +5564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::GetWhitespaceType)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2caf1c4;
+  constexpr static std::size_t addrs = 0x2cb11c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "GetWhitespaceType",
@@ -5578,7 +5578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(
     &::System::Xml::XmlTextReaderImpl::GetTextNodeType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2caefdc;
+  constexpr static std::size_t addrs = 0x2cb0fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5593,7 +5593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW, ::System::Uri*, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::PushExternalEntityOrSubset)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x2ca843c;
+  constexpr static std::size_t addrs = 0x2caa438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5608,7 +5608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::System::Uri*)>(&::System::Xml::XmlTextReaderImpl::OpenAndPush)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x2cb14ac;
+  constexpr static std::size_t addrs = 0x2cb34a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5623,7 +5623,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::IDtdEntityInfo*)>(
     &::System::Xml::XmlTextReaderImpl::PushExternalEntity)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x2ca7bcc;
+  constexpr static std::size_t addrs = 0x2ca9bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5638,7 +5638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::IDtdEntityInfo*)>(
     &::System::Xml::XmlTextReaderImpl::PushInternalEntity)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x2ca7f5c;
+  constexpr static std::size_t addrs = 0x2ca9f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5652,7 +5652,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::PopEntity)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ca82c8;
+  constexpr static std::size_t addrs = 0x2caa2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "PopEntity",
@@ -5666,7 +5666,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::IDtdEntityInfo*)>(
     &::System::Xml::XmlTextReaderImpl::RegisterEntity)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2cb16e0;
+  constexpr static std::size_t addrs = 0x2cb36dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5680,7 +5680,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::UnregisterEntity)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2cb18d0;
+  constexpr static std::size_t addrs = 0x2cb38cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "UnregisterEntity",
@@ -5693,7 +5693,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::PushParsingState)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2ca8ac0;
+  constexpr static std::size_t addrs = 0x2caaabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "PushParsingState",
@@ -5706,7 +5706,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::PopParsingState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2caa6ec;
+  constexpr static std::size_t addrs = 0x2cac6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "PopParsingState",
@@ -5719,7 +5719,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::IncrementalRead)> {
   constexpr static std::size_t size = 0x934;
-  constexpr static std::size_t addrs = 0x2cb1934;
+  constexpr static std::size_t addrs = 0x2cb3930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "IncrementalRead",
@@ -5732,7 +5732,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::FinishIncrementalRead)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2ca45a4;
+  constexpr static std::size_t addrs = 0x2ca65a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5745,7 +5745,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseFragmentAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2ca4610;
+  constexpr static std::size_t addrs = 0x2ca660c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5758,7 +5758,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseAttributeValueChunk)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x2ca4eb0;
+  constexpr static std::size_t addrs = 0x2ca6eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5771,7 +5771,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseXmlDeclarationFragment)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ca4690;
+  constexpr static std::size_t addrs = 0x2ca668c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5785,7 +5785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::ThrowUnexpectedToken)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2caa984;
+  constexpr static std::size_t addrs = 0x2cac980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5799,7 +5799,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::ThrowUnexpectedToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2caa778;
+  constexpr static std::size_t addrs = 0x2cac774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5814,7 +5814,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t, ::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::ThrowUnexpectedToken)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2caac2c;
+  constexpr static std::size_t addrs = 0x2cacc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5830,7 +5830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlTextReaderImpl::ThrowUnexpectedToken)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x2caa7a0;
+  constexpr static std::size_t addrs = 0x2cac79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5844,7 +5844,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::ParseUnexpectedToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2caac24;
+  constexpr static std::size_t addrs = 0x2cacc20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5858,7 +5858,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseUnexpectedToken)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2cb2268;
+  constexpr static std::size_t addrs = 0x2cb4264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "ParseUnexpectedToken",
@@ -5871,7 +5871,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::ThrowExpectingWhitespace)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2cad834;
+  constexpr static std::size_t addrs = 0x2caf830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5886,7 +5886,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(
     &::System::Xml::XmlTextReaderImpl::GetIndexOfAttributeWithoutPrefix)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2ca2090;
+  constexpr static std::size_t addrs = 0x2ca408c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5901,7 +5901,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlTextReaderImpl::*)(::StringW)>(
     &::System::Xml::XmlTextReaderImpl::GetIndexOfAttributeWithPrefix)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2ca2178;
+  constexpr static std::size_t addrs = 0x2ca4174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5915,7 +5915,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(int32_t)>(&::System::Xml::XmlTextReaderImpl::ZeroEndingStream)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2caf0a0;
+  constexpr static std::size_t addrs = 0x2cb109c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5929,7 +5929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::ParseDtdFromParserContext)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x2ca9bc0;
+  constexpr static std::size_t addrs = 0x2cabbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -5942,7 +5942,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(bool)>(&::System::Xml::XmlTextReaderImpl::MoveToNextContentNode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2caf11c;
+  constexpr static std::size_t addrs = 0x2cb1118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -5957,7 +5957,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlParserContext*, ::System::Xml::XmlReaderSettings*)>(
     &::System::Xml::XmlTextReaderImpl::SetupFromParserContext)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2ca0520;
+  constexpr static std::size_t addrs = 0x2ca251c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -5972,7 +5972,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_DtdInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb2330;
+  constexpr static std::size_t addrs = 0x2cb432c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -5987,7 +5987,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::IDtdInfo*)>(
     &::System::Xml::XmlTextReaderImpl::SetDtdInfo)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2cb2338;
+  constexpr static std::size_t addrs = 0x2cb4334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6002,7 +6002,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::IValidationEventHandling*)>(
     &::System::Xml::XmlTextReaderImpl::set_ValidationEventHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb246c;
+  constexpr static std::size_t addrs = 0x2cb4468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6017,7 +6017,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate*)>(
     &::System::Xml::XmlTextReaderImpl::set_OnDefaultAttributeUse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb2474;
+  constexpr static std::size_t addrs = 0x2cb4470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6032,7 +6032,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(bool)>(
     &::System::Xml::XmlTextReaderImpl::set_XmlValidatingReaderCompatibilityMode)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2cb247c;
+  constexpr static std::size_t addrs = 0x2cb4478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6047,7 +6047,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_FragmentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb2554;
+  constexpr static std::size_t addrs = 0x2cb4550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_FragmentType",
@@ -6061,7 +6061,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::XmlNodeType)>(
     &::System::Xml::XmlTextReaderImpl::ChangeCurrentNodeType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2cb255c;
+  constexpr static std::size_t addrs = 0x2cb4558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6076,7 +6076,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlResolver* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::GetResolver)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2cb2578;
+  constexpr static std::size_t addrs = 0x2cb4574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "GetResolver",
@@ -6090,7 +6090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Object*)>(
     &::System::Xml::XmlTextReaderImpl::set_InternalSchemaType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2cb25b0;
+  constexpr static std::size_t addrs = 0x2cb45ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6105,7 +6105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_InternalTypedValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2cb25cc;
+  constexpr static std::size_t addrs = 0x2cb45c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(),
@@ -6119,7 +6119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(::System::Object*)>(
     &::System::Xml::XmlTextReaderImpl::set_InternalTypedValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2cb25e8;
+  constexpr static std::size_t addrs = 0x2cb45e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6133,7 +6133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_StandAlone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb2604;
+  constexpr static std::size_t addrs = 0x2cb4600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_StandAlone",
@@ -6147,7 +6147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNamespaceManager* (::System::Xml::XmlTextReaderImpl::*)()>(
     &::System::Xml::XmlTextReaderImpl::get_NamespaceManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb260c;
+  constexpr static std::size_t addrs = 0x2cb4608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -6161,7 +6161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)()>(&::System::Xml::XmlTextReaderImpl::get_V1Compat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb2614;
+  constexpr static std::size_t addrs = 0x2cb4610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextReaderImpl*>::get(), "get_V1Compat",
@@ -6176,7 +6176,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::IDtdDefaultAttributeInfo*, bool, ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*>)>(
     &::System::Xml::XmlTextReaderImpl::AddDefaultAttributeDtd)> {
   constexpr static std::size_t size = 0x66c;
-  constexpr static std::size_t addrs = 0x2cacf28;
+  constexpr static std::size_t addrs = 0x2caef24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6193,7 +6193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::System::Xml::Schema::SchemaAttDef*)>(
     &::System::Xml::XmlTextReaderImpl::AddDefaultAttributeNonDtd)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x2cb2860;
+  constexpr static std::size_t addrs = 0x2cb485c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6208,7 +6208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlTextReaderImpl__NodeData* (
     ::System::Xml::XmlTextReaderImpl::*)(::StringW, ::StringW, ::StringW, ::StringW, int32_t, int32_t, int32_t, int32_t, bool)>(&::System::Xml::XmlTextReaderImpl::AddDefaultAttributeInternal)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x2cb261c;
+  constexpr static std::size_t addrs = 0x2cb4618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6227,7 +6227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(bool)>(
     &::System::Xml::XmlTextReaderImpl::set_DisableUndeclaredEntityCheck)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2cb2a60;
+  constexpr static std::size_t addrs = 0x2cb4a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -6242,7 +6242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlTextReaderImpl::*)(::System::Uri*, ::StringW, ::StringW, ::System::Xml::XmlResolver*)>(
     &::System::Xml::XmlTextReaderImpl::UriEqual)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2ca1760;
+  constexpr static std::size_t addrs = 0x2ca375c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6259,7 +6259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextReaderImpl::*)(int64_t, bool)>(
     &::System::Xml::XmlTextReaderImpl::RegisterConsumedCharacters)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2ca8be0;
+  constexpr static std::size_t addrs = 0x2caabdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6273,7 +6273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::XmlTextReaderImpl::StripSpaces)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x2cb2a6c;
+  constexpr static std::size_t addrs = 0x2cb4a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6288,7 +6288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, ByRef<int32_t>)>(
     &::System::Xml::XmlTextReaderImpl::StripSpaces)> {
   constexpr static std::size_t size = 0x1110;
-  constexpr static std::size_t addrs = 0x2cb2c94;
+  constexpr static std::size_t addrs = 0x2cb4c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6304,7 +6304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::BlockCopyChars)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ca6650;
+  constexpr static std::size_t addrs = 0x2ca864c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6322,7 +6322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlTextReaderImpl::BlockCopy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2caa450;
+  constexpr static std::size_t addrs = 0x2cac44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

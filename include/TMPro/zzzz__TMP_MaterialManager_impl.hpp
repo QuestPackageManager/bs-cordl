@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager__FallbackMaterial::*)()>(
     &::TMPro::__TMP_MaterialManager__FallbackMaterial::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3167d88;
+  constexpr static std::size_t addrs = 0x316bd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager__FallbackMaterial*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager__MaskingMaterial::*)()>(
     &::TMPro::__TMP_MaterialManager__MaskingMaterial::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31662e4;
+  constexpr static std::size_t addrs = 0x316a2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get(), ".ctor",
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::*)()>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x316664c;
+  constexpr static std::size_t addrs = 0x316a648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass9_0*>::get(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::_GetBaseMaterial_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x31686bc;
+  constexpr static std::size_t addrs = 0x316c6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::*)()>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3166984;
+  constexpr static std::size_t addrs = 0x316a980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass11_0*>::get(),
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::_AddMaskingMaterial_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x316872c;
+  constexpr static std::size_t addrs = 0x316c728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::*)()>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3166aec;
+  constexpr static std::size_t addrs = 0x316aae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass12_0*>::get(),
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::_RemoveStencilMaterial_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x316879c;
+  constexpr static std::size_t addrs = 0x316c798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::*)()>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3167020;
+  constexpr static std::size_t addrs = 0x316b01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass13_0*>::get(),
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
     &::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::_ReleaseBaseMaterial_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x316880c;
+  constexpr static std::size_t addrs = 0x316c808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::OnPreRender)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x31651b8;
+  constexpr static std::size_t addrs = 0x31691b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get(), "OnPreRender",
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::GetStencilMaterial)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x3165444;
+  constexpr static std::size_t addrs = 0x3169440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseStencilMaterial)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x31662ec;
+  constexpr static std::size_t addrs = 0x316a2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::GetBaseMaterial)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x31664e8;
+  constexpr static std::size_t addrs = 0x316a4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::SetStencil)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3166654;
+  constexpr static std::size_t addrs = 0x316a650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::AddMaskingMaterial)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3166710;
+  constexpr static std::size_t addrs = 0x316a70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::RemoveStencilMaterial)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x316698c;
+  constexpr static std::size_t addrs = 0x316a988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseBaseMaterial)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x3166af4;
+  constexpr static std::size_t addrs = 0x316aaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::ClearMaterials)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3167028;
+  constexpr static std::size_t addrs = 0x316b024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get(), "ClearMaterials",
@@ -529,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_MaterialManager::GetStencilID)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x31671e4;
+  constexpr static std::size_t addrs = 0x316b1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::UI::MaskableGraphic*, ::UnityEngine::Material*)>(
     &::TMPro::TMP_MaterialManager::GetMaterialForRendering)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x3167650;
+  constexpr static std::size_t addrs = 0x316b64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*)>(
     &::TMPro::TMP_MaterialManager::FindRootSortOverrideCanvas)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x31674b0;
+  constexpr static std::size_t addrs = 0x316b4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::TMPro::TMP_FontAsset*, ::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x316784c;
+  constexpr static std::size_t addrs = 0x316b848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::TMPro::TMP_MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x3167d90;
+  constexpr static std::size_t addrs = 0x316bd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -607,7 +607,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::AddFallbackMaterialReference)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x31681b0;
+  constexpr static std::size_t addrs = 0x316c1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::RemoveFallbackMaterialReference)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x31682f4;
+  constexpr static std::size_t addrs = 0x316c2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -635,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::CleanupFallbackMaterials)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3165230;
+  constexpr static std::size_t addrs = 0x316922c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get(), "CleanupFallbackMaterials",
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseFallbackMaterial)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x31684c8;
+  constexpr static std::size_t addrs = 0x316c4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -663,7 +663,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::TMPro::TMP_MaterialManager::CopyMaterialPresetProperties)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x3167b1c;
+  constexpr static std::size_t addrs = 0x316bb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

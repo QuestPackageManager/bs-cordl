@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaProxy::*)(::StringW)>(&::UnityEngine::AndroidJavaProxy::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x31af3ac;
+  constexpr static std::size_t addrs = 0x31b23a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaProxy::*)(::UnityEngine::AndroidJavaClass*)>(
     &::UnityEngine::AndroidJavaProxy::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x31af478;
+  constexpr static std::size_t addrs = 0x31b2474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::Finalize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x31af4e4;
+  constexpr static std::size_t addrs = 0x31b24e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (
     ::UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::UnityEngine::AndroidJavaProxy::Invoke)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x31af57c;
+  constexpr static std::size_t addrs = 0x31b2578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (
     ::UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<::UnityEngine::AndroidJavaObject*, ::Array<::UnityEngine::AndroidJavaObject*>*>)>(&::UnityEngine::AndroidJavaProxy::Invoke)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x31b084c;
+  constexpr static std::size_t addrs = 0x31b3848;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AndroidJavaProxy::*)(::UnityEngine::AndroidJavaObject*)>(
     &::UnityEngine::AndroidJavaProxy::equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31b1314;
+  constexpr static std::size_t addrs = 0x31b4310;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::hashCode)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x31b146c;
+  constexpr static std::size_t addrs = 0x31b4468;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::toString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x31b151c;
+  constexpr static std::size_t addrs = 0x31b4518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (::UnityEngine::AndroidJavaProxy::*)()>(
     &::UnityEngine::AndroidJavaProxy::GetProxyObject)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x31b1580;
+  constexpr static std::size_t addrs = 0x31b457c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaProxy*>::get(), "GetProxyObject",
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::GetRawProxy)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x31b05fc;
+  constexpr static std::size_t addrs = 0x31b35f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaProxy*>::get(), "GetRawProxy",

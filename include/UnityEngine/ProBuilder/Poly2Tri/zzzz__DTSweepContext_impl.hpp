@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_Head)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3060dac;
+  constexpr static std::size_t addrs = 0x3065da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::set_Head)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3060db4;
+  constexpr static std::size_t addrs = 0x3065db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_Tail)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3060dbc;
+  constexpr static std::size_t addrs = 0x3065db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::set_Tail)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3060dc4;
+  constexpr static std::size_t addrs = 0x3065dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x305a650;
+  constexpr static std::size_t addrs = 0x305f64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_IsDebugEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3060e9c;
+  constexpr static std::size_t addrs = 0x3065e98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::set_IsDebugEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3060ea4;
+  constexpr static std::size_t addrs = 0x3065ea0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::RemoveFromList)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x305e858;
+  constexpr static std::size_t addrs = 0x3063854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::MeshClean)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x305ec50;
+  constexpr static std::size_t addrs = 0x3063c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::MeshCleanReq)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3060f48;
+  constexpr static std::size_t addrs = 0x3065f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::Clear)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x306106c;
+  constexpr static std::size_t addrs = 0x3066068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::AddNode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x305ee18;
+  constexpr static std::size_t addrs = 0x3063e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::RemoveNode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3060b98;
+  constexpr static std::size_t addrs = 0x3065b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (
     ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::LocateNode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x305ec54;
+  constexpr static std::size_t addrs = 0x3063c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::CreateAdvancingFront)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x305d674;
+  constexpr static std::size_t addrs = 0x3062670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>::get(),
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::MapTriangleToNodes)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x305e77c;
+  constexpr static std::size_t addrs = 0x3063778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::PrepareTriangulation)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3061164;
+  constexpr static std::size_t addrs = 0x3066160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::FinalizeTriangulation)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x305e8b0;
+  constexpr static std::size_t addrs = 0x30638ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>::get(),
@@ -287,7 +287,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::NewConstraint)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3061510;
+  constexpr static std::size_t addrs = 0x306650c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm (
     ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3061580;
+  constexpr static std::size_t addrs = 0x306657c;
 
   inline static ::MethodInfo const* methodInfo() {
 

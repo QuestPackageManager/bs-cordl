@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(
     &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x250c3f8;
+  constexpr static std::size_t addrs = 0x25143f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(
     &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::OnDestroy)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x250c64c;
+  constexpr static std::size_t addrs = 0x2514648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(
     &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusCaptured)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250c608;
+  constexpr static std::size_t addrs = 0x2514604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(
     &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusReleased)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250c7f0;
+  constexpr static std::size_t addrs = 0x25147ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(
     &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250c834;
+  constexpr static std::size_t addrs = 0x2514830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

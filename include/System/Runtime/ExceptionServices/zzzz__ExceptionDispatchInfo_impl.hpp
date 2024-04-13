@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)(::System::Exception*)>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2755be8;
+  constexpr static std::size_t addrs = 0x275bbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_BinaryStackTraceArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2755d10;
+  constexpr static std::size_t addrs = 0x275bd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (*)(::System::Exception*)>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::Capture)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2755d18;
+  constexpr static std::size_t addrs = 0x275bd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_SourceException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2755de4;
+  constexpr static std::size_t addrs = 0x275bde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2755dec;
+  constexpr static std::size_t addrs = 0x275bde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2755e30;
+  constexpr static std::size_t addrs = 0x275be2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

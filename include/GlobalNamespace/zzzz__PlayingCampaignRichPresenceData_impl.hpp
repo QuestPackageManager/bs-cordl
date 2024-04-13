@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayingCampaignRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingCampaignRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2592d58;
+  constexpr static std::size_t addrs = 0x259bd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayingCampaignRichPresenceData*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayingCampaignRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingCampaignRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2592d98;
+  constexpr static std::size_t addrs = 0x259bd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayingCampaignRichPresenceData*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayingCampaignRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingCampaignRichPresenceData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2592df0;
+  constexpr static std::size_t addrs = 0x259bdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayingCampaignRichPresenceData*>::get(),

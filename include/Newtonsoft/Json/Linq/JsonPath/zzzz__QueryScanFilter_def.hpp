@@ -110,27 +110,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2981178, size 0x510, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2983174, size 0x510, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__QueryScanFilter___ExecuteFilter_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x2981838, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x2983834, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x29817e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x29837e4, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x29818f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x29838f0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x29817f0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x29837ec, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2981830, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x298382c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x29810c4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x29830c0, size 0xb4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -205,13 +205,13 @@ public:
 
   constexpr void __cordl_internal_set_settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value);
 
-  /// @brief Method <>m__Finally1, addr 0x2981738, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2983734, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x2981688, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x2983684, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x2981090, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298308c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -322,7 +322,7 @@ public:
   /// @brief Field Expression, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Expression, put = __cordl_internal_set_Expression))::Newtonsoft::Json::Linq::JsonPath::QueryExpression* Expression;
 
-  /// @brief Method ExecuteFilter, addr 0x2980ff4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x2982ff0, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
@@ -335,7 +335,7 @@ public:
 
   constexpr void __cordl_internal_set_Expression(::Newtonsoft::Json::Linq::JsonPath::QueryExpression* value);
 
-  /// @brief Method .ctor, addr 0x297df54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x297ff50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryExpression* expression);
 
 protected:

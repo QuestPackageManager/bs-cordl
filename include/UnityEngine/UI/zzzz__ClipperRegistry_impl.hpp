@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ClipperRegistry::*)()>(&::UnityEngine::UI::ClipperRegistry::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x329e318;
+  constexpr static std::size_t addrs = 0x32a1314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ClipperRegistry*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ClipperRegistry* (*)()>(&::UnityEngine::UI::ClipperRegistry::get_instance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x329d13c;
+  constexpr static std::size_t addrs = 0x32a0138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ClipperRegistry*>::get(), "get_instance",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ClipperRegistry::*)()>(&::UnityEngine::UI::ClipperRegistry::Cull)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x329d1b8;
+  constexpr static std::size_t addrs = 0x32a01b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ClipperRegistry*>::get(), "Cull",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&::UnityEngine::UI::ClipperRegistry::Register)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x329e394;
+  constexpr static std::size_t addrs = 0x32a1390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&::UnityEngine::UI::ClipperRegistry::Unregister)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x329e404;
+  constexpr static std::size_t addrs = 0x32a1400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&::UnityEngine::UI::ClipperRegistry::Disable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x329e460;
+  constexpr static std::size_t addrs = 0x32a145c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

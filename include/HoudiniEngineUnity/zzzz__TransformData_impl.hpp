@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::TransformData::*)(::UnityEngine::Transform*)>(
     &::HoudiniEngineUnity::TransformData::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x24955e0;
+  constexpr static std::size_t addrs = 0x249f5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::TransformData::*)(::UnityEngine::Transform*, bool)>(
     &::HoudiniEngineUnity::TransformData::CopyTo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2495678;
+  constexpr static std::size_t addrs = 0x249f674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::TransformData::*)(::UnityEngine::Transform*, bool)>(
     &::HoudiniEngineUnity::TransformData::CopyToLocal)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x24956f8;
+  constexpr static std::size_t addrs = 0x249f6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

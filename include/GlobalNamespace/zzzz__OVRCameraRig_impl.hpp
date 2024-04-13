@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_leftEyeCamera)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x29edbbc;
+  constexpr static std::size_t addrs = 0x29eebb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_leftEyeCamera",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_rightEyeCamera)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x29edbd8;
+  constexpr static std::size_t addrs = 0x29eebd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_rightEyeCamera",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_trackingSpace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edbf4;
+  constexpr static std::size_t addrs = 0x29eebf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_trackingSpace",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_trackingSpace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edbfc;
+  constexpr static std::size_t addrs = 0x29eebf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_leftEyeAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc04;
+  constexpr static std::size_t addrs = 0x29eec00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_leftEyeAnchor",
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_leftEyeAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc0c;
+  constexpr static std::size_t addrs = 0x29eec08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_centerEyeAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc14;
+  constexpr static std::size_t addrs = 0x29eec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_centerEyeAnchor",
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_centerEyeAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc1c;
+  constexpr static std::size_t addrs = 0x29eec18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_rightEyeAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc24;
+  constexpr static std::size_t addrs = 0x29eec20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_rightEyeAnchor",
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_rightEyeAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc2c;
+  constexpr static std::size_t addrs = 0x29eec28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_leftHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc34;
+  constexpr static std::size_t addrs = 0x29eec30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_leftHandAnchor",
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_leftHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc3c;
+  constexpr static std::size_t addrs = 0x29eec38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_rightHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc44;
+  constexpr static std::size_t addrs = 0x29eec40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_rightHandAnchor",
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_rightHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc4c;
+  constexpr static std::size_t addrs = 0x29eec48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_leftHandAnchorDetached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc54;
+  constexpr static std::size_t addrs = 0x29eec50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_leftHandAnchorDetached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc5c;
+  constexpr static std::size_t addrs = 0x29eec58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_rightHandAnchorDetached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc64;
+  constexpr static std::size_t addrs = 0x29eec60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_rightHandAnchorDetached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc6c;
+  constexpr static std::size_t addrs = 0x29eec68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_leftControllerInHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc74;
+  constexpr static std::size_t addrs = 0x29eec70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_leftControllerInHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc7c;
+  constexpr static std::size_t addrs = 0x29eec78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_leftHandOnControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc84;
+  constexpr static std::size_t addrs = 0x29eec80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_leftHandOnControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc8c;
+  constexpr static std::size_t addrs = 0x29eec88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_rightControllerInHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc94;
+  constexpr static std::size_t addrs = 0x29eec90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_rightControllerInHandAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edc9c;
+  constexpr static std::size_t addrs = 0x29eec98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_rightHandOnControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edca4;
+  constexpr static std::size_t addrs = 0x29eeca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_rightHandOnControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edcac;
+  constexpr static std::size_t addrs = 0x29eeca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_leftControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edcb4;
+  constexpr static std::size_t addrs = 0x29eecb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(),
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_leftControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edcbc;
+  constexpr static std::size_t addrs = 0x29eecb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_rightControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edcc4;
+  constexpr static std::size_t addrs = 0x29eecc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(),
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_rightControllerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edccc;
+  constexpr static std::size_t addrs = 0x29eecc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::get_trackerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edcd4;
+  constexpr static std::size_t addrs = 0x29eecd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "get_trackerAnchor",
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRCameraRig::set_trackerAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29edcdc;
+  constexpr static std::size_t addrs = 0x29eecd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*)>(
     &::GlobalNamespace::OVRCameraRig::add_UpdatedAnchors)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x29edce4;
+  constexpr static std::size_t addrs = 0x29eece0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*)>(
     &::GlobalNamespace::OVRCameraRig::remove_UpdatedAnchors)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x29edd94;
+  constexpr static std::size_t addrs = 0x29eed90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRCameraRig::add_TrackingSpaceChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x29ede44;
+  constexpr static std::size_t addrs = 0x29eee40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRCameraRig::remove_TrackingSpaceChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x29edef4;
+  constexpr static std::size_t addrs = 0x29eeef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::Awake)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x29edfa4;
+  constexpr static std::size_t addrs = 0x29eefa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::Start)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x29edfbc;
+  constexpr static std::size_t addrs = 0x29eefb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::FixedUpdate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x29ee044;
+  constexpr static std::size_t addrs = 0x29ef040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::Update)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x29ee064;
+  constexpr static std::size_t addrs = 0x29ef060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::OnDestroy)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x29ee088;
+  constexpr static std::size_t addrs = 0x29ef084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -606,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(bool, bool)>(&::GlobalNamespace::OVRCameraRig::UpdateAnchors)> {
   constexpr static std::size_t size = 0x147c;
-  constexpr static std::size_t addrs = 0x29ee0fc;
+  constexpr static std::size_t addrs = 0x29ef0f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -620,7 +620,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::OnBeforeRenderCallback)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x29ef650;
+  constexpr static std::size_t addrs = 0x29f064c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::CheckForTrackingSpaceChangesAndRaiseEvent)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x29ef724;
+  constexpr static std::size_t addrs = 0x29f0720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -649,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::RaiseUpdatedAnchorsEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x29ef9a0;
+  constexpr static std::size_t addrs = 0x29f099c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -663,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::EnsureGameObjectIntegrity)> {
   constexpr static std::size_t size = 0x9b4;
-  constexpr static std::size_t addrs = 0x29ef9c0;
+  constexpr static std::size_t addrs = 0x29f09bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRCameraRig::*)(::UnityEngine::Transform*, ::StringW)>(
     &::GlobalNamespace::OVRCameraRig::ConfigureAnchor)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x29f0374;
+  constexpr static std::size_t addrs = 0x29f1370;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -693,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::GlobalNamespace::OVRCameraRig::*)()>(
     &::GlobalNamespace::OVRCameraRig::ComputeTrackReferenceMatrix)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x29f05d0;
+  constexpr static std::size_t addrs = 0x29f15cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -707,7 +707,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::CheckForAnchorsInParent)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x29f08a4;
+  constexpr static std::size_t addrs = 0x29f18a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(),
@@ -720,7 +720,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)()>(&::GlobalNamespace::OVRCameraRig::_ctor)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x29f0984;
+  constexpr static std::size_t addrs = 0x29f1980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), ".ctor",

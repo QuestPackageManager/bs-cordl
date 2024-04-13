@@ -43,18 +43,18 @@ namespace Oculus::Platform {
 class CORDL_TYPE __WindowsPlatform__UnityLogDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x29d8f2c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x29daf28, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* tag, void* msg, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x29d8fc4, size 0x100c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x29dafc0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x29d8f18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29daf14, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* tag, void* msg);
 
   static inline ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x29d8e54, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dae50, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -87,21 +87,21 @@ public:
   // Declarations
   using UnityLogDelegate = ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate;
 
-  /// @brief Method AsyncInitialize, addr 0x29cba24, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x29cda20, size 0x140, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method CPPLogCallback, addr 0x29d8d34, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CPPLogCallback, addr 0x29dad30, size 0xd8, virtual false, abstract: false, final false
   inline void CPPLogCallback(void* tag, void* message);
 
-  /// @brief Method Initialize, addr 0x29cc220, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x29ce21c, size 0xf0, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
   static inline ::Oculus::Platform::WindowsPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29cba1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29cda18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method getCallbackPointer, addr 0x29d8e0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method getCallbackPointer, addr 0x29dae08, size 0x48, virtual false, abstract: false, final false
   inline void* getCallbackPointer();
 
 protected:

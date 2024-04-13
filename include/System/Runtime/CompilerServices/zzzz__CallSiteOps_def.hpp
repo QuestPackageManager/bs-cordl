@@ -43,7 +43,7 @@ public:
   static inline T Bind(::System::Runtime::CompilerServices::CallSiteBinder* binder, ::System::Runtime::CompilerServices::CallSite_1<T>* site,
                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method ClearMatch, addr 0x2b4d7bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ClearMatch, addr 0x2b4f7b8, size 0x1c, virtual false, abstract: false, final false
   static inline void ClearMatch(::System::Runtime::CompilerServices::CallSite* site);
 
   /// @brief Method CreateMatchmaker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -52,7 +52,7 @@ public:
   /// @brief Method GetCachedRules, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetCachedRules(::System::Runtime::CompilerServices::RuleCache_1<T>* cache);
 
-  /// @brief Method GetMatch, addr 0x2b4d7a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetMatch, addr 0x2b4f7a0, size 0x18, virtual false, abstract: false, final false
   static inline bool GetMatch(::System::Runtime::CompilerServices::CallSite* site);
 
   /// @brief Method GetRuleCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -64,7 +64,7 @@ public:
   /// @brief Method MoveRule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void MoveRule(::System::Runtime::CompilerServices::RuleCache_1<T>* cache, T rule, int32_t i);
 
-  /// @brief Method SetNotMatched, addr 0x2b4d784, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetNotMatched, addr 0x2b4f780, size 0x20, virtual false, abstract: false, final false
   static inline bool SetNotMatched(::System::Runtime::CompilerServices::CallSite* site);
 
   /// @brief Method UpdateRules, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::QuadUtility::ToQuads)> {
   constexpr static std::size_t size = 0x854;
-  constexpr static std::size_t addrs = 0x30e5480;
+  constexpr static std::size_t addrs = 0x30ea47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ProBuilder::Face* (*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::QuadUtility::GetBestQuadConnection)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x30e97ec;
+  constexpr static std::size_t addrs = 0x30ee7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<float_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*, float_t)>(
         &::UnityEngine::ProBuilder::MeshOperations::QuadUtility::GetQuadScore)> {
   constexpr static std::size_t size = 0x66c;
-  constexpr static std::size_t addrs = 0x30e9180;
+  constexpr static std::size_t addrs = 0x30ee17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

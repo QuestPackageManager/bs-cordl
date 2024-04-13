@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::Newtonsoft::Json::Utilities::AotHelper::Ensure)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x290271c;
+  constexpr static std::size_t addrs = 0x2906718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Newtonsoft::Json::Utilities::AotHelper::IsFalse)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2902884;
+  constexpr static std::size_t addrs = 0x2906880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper*>::get(), "IsFalse",

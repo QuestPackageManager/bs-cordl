@@ -87,49 +87,49 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*();
 
-  /// @brief Method CompareTo, addr 0x2c23028, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x2c25024, size 0x120, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Data::SqlTypes::SqlInt16 value);
 
-  /// @brief Method CompareTo, addr 0x2c22f40, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2c24f3c, size 0xe8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method Equals, addr 0x2c23148, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2c25144, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2c23210, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c2520c, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetXsdType, addr 0x2c2346c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x2c25468, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method GreaterThan, addr 0x2c22d98, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GreaterThan, addr 0x2c24d94, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean GreaterThan(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method LessThan, addr 0x2c22d2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x2c24d28, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean LessThan(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2c23244, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2c25240, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2c2324c, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2c25248, size 0x120, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2c2336c, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2c25368, size 0x100, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method ToSqlDouble, addr 0x2c22e04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToSqlDouble, addr 0x2c24e00, size 0x58, virtual false, abstract: false, final false
   inline ::System::Data::SqlTypes::SqlDouble ToSqlDouble();
 
-  /// @brief Method ToSqlInt64, addr 0x2c22e5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToSqlInt64, addr 0x2c24e58, size 0x58, virtual false, abstract: false, final false
   inline ::System::Data::SqlTypes::SqlInt64 ToSqlInt64();
 
-  /// @brief Method ToString, addr 0x2c224cc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c244c8, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2c224a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c2449c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool fNull);
 
-  /// @brief Method .ctor, addr 0x2c224ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c244a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int16_t value);
 
   static inline ::System::Data::SqlTypes::SqlInt16 getStaticF_MaxValue();
@@ -142,10 +142,10 @@ public:
 
   static inline int32_t getStaticF_s_MASKI2();
 
-  /// @brief Method get_IsNull, addr 0x2c1e558, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x2c20554, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Value, addr 0x2c1e568, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2c20564, size 0x50, virtual false, abstract: false, final false
   inline int16_t get_Value();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"
@@ -157,37 +157,37 @@ public:
   /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
   constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable();
 
-  /// @brief Method op_Addition, addr 0x2c22578, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2c24574, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_Addition(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method op_Division, addr 0x2c22884, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x2c24880, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_Division(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method op_Equality, addr 0x2c22b4c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2c24b48, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_Equality(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method op_Explicit, addr 0x2c22a60, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2c24a5c, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_Explicit___System__Data__SqlTypes__SqlInt16(::System::Data::SqlTypes::SqlInt64 x);
 
-  /// @brief Method op_GreaterThan, addr 0x2c22c8c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x2c24c88, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_GreaterThan(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method op_Implicit, addr 0x2c229c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2c249c0, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_Implicit___System__Data__SqlTypes__SqlInt16(::System::Data::SqlTypes::SqlByte x);
 
-  /// @brief Method op_Implicit, addr 0x2c224bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2c244b8, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_Implicit___System__Data__SqlTypes__SqlInt16(int16_t x);
 
-  /// @brief Method op_LessThan, addr 0x2c22bec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x2c24be8, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_LessThan(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method op_Multiply, addr 0x2c22758, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x2c24754, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_Multiply(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method op_Subtraction, addr 0x2c22668, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x2c24664, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_Subtraction(::System::Data::SqlTypes::SqlInt16 x, ::System::Data::SqlTypes::SqlInt16 y);
 
-  /// @brief Method op_UnaryNegation, addr 0x2c224ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryNegation, addr 0x2c244e8, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlInt16 op_UnaryNegation(::System::Data::SqlTypes::SqlInt16 x);
 
   static inline void setStaticF_MaxValue(::System::Data::SqlTypes::SqlInt16 value);

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2553dc0;
+  constexpr static std::size_t addrs = 0x255cdbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_selectBeatmapEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2553e5c;
+  constexpr static std::size_t addrs = 0x255ce58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_selectModifiersEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2553ef8;
+  constexpr static std::size_t addrs = 0x255cef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_selectModifiersEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2553f94;
+  constexpr static std::size_t addrs = 0x255cf90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_startGameOrReadyEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2554030;
+  constexpr static std::size_t addrs = 0x255d02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_startGameOrReadyEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25540cc;
+  constexpr static std::size_t addrs = 0x255d0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_cancelGameOrUnreadyEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2554168;
+  constexpr static std::size_t addrs = 0x255d164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_cancelGameOrUnreadyEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2554204;
+  constexpr static std::size_t addrs = 0x255d200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_clearSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25542a0;
+  constexpr static std::size_t addrs = 0x255d29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x255433c;
+  constexpr static std::size_t addrs = 0x255d338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_clearSuggestedModifiersEvent)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x25543d8;
+  constexpr static std::size_t addrs = 0x255d3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedModifiersEvent)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2554478;
+  constexpr static std::size_t addrs = 0x255d474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(
     ::GlobalNamespace::BeatmapLevelSelectionMask, bool, bool, bool, bool, bool)>(&::GlobalNamespace::LobbySetupViewController::Setup)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x2554518;
+  constexpr static std::size_t addrs = 0x255d514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::ILobbyPlayerData*)>(
     &::GlobalNamespace::LobbySetupViewController::SetLobbyPlayerData)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x25549b4;
+  constexpr static std::size_t addrs = 0x255d9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::StringW)>(
     &::GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2554dac;
+  constexpr static std::size_t addrs = 0x255dda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool)>(
     &::GlobalNamespace::LobbySetupViewController::SetPlayerActiveState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2554d88;
+  constexpr static std::size_t addrs = 0x255dd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::CannotStartGameReason)>(
     &::GlobalNamespace::LobbySetupViewController::SetStartGameEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2554e04;
+  constexpr static std::size_t addrs = 0x255de00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::MultiplayerLobbyState)>(
     &::GlobalNamespace::LobbySetupViewController::SetLobbyState)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2554e6c;
+  constexpr static std::size_t addrs = 0x255de68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LobbySetupViewController::DidActivate)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x255500c;
+  constexpr static std::size_t addrs = 0x255e008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25552a4;
+  constexpr static std::size_t addrs = 0x255e2a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25552c0;
+  constexpr static std::size_t addrs = 0x255e2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), ".ctor",
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
     &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2555328;
+  constexpr static std::size_t addrs = 0x255e324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
     &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2555344;
+  constexpr static std::size_t addrs = 0x255e340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
     &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2555360;
+  constexpr static std::size_t addrs = 0x255e35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
     &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x255537c;
+  constexpr static std::size_t addrs = 0x255e378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
     &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_4)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2555398;
+  constexpr static std::size_t addrs = 0x255e394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
     &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_5)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25553b4;
+  constexpr static std::size_t addrs = 0x255e3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),

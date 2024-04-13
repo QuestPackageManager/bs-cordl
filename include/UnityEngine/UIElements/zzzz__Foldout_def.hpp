@@ -64,7 +64,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Foldout__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3380204, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3383200, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   /// @brief Field m_Value, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x338024c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3383248, size 0x130, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Foldout__UxmlTraits* New_ctor();
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x338037c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3383378, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,13 +207,13 @@ public:
 
   static inline ::UnityEngine::UIElements::Foldout* New_ctor();
 
-  /// @brief Method OnAttachToPanel, addr 0x337fe4c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x3382e48, size 0x1c0, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x337fe04, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x3382e00, size 0x40, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x337fce4, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method SetValueWithoutNotify, addr 0x3382ce0, size 0x120, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(bool newValue);
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
@@ -234,10 +234,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(bool value);
 
-  /// @brief Method <.ctor>b__23_0, addr 0x33801b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__23_0, addr 0x33831b0, size 0x50, virtual false, abstract: false, final false
   inline void __ctor_b__23_0(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method .ctor, addr 0x337927c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337c278, size 0x330, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -256,10 +256,10 @@ public:
 
   static inline int32_t getStaticF_ussFoldoutMaxDepth();
 
-  /// @brief Method get_contentContainer, addr 0x337faf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x3382af0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_value, addr 0x337fafc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x3382af8, size 0x8, virtual true, abstract: false, final true
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
@@ -281,10 +281,10 @@ public:
 
   static inline void setStaticF_ussFoldoutMaxDepth(int32_t value);
 
-  /// @brief Method set_text, addr 0x33795ac, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x337c5a8, size 0x124, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_value, addr 0x337fb04, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x3382b00, size 0x1e0, virtual true, abstract: false, final true
   inline void set_value(bool value);
 
 protected:

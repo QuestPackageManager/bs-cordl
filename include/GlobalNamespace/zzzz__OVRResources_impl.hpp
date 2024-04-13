@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRResources____c__DisplayClass2_0::*)()>(
     &::GlobalNamespace::__OVRResources____c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a54acc;
+  constexpr static std::size_t addrs = 0x2a56ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRResources____c__DisplayClass2_0*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRResources____c__DisplayClass2_0::*)(::StringW)>(
     &::GlobalNamespace::__OVRResources____c__DisplayClass2_0::_Load_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2a54bb0;
+  constexpr static std::size_t addrs = 0x2a56bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW)>(&::GlobalNamespace::OVRResources::Load)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x2a548e8;
+  constexpr static std::size_t addrs = 0x2a568e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AssetBundle*)>(&::GlobalNamespace::OVRResources::SetResourceBundle)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2a54ad4;
+  constexpr static std::size_t addrs = 0x2a56ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRResources::*)()>(&::GlobalNamespace::OVRResources::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a54ba8;
+  constexpr static std::size_t addrs = 0x2a56ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResources*>::get(), ".ctor",

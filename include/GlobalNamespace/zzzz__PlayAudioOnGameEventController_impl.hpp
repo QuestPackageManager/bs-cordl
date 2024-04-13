@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::*)(::GlobalNamespace::AudioClipQueue*)>(
     &::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::Init)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x250ae64;
+  constexpr static std::size_t addrs = 0x2512e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::*)()>(
     &::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::Deinit)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x250afb0;
+  constexpr static std::size_t addrs = 0x2512fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::*)()>(
     &::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::HandleGameEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x250b044;
+  constexpr static std::size_t addrs = 0x2513040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::*)()>(
     &::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250b104;
+  constexpr static std::size_t addrs = 0x2513100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController::Awake)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x250ae00;
+  constexpr static std::size_t addrs = 0x2512dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayAudioOnGameEventController*>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController::OnDestroy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x250af54;
+  constexpr static std::size_t addrs = 0x2512f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayAudioOnGameEventController*>::get(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250b03c;
+  constexpr static std::size_t addrs = 0x2513038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayAudioOnGameEventController*>::get(),

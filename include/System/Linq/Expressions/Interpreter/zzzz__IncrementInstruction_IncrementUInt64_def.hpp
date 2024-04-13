@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__IncrementInstruction__IncrementUInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x2b1fce0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b20cdc, size 0xa8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b1f87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b20878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

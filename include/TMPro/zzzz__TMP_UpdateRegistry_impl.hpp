@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_UpdateRegistry* (*)()>(&::TMPro::TMP_UpdateRegistry::get_instance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x31785f0;
+  constexpr static std::size_t addrs = 0x317c5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_UpdateRegistry*>::get(), "get_instance",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)()>(&::TMPro::TMP_UpdateRegistry::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x317866c;
+  constexpr static std::size_t addrs = 0x317c668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_UpdateRegistry*>::get(), ".ctor",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::TMPro::TMP_UpdateRegistry::RegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x31787c8;
+  constexpr static std::size_t addrs = 0x317c7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x31787e8;
+  constexpr static std::size_t addrs = 0x317c7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::TMPro::TMP_UpdateRegistry::RegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3178944;
+  constexpr static std::size_t addrs = 0x317c940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3178964;
+  constexpr static std::size_t addrs = 0x317c960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)()>(&::TMPro::TMP_UpdateRegistry::PerformUpdateForCanvasRendererObjects)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3178ac0;
+  constexpr static std::size_t addrs = 0x317cabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)()>(&::TMPro::TMP_UpdateRegistry::PerformUpdateForMeshRendererObjects)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3178d1c;
+  constexpr static std::size_t addrs = 0x317cd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::TMPro::TMP_UpdateRegistry::UnRegisterCanvasElementForRebuild)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3178d84;
+  constexpr static std::size_t addrs = 0x317cd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3178db4;
+  constexpr static std::size_t addrs = 0x317cdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3178e90;
+  constexpr static std::size_t addrs = 0x317ce8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

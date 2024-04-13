@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::CanDispatchEvent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3397bd4;
+  constexpr static std::size_t addrs = 0x339abd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::DispatchEvent)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3397c28;
+  constexpr static std::size_t addrs = 0x339ac24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::*)()>(
     &::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3398874;
+  constexpr static std::size_t addrs = 0x339b870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

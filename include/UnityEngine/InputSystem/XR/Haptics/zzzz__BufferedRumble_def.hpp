@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_device, put = set_device))::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method EnqueueRumble, addr 0x2ff6ee0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueRumble, addr 0x2ffcedc, size 0xa8, virtual false, abstract: false, final false
   inline void EnqueueRumble(::ArrayW<uint8_t, ::Array<uint8_t>*> samples);
 
-  /// @brief Method .ctor, addr 0x2ff6d80, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffcd7c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method get_capabilities, addr 0x2ff6d54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x2ffcd50, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_device, addr 0x2ff6d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x2ffcd6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method set_capabilities, addr 0x2ff6d64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_capabilities, addr 0x2ffcd60, size 0xc, virtual false, abstract: false, final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
-  /// @brief Method set_device, addr 0x2ff6d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x2ffcd74, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []

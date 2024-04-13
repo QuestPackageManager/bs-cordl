@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::CodeIdentifier::MakePascal)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x2dc16b4;
+  constexpr static std::size_t addrs = 0x2dc46b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::CodeIdentifier::MakeValid)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2dc185c;
+  constexpr static std::size_t addrs = 0x2dc4858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Xml::Serialization::CodeIdentifier::IsValidStart)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2dc1a58;
+  constexpr static std::size_t addrs = 0x2dc4a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Xml::Serialization::CodeIdentifier::IsValid)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2dc19dc;
+  constexpr static std::size_t addrs = 0x2dc49d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

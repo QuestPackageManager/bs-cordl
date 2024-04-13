@@ -96,71 +96,71 @@ public:
   /// @brief Field _position, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int64_t _position;
 
-  /// @brief Method Dispose, addr 0x277a65c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2780658, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureNotClosed, addr 0x2784cec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method EnsureNotClosed, addr 0x278ace8, size 0x34, virtual false, abstract: false, final false
   inline void EnsureNotClosed();
 
-  /// @brief Method EnsureReadable, addr 0x2784d20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EnsureReadable, addr 0x278ad1c, size 0x3c, virtual false, abstract: false, final false
   inline void EnsureReadable();
 
-  /// @brief Method EnsureWriteable, addr 0x2784d5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EnsureWriteable, addr 0x278ad58, size 0x3c, virtual false, abstract: false, final false
   inline void EnsureWriteable();
 
-  /// @brief Method Flush, addr 0x2784d98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x278ad94, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x2784d9c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x278ad98, size 0x174, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Initialize, addr 0x2779e30, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x277fe2c, size 0x208, virtual false, abstract: false, final false
   inline void Initialize(::cordl_internals::Ptr<uint8_t> pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor();
 
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor(::cordl_internals::Ptr<uint8_t> pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
-  /// @brief Method Read, addr 0x27850dc, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x278b0d8, size 0x1c0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Read, addr 0x278529c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x278b298, size 0xe4, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method ReadAsync, addr 0x2785380, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x278b37c, size 0x310, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x2785690, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x278b68c, size 0x294, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte, addr 0x2785924, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x278b920, size 0x160, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadCore, addr 0x277a03c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ReadCore, addr 0x2780038, size 0x22c, virtual false, abstract: false, final false
   inline int32_t ReadCore(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method Seek, addr 0x2785a84, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x278ba80, size 0x110, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin loc);
 
-  /// @brief Method SetLength, addr 0x2785b94, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x278bb90, size 0x190, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x2785d24, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x278bd20, size 0x1ec, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Write, addr 0x2785f10, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x278bf0c, size 0xe4, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteAsync, addr 0x2785ff4, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x278bff0, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync, addr 0x27862b4, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x278c2b0, size 0x214, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteByte, addr 0x27864c8, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x278c4c4, size 0x228, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method WriteCore, addr 0x277a26c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method WriteCore, addr 0x2780268, size 0x2fc, virtual false, abstract: false, final false
   inline void WriteCore(::System::ReadOnlySpan_1<uint8_t> buffer);
 
   constexpr ::System::IO::FileAccess const& __cordl_internal_get__access() const;
@@ -217,31 +217,31 @@ public:
 
   constexpr void __cordl_internal_set__position(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2779dcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x277fdc8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2784c1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x278ac18, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<uint8_t> pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
-  /// @brief Method get_CanRead, addr 0x2784cac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x278aca8, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x2784cc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x278acc4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x2784cd0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x278accc, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x2784f10, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x278af0c, size 0x1c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x2784f2c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x278af28, size 0x48, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method get_PositionPointer, addr 0x278501c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_PositionPointer, addr 0x278b018, size 0xc0, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> get_PositionPointer();
 
-  /// @brief Method set_Position, addr 0x2784f74, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x278af70, size 0xa8, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

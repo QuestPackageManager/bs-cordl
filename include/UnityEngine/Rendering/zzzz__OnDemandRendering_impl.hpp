@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::OnDemandRendering::get_renderFrameInterval)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32208d4;
+  constexpr static std::size_t addrs = 0x32228d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::OnDemandRendering*>::get(),
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<int32_t>)>(&::UnityEngine::Rendering::OnDemandRendering::GetRenderFrameInterval)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x322092c;
+  constexpr static std::size_t addrs = 0x3222928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -48,7 +48,7 @@ public:
   /// @brief Field m_Strings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings))::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
 
-  /// @brief Method ToString, addr 0x2eea2fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2eee2f8, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t position);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
@@ -120,10 +120,10 @@ namespace System::Net {
 class CORDL_TYPE __UnsafeNclNativeMethods__SecureStringHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateSecureString, addr 0x2eeafec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateSecureString, addr 0x2eeefe8, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::SecureString* CreateSecureString(::StringW plainString);
 
-  /// @brief Method CreateString, addr 0x2eeae3c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x2eeee38, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::System::Security::SecureString* secureString);
 
 protected:

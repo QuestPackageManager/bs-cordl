@@ -51,18 +51,18 @@ public:
   /// @brief Field incButtonWasPressedEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_incButtonWasPressedEvent, put = __cordl_internal_set_incButtonWasPressedEvent))::System::Action* incButtonWasPressedEvent;
 
-  /// @brief Method DecButtonPressed, addr 0x265c598, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x2663594, size 0x1c, virtual false, abstract: false, final false
   inline void DecButtonPressed();
 
-  /// @brief Method IncButtonPressed, addr 0x265c57c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x2663578, size 0x1c, virtual false, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ColorStepValuePicker* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x265c48c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2663488, size 0xf0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x265c39c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2663398, size 0xf0, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
@@ -95,31 +95,31 @@ public:
 
   constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x265c5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26635b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_decButtonWasPressedEvent, addr 0x265c0a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_decButtonWasPressedEvent, addr 0x26630a0, size 0x9c, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_incButtonWasPressedEvent, addr 0x265c1dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_incButtonWasPressedEvent, addr 0x26631d8, size 0x9c, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_color, addr 0x265c314, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x2663310, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_decButtonWasPressedEvent, addr 0x265c140, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_decButtonWasPressedEvent, addr 0x266313c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_incButtonWasPressedEvent, addr 0x265c278, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_incButtonWasPressedEvent, addr 0x2663274, size 0x9c, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method set_color, addr 0x265c338, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x2663334, size 0x24, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_decButtonInteractable, addr 0x265c35c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_decButtonInteractable, addr 0x2663358, size 0x20, virtual false, abstract: false, final false
   inline void set_decButtonInteractable(bool value);
 
-  /// @brief Method set_incButtonInteractable, addr 0x265c37c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_incButtonInteractable, addr 0x2663378, size 0x20, virtual false, abstract: false, final false
   inline void set_incButtonInteractable(bool value);
 
 protected:

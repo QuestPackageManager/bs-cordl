@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(put = set_terrainData))::UnityW<::UnityEngine::TerrainData> terrainData;
 
-  /// @brief Method set_terrainData, addr 0x326cc68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_terrainData, addr 0x326ec64, size 0x44, virtual false, abstract: false, final false
   inline void set_terrainData(::UnityEngine::TerrainData* value);
 
 protected:

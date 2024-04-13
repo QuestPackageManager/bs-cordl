@@ -45,15 +45,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2c69e8c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2c6ce88, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2c679f0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2c6a9ec, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::HttpMessageInvoker* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method SendAsync, addr 0x2c683c0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x2c6b3bc, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_handler(::System::Net::Http::HttpMessageHandler* value);
 
-  /// @brief Method .ctor, addr 0x2c677c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6a7c0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
   /// @brief Convert to "::System::IDisposable"

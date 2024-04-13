@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2df0960;
+  constexpr static std::size_t addrs = 0x2df295c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Xsl::Runtime::StringConcat>::get(), "Clear",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df096c;
+  constexpr static std::size_t addrs = 0x2df2968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Xsl::Runtime::StringConcat>::get(), "get_Count",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::GetResult)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2df0974;
+  constexpr static std::size_t addrs = 0x2df2970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Xsl::Runtime::StringConcat>::get(), "GetResult",
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Xsl::Runtime::StringConcat::*)(::StringW)>(
     &::System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x2df0a68;
+  constexpr static std::size_t addrs = 0x2df2a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

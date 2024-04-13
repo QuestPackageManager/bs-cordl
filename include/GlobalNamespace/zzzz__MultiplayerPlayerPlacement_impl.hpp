@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerPlayerPlacement____c::*)()>(
     &::GlobalNamespace::__MultiplayerPlayerPlacement____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2611948;
+  constexpr static std::size_t addrs = 0x2618944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayerPlacement____c*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__MultiplayerPlayerPlacement____c::*)(
     ::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::__MultiplayerPlayerPlacement____c::_SortPlayers_b__4_0)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2611950;
+  constexpr static std::size_t addrs = 0x261894c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(float_t, float_t, ::GlobalNamespace::MultiplayerPlayerLayout)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::GetPlayerWorldPosition)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x260b0f0;
+  constexpr static std::size_t addrs = 0x26120ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::GetOuterCirclePositionAngleForPlayer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x260b0e0;
+  constexpr static std::size_t addrs = 0x26120dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MultiplayerPlayerPlacement::GetOuterCircleRadius)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x260b09c;
+  constexpr static std::size_t addrs = 0x2612098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t, ::GlobalNamespace::MultiplayerPlayerLayout)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::GetAngleBetweenPlayersWithEvenAdjustment)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x260b07c;
+  constexpr static std::size_t addrs = 0x2612078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::SortPlayers)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2611560;
+  constexpr static std::size_t addrs = 0x261855c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(
     ::System::Collections::Generic::IList_1<::GlobalNamespace::IConnectedPlayer*>*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MultiplayerPlayerPlacement::GetLocalPlayerIndex)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x261165c;
+  constexpr static std::size_t addrs = 0x2618658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

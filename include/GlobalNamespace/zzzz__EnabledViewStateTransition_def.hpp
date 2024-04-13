@@ -34,40 +34,40 @@ public:
 
   static inline ::GlobalNamespace::EnabledViewStateTransition* New_ctor();
 
-  /// @brief Method SetDisabledState, addr 0x2634c34, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x263bc30, size 0x28, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetHighlightedState, addr 0x2634be4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x263bbe0, size 0x28, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x2634bbc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x263bbb8, size 0x28, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetPressedState, addr 0x2634c0c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x263bc08, size 0x28, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x2634c84, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x263bc80, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method SetSelectedState, addr 0x2634c5c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x263bc58, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method TransitionToDisabledState, addr 0x2634b8c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToDisabledState, addr 0x263bb88, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToHighlightedState, addr 0x2634b70, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToHighlightedState, addr 0x263bb6c, size 0xc, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToNormalState, addr 0x2634b64, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNormalState, addr 0x263bb60, size 0xc, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToPressedState, addr 0x2634b7c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToPressedState, addr 0x263bb78, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x2634bac, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x263bba8, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method TransitionToSelectedState, addr 0x2634b9c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedState, addr 0x263bb98, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToSelectedState();
 
   constexpr ::UnityW<::GlobalNamespace::EnabledTransitionSO> const& __cordl_internal_get__transition() const;
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::EnabledTransitionSO> value);
 
-  /// @brief Method .ctor, addr 0x2634cac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263bca8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transition, addr 0x2634b5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transition, addr 0x263bb58, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
 protected:

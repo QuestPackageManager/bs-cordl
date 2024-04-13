@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_normalColor1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2634d7c;
+  constexpr static std::size_t addrs = 0x263bd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_normalColor2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2634d88;
+  constexpr static std::size_t addrs = 0x263bd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_highlightColor1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2635020;
+  constexpr static std::size_t addrs = 0x263c01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_highlightColor2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x263502c;
+  constexpr static std::size_t addrs = 0x263c028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_pressedColor1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26350b8;
+  constexpr static std::size_t addrs = 0x263c0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_pressedColor2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26350c4;
+  constexpr static std::size_t addrs = 0x263c0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_disabledColor1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2635150;
+  constexpr static std::size_t addrs = 0x263c14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_disabledColor2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x263515c;
+  constexpr static std::size_t addrs = 0x263c158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_selectedColor1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26351e8;
+  constexpr static std::size_t addrs = 0x263c1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_selectedColor2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26351f4;
+  constexpr static std::size_t addrs = 0x263c1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_selectedAndHighlightedColor1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2635280;
+  constexpr static std::size_t addrs = 0x263c27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::GradientTransitionSO::*)()>(
     &::GlobalNamespace::GradientTransitionSO::get_selectedAndHighlightedColor2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x263528c;
+  constexpr static std::size_t addrs = 0x263c288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientTransitionSO::*)()>(&::GlobalNamespace::GradientTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263591c;
+  constexpr static std::size_t addrs = 0x263c918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientTransitionSO*>::get(), ".ctor",

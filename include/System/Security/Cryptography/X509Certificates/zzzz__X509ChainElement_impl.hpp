@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainElement::*)(
     ::System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&::System::Security::Cryptography::X509Certificates::X509ChainElement::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2eb14a0;
+  constexpr static std::size_t addrs = 0x2eb349c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (
     ::System::Security::Cryptography::X509Certificates::X509ChainElement::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainElement::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb150c;
+  constexpr static std::size_t addrs = 0x2eb3508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> (
         ::System::Security::Cryptography::X509Certificates::X509ChainElement::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainElement::get_ChainElementStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb1514;
+  constexpr static std::size_t addrs = 0x2eb3510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags (
     ::System::Security::Cryptography::X509Certificates::X509ChainElement::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainElement::get_StatusFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb151c;
+  constexpr static std::size_t addrs = 0x2eb3518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainElement::*)(
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&::System::Security::Cryptography::X509Certificates::X509ChainElement::set_StatusFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb1524;
+  constexpr static std::size_t addrs = 0x2eb3520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::X509Certificates::X509ChainElement::*)(
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&::System::Security::Cryptography::X509Certificates::X509ChainElement::Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2eb152c;
+  constexpr static std::size_t addrs = 0x2eb3528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(
     &::System::Security::Cryptography::X509Certificates::X509ChainElement::Set)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2eb1550;
+  constexpr static std::size_t addrs = 0x2eb354c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainElement::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509ChainElement::UncompressFlags)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x2eb175c;
+  constexpr static std::size_t addrs = 0x2eb3758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

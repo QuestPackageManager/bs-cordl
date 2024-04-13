@@ -6,7 +6,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FontAssetCreationSettings::*)(::StringW, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t,
                                                                                                                                ::StringW, int32_t)>(&::TMPro::FontAssetCreationSettings::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x313ab3c;
+  constexpr static std::size_t addrs = 0x313fb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

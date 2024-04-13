@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x24e87d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f17cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -336,31 +336,31 @@ public:
   __declspec(property(get = __cordl_internal_get__unreliableChannel,
                       put = __cordl_internal_set__unreliableChannel))::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* _unreliableChannel;
 
-  /// @brief Method AddReliablePacket, addr 0x24e83f0, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method AddReliablePacket, addr 0x24f13ec, size 0x3e0, virtual false, abstract: false, final false
   inline void AddReliablePacket(::LiteNetLib::DeliveryMethod method, ::LiteNetLib::NetPacket* p);
 
-  /// @brief Method CreateChannel, addr 0x24e77dc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateChannel, addr 0x24f07d8, size 0x174, virtual false, abstract: false, final false
   inline ::LiteNetLib::BaseChannel* CreateChannel(uint8_t idx);
 
-  /// @brief Method Disconnect, addr 0x24e8370, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x24f136c, size 0x44, virtual false, abstract: false, final false
   inline void Disconnect();
 
-  /// @brief Method Disconnect, addr 0x24e82e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x24f12dc, size 0x24, virtual false, abstract: false, final false
   inline void Disconnect(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Disconnect, addr 0x24e8328, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x24f1324, size 0x48, virtual false, abstract: false, final false
   inline void Disconnect(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t count);
 
-  /// @brief Method Disconnect, addr 0x24e8304, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x24f1300, size 0x24, virtual false, abstract: false, final false
   inline void Disconnect(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Flush, addr 0x24e5db4, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x24eedb0, size 0x250, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetMaxSinglePacketSize, addr 0x24e7b80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSinglePacketSize, addr 0x24f0b7c, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetMaxSinglePacketSize(::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method GetPacketsCountInReliableQueue, addr 0x24e772c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetPacketsCountInReliableQueue, addr 0x24f0728, size 0xb0, virtual false, abstract: false, final false
   inline int32_t GetPacketsCountInReliableQueue(uint8_t channelNumber, bool ordered);
 
   static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id);
@@ -370,77 +370,77 @@ public:
   static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, uint8_t connectNum,
                                                 ::LiteNetLib::Utils::NetDataWriter* connectData);
 
-  /// @brief Method ProcessConnectAccept, addr 0x24e42ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ProcessConnectAccept, addr 0x24ed2e8, size 0x64, virtual false, abstract: false, final false
   inline bool ProcessConnectAccept(::LiteNetLib::NetConnectAcceptPacket* packet);
 
-  /// @brief Method ProcessConnectRequest, addr 0x24e3bc8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ProcessConnectRequest, addr 0x24ecbc4, size 0x12c, virtual false, abstract: false, final false
   inline ::LiteNetLib::ConnectRequestResult ProcessConnectRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
 
-  /// @brief Method ProcessDisconnect, addr 0x24e411c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ProcessDisconnect, addr 0x24ed118, size 0xc8, virtual false, abstract: false, final false
   inline ::LiteNetLib::DisconnectResult ProcessDisconnect(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ProcessMtuPacket, addr 0x24e87d8, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ProcessMtuPacket, addr 0x24f17d4, size 0x3e8, virtual false, abstract: false, final false
   inline void ProcessMtuPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ProcessPacket, addr 0x24e4350, size 0x574, virtual false, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x24ed34c, size 0x574, virtual false, abstract: false, final false
   inline void ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method RecycleAndDeliver, addr 0x24e8fec, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method RecycleAndDeliver, addr 0x24f1fe8, size 0x160, virtual false, abstract: false, final false
   inline void RecycleAndDeliver(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Reject, addr 0x24e385c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Reject, addr 0x24ec858, size 0x1c, virtual false, abstract: false, final false
   inline void Reject(int64_t connectionId, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
 
-  /// @brief Method Send, addr 0x24e8288, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x24f1284, size 0x28, virtual false, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method Send, addr 0x24e8220, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x24f121c, size 0x28, virtual false, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method Send, addr 0x24e4d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x24edd04, size 0x8, virtual false, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method Send, addr 0x24e8278, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x24f1274, size 0x10, virtual false, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method Send, addr 0x24e82b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x24f12ac, size 0x30, virtual false, abstract: false, final false
   inline void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method Send, addr 0x24e8248, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x24f1244, size 0x30, virtual false, abstract: false, final false
   inline void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendInternal, addr 0x24e7c78, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method SendInternal, addr 0x24f0c74, size 0x4b8, virtual false, abstract: false, final false
   inline void SendInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
 
-  /// @brief Method SendMerged, addr 0x24e8e30, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SendMerged, addr 0x24f1e2c, size 0xa0, virtual false, abstract: false, final false
   inline void SendMerged();
 
-  /// @brief Method SendUserData, addr 0x24e8ed0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SendUserData, addr 0x24f1ecc, size 0x11c, virtual false, abstract: false, final false
   inline void SendUserData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendWithDeliveryEvent, addr 0x24e7bf4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SendWithDeliveryEvent, addr 0x24f0bf0, size 0x84, virtual false, abstract: false, final false
   inline void SendWithDeliveryEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
 
-  /// @brief Method SendWithDeliveryEvent, addr 0x24e8130, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SendWithDeliveryEvent, addr 0x24f112c, size 0x64, virtual false, abstract: false, final false
   inline void SendWithDeliveryEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod,
                                     ::System::Object* userData);
 
-  /// @brief Method SendWithDeliveryEvent, addr 0x24e8194, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SendWithDeliveryEvent, addr 0x24f1190, size 0x8c, virtual false, abstract: false, final false
   inline void SendWithDeliveryEvent(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
 
-  /// @brief Method SetMtu, addr 0x24e7680, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetMtu, addr 0x24f067c, size 0xac, virtual false, abstract: false, final false
   inline void SetMtu(int32_t mtuIdx);
 
-  /// @brief Method Shutdown, addr 0x24e1e34, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x24eae30, size 0x2bc, virtual false, abstract: false, final false
   inline ::LiteNetLib::ShutdownResult Shutdown(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, bool force);
 
-  /// @brief Method Update, addr 0x24e2864, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x24eb860, size 0x284, virtual false, abstract: false, final false
   inline void Update(int32_t deltaTime);
 
-  /// @brief Method UpdateMtuLogic, addr 0x24e8bc0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UpdateMtuLogic, addr 0x24f1bbc, size 0x244, virtual false, abstract: false, final false
   inline void UpdateMtuLogic(int32_t deltaTime);
 
-  /// @brief Method UpdateRoundTripTime, addr 0x24e83b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRoundTripTime, addr 0x24f13b0, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateRoundTripTime(int32_t roundTripTime);
 
   constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_EndPoint();
@@ -720,43 +720,43 @@ public:
 
   constexpr void __cordl_internal_set__unreliableChannel(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value);
 
-  /// @brief Method .ctor, addr 0x24e353c, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec538, size 0x320, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id);
 
-  /// @brief Method .ctor, addr 0x24e3878, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec874, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum);
 
-  /// @brief Method .ctor, addr 0x24e654c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef548, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, uint8_t connectNum, ::LiteNetLib::Utils::NetDataWriter* connectData);
 
-  /// @brief Method get_ConnectTime, addr 0x24e75b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectTime, addr 0x24f05b0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ConnectTime();
 
-  /// @brief Method get_ConnectionNum, addr 0x24e7558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionNum, addr 0x24f0554, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_ConnectionNum();
 
-  /// @brief Method get_ConnectionState, addr 0x24e75ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionState, addr 0x24f05a8, size 0x8, virtual false, abstract: false, final false
   inline ::LiteNetLib::ConnectionState get_ConnectionState();
 
-  /// @brief Method get_Mtu, addr 0x24e75d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mtu, addr 0x24f05cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Mtu();
 
-  /// @brief Method get_Ping, addr 0x24e75bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Ping, addr 0x24f05b8, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_Ping();
 
-  /// @brief Method get_RemoteTimeDelta, addr 0x24e75d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteTimeDelta, addr 0x24f05d4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_RemoteTimeDelta();
 
-  /// @brief Method get_RemoteUtcTime, addr 0x24e75e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteUtcTime, addr 0x24f05dc, size 0x90, virtual false, abstract: false, final false
   inline ::System::DateTime get_RemoteUtcTime();
 
-  /// @brief Method get_ResendDelay, addr 0x24e7678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResendDelay, addr 0x24f0674, size 0x8, virtual false, abstract: false, final false
   inline double_t get_ResendDelay();
 
-  /// @brief Method get_TimeSinceLastPacket, addr 0x24e7670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeSinceLastPacket, addr 0x24f066c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TimeSinceLastPacket();
 
-  /// @brief Method set_ConnectionNum, addr 0x24e7560, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_ConnectionNum, addr 0x24f055c, size 0x4c, virtual false, abstract: false, final false
   inline void set_ConnectionNum(uint8_t value);
 
 protected:

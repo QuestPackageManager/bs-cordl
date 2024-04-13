@@ -26,36 +26,36 @@ public:
   /// @brief Field s_isCaseSensitive, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_isCaseSensitive, put = setStaticF_s_isCaseSensitive)) bool s_isCaseSensitive;
 
-  /// @brief Method EndsInDirectorySeparator, addr 0x2779538, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EndsInDirectorySeparator, addr 0x277f534, size 0x88, virtual false, abstract: false, final false
   static inline bool EndsInDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetIsCaseSensitive, addr 0x2779930, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GetIsCaseSensitive, addr 0x277f92c, size 0x308, virtual false, abstract: false, final false
   static inline bool GetIsCaseSensitive();
 
-  /// @brief Method GetRootLength, addr 0x27794ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetRootLength, addr 0x277f4a8, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetRootLength(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method IsDirectorySeparator, addr 0x2779528, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsDirectorySeparator, addr 0x277f524, size 0x10, virtual false, abstract: false, final false
   static inline bool IsDirectorySeparator(char16_t c);
 
-  /// @brief Method IsPartiallyQualified, addr 0x2779c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsPartiallyQualified, addr 0x277fc34, size 0x8, virtual false, abstract: false, final false
   static inline bool IsPartiallyQualified(::StringW path);
 
-  /// @brief Method IsRoot, addr 0x277977c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsRoot, addr 0x277f778, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsRoot(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method StartsWithDirectorySeparator, addr 0x27795c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method StartsWithDirectorySeparator, addr 0x277f5bc, size 0x7c, virtual false, abstract: false, final false
   static inline bool StartsWithDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method TrimEndingDirectorySeparator, addr 0x277963c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method TrimEndingDirectorySeparator, addr 0x277f638, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW TrimEndingDirectorySeparator(::StringW path);
 
-  /// @brief Method TrimEndingDirectorySeparator, addr 0x27797f8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method TrimEndingDirectorySeparator, addr 0x277f7f4, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimEndingDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
 
   static inline bool getStaticF_s_isCaseSensitive();
 
-  /// @brief Method get_IsCaseSensitive, addr 0x27798d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IsCaseSensitive, addr 0x277f8d4, size 0x58, virtual false, abstract: false, final false
   static inline bool get_IsCaseSensitive();
 
   static inline void setStaticF_s_isCaseSensitive(bool value);

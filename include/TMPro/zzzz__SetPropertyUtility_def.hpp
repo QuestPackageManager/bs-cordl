@@ -25,7 +25,7 @@ public:
   /// @brief Method SetClass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool SetClass(ByRef<T> currentValue, T newValue);
 
-  /// @brief Method SetColor, addr 0x3164fa8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x3168fa4, size 0x48, virtual false, abstract: false, final false
   static inline bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetEquatableStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

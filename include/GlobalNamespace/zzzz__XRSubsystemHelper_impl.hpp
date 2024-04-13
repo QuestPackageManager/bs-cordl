@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Il2CppObject* (*)()>(&::GlobalNamespace::XRSubsystemHelper::GetCurrentDisplaySubsystem)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x23e3cb0;
+  constexpr static std::size_t addrs = 0x23ebcac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::XRSubsystemHelper*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRDisplaySubsystemDescriptor* (*)()>(
     &::GlobalNamespace::XRSubsystemHelper::GetCurrentDisplaySubsystemDescriptor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x23e3df0;
+  constexpr static std::size_t addrs = 0x23ebdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRInputSubsystem* (*)()>(&::GlobalNamespace::XRSubsystemHelper::GetCurrentInputSubsystem)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x23e3f28;
+  constexpr static std::size_t addrs = 0x23ebf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::XRSubsystemHelper*>::get(),

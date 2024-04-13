@@ -32,19 +32,19 @@ public:
   /// @brief Method EnsureListElemCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void EnsureListElemCount(::System::Collections::Generic::List_1<T>* list, int32_t count);
 
-  /// @brief Method ExtractArrayFromList, addr 0x3208f04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ExtractArrayFromList, addr 0x320af00, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::Array* ExtractArrayFromList(::System::Object* list);
 
   /// @brief Method ExtractArrayFromListT, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ExtractArrayFromListT(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method Internal_ResizeList, addr 0x3208ec0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_ResizeList, addr 0x320aebc, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_ResizeList(::System::Object* list, int32_t size);
 
   /// @brief Method ResizeList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResizeList(::System::Collections::Generic::List_1<T>* list, int32_t size);
 
-  /// @brief Method SafeLength, addr 0x3208eb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SafeLength, addr 0x320aeac, size 0x10, virtual false, abstract: false, final false
   static inline int32_t SafeLength(::System::Array* values);
 
   /// @brief Method SafeLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

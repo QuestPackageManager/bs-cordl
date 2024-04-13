@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*, bool)>(
     &::GlobalNamespace::OVRGLTFAccessor::_ctor)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x29f5128;
+  constexpr static std::size_t addrs = 0x29f6124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRGLTFAccessor::*)()>(&::GlobalNamespace::OVRGLTFAccessor::GetDataCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29f55cc;
+  constexpr static std::size_t addrs = 0x29f65c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAccessor*>::get(), "GetDataCount",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRGLTFType (*)(::StringW)>(&::GlobalNamespace::OVRGLTFAccessor::ToOVRType)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x29f5468;
+  constexpr static std::size_t addrs = 0x29f6464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::ReadAsInt)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x29f55d4;
+  constexpr static std::size_t addrs = 0x29f65d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<float_t, ::Array<float_t>*>>, int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::ReadAsFloat)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x29f5a00;
+  constexpr static std::size_t addrs = 0x29f69fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>, int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::ReadAsVector2)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x29f5c78;
+  constexpr static std::size_t addrs = 0x29f6c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>, int32_t, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadAsVector3)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x29f5ed4;
+  constexpr static std::size_t addrs = 0x29f6ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>, int32_t, ::UnityEngine::Vector4)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadAsVector4)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x29f626c;
+  constexpr static std::size_t addrs = 0x29f7268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>, int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::ReadAsColor)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x29f6660;
+  constexpr static std::size_t addrs = 0x29f765c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>, int32_t, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadAsMatrix4x4)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x29f6b10;
+  constexpr static std::size_t addrs = 0x29f7b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::OVRGLTFAccessor::*)(::GlobalNamespace::OVRBinaryChunk)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadAsTexture)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x29f6e7c;
+  constexpr static std::size_t addrs = 0x29f7e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(
     ::GlobalNamespace::OVRBinaryChunk, ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>, int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::ReadAsBoneWeights)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x29f6f8c;
+  constexpr static std::size_t addrs = 0x29f7f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRGLTFAccessor::*)(::GlobalNamespace::OVRGLTFComponentType)>(
     &::GlobalNamespace::OVRGLTFAccessor::GetStrideForType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x29f57e8;
+  constexpr static std::size_t addrs = 0x29f67e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGLTFAccessor::*)(::GlobalNamespace::OVRGLTFComponentType)>(
     &::GlobalNamespace::OVRGLTFAccessor::GetMaxValueForType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x29f6ae8;
+  constexpr static std::size_t addrs = 0x29f7ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::OVRGLTFAccessor::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::GlobalNamespace::OVRGLTFComponentType)>(&::GlobalNamespace::OVRGLTFAccessor::ReadElementAsUint)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x29f5810;
+  constexpr static std::size_t addrs = 0x29f680c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGLTFAccessor::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadElementAsFloat)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x29f5c10;
+  constexpr static std::size_t addrs = 0x29f6c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

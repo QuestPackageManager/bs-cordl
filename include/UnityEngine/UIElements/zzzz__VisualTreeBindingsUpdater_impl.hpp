@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33ca2fc;
+  constexpr static std::size_t addrs = 0x33cd2f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IBinding* (
     ::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::GetBindingObjectFromElement)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x33ca354;
+  constexpr static std::size_t addrs = 0x33cd350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StartTracking)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33ca514;
+  constexpr static std::size_t addrs = 0x33cd510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StopTracking)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33ca594;
+  constexpr static std::size_t addrs = 0x33cd590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* (
     ::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_temporaryObjectCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33ca614;
+  constexpr static std::size_t addrs = 0x33cd610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IBinding* (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::GetAdditionalBinding)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x33ca48c;
+  constexpr static std::size_t addrs = 0x33cd488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StartTrackingRecursive)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x33ca61c;
+  constexpr static std::size_t addrs = 0x33cd618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StopTrackingRecursive)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x33ca734;
+  constexpr static std::size_t addrs = 0x33cd730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::OnVersionChanged)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x33ca840;
+  constexpr static std::size_t addrs = 0x33cd83c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::HierarchyChangeType)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::OnHierarchyChange)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33ca938;
+  constexpr static std::size_t addrs = 0x33cd934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::CurrentTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x33ca950;
+  constexpr static std::size_t addrs = 0x33cd94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::PerformTrackingOperations)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x33ca9a0;
+  constexpr static std::size_t addrs = 0x33cd99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::Update)> {
   constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x33cac24;
+  constexpr static std::size_t addrs = 0x33cdc20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::UpdateBindings)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x33cb224;
+  constexpr static std::size_t addrs = 0x33ce220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x33cb758;
+  constexpr static std::size_t addrs = 0x33ce754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),

@@ -182,10 +182,10 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdDefaultAttributeInfo"
   constexpr operator ::System::Xml::IDtdDefaultAttributeInfo*() noexcept;
 
-  /// @brief Method CheckXmlSpace, addr 0x2ccbee8, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CheckXmlSpace, addr 0x2cccee4, size 0x26c, virtual false, abstract: false, final false
   inline void CheckXmlSpace(::System::Xml::IValidationEventHandling* validationEventHandling);
 
-  /// @brief Method Clone, addr 0x2ccc154, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x2ccd150, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* Clone();
 
   static inline ::System::Xml::Schema::SchemaAttDef* New_ctor();
@@ -194,37 +194,37 @@ public:
 
   static inline ::System::Xml::Schema::SchemaAttDef* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  /// @brief Method System.Xml.IDtdAttributeInfo.get_IsDeclaredInExternal, addr 0x2ccbd80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeInfo.get_IsDeclaredInExternal, addr 0x2cccd7c, size 0x8, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdAttributeInfo_get_IsDeclaredInExternal();
 
-  /// @brief Method System.Xml.IDtdAttributeInfo.get_IsNonCDataType, addr 0x2ccbd34, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeInfo.get_IsNonCDataType, addr 0x2cccd30, size 0x2c, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdAttributeInfo_get_IsNonCDataType();
 
-  /// @brief Method System.Xml.IDtdAttributeInfo.get_IsXmlAttribute, addr 0x2ccbd88, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeInfo.get_IsXmlAttribute, addr 0x2cccd84, size 0x10, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdAttributeInfo_get_IsXmlAttribute();
 
-  /// @brief Method System.Xml.IDtdAttributeInfo.get_LineNumber, addr 0x2ccbd24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeInfo.get_LineNumber, addr 0x2cccd20, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Xml_IDtdAttributeInfo_get_LineNumber();
 
-  /// @brief Method System.Xml.IDtdAttributeInfo.get_LinePosition, addr 0x2ccbd2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeInfo.get_LinePosition, addr 0x2cccd28, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Xml_IDtdAttributeInfo_get_LinePosition();
 
-  /// @brief Method System.Xml.IDtdAttributeInfo.get_LocalName, addr 0x2ccbd08, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeInfo.get_LocalName, addr 0x2cccd04, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdAttributeInfo_get_LocalName();
 
-  /// @brief Method System.Xml.IDtdAttributeInfo.get_Prefix, addr 0x2ccbd00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeInfo.get_Prefix, addr 0x2ccccfc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdAttributeInfo_get_Prefix();
 
-  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueExpanded, addr 0x2ccbd98, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueExpanded, addr 0x2cccd94, size 0x54, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueExpanded();
 
-  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueTyped, addr 0x2ccbe40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueTyped, addr 0x2ccce3c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueTyped();
 
-  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_ValueLineNumber, addr 0x2ccbe48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_ValueLineNumber, addr 0x2ccce44, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Xml_IDtdDefaultAttributeInfo_get_ValueLineNumber();
 
-  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_ValueLinePosition, addr 0x2ccbe50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdDefaultAttributeInfo.get_ValueLinePosition, addr 0x2ccce4c, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Xml_IDtdDefaultAttributeInfo_get_ValueLinePosition();
 
   constexpr ::StringW const& __cordl_internal_get_defExpanded() const;
@@ -275,42 +275,42 @@ public:
 
   constexpr void __cordl_internal_set_valueLinePos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ccbcf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ccccf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ccbcec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cccce8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method .ctor, addr 0x2ccbce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cccce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
   static inline ::System::Xml::Schema::SchemaAttDef* getStaticF_Empty();
 
-  /// @brief Method get_DefaultValueChecked, addr 0x2ccbed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueChecked, addr 0x2cccecc, size 0x8, virtual false, abstract: false, final false
   inline bool get_DefaultValueChecked();
 
-  /// @brief Method get_DefaultValueExpanded, addr 0x2ccbdec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueExpanded, addr 0x2cccde8, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValueExpanded();
 
-  /// @brief Method get_LineNumber, addr 0x2ccbe68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x2ccce64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2ccbe58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x2ccce54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Reserved, addr 0x2ccbec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reserved, addr 0x2cccebc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__SchemaAttDef__Reserve get_Reserved();
 
-  /// @brief Method get_SchemaAttribute, addr 0x2ccbed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaAttribute, addr 0x2ccced4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
-  /// @brief Method get_TokenizedType, addr 0x2ccbd60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x2cccd5c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_ValueLineNumber, addr 0x2ccbe88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueLineNumber, addr 0x2ccce84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ValueLineNumber();
 
-  /// @brief Method get_ValueLinePosition, addr 0x2ccbe78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueLinePosition, addr 0x2ccce74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ValueLinePosition();
 
   /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
@@ -321,28 +321,28 @@ public:
 
   static inline void setStaticF_Empty(::System::Xml::Schema::SchemaAttDef* value);
 
-  /// @brief Method set_DefaultValueExpanded, addr 0x2ccbe98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueExpanded, addr 0x2ccce94, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueExpanded(::StringW value);
 
-  /// @brief Method set_LineNumber, addr 0x2ccbe70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LineNumber, addr 0x2ccce6c, size 0x8, virtual false, abstract: false, final false
   inline void set_LineNumber(int32_t value);
 
-  /// @brief Method set_LinePosition, addr 0x2ccbe60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LinePosition, addr 0x2ccce5c, size 0x8, virtual false, abstract: false, final false
   inline void set_LinePosition(int32_t value);
 
-  /// @brief Method set_Reserved, addr 0x2ccbec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Reserved, addr 0x2cccec4, size 0x8, virtual false, abstract: false, final false
   inline void set_Reserved(::System::Xml::Schema::__SchemaAttDef__Reserve value);
 
-  /// @brief Method set_SchemaAttribute, addr 0x2ccbee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaAttribute, addr 0x2cccedc, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value);
 
-  /// @brief Method set_TokenizedType, addr 0x2ccbea0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_TokenizedType, addr 0x2ccce9c, size 0x20, virtual false, abstract: false, final false
   inline void set_TokenizedType(::System::Xml::XmlTokenizedType value);
 
-  /// @brief Method set_ValueLineNumber, addr 0x2ccbe90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValueLineNumber, addr 0x2ccce8c, size 0x8, virtual false, abstract: false, final false
   inline void set_ValueLineNumber(int32_t value);
 
-  /// @brief Method set_ValueLinePosition, addr 0x2ccbe80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValueLinePosition, addr 0x2ccce7c, size 0x8, virtual false, abstract: false, final false
   inline void set_ValueLinePosition(int32_t value);
 
 protected:

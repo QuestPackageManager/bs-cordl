@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2538ad4;
+  constexpr static std::size_t addrs = 0x2541ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2538b70;
+  constexpr static std::size_t addrs = 0x2541b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::DidActivate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2538c0c;
+  constexpr static std::size_t addrs = 0x2541c08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(bool, bool)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2538cb4;
+  constexpr static std::size_t addrs = 0x2541cb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)()>(
     &::GlobalNamespace::ExplicitContentWarningViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2538ce4;
+  constexpr static std::size_t addrs = 0x2541ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)()>(
     &::GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_b__6_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2538cec;
+  constexpr static std::size_t addrs = 0x2541ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),

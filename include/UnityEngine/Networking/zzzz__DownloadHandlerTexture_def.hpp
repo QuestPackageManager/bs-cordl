@@ -43,25 +43,25 @@ public:
 
   __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture2D> texture;
 
-  /// @brief Method Create, addr 0x33faf28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x33fdf24, size 0x44, virtual false, abstract: false, final false
   static inline void* Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
 
-  /// @brief Method Dispose, addr 0x33fafc4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x33fdfc0, size 0x24, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetContent, addr 0x33fb138, size 0x1054, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x33fe134, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method GetNativeData, addr 0x33fafb8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x33fdfb4, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method InternalCreateTexture, addr 0x33faf6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateTexture, addr 0x33fdf68, size 0x4c, virtual false, abstract: false, final false
   inline void InternalCreateTexture(bool readable);
 
-  /// @brief Method InternalGetTexture, addr 0x33fafec, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalGetTexture, addr 0x33fdfe8, size 0x110, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> InternalGetTexture();
 
-  /// @brief Method InternalGetTextureNative, addr 0x33fb0fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetTextureNative, addr 0x33fe0f8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> InternalGetTextureNative();
 
   static inline ::UnityEngine::Networking::DownloadHandlerTexture* New_ctor(bool readable);
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x33faec8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33fdec4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(bool readable);
 
-  /// @brief Method get_texture, addr 0x33fafe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x33fdfe4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
 protected:

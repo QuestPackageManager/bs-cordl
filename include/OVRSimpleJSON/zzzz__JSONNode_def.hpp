@@ -204,19 +204,19 @@ public:
 
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  /// @brief Method MoveNext, addr 0x2aa0998, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x2aa3994, size 0x94, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x2aa087c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3878, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> aArrayEnum);
 
-  /// @brief Method .ctor, addr 0x2aa08a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa38a4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> aDictEnum);
 
-  /// @brief Method get_Current, addr 0x2aa08cc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x2aa38c8, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*> get_Current();
 
-  /// @brief Method get_IsValid, addr 0x2aa086c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x2aa3868, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   // Ctor Parameters []
@@ -263,22 +263,22 @@ public:
   // Declarations
   __declspec(property(get = get_Current))::OVRSimpleJSON::JSONNode* Current;
 
-  /// @brief Method GetEnumerator, addr 0x2aa0b38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2aa3b34, size 0x10, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__ValueEnumerator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x2aa0b34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x2aa3b30, size 0x4, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x2aa0a2c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3a28, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> aArrayEnum);
 
-  /// @brief Method .ctor, addr 0x2aa0a6c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3a68, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> aDictEnum);
 
-  /// @brief Method .ctor, addr 0x2aa0adc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3ad8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::__JSONNode__Enumerator aEnumerator);
 
-  /// @brief Method get_Current, addr 0x2aa0af0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x2aa3aec, size 0x44, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* get_Current();
 
   // Ctor Parameters []
@@ -312,22 +312,22 @@ public:
   // Declarations
   __declspec(property(get = get_Current))::StringW Current;
 
-  /// @brief Method GetEnumerator, addr 0x2aa0c4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2aa3c48, size 0x10, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__KeyEnumerator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x2aa0c48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x2aa3c44, size 0x4, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x2aa0b48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3b44, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> aArrayEnum);
 
-  /// @brief Method .ctor, addr 0x2aa0b88, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3b84, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> aDictEnum);
 
-  /// @brief Method .ctor, addr 0x2aa0bf8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3bf4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::__JSONNode__Enumerator aEnumerator);
 
-  /// @brief Method get_Current, addr 0x2aa0c0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x2aa3c08, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_Current();
 
   // Ctor Parameters []
@@ -384,24 +384,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2aa0cd0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2aa3ccc, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x2aa0ce4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2aa3ce0, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*>>* GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x2aa0cc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2aa3cc4, size 0x8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::OVRSimpleJSON::__JSONNode__LinqEnumerator* New_ctor(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method Reset, addr 0x2aa0d48, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2aa3d44, size 0x68, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aa0db0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aa3dac, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aa0c64, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aa3c60, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::OVRSimpleJSON::__JSONNode__Enumerator const& __cordl_internal_get_m_Enumerator() const;
@@ -416,10 +416,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Node(::OVRSimpleJSON::JSONNode* value);
 
-  /// @brief Method .ctor, addr 0x2a9d57c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa0578, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method get_Current, addr 0x2aa0c5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2aa3c58, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*> get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::OVRSimpleJSON::JSONNode*>>"
@@ -506,27 +506,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2aa0e18, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2aa3e14, size 0x18, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::OVRSimpleJSON::__JSONNode___get_Children_d__40* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator, addr 0x2aa0e80, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator, addr 0x2aa3e7c, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>* System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current, addr 0x2aa0e30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current, addr 0x2aa3e2c, size 0x8, virtual true, abstract: false, final true
   inline ::OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aa0f18, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aa3f14, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2aa0e38, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2aa3e34, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aa0e78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aa3e74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2aa0e14, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2aa3e10, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -547,7 +547,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2a9d318, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa0314, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>"
@@ -646,27 +646,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2aa0fd4, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2aa3fd0, size 0x434, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::OVRSimpleJSON::__JSONNode___get_DeepChildren_d__42* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator, addr 0x2aa15b8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator, addr 0x2aa45b4, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>* System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current, addr 0x2aa1568, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current, addr 0x2aa4564, size 0x8, virtual true, abstract: false, final true
   inline ::OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aa165c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aa4658, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2aa1570, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2aa456c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aa15b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aa45ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2aa0f1c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2aa3f18, size 0xb8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -705,13 +705,13 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x2aa14b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2aa44b4, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x2aa1408, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x2aa4404, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x2a9d3c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa03c0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>"
@@ -865,120 +865,120 @@ public:
   /// @brief Field m_EscapeBuilder, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_EscapeBuilder, put = setStaticF_m_EscapeBuilder))::System::Text::StringBuilder* m_EscapeBuilder;
 
-  /// @brief Method Add, addr 0x2a9d22c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2aa0228, size 0x64, virtual true, abstract: false, final false
   inline void Add(::OVRSimpleJSON::JSONNode* aItem);
 
-  /// @brief Method Add, addr 0x2a9d228, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2aa0224, size 0x4, virtual true, abstract: false, final false
   inline void Add(::StringW aKey, ::OVRSimpleJSON::JSONNode* aItem);
 
-  /// @brief Method Equals, addr 0x2a9dfb0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2aa0fac, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Escape, addr 0x2a9e060, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method Escape, addr 0x2aa105c, size 0x2c4, virtual false, abstract: false, final false
   static inline ::StringW Escape(::StringW aText);
 
-  /// @brief Method GetContainer, addr 0x2a9e5a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetContainer, addr 0x2aa15a0, size 0x8c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* GetContainer(::OVRSimpleJSON::JSONContainerType aType);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::OVRSimpleJSON::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x2a9dfbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2aa0fb8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::OVRSimpleJSON::JSONNode* New_ctor();
 
-  /// @brief Method Parse, addr 0x2a98d4c, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2a9bd48, size 0x5fc, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
-  /// @brief Method ParseElement, addr 0x2a9e324, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ParseElement, addr 0x2aa1320, size 0x170, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* ParseElement(::StringW token, bool quoted);
 
-  /// @brief Method ReadMatrix, addr 0x2aa06d4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadMatrix, addr 0x2aa36d0, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 ReadMatrix();
 
-  /// @brief Method ReadQuaternion, addr 0x2a9f798, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadQuaternion, addr 0x2aa2794, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ReadQuaternion();
 
-  /// @brief Method ReadQuaternion, addr 0x2a9ffb0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ReadQuaternion, addr 0x2aa2fac, size 0x230, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ReadQuaternion(::UnityEngine::Quaternion aDefault);
 
-  /// @brief Method ReadRect, addr 0x2a9f80c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReadRect, addr 0x2aa2808, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect ReadRect();
 
-  /// @brief Method ReadRect, addr 0x2aa01e0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ReadRect, addr 0x2aa31dc, size 0x258, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect ReadRect(::UnityEngine::Rect aDefault);
 
-  /// @brief Method ReadRectOffset, addr 0x2a9f830, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadRectOffset, addr 0x2aa282c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* ReadRectOffset();
 
-  /// @brief Method ReadRectOffset, addr 0x2aa0438, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ReadRectOffset, addr 0x2aa3434, size 0x29c, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* ReadRectOffset(::UnityEngine::RectOffset* aDefault);
 
-  /// @brief Method ReadVector2, addr 0x2a9f670, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadVector2, addr 0x2aa266c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadVector2();
 
-  /// @brief Method ReadVector2, addr 0x2a9f894, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ReadVector2, addr 0x2aa2890, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadVector2(::UnityEngine::Vector2 aDefault);
 
-  /// @brief Method ReadVector2, addr 0x2a9f9d4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadVector2, addr 0x2aa29d0, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadVector2(::StringW aXName, ::StringW aYName);
 
-  /// @brief Method ReadVector3, addr 0x2a9f6d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x2aa26cc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadVector3();
 
-  /// @brief Method ReadVector3, addr 0x2a9faac, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x2aa2aa8, size 0x1bc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadVector3(::UnityEngine::Vector3 aDefault);
 
-  /// @brief Method ReadVector3, addr 0x2a9fc68, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x2aa2c64, size 0x118, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadVector3(::StringW aXName, ::StringW aYName, ::StringW aZName);
 
-  /// @brief Method ReadVector4, addr 0x2a9f734, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadVector4, addr 0x2aa2730, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 ReadVector4();
 
-  /// @brief Method ReadVector4, addr 0x2a9fd80, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ReadVector4, addr 0x2aa2d7c, size 0x230, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 ReadVector4(::UnityEngine::Vector4 aDefault);
 
-  /// @brief Method Remove, addr 0x2a9d298, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x2aa0294, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* Remove(int32_t aIndex);
 
-  /// @brief Method Remove, addr 0x2a9d290, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x2aa028c, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* Remove(::StringW aKey);
 
-  /// @brief Method Remove, addr 0x2a9d2a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x2aa029c, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* Remove(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method ToString, addr 0x2a9d3f8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2aa03f4, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2a9d484, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2aa0480, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString(int32_t aIndent);
 
-  /// @brief Method WriteMatrix, addr 0x2aa07b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WriteMatrix, addr 0x2aa37b4, size 0xac, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* WriteMatrix(::UnityEngine::Matrix4x4 aMatrix);
 
-  /// @brief Method WriteQuaternion, addr 0x2a9edb8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method WriteQuaternion, addr 0x2aa1db4, size 0x250, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* WriteQuaternion(::UnityEngine::Quaternion aRot);
 
-  /// @brief Method WriteRect, addr 0x2a9f08c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method WriteRect, addr 0x2aa2088, size 0x2ac, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* WriteRect(::UnityEngine::Rect aRect);
 
-  /// @brief Method WriteRectOffset, addr 0x2a9f394, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method WriteRectOffset, addr 0x2aa2390, size 0x2cc, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* WriteRectOffset(::UnityEngine::RectOffset* aRect);
 
   /// @brief Method WriteToStringBuilder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
-  /// @brief Method WriteVector2, addr 0x2a9e6cc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method WriteVector2, addr 0x2aa16c8, size 0x130, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* WriteVector2(::UnityEngine::Vector2 aVec, ::StringW aXName, ::StringW aYName);
 
-  /// @brief Method WriteVector3, addr 0x2a9e8c0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method WriteVector3, addr 0x2aa18bc, size 0x1a0, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* WriteVector3(::UnityEngine::Vector3 aVec, ::StringW aXName, ::StringW aYName, ::StringW aZName);
 
-  /// @brief Method WriteVector4, addr 0x2a9eae4, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method WriteVector4, addr 0x2aa1ae0, size 0x250, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* WriteVector4(::UnityEngine::Vector4 aVec);
 
-  /// @brief Method .ctor, addr 0x2aa0864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa3860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OVRSimpleJSON::JSONContainerType getStaticF_QuaternionContainerType();
@@ -993,160 +993,160 @@ public:
 
   static inline ::System::Text::StringBuilder* getStaticF_m_EscapeBuilder();
 
-  /// @brief Method get_AsArray, addr 0x2a9d9c0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_AsArray, addr 0x2aa09bc, size 0x78, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONArray* get_AsArray();
 
-  /// @brief Method get_AsBool, addr 0x2a9d820, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x2aa081c, size 0xb8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method get_AsDouble, addr 0x2a9d674, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_AsDouble, addr 0x2aa0670, size 0xa4, virtual true, abstract: false, final false
   inline double_t get_AsDouble();
 
-  /// @brief Method get_AsFloat, addr 0x2a9d7ec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_AsFloat, addr 0x2aa07e8, size 0x20, virtual true, abstract: false, final false
   inline float_t get_AsFloat();
 
-  /// @brief Method get_AsInt, addr 0x2a9d7a0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_AsInt, addr 0x2aa079c, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_AsInt();
 
-  /// @brief Method get_AsLong, addr 0x2a9d950, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_AsLong, addr 0x2aa094c, size 0x34, virtual true, abstract: false, final false
   inline int64_t get_AsLong();
 
-  /// @brief Method get_AsObject, addr 0x2a9da38, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_AsObject, addr 0x2aa0a34, size 0x78, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONObject* get_AsObject();
 
-  /// @brief Method get_Children, addr 0x2a9d2a8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_Children, addr 0x2aa02a4, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* get_Children();
 
-  /// @brief Method get_Count, addr 0x2a9d1e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2aa01e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_DeepChildren, addr 0x2a9d34c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_DeepChildren, addr 0x2aa0348, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* get_DeepChildren();
 
-  /// @brief Method get_EscapeBuilder, addr 0x2a9dfc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_EscapeBuilder, addr 0x2aa0fc0, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* get_EscapeBuilder();
 
-  /// @brief Method get_Inline, addr 0x2a9d21c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Inline, addr 0x2aa0218, size 0x8, virtual true, abstract: false, final false
   inline bool get_Inline();
 
-  /// @brief Method get_IsArray, addr 0x2a9d20c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsArray, addr 0x2aa0208, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsArray();
 
-  /// @brief Method get_IsBoolean, addr 0x2a9d1fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsBoolean, addr 0x2aa01f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsBoolean();
 
-  /// @brief Method get_IsNull, addr 0x2a9d204, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x2aa0200, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_IsNumber, addr 0x2a9d1ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNumber, addr 0x2aa01e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNumber();
 
-  /// @brief Method get_IsObject, addr 0x2a9d214, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsObject, addr 0x2aa0210, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsObject();
 
-  /// @brief Method get_IsString, addr 0x2a9d1f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsString, addr 0x2aa01f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsString();
 
-  /// @brief Method get_Item, addr 0x2a9d188, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2aa0184, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* get_Item(int32_t aIndex);
 
-  /// @brief Method get_Item, addr 0x2a9d194, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2aa0190, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* get_Item(::StringW aKey);
 
-  /// @brief Method get_Keys, addr 0x2a9d5fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x2aa05f8, size 0x3c, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__KeyEnumerator get_Keys();
 
-  /// @brief Method get_Linq, addr 0x2a9d51c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Linq, addr 0x2aa0518, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*>>* get_Linq();
 
   /// @brief Method get_Tag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x2a9d1a0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2aa019c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_Values, addr 0x2a9d638, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x2aa0634, size 0x3c, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__ValueEnumerator get_Values();
 
-  /// @brief Method op_Equality, addr 0x2a99348, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2a9c344, size 0x180, virtual false, abstract: false, final false
   static inline bool op_Equality(::OVRSimpleJSON::JSONNode* a, ::System::Object* b);
 
-  /// @brief Method op_Implicit, addr 0x2a9df74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0f70, size 0x3c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*> aKeyValue);
 
-  /// @brief Method op_Implicit, addr 0x2a9f008, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa2004, size 0x84, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::UnityEngine::Rect aRect);
 
-  /// @brief Method op_Implicit, addr 0x2a9f338, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa2334, size 0x5c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::UnityEngine::RectOffset* aRect);
 
-  /// @brief Method op_Implicit, addr 0x2a9ed34, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa1d30, size 0x84, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::UnityEngine::Quaternion aRot);
 
-  /// @brief Method op_Implicit, addr 0x2a9e630, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa162c, size 0x9c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::UnityEngine::Vector2 aVec);
 
-  /// @brief Method op_Implicit, addr 0x2a9e7fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa17f8, size 0xc4, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::UnityEngine::Vector3 aVec);
 
-  /// @brief Method op_Implicit, addr 0x2a9ea60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa1a5c, size 0x84, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::UnityEngine::Vector4 aVec);
 
-  /// @brief Method op_Implicit, addr 0x2a9dea4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0ea0, size 0x68, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(bool b);
 
-  /// @brief Method op_Implicit, addr 0x2a9db78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0b74, size 0x6c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(double_t n);
 
-  /// @brief Method op_Implicit, addr 0x2a9dc24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0c20, size 0x70, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(float_t n);
 
-  /// @brief Method op_Implicit, addr 0x2a9dcd4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0cd0, size 0x70, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(int32_t n);
 
-  /// @brief Method op_Implicit, addr 0x2a9dd84, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0d80, size 0xe0, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(int64_t n);
 
-  /// @brief Method op_Implicit, addr 0x2a9dab0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0aac, size 0x64, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* op_Implicit___OVRSimpleJSON__JSONNode_(::StringW s);
 
-  /// @brief Method op_Implicit, addr 0x2a9db3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0b38, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::OVRSimpleJSON::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x2a9f788, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa2784, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x2a9f7ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa27e8, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect op_Implicit___UnityEngine__Rect(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x2a9f820, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa281c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectOffset* op_Implicit___UnityEngine__RectOffset_(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x2a9f660, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa265c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x2a9f6c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa26bc, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x2a9f724, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa2720, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x2a9df34, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0f30, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::OVRSimpleJSON::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x2a9dbe4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0be0, size 0x40, virtual false, abstract: false, final false
   static inline double_t op_Implicit_double_t(::OVRSimpleJSON::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x2a9dc94, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0c90, size 0x40, virtual false, abstract: false, final false
   static inline float_t op_Implicit_float_t(::OVRSimpleJSON::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x2a9dd44, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0d40, size 0x40, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::OVRSimpleJSON::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x2a9de64, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2aa0e60, size 0x40, virtual false, abstract: false, final false
   static inline int64_t op_Implicit_int64_t(::OVRSimpleJSON::JSONNode* d);
 
-  /// @brief Method op_Inequality, addr 0x2a994c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2a9c4c4, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::OVRSimpleJSON::JSONNode* a, ::System::Object* b);
 
   static inline void setStaticF_QuaternionContainerType(::OVRSimpleJSON::JSONContainerType value);
@@ -1161,31 +1161,31 @@ public:
 
   static inline void setStaticF_m_EscapeBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method set_AsBool, addr 0x2a9d8d8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x2aa08d4, size 0x78, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method set_AsDouble, addr 0x2a9d718, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method set_AsDouble, addr 0x2aa0714, size 0x88, virtual true, abstract: false, final false
   inline void set_AsDouble(double_t value);
 
-  /// @brief Method set_AsFloat, addr 0x2a9d80c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method set_AsFloat, addr 0x2aa0808, size 0x14, virtual true, abstract: false, final false
   inline void set_AsFloat(float_t value);
 
-  /// @brief Method set_AsInt, addr 0x2a9d7d4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method set_AsInt, addr 0x2aa07d0, size 0x18, virtual true, abstract: false, final false
   inline void set_AsInt(int32_t value);
 
-  /// @brief Method set_AsLong, addr 0x2a9d984, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method set_AsLong, addr 0x2aa0980, size 0x3c, virtual true, abstract: false, final false
   inline void set_AsLong(int64_t value);
 
-  /// @brief Method set_Inline, addr 0x2a9d224, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Inline, addr 0x2aa0220, size 0x4, virtual true, abstract: false, final false
   inline void set_Inline(bool value);
 
-  /// @brief Method set_Item, addr 0x2a9d190, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2aa018c, size 0x4, virtual true, abstract: false, final false
   inline void set_Item(int32_t aIndex, ::OVRSimpleJSON::JSONNode* value);
 
-  /// @brief Method set_Item, addr 0x2a9d19c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2aa0198, size 0x4, virtual true, abstract: false, final false
   inline void set_Item(::StringW aKey, ::OVRSimpleJSON::JSONNode* value);
 
-  /// @brief Method set_Value, addr 0x2a9d1e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2aa01dc, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

@@ -52,21 +52,21 @@ public:
   __declspec(property(get = __cordl_internal_get__Expression_k__BackingField,
                       put = __cordl_internal_set__Expression_k__BackingField))::System::Linq::Expressions::Expression* _Expression_k__BackingField;
 
-  /// @brief Method Accept, addr 0x2b0b6c0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x2b0c6bc, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetMember, addr 0x2b0b698, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x2b0c694, size 0x28, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
-  /// @brief Method Make, addr 0x2b0b5fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x2b0c5f8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::FieldExpression* Make(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* field);
 
-  /// @brief Method Make, addr 0x2b0b568, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x2b0c564, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::PropertyExpression* Make(::System::Linq::Expressions::Expression* expression, ::System::Reflection::PropertyInfo* property);
 
   static inline ::System::Linq::Expressions::MemberExpression* New_ctor(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Update, addr 0x2b0971c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b0a718, size 0x94, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::MemberExpression* Update(::System::Linq::Expressions::Expression* expression);
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Expression_k__BackingField();
@@ -75,16 +75,16 @@ public:
 
   constexpr void __cordl_internal_set__Expression_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2b0b4fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0c4f8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method get_Expression, addr 0x2b0b4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x2b0c4f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_Member, addr 0x2b075d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x2b085d4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method get_NodeType, addr 0x2b0b690, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x2b0c68c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
 protected:

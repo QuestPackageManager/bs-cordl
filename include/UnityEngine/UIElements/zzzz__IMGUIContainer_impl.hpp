@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__IMGUIContainer__UxmlFactory::*)()>(
     &::UnityEngine::UIElements::__IMGUIContainer__UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x334f518;
+  constexpr static std::size_t addrs = 0x3352514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIContainer__UxmlFactory*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits::*)()>(
     &::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x334f560;
+  constexpr static std::size_t addrs = 0x335255c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action* (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_onGUIHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334c0e8;
+  constexpr static std::size_t addrs = 0x334f0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::System::Action*)>(
     &::UnityEngine::UIElements::IMGUIContainer::set_onGUIHandler)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x334c0f0;
+  constexpr static std::size_t addrs = 0x334f0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ObjectGUIState* (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_guiState)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x334b0a4;
+  constexpr static std::size_t addrs = 0x334e0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_lastWorldClip)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x334c148;
+  constexpr static std::size_t addrs = 0x334f144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::IMGUIContainer::set_lastWorldClip)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x334c15c;
+  constexpr static std::size_t addrs = 0x334f158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_cullingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334c170;
+  constexpr static std::size_t addrs = 0x334f16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__GUILayoutUtility__LayoutCache* (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_cache)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x334c178;
+  constexpr static std::size_t addrs = 0x334f174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(), "get_cache",
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_layoutMeasuredWidth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x334c1e8;
+  constexpr static std::size_t addrs = 0x334f1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_layoutMeasuredHeight)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x334c210;
+  constexpr static std::size_t addrs = 0x334f20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ContextType (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_contextType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334c238;
+  constexpr static std::size_t addrs = 0x334f234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::IMGUIContainer::set_contextType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334c240;
+  constexpr static std::size_t addrs = 0x334f23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_focusOnlyIfHasFocusableControls)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334c248;
+  constexpr static std::size_t addrs = 0x334f244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_canGrabFocus)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x334c250;
+  constexpr static std::size_t addrs = 0x334f24c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334c63c;
+  constexpr static std::size_t addrs = 0x334f638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(), ".ctor",
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::System::Action*)>(
     &::UnityEngine::UIElements::IMGUIContainer::_ctor)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x334c644;
+  constexpr static std::size_t addrs = 0x334f640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::MeshGenerationContext*)>(
     &::UnityEngine::UIElements::IMGUIContainer::OnGenerateVisualContent)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x334c87c;
+  constexpr static std::size_t addrs = 0x334f878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::SaveGlobals)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x334c9a8;
+  constexpr static std::size_t addrs = 0x334f9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(), "SaveGlobals",
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::RestoreGlobals)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x334cab8;
+  constexpr static std::size_t addrs = 0x334fab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(
     ::UnityEngine::Event*, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect, bool, ::UnityEngine::Rect, ::System::Action*, bool)>(&::UnityEngine::UIElements::IMGUIContainer::DoOnGUI)> {
   constexpr static std::size_t size = 0xd1c;
-  constexpr static std::size_t addrs = 0x334cbd0;
+  constexpr static std::size_t addrs = 0x334fbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::MarkDirtyLayout)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x334a1e0;
+  constexpr static std::size_t addrs = 0x334d1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::HandleEvent)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x334d8ec;
+  constexpr static std::size_t addrs = 0x33508e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::DoIMGUIRepaint)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x334dc18;
+  constexpr static std::size_t addrs = 0x3350c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*, bool, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::SendEventToIMGUI)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x334d97c;
+  constexpr static std::size_t addrs = 0x3350978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*, bool, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::SendEventToIMGUIRaw)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x334e2a0;
+  constexpr static std::size_t addrs = 0x335129c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::VerifyBounds)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x334e3a0;
+  constexpr static std::size_t addrs = 0x335139c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::IsContainerCapturingTheMouse)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x334e440;
+  constexpr static std::size_t addrs = 0x335143c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::IsLocalEvent)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x334e554;
+  constexpr static std::size_t addrs = 0x3351550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::IsEventInsideLocalWindow)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x334e758;
+  constexpr static std::size_t addrs = 0x3351754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -500,7 +500,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::IMGUIContainer::IsDockAreaMouseUp)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x334e8d8;
+  constexpr static std::size_t addrs = 0x33518d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::Event*, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::HandleIMGUIEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x334e430;
+  constexpr static std::size_t addrs = 0x335142c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::Event*, ::System::Action*, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::HandleIMGUIEvent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x334ea68;
+  constexpr static std::size_t addrs = 0x3351a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(
     ::UnityEngine::Event*, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect, ::System::Action*, bool)>(&::UnityEngine::UIElements::IMGUIContainer::HandleIMGUIEvent)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x334dfa8;
+  constexpr static std::size_t addrs = 0x3350fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::ExecuteDefaultAction)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x334ecf8;
+  constexpr static std::size_t addrs = 0x3351cf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::SetFoldoutDepthClass)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x334efe0;
+  constexpr static std::size_t addrs = 0x3351fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::IMGUIContainer::*)(
     float_t, ::UnityEngine::UIElements::__VisualElement__MeasureMode, float_t, ::UnityEngine::UIElements::__VisualElement__MeasureMode)>(&::UnityEngine::UIElements::IMGUIContainer::DoMeasure)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x334f22c;
+  constexpr static std::size_t addrs = 0x3352228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::GetCurrentClipRect)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x334e9fc;
+  constexpr static std::size_t addrs = 0x33519f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::IMGUIContainer*, ::UnityEngine::Event*, ByRef<::UnityEngine::Matrix4x4>,
                                                                                            ByRef<::UnityEngine::Rect>)>(&::UnityEngine::UIElements::IMGUIContainer::GetCurrentTransformAndClip)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x334eb34;
+  constexpr static std::size_t addrs = 0x3351b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -640,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x334f484;
+  constexpr static std::size_t addrs = 0x3352480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(), "Dispose",
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(bool)>(&::UnityEngine::UIElements::IMGUIContainer::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x334f4f4;
+  constexpr static std::size_t addrs = 0x33524f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::_DoOnGUI_b__56_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x334f50c;
+  constexpr static std::size_t addrs = 0x3352508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIContainer*>::get(),

@@ -39,16 +39,16 @@ public:
 
   constexpr void __cordl_internal_set__ex(::Newtonsoft::Json::Schema::JsonSchemaException* value);
 
-  /// @brief Method .ctor, addr 0x295321c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2956218, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaException* ex);
 
-  /// @brief Method get_Exception, addr 0x29532ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x29562a8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaException* get_Exception();
 
-  /// @brief Method get_Message, addr 0x2947ff4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x294aff0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Path, addr 0x29532b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x29562b0, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:

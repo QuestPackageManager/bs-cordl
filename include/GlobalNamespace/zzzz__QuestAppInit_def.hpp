@@ -40,21 +40,21 @@ public:
   /// @brief Field _mainSystemInit, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2505128, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x250d124, size 0x4, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method ApplyDeviceSettings, addr 0x2505490, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ApplyDeviceSettings, addr 0x250d48c, size 0x254, virtual false, abstract: false, final false
   inline void ApplyDeviceSettings();
 
-  /// @brief Method InstallBindings, addr 0x2505260, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x250d25c, size 0x230, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::QuestAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x250512c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x250d128, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x25051c8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x250d1c4, size 0x98, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
 
-  /// @brief Method .ctor, addr 0x25056e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250d6e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

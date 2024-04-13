@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataSet*, bool, bool)>(
     &::System::Data::XmlDataLoader::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2bf9840;
+  constexpr static std::size_t addrs = 0x2bfb83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataSet*, bool, ::System::Xml::XmlElement*, bool)>(
     &::System::Data::XmlDataLoader::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2bf98dc;
+  constexpr static std::size_t addrs = 0x2bfb8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*, bool, bool)>(
     &::System::Data::XmlDataLoader::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2bf99b4;
+  constexpr static std::size_t addrs = 0x2bfb9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*, bool, ::System::Xml::XmlElement*, bool)>(
     &::System::Data::XmlDataLoader::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2bf9a5c;
+  constexpr static std::size_t addrs = 0x2bfba58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)()>(&::System::Data::XmlDataLoader::get_FromInference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bf9b40;
+  constexpr static std::size_t addrs = 0x2bfbb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlDataLoader*>::get(), "get_FromInference",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(bool)>(&::System::Data::XmlDataLoader::set_FromInference)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2bf9b48;
+  constexpr static std::size_t addrs = 0x2bfbb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlNode*)>(
     &::System::Data::XmlDataLoader::AttachRows)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2bf9b54;
+  constexpr static std::size_t addrs = 0x2bfbb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(
     &::System::Data::XmlDataLoader::CountNonNSAttributes)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2bf9d48;
+  constexpr static std::size_t addrs = 0x2bfbd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(
     &::System::Data::XmlDataLoader::GetValueForTextOnlyColums)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2bf9ec8;
+  constexpr static std::size_t addrs = 0x2bfbec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XmlDataLoader::*)(ByRef<::System::Xml::XmlNode*>)>(
     &::System::Data::XmlDataLoader::GetInitialTextFromNodes)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2bfa0e4;
+  constexpr static std::size_t addrs = 0x2bfc0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*)>(
     &::System::Data::XmlDataLoader::GetTextOnlyColumn)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2bfa2b8;
+  constexpr static std::size_t addrs = 0x2bfc2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (::System::Data::XmlDataLoader::*)(::System::Xml::XmlElement*)>(
     &::System::Data::XmlDataLoader::GetRowFromElement)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2bf9cb0;
+  constexpr static std::size_t addrs = 0x2bfbcac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlElement*)>(
     &::System::Data::XmlDataLoader::FColumnElement)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2bfa378;
+  constexpr static std::size_t addrs = 0x2bfc374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)(::StringW)>(&::System::Data::XmlDataLoader::FExcludedNamespace)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2bf9e3c;
+  constexpr static std::size_t addrs = 0x2bfbe38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(&::System::Data::XmlDataLoader::FIgnoreNamespace)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2bfa460;
+  constexpr static std::size_t addrs = 0x2bfc45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlReader*)>(
     &::System::Data::XmlDataLoader::FIgnoreNamespace)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2bfa724;
+  constexpr static std::size_t addrs = 0x2bfc720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNodeType)>(
     &::System::Data::XmlDataLoader::IsTextLikeNode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2bfa090;
+  constexpr static std::size_t addrs = 0x2bfc08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Data::DataColumn*)>(&::System::Data::XmlDataLoader::IsTextOnly)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2bfa34c;
+  constexpr static std::size_t addrs = 0x2bfc348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Xml::XmlDocument*)>(&::System::Data::XmlDataLoader::LoadData)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x2bfa7ac;
+  constexpr static std::size_t addrs = 0x2bfc7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlElement*)>(
     &::System::Data::XmlDataLoader::LoadRowData)> {
   constexpr static std::size_t size = 0xc80;
-  constexpr static std::size_t addrs = 0x2bfabf0;
+  constexpr static std::size_t addrs = 0x2bfcbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlNode*)>(
     &::System::Data::XmlDataLoader::LoadRows)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x2bfb870;
+  constexpr static std::size_t addrs = 0x2bfd86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::StringW)>(
     &::System::Data::XmlDataLoader::SetRowValueFromXmlText)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2bfbbb0;
+  constexpr static std::size_t addrs = 0x2bfdbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)()>(&::System::Data::XmlDataLoader::InitNameTable)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x2bfbc20;
+  constexpr static std::size_t addrs = 0x2bfdc1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlDataLoader*>::get(), "InitNameTable",
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Xml::XmlReader*)>(&::System::Data::XmlDataLoader::LoadData)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x2bfbe9c;
+  constexpr static std::size_t addrs = 0x2bfde98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*)>(
     &::System::Data::XmlDataLoader::LoadTopMostTable)> {
   constexpr static std::size_t size = 0x944;
-  constexpr static std::size_t addrs = 0x2bfc21c;
+  constexpr static std::size_t addrs = 0x2bfe218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*, bool)>(
     &::System::Data::XmlDataLoader::LoadTable)> {
   constexpr static std::size_t size = 0xd14;
-  constexpr static std::size_t addrs = 0x2bfce34;
+  constexpr static std::size_t addrs = 0x2bfee30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataColumn*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Data::XmlDataLoader::LoadColumn)> {
   constexpr static std::size_t size = 0x918;
-  constexpr static std::size_t addrs = 0x2bfdc78;
+  constexpr static std::size_t addrs = 0x2bffc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlDataLoader::*)()>(&::System::Data::XmlDataLoader::ProcessXsdSchema)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2bfcc20;
+  constexpr static std::size_t addrs = 0x2bfec1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlDataLoader*>::get(), "ProcessXsdSchema",

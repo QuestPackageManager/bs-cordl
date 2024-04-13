@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_MicEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x29ddc0c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dec08, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

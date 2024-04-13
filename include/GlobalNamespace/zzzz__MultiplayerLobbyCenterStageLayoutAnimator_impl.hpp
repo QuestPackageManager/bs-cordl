@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StartCountdown)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x252ba7c;
+  constexpr static std::size_t addrs = 0x2534a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(bool)>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StopCountdown)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x252bc3c;
+  constexpr static std::size_t addrs = 0x2534c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::Move)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x252bb00;
+  constexpr static std::size_t addrs = 0x2534afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x252bcdc;
+  constexpr static std::size_t addrs = 0x2534cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::_Move_b__7_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x252bce4;
+  constexpr static std::size_t addrs = 0x2534ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

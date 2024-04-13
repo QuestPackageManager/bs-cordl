@@ -45,12 +45,12 @@ public:
   /// @brief Field _spectrogramDataID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__spectrogramDataID, put = setStaticF__spectrogramDataID)) int32_t _spectrogramDataID;
 
-  /// @brief Method Awake, addr 0x25d1340, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x25d833c, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::SpectrogramRow* New_ctor();
 
-  /// @brief Method Update, addr 0x25d13e8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x25d83e4, size 0x120, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__dataIndex() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  /// @brief Method .ctor, addr 0x25d1508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d8504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();

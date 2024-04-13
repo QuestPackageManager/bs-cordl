@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsInstaller::*)()>(
     &::GlobalNamespace::LocalLeaderboardsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2500bbc;
+  constexpr static std::size_t addrs = 0x2508bb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsInstaller::*)()>(&::GlobalNamespace::LocalLeaderboardsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2500c6c;
+  constexpr static std::size_t addrs = 0x2508c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsInstaller*>::get(), ".ctor",

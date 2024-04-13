@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::get_color)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23f6f70;
+  constexpr static std::size_t addrs = 0x23fef6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MaterialPropertyBlockController> (
     ::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(&::GlobalNamespace::MaterialPropertyBlockColorSetter::get_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f6f9c;
+  constexpr static std::size_t addrs = 0x23fef98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)(::GlobalNamespace::MaterialPropertyBlockController*)>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::set_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f6fa4;
+  constexpr static std::size_t addrs = 0x23fefa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::Awake)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23f6fac;
+  constexpr static std::size_t addrs = 0x23fefa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::InitIfNeeded)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23f6fdc;
+  constexpr static std::size_t addrs = 0x23fefd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::SetColor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23f700c;
+  constexpr static std::size_t addrs = 0x23ff008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::OnValidate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23f70b8;
+  constexpr static std::size_t addrs = 0x23ff0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::AddNecessaryComponents)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23f70f0;
+  constexpr static std::size_t addrs = 0x23ff0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23f71e0;
+  constexpr static std::size_t addrs = 0x23ff1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),

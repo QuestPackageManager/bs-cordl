@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MaterialPropertyBlockController> (::GlobalNamespace::MaterialPropertyBlockAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::get_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f6b1c;
+  constexpr static std::size_t addrs = 0x23feb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockAnimator::*)(::GlobalNamespace::MaterialPropertyBlockController*)>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::set_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23f6b24;
+  constexpr static std::size_t addrs = 0x23feb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::SetProperty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23f6ba0;
+  constexpr static std::size_t addrs = 0x23feb9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x23f6ba4;
+  constexpr static std::size_t addrs = 0x23feba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockAnimator*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::Update)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23f6c64;
+  constexpr static std::size_t addrs = 0x23fec60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockAnimator*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::LazyInit)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23f6c34;
+  constexpr static std::size_t addrs = 0x23fec30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockAnimator*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::RefreshProperty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23f6e7c;
+  constexpr static std::size_t addrs = 0x23fee78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockAnimator*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f6e9c;
+  constexpr static std::size_t addrs = 0x23fee98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockAnimator*>::get(),

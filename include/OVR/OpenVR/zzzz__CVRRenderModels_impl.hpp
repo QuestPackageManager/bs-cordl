@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2aca5f8;
+  constexpr static std::size_t addrs = 0x2acc5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ByRef<::OVR::OpenVR::VRControllerState_t_Packed>, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(
     &::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2aca6d0;
+  constexpr static std::size_t addrs = 0x2acc6cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                    ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked::BeginInvoke)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2aca6e4;
+  constexpr static std::size_t addrs = 0x2acc6e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::OVR::OpenVR::VRControllerState_t_Packed>, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2aca7e4;
+  constexpr static std::size_t addrs = 0x2acc7e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRRenderModels::*)(void*)>(&::OVR::OpenVR::CVRRenderModels::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2aca0c4;
+  constexpr static std::size_t addrs = 0x2acc0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::CVRRenderModels::*)(::StringW, ByRef<void*>)>(
     &::OVR::OpenVR::CVRRenderModels::LoadRenderModel_Async)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca1d8;
+  constexpr static std::size_t addrs = 0x2acc1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRRenderModels::*)(void*)>(&::OVR::OpenVR::CVRRenderModels::FreeRenderModel)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca1fc;
+  constexpr static std::size_t addrs = 0x2acc1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::CVRRenderModels::*)(int32_t, ByRef<void*>)>(
     &::OVR::OpenVR::CVRRenderModels::LoadTexture_Async)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca220;
+  constexpr static std::size_t addrs = 0x2acc21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRRenderModels::*)(void*)>(&::OVR::OpenVR::CVRRenderModels::FreeTexture)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca244;
+  constexpr static std::size_t addrs = 0x2acc240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::CVRRenderModels::*)(int32_t, void*, ByRef<void*>)>(
     &::OVR::OpenVR::CVRRenderModels::LoadTextureD3D11_Async)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca268;
+  constexpr static std::size_t addrs = 0x2acc264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::CVRRenderModels::*)(int32_t, void*)>(
     &::OVR::OpenVR::CVRRenderModels::LoadIntoTextureD3D11_Async)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca28c;
+  constexpr static std::size_t addrs = 0x2acc288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRRenderModels::*)(void*)>(&::OVR::OpenVR::CVRRenderModels::FreeTextureD3D11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca2b0;
+  constexpr static std::size_t addrs = 0x2acc2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRRenderModels::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRRenderModels::GetRenderModelName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca2d4;
+  constexpr static std::size_t addrs = 0x2acc2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRRenderModels::*)()>(&::OVR::OpenVR::CVRRenderModels::GetRenderModelCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca2f8;
+  constexpr static std::size_t addrs = 0x2acc2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRRenderModels*>::get(), "GetRenderModelCount",
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRRenderModels::*)(::StringW)>(&::OVR::OpenVR::CVRRenderModels::GetComponentCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca31c;
+  constexpr static std::size_t addrs = 0x2acc318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRRenderModels::*)(::StringW, uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRRenderModels::GetComponentName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca340;
+  constexpr static std::size_t addrs = 0x2acc33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::CVRRenderModels::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::CVRRenderModels::GetComponentButtonMask)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca364;
+  constexpr static std::size_t addrs = 0x2acc360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRRenderModels::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRRenderModels::GetComponentRenderModelName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca388;
+  constexpr static std::size_t addrs = 0x2acc384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -366,7 +366,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::OVR::OpenVR::CVRRenderModels::*)(::StringW, ::StringW, uint64_t, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(
         &::OVR::OpenVR::CVRRenderModels::GetComponentStateForDevicePath)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca3ac;
+  constexpr static std::size_t addrs = 0x2acc3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ByRef<::OVR::OpenVR::VRControllerState_t>, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(
     &::OVR::OpenVR::CVRRenderModels::GetComponentState)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2aca3d0;
+  constexpr static std::size_t addrs = 0x2acc3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::CVRRenderModels::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::CVRRenderModels::RenderModelHasComponent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca508;
+  constexpr static std::size_t addrs = 0x2acc504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRRenderModels::*)(
     ::StringW, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::CVRRenderModels::GetRenderModelThumbnailURL)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca52c;
+  constexpr static std::size_t addrs = 0x2acc528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRRenderModels::*)(
     ::StringW, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::CVRRenderModels::GetRenderModelOriginalPath)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aca550;
+  constexpr static std::size_t addrs = 0x2acc54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OVR::OpenVR::CVRRenderModels::*)(::OVR::OpenVR::EVRRenderModelError)>(
     &::OVR::OpenVR::CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2aca574;
+  constexpr static std::size_t addrs = 0x2acc570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

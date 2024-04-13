@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64800;
+  constexpr static std::size_t addrs = 0x2f697fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::WindowsMR::Input::HololensHand*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64808;
+  constexpr static std::size_t addrs = 0x2f69804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_airTap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64810;
+  constexpr static std::size_t addrs = 0x2f6980c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::WindowsMR::Input::HololensHand*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_airTap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64818;
+  constexpr static std::size_t addrs = 0x2f69814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_sourceLossRisk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64820;
+  constexpr static std::size_t addrs = 0x2f6981c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::WindowsMR::Input::HololensHand*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_sourceLossRisk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64828;
+  constexpr static std::size_t addrs = 0x2f69824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_sourceLossMitigationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64830;
+  constexpr static std::size_t addrs = 0x2f6982c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_sourceLossMitigationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f64838;
+  constexpr static std::size_t addrs = 0x2f69834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::FinishSetup)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2f64840;
+  constexpr static std::size_t addrs = 0x2f6983c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f6496c;
+  constexpr static std::size_t addrs = 0x2f69968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::WindowsMR::Input::HololensHand*>::get(),

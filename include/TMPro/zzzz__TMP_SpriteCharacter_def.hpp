@@ -56,25 +56,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x316ff6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3173f68, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x31701e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31741e0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor, addr 0x3170298, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3174294, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x3170238, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3174234, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method get_hashCode, addr 0x31701d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x31741d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_name, addr 0x3170160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x317415c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x316ff8c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x3173f88, size 0x78, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:

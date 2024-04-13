@@ -50,56 +50,56 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*() noexcept;
 
-  /// @brief Method BakeGameObjectComponents, addr 0x2439088, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method BakeGameObjectComponents, addr 0x2441084, size 0x128, virtual false, abstract: false, final false
   static inline void BakeGameObjectComponents(::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, ::StringW outputPath, bool bIsInstancer);
 
-  /// @brief Method ClearGeneratedMaterialReferences, addr 0x24386f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ClearGeneratedMaterialReferences, addr 0x24406f4, size 0x18, virtual false, abstract: false, final false
   static inline void ClearGeneratedMaterialReferences(::HoudiniEngineUnity::HEU_GeneratedOutputData* generatedOutputData);
 
-  /// @brief Method ClearMaterialsNoLongerUsed, addr 0x2438c88, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ClearMaterialsNoLongerUsed, addr 0x2440c84, size 0x114, virtual false, abstract: false, final false
   static inline void ClearMaterialsNoLongerUsed(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materialsToCheck,
                                                 ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materialsInUse);
 
-  /// @brief Method CopyMaterialOverrides, addr 0x2438d9c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method CopyMaterialOverrides, addr 0x2440d98, size 0x290, virtual false, abstract: false, final false
   static inline void CopyMaterialOverrides(::HoudiniEngineUnity::HEU_GeneratedOutputData* sourceOutputData, ::HoudiniEngineUnity::HEU_GeneratedOutputData* destOutputData);
 
-  /// @brief Method DestroyAllGeneratedColliders, addr 0x2438710, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllGeneratedColliders, addr 0x244070c, size 0x238, virtual false, abstract: false, final false
   static inline void DestroyAllGeneratedColliders(::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
 
-  /// @brief Method DestroyGeneratedOutput, addr 0x2438948, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method DestroyGeneratedOutput, addr 0x2440944, size 0x180, virtual false, abstract: false, final false
   static inline void DestroyGeneratedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput);
 
-  /// @brief Method DestroyGeneratedOutputChildren, addr 0x2438ac8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method DestroyGeneratedOutputChildren, addr 0x2440ac4, size 0x174, virtual false, abstract: false, final false
   static inline void DestroyGeneratedOutputChildren(::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput);
 
-  /// @brief Method DestroyGeneratedOutputData, addr 0x2438c3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DestroyGeneratedOutputData, addr 0x2440c38, size 0x4c, virtual false, abstract: false, final false
   static inline void DestroyGeneratedOutputData(::HoudiniEngineUnity::HEU_GeneratedOutputData* generatedOutputData, bool bDontDeletePersistantResources);
 
-  /// @brief Method GetGeneratedMaterialsForGameObject, addr 0x24381f8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetGeneratedMaterialsForGameObject, addr 0x24401f4, size 0x1ec, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetGeneratedMaterialsForGameObject(::HoudiniEngineUnity::HEU_GeneratedOutput* output,
                                                                                                                                             ::UnityEngine::GameObject* inGameObject);
 
-  /// @brief Method HasLODGroup, addr 0x24380f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HasLODGroup, addr 0x24400f4, size 0x54, virtual false, abstract: false, final false
   static inline bool HasLODGroup(::HoudiniEngineUnity::HEU_GeneratedOutput* output);
 
-  /// @brief Method IsEquivalentTo, addr 0x24391b0, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x24411ac, size 0x1a8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutput* other);
 
-  /// @brief Method IsOutputDataUsingMaterial, addr 0x2438544, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method IsOutputDataUsingMaterial, addr 0x2440540, size 0x1b4, virtual false, abstract: false, final false
   static inline bool IsOutputDataUsingMaterial(::UnityEngine::Material* checkMaterial, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
 
-  /// @brief Method IsOutputUsingMaterial, addr 0x24383e4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IsOutputUsingMaterial, addr 0x24403e0, size 0x160, virtual false, abstract: false, final false
   static inline bool IsOutputUsingMaterial(::UnityEngine::Material* checkMaterial, ::HoudiniEngineUnity::HEU_GeneratedOutput* output);
 
   static inline ::HoudiniEngineUnity::HEU_GeneratedOutput* New_ctor();
 
-  /// @brief Method ResetMaterialOverrides, addr 0x2437f9c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ResetMaterialOverrides, addr 0x243ff98, size 0x15c, virtual false, abstract: false, final false
   static inline void ResetMaterialOverrides(::HoudiniEngineUnity::HEU_GeneratedOutput* output);
 
-  /// @brief Method ResetMaterialOverrides, addr 0x243814c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ResetMaterialOverrides, addr 0x2440148, size 0xac, virtual false, abstract: false, final false
   static inline void ResetMaterialOverrides(::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
 
-  /// @brief Method WriteOutputToAssetCache, addr 0x243902c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteOutputToAssetCache, addr 0x2441028, size 0x5c, virtual false, abstract: false, final false
   inline void WriteOutputToAssetCache(::UnityEngine::GameObject* parentObject, ::StringW outputPath, bool bIsInstancer);
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*& __cordl_internal_get__childOutputs();
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set_isInstancer(bool value);
 
-  /// @brief Method .ctor, addr 0x242fb80, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2437b7c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInstancer, addr 0x2437f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInstancer, addr 0x243ff84, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInstancer();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_GeneratedOutput__() noexcept;
 
-  /// @brief Method set_IsInstancer, addr 0x2437f90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInstancer, addr 0x243ff8c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInstancer(bool value);
 
 protected:

@@ -30,21 +30,21 @@ public:
   /// @brief Field _smoothCamera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera))::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x2623528, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x262a524, size 0x19c, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
-  /// @brief Method HandleDidActivate, addr 0x26236c8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x262a6c4, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x2623708, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x262a704, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26236c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x262a6c0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2623524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x262a520, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method .ctor, addr 0x262370c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262a708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

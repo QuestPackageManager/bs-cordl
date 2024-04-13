@@ -29,19 +29,19 @@ public:
 
   __declspec(property(get = get_Parameter))::System::Linq::Expressions::ParameterExpression* Parameter;
 
-  /// @brief Method Equals, addr 0x2b3d3d8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b3f3d4, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2b3d460, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b3f45c, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2b3d3bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3f3b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t localIndex, ::System::Linq::Expressions::ParameterExpression* parameter);
 
-  /// @brief Method get_Index, addr 0x2b3d3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x2b3f3c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Parameter, addr 0x2b3d3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameter, addr 0x2b3f3cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* get_Parameter();
 
   // Ctor Parameters []

@@ -33,16 +33,16 @@ public:
 
   constexpr void __cordl_internal_set__Required_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3406fe0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3409fdc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3407000, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3409ffc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool required);
 
-  /// @brief Method get_Required, addr 0x340702c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x340a028, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
-  /// @brief Method set_Required, addr 0x3407034, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x340a030, size 0xc, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
 protected:

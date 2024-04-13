@@ -38,25 +38,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>"
   constexpr operator ::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>*();
 
-  /// @brief Method Create, addr 0x2752144, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2758140, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform Create(::StringW osPlatform);
 
-  /// @brief Method Equals, addr 0x2752184, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2758180, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2752174, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2758170, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::StringW other);
 
-  /// @brief Method Equals, addr 0x2752164, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2758160, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::System::Runtime::InteropServices::OSPlatform other);
 
-  /// @brief Method GetHashCode, addr 0x2752204, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2758200, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x275221c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2758218, size 0x54, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2752088, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2758084, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW osPlatform);
 
   static inline ::System::Runtime::InteropServices::OSPlatform getStaticF__Linux_k__BackingField();
@@ -65,19 +65,19 @@ public:
 
   static inline ::System::Runtime::InteropServices::OSPlatform getStaticF__Windows_k__BackingField();
 
-  /// @brief Method get_Linux, addr 0x2751f80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Linux, addr 0x2757f7c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_Linux();
 
-  /// @brief Method get_OSX, addr 0x2751fd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OSX, addr 0x2757fd4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_OSX();
 
-  /// @brief Method get_Windows, addr 0x2752030, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Windows, addr 0x275802c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_Windows();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>"
   constexpr ::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>* i___System__IEquatable_1___System__Runtime__InteropServices__OSPlatform_();
 
-  /// @brief Method op_Equality, addr 0x2752270, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x275826c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Runtime::InteropServices::OSPlatform left, ::System::Runtime::InteropServices::OSPlatform right);
 
   static inline void setStaticF__Linux_k__BackingField(::System::Runtime::InteropServices::OSPlatform value);

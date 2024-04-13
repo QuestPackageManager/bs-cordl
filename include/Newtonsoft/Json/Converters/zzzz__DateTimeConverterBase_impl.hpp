@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::DateTimeConverterBase::CanConvert)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x2985200;
+  constexpr static std::size_t addrs = 0x29871fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)()>(
     &::Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2985374;
+  constexpr static std::size_t addrs = 0x2987370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),

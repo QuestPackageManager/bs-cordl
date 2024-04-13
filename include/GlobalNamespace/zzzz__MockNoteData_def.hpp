@@ -74,7 +74,7 @@ public:
 
   __declspec(property(get = get_time, put = set_time)) float_t time;
 
-  /// @brief Method Mirror, addr 0x265ebe0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x2665bdc, size 0x58, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
   static inline ::GlobalNamespace::MockNoteData* New_ctor();
@@ -121,49 +121,49 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x265ec38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2665c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorType, addr 0x265eba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x2665b9c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_cutDirection, addr 0x265ebb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x2665bac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_duration, addr 0x265ebd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2665bcc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_gameplayType, addr 0x265eb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayType, addr 0x2665b8c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method get_lineIndex, addr 0x265eb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x2665b7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_noteLineLayer, addr 0x265ebc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLineLayer, addr 0x2665bbc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
 
-  /// @brief Method get_time, addr 0x265eb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2665b6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method set_colorType, addr 0x265eba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorType, addr 0x2665ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
-  /// @brief Method set_cutDirection, addr 0x265ebb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cutDirection, addr 0x2665bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  /// @brief Method set_duration, addr 0x265ebd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x2665bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_gameplayType, addr 0x265eb98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayType, addr 0x2665b94, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
 
-  /// @brief Method set_lineIndex, addr 0x265eb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x2665b84, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_noteLineLayer, addr 0x265ebc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteLineLayer, addr 0x2665bc4, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_time, addr 0x265eb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x2665b74, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:

@@ -49,16 +49,16 @@ public:
   /// @brief Field _arg3, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__arg3, put = __cordl_internal_set__arg3))::System::Linq::Expressions::Expression* _arg3;
 
-  /// @brief Method GetExpression, addr 0x2afe3bc, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x2aff3b8, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x2afe480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x2aff47c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
   static inline ::System::Linq::Expressions::Block4* New_ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                               ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Rewrite, addr 0x2afe488, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x2aff484, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
@@ -86,11 +86,11 @@ public:
 
   constexpr void __cordl_internal_set__arg3(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2afe380, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aff37c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                     ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method get_ExpressionCount, addr 0x2afe478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x2aff474, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
 protected:

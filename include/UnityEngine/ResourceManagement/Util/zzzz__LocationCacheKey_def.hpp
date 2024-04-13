@@ -46,16 +46,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x30fafec, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3100fe8, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x30fb0ac, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31010a8, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x30fb050, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x310104c, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::LocationCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x30faf40, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3100f3c, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::LocationCacheKey* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x30f5528, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30fb524, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"

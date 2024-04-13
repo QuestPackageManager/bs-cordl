@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DefaultDispatchingStrategy::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::DefaultDispatchingStrategy::CanDispatchEvent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3398ec0;
+  constexpr static std::size_t addrs = 0x339bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultDispatchingStrategy::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::DefaultDispatchingStrategy::DispatchEvent)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3398f38;
+  constexpr static std::size_t addrs = 0x339bf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultDispatchingStrategy::*)()>(
     &::UnityEngine::UIElements::DefaultDispatchingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3399144;
+  constexpr static std::size_t addrs = 0x339c140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultDispatchingStrategy*>::get(),

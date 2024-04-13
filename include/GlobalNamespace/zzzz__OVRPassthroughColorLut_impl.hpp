@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRPassthroughColorLut__WriteColorsAsBytesJob::*)(int32_t)>(
     &::GlobalNamespace::__OVRPassthroughColorLut__WriteColorsAsBytesJob::Execute)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2a9ccc8;
+  constexpr static std::size_t addrs = 0x2a9fcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::*)()>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9d158;
+  constexpr static std::size_t addrs = 0x2aa0154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::*)()>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::get_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9d160;
+  constexpr static std::size_t addrs = 0x2aa015c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::*)()>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::get_Resolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9d168;
+  constexpr static std::size_t addrs = 0x2aa0164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::*)()>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::get_SlicesPerRow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9d170;
+  constexpr static std::size_t addrs = 0x2aa016c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::*)()>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::get_ChannelCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9d178;
+  constexpr static std::size_t addrs = 0x2aa0174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::*)()>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::get_FlipY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9d180;
+  constexpr static std::size_t addrs = 0x2aa017c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2a9d0a0;
+  constexpr static std::size_t addrs = 0x2aa009c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob::*)(int32_t)>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob::Execute)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2a9d0b8;
+  constexpr static std::size_t addrs = 0x2aa00b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture2D*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter::TextureToColorByteMap)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2a9c404;
+  constexpr static std::size_t addrs = 0x2a9f400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings, ::Unity::Collections::NativeArray_1<uint8_t>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter::MapColorValues)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2a9cefc;
+  constexpr static std::size_t addrs = 0x2a9fef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings (*)(
     ::UnityEngine::Texture2D*, int32_t, bool)>(&::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter::GetTextureSettings)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2a9cdf8;
+  constexpr static std::size_t addrs = 0x2a9fdf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t, ByRef<int32_t>, ByRef<int32_t>, ByRef<::StringW>)>(
     &::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter::TryGetTextureLayout)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2a9c7bc;
+  constexpr static std::size_t addrs = 0x2a9f7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::OVRPassthroughColorLut::*)()>(
     &::GlobalNamespace::OVRPassthroughColorLut::get_Resolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9b298;
+  constexpr static std::size_t addrs = 0x2a9e294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughColorLut*>::get(),
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(uint32_t)>(
     &::GlobalNamespace::OVRPassthroughColorLut::set_Resolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9b2a0;
+  constexpr static std::size_t addrs = 0x2a9e29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels (::GlobalNamespace::OVRPassthroughColorLut::*)()>(
     &::GlobalNamespace::OVRPassthroughColorLut::get_Channels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9b2a8;
+  constexpr static std::size_t addrs = 0x2a9e2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughColorLut*>::get(),
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels)>(
     &::GlobalNamespace::OVRPassthroughColorLut::set_Channels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9b2b0;
+  constexpr static std::size_t addrs = 0x2a9e2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPassthroughColorLut::*)()>(
     &::GlobalNamespace::OVRPassthroughColorLut::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a9b2b8;
+  constexpr static std::size_t addrs = 0x2a9e2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughColorLut*>::get(),
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(bool)>(
     &::GlobalNamespace::OVRPassthroughColorLut::set_IsInitialized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a9b2c0;
+  constexpr static std::size_t addrs = 0x2a9e2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(::UnityEngine::Texture2D*, bool)>(
     &::GlobalNamespace::OVRPassthroughColorLut::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2a9b2cc;
+  constexpr static std::size_t addrs = 0x2a9e2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels)>(&::GlobalNamespace::OVRPassthroughColorLut::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2a9b88c;
+  constexpr static std::size_t addrs = 0x2a9e888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels)>(&::GlobalNamespace::OVRPassthroughColorLut::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2a9b974;
+  constexpr static std::size_t addrs = 0x2a9e970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels)>(&::GlobalNamespace::OVRPassthroughColorLut::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2a9ba5c;
+  constexpr static std::size_t addrs = 0x2a9ea58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>)>(
     &::GlobalNamespace::OVRPassthroughColorLut::UpdateFrom)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2a9bc28;
+  constexpr static std::size_t addrs = 0x2a9ec24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>)>(&::GlobalNamespace::OVRPassthroughColorLut::UpdateFrom)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2a9bf28;
+  constexpr static std::size_t addrs = 0x2a9ef24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::OVRPassthroughColorLut::UpdateFrom)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2a9c164;
+  constexpr static std::size_t addrs = 0x2a9f160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(::UnityEngine::Texture2D*, bool)>(
     &::GlobalNamespace::OVRPassthroughColorLut::UpdateFrom)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2a9c230;
+  constexpr static std::size_t addrs = 0x2a9f22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)()>(&::GlobalNamespace::OVRPassthroughColorLut::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2a9c4b8;
+  constexpr static std::size_t addrs = 0x2a9f4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughColorLut*>::get(), "Dispose",
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Texture2D*, ByRef<::StringW>)>(
     &::GlobalNamespace::OVRPassthroughColorLut::IsTextureSupported)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2a9c610;
+  constexpr static std::size_t addrs = 0x2a9f60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(int32_t, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels)>(&::GlobalNamespace::OVRPassthroughColorLut::_ctor)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x2a9b4e0;
+  constexpr static std::size_t addrs = 0x2a9e4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPassthroughColorLut::*)(int32_t, int32_t)>(
     &::GlobalNamespace::OVRPassthroughColorLut::IsValidUpdateResolution)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2a9c2e8;
+  constexpr static std::size_t addrs = 0x2a9f2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -667,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels (*)(::UnityEngine::TextureFormat)>(
     &::GlobalNamespace::OVRPassthroughColorLut::GetChannelsForTextureFormat)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2a9b440;
+  constexpr static std::size_t addrs = 0x2a9e43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -682,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels)>(
     &::GlobalNamespace::OVRPassthroughColorLut::GetTextureSizeFromByteArray)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2a9bab8;
+  constexpr static std::size_t addrs = 0x2a9eab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -697,7 +697,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Texture2D*)>(&::GlobalNamespace::OVRPassthroughColorLut::GetTextureSize)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2a9b360;
+  constexpr static std::size_t addrs = 0x2a9e35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels)>(
     &::GlobalNamespace::OVRPassthroughColorLut::ChannelsToCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2a9cb70;
+  constexpr static std::size_t addrs = 0x2a9fb6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -726,7 +726,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, int32_t, ByRef<::StringW>)>(&::GlobalNamespace::OVRPassthroughColorLut::IsResolutionAccepted)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2a9caac;
+  constexpr static std::size_t addrs = 0x2a9faa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -741,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::GlobalNamespace::OVRPassthroughColorLut::IsPowerOfTwo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2a9cb80;
+  constexpr static std::size_t addrs = 0x2a9fb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -756,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(::GlobalNamespace::__OVRPlugin__PassthroughColorLutData)>(
     &::GlobalNamespace::OVRPassthroughColorLut::Create)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2a9b79c;
+  constexpr static std::size_t addrs = 0x2a9e798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -770,7 +770,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int32_t)>(&::GlobalNamespace::OVRPassthroughColorLut::GetResolutionFromSize)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2a9c9f8;
+  constexpr static std::size_t addrs = 0x2a9f9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__PassthroughColorLutData (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>)>(&::GlobalNamespace::OVRPassthroughColorLut::CreateLutData)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2a9cba0;
+  constexpr static std::size_t addrs = 0x2a9fb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -800,7 +800,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__PassthroughColorLutData (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::UnityEngine::Texture2D*, bool)>(&::GlobalNamespace::OVRPassthroughColorLut::CreateLutDataFromTexture)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a9b744;
+  constexpr static std::size_t addrs = 0x2a9e740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -816,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__PassthroughColorLutData (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>)>(&::GlobalNamespace::OVRPassthroughColorLut::CreateLutDataFromArray)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2a9b928;
+  constexpr static std::size_t addrs = 0x2a9e924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -831,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__PassthroughColorLutData (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>)>(&::GlobalNamespace::OVRPassthroughColorLut::CreateLutDataFromArray)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2a9ba10;
+  constexpr static std::size_t addrs = 0x2a9ea0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -846,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__PassthroughColorLutData (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::OVRPassthroughColorLut::CreateLutDataFromArray)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2a9bbd0;
+  constexpr static std::size_t addrs = 0x2a9ebcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::OVRPassthroughColorLut::WriteColorsAsBytes)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x2a9bce8;
+  constexpr static std::size_t addrs = 0x2a9ece4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)(
     ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::OVRPassthroughColorLut::WriteColorsAsBytes)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2a9bfe8;
+  constexpr static std::size_t addrs = 0x2a9efe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)()>(&::GlobalNamespace::OVRPassthroughColorLut::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2a9cc34;
+  constexpr static std::size_t addrs = 0x2a9fc30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -906,7 +906,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughColorLut::*)()>(&::GlobalNamespace::OVRPassthroughColorLut::Destroy)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2a9c4fc;
+  constexpr static std::size_t addrs = 0x2a9f4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughColorLut*>::get(), "Destroy",

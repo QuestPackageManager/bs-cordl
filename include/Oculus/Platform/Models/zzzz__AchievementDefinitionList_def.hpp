@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x29da0f0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29db0ec, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

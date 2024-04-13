@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedText::*)(::StringW)>(&::GlobalNamespace::LevelFailedText::OverrideText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25b44ec;
+  constexpr static std::size_t addrs = 0x25bc4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedText::*)()>(&::GlobalNamespace::LevelFailedText::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b4538;
+  constexpr static std::size_t addrs = 0x25bc534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedText*>::get(), ".ctor",

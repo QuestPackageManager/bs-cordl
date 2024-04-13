@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IsUnmanagedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29e4394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e5390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

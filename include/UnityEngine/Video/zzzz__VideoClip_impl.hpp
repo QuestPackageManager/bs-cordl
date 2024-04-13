@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33fc18c;
+  constexpr static std::size_t addrs = 0x33fe188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), ".ctor",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_originalPath)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc1e4;
+  constexpr static std::size_t addrs = 0x33fe1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_originalPath",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_frameCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc220;
+  constexpr static std::size_t addrs = 0x33fe21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_frameCount",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_frameRate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc25c;
+  constexpr static std::size_t addrs = 0x33fe258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_frameRate",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_length)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc298;
+  constexpr static std::size_t addrs = 0x33fe294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_length",
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_width)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc2d4;
+  constexpr static std::size_t addrs = 0x33fe2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_width",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_height)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc310;
+  constexpr static std::size_t addrs = 0x33fe30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_height",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_pixelAspectRatioNumerator)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc34c;
+  constexpr static std::size_t addrs = 0x33fe348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(),
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_pixelAspectRatioDenominator)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc388;
+  constexpr static std::size_t addrs = 0x33fe384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_sRGB)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc3c4;
+  constexpr static std::size_t addrs = 0x33fe3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_sRGB",
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::UnityEngine::Video::VideoClip::*)()>(&::UnityEngine::Video::VideoClip::get_audioTrackCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33fc400;
+  constexpr static std::size_t addrs = 0x33fe3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Video::VideoClip*>::get(), "get_audioTrackCount",
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::UnityEngine::Video::VideoClip::*)(uint16_t)>(&::UnityEngine::Video::VideoClip::GetAudioChannelCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33fc43c;
+  constexpr static std::size_t addrs = 0x33fe438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::Video::VideoClip::*)(uint16_t)>(&::UnityEngine::Video::VideoClip::GetAudioSampleRate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33fc480;
+  constexpr static std::size_t addrs = 0x33fe47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Video::VideoClip::*)(uint16_t)>(&::UnityEngine::Video::VideoClip::GetAudioLanguage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33fc4c4;
+  constexpr static std::size_t addrs = 0x33fe4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

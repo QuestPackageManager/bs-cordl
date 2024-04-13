@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(
     &::GlobalNamespace::KawaseBloomMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad5860;
+  constexpr static std::size_t addrs = 0x2ad785c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ad5868;
+  constexpr static std::size_t addrs = 0x2ad7864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2ad5940;
+  constexpr static std::size_t addrs = 0x2ad793c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBloomMainEffectSO*>::get(), "OnDisable",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(
     &::GlobalNamespace::KawaseBloomMainEffectSO::LazyInitializeMaterials)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ad5884;
+  constexpr static std::size_t addrs = 0x2ad7880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBloomMainEffectSO*>::get(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::PreRender)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ad5960;
+  constexpr static std::size_t addrs = 0x2ad795c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t)>(&::GlobalNamespace::KawaseBloomMainEffectSO::Render)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2ad5a4c;
+  constexpr static std::size_t addrs = 0x2ad7a48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&::GlobalNamespace::KawaseBloomMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2ad5c5c;
+  constexpr static std::size_t addrs = 0x2ad7c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBloomMainEffectSO*>::get(), ".ctor",

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::MouseEventDispatchingStrategy::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::MouseEventDispatchingStrategy::CanDispatchEvent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x339e3ec;
+  constexpr static std::size_t addrs = 0x33a13e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseEventDispatchingStrategy::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::MouseEventDispatchingStrategy::DispatchEvent)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x339e440;
+  constexpr static std::size_t addrs = 0x33a143c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::MouseEventDispatchingStrategy::SendEventToTarget)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x339e5e8;
+  constexpr static std::size_t addrs = 0x33a15e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::MouseEventDispatchingStrategy::SendEventToRegularTarget)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x339e624;
+  constexpr static std::size_t addrs = 0x33a1620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::MouseEventDispatchingStrategy::SendEventToIMGUIContainer)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x339e65c;
+  constexpr static std::size_t addrs = 0x33a1658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::MouseEventDispatchingStrategy::SetBestTargetForEvent)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x339e548;
+  constexpr static std::size_t addrs = 0x33a1544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ByRef<::UnityEngine::UIElements::VisualElement*>)>(
         &::UnityEngine::UIElements::MouseEventDispatchingStrategy::UpdateElementUnderMouse)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x339e87c;
+  constexpr static std::size_t addrs = 0x33a1878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::MouseEventDispatchingStrategy::IsDone)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x339e834;
+  constexpr static std::size_t addrs = 0x33a1830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseEventDispatchingStrategy::*)()>(
     &::UnityEngine::UIElements::MouseEventDispatchingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x339eb78;
+  constexpr static std::size_t addrs = 0x33a1b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEventDispatchingStrategy*>::get(),

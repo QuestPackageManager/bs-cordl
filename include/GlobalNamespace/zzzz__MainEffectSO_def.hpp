@@ -26,19 +26,19 @@ public:
 
   static inline ::GlobalNamespace::MainEffectSO* New_ctor();
 
-  /// @brief Method PostRender, addr 0x2ad6484, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x2ad8480, size 0x4, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x2ad647c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x2ad8478, size 0x4, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x2ad6480, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2ad847c, size 0x4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
-  /// @brief Method .ctor, addr 0x2ad5c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad7c80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x2ad6488, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x2ad8484, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:

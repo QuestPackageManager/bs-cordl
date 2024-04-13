@@ -43,21 +43,21 @@ public:
   /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject))::System::Object* s_InternalSyncObject;
 
-  /// @brief Method Fallback, addr 0x28b5e94, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x28b9e90, size 0x40, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x28b6014, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x28ba010, size 0x40, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x28b6070, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x28ba06c, size 0x8, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
   static inline ::System::Text::InternalDecoderBestFitFallbackBuffer* New_ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
 
-  /// @brief Method Reset, addr 0x28b6060, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x28ba05c, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method TryBestFit, addr 0x28b5ed4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method TryBestFit, addr 0x28b9ed0, size 0x140, virtual false, abstract: false, final false
   inline char16_t TryBestFit(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesCheck);
 
   constexpr char16_t const& __cordl_internal_get__cBestFit() const;
@@ -84,15 +84,15 @@ public:
 
   constexpr void __cordl_internal_set__oFallback(::System::Text::InternalDecoderBestFitFallback* value);
 
-  /// @brief Method .ctor, addr 0x28b5bf4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b9bf0, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_InternalSyncObject, addr 0x28b5df0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSyncObject, addr 0x28b9dec, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_InternalSyncObject();
 
-  /// @brief Method get_Remaining, addr 0x28b6054, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x28ba050, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
   static inline void setStaticF_s_InternalSyncObject(::System::Object* value);

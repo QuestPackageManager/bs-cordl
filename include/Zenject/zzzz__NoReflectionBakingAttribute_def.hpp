@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Zenject::NoReflectionBakingAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34078f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a8f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

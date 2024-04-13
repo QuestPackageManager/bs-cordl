@@ -41,7 +41,7 @@ public:
   __declspec(property(get = __cordl_internal_get_playersLayoutWasCalculatedEvent,
                       put = __cordl_internal_set_playersLayoutWasCalculatedEvent))::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* playersLayoutWasCalculatedEvent;
 
-  /// @brief Method CalculateLayout, addr 0x2609518, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x2610514, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int32_t activePlayersCount);
 
   static inline ::GlobalNamespace::MultiplayerLayoutProvider* New_ctor();
@@ -64,25 +64,25 @@ public:
 
   constexpr void __cordl_internal_set_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2609574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2610570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x25ff520, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x260651c, size 0xb0, virtual false, abstract: false, final false
   inline void add_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method get_activePlayerSpotsCount, addr 0x2609508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activePlayerSpotsCount, addr 0x2610504, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_activePlayerSpotsCount();
 
-  /// @brief Method get_layout, addr 0x26094f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x26104f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout get_layout();
 
-  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x25ff664, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x2606660, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method set_activePlayerSpotsCount, addr 0x2609510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activePlayerSpotsCount, addr 0x261050c, size 0x8, virtual false, abstract: false, final false
   inline void set_activePlayerSpotsCount(int32_t value);
 
-  /// @brief Method set_layout, addr 0x2609500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x26104fc, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::GlobalNamespace::MultiplayerPlayerLayout value);
 
 protected:

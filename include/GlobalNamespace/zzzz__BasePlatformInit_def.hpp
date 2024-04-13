@@ -61,10 +61,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2ad1fe0, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2ad3fdc, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2ad2264, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2ad4260, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -120,10 +120,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2ad2270, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2ad426c, size 0x220, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2ad2490, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2ad448c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -194,10 +194,10 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x2ad1e4c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2ad3e48, size 0x94, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x2ad1ee0, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x2ad3edc, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   /// @brief Method InitializeInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -217,10 +217,10 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x2ad1fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad3fd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x2ad1e38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x2ad3e34, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformInit"
@@ -229,7 +229,7 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method set_IsInitialized, addr 0x2ad1e40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x2ad3e3c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
 protected:

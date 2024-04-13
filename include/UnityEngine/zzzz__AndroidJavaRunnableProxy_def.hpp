@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_mRunnable(::UnityEngine::AndroidJavaRunnable* value);
 
-  /// @brief Method .ctor, addr 0x31af32c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b2328, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AndroidJavaRunnable* runnable);
 
-  /// @brief Method run, addr 0x31af428, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method run, addr 0x31b2424, size 0x24, virtual false, abstract: false, final false
   inline void run();
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::ComponentModel::RefreshProperties)>(
     &::System::ComponentModel::RefreshPropertiesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2e6abcc;
+  constexpr static std::size_t addrs = 0x2e6cbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::RefreshProperties (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(
     &::System::ComponentModel::RefreshPropertiesAttribute::get_RefreshProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e6abf4;
+  constexpr static std::size_t addrs = 0x2e6cbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::RefreshPropertiesAttribute::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2e6abfc;
+  constexpr static std::size_t addrs = 0x2e6cbf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(
     &::System::ComponentModel::RefreshPropertiesAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e6ac6c;
+  constexpr static std::size_t addrs = 0x2e6cc68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(
     &::System::ComponentModel::RefreshPropertiesAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2e6ac74;
+  constexpr static std::size_t addrs = 0x2e6cc70;
 
   inline static ::MethodInfo const* methodInfo() {
 

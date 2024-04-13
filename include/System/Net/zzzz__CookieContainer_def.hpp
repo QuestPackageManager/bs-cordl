@@ -64,38 +64,38 @@ public:
   /// @brief Field m_maxCookiesPerDomain, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_maxCookiesPerDomain, put = __cordl_internal_set_m_maxCookiesPerDomain)) int32_t m_maxCookiesPerDomain;
 
-  /// @brief Method Add, addr 0x2ee08b8, size 0x820, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2ee38b4, size 0x820, virtual false, abstract: false, final false
   inline void Add(::System::Net::Cookie* cookie, bool throwOnError);
 
-  /// @brief Method AddRemoveDomain, addr 0x2ee0790, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddRemoveDomain, addr 0x2ee378c, size 0x128, virtual false, abstract: false, final false
   inline void AddRemoveDomain(::StringW key, ::System::Net::PathList* value);
 
-  /// @brief Method AgeCookies, addr 0x2ee170c, size 0x153c, virtual false, abstract: false, final false
+  /// @brief Method AgeCookies, addr 0x2ee4708, size 0x153c, virtual false, abstract: false, final false
   inline bool AgeCookies(::StringW domain);
 
-  /// @brief Method BuildCookieCollectionFromDomainMatches, addr 0x2ee3c20, size 0x804, virtual false, abstract: false, final false
+  /// @brief Method BuildCookieCollectionFromDomainMatches, addr 0x2ee6c1c, size 0x804, virtual false, abstract: false, final false
   inline void BuildCookieCollectionFromDomainMatches(::System::Uri* uri, bool isSecure, int32_t port, ::System::Net::CookieCollection* cookies,
                                                      ::System::Collections::Generic::List_1<::StringW>* domainAttribute, bool matchOnlyPlainCookie);
 
-  /// @brief Method CookieCutter, addr 0x2ee30a0, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method CookieCutter, addr 0x2ee609c, size 0x6d4, virtual false, abstract: false, final false
   inline ::System::Net::CookieCollection* CookieCutter(::System::Uri* uri, ::StringW headerName, ::StringW setCookieHeader, bool isThrow);
 
-  /// @brief Method ExpireCollection, addr 0x2ee2c74, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ExpireCollection, addr 0x2ee5c70, size 0x16c, virtual false, abstract: false, final false
   inline int32_t ExpireCollection(::System::Net::CookieCollection* cc);
 
-  /// @brief Method GetCookieHeader, addr 0x2ee4654, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetCookieHeader, addr 0x2ee7650, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW GetCookieHeader(::System::Uri* uri);
 
-  /// @brief Method GetCookieHeader, addr 0x2ee4724, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method GetCookieHeader, addr 0x2ee7720, size 0x398, virtual false, abstract: false, final false
   inline ::StringW GetCookieHeader(::System::Uri* uri, ByRef<::StringW> optCookie2);
 
-  /// @brief Method InternalGetCookies, addr 0x2ee3774, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method InternalGetCookies, addr 0x2ee6770, size 0x4ac, virtual false, abstract: false, final false
   inline ::System::Net::CookieCollection* InternalGetCookies(::System::Uri* uri);
 
-  /// @brief Method IsLocalDomain, addr 0x2ee2e04, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method IsLocalDomain, addr 0x2ee5e00, size 0x29c, virtual false, abstract: false, final false
   inline bool IsLocalDomain(::StringW host);
 
-  /// @brief Method MergeUpdateCollections, addr 0x2ee4448, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method MergeUpdateCollections, addr 0x2ee7444, size 0x20c, virtual false, abstract: false, final false
   inline void MergeUpdateCollections(::System::Net::CookieCollection* destination, ::System::Net::CookieCollection* source, int32_t port, bool isSecure, bool isPlainOnly);
 
   static inline ::System::Net::CookieContainer* New_ctor();
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_m_maxCookiesPerDomain(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ee069c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee3698, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Net::HeaderVariantInfo, ::Array<::System::Net::HeaderVariantInfo>*> getStaticF_HeaderInfo();

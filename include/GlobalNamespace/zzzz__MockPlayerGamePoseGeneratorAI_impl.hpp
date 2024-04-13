@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::get_songTime)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x265f560;
+  constexpr static std::size_t addrs = 0x266655c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerGamePoseGeneratorAI*>::get(),
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, ::GlobalNamespace::IMockPlayerScoreCalculator*, bool)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::_ctor)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x265f628;
+  constexpr static std::size_t addrs = 0x2666624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::Dispose)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x265f8a0;
+  constexpr static std::size_t addrs = 0x266689c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(
     int64_t, ::GlobalNamespace::MockBeatmapData*, ::GlobalNamespace::GameplayModifiers*, ::System::Action*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorAI::Init)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x265fb08;
+  constexpr static std::size_t addrs = 0x2666b04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::Tick)> {
   constexpr static std::size_t size = 0x998;
-  constexpr static std::size_t addrs = 0x265ff00;
+  constexpr static std::size_t addrs = 0x2666efc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::GetCutDirection)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x2662178;
+  constexpr static std::size_t addrs = 0x2669174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(int32_t, ::GlobalNamespace::MockNoteData*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::GetNotePosition)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x266241c;
+  constexpr static std::size_t addrs = 0x2669418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorAI::Blerp)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2662484;
+  constexpr static std::size_t addrs = 0x2669480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>, ByRef<int32_t>, int32_t, float_t, ByRef<bool>)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes)> {
   constexpr static std::size_t size = 0xfe4;
-  constexpr static std::size_t addrs = 0x2660898;
+  constexpr static std::size_t addrs = 0x2667894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*>, ByRef<int32_t>, int32_t, ::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose, float_t)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x266187c;
+  constexpr static std::size_t addrs = 0x2668878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,7 +196,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<int32_t>, ByRef<int32_t>, ByRef<int32_t>, int32_t, int32_t, ::UnityEngine::Pose, ::UnityEngine::Pose, float_t, float_t, ::GlobalNamespace::MockNoteData*, ::GlobalNamespace::MockNoteData*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::UpdateScore)> {
   constexpr static std::size_t size = 0x628;
-  constexpr static std::size_t addrs = 0x2661b50;
+  constexpr static std::size_t addrs = 0x2668b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorAI::SimulateFail)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x266276c;
+  constexpr static std::size_t addrs = 0x2669768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorAI::HandleNoteWasSpawned)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x266292c;
+  constexpr static std::size_t addrs = 0x2669928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorAI::HandleObstacleWasSpawned)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2662b04;
+  constexpr static std::size_t addrs = 0x2669b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorAI::HandleSliderWasSpawned)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2662cdc;
+  constexpr static std::size_t addrs = 0x2669cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

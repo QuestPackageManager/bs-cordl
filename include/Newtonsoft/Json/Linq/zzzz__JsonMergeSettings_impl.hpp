@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(&::Newtonsoft::Json::Linq::JsonMergeSettings::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2966610;
+  constexpr static std::size_t addrs = 0x296860c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::MergeArrayHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeArrayHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2966630;
+  constexpr static std::size_t addrs = 0x296862c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeArrayHandling)>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeArrayHandling)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2966638;
+  constexpr static std::size_t addrs = 0x2968634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::MergeNullValueHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeNullValueHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x296669c;
+  constexpr static std::size_t addrs = 0x2968698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeNullValueHandling)>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeNullValueHandling)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x29666a4;
+  constexpr static std::size_t addrs = 0x29686a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparison (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::get_PropertyNameComparison)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2966708;
+  constexpr static std::size_t addrs = 0x2968704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::System::StringComparison)>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::set_PropertyNameComparison)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2966710;
+  constexpr static std::size_t addrs = 0x296870c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

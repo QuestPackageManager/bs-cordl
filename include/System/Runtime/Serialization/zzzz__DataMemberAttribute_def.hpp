@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_EmitDefaultValue, addr 0x2c85f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x2c88f00, size 0x8, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
-  /// @brief Method get_IsRequired, addr 0x2c85efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x2c88ef8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_Name, addr 0x2c85eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2c88ee8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x2c85ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x2c88ef0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:

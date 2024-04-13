@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithBlockedUserList::*)(void*)>(
     &::Oculus::Platform::MessageWithBlockedUserList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c56d0;
+  constexpr static std::size_t addrs = 0x29c76cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::BlockedUserList* (::Oculus::Platform::MessageWithBlockedUserList::*)()>(
     &::Oculus::Platform::MessageWithBlockedUserList::GetBlockedUserList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29c7d60;
+  constexpr static std::size_t addrs = 0x29c9d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::BlockedUserList* (::Oculus::Platform::MessageWithBlockedUserList::*)(void*)>(
     &::Oculus::Platform::MessageWithBlockedUserList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29c7d9c;
+  constexpr static std::size_t addrs = 0x29c9d98;
 
   inline static ::MethodInfo const* methodInfo() {
 

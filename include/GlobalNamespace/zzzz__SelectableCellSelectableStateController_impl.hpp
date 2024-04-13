@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(
     &::GlobalNamespace::SelectableCellSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2636780;
+  constexpr static std::size_t addrs = 0x263d77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(
     &::GlobalNamespace::SelectableCellSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2636950;
+  constexpr static std::size_t addrs = 0x263d94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(::HMUI::Interactable*, bool)>(
     &::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellInteractableDidChange)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2636aa4;
+  constexpr static std::size_t addrs = 0x263daa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(
     ::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType)>(&::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellHighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2636b2c;
+  constexpr static std::size_t addrs = 0x263db28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(
     ::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*)>(&::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2636b30;
+  constexpr static std::size_t addrs = 0x263db2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(
     ::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType)>(&::GlobalNamespace::SelectableCellSelectableStateController::ResolveState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26368e4;
+  constexpr static std::size_t addrs = 0x263d8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(
     &::GlobalNamespace::SelectableCellSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2636b34;
+  constexpr static std::size_t addrs = 0x263db30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_spawnPosition(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition value);
 
-  /// @brief Method .ctor, addr 0x25bc2c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c32c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition);
 
 protected:
@@ -164,12 +164,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x25bc1a4, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x25c31a0, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingScoreSpawner* New_ctor();
 
-  /// @brief Method SpawnFlyingScore, addr 0x25bbf20, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingScore, addr 0x25c2f1c, size 0x284, virtual false, abstract: false, final false
   inline void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
   constexpr ::GlobalNamespace::__FlyingScoreEffect__Pool*& __cordl_internal_get__flyingScoreEffectPool();
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__FlyingScoreSpawner__InitData* value);
 
-  /// @brief Method .ctor, addr 0x25bc2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c32bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"

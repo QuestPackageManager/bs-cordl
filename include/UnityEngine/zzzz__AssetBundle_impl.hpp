@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AssetBundle::*)()>(&::UnityEngine::AssetBundle::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x31c41b8;
+  constexpr static std::size_t addrs = 0x31c71b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleCreateRequest* (*)(::StringW, uint32_t, uint64_t)>(
     &::UnityEngine::AssetBundle::LoadFromFileAsync_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31c4210;
+  constexpr static std::size_t addrs = 0x31c720c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleCreateRequest* (*)(::StringW)>(&::UnityEngine::AssetBundle::LoadFromFileAsync)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31c4264;
+  constexpr static std::size_t addrs = 0x31c7260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleCreateRequest* (*)(::StringW, uint32_t)>(&::UnityEngine::AssetBundle::LoadFromFileAsync)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x31c42a8;
+  constexpr static std::size_t addrs = 0x31c72a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AssetBundle> (*)(::StringW, uint32_t, uint64_t)>(
     &::UnityEngine::AssetBundle::LoadFromFile_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31c42f0;
+  constexpr static std::size_t addrs = 0x31c72ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AssetBundle> (*)(::StringW)>(&::UnityEngine::AssetBundle::LoadFromFile)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31c4344;
+  constexpr static std::size_t addrs = 0x31c7340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::AssetBundle::*)(::StringW)>(&::UnityEngine::AssetBundle::LoadAsset)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x31c4388;
+  constexpr static std::size_t addrs = 0x31c7384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::AssetBundle::LoadAsset)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x31c4414;
+  constexpr static std::size_t addrs = 0x31c7410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::AssetBundle::LoadAsset_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31c4520;
+  constexpr static std::size_t addrs = 0x31c751c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (::UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::AssetBundle::LoadAssetAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x31c4574;
+  constexpr static std::size_t addrs = 0x31c7570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (::UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x31c46d4;
+  constexpr static std::size_t addrs = 0x31c76d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (::UnityEngine::AssetBundle::*)()>(
     &::UnityEngine::AssetBundle::LoadAllAssetsAsync)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x31c4834;
+  constexpr static std::size_t addrs = 0x31c7830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(), "LoadAllAssetsAsync",
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (::UnityEngine::AssetBundle::*)(::System::Type*)>(
     &::UnityEngine::AssetBundle::LoadAllAssetsAsync)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x31c48b8;
+  constexpr static std::size_t addrs = 0x31c78b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (::UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::AssetBundle::LoadAssetAsync_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31c4680;
+  constexpr static std::size_t addrs = 0x31c767c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AssetBundle::*)(bool)>(&::UnityEngine::AssetBundle::Unload)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31c4984;
+  constexpr static std::size_t addrs = 0x31c7980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::UnityEngine::AssetBundle::*)()>(
     &::UnityEngine::AssetBundle::GetAllAssetNames)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31c49c8;
+  constexpr static std::size_t addrs = 0x31c79c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(), "GetAllAssetNames",
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::UnityEngine::AssetBundle::*)()>(
     &::UnityEngine::AssetBundle::GetAllScenePaths)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31c4a04;
+  constexpr static std::size_t addrs = 0x31c7a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(), "GetAllScenePaths",
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (::UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31c47e0;
+  constexpr static std::size_t addrs = 0x31c77dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

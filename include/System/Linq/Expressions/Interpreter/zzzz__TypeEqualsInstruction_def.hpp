@@ -34,21 +34,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::TypeEqualsInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x2b4aa54, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b4ca50, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b4aa4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b4ca48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::TypeEqualsInstruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x2b4a9fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2b4c9f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b4aa0c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2b4ca08, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b4aa04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2b4ca00, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::TypeEqualsInstruction* value);

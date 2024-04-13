@@ -112,15 +112,15 @@ public:
   /// @brief Field valueType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_valueType, put = __cordl_internal_set_valueType))::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType valueType;
 
-  /// @brief Method ApplyValue, addr 0x2532b40, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x253bb3c, size 0x74, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x2532a60, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x253ba5c, size 0xe0, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::FormattedFloatListSettingsValueController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x2532bb4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x253bbb0, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::StringW const& __cordl_internal_get__formattingString() const;
@@ -159,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType value);
 
-  /// @brief Method .ctor, addr 0x2532c90, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253bc8c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

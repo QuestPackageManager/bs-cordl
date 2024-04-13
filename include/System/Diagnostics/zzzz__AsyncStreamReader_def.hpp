@@ -65,13 +65,13 @@ public:
   /// @brief Field syncObject, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_syncObject, put = __cordl_internal_set_syncObject))::System::Object* syncObject;
 
-  /// @brief Method CancelOperation, addr 0x2ea04ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CancelOperation, addr 0x2ea24a8, size 0xc, virtual false, abstract: false, final false
   inline void CancelOperation();
 
-  /// @brief Method Close, addr 0x2ea012c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2ea2128, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x2ea013c, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ea2138, size 0x370, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncReadResult();

@@ -69,10 +69,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c* New_ctor();
 
-  /// @brief Method <SplitByMaxVertexCount>b__5_0, addr 0x30cecf0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SplitByMaxVertexCount>b__5_0, addr 0x30d3cec, size 0x18, virtual false, abstract: false, final false
   inline int32_t _SplitByMaxVertexCount_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x30cece8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30d3ce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c* getStaticF___9();
@@ -113,7 +113,7 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c;
 
-  /// @brief Method AccumulateMeshesInfo, addr 0x30cccfc, size 0xd74, virtual false, abstract: false, final false
+  /// @brief Method AccumulateMeshesInfo, addr 0x30d1cf8, size 0xd74, virtual false, abstract: false, final false
   static inline void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes, int32_t offset,
                                           ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> vertices,
                                           ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> faces,
@@ -122,25 +122,25 @@ public:
                                           ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures,
                                           ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> materialMap, ::UnityEngine::Transform* targetTransform);
 
-  /// @brief Method Combine, addr 0x30cbc9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x30d0c98, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   Combine(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes);
 
-  /// @brief Method Combine, addr 0x30cc144, size 0xbb8, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x30d1140, size 0xbb8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   Combine(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes, ::UnityEngine::ProBuilder::ProBuilderMesh* meshTarget);
 
-  /// @brief Method CombineToNewMeshes, addr 0x30cbca0, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method CombineToNewMeshes, addr 0x30d0c9c, size 0x4a4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes);
 
-  /// @brief Method CreateMeshFromSplit, addr 0x30ce778, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshFromSplit, addr 0x30d3774, size 0x50c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>
   CreateMeshFromSplit(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                       ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup,
                       ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* remap, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials);
 
-  /// @brief Method SplitByMaxVertexCount, addr 0x30cda70, size 0xd08, virtual false, abstract: false, final false
+  /// @brief Method SplitByMaxVertexCount, addr 0x30d2a6c, size 0xd08, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   SplitByMaxVertexCount(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                         ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,

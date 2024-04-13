@@ -40,13 +40,13 @@ public:
   /// @brief Field nodeStates, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_nodeStates, put = setStaticF_nodeStates))::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates;
 
-  /// @brief Method GetDataFromSource, addr 0x3265e48, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetDataFromSource, addr 0x3267e44, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method GetNodePoseData, addr 0x3265b58, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetNodePoseData, addr 0x3267b54, size 0x280, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method TryGetDataFromSource, addr 0x3265dd8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetDataFromSource, addr 0x3267dd4, size 0x70, virtual false, abstract: false, final false
   static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStates();

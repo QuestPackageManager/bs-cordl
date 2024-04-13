@@ -22,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAbuseReportRecording : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AbuseReportRecording*> {
 public:
   // Declarations
-  /// @brief Method GetAbuseReportRecording, addr 0x29c70b8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAbuseReportRecording, addr 0x29c90b4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
 
-  /// @brief Method GetDataFromMessage, addr 0x29c70f4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c90f0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAbuseReportRecording* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c7060, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c905c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

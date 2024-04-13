@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::UInt64Converter::*)()>(
     &::System::ComponentModel::UInt64Converter::get_TargetType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2e49088;
+  constexpr static std::size_t addrs = 0x2e4b084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::UInt64Converter::*)(::StringW, int32_t)>(
     &::System::ComponentModel::UInt64Converter::FromString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2e490f4;
+  constexpr static std::size_t addrs = 0x2e4b0f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::UInt64Converter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::UInt64Converter::FromString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2e49188;
+  constexpr static std::size_t addrs = 0x2e4b184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::System::ComponentModel::UInt64Converter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::UInt64Converter::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2e491fc;
+  constexpr static std::size_t addrs = 0x2e4b1f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::UInt64Converter::*)()>(&::System::ComponentModel::UInt64Converter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e492ac;
+  constexpr static std::size_t addrs = 0x2e4b2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::UInt64Converter*>::get(), ".ctor",

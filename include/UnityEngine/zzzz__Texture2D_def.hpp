@@ -158,119 +158,119 @@ public:
 
   __declspec(property(get = get_vtOnly)) bool vtOnly;
 
-  /// @brief Method Apply, addr 0x31dec54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x31e1c50, size 0xc, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method Apply, addr 0x31dec48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x31e1c44, size 0xc, virtual false, abstract: false, final false
   inline void Apply(bool updateMipmaps);
 
-  /// @brief Method Apply, addr 0x31debbc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x31e1bb8, size 0x8c, virtual false, abstract: false, final false
   inline void Apply(bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method ApplyImpl, addr 0x31dcbd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyImpl, addr 0x31dfbcc, size 0x54, virtual false, abstract: false, final false
   inline void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method ClearMinimumMipmapLevel, addr 0x31dd738, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearMinimumMipmapLevel, addr 0x31e0734, size 0x3c, virtual false, abstract: false, final false
   inline void ClearMinimumMipmapLevel();
 
-  /// @brief Method ClearRequestedMipmapLevel, addr 0x31dd6c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearRequestedMipmapLevel, addr 0x31e06bc, size 0x3c, virtual false, abstract: false, final false
   inline void ClearRequestedMipmapLevel();
 
-  /// @brief Method Compress, addr 0x31dc9b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Compress, addr 0x31df9b4, size 0x44, virtual false, abstract: false, final false
   inline void Compress(bool highQuality);
 
-  /// @brief Method CreateExternalTexture, addr 0x31de368, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateExternalTexture, addr 0x31e1364, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> CreateExternalTexture(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, bool mipChain, bool linear, void* nativeTex);
 
-  /// @brief Method GenerateAtlas, addr 0x31def38, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GenerateAtlas, addr 0x31e1f34, size 0x1cc, virtual false, abstract: false, final false
   static inline bool GenerateAtlas(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> sizes, int32_t padding, int32_t atlasSize,
                                    ::System::Collections::Generic::List_1<::UnityEngine::Rect>* results);
 
-  /// @brief Method GenerateAtlasImpl, addr 0x31dd340, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GenerateAtlasImpl, addr 0x31e033c, size 0x5c, virtual false, abstract: false, final false
   static inline void GenerateAtlasImpl(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> sizes, int32_t padding, int32_t atlasSize,
                                        ByRef<::ArrayW<::UnityEngine::Rect, ::Array<::UnityEngine::Rect>*>> rect);
 
-  /// @brief Method GetPixel, addr 0x31de76c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetPixel, addr 0x31e1768, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixel(int32_t x, int32_t y);
 
-  /// @brief Method GetPixel, addr 0x31de7d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPixel, addr 0x31e17d4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixel(int32_t x, int32_t y, int32_t mipLevel);
 
-  /// @brief Method GetPixelBilinear, addr 0x31de850, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPixelBilinear, addr 0x31e184c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixelBilinear(float_t u, float_t v);
 
-  /// @brief Method GetPixelBilinear, addr 0x31de8b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPixelBilinear, addr 0x31e18b4, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixelBilinear(float_t u, float_t v, int32_t mipLevel);
 
-  /// @brief Method GetPixelBilinearImpl, addr 0x31dce6c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetPixelBilinearImpl, addr 0x31dfe68, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixelBilinearImpl(int32_t image, int32_t mip, float_t u, float_t v);
 
-  /// @brief Method GetPixelBilinearImpl_Injected, addr 0x31dcef4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPixelBilinearImpl_Injected, addr 0x31dfef0, size 0x74, virtual false, abstract: false, final false
   inline void GetPixelBilinearImpl_Injected(int32_t image, int32_t mip, float_t u, float_t v, ByRef<::UnityEngine::Color> ret);
 
   /// @brief Method GetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetPixelData(int32_t mipLevel);
 
-  /// @brief Method GetPixelImpl, addr 0x31dcd70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetPixelImpl, addr 0x31dfd6c, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixelImpl(int32_t image, int32_t mip, int32_t x, int32_t y);
 
-  /// @brief Method GetPixelImpl_Injected, addr 0x31dcdf8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPixelImpl_Injected, addr 0x31dfdf4, size 0x74, virtual false, abstract: false, final false
   inline void GetPixelImpl_Injected(int32_t image, int32_t mip, int32_t x, int32_t y, ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method GetPixels, addr 0x31df330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPixels, addr 0x31e232c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> GetPixels();
 
-  /// @brief Method GetPixels, addr 0x31df29c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetPixels, addr 0x31e2298, size 0x94, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> GetPixels(int32_t miplevel);
 
-  /// @brief Method GetPixels, addr 0x31dd940, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPixels, addr 0x31e093c, size 0x70, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> GetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight);
 
-  /// @brief Method GetPixels, addr 0x31dd8cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPixels, addr 0x31e08c8, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> GetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, int32_t miplevel);
 
-  /// @brief Method GetPixels32, addr 0x31dd9f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetPixels32, addr 0x31e09f0, size 0x40, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> GetPixels32();
 
-  /// @brief Method GetPixels32, addr 0x31dd9b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPixels32, addr 0x31e09ac, size 0x44, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> GetPixels32(int32_t miplevel);
 
-  /// @brief Method GetRawImageDataSize, addr 0x31dd304, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRawImageDataSize, addr 0x31e0300, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t GetRawImageDataSize();
 
-  /// @brief Method GetRawTextureData, addr 0x31dd890, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRawTextureData, addr 0x31e088c, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawTextureData();
 
   /// @brief Method GetRawTextureData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetRawTextureData();
 
-  /// @brief Method GetWritableImageData, addr 0x31dd2c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetWritableImageData, addr 0x31e02bc, size 0x44, virtual false, abstract: false, final false
   inline void* GetWritableImageData(int32_t frame);
 
-  /// @brief Method Internal_Create, addr 0x31dca80, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x31dfa7c, size 0xd8, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, void* nativeTex);
 
-  /// @brief Method Internal_CreateImpl, addr 0x31dc9fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x31df9f8, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, void* nativeTex);
 
-  /// @brief Method IsRequestedMipmapLevelLoaded, addr 0x31dd6fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsRequestedMipmapLevelLoaded, addr 0x31e06f8, size 0x3c, virtual false, abstract: false, final false
   inline bool IsRequestedMipmapLevelLoaded();
 
-  /// @brief Method LoadRawTextureData, addr 0x31dea94, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method LoadRawTextureData, addr 0x31e1a90, size 0x128, virtual false, abstract: false, final false
   inline void LoadRawTextureData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   /// @brief Method LoadRawTextureData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void LoadRawTextureData(::Unity::Collections::NativeArray_1<T> data);
 
-  /// @brief Method LoadRawTextureData, addr 0x31de92c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method LoadRawTextureData, addr 0x31e1928, size 0x168, virtual false, abstract: false, final false
   inline void LoadRawTextureData(void* data, int32_t size);
 
-  /// @brief Method LoadRawTextureDataImpl, addr 0x31dd140, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadRawTextureDataImpl, addr 0x31e013c, size 0x54, virtual false, abstract: false, final false
   inline bool LoadRawTextureDataImpl(void* data, uint64_t size);
 
-  /// @brief Method LoadRawTextureDataImplArray, addr 0x31dd194, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadRawTextureDataImplArray, addr 0x31e0190, size 0x44, virtual false, abstract: false, final false
   inline bool LoadRawTextureDataImplArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::UnityEngine::Texture2D* New_ctor(int32_t width, int32_t height);
@@ -295,63 +295,63 @@ public:
 
   static inline ::UnityEngine::Texture2D* New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, void* nativeTex);
 
-  /// @brief Method PackTextures, addr 0x31ddb00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PackTextures, addr 0x31e0afc, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rect, ::Array<::UnityEngine::Rect>*> PackTextures(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> textures, int32_t padding);
 
-  /// @brief Method PackTextures, addr 0x31ddaa0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PackTextures, addr 0x31e0a9c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rect, ::Array<::UnityEngine::Rect>*> PackTextures(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> textures, int32_t padding,
                                                                                    int32_t maximumAtlasSize);
 
-  /// @brief Method PackTextures, addr 0x31dda34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PackTextures, addr 0x31e0a30, size 0x6c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rect, ::Array<::UnityEngine::Rect>*> PackTextures(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> textures, int32_t padding,
                                                                                    int32_t maximumAtlasSize, bool makeNoLongerReadable);
 
-  /// @brief Method ReadPixels, addr 0x31def30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPixels, addr 0x31e1f2c, size 0x8, virtual false, abstract: false, final false
   inline void ReadPixels(::UnityEngine::Rect source, int32_t destX, int32_t destY);
 
-  /// @brief Method ReadPixels, addr 0x31dee90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadPixels, addr 0x31e1e8c, size 0xa0, virtual false, abstract: false, final false
   inline void ReadPixels(::UnityEngine::Rect source, int32_t destX, int32_t destY, bool recalculateMipMaps);
 
-  /// @brief Method ReadPixelsImpl, addr 0x31dcfd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadPixelsImpl, addr 0x31dffd0, size 0x74, virtual false, abstract: false, final false
   inline void ReadPixelsImpl(::UnityEngine::Rect source, int32_t destX, int32_t destY, bool recalculateMipMaps);
 
-  /// @brief Method ReadPixelsImpl_Injected, addr 0x31dd048, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReadPixelsImpl_Injected, addr 0x31e0044, size 0x6c, virtual false, abstract: false, final false
   inline void ReadPixelsImpl_Injected(ByRef<::UnityEngine::Rect> source, int32_t destX, int32_t destY, bool recalculateMipMaps);
 
-  /// @brief Method Reinitialize, addr 0x31dec60, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x31e1c5c, size 0x8c, virtual false, abstract: false, final false
   inline bool Reinitialize(int32_t width, int32_t height);
 
-  /// @brief Method Reinitialize, addr 0x31dedd8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x31e1dd4, size 0xa4, virtual false, abstract: false, final false
   inline bool Reinitialize(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool hasMipMap);
 
-  /// @brief Method Reinitialize, addr 0x31decec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x31e1ce8, size 0xec, virtual false, abstract: false, final false
   inline bool Reinitialize(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, bool hasMipMap);
 
-  /// @brief Method ReinitializeImpl, addr 0x31dcc24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReinitializeImpl, addr 0x31dfc20, size 0x54, virtual false, abstract: false, final false
   inline bool ReinitializeImpl(int32_t width, int32_t height);
 
-  /// @brief Method ReinitializeWithFormatImpl, addr 0x31dcf68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReinitializeWithFormatImpl, addr 0x31dff64, size 0x6c, virtual false, abstract: false, final false
   inline bool ReinitializeWithFormatImpl(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool hasMipMap);
 
-  /// @brief Method Resize, addr 0x31dee7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x31e1e78, size 0x4, virtual false, abstract: false, final false
   inline bool Resize(int32_t width, int32_t height);
 
-  /// @brief Method Resize, addr 0x31dee88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x31e1e84, size 0x8, virtual false, abstract: false, final false
   inline bool Resize(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool hasMipMap);
 
-  /// @brief Method Resize, addr 0x31dee80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x31e1e7c, size 0x8, virtual false, abstract: false, final false
   inline bool Resize(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, bool hasMipMap);
 
-  /// @brief Method SetAllPixels32, addr 0x31dd7b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetAllPixels32, addr 0x31e07b4, size 0x54, virtual false, abstract: false, final false
   inline void SetAllPixels32(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors, int32_t miplevel);
 
-  /// @brief Method SetBlockOfPixels32, addr 0x31dd80c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetBlockOfPixels32, addr 0x31e0808, size 0x84, virtual false, abstract: false, final false
   inline void SetBlockOfPixels32(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors, int32_t miplevel);
 
-  /// @brief Method SetPixel, addr 0x31de48c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetPixel, addr 0x31e1488, size 0x9c, virtual false, abstract: false, final false
   inline void SetPixel(int32_t x, int32_t y, ::UnityEngine::Color color);
 
-  /// @brief Method SetPixel, addr 0x31de528, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetPixel, addr 0x31e1524, size 0xa8, virtual false, abstract: false, final false
   inline void SetPixel(int32_t x, int32_t y, ::UnityEngine::Color color, int32_t mipLevel);
 
   /// @brief Method SetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -360,152 +360,152 @@ public:
   /// @brief Method SetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, int32_t sourceDataStartIndex);
 
-  /// @brief Method SetPixelDataImpl, addr 0x31dd24c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetPixelDataImpl, addr 0x31e0248, size 0x74, virtual false, abstract: false, final false
   inline bool SetPixelDataImpl(void* data, int32_t mipLevel, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex);
 
-  /// @brief Method SetPixelDataImplArray, addr 0x31dd1d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetPixelDataImplArray, addr 0x31e01d4, size 0x74, virtual false, abstract: false, final false
   inline bool SetPixelDataImplArray(::System::Array* data, int32_t mipLevel, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex);
 
-  /// @brief Method SetPixelImpl, addr 0x31dcc78, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetPixelImpl, addr 0x31dfc74, size 0x84, virtual false, abstract: false, final false
   inline void SetPixelImpl(int32_t image, int32_t mip, int32_t x, int32_t y, ::UnityEngine::Color color);
 
-  /// @brief Method SetPixelImpl_Injected, addr 0x31dccfc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetPixelImpl_Injected, addr 0x31dfcf8, size 0x74, virtual false, abstract: false, final false
   inline void SetPixelImpl_Injected(int32_t image, int32_t mip, int32_t x, int32_t y, ByRef<::UnityEngine::Color> color);
 
-  /// @brief Method SetPixels, addr 0x31de710, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetPixels, addr 0x31e170c, size 0x5c, virtual false, abstract: false, final false
   inline void SetPixels(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method SetPixels, addr 0x31de698, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPixels, addr 0x31e1694, size 0x78, virtual false, abstract: false, final false
   inline void SetPixels(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors, int32_t miplevel);
 
-  /// @brief Method SetPixels, addr 0x31de690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPixels, addr 0x31e168c, size 0x8, virtual false, abstract: false, final false
   inline void SetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method SetPixels, addr 0x31de5d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetPixels, addr 0x31e15cc, size 0xc0, virtual false, abstract: false, final false
   inline void SetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors, int32_t miplevel);
 
-  /// @brief Method SetPixels32, addr 0x31df158, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x31e2154, size 0x48, virtual false, abstract: false, final false
   inline void SetPixels32(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors);
 
-  /// @brief Method SetPixels32, addr 0x31df104, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x31e2100, size 0x54, virtual false, abstract: false, final false
   inline void SetPixels32(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors, int32_t miplevel);
 
-  /// @brief Method SetPixels32, addr 0x31df224, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x31e2220, size 0x78, virtual false, abstract: false, final false
   inline void SetPixels32(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors);
 
-  /// @brief Method SetPixels32, addr 0x31df1a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x31e219c, size 0x84, virtual false, abstract: false, final false
   inline void SetPixels32(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors, int32_t miplevel);
 
-  /// @brief Method SetPixelsImpl, addr 0x31dd0b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetPixelsImpl, addr 0x31e00b0, size 0x8c, virtual false, abstract: false, final false
   inline void SetPixelsImpl(int32_t x, int32_t y, int32_t w, int32_t h, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pixel, int32_t miplevel, int32_t frame);
 
-  /// @brief Method UpdateExternalTexture, addr 0x31dd774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateExternalTexture, addr 0x31e0770, size 0x44, virtual false, abstract: false, final false
   inline void UpdateExternalTexture(void* nativeTex);
 
-  /// @brief Method ValidateFormat, addr 0x31ddc44, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x31e0c40, size 0x134, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t width, int32_t height);
 
-  /// @brief Method ValidateFormat, addr 0x31ddb5c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x31e0b58, size 0xe8, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method .ctor, addr 0x31de2c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e12c4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height);
 
-  /// @brief Method .ctor, addr 0x31dde4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e0e48, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31dde98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e0e94, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31ddd78, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e0d74, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount,
                     void* nativeTex);
 
-  /// @brief Method .ctor, addr 0x31ddf48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e0f44, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31de23c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e1238, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  /// @brief Method .ctor, addr 0x31de1a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e11a0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
 
-  /// @brief Method .ctor, addr 0x31de114, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e1110, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear);
 
-  /// @brief Method .ctor, addr 0x31ddfd8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e0fd4, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, void* nativeTex);
 
-  /// @brief Method get_blackTexture, addr 0x31dc8f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_blackTexture, addr 0x31df8ec, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_blackTexture();
 
-  /// @brief Method get_calculatedMipmapLevel, addr 0x31dd5d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_calculatedMipmapLevel, addr 0x31e05cc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_calculatedMipmapLevel();
 
-  /// @brief Method get_desiredMipmapLevel, addr 0x31dd60c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_desiredMipmapLevel, addr 0x31e0608, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_desiredMipmapLevel();
 
-  /// @brief Method get_format, addr 0x31dc80c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x31df808, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureFormat get_format();
 
-  /// @brief Method get_grayTexture, addr 0x31dc940, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_grayTexture, addr 0x31df93c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_grayTexture();
 
-  /// @brief Method get_ignoreMipmapLimit, addr 0x31dc848, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreMipmapLimit, addr 0x31df844, size 0x3c, virtual false, abstract: false, final false
   inline bool get_ignoreMipmapLimit();
 
-  /// @brief Method get_isPreProcessed, addr 0x31dd39c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPreProcessed, addr 0x31e0398, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPreProcessed();
 
-  /// @brief Method get_isReadable, addr 0x31dcb58, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x31dfb54, size 0x3c, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
-  /// @brief Method get_linearGrayTexture, addr 0x31dc968, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_linearGrayTexture, addr 0x31df964, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_linearGrayTexture();
 
-  /// @brief Method get_loadAllMips, addr 0x31dd550, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loadAllMips, addr 0x31e054c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_loadAllMips();
 
-  /// @brief Method get_loadedMipmapLevel, addr 0x31dd684, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loadedMipmapLevel, addr 0x31e0680, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_loadedMipmapLevel();
 
-  /// @brief Method get_loadingMipmapLevel, addr 0x31dd648, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loadingMipmapLevel, addr 0x31e0644, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_loadingMipmapLevel();
 
-  /// @brief Method get_minimumMipmapLevel, addr 0x31dd4d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minimumMipmapLevel, addr 0x31e04cc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_minimumMipmapLevel();
 
-  /// @brief Method get_normalTexture, addr 0x31dc990, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_normalTexture, addr 0x31df98c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_normalTexture();
 
-  /// @brief Method get_redTexture, addr 0x31dc918, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_redTexture, addr 0x31df914, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_redTexture();
 
-  /// @brief Method get_requestedMipmapLevel, addr 0x31dd450, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_requestedMipmapLevel, addr 0x31e044c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_requestedMipmapLevel();
 
-  /// @brief Method get_streamingMipmaps, addr 0x31dd3d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_streamingMipmaps, addr 0x31e03d4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_streamingMipmaps();
 
-  /// @brief Method get_streamingMipmapsPriority, addr 0x31dd414, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_streamingMipmapsPriority, addr 0x31e0410, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_streamingMipmapsPriority();
 
-  /// @brief Method get_vtOnly, addr 0x31dcb94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vtOnly, addr 0x31dfb90, size 0x3c, virtual false, abstract: false, final false
   inline bool get_vtOnly();
 
-  /// @brief Method get_whiteTexture, addr 0x31dc8c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_whiteTexture, addr 0x31df8c4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_whiteTexture();
 
-  /// @brief Method set_ignoreMipmapLimit, addr 0x31dc884, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreMipmapLimit, addr 0x31df880, size 0x44, virtual false, abstract: false, final false
   inline void set_ignoreMipmapLimit(bool value);
 
-  /// @brief Method set_loadAllMips, addr 0x31dd58c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loadAllMips, addr 0x31e0588, size 0x44, virtual false, abstract: false, final false
   inline void set_loadAllMips(bool value);
 
-  /// @brief Method set_minimumMipmapLevel, addr 0x31dd50c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_minimumMipmapLevel, addr 0x31e0508, size 0x44, virtual false, abstract: false, final false
   inline void set_minimumMipmapLevel(int32_t value);
 
-  /// @brief Method set_requestedMipmapLevel, addr 0x31dd48c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_requestedMipmapLevel, addr 0x31e0488, size 0x44, virtual false, abstract: false, final false
   inline void set_requestedMipmapLevel(int32_t value);
 
 protected:

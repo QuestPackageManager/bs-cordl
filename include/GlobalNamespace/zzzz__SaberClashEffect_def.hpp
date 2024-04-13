@@ -64,15 +64,15 @@ public:
   __declspec(property(get = __cordl_internal_get__sparkleParticleSystemEmmisionModule,
                       put = __cordl_internal_set__sparkleParticleSystemEmmisionModule))::UnityEngine::__ParticleSystem__EmissionModule _sparkleParticleSystemEmmisionModule;
 
-  /// @brief Method LateUpdate, addr 0x25cbf44, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x25d2f40, size 0xfc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberClashEffect* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x25cbf34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x25d2f30, size 0x10, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x25cbd84, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25d2d80, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__sparkleParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
 
-  /// @brief Method .ctor, addr 0x25cc040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d303c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -52,14 +52,14 @@ public:
 
   constexpr void __cordl_internal_set_sc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1401644, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1401640, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection,
                     float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount);
 
-  /// @brief Method get_sliceCount, addr 0x1401634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliceCount, addr 0x1401630, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sliceCount();
 
-  /// @brief Method get_squishAmount, addr 0x140163c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squishAmount, addr 0x1401638, size 0x8, virtual false, abstract: false, final false
   inline float_t get_squishAmount();
 
 protected:

@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_TextParsingUtilities* (*)()>(&::TMPro::TMP_TextParsingUtilities::get_instance)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x317451c;
+  constexpr static std::size_t addrs = 0x3178518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextParsingUtilities*>::get(), "get_instance",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMP_TextParsingUtilities::GetHashCode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3170620;
+  constexpr static std::size_t addrs = 0x317461c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3170168;
+  constexpr static std::size_t addrs = 0x3174164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x31745e8;
+  constexpr static std::size_t addrs = 0x31785e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3174574;
+  constexpr static std::size_t addrs = 0x3178570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x317465c;
+  constexpr static std::size_t addrs = 0x3178658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x31746d0;
+  constexpr static std::size_t addrs = 0x31786cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsHighSurrogate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3174744;
+  constexpr static std::size_t addrs = 0x3178740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsLowSurrogate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3174758;
+  constexpr static std::size_t addrs = 0x3178754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::TMPro::TMP_TextParsingUtilities::ConvertToUTF32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x317476c;
+  constexpr static std::size_t addrs = 0x3178768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextParsingUtilities::*)()>(&::TMPro::TMP_TextParsingUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3174514;
+  constexpr static std::size_t addrs = 0x3178510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextParsingUtilities*>::get(), ".ctor",

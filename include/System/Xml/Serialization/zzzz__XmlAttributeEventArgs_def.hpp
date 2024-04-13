@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_qnames(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2dc2344, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc5340, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlAttribute* attr, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames);
 
 protected:

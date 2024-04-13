@@ -137,7 +137,7 @@ public:
   static constexpr int32_t kCurrentHealthAndSafetyVersion{ static_cast<int32_t>(0x1) };
 
   /// @brief Field kCurrentPlayerSensitivityFlagVersion offset 0xffffffff size 0x4
-  static constexpr int32_t kCurrentPlayerSensitivityFlagVersion{ static_cast<int32_t>(0x2) };
+  static constexpr int32_t kCurrentPlayerSensitivityFlagVersion{ static_cast<int32_t>(0x3) };
 
   /// @brief Field kCurrentPrivacyPolicyVersion offset 0xffffffff size 0x4
   static constexpr int32_t kCurrentPrivacyPolicyVersion{ static_cast<int32_t>(0x5) };

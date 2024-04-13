@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__depthTextureEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x2ad4f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad6f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

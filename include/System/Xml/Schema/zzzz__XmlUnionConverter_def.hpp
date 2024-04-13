@@ -44,10 +44,10 @@ public:
   /// @brief Field hasListMember, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get_hasListMember, put = __cordl_internal_set_hasListMember)) bool hasListMember;
 
-  /// @brief Method ChangeType, addr 0x2d492d8, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2d4b2d4, size 0x420, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x2d49278, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2d4b274, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlUnionConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_hasListMember(bool value);
 
-  /// @brief Method .ctor, addr 0x2d49030, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d4b02c, size 0x248, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

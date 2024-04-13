@@ -35,15 +35,15 @@ public:
   __declspec(property(get = __cordl_internal_get__windowResolutions,
                       put = __cordl_internal_set__windowResolutions))::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*> _windowResolutions;
 
-  /// @brief Method ApplyValue, addr 0x25347d0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x253d7cc, size 0x74, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x25345bc, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x253d5b8, size 0x214, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::WindowResolutionSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x2534844, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x253d840, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::UnityW<::GlobalNamespace::Vector2IntSO> const& __cordl_internal_get__windowResolution() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__windowResolutions(::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*> value);
 
-  /// @brief Method .ctor, addr 0x2534910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253d90c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::UnityEngine::Material*)>(&::TMPro::TMPro_EventManager::ON_MATERIAL_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x31293e4;
+  constexpr static std::size_t addrs = 0x312e3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_FONT_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3129474;
+  constexpr static std::size_t addrs = 0x312e470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_SPRITE_ASSET_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3129504;
+  constexpr static std::size_t addrs = 0x312e500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXTMESHPRO_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3129594;
+  constexpr static std::size_t addrs = 0x312e590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::TMPro::TMPro_EventManager::ON_DRAG_AND_DROP_MATERIAL_CHANGED)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3129624;
+  constexpr static std::size_t addrs = 0x312e620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::TMPro::TMPro_EventManager::ON_TEXT_STYLE_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x31296bc;
+  constexpr static std::size_t addrs = 0x312e6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_COLOR_GRADIENT_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x312973c;
+  constexpr static std::size_t addrs = 0x312e738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXT_CHANGED)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x31297bc;
+  constexpr static std::size_t addrs = 0x312e7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMPro_EventManager::ON_TMP_SETTINGS_CHANGED)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x312983c;
+  constexpr static std::size_t addrs = 0x312e838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMPro_EventManager*>::get(), "ON_TMP_SETTINGS_CHANGED",
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMPro_EventManager::ON_RESOURCES_LOADED)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x312989c;
+  constexpr static std::size_t addrs = 0x312e898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMPro_EventManager*>::get(), "ON_RESOURCES_LOADED",
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x31298fc;
+  constexpr static std::size_t addrs = 0x312e8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::TMPro::Compute_DT_EventArgs*)>(&::TMPro::TMPro_EventManager::ON_COMPUTE_DT_EVENT)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x312998c;
+  constexpr static std::size_t addrs = 0x312e988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLinkedAccountList::*)(void*)>(
     &::Oculus::Platform::MessageWithLinkedAccountList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c8cc0;
+  constexpr static std::size_t addrs = 0x29cacbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LinkedAccountList* (::Oculus::Platform::MessageWithLinkedAccountList::*)()>(
     &::Oculus::Platform::MessageWithLinkedAccountList::GetLinkedAccountList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29c8d18;
+  constexpr static std::size_t addrs = 0x29cad14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LinkedAccountList* (::Oculus::Platform::MessageWithLinkedAccountList::*)(void*)>(
     &::Oculus::Platform::MessageWithLinkedAccountList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29c8d54;
+  constexpr static std::size_t addrs = 0x29cad50;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_m_MediaType(::UnityEngine::Timeline::__TimelineAsset__MediaType value);
 
-  /// @brief Method .ctor, addr 0x3199f68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319cf64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt);
 
 protected:

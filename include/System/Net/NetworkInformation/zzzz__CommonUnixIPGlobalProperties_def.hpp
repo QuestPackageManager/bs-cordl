@@ -25,13 +25,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f20e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f25e44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x2f20ccc, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x2f25cc8, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
-  /// @brief Method getdomainname, addr 0x2f20c40, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method getdomainname, addr 0x2f25c3c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t getdomainname(::ArrayW<uint8_t, ::Array<uint8_t>*> name, int32_t len);
 
 protected:

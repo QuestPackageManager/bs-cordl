@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_UnlockTime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x29da34c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29db348, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

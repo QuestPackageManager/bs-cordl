@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                               ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetLocalNamespaces)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d62c5c;
+  constexpr static std::size_t addrs = 0x2d65c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                               ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetInScopeNamespaces)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2d62cc0;
+  constexpr static std::size_t addrs = 0x2d65cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>,
                                                                                            ByRef<int32_t>)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetParent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2d62f7c;
+  constexpr static std::size_t addrs = 0x2d65f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetLocation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2d63358;
+  constexpr static std::size_t addrs = 0x2d66354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>, ByRef<int32_t>,
                          ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetTextFollowing)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2d627e0;
+  constexpr static std::size_t addrs = 0x2d657dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>,
                                                                                            ByRef<int32_t>)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetNonDescendant)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2d62760;
+  constexpr static std::size_t addrs = 0x2d6575c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -32,16 +32,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method Run, addr 0x2b1c6c8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b1d6c4, size 0x44, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b1c658, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1d654, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method get_InstructionName, addr 0x2b1c680, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2b1d67c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b1c6c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2b1d6bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

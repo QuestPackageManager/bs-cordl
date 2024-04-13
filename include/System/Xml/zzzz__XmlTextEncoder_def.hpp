@@ -50,48 +50,48 @@ public:
   /// @brief Field xmlCharType, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlCharType, put = __cordl_internal_set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
 
-  /// @brief Method EndAttribute, addr 0x2d71344, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EndAttribute, addr 0x2d74340, size 0x38, virtual false, abstract: false, final false
   inline void EndAttribute();
 
   static inline ::System::Xml::XmlTextEncoder* New_ctor(::System::IO::TextWriter* textWriter);
 
-  /// @brief Method StartAttribute, addr 0x2d712a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartAttribute, addr 0x2d742a0, size 0xa0, virtual false, abstract: false, final false
   inline void StartAttribute(bool cacheAttrValue);
 
-  /// @brief Method Write, addr 0x2d714a4, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2d744a0, size 0x42c, virtual false, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> array, int32_t offset, int32_t count);
 
-  /// @brief Method Write, addr 0x2d71b4c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2d74b48, size 0x434, virtual false, abstract: false, final false
   inline void Write(::StringW text);
 
-  /// @brief Method WriteCharEntity, addr 0x2d72358, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method WriteCharEntity, addr 0x2d75354, size 0x148, virtual false, abstract: false, final false
   inline void WriteCharEntity(char16_t ch);
 
-  /// @brief Method WriteCharEntityImpl, addr 0x2d718d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteCharEntityImpl, addr 0x2d748cc, size 0x7c, virtual false, abstract: false, final false
   inline void WriteCharEntityImpl(char16_t ch);
 
-  /// @brief Method WriteCharEntityImpl, addr 0x2d724a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteCharEntityImpl, addr 0x2d7549c, size 0x98, virtual false, abstract: false, final false
   inline void WriteCharEntityImpl(::StringW strVal);
 
-  /// @brief Method WriteEntityRef, addr 0x2d72538, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteEntityRef, addr 0x2d75534, size 0x6c, virtual false, abstract: false, final false
   inline void WriteEntityRef(::StringW name);
 
-  /// @brief Method WriteEntityRefImpl, addr 0x2d7194c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method WriteEntityRefImpl, addr 0x2d74948, size 0x70, virtual false, abstract: false, final false
   inline void WriteEntityRefImpl(::StringW name);
 
-  /// @brief Method WriteRaw, addr 0x2d72220, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method WriteRaw, addr 0x2d7521c, size 0x138, virtual false, abstract: false, final false
   inline void WriteRaw(::ArrayW<char16_t, ::Array<char16_t>*> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteRawWithSurrogateChecking, addr 0x2d72028, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method WriteRawWithSurrogateChecking, addr 0x2d75024, size 0x1f8, virtual false, abstract: false, final false
   inline void WriteRawWithSurrogateChecking(::StringW text);
 
-  /// @brief Method WriteStringFragment, addr 0x2d71f80, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method WriteStringFragment, addr 0x2d74f7c, size 0xa8, virtual false, abstract: false, final false
   inline void WriteStringFragment(::StringW str, int32_t offset, int32_t count, ::ArrayW<char16_t, ::Array<char16_t>*> helperBuffer);
 
-  /// @brief Method WriteSurrogateChar, addr 0x2d713f0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteSurrogateChar, addr 0x2d743ec, size 0xb4, virtual false, abstract: false, final false
   inline void WriteSurrogateChar(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method WriteSurrogateCharEntity, addr 0x2d719bc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method WriteSurrogateCharEntity, addr 0x2d749b8, size 0x190, virtual false, abstract: false, final false
   inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_attrValue();
@@ -130,13 +130,13 @@ public:
 
   constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value);
 
-  /// @brief Method .ctor, addr 0x2d71260, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d7425c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* textWriter);
 
-  /// @brief Method get_AttributeValue, addr 0x2d7137c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeValue, addr 0x2d74378, size 0x74, virtual false, abstract: false, final false
   inline ::StringW get_AttributeValue();
 
-  /// @brief Method set_QuoteChar, addr 0x2d7129c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x2d74298, size 0x8, virtual false, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
 protected:

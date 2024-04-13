@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextShadow (::UnityEngine::UIElements::StyleTextShadow::*)()>(
     &::UnityEngine::UIElements::StyleTextShadow::get_value)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x33bf13c;
+  constexpr static std::size_t addrs = 0x33c2138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTextShadow>::get(), "get_value",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleTextShadow::*)()>(
     &::UnityEngine::UIElements::StyleTextShadow::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bf134;
+  constexpr static std::size_t addrs = 0x33c2130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleTextShadow>::get(), "get_keyword",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleTextShadow::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTextShadow::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33c1f20;
+  constexpr static std::size_t addrs = 0x33c4f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleTextShadow::*)(
     ::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleTextShadow::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x33c1f38;
+  constexpr static std::size_t addrs = 0x33c4f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleTextShadow, ::UnityEngine::UIElements::StyleTextShadow)>(
     &::UnityEngine::UIElements::StyleTextShadow::op_Equality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x33c1f58;
+  constexpr static std::size_t addrs = 0x33c4f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleTextShadow (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTextShadow::op_Implicit___UnityEngine__UIElements__StyleTextShadow)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33bf2fc;
+  constexpr static std::size_t addrs = 0x33c22f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleTextShadow::*)(::UnityEngine::UIElements::StyleTextShadow)>(
     &::UnityEngine::UIElements::StyleTextShadow::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33c1fc0;
+  constexpr static std::size_t addrs = 0x33c4fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleTextShadow::*)(::System::Object*)>(
     &::UnityEngine::UIElements::StyleTextShadow::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x33c1ff4;
+  constexpr static std::size_t addrs = 0x33c4ff0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleTextShadow::*)()>(
     &::UnityEngine::UIElements::StyleTextShadow::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x33c2084;
+  constexpr static std::size_t addrs = 0x33c5080;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleTextShadow::*)()>(&::UnityEngine::UIElements::StyleTextShadow::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33c20cc;
+  constexpr static std::size_t addrs = 0x33c50c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

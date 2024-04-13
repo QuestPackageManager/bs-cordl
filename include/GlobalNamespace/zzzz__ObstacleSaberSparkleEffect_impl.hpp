@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffect::set_color)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x25beb0c;
+  constexpr static std::size_t addrs = 0x25c5b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffect::Awake)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x25c9838;
+  constexpr static std::size_t addrs = 0x25d0834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "Awake",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffect::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x25bf664;
+  constexpr static std::size_t addrs = 0x25c6660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(
     &::GlobalNamespace::ObstacleSaberSparkleEffect::StartEmission)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25bf6dc;
+  constexpr static std::size_t addrs = 0x25c66d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(
     &::GlobalNamespace::ObstacleSaberSparkleEffect::StopEmission)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25bf730;
+  constexpr static std::size_t addrs = 0x25c672c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25c9894;
+  constexpr static std::size_t addrs = 0x25d0890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), ".ctor",

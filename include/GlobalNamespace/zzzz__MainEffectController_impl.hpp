@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(
     &::GlobalNamespace::MainEffectController::add_afterImageEffectEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2ad5e50;
+  constexpr static std::size_t addrs = 0x2ad7e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(
     &::GlobalNamespace::MainEffectController::remove_afterImageEffectEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2ad5f00;
+  constexpr static std::size_t addrs = 0x2ad7efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::OnEnable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2ad5fb0;
+  constexpr static std::size_t addrs = 0x2ad7fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectController*>::get(), "OnEnable",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::OnDisable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2ad612c;
+  constexpr static std::size_t addrs = 0x2ad8128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectController*>::get(), "OnDisable",
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::OnValidate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2ad61b4;
+  constexpr static std::size_t addrs = 0x2ad81b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectController*>::get(), "OnValidate",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(
     &::GlobalNamespace::MainEffectController::LazySetupImageEffectController)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2ad5fd8;
+  constexpr static std::size_t addrs = 0x2ad7fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectController*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::MainEffectController::ImageEffectControllerCallback)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2ad6204;
+  constexpr static std::size_t addrs = 0x2ad8200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::OnPreRender)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ad62a8;
+  constexpr static std::size_t addrs = 0x2ad82a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectController*>::get(), "OnPreRender",
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::OnPostRender)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2ad6364;
+  constexpr static std::size_t addrs = 0x2ad8360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectController*>::get(), "OnPostRender",
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad63d0;
+  constexpr static std::size_t addrs = 0x2ad83cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectController*>::get(), ".ctor",

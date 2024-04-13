@@ -84,21 +84,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x25ede30, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25f4e2c, size 0x108, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25edf38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25f4f34, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25edf40, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25f4f3c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25edf80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25f4f7c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x25ede2c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x25f4e28, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x25eddfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f4df8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -202,30 +202,30 @@ public:
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method AnimateToColor, addr 0x25eb20c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AnimateToColor, addr 0x25f2208, size 0xfc, virtual false, abstract: false, final false
   inline void AnimateToColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method Awake, addr 0x25edaa4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x25f4aa0, size 0xe0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisableDirectionalLights, addr 0x25edd4c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DisableDirectionalLights, addr 0x25f4d48, size 0x38, virtual false, abstract: false, final false
   inline void DisableDirectionalLights(float_t delay);
 
-  /// @brief Method DisableDirectionalLightsCoroutine, addr 0x25edd84, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DisableDirectionalLightsCoroutine, addr 0x25f4d80, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float_t delay);
 
   static inline ::GlobalNamespace::LightsAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25edb84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25f4b80, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x25edc0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x25f4c08, size 0x58, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetLightsColor, addr 0x25edc64, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetLightsColor, addr 0x25f4c60, size 0xe8, virtual false, abstract: false, final false
   inline void SetLightsColor(::UnityEngine::Color color);
 
-  /// @brief Method SetLightsWidth, addr 0x25eb67c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetLightsWidth, addr 0x25f2678, size 0x70, virtual false, abstract: false, final false
   inline void SetLightsWidth(float_t width);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
@@ -252,7 +252,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x25ede24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f4e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

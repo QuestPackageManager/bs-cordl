@@ -30,18 +30,18 @@ public:
   /// @brief Field _settingsValue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::StringSO> _settingsValue;
 
-  /// @brief Method Awake, addr 0x2532cec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x253bce8, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleInputFieldDidChange, addr 0x2532e70, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method HandleInputFieldDidChange, addr 0x253be6c, size 0x5c, virtual true, abstract: false, final false
   inline void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
 
   static inline ::GlobalNamespace::InputFieldSettingsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2532d84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x253bd80, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x2532e1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x253be18, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__inputFieldView() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::StringSO> value);
 
-  /// @brief Method .ctor, addr 0x2532ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253bec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

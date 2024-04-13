@@ -48,7 +48,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__NoteLineConnectionController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25238fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252c8f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,13 +124,13 @@ public:
 
   static inline ::GlobalNamespace::NoteLineConnectionController* New_ctor();
 
-  /// @brief Method Setup, addr 0x2523630, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x252c62c, size 0xa4, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::NoteController* noteController0, ::GlobalNamespace::NoteController* noteController1, float_t fadeOutStartDistance, float_t fadeOutEndDistance, float_t noteTime);
 
-  /// @brief Method Update, addr 0x2523890, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x252c88c, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionsAndColors, addr 0x25236d4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionsAndColors, addr 0x252c6d0, size 0x1bc, virtual false, abstract: false, final false
   inline void UpdatePositionsAndColors();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -211,13 +211,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>* value);
 
-  /// @brief Method .ctor, addr 0x25238f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252c8f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x25234d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x252c4cc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2523580, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x252c57c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>* value);
 
 protected:

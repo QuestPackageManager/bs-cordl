@@ -21,16 +21,16 @@ namespace Internal::Cryptography {
 class CORDL_TYPE Helpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloneByteArray, addr 0x26a76f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CloneByteArray, addr 0x26ad6ec, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CloneByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> src);
 
-  /// @brief Method NibbleToHex, addr 0x26a7854, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NibbleToHex, addr 0x26ad850, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t NibbleToHex(uint8_t b);
 
-  /// @brief Method ToHexArrayUpper, addr 0x26a7768, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToHexArrayUpper, addr 0x26ad764, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> ToHexArrayUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method ToHexStringUpper, addr 0x26a7870, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToHexStringUpper, addr 0x26ad86c, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
 protected:

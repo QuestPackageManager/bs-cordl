@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__SpaceComponentType (::GlobalNamespace::OVRBounded3D::*)()>(
     &::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eb52c;
+  constexpr static std::size_t addrs = 0x29ec528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRBounded3D::*)()>(
     &::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eb53c;
+  constexpr static std::size_t addrs = 0x29ec538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRBounded3D (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::OVRAnchor)>(
     &::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__FromAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eb544;
+  constexpr static std::size_t addrs = 0x29ec540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x29eb558;
+  constexpr static std::size_t addrs = 0x29ec554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBounded3D>::get(), "get_IsNull",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_IsEnabled)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x29eb568;
+  constexpr static std::size_t addrs = 0x29ec564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBounded3D>::get(), "get_IsEnabled",
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRBounded3D::*)(bool, double_t)>(
     &::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__SetEnabledAsync)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x29eb610;
+  constexpr static std::size_t addrs = 0x29ec60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::OVRBounded3D)>(
     &::GlobalNamespace::OVRBounded3D::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x29eb660;
+  constexpr static std::size_t addrs = 0x29ec65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRBounded3D, ::GlobalNamespace::OVRBounded3D)>(
     &::GlobalNamespace::OVRBounded3D::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29eb670;
+  constexpr static std::size_t addrs = 0x29ec66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRBounded3D, ::GlobalNamespace::OVRBounded3D)>(
     &::GlobalNamespace::OVRBounded3D::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29eb67c;
+  constexpr static std::size_t addrs = 0x29ec678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)(::System::Object*)>(&::GlobalNamespace::OVRBounded3D::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x29eb688;
+  constexpr static std::size_t addrs = 0x29ec684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::GetHashCode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x29eb700;
+  constexpr static std::size_t addrs = 0x29ec6fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x29eb74c;
+  constexpr static std::size_t addrs = 0x29ec748;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__SpaceComponentType (::GlobalNamespace::OVRBounded3D::*)()>(
     &::GlobalNamespace::OVRBounded3D::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eb534;
+  constexpr static std::size_t addrs = 0x29ec530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBounded3D>::get(), "get_Type",
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29eb7d0;
+  constexpr static std::size_t addrs = 0x29ec7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBounded3D>::get(), "get_Handle",
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRBounded3D::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29eb54c;
+  constexpr static std::size_t addrs = 0x29ec548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_BoundingBox)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x29eb7d8;
+  constexpr static std::size_t addrs = 0x29ec7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBounded3D>::get(), "get_BoundingBox",
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::__OVRPlugin__Boundsf)>(
     &::GlobalNamespace::OVRBounded3D::ConvertBounds)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x29eb8d4;
+  constexpr static std::size_t addrs = 0x29ec8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -33,16 +33,16 @@ public:
 
   static inline ::TMPro::TMP_Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x312c00c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3131008, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x312c088, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3131084, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x312c034, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3131030, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x312c0e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31310e4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:

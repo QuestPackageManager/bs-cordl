@@ -34,17 +34,17 @@ public:
 
   constexpr void __cordl_internal_set__CopyAnnotations_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2966408, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2968404, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JsonCloneSettings* getStaticF_SkipCopyAnnotations();
 
-  /// @brief Method get_CopyAnnotations, addr 0x2966428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyAnnotations, addr 0x2968424, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyAnnotations();
 
   static inline void setStaticF_SkipCopyAnnotations(::Newtonsoft::Json::Linq::JsonCloneSettings* value);
 
-  /// @brief Method set_CopyAnnotations, addr 0x2966430, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CopyAnnotations, addr 0x296842c, size 0xc, virtual false, abstract: false, final false
   inline void set_CopyAnnotations(bool value);
 
 protected:

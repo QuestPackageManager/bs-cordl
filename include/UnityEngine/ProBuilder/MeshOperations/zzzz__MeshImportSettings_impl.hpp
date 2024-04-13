@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_quads)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4460;
+  constexpr static std::size_t addrs = 0x30e945c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_quads)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x30e4468;
+  constexpr static std::size_t addrs = 0x30e9464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_smoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4474;
+  constexpr static std::size_t addrs = 0x30e9470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_smoothing)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x30e447c;
+  constexpr static std::size_t addrs = 0x30e9478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_smoothingAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4488;
+  constexpr static std::size_t addrs = 0x30e9484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(float_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_smoothingAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4490;
+  constexpr static std::size_t addrs = 0x30e948c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x30e4498;
+  constexpr static std::size_t addrs = 0x30e9494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x30e4570;
+  constexpr static std::size_t addrs = 0x30e956c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x308198c;
+  constexpr static std::size_t addrs = 0x3086988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x3081ca0;
+  constexpr static std::size_t addrs = 0x3086c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetDefaultValues)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3082068;
+  constexpr static std::size_t addrs = 0x3087064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::HasKey)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x308216c;
+  constexpr static std::size_t addrs = 0x3087168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::DeleteKey)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x30822b0;
+  constexpr static std::size_t addrs = 0x30872ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, bool)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetBool)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x30824e4;
+  constexpr static std::size_t addrs = 0x30874e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, int32_t)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetInt)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x308256c;
+  constexpr static std::size_t addrs = 0x3087568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, float_t)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetFloat)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x30825e8;
+  constexpr static std::size_t addrs = 0x30875e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::StringW)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3082664;
+  constexpr static std::size_t addrs = 0x3087660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::UnityEngine::Color)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetColor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x30826e0;
+  constexpr static std::size_t addrs = 0x30876dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::ProBuilder::PreferenceDictionary::*)(
     ::StringW, ::UnityEngine::Material*)>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetMaterial)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3082788;
+  constexpr static std::size_t addrs = 0x3087784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, bool)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetBool)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3082804;
+  constexpr static std::size_t addrs = 0x3087800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, int32_t)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetInt)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x30828d0;
+  constexpr static std::size_t addrs = 0x30878cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, float_t)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetFloat)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x308299c;
+  constexpr static std::size_t addrs = 0x3087998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::StringW)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetString)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3082a68;
+  constexpr static std::size_t addrs = 0x3087a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::UnityEngine::Color)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetColor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3082b34;
+  constexpr static std::size_t addrs = 0x3087b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::UnityEngine::Material*)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetMaterial)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3082c30;
+  constexpr static std::size_t addrs = 0x3087c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, bool>* (
     ::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetBoolDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3082cfc;
+  constexpr static std::size_t addrs = 0x3087cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* (
     ::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetIntDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3082d04;
+  constexpr static std::size_t addrs = 0x3087d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, float_t>* (
     ::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetFloatDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3082d0c;
+  constexpr static std::size_t addrs = 0x3087d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (
     ::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetStringDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3082d14;
+  constexpr static std::size_t addrs = 0x3087d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* (
     ::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetColorDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3082d1c;
+  constexpr static std::size_t addrs = 0x3087d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* (
     ::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetMaterialDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3082d24;
+  constexpr static std::size_t addrs = 0x3087d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(),
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::Clear)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3082d2c;
+  constexpr static std::size_t addrs = 0x3087d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(), "Clear",
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3082e0c;
+  constexpr static std::size_t addrs = 0x3087e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PreferenceDictionary*>::get(), ".ctor",

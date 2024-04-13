@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::FileSecurity::*)(
     ::StringW, ::System::Security::AccessControl::AccessControlSections)>(&::System::Security::AccessControl::FileSecurity::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2701ea0;
+  constexpr static std::size_t addrs = 0x2706e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

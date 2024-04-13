@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)()>(&::UnityEngine::UIElements::PointerCancelEvent::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x339c268;
+  constexpr static std::size_t addrs = 0x339f264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)()>(
     &::UnityEngine::UIElements::PointerCancelEvent::LocalInit)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x339c2b8;
+  constexpr static std::size_t addrs = 0x339f2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerCancelEvent*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)()>(&::UnityEngine::UIElements::PointerCancelEvent::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x339c3bc;
+  constexpr static std::size_t addrs = 0x339f3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerCancelEvent*>::get(), ".ctor",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerCancelEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x339c40c;
+  constexpr static std::size_t addrs = 0x339f408;
 
   inline static ::MethodInfo const* methodInfo() {
 

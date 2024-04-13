@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnicastIPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1c550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2154c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

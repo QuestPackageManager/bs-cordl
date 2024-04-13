@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::IntFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::IntFxEventBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400ad0;
+  constexpr static std::size_t addrs = 0x1400acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IntFxEventBaseData*>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::IntFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::IntFxEventBaseData::get_usePreviousEventValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1400ad8;
+  constexpr static std::size_t addrs = 0x1400ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IntFxEventBaseData*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::IntFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::IntFxEventBaseData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400ae8;
+  constexpr static std::size_t addrs = 0x1400ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IntFxEventBaseData*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::IntFxEventBaseData::*)(float_t, int32_t)>(
     &::BeatmapSaveDataVersion3::IntFxEventBaseData::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x1400af0;
+  constexpr static std::size_t addrs = 0x1400aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

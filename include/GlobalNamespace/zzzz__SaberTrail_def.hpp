@@ -87,36 +87,36 @@ public:
   /// @brief Field _whiteSectionMaxDuration, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
-  /// @brief Method Awake, addr 0x25b7c10, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x25bfc0c, size 0x12c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetTrailWidth, addr 0x25b7fe0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTrailWidth, addr 0x25bffdc, size 0x84, virtual false, abstract: false, final false
   inline float_t GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
 
-  /// @brief Method Init, addr 0x25b7d5c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25bfd58, size 0x284, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LateUpdate, addr 0x25b81e0, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x25c01dc, size 0x3f4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberTrail* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25b8838, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25c0834, size 0xa8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x25b87b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x25c07b0, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x25b88e0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x25c08dc, size 0x1d4, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x25b8708, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x25c0704, size 0xac, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetTrailData, addr 0x25b8064, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ResetTrailData, addr 0x25c0060, size 0x17c, virtual false, abstract: false, final false
   inline void ResetTrailData();
 
-  /// @brief Method Setup, addr 0x25b7d3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x25bfd38, size 0x20, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -221,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x25b8ab4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c0ab0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

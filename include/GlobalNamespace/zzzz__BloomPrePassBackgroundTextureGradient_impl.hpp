@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::get_tintColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23e913c;
+  constexpr static std::size_t addrs = 0x23f1138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::set_tintColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23e9148;
+  constexpr static std::size_t addrs = 0x23f1144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::InitIfNeeded)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x23e9154;
+  constexpr static std::size_t addrs = 0x23f1150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23e9380;
+  constexpr static std::size_t addrs = 0x23f137c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnDestroy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23e9410;
+  constexpr static std::size_t addrs = 0x23f140c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnValidate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23e9434;
+  constexpr static std::size_t addrs = 0x23f1430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::UpdateGradientTexture)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23e9384;
+  constexpr static std::size_t addrs = 0x23f1380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(&::GlobalNamespace::BloomPrePassBackgroundTextureGradient::Render)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x23e9508;
+  constexpr static std::size_t addrs = 0x23f1504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23e73dc;
+  constexpr static std::size_t addrs = 0x23ef3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>::get(),

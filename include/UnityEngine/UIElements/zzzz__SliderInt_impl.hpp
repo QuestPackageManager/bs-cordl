@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__SliderInt__UxmlFactory::*)()>(
     &::UnityEngine::UIElements::__SliderInt__UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x33864a0;
+  constexpr static std::size_t addrs = 0x338949c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__SliderInt__UxmlFactory*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__SliderInt__UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::__SliderInt__UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x33864e8;
+  constexpr static std::size_t addrs = 0x33894e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__SliderInt__UxmlTraits::*)()>(
     &::UnityEngine::UIElements::__SliderInt__UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x33867a8;
+  constexpr static std::size_t addrs = 0x33897a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__SliderInt__UxmlTraits*>::get(),
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)()>(&::UnityEngine::UIElements::SliderInt::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33859a8;
+  constexpr static std::size_t addrs = 0x33889a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SliderInt*>::get(), ".ctor",
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::SliderInt::*)(::StringW, int32_t, int32_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(&::UnityEngine::UIElements::SliderInt::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x33859c0;
+  constexpr static std::size_t addrs = 0x33889bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::SliderInt::*)()>(&::UnityEngine::UIElements::SliderInt::get_pageSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3385b0c;
+  constexpr static std::size_t addrs = 0x3388b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(float_t)>(&::UnityEngine::UIElements::SliderInt::set_pageSize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3385b54;
+  constexpr static std::size_t addrs = 0x3388b50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::SliderInt::*)(int32_t, int32_t, float_t)>(
     &::UnityEngine::UIElements::SliderInt::SliderLerpUnclamped)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3385c6c;
+  constexpr static std::size_t addrs = 0x3388c68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::SliderInt::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::SliderInt::SliderNormalizeValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3385d58;
+  constexpr static std::size_t addrs = 0x3388d54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::SliderInt::*)(::StringW)>(
     &::UnityEngine::UIElements::SliderInt::ParseStringToValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3385d74;
+  constexpr static std::size_t addrs = 0x3388d70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::SliderInt::ComputeValueAndDirectionFromClick)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x3385da0;
+  constexpr static std::size_t addrs = 0x3388d9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(::UnityEngine::UIElements::__BaseSlider_1__SliderKey<int32_t>, bool)>(
     &::UnityEngine::UIElements::SliderInt::ComputeValueFromKey)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3386100;
+  constexpr static std::size_t addrs = 0x33890fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -93,10 +93,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x301671c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x301b718, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand Create(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method ReadKeyName, addr 0x30166dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyName, addr 0x301b6d8, size 0x10, virtual false, abstract: false, final false
   inline ::StringW ReadKeyName();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -117,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set_scanOrKeyCode(int32_t value);
 
-  /// @brief Method get_Type, addr 0x30166ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x301b6a8, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x30166ec, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x301b6e8, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

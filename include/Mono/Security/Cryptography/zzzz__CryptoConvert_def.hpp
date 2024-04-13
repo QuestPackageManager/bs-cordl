@@ -27,25 +27,25 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE CryptoConvert : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromCapiPrivateKeyBlob, addr 0x267dcf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromCapiPrivateKeyBlob, addr 0x2684cf4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob);
 
-  /// @brief Method FromCapiPrivateKeyBlob, addr 0x267dd00, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method FromCapiPrivateKeyBlob, addr 0x2684cfc, size 0x224, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
 
-  /// @brief Method GetParametersFromCapiPrivateKeyBlob, addr 0x267df24, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method GetParametersFromCapiPrivateKeyBlob, addr 0x2684f20, size 0x5a0, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSAParameters GetParametersFromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
 
-  /// @brief Method ToHex, addr 0x267e4c4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ToHex, addr 0x26854c0, size 0x134, virtual false, abstract: false, final false
   static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ToInt32LE, addr 0x267db64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToInt32LE, addr 0x2684b60, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ToInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method ToUInt32LE, addr 0x267dbd8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32LE, addr 0x2684bd4, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method Trim, addr 0x267dc4c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x2684c48, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Trim(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
 protected:

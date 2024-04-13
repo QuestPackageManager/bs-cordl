@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6::*)()>(
     &::GlobalNamespace::__NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x28b9d08;
+  constexpr static std::size_t addrs = 0x28bdd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28b9f68;
+  constexpr static std::size_t addrs = 0x28bdf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__7::*)()>(
     &::GlobalNamespace::__NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x28b9f74;
+  constexpr static std::size_t addrs = 0x28bdf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__7::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x28ba1ec;
+  constexpr static std::size_t addrs = 0x28be1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::Start)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x28b9808;
+  constexpr static std::size_t addrs = 0x28bd804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerEntitlementChecker*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x28b98f8;
+  constexpr static std::size_t addrs = 0x28bd8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerEntitlementChecker*>::get(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::HandleDataInvalidated)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x28b9ac4;
+  constexpr static std::size_t addrs = 0x28bdac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerEntitlementChecker*>::get(),
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::HandleGetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x28b9b68;
+  constexpr static std::size_t addrs = 0x28bdb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* (
     ::GlobalNamespace::NetworkPlayerEntitlementChecker::*)(::StringW)>(&::GlobalNamespace::NetworkPlayerEntitlementChecker::GetEntitlementStatus)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x28b9c04;
+  constexpr static std::size_t addrs = 0x28bdc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28b9d00;
+  constexpr static std::size_t addrs = 0x28bdcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerEntitlementChecker*>::get(),

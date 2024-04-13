@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(
     ::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*)>(&::GlobalNamespace::CreateServerViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2552e90;
+  constexpr static std::size_t addrs = 0x255be8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(
     ::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*)>(&::GlobalNamespace::CreateServerViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2552f40;
+  constexpr static std::size_t addrs = 0x255bf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerModeSettings* (::GlobalNamespace::CreateServerViewController::*)()>(
     &::GlobalNamespace::CreateServerViewController::get_multiplayerModeSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2552ff0;
+  constexpr static std::size_t addrs = 0x255bfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreateServerViewController*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(::GlobalNamespace::MultiplayerModeSettings*)>(
     &::GlobalNamespace::CreateServerViewController::Setup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2552ff8;
+  constexpr static std::size_t addrs = 0x255bff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::CreateServerViewController::DidActivate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x255303c;
+  constexpr static std::size_t addrs = 0x255c038;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::CreateServerFormData (::GlobalNamespace::CreateServerViewController::*)()>(
     &::GlobalNamespace::CreateServerViewController::ApplyAndGetData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2553144;
+  constexpr static std::size_t addrs = 0x255c140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreateServerViewController*>::get(),
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)()>(&::GlobalNamespace::CreateServerViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2553214;
+  constexpr static std::size_t addrs = 0x255c210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreateServerViewController*>::get(), ".ctor",
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)()>(
     &::GlobalNamespace::CreateServerViewController::_DidActivate_b__10_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x255321c;
+  constexpr static std::size_t addrs = 0x255c218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreateServerViewController*>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)()>(
     &::GlobalNamespace::CreateServerViewController::_DidActivate_b__10_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2553274;
+  constexpr static std::size_t addrs = 0x255c270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreateServerViewController*>::get(),

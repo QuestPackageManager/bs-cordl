@@ -76,13 +76,13 @@ public:
   /// @brief Field readCertData, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_readCertData, put = __cordl_internal_set_readCertData)) bool readCertData;
 
-  /// @brief Method AppendPrivateKeyInfo, addr 0x2eb047c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method AppendPrivateKeyInfo, addr 0x2eb2478, size 0x94, virtual true, abstract: false, final true
   inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method EnsureCertData, addr 0x2eb00b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnsureCertData, addr 0x2eb20b4, size 0x80, virtual false, abstract: false, final false
   inline void EnsureCertData();
 
-  /// @brief Method GetNameInfo, addr 0x2eb03f8, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetNameInfo, addr 0x2eb23f4, size 0x34, virtual true, abstract: false, final true
   inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
   /// @brief Method GetRawCertData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -102,52 +102,52 @@ public:
 
   constexpr void __cordl_internal_set_readCertData(bool value);
 
-  /// @brief Method .ctor, addr 0x2eaeb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb0b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Extensions, addr 0x2eb042c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Extensions, addr 0x2eb2428, size 0x18, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* get_Extensions();
 
-  /// @brief Method get_Issuer, addr 0x2eb0224, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_Issuer, addr 0x2eb2220, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_Issuer();
 
-  /// @brief Method get_IssuerName, addr 0x2eb01e4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_IssuerName, addr 0x2eb21e0, size 0x18, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x2eb0138, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_KeyAlgorithm, addr 0x2eb2134, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_KeyAlgorithm();
 
-  /// @brief Method get_KeyAlgorithmParameters, addr 0x2eb0150, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_KeyAlgorithmParameters, addr 0x2eb214c, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyAlgorithmParameters();
 
-  /// @brief Method get_NotAfter, addr 0x2eb0444, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_NotAfter, addr 0x2eb2440, size 0x1c, virtual true, abstract: false, final true
   inline ::System::DateTime get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0x2eb0460, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_NotBefore, addr 0x2eb245c, size 0x1c, virtual true, abstract: false, final true
   inline ::System::DateTime get_NotBefore();
 
-  /// @brief Method get_PublicKeyValue, addr 0x2eb0168, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_PublicKeyValue, addr 0x2eb2164, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PublicKeyValue();
 
-  /// @brief Method get_RawData, addr 0x2eb024c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_RawData, addr 0x2eb2248, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
 
-  /// @brief Method get_SerialNumber, addr 0x2eb0180, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_SerialNumber, addr 0x2eb217c, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x2eb0198, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_SignatureAlgorithm, addr 0x2eb2194, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_SignatureAlgorithm();
 
-  /// @brief Method get_Subject, addr 0x2eb01fc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_Subject, addr 0x2eb21f8, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_Subject();
 
-  /// @brief Method get_SubjectName, addr 0x2eb01cc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_SubjectName, addr 0x2eb21c8, size 0x18, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_SubjectName();
 
-  /// @brief Method get_Thumbprint, addr 0x2eb0264, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method get_Thumbprint, addr 0x2eb2260, size 0x194, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
 
-  /// @brief Method get_Version, addr 0x2eb01b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x2eb21ac, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_Version();
 
 protected:

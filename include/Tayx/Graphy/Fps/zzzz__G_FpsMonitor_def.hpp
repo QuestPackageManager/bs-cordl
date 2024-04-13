@@ -40,10 +40,10 @@ public:
 
   static inline ::Tayx::Graphy::Fps::__G_FpsMonitor____c* New_ctor();
 
-  /// @brief Method <Update>b__25_0, addr 0x2f3a994, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__25_0, addr 0x2f3f990, size 0x20, virtual false, abstract: false, final false
   inline int32_t _Update_b__25_0(int16_t x, int16_t y);
 
-  /// @brief Method .ctor, addr 0x2f3a98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Tayx::Graphy::Fps::__G_FpsMonitor____c* getStaticF___9();
@@ -128,18 +128,18 @@ public:
   /// @brief Field m_zero1PercentSamples, offset 0x2c, size 0x2
   __declspec(property(get = __cordl_internal_get_m_zero1PercentSamples, put = __cordl_internal_set_m_zero1PercentSamples)) int16_t m_zero1PercentSamples;
 
-  /// @brief Method Awake, addr 0x2f3a578, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2f3f574, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x2f34e80, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2f39e7c, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsMonitor* New_ctor();
 
-  /// @brief Method Update, addr 0x2f3a57c, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2f3f578, size 0x390, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2f3a2b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2f3f2ac, size 0x40, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr int16_t const& __cordl_internal_get__AverageFPS_k__BackingField() const;
@@ -214,31 +214,31 @@ public:
 
   constexpr void __cordl_internal_set_m_zero1PercentSamples(int16_t value);
 
-  /// @brief Method .ctor, addr 0x2f3a90c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f908, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AverageFPS, addr 0x2f3a548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AverageFPS, addr 0x2f3f544, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_AverageFPS();
 
-  /// @brief Method get_CurrentFPS, addr 0x2f3a538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentFPS, addr 0x2f3f534, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_CurrentFPS();
 
-  /// @brief Method get_OnePercentFPS, addr 0x2f3a558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnePercentFPS, addr 0x2f3f554, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_OnePercentFPS();
 
-  /// @brief Method get_Zero1PercentFps, addr 0x2f3a568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Zero1PercentFps, addr 0x2f3f564, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_Zero1PercentFps();
 
-  /// @brief Method set_AverageFPS, addr 0x2f3a550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AverageFPS, addr 0x2f3f54c, size 0x8, virtual false, abstract: false, final false
   inline void set_AverageFPS(int16_t value);
 
-  /// @brief Method set_CurrentFPS, addr 0x2f3a540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentFPS, addr 0x2f3f53c, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentFPS(int16_t value);
 
-  /// @brief Method set_OnePercentFPS, addr 0x2f3a560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OnePercentFPS, addr 0x2f3f55c, size 0x8, virtual false, abstract: false, final false
   inline void set_OnePercentFPS(int16_t value);
 
-  /// @brief Method set_Zero1PercentFps, addr 0x2f3a570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Zero1PercentFps, addr 0x2f3f56c, size 0x8, virtual false, abstract: false, final false
   inline void set_Zero1PercentFps(int16_t value);
 
 protected:

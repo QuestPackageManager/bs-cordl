@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::AuthenticatedStream::*)(::System::IO::Stream*, bool)>(
     &::System::Net::Security::AuthenticatedStream::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2e2d1c4;
+  constexpr static std::size_t addrs = 0x2e2f1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::Security::AuthenticatedStream::*)()>(
     &::System::Net::Security::AuthenticatedStream::get_InnerStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e2d35c;
+  constexpr static std::size_t addrs = 0x2e2f358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::AuthenticatedStream*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::AuthenticatedStream::*)(bool)>(
     &::System::Net::Security::AuthenticatedStream::Dispose)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2e2d364;
+  constexpr static std::size_t addrs = 0x2e2f360;
 
   inline static ::MethodInfo const* methodInfo() {
 

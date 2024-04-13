@@ -30,16 +30,16 @@ namespace System::Data {
 class CORDL_TYPE DefaultValueTypeConverter : public ::System::ComponentModel::StringConverter {
 public:
   // Declarations
-  /// @brief Method ConvertFrom, addr 0x2bbf7ec, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2bc17e8, size 0x1a0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2bbf63c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2bc1638, size 0x1b0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Data::DefaultValueTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bbf634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc1630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

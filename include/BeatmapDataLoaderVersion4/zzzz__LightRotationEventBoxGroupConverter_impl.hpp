@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter::*)(
     ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*)>(&::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1404bfc;
+  constexpr static std::size_t addrs = 0x1404bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBox, ::GlobalNamespace::IndexFilter*)>(
         &::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter::ConvertEvents)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x14056d8;
+  constexpr static std::size_t addrs = 0x14056d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

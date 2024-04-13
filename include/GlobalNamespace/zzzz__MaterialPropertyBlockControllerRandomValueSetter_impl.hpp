@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::Start)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23f7200;
+  constexpr static std::size_t addrs = 0x23ff1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::OnValidate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23f7300;
+  constexpr static std::size_t addrs = 0x23ff2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::RefreshPropertyId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23f7224;
+  constexpr static std::size_t addrs = 0x23ff220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::ApplyParams)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x23f7244;
+  constexpr static std::size_t addrs = 0x23ff240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23f7324;
+  constexpr static std::size_t addrs = 0x23ff320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

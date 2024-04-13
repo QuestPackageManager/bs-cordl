@@ -71,7 +71,7 @@ public:
 
   static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
 
-  /// @brief Method __Validate, addr 0x25c5464, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method __Validate, addr 0x25cc460, size 0x21c, virtual false, abstract: false, final false
   inline bool __Validate();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xDistributionLimits() const;
@@ -110,25 +110,25 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x25c5680, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cc67c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_xDistributionLimits, addr 0x25c544c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xDistributionLimits, addr 0x25cc448, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xDistributionLimits();
 
-  /// @brief Method get_xTranslationLimits, addr 0x25c5434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xTranslationLimits, addr 0x25cc430, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xTranslationLimits();
 
-  /// @brief Method get_yDistributionLimits, addr 0x25c5454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yDistributionLimits, addr 0x25cc450, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yDistributionLimits();
 
-  /// @brief Method get_yTranslationLimits, addr 0x25c543c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yTranslationLimits, addr 0x25cc438, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yTranslationLimits();
 
-  /// @brief Method get_zDistributionLimits, addr 0x25c545c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zDistributionLimits, addr 0x25cc458, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zDistributionLimits();
 
-  /// @brief Method get_zTranslationLimits, addr 0x25c5444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zTranslationLimits, addr 0x25cc440, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zTranslationLimits();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"

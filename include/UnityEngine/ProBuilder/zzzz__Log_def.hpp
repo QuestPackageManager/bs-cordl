@@ -49,61 +49,61 @@ public:
   /// @brief Field s_logStack, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_logStack, put = setStaticF_s_logStack))::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::LogLevel>* s_logStack;
 
-  /// @brief Method ClearLogFile, addr 0x30746ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ClearLogFile, addr 0x30796a8, size 0x90, virtual false, abstract: false, final false
   static inline void ClearLogFile();
 
-  /// @brief Method Debug, addr 0x3073f94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x3078f90, size 0x4, virtual false, abstract: false, final false
   static inline void Debug(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Debug, addr 0x3073e6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x3078e68, size 0x58, virtual false, abstract: false, final false
   static inline void Debug(::StringW message);
 
   /// @brief Method Debug, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Debug(T value);
 
-  /// @brief Method DoPrint, addr 0x3073ec4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method DoPrint, addr 0x3078ec0, size 0xd0, virtual false, abstract: false, final false
   static inline void DoPrint(::StringW message, ::UnityEngine::LogType type);
 
-  /// @brief Method Error, addr 0x3074188, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x3079184, size 0x78, virtual false, abstract: false, final false
   static inline void Error(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Error, addr 0x3067b74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x306cb70, size 0x80, virtual false, abstract: false, final false
   static inline void Error(::StringW message);
 
-  /// @brief Method Info, addr 0x3073f98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x3078f94, size 0x78, virtual false, abstract: false, final false
   static inline void Info(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Info, addr 0x3074010, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x307900c, size 0x80, virtual false, abstract: false, final false
   static inline void Info(::StringW message);
 
   /// @brief Method NotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void NotNull(T obj, ::StringW message);
 
-  /// @brief Method PopLogLevel, addr 0x3073cd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PopLogLevel, addr 0x3078ccc, size 0x88, virtual false, abstract: false, final false
   static inline void PopLogLevel();
 
-  /// @brief Method PrintToConsole, addr 0x3074200, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PrintToConsole, addr 0x30791fc, size 0xd4, virtual false, abstract: false, final false
   static inline void PrintToConsole(::StringW message, ::UnityEngine::LogType type);
 
-  /// @brief Method PrintToFile, addr 0x30742d4, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method PrintToFile, addr 0x30792d0, size 0x3d8, virtual false, abstract: false, final false
   static inline void PrintToFile(::StringW message, ::StringW path);
 
-  /// @brief Method PushLogLevel, addr 0x3073c40, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PushLogLevel, addr 0x3078c3c, size 0x90, virtual false, abstract: false, final false
   static inline void PushLogLevel(::UnityEngine::ProBuilder::LogLevel level);
 
-  /// @brief Method SetLogFile, addr 0x3073e10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetLogFile, addr 0x3078e0c, size 0x5c, virtual false, abstract: false, final false
   static inline void SetLogFile(::StringW path);
 
-  /// @brief Method SetLogLevel, addr 0x3073d58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetLogLevel, addr 0x3078d54, size 0x5c, virtual false, abstract: false, final false
   static inline void SetLogLevel(::UnityEngine::ProBuilder::LogLevel level);
 
-  /// @brief Method SetOutput, addr 0x3073db4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetOutput, addr 0x3078db0, size 0x5c, virtual false, abstract: false, final false
   static inline void SetOutput(::UnityEngine::ProBuilder::LogOutput output);
 
-  /// @brief Method Warning, addr 0x3074090, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Warning, addr 0x307908c, size 0x78, virtual false, abstract: false, final false
   static inline void Warning(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Warning, addr 0x3074108, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Warning, addr 0x3079104, size 0x80, virtual false, abstract: false, final false
   static inline void Warning(::StringW message);
 
   /// @brief Method Watch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

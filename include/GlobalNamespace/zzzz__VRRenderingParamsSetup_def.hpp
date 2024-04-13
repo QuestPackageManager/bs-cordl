@@ -121,13 +121,13 @@ public:
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2599618, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x25a1614, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetupOculus, addr 0x2599708, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetupOculus, addr 0x25a1704, size 0x210, virtual false, abstract: false, final false
   inline void SetupOculus();
 
-  /// @brief Method Start, addr 0x2599918, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25a1914, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
@@ -166,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set__vrResolutionScale(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  /// @brief Method .ctor, addr 0x259991c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a1918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(
     ::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(&::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x25ae65c;
+  constexpr static std::size_t addrs = 0x25b6658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(
     ::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(&::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x25ae70c;
+  constexpr static std::size_t addrs = 0x25b6708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MenuDestination* (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ae7bc;
+  constexpr static std::size_t addrs = 0x25b67b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25ae7c4;
+  constexpr static std::size_t addrs = 0x25b67c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::IDeeplinkManager*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x25ae7e4;
+  constexpr static std::size_t addrs = 0x25b67e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25aef84;
+  constexpr static std::size_t addrs = 0x25b6f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::Deeplink*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink)> {
   constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x25ae9b0;
+  constexpr static std::size_t addrs = 0x25b69ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25aef8c;
+  constexpr static std::size_t addrs = 0x25b6f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

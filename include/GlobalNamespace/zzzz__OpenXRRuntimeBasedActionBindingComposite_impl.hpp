@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e231c;
+  constexpr static std::size_t addrs = 0x23ea318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23e2324;
+  constexpr static std::size_t addrs = 0x23ea320;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23e2398;
+  constexpr static std::size_t addrs = 0x23ea394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)()>(
     &::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x23e239c;
+  constexpr static std::size_t addrs = 0x23ea398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Threading::Thread*)>(
     &::Internal::Runtime::Augments::RuntimeThread::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26a756c;
+  constexpr static std::size_t addrs = 0x26ad568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Internal::Runtime::Augments::RuntimeThread* (*)(::System::Threading::ParameterizedThreadStart*, int32_t)>(
     &::Internal::Runtime::Augments::RuntimeThread::Create)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26a7594;
+  constexpr static std::size_t addrs = 0x26ad590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(bool)>(
     &::Internal::Runtime::Augments::RuntimeThread::set_IsBackground)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26a7638;
+  constexpr static std::size_t addrs = 0x26ad634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Object*)>(
     &::Internal::Runtime::Augments::RuntimeThread::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26a7658;
+  constexpr static std::size_t addrs = 0x26ad654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::Sleep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a7674;
+  constexpr static std::size_t addrs = 0x26ad670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Internal::Runtime::Augments::RuntimeThread::Yield)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a767c;
+  constexpr static std::size_t addrs = 0x26ad678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Runtime::Augments::RuntimeThread*>::get(), "Yield",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::SpinWait)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26a7684;
+  constexpr static std::size_t addrs = 0x26ad680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Internal::Runtime::Augments::RuntimeThread::GetCurrentProcessorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a769c;
+  constexpr static std::size_t addrs = 0x26ad698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Runtime::Augments::RuntimeThread*>::get(),

@@ -35,7 +35,7 @@ public:
   /// @brief Field results, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_results, put = __cordl_internal_set_results))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* results;
 
-  /// @brief Method Awake, addr 0x2400f6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2408f68, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::RaycastUITopLevelChecker* New_ctor();
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_results(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
-  /// @brief Method .ctor, addr 0x24011e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24091e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isOnTop, addr 0x2400fe0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method get_isOnTop, addr 0x2408fdc, size 0x208, virtual false, abstract: false, final false
   inline bool get_isOnTop();
 
 protected:

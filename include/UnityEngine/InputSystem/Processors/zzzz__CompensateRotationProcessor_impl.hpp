@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::*)(
     ::UnityEngine::Quaternion, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::Process)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x30269e4;
+  constexpr static std::size_t addrs = 0x302b9e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::ToString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3026bf4;
+  constexpr static std::size_t addrs = 0x302bbf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3026c34;
+  constexpr static std::size_t addrs = 0x302bc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

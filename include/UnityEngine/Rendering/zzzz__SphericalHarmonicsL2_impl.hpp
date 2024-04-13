@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SphericalHarmonicsL2::*)()>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::GetHashCode)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3227554;
+  constexpr static std::size_t addrs = 0x3229550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::System::Object*)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3227728;
+  constexpr static std::size_t addrs = 0x3229724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x32277e0;
+  constexpr static std::size_t addrs = 0x32297dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::op_Equality)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3227828;
+  constexpr static std::size_t addrs = 0x3229824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

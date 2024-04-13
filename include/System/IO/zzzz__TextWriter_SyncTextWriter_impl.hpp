@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::System::IO::TextWriter*)>(
     &::System::IO::__TextWriter__SyncTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x27841c8;
+  constexpr static std::size_t addrs = 0x278a1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::IO::__TextWriter__SyncTextWriter::*)()>(
     &::System::IO::__TextWriter__SyncTextWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2784380;
+  constexpr static std::size_t addrs = 0x278a37c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (::System::IO::__TextWriter__SyncTextWriter::*)()>(
     &::System::IO::__TextWriter__SyncTextWriter::get_FormatProvider)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27843a4;
+  constexpr static std::size_t addrs = 0x278a3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::__TextWriter__SyncTextWriter::*)()>(
     &::System::IO::__TextWriter__SyncTextWriter::get_NewLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x27843c4;
+  constexpr static std::size_t addrs = 0x278a3c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)()>(&::System::IO::__TextWriter__SyncTextWriter::Close)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27843e8;
+  constexpr static std::size_t addrs = 0x278a3e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(bool)>(&::System::IO::__TextWriter__SyncTextWriter::Dispose)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2784408;
+  constexpr static std::size_t addrs = 0x278a404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)()>(&::System::IO::__TextWriter__SyncTextWriter::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27844bc;
+  constexpr static std::size_t addrs = 0x278a4b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(char16_t)>(&::System::IO::__TextWriter__SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x27844dc;
+  constexpr static std::size_t addrs = 0x278a4d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::System::IO::__TextWriter__SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2784500;
+  constexpr static std::size_t addrs = 0x278a4fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::IO::__TextWriter__SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2784524;
+  constexpr static std::size_t addrs = 0x278a520;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW)>(
     &::System::IO::__TextWriter__SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2784548;
+  constexpr static std::size_t addrs = 0x278a544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::System::IO::__TextWriter__SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x278456c;
+  constexpr static std::size_t addrs = 0x278a568;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)()>(&::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2784590;
+  constexpr static std::size_t addrs = 0x278a58c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x27845b4;
+  constexpr static std::size_t addrs = 0x278a5b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW)>(
     &::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x27845d8;
+  constexpr static std::size_t addrs = 0x278a5d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x27845fc;
+  constexpr static std::size_t addrs = 0x278a5f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::__TextWriter__SyncTextWriter::*)(char16_t)>(
     &::System::IO::__TextWriter__SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2784620;
+  constexpr static std::size_t addrs = 0x278a61c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW)>(
     &::System::IO::__TextWriter__SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x27846d0;
+  constexpr static std::size_t addrs = 0x278a6cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::IO::__TextWriter__SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2784780;
+  constexpr static std::size_t addrs = 0x278a77c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::__TextWriter__SyncTextWriter::*)()>(
     &::System::IO::__TextWriter__SyncTextWriter::FlushAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2784848;
+  constexpr static std::size_t addrs = 0x278a844;
 
   inline static ::MethodInfo const* methodInfo() {
 

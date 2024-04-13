@@ -26,18 +26,18 @@ public:
   /// @brief Field <Empty>k__BackingField, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField))::System::Text::RegularExpressions::RegexPrefix _Empty_k__BackingField;
 
-  /// @brief Method .ctor, addr 0x2e90a34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e92a30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, bool ci);
 
   static inline ::System::Text::RegularExpressions::RegexPrefix getStaticF__Empty_k__BackingField();
 
-  /// @brief Method get_CaseInsensitive, addr 0x2e9aad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x2e9cacc, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method get_Empty, addr 0x2e9aad8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x2e9cad4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexPrefix get_Empty();
 
-  /// @brief Method get_Prefix, addr 0x2e9ab30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2e9cb2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
   static inline void setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::RegexPrefix value);

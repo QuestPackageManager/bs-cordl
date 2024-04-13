@@ -41,13 +41,13 @@ public:
   /// @brief Field _exceptionType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__exceptionType, put = __cordl_internal_set__exceptionType))::System::Type* _exceptionType;
 
-  /// @brief Method Matches, addr 0x2b29e60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x2b2ae5c, size 0x24, virtual false, abstract: false, final false
   inline bool Matches(::System::Type* exceptionType);
 
   static inline ::System::Linq::Expressions::Interpreter::ExceptionHandler* New_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
                                                                                      ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
-  /// @brief Method ToString, addr 0x2b29e84, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b2ae80, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter*& __cordl_internal_get_Filter();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__exceptionType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b29e0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2ae08, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
 protected:

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*, ByRef<::StringW>, ByRef<::StringW>)>(
     &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x30fc40c;
+  constexpr static std::size_t addrs = 0x3102408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x30fc4f0;
+  constexpr static std::size_t addrs = 0x31024ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::StripQueryParameters)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x30fc550;
+  constexpr static std::size_t addrs = 0x310254c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x30fc594;
+  constexpr static std::size_t addrs = 0x3102590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::PlatformCanLoadLocallyFromUrlPath)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x30fc610;
+  constexpr static std::size_t addrs = 0x310260c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>)>(
     &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x30fc714;
+  constexpr static std::size_t addrs = 0x3102710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IList* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>)>(
         &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x30fc8cc;
+  constexpr static std::size_t addrs = 0x31028c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

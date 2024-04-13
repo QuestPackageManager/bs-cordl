@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FormattedFloatListSettingsValueController::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::GlobalNamespace::FormattedFloatListSettingsValueController::GetInitValues)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2532a60;
+  constexpr static std::size_t addrs = 0x253ba5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FormattedFloatListSettingsValueController::*)(int32_t)>(
     &::GlobalNamespace::FormattedFloatListSettingsValueController::ApplyValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2532b40;
+  constexpr static std::size_t addrs = 0x253bb3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FormattedFloatListSettingsValueController::*)(int32_t)>(
     &::GlobalNamespace::FormattedFloatListSettingsValueController::TextForValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2532bb4;
+  constexpr static std::size_t addrs = 0x253bbb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FormattedFloatListSettingsValueController::*)()>(
     &::GlobalNamespace::FormattedFloatListSettingsValueController::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2532c90;
+  constexpr static std::size_t addrs = 0x253bc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

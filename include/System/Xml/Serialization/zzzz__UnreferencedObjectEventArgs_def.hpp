@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_o(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2dc28bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc58b8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* o, ::StringW id);
 
 protected:

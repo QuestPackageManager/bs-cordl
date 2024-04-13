@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::Mono::Net::Security::AsyncHandshakeRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method Run, addr 0x2b663d4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b683d0, size 0x1c, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x2b663cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b683c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
 protected:

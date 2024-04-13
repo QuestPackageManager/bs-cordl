@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SpawnRotationChevronManager__DirectionData::*)()>(
     &::GlobalNamespace::__SpawnRotationChevronManager__DirectionData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d0b1c;
+  constexpr static std::size_t addrs = 0x25d7b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::Start)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x25cf9ac;
+  constexpr static std::size_t addrs = 0x25d69a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationChevronManager*>::get(), "Start",
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(
     &::GlobalNamespace::SpawnRotationChevronManager::Update)> {
   constexpr static std::size_t size = 0xa64;
-  constexpr static std::size_t addrs = 0x25cfc60;
+  constexpr static std::size_t addrs = 0x25d6c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationChevronManager*>::get(), "Update",
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(
     &::GlobalNamespace::SpawnRotationChevronManager::OnDestroy)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x25d06c4;
+  constexpr static std::size_t addrs = 0x25d76c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationChevronManager*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::SpawnRotationChevronManager::HandleBeatmapObjectCallback)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x25d07c0;
+  constexpr static std::size_t addrs = 0x25d77bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)(::GlobalNamespace::SpawnRotationBeatmapEventData*)>(
     &::GlobalNamespace::SpawnRotationChevronManager::HandleSpawnRotationBeatmapEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25d0b24;
+  constexpr static std::size_t addrs = 0x25d7b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(
     &::GlobalNamespace::SpawnRotationChevronManager::HandleBeatmapObjectSpawnControllerDidInit)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x25cfb1c;
+  constexpr static std::size_t addrs = 0x25d6b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SpawnRotationChevronManager::*)()>(
     &::GlobalNamespace::SpawnRotationChevronManager::ComputeAheadTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x25d0b40;
+  constexpr static std::size_t addrs = 0x25d7b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationChevronManager*>::get(),
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x25d0b9c;
+  constexpr static std::size_t addrs = 0x25d7b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnRotationChevronManager*>::get(), ".ctor",

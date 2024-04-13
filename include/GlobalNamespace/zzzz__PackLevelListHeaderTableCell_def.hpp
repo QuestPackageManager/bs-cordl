@@ -52,15 +52,15 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x2633090, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x263a08c, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x2633008, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x263a004, size 0x88, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x2633004, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x263a000, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__arrowImage() const;
@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2633094, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263a090, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x2632fe0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2639fdc, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x2632fbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2639fb8, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

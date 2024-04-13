@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::PointerSpec::*)(int32_t)>(&::System::PointerSpec::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28890cc;
+  constexpr static std::size_t addrs = 0x288d0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::PointerSpec::*)(::System::Type*)>(&::System::PointerSpec::Resolve)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x28890d4;
+  constexpr static std::size_t addrs = 0x288d0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (::System::PointerSpec::*)(::System::Text::StringBuilder*)>(
     &::System::PointerSpec::Append)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2889128;
+  constexpr static std::size_t addrs = 0x288d124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::PointerSpec::*)()>(&::System::PointerSpec::ToString)> {
   constexpr static std::size_t size = 0x1074;
-  constexpr static std::size_t addrs = 0x2889150;
+  constexpr static std::size_t addrs = 0x288d14c;
 
   inline static ::MethodInfo const* methodInfo() {
 

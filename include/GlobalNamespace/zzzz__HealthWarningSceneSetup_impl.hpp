@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningSceneSetup::*)()>(
     &::GlobalNamespace::HealthWarningSceneSetup::InstallBindings)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x259d5fc;
+  constexpr static std::size_t addrs = 0x25a55f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningSceneSetup::*)()>(&::GlobalNamespace::HealthWarningSceneSetup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259d758;
+  constexpr static std::size_t addrs = 0x25a5754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningSceneSetup*>::get(), ".ctor",

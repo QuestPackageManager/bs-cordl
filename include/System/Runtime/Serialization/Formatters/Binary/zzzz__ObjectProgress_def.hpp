@@ -101,13 +101,13 @@ public:
   /// @brief Field typeInformationA, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_typeInformationA, put = __cordl_internal_set_typeInformationA))::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA;
 
-  /// @brief Method ArrayCountIncrement, addr 0x274035c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ArrayCountIncrement, addr 0x2746358, size 0x10, virtual false, abstract: false, final false
   inline void ArrayCountIncrement(int32_t value);
 
-  /// @brief Method GetNext, addr 0x274036c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x2746368, size 0x114, virtual false, abstract: false, final false
   inline bool GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::System::Object*> outTypeInformation);
 
-  /// @brief Method Init, addr 0x274030c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2746308, size 0x50, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* New_ctor();
@@ -229,7 +229,7 @@ public:
 
   constexpr void __cordl_internal_set_typeInformationA(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x274029c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2746298, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_opRecordIdCount();

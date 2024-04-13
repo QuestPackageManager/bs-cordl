@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(::StringW)>(&::HMUI::TextSegmentedControlCell::set_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24028f8;
+  constexpr static std::size_t addrs = 0x240a8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2402974;
+  constexpr static std::size_t addrs = 0x240a970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControlCell*>::get(), "get_text",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(float_t)>(&::HMUI::TextSegmentedControlCell::set_fontSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24028dc;
+  constexpr static std::size_t addrs = 0x240a8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_fontSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2402998;
+  constexpr static std::size_t addrs = 0x240a994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControlCell*>::get(), "get_fontSize",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(bool)>(&::HMUI::TextSegmentedControlCell::set_hideBackgroundImage)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x240291c;
+  constexpr static std::size_t addrs = 0x240a918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_preferredWidth)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2402940;
+  constexpr static std::size_t addrs = 0x240a93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControlCell*>::get(), "get_preferredWidth",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24029b4;
+  constexpr static std::size_t addrs = 0x240a9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControlCell*>::get(), ".ctor",

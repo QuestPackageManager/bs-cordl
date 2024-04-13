@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::PoolableSerializable::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x14152e0;
+  constexpr static std::size_t addrs = 0x14152dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoolableSerializable*>::get(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PoolableSerializable::*)()>(&::GlobalNamespace::PoolableSerializable::Retain)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1414eb4;
+  constexpr static std::size_t addrs = 0x1414eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PoolableSerializable::*)()>(&::GlobalNamespace::PoolableSerializable::Release)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1414da8;
+  constexpr static std::size_t addrs = 0x1414da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IPoolableSerializable*)>(&::GlobalNamespace::PoolableSerializable::Release)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x1415358;
+  constexpr static std::size_t addrs = 0x1415354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>* (*)(::System::Type*)>(
     &::GlobalNamespace::PoolableSerializable::GetPool)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x1415424;
+  constexpr static std::size_t addrs = 0x1415420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PoolableSerializable::*)()>(&::GlobalNamespace::PoolableSerializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14137d8;
+  constexpr static std::size_t addrs = 0x14137d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoolableSerializable*>::get(), ".ctor",

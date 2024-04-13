@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE UrlInputFieldSettingsController : public ::GlobalNamespace::InputFieldSettingsController {
 public:
   // Declarations
-  /// @brief Method HandleInputFieldDidChange, addr 0x25333e8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method HandleInputFieldDidChange, addr 0x253c3e4, size 0x90, virtual true, abstract: false, final false
   inline void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
 
   static inline ::GlobalNamespace::UrlInputFieldSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2533478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253c474, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

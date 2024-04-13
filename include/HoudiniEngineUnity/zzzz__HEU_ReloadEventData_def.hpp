@@ -30,7 +30,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_ReloadEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
                                                                     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method .ctor, addr 0x24304fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24384f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
 protected:

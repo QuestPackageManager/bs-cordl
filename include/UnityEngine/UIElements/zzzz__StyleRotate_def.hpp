@@ -47,28 +47,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>*();
 
-  /// @brief Method Equals, addr 0x33c2254, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x33c5250, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33c21d8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x33c51d4, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleRotate other);
 
-  /// @brief Method GetHashCode, addr 0x33c22e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x33c52e0, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x33c2308, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x33c5304, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x33c2154, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c5150, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x33c2164, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c5160, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Rotate v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x33c214c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x33c5148, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x33bf1c8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x33c21c4, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Rotate get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>"
@@ -77,10 +77,10 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method op_Equality, addr 0x33c217c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x33c5178, size 0x5c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleRotate lhs, ::UnityEngine::UIElements::StyleRotate rhs);
 
-  /// @brief Method op_Implicit, addr 0x33bf620, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x33c261c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRotate op_Implicit___UnityEngine__UIElements__StyleRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
   // Ctor Parameters []

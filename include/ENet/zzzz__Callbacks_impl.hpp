@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ENet::ENetCallbacks (::ENet::Callbacks::*)()>(&::ENet::Callbacks::get_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24d30c0;
+  constexpr static std::size_t addrs = 0x24dd0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Callbacks*>::get(), "get_NativeData",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Callbacks::*)(::ENet::ENetCallbacks)>(&::ENet::Callbacks::set_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24d30d4;
+  constexpr static std::size_t addrs = 0x24dd0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Callbacks::*)(::ENet::AllocCallback*, ::ENet::FreeCallback*, ::ENet::NoMemoryCallback*)>(
     &::ENet::Callbacks::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24d30e8;
+  constexpr static std::size_t addrs = 0x24dd0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

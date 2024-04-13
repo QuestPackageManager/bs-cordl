@@ -28,33 +28,33 @@ public:
 
   __declspec(property(get = get_lowpassResonanceQ, put = set_lowpassResonanceQ)) float_t lowpassResonanceQ;
 
-  /// @brief Method GetCustomLowpassLevelCurveCopy, addr 0x31c8bfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomLowpassLevelCurveCopy, addr 0x31cbbf8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* GetCustomLowpassLevelCurveCopy();
 
   static inline ::UnityEngine::AudioLowPassFilter* New_ctor();
 
-  /// @brief Method SetCustomLowpassLevelCurveHelper, addr 0x31c8c38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetCustomLowpassLevelCurveHelper, addr 0x31cbc34, size 0x44, virtual false, abstract: false, final false
   static inline void SetCustomLowpassLevelCurveHelper(::UnityEngine::AudioLowPassFilter* source, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method .ctor, addr 0x31c8e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cbe08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customCutoffCurve, addr 0x31c8c7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_customCutoffCurve, addr 0x31cbc78, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* get_customCutoffCurve();
 
-  /// @brief Method get_cutoffFrequency, addr 0x31c8cfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cutoffFrequency, addr 0x31cbcf8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_cutoffFrequency();
 
-  /// @brief Method get_lowpassResonanceQ, addr 0x31c8d84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lowpassResonanceQ, addr 0x31cbd80, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_lowpassResonanceQ();
 
-  /// @brief Method set_customCutoffCurve, addr 0x31c8cb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_customCutoffCurve, addr 0x31cbcb4, size 0x44, virtual false, abstract: false, final false
   inline void set_customCutoffCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method set_cutoffFrequency, addr 0x31c8d38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_cutoffFrequency, addr 0x31cbd34, size 0x4c, virtual false, abstract: false, final false
   inline void set_cutoffFrequency(float_t value);
 
-  /// @brief Method set_lowpassResonanceQ, addr 0x31c8dc0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_lowpassResonanceQ, addr 0x31cbdbc, size 0x4c, virtual false, abstract: false, final false
   inline void set_lowpassResonanceQ(float_t value);
 
 protected:

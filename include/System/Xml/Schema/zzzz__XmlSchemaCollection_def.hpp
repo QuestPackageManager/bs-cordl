@@ -111,40 +111,40 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x2d0a0d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2d0b0d0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* Add(::StringW ns, ::System::Xml::Schema::SchemaInfo* schemaInfo, ::System::Xml::Schema::XmlSchema* schema, bool compile);
 
-  /// @brief Method Add, addr 0x2d10c74, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2d11c70, size 0x148, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* Add(::StringW ns, ::System::Xml::Schema::SchemaInfo* schemaInfo, ::System::Xml::Schema::XmlSchema* schema, bool compile,
                                                ::System::Xml::XmlResolver* resolver);
 
-  /// @brief Method Add, addr 0x2d10dc4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2d11dc0, size 0x13c, virtual false, abstract: false, final false
   inline void Add(::StringW ns, ::System::Xml::Schema::XmlSchemaCollectionNode* node);
 
-  /// @brief Method GetEnumerator, addr 0x2d108a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2d118a0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaCollectionEnumerator* GetEnumerator();
 
-  /// @brief Method GetSchemaInfo, addr 0x2d0ba44, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaInfo, addr 0x2d0ca40, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* GetSchemaInfo(::StringW ns);
 
-  /// @brief Method GetSchemaNames, addr 0x2d10bcc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaNames, addr 0x2d11bc8, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaNames* GetSchemaNames(::System::Xml::XmlNameTable* nt);
 
   static inline ::System::Xml::Schema::XmlSchemaCollection* New_ctor(::System::Xml::XmlNameTable* nametable);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2d10908, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2d11904, size 0x11c, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x2d10ba8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x2d11ba4, size 0x24, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2d10b9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2d11b98, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2d10ba4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2d11ba0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2d107fc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2d117f8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_collection();
@@ -195,19 +195,19 @@ public:
 
   constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method .ctor, addr 0x2d10600, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d115fc, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nametable);
 
-  /// @brief Method get_Count, addr 0x2d10724, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2d11720, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_EventHandler, addr 0x2d10f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventHandler, addr 0x2d11efc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ValidationEventHandler* get_EventHandler();
 
-  /// @brief Method get_Item, addr 0x2d10758, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2d11754, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Item(::StringW ns);
 
-  /// @brief Method get_NameTable, addr 0x2d10748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x2d11744, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -216,10 +216,10 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_EventHandler, addr 0x2d10f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventHandler, addr 0x2d11f04, size 0x8, virtual false, abstract: false, final false
   inline void set_EventHandler(::System::Xml::Schema::ValidationEventHandler* value);
 
-  /// @brief Method set_XmlResolver, addr 0x2d10750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x2d1174c, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:

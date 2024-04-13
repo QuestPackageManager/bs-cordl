@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0::*)()>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a309c;
+  constexpr static std::size_t addrs = 0x25ab098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0::_HandleMainGameSceneDidFinish_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25a3b10;
+  constexpr static std::size_t addrs = 0x25abb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0::*)()>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a3274;
+  constexpr static std::size_t addrs = 0x25ab270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0::_HandleMultiplayerLevelDidFinish_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25a3b48;
+  constexpr static std::size_t addrs = 0x25abb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0::*)()>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a3404;
+  constexpr static std::size_t addrs = 0x25ab400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0::_HandleMultiplayerLevelDidDisconnect_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25a3b80;
+  constexpr static std::size_t addrs = 0x25abb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass34_0::*)()>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass34_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a35cc;
+  constexpr static std::size_t addrs = 0x25ab5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass34_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass34_0::_HandleMissionLevelSceneDidFinish_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25a3bb8;
+  constexpr static std::size_t addrs = 0x25abbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass35_0::*)()>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass35_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a3718;
+  constexpr static std::size_t addrs = 0x25ab714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass35_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass35_0::_HandleTutorialSceneDidFinish_b__0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25a3bf0;
+  constexpr static std::size_t addrs = 0x25abbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass38_0::*)()>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass38_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a3a34;
+  constexpr static std::size_t addrs = 0x25aba30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass38_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass38_0::_HandleBeatmapEditorGameSceneDidFinish_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x25a3c2c;
+  constexpr static std::size_t addrs = 0x25abc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -552,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::OnDestroy)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x25a18d8;
+  constexpr static std::size_t addrs = 0x25a98d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuTransitionsHelper*>::get(), "OnDestroy",
@@ -571,7 +571,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*,
     ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>)>(&::GlobalNamespace::MenuTransitionsHelper::StartStandardLevel)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x25a1c94;
+  constexpr static std::size_t addrs = 0x25a9c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -607,7 +607,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*,
     ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>)>(&::GlobalNamespace::MenuTransitionsHelper::StartStandardLevel)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x25a1f9c;
+  constexpr static std::size_t addrs = 0x25a9f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -643,7 +643,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartMissionLevel)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x25a212c;
+  constexpr static std::size_t addrs = 0x25aa128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -672,7 +672,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>*,
     ::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25a269c;
+  constexpr static std::size_t addrs = 0x25aa698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -701,7 +701,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>*,
     ::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x25a26d8;
+  constexpr static std::size_t addrs = 0x25aa6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -728,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::GlobalNamespace::PlayerSpecificSettings*, ::System::Action*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartTutorial)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x25a2b64;
+  constexpr static std::size_t addrs = 0x25aab60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::ShowCredits)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x25a2d1c;
+  constexpr static std::size_t addrs = 0x25aad18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuTransitionsHelper*>::get(), "ShowCredits",
@@ -757,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::System::Action*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25a2e14;
+  constexpr static std::size_t addrs = 0x25aae10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -775,7 +775,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditorStandardLevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25a2e18;
+  constexpr static std::size_t addrs = 0x25aae14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -801,7 +801,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::System::Action_1<::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::MenuTransitionsHelper::RestartGame)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25a2e1c;
+  constexpr static std::size_t addrs = 0x25aae18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -815,7 +815,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::StopStandardLevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25a2e80;
+  constexpr static std::size_t addrs = 0x25aae7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuTransitionsHelper*>::get(),
@@ -829,7 +829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMainGameSceneDidFinish)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x25a2ee8;
+  constexpr static std::size_t addrs = 0x25aaee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidFinish)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x25a30a4;
+  constexpr static std::size_t addrs = 0x25ab0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidDisconnect)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x25a327c;
+  constexpr static std::size_t addrs = 0x25ab278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMissionLevelSceneDidFinish)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x25a340c;
+  constexpr static std::size_t addrs = 0x25ab408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -894,7 +894,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType)>(
     &::GlobalNamespace::MenuTransitionsHelper::HandleTutorialSceneDidFinish)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x25a35d4;
+  constexpr static std::size_t addrs = 0x25ab5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::GlobalNamespace::CreditsScenesTransitionSetupDataSO*)>(
     &::GlobalNamespace::MenuTransitionsHelper::HandleCreditsSceneDidFinish)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x25a3720;
+  constexpr static std::size_t addrs = 0x25ab71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -925,7 +925,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*)>(
     &::GlobalNamespace::MenuTransitionsHelper::HandleBeatmapEditorSceneDidFinish)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x25a37d0;
+  constexpr static std::size_t addrs = 0x25ab7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -941,7 +941,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(
         &::GlobalNamespace::MenuTransitionsHelper::HandleBeatmapEditorGameSceneDidFinish)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x25a3900;
+  constexpr static std::size_t addrs = 0x25ab8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -956,7 +956,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a3aec;
+  constexpr static std::size_t addrs = 0x25abae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuTransitionsHelper*>::get(), ".ctor",
@@ -970,7 +970,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MenuTransitionsHelper::_HandleBeatmapEditorSceneDidFinish_b__37_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25a3af4;
+  constexpr static std::size_t addrs = 0x25abaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

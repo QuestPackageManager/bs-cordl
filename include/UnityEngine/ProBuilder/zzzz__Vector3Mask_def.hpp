@@ -49,77 +49,77 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>*();
 
-  /// @brief Method Equals, addr 0x30ac580, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x30b157c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x30ac570, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x30b156c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::Vector3Mask other);
 
-  /// @brief Method GetHashCode, addr 0x30ac5f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x30b15f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x30ac0fc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x30b10f8, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x30ac0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30b10f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mask);
 
-  /// @brief Method .ctor, addr 0x30ac0c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30b10bc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon);
 
   static inline ::UnityEngine::ProBuilder::Vector3Mask getStaticF_XYZ();
 
-  /// @brief Method get_Item, addr 0x30ac49c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x30b1498, size 0x60, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t i);
 
-  /// @brief Method get_active, addr 0x30ac1e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x30b11e4, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_active();
 
-  /// @brief Method get_x, addr 0x30ac078, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x30b1074, size 0x18, virtual false, abstract: false, final false
   inline float_t get_x();
 
-  /// @brief Method get_y, addr 0x30ac090, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x30b108c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_y();
 
-  /// @brief Method get_z, addr 0x30ac0a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x30b10a4, size 0x18, virtual false, abstract: false, final false
   inline float_t get_z();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>* i___System__IEquatable_1___UnityEngine__ProBuilder__Vector3Mask_();
 
-  /// @brief Method op_BitwiseAnd, addr 0x30ac26c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x30b1268, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_BitwiseAnd(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_BitwiseOr, addr 0x30ac260, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x30b125c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_BitwiseOr(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_Equality, addr 0x30ac424, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x30b1420, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_ExclusiveOr, addr 0x30ac278, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x30b1274, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_ExclusiveOr(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_Explicit, addr 0x30ac228, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x30b1224, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_Explicit___UnityEngine__ProBuilder__Vector3Mask(::UnityEngine::Vector3 v);
 
-  /// @brief Method op_Implicit, addr 0x30ac204, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x30b1200, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::UnityEngine::ProBuilder::Vector3Mask mask);
 
-  /// @brief Method op_Inequality, addr 0x30ac434, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x30b1430, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_Multiply, addr 0x30ac2b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x30b12b4, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Multiply(::UnityEngine::ProBuilder::Vector3Mask mask, ::UnityEngine::Vector3 value);
 
-  /// @brief Method op_Multiply, addr 0x30ac284, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x30b1280, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Multiply(::UnityEngine::ProBuilder::Vector3Mask mask, float_t value);
 
-  /// @brief Method op_Multiply, addr 0x30ac2e8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x30b12e4, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Multiply(::UnityEngine::Quaternion rotation, ::UnityEngine::ProBuilder::Vector3Mask mask);
 
   static inline void setStaticF_XYZ(::UnityEngine::ProBuilder::Vector3Mask value);
 
-  /// @brief Method set_Item, addr 0x30ac4fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x30b14f8, size 0x74, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, float_t value);
 
   // Ctor Parameters []

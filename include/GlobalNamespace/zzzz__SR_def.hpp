@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SR)
 namespace System {
@@ -23,20 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x2adb794, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
-  /// @brief Method Format, addr 0x2adb810, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x2c7ce78, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
-
-  /// @brief Method Format, addr 0x2adb880, size 0x78, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
-
-  /// @brief Method Format, addr 0x2adb8f8, size 0x88, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
-
-  /// @brief Method GetString, addr 0x2adb790, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name);
 
 protected:
   // Ctor Parameters []

@@ -36,34 +36,34 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE ResourceManagerConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArrayResult, addr 0x30fc714, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayResult, addr 0x3102710, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method CreateListResult, addr 0x30fc8cc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CreateListResult, addr 0x31028c8, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateListResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method ExtractKeyAndSubKey, addr 0x30fc40c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ExtractKeyAndSubKey, addr 0x3102408, size 0xe4, virtual false, abstract: false, final false
   static inline bool ExtractKeyAndSubKey(::System::Object* keyObj, ByRef<::StringW> mainKey, ByRef<::StringW> subKey);
 
   /// @brief Method IsInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2> static inline bool IsInstance();
 
-  /// @brief Method IsPathRemote, addr 0x30fc4f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsPathRemote, addr 0x31024ec, size 0x60, virtual false, abstract: false, final false
   static inline bool IsPathRemote(::StringW path);
 
-  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x30fc610, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x310260c, size 0x104, virtual false, abstract: false, final false
   static inline bool PlatformCanLoadLocallyFromUrlPath();
 
-  /// @brief Method ShouldPathUseWebRequest, addr 0x30fc594, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ShouldPathUseWebRequest, addr 0x3102590, size 0x7c, virtual false, abstract: false, final false
   static inline bool ShouldPathUseWebRequest(::StringW path);
 
-  /// @brief Method StripQueryParameters, addr 0x30fc550, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StripQueryParameters, addr 0x310254c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW StripQueryParameters(::StringW path);
 
 protected:

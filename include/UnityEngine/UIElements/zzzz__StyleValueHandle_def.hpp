@@ -25,10 +25,10 @@ public:
   // Declarations
   __declspec(property(get = get_valueType, put = set_valueType))::UnityEngine::UIElements::StyleValueType valueType;
 
-  /// @brief Method get_valueType, addr 0x33b6ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x33b9ad4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueType get_valueType();
 
-  /// @brief Method set_valueType, addr 0x33b76a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_valueType, addr 0x33ba69c, size 0x8, virtual false, abstract: false, final false
   inline void set_valueType(::UnityEngine::UIElements::StyleValueType value);
 
   // Ctor Parameters []

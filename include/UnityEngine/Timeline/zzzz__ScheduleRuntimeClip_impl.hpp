@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::get_start)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x31939dc;
+  constexpr static std::size_t addrs = 0x31969d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::get_duration)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3193a54;
+  constexpr static std::size_t addrs = 0x3196a50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ScheduleRuntimeClip::*)(double_t)>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::SetTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3193aa0;
+  constexpr static std::size_t addrs = 0x3196a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::get_clip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3193af8;
+  constexpr static std::size_t addrs = 0x3196af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ScheduleRuntimeClip*>::get(), "get_clip",
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::get_mixer)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3193b00;
+  constexpr static std::size_t addrs = 0x3196afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ScheduleRuntimeClip*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::get_playable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3193b0c;
+  constexpr static std::size_t addrs = 0x3196b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ScheduleRuntimeClip*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ScheduleRuntimeClip::*)(
     ::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, double_t, double_t)>(&::UnityEngine::Timeline::ScheduleRuntimeClip::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x318e2d8;
+  constexpr static std::size_t addrs = 0x31912d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ScheduleRuntimeClip::*)(
     ::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, double_t, double_t)>(&::UnityEngine::Timeline::ScheduleRuntimeClip::Create)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3193b18;
+  constexpr static std::size_t addrs = 0x3196b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ScheduleRuntimeClip::*)(bool)>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::set_enable)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3193bb0;
+  constexpr static std::size_t addrs = 0x3196bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ScheduleRuntimeClip::*)(double_t, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::EvaluateAt)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3193cb4;
+  constexpr static std::size_t addrs = 0x3196cb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ScheduleRuntimeClip::*)(double_t, double_t, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::ScheduleRuntimeClip::DisableAt)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3193f1c;
+  constexpr static std::size_t addrs = 0x3196f18;
 
   inline static ::MethodInfo const* methodInfo() {
 

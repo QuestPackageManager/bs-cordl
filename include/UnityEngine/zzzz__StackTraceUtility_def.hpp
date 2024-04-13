@@ -29,16 +29,16 @@ public:
   /// @brief Field projectFolder, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_projectFolder, put = setStaticF_projectFolder))::StringW projectFolder;
 
-  /// @brief Method ExtractFormattedStackTrace, addr 0x3206df8, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method ExtractFormattedStackTrace, addr 0x3208df4, size 0x6a8, virtual false, abstract: false, final false
   static inline ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackTrace);
 
-  /// @brief Method ExtractStackTrace, addr 0x3206c94, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ExtractStackTrace, addr 0x3208c90, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW ExtractStackTrace();
 
-  /// @brief Method ExtractStringFromExceptionInternal, addr 0x32074a0, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method ExtractStringFromExceptionInternal, addr 0x320949c, size 0x368, virtual false, abstract: false, final false
   static inline void ExtractStringFromExceptionInternal(::System::Object* exceptiono, ByRef<::StringW> message, ByRef<::StringW> stackTrace);
 
-  /// @brief Method SetProjectFolder, addr 0x3206bb8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetProjectFolder, addr 0x3208bb4, size 0xdc, virtual false, abstract: false, final false
   static inline void SetProjectFolder(::StringW folder);
 
   static inline ::StringW getStaticF_projectFolder();

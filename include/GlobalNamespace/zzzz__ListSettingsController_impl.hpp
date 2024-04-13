@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::OnEnable)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x265ce70;
+  constexpr static std::size_t addrs = 0x2663e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(), "OnEnable",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::RefreshUI)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x265cea4;
+  constexpr static std::size_t addrs = 0x2663ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(), "RefreshUI",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListSettingsController::*)(bool)>(&::GlobalNamespace::ListSettingsController::Refresh)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x265cef8;
+  constexpr static std::size_t addrs = 0x2663ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(
     &::GlobalNamespace::ListSettingsController::IncButtonPressed)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x265cf54;
+  constexpr static std::size_t addrs = 0x2663f50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(
     &::GlobalNamespace::ListSettingsController::DecButtonPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x265cf94;
+  constexpr static std::size_t addrs = 0x2663f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265cfcc;
+  constexpr static std::size_t addrs = 0x2663fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(), ".ctor",

@@ -105,7 +105,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ListView__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x337ac34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337dc30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -180,7 +180,7 @@ public:
       get = __cordl_internal_get_m_VirtualizationMethod,
       put = __cordl_internal_set_m_VirtualizationMethod))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>* m_VirtualizationMethod;
 
-  /// @brief Method Init, addr 0x337ac7c, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x337dc78, size 0x3d4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__ListView__UxmlTraits* New_ctor();
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VirtualizationMethod(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>* value);
 
-  /// @brief Method .ctor, addr 0x337b050, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337e04c, size 0x51c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -468,60 +468,60 @@ public:
 
   __declspec(property(get = get_viewController))::UnityEngine::UIElements::ListViewController* viewController;
 
-  /// @brief Method AddItems, addr 0x3379e20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddItems, addr 0x337ce1c, size 0x24, virtual false, abstract: false, final false
   inline void AddItems(int32_t itemCount);
 
-  /// @brief Method CreateDragAndDropController, addr 0x337a6f4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateDragAndDropController, addr 0x337d6f0, size 0x64, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* CreateDragAndDropController();
 
-  /// @brief Method CreateDragger, addr 0x337a654, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method CreateDragger, addr 0x337d650, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewDragger* CreateDragger();
 
-  /// @brief Method CreateViewController, addr 0x337a3b4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x337d3b0, size 0x64, virtual true, abstract: false, final false
   inline void CreateViewController();
 
-  /// @brief Method CreateVirtualizationController, addr 0x337a36c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CreateVirtualizationController, addr 0x337d368, size 0x48, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
-  /// @brief Method EnableFooter, addr 0x337989c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method EnableFooter, addr 0x337c898, size 0x32c, virtual false, abstract: false, final false
   inline void EnableFooter(bool enabled);
 
   static inline ::UnityEngine::UIElements::ListView* New_ctor();
 
-  /// @brief Method OnAddClicked, addr 0x3379f4c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnAddClicked, addr 0x337cf48, size 0x24c, virtual false, abstract: false, final false
   inline void OnAddClicked();
 
-  /// @brief Method OnArraySizeFieldChanged, addr 0x3379e44, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnArraySizeFieldChanged, addr 0x337ce40, size 0x108, virtual false, abstract: false, final false
   inline void OnArraySizeFieldChanged(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt);
 
-  /// @brief Method OnItemAdded, addr 0x337a5d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnItemAdded, addr 0x337d5d0, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemAdded(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsRemoved, addr 0x337a5f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnItemsRemoved, addr 0x337d5ec, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemsRemoved(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsSourceSizeChanged, addr 0x337a60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnItemsSourceSizeChanged, addr 0x337d608, size 0x8, virtual false, abstract: false, final false
   inline void OnItemsSourceSizeChanged();
 
-  /// @brief Method OnRemoveClicked, addr 0x337a198, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnRemoveClicked, addr 0x337d194, size 0x1cc, virtual false, abstract: false, final false
   inline void OnRemoveClicked();
 
-  /// @brief Method PostRefresh, addr 0x337a7f4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method PostRefresh, addr 0x337d7f0, size 0x24, virtual true, abstract: false, final false
   inline void PostRefresh();
 
-  /// @brief Method SetViewController, addr 0x337a418, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method SetViewController, addr 0x337d414, size 0x1bc, virtual false, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::ListViewController* controller);
 
-  /// @brief Method SetupArraySizeField, addr 0x3378ed4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetupArraySizeField, addr 0x337bed0, size 0x1d4, virtual false, abstract: false, final false
   inline void SetupArraySizeField();
 
-  /// @brief Method UpdateArraySizeField, addr 0x3379bc8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateArraySizeField, addr 0x337cbc4, size 0x70, virtual false, abstract: false, final false
   inline void UpdateArraySizeField();
 
-  /// @brief Method UpdateEmpty, addr 0x33796d0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method UpdateEmpty, addr 0x337c6cc, size 0x1bc, virtual false, abstract: false, final false
   inline void UpdateEmpty();
 
-  /// @brief Method <OnAddClicked>b__35_0, addr 0x337ab64, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <OnAddClicked>b__35_0, addr 0x337db60, size 0xd0, virtual false, abstract: false, final false
   inline void _OnAddClicked_b__35_0();
 
   constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_itemsAdded();
@@ -620,7 +620,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowFoldoutHeader(bool value);
 
-  /// @brief Method .ctor, addr 0x337a758, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337d754, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_arraySizeFieldUssClassName();
@@ -655,22 +655,22 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_reorderMode, addr 0x337a614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reorderMode, addr 0x337d610, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewReorderMode get_reorderMode();
 
-  /// @brief Method get_showAddRemoveFooter, addr 0x337988c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_showAddRemoveFooter, addr 0x337c888, size 0x10, virtual false, abstract: false, final false
   inline bool get_showAddRemoveFooter();
 
-  /// @brief Method get_showBoundCollectionSize, addr 0x3378eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showBoundCollectionSize, addr 0x337beac, size 0x8, virtual false, abstract: false, final false
   inline bool get_showBoundCollectionSize();
 
-  /// @brief Method get_showFoldoutHeader, addr 0x33790d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showFoldoutHeader, addr 0x337c0cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_showFoldoutHeader();
 
-  /// @brief Method get_sourceIncludesArraySize, addr 0x33790a8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_sourceIncludesArraySize, addr 0x337c0a4, size 0x28, virtual true, abstract: false, final false
   inline bool get_sourceIncludesArraySize();
 
-  /// @brief Method get_viewController, addr 0x337a364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x337d360, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewController* get_viewController();
 
   static inline void setStaticF_arraySizeFieldUssClassName(::StringW value);
@@ -705,19 +705,19 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_headerTitle, addr 0x3379c38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_headerTitle, addr 0x337cc34, size 0x18, virtual false, abstract: false, final false
   inline void set_headerTitle(::StringW value);
 
-  /// @brief Method set_reorderMode, addr 0x337a61c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_reorderMode, addr 0x337d618, size 0x38, virtual false, abstract: false, final false
   inline void set_reorderMode(::UnityEngine::UIElements::ListViewReorderMode value);
 
-  /// @brief Method set_showAddRemoveFooter, addr 0x3379c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_showAddRemoveFooter, addr 0x337cc4c, size 0x8, virtual false, abstract: false, final false
   inline void set_showAddRemoveFooter(bool value);
 
-  /// @brief Method set_showBoundCollectionSize, addr 0x3378eb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_showBoundCollectionSize, addr 0x337beb4, size 0x1c, virtual false, abstract: false, final false
   inline void set_showBoundCollectionSize(bool value);
 
-  /// @brief Method set_showFoldoutHeader, addr 0x33790d8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method set_showFoldoutHeader, addr 0x337c0d4, size 0x1a4, virtual false, abstract: false, final false
   inline void set_showFoldoutHeader(bool value);
 
 protected:

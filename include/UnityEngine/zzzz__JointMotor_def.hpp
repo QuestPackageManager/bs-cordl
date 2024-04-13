@@ -26,22 +26,22 @@ public:
 
   __declspec(property(get = get_targetVelocity, put = set_targetVelocity)) float_t targetVelocity;
 
-  /// @brief Method get_force, addr 0x3264640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x326663c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_force();
 
-  /// @brief Method get_freeSpin, addr 0x3264650, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_freeSpin, addr 0x326664c, size 0x10, virtual false, abstract: false, final false
   inline bool get_freeSpin();
 
-  /// @brief Method get_targetVelocity, addr 0x3264630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetVelocity, addr 0x326662c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetVelocity();
 
-  /// @brief Method set_force, addr 0x3264648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x3266644, size 0x8, virtual false, abstract: false, final false
   inline void set_force(float_t value);
 
-  /// @brief Method set_freeSpin, addr 0x3264660, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_freeSpin, addr 0x326665c, size 0xc, virtual false, abstract: false, final false
   inline void set_freeSpin(bool value);
 
-  /// @brief Method set_targetVelocity, addr 0x3264638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetVelocity, addr 0x3266634, size 0x8, virtual false, abstract: false, final false
   inline void set_targetVelocity(float_t value);
 
   // Ctor Parameters []

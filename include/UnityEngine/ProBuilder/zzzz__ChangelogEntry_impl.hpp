@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::SemVer* (::UnityEngine::ProBuilder::ChangelogEntry::*)()>(
     &::UnityEngine::ProBuilder::ChangelogEntry::get_versionInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30685a4;
+  constexpr static std::size_t addrs = 0x306d5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ChangelogEntry*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::ChangelogEntry::*)()>(
     &::UnityEngine::ProBuilder::ChangelogEntry::get_releaseNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30685ac;
+  constexpr static std::size_t addrs = 0x306d5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ChangelogEntry*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ChangelogEntry::*)(::UnityEngine::ProBuilder::SemVer*, ::StringW)>(
     &::UnityEngine::ProBuilder::ChangelogEntry::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x30685b4;
+  constexpr static std::size_t addrs = 0x306d5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::ChangelogEntry::*)()>(&::UnityEngine::ProBuilder::ChangelogEntry::ToString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x30685e0;
+  constexpr static std::size_t addrs = 0x306d5dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

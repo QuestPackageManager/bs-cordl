@@ -78,125 +78,125 @@ public:
   /// @brief Field _writer, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::Newtonsoft::Json::Bson::BsonBinaryWriter* _writer;
 
-  /// @brief Method AddParent, addr 0x299c9b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddParent, addr 0x299e9b0, size 0x24, virtual false, abstract: false, final false
   inline void AddParent(::Newtonsoft::Json::Bson::BsonToken* container);
 
-  /// @brief Method AddToken, addr 0x299cab8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method AddToken, addr 0x299eab4, size 0x1ec, virtual false, abstract: false, final false
   inline void AddToken(::Newtonsoft::Json::Bson::BsonToken* token);
 
-  /// @brief Method AddValue, addr 0x299cca4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x299eca0, size 0x7c, virtual false, abstract: false, final false
   inline void AddValue(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method Close, addr 0x299ca74, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x299ea70, size 0x44, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush, addr 0x299c778, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x299e774, size 0x28, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::Newtonsoft::Json::Bson::BsonWriter* New_ctor(::System::IO::Stream* stream);
 
   static inline ::Newtonsoft::Json::Bson::BsonWriter* New_ctor(::System::IO::BinaryWriter* writer);
 
-  /// @brief Method RemoveParent, addr 0x299c810, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RemoveParent, addr 0x299e80c, size 0x20, virtual false, abstract: false, final false
   inline void RemoveParent();
 
-  /// @brief Method WriteComment, addr 0x299c830, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method WriteComment, addr 0x299e82c, size 0x44, virtual true, abstract: false, final false
   inline void WriteComment(::StringW text);
 
-  /// @brief Method WriteEnd, addr 0x299c7a0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteEnd, addr 0x299e79c, size 0x70, virtual true, abstract: false, final false
   inline void WriteEnd(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method WriteNull, addr 0x299ce18, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x299ee14, size 0x6c, virtual true, abstract: false, final false
   inline void WriteNull();
 
-  /// @brief Method WriteObjectId, addr 0x299db8c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WriteObjectId, addr 0x299fb88, size 0xcc, virtual false, abstract: false, final false
   inline void WriteObjectId(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method WritePropertyName, addr 0x299ca4c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WritePropertyName, addr 0x299ea48, size 0x28, virtual true, abstract: false, final false
   inline void WritePropertyName(::StringW name);
 
-  /// @brief Method WriteRaw, addr 0x299c8b8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method WriteRaw, addr 0x299e8b4, size 0x44, virtual true, abstract: false, final false
   inline void WriteRaw(::StringW json);
 
-  /// @brief Method WriteRawValue, addr 0x299c8fc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method WriteRawValue, addr 0x299e8f8, size 0x44, virtual true, abstract: false, final false
   inline void WriteRawValue(::StringW json);
 
-  /// @brief Method WriteRegex, addr 0x299dc58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WriteRegex, addr 0x299fc54, size 0xb8, virtual false, abstract: false, final false
   inline void WriteRegex(::StringW pattern, ::StringW options);
 
-  /// @brief Method WriteStartArray, addr 0x299c940, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteStartArray, addr 0x299e93c, size 0x74, virtual true, abstract: false, final false
   inline void WriteStartArray();
 
-  /// @brief Method WriteStartConstructor, addr 0x299c874, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method WriteStartConstructor, addr 0x299e870, size 0x44, virtual true, abstract: false, final false
   inline void WriteStartConstructor(::StringW name);
 
-  /// @brief Method WriteStartObject, addr 0x299c9d8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteStartObject, addr 0x299e9d4, size 0x74, virtual true, abstract: false, final false
   inline void WriteStartObject();
 
-  /// @brief Method WriteUndefined, addr 0x299ce84, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteUndefined, addr 0x299ee80, size 0x6c, virtual true, abstract: false, final false
   inline void WriteUndefined();
 
-  /// @brief Method WriteValue, addr 0x299d878, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f874, size 0xa4, virtual true, abstract: false, final false
   inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method WriteValue, addr 0x299cef0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299eeec, size 0xc8, virtual true, abstract: false, final false
   inline void WriteValue(::StringW value);
 
-  /// @brief Method WriteValue, addr 0x299d734, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f730, size 0xb8, virtual true, abstract: false, final false
   inline void WriteValue(::System::DateTime value);
 
-  /// @brief Method WriteValue, addr 0x299d7ec, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f7e8, size 0x8c, virtual true, abstract: false, final false
   inline void WriteValue(::System::DateTimeOffset value);
 
-  /// @brief Method WriteValue, addr 0x299d680, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f67c, size 0xb4, virtual true, abstract: false, final false
   inline void WriteValue(::System::Decimal value);
 
-  /// @brief Method WriteValue, addr 0x299d91c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f918, size 0xb8, virtual true, abstract: false, final false
   inline void WriteValue(::System::Guid value);
 
-  /// @brief Method WriteValue, addr 0x299cd20, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299ed1c, size 0xf8, virtual true, abstract: false, final false
   inline void WriteValue(::System::Object* value);
 
-  /// @brief Method WriteValue, addr 0x299d9d4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f9d0, size 0xb0, virtual true, abstract: false, final false
   inline void WriteValue(::System::TimeSpan value);
 
-  /// @brief Method WriteValue, addr 0x299da84, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299fa80, size 0x108, virtual true, abstract: false, final false
   inline void WriteValue(::System::Uri* value);
 
-  /// @brief Method WriteValue, addr 0x299d320, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f31c, size 0x90, virtual true, abstract: false, final false
   inline void WriteValue(bool value);
 
-  /// @brief Method WriteValue, addr 0x299d4a8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f4a4, size 0xe0, virtual true, abstract: false, final false
   inline void WriteValue(char16_t value);
 
-  /// @brief Method WriteValue, addr 0x299d2a4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f2a0, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(double_t value);
 
-  /// @brief Method WriteValue, addr 0x299d228, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f224, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(float_t value);
 
-  /// @brief Method WriteValue, addr 0x299d3b0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f3ac, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(int16_t value);
 
-  /// @brief Method WriteValue, addr 0x299cfb8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299efb4, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(int32_t value);
 
-  /// @brief Method WriteValue, addr 0x299d0f0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f0ec, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(int64_t value);
 
-  /// @brief Method WriteValue, addr 0x299d604, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f600, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(int8_t value);
 
-  /// @brief Method WriteValue, addr 0x299d42c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f428, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(uint16_t value);
 
-  /// @brief Method WriteValue, addr 0x299d034, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f030, size 0xbc, virtual true, abstract: false, final false
   inline void WriteValue(uint32_t value);
 
-  /// @brief Method WriteValue, addr 0x299d16c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f168, size 0xbc, virtual true, abstract: false, final false
   inline void WriteValue(uint64_t value);
 
-  /// @brief Method WriteValue, addr 0x299d588, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x299f584, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(uint8_t value);
 
   constexpr ::Newtonsoft::Json::Bson::BsonToken*& __cordl_internal_get__parent();
@@ -223,16 +223,16 @@ public:
 
   constexpr void __cordl_internal_set__writer(::Newtonsoft::Json::Bson::BsonBinaryWriter* value);
 
-  /// @brief Method .ctor, addr 0x299c5b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299e5ac, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method .ctor, addr 0x299c6ac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299e6a8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::BinaryWriter* writer);
 
-  /// @brief Method get_DateTimeKindHandling, addr 0x299c578, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeKindHandling, addr 0x299e574, size 0x1c, virtual false, abstract: false, final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();
 
-  /// @brief Method set_DateTimeKindHandling, addr 0x299c594, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeKindHandling, addr 0x299e590, size 0x1c, virtual false, abstract: false, final false
   inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
 protected:

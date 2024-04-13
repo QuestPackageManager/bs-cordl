@@ -101,20 +101,20 @@ public:
 
   constexpr void __cordl_internal_set__minargs(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2d61c0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d64c08, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::__Function__FunctionType ftype, int32_t minargs, int32_t maxargs,
                     ::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*> argTypes);
 
-  /// @brief Method get_ArgTypes, addr 0x2d62158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArgTypes, addr 0x2d65154, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*> get_ArgTypes();
 
-  /// @brief Method get_FType, addr 0x2d62140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FType, addr 0x2d6513c, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__Function__FunctionType get_FType();
 
-  /// @brief Method get_Maxargs, addr 0x2d62150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Maxargs, addr 0x2d6514c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Maxargs();
 
-  /// @brief Method get_Minargs, addr 0x2d62148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Minargs, addr 0x2d65144, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Minargs();
 
 protected:
@@ -217,97 +217,97 @@ public:
   static __declspec(property(get = getStaticF_s_temparray9,
                              put = setStaticF_s_temparray9))::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*> s_temparray9;
 
-  /// @brief Method CheckNodeSet, addr 0x2d5fa44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckNodeSet, addr 0x2d62a40, size 0x5c, virtual false, abstract: false, final false
   inline void CheckNodeSet(::System::Xml::XPath::XPathResultType t);
 
-  /// @brief Method CheckToken, addr 0x2d6075c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CheckToken, addr 0x2d63758, size 0x64, virtual false, abstract: false, final false
   inline void CheckToken(::MS::Internal::Xml::XPath::__XPathScanner__LexKind t);
 
-  /// @brief Method CreateAxesTable, addr 0x2d61c50, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CreateAxesTable, addr 0x2d64c4c, size 0x2b0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::MS::Internal::Xml::XPath::__Axis__AxisType>* CreateAxesTable();
 
-  /// @brief Method CreateFunctionTable, addr 0x2d610e8, size 0xb24, virtual false, abstract: false, final false
+  /// @brief Method CreateFunctionTable, addr 0x2d640e4, size 0xb24, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::MS::Internal::Xml::XPath::__XPathParser__ParamInfo*>* CreateFunctionTable();
 
-  /// @brief Method GetAxis, addr 0x2d60380, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetAxis, addr 0x2d6337c, size 0xe8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__Axis__AxisType GetAxis();
 
-  /// @brief Method IsNodeType, addr 0x2d5faa0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsNodeType, addr 0x2d62a9c, size 0xf4, virtual false, abstract: false, final false
   static inline bool IsNodeType(::MS::Internal::Xml::XPath::XPathScanner* scaner);
 
-  /// @brief Method IsPrimaryExpr, addr 0x2d5fb94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsPrimaryExpr, addr 0x2d62b90, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsPrimaryExpr(::MS::Internal::Xml::XPath::XPathScanner* scanner);
 
-  /// @brief Method IsStep, addr 0x2d601b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsStep, addr 0x2d631ac, size 0x48, virtual false, abstract: false, final false
   static inline bool IsStep(::MS::Internal::Xml::XPath::__XPathScanner__LexKind lexKind);
 
   static inline ::MS::Internal::Xml::XPath::XPathParser* New_ctor(::MS::Internal::Xml::XPath::XPathScanner* scanner);
 
-  /// @brief Method NextLex, addr 0x2d5f338, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method NextLex, addr 0x2d62334, size 0x18, virtual false, abstract: false, final false
   inline void NextLex();
 
-  /// @brief Method ParseAdditiveExpr, addr 0x2d5f530, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ParseAdditiveExpr, addr 0x2d6252c, size 0xdc, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseAdditiveExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseAndExpr, addr 0x2d5f1f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ParseAndExpr, addr 0x2d621f4, size 0xf4, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseAndExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseEqualityExpr, addr 0x2d5f350, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ParseEqualityExpr, addr 0x2d6234c, size 0xdc, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseEqualityExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseExpression, addr 0x2d5f0a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ParseExpression, addr 0x2d6209c, size 0x64, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseExpression(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseFilterExpr, addr 0x2d5fc44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ParseFilterExpr, addr 0x2d62c40, size 0xb4, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseFilterExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseLocationPath, addr 0x2d5fdc4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ParseLocationPath, addr 0x2d62dc0, size 0x150, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseLocationPath(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseMethod, addr 0x2d607c0, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method ParseMethod, addr 0x2d637bc, size 0x56c, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseMethod(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseMultiplicativeExpr, addr 0x2d5f60c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiplicativeExpr, addr 0x2d62608, size 0x130, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseMultiplicativeExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseNodeTest, addr 0x2d60468, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ParseNodeTest, addr 0x2d63464, size 0x2f4, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseNodeTest(::MS::Internal::Xml::XPath::AstNode* qyInput, ::MS::Internal::Xml::XPath::__Axis__AxisType axisType,
                                                             ::System::Xml::XPath::XPathNodeType nodeType);
 
-  /// @brief Method ParseOrExpr, addr 0x2d5f104, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ParseOrExpr, addr 0x2d62100, size 0xf4, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseOrExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParsePathExpr, addr 0x2d5f928, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ParsePathExpr, addr 0x2d62924, size 0x11c, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParsePathExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParsePredicate, addr 0x2d60124, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ParsePredicate, addr 0x2d63120, size 0x6c, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParsePredicate(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParsePrimaryExpr, addr 0x2d5ff14, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ParsePrimaryExpr, addr 0x2d62f10, size 0x210, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParsePrimaryExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseRelationalExpr, addr 0x2d5f42c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ParseRelationalExpr, addr 0x2d62428, size 0x104, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseRelationalExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseRelativeLocationPath, addr 0x2d5fcf8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ParseRelativeLocationPath, addr 0x2d62cf4, size 0xcc, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseRelativeLocationPath(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseStep, addr 0x2d601f8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ParseStep, addr 0x2d631f4, size 0x188, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseStep(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseUnaryExpr, addr 0x2d5f73c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseUnaryExpr, addr 0x2d62738, size 0xe4, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseUnaryExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseUnionExpr, addr 0x2d5f820, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ParseUnionExpr, addr 0x2d6281c, size 0x108, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* ParseUnionExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
 
-  /// @brief Method ParseXPathExpression, addr 0x2d5ef24, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseXPathExpression, addr 0x2d61f20, size 0xe4, virtual false, abstract: false, final false
   static inline ::MS::Internal::Xml::XPath::AstNode* ParseXPathExpression(::StringW xpathExpression);
 
-  /// @brief Method PassToken, addr 0x2d60190, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PassToken, addr 0x2d6318c, size 0x20, virtual false, abstract: false, final false
   inline void PassToken(::MS::Internal::Xml::XPath::__XPathScanner__LexKind t);
 
-  /// @brief Method TestOp, addr 0x2d5f2ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TestOp, addr 0x2d622e8, size 0x4c, virtual false, abstract: false, final false
   inline bool TestOp(::StringW op);
 
   constexpr int32_t const& __cordl_internal_get__parseDepth() const;
@@ -322,7 +322,7 @@ public:
 
   constexpr void __cordl_internal_set__scanner(::MS::Internal::Xml::XPath::XPathScanner* value);
 
-  /// @brief Method .ctor, addr 0x2d5eefc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d61ef8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::XPathScanner* scanner);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::MS::Internal::Xml::XPath::__Axis__AxisType>* getStaticF_s_AxesTable();

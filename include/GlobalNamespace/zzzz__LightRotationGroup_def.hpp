@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightRotationGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c4674, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb670, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

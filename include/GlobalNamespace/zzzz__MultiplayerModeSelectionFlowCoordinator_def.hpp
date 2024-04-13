@@ -181,10 +181,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2650b88, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2658b84, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2650f5c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2658f58, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -247,10 +247,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2650f68, size 0xaf4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2658f64, size 0xaf4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2651a5c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2659a58, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -334,10 +334,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2651a68, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2659a64, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2651e98, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2659e94, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -510,93 +510,93 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* didFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x264e2c4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x26562c0, size 0xcc, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x264d950, size 0x4d8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x265594c, size 0x4d8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x264dec0, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2655ebc, size 0x404, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleConnectedPlayerManagerCreated, addr 0x26503b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectedPlayerManagerCreated, addr 0x26583b4, size 0x9c, virtual false, abstract: false, final false
   inline void HandleConnectedPlayerManagerCreated(::GlobalNamespace::INetworkPlayerModel* networkPlayerModel);
 
-  /// @brief Method HandleCreateServerViewControllerDidFinish, addr 0x264fcb4, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method HandleCreateServerViewControllerDidFinish, addr 0x2657cb0, size 0x404, virtual false, abstract: false, final false
   inline void HandleCreateServerViewControllerDidFinish(bool success, ::GlobalNamespace::CreateServerFormData data);
 
-  /// @brief Method HandleGameServerBrowserFlowCoordinatorDidFinish, addr 0x264f678, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerBrowserFlowCoordinatorDidFinish, addr 0x2657674, size 0x14, virtual false, abstract: false, final false
   inline void HandleGameServerBrowserFlowCoordinatorDidFinish(::GlobalNamespace::GameServerBrowserFlowCoordinator* flowCoordinator);
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x26500b8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x26580b4, size 0x268, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidFinish();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorWillFinish, addr 0x2650320, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorWillFinish, addr 0x265831c, size 0x98, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorWillFinish();
 
-  /// @brief Method HandleJoinQuickPlayViewControllerDidFinish, addr 0x264f750, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method HandleJoinQuickPlayViewControllerDidFinish, addr 0x265774c, size 0x440, virtual false, abstract: false, final false
   inline void HandleJoinQuickPlayViewControllerDidFinish(bool success);
 
-  /// @brief Method HandleJoiningLobbyViewControllerDidCancel, addr 0x264f68c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleJoiningLobbyViewControllerDidCancel, addr 0x2657688, size 0xc4, virtual false, abstract: false, final false
   inline void HandleJoiningLobbyViewControllerDidCancel();
 
-  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionFailed, addr 0x264efd4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionFailed, addr 0x2656fd0, size 0xc4, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyConnectionControllerConnectionFailed(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType connectionType,
                                                                          ::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccess, addr 0x264efd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccess, addr 0x2656fcc, size 0x4, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyConnectionControllerConnectionSuccess();
 
-  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel, addr 0x264efb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel, addr 0x2656fb0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel();
 
-  /// @brief Method HandleMultiplayerLobbyControllerDidFinish, addr 0x264f098, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLobbyControllerDidFinish, addr 0x2657094, size 0x5e0, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyControllerDidFinish(::GlobalNamespace::MultiplayerModeSelectionViewController* viewController,
                                                         ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton menuButton);
 
-  /// @brief Method HandleServerCodeEntryViewControllerDidFinish, addr 0x264fb90, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandleServerCodeEntryViewControllerDidFinish, addr 0x2657b8c, size 0x124, virtual false, abstract: false, final false
   inline void HandleServerCodeEntryViewControllerDidFinish(bool success, ::StringW code);
 
   static inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* New_ctor();
 
-  /// @brief Method PresentConnectionErrorDialog, addr 0x264ea50, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method PresentConnectionErrorDialog, addr 0x2656a4c, size 0x564, virtual false, abstract: false, final false
   inline void PresentConnectionErrorDialog(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType connectionType, ::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method PresentMasterServerUnavailableErrorDialog, addr 0x2650454, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method PresentMasterServerUnavailableErrorDialog, addr 0x2658450, size 0x478, virtual false, abstract: false, final false
   inline void PresentMasterServerUnavailableErrorDialog(::GlobalNamespace::MultiplayerUnavailableReason reason, ::System::Exception* exception, ::System::Nullable_1<int64_t> maintenanceWindowEndTime,
                                                         ::StringW remoteLocalizedMessage);
 
-  /// @brief Method ProcessDeeplinkingToLobby, addr 0x26508cc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ProcessDeeplinkingToLobby, addr 0x26588c8, size 0xf4, virtual false, abstract: false, final false
   inline void ProcessDeeplinkingToLobby();
 
-  /// @brief Method ResolveAndPresentNextFlowCoordinator, addr 0x264e9c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ResolveAndPresentNextFlowCoordinator, addr 0x26569bc, size 0x90, virtual false, abstract: false, final false
   inline void ResolveAndPresentNextFlowCoordinator();
 
-  /// @brief Method Setup, addr 0x264d948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2655944, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x264e390, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x265638c, size 0x24c, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method TransitionDidFinish, addr 0x264e73c, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidFinish, addr 0x2656738, size 0x284, virtual true, abstract: false, final false
   inline void TransitionDidFinish();
 
-  /// @brief Method TransitionDidStart, addr 0x264e5dc, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidStart, addr 0x26565d8, size 0x160, virtual true, abstract: false, final false
   inline void TransitionDidStart();
 
-  /// @brief Method TryShowModeSelection, addr 0x264de28, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryShowModeSelection, addr 0x2655e24, size 0x98, virtual false, abstract: false, final false
   inline void TryShowModeSelection(bool shouldProvideInitialViewControllers);
 
-  /// @brief Method <PresentConnectionErrorDialog>b__53_0, addr 0x2650b38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PresentConnectionErrorDialog>b__53_0, addr 0x2658b34, size 0x18, virtual false, abstract: false, final false
   inline void _PresentConnectionErrorDialog_b__53_0(int32_t btnId);
 
-  /// @brief Method <PresentConnectionErrorDialog>b__53_1, addr 0x2650b50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PresentConnectionErrorDialog>b__53_1, addr 0x2658b4c, size 0x18, virtual false, abstract: false, final false
   inline void _PresentConnectionErrorDialog_b__53_1(int32_t btnId);
 
-  /// @brief Method <PresentMasterServerUnavailableErrorDialog>b__54_0, addr 0x2650b68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PresentMasterServerUnavailableErrorDialog>b__54_0, addr 0x2658b64, size 0x20, virtual false, abstract: false, final false
   inline void _PresentMasterServerUnavailableErrorDialog_b__54_0(int32_t btnId);
 
-  /// @brief Method <ResolveAndPresentNextFlowCoordinator>b__52_0, addr 0x26509c8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method <ResolveAndPresentNextFlowCoordinator>b__52_0, addr 0x26589c4, size 0x170, virtual false, abstract: false, final false
   inline void _ResolveAndPresentNextFlowCoordinator_b__52_0();
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__ambienceAudioClip() const;
@@ -779,13 +779,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
-  /// @brief Method .ctor, addr 0x26509c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26589bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x264356c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x264b568, size 0xb4, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2643e48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x264be44, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
 protected:

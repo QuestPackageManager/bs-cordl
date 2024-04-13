@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__RepeatButton__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x337453c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3377538, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   /// @brief Field m_Interval, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Interval, put = __cordl_internal_set_m_Interval))::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Interval;
 
-  /// @brief Method Init, addr 0x3374584, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3377580, size 0x134, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__RepeatButton__UxmlTraits* New_ctor();
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Interval(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x33746b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33776b4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,7 +164,7 @@ public:
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
-  /// @brief Method SetAction, addr 0x3374438, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetAction, addr 0x3377434, size 0xa4, virtual false, abstract: false, final false
   inline void SetAction(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
@@ -173,10 +173,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x3374364, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3377360, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33743f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33773f4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   static inline ::StringW getStaticF_ussClassName();

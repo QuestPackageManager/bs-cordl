@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectIDGenerator::*)()>(
     &::System::Runtime::Serialization::ObjectIDGenerator::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2734e38;
+  constexpr static std::size_t addrs = 0x273ae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectIDGenerator*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ByRef<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::FindElement)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2734f10;
+  constexpr static std::size_t addrs = 0x273af0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectIDGenerator*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ByRef<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::GetId)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2734fd4;
+  constexpr static std::size_t addrs = 0x273afd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ByRef<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::HasId)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x273540c;
+  constexpr static std::size_t addrs = 0x273b408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectIDGenerator::*)()>(
     &::System::Runtime::Serialization::ObjectIDGenerator::Rehash)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x2735158;
+  constexpr static std::size_t addrs = 0x273b154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectIDGenerator*>::get(),

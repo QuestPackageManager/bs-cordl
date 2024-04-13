@@ -18,6 +18,8 @@ namespace System::Diagnostics::CodeAnalysis {
 class CORDL_TYPE NotNullWhenAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_ReturnValue)) bool ReturnValue;
+
   /// @brief Field <ReturnValue>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ReturnValue_k__BackingField, put = __cordl_internal_set__ReturnValue_k__BackingField)) bool _ReturnValue_k__BackingField;
 
@@ -29,8 +31,11 @@ public:
 
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x27fac74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c3204, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
+
+  /// @brief Method get_ReturnValue, addr 0x28c322c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ReturnValue();
 
 protected:
   // Ctor Parameters []

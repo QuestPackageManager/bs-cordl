@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item))::System::ComponentModel::IComponent* Item[];
 
-  /// @brief Method get_Item, addr 0x2e31740, size 0x588, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2e3373c, size 0x588, virtual true, abstract: false, final false
   inline ::System::ComponentModel::IComponent* get_Item(::StringW name);
 
 protected:

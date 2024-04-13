@@ -22,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchInvitePanelFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29c886c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29ca868, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x29c8830, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x29ca82c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c5af0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c7aec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

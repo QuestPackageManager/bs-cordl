@@ -35,13 +35,13 @@ public:
   /// @brief Field s_usedNames, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_usedNames, put = setStaticF_s_usedNames))::System::Collections::Generic::HashSet_1<::StringW>* s_usedNames;
 
-  /// @brief Method GetFoldoutDepth, addr 0x334f148, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetFoldoutDepth, addr 0x3352144, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t GetFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetListAndFoldoutDepth, addr 0x3350b48, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetListAndFoldoutDepth, addr 0x3353b44, size 0x114, virtual false, abstract: false, final false
   static inline int32_t GetListAndFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetUniqueName, addr 0x3350a34, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueName, addr 0x3353a30, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueName(::StringW nameBase);
 
   static inline ::System::Type* getStaticF_s_FoldoutType();

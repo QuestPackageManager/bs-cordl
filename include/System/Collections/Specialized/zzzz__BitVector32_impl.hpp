@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::BitVector32::*)(int32_t)>(
     &::System::Collections::Specialized::BitVector32::get_Item)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2e6cbb8;
+  constexpr static std::size_t addrs = 0x2e6ebb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::BitVector32::*)(int32_t, bool)>(
     &::System::Collections::Specialized::BitVector32::set_Item)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2e6cbd0;
+  constexpr static std::size_t addrs = 0x2e6ebcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Collections::Specialized::BitVector32::CreateMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e6cbec;
+  constexpr static std::size_t addrs = 0x2e6ebe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::BitVector32>::get(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::Specialized::BitVector32::CreateMask)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2e6cbf4;
+  constexpr static std::size_t addrs = 0x2e6ebf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::BitVector32::*)(::System::Object*)>(
     &::System::Collections::Specialized::BitVector32::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2e6cc64;
+  constexpr static std::size_t addrs = 0x2e6ec60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::BitVector32::*)()>(
     &::System::Collections::Specialized::BitVector32::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2e6ccdc;
+  constexpr static std::size_t addrs = 0x2e6ecd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Specialized::BitVector32)>(
     &::System::Collections::Specialized::BitVector32::ToString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2e6cd40;
+  constexpr static std::size_t addrs = 0x2e6ed3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Collections::Specialized::BitVector32::*)()>(
     &::System::Collections::Specialized::BitVector32::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e6ce10;
+  constexpr static std::size_t addrs = 0x2e6ee0c;
 
   inline static ::MethodInfo const* methodInfo() {
 

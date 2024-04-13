@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)()>(
     &::System::Net::NetworkInformation::IPAddressCollection::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2f1bb98;
+  constexpr static std::size_t addrs = 0x2f20b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPAddressCollection*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)(
     ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>, int32_t)>(&::System::Net::NetworkInformation::IPAddressCollection::CopyTo)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2f1bc14;
+  constexpr static std::size_t addrs = 0x2f20c10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::NetworkInformation::IPAddressCollection::*)()>(
     &::System::Net::NetworkInformation::IPAddressCollection::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2f1bc7c;
+  constexpr static std::size_t addrs = 0x2f20c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::IPAddressCollection::*)()>(
     &::System::Net::NetworkInformation::IPAddressCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f1bccc;
+  constexpr static std::size_t addrs = 0x2f20cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::Add)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2f1bcd4;
+  constexpr static std::size_t addrs = 0x2f20cd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::InternalAdd)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2f1bd34;
+  constexpr static std::size_t addrs = 0x2f20d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::Contains)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2f1bd8c;
+  constexpr static std::size_t addrs = 0x2f20d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Net::NetworkInformation::IPAddressCollection::*)()>(
     &::System::Net::NetworkInformation::IPAddressCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2f1bde4;
+  constexpr static std::size_t addrs = 0x2f20de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Net::IPAddress*>* (
     ::System::Net::NetworkInformation::IPAddressCollection::*)()>(&::System::Net::NetworkInformation::IPAddressCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2f1bdf4;
+  constexpr static std::size_t addrs = 0x2f20df0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::Remove)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2f1be44;
+  constexpr static std::size_t addrs = 0x2f20e40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)()>(
     &::System::Net::NetworkInformation::IPAddressCollection::Clear)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2f1bea4;
+  constexpr static std::size_t addrs = 0x2f20ea0;
 
   inline static ::MethodInfo const* methodInfo() {
 

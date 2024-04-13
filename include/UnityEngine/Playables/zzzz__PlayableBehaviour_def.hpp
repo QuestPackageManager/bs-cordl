@@ -39,36 +39,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr operator ::UnityEngine::Playables::IPlayableBehaviour*() noexcept;
 
-  /// @brief Method Clone, addr 0x322d62c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x322f628, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::UnityEngine::Playables::PlayableBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x322d620, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x322f61c, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x322d61c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x322f618, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x322d60c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x322f608, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop, addr 0x322d610, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStop, addr 0x322f60c, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate, addr 0x322d614, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableCreate, addr 0x322f610, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x322d618, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x322f614, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x322d624, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x322f620, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x322d628, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x322f624, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method .ctor, addr 0x322d604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322f600, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::ICloneable"

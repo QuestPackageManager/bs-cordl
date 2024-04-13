@@ -33,21 +33,21 @@ public:
                              put = setStaticF_s_RuntimeTargetMapping))::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform,
                                                                                                                    ::UnityEngine::AddressableAssets::AddressablesPlatform>* s_RuntimeTargetMapping;
 
-  /// @brief Method GetAddressablesPlatformInternal, addr 0x2f57c70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformInternal, addr 0x2f5cc6c, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x2f57d44, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x2f5cd40, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetPlatform, addr 0x2f57e64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPlatform, addr 0x2f5ce60, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
 
-  /// @brief Method GetPlatformPathSubFolder, addr 0x2f4bb1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPathSubFolder, addr 0x2f50b18, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPathSubFolder();
 
   static inline ::UnityEngine::AddressableAssets::PlatformMappingService* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f57ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5cec0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();

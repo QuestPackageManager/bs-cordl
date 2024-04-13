@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void* (*)(::UnityOpus::SamplingFrequency, ::UnityOpus::NumChannels, ::UnityOpus::OpusApplication, ByRef<::UnityOpus::ErrorCode>)>(&::UnityOpus::Library::OpusEncoderCreate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x24dbcd0;
+  constexpr static std::size_t addrs = 0x24e4ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, ::ArrayW<int16_t, ::Array<int16_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::UnityOpus::Library::OpusEncode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x24dc0e4;
+  constexpr static std::size_t addrs = 0x24e50e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::UnityOpus::Library::OpusEncodeFloat)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x24dbe1c;
+  constexpr static std::size_t addrs = 0x24e4e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityOpus::Library::OpusEncoderDestroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24dbf5c;
+  constexpr static std::size_t addrs = 0x24e4f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, int32_t)>(&::UnityOpus::Library::OpusEncoderSetBitrate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x24db9b4;
+  constexpr static std::size_t addrs = 0x24e49b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, int32_t)>(&::UnityOpus::Library::OpusEncoderSetComplexity)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x24dba68;
+  constexpr static std::size_t addrs = 0x24e4a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, ::UnityOpus::OpusSignal)>(&::UnityOpus::Library::OpusEncoderSetSignal)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x24dbb1c;
+  constexpr static std::size_t addrs = 0x24e4b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::UnityOpus::SamplingFrequency, ::UnityOpus::NumChannels, ByRef<::UnityOpus::ErrorCode>)>(
     &::UnityOpus::Library::OpusDecoderCreate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x24db4a8;
+  constexpr static std::size_t addrs = 0x24e44a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(void*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<int16_t, ::Array<int16_t>*>, int32_t, int32_t)>(&::UnityOpus::Library::OpusDecode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x24dc1a0;
+  constexpr static std::size_t addrs = 0x24e519c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(void*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t)>(&::UnityOpus::Library::OpusDecodeFloat)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x24db608;
+  constexpr static std::size_t addrs = 0x24e4604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityOpus::Library::OpusDecoderDestroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24db7fc;
+  constexpr static std::size_t addrs = 0x24e47f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t, ::UnityOpus::NumChannels, ::ArrayW<float_t, ::Array<float_t>*>)>(&::UnityOpus::Library::OpusPcmSoftClip)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x24db6cc;
+  constexpr static std::size_t addrs = 0x24e46c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityOpus::Library::*)()>(&::UnityOpus::Library::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24dc264;
+  constexpr static std::size_t addrs = 0x24e5260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityOpus::Library*>::get(), ".ctor",

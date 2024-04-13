@@ -257,13 +257,13 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x1411eb8, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x1411eb4, size 0x124, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CreateFromSerializedData, addr 0x14121c8, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method CreateFromSerializedData, addr 0x14121c4, size 0x340, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x14121c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x14121bc, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor();
@@ -277,7 +277,7 @@ public:
                                                                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                                                                     float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime);
 
-  /// @brief Method Serialize, addr 0x1411fdc, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x1411fd8, size 0x1d4, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() const;
@@ -424,10 +424,10 @@ public:
 
   constexpr void __cordl_internal_set_totalCutScore(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1411d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1411d80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1411d8c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1411d88, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::__RankModel__Rank rank, bool fullCombo,
                     float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance,
                     ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType, ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy,

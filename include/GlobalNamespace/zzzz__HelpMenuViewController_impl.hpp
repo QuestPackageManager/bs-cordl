@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::HelpMenuViewController::add_didSelectHelpSubMenuEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x253e64c;
+  constexpr static std::size_t addrs = 0x2547648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::HelpMenuViewController::remove_didSelectHelpSubMenuEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x253e6fc;
+  constexpr static std::size_t addrs = 0x25476f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>*)>(&::GlobalNamespace::HelpMenuViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x253e7ac;
+  constexpr static std::size_t addrs = 0x25477a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::HelpMenuViewController::DidActivate)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x253e7b4;
+  constexpr static std::size_t addrs = 0x25477b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::HelpMenuViewController::HandleHelpMenuSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x253ea6c;
+  constexpr static std::size_t addrs = 0x2547a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)()>(&::GlobalNamespace::HelpMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x253ea90;
+  constexpr static std::size_t addrs = 0x2547a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HelpMenuViewController*>::get(), ".ctor",

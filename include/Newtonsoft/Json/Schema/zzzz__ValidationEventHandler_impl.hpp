@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::Object*, void*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2947a24;
+  constexpr static std::size_t addrs = 0x294aa20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(
     ::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*)>(&::Newtonsoft::Json::Schema::ValidationEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x29532d0;
+  constexpr static std::size_t addrs = 0x29562cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*, ::System::AsyncCallback*, ::System::Object*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x29532e4;
+  constexpr static std::size_t addrs = 0x29562e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::IAsyncResult*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x295330c;
+  constexpr static std::size_t addrs = 0x2956308;
 
   inline static ::MethodInfo const* methodInfo() {
 

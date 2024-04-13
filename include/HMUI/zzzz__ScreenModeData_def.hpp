@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffsetRelativeToHead(float_t value);
 
-  /// @brief Method .ctor, addr 0x240d5dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24155d8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos);
 
 protected:

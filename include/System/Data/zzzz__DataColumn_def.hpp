@@ -285,106 +285,106 @@ public:
   /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-  /// @brief Method AddDependentColumn, addr 0x2b7e804, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddDependentColumn, addr 0x2b80800, size 0xfc, virtual false, abstract: false, final false
   inline void AddDependentColumn(::System::Data::DataColumn* expressionColumn);
 
-  /// @brief Method CheckColumnConstraint, addr 0x2b7d038, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckColumnConstraint, addr 0x2b7f034, size 0x54, virtual false, abstract: false, final false
   inline void CheckColumnConstraint(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
-  /// @brief Method CheckMaxLength, addr 0x2b7bb58, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method CheckMaxLength, addr 0x2b7db54, size 0x380, virtual false, abstract: false, final false
   inline bool CheckMaxLength();
 
-  /// @brief Method CheckMaxLength, addr 0x2b7d104, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CheckMaxLength, addr 0x2b7f100, size 0x7c, virtual false, abstract: false, final false
   inline void CheckMaxLength(::System::Data::DataRow* dr);
 
-  /// @brief Method CheckNotAllowNull, addr 0x2b78440, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method CheckNotAllowNull, addr 0x2b7a43c, size 0x438, virtual false, abstract: false, final false
   inline void CheckNotAllowNull();
 
-  /// @brief Method CheckNullable, addr 0x2b7d08c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckNullable, addr 0x2b7f088, size 0x78, virtual false, abstract: false, final false
   inline void CheckNullable(::System::Data::DataRow* row);
 
-  /// @brief Method CheckUnique, addr 0x2b7ccc0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CheckUnique, addr 0x2b7ecbc, size 0x4c, virtual false, abstract: false, final false
   inline void CheckUnique();
 
-  /// @brief Method Clone, addr 0x2b7d538, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x2b7f534, size 0x4c8, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* Clone();
 
-  /// @brief Method Compare, addr 0x2b7d2d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x2b7f2d4, size 0x20, virtual false, abstract: false, final false
   inline int32_t Compare(int32_t record1, int32_t record2);
 
-  /// @brief Method CompareValueTo, addr 0x2b7d2f8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x2b7f2f4, size 0x1e0, virtual false, abstract: false, final false
   inline bool CompareValueTo(int32_t record1, ::System::Object* value, bool checkType);
 
-  /// @brief Method CompareValueTo, addr 0x2b7d4d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x2b7f4d4, size 0x20, virtual false, abstract: false, final false
   inline int32_t CompareValueTo(int32_t record1, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2b7a684, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x2b7c680, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2b7e724, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x2b80720, size 0x54, virtual false, abstract: false, final false
   inline void ConvertObjectToXml(::System::Object* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method ConvertValue, addr 0x2b7d4f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x2b7f4f4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2b7e6a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x2b806a0, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2b7e6e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x2b806dc, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method Copy, addr 0x2b7d518, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2b7f514, size 0x20, virtual false, abstract: false, final false
   inline void Copy(int32_t srcRecordNo, int32_t dstRecordNo);
 
-  /// @brief Method CopyValueIntoStore, addr 0x2b7e7ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CopyValueIntoStore, addr 0x2b807a8, size 0x1c, virtual false, abstract: false, final false
   inline void CopyValueIntoStore(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method FreeRecord, addr 0x2b7c7ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FreeRecord, addr 0x2b7e7e8, size 0x24, virtual false, abstract: false, final false
   inline void FreeRecord(int32_t record);
 
-  /// @brief Method GetAggregateValue, addr 0x2b7db20, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetAggregateValue, addr 0x2b7fb1c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Object* GetAggregateValue(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method GetColumnValueAsString, addr 0x2b7a59c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnValueAsString, addr 0x2b7c598, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetColumnValueAsString(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetDataRow, addr 0x2b7c468, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDataRow, addr 0x2b7e464, size 0x24, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetDataRow(int32_t index);
 
-  /// @brief Method GetEmptyColumnStore, addr 0x2b7e778, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetEmptyColumnStore, addr 0x2b80774, size 0x34, virtual false, abstract: false, final false
   inline ::System::Object* GetEmptyColumnStore(int32_t recordCount);
 
-  /// @brief Method GetStringLength, addr 0x2b7d180, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetStringLength, addr 0x2b7f17c, size 0x20, virtual false, abstract: false, final false
   inline int32_t GetStringLength(int32_t record);
 
-  /// @brief Method HandleDependentColumnList, addr 0x2b7b464, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method HandleDependentColumnList, addr 0x2b7d460, size 0x138, virtual false, abstract: false, final false
   inline void HandleDependentColumnList(::System::Data::DataExpression* oldExpression, ::System::Data::DataExpression* newExpression);
 
-  /// @brief Method Init, addr 0x2b7dbe4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2b7fbe0, size 0x8c, virtual false, abstract: false, final false
   inline void Init(int32_t record);
 
-  /// @brief Method InitializeRecord, addr 0x2b7b59c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InitializeRecord, addr 0x2b7d598, size 0x3c, virtual false, abstract: false, final false
   inline void InitializeRecord(int32_t record);
 
-  /// @brief Method InsureStorage, addr 0x2b7e578, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InsureStorage, addr 0x2b80574, size 0x78, virtual false, abstract: false, final false
   inline void InsureStorage();
 
-  /// @brief Method InternalUnique, addr 0x2b7cd0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalUnique, addr 0x2b7ed08, size 0xc, virtual false, abstract: false, final false
   inline void InternalUnique(bool value);
 
-  /// @brief Method IsAutoIncrementType, addr 0x2b78ac4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method IsAutoIncrementType, addr 0x2b7aac0, size 0x2dc, virtual false, abstract: false, final false
   static inline bool IsAutoIncrementType(::System::Type* dataType);
 
-  /// @brief Method IsInRelation, addr 0x2b7a760, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsInRelation, addr 0x2b7c75c, size 0x144, virtual false, abstract: false, final false
   inline bool IsInRelation();
 
-  /// @brief Method IsMaxLengthViolated, addr 0x2b7de44, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method IsMaxLengthViolated, addr 0x2b7fe40, size 0x554, virtual false, abstract: false, final false
   inline bool IsMaxLengthViolated();
 
-  /// @brief Method IsNotAllowDBNullViolated, addr 0x2b7e3e0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsNotAllowDBNullViolated, addr 0x2b803dc, size 0x128, virtual false, abstract: false, final false
   inline bool IsNotAllowDBNullViolated();
 
-  /// @brief Method IsValueCustomTypeInstance, addr 0x2b7dce4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsValueCustomTypeInstance, addr 0x2b7fce0, size 0xcc, virtual false, abstract: false, final false
   inline bool IsValueCustomTypeInstance(::System::Object* value);
 
   static inline ::System::Data::DataColumn* New_ctor();
@@ -393,40 +393,40 @@ public:
 
   static inline ::System::Data::DataColumn* New_ctor(::StringW columnName, ::System::Type* dataType, ::StringW expr, ::System::Data::MappingType type);
 
-  /// @brief Method OnPropertyChanging, addr 0x2b7e550, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnPropertyChanging, addr 0x2b8054c, size 0x28, virtual true, abstract: false, final false
   inline void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs* pcevent);
 
-  /// @brief Method OnSetDataSet, addr 0x2b7e62c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnSetDataSet, addr 0x2b80628, size 0x4, virtual false, abstract: false, final false
   inline void OnSetDataSet();
 
-  /// @brief Method RaisePropertyChanging, addr 0x2b7a2a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaisePropertyChanging, addr 0x2b7c2a0, size 0x7c, virtual false, abstract: false, final false
   inline void RaisePropertyChanging(::StringW name);
 
-  /// @brief Method RemoveDependentColumn, addr 0x2b7e900, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RemoveDependentColumn, addr 0x2b808fc, size 0x98, virtual false, abstract: false, final false
   inline void RemoveDependentColumn(::System::Data::DataColumn* expressionColumn);
 
-  /// @brief Method SetCapacity, addr 0x2b7e5f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x2b805ec, size 0x3c, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetMaxLengthSimpleType, addr 0x2b7b6d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetMaxLengthSimpleType, addr 0x2b7d6cc, size 0x7c, virtual false, abstract: false, final false
   inline void SetMaxLengthSimpleType();
 
-  /// @brief Method SetOrdinalInternal, addr 0x2b7c178, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetOrdinalInternal, addr 0x2b7e174, size 0x12c, virtual false, abstract: false, final false
   inline void SetOrdinalInternal(int32_t ordinal);
 
-  /// @brief Method SetStorage, addr 0x2b7e7c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x2b807c4, size 0x3c, virtual false, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
-  /// @brief Method SetTable, addr 0x2b7c3b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetTable, addr 0x2b7e3b4, size 0xb0, virtual false, abstract: false, final false
   inline void SetTable(::System::Data::DataTable* table);
 
-  /// @brief Method SetValue, addr 0x2b7c6e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2b7e6e0, size 0x108, virtual false, abstract: false, final false
   inline void SetValue(int32_t record, ::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2b7e630, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b8062c, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateColumnType, addr 0x2b779e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UpdateColumnType, addr 0x2b799e0, size 0x108, virtual false, abstract: false, final false
   inline void UpdateColumnType(::System::Type* type, ::System::Data::Common::StorageType typeCode);
 
   constexpr ::System::ComponentModel::PropertyChangedEventHandler*& __cordl_internal_get_PropertyChanging();
@@ -633,197 +633,197 @@ public:
 
   constexpr void __cordl_internal_set__unique(bool value);
 
-  /// @brief Method .ctor, addr 0x2b775a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b795a4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2b77934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b79930, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::System::Type* dataType);
 
-  /// @brief Method .ctor, addr 0x2b77638, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b79634, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::System::Type* dataType, ::StringW expr, ::System::Data::MappingType type);
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
-  /// @brief Method get_AllowDBNull, addr 0x2b7828c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowDBNull, addr 0x2b7a288, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowDBNull();
 
-  /// @brief Method get_AutoInc, addr 0x2b79608, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_AutoInc, addr 0x2b7b604, size 0x100, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* get_AutoInc();
 
-  /// @brief Method get_AutoIncrement, addr 0x2b78878, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrement, addr 0x2b7a874, size 0x20, virtual false, abstract: false, final false
   inline bool get_AutoIncrement();
 
-  /// @brief Method get_AutoIncrementCurrent, addr 0x2b79708, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrementCurrent, addr 0x2b7b704, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Object* get_AutoIncrementCurrent();
 
-  /// @brief Method get_AutoIncrementSeed, addr 0x2b79774, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrementSeed, addr 0x2b7b770, size 0x18, virtual false, abstract: false, final false
   inline int64_t get_AutoIncrementSeed();
 
-  /// @brief Method get_AutoIncrementStep, addr 0x2b79a64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrementStep, addr 0x2b7ba60, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_AutoIncrementStep();
 
-  /// @brief Method get_Caption, addr 0x2b79b78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Caption, addr 0x2b7bb74, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Caption();
 
-  /// @brief Method get_ColumnMapping, addr 0x2b7cd30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ColumnMapping, addr 0x2b7ed2c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::MappingType get_ColumnMapping();
 
-  /// @brief Method get_ColumnName, addr 0x2b79c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnName, addr 0x2b7bc80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ColumnName();
 
-  /// @brief Method get_Computed, addr 0x2b7a6c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Computed, addr 0x2b7c6bc, size 0x10, virtual false, abstract: false, final false
   inline bool get_Computed();
 
-  /// @brief Method get_DataExpression, addr 0x2b7a6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataExpression, addr 0x2b7c6cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataExpression* get_DataExpression();
 
-  /// @brief Method get_DataType, addr 0x2b7a6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x2b7c6d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_DateTimeMode, addr 0x2b7ae2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeMode, addr 0x2b7ce28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataSetDateTime get_DateTimeMode();
 
-  /// @brief Method get_DefaultValue, addr 0x2b7a8e4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x2b7c8e0, size 0x124, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method get_DefaultValueIsNull, addr 0x2b7b188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueIsNull, addr 0x2b7d184, size 0x8, virtual false, abstract: false, final false
   inline bool get_DefaultValueIsNull();
 
-  /// @brief Method get_EncodedColumnName, addr 0x2b7a378, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedColumnName, addr 0x2b7c374, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_EncodedColumnName();
 
-  /// @brief Method get_Expression, addr 0x2b7b190, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x2b7d18c, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_ExtendedProperties, addr 0x2b7b628, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedProperties, addr 0x2b7d624, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Data::PropertyCollection* get_ExtendedProperties();
 
-  /// @brief Method get_FormatProvider, addr 0x2b79890, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_FormatProvider, addr 0x2b7b88c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
-  /// @brief Method get_HasData, addr 0x2b78da0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasData, addr 0x2b7ad9c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasData();
 
-  /// @brief Method get_ImplementsIChangeTracking, addr 0x2b7b69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsIChangeTracking, addr 0x2b7d698, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsIChangeTracking();
 
-  /// @brief Method get_ImplementsINullable, addr 0x2b7b694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsINullable, addr 0x2b7d690, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsINullable();
 
-  /// @brief Method get_ImplementsIRevertibleChangeTracking, addr 0x2b7b6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsIRevertibleChangeTracking, addr 0x2b7d6a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsIRevertibleChangeTracking();
 
-  /// @brief Method get_ImplementsIXMLSerializable, addr 0x2b7ddb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsIXMLSerializable, addr 0x2b7fdac, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsIXMLSerializable();
 
-  /// @brief Method get_IsCustomType, addr 0x2b7dc70, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_IsCustomType, addr 0x2b7fc6c, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsCustomType();
 
-  /// @brief Method get_IsSqlType, addr 0x2b7b6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSqlType, addr 0x2b7d6c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSqlType();
 
-  /// @brief Method get_IsValueType, addr 0x2b7b6ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsValueType, addr 0x2b7d6a8, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsValueType();
 
-  /// @brief Method get_Item, addr 0x2b7a664, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2b7c660, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t record);
 
-  /// @brief Method get_Locale, addr 0x2b79c18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Locale, addr 0x2b7bc14, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Locale();
 
-  /// @brief Method get_MaxLength, addr 0x2b7b74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x2b7d748, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxLength();
 
-  /// @brief Method get_Namespace, addr 0x2b7bf7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x2b7df78, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_ObjectID, addr 0x2b7a3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x2b7c3e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
-  /// @brief Method get_Ordinal, addr 0x2b7c170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ordinal, addr 0x2b7e16c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Ordinal();
 
-  /// @brief Method get_Prefix, addr 0x2b7a3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2b7c3e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_ReadOnly, addr 0x2b7c2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadOnly, addr 0x2b7e2a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadOnly();
 
-  /// @brief Method get_SimpleType, addr 0x2b7cd28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SimpleType, addr 0x2b7ed24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::SimpleType* get_SimpleType();
 
-  /// @brief Method get_SortIndex, addr 0x2b7c2ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_SortIndex, addr 0x2b7e2e8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Data::Index* get_SortIndex();
 
-  /// @brief Method get_Table, addr 0x2b7c3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x2b7e3ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method get_Unique, addr 0x2b7c810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unique, addr 0x2b7e80c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Unique();
 
-  /// @brief Method get_XmlDataType, addr 0x2b7cd18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlDataType, addr 0x2b7ed14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlDataType();
 
   static inline void setStaticF_s_objectTypeCount(int32_t value);
 
-  /// @brief Method set_AllowDBNull, addr 0x2b78294, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method set_AllowDBNull, addr 0x2b7a290, size 0x1ac, virtual false, abstract: false, final false
   inline void set_AllowDBNull(bool value);
 
-  /// @brief Method set_AutoIncrement, addr 0x2b78898, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrement, addr 0x2b7a894, size 0x1ac, virtual false, abstract: false, final false
   inline void set_AutoIncrement(bool value);
 
-  /// @brief Method set_AutoIncrementCurrent, addr 0x2b7978c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrementCurrent, addr 0x2b7b788, size 0x104, virtual false, abstract: false, final false
   inline void set_AutoIncrementCurrent(::System::Object* value);
 
-  /// @brief Method set_AutoIncrementSeed, addr 0x2b79974, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrementSeed, addr 0x2b7b970, size 0xf0, virtual false, abstract: false, final false
   inline void set_AutoIncrementSeed(int64_t value);
 
-  /// @brief Method set_AutoIncrementStep, addr 0x2b79a80, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrementStep, addr 0x2b7ba7c, size 0xf8, virtual false, abstract: false, final false
   inline void set_AutoIncrementStep(int64_t value);
 
-  /// @brief Method set_Caption, addr 0x2b79b94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Caption, addr 0x2b7bb90, size 0x84, virtual false, abstract: false, final false
   inline void set_Caption(::StringW value);
 
-  /// @brief Method set_ColumnMapping, addr 0x2b7cd38, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method set_ColumnMapping, addr 0x2b7ed34, size 0x218, virtual true, abstract: false, final false
   inline void set_ColumnMapping(::System::Data::MappingType value);
 
-  /// @brief Method set_ColumnName, addr 0x2b79c8c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method set_ColumnName, addr 0x2b7bc88, size 0x364, virtual false, abstract: false, final false
   inline void set_ColumnName(::StringW value);
 
-  /// @brief Method set_DataType, addr 0x2b78dfc, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method set_DataType, addr 0x2b7adf8, size 0x80c, virtual false, abstract: false, final false
   inline void set_DataType(::System::Type* value);
 
-  /// @brief Method set_DateTimeMode, addr 0x2b7ae34, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeMode, addr 0x2b7ce30, size 0x12c, virtual false, abstract: false, final false
   inline void set_DateTimeMode(::System::Data::DataSetDateTime value);
 
-  /// @brief Method set_DefaultValue, addr 0x2b7aa08, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValue, addr 0x2b7ca04, size 0x2f0, virtual false, abstract: false, final false
   inline void set_DefaultValue(::System::Object* value);
 
-  /// @brief Method set_Expression, addr 0x2b77aec, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x2b79ae8, size 0x7a0, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method set_Item, addr 0x2b7c48c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2b7e488, size 0x180, virtual false, abstract: false, final false
   inline void set_Item(int32_t record, ::System::Object* value);
 
-  /// @brief Method set_MaxLength, addr 0x2b7b754, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method set_MaxLength, addr 0x2b7d750, size 0x35c, virtual false, abstract: false, final false
   inline void set_MaxLength(int32_t value);
 
-  /// @brief Method set_Namespace, addr 0x2b7bff4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x2b7dff0, size 0x130, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
-  /// @brief Method set_Prefix, addr 0x2b7a3f4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x2b7c3f0, size 0x15c, virtual false, abstract: false, final false
   inline void set_Prefix(::StringW value);
 
-  /// @brief Method set_ReadOnly, addr 0x2b7b2a4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x2b7d2a0, size 0xf0, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
-  /// @brief Method set_SimpleType, addr 0x2b779a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_SimpleType, addr 0x2b799a4, size 0x3c, virtual false, abstract: false, final false
   inline void set_SimpleType(::System::Data::SimpleType* value);
 
-  /// @brief Method set_Unique, addr 0x2b7c818, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method set_Unique, addr 0x2b7e814, size 0x468, virtual false, abstract: false, final false
   inline void set_Unique(bool value);
 
-  /// @brief Method set_XmlDataType, addr 0x2b7cd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlDataType, addr 0x2b7ed1c, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlDataType(::StringW value);
 
 protected:

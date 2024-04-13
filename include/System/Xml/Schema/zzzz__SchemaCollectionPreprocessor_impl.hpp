@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(
     ::System::Xml::XmlNameTable*, ::System::Xml::Schema::SchemaNames*, ::System::Xml::Schema::ValidationEventHandler*)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cdd0b4;
+  constexpr static std::size_t addrs = 0x2cde0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(
     ::System::Xml::Schema::XmlSchema*, ::StringW, bool, ::System::Xml::Schema::XmlSchemaCollection*)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::Execute)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x2cdd0bc;
+  constexpr static std::size_t addrs = 0x2cde0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchema*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::Cleanup)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x2cdd2e0;
+  constexpr static std::size_t addrs = 0x2cde2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::XmlResolver*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::set_XmlResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ce06b8;
+  constexpr static std::size_t addrs = 0x2ce16b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(
     ::System::Xml::Schema::XmlSchema*, ::System::Xml::Schema::XmlSchemaCollection*)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::LoadExternals)> {
   constexpr static std::size_t size = 0xa30;
-  constexpr static std::size_t addrs = 0x2cdd4fc;
+  constexpr static std::size_t addrs = 0x2cde4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchema*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::BuildRefNamespaces)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x2ce0880;
+  constexpr static std::size_t addrs = 0x2ce187c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(
     ::System::Xml::Schema::XmlSchema*, ::StringW, ::System::Xml::Schema::__SchemaCollectionPreprocessor__Compositor)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::Preprocess)> {
   constexpr static std::size_t size = 0x2530;
-  constexpr static std::size_t addrs = 0x2cde188;
+  constexpr static std::size_t addrs = 0x2cdf184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaRedefine*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessRedefine)> {
   constexpr static std::size_t size = 0x1120;
-  constexpr static std::size_t addrs = 0x2ce0b78;
+  constexpr static std::size_t addrs = 0x2ce1b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(
     ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::CountGroupSelfReference)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x2ce3998;
+  constexpr static std::size_t addrs = 0x2ce4994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaGroup*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::CheckRefinedGroup)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ce3378;
+  constexpr static std::size_t addrs = 0x2ce4374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::CheckRefinedAttributeGroup)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2ce3410;
+  constexpr static std::size_t addrs = 0x2ce440c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::CheckRefinedSimpleType)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2ce388c;
+  constexpr static std::size_t addrs = 0x2ce4888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::CheckRefinedComplexType)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x2ce3578;
+  constexpr static std::size_t addrs = 0x2ce4574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessAttribute)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2ce1c98;
+  constexpr static std::size_t addrs = 0x2ce2c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessLocalAttribute)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2ce4184;
+  constexpr static std::size_t addrs = 0x2ce5180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessAttributeContent)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2ce3f4c;
+  constexpr static std::size_t addrs = 0x2ce4f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessAttributeGroup)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2ce1e00;
+  constexpr static std::size_t addrs = 0x2ce2dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaElement*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessElement)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x2ce2ccc;
+  constexpr static std::size_t addrs = 0x2ce3cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaElement*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessLocalElement)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x2ce4b10;
+  constexpr static std::size_t addrs = 0x2ce5b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaElement*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessElementContent)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x2ce47c8;
+  constexpr static std::size_t addrs = 0x2ce57c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessIdentityConstraint)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x2ce4e78;
+  constexpr static std::size_t addrs = 0x2ce5e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaSimpleType*, bool)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessSimpleType)> {
   constexpr static std::size_t size = 0x5a8;
-  constexpr static std::size_t addrs = 0x2ce2724;
+  constexpr static std::size_t addrs = 0x2ce3720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaComplexType*, bool)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessComplexType)> {
   constexpr static std::size_t size = 0x82c;
-  constexpr static std::size_t addrs = 0x2ce1ef8;
+  constexpr static std::size_t addrs = 0x2ce2ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaGroup*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessGroup)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x2ce2f18;
+  constexpr static std::size_t addrs = 0x2ce3f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaNotation*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessNotation)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x2ce30d4;
+  constexpr static std::size_t addrs = 0x2ce40d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaParticle*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessParticle)> {
   constexpr static std::size_t size = 0x183c;
-  constexpr static std::size_t addrs = 0x2ce51b0;
+  constexpr static std::size_t addrs = 0x2ce61ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -443,7 +443,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessAttributes)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x2ce44b8;
+  constexpr static std::size_t addrs = 0x2ce54b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::ValidateIdAttribute)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2cddf2c;
+  constexpr static std::size_t addrs = 0x2cdef28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -475,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::ValidateNameAttribute)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x2ce3ca4;
+  constexpr static std::size_t addrs = 0x2ce4ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(
     ::System::Xml::Schema::XmlSchemaObject*, ::StringW, ::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::ValidateQNameAttribute)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x2ce4330;
+  constexpr static std::size_t addrs = 0x2ce532c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(
     ::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::SetParent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2ce0a84;
+  constexpr static std::size_t addrs = 0x2ce1a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::PreprocessAnnotation)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2ce0a9c;
+  constexpr static std::size_t addrs = 0x2ce1a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (
     ::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Xml::Schema::XmlSchema*, ::StringW)>(&::System::Xml::Schema::SchemaCollectionPreprocessor::ResolveSchemaLocationUri)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2ce06c0;
+  constexpr static std::size_t addrs = 0x2ce16bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Xml::Schema::SchemaCollectionPreprocessor::*)(::System::Uri*)>(
     &::System::Xml::Schema::SchemaCollectionPreprocessor::GetSchemaEntity)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2ce076c;
+  constexpr static std::size_t addrs = 0x2ce1768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

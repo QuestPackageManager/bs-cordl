@@ -31,15 +31,15 @@ public:
   /// @brief Field _text, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TMP_Text> _text;
 
-  /// @brief Method DidActivate, addr 0x2561f88, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x256af84, size 0xb4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleQuitButtonPressed, addr 0x2562060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleQuitButtonPressed, addr 0x256b05c, size 0x8, virtual false, abstract: false, final false
   inline void HandleQuitButtonPressed();
 
   static inline ::GlobalNamespace::StartupErrorViewController* New_ctor();
 
-  /// @brief Method SetMessage, addr 0x256203c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetMessage, addr 0x256b038, size 0x24, virtual false, abstract: false, final false
   inline void SetMessage(::StringW message);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__quitButton() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x2562068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256b064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

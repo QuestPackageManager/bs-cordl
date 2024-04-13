@@ -34,16 +34,16 @@ namespace System::Runtime::Remoting {
 class CORDL_TYPE SingleCallIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
-  /// @brief Method AsyncObjectProcessMessage, addr 0x2712f14, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x2717f10, size 0x1c0, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::SingleCallIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x2712d04, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x2717d00, size 0x210, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x27107d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27157d0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Interactions::SlowTapInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::SlowTapInteraction::get_durationOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x303a91c;
+  constexpr static std::size_t addrs = 0x303f918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Interactions::SlowTapInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::SlowTapInteraction::get_pressPointOrDefault)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x303a98c;
+  constexpr static std::size_t addrs = 0x303f988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Interactions::SlowTapInteraction::*)(
     ByRef<::UnityEngine::InputSystem::InputInteractionContext>)>(&::UnityEngine::InputSystem::Interactions::SlowTapInteraction::Process)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x303a9e4;
+  constexpr static std::size_t addrs = 0x303f9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Interactions::SlowTapInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::SlowTapInteraction::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303ab4c;
+  constexpr static std::size_t addrs = 0x303fb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Interactions::SlowTapInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::SlowTapInteraction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303ab54;
+  constexpr static std::size_t addrs = 0x303fb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

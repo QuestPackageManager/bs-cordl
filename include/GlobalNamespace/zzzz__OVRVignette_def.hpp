@@ -268,51 +268,51 @@ public:
   /// @brief Field _TransparentVignetteVisible, offset 0xb9, size 0x1
   __declspec(property(get = __cordl_internal_get__TransparentVignetteVisible, put = __cordl_internal_set__TransparentVignetteVisible)) bool _TransparentVignetteVisible;
 
-  /// @brief Method Awake, addr 0x2a9a71c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a9d718, size 0x314, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BuildMaterials, addr 0x2a9a1ec, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method BuildMaterials, addr 0x2a9d1e8, size 0x3a8, virtual false, abstract: false, final false
   inline void BuildMaterials();
 
-  /// @brief Method BuildMeshes, addr 0x2a99b64, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method BuildMeshes, addr 0x2a9cb60, size 0x688, virtual false, abstract: false, final false
   inline void BuildMeshes();
 
-  /// @brief Method DisableRenderers, addr 0x2a9a6e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DisableRenderers, addr 0x2a9d6e0, size 0x38, virtual false, abstract: false, final false
   inline void DisableRenderers();
 
-  /// @brief Method EnableRenderers, addr 0x2a9b058, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EnableRenderers, addr 0x2a9e054, size 0x38, virtual false, abstract: false, final false
   inline void EnableRenderers();
 
-  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x2a9ac28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x2a9dc24, size 0x8c, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForMonoEye(ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY);
 
-  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x2a9aa30, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x2a9da2c, size 0x1f8, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForStereoEye(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY);
 
-  /// @brief Method GetTriangleCount, addr 0x2a99b40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTriangleCount, addr 0x2a9cb3c, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetTriangleCount();
 
   static inline ::GlobalNamespace::OVRVignette* New_ctor();
 
-  /// @brief Method OnBeginCameraRendering, addr 0x2a9b098, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x2a9e094, size 0x8c, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDisable, addr 0x2a9a638, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2a9d634, size 0xac, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2a9a594, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2a9d590, size 0xa4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPostRender, addr 0x2a9b094, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x2a9e090, size 0x4, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreCull, addr 0x2a9b090, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPreCull, addr 0x2a9e08c, size 0x4, virtual false, abstract: false, final false
   inline void OnPreCull();
 
-  /// @brief Method Update, addr 0x2a9ace8, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a9dce4, size 0x370, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method VisibilityTest, addr 0x2a9acb4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method VisibilityTest, addr 0x2a9dcb0, size 0x34, virtual false, abstract: false, final false
   inline bool VisibilityTest(float_t scaleX, float_t scaleY, float_t offsetX, float_t offsetY);
 
   constexpr ::GlobalNamespace::__OVRVignette__FalloffType const& __cordl_internal_get_Falloff() const;
@@ -459,7 +459,7 @@ public:
 
   constexpr void __cordl_internal_set__TransparentVignetteVisible(bool value);
 
-  /// @brief Method .ctor, addr 0x2a9b124, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a9e120, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_QUADRATIC_FALLOFF();

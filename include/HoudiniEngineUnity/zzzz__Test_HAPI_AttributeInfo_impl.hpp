@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_HAPI_AttributeInfo::*)(::HoudiniEngineUnity::HAPI_AttributeInfo)>(
     &::HoudiniEngineUnity::Test_HAPI_AttributeInfo::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24c57a0;
+  constexpr static std::size_t addrs = 0x24cf79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_HAPI_AttributeInfo::*)(::HoudiniEngineUnity::Test_HAPI_AttributeInfo*)>(
     &::HoudiniEngineUnity::Test_HAPI_AttributeInfo::IsEquivalentTo)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24c57d4;
+  constexpr static std::size_t addrs = 0x24cf7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

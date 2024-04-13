@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::Start)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x25bca54;
+  constexpr static std::size_t addrs = 0x25c3a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutCoreEffectsSpawner*>::get(), "Start",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x25bcc38;
+  constexpr static std::size_t addrs = 0x25c3c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutCoreEffectsSpawner*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(
     ::GlobalNamespace::NoteController*, ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x25bccd0;
+  constexpr static std::size_t addrs = 0x25c3ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::GlobalNamespace::NoteCutInfo, ::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::PlayHitNoteHapticEffect)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x25bd3d4;
+  constexpr static std::size_t addrs = 0x25c43d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::GlobalNamespace::NoteCutInfo, bool)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::PlayHitChainNoteHapticEffect)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25bd528;
+  constexpr static std::size_t addrs = 0x25c4524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(
     ByRef<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteController*, int32_t, int32_t)>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x25bce68;
+  constexpr static std::size_t addrs = 0x25c3e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(
     ByRef<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteController*)>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnBombCutEffect)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25bd4d8;
+  constexpr static std::size_t addrs = 0x25c44d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::IsArcHapticsCurrentlyActive)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x25bd590;
+  constexpr static std::size_t addrs = 0x25c458c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x25bdeb4;
+  constexpr static std::size_t addrs = 0x25c4eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutCoreEffectsSpawner*>::get(), ".ctor",

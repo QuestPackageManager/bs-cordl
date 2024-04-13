@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::OnValidate)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x26066c0;
+  constexpr static std::size_t addrs = 0x260d6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::SetBeforeIntroValue)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x2604a70;
+  constexpr static std::size_t addrs = 0x260ba6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::PlayIntroAnimation)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2602418;
+  constexpr static std::size_t addrs = 0x2609414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MultiplayerIntroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::GetFullIntroAnimationTime)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x2602000;
+  constexpr static std::size_t addrs = 0x2608ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::BindTimeline)> {
   constexpr static std::size_t size = 0x78c;
-  constexpr static std::size_t addrs = 0x2606c3c;
+  constexpr static std::size_t addrs = 0x260dc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)(
     int32_t, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>, ::UnityEngine::GameObject*)>(&::GlobalNamespace::MultiplayerIntroAnimationController::BindRingsAndSetTiming)> {
   constexpr static std::size_t size = 0x7f4;
-  constexpr static std::size_t addrs = 0x2607a50;
+  constexpr static std::size_t addrs = 0x260ea4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::TransitionToAfterIntroAnimationState)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2602530;
+  constexpr static std::size_t addrs = 0x260952c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerIntroAnimationController::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::CalculatePlayerIndexSequence)> {
   constexpr static std::size_t size = 0x584;
-  constexpr static std::size_t addrs = 0x26073c8;
+  constexpr static std::size_t addrs = 0x260e3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::Completed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2608244;
+  constexpr static std::size_t addrs = 0x260f240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerIntroAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x260827c;
+  constexpr static std::size_t addrs = 0x260f278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),

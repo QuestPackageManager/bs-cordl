@@ -38,16 +38,16 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate* New_ctor();
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x2432928, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x243a924, size 0xc8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                  ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData, addr 0x24329f0, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData, addr 0x243a9ec, size 0x198, virtual true, abstract: false, final true
   inline ::System::Object* System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                               ::System::Runtime::Serialization::StreamingContext context,
                                                                                               ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
-  /// @brief Method .ctor, addr 0x2431a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2439a3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"

@@ -39,10 +39,10 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IAttributeProvider"
   constexpr operator ::Newtonsoft::Json::Serialization::IAttributeProvider*() noexcept;
 
-  /// @brief Method GetAttributes, addr 0x2944e64, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetAttributes, addr 0x2947e60, size 0x74, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetAttributes, addr 0x2944df4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetAttributes, addr 0x2947df0, size 0x70, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionAttributeProvider* New_ctor(::System::Object* attributeProvider);
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__attributeProvider(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2944d88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2947d84, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* attributeProvider);
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IAttributeProvider"

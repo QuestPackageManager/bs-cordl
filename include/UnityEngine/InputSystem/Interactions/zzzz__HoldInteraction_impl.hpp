@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Interactions::HoldInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::HoldInteraction::get_durationOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3039d90;
+  constexpr static std::size_t addrs = 0x303ed8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Interactions::HoldInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::HoldInteraction::get_pressPointOrDefault)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3039e00;
+  constexpr static std::size_t addrs = 0x303edfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Interactions::HoldInteraction::*)(
     ByRef<::UnityEngine::InputSystem::InputInteractionContext>)>(&::UnityEngine::InputSystem::Interactions::HoldInteraction::Process)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3039e58;
+  constexpr static std::size_t addrs = 0x303ee54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Interactions::HoldInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::HoldInteraction::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3039ffc;
+  constexpr static std::size_t addrs = 0x303eff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Interactions::HoldInteraction::*)()>(
     &::UnityEngine::InputSystem::Interactions::HoldInteraction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303a004;
+  constexpr static std::size_t addrs = 0x303f000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

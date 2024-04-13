@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::*)()>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a5ea68;
+  constexpr static std::size_t addrs = 0x2a60a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::*)(int32_t)>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::set_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a5ea70;
+  constexpr static std::size_t addrs = 0x2a60a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::*)(
     int32_t, ::Unity::Collections::Allocator)>(&::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2a5e888;
+  constexpr static std::size_t addrs = 0x2a60884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::*)(int32_t)>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::RemoveAt)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2a5ea2c;
+  constexpr static std::size_t addrs = 0x2a60a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::*)(int32_t)>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::GetAt)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2a5e938;
+  constexpr static std::size_t addrs = 0x2a60934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::*)(int32_t)>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::get_Item)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a5e92c;
+  constexpr static std::size_t addrs = 0x2a60928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::*)()>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList::Dispose)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2a5ea78;
+  constexpr static std::size_t addrs = 0x2a60a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob::*)()>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob::Execute)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x2a5e4f4;
+  constexpr static std::size_t addrs = 0x2a604f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob::Cross)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2a5e974;
+  constexpr static std::size_t addrs = 0x2a60970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob::PointInTriangle)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2a5e984;
+  constexpr static std::size_t addrs = 0x2a60980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::Start)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2a5d5b4;
+  constexpr static std::size_t addrs = 0x2a5f5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePlaneMeshFilter*>::get(), "Start",
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(
     &::GlobalNamespace::OVRScenePlaneMeshFilter::ScheduleMeshGeneration)> {
   constexpr static std::size_t size = 0x5c8;
-  constexpr static std::size_t addrs = 0x2a5d760;
+  constexpr static std::size_t addrs = 0x2a5f75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePlaneMeshFilter*>::get(),
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::Update)> {
   constexpr static std::size_t size = 0x734;
-  constexpr static std::size_t addrs = 0x2a5dd28;
+  constexpr static std::size_t addrs = 0x2a5fd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePlaneMeshFilter*>::get(), "Update",
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(
     &::GlobalNamespace::OVRScenePlaneMeshFilter::RequestMeshGeneration)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2a5d204;
+  constexpr static std::size_t addrs = 0x2a5f200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePlaneMeshFilter*>::get(),
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::OnDisable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2a5e45c;
+  constexpr static std::size_t addrs = 0x2a60458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePlaneMeshFilter*>::get(), "OnDisable",
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a5e4ec;
+  constexpr static std::size_t addrs = 0x2a604e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePlaneMeshFilter*>::get(), ".ctor",

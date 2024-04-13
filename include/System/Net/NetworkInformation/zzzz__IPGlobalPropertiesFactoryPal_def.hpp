@@ -21,7 +21,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE IPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2f1bf10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2f20f0c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
 protected:

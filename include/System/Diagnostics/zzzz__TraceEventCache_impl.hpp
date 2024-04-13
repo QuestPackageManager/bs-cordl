@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_Callstack)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2e9e258;
+  constexpr static std::size_t addrs = 0x2ea0254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), "get_Callstack",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Stack* (::System::Diagnostics::TraceEventCache::*)()>(
     &::System::Diagnostics::TraceEventCache::get_LogicalOperationStack)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2e9e278;
+  constexpr static std::size_t addrs = 0x2ea0274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Diagnostics::TraceEventCache::*)()>(
     &::System::Diagnostics::TraceEventCache::get_DateTime)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2e9e290;
+  constexpr static std::size_t addrs = 0x2ea028c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), "get_DateTime",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_ProcessId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2e9e324;
+  constexpr static std::size_t addrs = 0x2ea0320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), "get_ProcessId",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_ThreadId)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2e9e37c;
+  constexpr static std::size_t addrs = 0x2ea0378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), "get_ThreadId",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_Timestamp)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2e9e40c;
+  constexpr static std::size_t addrs = 0x2ea0408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), "get_Timestamp",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Diagnostics::TraceEventCache::InitProcessInfo)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2e9e474;
+  constexpr static std::size_t addrs = 0x2ea0470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(),
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceEventCache::GetProcessId)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2e9e328;
+  constexpr static std::size_t addrs = 0x2ea0324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), "GetProcessId",
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceEventCache::GetThreadId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2e9e3ec;
+  constexpr static std::size_t addrs = 0x2ea03e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), "GetThreadId",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2e9e878;
+  constexpr static std::size_t addrs = 0x2ea0874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceEventCache*>::get(), ".ctor",

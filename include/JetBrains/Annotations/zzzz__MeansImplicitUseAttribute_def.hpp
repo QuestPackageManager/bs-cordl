@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x31cc320, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cf31c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x31cc344, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cf340, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
 protected:

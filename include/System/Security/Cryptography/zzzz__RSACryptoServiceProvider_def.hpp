@@ -65,28 +65,28 @@ public:
   /// @brief Field store, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_store, put = __cordl_internal_set_store))::Mono::Security::Cryptography::KeyPairPersistence* store;
 
-  /// @brief Method Common, addr 0x26e3974, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Common, addr 0x26e9970, size 0x21c, virtual false, abstract: false, final false
   inline void Common(int32_t dwKeySize, bool parameters);
 
-  /// @brief Method Common, addr 0x26e3b90, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Common, addr 0x26e9b8c, size 0x120, virtual false, abstract: false, final false
   inline void Common(::System::Security::Cryptography::CspParameters* p);
 
-  /// @brief Method Dispose, addr 0x26e4234, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x26ea230, size 0x54, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EncryptValue, addr 0x26e3d8c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method EncryptValue, addr 0x26e9d88, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptValue(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb);
 
-  /// @brief Method ExportParameters, addr 0x26e3dac, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x26e9da8, size 0x140, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method Finalize, addr 0x26e3cb0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x26e9cac, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashNameFromOID, addr 0x26e3f40, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetHashNameFromOID, addr 0x26e9f3c, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW GetHashNameFromOID(::StringW oid);
 
-  /// @brief Method ImportParameters, addr 0x26e3eec, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x26e9ee8, size 0x54, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor();
@@ -97,10 +97,10 @@ public:
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor(::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method OnKeyGenerated, addr 0x26e4288, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnKeyGenerated, addr 0x26ea284, size 0x84, virtual false, abstract: false, final false
   inline void OnKeyGenerated(::System::Object* sender, ::System::EventArgs* e);
 
-  /// @brief Method VerifyHash, addr 0x26e410c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method VerifyHash, addr 0x26ea108, size 0x128, virtual false, abstract: false, final false
   inline bool VerifyHash(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::StringW str, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
   constexpr bool const& __cordl_internal_get_m_disposed() const;
@@ -139,27 +139,27 @@ public:
 
   constexpr void __cordl_internal_set_store(::Mono::Security::Cryptography::KeyPairPersistence* value);
 
-  /// @brief Method .ctor, addr 0x26e2e64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e8e60, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26e38d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e98d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize);
 
-  /// @brief Method .ctor, addr 0x26e3918, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9914, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize, ::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x26e390c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9908, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::CspParameters* parameters);
 
   static inline ::System::Security::Cryptography::CspProviderFlags getStaticF_s_UseMachineKeyStore();
 
-  /// @brief Method get_KeySize, addr 0x26e3d50, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x26e9d4c, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x26e3d70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x26e9d6c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
 
-  /// @brief Method get_UseMachineKeyStore, addr 0x26e3880, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UseMachineKeyStore, addr 0x26e987c, size 0x54, virtual false, abstract: false, final false
   static inline bool get_UseMachineKeyStore();
 
   static inline void setStaticF_s_UseMachineKeyStore(::System::Security::Cryptography::CspProviderFlags value);

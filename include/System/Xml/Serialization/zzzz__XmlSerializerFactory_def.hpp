@@ -38,20 +38,20 @@ public:
   /// @brief Field serializersBySource, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_serializersBySource, put = setStaticF_serializersBySource))::System::Collections::Hashtable* serializersBySource;
 
-  /// @brief Method CreateSerializer, addr 0x2deb900, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x2ded8fc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type);
 
-  /// @brief Method CreateSerializer, addr 0x2deb914, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x2ded910, size 0x278, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides,
                                                                        ::ArrayW<::System::Type*, ::Array<::System::Type*>*> extraTypes, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                        ::StringW defaultNamespace);
 
-  /// @brief Method CreateSerializer, addr 0x2debb8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x2dedb88, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root);
 
   static inline ::System::Xml::Serialization::XmlSerializerFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2deb8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ded8f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_serializersBySource();

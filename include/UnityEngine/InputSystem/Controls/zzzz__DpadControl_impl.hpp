@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::get_component)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3038780;
+  constexpr static std::size_t addrs = 0x303d77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::*)(int32_t)>(
     &::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::set_component)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3038788;
+  constexpr static std::size_t addrs = 0x303d784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::FinishSetup)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3038790;
+  constexpr static std::size_t addrs = 0x303d78c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3038814;
+  constexpr static std::size_t addrs = 0x303d810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x303892c;
+  constexpr static std::size_t addrs = 0x303d928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303818c;
+  constexpr static std::size_t addrs = 0x303d188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DpadControl*>::get(),
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3038194;
+  constexpr static std::size_t addrs = 0x303d190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303819c;
+  constexpr static std::size_t addrs = 0x303d198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DpadControl*>::get(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30381a4;
+  constexpr static std::size_t addrs = 0x303d1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30381ac;
+  constexpr static std::size_t addrs = 0x303d1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DpadControl*>::get(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30381b4;
+  constexpr static std::size_t addrs = 0x303d1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30381bc;
+  constexpr static std::size_t addrs = 0x303d1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DpadControl*>::get(),
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30381c4;
+  constexpr static std::size_t addrs = 0x303d1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x30381cc;
+  constexpr static std::size_t addrs = 0x303d1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DpadControl*>::get(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::FinishSetup)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x303823c;
+  constexpr static std::size_t addrs = 0x303d238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Controls::DpadControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x3038330;
+  constexpr static std::size_t addrs = 0x303d32c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::Vector2, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x30385c4;
+  constexpr static std::size_t addrs = 0x303d5c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(bool, bool, bool, bool, bool)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::MakeDpadVector)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3038568;
+  constexpr static std::size_t addrs = 0x303d564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::MakeDpadVector)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3038770;
+  constexpr static std::size_t addrs = 0x303d76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

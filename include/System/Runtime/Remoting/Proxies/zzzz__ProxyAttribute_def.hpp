@@ -45,17 +45,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
 
-  /// @brief Method CreateInstance, addr 0x2714ae8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2719ae4, size 0x104, virtual true, abstract: false, final false
   inline ::System::MarshalByRefObject* CreateInstance(::System::Type* serverType);
 
-  /// @brief Method CreateProxy, addr 0x2714bec, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateProxy, addr 0x2719be8, size 0x54, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* serverType, ::System::Object* serverObject,
                                                                       ::System::Runtime::Remoting::Contexts::Context* serverContext);
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x2714c40, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetPropertiesForNewContext, addr 0x2719c3c, size 0x4, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method IsContextOK, addr 0x2714c44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsContextOK, addr 0x2719c40, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"

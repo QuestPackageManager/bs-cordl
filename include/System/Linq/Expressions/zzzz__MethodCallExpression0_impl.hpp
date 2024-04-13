@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::MethodCallExpression0::*)(::System::Reflection::MethodInfo*)>(
     &::System::Linq::Expressions::MethodCallExpression0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b0bca0;
+  constexpr static std::size_t addrs = 0x2b0cc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression0::*)(int32_t)>(
     &::System::Linq::Expressions::MethodCallExpression0::GetArgument)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2b0bca4;
+  constexpr static std::size_t addrs = 0x2b0cca0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::MethodCallExpression0::*)()>(
     &::System::Linq::Expressions::MethodCallExpression0::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b0bcf4;
+  constexpr static std::size_t addrs = 0x2b0ccf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::MethodCallExpression0::*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::MethodCallExpression0::Rewrite)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2b0bcfc;
+  constexpr static std::size_t addrs = 0x2b0ccf8;
 
   inline static ::MethodInfo const* methodInfo() {
 

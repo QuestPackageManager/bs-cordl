@@ -73,27 +73,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr operator ::GlobalNamespace::IMultiplayerSpectatingSpot*() noexcept;
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x2618ba8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x261fba4, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x2618ba4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x261fba0, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IMultiplayerSpectatingSpot.get_transform, addr 0x2618bb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IMultiplayerSpectatingSpot.get_transform, addr 0x261fbb0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> IMultiplayerSpectatingSpot_get_transform();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x261886c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x261f868, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ReloadBasedOnPlayerCurrentState, addr 0x2618a30, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ReloadBasedOnPlayerCurrentState, addr 0x261fa2c, size 0x174, virtual false, abstract: false, final false
   inline void ReloadBasedOnPlayerCurrentState(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method SetIsObserved, addr 0x2618a10, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method SetIsObserved, addr 0x261fa0c, size 0x20, virtual true, abstract: false, final true
   inline void SetIsObserved(bool isObserved);
 
-  /// @brief Method Start, addr 0x2618514, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x261f510, size 0x1f4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
@@ -138,34 +138,34 @@ public:
 
   constexpr void __cordl_internal_set_isObservedChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x2618bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261fba8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_hasBeenRemovedEvent, addr 0x2618198, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_hasBeenRemovedEvent, addr 0x261f194, size 0xb0, virtual true, abstract: false, final true
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method add_isObservedChangedEvent, addr 0x26182f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_isObservedChangedEvent, addr 0x261f2f4, size 0xb0, virtual false, abstract: false, final false
   inline void add_isObservedChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_isMain, addr 0x261850c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMain, addr 0x261f508, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMain();
 
-  /// @brief Method get_observable, addr 0x2618458, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_observable, addr 0x261f454, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IMultiplayerObservable* get_observable();
 
-  /// @brief Method get_spotName, addr 0x2618468, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_spotName, addr 0x261f464, size 0xa4, virtual true, abstract: false, final true
   inline ::StringW get_spotName();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept;
 
-  /// @brief Method remove_hasBeenRemovedEvent, addr 0x2618248, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_hasBeenRemovedEvent, addr 0x261f244, size 0xb0, virtual true, abstract: false, final true
   inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method remove_isObservedChangedEvent, addr 0x26183a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_isObservedChangedEvent, addr 0x261f3a4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_isObservedChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method set_observable, addr 0x2618460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_observable, addr 0x261f45c, size 0x8, virtual false, abstract: false, final false
   inline void set_observable(::GlobalNamespace::IMultiplayerObservable* value);
 
 protected:

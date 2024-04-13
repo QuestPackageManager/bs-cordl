@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRInputSubsystem::*)()>(&::UnityEngine::XR::XRInputSubsystem::TryRecenter)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x34000c4;
+  constexpr static std::size_t addrs = 0x34020c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRInputSubsystem*>::get(), "TryRecenter",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::add_trackingOriginUpdated)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3400100;
+  constexpr static std::size_t addrs = 0x34020fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::remove_trackingOriginUpdated)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x34001b0;
+  constexpr static std::size_t addrs = 0x34021ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::add_boundaryChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3400260;
+  constexpr static std::size_t addrs = 0x340225c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::remove_boundaryChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3400310;
+  constexpr static std::size_t addrs = 0x340230c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x34003c0;
+  constexpr static std::size_t addrs = 0x34023bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3400484;
+  constexpr static std::size_t addrs = 0x3402480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)()>(&::UnityEngine::XR::XRInputSubsystem::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3400548;
+  constexpr static std::size_t addrs = 0x3402544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRInputSubsystem*>::get(), ".ctor",

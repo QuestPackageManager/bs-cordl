@@ -92,7 +92,7 @@ public:
 
   __declspec(property(get = get_vibrationStrength, put = set_vibrationStrength)) float_t vibrationStrength;
 
-  /// @brief Method Apply, addr 0x2ffd044, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Apply, addr 0x3002040, size 0x4, virtual true, abstract: false, final false
   inline void Apply(::UnityEngine::InputSystem::IInputActionCollection* actions);
 
   static inline ::UnityEngine::InputSystem::Users::InputUserSettings* New_ctor();
@@ -175,79 +175,79 @@ public:
 
   constexpr void __cordl_internal_set_m_CustomBindings(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ffd048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3002044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customBindings, addr 0x2ffcf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customBindings, addr 0x3001f60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customBindings();
 
-  /// @brief Method get_invertMouseX, addr 0x2ffcf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invertMouseX, addr 0x3001f70, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertMouseX();
 
-  /// @brief Method get_invertMouseY, addr 0x2ffcf88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invertMouseY, addr 0x3001f84, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertMouseY();
 
-  /// @brief Method get_invertStickX, addr 0x2ffcfbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invertStickX, addr 0x3001fb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertStickX();
 
-  /// @brief Method get_invertStickY, addr 0x2ffcfd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invertStickY, addr 0x3001fcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertStickY();
 
-  /// @brief Method get_mouseSensitivity, addr 0x2ffcfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mouseSensitivity, addr 0x3001fa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<float_t> get_mouseSensitivity();
 
-  /// @brief Method get_mouseSmoothing, addr 0x2ffcf9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mouseSmoothing, addr 0x3001f98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<float_t> get_mouseSmoothing();
 
-  /// @brief Method get_swapBumpers, addr 0x2ffcff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_swapBumpers, addr 0x3001ff4, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapBumpers();
 
-  /// @brief Method get_swapDpadAndLeftStick, addr 0x2ffd020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_swapDpadAndLeftStick, addr 0x300201c, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapDpadAndLeftStick();
 
-  /// @brief Method get_swapSticks, addr 0x2ffcfe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_swapSticks, addr 0x3001fe0, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapSticks();
 
-  /// @brief Method get_swapTriggers, addr 0x2ffd00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_swapTriggers, addr 0x3002008, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapTriggers();
 
-  /// @brief Method get_vibrationStrength, addr 0x2ffd034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vibrationStrength, addr 0x3002030, size 0x8, virtual false, abstract: false, final false
   inline float_t get_vibrationStrength();
 
-  /// @brief Method set_customBindings, addr 0x2ffcf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customBindings, addr 0x3001f68, size 0x8, virtual false, abstract: false, final false
   inline void set_customBindings(::StringW value);
 
-  /// @brief Method set_invertMouseX, addr 0x2ffcf7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_invertMouseX, addr 0x3001f78, size 0xc, virtual false, abstract: false, final false
   inline void set_invertMouseX(bool value);
 
-  /// @brief Method set_invertMouseY, addr 0x2ffcf90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_invertMouseY, addr 0x3001f8c, size 0xc, virtual false, abstract: false, final false
   inline void set_invertMouseY(bool value);
 
-  /// @brief Method set_invertStickX, addr 0x2ffcfc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_invertStickX, addr 0x3001fc0, size 0xc, virtual false, abstract: false, final false
   inline void set_invertStickX(bool value);
 
-  /// @brief Method set_invertStickY, addr 0x2ffcfd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_invertStickY, addr 0x3001fd4, size 0xc, virtual false, abstract: false, final false
   inline void set_invertStickY(bool value);
 
-  /// @brief Method set_mouseSensitivity, addr 0x2ffcfb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mouseSensitivity, addr 0x3001fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_mouseSensitivity(::System::Nullable_1<float_t> value);
 
-  /// @brief Method set_mouseSmoothing, addr 0x2ffcfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mouseSmoothing, addr 0x3001fa0, size 0x8, virtual false, abstract: false, final false
   inline void set_mouseSmoothing(::System::Nullable_1<float_t> value);
 
-  /// @brief Method set_swapBumpers, addr 0x2ffd000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_swapBumpers, addr 0x3001ffc, size 0xc, virtual false, abstract: false, final false
   inline void set_swapBumpers(bool value);
 
-  /// @brief Method set_swapDpadAndLeftStick, addr 0x2ffd028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_swapDpadAndLeftStick, addr 0x3002024, size 0xc, virtual false, abstract: false, final false
   inline void set_swapDpadAndLeftStick(bool value);
 
-  /// @brief Method set_swapSticks, addr 0x2ffcfec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_swapSticks, addr 0x3001fe8, size 0xc, virtual false, abstract: false, final false
   inline void set_swapSticks(bool value);
 
-  /// @brief Method set_swapTriggers, addr 0x2ffd014, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_swapTriggers, addr 0x3002010, size 0xc, virtual false, abstract: false, final false
   inline void set_swapTriggers(bool value);
 
-  /// @brief Method set_vibrationStrength, addr 0x2ffd03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vibrationStrength, addr 0x3002038, size 0x8, virtual false, abstract: false, final false
   inline void set_vibrationStrength(float_t value);
 
 protected:

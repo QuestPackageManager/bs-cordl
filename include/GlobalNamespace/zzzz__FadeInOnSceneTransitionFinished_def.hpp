@@ -67,21 +67,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2ad51e4, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2ad71e0, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2ad529c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2ad7298, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2ad52a4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2ad72a0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2ad52e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2ad72e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2ad51e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2ad71dc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FadeInOnSceneTransitionFinished> value);
 
-  /// @brief Method .ctor, addr 0x2ad51a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad71a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -165,15 +165,15 @@ public:
   /// @brief Field _gameScenesManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Method FadeCoroutine, addr 0x2ad5138, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FadeCoroutine, addr 0x2ad7134, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadeCoroutine();
 
   static inline ::GlobalNamespace::FadeInOnSceneTransitionFinished* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2ad51a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2ad719c, size 0x8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnablePostInjection, addr 0x2ad5118, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnEnablePostInjection, addr 0x2ad7114, size 0x20, virtual true, abstract: false, final false
   inline void OnEnablePostInjection();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x2ad51d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad71cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

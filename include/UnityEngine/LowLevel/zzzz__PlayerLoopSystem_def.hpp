@@ -36,12 +36,12 @@ namespace UnityEngine::LowLevel {
 class CORDL_TYPE __PlayerLoopSystem__UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3232148, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3234144, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x323208c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3234088, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -74,7 +74,7 @@ public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction;
 
-  /// @brief Method ToString, addr 0x323206c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3234068, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

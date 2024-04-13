@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)(
     ::System::Threading::Tasks::ITaskCompletionAction*, ::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::CompletionActionInvoker::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x28acdc8;
+  constexpr static std::size_t addrs = 0x28b0dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)()>(
     &::System::Threading::Tasks::CompletionActionInvoker::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x28b04c4;
+  constexpr static std::size_t addrs = 0x28b44c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Threading::Tasks::CompletionActionInvoker::MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x28b056c;
+  constexpr static std::size_t addrs = 0x28b4568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

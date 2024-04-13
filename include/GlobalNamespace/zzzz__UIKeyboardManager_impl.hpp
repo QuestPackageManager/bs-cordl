@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::UIKeyboard> (::GlobalNamespace::UIKeyboardManager::*)()>(
     &::GlobalNamespace::UIKeyboardManager::get_keyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2638240;
+  constexpr static std::size_t addrs = 0x263f23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(), "get_keyboard",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2638248;
+  constexpr static std::size_t addrs = 0x263f244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(), "Start",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::OnEnable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26382d4;
+  constexpr static std::size_t addrs = 0x263f2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(), "OnEnable",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::OnDisable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2638360;
+  constexpr static std::size_t addrs = 0x263f35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(), "OnDisable",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x26383ec;
+  constexpr static std::size_t addrs = 0x263f3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(), "OnDestroy",
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::UIKeyboardManager::OpenKeyboardFor)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x26384bc;
+  constexpr static std::size_t addrs = 0x263f4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::CloseKeyboard)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26386bc;
+  constexpr static std::size_t addrs = 0x263f6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(), "CloseKeyboard",
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::UIKeyboardManager::TransferKeyboardTo)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2638754;
+  constexpr static std::size_t addrs = 0x263f750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UIKeyboardManager::*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::UIKeyboardManager::ShouldCloseKeyboard)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26387e8;
+  constexpr static std::size_t addrs = 0x263f7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::UIKeyboardManager::ProcessMousePress)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2638840;
+  constexpr static std::size_t addrs = 0x263f83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::HandleKeyboardOkButton)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26389a8;
+  constexpr static std::size_t addrs = 0x263f9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(),
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2638b08;
+  constexpr static std::size_t addrs = 0x263fb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboardManager*>::get(), ".ctor",

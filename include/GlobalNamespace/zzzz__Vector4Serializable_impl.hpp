@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::Vector4Serializable::Serialize)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x14162f4;
+  constexpr static std::size_t addrs = 0x14162f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::Vector4Serializable::Deserialize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x141635c;
+  constexpr static std::size_t addrs = 0x1416358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Vector4Serializable::*)(::GlobalNamespace::Vector4Serializable)>(
     &::GlobalNamespace::Vector4Serializable::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x14163d8;
+  constexpr static std::size_t addrs = 0x14163d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Vector4Serializable::*)(::GlobalNamespace::Vector4Serializable)>(
     &::GlobalNamespace::Vector4Serializable::Approximately)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x141641c;
+  constexpr static std::size_t addrs = 0x1416418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Vector4Serializable::*)(::System::Object*)>(
     &::GlobalNamespace::Vector4Serializable::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x1416490;
+  constexpr static std::size_t addrs = 0x141648c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Vector4Serializable::*)()>(&::GlobalNamespace::Vector4Serializable::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1416538;
+  constexpr static std::size_t addrs = 0x1416534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::Vector4Serializable::*)()>(&::GlobalNamespace::Vector4Serializable::ToString)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x1416554;
+  constexpr static std::size_t addrs = 0x1416550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Vector4Serializable::*)()>(&::GlobalNamespace::Vector4Serializable::GetSize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x14167b0;
+  constexpr static std::size_t addrs = 0x14167ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector4Serializable>::get(), "GetSize",
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::UnityEngine::Vector4)>(
     &::GlobalNamespace::Vector4Serializable::_ctor)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x141681c;
+  constexpr static std::size_t addrs = 0x1416818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::Vector4Serializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1416b68;
+  constexpr static std::size_t addrs = 0x1416b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::GlobalNamespace::Vector4Serializable)>(
     &::GlobalNamespace::Vector4Serializable::op_Implicit___UnityEngine__Vector4)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1416b70;
+  constexpr static std::size_t addrs = 0x1416b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Vector4Serializable (*)(::UnityEngine::Vector4)>(
     &::GlobalNamespace::Vector4Serializable::op_Implicit___GlobalNamespace__Vector4Serializable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1416ba4;
+  constexpr static std::size_t addrs = 0x1416ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::Vector4Serializable (*)(::GlobalNamespace::Vector4Serializable, ::GlobalNamespace::Vector4Serializable)>(&::GlobalNamespace::Vector4Serializable::op_Addition)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1416bc8;
+  constexpr static std::size_t addrs = 0x1416bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::Vector4Serializable (*)(::GlobalNamespace::Vector4Serializable, ::GlobalNamespace::Vector4Serializable)>(&::GlobalNamespace::Vector4Serializable::op_Subtraction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1416bf4;
+  constexpr static std::size_t addrs = 0x1416bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

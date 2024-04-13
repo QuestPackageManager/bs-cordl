@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)()>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb0d0;
+  constexpr static std::size_t addrs = 0x33be0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x33bb0d8;
+  constexpr static std::size_t addrs = 0x33be0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb108;
+  constexpr static std::size_t addrs = 0x33be104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb110;
+  constexpr static std::size_t addrs = 0x33be10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb118;
+  constexpr static std::size_t addrs = 0x33be114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb120;
+  constexpr static std::size_t addrs = 0x33be11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb128;
+  constexpr static std::size_t addrs = 0x33be124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb130;
+  constexpr static std::size_t addrs = 0x33be12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb138;
+  constexpr static std::size_t addrs = 0x33be134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb140;
+  constexpr static std::size_t addrs = 0x33be13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_9)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb148;
+  constexpr static std::size_t addrs = 0x33be144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_10)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb150;
+  constexpr static std::size_t addrs = 0x33be14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_11)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb158;
+  constexpr static std::size_t addrs = 0x33be154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_12)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb160;
+  constexpr static std::size_t addrs = 0x33be15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_13)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb168;
+  constexpr static std::size_t addrs = 0x33be164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_14)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb170;
+  constexpr static std::size_t addrs = 0x33be16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_15)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb178;
+  constexpr static std::size_t addrs = 0x33be174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb180;
+  constexpr static std::size_t addrs = 0x33be17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_17)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb188;
+  constexpr static std::size_t addrs = 0x33be184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_18)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb190;
+  constexpr static std::size_t addrs = 0x33be18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_19)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb198;
+  constexpr static std::size_t addrs = 0x33be194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_20)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb1a0;
+  constexpr static std::size_t addrs = 0x33be19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_21)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb1a8;
+  constexpr static std::size_t addrs = 0x33be1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::__ComputedTransitionUtils____c::*)(float_t)>(
     &::UnityEngine::UIElements::__ComputedTransitionUtils____c::_ConvertTransitionFunction_b__12_22)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bb1b0;
+  constexpr static std::size_t addrs = 0x33be1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::ComputedTransitionUtils::UpdateComputedTransitions)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33b949c;
+  constexpr static std::size_t addrs = 0x33bc498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -755,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::UIElements::ComputedStyle>, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(
     &::UnityEngine::UIElements::ComputedTransitionUtils::HasTransitionProperty)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x33b96a4;
+  constexpr static std::size_t addrs = 0x33bc6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -772,7 +772,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(ByRef<::UnityEngine::UIElements::ComputedStyle>, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ByRef<::UnityEngine::UIElements::ComputedTransitionProperty>)>(
         &::UnityEngine::UIElements::ComputedTransitionUtils::GetTransitionProperty)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x33b9770;
+  constexpr static std::size_t addrs = 0x33bc76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -790,7 +790,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*> (*)(ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
         &::UnityEngine::UIElements::ComputedTransitionUtils::GetOrComputeTransitionPropertyData)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x33b9500;
+  constexpr static std::size_t addrs = 0x33bc4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::ComputedTransitionUtils::GetTransitionHashCode)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x33b98ac;
+  constexpr static std::size_t addrs = 0x33bc8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -821,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::UIElements::ComputedStyle>, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::ComputedTransitionUtils::SameTransitionProperty)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x33b9ff0;
+  constexpr static std::size_t addrs = 0x33bcfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -838,7 +838,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*)>(
         &::UnityEngine::UIElements::ComputedTransitionUtils::SameTransitionProperty)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x33ba130;
+  constexpr static std::size_t addrs = 0x33bd12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -855,7 +855,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*)>(
         &::UnityEngine::UIElements::ComputedTransitionUtils::SameTransitionProperty)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x33ba21c;
+  constexpr static std::size_t addrs = 0x33bd218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -872,7 +872,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::ComputedStyle>, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ComputedTransitionProperty>*)>(
         &::UnityEngine::UIElements::ComputedTransitionUtils::ComputeTransitionPropertyData)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x33b9d48;
+  constexpr static std::size_t addrs = 0x33bcd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -889,7 +889,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::UIElements::TimeValue)>(
     &::UnityEngine::UIElements::ComputedTransitionUtils::ConvertTransitionTime)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x33ba344;
+  constexpr static std::size_t addrs = 0x33bd340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -904,7 +904,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<float_t, float_t>* (*)(::UnityEngine::UIElements::EasingMode)>(
     &::UnityEngine::UIElements::ComputedTransitionUtils::ConvertTransitionFunction)> {
   constexpr static std::size_t size = 0xba8;
-  constexpr static std::size_t addrs = 0x33ba438;
+  constexpr static std::size_t addrs = 0x33bd434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

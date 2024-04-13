@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25f70e0;
+  constexpr static std::size_t addrs = 0x25fe0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetAfterIntroValues)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x25f70fc;
+  constexpr static std::size_t addrs = 0x25fe0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f7144;
+  constexpr static std::size_t addrs = 0x25fe140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

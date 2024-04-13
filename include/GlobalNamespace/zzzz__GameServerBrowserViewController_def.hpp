@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__smallLoadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
-  /// @brief Method .ctor, addr 0x25532dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255c2d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

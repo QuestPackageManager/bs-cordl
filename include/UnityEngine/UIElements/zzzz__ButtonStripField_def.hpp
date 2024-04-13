@@ -43,7 +43,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3381164, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3384160, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33811ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33841a8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,10 +118,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
 
-  /// @brief Method RefreshButtonsState, addr 0x3381084, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtonsState, addr 0x3384080, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshButtonsState();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x3380ffc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x3383ff8, size 0x88, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& __cordl_internal_get_m_Buttons();
@@ -130,10 +130,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method .ctor, addr 0x3380f3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3383f38, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_buttons, addr 0x3380e48, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_buttons, addr 0x3383e44, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* get_buttons();
 
 protected:

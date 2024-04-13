@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::MatchSparse::*)(
     ::System::Text::RegularExpressions::Regex*, ::System::Collections::Hashtable*, int32_t, ::StringW, int32_t, int32_t, int32_t)>(&::System::Text::RegularExpressions::MatchSparse::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2e82fa4;
+  constexpr static std::size_t addrs = 0x2e84fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::GroupCollection* (::System::Text::RegularExpressions::MatchSparse::*)()>(
     &::System::Text::RegularExpressions::MatchSparse::get_Groups)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2e83054;
+  constexpr static std::size_t addrs = 0x2e85050;
 
   inline static ::MethodInfo const* methodInfo() {
 

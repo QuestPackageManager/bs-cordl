@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)()>(&::System::TimeZone::get_InternalSyncObject)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x28474c8;
+  constexpr static std::size_t addrs = 0x284c4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZone*>::get(), "get_InternalSyncObject",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZone::*)()>(&::System::TimeZone::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2847568;
+  constexpr static std::size_t addrs = 0x284c564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZone*>::get(), ".ctor",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZone* (*)()>(&::System::TimeZone::get_CurrentTimeZone)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2847570;
+  constexpr static std::size_t addrs = 0x284c56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZone*>::get(), "get_CurrentTimeZone",
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::System::Globalization::DaylightTime*)>(
     &::System::TimeZone::CalculateUtcOffset)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x28476dc;
+  constexpr static std::size_t addrs = 0x284c6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

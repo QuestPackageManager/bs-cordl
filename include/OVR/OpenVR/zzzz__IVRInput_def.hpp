@@ -195,18 +195,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___SetActionManifestPath : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac2e58, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac4e54, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionManifestPath, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac2e78, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac4e74, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac2e44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac4e40, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionManifestPath);
 
   static inline ::OVR::OpenVR::__IVRInput___SetActionManifestPath* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac2d70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac4d6c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -237,18 +237,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetActionSetHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac2f8c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac4f88, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionSetName, ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac3020, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac501c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac2f78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac4f74, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionSetName, ByRef<uint64_t> pHandle);
 
   static inline ::OVR::OpenVR::__IVRInput___GetActionSetHandle* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac2ea0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac4e9c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -279,18 +279,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetActionHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac3138, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac5134, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionName, ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac31cc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac51c8, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac3124, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac5120, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionName, ByRef<uint64_t> pHandle);
 
   static inline ::OVR::OpenVR::__IVRInput___GetActionHandle* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac304c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5048, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -321,18 +321,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetInputSourceHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac32e4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac52e0, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchInputSourcePath, ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac3378, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac5374, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac32d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac52cc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchInputSourcePath, ByRef<uint64_t> pHandle);
 
   static inline ::OVR::OpenVR::__IVRInput___GetInputSourceHandle* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac31f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac51f4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -363,20 +363,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___UpdateActionState : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac3490, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac548c, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac3538, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac5534, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac347c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac5478, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount);
 
   static inline ::OVR::OpenVR::__IVRInput___UpdateActionState* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac33a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac53a0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -407,19 +407,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetDigitalActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac3638, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac5634, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac3738, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac5734, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac3624, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac5620, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::__IVRInput___GetDigitalActionData* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac3560, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac555c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -450,19 +450,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetAnalogActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac383c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac5838, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac393c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac5938, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac3828, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac5824, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::__IVRInput___GetAnalogActionData* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac3764, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5760, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -493,20 +493,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetPoseActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac3a40, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac5a3c, size 0x160, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsFromNow, ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData,
                                              uint32_t unActionDataSize, uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac3ba0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac5b9c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac3a2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac5a28, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsFromNow, ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData,
                                              uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::__IVRInput___GetPoseActionData* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac3968, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5964, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -537,19 +537,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetSkeletalActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac3ca4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac5ca0, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac3da4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac5da0, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac3c90, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac5c8c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::__IVRInput___GetSkeletalActionData* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac3bcc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5bc8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -580,22 +580,22 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetSkeletalBoneData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac3ea8, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac5ea4, size 0x130, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
                                              ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
                                              uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac3fd8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac5fd4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac3e94, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac5e90, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
                                              ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
                                              uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::__IVRInput___GetSkeletalBoneData* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac3dd0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5dcc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -626,21 +626,21 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetSkeletalBoneDataCompressed : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac40dc, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac60d8, size 0x170, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, void* pvCompressedData,
                                              uint32_t unCompressedSize, ByRef<uint32_t> punRequiredCompressedSize, uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac424c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac6248, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint32_t> punRequiredCompressedSize, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac40c4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac60c0, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, void* pvCompressedData,
                                              uint32_t unCompressedSize, ByRef<uint32_t> punRequiredCompressedSize, uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac4000, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5ffc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -671,21 +671,21 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___DecompressSkeletalBoneData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac4350, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac634c, size 0x104, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* pvCompressedBuffer, uint32_t unCompressedBufferSize, ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
                                              ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac4454, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac6450, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac433c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac6338, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(void* pvCompressedBuffer, uint32_t unCompressedBufferSize, ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
                                              ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount);
 
   static inline ::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac4278, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac6274, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -716,19 +716,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___TriggerHapticVibrationAction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac4558, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac6554, size 0x10c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, float_t fStartSecondsFromNow, float_t fDurationSeconds, float_t fFrequency, float_t fAmplitude, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac4664, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac6660, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac4544, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac6540, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, float_t fStartSecondsFromNow, float_t fDurationSeconds, float_t fFrequency, float_t fAmplitude, uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac4480, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac647c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -759,19 +759,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetActionOrigins : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac4764, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac6760, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ByRef<::ArrayW<uint64_t, ::Array<uint64_t>*>> originsOut, uint32_t originOutCount,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac4834, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac6830, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac4750, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac674c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ByRef<::ArrayW<uint64_t, ::Array<uint64_t>*>> originsOut, uint32_t originOutCount);
 
   static inline ::OVR::OpenVR::__IVRInput___GetActionOrigins* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac468c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac6688, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -802,18 +802,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetOriginLocalizedName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac4934, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac6930, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t origin, ::System::Text::StringBuilder* pchNameArray, uint32_t unNameArraySize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac49f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac69ec, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac4920, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac691c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t origin, ::System::Text::StringBuilder* pchNameArray, uint32_t unNameArraySize);
 
   static inline ::OVR::OpenVR::__IVRInput___GetOriginLocalizedName* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac485c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac6858, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -844,19 +844,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___GetOriginTrackedDeviceInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac4af0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac6aec, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t origin, ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint32_t unOriginInfoSize, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac4bd8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac6bd4, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac4adc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac6ad8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t origin, ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint32_t unOriginInfoSize);
 
   static inline ::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac4a18, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac6a14, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -887,18 +887,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___ShowActionOrigins : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac4cdc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac6cd8, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t actionSetHandle, uint64_t ulActionHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac4d74, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac6d70, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac4cc8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac6cc4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t actionSetHandle, uint64_t ulActionHandle);
 
   static inline ::OVR::OpenVR::__IVRInput___ShowActionOrigins* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac4c04, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac6c00, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -929,20 +929,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRInput___ShowBindingsForActionSet : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2ac4e88, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ac6e84, size 0xd4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount, uint64_t originToHighlight, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ac4f5c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ac6f58, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2ac4e74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ac6e70, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount, uint64_t originToHighlight);
 
   static inline ::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ac4d9c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac6d98, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

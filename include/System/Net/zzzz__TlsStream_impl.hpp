@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(
     &::System::Net::TlsStream::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2ebbac0;
+  constexpr static std::size_t addrs = 0x2ebdabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TlsStream::*)()>(&::System::Net::TlsStream::AuthenticateAsClient)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2ebbb94;
+  constexpr static std::size_t addrs = 0x2ebdb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TlsStream*>::get(), "AuthenticateAsClient",
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::System::Net::TlsStream::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::TlsStream::BeginAuthenticateAsClient)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2ebbc94;
+  constexpr static std::size_t addrs = 0x2ebdc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TlsStream::*)(::System::IAsyncResult*)>(&::System::Net::TlsStream::EndAuthenticateAsClient)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ebbdac;
+  constexpr static std::size_t addrs = 0x2ebdda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::Net::TlsStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::TlsStream::BeginWrite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ebbdd0;
+  constexpr static std::size_t addrs = 0x2ebddcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TlsStream::*)(::System::IAsyncResult*)>(&::System::Net::TlsStream::EndWrite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ebbdf4;
+  constexpr static std::size_t addrs = 0x2ebddf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TlsStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::TlsStream::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ebbe18;
+  constexpr static std::size_t addrs = 0x2ebde14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::TlsStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::TlsStream::Read)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ebbe3c;
+  constexpr static std::size_t addrs = 0x2ebde38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::Net::TlsStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::TlsStream::BeginRead)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ebbe60;
+  constexpr static std::size_t addrs = 0x2ebde5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::TlsStream::*)(::System::IAsyncResult*)>(&::System::Net::TlsStream::EndRead)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ebbe84;
+  constexpr static std::size_t addrs = 0x2ebde80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TlsStream::*)()>(&::System::Net::TlsStream::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2ebbea8;
+  constexpr static std::size_t addrs = 0x2ebdea4;
 
   inline static ::MethodInfo const* methodInfo() {
 

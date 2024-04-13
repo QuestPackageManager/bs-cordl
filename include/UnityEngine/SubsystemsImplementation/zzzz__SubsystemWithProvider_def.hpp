@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x3267d4c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x3269d48, size 0x7c, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* New_ctor();
@@ -52,10 +52,10 @@ public:
   /// @brief Method OnStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStop();
 
-  /// @brief Method Start, addr 0x3267cd8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x3269cd4, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3267d14, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x3269d10, size 0x38, virtual true, abstract: false, final true
   inline void Stop();
 
   constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider*& __cordl_internal_get__providerBase_k__BackingField();
@@ -70,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set__running_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3267de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3269de0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_providerBase, addr 0x3267ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_providerBase, addr 0x3269dd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SubsystemsImplementation::SubsystemProvider* get_providerBase();
 
-  /// @brief Method get_running, addr 0x3267dc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x3269dc4, size 0x8, virtual true, abstract: false, final true
   inline bool get_running();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
   constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
 
-  /// @brief Method set_running, addr 0x3267dd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_running, addr 0x3269dcc, size 0xc, virtual false, abstract: false, final false
   inline void set_running(bool value);
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::System::Xml::XmlRawWriter*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::QueryOutputWriter::_ctor)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x2d64b3c;
+  constexpr static std::size_t addrs = 0x2d67b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::QueryOutputWriter::set_NamespaceResolver)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d64e00;
+  constexpr static std::size_t addrs = 0x2d67dfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::System::Xml::XmlStandalone)>(
     &::System::Xml::QueryOutputWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d64e2c;
+  constexpr static std::size_t addrs = 0x2d67e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d64e50;
+  constexpr static std::size_t addrs = 0x2d67e4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteDocType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2d64e74;
+  constexpr static std::size_t addrs = 0x2d67e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x2d64eac;
+  constexpr static std::size_t addrs = 0x2d67ea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2d65078;
+  constexpr static std::size_t addrs = 0x2d68074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2d650d8;
+  constexpr static std::size_t addrs = 0x2d680d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::StartElementContent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d65138;
+  constexpr static std::size_t addrs = 0x2d68134;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d6515c;
+  constexpr static std::size_t addrs = 0x2d68158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d65188;
+  constexpr static std::size_t addrs = 0x2d68184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d651b4;
+  constexpr static std::size_t addrs = 0x2d681b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::QueryOutputWriter::*)()>(
     &::System::Xml::QueryOutputWriter::get_SupportsNamespaceDeclarationInChunks)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d651d8;
+  constexpr static std::size_t addrs = 0x2d681d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteStartNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d651fc;
+  constexpr static std::size_t addrs = 0x2d681f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::WriteEndNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d65220;
+  constexpr static std::size_t addrs = 0x2d6821c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteCData)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d65244;
+  constexpr static std::size_t addrs = 0x2d68240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteComment)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d65268;
+  constexpr static std::size_t addrs = 0x2d68264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW)>(
     &::System::Xml::QueryOutputWriter::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d65294;
+  constexpr static std::size_t addrs = 0x2d68290;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteWhitespace)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2d652c0;
+  constexpr static std::size_t addrs = 0x2d682bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2d6536c;
+  constexpr static std::size_t addrs = 0x2d68368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::QueryOutputWriter::WriteChars)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2d653d8;
+  constexpr static std::size_t addrs = 0x2d683d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteEntityRef)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d65488;
+  constexpr static std::size_t addrs = 0x2d68484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(char16_t)>(&::System::Xml::QueryOutputWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d654b4;
+  constexpr static std::size_t addrs = 0x2d684b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(char16_t, char16_t)>(
     &::System::Xml::QueryOutputWriter::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d654e0;
+  constexpr static std::size_t addrs = 0x2d684dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::QueryOutputWriter::WriteRaw)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2d6550c;
+  constexpr static std::size_t addrs = 0x2d68508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2d655bc;
+  constexpr static std::size_t addrs = 0x2d685b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::Close)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2d65628;
+  constexpr static std::size_t addrs = 0x2d68624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d656d0;
+  constexpr static std::size_t addrs = 0x2d686cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::StartCDataSection)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2d6532c;
+  constexpr static std::size_t addrs = 0x2d68328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::QueryOutputWriter*>::get(), "StartCDataSection",
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::EndCDataSection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d65070;
+  constexpr static std::size_t addrs = 0x2d6806c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::QueryOutputWriter*>::get(), "EndCDataSection",

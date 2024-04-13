@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftNetworkPlayerModel::*)()>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::get_secret)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x28b90b4;
+  constexpr static std::size_t addrs = 0x28bd0b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftNetworkPlayerModel::*)()>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::get_code)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x28b9108;
+  constexpr static std::size_t addrs = 0x28bd104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftNetworkPlayerModel::*)()>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::get_partyOwnerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28b915c;
+  constexpr static std::size_t addrs = 0x28bd158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::GameLiftNetworkPlayerModel::*)()>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::get_configuration)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x28b9164;
+  constexpr static std::size_t addrs = 0x28bd160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::GameLiftNetworkPlayerModel::*)()>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::get_selectionMask)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x28b91dc;
+  constexpr static std::size_t addrs = 0x28bd1d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftNetworkPlayerModel::*)()>(&::GlobalNamespace::GameLiftNetworkPlayerModel::Update)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x28b9254;
+  constexpr static std::size_t addrs = 0x28bd250;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>*, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::RefreshPublicServers)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x28b9314;
+  constexpr static std::size_t addrs = 0x28bd310;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::GameLiftNetworkPlayerModel::*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW)>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::GetConnectToServerParams)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x28b93cc;
+  constexpr static std::size_t addrs = 0x28bd3c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::GameLiftNetworkPlayerModel::*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration)>(
     &::GlobalNamespace::GameLiftNetworkPlayerModel::GetStartClientParams)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x28b94b4;
+  constexpr static std::size_t addrs = 0x28bd4b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftNetworkPlayerModel::*)()>(&::GlobalNamespace::GameLiftNetworkPlayerModel::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x28b9584;
+  constexpr static std::size_t addrs = 0x28bd580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftNetworkPlayerModel*>::get(), ".ctor",

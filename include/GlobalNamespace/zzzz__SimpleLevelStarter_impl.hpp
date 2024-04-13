@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::*)(int32_t)>(
     &::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25a4b3c;
+  constexpr static std::size_t addrs = 0x25acb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::*)()>(
     &::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25a4efc;
+  constexpr static std::size_t addrs = 0x25acef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::*)()>(
     &::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x6d0;
-  constexpr static std::size_t addrs = 0x25a4f00;
+  constexpr static std::size_t addrs = 0x25acefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::*)()>(
     &::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a55d0;
+  constexpr static std::size_t addrs = 0x25ad5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::*)()>(
     &::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25a55d8;
+  constexpr static std::size_t addrs = 0x25ad5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::*)()>(
     &::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a5618;
+  constexpr static std::size_t addrs = 0x25ad614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::Awake)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x25a49bc;
+  constexpr static std::size_t addrs = 0x25ac9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleLevelStarter*>::get(), "Awake",
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::OnDestroy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25a4a80;
+  constexpr static std::size_t addrs = 0x25aca7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleLevelStarter*>::get(), "OnDestroy",
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SimpleLevelStarter::*)()>(
     &::GlobalNamespace::SimpleLevelStarter::StartLevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25a4ad4;
+  constexpr static std::size_t addrs = 0x25acad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleLevelStarter*>::get(), "StartLevel",
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(
     ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(&::GlobalNamespace::SimpleLevelStarter::InstallEarlyBindings)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25a4b64;
+  constexpr static std::size_t addrs = 0x25acb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::ButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25a4c8c;
+  constexpr static std::size_t addrs = 0x25acc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleLevelStarter*>::get(), "ButtonPressed",
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::SimpleLevelStarter::HandleLevelDidFinish)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25a4cac;
+  constexpr static std::size_t addrs = 0x25acca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x25a4ce8;
+  constexpr static std::size_t addrs = 0x25acce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleLevelStarter*>::get(), ".ctor",
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::SimpleLevelStarter::_StartLevel_g__AfterSceneSwitchCallback_17_0)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x25a4dc0;
+  constexpr static std::size_t addrs = 0x25acdbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

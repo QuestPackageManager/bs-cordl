@@ -30,7 +30,7 @@ public:
   /// @brief Field Right, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right))::System::Dynamic::BindingRestrictions* Right;
 
-  /// @brief Method GetExpression, addr 0x2b4e274, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x2b50270, size 0x150, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
   static inline ::System::Dynamic::__BindingRestrictions__MergedRestriction* New_ctor(::System::Dynamic::BindingRestrictions* left, ::System::Dynamic::BindingRestrictions* right);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_Right(::System::Dynamic::BindingRestrictions* value);
 
-  /// @brief Method .ctor, addr 0x2b4d9d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b4f9d4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::BindingRestrictions* left, ::System::Dynamic::BindingRestrictions* right);
 
 protected:

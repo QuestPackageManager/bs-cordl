@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2f535ac;
+  constexpr static std::size_t addrs = 0x2f585a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::UnityEngine::Object*)>(
     &::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2f53604;
+  constexpr static std::size_t addrs = 0x2f58600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f5367c;
+  constexpr static std::size_t addrs = 0x2f58678;
 
   inline static ::MethodInfo const* methodInfo() {
 

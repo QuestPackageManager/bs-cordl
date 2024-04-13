@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> (*)()>(
     &::UnityEngine::UI::Selectable::get_allSelectablesArray)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x32d192c;
+  constexpr static std::size_t addrs = 0x32d4928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_allSelectablesArray",
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::UI::Selectable::get_allSelectableCount)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32d19c8;
+  constexpr static std::size_t addrs = 0x32d49c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_allSelectableCount",
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>* (*)()>(
     &::UnityEngine::UI::Selectable::get_allSelectables)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32d1a20;
+  constexpr static std::size_t addrs = 0x32d4a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_allSelectables",
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*>)>(
     &::UnityEngine::UI::Selectable::AllSelectablesNoAlloc)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x32d1ac4;
+  constexpr static std::size_t addrs = 0x32d4ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Navigation (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_navigation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32d1b80;
+  constexpr static std::size_t addrs = 0x32d4b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_navigation",
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Navigation)>(
     &::UnityEngine::UI::Selectable::set_navigation)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32d1b94;
+  constexpr static std::size_t addrs = 0x32d4b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__Selectable__Transition (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d1c80;
+  constexpr static std::size_t addrs = 0x32d4c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_transition",
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::__Selectable__Transition)>(
     &::UnityEngine::UI::Selectable::set_transition)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32d1c88;
+  constexpr static std::size_t addrs = 0x32d4c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ColorBlock (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_colors)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32d1cfc;
+  constexpr static std::size_t addrs = 0x32d4cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_colors",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::ColorBlock)>(&::UnityEngine::UI::Selectable::set_colors)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x32d1d0c;
+  constexpr static std::size_t addrs = 0x32d4d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::SpriteState (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::get_spriteState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32d1da4;
+  constexpr static std::size_t addrs = 0x32d4da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_spriteState",
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::SpriteState)>(
     &::UnityEngine::UI::Selectable::set_spriteState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x32d1db4;
+  constexpr static std::size_t addrs = 0x32d4db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::AnimationTriggers* (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::get_animationTriggers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d1e30;
+  constexpr static std::size_t addrs = 0x32d4e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_animationTriggers",
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::AnimationTriggers*)>(
     &::UnityEngine::UI::Selectable::set_animationTriggers)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32d1e38;
+  constexpr static std::size_t addrs = 0x32d4e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::get_targetGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d1eac;
+  constexpr static std::size_t addrs = 0x32d4ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_targetGraphic",
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::Selectable::set_targetGraphic)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32d1eb4;
+  constexpr static std::size_t addrs = 0x32d4eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d1f28;
+  constexpr static std::size_t addrs = 0x32d4f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_interactable",
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_interactable)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x32d1f30;
+  constexpr static std::size_t addrs = 0x32d4f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_isPointerInside)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d20a0;
+  constexpr static std::size_t addrs = 0x32d509c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_isPointerInside",
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_isPointerInside)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32d20a8;
+  constexpr static std::size_t addrs = 0x32d50a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_isPointerDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d20b4;
+  constexpr static std::size_t addrs = 0x32d50b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_isPointerDown",
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_isPointerDown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32d20bc;
+  constexpr static std::size_t addrs = 0x32d50b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_hasSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d20c8;
+  constexpr static std::size_t addrs = 0x32d50c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_hasSelection",
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_hasSelection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32d20d0;
+  constexpr static std::size_t addrs = 0x32d50cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x32cc25c;
+  constexpr static std::size_t addrs = 0x32cf258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), ".ctor",
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Image> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_image)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x32d20dc;
+  constexpr static std::size_t addrs = 0x32d50d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_image",
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Image*)>(&::UnityEngine::UI::Selectable::set_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d2158;
+  constexpr static std::size_t addrs = 0x32d5154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Animator> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::get_animator)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x32d2160;
+  constexpr static std::size_t addrs = 0x32d515c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_animator",
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::Awake)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x32d21a8;
+  constexpr static std::size_t addrs = 0x32d51a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnCanvasGroupChanged)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x32d2234;
+  constexpr static std::size_t addrs = 0x32d5230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::IsInteractable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32d23f4;
+  constexpr static std::size_t addrs = 0x32d53f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32d2414;
+  constexpr static std::size_t addrs = 0x32d5410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnEnable)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x32cc690;
+  constexpr static std::size_t addrs = 0x32cf68c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32d2468;
+  constexpr static std::size_t addrs = 0x32d5464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnSetProperty)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32d1c1c;
+  constexpr static std::size_t addrs = 0x32d4c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "OnSetProperty",
@@ -543,7 +543,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnDisable)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x32cc958;
+  constexpr static std::size_t addrs = 0x32cf954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32d2490;
+  constexpr static std::size_t addrs = 0x32d548c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__Selectable__SelectionState (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::get_currentSelectionState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32d2418;
+  constexpr static std::size_t addrs = 0x32d5414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(),
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::InstantClearState)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32d2538;
+  constexpr static std::size_t addrs = 0x32d5534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::__Selectable__SelectionState, bool)>(
     &::UnityEngine::UI::Selectable::DoStateTransition)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x32d28c0;
+  constexpr static std::size_t addrs = 0x32d58bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UI::Selectable::FindSelectable)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x32d2a54;
+  constexpr static std::size_t addrs = 0x32d5a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UI::Selectable::GetPointOnRectEdge)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x32d2f00;
+  constexpr static std::size_t addrs = 0x32d5efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,7 +646,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::AxisEventData*, ::UnityEngine::UI::Selectable*)>(
     &::UnityEngine::UI::Selectable::Navigate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x32d30a4;
+  constexpr static std::size_t addrs = 0x32d60a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnLeft)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32cd6c0;
+  constexpr static std::size_t addrs = 0x32d06bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnRight)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32cd7bc;
+  constexpr static std::size_t addrs = 0x32d07b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -692,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnUp)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32cd8b8;
+  constexpr static std::size_t addrs = 0x32d08b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -707,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnDown)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32cd9b4;
+  constexpr static std::size_t addrs = 0x32d09b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -722,7 +722,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::AxisEventData*)>(
     &::UnityEngine::UI::Selectable::OnMove)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x32cd610;
+  constexpr static std::size_t addrs = 0x32d060c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -737,7 +737,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::Color, bool)>(
     &::UnityEngine::UI::Selectable::StartColorTween)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x32d25a8;
+  constexpr static std::size_t addrs = 0x32d55a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -751,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UI::Selectable::DoSpriteSwap)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x32d2690;
+  constexpr static std::size_t addrs = 0x32d568c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -765,7 +765,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::StringW)>(&::UnityEngine::UI::Selectable::TriggerAnimation)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x32d2738;
+  constexpr static std::size_t addrs = 0x32d5734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -779,7 +779,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::IsHighlighted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32d315c;
+  constexpr static std::size_t addrs = 0x32d6158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "IsHighlighted",
@@ -792,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::IsPressed)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32d24ec;
+  constexpr static std::size_t addrs = 0x32d54e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "IsPressed",
@@ -805,7 +805,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::EvaluateAndTransitionToSelectionState)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x32d31b8;
+  constexpr static std::size_t addrs = 0x32d61b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -820,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::Selectable::OnPointerDown)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x32cd0e8;
+  constexpr static std::size_t addrs = 0x32d00e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -835,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::Selectable::OnPointerUp)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32cd324;
+  constexpr static std::size_t addrs = 0x32d0320;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -850,7 +850,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::Selectable::OnPointerEnter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32d3250;
+  constexpr static std::size_t addrs = 0x32d624c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -865,7 +865,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::Selectable::OnPointerExit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d325c;
+  constexpr static std::size_t addrs = 0x32d6258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -880,7 +880,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::UI::Selectable::OnSelect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32d3264;
+  constexpr static std::size_t addrs = 0x32d6260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -895,7 +895,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::UI::Selectable::OnDeselect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d3270;
+  constexpr static std::size_t addrs = 0x32d626c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -909,7 +909,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::Select)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x32d3278;
+  constexpr static std::size_t addrs = 0x32d6274;
 
   inline static ::MethodInfo const* methodInfo() {
 

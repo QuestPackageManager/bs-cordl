@@ -144,10 +144,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2653824, size 0x43c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x265b820, size 0x43c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2653c60, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x265bc5c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -211,10 +211,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2653c6c, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x265bc68, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2653ebc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x265beb8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -295,30 +295,30 @@ public:
       get = __cordl_internal_get_didFinishEvent,
       put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* didFinishEvent;
 
-  /// @brief Method ApplySettingsAsync, addr 0x265372c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ApplySettingsAsync, addr 0x265b728, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ApplySettingsAsync();
 
-  /// @brief Method CancelSettingsAsync, addr 0x26537f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CancelSettingsAsync, addr 0x265b7f0, size 0x28, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CancelSettingsAsync();
 
-  /// @brief Method DidActivate, addr 0x26531cc, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x265b1c8, size 0x2b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x265347c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x265b478, size 0x10c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x2653620, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x265b61c, size 0x6c, virtual false, abstract: false, final false
   inline void HandleDidSelectSettingsSubMenu(::GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int32_t idx);
 
-  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x265368c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x265b688, size 0xa0, virtual false, abstract: false, final false
   inline void HandleSettingsNavigationControllerDidFinishAsync(::GlobalNamespace::__SettingsNavigationController__FinishAction finishAction);
 
   static inline ::GlobalNamespace::SettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method ReplaceViewController, addr 0x265358c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReplaceViewController, addr 0x265b588, size 0x94, virtual false, abstract: false, final false
   inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method ShowSecretViewController, addr 0x2653588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ShowSecretViewController, addr 0x265b584, size 0x4, virtual false, abstract: false, final false
   inline void ShowSecretViewController(::HMUI::ViewController* viewController);
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
@@ -352,15 +352,15 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x265381c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26434bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x264b4b8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
-  /// @brief Method remove_didFinishEvent, addr 0x2643ce4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x264bce0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
   static inline void setStaticF__selectedSettingsSubMenuInfoIdx(int32_t value);

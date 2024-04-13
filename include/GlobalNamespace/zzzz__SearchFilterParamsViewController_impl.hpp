@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::SearchFilterParamsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2548fd0;
+  constexpr static std::size_t addrs = 0x2551fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::SearchFilterParamsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2549084;
+  constexpr static std::size_t addrs = 0x2552080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(ByRef<::GlobalNamespace::LevelFilter>)>(
     &::GlobalNamespace::SearchFilterParamsViewController::Setup)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2549138;
+  constexpr static std::size_t addrs = 0x2552134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x2549510;
+  constexpr static std::size_t addrs = 0x255250c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool, bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2549770;
+  constexpr static std::size_t addrs = 0x255276c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)()>(
     &::GlobalNamespace::SearchFilterParamsViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2549938;
+  constexpr static std::size_t addrs = 0x2552934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SearchFilterParamsViewController*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::SearchFilterParamsViewController::MinBpmControllerValueDidChange)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2549b10;
+  constexpr static std::size_t addrs = 0x2552b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::SearchFilterParamsViewController::MaxBpmControllerValueDidChange)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2549b98;
+  constexpr static std::size_t addrs = 0x2552b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::HandleFilterByOwnedValueValueChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2549c20;
+  constexpr static std::size_t addrs = 0x2552c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::HandleFilterByNotOwnedValueValueChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2549c4c;
+  constexpr static std::size_t addrs = 0x2552c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(ByRef<::GlobalNamespace::LevelFilter>)>(
     &::GlobalNamespace::SearchFilterParamsViewController::Refresh)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x2549168;
+  constexpr static std::size_t addrs = 0x2552164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)()>(
     &::GlobalNamespace::SearchFilterParamsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2549c78;
+  constexpr static std::size_t addrs = 0x2552c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SearchFilterParamsViewController*>::get(),

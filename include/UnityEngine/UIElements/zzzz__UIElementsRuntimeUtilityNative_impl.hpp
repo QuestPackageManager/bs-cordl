@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintOverlayPanels)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33f084c;
+  constexpr static std::size_t addrs = 0x33f3848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UpdateRuntimePanels)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33f08b0;
+  constexpr static std::size_t addrs = 0x33f38ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RegisterPlayerloopCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x33f0914;
+  constexpr static std::size_t addrs = 0x33f3910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UnregisterPlayerloopCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x33f093c;
+  constexpr static std::size_t addrs = 0x33f3938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::VisualElementCreation)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x33f0964;
+  constexpr static std::size_t addrs = 0x33f3960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Data::FunctionId, ::StringW)>(
     &::System::Data::AggregateNode::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2bbf98c;
+  constexpr static std::size_t addrs = 0x2bc1988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Data::FunctionId, ::StringW, bool, ::StringW)>(&::System::Data::AggregateNode::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2bbf998;
+  constexpr static std::size_t addrs = 0x2bc1994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::AggregateNode::Bind)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x2bbfae8;
+  constexpr static std::size_t addrs = 0x2bc1ae4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Data::DataRelation*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(
     &::System::Data::AggregateNode::Bind)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x2bbfe58;
+  constexpr static std::size_t addrs = 0x2bc1e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2bc0044;
+  constexpr static std::size_t addrs = 0x2bc2040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::AggregateNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x2bc0058;
+  constexpr static std::size_t addrs = 0x2bc2054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::AggregateNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2bc036c;
+  constexpr static std::size_t addrs = 0x2bc2368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::IsConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bc0430;
+  constexpr static std::size_t addrs = 0x2bc242c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bc0438;
+  constexpr static std::size_t addrs = 0x2bc2434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bc0440;
+  constexpr static std::size_t addrs = 0x2bc243c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2bc0448;
+  constexpr static std::size_t addrs = 0x2bc2444;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)(::System::Data::DataColumn*)>(&::System::Data::AggregateNode::DependsOn)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2bc0458;
+  constexpr static std::size_t addrs = 0x2bc2454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::Optimize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2bc04f0;
+  constexpr static std::size_t addrs = 0x2bc24ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

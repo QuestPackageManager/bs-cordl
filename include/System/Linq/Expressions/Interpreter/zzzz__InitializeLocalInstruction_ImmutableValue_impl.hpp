@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::*)(
     int32_t, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b3c660;
+  constexpr static std::size_t addrs = 0x2b3e65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::Run)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2b3c690;
+  constexpr static std::size_t addrs = 0x2b3e68c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::Interpreter::Instruction* (::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::*)(int32_t)>(
         &::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::BoxIfIndexMatches)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2b3c6fc;
+  constexpr static std::size_t addrs = 0x2b3e6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::*)()>(
     &::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b3c7b0;
+  constexpr static std::size_t addrs = 0x2b3e7ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncOperation::*)()>(&::UnityEngine::AsyncOperation::Finalize)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3205878;
+  constexpr static std::size_t addrs = 0x3207874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncOperation::*)()>(&::UnityEngine::AsyncOperation::InvokeCompletionEvent)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3205970;
+  constexpr static std::size_t addrs = 0x320796c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AsyncOperation*>::get(), "InvokeCompletionEvent",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncOperation::*)(::System::Action_1<::UnityEngine::AsyncOperation*>*)>(
     &::UnityEngine::AsyncOperation::add_completed)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x32059a0;
+  constexpr static std::size_t addrs = 0x320799c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncOperation::*)(::System::Action_1<::UnityEngine::AsyncOperation*>*)>(
     &::UnityEngine::AsyncOperation::remove_completed)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3205ad8;
+  constexpr static std::size_t addrs = 0x3207ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::AsyncOperation::InternalDestroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3205934;
+  constexpr static std::size_t addrs = 0x3207930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AsyncOperation::*)()>(&::UnityEngine::AsyncOperation::get_isDone)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3205a9c;
+  constexpr static std::size_t addrs = 0x3207a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AsyncOperation*>::get(), "get_isDone",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::AsyncOperation::*)()>(&::UnityEngine::AsyncOperation::get_progress)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3205b80;
+  constexpr static std::size_t addrs = 0x3207b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AsyncOperation*>::get(), "get_progress",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncOperation::*)(int32_t)>(&::UnityEngine::AsyncOperation::set_priority)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3205bbc;
+  constexpr static std::size_t addrs = 0x3207bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AsyncOperation::*)()>(&::UnityEngine::AsyncOperation::get_allowSceneActivation)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3205c00;
+  constexpr static std::size_t addrs = 0x3207bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AsyncOperation*>::get(),
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncOperation::*)(bool)>(&::UnityEngine::AsyncOperation::set_allowSceneActivation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3205c3c;
+  constexpr static std::size_t addrs = 0x3207c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncOperation::*)()>(&::UnityEngine::AsyncOperation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3205c80;
+  constexpr static std::size_t addrs = 0x3207c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AsyncOperation*>::get(), ".ctor",

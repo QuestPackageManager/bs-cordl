@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FriendsViewController::*)()>(
     &::GlobalNamespace::FriendsViewController::get_myPartyTitle)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2539218;
+  constexpr static std::size_t addrs = 0x2542214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FriendsViewController::*)()>(
     &::GlobalNamespace::FriendsViewController::get_otherPlayersTitle)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2539258;
+  constexpr static std::size_t addrs = 0x2542254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::INetworkPlayerModel* (::GlobalNamespace::FriendsViewController::*)()>(
     &::GlobalNamespace::FriendsViewController::get_networkPlayerModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2539298;
+  constexpr static std::size_t addrs = 0x2542294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FriendsViewController::*)(bool, bool)>(
     &::GlobalNamespace::FriendsViewController::NetworkPlayersViewControllerDidActivate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x25392a0;
+  constexpr static std::size_t addrs = 0x254229c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FriendsViewController::*)(bool, bool)>(
     &::GlobalNamespace::FriendsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x253952c;
+  constexpr static std::size_t addrs = 0x2542528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FriendsViewController::*)()>(&::GlobalNamespace::FriendsViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2539570;
+  constexpr static std::size_t addrs = 0x254256c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FriendsViewController::*)(bool)>(
     &::GlobalNamespace::FriendsViewController::HandleOpenPartyToggleChanged)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2539598;
+  constexpr static std::size_t addrs = 0x2542594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FriendsViewController::*)(bool)>(&::GlobalNamespace::FriendsViewController::RefreshParty)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x25393ac;
+  constexpr static std::size_t addrs = 0x25423a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FriendsViewController::*)()>(&::GlobalNamespace::FriendsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25395a8;
+  constexpr static std::size_t addrs = 0x25425a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FriendsViewController*>::get(), ".ctor",

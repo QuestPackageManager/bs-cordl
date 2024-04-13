@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_Percent)) float_t Percent;
 
-  /// @brief Method get_Percent, addr 0x3106fe0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Percent, addr 0x310cfdc, size 0x38, virtual false, abstract: false, final false
   inline float_t get_Percent();
 
   // Ctor Parameters []

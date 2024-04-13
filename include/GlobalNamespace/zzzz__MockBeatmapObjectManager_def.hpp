@@ -52,31 +52,31 @@ public:
   // Declarations
   __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  /// @brief Method DespawnInternal, addr 0x251aaf0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x2523aec, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal, addr 0x251aaf4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x2523af0, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal, addr 0x251aaf8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x2523af4, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
   static inline ::GlobalNamespace::MockBeatmapObjectManager* New_ctor();
 
-  /// @brief Method ProcessNoteData, addr 0x251aae8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessNoteData, addr 0x2523ae4, size 0x4, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                               bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessObstacleData, addr 0x251aae4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessObstacleData, addr 0x2523ae0, size 0x4, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
 
-  /// @brief Method ProcessSliderData, addr 0x251aaec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x2523ae8, size 0x4, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
 
-  /// @brief Method .ctor, addr 0x251aafc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2523af8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeObstacleControllers, addr 0x251aadc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x2523ad8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
 protected:

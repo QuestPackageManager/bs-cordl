@@ -26,15 +26,15 @@ public:
 
   __declspec(property(get = get_isHandledByDraggable, put = set_isHandledByDraggable)) bool isHandledByDraggable;
 
-  /// @brief Method Init, addr 0x339b3ec, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x339e3e8, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x339b43c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x339e438, size 0x10c, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x339b598, size 0x608, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x339e594, size 0x608, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr bool const& __cordl_internal_get__isHandledByDraggable_k__BackingField() const;
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__isHandledByDraggable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x339b548, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339e544, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isHandledByDraggable, addr 0x339b3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isHandledByDraggable, addr 0x339e3d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
-  /// @brief Method set_isHandledByDraggable, addr 0x339b3e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isHandledByDraggable, addr 0x339e3dc, size 0xc, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
 protected:

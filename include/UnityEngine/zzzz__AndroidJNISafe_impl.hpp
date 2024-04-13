@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::AndroidJNISafe::CheckException)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x31a8ed8;
+  constexpr static std::size_t addrs = 0x31abed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNISafe*>::get(), "CheckException",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::AndroidJNISafe::DeleteGlobalRef)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x31a9480;
+  constexpr static std::size_t addrs = 0x31ac47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::AndroidJNISafe::DeleteWeakGlobalRef)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x31a9548;
+  constexpr static std::size_t addrs = 0x31ac544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::AndroidJNISafe::DeleteLocalRef)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x31a9610;
+  constexpr static std::size_t addrs = 0x31ac60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::StringW)>(&::UnityEngine::AndroidJNISafe::NewString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31a96d8;
+  constexpr static std::size_t addrs = 0x31ac6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(void*)>(&::UnityEngine::AndroidJNISafe::GetStringChars)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31a97b4;
+  constexpr static std::size_t addrs = 0x31ac7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*)>(&::UnityEngine::AndroidJNISafe::GetObjectClass)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31a9890;
+  constexpr static std::size_t addrs = 0x31ac88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNISafe::GetStaticMethodID)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31a996c;
+  constexpr static std::size_t addrs = 0x31ac968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNISafe::GetMethodID)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31a9a24;
+  constexpr static std::size_t addrs = 0x31aca20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNISafe::GetFieldID)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31a9adc;
+  constexpr static std::size_t addrs = 0x31acad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNISafe::GetStaticFieldID)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31a9be8;
+  constexpr static std::size_t addrs = 0x31acbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromReflectedMethod)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31a9cf4;
+  constexpr static std::size_t addrs = 0x31accf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::StringW)>(&::UnityEngine::AndroidJNISafe::FindClass)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31a9dd0;
+  constexpr static std::size_t addrs = 0x31acdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::NewObject)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31a9e70;
+  constexpr static std::size_t addrs = 0x31ace6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, void*)>(&::UnityEngine::AndroidJNISafe::SetStaticObjectField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31a9f7c;
+  constexpr static std::size_t addrs = 0x31acf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, ::StringW)>(&::UnityEngine::AndroidJNISafe::SetStaticStringField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa08c;
+  constexpr static std::size_t addrs = 0x31ad088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, char16_t)>(&::UnityEngine::AndroidJNISafe::SetStaticCharField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa19c;
+  constexpr static std::size_t addrs = 0x31ad198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, double_t)>(&::UnityEngine::AndroidJNISafe::SetStaticDoubleField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa2ac;
+  constexpr static std::size_t addrs = 0x31ad2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, float_t)>(&::UnityEngine::AndroidJNISafe::SetStaticFloatField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa3bc;
+  constexpr static std::size_t addrs = 0x31ad3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int64_t)>(&::UnityEngine::AndroidJNISafe::SetStaticLongField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa4cc;
+  constexpr static std::size_t addrs = 0x31ad4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int16_t)>(&::UnityEngine::AndroidJNISafe::SetStaticShortField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa5dc;
+  constexpr static std::size_t addrs = 0x31ad5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int8_t)>(&::UnityEngine::AndroidJNISafe::SetStaticSByteField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa6ec;
+  constexpr static std::size_t addrs = 0x31ad6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, bool)>(&::UnityEngine::AndroidJNISafe::SetStaticBooleanField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa7fc;
+  constexpr static std::size_t addrs = 0x31ad7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int32_t)>(&::UnityEngine::AndroidJNISafe::SetStaticIntField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31aa90c;
+  constexpr static std::size_t addrs = 0x31ad908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticObjectField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31aaa1c;
+  constexpr static std::size_t addrs = 0x31ada18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticStringField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31aab08;
+  constexpr static std::size_t addrs = 0x31adb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticCharField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31aabf4;
+  constexpr static std::size_t addrs = 0x31adbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticDoubleField)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x31aace0;
+  constexpr static std::size_t addrs = 0x31adcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticFloatField)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x31aadd8;
+  constexpr static std::size_t addrs = 0x31addd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticLongField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31aaed0;
+  constexpr static std::size_t addrs = 0x31adecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticShortField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31aafbc;
+  constexpr static std::size_t addrs = 0x31adfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticSByteField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ab0a8;
+  constexpr static std::size_t addrs = 0x31ae0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -470,7 +470,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticBooleanField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ab194;
+  constexpr static std::size_t addrs = 0x31ae190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStaticIntField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ab280;
+  constexpr static std::size_t addrs = 0x31ae27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticVoidMethod)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ab36c;
+  constexpr static std::size_t addrs = 0x31ae368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticObjectMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ab47c;
+  constexpr static std::size_t addrs = 0x31ae478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticStringMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ab588;
+  constexpr static std::size_t addrs = 0x31ae584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticCharMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ab640;
+  constexpr static std::size_t addrs = 0x31ae63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticDoubleMethod)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x31ab74c;
+  constexpr static std::size_t addrs = 0x31ae748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticFloatMethod)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x31ab864;
+  constexpr static std::size_t addrs = 0x31ae860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticLongMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ab97c;
+  constexpr static std::size_t addrs = 0x31ae978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticShortMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31aba88;
+  constexpr static std::size_t addrs = 0x31aea84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticSByteMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31abb94;
+  constexpr static std::size_t addrs = 0x31aeb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticBooleanMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31abca0;
+  constexpr static std::size_t addrs = 0x31aec9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -659,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStaticIntMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31abdac;
+  constexpr static std::size_t addrs = 0x31aeda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -674,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, void*)>(&::UnityEngine::AndroidJNISafe::SetObjectField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31abeb8;
+  constexpr static std::size_t addrs = 0x31aeeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -689,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, ::StringW)>(&::UnityEngine::AndroidJNISafe::SetStringField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31abfc8;
+  constexpr static std::size_t addrs = 0x31aefc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, char16_t)>(&::UnityEngine::AndroidJNISafe::SetCharField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac0d8;
+  constexpr static std::size_t addrs = 0x31af0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -719,7 +719,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, double_t)>(&::UnityEngine::AndroidJNISafe::SetDoubleField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac1e8;
+  constexpr static std::size_t addrs = 0x31af1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -734,7 +734,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, float_t)>(&::UnityEngine::AndroidJNISafe::SetFloatField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac2f8;
+  constexpr static std::size_t addrs = 0x31af2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -749,7 +749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int64_t)>(&::UnityEngine::AndroidJNISafe::SetLongField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac408;
+  constexpr static std::size_t addrs = 0x31af404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -764,7 +764,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int16_t)>(&::UnityEngine::AndroidJNISafe::SetShortField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac518;
+  constexpr static std::size_t addrs = 0x31af514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -779,7 +779,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int8_t)>(&::UnityEngine::AndroidJNISafe::SetSByteField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac628;
+  constexpr static std::size_t addrs = 0x31af624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -794,7 +794,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, bool)>(&::UnityEngine::AndroidJNISafe::SetBooleanField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac738;
+  constexpr static std::size_t addrs = 0x31af734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -809,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int32_t)>(&::UnityEngine::AndroidJNISafe::SetIntField)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ac848;
+  constexpr static std::size_t addrs = 0x31af844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -824,7 +824,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetObjectField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ac958;
+  constexpr static std::size_t addrs = 0x31af954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -838,7 +838,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetStringField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31aca44;
+  constexpr static std::size_t addrs = 0x31afa40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -852,7 +852,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetCharField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31acb30;
+  constexpr static std::size_t addrs = 0x31afb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -866,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetDoubleField)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x31acc1c;
+  constexpr static std::size_t addrs = 0x31afc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -880,7 +880,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetFloatField)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x31acd14;
+  constexpr static std::size_t addrs = 0x31afd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -894,7 +894,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetLongField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ace0c;
+  constexpr static std::size_t addrs = 0x31afe08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -908,7 +908,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetShortField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31acef8;
+  constexpr static std::size_t addrs = 0x31afef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -922,7 +922,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetSByteField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31acfe4;
+  constexpr static std::size_t addrs = 0x31affe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -936,7 +936,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetBooleanField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ad0d0;
+  constexpr static std::size_t addrs = 0x31b00cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -950,7 +950,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, void*)>(&::UnityEngine::AndroidJNISafe::GetIntField)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ad1bc;
+  constexpr static std::size_t addrs = 0x31b01b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -965,7 +965,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallVoidMethod)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31ad2a8;
+  constexpr static std::size_t addrs = 0x31b02a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -981,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallObjectMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ad3b8;
+  constexpr static std::size_t addrs = 0x31b03b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -997,7 +997,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallStringMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ad4c4;
+  constexpr static std::size_t addrs = 0x31b04c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1013,7 +1013,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallCharMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ad57c;
+  constexpr static std::size_t addrs = 0x31b0578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1029,7 +1029,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallDoubleMethod)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x31ad688;
+  constexpr static std::size_t addrs = 0x31b0684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1045,7 +1045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallFloatMethod)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x31ad7a0;
+  constexpr static std::size_t addrs = 0x31b079c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1061,7 +1061,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallLongMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ad8b8;
+  constexpr static std::size_t addrs = 0x31b08b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallShortMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31ad9c4;
+  constexpr static std::size_t addrs = 0x31b09c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1093,7 +1093,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallSByteMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31adad0;
+  constexpr static std::size_t addrs = 0x31b0acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1109,7 +1109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallBooleanMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31adbdc;
+  constexpr static std::size_t addrs = 0x31b0bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1125,7 +1125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, void*, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
     &::UnityEngine::AndroidJNISafe::CallIntMethod)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31adce8;
+  constexpr static std::size_t addrs = 0x31b0ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1140,7 +1140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromCharArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31addf4;
+  constexpr static std::size_t addrs = 0x31b0df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1154,7 +1154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<double_t, ::Array<double_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromDoubleArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31aded0;
+  constexpr static std::size_t addrs = 0x31b0ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1168,7 +1168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromFloatArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31adfac;
+  constexpr static std::size_t addrs = 0x31b0fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1182,7 +1182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int64_t, ::Array<int64_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromLongArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae088;
+  constexpr static std::size_t addrs = 0x31b1084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1196,7 +1196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int16_t, ::Array<int16_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromShortArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae164;
+  constexpr static std::size_t addrs = 0x31b1160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1210,7 +1210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromByteArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae240;
+  constexpr static std::size_t addrs = 0x31b123c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1224,7 +1224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int8_t, ::Array<int8_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromSByteArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae31c;
+  constexpr static std::size_t addrs = 0x31b1318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1238,7 +1238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromBooleanArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae3f8;
+  constexpr static std::size_t addrs = 0x31b13f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1252,7 +1252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(void*)>(&::UnityEngine::AndroidJNISafe::FromIntArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae4d4;
+  constexpr static std::size_t addrs = 0x31b14d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1266,7 +1266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<void*, ::Array<void*>*>, void*)>(&::UnityEngine::AndroidJNISafe::ToObjectArray)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31ae5b0;
+  constexpr static std::size_t addrs = 0x31b15ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1281,7 +1281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::UnityEngine::AndroidJNISafe::ToCharArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae69c;
+  constexpr static std::size_t addrs = 0x31b1698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1295,7 +1295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<double_t, ::Array<double_t>*>)>(&::UnityEngine::AndroidJNISafe::ToDoubleArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae778;
+  constexpr static std::size_t addrs = 0x31b1774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1309,7 +1309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::UnityEngine::AndroidJNISafe::ToFloatArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae854;
+  constexpr static std::size_t addrs = 0x31b1850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1323,7 +1323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<int64_t, ::Array<int64_t>*>)>(&::UnityEngine::AndroidJNISafe::ToLongArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31ae930;
+  constexpr static std::size_t addrs = 0x31b192c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1337,7 +1337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<int16_t, ::Array<int16_t>*>)>(&::UnityEngine::AndroidJNISafe::ToShortArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31aea0c;
+  constexpr static std::size_t addrs = 0x31b1a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1351,7 +1351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::UnityEngine::AndroidJNISafe::ToByteArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31aeae8;
+  constexpr static std::size_t addrs = 0x31b1ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1365,7 +1365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<int8_t, ::Array<int8_t>*>)>(&::UnityEngine::AndroidJNISafe::ToSByteArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31aebc4;
+  constexpr static std::size_t addrs = 0x31b1bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1379,7 +1379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<bool, ::Array<bool>*>)>(&::UnityEngine::AndroidJNISafe::ToBooleanArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31aeca0;
+  constexpr static std::size_t addrs = 0x31b1c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1393,7 +1393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::UnityEngine::AndroidJNISafe::ToIntArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31aed7c;
+  constexpr static std::size_t addrs = 0x31b1d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1407,7 +1407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, int32_t)>(&::UnityEngine::AndroidJNISafe::GetObjectArrayElement)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31aee58;
+  constexpr static std::size_t addrs = 0x31b1e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1421,7 +1421,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*)>(&::UnityEngine::AndroidJNISafe::GetArrayLength)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31aef44;
+  constexpr static std::size_t addrs = 0x31b1f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

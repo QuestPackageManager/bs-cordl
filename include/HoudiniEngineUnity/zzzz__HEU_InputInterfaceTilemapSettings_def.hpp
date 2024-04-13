@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__exportUnusedTiles(bool value);
 
-  /// @brief Method .ctor, addr 0x24ad7e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b77e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

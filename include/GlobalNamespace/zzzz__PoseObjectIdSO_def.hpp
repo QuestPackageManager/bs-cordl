@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__serializedId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25849d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258d9d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x25849d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x258d9cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
 protected:

@@ -61,27 +61,27 @@ public:
 
   __declspec(property(get = get_targetRotation)) float_t targetRotation;
 
-  /// @brief Method FixedUpdate, addr 0x25ce1e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x25d51dc, size 0x90, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x25ce0dc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x25d50d8, size 0x104, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
 
-  /// @brief Method LateUpdate, addr 0x25ce270, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x25d526c, size 0x128, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentSpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25ce0c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25d50bc, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x25cdefc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x25d4ef8, size 0x60, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x25cde9c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x25d4e98, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x25cdf5c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25d4f58, size 0x164, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -126,14 +126,14 @@ public:
 
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x25ce398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d5394, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__numberOfActiveEnvironmentSpawnRotationObjects();
 
   static inline int32_t getStaticF__spawnRotationID();
 
-  /// @brief Method get_targetRotation, addr 0x25cde94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetRotation, addr 0x25d4e90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetRotation();
 
   static inline void setStaticF__numberOfActiveEnvironmentSpawnRotationObjects(int32_t value);

@@ -60,35 +60,35 @@ public:
   /// @brief Field ace_type, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_ace_type, put = __cordl_internal_set_ace_type))::System::Security::AccessControl::AceType ace_type;
 
-  /// @brief Method CreateFromBinaryForm, addr 0x2701318, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CreateFromBinaryForm, addr 0x2706314, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::GenericAce* CreateFromBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method Equals, addr 0x270241c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2707418, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* o);
 
   /// @brief Method GetBinaryForm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method GetHashCode, addr 0x270249c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x2707498, size 0xcc, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
-  /// @brief Method IsObjectType, addr 0x2702178, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsObjectType, addr 0x2707174, size 0x40, virtual false, abstract: false, final false
   static inline bool IsObjectType(::System::Security::AccessControl::AceType type);
 
   static inline ::System::Security::AccessControl::GenericAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
   static inline ::System::Security::AccessControl::GenericAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-  /// @brief Method ReadInt, addr 0x26ff708, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadInt, addr 0x2704704, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ReadInt(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method ReadUShort, addr 0x26ff6c8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ReadUShort, addr 0x27046c4, size 0x40, virtual false, abstract: false, final false
   static inline uint16_t ReadUShort(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method WriteInt, addr 0x26ff9a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteInt, addr 0x270499c, size 0x80, virtual false, abstract: false, final false
   static inline void WriteInt(int32_t val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method WriteUShort, addr 0x26ff958, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteUShort, addr 0x2704954, size 0x48, virtual false, abstract: false, final false
   static inline void WriteUShort(uint16_t val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
   constexpr ::System::Security::AccessControl::AceFlags const& __cordl_internal_get_ace_flags() const;
@@ -103,37 +103,37 @@ public:
 
   constexpr void __cordl_internal_set_ace_type(::System::Security::AccessControl::AceType value);
 
-  /// @brief Method .ctor, addr 0x2702008, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2707004, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x2701f78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706f74, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-  /// @brief Method get_AceFlags, addr 0x270214c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AceFlags, addr 0x2707148, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceFlags get_AceFlags();
 
-  /// @brief Method get_AceType, addr 0x2702154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AceType, addr 0x2707150, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceType get_AceType();
 
-  /// @brief Method get_AuditFlags, addr 0x2701e84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AuditFlags, addr 0x2706e80, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuditFlags get_AuditFlags();
 
   /// @brief Method get_BinaryLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_BinaryLength();
 
-  /// @brief Method get_InheritanceFlags, addr 0x270215c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_InheritanceFlags, addr 0x2707158, size 0x10, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::InheritanceFlags get_InheritanceFlags();
 
-  /// @brief Method get_IsInherited, addr 0x27004b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsInherited, addr 0x27054b0, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsInherited();
 
-  /// @brief Method get_PropagationFlags, addr 0x270216c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PropagationFlags, addr 0x2707168, size 0xc, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::PropagationFlags get_PropagationFlags();
 
-  /// @brief Method op_Equality, addr 0x27006c0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x27056bc, size 0x148, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce* right);
 
-  /// @brief Method op_Inequality, addr 0x2700300, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x27052fc, size 0x148, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce* right);
 
 protected:

@@ -29,19 +29,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*();
 
-  /// @brief Method Equals, addr 0x3227728, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3229724, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x32277e0, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x32297dc, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SphericalHarmonicsL2 other);
 
-  /// @brief Method GetHashCode, addr 0x3227554, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3229550, size 0x1d4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* i___System__IEquatable_1___UnityEngine__Rendering__SphericalHarmonicsL2_();
 
-  /// @brief Method op_Equality, addr 0x3227828, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3229824, size 0x1bc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
 
   // Ctor Parameters []

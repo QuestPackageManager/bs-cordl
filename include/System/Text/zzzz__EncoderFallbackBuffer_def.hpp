@@ -55,16 +55,16 @@ public:
   /// @brief Method GetNextChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x26b2c1c, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x26b8c18, size 0x1a8, virtual true, abstract: false, final false
   inline bool InternalFallback(char16_t ch, ByRef<::cordl_internals::Ptr<char16_t>> chars);
 
-  /// @brief Method InternalGetNextChar, addr 0x26b2be8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InternalGetNextChar, addr 0x26b8be4, size 0x34, virtual false, abstract: false, final false
   inline char16_t InternalGetNextChar();
 
-  /// @brief Method InternalInitialize, addr 0x26b2bcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialize, addr 0x26b8bc8, size 0x1c, virtual false, abstract: false, final false
   inline void InternalInitialize(::cordl_internals::Ptr<char16_t> charStart, ::cordl_internals::Ptr<char16_t> charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
 
-  /// @brief Method InternalReset, addr 0x26b2bb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x26b8bb0, size 0x18, virtual false, abstract: false, final false
   inline void InternalReset();
 
   /// @brief Method MovePrevious, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -72,10 +72,10 @@ public:
 
   static inline ::System::Text::EncoderFallbackBuffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x26b2b8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x26b8b88, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ThrowLastCharRecursive, addr 0x26b2dc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastCharRecursive, addr 0x26b8dc0, size 0x90, virtual false, abstract: false, final false
   inline void ThrowLastCharRecursive(int32_t charRecursive);
 
   constexpr bool const& __cordl_internal_get_bFallingBack() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_setEncoder(bool value);
 
-  /// @brief Method .ctor, addr 0x26b2004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b8000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

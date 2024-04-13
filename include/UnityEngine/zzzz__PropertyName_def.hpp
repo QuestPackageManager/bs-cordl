@@ -29,34 +29,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::PropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::PropertyName>*();
 
-  /// @brief Method Equals, addr 0x31fdd54, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x31ffd50, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x31fddcc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31ffdc8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::PropertyName other);
 
-  /// @brief Method GetHashCode, addr 0x31fdd4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x31ffd48, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsNullOrEmpty, addr 0x31fdd34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x31ffd30, size 0xc, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::UnityEngine::PropertyName prop);
 
-  /// @brief Method ToString, addr 0x31fde28, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31ffe24, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x31fdc84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ffc80, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x31fdd2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ffd28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PropertyName other);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::PropertyName>"
   constexpr ::System::IEquatable_1<::UnityEngine::PropertyName>* i___System__IEquatable_1___UnityEngine__PropertyName_();
 
-  /// @brief Method op_Equality, addr 0x31fdd40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x31ffd3c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::PropertyName lhs, ::UnityEngine::PropertyName rhs);
 
-  /// @brief Method op_Implicit, addr 0x31fdddc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x31ffdd8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName op_Implicit___UnityEngine__PropertyName(::StringW name);
 
   // Ctor Parameters []

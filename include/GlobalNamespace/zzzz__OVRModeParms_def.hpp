@@ -24,13 +24,13 @@ public:
 
   static inline ::GlobalNamespace::OVRModeParms* New_ctor();
 
-  /// @brief Method Start, addr 0x2a89bcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2a8cbc8, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TestPowerStateMode, addr 0x2a89d14, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TestPowerStateMode, addr 0x2a8cd10, size 0xa4, virtual false, abstract: false, final false
   inline void TestPowerStateMode();
 
-  /// @brief Method Update, addr 0x2a89c68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a8cc64, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_resetButton() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method .ctor, addr 0x2a89db8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8cdb4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

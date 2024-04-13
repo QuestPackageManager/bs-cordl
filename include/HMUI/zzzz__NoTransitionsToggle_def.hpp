@@ -37,15 +37,15 @@ public:
   __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
                       put = __cordl_internal_set_selectionStateDidChangeEvent))::System::Action_1<::HMUI::UISelectionState>* selectionStateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x2423fbc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x242bfb8, size 0x54, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionsToggle* New_ctor();
 
-  /// @brief Method Start, addr 0x2423f10, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x242bf0c, size 0xac, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__6_0, addr 0x2424018, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__6_0, addr 0x242c014, size 0x30, virtual false, abstract: false, final false
   inline void _Start_b__6_0(bool isOn);
 
   constexpr ::HMUI::UISelectionState const& __cordl_internal_get__selectionState() const;
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x2424010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242c00c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x2423da8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x242bda4, size 0xb4, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x2423da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x242bd9c, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::UISelectionState get_selectionState();
 
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x2423e5c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x242be58, size 0xb4, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
 protected:

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::QNameFacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::QNameFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2cb3da4;
+  constexpr static std::size_t addrs = 0x2cb5da0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::QNameFacetsChecker::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::QNameFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x2cb3ed0;
+  constexpr static std::size_t addrs = 0x2cb5ecc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::QNameFacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::QNameFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2cb41ac;
+  constexpr static std::size_t addrs = 0x2cb61a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::QNameFacetsChecker::*)(
     ::System::Xml::XmlQualifiedName*, ::System::Collections::ArrayList*)>(&::System::Xml::Schema::QNameFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2cb409c;
+  constexpr static std::size_t addrs = 0x2cb6098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::QNameFacetsChecker::*)()>(&::System::Xml::Schema::QNameFacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cb42c0;
+  constexpr static std::size_t addrs = 0x2cb62bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::QNameFacetsChecker*>::get(), ".ctor",

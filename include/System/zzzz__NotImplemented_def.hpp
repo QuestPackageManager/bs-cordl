@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NotImplemented)
 namespace System {
 class Exception;
@@ -22,8 +21,8 @@ namespace System {
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ByDesignWithMessage, addr 0x2e78f64, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::Exception* ByDesignWithMessage(::StringW message);
+  /// @brief Method get_ByDesign, addr 0x284e9fc, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Exception* get_ByDesign();
 
 protected:
   // Ctor Parameters []

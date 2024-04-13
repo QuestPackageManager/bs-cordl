@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::__XmlReflectionImporter____c::*)()>(
     &::System::Xml::Serialization::__XmlReflectionImporter____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dd65ec;
+  constexpr static std::size_t addrs = 0x2dd85e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Xml::Serialization::__XmlReflectionImporter____c::*)(::System::Xml::Serialization::XmlReflectionMember*, ::System::Xml::Serialization::XmlReflectionMember*)>(
         &::System::Xml::Serialization::__XmlReflectionImporter____c::_ImportClassMapping_b__28_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2dd65f4;
+  constexpr static std::size_t addrs = 0x2dd85f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlReflectionImporter::*)(
     ::System::Xml::Serialization::XmlAttributeOverrides*, ::StringW)>(&::System::Xml::Serialization::XmlReflectionImporter::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2dcf334;
+  constexpr static std::size_t addrs = 0x2dd1330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*)>(&::System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2dcf44c;
+  constexpr static std::size_t addrs = 0x2dd1448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::StringW)>(&::System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2dcf640;
+  constexpr static std::size_t addrs = 0x2dd163c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Serialization::XmlTypeMapping* (::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(
         &::System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x2dcf458;
+  constexpr static std::size_t addrs = 0x2dd1454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x2dcf64c;
+  constexpr static std::size_t addrs = 0x2dd1648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::CreateTypeMapping)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x2dd2158;
+  constexpr static std::size_t addrs = 0x2dd4154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +194,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, bool)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2dd2628;
+  constexpr static std::size_t addrs = 0x2dd4624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,7 +212,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, bool)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping)> {
   constexpr static std::size_t size = 0xff0;
-  constexpr static std::size_t addrs = 0x2dcfad0;
+  constexpr static std::size_t addrs = 0x2dd1acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlReflectionImporter::*)(
     ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::XmlTypeMapping*)>(&::System::Xml::Serialization::XmlReflectionImporter::RegisterDerivedMap)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2dd3f38;
+  constexpr static std::size_t addrs = 0x2dd5f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::XmlReflectionImporter::*)(
     ::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&::System::Xml::Serialization::XmlReflectionImporter::GetTypeNamespace)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2dd26b8;
+  constexpr static std::size_t addrs = 0x2dd46b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::System::Xml::Serialization::XmlAttributes*, int32_t)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportListMapping)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2dd418c;
+  constexpr static std::size_t addrs = 0x2dd6188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +282,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW,
                                                             ::System::Xml::Serialization::XmlAttributes*, int32_t)>(&::System::Xml::Serialization::XmlReflectionImporter::ImportListMapping)> {
   constexpr static std::size_t size = 0xd04;
-  constexpr static std::size_t addrs = 0x2dd0ac0;
+  constexpr static std::size_t addrs = 0x2dd2abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportXmlNodeMapping)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2dd17c4;
+  constexpr static std::size_t addrs = 0x2dd37c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,7 +319,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportPrimitiveMapping)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2dd1998;
+  constexpr static std::size_t addrs = 0x2dd3994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +337,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportEnumMapping)> {
   constexpr static std::size_t size = 0x5f8;
-  constexpr static std::size_t addrs = 0x2dd1a4c;
+  constexpr static std::size_t addrs = 0x2dd3a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -355,7 +355,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportXmlSerializableMapping)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2dd2044;
+  constexpr static std::size_t addrs = 0x2dd4040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportIncludedTypes)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2dd4054;
+  constexpr static std::size_t addrs = 0x2dd6050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Xml::Serialization::XmlReflectionMember*>* (
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*)>(&::System::Xml::Serialization::XmlReflectionImporter::GetReflectionMembers)> {
   constexpr static std::size_t size = 0xd64;
-  constexpr static std::size_t addrs = 0x2dd27c4;
+  constexpr static std::size_t addrs = 0x2dd47c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlReflectionMember*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::CreateMapMember)> {
   constexpr static std::size_t size = 0x9a8;
-  constexpr static std::size_t addrs = 0x2dd3590;
+  constexpr static std::size_t addrs = 0x2dd558c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -421,7 +421,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::StringW, ::StringW, ::System::Type*, ::System::Xml::Serialization::XmlTypeMapMemberElement*,
                                                             ::System::Xml::Serialization::XmlAttributes*)>(&::System::Xml::Serialization::XmlReflectionImporter::ImportElementInfo)> {
   constexpr static std::size_t size = 0x1164;
-  constexpr static std::size_t addrs = 0x2dd4968;
+  constexpr static std::size_t addrs = 0x2dd6964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -440,7 +440,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::StringW, ::System::Xml::Serialization::XmlReflectionMember*, ::System::Xml::Serialization::XmlTypeMapMemberElement*,
                                                             ::System::Xml::Serialization::XmlAttributes*)>(&::System::Xml::Serialization::XmlReflectionImporter::ImportAnyElementInfo)> {
   constexpr static std::size_t size = 0x700;
-  constexpr static std::size_t addrs = 0x2dd4268;
+  constexpr static std::size_t addrs = 0x2dd6264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -459,7 +459,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlTypeMapElementInfoList*, ::System::Type*, ::System::Xml::Serialization::XmlTypeMapMemberElement*, ::System::Xml::Serialization::XmlAttributes*, ::StringW)>(
     &::System::Xml::Serialization::XmlReflectionImporter::ImportTextElementInfo)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x2dd5ca0;
+  constexpr static std::size_t addrs = 0x2dd7c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*)>(
     &::System::Xml::Serialization::XmlReflectionImporter::CanBeNull)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2dd2594;
+  constexpr static std::size_t addrs = 0x2dd4590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*)>(
     &::System::Xml::Serialization::XmlReflectionImporter::IncludeType)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x2dd5fe8;
+  constexpr static std::size_t addrs = 0x2dd7fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Object*)>(&::System::Xml::Serialization::XmlReflectionImporter::GetDefaultValue)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2dd5acc;
+  constexpr static std::size_t addrs = 0x2dd7ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

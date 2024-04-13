@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)()>(&::UnityEngine::UI::VertexHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32da3bc;
+  constexpr static std::size_t addrs = 0x32dd3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::VertexHelper*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::UnityEngine::Mesh*)>(&::UnityEngine::UI::VertexHelper::_ctor)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x32da3c4;
+  constexpr static std::size_t addrs = 0x32dd3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)()>(&::UnityEngine::UI::VertexHelper::InitializeListIfRequired)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x32da5fc;
+  constexpr static std::size_t addrs = 0x32dd5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::VertexHelper*>::get(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)()>(&::UnityEngine::UI::VertexHelper::Dispose)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x32da78c;
+  constexpr static std::size_t addrs = 0x32dd788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::VertexHelper*>::get(), "Dispose",
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)()>(&::UnityEngine::UI::VertexHelper::Clear)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x32ca60c;
+  constexpr static std::size_t addrs = 0x32cd608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::VertexHelper*>::get(), "Clear",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::VertexHelper::*)()>(&::UnityEngine::UI::VertexHelper::get_currentVertCount)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32da940;
+  constexpr static std::size_t addrs = 0x32dd93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::VertexHelper*>::get(), "get_currentVertCount",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::VertexHelper::*)()>(&::UnityEngine::UI::VertexHelper::get_currentIndexCount)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32da98c;
+  constexpr static std::size_t addrs = 0x32dd988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::VertexHelper*>::get(), "get_currentIndexCount",
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(ByRef<::UnityEngine::UIVertex>, int32_t)>(
     &::UnityEngine::UI::VertexHelper::PopulateUIVertex)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x32da9d8;
+  constexpr static std::size_t addrs = 0x32dd9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::UnityEngine::UIVertex, int32_t)>(
     &::UnityEngine::UI::VertexHelper::SetUIVertex)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x32dab38;
+  constexpr static std::size_t addrs = 0x32ddb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::UnityEngine::Mesh*)>(&::UnityEngine::UI::VertexHelper::FillMesh)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x32dac94;
+  constexpr static std::size_t addrs = 0x32ddc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Vector3, ::UnityEngine::Color32, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector3, ::UnityEngine::Vector4)>(
     &::UnityEngine::UI::VertexHelper::AddVert)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x32dadf8;
+  constexpr static std::size_t addrs = 0x32dddf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Color32, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector3, ::UnityEngine::Vector4)>(&::UnityEngine::UI::VertexHelper::AddVert)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x32db2f4;
+  constexpr static std::size_t addrs = 0x32de2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::UnityEngine::Vector3, ::UnityEngine::Color32, ::UnityEngine::Vector4)>(
     &::UnityEngine::UI::VertexHelper::AddVert)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x32ca728;
+  constexpr static std::size_t addrs = 0x32cd724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::UnityEngine::UIVertex)>(&::UnityEngine::UI::VertexHelper::AddVert)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x32db404;
+  constexpr static std::size_t addrs = 0x32de400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::UI::VertexHelper::AddTriangle)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x32ca858;
+  constexpr static std::size_t addrs = 0x32cd854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*>)>(
     &::UnityEngine::UI::VertexHelper::AddUIVertexQuad)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x32d73ec;
+  constexpr static std::size_t addrs = 0x32da3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::UI::VertexHelper::AddUIVertexStream)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32db498;
+  constexpr static std::size_t addrs = 0x32de494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*)>(
     &::UnityEngine::UI::VertexHelper::AddUIVertexTriangleStream)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32db544;
+  constexpr static std::size_t addrs = 0x32de540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VertexHelper::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*)>(
     &::UnityEngine::UI::VertexHelper::GetUIVertexStream)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32db594;
+  constexpr static std::size_t addrs = 0x32de590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

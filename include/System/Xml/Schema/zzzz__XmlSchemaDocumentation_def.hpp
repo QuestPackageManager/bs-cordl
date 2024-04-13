@@ -64,20 +64,20 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d1375c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d14758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* getStaticF_languageType();
 
   static inline void setStaticF_languageType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_Language, addr 0x2d13684, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_Language, addr 0x2d14680, size 0xd0, virtual false, abstract: false, final false
   inline void set_Language(::StringW value);
 
-  /// @brief Method set_Markup, addr 0x2d13754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x2d14750, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> value);
 
-  /// @brief Method set_Source, addr 0x2d1367c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x2d14678, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2616138;
+  constexpr static std::size_t addrs = 0x261d134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x26161f0;
+  constexpr static std::size_t addrs = 0x261d1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Update)> {
   constexpr static std::size_t size = 0x7e0;
-  constexpr static std::size_t addrs = 0x26162c0;
+  constexpr static std::size_t addrs = 0x261d2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)(
     ::GlobalNamespace::__MultiplayerController__State)>(&::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26161e0;
+  constexpr static std::size_t addrs = 0x261d1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::_ctor)> {
   constexpr static std::size_t size = 0x10e0;
-  constexpr static std::size_t addrs = 0x2616aa0;
+  constexpr static std::size_t addrs = 0x261da9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

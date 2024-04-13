@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340779c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a798, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x34077c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x340a7c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x34077cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x340a7c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::UnityEngine::UIElements::UxmlEnumeration::*)()>(
     &::UnityEngine::UIElements::UxmlEnumeration::get_values)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335b800;
+  constexpr static std::size_t addrs = 0x335e7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlEnumeration*>::get(), "get_values",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlEnumeration::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::UnityEngine::UIElements::UxmlEnumeration::set_values)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x335b808;
+  constexpr static std::size_t addrs = 0x335e804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UxmlEnumeration::*)(::UnityEngine::UIElements::UxmlTypeRestriction*)>(
     &::UnityEngine::UIElements::UxmlEnumeration::Equals)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x335b864;
+  constexpr static std::size_t addrs = 0x335e860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlEnumeration::*)()>(&::UnityEngine::UIElements::UxmlEnumeration::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x335b9b0;
+  constexpr static std::size_t addrs = 0x335e9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlEnumeration*>::get(), ".ctor",

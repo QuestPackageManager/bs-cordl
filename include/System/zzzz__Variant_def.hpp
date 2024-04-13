@@ -85,7 +85,7 @@ public:
   /// @brief Field wReserved3, offset 0x6, size 0x2
   __declspec(property(get = __cordl_internal_get_wReserved3, put = __cordl_internal_set_wReserved3)) uint16_t wReserved3;
 
-  /// @brief Method Clear, addr 0x288c6b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x28906b0, size 0x74, virtual false, abstract: false, final false
   inline void Clear();
 
   constexpr ::System::BRECORD const& __cordl_internal_get_bRecord() const;

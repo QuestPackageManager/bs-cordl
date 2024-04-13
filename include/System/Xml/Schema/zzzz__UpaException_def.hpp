@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_particle2(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2df74e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df94e4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
 
-  /// @brief Method get_Particle1, addr 0x2df7558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle1, addr 0x2df9554, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle1();
 
-  /// @brief Method get_Particle2, addr 0x2df7560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle2, addr 0x2df955c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle2();
 
 protected:

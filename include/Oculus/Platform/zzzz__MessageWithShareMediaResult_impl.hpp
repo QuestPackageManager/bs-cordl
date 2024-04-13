@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithShareMediaResult::*)(void*)>(
     &::Oculus::Platform::MessageWithShareMediaResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c6178;
+  constexpr static std::size_t addrs = 0x29c8174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ShareMediaResult* (::Oculus::Platform::MessageWithShareMediaResult::*)()>(
     &::Oculus::Platform::MessageWithShareMediaResult::GetShareMediaResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29ca340;
+  constexpr static std::size_t addrs = 0x29cc33c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ShareMediaResult* (::Oculus::Platform::MessageWithShareMediaResult::*)(void*)>(
     &::Oculus::Platform::MessageWithShareMediaResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29ca37c;
+  constexpr static std::size_t addrs = 0x29cc378;
 
   inline static ::MethodInfo const* methodInfo() {
 

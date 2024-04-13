@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlChildNodes::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlChildNodes::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2d8f8bc;
+  constexpr static std::size_t addrs = 0x2d928b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlChildNodes::*)(int32_t)>(&::System::Xml::XmlChildNodes::Item)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2d8f8e4;
+  constexpr static std::size_t addrs = 0x2d928e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlChildNodes::*)()>(&::System::Xml::XmlChildNodes::get_Count)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2d8f940;
+  constexpr static std::size_t addrs = 0x2d9293c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlChildNodes::*)()>(
     &::System::Xml::XmlChildNodes::GetEnumerator)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2d8f98c;
+  constexpr static std::size_t addrs = 0x2d92988;
 
   inline static ::MethodInfo const* methodInfo() {
 

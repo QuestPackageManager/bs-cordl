@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c::*)()>(
     &::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25c0638;
+  constexpr static std::size_t addrs = 0x25c7634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c::*)(
     ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex)>(&::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c::_Awake_b__10_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25c0640;
+  constexpr static std::size_t addrs = 0x25c763c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c::*)(
     ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex)>(&::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c::_Awake_b__10_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25c0658;
+  constexpr static std::size_t addrs = 0x25c7654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x25c0098;
+  constexpr static std::size_t addrs = 0x25c7094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x25c0234;
+  constexpr static std::size_t addrs = 0x25c7230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x25c02c0;
+  constexpr static std::size_t addrs = 0x25c72bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x25c0358;
+  constexpr static std::size_t addrs = 0x25c7354;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x25c0464;
+  constexpr static std::size_t addrs = 0x25c7460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x25c0570;
+  constexpr static std::size_t addrs = 0x25c756c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25c05cc;
+  constexpr static std::size_t addrs = 0x25c75c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

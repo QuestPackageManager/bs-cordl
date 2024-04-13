@@ -106,32 +106,32 @@ public:
 
   __declspec(property(get = get_songPackMask))::GlobalNamespace::SongPackMask songPackMask;
 
-  /// @brief Method ActionButtonWasPressed, addr 0x2651ef0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ActionButtonWasPressed, addr 0x2659eec, size 0x118, virtual true, abstract: false, final false
   inline void ActionButtonWasPressed();
 
-  /// @brief Method BackButtonWasPressed, addr 0x2652008, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x265a004, size 0x5c, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DismissViewControllersAndFinish, addr 0x2652488, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DismissViewControllersAndFinish, addr 0x265a484, size 0x70, virtual false, abstract: false, final false
   inline void DismissViewControllersAndFinish();
 
-  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x26524f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x265a4f4, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStarted(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x2652064, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x265a060, size 0xec, virtual true, abstract: false, final false
   inline void LevelSelectionFlowCoordinatorTopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController,
                                                                        ::HMUI::__ViewController__AnimationType animationType);
 
   static inline ::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator* New_ctor();
 
-  /// @brief Method Setup, addr 0x264b004, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2653000, size 0x20, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::__LevelSelectionFlowCoordinator__State* state, ::GlobalNamespace::SongPackMask songPackMask,
                     ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::StringW actionText, ::StringW titleText);
 
-  /// @brief Method TransitionDidFinish, addr 0x265226c, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidFinish, addr 0x265a268, size 0x21c, virtual true, abstract: false, final false
   inline void TransitionDidFinish();
 
-  /// @brief Method TransitionDidStart, addr 0x2652150, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidStart, addr 0x265a14c, size 0x11c, virtual true, abstract: false, final false
   inline void TransitionDidStart();
 
   constexpr ::StringW const& __cordl_internal_get__actionButtonText() const;
@@ -195,46 +195,46 @@ public:
 
   constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::__LevelSelectionFlowCoordinator__State*>* value);
 
-  /// @brief Method .ctor, addr 0x26524fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a4f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishedEvent, addr 0x2647fe0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishedEvent, addr 0x264ffdc, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishedEvent(::System::Action* value);
 
-  /// @brief Method add_didSelectLevelEvent, addr 0x2647f30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelEvent, addr 0x264ff2c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::__LevelSelectionFlowCoordinator__State*>* value);
 
-  /// @brief Method get_actionButtonText, addr 0x2651eb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_actionButtonText, addr 0x2659eb0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_actionButtonText();
 
-  /// @brief Method get_allowedBeatmapDifficultyMask, addr 0x2651ed8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_allowedBeatmapDifficultyMask, addr 0x2659ed4, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
 
-  /// @brief Method get_enableCustomLevels, addr 0x2651ed0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_enableCustomLevels, addr 0x2659ecc, size 0x8, virtual true, abstract: false, final false
   inline bool get_enableCustomLevels();
 
-  /// @brief Method get_hidePacksIfOneOrNone, addr 0x2651eac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hidePacksIfOneOrNone, addr 0x2659ea8, size 0x8, virtual true, abstract: false, final false
   inline bool get_hidePacksIfOneOrNone();
 
-  /// @brief Method get_hidePracticeButton, addr 0x2651ea4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hidePracticeButton, addr 0x2659ea0, size 0x8, virtual true, abstract: false, final false
   inline bool get_hidePracticeButton();
 
-  /// @brief Method get_mainTitle, addr 0x2651ee8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x2659ee4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_notAllowedCharacteristics, addr 0x2651ee0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_notAllowedCharacteristics, addr 0x2659edc, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> get_notAllowedCharacteristics();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x2651ebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x2659eb8, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
-  /// @brief Method get_songPackMask, addr 0x2651ec4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_songPackMask, addr 0x2659ec0, size 0xc, virtual true, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask get_songPackMask();
 
-  /// @brief Method remove_didFinishedEvent, addr 0x2649638, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishedEvent, addr 0x2651634, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_didSelectLevelEvent, addr 0x2649588, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelEvent, addr 0x2651584, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::__LevelSelectionFlowCoordinator__State*>* value);
 
 protected:

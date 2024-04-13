@@ -46,27 +46,27 @@ public:
   static __declspec(property(get = getStaticF_s_InputSubsystemDescriptors,
                              put = setStaticF_s_InputSubsystemDescriptors))::System::Collections::Generic::List_1<Il2CppObject*>* s_InputSubsystemDescriptors;
 
-  /// @brief Method Deinitialize, addr 0x31a8be0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x31abbdc, size 0x78, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
-  /// @brief Method DisableVRAndEnable2DReprojection, addr 0x31a8c58, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DisableVRAndEnable2DReprojection, addr 0x31abc54, size 0x98, virtual false, abstract: false, final false
   inline bool DisableVRAndEnable2DReprojection();
 
-  /// @brief Method EnableVRAndDisable2DReprojection, addr 0x31a8cf0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EnableVRAndDisable2DReprojection, addr 0x31abcec, size 0xc4, virtual false, abstract: false, final false
   inline bool EnableVRAndDisable2DReprojection();
 
-  /// @brief Method Initialize, addr 0x31a8a1c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x31aba18, size 0xd4, virtual true, abstract: false, final false
   inline bool Initialize();
 
   static inline ::UnityEngine::PS4::XR::PSVRLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x31a8af0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x31abaec, size 0x78, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x31a8b68, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x31abb64, size 0x78, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method .ctor, addr 0x31a8db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31abdb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_DisplayName();
@@ -77,10 +77,10 @@ public:
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method get_displaySubsystem, addr 0x31a893c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_displaySubsystem, addr 0x31ab938, size 0x70, virtual false, abstract: false, final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem, addr 0x31a89ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_inputSubsystem, addr 0x31ab9a8, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
   static inline void setStaticF_s_DisplayName(::StringW value);

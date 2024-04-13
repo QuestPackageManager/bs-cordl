@@ -33,36 +33,36 @@ public:
 
   __declspec(property(get = get_y)) float_t y;
 
-  /// @brief Method .ctor, addr 0x30aaf94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30aff90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mask);
 
-  /// @brief Method .ctor, addr 0x30aaf70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30aff6c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon);
 
   static inline ::UnityEngine::ProBuilder::Vector2Mask getStaticF_XY();
 
-  /// @brief Method get_x, addr 0x30aaf40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x30aff3c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_x();
 
-  /// @brief Method get_y, addr 0x30aaf58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x30aff54, size 0x18, virtual false, abstract: false, final false
   inline float_t get_y();
 
-  /// @brief Method op_BitwiseAnd, addr 0x30aafec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x30affe8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseAnd(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_BitwiseOr, addr 0x30aafe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x30affdc, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_ExclusiveOr, addr 0x30aaff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x30afff4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_ExclusiveOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_Implicit, addr 0x30aafb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x30affb4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_Implicit___UnityEngine__ProBuilder__Vector2Mask(::UnityEngine::Vector2 v);
 
-  /// @brief Method op_Implicit, addr 0x30aaf9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x30aff98, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::Vector2Mask mask);
 
-  /// @brief Method op_Multiply, addr 0x30ab004, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x30b0000, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Multiply(::UnityEngine::ProBuilder::Vector2Mask mask, float_t value);
 
   static inline void setStaticF_XY(::UnityEngine::ProBuilder::Vector2Mask value);

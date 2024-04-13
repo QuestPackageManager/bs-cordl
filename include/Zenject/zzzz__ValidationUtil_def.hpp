@@ -52,16 +52,16 @@ public:
 
   static inline ::Zenject::__ValidationUtil____c* New_ctor();
 
-  /// @brief Method <CreateDefaultArgs>b__0_0, addr 0x346b904, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <CreateDefaultArgs>b__0_0, addr 0x346e900, size 0x80, virtual false, abstract: false, final false
   inline ::Zenject::TypeValuePair _CreateDefaultArgs_b__0_0(::System::Type* x);
 
-  /// @brief Method __zenCreate, addr 0x346b984, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x346e980, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346b9e0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346e9dc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x346b8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346e8f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::__ValidationUtil____c* getStaticF___9();
@@ -102,7 +102,7 @@ public:
   // Declarations
   using __c = ::Zenject::__ValidationUtil____c;
 
-  /// @brief Method CreateDefaultArgs, addr 0x346b784, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultArgs, addr 0x346e780, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes);
 
 protected:

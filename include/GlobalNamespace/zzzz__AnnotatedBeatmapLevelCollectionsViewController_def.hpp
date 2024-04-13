@@ -75,33 +75,33 @@ public:
 
   __declspec(property(get = get_selectedItemIndex)) int32_t selectedItemIndex;
 
-  /// @brief Method DidActivate, addr 0x253f298, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2548294, size 0x204, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x253f4b8, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x25484b4, size 0x208, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x253f854, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x2548850, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsGridViewClose, addr 0x253f88c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsGridViewClose, addr 0x2548888, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnnotatedBeatmapLevelCollectionsGridViewClose();
 
-  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsGridViewOpen, addr 0x253f870, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsGridViewOpen, addr 0x254886c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnnotatedBeatmapLevelCollectionsGridViewOpen();
 
-  /// @brief Method HandleDidSelectAnnotatedBeatmapLevelCollection, addr 0x253f8a8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectAnnotatedBeatmapLevelCollection, addr 0x25488a4, size 0x180, virtual false, abstract: false, final false
   inline void HandleDidSelectAnnotatedBeatmapLevelCollection(::GlobalNamespace::BeatmapLevelPack* beatmapLevelCollection);
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* New_ctor();
 
-  /// @brief Method RefreshAvailability, addr 0x253f49c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailability, addr 0x2548498, size 0x1c, virtual false, abstract: false, final false
   inline void RefreshAvailability();
 
-  /// @brief Method SetData, addr 0x253f6c0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x25486bc, size 0x130, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* annotatedBeatmapLevelCollections, int32_t selectedItemIndex, bool hideIfOneOrNoPacks);
 
-  /// @brief Method ShowLoading, addr 0x253f7f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShowLoading, addr 0x25487ec, size 0x64, virtual false, abstract: false, final false
   inline void ShowLoading();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
@@ -153,31 +153,31 @@ public:
 
   constexpr void __cordl_internal_set_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method .ctor, addr 0x253fa28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2548a24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didCloseBeatmapLevelCollectionsEvent, addr 0x253eec4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didCloseBeatmapLevelCollectionsEvent, addr 0x2547ec0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method add_didOpenBeatmapLevelCollectionsEvent, addr 0x253ed8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didOpenBeatmapLevelCollectionsEvent, addr 0x2547d88, size 0x9c, virtual false, abstract: false, final false
   inline void add_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method add_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x253effc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x2547ff8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method get_selectedAnnotatedBeatmapLevelPack, addr 0x253f15c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAnnotatedBeatmapLevelPack, addr 0x2548158, size 0x134, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* get_selectedAnnotatedBeatmapLevelPack();
 
-  /// @brief Method get_selectedItemIndex, addr 0x253f290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedItemIndex, addr 0x254828c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedItemIndex();
 
-  /// @brief Method remove_didCloseBeatmapLevelCollectionsEvent, addr 0x253ef60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didCloseBeatmapLevelCollectionsEvent, addr 0x2547f5c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method remove_didOpenBeatmapLevelCollectionsEvent, addr 0x253ee28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didOpenBeatmapLevelCollectionsEvent, addr 0x2547e24, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method remove_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x253f0ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x25480a8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
 protected:

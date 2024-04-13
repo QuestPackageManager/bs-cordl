@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry::*)()>(
     &::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry::get_triggerInEditor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3199d78;
+  constexpr static std::size_t addrs = 0x319cd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry::*)()>(
     &::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry::get_prewarm)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3199d6c;
+  constexpr static std::size_t addrs = 0x319cd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry::*)()>(
     &::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry::get_triggerOnce)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31994a8;
+  constexpr static std::size_t addrs = 0x319c4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::__TimeNotificationBehaviour____c::*)()>(
     &::UnityEngine::Timeline::__TimeNotificationBehaviour____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3199e64;
+  constexpr static std::size_t addrs = 0x319ce60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry, ::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry)>(
     &::UnityEngine::Timeline::__TimeNotificationBehaviour____c::_SortNotifications_b__12_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3199e6c;
+  constexpr static std::size_t addrs = 0x319ce68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::set_timeSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3198fb8;
+  constexpr static std::size_t addrs = 0x319bfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*> (*)(
     ::UnityEngine::Playables::PlayableGraph, double_t, ::UnityEngine::Playables::DirectorWrapMode)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::Create)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3198fc0;
+  constexpr static std::size_t addrs = 0x319bfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(
     double_t, ::UnityEngine::Playables::INotification*, ::UnityEngine::Timeline::NotificationFlags)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::AddNotification)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x31990dc;
+  constexpr static std::size_t addrs = 0x319c0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x31991d4;
+  constexpr static std::size_t addrs = 0x319c1d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::OnBehaviourPause)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x31994b4;
+  constexpr static std::size_t addrs = 0x319c4b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::PrepareFrame)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x31996e8;
+  constexpr static std::size_t addrs = 0x319c6e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)()>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::SortNotifications)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3199398;
+  constexpr static std::size_t addrs = 0x319c394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TimeNotificationBehaviour*>::get(),
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry, ::UnityEngine::Playables::FrameData,
                                                                                            double_t, double_t)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::CanRestoreNotification)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3199d08;
+  constexpr static std::size_t addrs = 0x319cd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(
     double_t, double_t, ::UnityEngine::Playables::FrameData, ::UnityEngine::Playables::Playable, bool)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::TriggerNotificationsInRange)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3199b48;
+  constexpr static std::size_t addrs = 0x319cb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::SyncDurationWithExternalSource)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3199a44;
+  constexpr static std::size_t addrs = 0x319ca40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -328,7 +328,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableOutput, ByRef<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>)>(
         &::UnityEngine::Timeline::TimeNotificationBehaviour::Trigger_internal)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3199660;
+  constexpr static std::size_t addrs = 0x319c65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::Restore_internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3199d64;
+  constexpr static std::size_t addrs = 0x319cd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)()>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3199d84;
+  constexpr static std::size_t addrs = 0x319cd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TimeNotificationBehaviour*>::get(),

@@ -34,34 +34,34 @@ namespace UnityEngine::Tilemaps {
 class CORDL_TYPE TileBase : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Method GetTileAnimationData, addr 0x329b984, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTileAnimationData, addr 0x329e980, size 0x8, virtual true, abstract: false, final false
   inline bool GetTileAnimationData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData);
 
-  /// @brief Method GetTileAnimationDataNoRef, addr 0x329b98c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTileAnimationDataNoRef, addr 0x329e988, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::TileAnimationData GetTileAnimationDataNoRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap);
 
-  /// @brief Method GetTileAnimationDataRef, addr 0x329b9bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTileAnimationDataRef, addr 0x329e9b8, size 0x28, virtual false, abstract: false, final false
   inline void GetTileAnimationDataRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData,
                                       ByRef<bool> hasAnimation);
 
-  /// @brief Method GetTileData, addr 0x329b934, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetTileData, addr 0x329e930, size 0x4, virtual true, abstract: false, final false
   inline void GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileData> tileData);
 
-  /// @brief Method GetTileDataNoRef, addr 0x329b938, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetTileDataNoRef, addr 0x329e934, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::TileData GetTileDataNoRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap);
 
   static inline ::UnityEngine::Tilemaps::TileBase* New_ctor();
 
-  /// @brief Method RefreshTile, addr 0x329b7b8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x329e7b4, size 0x18, virtual true, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap);
 
-  /// @brief Method StartUp, addr 0x329b9e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StartUp, addr 0x329e9e0, size 0x8, virtual true, abstract: false, final false
   inline bool StartUp(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::GameObject* go);
 
-  /// @brief Method StartUpRef, addr 0x329b9ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartUpRef, addr 0x329e9e8, size 0x28, virtual false, abstract: false, final false
   inline void StartUpRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::GameObject* go, ByRef<bool> startUpInvokedByUser);
 
-  /// @brief Method .ctor, addr 0x329b7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x329e7ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

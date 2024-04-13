@@ -22,7 +22,7 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE MeasureOutput : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Make, addr 0x33eff78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x33f2f74, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaSize Make(float_t width, float_t height);
 
 protected:

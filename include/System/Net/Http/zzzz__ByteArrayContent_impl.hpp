@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::ByteArrayContent::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Net::Http::ByteArrayContent::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2c675e4;
+  constexpr static std::size_t addrs = 0x2c6a5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::Http::ByteArrayContent::*)(::System::IO::Stream*, ::System::Net::TransportContext*)>(&::System::Net::Http::ByteArrayContent::SerializeToStreamAsync)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2c6766c;
+  constexpr static std::size_t addrs = 0x2c6a668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::ByteArrayContent::*)(ByRef<int64_t>)>(
     &::System::Net::Http::ByteArrayContent::TryComputeLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2c67694;
+  constexpr static std::size_t addrs = 0x2c6a690;
 
   inline static ::MethodInfo const* methodInfo() {
 

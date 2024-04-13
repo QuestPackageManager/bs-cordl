@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(int32_t)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2720434;
+  constexpr static std::size_t addrs = 0x2725430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Channels::CrossAppDomainSink* (*)(int32_t)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::GetSink)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x272011c;
+  constexpr static std::size_t addrs = 0x2725118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::get_TargetDomainId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x272045c;
+  constexpr static std::size_t addrs = 0x2725458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes (*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage*)>(&::System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2720464;
+  constexpr static std::size_t addrs = 0x2725460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Channels::CrossAppDomainSink::SyncProcessMessage)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x27206e0;
+  constexpr static std::size_t addrs = 0x27256dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2720bec;
+  constexpr static std::size_t addrs = 0x2725be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::SendAsyncMessage)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2720ce4;
+  constexpr static std::size_t addrs = 0x2725ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::_AsyncProcessMessage_b__10_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2720eec;
+  constexpr static std::size_t addrs = 0x2725ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -73,10 +73,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28b9d08, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28bdd04, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28b9f68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28bdf64, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -139,10 +139,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28b9f74, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28bdf70, size 0x278, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28ba1ec, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28be1e8, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -216,21 +216,21 @@ public:
   /// @brief Field _rpcManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager))::GlobalNamespace::IMenuRpcManager* _rpcManager;
 
-  /// @brief Method GetEntitlementStatus, addr 0x28b9c04, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetEntitlementStatus, addr 0x28bdc00, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
 
-  /// @brief Method HandleDataInvalidated, addr 0x28b9ac4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleDataInvalidated, addr 0x28bdac0, size 0xa4, virtual false, abstract: false, final false
   inline void HandleDataInvalidated();
 
-  /// @brief Method HandleGetIsEntitledToLevel, addr 0x28b9b68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleGetIsEntitledToLevel, addr 0x28bdb64, size 0x9c, virtual false, abstract: false, final false
   inline void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
 
   static inline ::GlobalNamespace::NetworkPlayerEntitlementChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x28b98f8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x28bd8f4, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x28b9808, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x28bd804, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
@@ -251,7 +251,7 @@ public:
 
   constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  /// @brief Method .ctor, addr 0x28b9d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28bdcfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

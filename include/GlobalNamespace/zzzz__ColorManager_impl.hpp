@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)()>(&::GlobalNamespace::ColorManager::get_obstaclesColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25710dc;
+  constexpr static std::size_t addrs = 0x257a0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManager*>::get(), "get_obstaclesColor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorManager::SetColorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25710fc;
+  constexpr static std::size_t addrs = 0x257a0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::EnvironmentColorType, bool)>(
     &::GlobalNamespace::ColorManager::ColorForType)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2571104;
+  constexpr static std::size_t addrs = 0x257a100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::ColorManager::ColorForType)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25711ec;
+  constexpr static std::size_t addrs = 0x257a1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ColorManager::ColorForSaberType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2571260;
+  constexpr static std::size_t addrs = 0x257a25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ColorManager::EffectsColorForSaberType)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x25712b4;
+  constexpr static std::size_t addrs = 0x257a2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)()>(
     &::GlobalNamespace::ColorManager::GetObstacleEffectColor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2571344;
+  constexpr static std::size_t addrs = 0x257a340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManager*>::get(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorManager::*)()>(&::GlobalNamespace::ColorManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25713a0;
+  constexpr static std::size_t addrs = 0x257a39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManager*>::get(), ".ctor",

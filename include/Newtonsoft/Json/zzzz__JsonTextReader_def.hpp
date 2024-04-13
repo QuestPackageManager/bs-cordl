@@ -375,10 +375,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28d94fc, size 0xcc0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28dd4f8, size 0xcc0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28da1bc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28de1b8, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -459,10 +459,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28da214, size 0xcec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28de210, size 0xcec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28daf00, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28deefc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -551,10 +551,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28daf58, size 0x248, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28def54, size 0x248, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28db1a0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28df19c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -617,10 +617,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28db1f8, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28df1f4, size 0x280, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28db478, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28df474, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -684,10 +684,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28db4d0, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28df4cc, size 0x280, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28db750, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28df74c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -750,10 +750,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28db7a8, size 0x270, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28df7a4, size 0x270, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dba18, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28dfa14, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -816,10 +816,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dba70, size 0x248, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28dfa6c, size 0x248, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dbcb8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28dfcb4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -882,10 +882,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dbd10, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28dfd0c, size 0x234, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dbf44, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28dff40, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -948,10 +948,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dbf9c, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28dff98, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dc254, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e0250, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1020,10 +1020,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dc2ac, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e02a8, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dc638, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e0634, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1093,10 +1093,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dc644, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e0640, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dc9a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e09a0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1166,10 +1166,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dc9b0, size 0x2b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e09ac, size 0x2b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dcc64, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e0c60, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1248,10 +1248,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dcc70, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e0c6c, size 0x240, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dceb0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e0eac, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1319,10 +1319,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dcf08, size 0x368, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e0f04, size 0x368, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dd270, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e126c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1390,10 +1390,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dd2c8, size 0x7dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e12c4, size 0x7dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28ddaa4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e1aa0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1486,10 +1486,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28ddab0, size 0x8f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e1aac, size 0x8f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28de3a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e23a0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1583,10 +1583,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28de3b0, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e23ac, size 0x1fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28de5ac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e25a8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1665,10 +1665,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28de5b8, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e25b4, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28de818, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e2814, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1743,10 +1743,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28de870, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e286c, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dead0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e2acc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1821,10 +1821,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28deb28, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e2b24, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28ded88, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e2d84, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1899,10 +1899,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dede0, size 0x5b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e2ddc, size 0x5b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28df398, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e3394, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1979,10 +1979,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28df3f0, size 0x624, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e33ec, size 0x624, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28dfa14, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e3a10, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2057,10 +2057,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28dfa6c, size 0x5fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e3a68, size 0x5fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e0068, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e4064, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2134,10 +2134,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e00c0, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e40bc, size 0x1e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e02a0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e429c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2211,10 +2211,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e02ac, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e42a8, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e04d4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e44d0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2277,10 +2277,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e052c, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e4528, size 0x2c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e07f4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e47f0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2348,10 +2348,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e0800, size 0x1004, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e47fc, size 0x1004, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e1804, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e5800, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2435,10 +2435,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e185c, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e5858, size 0x1e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e1a3c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e5a38, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2501,10 +2501,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e1a48, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e5a44, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e1c98, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e5c94, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2583,10 +2583,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e1cf0, size 0x2e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e5cec, size 0x2e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e1fd4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e5fd0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2660,10 +2660,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e202c, size 0x4a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e6028, size 0x4a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e24d0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e64cc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2733,10 +2733,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e24dc, size 0x4d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e64d8, size 0x4d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e29b0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e69ac, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2806,10 +2806,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e2a08, size 0x4e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e6a04, size 0x4e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e2eec, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e6ee8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2872,10 +2872,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e2ef8, size 0x23c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e6ef4, size 0x23c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e3134, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e7130, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2938,10 +2938,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e318c, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e7188, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e3400, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e73fc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3009,10 +3009,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e340c, size 0xde4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e7408, size 0xde4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e41f0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e81ec, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3094,10 +3094,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e4248, size 0xbf4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e8244, size 0xbf4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e4e3c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e8e38, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3226,10 +3226,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x28e4e48, size 0xf8c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28e8e44, size 0xf8c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28e5dd4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28e9dd0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3438,388 +3438,388 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method BigIntegerParse, addr 0x28d7cc4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BigIntegerParse, addr 0x28dbcc0, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Object* BigIntegerParse(::StringW number, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method BlockCopyChars, addr 0x28d2c04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method BlockCopyChars, addr 0x28d6c00, size 0x14, virtual false, abstract: false, final false
   static inline void BlockCopyChars(::ArrayW<char16_t, ::Array<char16_t>*> src, int32_t srcOffset, ::ArrayW<char16_t, ::Array<char16_t>*> dst, int32_t dstOffset, int32_t count);
 
-  /// @brief Method ClearRecentString, addr 0x28d6320, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ClearRecentString, addr 0x28da31c, size 0xc, virtual false, abstract: false, final false
   inline void ClearRecentString();
 
-  /// @brief Method Close, addr 0x28d843c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x28dc438, size 0x60, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method ConvertUnicode, addr 0x28d5fcc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ConvertUnicode, addr 0x28d9fc8, size 0x154, virtual false, abstract: false, final false
   inline char16_t ConvertUnicode(bool enoughChars);
 
-  /// @brief Method CreateUnexpectedCharacterException, addr 0x28d4d28, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedCharacterException, addr 0x28d8d24, size 0xd0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(char16_t c);
 
-  /// @brief Method DoReadAsBooleanAsync, addr 0x28d18a8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsBooleanAsync, addr 0x28d58a4, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* DoReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsBytesAsync, addr 0x28d19c0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsBytesAsync, addr 0x28d59bc, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* DoReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDateTimeAsync, addr 0x28d1ba8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDateTimeAsync, addr 0x28d5ba4, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* DoReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDateTimeOffsetAsync, addr 0x28d1cb8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDateTimeOffsetAsync, addr 0x28d5cb4, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* DoReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDecimalAsync, addr 0x28d1dc8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDecimalAsync, addr 0x28d5dc4, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* DoReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDoubleAsync, addr 0x28d1ed8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDoubleAsync, addr 0x28d5ed4, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* DoReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsInt32Async, addr 0x28d1fe8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsInt32Async, addr 0x28d5fe4, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* DoReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsStringAsync, addr 0x28d20f8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsStringAsync, addr 0x28d60f4, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* DoReadAsStringAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsync, addr 0x28cf534, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsync, addr 0x28d3530, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DoReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsync, addr 0x28cfa94, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsync, addr 0x28d3a90, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DoReadAsync(::System::Threading::Tasks::Task_1<bool>* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method EatWhitespace, addr 0x28d3948, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EatWhitespace, addr 0x28d7944, size 0x114, virtual false, abstract: false, final false
   inline void EatWhitespace();
 
-  /// @brief Method EatWhitespaceAsync, addr 0x28d04c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method EatWhitespaceAsync, addr 0x28d44c0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* EatWhitespaceAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method EndComment, addr 0x28d7d4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EndComment, addr 0x28dbd48, size 0x60, virtual false, abstract: false, final false
   inline void EndComment(bool setToken, int32_t initialPosition, int32_t endPosition);
 
-  /// @brief Method EnsureBuffer, addr 0x28cf728, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EnsureBuffer, addr 0x28d3724, size 0x44, virtual false, abstract: false, final false
   inline void EnsureBuffer();
 
-  /// @brief Method EnsureBufferNotEmpty, addr 0x28d2268, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferNotEmpty, addr 0x28d6264, size 0x54, virtual false, abstract: false, final false
   inline void EnsureBufferNotEmpty();
 
-  /// @brief Method EnsureChars, addr 0x28d2e4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EnsureChars, addr 0x28d6e48, size 0x20, virtual false, abstract: false, final false
   inline bool EnsureChars(int32_t relativePosition, bool append);
 
-  /// @brief Method EnsureCharsAsync, addr 0x28cffc0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EnsureCharsAsync, addr 0x28d3fbc, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* EnsureCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FinishReadQuotedNumber, addr 0x28d5a14, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method FinishReadQuotedNumber, addr 0x28d9a10, size 0x190, virtual false, abstract: false, final false
   inline ::System::Object* FinishReadQuotedNumber(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method FinishReadQuotedStringValue, addr 0x28d4fa8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method FinishReadQuotedStringValue, addr 0x28d8fa4, size 0x25c, virtual false, abstract: false, final false
   inline ::System::Object* FinishReadQuotedStringValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method FinishReadStringIntoBuffer, addr 0x28d5f2c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FinishReadStringIntoBuffer, addr 0x28d9f28, size 0xa0, virtual false, abstract: false, final false
   inline void FinishReadStringIntoBuffer(int32_t charPos, int32_t initialPosition, int32_t lastWritePosition);
 
-  /// @brief Method HandleNull, addr 0x28d4bec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleNull, addr 0x28d8be8, size 0xd0, virtual false, abstract: false, final false
   inline void HandleNull();
 
-  /// @brief Method HandleNullAsync, addr 0x28d14ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleNullAsync, addr 0x28d54a8, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* HandleNullAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HasLineInfo, addr 0x28d849c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasLineInfo, addr 0x28dc498, size 0x8, virtual true, abstract: false, final true
   inline bool HasLineInfo();
 
-  /// @brief Method IsSeparator, addr 0x28d7ee8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsSeparator, addr 0x28dbee4, size 0x158, virtual false, abstract: false, final false
   inline bool IsSeparator(char16_t c);
 
-  /// @brief Method MatchAndSetAsync, addr 0x28d08b4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MatchAndSetAsync, addr 0x28d48b0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* MatchAndSetAsync(::StringW value, ::Newtonsoft::Json::JsonToken newToken, ::System::Object* tokenValue,
                                                             ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MatchValue, addr 0x28d7e08, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method MatchValue, addr 0x28dbe04, size 0xe0, virtual false, abstract: false, final false
   inline bool MatchValue(bool enoughChars, ::StringW value);
 
-  /// @brief Method MatchValue, addr 0x28d7dac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MatchValue, addr 0x28dbda8, size 0x5c, virtual false, abstract: false, final false
   inline bool MatchValue(::StringW value);
 
-  /// @brief Method MatchValueAsync, addr 0x28d0694, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MatchValueAsync, addr 0x28d4690, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MatchValueAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MatchValueWithTrailingSeparator, addr 0x28d52e8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MatchValueWithTrailingSeparator, addr 0x28d92e4, size 0xa4, virtual false, abstract: false, final false
   inline bool MatchValueWithTrailingSeparator(::StringW value);
 
-  /// @brief Method MatchValueWithTrailingSeparatorAsync, addr 0x28d07a4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MatchValueWithTrailingSeparatorAsync, addr 0x28d47a0, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MatchValueWithTrailingSeparatorAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Newtonsoft::Json::JsonTextReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method OnNewLine, addr 0x28d22bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnNewLine, addr 0x28d62b8, size 0x10, virtual false, abstract: false, final false
   inline void OnNewLine(int32_t pos);
 
-  /// @brief Method ParseComment, addr 0x28d3a5c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ParseComment, addr 0x28d7a58, size 0x28c, virtual false, abstract: false, final false
   inline void ParseComment(bool setToken);
 
-  /// @brief Method ParseCommentAsync, addr 0x28d03dc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ParseCommentAsync, addr 0x28d43d8, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseCommentAsync(bool setToken, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseConstructor, addr 0x28d69c0, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method ParseConstructor, addr 0x28da9bc, size 0x320, virtual false, abstract: false, final false
   inline void ParseConstructor();
 
-  /// @brief Method ParseConstructorAsync, addr 0x28d0b74, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseConstructorAsync, addr 0x28d4b70, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseConstructorAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseFalse, addr 0x28d68e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ParseFalse, addr 0x28da8e4, size 0xd8, virtual false, abstract: false, final false
   inline void ParseFalse();
 
-  /// @brief Method ParseFalseAsync, addr 0x28d0a58, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ParseFalseAsync, addr 0x28d4a54, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseFalseAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNull, addr 0x28d5df0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseNull, addr 0x28d9dec, size 0xac, virtual false, abstract: false, final false
   inline void ParseNull();
 
-  /// @brief Method ParseNullAsync, addr 0x28d0afc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParseNullAsync, addr 0x28d4af8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseNullAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumber, addr 0x28d5280, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ParseNumber, addr 0x28d927c, size 0x68, virtual false, abstract: false, final false
   inline void ParseNumber(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberAsync, addr 0x28d0f94, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberAsync, addr 0x28d4f90, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseNumberAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumberNaN, addr 0x28d5408, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNaN, addr 0x28d9404, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberNaN, addr 0x28d82e8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNaN, addr 0x28dc2e4, size 0x154, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType, bool matched);
 
-  /// @brief Method ParseNumberNaNAsync, addr 0x28d0c58, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNaNAsync, addr 0x28d4c54, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberNaNAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumberNegativeInfinity, addr 0x28d5204, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNegativeInfinity, addr 0x28d9200, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberNegativeInfinity, addr 0x28d8040, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNegativeInfinity, addr 0x28dc03c, size 0x154, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
 
-  /// @brief Method ParseNumberNegativeInfinityAsync, addr 0x28d0e80, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNegativeInfinityAsync, addr 0x28d4e7c, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberNegativeInfinityAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumberPositiveInfinity, addr 0x28d538c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberPositiveInfinity, addr 0x28d9388, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberPositiveInfinity, addr 0x28d8194, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberPositiveInfinity, addr 0x28dc190, size 0x154, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
 
-  /// @brief Method ParseNumberPositiveInfinityAsync, addr 0x28d0d6c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberPositiveInfinityAsync, addr 0x28d4d68, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberPositiveInfinityAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseObject, addr 0x28d3510, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseObject, addr 0x28d750c, size 0x190, virtual false, abstract: false, final false
   inline bool ParseObject();
 
-  /// @brief Method ParseObjectAsync, addr 0x28cf878, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ParseObjectAsync, addr 0x28d3874, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParseObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParsePostValue, addr 0x28d36a0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method ParsePostValue, addr 0x28d769c, size 0x2a8, virtual false, abstract: false, final false
   inline bool ParsePostValue(bool ignoreComments);
 
-  /// @brief Method ParsePostValueAsync, addr 0x28cf97c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ParsePostValueAsync, addr 0x28d3978, size 0x118, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParsePostValueAsync(bool ignoreComments, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseProperty, addr 0x28d632c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ParseProperty, addr 0x28da328, size 0x224, virtual false, abstract: false, final false
   inline bool ParseProperty();
 
-  /// @brief Method ParsePropertyAsync, addr 0x28d10f0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ParsePropertyAsync, addr 0x28d50ec, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParsePropertyAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseReadNumber, addr 0x28d6d8c, size 0xebc, virtual false, abstract: false, final false
+  /// @brief Method ParseReadNumber, addr 0x28dad88, size 0xebc, virtual false, abstract: false, final false
   inline void ParseReadNumber(::Newtonsoft::Json::ReadType readType, char16_t firstChar, int32_t initialPosition);
 
-  /// @brief Method ParseReadString, addr 0x28d2824, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method ParseReadString, addr 0x28d6820, size 0x3e0, virtual false, abstract: false, final false
   inline void ParseReadString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseString, addr 0x28d22cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ParseString, addr 0x28d62c8, size 0x48, virtual false, abstract: false, final false
   inline void ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseStringAsync, addr 0x28d05a0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ParseStringAsync, addr 0x28d459c, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseStringAsync(char16_t quote, ::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseTrue, addr 0x28d6810, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ParseTrue, addr 0x28da80c, size 0xd8, virtual false, abstract: false, final false
   inline void ParseTrue();
 
-  /// @brief Method ParseTrueAsync, addr 0x28d09b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ParseTrueAsync, addr 0x28d49ac, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseTrueAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseUndefined, addr 0x28d6ce0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseUndefined, addr 0x28dacdc, size 0xac, virtual false, abstract: false, final false
   inline void ParseUndefined();
 
-  /// @brief Method ParseUndefinedAsync, addr 0x28d1078, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParseUndefinedAsync, addr 0x28d5074, size 0x78, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseUndefinedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseUnicode, addr 0x28d5e9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ParseUnicode, addr 0x28d9e98, size 0x40, virtual false, abstract: false, final false
   inline char16_t ParseUnicode();
 
-  /// @brief Method ParseUnicodeAsync, addr 0x28d01c0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ParseUnicodeAsync, addr 0x28d41bc, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<char16_t>* ParseUnicodeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseUnquotedProperty, addr 0x28d65d0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ParseUnquotedProperty, addr 0x28da5cc, size 0xf4, virtual false, abstract: false, final false
   inline void ParseUnquotedProperty();
 
-  /// @brief Method ParseUnquotedPropertyAsync, addr 0x28d12d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ParseUnquotedPropertyAsync, addr 0x28d52cc, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseUnquotedPropertyAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseValue, addr 0x28d30f4, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x28d70f0, size 0x41c, virtual false, abstract: false, final false
   inline bool ParseValue();
 
-  /// @brief Method ParseValueAsync, addr 0x28cf76c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ParseValueAsync, addr 0x28d3768, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParseValueAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method PrepareBufferForReadData, addr 0x28d2cb4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method PrepareBufferForReadData, addr 0x28d6cb0, size 0x198, virtual false, abstract: false, final false
   inline void PrepareBufferForReadData(bool append, int32_t charsRequired);
 
-  /// @brief Method ProcessCarriageReturn, addr 0x28d4df8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ProcessCarriageReturn, addr 0x28d8df4, size 0x48, virtual false, abstract: false, final false
   inline void ProcessCarriageReturn(bool append);
 
-  /// @brief Method ProcessCarriageReturnAsync, addr 0x28cfec0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ProcessCarriageReturnAsync, addr 0x28d3ebc, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessCarriageReturnAsync(bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ProcessCarriageReturnAsync, addr 0x28d00e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ProcessCarriageReturnAsync, addr 0x28d40e4, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessCarriageReturnAsync(::System::Threading::Tasks::Task_1<bool>* task);
 
-  /// @brief Method ProcessLineFeed, addr 0x28d4e40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ProcessLineFeed, addr 0x28d8e3c, size 0x1c, virtual false, abstract: false, final false
   inline void ProcessLineFeed();
 
-  /// @brief Method ProcessValueComma, addr 0x28d4cbc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ProcessValueComma, addr 0x28d8cb8, size 0x6c, virtual false, abstract: false, final false
   inline void ProcessValueComma();
 
-  /// @brief Method Read, addr 0x28d2edc, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x28d6ed8, size 0x218, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsBoolean, addr 0x28d5484, size 0x590, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x28d9480, size 0x590, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBooleanAsync, addr 0x28d1898, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBooleanAsync, addr 0x28d5894, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* ReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsBytes, addr 0x28d46f8, size 0x4a4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x28d86f4, size 0x4a4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsBytesAsync, addr 0x28d19b0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytesAsync, addr 0x28d59ac, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTime, addr 0x28d4148, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x28d8144, size 0x90, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeAsync, addr 0x28d1b98, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeAsync, addr 0x28d5b94, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* ReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x28d5ba4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x28d9ba0, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x28d1ca8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x28d5ca4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* ReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDecimal, addr 0x28d5c70, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x28d9c6c, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDecimalAsync, addr 0x28d1db8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimalAsync, addr 0x28d5db4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* ReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDouble, addr 0x28d5d3c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x28d9d38, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsDoubleAsync, addr 0x28d1ec8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDoubleAsync, addr 0x28d5ec4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* ReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsInt32, addr 0x28d3ce8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x28d7ce4, size 0x90, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsInt32Async, addr 0x28d1fd8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32Async, addr 0x28d5fd4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* ReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsString, addr 0x28d4694, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x28d8690, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadAsStringAsync, addr 0x28d20e8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsStringAsync, addr 0x28d60e4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x28cf524, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x28d3520, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadChars, addr 0x28d2e6c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadChars, addr 0x28d6e68, size 0x70, virtual false, abstract: false, final false
   inline bool ReadChars(int32_t relativePosition, bool append);
 
-  /// @brief Method ReadCharsAsync, addr 0x28d02c0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ReadCharsAsync, addr 0x28d42bc, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadData, addr 0x28d2c18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x28d6c14, size 0xc, virtual false, abstract: false, final false
   inline int32_t ReadData(bool append);
 
-  /// @brief Method ReadData, addr 0x28d2c24, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x28d6c20, size 0x90, virtual false, abstract: false, final false
   inline int32_t ReadData(bool append, int32_t charsRequired);
 
-  /// @brief Method ReadDataAsync, addr 0x28cfca8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadDataAsync, addr 0x28d3ca4, size 0x10, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadDataAsync(bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadDataAsync, addr 0x28cfcb8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ReadDataAsync, addr 0x28d3cb4, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadDataAsync(bool append, int32_t charsRequired, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadFinished, addr 0x28d4e5c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReadFinished, addr 0x28d8e58, size 0x14c, virtual false, abstract: false, final false
   inline void ReadFinished();
 
-  /// @brief Method ReadFinishedAsync, addr 0x28d1588, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReadFinishedAsync, addr 0x28d5584, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadFinishedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadFromFinishedAsync, addr 0x28cfba4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ReadFromFinishedAsync, addr 0x28d3ba0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadFromFinishedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadIntoWrappedTypeObjectAsync, addr 0x28d1ac0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadIntoWrappedTypeObjectAsync, addr 0x28d5abc, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadIntoWrappedTypeObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadNullChar, addr 0x28d4b9c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadNullChar, addr 0x28d8b98, size 0x50, virtual false, abstract: false, final false
   inline bool ReadNullChar();
 
-  /// @brief Method ReadNullCharAsync, addr 0x28d13ac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ReadNullCharAsync, addr 0x28d53a8, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadNullCharAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadNumberCharIntoBuffer, addr 0x28d61a4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberCharIntoBuffer, addr 0x28da1a0, size 0x17c, virtual false, abstract: false, final false
   inline bool ReadNumberCharIntoBuffer(char16_t currentChar, int32_t charPos);
 
-  /// @brief Method ReadNumberIntoBuffer, addr 0x28d6120, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberIntoBuffer, addr 0x28da11c, size 0x84, virtual false, abstract: false, final false
   inline void ReadNumberIntoBuffer();
 
-  /// @brief Method ReadNumberIntoBufferAsync, addr 0x28d11f4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberIntoBufferAsync, addr 0x28d51f0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadNumberIntoBufferAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadNumberValue, addr 0x28d3d78, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberValue, addr 0x28d7d74, size 0x3d0, virtual false, abstract: false, final false
   inline ::System::Object* ReadNumberValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ReadNumberValueAsync, addr 0x28d1780, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberValueAsync, addr 0x28d577c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ReadNumberValueAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadStringIntoBuffer, addr 0x28d23c8, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method ReadStringIntoBuffer, addr 0x28d63c4, size 0x45c, virtual false, abstract: false, final false
   inline void ReadStringIntoBuffer(char16_t quote);
 
-  /// @brief Method ReadStringIntoBufferAsync, addr 0x28cfdd4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ReadStringIntoBufferAsync, addr 0x28d3dd0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadStringIntoBufferAsync(char16_t quote, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadStringValue, addr 0x28d41d8, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method ReadStringValue, addr 0x28d81d4, size 0x4bc, virtual false, abstract: false, final false
   inline ::System::Object* ReadStringValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ReadStringValueAsync, addr 0x28d1664, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ReadStringValueAsync, addr 0x28d5660, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ReadStringValueAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadUnquotedPropertyReportIfDone, addr 0x28d66c4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReadUnquotedPropertyReportIfDone, addr 0x28da6c0, size 0x14c, virtual false, abstract: false, final false
   inline bool ReadUnquotedPropertyReportIfDone(char16_t currentChar, int32_t initialPosition);
 
-  /// @brief Method SetNewLine, addr 0x28d0088, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetNewLine, addr 0x28d4084, size 0x60, virtual false, abstract: false, final false
   inline void SetNewLine(bool hasNextChar);
 
-  /// @brief Method ShiftBufferIfNeeded, addr 0x28d2314, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ShiftBufferIfNeeded, addr 0x28d6310, size 0xb4, virtual false, abstract: false, final false
   inline void ShiftBufferIfNeeded();
 
-  /// @brief Method ThrowReaderError, addr 0x28d7c48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowReaderError, addr 0x28dbc44, size 0x7c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* ThrowReaderError(::StringW message, ::System::Exception* ex);
 
-  /// @brief Method ValidIdentifierChar, addr 0x28d6550, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ValidIdentifierChar, addr 0x28da54c, size 0x80, virtual false, abstract: false, final false
   inline bool ValidIdentifierChar(char16_t value);
 
-  /// @brief Method WriteCharToBuffer, addr 0x28d5edc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteCharToBuffer, addr 0x28d9ed8, size 0x50, virtual false, abstract: false, final false
   inline void WriteCharToBuffer(char16_t writeChar, int32_t lastWritePosition, int32_t writeToPosition);
 
   constexpr ::Newtonsoft::Json::JsonNameTable*& __cordl_internal_get__PropertyNameTable_k__BackingField();
@@ -3894,28 +3894,28 @@ public:
 
   constexpr void __cordl_internal_set__stringReference(::Newtonsoft::Json::Utilities::StringReference value);
 
-  /// @brief Method .ctor, addr 0x28c28b0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c68ac, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_ArrayPool, addr 0x28d2200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArrayPool, addr 0x28d61fc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
-  /// @brief Method get_LineNumber, addr 0x28d84a4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_LineNumber, addr 0x28dc4a0, size 0x4c, virtual true, abstract: false, final true
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x28d84f0, size 0x100c, virtual true, abstract: false, final true
+  /// @brief Method get_LinePosition, addr 0x28dc4ec, size 0x100c, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_PropertyNameTable, addr 0x28d21f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameTable, addr 0x28d61ec, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonNameTable* get_PropertyNameTable();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  /// @brief Method set_ArrayPool, addr 0x28d2208, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_ArrayPool, addr 0x28d6204, size 0x60, virtual false, abstract: false, final false
   inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  /// @brief Method set_PropertyNameTable, addr 0x28d21f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameTable, addr 0x28d61f4, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameTable(::Newtonsoft::Json::JsonNameTable* value);
 
 protected:

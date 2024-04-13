@@ -57,18 +57,18 @@ public:
 
   __declspec(property(get = get_maxTotalIntensity)) float_t maxTotalIntensity;
 
-  /// @brief Method GetLightmapLights, addr 0x23f177c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapLights, addr 0x23f9778, size 0x10c, virtual false, abstract: false, final false
   inline void GetLightmapLights();
 
-  /// @brief Method GetNormalizationMultiplier, addr 0x23f1888, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetNormalizationMultiplier, addr 0x23f9884, size 0x48, virtual false, abstract: false, final false
   inline float_t GetNormalizationMultiplier();
 
-  /// @brief Method LateUpdate, addr 0x23f151c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x23f9518, size 0x3c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BakedLightsNormalizer* New_ctor();
 
-  /// @brief Method UpdateGrayscaleTotal, addr 0x23f1558, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method UpdateGrayscaleTotal, addr 0x23f9554, size 0x224, virtual false, abstract: false, final false
   inline void UpdateGrayscaleTotal();
 
   constexpr bool const& __cordl_internal_get__grayscaleCalculatedOnce() const;
@@ -115,13 +115,13 @@ public:
 
   constexpr void __cordl_internal_set__newUpdates(bool value);
 
-  /// @brief Method .ctor, addr 0x23f18d0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f98cc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightmapLightDict, addr 0x23f150c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightDict, addr 0x23f9508, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* get_lightmapLightDict();
 
-  /// @brief Method get_maxTotalIntensity, addr 0x23f1514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxTotalIntensity, addr 0x23f9510, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxTotalIntensity();
 
 protected:

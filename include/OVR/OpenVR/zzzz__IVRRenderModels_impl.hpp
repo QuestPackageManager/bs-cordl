@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abe244;
+  constexpr static std::size_t addrs = 0x2ac0240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::*)(
     ::StringW, ByRef<void*>)>(&::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abe31c;
+  constexpr static std::size_t addrs = 0x2ac0318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::*)(::StringW, ByRef<void*>, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2abe330;
+  constexpr static std::size_t addrs = 0x2ac032c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::*)(
     ByRef<void*>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2abe3c4;
+  constexpr static std::size_t addrs = 0x2ac03c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abe3f0;
+  constexpr static std::size_t addrs = 0x2ac03ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::*)(void*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abe4b4;
+  constexpr static std::size_t addrs = 0x2ac04b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::*)(void*, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2abe4c8;
+  constexpr static std::size_t addrs = 0x2ac04c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeRenderModel::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2abe54c;
+  constexpr static std::size_t addrs = 0x2ac0548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abe558;
+  constexpr static std::size_t addrs = 0x2ac0554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::*)(int32_t, ByRef<void*>)>(
     &::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abe61c;
+  constexpr static std::size_t addrs = 0x2ac0618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::*)(int32_t, ByRef<void*>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2abe630;
+  constexpr static std::size_t addrs = 0x2ac062c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::*)(
     ByRef<void*>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2abe6e8;
+  constexpr static std::size_t addrs = 0x2ac06e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeTexture::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeTexture::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abe714;
+  constexpr static std::size_t addrs = 0x2ac0710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeTexture::*)(void*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeTexture::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abe7d8;
+  constexpr static std::size_t addrs = 0x2ac07d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRRenderModels___FreeTexture::*)(void*, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___FreeTexture::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2abe7ec;
+  constexpr static std::size_t addrs = 0x2ac07e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeTexture::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeTexture::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2abe870;
+  constexpr static std::size_t addrs = 0x2ac086c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abe87c;
+  constexpr static std::size_t addrs = 0x2ac0878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::*)(
     int32_t, void*, ByRef<void*>)>(&::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abe940;
+  constexpr static std::size_t addrs = 0x2ac093c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -412,7 +412,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::*)(int32_t, void*, ByRef<void*>, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2abe954;
+  constexpr static std::size_t addrs = 0x2ac0950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::*)(
     ByRef<void*>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2abea24;
+  constexpr static std::size_t addrs = 0x2ac0a20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abea50;
+  constexpr static std::size_t addrs = 0x2ac0a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::*)(
     int32_t, void*)>(&::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abeb14;
+  constexpr static std::size_t addrs = 0x2ac0b10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -506,7 +506,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::*)(int32_t, void*, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2abeb28;
+  constexpr static std::size_t addrs = 0x2ac0b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abebdc;
+  constexpr static std::size_t addrs = 0x2ac0bd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abec04;
+  constexpr static std::size_t addrs = 0x2ac0c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -583,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::*)(void*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abecc8;
+  constexpr static std::size_t addrs = 0x2ac0cc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::*)(void*, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2abecdc;
+  constexpr static std::size_t addrs = 0x2ac0cd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2abed60;
+  constexpr static std::size_t addrs = 0x2ac0d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abed6c;
+  constexpr static std::size_t addrs = 0x2ac0d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::*)(
     uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abee30;
+  constexpr static std::size_t addrs = 0x2ac0e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -689,7 +689,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2abee44;
+  constexpr static std::size_t addrs = 0x2ac0e40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelName::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abeee8;
+  constexpr static std::size_t addrs = 0x2ac0ee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -751,7 +751,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2abef10;
+  constexpr static std::size_t addrs = 0x2ac0f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::*)()>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abefcc;
+  constexpr static std::size_t addrs = 0x2ac0fc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -782,7 +782,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::*)(::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2abefe0;
+  constexpr static std::size_t addrs = 0x2ac0fdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -798,7 +798,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abf000;
+  constexpr static std::size_t addrs = 0x2ac0ffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -843,7 +843,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetComponentCount::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentCount::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2abf028;
+  constexpr static std::size_t addrs = 0x2ac1024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -858,7 +858,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetComponentCount::*)(::StringW)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentCount::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abf0fc;
+  constexpr static std::size_t addrs = 0x2ac10f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -874,7 +874,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRRenderModels___GetComponentCount::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___GetComponentCount::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2abf110;
+  constexpr static std::size_t addrs = 0x2ac110c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -890,7 +890,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetComponentCount::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentCount::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abf130;
+  constexpr static std::size_t addrs = 0x2ac112c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -935,7 +935,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetComponentName::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentName::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abf158;
+  constexpr static std::size_t addrs = 0x2ac1154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -950,7 +950,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetComponentName::*)(
     ::StringW, uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRRenderModels___GetComponentName::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abf230;
+  constexpr static std::size_t addrs = 0x2ac122c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -967,7 +967,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRRenderModels___GetComponentName::*)(::StringW, uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentName::BeginInvoke)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2abf244;
+  constexpr static std::size_t addrs = 0x2ac1240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -983,7 +983,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetComponentName::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentName::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abf2f0;
+  constexpr static std::size_t addrs = 0x2ac12ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1027,7 +1027,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abf318;
+  constexpr static std::size_t addrs = 0x2ac1314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1042,7 +1042,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abf3f0;
+  constexpr static std::size_t addrs = 0x2ac13ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1059,7 +1059,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abf404;
+  constexpr static std::size_t addrs = 0x2ac1400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1075,7 +1075,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abf42c;
+  constexpr static std::size_t addrs = 0x2ac1428;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1121,7 +1121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abf454;
+  constexpr static std::size_t addrs = 0x2ac1450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1136,7 +1136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::*)(
     ::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abf52c;
+  constexpr static std::size_t addrs = 0x2ac1528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1153,7 +1153,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::BeginInvoke)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2abf540;
+  constexpr static std::size_t addrs = 0x2ac153c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1169,7 +1169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abf5e8;
+  constexpr static std::size_t addrs = 0x2ac15e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1219,7 +1219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetComponentStateForDevicePath::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentStateForDevicePath::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abf610;
+  constexpr static std::size_t addrs = 0x2ac160c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1235,7 +1235,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, uint64_t, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentStateForDevicePath::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abf6e8;
+  constexpr static std::size_t addrs = 0x2ac16e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1253,7 +1253,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                           ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentStateForDevicePath::BeginInvoke)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2abf6fc;
+  constexpr static std::size_t addrs = 0x2ac16f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1270,7 +1270,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentStateForDevicePath::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2abf7fc;
+  constexpr static std::size_t addrs = 0x2ac17f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1321,7 +1321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetComponentState::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentState::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abf830;
+  constexpr static std::size_t addrs = 0x2ac182c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1337,7 +1337,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ByRef<::OVR::OpenVR::VRControllerState_t>, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentState::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abf908;
+  constexpr static std::size_t addrs = 0x2ac1904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1355,7 +1355,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                              ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentState::BeginInvoke)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2abf91c;
+  constexpr static std::size_t addrs = 0x2ac1918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1372,7 +1372,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::OVR::OpenVR::VRControllerState_t>, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetComponentState::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2abfa1c;
+  constexpr static std::size_t addrs = 0x2ac1a18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1425,7 +1425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abfa50;
+  constexpr static std::size_t addrs = 0x2ac1a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1440,7 +1440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abfb28;
+  constexpr static std::size_t addrs = 0x2ac1b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1457,7 +1457,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abfb3c;
+  constexpr static std::size_t addrs = 0x2ac1b38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1473,7 +1473,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2abfb64;
+  constexpr static std::size_t addrs = 0x2ac1b60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1519,7 +1519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abfb8c;
+  constexpr static std::size_t addrs = 0x2ac1b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1534,7 +1534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::*)(
     ::StringW, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abfc64;
+  constexpr static std::size_t addrs = 0x2ac1c60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1551,7 +1551,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::AsyncCallback*,
                                                                       ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::BeginInvoke)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2abfc78;
+  constexpr static std::size_t addrs = 0x2ac1c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1567,7 +1567,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::*)(
     ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2abfd44;
+  constexpr static std::size_t addrs = 0x2ac1d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1615,7 +1615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2abfd70;
+  constexpr static std::size_t addrs = 0x2ac1d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1630,7 +1630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::*)(
     ::StringW, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2abfe48;
+  constexpr static std::size_t addrs = 0x2ac1e44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1647,7 +1647,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::AsyncCallback*,
                                                                       ::System::Object*)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::BeginInvoke)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2abfe5c;
+  constexpr static std::size_t addrs = 0x2ac1e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1663,7 +1663,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::*)(
     ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2abff28;
+  constexpr static std::size_t addrs = 0x2ac1f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1711,7 +1711,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2abff54;
+  constexpr static std::size_t addrs = 0x2ac1f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1726,7 +1726,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::*)(::OVR::OpenVR::EVRRenderModelError)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ac0018;
+  constexpr static std::size_t addrs = 0x2ac2014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1743,7 +1743,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::*)(::OVR::OpenVR::EVRRenderModelError, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2ac002c;
+  constexpr static std::size_t addrs = 0x2ac2028;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1759,7 +1759,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2ac00b0;
+  constexpr static std::size_t addrs = 0x2ac20ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

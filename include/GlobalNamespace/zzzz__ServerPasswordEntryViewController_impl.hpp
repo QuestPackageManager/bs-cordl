@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(
     ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*)>(&::GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x25566e8;
+  constexpr static std::size_t addrs = 0x255f6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(
     ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*)>(&::GlobalNamespace::ServerPasswordEntryViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2556798;
+  constexpr static std::size_t addrs = 0x255f794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2556848;
+  constexpr static std::size_t addrs = 0x255f844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::DidActivate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2556850;
+  constexpr static std::size_t addrs = 0x255f84c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(bool, bool)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2556914;
+  constexpr static std::size_t addrs = 0x255f910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)()>(
     &::GlobalNamespace::ServerPasswordEntryViewController::HandleJoinClicked)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25569c8;
+  constexpr static std::size_t addrs = 0x255f9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerPasswordEntryViewController*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)()>(
     &::GlobalNamespace::ServerPasswordEntryViewController::HandleUIKeyboardOkButtonWasPressed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2556a04;
+  constexpr static std::size_t addrs = 0x255fa00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)()>(
     &::GlobalNamespace::ServerPasswordEntryViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2556a40;
+  constexpr static std::size_t addrs = 0x255fa3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerPasswordEntryViewController*>::get(),

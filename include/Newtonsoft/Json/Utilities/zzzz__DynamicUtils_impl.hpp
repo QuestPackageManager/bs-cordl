@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper::Init)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x290ce50;
+  constexpr static std::size_t addrs = 0x2910e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper::CreateSharpArgumentInfoArray)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x290d038;
+  constexpr static std::size_t addrs = 0x2911034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper::CreateMemberCalls)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x290d310;
+  constexpr static std::size_t addrs = 0x291130c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper::GetMember)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x290d7ec;
+  constexpr static std::size_t addrs = 0x29117e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper::SetMember)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x290d9c0;
+  constexpr static std::size_t addrs = 0x29119bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::System::Dynamic::IDynamicMetaObjectProvider*)>(
     &::Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x290cd68;
+  constexpr static std::size_t addrs = 0x2910d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

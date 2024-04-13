@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Transform2D* New_ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
-  /// @brief Method ToString, addr 0x30a7a18, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x30aca14, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TransformPoint, addr 0x30a79b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TransformPoint, addr 0x30ac9b0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_scale(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x30a7964, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30ac960, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
 protected:

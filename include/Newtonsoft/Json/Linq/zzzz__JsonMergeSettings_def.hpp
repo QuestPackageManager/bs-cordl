@@ -65,25 +65,25 @@ public:
 
   constexpr void __cordl_internal_set__propertyNameComparison(::System::StringComparison value);
 
-  /// @brief Method .ctor, addr 0x2966610, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x296860c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MergeArrayHandling, addr 0x2966630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeArrayHandling, addr 0x296862c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeArrayHandling get_MergeArrayHandling();
 
-  /// @brief Method get_MergeNullValueHandling, addr 0x296669c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeNullValueHandling, addr 0x2968698, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeNullValueHandling get_MergeNullValueHandling();
 
-  /// @brief Method get_PropertyNameComparison, addr 0x2966708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameComparison, addr 0x2968704, size 0x8, virtual false, abstract: false, final false
   inline ::System::StringComparison get_PropertyNameComparison();
 
-  /// @brief Method set_MergeArrayHandling, addr 0x2966638, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MergeArrayHandling, addr 0x2968634, size 0x64, virtual false, abstract: false, final false
   inline void set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
 
-  /// @brief Method set_MergeNullValueHandling, addr 0x29666a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MergeNullValueHandling, addr 0x29686a0, size 0x64, virtual false, abstract: false, final false
   inline void set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
-  /// @brief Method set_PropertyNameComparison, addr 0x2966710, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameComparison, addr 0x296870c, size 0x64, virtual false, abstract: false, final false
   inline void set_PropertyNameComparison(::System::StringComparison value);
 
 protected:

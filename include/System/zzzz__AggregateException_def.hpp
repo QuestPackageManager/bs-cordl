@@ -49,10 +49,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_innerExceptions,
                       put = __cordl_internal_set_m_innerExceptions))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* m_innerExceptions;
 
-  /// @brief Method Flatten, addr 0x2793aa0, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method Flatten, addr 0x2799a9c, size 0x3c0, virtual false, abstract: false, final false
   inline ::System::AggregateException* Flatten();
 
-  /// @brief Method GetObjectData, addr 0x279394c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2799948, size 0x14c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::AggregateException* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   static inline ::System::AggregateException* New_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions);
 
-  /// @brief Method ToString, addr 0x2793fec, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2799fe8, size 0x214, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>*& __cordl_internal_get_m_innerExceptions();
@@ -85,40 +85,40 @@ public:
 
   constexpr void __cordl_internal_set_m_innerExceptions(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* value);
 
-  /// @brief Method .ctor, addr 0x2792b9c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2798b98, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2793764, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2799760, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x279320c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2799208, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  /// @brief Method .ctor, addr 0x2792dcc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2798dc8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions);
 
-  /// @brief Method .ctor, addr 0x2792cb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2798cac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
-  /// @brief Method .ctor, addr 0x2793264, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2799260, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  /// @brief Method .ctor, addr 0x2793328, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2799324, size 0x43c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  /// @brief Method .ctor, addr 0x2792e24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2798e20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions);
 
-  /// @brief Method .ctor, addr 0x2792d08, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2798d04, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
-  /// @brief Method .ctor, addr 0x2792e28, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2798e24, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions);
 
-  /// @brief Method get_InnerExceptions, addr 0x2793a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerExceptions, addr 0x2799a94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* get_InnerExceptions();
 
-  /// @brief Method get_Message, addr 0x2793e60, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2799e5c, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

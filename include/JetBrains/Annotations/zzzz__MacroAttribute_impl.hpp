@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::MacroAttribute::*)()>(
     &::JetBrains::Annotations::MacroAttribute::get_Expression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34072f0;
+  constexpr static std::size_t addrs = 0x340a2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::MacroAttribute*>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::MacroAttribute::set_Expression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34072f8;
+  constexpr static std::size_t addrs = 0x340a2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::JetBrains::Annotations::MacroAttribute::*)()>(&::JetBrains::Annotations::MacroAttribute::get_Editable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3407300;
+  constexpr static std::size_t addrs = 0x340a2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::MacroAttribute*>::get(), "get_Editable",
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)(int32_t)>(
     &::JetBrains::Annotations::MacroAttribute::set_Editable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3407308;
+  constexpr static std::size_t addrs = 0x340a304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::MacroAttribute::*)()>(&::JetBrains::Annotations::MacroAttribute::get_Target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3407310;
+  constexpr static std::size_t addrs = 0x340a30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::MacroAttribute*>::get(), "get_Target",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::MacroAttribute::set_Target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3407318;
+  constexpr static std::size_t addrs = 0x340a314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)()>(&::JetBrains::Annotations::MacroAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3407320;
+  constexpr static std::size_t addrs = 0x340a31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::MacroAttribute*>::get(), ".ctor",

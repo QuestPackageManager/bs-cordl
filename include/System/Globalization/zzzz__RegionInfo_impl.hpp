@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::RegionInfo* (*)()>(&::System::Globalization::RegionInfo::get_CurrentRegion)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x27f7f2c;
+  constexpr static std::size_t addrs = 0x27fdf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::RegionInfo*>::get(), "get_CurrentRegion",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::RegionInfo::*)(int32_t)>(&::System::Globalization::RegionInfo::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x27f8190;
+  constexpr static std::size_t addrs = 0x27fe18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::RegionInfo::*)(::StringW)>(&::System::Globalization::RegionInfo::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x27f8348;
+  constexpr static std::size_t addrs = 0x27fe344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::RegionInfo::*)(::System::Globalization::CultureInfo*)>(
     &::System::Globalization::RegionInfo::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x27f7ff8;
+  constexpr static std::size_t addrs = 0x27fdff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::RegionInfo::*)(::System::Globalization::CultureInfo*)>(
     &::System::Globalization::RegionInfo::GetByTerritory)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x27f829c;
+  constexpr static std::size_t addrs = 0x27fe298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::RegionInfo::*)(::StringW)>(
     &::System::Globalization::RegionInfo::construct_internal_region_from_name)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27f848c;
+  constexpr static std::size_t addrs = 0x27fe488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(
     &::System::Globalization::RegionInfo::get_CurrencyEnglishName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f8490;
+  constexpr static std::size_t addrs = 0x27fe48c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_CurrencySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f8498;
+  constexpr static std::size_t addrs = 0x27fe494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f84a0;
+  constexpr static std::size_t addrs = 0x27fe49c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_EnglishName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f84a8;
+  constexpr static std::size_t addrs = 0x27fe4a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_GeoId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f84b0;
+  constexpr static std::size_t addrs = 0x27fe4ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_IsMetric)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x27f84b8;
+  constexpr static std::size_t addrs = 0x27fe4b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_ISOCurrencySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f8544;
+  constexpr static std::size_t addrs = 0x27fe540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_NativeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f854c;
+  constexpr static std::size_t addrs = 0x27fe548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_CurrencyNativeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f8554;
+  constexpr static std::size_t addrs = 0x27fe550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f855c;
+  constexpr static std::size_t addrs = 0x27fe558;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(
     &::System::Globalization::RegionInfo::get_ThreeLetterISORegionName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f8564;
+  constexpr static std::size_t addrs = 0x27fe560;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(
     &::System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f856c;
+  constexpr static std::size_t addrs = 0x27fe568;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(
     &::System::Globalization::RegionInfo::get_TwoLetterISORegionName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f8574;
+  constexpr static std::size_t addrs = 0x27fe570;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::RegionInfo::*)(::System::Object*)>(&::System::Globalization::RegionInfo::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x27f857c;
+  constexpr static std::size_t addrs = 0x27fe578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27f8644;
+  constexpr static std::size_t addrs = 0x27fe640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x27f8670;
+  constexpr static std::size_t addrs = 0x27fe66c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Globalization::RegionInfo::ClearCachedData)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27f8680;
+  constexpr static std::size_t addrs = 0x27fe67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::RegionInfo*>::get(), "ClearCachedData",

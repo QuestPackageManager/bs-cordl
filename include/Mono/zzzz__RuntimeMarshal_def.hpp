@@ -28,22 +28,22 @@ namespace Mono {
 class CORDL_TYPE RuntimeMarshal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsciHexDigitValue, addr 0x268dc44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsciHexDigitValue, addr 0x2693c40, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t AsciHexDigitValue(int32_t c);
 
-  /// @brief Method DecodeBlobArray, addr 0x268db8c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobArray, addr 0x2693b88, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlobArray(void* ptr);
 
-  /// @brief Method DecodeBlobSize, addr 0x268db0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobSize, addr 0x2693b08, size 0x80, virtual false, abstract: false, final false
   static inline int32_t DecodeBlobSize(void* in_ptr, ByRef<void*> out_ptr);
 
-  /// @brief Method FreeAssemblyName, addr 0x268dc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FreeAssemblyName, addr 0x2693c6c, size 0x8, virtual false, abstract: false, final false
   static inline void FreeAssemblyName(ByRef<::Mono::MonoAssemblyName> name, bool freeStruct);
 
-  /// @brief Method MarshalString, addr 0x268da5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method MarshalString, addr 0x2693a58, size 0x50, virtual false, abstract: false, final false
   static inline ::Mono::SafeStringMarshal MarshalString(::StringW str);
 
-  /// @brief Method PtrToUtf8String, addr 0x268d978, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method PtrToUtf8String, addr 0x2693974, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW PtrToUtf8String(void* ptr);
 
 protected:

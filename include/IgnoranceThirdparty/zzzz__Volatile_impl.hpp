@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d1db4;
+  constexpr static std::size_t addrs = 0x24dbdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadUnfenced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d1dbc;
+  constexpr static std::size_t addrs = 0x24dbdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadAcquireFence)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24d1dc4;
+  constexpr static std::size_t addrs = 0x24dbdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadFullFence)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24d1de0;
+  constexpr static std::size_t addrs = 0x24dbddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadCompilerOnlyFence)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24d1dfc;
+  constexpr static std::size_t addrs = 0x24dbdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteReleaseFence)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24d1e20;
+  constexpr static std::size_t addrs = 0x24dbe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteFullFence)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24d1e48;
+  constexpr static std::size_t addrs = 0x24dbe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteCompilerOnlyFence)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24d1e70;
+  constexpr static std::size_t addrs = 0x24dbe6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteUnfenced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d1e9c;
+  constexpr static std::size_t addrs = 0x24dbe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t, int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicCompareExchange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24d1ea4;
+  constexpr static std::size_t addrs = 0x24dbea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicExchange)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24d1ec8;
+  constexpr static std::size_t addrs = 0x24dbec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicAddAndGet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24d1ed4;
+  constexpr static std::size_t addrs = 0x24dbed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicIncrementAndGet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24d1ee0;
+  constexpr static std::size_t addrs = 0x24dbedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicDecrementAndGet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24d1eec;
+  constexpr static std::size_t addrs = 0x24dbee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
     &::IgnoranceThirdparty::__Volatile__PaddedLong::ToString)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24d1ef8;
+  constexpr static std::size_t addrs = 0x24dbef4;
 
   inline static ::MethodInfo const* methodInfo() {
 

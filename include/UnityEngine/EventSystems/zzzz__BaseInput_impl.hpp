@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_compositionString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e68f0;
+  constexpr static std::size_t addrs = 0x32e98ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::IMECompositionMode (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_imeCompositionMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e68f8;
+  constexpr static std::size_t addrs = 0x32e98f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseInput::*)(::UnityEngine::IMECompositionMode)>(
     &::UnityEngine::EventSystems::BaseInput::set_imeCompositionMode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e6900;
+  constexpr static std::size_t addrs = 0x32e98fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_compositionCursorPos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e690c;
+  constexpr static std::size_t addrs = 0x32e9908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseInput::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::EventSystems::BaseInput::set_compositionCursorPos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e6914;
+  constexpr static std::size_t addrs = 0x32e9910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_mousePresent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e691c;
+  constexpr static std::size_t addrs = 0x32e9918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(
     &::UnityEngine::EventSystems::BaseInput::GetMouseButtonDown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e6924;
+  constexpr static std::size_t addrs = 0x32e9920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(
     &::UnityEngine::EventSystems::BaseInput::GetMouseButtonUp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e6930;
+  constexpr static std::size_t addrs = 0x32e992c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(&::UnityEngine::EventSystems::BaseInput::GetMouseButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e693c;
+  constexpr static std::size_t addrs = 0x32e9938;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_mousePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e6948;
+  constexpr static std::size_t addrs = 0x32e9944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_mouseScrollDelta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e6950;
+  constexpr static std::size_t addrs = 0x32e994c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_touchSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e6958;
+  constexpr static std::size_t addrs = 0x32e9954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_touchCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e6960;
+  constexpr static std::size_t addrs = 0x32e995c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Touch (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(
     &::UnityEngine::EventSystems::BaseInput::GetTouch)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32e6968;
+  constexpr static std::size_t addrs = 0x32e9964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::EventSystems::BaseInput::*)(::StringW)>(
     &::UnityEngine::EventSystems::BaseInput::GetAxisRaw)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e69a0;
+  constexpr static std::size_t addrs = 0x32e999c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(::StringW)>(
     &::UnityEngine::EventSystems::BaseInput::GetButtonDown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e69ac;
+  constexpr static std::size_t addrs = 0x32e99a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e69b8;
+  constexpr static std::size_t addrs = 0x32e99b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), ".ctor",

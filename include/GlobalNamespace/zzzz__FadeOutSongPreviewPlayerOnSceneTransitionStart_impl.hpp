@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)()>(
     &::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2508d14;
+  constexpr static std::size_t addrs = 0x2510d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)()>(
     &::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::OnDestroy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2508da0;
+  constexpr static std::size_t addrs = 0x2510d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)(float_t)>(
     &::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2508e74;
+  constexpr static std::size_t addrs = 0x2510e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)()>(
     &::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2508eac;
+  constexpr static std::size_t addrs = 0x2510ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

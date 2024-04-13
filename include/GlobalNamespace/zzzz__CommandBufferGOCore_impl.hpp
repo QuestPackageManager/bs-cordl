@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnEnable)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x2ad43c8;
+  constexpr static std::size_t addrs = 0x2ad63c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), "OnEnable",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnDisable)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x2ad47dc;
+  constexpr static std::size_t addrs = 0x2ad67d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), "OnDisable",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnWillRenderObject)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x2ad4c88;
+  constexpr static std::size_t addrs = 0x2ad6c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad4004;
+  constexpr static std::size_t addrs = 0x2ad6000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), ".ctor",

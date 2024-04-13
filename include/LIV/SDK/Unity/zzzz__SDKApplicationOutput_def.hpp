@@ -23,10 +23,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKApplicationOutput {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x24fa264, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2503260, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x24f376c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x24fc768, size 0x80, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
 
   // Ctor Parameters []

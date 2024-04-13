@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)(
     ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::HSVPanelController::add_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x265b0f0;
+  constexpr static std::size_t addrs = 0x26620ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)(
     ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::HSVPanelController::remove_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x265b1a0;
+  constexpr static std::size_t addrs = 0x266219c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::HSVPanelController::*)()>(
     &::GlobalNamespace::HSVPanelController::get_color)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x265b250;
+  constexpr static std::size_t addrs = 0x266224c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HSVPanelController*>::get(), "get_color",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::HSVPanelController::set_color)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x265b264;
+  constexpr static std::size_t addrs = 0x2662260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)()>(&::GlobalNamespace::HSVPanelController::Awake)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x265b318;
+  constexpr static std::size_t addrs = 0x2662314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HSVPanelController*>::get(), "Awake",
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)()>(&::GlobalNamespace::HSVPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x265b404;
+  constexpr static std::size_t addrs = 0x2662400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HSVPanelController*>::get(), "OnDestroy",
@@ -100,7 +100,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::HSVPanelController::*)(::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType)>(
         &::GlobalNamespace::HSVPanelController::HandleColorSaturationOrValueDidChange)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x265b564;
+  constexpr static std::size_t addrs = 0x2662560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)(
     ::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType)>(&::GlobalNamespace::HSVPanelController::HandleColorHueDidChange)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x265b5d8;
+  constexpr static std::size_t addrs = 0x26625d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)()>(&::GlobalNamespace::HSVPanelController::RefreshSlidersValues)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x265b2e0;
+  constexpr static std::size_t addrs = 0x26622dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HSVPanelController*>::get(),
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)()>(&::GlobalNamespace::HSVPanelController::RefreshSlidersColors)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x265b2b0;
+  constexpr static std::size_t addrs = 0x26622ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HSVPanelController*>::get(),
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HSVPanelController::*)()>(&::GlobalNamespace::HSVPanelController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265b644;
+  constexpr static std::size_t addrs = 0x2662640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HSVPanelController*>::get(), ".ctor",

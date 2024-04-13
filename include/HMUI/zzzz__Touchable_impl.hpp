@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::Touchable::*)()>(&::HMUI::Touchable::get_skew)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24075d8;
+  constexpr static std::size_t addrs = 0x240f5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Touchable*>::get(), "get_skew",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Touchable::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::Touchable::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x24075e0;
+  constexpr static std::size_t addrs = 0x240f5dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Touchable::*)()>(&::HMUI::Touchable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2406ddc;
+  constexpr static std::size_t addrs = 0x240edd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Touchable*>::get(), ".ctor",

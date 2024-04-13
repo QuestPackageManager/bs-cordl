@@ -59,36 +59,36 @@ public:
   /// @brief Field s_failFastOnUnobservedException, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_failFastOnUnobservedException, put = setStaticF_s_failFastOnUnobservedException)) bool s_failFastOnUnobservedException;
 
-  /// @brief Method Add, addr 0x28a9cf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x28adcf0, size 0xc, virtual false, abstract: false, final false
   inline void Add(::System::Object* exceptionObject, bool representsCancellation);
 
-  /// @brief Method AddFaultException, addr 0x28b1dd8, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method AddFaultException, addr 0x28b5dd4, size 0x50c, virtual false, abstract: false, final false
   inline void AddFaultException(::System::Object* exceptionObject);
 
-  /// @brief Method CreateExceptionObject, addr 0x28a9d00, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method CreateExceptionObject, addr 0x28adcfc, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::AggregateException* CreateExceptionObject(bool calledFromFinalizer, ::System::Exception* includeThisException);
 
-  /// @brief Method Finalize, addr 0x28b1978, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x28b5974, size 0x204, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetCancellationExceptionDispatchInfo, addr 0x28b2354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCancellationExceptionDispatchInfo, addr 0x28b6350, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
 
-  /// @brief Method GetExceptionDispatchInfos, addr 0x28a9fc0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetExceptionDispatchInfos, addr 0x28adfbc, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
 
-  /// @brief Method MarkAsHandled, addr 0x28a9ab8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkAsHandled, addr 0x28adab4, size 0x7c, virtual false, abstract: false, final false
   inline void MarkAsHandled(bool calledFromFinalizer);
 
-  /// @brief Method MarkAsUnhandled, addr 0x28b22e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MarkAsUnhandled, addr 0x28b62e0, size 0x70, virtual false, abstract: false, final false
   inline void MarkAsUnhandled();
 
   static inline ::System::Threading::Tasks::TaskExceptionHolder* New_ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method SetCancellationException, addr 0x28b1d1c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetCancellationException, addr 0x28b5d18, size 0xbc, virtual false, abstract: false, final false
   inline void SetCancellationException(::System::Object* exceptionObject);
 
-  /// @brief Method ShouldFailFastOnUnobservedException, addr 0x28b1970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldFailFastOnUnobservedException, addr 0x28b596c, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldFailFastOnUnobservedException();
 
   constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_m_cancellationException();
@@ -116,12 +116,12 @@ public:
 
   constexpr void __cordl_internal_set_m_task(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x28a9ccc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28adcc8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
   static inline bool getStaticF_s_failFastOnUnobservedException();
 
-  /// @brief Method get_ContainsFaultList, addr 0x28a98e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ContainsFaultList, addr 0x28ad8dc, size 0x1c, virtual false, abstract: false, final false
   inline bool get_ContainsFaultList();
 
   static inline void setStaticF_s_failFastOnUnobservedException(bool value);

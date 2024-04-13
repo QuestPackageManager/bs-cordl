@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteSpawnInfoNetSerializable* (*)()>(&::GlobalNamespace::NoteSpawnInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x1413d5c;
+  constexpr static std::size_t addrs = 0x1413d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteSpawnInfoNetSerializable*>::get(),
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                         float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::NoteSpawnInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x1413dc0;
+  constexpr static std::size_t addrs = 0x1413dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteSpawnInfoNetSerializable::*)()>(
     &::GlobalNamespace::NoteSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1413f00;
+  constexpr static std::size_t addrs = 0x1413efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteSpawnInfoNetSerializable*>::get(), ".ctor",
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::NoteSpawnInfoNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x1413f58;
+  constexpr static std::size_t addrs = 0x1413f54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::NoteSpawnInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x14140fc;
+  constexpr static std::size_t addrs = 0x14140f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

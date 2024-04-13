@@ -39,21 +39,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x3266b9c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x3268b98, size 0xb0, virtual true, abstract: false, final true
   inline void Destroy();
 
-  /// @brief Method IsRunning, addr 0x3266eb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsRunning, addr 0x3268eb0, size 0x3c, virtual false, abstract: false, final false
   inline bool IsRunning();
 
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
-  /// @brief Method SetHandle, addr 0x3266ae0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x3268adc, size 0x44, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method Start, addr 0x3266b24, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x3268b20, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3266b60, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x3268b5c, size 0x3c, virtual true, abstract: false, final true
   inline void Stop();
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x3266ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3268eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_running, addr 0x3266e0c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x3268e08, size 0x54, virtual true, abstract: false, final true
   inline bool get_running();
 
-  /// @brief Method get_valid, addr 0x3266e60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x3268e5c, size 0x54, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::IO::MonoIOError)>(&::System::IO::MonoIO::GetException)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x27be264;
+  constexpr static std::size_t addrs = 0x27c4260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::IO::MonoIOError)>(&::System::IO::MonoIO::GetException)> {
   constexpr static std::size_t size = 0x71c;
-  constexpr static std::size_t addrs = 0x27be394;
+  constexpr static std::size_t addrs = 0x27c4390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::GetCurrentDirectory)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27beab4;
+  constexpr static std::size_t addrs = 0x27c4ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MonoFileType (*)(void*, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::GetFileType)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27beab8;
+  constexpr static std::size_t addrs = 0x27c4ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MonoFileType (*)(::System::Runtime::InteropServices::SafeHandle*, ByRef<::System::IO::MonoIOError>)>(
     &::System::IO::MonoIO::GetFileType)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x27beabc;
+  constexpr static std::size_t addrs = 0x27c4ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::cordl_internals::Ptr<char16_t>, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare,
                                                                                             ::System::IO::FileOptions, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Open)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bebe4;
+  constexpr static std::size_t addrs = 0x27c4be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::StringW, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare,
                                                                                             ::System::IO::FileOptions, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Open)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x27bebe8;
+  constexpr static std::size_t addrs = 0x27c4be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Cancel_internal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bec84;
+  constexpr static std::size_t addrs = 0x27c4c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::InteropServices::SafeHandle*, ByRef<::System::IO::MonoIOError>)>(
     &::System::IO::MonoIO::Cancel)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x27bec88;
+  constexpr static std::size_t addrs = 0x27c4c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Close)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bedb0;
+  constexpr static std::size_t addrs = 0x27c4dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<::System::IO::MonoIOError>)>(
     &::System::IO::MonoIO::Read)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bedb4;
+  constexpr static std::size_t addrs = 0x27c4db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Read)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x27bedb8;
+  constexpr static std::size_t addrs = 0x27c4db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(void*, ByRefConst<::ArrayW<uint8_t, ::Array<uint8_t>*>>, int32_t, int32_t, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bef00;
+  constexpr static std::size_t addrs = 0x27c4efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Write)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x27bef04;
+  constexpr static std::size_t addrs = 0x27c4f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(void*, int64_t, ::System::IO::SeekOrigin, ByRef<::System::IO::MonoIOError>)>(
     &::System::IO::MonoIO::Seek)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf04c;
+  constexpr static std::size_t addrs = 0x27c5048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int64_t (*)(::System::Runtime::InteropServices::SafeHandle*, int64_t, ::System::IO::SeekOrigin, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Seek)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x27bf050;
+  constexpr static std::size_t addrs = 0x27c504c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(void*, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::GetLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf190;
+  constexpr static std::size_t addrs = 0x27c518c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Runtime::InteropServices::SafeHandle*, ByRef<::System::IO::MonoIOError>)>(
     &::System::IO::MonoIO::GetLength)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x27bf194;
+  constexpr static std::size_t addrs = 0x27c5190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, int64_t, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::SetLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf2bc;
+  constexpr static std::size_t addrs = 0x27c52b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::InteropServices::SafeHandle*, int64_t, ByRef<::System::IO::MonoIOError>)>(
     &::System::IO::MonoIO::SetLength)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x27bf2c0;
+  constexpr static std::size_t addrs = 0x27c52bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)()>(&::System::IO::MonoIO::get_ConsoleOutput)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf3f0;
+  constexpr static std::size_t addrs = 0x27c53ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "get_ConsoleOutput",
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)()>(&::System::IO::MonoIO::get_ConsoleInput)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf3f4;
+  constexpr static std::size_t addrs = 0x27c53f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "get_ConsoleInput",
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)()>(&::System::IO::MonoIO::get_ConsoleError)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf3f8;
+  constexpr static std::size_t addrs = 0x27c53f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "get_ConsoleError",
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<void*>, ByRef<void*>, ByRef<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::CreatePipe)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf3fc;
+  constexpr static std::size_t addrs = 0x27c53f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, void*, void*, ByRef<void*>, int32_t, int32_t, int32_t, ByRef<::System::IO::MonoIOError>)>(
     &::System::IO::MonoIO::DuplicateHandle)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf400;
+  constexpr static std::size_t addrs = 0x27c53fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)()>(&::System::IO::MonoIO::get_VolumeSeparatorChar)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf404;
+  constexpr static std::size_t addrs = 0x27c5400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "get_VolumeSeparatorChar",
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)()>(&::System::IO::MonoIO::get_DirectorySeparatorChar)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf408;
+  constexpr static std::size_t addrs = 0x27c5404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "get_DirectorySeparatorChar",
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)()>(&::System::IO::MonoIO::get_AltDirectorySeparatorChar)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf40c;
+  constexpr static std::size_t addrs = 0x27c5408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "get_AltDirectorySeparatorChar",
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)()>(&::System::IO::MonoIO::get_PathSeparator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf410;
+  constexpr static std::size_t addrs = 0x27c540c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "get_PathSeparator",
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::MonoIO::DumpHandles)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27beab0;
+  constexpr static std::size_t addrs = 0x27c4aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::MonoIO*>::get(), "DumpHandles",
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::StringW>)>(&::System::IO::MonoIO::RemapPath)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27bf414;
+  constexpr static std::size_t addrs = 0x27c5410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

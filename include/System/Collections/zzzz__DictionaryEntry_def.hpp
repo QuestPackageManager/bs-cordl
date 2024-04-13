@@ -25,13 +25,13 @@ public:
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x27fb218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2801214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Key, addr 0x27fb220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x280121c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x27fb228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2801224, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters []

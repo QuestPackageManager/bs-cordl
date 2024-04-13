@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::AttitudeSensor::*)()>(
     &::UnityEngine::InputSystem::AttitudeSensor::get_attitude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fd6af0;
+  constexpr static std::size_t addrs = 0x2fdcaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::AttitudeSensor*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::AttitudeSensor::set_attitude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fd6af8;
+  constexpr static std::size_t addrs = 0x2fdcaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::AttitudeSensor* (*)()>(&::UnityEngine::InputSystem::AttitudeSensor::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2fd6b00;
+  constexpr static std::size_t addrs = 0x2fdcafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::AttitudeSensor*>::get(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::AttitudeSensor*)>(&::UnityEngine::InputSystem::AttitudeSensor::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2fd6b48;
+  constexpr static std::size_t addrs = 0x2fdcb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2fd6b94;
+  constexpr static std::size_t addrs = 0x2fdcb90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2fd6be8;
+  constexpr static std::size_t addrs = 0x2fdcbe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2fd6c6c;
+  constexpr static std::size_t addrs = 0x2fdcc68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fd6ce4;
+  constexpr static std::size_t addrs = 0x2fdcce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::AttitudeSensor*>::get(), ".ctor",

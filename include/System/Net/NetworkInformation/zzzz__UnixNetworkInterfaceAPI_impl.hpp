@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<void*>)>(&::System::Net::NetworkInformation::UnixNetworkInterfaceAPI::getifaddrs)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2f1e898;
+  constexpr static std::size_t addrs = 0x2f23894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::System::Net::NetworkInformation::UnixNetworkInterfaceAPI::freeifaddrs)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2f1e818;
+  constexpr static std::size_t addrs = 0x2f23814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::UnixNetworkInterfaceAPI::*)()>(
     &::System::Net::NetworkInformation::UnixNetworkInterfaceAPI::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f1e0bc;
+  constexpr static std::size_t addrs = 0x2f230b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

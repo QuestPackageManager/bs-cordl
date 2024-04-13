@@ -115,49 +115,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::Navigation>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::Navigation>*();
 
-  /// @brief Method Equals, addr 0x32c9214, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x32cc210, size 0x118, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::Navigation other);
 
-  /// @brief Method get_defaultNavigation, addr 0x32c91f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_defaultNavigation, addr 0x32cc1f0, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::Navigation get_defaultNavigation();
 
-  /// @brief Method get_mode, addr 0x32c9190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x32cc18c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Navigation__Mode get_mode();
 
-  /// @brief Method get_selectOnDown, addr 0x32c91c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnDown, addr 0x32cc1c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnDown();
 
-  /// @brief Method get_selectOnLeft, addr 0x32c91d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnLeft, addr 0x32cc1d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnLeft();
 
-  /// @brief Method get_selectOnRight, addr 0x32c91e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnRight, addr 0x32cc1e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnRight();
 
-  /// @brief Method get_selectOnUp, addr 0x32c91b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectOnUp, addr 0x32cc1b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> get_selectOnUp();
 
-  /// @brief Method get_wrapAround, addr 0x32c91a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapAround, addr 0x32cc19c, size 0x8, virtual false, abstract: false, final false
   inline bool get_wrapAround();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::Navigation>"
   constexpr ::System::IEquatable_1<::UnityEngine::UI::Navigation>* i___System__IEquatable_1___UnityEngine__UI__Navigation_();
 
-  /// @brief Method set_mode, addr 0x32c9198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x32cc194, size 0x8, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::UI::__Navigation__Mode value);
 
-  /// @brief Method set_selectOnDown, addr 0x32c91cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnDown, addr 0x32cc1c8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnDown(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_selectOnLeft, addr 0x32c91dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnLeft, addr 0x32cc1d8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnLeft(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_selectOnRight, addr 0x32c91ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnRight, addr 0x32cc1e8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnRight(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_selectOnUp, addr 0x32c91bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectOnUp, addr 0x32cc1b8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnUp(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method set_wrapAround, addr 0x32c91a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_wrapAround, addr 0x32cc1a4, size 0xc, virtual false, abstract: false, final false
   inline void set_wrapAround(bool value);
 
   // Ctor Parameters []

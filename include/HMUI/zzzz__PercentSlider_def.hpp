@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::HMUI::PercentSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x24045c8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x240c5c4, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x2404654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240c650, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

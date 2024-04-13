@@ -39,19 +39,19 @@ public:
 
   static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x26d9ac0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dfabc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26d9b2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dfb28, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW format, ::StringW insert);
 
-  /// @brief Method .ctor, addr 0x26d9bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dfbe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x26d9924, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26df920, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x26d9bc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dfbc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

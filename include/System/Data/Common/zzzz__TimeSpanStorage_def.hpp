@@ -43,48 +43,48 @@ public:
   /// @brief Field s_defaultValue, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_defaultValue, put = setStaticF_s_defaultValue))::System::TimeSpan s_defaultValue;
 
-  /// @brief Method Aggregate, addr 0x2c5e0d8, size 0xb68, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x2c610d4, size 0xb68, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x2c5ec40, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x2c61c3c, size 0x17c, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x2c5edbc, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x2c61db8, size 0x160, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2c5f56c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x2c62568, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertToTimeSpan, addr 0x2c5ef1c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ConvertToTimeSpan, addr 0x2c61f18, size 0x228, virtual false, abstract: false, final false
   static inline ::System::TimeSpan ConvertToTimeSpan(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x2c5f144, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x2c62140, size 0xac, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2c5f4e0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x2c624dc, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x2c5f1f0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x2c621ec, size 0x58, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x2c5f64c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x2c62648, size 0x100, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x2c5f248, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x2c62244, size 0x100, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x2c5f604, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x2c62600, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::TimeSpanStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x2c5f348, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x2c62344, size 0xd4, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x2c5f41c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x2c62418, size 0xc4, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x2c5f74c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x2c62748, size 0x94, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::TimeSpan, ::Array<::System::TimeSpan>*> const& __cordl_internal_get__values() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::TimeSpan, ::Array<::System::TimeSpan>*> value);
 
-  /// @brief Method .ctor, addr 0x2c5dfac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c60fa8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
   static inline ::System::TimeSpan getStaticF_s_defaultValue();

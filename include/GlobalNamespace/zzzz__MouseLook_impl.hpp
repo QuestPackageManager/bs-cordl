@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MouseLook::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::MouseLook::Init)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2576c34;
+  constexpr static std::size_t addrs = 0x257fc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MouseLook::*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::MouseLook::SetRotations)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x257792c;
+  constexpr static std::size_t addrs = 0x2580928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MouseLook::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::MouseLook::LookRotation)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x25772d8;
+  constexpr static std::size_t addrs = 0x25802d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MouseLook::*)(bool)>(&::GlobalNamespace::MouseLook::SetCursorLock)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2576ca0;
+  constexpr static std::size_t addrs = 0x257fc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MouseLook::*)()>(&::GlobalNamespace::MouseLook::UpdateCursorLock)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25779a4;
+  constexpr static std::size_t addrs = 0x25809a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MouseLook*>::get(), "UpdateCursorLock",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MouseLook::*)()>(&::GlobalNamespace::MouseLook::InternalLockUpdate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x25779b4;
+  constexpr static std::size_t addrs = 0x25809b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MouseLook*>::get(), "InternalLockUpdate",
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::MouseLook::*)(::UnityEngine::Quaternion)>(
     &::GlobalNamespace::MouseLook::ClampRotationAroundXAxis)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2577940;
+  constexpr static std::size_t addrs = 0x258093c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MouseLook::*)()>(&::GlobalNamespace::MouseLook::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2577804;
+  constexpr static std::size_t addrs = 0x2580800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MouseLook*>::get(), ".ctor",

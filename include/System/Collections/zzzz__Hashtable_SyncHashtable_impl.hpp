@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Collections::Hashtable*)>(
     &::System::Collections::__Hashtable__SyncHashtable::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2809838;
+  constexpr static std::size_t addrs = 0x280f834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::__Hashtable__SyncHashtable::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x280ab2c;
+  constexpr static std::size_t addrs = 0x2810b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::__Hashtable__SyncHashtable::GetObjectData)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x280ab70;
+  constexpr static std::size_t addrs = 0x2810b6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280abb0;
+  constexpr static std::size_t addrs = 0x2810bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280abd4;
+  constexpr static std::size_t addrs = 0x2810bd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280abf8;
+  constexpr static std::size_t addrs = 0x2810bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x280ac1c;
+  constexpr static std::size_t addrs = 0x2810c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
     &::System::Collections::__Hashtable__SyncHashtable::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280ac24;
+  constexpr static std::size_t addrs = 0x2810c20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::__Hashtable__SyncHashtable::set_Item)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x280ac48;
+  constexpr static std::size_t addrs = 0x2810c44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280ad48;
+  constexpr static std::size_t addrs = 0x2810d44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::__Hashtable__SyncHashtable::Add)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x280ad6c;
+  constexpr static std::size_t addrs = 0x2810d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::Clear)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x280ae6c;
+  constexpr static std::size_t addrs = 0x2810e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
     &::System::Collections::__Hashtable__SyncHashtable::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280af5c;
+  constexpr static std::size_t addrs = 0x2810f58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
     &::System::Collections::__Hashtable__SyncHashtable::ContainsKey)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x280af80;
+  constexpr static std::size_t addrs = 0x2810f7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Array*, int32_t)>(
     &::System::Collections::__Hashtable__SyncHashtable::CopyTo)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x280b010;
+  constexpr static std::size_t addrs = 0x281100c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::Clone)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x280b110;
+  constexpr static std::size_t addrs = 0x281110c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280b274;
+  constexpr static std::size_t addrs = 0x2811270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x280b298;
+  constexpr static std::size_t addrs = 0x2811294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::get_Keys)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x280b2bc;
+  constexpr static std::size_t addrs = 0x28112b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
     &::System::Collections::__Hashtable__SyncHashtable::get_Values)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x280b3bc;
+  constexpr static std::size_t addrs = 0x28113b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
     &::System::Collections::__Hashtable__SyncHashtable::Remove)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x280b4bc;
+  constexpr static std::size_t addrs = 0x28114b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
     &::System::Collections::__Hashtable__SyncHashtable::OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280b5b4;
+  constexpr static std::size_t addrs = 0x28115b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

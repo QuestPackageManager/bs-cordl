@@ -42,7 +42,7 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::StringSwitchInstruction* New_ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases,
                                                                                             ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method Run, addr 0x2b16d40, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b17d3c, size 0xcc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__cases();
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__nullCase(::System::Runtime::CompilerServices::StrongBox_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2b16ccc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b17cc8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases, ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b16d38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2b17d34, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b16cf8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2b17cf4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:

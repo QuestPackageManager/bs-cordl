@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)(
     ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::IVRPlatformHelper*, ::GlobalNamespace::LevelRecording*)>(&::GlobalNamespace::PlaybackRecord::Initialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x258e1a8;
+  constexpr static std::size_t addrs = 0x25971a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Enable)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x258e794;
+  constexpr static std::size_t addrs = 0x2597790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Enable",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Disable)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x258e914;
+  constexpr static std::size_t addrs = 0x2597910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Disable",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Refresh)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x258ea4c;
+  constexpr static std::size_t addrs = 0x2597a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Refresh",
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x258eb9c;
+  constexpr static std::size_t addrs = 0x2597b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Update",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x258eba0;
+  constexpr static std::size_t addrs = 0x2597b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "OnEnable",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x258eba4;
+  constexpr static std::size_t addrs = 0x2597ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "OnDisable",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x258eba8;
+  constexpr static std::size_t addrs = 0x2597ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), ".ctor",
