@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_linePosition(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c959ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c989e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:

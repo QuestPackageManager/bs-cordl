@@ -49,24 +49,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CalculateCompletedOperationHashcode, addr 0x2f5852c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CalculateCompletedOperationHashcode, addr 0x2f5d528, size 0x8c, virtual false, abstract: false, final false
   inline int32_t CalculateCompletedOperationHashcode(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method CalculateHashCode, addr 0x2f583e8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashCode, addr 0x2f5d3e4, size 0x144, virtual false, abstract: false, final false
   inline int32_t CalculateHashCode(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method Dispose, addr 0x2f58db0, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f5ddac, size 0xd4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateCompletedOperationDisplayName, addr 0x2f585b8, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method GenerateCompletedOperationDisplayName, addr 0x2f5d5b4, size 0x430, virtual false, abstract: false, final false
   inline ::StringW GenerateCompletedOperationDisplayName(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
   static inline ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
-  /// @brief Method OnResourceManagerDiagnosticEvent, addr 0x2f589e8, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method OnResourceManagerDiagnosticEvent, addr 0x2f5d9e4, size 0x3c8, virtual false, abstract: false, final false
   inline void OnResourceManagerDiagnosticEvent(::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext eventContext);
 
-  /// @brief Method SumDependencyNameHashCodes, addr 0x2f581d0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method SumDependencyNameHashCodes, addr 0x2f5d1cc, size 0x218, virtual false, abstract: false, final false
   inline int32_t SumDependencyNameHashCodes(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
   constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_ResourceManager();
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_m_cachedDiagnosticInfo(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x2f580e4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5d0e0, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
   /// @brief Convert to "::System::IDisposable"

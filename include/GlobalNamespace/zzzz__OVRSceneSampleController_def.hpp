@@ -57,24 +57,24 @@ public:
   /// @brief Field visionMode, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_visionMode, put = __cordl_internal_set_visionMode)) bool visionMode;
 
-  /// @brief Method Awake, addr 0x2a90f08, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a93f04, size 0x194, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRSceneSampleController* New_ctor();
 
-  /// @brief Method Start, addr 0x2a9109c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2a94098, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2a91168, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a94164, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRecenterPose, addr 0x2a9123c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateRecenterPose, addr 0x2a94238, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateRecenterPose();
 
-  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x2a913a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x2a943a4, size 0xc4, virtual false, abstract: false, final false
   inline void UpdateSpeedAndRotationScaleMultiplier();
 
-  /// @brief Method UpdateVisionMode, addr 0x2a912ec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisionMode, addr 0x2a942e8, size 0xbc, virtual false, abstract: false, final false
   inline void UpdateVisionMode();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraController() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_visionMode(bool value);
 
-  /// @brief Method .ctor, addr 0x2a9146c, size 0x106c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a94468, size 0x106c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

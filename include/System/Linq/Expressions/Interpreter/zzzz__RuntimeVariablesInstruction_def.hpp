@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction* New_ctor(int32_t count);
 
-  /// @brief Method Run, addr 0x2b3d0c4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b3f0c0, size 0x134, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2b3d04c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3f048, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t count);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b3d07c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2b3f078, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b3d084, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2b3f080, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b3d074, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2b3f070, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

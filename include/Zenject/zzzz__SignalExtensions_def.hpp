@@ -36,7 +36,7 @@ public:
   /// @brief Method BindSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> static inline ::Zenject::BindSignalIdToBinder_1<TSignal>* BindSignal(::Zenject::DiContainer* container);
 
-  /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x340f6d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x34126cc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
 
   /// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

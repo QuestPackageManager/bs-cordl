@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  /// @brief Method set_externalAcceleration, addr 0x31cb0ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x31ce0e8, size 0x54, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x31cb140, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration_Injected, addr 0x31ce13c, size 0x44, virtual false, abstract: false, final false
   inline void set_externalAcceleration_Injected(ByRef<::UnityEngine::Vector3> value);
 
 protected:

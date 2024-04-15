@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_RequestSent(bool value);
 
-  /// @brief Method .ctor, addr 0x29db568, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dc564, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

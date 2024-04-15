@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Data::Nodes value);
 
-  /// @brief Method .ctor, addr 0x2bcafcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bccfc8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::Nodes type, int32_t op, int32_t pri);
 
 protected:

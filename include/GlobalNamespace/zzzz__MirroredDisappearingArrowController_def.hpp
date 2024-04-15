@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__mirroredGameNoteController(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
-  /// @brief Method .ctor, addr 0x251e9d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25279d0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameNoteController, addr 0x251e9cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x25279c8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_gameNoteController();
 
 protected:

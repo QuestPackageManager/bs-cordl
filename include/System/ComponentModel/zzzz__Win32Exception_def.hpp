@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetErrorMessage, addr 0x2e69f9c, size 0x8f4, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMessage, addr 0x2e6bf98, size 0x8f4, virtual false, abstract: false, final false
   static inline ::StringW GetErrorMessage(int32_t error);
 
-  /// @brief Method GetObjectData, addr 0x2e6a94c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2e6c948, size 0xcc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor();
@@ -57,19 +57,19 @@ public:
 
   constexpr void __cordl_internal_set_nativeErrorCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e69ef0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6beec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e69f64, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6bf60, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t error);
 
-  /// @brief Method .ctor, addr 0x2e6a890, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6c88c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x2e6a8bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6c8b8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_NativeErrorCode, addr 0x2e6a944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeErrorCode, addr 0x2e6c940, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NativeErrorCode();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

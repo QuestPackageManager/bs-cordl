@@ -44,7 +44,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredSliderController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x251f274, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2528270, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,30 +98,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::ISliderDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x251ef38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2527f34, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Dissolve, addr 0x251f244, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Dissolve, addr 0x2528240, size 0x28, virtual false, abstract: false, final false
   inline void Dissolve(float_t duration);
 
-  /// @brief Method HandleSliderDidStartDissolving, addr 0x251f21c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HandleSliderDidStartDissolving, addr 0x2528218, size 0x28, virtual true, abstract: false, final true
   inline void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float_t duration);
 
-  /// @brief Method Mirror, addr 0x2519f7c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x2522f78, size 0x20c, virtual false, abstract: false, final false
   inline void Mirror(::GlobalNamespace::SliderController* sliderController);
 
   static inline ::GlobalNamespace::MirroredSliderController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x251f124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2528120, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveListeners, addr 0x251f128, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RemoveListeners, addr 0x2528124, size 0xf4, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method Update, addr 0x251ef54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2527f50, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateMaterialPropertyBlock, addr 0x251f004, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterialPropertyBlock, addr 0x2528000, size 0x120, virtual false, abstract: false, final false
   inline void UpdateMaterialPropertyBlock(float_t timeSinceHeadNoteJump);
 
   constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
@@ -154,13 +154,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x251f26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2528268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept;
 
-  /// @brief Method set_hide, addr 0x251a968, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x2523964, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:

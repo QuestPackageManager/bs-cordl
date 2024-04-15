@@ -61,21 +61,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x23d0a24, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23d8a20, size 0x64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23d0a88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23d8a84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23d0a90, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23d8a8c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23d0ad0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23d8acc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x23d0a20, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23d8a1c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::DeactivateAfterFirstFrame> value);
 
-  /// @brief Method .ctor, addr 0x23d09f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d89ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -155,10 +155,10 @@ public:
 
   static inline ::GlobalNamespace::DeactivateAfterFirstFrame* New_ctor();
 
-  /// @brief Method Start, addr 0x23d0988, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23d8984, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method .ctor, addr 0x23d0a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8a14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

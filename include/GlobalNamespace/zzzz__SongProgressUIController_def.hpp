@@ -77,10 +77,10 @@ public:
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method Start, addr 0x25db9bc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25e29b8, size 0x1a4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x25dbb60, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x25e2b5c, size 0x2cc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_songLength(float_t value);
 
-  /// @brief Method .ctor, addr 0x25dbe2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e2e28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

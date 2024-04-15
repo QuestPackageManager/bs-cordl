@@ -112,25 +112,25 @@ public:
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XPath::XPathNavigator* Clone();
 
-  /// @brief Method GetNamespacesInScope, addr 0x2dc0f84, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method GetNamespacesInScope, addr 0x2dc3f80, size 0x210, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
   /// @brief Method IsSamePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSamePosition(::System::Xml::XPath::XPathNavigator* other);
 
-  /// @brief Method IsText, addr 0x2dc1284, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsText, addr 0x2dc4280, size 0x10, virtual false, abstract: false, final false
   static inline bool IsText(::System::Xml::XPath::XPathNodeType type);
 
-  /// @brief Method LookupNamespace, addr 0x2dc0bf0, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x2dc3bec, size 0x1a4, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x2dc0d94, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x2dc3d90, size 0x1f0, virtual true, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW namespaceURI);
 
   /// @brief Method MoveToFirstNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope);
 
-  /// @brief Method MoveToNamespace, addr 0x2dc119c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method MoveToNamespace, addr 0x2dc4198, size 0xa0, virtual true, abstract: false, final false
   inline bool MoveToNamespace(::StringW name);
 
   /// @brief Method MoveToNextNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -141,16 +141,16 @@ public:
 
   static inline ::System::Xml::XPath::XPathNavigator* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2dc0be0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2dc3bdc, size 0x10, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2dbf484, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2dc2480, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValueAs, addr 0x2dc08f4, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x2dc38f0, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x2dc1294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc4290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_ContentKindMasks();
@@ -176,34 +176,34 @@ public:
   /// @brief Method get_Prefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SchemaInfo, addr 0x2dc123c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x2dc4238, size 0x48, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
 
-  /// @brief Method get_TypedValue, addr 0x2dbf618, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x2dc2614, size 0x2dc, virtual true, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_UnderlyingObject, addr 0x2dc1194, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UnderlyingObject, addr 0x2dc4190, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_UnderlyingObject();
 
-  /// @brief Method get_ValueAsBoolean, addr 0x2dbfb00, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsBoolean, addr 0x2dc2afc, size 0x2c4, virtual true, abstract: false, final false
   inline bool get_ValueAsBoolean();
 
-  /// @brief Method get_ValueAsDateTime, addr 0x2dbfdc4, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDateTime, addr 0x2dc2dc0, size 0x2cc, virtual true, abstract: false, final false
   inline ::System::DateTime get_ValueAsDateTime();
 
-  /// @brief Method get_ValueAsDouble, addr 0x2dc0090, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDouble, addr 0x2dc308c, size 0x2cc, virtual true, abstract: false, final false
   inline double_t get_ValueAsDouble();
 
-  /// @brief Method get_ValueAsInt, addr 0x2dc035c, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsInt, addr 0x2dc3358, size 0x2cc, virtual true, abstract: false, final false
   inline int32_t get_ValueAsInt();
 
-  /// @brief Method get_ValueAsLong, addr 0x2dc0628, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsLong, addr 0x2dc3624, size 0x2cc, virtual true, abstract: false, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method get_ValueType, addr 0x2dbf8f4, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x2dc28f0, size 0x20c, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_XmlType, addr 0x2dbf490, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x2dc248c, size 0x188, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
   /// @brief Convert to "::System::ICloneable"

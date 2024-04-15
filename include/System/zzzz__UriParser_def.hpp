@@ -195,60 +195,60 @@ public:
   /// @brief Field s_QuirksVersion, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_QuirksVersion, put = setStaticF_s_QuirksVersion))::System::__UriParser__UriQuirksVersion s_QuirksVersion;
 
-  /// @brief Method FindOrFetchAsUnknownV1Syntax, addr 0x2e7e63c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method FindOrFetchAsUnknownV1Syntax, addr 0x2e80638, size 0x2f0, virtual false, abstract: false, final false
   static inline ::System::UriParser* FindOrFetchAsUnknownV1Syntax(::StringW lwrCaseScheme);
 
-  /// @brief Method GetComponents, addr 0x2e7db1c, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method GetComponents, addr 0x2e7fb18, size 0x22c, virtual true, abstract: false, final false
   inline ::StringW GetComponents(::System::Uri* uri, ::System::UriComponents components, ::System::UriFormat format);
 
-  /// @brief Method GetSyntax, addr 0x2e7a4cc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSyntax, addr 0x2e7c4c8, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::UriParser* GetSyntax(::StringW lwrCaseScheme);
 
-  /// @brief Method InFact, addr 0x2e7a59c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InFact, addr 0x2e7c598, size 0x1c, virtual false, abstract: false, final false
   inline bool InFact(::System::UriSyntaxFlags flags);
 
-  /// @brief Method InitializeAndValidate, addr 0x2e7d8f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method InitializeAndValidate, addr 0x2e7f8ec, size 0x28, virtual true, abstract: false, final false
   inline void InitializeAndValidate(::System::Uri* uri, ByRef<::System::UriFormatException*> parsingError);
 
-  /// @brief Method InternalGetComponents, addr 0x2e7e9a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalGetComponents, addr 0x2e8099c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW InternalGetComponents(::System::Uri* thisUri, ::System::UriComponents uriComponents, ::System::UriFormat uriFormat);
 
-  /// @brief Method InternalIsBaseOf, addr 0x2e7e994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalIsBaseOf, addr 0x2e80990, size 0xc, virtual false, abstract: false, final false
   inline bool InternalIsBaseOf(::System::Uri* thisBaseUri, ::System::Uri* uriLink);
 
-  /// @brief Method InternalIsWellFormedOriginalString, addr 0x2e7e9ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalIsWellFormedOriginalString, addr 0x2e809a8, size 0xc, virtual false, abstract: false, final false
   inline bool InternalIsWellFormedOriginalString(::System::Uri* thisUri);
 
-  /// @brief Method InternalOnNewUri, addr 0x2e7e938, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalOnNewUri, addr 0x2e80934, size 0x44, virtual false, abstract: false, final false
   inline ::System::UriParser* InternalOnNewUri();
 
-  /// @brief Method InternalResolve, addr 0x2e7e988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalResolve, addr 0x2e80984, size 0xc, virtual false, abstract: false, final false
   inline ::StringW InternalResolve(::System::Uri* thisBaseUri, ::System::Uri* uriLink, ByRef<::System::UriFormatException*> parsingError);
 
-  /// @brief Method InternalValidate, addr 0x2e7e97c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalValidate, addr 0x2e80978, size 0xc, virtual false, abstract: false, final false
   inline void InternalValidate(::System::Uri* thisUri, ByRef<::System::UriFormatException*> parsingError);
 
-  /// @brief Method IsAllSet, addr 0x2e7e5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAllSet, addr 0x2e805c4, size 0x8, virtual false, abstract: false, final false
   inline bool IsAllSet(::System::UriSyntaxFlags flags);
 
-  /// @brief Method IsBaseOf, addr 0x2e7db00, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method IsBaseOf, addr 0x2e7fafc, size 0x1c, virtual true, abstract: false, final false
   inline bool IsBaseOf(::System::Uri* baseUri, ::System::Uri* relativeUri);
 
-  /// @brief Method IsFullMatch, addr 0x2e7e56c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsFullMatch, addr 0x2e80568, size 0x5c, virtual false, abstract: false, final false
   inline bool IsFullMatch(::System::UriSyntaxFlags flags, ::System::UriSyntaxFlags expected);
 
-  /// @brief Method IsWellFormedOriginalString, addr 0x2e7dd48, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method IsWellFormedOriginalString, addr 0x2e7fd44, size 0x18, virtual true, abstract: false, final false
   inline bool IsWellFormedOriginalString(::System::Uri* uri);
 
   static inline ::System::UriParser* New_ctor(::System::UriSyntaxFlags flags);
 
-  /// @brief Method NotAny, addr 0x2e7a5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NotAny, addr 0x2e7c5b4, size 0x8, virtual false, abstract: false, final false
   inline bool NotAny(::System::UriSyntaxFlags flags);
 
-  /// @brief Method OnNewUri, addr 0x2e7d8ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnNewUri, addr 0x2e7f8e8, size 0x4, virtual true, abstract: false, final false
   inline ::System::UriParser* OnNewUri();
 
-  /// @brief Method Resolve, addr 0x2e7d918, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Resolve, addr 0x2e7f914, size 0x1e8, virtual true, abstract: false, final false
   inline ::StringW Resolve(::System::Uri* baseUri, ::System::Uri* relativeUri, ByRef<::System::UriFormatException*> parsingError);
 
   constexpr ::System::UriSyntaxFlags const& __cordl_internal_get_m_Flags() const;
@@ -281,7 +281,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdatableFlagsUsed(bool value);
 
-  /// @brief Method .ctor, addr 0x2e7e5d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e805cc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::UriSyntaxFlags flags);
 
   static inline ::System::UriSyntaxFlags getStaticF_FileSyntaxFlags();
@@ -326,19 +326,19 @@ public:
 
   static inline ::System::__UriParser__UriQuirksVersion getStaticF_s_QuirksVersion();
 
-  /// @brief Method get_DefaultPort, addr 0x2e7d8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultPort, addr 0x2e7f8e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DefaultPort();
 
-  /// @brief Method get_Flags, addr 0x2e7e564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x2e80560, size 0x8, virtual false, abstract: false, final false
   inline ::System::UriSyntaxFlags get_Flags();
 
-  /// @brief Method get_IsSimple, addr 0x2e7e92c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsSimple, addr 0x2e80928, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsSimple();
 
-  /// @brief Method get_SchemeName, addr 0x2e7d8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemeName, addr 0x2e7f8d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SchemeName();
 
-  /// @brief Method get_ShouldUseLegacyV2Quirks, addr 0x2e7d74c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseLegacyV2Quirks, addr 0x2e7f748, size 0x60, virtual false, abstract: false, final false
   static inline bool get_ShouldUseLegacyV2Quirks();
 
   static inline void setStaticF_FileSyntaxFlags(::System::UriSyntaxFlags value);

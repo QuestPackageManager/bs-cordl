@@ -62,16 +62,16 @@ public:
   /// @brief Field _waitObject, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__waitObject, put = __cordl_internal_set__waitObject))::System::Threading::WaitHandle* _waitObject;
 
-  /// @brief Method DoCallBack, addr 0x28a47bc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x28a87b8, size 0x104, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Object* timedOut);
 
   static inline ::System::Threading::RegisteredWaitHandle* New_ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state,
                                                                     ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method Unregister, addr 0x28a48c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x28a88bc, size 0xf4, virtual false, abstract: false, final false
   inline bool Unregister(::System::Threading::WaitHandle* waitObject);
 
-  /// @brief Method Wait, addr 0x28a4290, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x28a828c, size 0x52c, virtual false, abstract: false, final false
   inline void Wait(::System::Object* state);
 
   constexpr ::System::Threading::WaitOrTimerCallback*& __cordl_internal_get__callback();
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set__waitObject(::System::Threading::WaitHandle* value);
 
-  /// @brief Method .ctor, addr 0x28a193c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a5938, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
 
 protected:

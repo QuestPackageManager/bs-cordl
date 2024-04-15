@@ -25,12 +25,12 @@ namespace System {
 class CORDL_TYPE IOAsyncCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e7fe44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e81e40, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IOAsyncResult* ioares);
 
   static inline ::System::IOAsyncCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2e7fd18, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e81d14, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

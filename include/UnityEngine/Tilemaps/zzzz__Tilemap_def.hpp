@@ -57,71 +57,71 @@ public:
   /// @brief Method GetTile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method GetTileAsset, addr 0x329ad88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTileAsset, addr 0x329dd84, size 0x54, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetTileAsset(::UnityEngine::Vector3Int position);
 
-  /// @brief Method GetTileAsset_Injected, addr 0x329addc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTileAsset_Injected, addr 0x329ddd8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetTileAsset_Injected(ByRef<::UnityEngine::Vector3Int> position);
 
-  /// @brief Method GetTileAssetsBlock, addr 0x329ae20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetTileAssetsBlock, addr 0x329de1c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> GetTileAssetsBlock(::UnityEngine::Vector3Int position, ::UnityEngine::Vector3Int blockDimensions);
 
-  /// @brief Method GetTileAssetsBlock_Injected, addr 0x329ae80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTileAssetsBlock_Injected, addr 0x329de7c, size 0x54, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> GetTileAssetsBlock_Injected(ByRef<::UnityEngine::Vector3Int> position,
                                                                                                                           ByRef<::UnityEngine::Vector3Int> blockDimensions);
 
-  /// @brief Method GetTilesBlock, addr 0x329aed4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetTilesBlock, addr 0x329ded0, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Tilemaps::TileBase>, ::Array<::UnityW<::UnityEngine::Tilemaps::TileBase>>*> GetTilesBlock(::UnityEngine::BoundsInt bounds);
 
-  /// @brief Method GetUsedTilesCount, addr 0x329b1d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetUsedTilesCount, addr 0x329e1d4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetUsedTilesCount();
 
-  /// @brief Method GetUsedTilesNonAlloc, addr 0x329b214, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetUsedTilesNonAlloc, addr 0x329e210, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetUsedTilesNonAlloc(::ArrayW<::UnityEngine::Tilemaps::TileBase*, ::Array<::UnityEngine::Tilemaps::TileBase*>*> usedTiles);
 
-  /// @brief Method HasTile, addr 0x329b068, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HasTile, addr 0x329e064, size 0x84, virtual false, abstract: false, final false
   inline bool HasTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method Internal_GetUsedTilesNonAlloc, addr 0x329b258, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetUsedTilesNonAlloc, addr 0x329e254, size 0x44, virtual false, abstract: false, final false
   inline int32_t Internal_GetUsedTilesNonAlloc(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> usedTiles);
 
-  /// @brief Method RefreshTile, addr 0x329b0ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x329e0e8, size 0x54, virtual false, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method RefreshTile_Injected, addr 0x329b140, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile_Injected, addr 0x329e13c, size 0x44, virtual false, abstract: false, final false
   inline void RefreshTile_Injected(ByRef<::UnityEngine::Vector3Int> position);
 
-  /// @brief Method RefreshTilesNative, addr 0x329b184, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshTilesNative, addr 0x329e180, size 0x54, virtual false, abstract: false, final false
   inline void RefreshTilesNative(::cordl_internals::Ptr<void> positions, int32_t count);
 
-  /// @brief Method get_cellBounds, addr 0x329aa74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_cellBounds, addr 0x329da70, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::BoundsInt get_cellBounds();
 
-  /// @brief Method get_layoutGrid, addr 0x329aa38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layoutGrid, addr 0x329da34, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Grid> get_layoutGrid();
 
-  /// @brief Method get_orientationMatrix, addr 0x329acd8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_orientationMatrix, addr 0x329dcd4, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_orientationMatrix();
 
-  /// @brief Method get_orientationMatrix_Injected, addr 0x329ad44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_orientationMatrix_Injected, addr 0x329dd40, size 0x44, virtual false, abstract: false, final false
   inline void get_orientationMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method get_origin, addr 0x329aaf8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_origin, addr 0x329daf4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_origin();
 
-  /// @brief Method get_origin_Injected, addr 0x329abb0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_origin_Injected, addr 0x329dbac, size 0x44, virtual false, abstract: false, final false
   inline void get_origin_Injected(ByRef<::UnityEngine::Vector3Int> ret);
 
-  /// @brief Method get_size, addr 0x329ab54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x329db50, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_size();
 
-  /// @brief Method get_size_Injected, addr 0x329abf4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x329dbf0, size 0x44, virtual false, abstract: false, final false
   inline void get_size_Injected(ByRef<::UnityEngine::Vector3Int> ret);
 
-  /// @brief Method get_tileAnchor, addr 0x329ac38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_tileAnchor, addr 0x329dc34, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_tileAnchor();
 
-  /// @brief Method get_tileAnchor_Injected, addr 0x329ac94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_tileAnchor_Injected, addr 0x329dc90, size 0x44, virtual false, abstract: false, final false
   inline void get_tileAnchor_Injected(ByRef<::UnityEngine::Vector3> ret);
 
 protected:

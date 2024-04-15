@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)(ByRef<::cordl_internals::Ptr<uint8_t>>)>(
     &::System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2752364;
+  constexpr static std::size_t addrs = 0x2758360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)()>(
     &::System::Runtime::InteropServices::SafeBuffer::ReleasePointer)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x27525b0;
+  constexpr static std::size_t addrs = 0x27585ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::InvalidOperationException* (*)()>(&::System::Runtime::InteropServices::SafeBuffer::NotInitialized)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x275246c;
+  constexpr static std::size_t addrs = 0x2758468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),

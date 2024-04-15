@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27602d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27662d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW key, ::StringW value);
 
 protected:

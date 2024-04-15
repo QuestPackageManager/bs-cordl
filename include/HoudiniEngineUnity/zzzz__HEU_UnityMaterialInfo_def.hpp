@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__unityMaterialPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2483c44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248cc40, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
 protected:

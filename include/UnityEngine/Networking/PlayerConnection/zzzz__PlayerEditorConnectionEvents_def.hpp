@@ -82,7 +82,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x321c71c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321e718, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x321c998, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321e994, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -178,13 +178,13 @@ public:
 
   constexpr void __cordl_internal_set_subscriberCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x321c688, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321e684, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MessageTypeId, addr 0x321c9e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageTypeId, addr 0x321e9dc, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid get_MessageTypeId();
 
-  /// @brief Method set_MessageTypeId, addr 0x321c6f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_MessageTypeId, addr 0x321e6ec, size 0x2c, virtual false, abstract: false, final false
   inline void set_MessageTypeId(::System::Guid value);
 
 protected:
@@ -235,7 +235,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x321ca0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x321ea08, size 0x48, virtual false, abstract: false, final false
   inline bool _InvokeMessageIdSubscribers_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -244,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x321c490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321e48c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -285,7 +285,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <AddAndCreate>b__0, addr 0x321ca54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <AddAndCreate>b__0, addr 0x321ea50, size 0x48, virtual false, abstract: false, final false
   inline bool _AddAndCreate_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -294,7 +294,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x321c680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321e67c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -335,7 +335,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x321ca9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x321ea98, size 0x48, virtual false, abstract: false, final false
   inline bool _UnregisterManagedCallback_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -344,7 +344,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x321c8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321e8cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -404,15 +404,15 @@ public:
   __declspec(property(get = __cordl_internal_get_messageTypeSubscribers, put = __cordl_internal_set_messageTypeSubscribers))::System::Collections::Generic::List_1<
       ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* messageTypeSubscribers;
 
-  /// @brief Method AddAndCreate, addr 0x321c4a0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method AddAndCreate, addr 0x321e49c, size 0x1e0, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid messageId);
 
-  /// @brief Method InvokeMessageIdSubscribers, addr 0x321bfec, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMessageIdSubscribers, addr 0x321dfe8, size 0x4a4, virtual false, abstract: false, final false
   inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor();
 
-  /// @brief Method UnregisterManagedCallback, addr 0x321c764, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterManagedCallback, addr 0x321e760, size 0x16c, virtual false, abstract: false, final false
   inline void UnregisterManagedCallback(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
   constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*& __cordl_internal_get_connectionEvent();
@@ -438,7 +438,7 @@ public:
   constexpr void
   __cordl_internal_set_messageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* value);
 
-  /// @brief Method .ctor, addr 0x321c8d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321e8d4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -22,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAppDownloadResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AppDownloadResult*> {
 public:
   // Declarations
-  /// @brief Method GetAppDownloadResult, addr 0x29c74f0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAppDownloadResult, addr 0x29c94ec, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadResult* GetAppDownloadResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x29c752c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c9528, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadResult* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAppDownloadResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c5360, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c735c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

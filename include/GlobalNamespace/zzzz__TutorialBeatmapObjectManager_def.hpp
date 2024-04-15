@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_cutAngleTolerance(float_t value);
 
-  /// @brief Method .ctor, addr 0x25ae4dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b64d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t cutAngleTolerance);
 
 protected:
@@ -142,29 +142,29 @@ public:
 
   __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  /// @brief Method DespawnInternal, addr 0x25ae374, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x25b6370, size 0x104, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal, addr 0x25ae478, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x25b6474, size 0x58, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal, addr 0x25ae4d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x25b64cc, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method Init, addr 0x25adfc8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25b5fc4, size 0x12c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* initData, ::GlobalNamespace::__TutorialNoteController__Pool* tutorialNotePool,
                    ::GlobalNamespace::__BombNoteController__Pool* bombNotePool, ::GlobalNamespace::__ObstacleController__Pool* obstaclePool);
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectManager* New_ctor();
 
-  /// @brief Method ProcessNoteData, addr 0x25ae1ec, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ProcessNoteData, addr 0x25b61e8, size 0x184, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                               bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessObstacleData, addr 0x25ae0f4, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ProcessObstacleData, addr 0x25b60f0, size 0xf8, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
 
-  /// @brief Method ProcessSliderData, addr 0x25ae370, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x25b636c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*& __cordl_internal_get__bombNotePoolContainer();
@@ -192,10 +192,10 @@ public:
 
   constexpr void __cordl_internal_set__tutorialNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::TutorialNoteController>>* value);
 
-  /// @brief Method .ctor, addr 0x25ae4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b64d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeObstacleControllers, addr 0x25adf78, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x25b5f74, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
 protected:

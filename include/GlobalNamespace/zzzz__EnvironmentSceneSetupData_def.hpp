@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x259f8f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a78ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
 
 protected:

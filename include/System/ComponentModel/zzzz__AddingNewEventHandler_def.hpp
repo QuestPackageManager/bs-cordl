@@ -25,12 +25,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE AddingNewEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e32e30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e34e2c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e);
 
   static inline ::System::ComponentModel::AddingNewEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2e32d00, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34cfc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

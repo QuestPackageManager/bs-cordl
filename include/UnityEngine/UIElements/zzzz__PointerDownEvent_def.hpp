@@ -21,18 +21,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerDownEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerDownEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x339afcc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x339dfc8, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x339b01c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x339e018, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x339b170, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x339e16c, size 0x264, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x339b120, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339e11c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

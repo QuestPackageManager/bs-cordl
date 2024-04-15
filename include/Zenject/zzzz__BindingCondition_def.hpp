@@ -31,18 +31,18 @@ namespace Zenject {
 class CORDL_TYPE BindingCondition : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x344359c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3446598, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Zenject::InjectContext* c, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x34435bc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x34465b8, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3443588, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3446584, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::Zenject::InjectContext* c);
 
   static inline ::Zenject::BindingCondition* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x344345c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3446458, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

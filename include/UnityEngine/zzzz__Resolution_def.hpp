@@ -26,16 +26,16 @@ public:
 
   __declspec(property(get = get_width)) int32_t width;
 
-  /// @brief Method ToString, addr 0x31e55a4, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31e85a0, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_height, addr 0x31e5594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x31e8590, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_refreshRate, addr 0x31e559c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_refreshRate, addr 0x31e8598, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_refreshRate();
 
-  /// @brief Method get_width, addr 0x31e558c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x31e8588, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
   // Ctor Parameters []

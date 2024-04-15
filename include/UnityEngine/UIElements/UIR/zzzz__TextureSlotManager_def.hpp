@@ -65,24 +65,24 @@ public:
   /// @brief Field textureTableId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_textureTableId, put = setStaticF_textureTableId)) int32_t textureTableId;
 
-  /// @brief Method Bind, addr 0x33e56b0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x33e86ac, size 0x218, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::UIElements::TextureId id, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat);
 
-  /// @brief Method FindOldestSlot, addr 0x33e55e0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FindOldestSlot, addr 0x33e85dc, size 0xd0, virtual false, abstract: false, final false
   inline int32_t FindOldestSlot();
 
-  /// @brief Method IndexOf, addr 0x33e54a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x33e84a0, size 0xd4, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method MarkUsed, addr 0x33e5578, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkUsed, addr 0x33e8574, size 0x58, virtual false, abstract: false, final false
   inline void MarkUsed(int32_t slotIndex);
 
   static inline ::UnityEngine::UIElements::UIR::TextureSlotManager* New_ctor();
 
-  /// @brief Method Reset, addr 0x33e530c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x33e8308, size 0x12c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method StartNewBatch, addr 0x33e5438, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartNewBatch, addr 0x33e8434, size 0x6c, virtual false, abstract: false, final false
   inline void StartNewBatch();
 
   constexpr int32_t const& __cordl_internal_get__FreeSlots_k__BackingField() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
-  /// @brief Method .ctor, addr 0x33e51a4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e81a0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_k_SlotCount();
@@ -136,7 +136,7 @@ public:
 
   static inline int32_t getStaticF_textureTableId();
 
-  /// @brief Method get_FreeSlots, addr 0x33e55d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FreeSlots, addr 0x33e85cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FreeSlots();
 
   static inline void setStaticF_k_SlotCount(int32_t value);
@@ -145,7 +145,7 @@ public:
 
   static inline void setStaticF_textureTableId(int32_t value);
 
-  /// @brief Method set_FreeSlots, addr 0x33e55d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FreeSlots, addr 0x33e85d4, size 0x8, virtual false, abstract: false, final false
   inline void set_FreeSlots(int32_t value);
 
 protected:

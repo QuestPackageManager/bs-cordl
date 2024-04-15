@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Attribute_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3407724, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a720, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW attribute);
 
-  /// @brief Method get_Attribute, addr 0x340774c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x340a748, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Attribute();
 
-  /// @brief Method set_Attribute, addr 0x3407754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Attribute, addr 0x340a750, size 0x8, virtual false, abstract: false, final false
   inline void set_Attribute(::StringW value);
 
 protected:

@@ -41,7 +41,7 @@ public:
   /// @brief Field _trueSprite, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__trueSprite, put = __cordl_internal_set__trueSprite))::UnityW<::UnityEngine::Sprite> _trueSprite;
 
-  /// @brief Method Awake, addr 0x23d08c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23d88c4, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DateConditionalSpriteSwitcher* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__trueSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x23d0980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d897c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

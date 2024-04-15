@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(
     &::UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32ebf28;
+  constexpr static std::size_t addrs = 0x32eef24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* (*)()>(
     &::UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32ec03c;
+  constexpr static std::size_t addrs = 0x32ef038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(
     &::UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x32ec094;
+  constexpr static std::size_t addrs = 0x32ef090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

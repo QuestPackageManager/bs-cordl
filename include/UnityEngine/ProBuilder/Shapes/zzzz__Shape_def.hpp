@@ -38,10 +38,10 @@ public:
   /// @brief Method RebuildMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x30b951c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x30be518, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method .ctor, addr 0x30b340c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30b8408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

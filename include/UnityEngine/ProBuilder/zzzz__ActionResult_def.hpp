@@ -102,12 +102,12 @@ public:
 
   __declspec(property(get = get_status, put = set_status))::UnityEngine::ProBuilder::__ActionResult__Status status;
 
-  /// @brief Method FromBool, addr 0x3063098, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromBool, addr 0x3068094, size 0xa0, virtual false, abstract: false, final false
   static inline bool FromBool(bool success);
 
   static inline ::UnityEngine::ProBuilder::ActionResult* New_ctor(::UnityEngine::ProBuilder::__ActionResult__Status status, ::StringW notification);
 
-  /// @brief Method ToBool, addr 0x3063088, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToBool, addr 0x3068084, size 0x10, virtual false, abstract: false, final false
   inline bool ToBool();
 
   constexpr ::StringW const& __cordl_internal_get__notification_k__BackingField() const;
@@ -122,31 +122,31 @@ public:
 
   constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::ProBuilder::__ActionResult__Status value);
 
-  /// @brief Method .ctor, addr 0x3063044, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3068040, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::__ActionResult__Status status, ::StringW notification);
 
-  /// @brief Method get_NoSelection, addr 0x30631b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_NoSelection, addr 0x30681b0, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_NoSelection();
 
-  /// @brief Method get_Success, addr 0x3063138, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x3068134, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_Success();
 
-  /// @brief Method get_UserCanceled, addr 0x3063234, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_UserCanceled, addr 0x3068230, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
 
-  /// @brief Method get_notification, addr 0x3063034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_notification, addr 0x3068030, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_notification();
 
-  /// @brief Method get_status, addr 0x3063024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x3068020, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::__ActionResult__Status get_status();
 
-  /// @brief Method op_Implicit, addr 0x3063074, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3068070, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::ProBuilder::ActionResult* res);
 
-  /// @brief Method set_notification, addr 0x306303c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_notification, addr 0x3068038, size 0x8, virtual false, abstract: false, final false
   inline void set_notification(::StringW value);
 
-  /// @brief Method set_status, addr 0x306302c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x3068028, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::ProBuilder::__ActionResult__Status value);
 
 protected:

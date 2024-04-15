@@ -29,26 +29,26 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RijndaelManaged : public ::System::Security::Cryptography::Rijndael {
 public:
   // Declarations
-  /// @brief Method CreateDecryptor, addr 0x26de2c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x26e42bc, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x26de1b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x26e41ac, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x26de304, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x26e4300, size 0x30, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x26de2d4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x26e42d0, size 0x30, virtual true, abstract: false, final false
   inline void GenerateKey();
 
-  /// @brief Method NewEncryptor, addr 0x26de1c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method NewEncryptor, addr 0x26e41c0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* NewEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode,
                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t feedbackSize,
                                                                           ::System::Security::Cryptography::RijndaelManagedTransformMode encryptMode);
 
   static inline ::System::Security::Cryptography::RijndaelManaged* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26de0d0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e40cc, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

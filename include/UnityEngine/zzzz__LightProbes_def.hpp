@@ -56,93 +56,93 @@ public:
   /// @brief Field tetrahedralizationCompleted, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_tetrahedralizationCompleted, put = setStaticF_tetrahedralizationCompleted))::System::Action* tetrahedralizationCompleted;
 
-  /// @brief Method AreLightProbesAllowed, addr 0x31e7804, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AreLightProbesAllowed, addr 0x31ea800, size 0x3c, virtual false, abstract: false, final false
   static inline bool AreLightProbesAllowed(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x31e7840, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x31ea83c, size 0x194, virtual false, abstract: false, final false
   static inline void CalculateInterpolatedLightAndOcclusionProbes(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions,
                                                                   ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> lightProbes,
                                                                   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> occlusionProbes);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x31e7a30, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x31eaa2c, size 0x298, virtual false, abstract: false, final false
   static inline void CalculateInterpolatedLightAndOcclusionProbes(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* lightProbes,
                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* occlusionProbes);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes_Internal, addr 0x31e79d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes_Internal, addr 0x31ea9d0, size 0x5c, virtual false, abstract: false, final false
   static inline void
   CalculateInterpolatedLightAndOcclusionProbes_Internal(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, int32_t positionsCount,
                                                         ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> lightProbes,
                                                         ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> occlusionProbes);
 
-  /// @brief Method GetCount, addr 0x31e7dfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCount, addr 0x31eadf8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetCount();
 
-  /// @brief Method GetInterpolatedLightProbe, addr 0x31e72b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInterpolatedLightProbe, addr 0x31ea2ac, size 0x4, virtual false, abstract: false, final false
   inline void GetInterpolatedLightProbe(::UnityEngine::Vector3 position, ::UnityEngine::Renderer* renderer, ::ArrayW<float_t, ::Array<float_t>*> coefficients);
 
-  /// @brief Method GetInterpolatedProbe, addr 0x31e7754, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetInterpolatedProbe, addr 0x31ea750, size 0x5c, virtual false, abstract: false, final false
   static inline void GetInterpolatedProbe(::UnityEngine::Vector3 position, ::UnityEngine::Renderer* renderer, ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
 
-  /// @brief Method GetInterpolatedProbe_Injected, addr 0x31e77b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetInterpolatedProbe_Injected, addr 0x31ea7ac, size 0x54, virtual false, abstract: false, final false
   static inline void GetInterpolatedProbe_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::Renderer* renderer, ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
 
-  /// @brief Method Internal_CallNeedsRetetrahedralizationFunction, addr 0x31e76a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallNeedsRetetrahedralizationFunction, addr 0x31ea69c, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_CallNeedsRetetrahedralizationFunction();
 
-  /// @brief Method Internal_CallTetrahedralizationCompletedFunction, addr 0x31e74c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallTetrahedralizationCompletedFunction, addr 0x31ea4c0, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_CallTetrahedralizationCompletedFunction();
 
   static inline ::UnityEngine::LightProbes* New_ctor();
 
-  /// @brief Method Tetrahedralize, addr 0x31e7704, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Tetrahedralize, addr 0x31ea700, size 0x28, virtual false, abstract: false, final false
   static inline void Tetrahedralize();
 
-  /// @brief Method TetrahedralizeAsync, addr 0x31e772c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method TetrahedralizeAsync, addr 0x31ea728, size 0x28, virtual false, abstract: false, final false
   static inline void TetrahedralizeAsync();
 
-  /// @brief Method .ctor, addr 0x31e72fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ea2f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_needsRetetrahedralization, addr 0x31e7528, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method add_needsRetetrahedralization, addr 0x31ea524, size 0xbc, virtual false, abstract: false, final false
   static inline void add_needsRetetrahedralization(::System::Action* value);
 
-  /// @brief Method add_tetrahedralizationCompleted, addr 0x31e7354, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_tetrahedralizationCompleted, addr 0x31ea350, size 0xb8, virtual false, abstract: false, final false
   static inline void add_tetrahedralizationCompleted(::System::Action* value);
 
   static inline ::System::Action* getStaticF_needsRetetrahedralization();
 
   static inline ::System::Action* getStaticF_tetrahedralizationCompleted();
 
-  /// @brief Method get_bakedProbes, addr 0x31e7d04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bakedProbes, addr 0x31ead00, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> get_bakedProbes();
 
-  /// @brief Method get_cellCount, addr 0x31e7dc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cellCount, addr 0x31eadbc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_cellCount();
 
-  /// @brief Method get_coefficients, addr 0x31e72b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_coefficients, addr 0x31ea2b0, size 0x44, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_coefficients();
 
-  /// @brief Method get_count, addr 0x31e7d84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x31ead80, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_positions, addr 0x31e7cc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_positions, addr 0x31eacc4, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_positions();
 
-  /// @brief Method remove_needsRetetrahedralization, addr 0x31e75e4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method remove_needsRetetrahedralization, addr 0x31ea5e0, size 0xbc, virtual false, abstract: false, final false
   static inline void remove_needsRetetrahedralization(::System::Action* value);
 
-  /// @brief Method remove_tetrahedralizationCompleted, addr 0x31e740c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method remove_tetrahedralizationCompleted, addr 0x31ea408, size 0xb8, virtual false, abstract: false, final false
   static inline void remove_tetrahedralizationCompleted(::System::Action* value);
 
   static inline void setStaticF_needsRetetrahedralization(::System::Action* value);
 
   static inline void setStaticF_tetrahedralizationCompleted(::System::Action* value);
 
-  /// @brief Method set_bakedProbes, addr 0x31e7d40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bakedProbes, addr 0x31ead3c, size 0x44, virtual false, abstract: false, final false
   inline void set_bakedProbes(::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> value);
 
-  /// @brief Method set_coefficients, addr 0x31e72f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_coefficients, addr 0x31ea2f4, size 0x4, virtual false, abstract: false, final false
   inline void set_coefficients(::ArrayW<float_t, ::Array<float_t>*> value);
 
 protected:

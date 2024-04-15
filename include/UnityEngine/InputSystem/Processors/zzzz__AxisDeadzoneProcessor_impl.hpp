@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::get_minOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3026434;
+  constexpr static std::size_t addrs = 0x302b430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::get_maxOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x30264a4;
+  constexpr static std::size_t addrs = 0x302b4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)(
     float_t, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::Process)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3026514;
+  constexpr static std::size_t addrs = 0x302b510;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::ToString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x302657c;
+  constexpr static std::size_t addrs = 0x302b578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3026624;
+  constexpr static std::size_t addrs = 0x302b620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

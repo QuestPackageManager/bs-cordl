@@ -109,10 +109,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateAlias(::StringW value);
 
-  /// @brief Method get_attributeOverrides, addr 0x335e080, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x336107c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_slotUsages, addr 0x335e100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotUsages, addr 0x33610fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* get_slotUsages();
 
 protected:

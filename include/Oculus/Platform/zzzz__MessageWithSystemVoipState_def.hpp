@@ -22,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithSystemVoipState : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SystemVoipState*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29ca4e4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29cc4e0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetSystemVoipState, addr 0x29ca4a8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetSystemVoipState, addr 0x29cc4a4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
 
   static inline ::Oculus::Platform::MessageWithSystemVoipState* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c6228, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c8224, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

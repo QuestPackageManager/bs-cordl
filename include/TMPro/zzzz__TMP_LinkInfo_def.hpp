@@ -24,13 +24,13 @@ namespace TMPro {
 struct CORDL_TYPE TMP_LinkInfo {
 public:
   // Declarations
-  /// @brief Method GetLinkID, addr 0x312b854, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLinkID, addr 0x3130850, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW GetLinkID();
 
-  /// @brief Method GetLinkText, addr 0x312b778, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x3130774, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetLinkText();
 
-  /// @brief Method SetLinkID, addr 0x312b6a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetLinkID, addr 0x31306a0, size 0xd4, virtual false, abstract: false, final false
   inline void SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []

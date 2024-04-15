@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method .ctor, addr 0x258e1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259719c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -59,10 +59,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2504980, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x250c97c, size 0x1b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2504b38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x250cb34, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -137,24 +137,24 @@ public:
   __declspec(property(get = __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler,
                       put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler))::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x250464c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x250c648, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InitializeModules, addr 0x250451c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitializeModules, addr 0x250c518, size 0x68, virtual false, abstract: false, final false
   static inline int32_t InitializeModules();
 
-  /// @brief Method InstallBindings, addr 0x2504784, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x250c780, size 0x19c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS4AppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x2504584, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x250c580, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x25046b4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x250c6b0, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x2504750, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x250c74c, size 0x34, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> const& __cordl_internal_get__activePublisherSKUSettingsSO() const;
@@ -187,10 +187,10 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method <>n__0, addr 0x2504978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x250c974, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x2504920, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250c91c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

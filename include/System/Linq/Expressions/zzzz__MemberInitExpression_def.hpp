@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
-  /// @brief Method get_Bindings, addr 0x2b0b74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindings, addr 0x2b0c748, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings();
 
-  /// @brief Method get_NewExpression, addr 0x2b0b744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewExpression, addr 0x2b0c740, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
 protected:

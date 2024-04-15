@@ -29,58 +29,58 @@ namespace System {
 class CORDL_TYPE SpanHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ClearWithReferences, addr 0x28450f4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ClearWithReferences, addr 0x284a0f0, size 0x150, virtual false, abstract: false, final false
   static inline void ClearWithReferences(ByRef<void*> ip, uint64_t pointerSizeLength);
 
-  /// @brief Method ClearWithoutReferences, addr 0x2844f0c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ClearWithoutReferences, addr 0x2849f08, size 0x1e8, virtual false, abstract: false, final false
   static inline void ClearWithoutReferences(ByRef<uint8_t> b, uint64_t byteLength);
 
-  /// @brief Method EndsWithCultureHelper, addr 0x2844b0c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method EndsWithCultureHelper, addr 0x2849b08, size 0x200, virtual false, abstract: false, final false
   static inline bool EndsWithCultureHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
 
-  /// @brief Method EndsWithCultureIgnoreCaseHelper, addr 0x2844d0c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method EndsWithCultureIgnoreCaseHelper, addr 0x2849d08, size 0x120, virtual false, abstract: false, final false
   static inline bool EndsWithCultureIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
 
-  /// @brief Method EndsWithOrdinalIgnoreCaseHelper, addr 0x2844e2c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method EndsWithOrdinalIgnoreCaseHelper, addr 0x2849e28, size 0xe0, virtual false, abstract: false, final false
   static inline bool EndsWithOrdinalIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(ByRef<T> searchSpace, T value, int32_t length);
 
-  /// @brief Method IndexOf, addr 0x2843920, size 0x73c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x284891c, size 0x73c, virtual false, abstract: false, final false
   static inline int32_t IndexOf(ByRef<char16_t> searchSpace, char16_t value, int32_t length);
 
-  /// @brief Method IndexOf, addr 0x2842ff0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2847fec, size 0x298, virtual false, abstract: false, final false
   static inline int32_t IndexOf(ByRef<uint8_t> searchSpace, uint8_t value, int32_t length);
 
   /// @brief Method IndexOfAny, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOfAny(ByRef<T> searchSpace, int32_t searchSpaceLength, ByRef<T> value, int32_t valueLength);
 
-  /// @brief Method IndexOfAny, addr 0x2842f70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IndexOfAny, addr 0x2847f6c, size 0x80, virtual false, abstract: false, final false
   static inline int32_t IndexOfAny(ByRef<uint8_t> searchSpace, int32_t searchSpaceLength, ByRef<uint8_t> value, int32_t valueLength);
 
-  /// @brief Method LastIndexOf, addr 0x284405c, size 0x6e4, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x2849058, size 0x6e4, virtual false, abstract: false, final false
   static inline int32_t LastIndexOf(ByRef<char16_t> searchSpace, char16_t value, int32_t length);
 
-  /// @brief Method LocateFirstFoundChar, addr 0x2844740, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method LocateFirstFoundChar, addr 0x284973c, size 0x1c0, virtual false, abstract: false, final false
   static inline int32_t LocateFirstFoundChar(::System::Numerics::Vector_1<uint16_t> match);
 
-  /// @brief Method LocateFirstFoundChar, addr 0x2844900, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method LocateFirstFoundChar, addr 0x28498fc, size 0x20, virtual false, abstract: false, final false
   static inline int32_t LocateFirstFoundChar(uint64_t match);
 
-  /// @brief Method LocateLastFoundChar, addr 0x2844920, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method LocateLastFoundChar, addr 0x284991c, size 0x1c0, virtual false, abstract: false, final false
   static inline int32_t LocateLastFoundChar(::System::Numerics::Vector_1<uint16_t> match);
 
-  /// @brief Method LocateLastFoundChar, addr 0x2844ae0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LocateLastFoundChar, addr 0x2849adc, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t LocateLastFoundChar(uint64_t match);
 
-  /// @brief Method SequenceCompareTo, addr 0x2843450, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method SequenceCompareTo, addr 0x284844c, size 0x4d0, virtual false, abstract: false, final false
   static inline int32_t SequenceCompareTo(ByRef<char16_t> first, int32_t firstLength, ByRef<char16_t> second, int32_t secondLength);
 
   /// @brief Method SequenceEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool SequenceEqual(ByRef<T> first, ByRef<T> second, int32_t length);
 
-  /// @brief Method SequenceEqual, addr 0x2843288, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SequenceEqual, addr 0x2848284, size 0x1c8, virtual false, abstract: false, final false
   static inline bool SequenceEqual(ByRef<uint8_t> first, ByRef<uint8_t> second, uint64_t length);
 
 protected:

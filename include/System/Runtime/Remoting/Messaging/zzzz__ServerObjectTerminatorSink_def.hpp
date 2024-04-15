@@ -33,13 +33,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x27300f0, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x27360ec, size 0x1cc, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
-  /// @brief Method SyncProcessMessage, addr 0x272ff7c, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x2735f78, size 0x174, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__nextSink();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__nextSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x272ff54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2735f50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

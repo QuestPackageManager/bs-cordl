@@ -41,40 +41,40 @@ public:
 
   __declspec(property(get = get_TypedValue))::System::Reflection::CustomAttributeTypedArgument TypedValue;
 
-  /// @brief Method Equals, addr 0x276790c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x276d908, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2767984, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x276d980, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2767af4, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x276daf0, size 0x38c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2767460, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276d45c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* attributeType, ::StringW memberName, bool isField, ::System::Reflection::CustomAttributeTypedArgument typedValue);
 
-  /// @brief Method .ctor, addr 0x27676b4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276d6b0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::CustomAttributeTypedArgument typedArgument);
 
-  /// @brief Method .ctor, addr 0x2767488, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276d484, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value);
 
-  /// @brief Method get_IsField, addr 0x27677e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsField, addr 0x276d7e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsField();
 
-  /// @brief Method get_MemberInfo, addr 0x27677f4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x276d7f0, size 0x118, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method get_MemberName, addr 0x27677ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x276d7e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_TypedValue, addr 0x27677d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x276d7d4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue();
 
-  /// @brief Method op_Equality, addr 0x27679f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x276d9ec, size 0x80, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
-  /// @brief Method op_Inequality, addr 0x2767a70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x276da6c, size 0x84, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
   // Ctor Parameters []

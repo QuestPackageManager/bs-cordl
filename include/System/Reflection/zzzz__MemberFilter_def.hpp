@@ -25,12 +25,12 @@ namespace System::Reflection {
 class CORDL_TYPE MemberFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2761e48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2767e44, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Reflection::MemberInfo* m, ::System::Object* filterCriteria);
 
   static inline ::System::Reflection::MemberFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2761d18, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2767d14, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

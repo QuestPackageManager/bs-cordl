@@ -91,18 +91,18 @@ public:
   /// @brief Field widthStart, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_widthStart, put = __cordl_internal_set_widthStart)) float_t widthStart;
 
-  /// @brief Method Awake, addr 0x23ebee0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23f3edc, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ParametricBoxController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x23ec1e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23f41e4, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x23ebf00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23f3efc, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x23ebf28, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x23f3f24, size 0x2c0, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr float_t const& __cordl_internal_get__collisionHeight_k__BackingField() const;
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_widthStart(float_t value);
 
-  /// @brief Method .ctor, addr 0x23ec208, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f4204, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaEndID();
@@ -204,10 +204,10 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
-  /// @brief Method get_collisionHeight, addr 0x23ebed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionHeight, addr 0x23f3ecc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionHeight();
 
-  /// @brief Method get_useCollision, addr 0x23ebebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x23f3eb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
   static inline void setStaticF__alphaEndID(int32_t value);
@@ -222,10 +222,10 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
-  /// @brief Method set_collisionHeight, addr 0x23ebed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_collisionHeight, addr 0x23f3ed4, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionHeight(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x23ebec4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x23f3ec0, size 0xc, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
 protected:

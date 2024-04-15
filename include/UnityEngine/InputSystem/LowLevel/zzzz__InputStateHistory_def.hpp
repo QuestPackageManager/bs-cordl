@@ -118,22 +118,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x3025d24, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x302ad20, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x3025c58, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x302ac54, size 0x3c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x3025c94, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x302ac90, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3025cc0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x302acbc, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x30256a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x302a6a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory* history);
 
-  /// @brief Method get_Current, addr 0x3025ca0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x302ac9c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>"
@@ -299,10 +299,10 @@ public:
 
   constexpr void __cordl_internal_set_version(uint32_t value);
 
-  /// @brief Method get_statePtrWithControlIndex, addr 0x302563c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_statePtrWithControlIndex, addr 0x302a638, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> get_statePtrWithControlIndex();
 
-  /// @brief Method get_statePtrWithoutControlIndex, addr 0x3025634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_statePtrWithoutControlIndex, addr 0x302a630, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> get_statePtrWithoutControlIndex();
 
   // Ctor Parameters []
@@ -439,74 +439,74 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>*();
 
-  /// @brief Method CheckValid, addr 0x3025dec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x302ade8, size 0xb0, virtual false, abstract: false, final false
   inline void CheckValid();
 
-  /// @brief Method CopyFrom, addr 0x3024598, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x3029594, size 0x380, virtual false, abstract: false, final false
   inline void CopyFrom(::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record record);
 
-  /// @brief Method Equals, addr 0x302627c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x302b278, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3026248, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x302b244, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record other);
 
-  /// @brief Method GetHashCode, addr 0x3026314, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x302b310, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetUnsafeExtraMemoryPtr, addr 0x3026160, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeExtraMemoryPtr, addr 0x302b15c, size 0x18, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> GetUnsafeExtraMemoryPtr();
 
-  /// @brief Method GetUnsafeExtraMemoryPtrUnchecked, addr 0x3026178, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeExtraMemoryPtrUnchecked, addr 0x302b174, size 0xd0, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> GetUnsafeExtraMemoryPtrUnchecked();
 
-  /// @brief Method GetUnsafeMemoryPtr, addr 0x30260c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeMemoryPtr, addr 0x302b0c4, size 0x18, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> GetUnsafeMemoryPtr();
 
-  /// @brief Method GetUnsafeMemoryPtrUnchecked, addr 0x30260e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeMemoryPtrUnchecked, addr 0x302b0dc, size 0x80, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> GetUnsafeMemoryPtrUnchecked();
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline TValue ReadValue();
 
-  /// @brief Method ReadValueAsObject, addr 0x3026090, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x302b08c, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* ReadValueAsObject();
 
-  /// @brief Method ToString, addr 0x302635c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x302b358, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3024438, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3029434, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory* owner, int32_t index,
                     ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> header);
 
-  /// @brief Method get_control, addr 0x3025ec4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x302aec0, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_header, addr 0x3025d28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_header, addr 0x302ad24, size 0x24, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> get_header();
 
-  /// @brief Method get_index, addr 0x3025db0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x302adac, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_next, addr 0x3025f78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x302af74, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record get_next();
 
-  /// @brief Method get_owner, addr 0x3025da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_owner, addr 0x302ada4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory* get_owner();
 
-  /// @brief Method get_previous, addr 0x3026008, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_previous, addr 0x302b004, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record get_previous();
 
-  /// @brief Method get_recordIndex, addr 0x3025d4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_recordIndex, addr 0x302ad48, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_recordIndex();
 
-  /// @brief Method get_time, addr 0x3025e9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x302ae98, size 0x28, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_valid, addr 0x3025d60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x302ad5c, size 0x48, virtual false, abstract: false, final false
   inline bool get_valid();
 
-  /// @brief Method get_version, addr 0x3025d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x302ad54, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_version();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>"
@@ -634,34 +634,34 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*() noexcept;
 
-  /// @brief Method AddRecord, addr 0x3024dcc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddRecord, addr 0x3029dc8, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record AddRecord(::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record record);
 
-  /// @brief Method Allocate, addr 0x3025730, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x302a72c, size 0x254, virtual false, abstract: false, final false
   inline void Allocate();
 
-  /// @brief Method AllocateRecord, addr 0x3024e38, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AllocateRecord, addr 0x3029e34, size 0x120, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> AllocateRecord(ByRef<int32_t> index);
 
-  /// @brief Method Clear, addr 0x3024db8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3029db4, size 0x14, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Destroy, addr 0x30256b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x302a6b4, size 0x78, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x3024d50, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3029d4c, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x3024cbc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3029cb8, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetEnumerator, addr 0x3025644, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x302a640, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>* GetEnumerator();
 
-  /// @brief Method GetRecord, addr 0x3024340, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetRecord, addr 0x302933c, size 0xf8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> GetRecord(int32_t index);
 
-  /// @brief Method GetRecordUnchecked, addr 0x30259f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetRecordUnchecked, addr 0x302a9f4, size 0xac, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> GetRecordUnchecked(int32_t index);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory* New_ctor(::UnityEngine::InputSystem::InputControl* control);
@@ -675,36 +675,36 @@ public:
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline TValue ReadValue(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> data);
 
-  /// @brief Method ReadValueAsObject, addr 0x3025aa4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x302aaa0, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> data);
 
-  /// @brief Method RecordIndexToUserIndex, addr 0x30259d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RecordIndexToUserIndex, addr 0x302a9d0, size 0x24, virtual false, abstract: false, final false
   inline int32_t RecordIndexToUserIndex(int32_t index);
 
-  /// @brief Method RecordStateChange, addr 0x302520c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method RecordStateChange, addr 0x302a208, size 0x198, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record RecordStateChange(::UnityEngine::InputSystem::InputControl* control,
                                                                                              ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method RecordStateChange, addr 0x30253a4, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method RecordStateChange, addr 0x302a3a0, size 0x290, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record RecordStateChange(::UnityEngine::InputSystem::InputControl* control, ::cordl_internals::Ptr<void> statePtr, double_t time);
 
-  /// @brief Method StartRecording, addr 0x3024f58, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method StartRecording, addr 0x3029f54, size 0x15c, virtual false, abstract: false, final false
   inline void StartRecording();
 
-  /// @brief Method StopRecording, addr 0x30250b4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method StopRecording, addr 0x302a0b0, size 0x158, virtual false, abstract: false, final false
   inline void StopRecording();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x30256b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x302a6b0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged, addr 0x3025b7c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged, addr 0x302ab78, size 0xd8, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl* control, double_t time,
                                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired, addr 0x3025c54, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired, addr 0x302ac50, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired(::UnityEngine::InputSystem::InputControl* control, double_t time, int64_t monitorIndex, int32_t timerIndex);
 
-  /// @brief Method UserIndexToRecordIndex, addr 0x3024328, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UserIndexToRecordIndex, addr 0x3029324, size 0x18, virtual false, abstract: false, final false
   inline int32_t UserIndexToRecordIndex(int32_t index);
 
   constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>*& __cordl_internal_get__onRecordAdded_k__BackingField();
@@ -789,46 +789,46 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateMask(::System::Nullable_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType> value);
 
-  /// @brief Method .ctor, addr 0x3024b44, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3029b40, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x3024c40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3029c3c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>* controls);
 
-  /// @brief Method .ctor, addr 0x3024938, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3029934, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStateSizeInBytes);
 
-  /// @brief Method .ctor, addr 0x30249ec, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30299e8, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
-  /// @brief Method get_Count, addr 0x3023e64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x3028e60, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x3024214, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3029210, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record get_Item(int32_t index);
 
-  /// @brief Method get_bytesPerRecord, addr 0x3025984, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_bytesPerRecord, addr 0x302a980, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_bytesPerRecord();
 
-  /// @brief Method get_controls, addr 0x30241ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_controls, addr 0x30291a8, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> get_controls();
 
-  /// @brief Method get_extraMemoryPerRecord, addr 0x3023f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extraMemoryPerRecord, addr 0x3028f5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_extraMemoryPerRecord();
 
-  /// @brief Method get_historyDepth, addr 0x3023e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_historyDepth, addr 0x3028e70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_historyDepth();
 
-  /// @brief Method get_onRecordAdded, addr 0x3024918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onRecordAdded, addr 0x3029914, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>* get_onRecordAdded();
 
-  /// @brief Method get_onShouldRecordStateChange, addr 0x3024928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onShouldRecordStateChange, addr 0x3029924, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* get_onShouldRecordStateChange();
 
-  /// @brief Method get_updateMask, addr 0x302404c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_updateMask, addr 0x3029048, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_updateMask();
 
-  /// @brief Method get_version, addr 0x3023e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x3028e68, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_version();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>"
@@ -844,22 +844,22 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* i___UnityEngine__InputSystem__LowLevel__IInputStateChangeMonitor() noexcept;
 
-  /// @brief Method set_Item, addr 0x3024460, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x302945c, size 0x138, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record value);
 
-  /// @brief Method set_extraMemoryPerRecord, addr 0x3023f68, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_extraMemoryPerRecord, addr 0x3028f64, size 0xe4, virtual false, abstract: false, final false
   inline void set_extraMemoryPerRecord(int32_t value);
 
-  /// @brief Method set_historyDepth, addr 0x3023e7c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_historyDepth, addr 0x3028e78, size 0xe4, virtual false, abstract: false, final false
   inline void set_historyDepth(int32_t value);
 
-  /// @brief Method set_onRecordAdded, addr 0x3024920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onRecordAdded, addr 0x302991c, size 0x8, virtual false, abstract: false, final false
   inline void set_onRecordAdded(::System::Action_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>* value);
 
-  /// @brief Method set_onShouldRecordStateChange, addr 0x3024930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onShouldRecordStateChange, addr 0x302992c, size 0x8, virtual false, abstract: false, final false
   inline void set_onShouldRecordStateChange(::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value);
 
-  /// @brief Method set_updateMask, addr 0x30240e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_updateMask, addr 0x30290dc, size 0xcc, virtual false, abstract: false, final false
   inline void set_updateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
 
 protected:

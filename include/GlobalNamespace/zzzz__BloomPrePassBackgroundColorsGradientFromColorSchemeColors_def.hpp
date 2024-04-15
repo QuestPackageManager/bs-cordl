@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_loadFromColorScheme(bool value);
 
-  /// @brief Method .ctor, addr 0x2570e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2579e54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,7 +214,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors* New_ctor();
 
-  /// @brief Method Start, addr 0x2570e60, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2579e5c, size 0x194, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() const;
@@ -241,7 +241,7 @@ public:
                                                          ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element*>*>
                                                     value);
 
-  /// @brief Method .ctor, addr 0x2570b7c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2579b78, size 0x2dc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

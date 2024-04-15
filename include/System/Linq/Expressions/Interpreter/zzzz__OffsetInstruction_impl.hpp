@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (
     ::System::Linq::Expressions::Interpreter::OffsetInstruction::*)(int32_t)>(&::System::Linq::Expressions::Interpreter::OffsetInstruction::Fixup)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2b1474c;
+  constexpr static std::size_t addrs = 0x2b15748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::System::Object*, ::System::Func_2<int32_t, int32_t>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*)>(
     &::System::Linq::Expressions::Interpreter::OffsetInstruction::ToDebugString)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2b147e0;
+  constexpr static std::size_t addrs = 0x2b157dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::OffsetInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::OffsetInstruction::ToString)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2b148a8;
+  constexpr static std::size_t addrs = 0x2b158a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::OffsetInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::OffsetInstruction::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b14974;
+  constexpr static std::size_t addrs = 0x2b15970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::RectangularVertexClipper::*)(
     ::UnityEngine::RectTransform*, ::UnityEngine::Canvas*)>(&::UnityEngine::UI::RectangularVertexClipper::GetCanvasRect)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x329e71c;
+  constexpr static std::size_t addrs = 0x32a1718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectangularVertexClipper::*)()>(&::UnityEngine::UI::RectangularVertexClipper::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x329e88c;
+  constexpr static std::size_t addrs = 0x32a1888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectangularVertexClipper*>::get(), ".ctor",

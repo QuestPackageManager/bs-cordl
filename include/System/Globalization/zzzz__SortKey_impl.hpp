@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Globalization::SortKey*, ::System::Globalization::SortKey*)>(
     &::System::Globalization::SortKey::Compare)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x27e9b3c;
+  constexpr static std::size_t addrs = 0x27efb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::SortKey::*)(int32_t, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::SortKey::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27e9cb0;
+  constexpr static std::size_t addrs = 0x27efcac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Globalization::CompareOptions, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::SortKey::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27e9d84;
+  constexpr static std::size_t addrs = 0x27efd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::SortKey::*)(
     ::StringW, ::StringW, ::System::Globalization::CompareOptions, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Globalization::SortKey::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27e9dc4;
+  constexpr static std::size_t addrs = 0x27efdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::SortKey::*)()>(&::System::Globalization::SortKey::get_OriginalString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27e9e0c;
+  constexpr static std::size_t addrs = 0x27efe08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Globalization::SortKey::*)()>(
     &::System::Globalization::SortKey::get_KeyData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27e9e14;
+  constexpr static std::size_t addrs = 0x27efe10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::SortKey::*)(::System::Object*)>(&::System::Globalization::SortKey::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x27e9e1c;
+  constexpr static std::size_t addrs = 0x27efe18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::SortKey::*)()>(&::System::Globalization::SortKey::GetHashCode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x27e9ecc;
+  constexpr static std::size_t addrs = 0x27efec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::SortKey::*)()>(&::System::Globalization::SortKey::ToString)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x27e9f34;
+  constexpr static std::size_t addrs = 0x27eff30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::SortKey::*)()>(&::System::Globalization::SortKey::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x27ea124;
+  constexpr static std::size_t addrs = 0x27f0120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::SortKey*>::get(), ".ctor",

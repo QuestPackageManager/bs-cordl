@@ -47,41 +47,41 @@ public:
   /// @brief Field _val, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val))::System::Object* _val;
 
-  /// @brief Method Bind, addr 0x2bc97b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x2bcb7ac, size 0x8, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method Eval, addr 0x2bc97b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x2bcb7b4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x2bc97cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x2bcb7c8, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x2bc97c0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x2bcb7bc, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x2bc97e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x2bcb7e4, size 0x8, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x2bc97f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x2bcb7ec, size 0x8, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x2bc97d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x2bcb7d4, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x2bc97e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x2bcb7dc, size 0x8, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::ConstNode* New_ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant);
 
   static inline ::System::Data::ConstNode* New_ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant, bool fParseQuotes);
 
-  /// @brief Method Optimize, addr 0x2bc97f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x2bcb7f4, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
-  /// @brief Method SmallestDecimal, addr 0x2bc9324, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method SmallestDecimal, addr 0x2bcb320, size 0x48c, virtual false, abstract: false, final false
   inline ::System::Object* SmallestDecimal(::System::Object* constant);
 
-  /// @brief Method SmallestNumeric, addr 0x2bc8d0c, size 0x618, virtual false, abstract: false, final false
+  /// @brief Method SmallestNumeric, addr 0x2bcad08, size 0x618, virtual false, abstract: false, final false
   inline ::System::Object* SmallestNumeric(::System::Object* constant);
 
   constexpr ::System::Object*& __cordl_internal_get__val();
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__val(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2bc8d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcad00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant);
 
-  /// @brief Method .ctor, addr 0x2bc6290, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc828c, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant, bool fParseQuotes);
 
 protected:

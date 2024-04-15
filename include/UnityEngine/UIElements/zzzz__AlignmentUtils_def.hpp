@@ -19,10 +19,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CeilToPixelGrid, addr 0x3304c40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CeilToPixelGrid, addr 0x3307c3c, size 0x14, virtual false, abstract: false, final false
   static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
-  /// @brief Method RoundToPixelGrid, addr 0x3304c24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RoundToPixelGrid, addr 0x3307c20, size 0x1c, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
 protected:

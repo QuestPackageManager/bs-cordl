@@ -68,24 +68,24 @@ public:
   /// @brief Field syncStartDidSuccessEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_syncStartDidSuccessEvent, put = __cordl_internal_set_syncStartDidSuccessEvent))::System::Action_1<::StringW>* syncStartDidSuccessEvent;
 
-  /// @brief Method HandleSceneSetupDidFinish, addr 0x28baa9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneSetupDidFinish, addr 0x28bea98, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidFinish(::StringW sessionGameId);
 
-  /// @brief Method HandleSceneSetupDidReceiveTooLate, addr 0x28baae8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneSetupDidReceiveTooLate, addr 0x28beae4, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
 
   static inline ::GlobalNamespace::SceneStartSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x28ba83c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x28be838, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x28ba7cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x28be7c8, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSceneLoadSync, addr 0x28ba93c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method StartSceneLoadSync, addr 0x28be938, size 0x160, virtual false, abstract: false, final false
   inline void StartSceneLoadSync(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method Update, addr 0x28ba7e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x28be7e0, size 0x58, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
@@ -142,25 +142,25 @@ public:
 
   constexpr void __cordl_internal_set_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x28bab34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28beb30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_syncStartDidFailEvent, addr 0x28ba694, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidFailEvent, addr 0x28be690, size 0x9c, virtual false, abstract: false, final false
   inline void add_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method add_syncStartDidReceiveTooLateEvent, addr 0x28ba534, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidReceiveTooLateEvent, addr 0x28be530, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_syncStartDidSuccessEvent, addr 0x28ba3d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidSuccessEvent, addr 0x28be3d0, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidFailEvent, addr 0x28ba730, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidFailEvent, addr 0x28be72c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_syncStartDidReceiveTooLateEvent, addr 0x28ba5e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidReceiveTooLateEvent, addr 0x28be5e0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidSuccessEvent, addr 0x28ba484, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidSuccessEvent, addr 0x28be480, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
 protected:

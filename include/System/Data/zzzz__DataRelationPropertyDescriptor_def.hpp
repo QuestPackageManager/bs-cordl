@@ -39,27 +39,27 @@ public:
   /// @brief Field <Relation>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__Relation_k__BackingField, put = __cordl_internal_set__Relation_k__BackingField))::System::Data::DataRelation* _Relation_k__BackingField;
 
-  /// @brief Method CanResetValue, addr 0x2ba667c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x2ba8678, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method Equals, addr 0x2ba65ec, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ba85e8, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x2ba665c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ba8658, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetValue, addr 0x2ba6684, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x2ba8680, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::System::Data::DataRelationPropertyDescriptor* New_ctor(::System::Data::DataRelation* dataRelation);
 
-  /// @brief Method ResetValue, addr 0x2ba6718, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x2ba8714, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x2ba671c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2ba8718, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x2ba6720, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x2ba871c, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::Data::DataRelation*& __cordl_internal_get__Relation_k__BackingField();
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__Relation_k__BackingField(::System::Data::DataRelation* value);
 
-  /// @brief Method .ctor, addr 0x2ba64b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba84b4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRelation* dataRelation);
 
-  /// @brief Method get_ComponentType, addr 0x2ba650c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x2ba8508, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x2ba6578, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x2ba8574, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x2ba6580, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x2ba857c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_Relation, addr 0x2ba6504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Relation, addr 0x2ba8500, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataRelation* get_Relation();
 
 protected:

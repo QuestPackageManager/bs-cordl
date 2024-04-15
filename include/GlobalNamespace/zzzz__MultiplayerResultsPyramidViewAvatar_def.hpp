@@ -79,7 +79,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2613774, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a770, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,15 +221,15 @@ public:
 
   __declspec(property(get = get_badgeDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> badgeDirector;
 
-  /// @brief Method Awake, addr 0x2613728, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x261a724, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method Setup, addr 0x2613210, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x261a20c, size 0x48c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline, addr 0x2612c94, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method SetupBadgeTimeline, addr 0x2619c90, size 0x57c, virtual false, abstract: false, final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
   constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__avatarRiseTween();
@@ -442,10 +442,10 @@ public:
 
   constexpr void __cordl_internal_set__trophyImage(::UnityW<::HMUI::ImageView> value);
 
-  /// @brief Method .ctor, addr 0x2613748, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a744, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeDirector, addr 0x2613720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeDirector, addr 0x261a71c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_badgeDirector();
 
 protected:

@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::AnimationStartParams* New_ctor();
 
-  /// @brief Method Start, addr 0x23d3ec8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23dbec4, size 0x2d8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__timeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x23d41a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dc19c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

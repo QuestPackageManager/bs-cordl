@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAchievementProgressList::*)(void*)>(
     &::Oculus::Platform::MessageWithAchievementProgressList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c5258;
+  constexpr static std::size_t addrs = 0x29c7254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementProgressList* (::Oculus::Platform::MessageWithAchievementProgressList::*)()>(
     &::Oculus::Platform::MessageWithAchievementProgressList::GetAchievementProgressList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29c7268;
+  constexpr static std::size_t addrs = 0x29c9264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementProgressList* (
     ::Oculus::Platform::MessageWithAchievementProgressList::*)(void*)>(&::Oculus::Platform::MessageWithAchievementProgressList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29c72a4;
+  constexpr static std::size_t addrs = 0x29c92a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

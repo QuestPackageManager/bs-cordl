@@ -97,13 +97,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Method Evaluate, addr 0x317b0f0, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x317e0ec, size 0x13c, virtual true, abstract: false, final true
   inline void Evaluate();
 
-  /// @brief Method FindMixers, addr 0x317ad40, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x317dd3c, size 0xe8, virtual false, abstract: false, final false
   inline void FindMixers();
 
-  /// @brief Method FindMixers, addr 0x317ae28, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x317de24, size 0x2c8, virtual false, abstract: false, final false
   inline void FindMixers(::UnityEngine::Playables::Playable parent, int32_t port, ::UnityEngine::Playables::Playable node);
 
   static inline ::UnityEngine::Timeline::AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value);
 
-  /// @brief Method .ctor, addr 0x317ac80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x317dc7c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"

@@ -22,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithShareMediaResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ShareMediaResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29ca37c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29cc378, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ShareMediaResult* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetShareMediaResult, addr 0x29ca340, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetShareMediaResult, addr 0x29cc33c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();
 
   static inline ::Oculus::Platform::MessageWithShareMediaResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c6178, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c8174, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

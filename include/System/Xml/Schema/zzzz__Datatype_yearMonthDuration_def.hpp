@@ -39,13 +39,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_yearMonthDuration* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x2e09c70, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2e0bc6c, size 0x1c8, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x2e04444, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e06440, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x2e09e38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2e0be34, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

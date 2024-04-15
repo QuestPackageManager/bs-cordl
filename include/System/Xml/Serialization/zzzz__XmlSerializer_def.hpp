@@ -109,7 +109,7 @@ public:
   /// @brief Field WriterType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_WriterType, put = __cordl_internal_set_WriterType))::System::Type* WriterType;
 
-  /// @brief Method CreateWriter, addr 0x2deb820, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateWriter, addr 0x2ded81c, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationWriter* CreateWriter();
 
   constexpr ::System::Xml::Serialization::XmlSerializerImplementation*& __cordl_internal_get_Implementation();
@@ -225,53 +225,53 @@ public:
   /// @brief Field typeMapping, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeMapping, put = __cordl_internal_set_typeMapping))::System::Xml::Serialization::XmlMapping* typeMapping;
 
-  /// @brief Method CreateReader, addr 0x2deaba8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CreateReader, addr 0x2decba4, size 0x40, virtual true, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationReader* CreateReader();
 
-  /// @brief Method CreateReader, addr 0x2dead2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateReader, addr 0x2decd28, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationReader* CreateReader(::System::Xml::Serialization::XmlMapping* typeMapping);
 
-  /// @brief Method CreateWriter, addr 0x2deabe8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CreateWriter, addr 0x2decbe4, size 0x40, virtual true, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationWriter* CreateWriter();
 
-  /// @brief Method CreateWriter, addr 0x2deb614, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method CreateWriter, addr 0x2ded610, size 0x20c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationWriter* CreateWriter(::System::Xml::Serialization::XmlMapping* typeMapping);
 
-  /// @brief Method Deserialize, addr 0x2dead90, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2decd8c, size 0x2e4, virtual true, abstract: false, final false
   inline ::System::Object* Deserialize(::System::Xml::Serialization::XmlSerializationReader* reader);
 
-  /// @brief Method Deserialize, addr 0x2deac28, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2decc24, size 0x94, virtual false, abstract: false, final false
   inline ::System::Object* Deserialize(::System::IO::TextReader* textReader);
 
-  /// @brief Method Deserialize, addr 0x2deacbc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2deccb8, size 0x70, virtual false, abstract: false, final false
   inline ::System::Object* Deserialize(::System::Xml::XmlReader* xmlReader);
 
   static inline ::System::Xml::Serialization::XmlSerializer* New_ctor(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides,
                                                                       ::ArrayW<::System::Type*, ::Array<::System::Type*>*> extraTypes, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                       ::StringW defaultNamespace);
 
-  /// @brief Method OnUnknownAttribute, addr 0x2deab08, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnUnknownAttribute, addr 0x2decb04, size 0x28, virtual true, abstract: false, final false
   inline void OnUnknownAttribute(::System::Xml::Serialization::XmlAttributeEventArgs* e);
 
-  /// @brief Method OnUnknownElement, addr 0x2deab30, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnUnknownElement, addr 0x2decb2c, size 0x28, virtual true, abstract: false, final false
   inline void OnUnknownElement(::System::Xml::Serialization::XmlElementEventArgs* e);
 
-  /// @brief Method OnUnknownNode, addr 0x2deab58, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnUnknownNode, addr 0x2decb54, size 0x28, virtual true, abstract: false, final false
   inline void OnUnknownNode(::System::Xml::Serialization::XmlNodeEventArgs* e);
 
-  /// @brief Method OnUnreferencedObject, addr 0x2deab80, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnUnreferencedObject, addr 0x2decb7c, size 0x28, virtual true, abstract: false, final false
   inline void OnUnreferencedObject(::System::Xml::Serialization::UnreferencedObjectEventArgs* e);
 
-  /// @brief Method Serialize, addr 0x2deb074, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2ded070, size 0x1f4, virtual true, abstract: false, final false
   inline void Serialize(::System::Object* o, ::System::Xml::Serialization::XmlSerializationWriter* writer);
 
-  /// @brief Method Serialize, addr 0x2deb268, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2ded264, size 0x90, virtual false, abstract: false, final false
   inline void Serialize(::System::IO::TextWriter* textWriter, ::System::Object* o);
 
-  /// @brief Method Serialize, addr 0x2deb60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2ded608, size 0x8, virtual false, abstract: false, final false
   inline void Serialize(::System::Xml::XmlWriter* xmlWriter, ::System::Object* o);
 
-  /// @brief Method Serialize, addr 0x2deb2f8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2ded2f4, size 0x314, virtual false, abstract: false, final false
   inline void Serialize(::System::Xml::XmlWriter* xmlWriter, ::System::Object* o, ::System::Xml::Serialization::XmlSerializerNamespaces* namespaces);
 
   constexpr bool const& __cordl_internal_get_customSerializer() const;
@@ -316,7 +316,7 @@ public:
 
   constexpr void __cordl_internal_set_typeMapping(::System::Xml::Serialization::XmlMapping* value);
 
-  /// @brief Method .ctor, addr 0x2dea97c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dec978, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> extraTypes,
                     ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
 
@@ -330,7 +330,7 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_serializerTypes();
 
-  /// @brief Method get_Mapping, addr 0x2deab00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mapping, addr 0x2decafc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlMapping* get_Mapping();
 
   static inline void setStaticF_backgroundGeneration(bool value);

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::ProGridsNoSnapAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x308c6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30916b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

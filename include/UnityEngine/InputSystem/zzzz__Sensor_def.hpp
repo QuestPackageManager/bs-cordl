@@ -23,13 +23,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Sensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2fd64f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fdc4f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_samplingFrequency, addr 0x2fd6360, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_samplingFrequency, addr 0x2fdc35c, size 0xf4, virtual false, abstract: false, final false
   inline float_t get_samplingFrequency();
 
-  /// @brief Method set_samplingFrequency, addr 0x2fd6454, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_samplingFrequency, addr 0x2fdc450, size 0xa0, virtual false, abstract: false, final false
   inline void set_samplingFrequency(float_t value);
 
 protected:

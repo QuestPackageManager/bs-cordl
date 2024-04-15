@@ -20,25 +20,25 @@ namespace UnityEngine {
 class CORDL_TYPE PlayerPrefs : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInt, addr 0x31cc4fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x31cf4f8, size 0x40, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key);
 
-  /// @brief Method GetInt, addr 0x31cc4b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x31cf4b4, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key, int32_t defaultValue);
 
-  /// @brief Method GetString, addr 0x31cc580, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x31cf57c, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key);
 
-  /// @brief Method GetString, addr 0x31cc53c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x31cf538, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key, ::StringW defaultValue);
 
-  /// @brief Method HasKey, addr 0x31cc5ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasKey, addr 0x31cf5e8, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasKey(::StringW key);
 
-  /// @brief Method SetInt, addr 0x31cc424, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetInt, addr 0x31cf420, size 0x94, virtual false, abstract: false, final false
   static inline void SetInt(::StringW key, int32_t value);
 
-  /// @brief Method TrySetInt, addr 0x31cc3e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TrySetInt, addr 0x31cf3dc, size 0x44, virtual false, abstract: false, final false
   static inline bool TrySetInt(::StringW key, int32_t value);
 
 protected:

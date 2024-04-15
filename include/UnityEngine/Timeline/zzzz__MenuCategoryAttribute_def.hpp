@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_category(::StringW value);
 
-  /// @brief Method .ctor, addr 0x319a0f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319d0ec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW category);
 
 protected:

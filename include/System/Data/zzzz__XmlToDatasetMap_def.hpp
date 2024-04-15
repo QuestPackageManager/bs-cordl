@@ -72,10 +72,10 @@ public:
   /// @brief Field NamespaceURI, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_NamespaceURI, put = __cordl_internal_set_NamespaceURI))::StringW NamespaceURI;
 
-  /// @brief Method Equals, addr 0x2c01104, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2c03100, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2c010e4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c030e0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Data::__XmlToDatasetMap__XmlNodeIdentety* New_ctor(::StringW localName, ::StringW namespaceURI);
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_NamespaceURI(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c006a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c026a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW localName, ::StringW namespaceURI);
 
 protected:
@@ -152,19 +152,19 @@ public:
 
   constexpr void __cordl_internal_set__id(::System::Data::__XmlToDatasetMap__XmlNodeIdentety* value);
 
-  /// @brief Method .ctor, addr 0x2c011a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0319c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_Item, addr 0x2c012b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2c032b4, size 0x70, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::System::Xml::XmlReader* dataReader);
 
-  /// @brief Method get_Item, addr 0x2c01390, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2c0338c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::StringW name);
 
-  /// @brief Method get_Item, addr 0x2c01240, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2c0323c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::System::Xml::XmlNode* node);
 
-  /// @brief Method get_Item, addr 0x2c01328, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2c03324, size 0x68, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::System::Data::DataTable* table);
 
 protected:
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_TableSchema(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2c01404, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c03400, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* tableSchema);
 
 protected:
@@ -273,49 +273,49 @@ public:
   /// @brief Field _tableSchemaMap, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tableSchemaMap, put = __cordl_internal_set__tableSchemaMap))::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* _tableSchemaMap;
 
-  /// @brief Method AddColumnSchema, addr 0x2c00850, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AddColumnSchema, addr 0x2c0284c, size 0x138, virtual false, abstract: false, final false
   inline bool AddColumnSchema(::System::Data::DataColumn* col, ::System::Xml::XmlNameTable* nameTable, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* columns);
 
-  /// @brief Method AddColumnSchema, addr 0x2c00ae8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method AddColumnSchema, addr 0x2c02ae4, size 0x1b0, virtual false, abstract: false, final false
   inline bool AddColumnSchema(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataColumn* col, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* columns);
 
-  /// @brief Method AddTableSchema, addr 0x2c006d4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method AddTableSchema, addr 0x2c026d0, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* AddTableSchema(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* table);
 
-  /// @brief Method AddTableSchema, addr 0x2c0057c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddTableSchema, addr 0x2c02578, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* AddTableSchema(::System::Data::DataTable* table, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method BuildIdentityMap, addr 0x2bfe590, size 0x620, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityMap, addr 0x2c0058c, size 0x620, virtual false, abstract: false, final false
   inline void BuildIdentityMap(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method BuildIdentityMap, addr 0x2bff6fc, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityMap, addr 0x2c016f8, size 0x368, virtual false, abstract: false, final false
   inline void BuildIdentityMap(::System::Data::DataTable* dataTable, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method BuildIdentityMap, addr 0x2bfebb0, size 0xb4c, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityMap, addr 0x2c00bac, size 0xb4c, virtual false, abstract: false, final false
   inline void BuildIdentityMap(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataSet* dataSet);
 
-  /// @brief Method BuildIdentityMap, addr 0x2bffa64, size 0xb18, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityMap, addr 0x2c01a60, size 0xb18, virtual false, abstract: false, final false
   inline void BuildIdentityMap(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* dataTable);
 
-  /// @brief Method GetColumnSchema, addr 0x2bfa540, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method GetColumnSchema, addr 0x2bfc53c, size 0x1e4, virtual false, abstract: false, final false
   inline ::System::Object* GetColumnSchema(::System::Xml::XmlNode* node, bool fIgnoreNamespace);
 
-  /// @brief Method GetColumnSchema, addr 0x2bfdb48, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetColumnSchema, addr 0x2bffb44, size 0x130, virtual false, abstract: false, final false
   inline ::System::Object* GetColumnSchema(::System::Data::DataTable* table, ::System::Xml::XmlReader* dataReader, bool fIgnoreNamespace);
 
-  /// @brief Method GetSchemaForNode, addr 0x2bfab00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaForNode, addr 0x2bfcafc, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Object* GetSchemaForNode(::System::Xml::XmlNode* node, bool fIgnoreNamespace);
 
-  /// @brief Method GetSelfAndDescendants, addr 0x2c00c98, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method GetSelfAndDescendants, addr 0x2c02c94, size 0x44c, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetSelfAndDescendants(::System::Data::DataTable* dt);
 
-  /// @brief Method GetTableForNode, addr 0x2bfcb60, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetTableForNode, addr 0x2bfeb5c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* GetTableForNode(::System::Xml::XmlReader* node, bool fIgnoreNamespace);
 
-  /// @brief Method HandleSpecialColumn, addr 0x2c00988, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleSpecialColumn, addr 0x2c02984, size 0x160, virtual false, abstract: false, final false
   inline void HandleSpecialColumn(::System::Data::DataColumn* col, ::System::Xml::XmlNameTable* nameTable, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* columns);
 
-  /// @brief Method IsMappedColumn, addr 0x2bfbbf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsMappedColumn, addr 0x2bfdbf4, size 0x28, virtual false, abstract: false, final false
   static inline bool IsMappedColumn(::System::Data::DataColumn* c);
 
   static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable);
@@ -338,16 +338,16 @@ public:
 
   constexpr void __cordl_internal_set__tableSchemaMap(::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* value);
 
-  /// @brief Method .ctor, addr 0x2bfaacc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bfcac8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method .ctor, addr 0x2bfaa98, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bfca94, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dataTable, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method .ctor, addr 0x2bfc1b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bfe1b0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataSet* dataSet);
 
-  /// @brief Method .ctor, addr 0x2bfc1e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bfe1e4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* dataTable);
 
 protected:

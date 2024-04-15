@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value);
 
-  /// @brief Method .ctor, addr 0x2752934, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2758930, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
 
 protected:

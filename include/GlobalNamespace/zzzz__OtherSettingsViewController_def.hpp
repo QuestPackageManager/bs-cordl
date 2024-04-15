@@ -30,13 +30,13 @@ public:
   /// @brief Field _playerDataModel, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Method DidActivate, addr 0x2560510, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x256950c, size 0x15c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x256066c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2569668, size 0xa8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleHideExplicitChanged, addr 0x2560714, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleHideExplicitChanged, addr 0x2569710, size 0xa4, virtual false, abstract: false, final false
   inline void HandleHideExplicitChanged(bool newValue);
 
   static inline ::GlobalNamespace::OtherSettingsViewController* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x25607b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25697b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

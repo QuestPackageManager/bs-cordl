@@ -58,10 +58,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x265a4a8, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26614a4, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x265a6f8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26616f4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -137,13 +137,13 @@ public:
       property(get = __cordl_internal_get__loadingTasks,
                put = __cordl_internal_set__loadingTasks))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* _loadingTasks;
 
-  /// @brief Method ClearCache, addr 0x265a394, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x2661390, size 0x50, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method LoadSpriteAsync, addr 0x265a140, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x266113c, size 0x150, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadSpriteAsyncInternal, addr 0x265a290, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsyncInternal, addr 0x266128c, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsyncInternal(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::SpriteAsyncLoader* New_ctor();
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set__loadingTasks(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* value);
 
-  /// @brief Method .ctor, addr 0x265a3e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26613e0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

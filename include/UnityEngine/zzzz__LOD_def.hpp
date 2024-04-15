@@ -23,7 +23,7 @@ namespace UnityEngine {
 struct CORDL_TYPE LOD {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x31e6f88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e9f84, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t screenRelativeTransitionHeight, ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> renderers);
 
   // Ctor Parameters []

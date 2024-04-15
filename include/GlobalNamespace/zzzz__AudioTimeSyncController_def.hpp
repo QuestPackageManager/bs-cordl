@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x25070bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250f0b8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -307,36 +307,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
   constexpr operator ::GlobalNamespace::IAudioTimeSource*() noexcept;
 
-  /// @brief Method Awake, addr 0x2506864, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x250e860, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleAudioConfigurationChanged, addr 0x2506a54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleAudioConfigurationChanged, addr 0x250ea50, size 0x44, virtual false, abstract: false, final false
   inline void HandleAudioConfigurationChanged(bool deviceWasChanged);
 
   static inline ::GlobalNamespace::AudioTimeSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25069d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x250e9d0, size 0x80, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x2506ffc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x250eff8, size 0x58, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x2507054, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x250f050, size 0x50, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method SeekTo, addr 0x2506e34, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x250ee30, size 0x180, virtual false, abstract: false, final false
   inline void SeekTo(float_t startTimeOffset);
 
-  /// @brief Method Start, addr 0x25068ac, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x250e8a8, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x2506df0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x250edec, size 0x44, virtual false, abstract: false, final false
   inline void StartSong(float_t startTimeOffset);
 
-  /// @brief Method StopSong, addr 0x2506fb4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method StopSong, addr 0x250efb0, size 0x48, virtual false, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method Update, addr 0x2506a98, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x250ea94, size 0x358, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__audioLatency() const;
@@ -483,61 +483,61 @@ public:
 
   constexpr void __cordl_internal_set_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x25070a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250f0a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0, addr 0x25070b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0, addr 0x250f0b4, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilAudioIsLoaded_b__27_0();
 
-  /// @brief Method add_stateChangedEvent, addr 0x250670c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stateChangedEvent, addr 0x250e708, size 0x9c, virtual false, abstract: false, final false
   inline void add_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method get_dspTimeOffset, addr 0x2506634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dspTimeOffset, addr 0x250e630, size 0x8, virtual false, abstract: false, final false
   inline double_t get_dspTimeOffset();
 
-  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x25066f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x250e6f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceNoAudioSyncOrAudioSyncErrorFixing();
 
-  /// @brief Method get_isAudioLoaded, addr 0x2506590, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x250e58c, size 0x30, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_isReady, addr 0x25066e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x250e6e4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x25064f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x250e4ec, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x25065c0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x250e5bc, size 0x6c, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x25064f8, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x250e4f4, size 0x98, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0x25064e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x250e4e4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method get_songTimeOffset, addr 0x25066f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x250e6ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_state, addr 0x25064e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x250e4dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AudioTimeSyncController__State get_state();
 
-  /// @brief Method get_timeScale, addr 0x250662c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeScale, addr 0x250e628, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeScale();
 
-  /// @brief Method get_timeSinceStart, addr 0x2506844, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_timeSinceStart, addr 0x250e840, size 0x20, virtual false, abstract: false, final false
   inline float_t get_timeSinceStart();
 
-  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x250663c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x250e638, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
 
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  /// @brief Method remove_stateChangedEvent, addr 0x25067a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stateChangedEvent, addr 0x250e7a4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x2506700, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x250e6fc, size 0xc, virtual false, abstract: false, final false
   inline void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
 
 protected:

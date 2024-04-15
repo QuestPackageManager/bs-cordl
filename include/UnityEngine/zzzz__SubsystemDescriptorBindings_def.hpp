@@ -20,10 +20,10 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemDescriptorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x32669bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x32689b8, size 0x3c, virtual false, abstract: false, final false
   static inline void* Create(void* descriptorPtr);
 
-  /// @brief Method GetId, addr 0x326696c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x3268968, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetId(void* descriptorPtr);
 
 protected:

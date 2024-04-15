@@ -32,42 +32,42 @@ public:
   /// @brief Field _stateMD160, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__stateMD160, put = __cordl_internal_set__stateMD160))::ArrayW<uint32_t, ::Array<uint32_t>*> _stateMD160;
 
-  /// @brief Method F, addr 0x26e2da4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0x26e8da0, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G, addr 0x26e2db0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method G, addr 0x26e8dac, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method H, addr 0x26e2dc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method H, addr 0x26e8dbc, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method HashCore, addr 0x26e137c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x26e7378, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x26e14fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x26e74f8, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method I, addr 0x26e2dcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method I, addr 0x26e8dc8, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t I(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method Initialize, addr 0x26e1338, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x26e7334, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeState, addr 0x26e12b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeState, addr 0x26e72b0, size 0x84, virtual false, abstract: false, final false
   inline void InitializeState();
 
-  /// @brief Method J, addr 0x26e2ddc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method J, addr 0x26e8dd8, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t J(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method MDTransform, addr 0x26e16a8, size 0x16fc, virtual false, abstract: false, final false
+  /// @brief Method MDTransform, addr 0x26e76a4, size 0x16fc, virtual false, abstract: false, final false
   static inline void MDTransform(::cordl_internals::Ptr<uint32_t> blockDWords, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
   static inline ::System::Security::Cryptography::RIPEMD160Managed* New_ctor();
 
-  /// @brief Method _EndHash, addr 0x26e1500, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method _EndHash, addr 0x26e74fc, size 0x1a8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method _HashData, addr 0x26e1380, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method _HashData, addr 0x26e737c, size 0x17c, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__blockDWords() const;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__stateMD160(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x26dc4e4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e24e0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

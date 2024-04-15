@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_onEventDelegate(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method <.ctor>b__2_0, addr 0x3019d40, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_0, addr 0x301ed3c, size 0xf4, virtual false, abstract: false, final false
   inline void __ctor_b__2_0(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method .ctor, addr 0x3019cb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301ecac, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3019e34, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x301ee30, size 0x138, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__DisposableObserver* New_ctor();
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set_observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x3019d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301ed34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -187,7 +187,7 @@ public:
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*();
 
-  /// @brief Method Subscribe, addr 0x3019b54, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x301eb50, size 0x15c, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* getStaticF_s_ObserverState();
@@ -195,11 +195,11 @@ public:
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObservable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_();
 
-  /// @brief Method op_Addition, addr 0x30139b4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x30189b0, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Addition(::UnityEngine::InputSystem::LowLevel::InputEventListener _, ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);
 
-  /// @brief Method op_Subtraction, addr 0x3013c98, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x3018c94, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Subtraction(::UnityEngine::InputSystem::LowLevel::InputEventListener _,
                  ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);

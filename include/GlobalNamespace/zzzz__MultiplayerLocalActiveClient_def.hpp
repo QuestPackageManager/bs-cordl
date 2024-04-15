@@ -95,39 +95,39 @@ public:
   /// @brief Field _scoreSyncStateManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreSyncStateManager, put = __cordl_internal_set__scoreSyncStateManager))::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
 
-  /// @brief Method HandleComboDidChange, addr 0x25f4ab0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x25fbaac, size 0xcc, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method HandleMultiplierDidChange, addr 0x25f4b7c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x25fbb78, size 0xcc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
-  /// @brief Method HandleNoteWasAdded, addr 0x25f437c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasAdded, addr 0x25fb378, size 0x160, virtual false, abstract: false, final false
   inline void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData, float_t rotation);
 
-  /// @brief Method HandleNoteWasCut, addr 0x25f48ec, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x25fb8e8, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x25f47f0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x25fb7ec, size 0xfc, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasAdded, addr 0x25f44dc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasAdded, addr 0x25fb4d8, size 0x140, virtual false, abstract: false, final false
   inline void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData obstacleSpawnData, float_t rotation);
 
-  /// @brief Method HandleScoreDidChange, addr 0x25f4c48, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x25fbc44, size 0x254, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method HandleSliderWasAdded, addr 0x25f461c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAdded, addr 0x25fb618, size 0x1d4, virtual false, abstract: false, final false
   inline void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData sliderSpawnData, float_t rotation);
 
-  /// @brief Method LateUpdate, addr 0x25f4034, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x25fb030, size 0x348, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveClient* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25f3c00, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25fabfc, size 0x434, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25f3520, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25fa51c, size 0x6e0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x25f4e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fbe98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

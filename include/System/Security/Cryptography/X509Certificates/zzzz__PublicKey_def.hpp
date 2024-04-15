@@ -55,13 +55,13 @@ public:
   /// @brief Field _params, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params))::System::Security::Cryptography::AsnEncodedData* _params;
 
-  /// @brief Method DecodeDSA, addr 0x2ea9734, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method DecodeDSA, addr 0x2eab730, size 0x4ac, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawParameters);
 
-  /// @brief Method DecodeRSA, addr 0x2ea937c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method DecodeRSA, addr 0x2eab378, size 0x3b8, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey);
 
-  /// @brief Method GetUnsignedBigInteger, addr 0x2ea9be8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetUnsignedBigInteger, addr 0x2eabbe4, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> integer);
 
   static inline ::System::Security::Cryptography::X509Certificates::PublicKey* New_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
@@ -85,21 +85,21 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Security::Cryptography::AsnEncodedData* value);
 
-  /// @brief Method .ctor, addr 0x2ea9054, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eab050, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters, ::System::Security::Cryptography::AsnEncodedData* keyValue);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Empty();
 
-  /// @brief Method get_EncodedKeyValue, addr 0x2ea91c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedKeyValue, addr 0x2eab1c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
 
-  /// @brief Method get_EncodedParameters, addr 0x2ea91d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedParameters, addr 0x2eab1cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
 
-  /// @brief Method get_Key, addr 0x2ea91d8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2eab1d4, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
 
-  /// @brief Method get_Oid, addr 0x2ea9be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x2eabbdc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Oid();
 
   static inline void setStaticF_Empty(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

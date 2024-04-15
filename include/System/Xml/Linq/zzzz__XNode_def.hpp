@@ -31,21 +31,21 @@ public:
   /// @brief Field next, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::Linq::XNode* next;
 
-  /// @brief Method AppendText, addr 0x2c9e3cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppendText, addr 0x2ca13c8, size 0x4, virtual true, abstract: false, final false
   inline void AppendText(::System::Text::StringBuilder* sb);
 
   /// @brief Method CloneNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
-  /// @brief Method GetXmlString, addr 0x2c9df5c, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method GetXmlString, addr 0x2ca0f58, size 0x470, virtual false, abstract: false, final false
   inline ::StringW GetXmlString(::System::Xml::Linq::SaveOptions o);
 
   static inline ::System::Xml::Linq::XNode* New_ctor();
 
-  /// @brief Method Remove, addr 0x2c9ddfc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2ca0df8, size 0x64, virtual false, abstract: false, final false
   inline void Remove();
 
-  /// @brief Method ToString, addr 0x2c9de60, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ca0e5c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method WriteTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::Xml::Linq::XNode* value);
 
-  /// @brief Method .ctor, addr 0x2c96e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c99e5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

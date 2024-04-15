@@ -31,40 +31,40 @@ public:
 
   __declspec(property(get = get_spring, put = set_spring)) float_t spring;
 
-  /// @brief Method get_bounciness, addr 0x325da20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x325fa1c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
-  /// @brief Method get_bouncyness, addr 0x325da00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bouncyness, addr 0x325f9fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bouncyness();
 
-  /// @brief Method get_contactDistance, addr 0x325da30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactDistance, addr 0x325fa2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contactDistance();
 
-  /// @brief Method get_damper, addr 0x325d9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x325f9f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_limit, addr 0x325da10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x325fa0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_limit();
 
-  /// @brief Method get_spring, addr 0x325d9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x325f9e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method set_bounciness, addr 0x325da28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x325fa24, size 0x8, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
-  /// @brief Method set_bouncyness, addr 0x325da08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bouncyness, addr 0x325fa04, size 0x8, virtual false, abstract: false, final false
   inline void set_bouncyness(float_t value);
 
-  /// @brief Method set_contactDistance, addr 0x325da38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contactDistance, addr 0x325fa34, size 0x8, virtual false, abstract: false, final false
   inline void set_contactDistance(float_t value);
 
-  /// @brief Method set_damper, addr 0x325d9fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x325f9f8, size 0x4, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_limit, addr 0x325da18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_limit, addr 0x325fa14, size 0x8, virtual false, abstract: false, final false
   inline void set_limit(float_t value);
 
-  /// @brief Method set_spring, addr 0x325d9f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x325f9ec, size 0x4, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
   // Ctor Parameters []

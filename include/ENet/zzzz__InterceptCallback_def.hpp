@@ -35,19 +35,19 @@ namespace ENet {
 class CORDL_TYPE InterceptCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24d2568, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x24dc564, size 0x11c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, void* receivedData, int32_t receivedDataLength, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24d2684, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x24dc680, size 0x34, virtual true, abstract: false, final false
   inline int32_t EndInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24d2554, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x24dc550, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, void* receivedData, int32_t receivedDataLength);
 
   static inline ::ENet::InterceptCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24d247c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dc478, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

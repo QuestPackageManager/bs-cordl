@@ -22,7 +22,7 @@ public:
   /// @brief Field _depthTextureMode, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__depthTextureMode, put = __cordl_internal_set__depthTextureMode))::UnityEngine::DepthTextureMode _depthTextureMode;
 
-  /// @brief Method Awake, addr 0x23d42a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23dc2a0, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CameraDepthTextureMode* New_ctor();
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__depthTextureMode(::UnityEngine::DepthTextureMode value);
 
-  /// @brief Method .ctor, addr 0x23d4300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dc2fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

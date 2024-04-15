@@ -39,13 +39,13 @@ public:
   /// @brief Field _isDefault, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__isDefault, put = __cordl_internal_set__isDefault)) bool _isDefault;
 
-  /// @brief Method Equals, addr 0x2e3f770, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e4176c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e3f808, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e41804, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2e3f810, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2e4180c, size 0x84, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::ListBindableAttribute* New_ctor(bool listBindable);
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__isDefault(bool value);
 
-  /// @brief Method .ctor, addr 0x2e3f740, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e4173c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool listBindable);
 
   static inline ::System::ComponentModel::ListBindableAttribute* getStaticF_Default();
@@ -71,7 +71,7 @@ public:
 
   static inline ::System::ComponentModel::ListBindableAttribute* getStaticF_Yes();
 
-  /// @brief Method get_ListBindable, addr 0x2e3f768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListBindable, addr 0x2e41764, size 0x8, virtual false, abstract: false, final false
   inline bool get_ListBindable();
 
   static inline void setStaticF_Default(::System::ComponentModel::ListBindableAttribute* value);

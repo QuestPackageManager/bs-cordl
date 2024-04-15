@@ -92,17 +92,17 @@ public:
   /// @brief Field GCModeChanged, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_GCModeChanged, put = setStaticF_GCModeChanged))::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* GCModeChanged;
 
-  /// @brief Method GetMode, addr 0x321ec14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMode, addr 0x3220c10, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Scripting::__GarbageCollector__Mode GetMode();
 
-  /// @brief Method SetMode, addr 0x321ec3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x3220c38, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMode(::UnityEngine::Scripting::__GarbageCollector__Mode mode);
 
   static inline ::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* getStaticF_GCModeChanged();
 
   static inline void setStaticF_GCModeChanged(::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* value);
 
-  /// @brief Method set_GCMode, addr 0x321eb54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_GCMode, addr 0x3220b50, size 0xc0, virtual false, abstract: false, final false
   static inline void set_GCMode(::UnityEngine::Scripting::__GarbageCollector__Mode value);
 
 protected:

@@ -70,27 +70,27 @@ public:
 
   __declspec(property(get = get_isLoading)) bool isLoading;
 
-  /// @brief Method Awake, addr 0x2632cac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2639ca8, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Hide, addr 0x2632f74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x2639f70, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LoadingControl* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2632d70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2639d6c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowDownloadingProgress, addr 0x2632ec8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ShowDownloadingProgress, addr 0x2639ec4, size 0xac, virtual false, abstract: false, final false
   inline void ShowDownloadingProgress(::StringW text, float_t downloadingProgress);
 
-  /// @brief Method ShowLoading, addr 0x2632d8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ShowLoading, addr 0x2639d88, size 0x8c, virtual false, abstract: false, final false
   inline void ShowLoading(::StringW text);
 
-  /// @brief Method ShowText, addr 0x2632e18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x2639e14, size 0xb0, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, bool showRefreshButton);
 
-  /// @brief Method <Awake>b__14_0, addr 0x2632fa0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__14_0, addr 0x2639f9c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__14_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -153,16 +153,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2632f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2639f94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressRefreshButtonEvent, addr 0x2632b58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressRefreshButtonEvent, addr 0x2639b54, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method get_isLoading, addr 0x2632c90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isLoading, addr 0x2639c8c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isLoading();
 
-  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x2632bf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x2639bf0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressRefreshButtonEvent(::System::Action* value);
 
 protected:

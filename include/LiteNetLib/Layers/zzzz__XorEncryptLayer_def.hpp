@@ -34,16 +34,16 @@ public:
 
   static inline ::LiteNetLib::Layers::XorEncryptLayer* New_ctor(::StringW key);
 
-  /// @brief Method ProcessInboundPacket, addr 0x24f2830, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x24fb82c, size 0x90, virtual true, abstract: false, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0x24f28c0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x24fb8bc, size 0x8c, virtual true, abstract: false, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method SetKey, addr 0x24f2728, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x24fb724, size 0x94, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method SetKey, addr 0x24f27ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x24fb7e8, size 0x44, virtual false, abstract: false, final false
   inline void SetKey(::StringW key);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteKey() const;
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__byteKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x24f26dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb6d8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x24f26f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb6f4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x24f27bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb7b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW key);
 
 protected:

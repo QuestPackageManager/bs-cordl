@@ -37,7 +37,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CreateDelegateInstruction* New_ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method Run, addr 0x2b4a5f8, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b4c5f4, size 0x178, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Linq::Expressions::Interpreter::LightDelegateCreator*& __cordl_internal_get__creator();
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__creator(::System::Linq::Expressions::Interpreter::LightDelegateCreator* value);
 
-  /// @brief Method .ctor, addr 0x2b4a564, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b4c560, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b4a58c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2b4c588, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b4a5b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2b4c5b4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b4a5b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2b4c5ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

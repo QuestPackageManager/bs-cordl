@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set_pingTimeUsec(::System::Nullable_1<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x29dec3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dfc38, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
-  /// @brief Method get_ID, addr 0x29dec78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0x29dfc74, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_ID();
 
-  /// @brief Method get_IsTimeout, addr 0x29decf4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_IsTimeout, addr 0x29dfcf0, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsTimeout();
 
-  /// @brief Method get_PingTimeUsec, addr 0x29dec88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_PingTimeUsec, addr 0x29dfc84, size 0x6c, virtual false, abstract: false, final false
   inline uint64_t get_PingTimeUsec();
 
-  /// @brief Method set_ID, addr 0x29dec80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ID, addr 0x29dfc7c, size 0x8, virtual false, abstract: false, final false
   inline void set_ID(uint64_t value);
 
 protected:

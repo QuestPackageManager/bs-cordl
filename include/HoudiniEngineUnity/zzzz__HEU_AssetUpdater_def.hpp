@@ -27,30 +27,30 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_AssetUpdater : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddAssetForUpdate, addr 0x2432d34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddAssetForUpdate, addr 0x243ad30, size 0x4, virtual false, abstract: false, final false
   static inline void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method AddNodeSyncForUpdate, addr 0x2432d3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddNodeSyncForUpdate, addr 0x243ad38, size 0x4, virtual false, abstract: false, final false
   static inline void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
   static inline ::HoudiniEngineUnity::HEU_AssetUpdater* New_ctor();
 
-  /// @brief Method OnBeforeAssemblyReload, addr 0x2432ce0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeAssemblyReload, addr 0x243acdc, size 0x50, virtual false, abstract: false, final false
   static inline void OnBeforeAssemblyReload();
 
-  /// @brief Method OnPrefabInstanceUpdate, addr 0x2432d44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPrefabInstanceUpdate, addr 0x243ad40, size 0x4, virtual false, abstract: false, final false
   static inline void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
 
-  /// @brief Method RemoveAsset, addr 0x2432d38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveAsset, addr 0x243ad34, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method RemoveNodeSync, addr 0x2432d40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveNodeSync, addr 0x243ad3c, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
-  /// @brief Method Update, addr 0x2432d30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x243ad2c, size 0x4, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method .ctor, addr 0x2432d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243ad44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

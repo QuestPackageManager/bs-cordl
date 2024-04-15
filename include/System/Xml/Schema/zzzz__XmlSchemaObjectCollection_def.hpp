@@ -33,36 +33,36 @@ public:
   /// @brief Field parent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Xml::Schema::XmlSchemaObject* parent;
 
-  /// @brief Method Add, addr 0x2d0eadc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2d0fad8, size 0xb8, virtual false, abstract: false, final false
   inline int32_t Add(::System::Xml::Schema::XmlSchemaObject* item);
 
-  /// @brief Method Add, addr 0x2d155b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2d165b0, size 0x102c, virtual false, abstract: false, final false
   inline void Add(::System::Xml::Schema::XmlSchemaObjectCollection* collToAdd);
 
-  /// @brief Method Clone, addr 0x2d12674, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x2d13670, size 0x80, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* Clone();
 
-  /// @brief Method GetEnumerator, addr 0x2d15300, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2d162fc, size 0x84, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectEnumerator* GetEnumerator();
 
-  /// @brief Method Insert, addr 0x2d15384, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x2d16380, size 0xc8, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::System::Xml::Schema::XmlSchemaObject* item);
 
   static inline ::System::Xml::Schema::XmlSchemaObjectCollection* New_ctor();
 
-  /// @brief Method OnClear, addr 0x2d1557c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnClear, addr 0x2d16578, size 0x1c, virtual true, abstract: false, final false
   inline void OnClear();
 
-  /// @brief Method OnInsert, addr 0x2d15504, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnInsert, addr 0x2d16500, size 0x1c, virtual true, abstract: false, final false
   inline void OnInsert(int32_t index, ::System::Object* item);
 
-  /// @brief Method OnRemove, addr 0x2d15598, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnRemove, addr 0x2d16594, size 0x1c, virtual true, abstract: false, final false
   inline void OnRemove(int32_t index, ::System::Object* item);
 
-  /// @brief Method OnSet, addr 0x2d15520, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnSet, addr 0x2d1651c, size 0x5c, virtual true, abstract: false, final false
   inline void OnSet(int32_t index, ::System::Object* oldValue, ::System::Object* newValue);
 
-  /// @brief Method Remove, addr 0x2d1544c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2d16448, size 0xb8, virtual false, abstract: false, final false
   inline void Remove(::System::Xml::Schema::XmlSchemaObject* item);
 
   constexpr ::System::Xml::Schema::XmlSchemaObject*& __cordl_internal_get_parent();
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_parent(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method .ctor, addr 0x2d0d538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d0e534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x2d15138, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2d16134, size 0x100, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* get_Item(int32_t index);
 
-  /// @brief Method set_Item, addr 0x2d15238, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2d16234, size 0xc8, virtual true, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Xml::Schema::XmlSchemaObject* value);
 
 protected:

@@ -39,72 +39,72 @@ namespace UnityEngine {
 class CORDL_TYPE _AndroidJNIHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Box, addr 0x31afca4, size 0x958, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x31b2ca0, size 0x958, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* Box(::System::Object* obj);
 
   /// @brief Method ConvertFromJNIArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ArrayType> static inline ArrayType ConvertFromJNIArray(void* array);
 
-  /// @brief Method ConvertToJNIArray, addr 0x31b425c, size 0x9b4, virtual false, abstract: false, final false
+  /// @brief Method ConvertToJNIArray, addr 0x31b7258, size 0x9b4, virtual false, abstract: false, final false
   static inline void* ConvertToJNIArray(::System::Array* array);
 
-  /// @brief Method CreateJNIArgArray, addr 0x31b3c50, size 0x60c, virtual false, abstract: false, final false
+  /// @brief Method CreateJNIArgArray, addr 0x31b6c4c, size 0x60c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> CreateJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method CreateJavaProxy, addr 0x31b36e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaProxy, addr 0x31b66dc, size 0x78, virtual false, abstract: false, final false
   static inline void* CreateJavaProxy(void* delegateHandle, ::UnityEngine::AndroidJavaProxy* proxy);
 
-  /// @brief Method CreateJavaRunnable, addr 0x31b3758, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaRunnable, addr 0x31b6754, size 0x60, virtual false, abstract: false, final false
   static inline void* CreateJavaRunnable(::UnityEngine::AndroidJavaRunnable* jrunnable);
 
-  /// @brief Method DeleteJNIArgArray, addr 0x31b52ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DeleteJNIArgArray, addr 0x31b82a8, size 0x160, virtual false, abstract: false, final false
   static inline void DeleteJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> jniArgs);
 
-  /// @brief Method GetConstructorID, addr 0x31b54b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x31b84b0, size 0x20, virtual false, abstract: false, final false
   static inline void* GetConstructorID(void* jclass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetConstructorID, addr 0x31b5604, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x31b8600, size 0x200, virtual false, abstract: false, final false
   static inline void* GetConstructorID(void* jclass, ::StringW signature);
 
   /// @brief Method GetFieldID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> static inline void* GetFieldID(void* jclass, ::StringW fieldName, bool isStatic);
 
-  /// @brief Method GetFieldID, addr 0x31b5b10, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x31b8b0c, size 0x318, virtual false, abstract: false, final false
   static inline void* GetFieldID(void* jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x31b55cc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x31b85c8, size 0x38, virtual false, abstract: false, final false
   static inline void* GetMethodID(void* jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
   /// @brief Method GetMethodID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> static inline void* GetMethodID(void* jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x31b5804, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x31b8800, size 0x210, virtual false, abstract: false, final false
   static inline void* GetMethodID(void* jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetMethodIDFallback, addr 0x31b5a14, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetMethodIDFallback, addr 0x31b8a10, size 0xfc, virtual false, abstract: false, final false
   static inline void* GetMethodIDFallback(void* jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetSignature, addr 0x31b54d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x31b84d0, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method GetSignature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetSignature, addr 0x31b5e64, size 0xe74, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x31b8e60, size 0xe74, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::System::Object* obj);
 
-  /// @brief Method InvokeJavaProxyMethod, addr 0x31b37b8, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method InvokeJavaProxyMethod, addr 0x31b67b4, size 0x498, virtual false, abstract: false, final false
   static inline void* InvokeJavaProxyMethod(::UnityEngine::AndroidJavaProxy* proxy, void* jmethodName, void* jargs);
 
   static inline ::UnityEngine::_AndroidJNIHelper* New_ctor();
 
-  /// @brief Method Unbox, addr 0x31b09b0, size 0x8f8, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x31b39ac, size 0x8f8, virtual false, abstract: false, final false
   static inline ::System::Object* Unbox(::UnityEngine::AndroidJavaObject* obj);
 
-  /// @brief Method UnboxArray, addr 0x31b4c14, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method UnboxArray, addr 0x31b7c10, size 0x698, virtual false, abstract: false, final false
   static inline ::System::Object* UnboxArray(::UnityEngine::AndroidJavaObject* obj);
 
-  /// @brief Method .ctor, addr 0x31b6cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b9cd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

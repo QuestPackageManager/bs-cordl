@@ -51,7 +51,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingSpriteEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25b3410, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25bb40c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,11 +93,11 @@ public:
   /// @brief Field _spriteRenderer, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  /// @brief Method InitAndPresent, addr 0x25b32cc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x25bb2c8, size 0xb8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Sprite* sprite, ::UnityEngine::Material* material,
                              ::UnityEngine::Color color, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x25b3384, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x25bb380, size 0x5c, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingSpriteEffect* New_ctor();
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x25b33e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25bb3dc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -20,7 +20,7 @@ namespace UnityEngine {
 class CORDL_TYPE ComputeShader : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method FindKernel, addr 0x32129d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindKernel, addr 0x32149d0, size 0x44, virtual false, abstract: false, final false
   inline int32_t FindKernel(::StringW name);
 
 protected:

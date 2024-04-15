@@ -203,36 +203,36 @@ public:
   /// @brief Field _viewTransform, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__viewTransform, put = __cordl_internal_set__viewTransform))::UnityW<::UnityEngine::Transform> _viewTransform;
 
-  /// @brief Method Awake, addr 0x29f3d70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x29f4d6c, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateEyeRotation, addr 0x29f44b8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method CalculateEyeRotation, addr 0x29f54b4, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion CalculateEyeRotation(::UnityEngine::Quaternion eyeRotation);
 
   static inline ::GlobalNamespace::OVREyeGaze* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x29f42ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x29f52a8, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x29f4224, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x29f5220, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x29f4074, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x29f5070, size 0x78, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted, addr 0x29f41c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnPermissionGranted, addr 0x29f51c0, size 0x60, virtual false, abstract: false, final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method PrepareHeadDirection, addr 0x29f3df0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method PrepareHeadDirection, addr 0x29f4dec, size 0x284, virtual false, abstract: false, final false
   inline void PrepareHeadDirection();
 
-  /// @brief Method Start, addr 0x29f3dec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x29f4de8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEyeTracking, addr 0x29f40ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method StartEyeTracking, addr 0x29f50e8, size 0xd8, virtual false, abstract: false, final false
   inline bool StartEyeTracking();
 
-  /// @brief Method Update, addr 0x29f42b8, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x29f52b4, size 0x200, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_ApplyPosition() const;
@@ -301,20 +301,20 @@ public:
 
   constexpr void __cordl_internal_set__viewTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x29f4678, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f5674, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_Confidence, addr 0x29f3d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Confidence, addr 0x29f4d5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Confidence();
 
-  /// @brief Method get_EyeTrackingEnabled, addr 0x29f3d10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_EyeTrackingEnabled, addr 0x29f4d0c, size 0x50, virtual false, abstract: false, final false
   inline bool get_EyeTrackingEnabled();
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 
-  /// @brief Method set_Confidence, addr 0x29f3d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Confidence, addr 0x29f4d64, size 0x8, virtual false, abstract: false, final false
   inline void set_Confidence(float_t value);
 
 protected:

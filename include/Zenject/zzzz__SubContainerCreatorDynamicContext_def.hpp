@@ -54,7 +54,7 @@ public:
   /// @brief Method CreateGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
-  /// @brief Method CreateSubContainer, addr 0x34594d0, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x345c4cc, size 0xe4, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   static inline ::Zenject::SubContainerCreatorDynamicContext* New_ctor(::Zenject::DiContainer* container);
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method .ctor, addr 0x3457800, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345a7fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Container, addr 0x34594c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x345c4c4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"

@@ -22,15 +22,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithBlockedUserList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::BlockedUserList*> {
 public:
   // Declarations
-  /// @brief Method GetBlockedUserList, addr 0x29c7d60, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetBlockedUserList, addr 0x29c9d5c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::BlockedUserList* GetBlockedUserList();
 
-  /// @brief Method GetDataFromMessage, addr 0x29c7d9c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x29c9d98, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::BlockedUserList* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithBlockedUserList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c56d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c76cc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

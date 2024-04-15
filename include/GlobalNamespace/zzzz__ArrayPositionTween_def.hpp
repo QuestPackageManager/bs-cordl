@@ -56,7 +56,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x259992c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x25a1928, size 0x144, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::ArrayPositionTween* New_ctor();
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_elementDelay(float_t value);
 
-  /// @brief Method .ctor, addr 0x2599a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a1a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x2599924, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x25a1920, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

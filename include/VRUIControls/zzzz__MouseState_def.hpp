@@ -36,18 +36,18 @@ public:
   /// @brief Field _trackedButtons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__trackedButtons, put = __cordl_internal_set__trackedButtons))::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* _trackedButtons;
 
-  /// @brief Method AnyPressesThisFrame, addr 0x3401104, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AnyPressesThisFrame, addr 0x3403100, size 0xa4, virtual false, abstract: false, final false
   inline bool AnyPressesThisFrame();
 
-  /// @brief Method AnyReleasesThisFrame, addr 0x34011a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AnyReleasesThisFrame, addr 0x34031a4, size 0xa8, virtual false, abstract: false, final false
   inline bool AnyReleasesThisFrame();
 
-  /// @brief Method GetButtonState, addr 0x3401250, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetButtonState, addr 0x340324c, size 0x19c, virtual false, abstract: false, final false
   inline ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
 
   static inline ::VRUIControls::MouseState* New_ctor();
 
-  /// @brief Method SetButtonState, addr 0x34013ec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetButtonState, addr 0x34033e8, size 0x38, virtual false, abstract: false, final false
   inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
                              ::UnityEngine::EventSystems::PointerEventData* data);
 
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
 
-  /// @brief Method .ctor, addr 0x3401424, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3403420, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

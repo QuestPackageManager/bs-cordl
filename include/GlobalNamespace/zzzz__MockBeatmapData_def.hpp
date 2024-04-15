@@ -99,43 +99,43 @@ public:
 
   constexpr void __cordl_internal_set__songEndTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x265e6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26656ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bombNotes, addr 0x265e6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombNotes, addr 0x26656cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> get_bombNotes();
 
-  /// @brief Method get_leftNotes, addr 0x265e6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftNotes, addr 0x26656ac, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> get_leftNotes();
 
-  /// @brief Method get_numberOfLines, addr 0x265e690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x266568c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstacles, addr 0x265e6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacles, addr 0x26656dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> get_obstacles();
 
-  /// @brief Method get_rightNotes, addr 0x265e6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightNotes, addr 0x26656bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> get_rightNotes();
 
-  /// @brief Method get_songEndTime, addr 0x265e6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songEndTime, addr 0x266569c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songEndTime();
 
-  /// @brief Method set_bombNotes, addr 0x265e6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bombNotes, addr 0x26656d4, size 0x8, virtual false, abstract: false, final false
   inline void set_bombNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  /// @brief Method set_leftNotes, addr 0x265e6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftNotes, addr 0x26656b4, size 0x8, virtual false, abstract: false, final false
   inline void set_leftNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  /// @brief Method set_numberOfLines, addr 0x265e698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numberOfLines, addr 0x2665694, size 0x8, virtual false, abstract: false, final false
   inline void set_numberOfLines(int32_t value);
 
-  /// @brief Method set_obstacles, addr 0x265e6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_obstacles, addr 0x26656e4, size 0x8, virtual false, abstract: false, final false
   inline void set_obstacles(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> value);
 
-  /// @brief Method set_rightNotes, addr 0x265e6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightNotes, addr 0x26656c4, size 0x8, virtual false, abstract: false, final false
   inline void set_rightNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  /// @brief Method set_songEndTime, addr 0x265e6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songEndTime, addr 0x26656a4, size 0x8, virtual false, abstract: false, final false
   inline void set_songEndTime(float_t value);
 
 protected:

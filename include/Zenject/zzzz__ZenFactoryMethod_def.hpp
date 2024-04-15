@@ -29,18 +29,18 @@ namespace Zenject {
 class CORDL_TYPE ZenFactoryMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3406a20, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3409a1c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3406a40, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3409a3c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3406a0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3409a08, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x34068e0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34098dc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

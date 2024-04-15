@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::TextMeshProAutosizeGroup* New_ctor();
 
-  /// @brief Method Start, addr 0x23f8108, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2400104, size 0x108, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get__texts() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> value);
 
-  /// @brief Method .ctor, addr 0x23f8210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240020c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

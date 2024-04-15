@@ -52,19 +52,19 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  /// @brief Method .ctor, addr 0x255aa84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2563a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* playerOverallStatsDataFunc);
 
-  /// @brief Method get_playerOverallStatsDataFunc, addr 0x255b058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerOverallStatsDataFunc, addr 0x2564054, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
 
-  /// @brief Method get_text, addr 0x255b048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2564044, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_playerOverallStatsDataFunc, addr 0x255b060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerOverallStatsDataFunc, addr 0x256405c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerOverallStatsDataFunc(::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* value);
 
-  /// @brief Method set_text, addr 0x255b050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x256404c, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
   // Ctor Parameters []
@@ -147,33 +147,33 @@ public:
   /// @brief Field _totalScoreText, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__totalScoreText, put = __cordl_internal_set__totalScoreText))::UnityW<::TMPro::TextMeshProUGUI> _totalScoreText;
 
-  /// @brief Method DidActivate, addr 0x255a4a4, size 0x5e0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x25634a0, size 0x5e0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x255ae74, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2563e70, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleStatsScopeSegmentedControlDidSelectCell, addr 0x255af14, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleStatsScopeSegmentedControlDidSelectCell, addr 0x2563f10, size 0x50, virtual false, abstract: false, final false
   inline void HandleStatsScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::PlayerStatisticsViewController* New_ctor();
 
-  /// @brief Method UpdateView, addr 0x255aa8c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method UpdateView, addr 0x2563a88, size 0x3e8, virtual false, abstract: false, final false
   inline void UpdateView(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* playerOverallStatsData);
 
-  /// @brief Method <DidActivate>b__14_0, addr 0x255b01c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_0, addr 0x2564018, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_0();
 
-  /// @brief Method <DidActivate>b__14_1, addr 0x255af6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_1, addr 0x2563f68, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_1();
 
-  /// @brief Method <DidActivate>b__14_2, addr 0x255af98, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_2, addr 0x2563f94, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_2();
 
-  /// @brief Method <DidActivate>b__14_3, addr 0x255afc4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_3, addr 0x2563fc0, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_3();
 
-  /// @brief Method <DidActivate>b__14_4, addr 0x255aff0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_4, addr 0x2563fec, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_4();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__badCutsCountCountText() const;
@@ -257,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x255af64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2563f60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

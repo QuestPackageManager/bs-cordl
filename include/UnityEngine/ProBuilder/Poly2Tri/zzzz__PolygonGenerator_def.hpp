@@ -34,13 +34,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator* New_ctor();
 
-  /// @brief Method RandomCircleSweep, addr 0x3062618, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep, addr 0x3067614, size 0x2f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep(double_t scale, int32_t vertexCount);
 
-  /// @brief Method RandomCircleSweep2, addr 0x3062908, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep2, addr 0x3067904, size 0x25c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep2(double_t scale, int32_t vertexCount);
 
-  /// @brief Method .ctor, addr 0x3062b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3067b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline double_t getStaticF_PI_2();

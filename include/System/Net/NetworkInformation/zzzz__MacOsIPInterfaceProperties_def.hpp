@@ -38,13 +38,13 @@ public:
   static inline ::System::Net::NetworkInformation::MacOsIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x2f1fbac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x2f24ba8, size 0x4, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
-  /// @brief Method .ctor, addr 0x2f1fb3c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f24b38, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x2f1fbb0, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x2f24bac, size 0x22c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:

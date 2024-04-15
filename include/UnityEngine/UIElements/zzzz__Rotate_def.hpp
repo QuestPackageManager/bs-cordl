@@ -42,43 +42,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>*();
 
-  /// @brief Method Equals, addr 0x33bc6b4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x33bf6b0, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33bc670, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x33bf66c, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Rotate other);
 
-  /// @brief Method GetHashCode, addr 0x33bc754, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x33bf750, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x33bc468, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x33bf464, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate Initial();
 
-  /// @brief Method None, addr 0x33bc4fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x33bf4f8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate None();
 
-  /// @brief Method ToQuaternion, addr 0x33bca54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToQuaternion, addr 0x33bfa50, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ToQuaternion();
 
-  /// @brief Method ToString, addr 0x33bc814, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x33bf810, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x33bc408, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33bf404, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Angle angle);
 
-  /// @brief Method get_angle, addr 0x33bc56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x33bf568, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle get_angle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>* i___System__IEquatable_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method op_Equality, addr 0x33bc57c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x33bf578, size 0x84, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method op_Inequality, addr 0x33bc628, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x33bf624, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method set_angle, addr 0x33bc574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angle, addr 0x33bf570, size 0x8, virtual false, abstract: false, final false
   inline void set_angle(::UnityEngine::UIElements::Angle value);
 
   // Ctor Parameters []

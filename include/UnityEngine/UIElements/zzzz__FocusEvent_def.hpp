@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::FocusEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x339e2fc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x33a12f8, size 0xa8, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x339e3a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a13a0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -35,18 +35,18 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_nonNegativeInteger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e03e2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e05e28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x2e0d6dc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x2e0f6d8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_HasValueFacets, addr 0x2e0d73c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x2e0f738, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x2e0d734, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2e0f730, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);

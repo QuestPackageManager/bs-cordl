@@ -38,58 +38,58 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE TypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Assembly, addr 0x291db08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Assembly, addr 0x2920b04, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* Assembly(::System::Type* type);
 
-  /// @brief Method AssignableToTypeName, addr 0x291dd30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AssignableToTypeName, addr 0x2920d2c, size 0x20, virtual false, abstract: false, final false
   static inline bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces);
 
-  /// @brief Method AssignableToTypeName, addr 0x291dbc0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AssignableToTypeName, addr 0x2920bbc, size 0x170, virtual false, abstract: false, final false
   static inline bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces, ByRef<::System::Type*> match);
 
-  /// @brief Method BaseType, addr 0x291dae8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BaseType, addr 0x2920ae4, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Type* BaseType(::System::Type* type);
 
-  /// @brief Method ContainsGenericParameters, addr 0x291da74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ContainsGenericParameters, addr 0x2920a70, size 0x20, virtual false, abstract: false, final false
   static inline bool ContainsGenericParameters(::System::Type* type);
 
-  /// @brief Method ImplementInterface, addr 0x291dd50, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method ImplementInterface, addr 0x2920d4c, size 0x3f0, virtual false, abstract: false, final false
   static inline bool ImplementInterface(::System::Type* type, ::System::Type* interfaceType);
 
-  /// @brief Method IsAbstract, addr 0x291db70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsAbstract, addr 0x2920b6c, size 0x14, virtual false, abstract: false, final false
   static inline bool IsAbstract(::System::Type* type);
 
-  /// @brief Method IsClass, addr 0x291db48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsClass, addr 0x2920b44, size 0x14, virtual false, abstract: false, final false
   static inline bool IsClass(::System::Type* type);
 
-  /// @brief Method IsEnum, addr 0x291db28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEnum, addr 0x2920b24, size 0x20, virtual false, abstract: false, final false
   static inline bool IsEnum(::System::Type* type);
 
-  /// @brief Method IsGenericType, addr 0x291daa8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsGenericType, addr 0x2920aa4, size 0x20, virtual false, abstract: false, final false
   static inline bool IsGenericType(::System::Type* type);
 
-  /// @brief Method IsGenericTypeDefinition, addr 0x291dac8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsGenericTypeDefinition, addr 0x2920ac4, size 0x20, virtual false, abstract: false, final false
   static inline bool IsGenericTypeDefinition(::System::Type* type);
 
-  /// @brief Method IsInterface, addr 0x291da94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsInterface, addr 0x2920a90, size 0x14, virtual false, abstract: false, final false
   static inline bool IsInterface(::System::Type* type);
 
-  /// @brief Method IsPrimitive, addr 0x291dbac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x2920ba8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* type);
 
-  /// @brief Method IsSealed, addr 0x291db5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSealed, addr 0x2920b58, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSealed(::System::Type* type);
 
-  /// @brief Method IsValueType, addr 0x291db98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValueType, addr 0x2920b94, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValueType(::System::Type* type);
 
-  /// @brief Method IsVisible, addr 0x291db84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsVisible, addr 0x2920b80, size 0x14, virtual false, abstract: false, final false
   static inline bool IsVisible(::System::Type* type);
 
-  /// @brief Method MemberType, addr 0x291da58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MemberType, addr 0x2920a54, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MemberTypes MemberType(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method Method, addr 0x291da44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Method, addr 0x2920a40, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* Method(::System::Delegate* d);
 
 protected:

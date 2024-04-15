@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::LambdaExpression*)>(
     &::System::Linq::Expressions::CoalesceConversionBinaryExpression::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ae6a70;
+  constexpr static std::size_t addrs = 0x2ae8a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LambdaExpression* (
     ::System::Linq::Expressions::CoalesceConversionBinaryExpression::*)()>(&::System::Linq::Expressions::CoalesceConversionBinaryExpression::GetConversion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae6a94;
+  constexpr static std::size_t addrs = 0x2ae8a90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::CoalesceConversionBinaryExpression::*)()>(
     &::System::Linq::Expressions::CoalesceConversionBinaryExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae6a9c;
+  constexpr static std::size_t addrs = 0x2ae8a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::CoalesceConversionBinaryExpression::*)()>(
     &::System::Linq::Expressions::CoalesceConversionBinaryExpression::get_Type)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2ae6aa4;
+  constexpr static std::size_t addrs = 0x2ae8aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

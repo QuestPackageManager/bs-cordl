@@ -35,15 +35,15 @@ public:
   /// @brief Field b, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
-  /// @brief Method FromRGB, addr 0x306a568, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x306f564, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col);
 
-  /// @brief Method FromXYZ, addr 0x306a3b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromXYZ, addr 0x306f3ac, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz);
 
   static inline ::UnityEngine::ProBuilder::CIELabColor* New_ctor(float_t L, float_t a, float_t b);
 
-  /// @brief Method ToString, addr 0x306a5f4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x306f5f0, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_L() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_b(float_t value);
 
-  /// @brief Method .ctor, addr 0x306a374, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x306f370, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t L, float_t a, float_t b);
 
 protected:

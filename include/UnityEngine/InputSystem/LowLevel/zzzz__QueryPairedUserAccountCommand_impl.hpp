@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x301677c;
+  constexpr static std::size_t addrs = 0x301b778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_id)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30167ac;
+  constexpr static std::size_t addrs = 0x301b7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::set_id)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x30167bc;
+  constexpr static std::size_t addrs = 0x301b7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_name)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30168d0;
+  constexpr static std::size_t addrs = 0x301b8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::set_name)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x30168e0;
+  constexpr static std::size_t addrs = 0x301b8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x30169f4;
+  constexpr static std::size_t addrs = 0x301b9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3016a24;
+  constexpr static std::size_t addrs = 0x301ba20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

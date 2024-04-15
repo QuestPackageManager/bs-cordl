@@ -38,7 +38,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25eda5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f4a58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController, put = __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController))::UnityW<
       ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> _multiplayerConnectedPlayerObstacleClippingController;
 
-  /// @brief Method Init, addr 0x25ed884, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x25f4880, size 0x1d0, virtual true, abstract: false, final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos,
                    float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height);
 
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> value);
 
-  /// @brief Method .ctor, addr 0x25eda54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f4a50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

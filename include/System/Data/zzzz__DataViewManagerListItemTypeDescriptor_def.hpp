@@ -30,7 +30,7 @@ public:
   /// @brief Field _dataViewManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager))::System::Data::DataViewManager* _dataViewManager;
 
-  /// @brief Method GetDataView, addr 0x2bbf364, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetDataView, addr 0x2bc1360, size 0x80, virtual false, abstract: false, final false
   inline ::System::Data::DataView* GetDataView(::System::Data::DataTable* table);
 
   constexpr ::System::Data::DataViewManager*& __cordl_internal_get__dataViewManager();

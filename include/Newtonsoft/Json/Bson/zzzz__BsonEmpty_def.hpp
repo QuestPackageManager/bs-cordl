@@ -44,14 +44,14 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::Newtonsoft::Json::Bson::BsonType value);
 
-  /// @brief Method .ctor, addr 0x299c20c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299e208, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Bson::BsonType type);
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Null();
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Undefined();
 
-  /// @brief Method get_Type, addr 0x299c234, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x299e230, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   static inline void setStaticF_Null(::Newtonsoft::Json::Bson::BsonToken* value);

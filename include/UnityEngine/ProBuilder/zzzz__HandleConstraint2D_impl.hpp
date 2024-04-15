@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::HandleConstraint2D::*)(int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x306ed74;
+  constexpr static std::size_t addrs = 0x3073d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::HandleConstraint2D* (::UnityEngine::ProBuilder::HandleConstraint2D::*)()>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::Inverse)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x306eda0;
+  constexpr static std::size_t addrs = 0x3073d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::HandleConstraint2D*>::get(), "Inverse",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::HandleConstraint2D::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::Mask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x306ee20;
+  constexpr static std::size_t addrs = 0x3073e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::HandleConstraint2D::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::InverseMask)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x306ee38;
+  constexpr static std::size_t addrs = 0x3073e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::op_Equality)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x306ee60;
+  constexpr static std::size_t addrs = 0x3073e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::op_Inequality)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x306eea0;
+  constexpr static std::size_t addrs = 0x3073e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::HandleConstraint2D::*)()>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x306eee0;
+  constexpr static std::size_t addrs = 0x3073edc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::HandleConstraint2D::*)(::System::Object*)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x306eee8;
+  constexpr static std::size_t addrs = 0x3073ee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::HandleConstraint2D::*)()>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::ToString)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x306ef68;
+  constexpr static std::size_t addrs = 0x3073f64;
 
   inline static ::MethodInfo const* methodInfo() {
 

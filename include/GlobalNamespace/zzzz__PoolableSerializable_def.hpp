@@ -56,24 +56,24 @@ public:
   /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method GetPool, addr 0x1415424, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetPool, addr 0x1415420, size 0x1e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>* GetPool(::System::Type* t);
 
   static inline ::GlobalNamespace::PoolableSerializable* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x14152e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x14152dc, size 0x78, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Obtain();
 
-  /// @brief Method Release, addr 0x1414da8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x1414da4, size 0x70, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Release, addr 0x1415358, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x1415354, size 0xcc, virtual false, abstract: false, final false
   static inline void Release(::GlobalNamespace::IPoolableSerializable* t);
 
-  /// @brief Method Retain, addr 0x1414eb4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Retain, addr 0x1414eb0, size 0x10, virtual true, abstract: false, final false
   inline void Retain();
 
   /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__referenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14137d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14137d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>*>*

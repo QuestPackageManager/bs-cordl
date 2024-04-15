@@ -33,27 +33,27 @@ public:
   // Declarations
   __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method DeserializeSection, addr 0x2adb638, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x2add634, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method IsModified, addr 0x2adb670, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x2add66c, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
   static inline ::System::Configuration::IgnoreSection* New_ctor();
 
-  /// @brief Method Reset, addr 0x2adb6a8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2add6a4, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentSection);
 
-  /// @brief Method ResetModified, addr 0x2adb6e0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x2add6dc, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x2adb718, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x2add714, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentSection, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
-  /// @brief Method .ctor, addr 0x2adb5c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2add5c4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2adb600, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2add5fc, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

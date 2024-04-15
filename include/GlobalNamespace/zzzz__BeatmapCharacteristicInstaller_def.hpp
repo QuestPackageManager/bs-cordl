@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_assetRuntimeKey))::StringW assetRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x24ffe68, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2507e64, size 0x7c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadCharacteristicCollectionAsync, addr 0x24ffee4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LoadCharacteristicCollectionAsync, addr 0x2507ee0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> LoadCharacteristicCollectionAsync();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24fff60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2507f5c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetRuntimeKey, addr 0x24ffe28, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetRuntimeKey, addr 0x2507e24, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetRuntimeKey();
 
 protected:

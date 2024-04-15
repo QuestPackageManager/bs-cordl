@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Interactions::PressInteraction* New_ctor();
 
-  /// @brief Method Process, addr 0x303a548, size 0x3c4, virtual true, abstract: false, final true
+  /// @brief Method Process, addr 0x303f544, size 0x3c4, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset, addr 0x303a90c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x303f908, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior const& __cordl_internal_get_behavior() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  /// @brief Method .ctor, addr 0x303a914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303f910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x303a468, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x303f464, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_releasePointOrDefault, addr 0x303a4c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_releasePointOrDefault, addr 0x303f4bc, size 0x88, virtual false, abstract: false, final false
   inline float_t get_releasePointOrDefault();
 
   /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"

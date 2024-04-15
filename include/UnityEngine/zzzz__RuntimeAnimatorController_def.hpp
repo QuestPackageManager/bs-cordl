@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31b93dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31bc3d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClips, addr 0x31ba410, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_animationClips, addr 0x31bd40c, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips();
 
 protected:

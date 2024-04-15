@@ -80,19 +80,19 @@ namespace System {
 struct CORDL_TYPE __Enum__EnumResult {
 public:
   // Declarations
-  /// @brief Method GetEnumParseException, addr 0x286475c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x2869758, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
-  /// @brief Method Init, addr 0x2864080, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x286907c, size 0x64, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x2864914, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x2869910, size 0x40, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x28648d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x28698d4, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x2864ed8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x2869ed4, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
   // Ctor Parameters []
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x286351c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2868518, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
 protected:

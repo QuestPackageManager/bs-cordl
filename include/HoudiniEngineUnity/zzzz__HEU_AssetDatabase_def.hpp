@@ -110,202 +110,202 @@ public:
   // Declarations
   using HEU_ImportAssetOptions = ::HoudiniEngineUnity::__HEU_AssetDatabase__HEU_ImportAssetOptions;
 
-  /// @brief Method AddObjectToAsset, addr 0x2466e4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddObjectToAsset, addr 0x246ee48, size 0x44, virtual false, abstract: false, final false
   static inline void AddObjectToAsset(::UnityEngine::Object* objectToAdd, ::UnityEngine::Object* assetObject);
 
-  /// @brief Method AppendMaterialsPathToAssetFolder, addr 0x2467400, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AppendMaterialsPathToAssetFolder, addr 0x246f3fc, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW AppendMaterialsPathToAssetFolder(::StringW inAssetCacheFolder);
 
-  /// @brief Method AppendMeshesAssetFileName, addr 0x24677d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AppendMeshesAssetFileName, addr 0x246f7d0, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW AppendMeshesAssetFileName(::StringW assetName);
 
-  /// @brief Method AppendMeshesPathToAssetFolder, addr 0x246714c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AppendMeshesPathToAssetFolder, addr 0x246f148, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW AppendMeshesPathToAssetFolder(::StringW inAssetCacheFolder);
 
-  /// @brief Method AppendPrefabPath, addr 0x24676f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AppendPrefabPath, addr 0x246f6f0, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW AppendPrefabPath(::StringW inAssetCacheFolder, ::StringW assetName);
 
-  /// @brief Method AppendTerrainPathToAssetFolder, addr 0x24674c8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AppendTerrainPathToAssetFolder, addr 0x246f4c4, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW AppendTerrainPathToAssetFolder(::StringW inAssetCacheFolder);
 
-  /// @brief Method AppendTexturesPathToAssetFolder, addr 0x2467338, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AppendTexturesPathToAssetFolder, addr 0x246f334, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW AppendTexturesPathToAssetFolder(::StringW inAssetCacheFolder);
 
-  /// @brief Method ContainsAsset, addr 0x2466b6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ContainsAsset, addr 0x246eb68, size 0x4c, virtual false, abstract: false, final false
   static inline bool ContainsAsset(::UnityEngine::Object* assetObject);
 
-  /// @brief Method CopyAndLoadAssetAtAnyPath, addr 0x2466c9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CopyAndLoadAssetAtAnyPath, addr 0x246ec98, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetAtAnyPath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type, bool bOverwriteExisting);
 
-  /// @brief Method CopyAndLoadAssetAtGivenPath, addr 0x2466ce8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CopyAndLoadAssetAtGivenPath, addr 0x246ece4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetAtGivenPath(::UnityEngine::Object* srcAsset, ::StringW targetPath, ::System::Type* type);
 
-  /// @brief Method CopyAndLoadAssetFromAssetCachePath, addr 0x2466c50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CopyAndLoadAssetFromAssetCachePath, addr 0x246ec4c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetFromAssetCachePath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type, bool bOverwriteExisting);
 
-  /// @brief Method CopyAndLoadAssetWithRelativePath, addr 0x2466c04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CopyAndLoadAssetWithRelativePath, addr 0x246ec00, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetWithRelativePath(::UnityEngine::Object* srcAsset, ::StringW copyAssetFolder, ::StringW relativePath, ::System::Type* type,
                                                                                  bool bOverwriteExisting);
 
-  /// @brief Method CopyAsset, addr 0x2466bb8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CopyAsset, addr 0x246ebb4, size 0x4c, virtual false, abstract: false, final false
   static inline bool CopyAsset(::StringW path, ::StringW newPath);
 
-  /// @brief Method CopyUniqueAndLoadAssetAtAnyPath, addr 0x2466d34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CopyUniqueAndLoadAssetAtAnyPath, addr 0x246ed30, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> CopyUniqueAndLoadAssetAtAnyPath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type);
 
-  /// @brief Method CreateAddObjectInAssetCacheFolder, addr 0x2466e08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateAddObjectInAssetCacheFolder, addr 0x246ee04, size 0x44, virtual false, abstract: false, final false
   static inline void CreateAddObjectInAssetCacheFolder(::StringW assetName, ::StringW assetObjectFileName, ::UnityEngine::Object* objectToAdd, ::StringW relativeFolderPath,
                                                        ByRef<::StringW> exportRootPath, ByRef<::UnityEngine::Object*> assetDBObject);
 
-  /// @brief Method CreateAsset, addr 0x2466dc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateAsset, addr 0x246edc0, size 0x44, virtual false, abstract: false, final false
   static inline void CreateAsset(::UnityEngine::Object* asset, ::StringW path);
 
-  /// @brief Method CreateAssetCacheFolder, addr 0x2466a10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateAssetCacheFolder, addr 0x246ea0c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW CreateAssetCacheFolder(::StringW suggestedAssetPath, int32_t hash);
 
-  /// @brief Method CreateObjectInAssetCacheFolder, addr 0x2466d80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectInAssetCacheFolder, addr 0x246ed7c, size 0x44, virtual false, abstract: false, final false
   static inline void CreateObjectInAssetCacheFolder(::UnityEngine::Object* objectToCreate, ::StringW assetCacheRoot, ::StringW relativeFolderPath, ::StringW assetFileName, ::System::Type* type,
                                                     bool bOverwriteExisting);
 
-  /// @brief Method CreatePathWithFolders, addr 0x2467108, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreatePathWithFolders, addr 0x246f104, size 0x44, virtual false, abstract: false, final false
   static inline void CreatePathWithFolders(::StringW inPath);
 
-  /// @brief Method CreateUniqueBakePath, addr 0x24670bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateUniqueBakePath, addr 0x246f0b8, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW CreateUniqueBakePath(::StringW assetName);
 
-  /// @brief Method DeleteAsset, addr 0x2466aa0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DeleteAsset, addr 0x246ea9c, size 0x44, virtual false, abstract: false, final false
   static inline void DeleteAsset(::UnityEngine::Object* asset);
 
-  /// @brief Method DeleteAssetAtPath, addr 0x2466ae4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DeleteAssetAtPath, addr 0x246eae0, size 0x44, virtual false, abstract: false, final false
   static inline void DeleteAssetAtPath(::StringW path);
 
-  /// @brief Method DeleteAssetCacheFolder, addr 0x2466a5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DeleteAssetCacheFolder, addr 0x246ea58, size 0x44, virtual false, abstract: false, final false
   static inline void DeleteAssetCacheFolder(::StringW assetCacheFolderPath);
 
-  /// @brief Method DeleteAssetIfInBakedFolder, addr 0x2466b28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DeleteAssetIfInBakedFolder, addr 0x246eb24, size 0x44, virtual false, abstract: false, final false
   static inline void DeleteAssetIfInBakedFolder(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetBakedPath, addr 0x2467024, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBakedPath, addr 0x246f020, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetAssetBakedPath();
 
-  /// @brief Method GetAssetBakedPathWithAssetName, addr 0x2467070, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBakedPathWithAssetName, addr 0x246f06c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetAssetBakedPathWithAssetName(::StringW assetName);
 
-  /// @brief Method GetAssetCachePath, addr 0x2465eb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetAssetCachePath, addr 0x246deb4, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW GetAssetCachePath();
 
-  /// @brief Method GetAssetFullPath, addr 0x24666b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAssetFullPath, addr 0x246e6ac, size 0x54, virtual false, abstract: false, final false
   static inline ::StringW GetAssetFullPath(::StringW inPath);
 
-  /// @brief Method GetAssetOrScenePath, addr 0x2466844, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetOrScenePath, addr 0x246e840, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetAssetOrScenePath(::UnityEngine::Object* inputObject);
 
-  /// @brief Method GetAssetPath, addr 0x24663f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPath, addr 0x246e3f0, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetAssetPath(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetPathWithSubAssetSupport, addr 0x2466440, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPathWithSubAssetSupport, addr 0x246e43c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetAssetPathWithSubAssetSupport(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetPathsFromAssetBundle, addr 0x2467828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPathsFromAssetBundle, addr 0x246f824, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAssetPathsFromAssetBundle(::StringW assetBundleFileName);
 
-  /// @brief Method GetAssetRelativePath, addr 0x2465f7c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetAssetRelativePath, addr 0x246df78, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW GetAssetRelativePath(::StringW inFullPath);
 
-  /// @brief Method GetAssetRelativePathStart, addr 0x2466588, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAssetRelativePathStart, addr 0x246e584, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetAssetRelativePathStart();
 
-  /// @brief Method GetAssetRootPath, addr 0x24667ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetRootPath, addr 0x246e7a8, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetAssetRootPath(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetSubFolders, addr 0x2467590, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetAssetSubFolders, addr 0x246f58c, size 0x164, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAssetSubFolders();
 
-  /// @brief Method GetAssetWorkingPath, addr 0x2466fd8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetWorkingPath, addr 0x246efd4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetAssetWorkingPath();
 
   /// @brief Method GetBuiltinExtraResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetBuiltinExtraResource(::StringW resourceName);
 
-  /// @brief Method GetPackagesRelativePath, addr 0x2466100, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetPackagesRelativePath, addr 0x246e0fc, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW GetPackagesRelativePath(::StringW inFullPath);
 
-  /// @brief Method GetPackagesRelativePathStart, addr 0x246661c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetPackagesRelativePathStart, addr 0x246e618, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetPackagesRelativePathStart();
 
-  /// @brief Method GetSubAssetPathFromPath, addr 0x246648c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetSubAssetPathFromPath, addr 0x246e488, size 0xfc, virtual false, abstract: false, final false
   static inline void GetSubAssetPathFromPath(::StringW fullPath, ByRef<::StringW> mainPath, ByRef<::StringW> subPath);
 
-  /// @brief Method GetUniqueAssetPath, addr 0x24667f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueAssetPath, addr 0x246e7f4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueAssetPath(::StringW path);
 
-  /// @brief Method GetUniqueAssetPathForUnityAsset, addr 0x2467884, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueAssetPathForUnityAsset, addr 0x246f880, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueAssetPathForUnityAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method GetUnityProjectPath, addr 0x2465f18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetUnityProjectPath, addr 0x246df14, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW GetUnityProjectPath();
 
-  /// @brief Method GetValidAssetPath, addr 0x2466224, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetValidAssetPath, addr 0x246e220, size 0x1d0, virtual false, abstract: false, final false
   static inline ::StringW GetValidAssetPath(::StringW inPath);
 
-  /// @brief Method ImportAsset, addr 0x2466f94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ImportAsset, addr 0x246ef90, size 0x44, virtual false, abstract: false, final false
   static inline void ImportAsset(::StringW assetPath, ::HoudiniEngineUnity::__HEU_AssetDatabase__HEU_ImportAssetOptions heuOptions);
 
-  /// @brief Method IsAssetInAssetCacheBakedFolder, addr 0x2466978, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsAssetInAssetCacheBakedFolder, addr 0x246e974, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsAssetInAssetCacheBakedFolder(::UnityEngine::Object* asset);
 
-  /// @brief Method IsAssetInAssetCacheWorkingFolder, addr 0x24669c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsAssetInAssetCacheWorkingFolder, addr 0x246e9c0, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsAssetInAssetCacheWorkingFolder(::UnityEngine::Object* asset);
 
-  /// @brief Method IsAssetSavedInScene, addr 0x2467830, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsAssetSavedInScene, addr 0x246f82c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsAssetSavedInScene(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsPathInAssetCache, addr 0x2466890, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsPathInAssetCache, addr 0x246e88c, size 0x50, virtual false, abstract: false, final false
   static inline bool IsPathInAssetCache(::StringW path);
 
-  /// @brief Method IsPathInAssetCacheBakedFolder, addr 0x24668e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsPathInAssetCacheBakedFolder, addr 0x246e8dc, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsPathInAssetCacheBakedFolder(::StringW path);
 
-  /// @brief Method IsPathInAssetCacheWorkingFolder, addr 0x246692c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsPathInAssetCacheWorkingFolder, addr 0x246e928, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsPathInAssetCacheWorkingFolder(::StringW path);
 
-  /// @brief Method IsPathRelativeToAssets, addr 0x246675c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsPathRelativeToAssets, addr 0x246e758, size 0x28, virtual false, abstract: false, final false
   static inline bool IsPathRelativeToAssets(::StringW inPath);
 
-  /// @brief Method IsPathRelativeToPackages, addr 0x2466784, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsPathRelativeToPackages, addr 0x246e780, size 0x28, virtual false, abstract: false, final false
   static inline bool IsPathRelativeToPackages(::StringW inPath);
 
-  /// @brief Method IsSubAsset, addr 0x2467820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSubAsset, addr 0x246f81c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsSubAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method LoadAllAssetRepresentationsAtPath, addr 0x2466efc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LoadAllAssetRepresentationsAtPath, addr 0x246eef8, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAllAssetRepresentationsAtPath(::StringW assetPath);
 
-  /// @brief Method LoadAllAssetsAtPath, addr 0x2466f48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LoadAllAssetsAtPath, addr 0x246ef44, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAllAssetsAtPath(::StringW assetPath);
 
-  /// @brief Method LoadAssetAtPath, addr 0x2466e9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetAtPath, addr 0x246ee98, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> LoadAssetAtPath(::StringW assetPath, ::System::Type* type);
 
-  /// @brief Method LoadSubAssetAtPath, addr 0x2466ee8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method LoadSubAssetAtPath, addr 0x246eee4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> LoadSubAssetAtPath(::StringW mainPath, ::StringW subAssetPath);
 
   /// @brief Method LoadUnityAssetFromUniqueAssetPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T LoadUnityAssetFromUniqueAssetPath(::StringW assetPath);
 
-  /// @brief Method PrintDependencies, addr 0x2467880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PrintDependencies, addr 0x246f87c, size 0x4, virtual false, abstract: false, final false
   static inline void PrintDependencies(::UnityEngine::GameObject* targetGO);
 
-  /// @brief Method RefreshAssetDatabase, addr 0x2466e98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAssetDatabase, addr 0x246ee94, size 0x4, virtual false, abstract: false, final false
   static inline void RefreshAssetDatabase();
 
-  /// @brief Method SaveAndRefreshDatabase, addr 0x2466e90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SaveAndRefreshDatabase, addr 0x246ee8c, size 0x4, virtual false, abstract: false, final false
   static inline void SaveAndRefreshDatabase();
 
-  /// @brief Method SaveAssetDatabase, addr 0x2466e94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetDatabase, addr 0x246ee90, size 0x4, virtual false, abstract: false, final false
   static inline void SaveAssetDatabase();
 
-  /// @brief Method SelectAssetAtPath, addr 0x246787c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SelectAssetAtPath, addr 0x246f878, size 0x4, virtual false, abstract: false, final false
   static inline void SelectAssetAtPath(::StringW path);
 
 protected:

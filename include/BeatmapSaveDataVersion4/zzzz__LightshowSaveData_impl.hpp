@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::LightshowSaveData::*)()>(&::BeatmapSaveDataVersion4::LightshowSaveData::_ctor)> {
   constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x13ff954;
+  constexpr static std::size_t addrs = 0x13ff950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::LightshowSaveData*>::get(), ".ctor",

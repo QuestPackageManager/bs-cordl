@@ -26,25 +26,25 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKQuaternion {
 public:
   // Declarations
-  /// @brief Method Euler, addr 0x24f9278, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x2502274, size 0xb4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion Euler(float_t pitch, float_t yaw, float_t roll);
 
-  /// @brief Method ToString, addr 0x24f9444, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2502440, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_identity, addr 0x24f9260, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x250225c, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion get_identity();
 
-  /// @brief Method op_Implicit, addr 0x24f86d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x25016d4, size 0x4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Implicit___LIV__SDK__Unity__SDKQuaternion(::UnityEngine::Quaternion v);
 
-  /// @brief Method op_Implicit, addr 0x24f9274, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2502270, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::LIV::SDK::Unity::SDKQuaternion v);
 
-  /// @brief Method op_Multiply, addr 0x24f932c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x2502328, size 0x74, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKQuaternion rhs);
 
-  /// @brief Method op_Multiply, addr 0x24f93a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x250239c, size 0xa4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
   // Ctor Parameters []

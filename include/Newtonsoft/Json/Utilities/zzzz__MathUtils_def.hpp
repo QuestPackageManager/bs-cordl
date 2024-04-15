@@ -23,22 +23,22 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE MathUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApproxEquals, addr 0x2915860, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ApproxEquals, addr 0x291985c, size 0xa8, virtual false, abstract: false, final false
   static inline bool ApproxEquals(double_t d1, double_t d2);
 
-  /// @brief Method IntLength, addr 0x29153c8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method IntLength, addr 0x29193c4, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t IntLength(uint64_t i);
 
-  /// @brief Method IntToHex, addr 0x291558c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IntToHex, addr 0x2919588, size 0x18, virtual false, abstract: false, final false
   static inline char16_t IntToHex(int32_t n);
 
-  /// @brief Method Max, addr 0x2915764, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x2919760, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<double_t> Max(::System::Nullable_1<double_t> val1, ::System::Nullable_1<double_t> val2);
 
-  /// @brief Method Max, addr 0x2915684, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x2919680, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> Max(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
 
-  /// @brief Method Min, addr 0x29155a4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x29195a0, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> Min(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
 
 protected:

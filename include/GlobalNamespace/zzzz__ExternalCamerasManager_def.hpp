@@ -36,15 +36,15 @@ public:
   /// @brief Field _oculusMRCManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusMRCManager, put = __cordl_internal_set__oculusMRCManager))::UnityW<::GlobalNamespace::OculusMRCManager> _oculusMRCManager;
 
-  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x2ad5010, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x2ad700c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x2ad5090, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x2ad708c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
   static inline ::GlobalNamespace::ExternalCamerasManager* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2ad4f44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2ad6f40, size 0xcc, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcBackgroundCameraPrefab() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__oculusMRCManager(::UnityW<::GlobalNamespace::OculusMRCManager> value);
 
-  /// @brief Method .ctor, addr 0x2ad5110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad710c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -87,55 +87,55 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddTriangle, addr 0x32ca858, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method AddTriangle, addr 0x32cd854, size 0x17c, virtual false, abstract: false, final false
   inline void AddTriangle(int32_t idx0, int32_t idx1, int32_t idx2);
 
-  /// @brief Method AddUIVertexQuad, addr 0x32d73ec, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddUIVertexQuad, addr 0x32da3e8, size 0x110, virtual false, abstract: false, final false
   inline void AddUIVertexQuad(::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> verts);
 
-  /// @brief Method AddUIVertexStream, addr 0x32db498, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddUIVertexStream, addr 0x32de494, size 0xac, virtual false, abstract: false, final false
   inline void AddUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method AddUIVertexTriangleStream, addr 0x32db544, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddUIVertexTriangleStream, addr 0x32de540, size 0x50, virtual false, abstract: false, final false
   inline void AddUIVertexTriangleStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts);
 
-  /// @brief Method AddVert, addr 0x32ca728, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddVert, addr 0x32cd724, size 0x130, virtual false, abstract: false, final false
   inline void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0);
 
-  /// @brief Method AddVert, addr 0x32db2f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddVert, addr 0x32de2f0, size 0x110, virtual false, abstract: false, final false
   inline void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0, ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector3 normal,
                       ::UnityEngine::Vector4 tangent);
 
-  /// @brief Method AddVert, addr 0x32dadf8, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method AddVert, addr 0x32dddf4, size 0x4fc, virtual false, abstract: false, final false
   inline void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0, ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3,
                       ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent);
 
-  /// @brief Method AddVert, addr 0x32db404, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddVert, addr 0x32de400, size 0x94, virtual false, abstract: false, final false
   inline void AddVert(::UnityEngine::UIVertex v);
 
-  /// @brief Method Clear, addr 0x32ca60c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x32cd608, size 0x11c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x32da78c, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x32dd788, size 0x1b4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FillMesh, addr 0x32dac94, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FillMesh, addr 0x32ddc90, size 0x164, virtual false, abstract: false, final false
   inline void FillMesh(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GetUIVertexStream, addr 0x32db594, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetUIVertexStream, addr 0x32de590, size 0x50, virtual false, abstract: false, final false
   inline void GetUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* stream);
 
-  /// @brief Method InitializeListIfRequired, addr 0x32da5fc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method InitializeListIfRequired, addr 0x32dd5f8, size 0x190, virtual false, abstract: false, final false
   inline void InitializeListIfRequired();
 
   static inline ::UnityEngine::UI::VertexHelper* New_ctor();
 
   static inline ::UnityEngine::UI::VertexHelper* New_ctor(::UnityEngine::Mesh* m);
 
-  /// @brief Method PopulateUIVertex, addr 0x32da9d8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PopulateUIVertex, addr 0x32dd9d4, size 0x160, virtual false, abstract: false, final false
   inline void PopulateUIVertex(ByRef<::UnityEngine::UIVertex> vertex, int32_t i);
 
-  /// @brief Method SetUIVertex, addr 0x32dab38, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SetUIVertex, addr 0x32ddb34, size 0x15c, virtual false, abstract: false, final false
   inline void SetUIVertex(::UnityEngine::UIVertex vertex, int32_t i);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& __cordl_internal_get_m_Colors();
@@ -198,20 +198,20 @@ public:
 
   constexpr void __cordl_internal_set_m_Uv3S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  /// @brief Method .ctor, addr 0x32da3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dd3b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x32da3c4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dd3c0, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* m);
 
   static inline ::UnityEngine::Vector3 getStaticF_s_DefaultNormal();
 
   static inline ::UnityEngine::Vector4 getStaticF_s_DefaultTangent();
 
-  /// @brief Method get_currentIndexCount, addr 0x32da98c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_currentIndexCount, addr 0x32dd988, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_currentIndexCount();
 
-  /// @brief Method get_currentVertCount, addr 0x32da940, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_currentVertCount, addr 0x32dd93c, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_currentVertCount();
 
   /// @brief Convert to "::System::IDisposable"

@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Security::Cryptography::CryptographicUnexpectedOperationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x26d9bf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dfbf0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26d9c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dfc14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x26d8c40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dec3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -22,12 +22,12 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlSerializationReadCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2dd6abc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2dd8ab8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Xml::Serialization::XmlSerializationReadCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2dd6a00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd89fc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

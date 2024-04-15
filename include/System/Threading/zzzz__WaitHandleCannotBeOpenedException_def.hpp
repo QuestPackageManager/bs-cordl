@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Threading::WaitHandleCannotBeOpenedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x289521c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2899218, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x289529c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2899298, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2895278, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2899274, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

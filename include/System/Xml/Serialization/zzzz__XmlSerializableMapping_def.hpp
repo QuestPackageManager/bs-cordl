@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__schemaTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x2ded7d0, size 0x76c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2def7cc, size 0x76c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName, ::StringW ns, ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType,
                     ::StringW xmlTypeNamespace);
 

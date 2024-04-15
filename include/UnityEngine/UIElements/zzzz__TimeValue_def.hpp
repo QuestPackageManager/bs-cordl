@@ -38,40 +38,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>*();
 
-  /// @brief Method Equals, addr 0x33c2404, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x33c5400, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33c23dc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x33c53d8, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimeValue other);
 
-  /// @brief Method GetHashCode, addr 0x33b9fc8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x33bcfc4, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x33c2490, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x33c548c, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x33ba338, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33bd334, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x33c23a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c539c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::TimeUnit unit);
 
-  /// @brief Method get_unit, addr 0x33c2398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x33c5394, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit get_unit();
 
-  /// @brief Method get_value, addr 0x33c2390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x33c538c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>* i___System__IEquatable_1___UnityEngine__UIElements__TimeValue_();
 
-  /// @brief Method op_Equality, addr 0x33c23b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x33c53b0, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method op_Implicit, addr 0x33c23ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x33c53a8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TimeValue op_Implicit___UnityEngine__UIElements__TimeValue(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x33ba310, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x33bd30c, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
   // Ctor Parameters []

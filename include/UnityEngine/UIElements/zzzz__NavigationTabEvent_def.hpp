@@ -93,13 +93,13 @@ public:
 
   __declspec(property(put = set_direction))::UnityEngine::UIElements::__NavigationTabEvent__Direction direction;
 
-  /// @brief Method DetermineMoveDirection, addr 0x339f24c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x33a2248, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__NavigationTabEvent__Direction DetermineMoveDirection(int32_t moveValue);
 
-  /// @brief Method GetPooled, addr 0x339f268, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x33a2264, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationTabEvent* GetPooled(int32_t moveValue);
 
-  /// @brief Method Init, addr 0x339f2f4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33a22f0, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::UIElements::NavigationTabEvent* New_ctor();
@@ -110,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
 
-  /// @brief Method .ctor, addr 0x339f344, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a2340, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_direction, addr 0x339f244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x33a2240, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
 
 protected:

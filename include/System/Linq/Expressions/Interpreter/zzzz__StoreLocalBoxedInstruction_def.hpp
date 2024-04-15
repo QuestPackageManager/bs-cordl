@@ -29,16 +29,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x2b3c17c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b3e178, size 0x140, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b3c10c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3e108, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b3c134, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2b3e130, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b3c13c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2b3e138, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:

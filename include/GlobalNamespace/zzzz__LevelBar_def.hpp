@@ -70,10 +70,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x25689dc, size 0x69c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25719d8, size 0x69c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2569078, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2572074, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -203,10 +203,10 @@ public:
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25689c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25719bc, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Setup, addr 0x2555f94, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x255ef90, size 0xbc, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__artworkBackgroundImage() const;
@@ -299,10 +299,10 @@ public:
 
   constexpr void __cordl_internal_set__useArtworkBackground(bool value);
 
-  /// @brief Method .ctor, addr 0x25689d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25719d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x25659d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x256e9cc, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:

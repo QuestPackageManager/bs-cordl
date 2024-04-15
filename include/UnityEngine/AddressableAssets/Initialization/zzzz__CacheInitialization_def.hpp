@@ -59,18 +59,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
 
-  /// @brief Method Execute, addr 0x2f6016c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x2f65168, size 0x98, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x2f6001c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2f65018, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2f60024, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x2f65020, size 0x94, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp* New_ctor();
 
-  /// @brief Method Update, addr 0x2f600b8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2f650b4, size 0xb4, virtual true, abstract: false, final true
   inline void Update(float_t unscaledDeltaTime);
 
   constexpr ::System::Func_1<bool>*& __cordl_internal_get_m_Callback();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateRequired(bool value);
 
-  /// @brief Method .ctor, addr 0x2f5ff4c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f64f48, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
@@ -140,7 +140,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <InitializeAsync>b__0, addr 0x2f60204, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__0, addr 0x2f65200, size 0x24, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__0();
 
   constexpr ::UnityEngine::AddressableAssets::Initialization::CacheInitialization*& __cordl_internal_get___4__this();
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f5ff44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f64f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,18 +214,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IInitializableObject*() noexcept;
 
-  /// @brief Method Initialize, addr 0x2f5fca4, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2f64ca0, size 0x14c, virtual true, abstract: false, final true
   inline bool Initialize(::StringW id, ::StringW dataStr);
 
-  /// @brief Method InitializeAsync, addr 0x2f5fdf0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x2f64dec, size 0x154, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::CacheInitialization* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f60014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f65010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RootPath, addr 0x2f5ff9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_RootPath, addr 0x2f64f98, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW get_RootPath();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IInitializableObject"

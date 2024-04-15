@@ -45,51 +45,51 @@ namespace Oculus::Platform {
 class CORDL_TYPE Challenges : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x29cd91c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29cf918, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Create(::StringW leaderboardName, ::Oculus::Platform::ChallengeOptions* challengeOptions);
 
-  /// @brief Method DeclineInvite, addr 0x29cdacc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DeclineInvite, addr 0x29cfac8, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* DeclineInvite(uint64_t challengeID);
 
-  /// @brief Method Delete, addr 0x29cdc2c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x29cfc28, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Delete(uint64_t challengeID);
 
-  /// @brief Method Get, addr 0x29cdda0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x29cfd9c, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Get(uint64_t challengeID);
 
-  /// @brief Method GetEntries, addr 0x29cdf00, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetEntries, addr 0x29cfefc, size 0x188, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* GetEntries(uint64_t challengeID, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter,
                                                                                                            ::Oculus::Platform::LeaderboardStartAt startAt);
 
-  /// @brief Method GetEntriesAfterRank, addr 0x29ce088, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetEntriesAfterRank, addr 0x29d0084, size 0x178, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* GetEntriesAfterRank(uint64_t challengeID, int32_t limit, uint64_t afterRank);
 
-  /// @brief Method GetEntriesByIds, addr 0x29ce200, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetEntriesByIds, addr 0x29d01fc, size 0x19c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* GetEntriesByIds(uint64_t challengeID, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt,
                                                                                                                 ::ArrayW<uint64_t, ::Array<uint64_t>*> userIDs);
 
-  /// @brief Method GetList, addr 0x29ce39c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetList, addr 0x29d0398, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* GetList(::Oculus::Platform::ChallengeOptions* challengeOptions, int32_t limit);
 
-  /// @brief Method GetNextChallenges, addr 0x29cd624, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetNextChallenges, addr 0x29cf620, size 0x17c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* GetNextChallenges(::Oculus::Platform::Models::ChallengeList* list);
 
-  /// @brief Method GetNextEntries, addr 0x29cd32c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetNextEntries, addr 0x29cf328, size 0x17c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* GetNextEntries(::Oculus::Platform::Models::ChallengeEntryList* list);
 
-  /// @brief Method GetPreviousChallenges, addr 0x29cd7a0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousChallenges, addr 0x29cf79c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* GetPreviousChallenges(::Oculus::Platform::Models::ChallengeList* list);
 
-  /// @brief Method GetPreviousEntries, addr 0x29cd4a8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousEntries, addr 0x29cf4a4, size 0x17c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* GetPreviousEntries(::Oculus::Platform::Models::ChallengeEntryList* list);
 
-  /// @brief Method Join, addr 0x29ce54c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x29d0548, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Join(uint64_t challengeID);
 
-  /// @brief Method Leave, addr 0x29ce6ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Leave, addr 0x29d06a8, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Leave(uint64_t challengeID);
 
-  /// @brief Method UpdateInfo, addr 0x29ce80c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method UpdateInfo, addr 0x29d0808, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* UpdateInfo(uint64_t challengeID, ::Oculus::Platform::ChallengeOptions* challengeOptions);
 
 protected:

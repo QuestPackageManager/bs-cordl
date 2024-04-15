@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34076c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a6bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method get_ControlType, addr 0x34076fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControlType, addr 0x340a6f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
-  /// @brief Method get_TagName, addr 0x34076ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagName, addr 0x340a6e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TagName();
 
-  /// @brief Method set_ControlType, addr 0x3407704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ControlType, addr 0x340a700, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
-  /// @brief Method set_TagName, addr 0x34076f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TagName, addr 0x340a6f0, size 0x8, virtual false, abstract: false, final false
   inline void set_TagName(::StringW value);
 
 protected:

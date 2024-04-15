@@ -68,10 +68,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2500df0, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2508dec, size 0x2c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x25010b8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x25090b4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -155,13 +155,13 @@ public:
   /// @brief Field _mainSettingsModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
-  /// @brief Method InstallBindings, addr 0x2500de4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2508de0, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2500c74, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2508c70, size 0x94, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2500d08, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2508d04, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MainSettingsAsyncLoader* New_ctor();
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  /// @brief Method .ctor, addr 0x2500de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2508de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -31,21 +31,21 @@ public:
   /// @brief Field _depthTextureEnabled, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__depthTextureEnabled, put = __cordl_internal_set__depthTextureEnabled))::UnityW<::GlobalNamespace::BoolSO> _depthTextureEnabled;
 
-  /// @brief Method Awake, addr 0x2ada13c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2adc138, size 0xd4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDepthTextureEnabledDidChange, addr 0x2ada210, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleDepthTextureEnabledDidChange, addr 0x2adc20c, size 0x60, virtual false, abstract: false, final false
   inline void HandleDepthTextureEnabledDidChange();
 
   static inline ::GlobalNamespace::VisualEffectsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2ada270, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2adc26c, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPreRender, addr 0x2ada358, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x2adc354, size 0x90, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method SetShaderKeyword, addr 0x2ada3e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x2adc3e4, size 0x14, virtual false, abstract: false, final false
   inline void SetShaderKeyword(::StringW keyword, bool value);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__depthTextureEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x2ada3fc, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adc3f8, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

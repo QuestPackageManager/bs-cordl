@@ -27,7 +27,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlaybackHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreatePoseOffsets, addr 0x258e228, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method CreatePoseOffsets, addr 0x2597224, size 0x56c, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PoseOffsets CreatePoseOffsets(::GlobalNamespace::MainSettingsModelSO* settings, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
 protected:

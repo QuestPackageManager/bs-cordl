@@ -64,10 +64,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__AsyncUtils____c* New_ctor();
 
-  /// @brief Method <FromCanceled>b__5_0, addr 0x2902f68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <FromCanceled>b__5_0, addr 0x2906f64, size 0x4, virtual false, abstract: false, final false
   inline void _FromCanceled_b__5_0();
 
-  /// @brief Method .ctor, addr 0x2902f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2906f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::__AsyncUtils____c* getStaticF___9();
@@ -169,36 +169,36 @@ public:
   /// @brief Field True, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_True, put = setStaticF_True))::System::Threading::Tasks::Task_1<bool>* True;
 
-  /// @brief Method CancelIfRequestedAsync, addr 0x29029d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CancelIfRequestedAsync, addr 0x29069cc, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CancelIfRequestedAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method CancelIfRequestedAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* CancelIfRequestedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FromCanceled, addr 0x2902a44, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FromCanceled, addr 0x2906a40, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method FromCanceled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsCompletedSuccessfully, addr 0x2902e1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsCompletedSuccessfully, addr 0x2906e18, size 0x24, virtual false, abstract: false, final false
   static inline bool IsCompletedSuccessfully(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method ReadAsync, addr 0x2902d4c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x2906d48, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::System::IO::TextReader* reader, ::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ToAsync, addr 0x2902968, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToAsync, addr 0x2906964, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ToAsync(bool value);
 
-  /// @brief Method WriteAsync, addr 0x2902c94, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x2906c90, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, ::ArrayW<char16_t, ::Array<char16_t>*> value, int32_t start, int32_t count,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync, addr 0x2902bf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x2906bf0, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, ::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync, addr 0x2902b54, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x2906b50, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, char16_t value, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Threading::Tasks::Task* getStaticF_CompletedTask();

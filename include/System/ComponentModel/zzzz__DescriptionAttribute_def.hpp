@@ -33,13 +33,13 @@ public:
   /// @brief Field <DescriptionValue>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__DescriptionValue_k__BackingField, put = __cordl_internal_set__DescriptionValue_k__BackingField))::StringW _DescriptionValue_k__BackingField;
 
-  /// @brief Method Equals, addr 0x2e31d64, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e33d60, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e31e30, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e33e2c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2e31e58, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2e33e54, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DescriptionAttribute* New_ctor();
@@ -52,23 +52,23 @@ public:
 
   constexpr void __cordl_internal_set__DescriptionValue_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e31cc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e33cc4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e31d24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e33d20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
   static inline ::System::ComponentModel::DescriptionAttribute* getStaticF_Default();
 
-  /// @brief Method get_Description, addr 0x2e31d4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Description, addr 0x2e33d48, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_DescriptionValue, addr 0x2e31d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DescriptionValue, addr 0x2e33d50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DescriptionValue();
 
   static inline void setStaticF_Default(::System::ComponentModel::DescriptionAttribute* value);
 
-  /// @brief Method set_DescriptionValue, addr 0x2e31d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DescriptionValue, addr 0x2e33d58, size 0x8, virtual false, abstract: false, final false
   inline void set_DescriptionValue(::StringW value);
 
 protected:

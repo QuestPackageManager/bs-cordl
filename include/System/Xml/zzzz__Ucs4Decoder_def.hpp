@@ -27,14 +27,14 @@ public:
   /// @brief Field lastBytesCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_lastBytesCount, put = __cordl_internal_set_lastBytesCount)) int32_t lastBytesCount;
 
-  /// @brief Method Convert, addr 0x2dbab3c, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x2dbdb38, size 0x1f4, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, bool flush,
                       ByRef<int32_t> bytesUsed, ByRef<int32_t> charsUsed, ByRef<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x2dba9a8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x2dbd9a4, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x2dba9c4, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x2dbd9c0, size 0x178, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
   /// @brief Method GetFullChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Xml::Ucs4Decoder* New_ctor();
 
-  /// @brief Method Ucs4ToUTF16, addr 0x2dbad30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Ucs4ToUTF16, addr 0x2dbdd2c, size 0x58, virtual false, abstract: false, final false
   inline void Ucs4ToUTF16(uint32_t code, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lastBytes() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_lastBytesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2dbad88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbdd84, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

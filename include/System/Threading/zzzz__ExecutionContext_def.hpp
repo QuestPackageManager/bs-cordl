@@ -162,31 +162,31 @@ public:
 
   __declspec(property(get = get_SynchronizationContextNoFlow))::System::Threading::SynchronizationContext* SynchronizationContextNoFlow;
 
-  /// @brief Method DangerousGetRawExecutionContext, addr 0x289d31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousGetRawExecutionContext, addr 0x28a1318, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
 
-  /// @brief Method HasSameLocalValues, addr 0x289c980, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasSameLocalValues, addr 0x28a097c, size 0x28, virtual false, abstract: false, final false
   inline bool HasSameLocalValues(::System::Threading::ExecutionContext* other);
 
-  /// @brief Method IsDefaultFTContext, addr 0x289c914, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsDefaultFTContext, addr 0x28a0910, size 0x1c, virtual false, abstract: false, final false
   inline bool IsDefaultFTContext(bool ignoreSyncCtx);
 
-  /// @brief Method .ctor, addr 0x289d314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a1310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ExecutionContext* ec);
 
-  /// @brief Method get_IsFlowSuppressed, addr 0x289d324, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsFlowSuppressed, addr 0x28a1320, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsFlowSuppressed();
 
-  /// @brief Method get_IsNull, addr 0x289c904, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x28a0900, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_LogicalCallContext, addr 0x289d05c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalCallContext, addr 0x28a1058, size 0x18, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader get_LogicalCallContext();
 
-  /// @brief Method get_SynchronizationContext, addr 0x289cbf0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContext, addr 0x28a0bec, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContext();
 
-  /// @brief Method get_SynchronizationContextNoFlow, addr 0x289cc08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContextNoFlow, addr 0x28a0c04, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
 
   // Ctor Parameters []
@@ -331,37 +331,37 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Capture, addr 0x289563c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x2899638, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContext* Capture();
 
-  /// @brief Method Capture, addr 0x289ce9c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x28a0e98, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContext* Capture(ByRef<::System::Threading::StackCrawlMark> stackMark, ::System::Threading::__ExecutionContext__CaptureOptions options);
 
-  /// @brief Method CreateCopy, addr 0x289cc34, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x28a0c30, size 0x140, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* CreateCopy();
 
-  /// @brief Method CreateMutableCopy, addr 0x289cd74, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateMutableCopy, addr 0x28a0d70, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* CreateMutableCopy();
 
-  /// @brief Method Dispose, addr 0x289c60c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x28a0608, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EstablishCopyOnWriteScope, addr 0x289c9a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method EstablishCopyOnWriteScope, addr 0x28a09a4, size 0x34, virtual false, abstract: false, final false
   static inline void EstablishCopyOnWriteScope(::System::Threading::Thread* currentThread, bool knownNullWindowsIdentity, ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
 
-  /// @brief Method EstablishCopyOnWriteScope, addr 0x289cb4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EstablishCopyOnWriteScope, addr 0x28a0b48, size 0x84, virtual false, abstract: false, final false
   static inline void EstablishCopyOnWriteScope(ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
 
-  /// @brief Method FastCapture, addr 0x289d00c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FastCapture, addr 0x28a1008, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContext* FastCapture();
 
-  /// @brief Method GetObjectData, addr 0x289d074, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x28a1070, size 0x110, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsDefaultFTContext, addr 0x289c930, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsDefaultFTContext, addr 0x28a092c, size 0x50, virtual false, abstract: false, final false
   inline bool IsDefaultFTContext(bool ignoreSyncCtx);
 
-  /// @brief Method IsFlowSuppressed, addr 0x289ce6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsFlowSuppressed, addr 0x28a0e68, size 0x30, virtual false, abstract: false, final false
   static inline bool IsFlowSuppressed();
 
   static inline ::System::Threading::ExecutionContext* New_ctor();
@@ -370,25 +370,25 @@ public:
 
   static inline ::System::Threading::ExecutionContext* New_ctor(bool isPreAllocatedDefault);
 
-  /// @brief Method OnAsyncLocalContextChanged, addr 0x289bc8c, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method OnAsyncLocalContextChanged, addr 0x289fc88, size 0x484, virtual false, abstract: false, final false
   static inline void OnAsyncLocalContextChanged(::System::Threading::ExecutionContext* previous, ::System::Threading::ExecutionContext* current);
 
-  /// @brief Method Run, addr 0x2898efc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x289cef8, size 0xe8, virtual false, abstract: false, final false
   static inline void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state);
 
-  /// @brief Method Run, addr 0x289c610, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x28a060c, size 0x7c, virtual false, abstract: false, final false
   static inline void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state, bool preserveSyncCtx);
 
-  /// @brief Method RunInternal, addr 0x289c894, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x28a0890, size 0x70, virtual false, abstract: false, final false
   static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state);
 
-  /// @brief Method RunInternal, addr 0x289c68c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x28a0688, size 0x208, virtual false, abstract: false, final false
   static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state, bool preserveSyncCtx);
 
-  /// @brief Method SetExecutionContext, addr 0x289c9dc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContext, addr 0x28a09d8, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContextSwitcher SetExecutionContext(::System::Threading::ExecutionContext* executionContext, bool preserveSyncCtx);
 
-  /// @brief Method SetLocalValue, addr 0x289c1ac, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method SetLocalValue, addr 0x28a01a8, size 0x2cc, virtual false, abstract: false, final false
   static inline void SetLocalValue(::System::Threading::IAsyncLocal* local, ::System::Object* newValue, bool needChangeNotifications);
 
   constexpr ::System::Threading::__ExecutionContext__Flags const& __cordl_internal_get__flags() const;
@@ -433,38 +433,38 @@ public:
 
   constexpr void __cordl_internal_set__syncContextNoFlow(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x289c174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a0170, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x289d184, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a1180, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x289c17c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a0178, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool isPreAllocatedDefault);
 
   static inline ::System::Threading::ExecutionContext* getStaticF_Default();
 
   static inline ::System::Threading::ExecutionContext* getStaticF_s_dummyDefaultEC();
 
-  /// @brief Method get_IllogicalCallContext, addr 0x289c578, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IllogicalCallContext, addr 0x28a0574, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* get_IllogicalCallContext();
 
-  /// @brief Method get_IsPreAllocatedDefault, addr 0x289c168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsPreAllocatedDefault, addr 0x28a0164, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsPreAllocatedDefault();
 
-  /// @brief Method get_LogicalCallContext, addr 0x289c504, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalCallContext, addr 0x28a0500, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_SynchronizationContext, addr 0x289c5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContext, addr 0x28a05e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContext();
 
-  /// @brief Method get_SynchronizationContextNoFlow, addr 0x289c5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContextNoFlow, addr 0x28a05f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
 
-  /// @brief Method get_isFlowSuppressed, addr 0x289c140, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isFlowSuppressed, addr 0x28a013c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isFlowSuppressed();
 
-  /// @brief Method get_isNewCapture, addr 0x289c110, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isNewCapture, addr 0x28a010c, size 0x14, virtual false, abstract: false, final false
   inline bool get_isNewCapture();
 
   /// @brief Convert to "::System::IDisposable"
@@ -477,22 +477,22 @@ public:
 
   static inline void setStaticF_s_dummyDefaultEC(::System::Threading::ExecutionContext* value);
 
-  /// @brief Method set_IllogicalCallContext, addr 0x289c5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IllogicalCallContext, addr 0x28a05e0, size 0x8, virtual false, abstract: false, final false
   inline void set_IllogicalCallContext(::System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
 
-  /// @brief Method set_LogicalCallContext, addr 0x289c570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogicalCallContext, addr 0x28a056c, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
 
-  /// @brief Method set_SynchronizationContext, addr 0x289c5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SynchronizationContext, addr 0x28a05f0, size 0x8, virtual false, abstract: false, final false
   inline void set_SynchronizationContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method set_SynchronizationContextNoFlow, addr 0x289c604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SynchronizationContextNoFlow, addr 0x28a0600, size 0x8, virtual false, abstract: false, final false
   inline void set_SynchronizationContextNoFlow(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method set_isFlowSuppressed, addr 0x289c14c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isFlowSuppressed, addr 0x28a0148, size 0x1c, virtual false, abstract: false, final false
   inline void set_isFlowSuppressed(bool value);
 
-  /// @brief Method set_isNewCapture, addr 0x289c124, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isNewCapture, addr 0x28a0120, size 0x1c, virtual false, abstract: false, final false
   inline void set_isNewCapture(bool value);
 
 protected:

@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__pageNum(int32_t value);
 
-  /// @brief Method get_NextPage, addr 0x2d633a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPage, addr 0x2d6639c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_NextPage();
 
-  /// @brief Method get_NodeCount, addr 0x2d63398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeCount, addr 0x2d66394, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NodeCount();
 
-  /// @brief Method get_PageNumber, addr 0x2d63390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageNumber, addr 0x2d6638c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PageNumber();
 
 protected:

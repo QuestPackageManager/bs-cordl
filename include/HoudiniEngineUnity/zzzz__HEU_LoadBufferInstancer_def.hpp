@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__instanceTransforms(::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> value);
 
-  /// @brief Method .ctor, addr 0x248e008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2497004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -52,7 +52,7 @@ public:
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method WSAGetLastError_icall, addr 0x2e29ee8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WSAGetLastError_icall, addr 0x2e2bee4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t WSAGetLastError_icall();
 
   constexpr ::System::Net::EndPoint*& __cordl_internal_get_m_EndPoint();
@@ -61,28 +61,28 @@ public:
 
   constexpr void __cordl_internal_set_m_EndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method .ctor, addr 0x2e29eec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2bee8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e29f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2bf08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x2e28150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2a14c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x2e29f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2bf10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x2e29694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2b690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method get_ErrorCode, addr 0x2e29f1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x2e2bf18, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
-  /// @brief Method get_Message, addr 0x2e29f24, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2e2bf20, size 0x90, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_SocketErrorCode, addr 0x2e27dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketErrorCode, addr 0x2e29dd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketErrorCode();
 
 protected:

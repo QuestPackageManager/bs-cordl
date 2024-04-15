@@ -38,7 +38,7 @@ public:
   /// @brief Field sep, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sep, put = setStaticF_sep))::ArrayW<char16_t, ::Array<char16_t>*> sep;
 
-  /// @brief Method CreateString, addr 0x27eae9c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x27f0e98, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::StringW pStrings, uint32_t index);
 
   static inline ::System::Globalization::CodePageDataItem* New_ctor(int32_t dataIndex);
@@ -67,12 +67,12 @@ public:
 
   constexpr void __cordl_internal_set_m_webName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27eadf8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f0df4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataIndex);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_sep();
 
-  /// @brief Method get_WebName, addr 0x27eaf50, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_WebName, addr 0x27f0f4c, size 0xbc, virtual false, abstract: false, final false
   inline ::StringW get_WebName();
 
   static inline void setStaticF_sep(::ArrayW<char16_t, ::Array<char16_t>*> value);

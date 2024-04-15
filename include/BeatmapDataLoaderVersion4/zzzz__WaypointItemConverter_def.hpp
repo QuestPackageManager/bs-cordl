@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__waypoints,
                       put = __cordl_internal_set__waypoints))::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> _waypoints;
 
-  /// @brief Method Convert, addr 0x14044ec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x14044e8, size 0xf0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::WaypointItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypoints,
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__waypoints(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
 
-  /// @brief Method .ctor, addr 0x1403f6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1403f68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypoints, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:

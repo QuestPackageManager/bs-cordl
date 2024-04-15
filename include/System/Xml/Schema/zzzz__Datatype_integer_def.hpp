@@ -39,13 +39,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_integer* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x2e0c17c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2e0e178, size 0x140, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x2e03cc0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e05cbc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x2e0c174, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2e0e170, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

@@ -72,22 +72,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x27b6538, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x27bc534, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x27b658c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x27bc588, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x27b6548, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x27bc544, size 0x44, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FillBuffer, addr 0x27b7978, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method FillBuffer, addr 0x27bd974, size 0x124, virtual true, abstract: false, final false
   inline void FillBuffer(int32_t numBytes);
 
-  /// @brief Method InternalReadChars, addr 0x27b720c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method InternalReadChars, addr 0x27bd208, size 0x2f8, virtual false, abstract: false, final false
   inline int32_t InternalReadChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method InternalReadOneChar, addr 0x27b65b4, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method InternalReadOneChar, addr 0x27bc5b0, size 0x270, virtual false, abstract: false, final false
   inline int32_t InternalReadOneChar();
 
   static inline ::System::IO::BinaryReader* New_ctor(::System::IO::Stream* input);
@@ -96,61 +96,61 @@ public:
 
   static inline ::System::IO::BinaryReader* New_ctor(::System::IO::Stream* input, ::System::Text::Encoding* encoding, bool leaveOpen);
 
-  /// @brief Method Read, addr 0x27b659c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x27bc598, size 0x18, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x27b7664, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x27bd660, size 0x184, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Read7BitEncodedInt, addr 0x27b7164, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Read7BitEncodedInt, addr 0x27bd160, size 0xa8, virtual false, abstract: false, final false
   inline int32_t Read7BitEncodedInt();
 
-  /// @brief Method ReadBoolean, addr 0x27b6824, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadBoolean, addr 0x27bc820, size 0x48, virtual true, abstract: false, final false
   inline bool ReadBoolean();
 
-  /// @brief Method ReadByte, addr 0x27b686c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x27bc868, size 0x34, virtual true, abstract: false, final false
   inline uint8_t ReadByte();
 
-  /// @brief Method ReadBytes, addr 0x27b77e8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x27bd7e4, size 0x190, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBytes(int32_t count);
 
-  /// @brief Method ReadChar, addr 0x27b68e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadChar, addr 0x27bc8dc, size 0x24, virtual true, abstract: false, final false
   inline char16_t ReadChar();
 
-  /// @brief Method ReadChars, addr 0x27b7504, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ReadChars, addr 0x27bd500, size 0x160, virtual true, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> ReadChars(int32_t count);
 
-  /// @brief Method ReadDecimal, addr 0x27b6cb8, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method ReadDecimal, addr 0x27bccb4, size 0x214, virtual true, abstract: false, final false
   inline ::System::Decimal ReadDecimal();
 
-  /// @brief Method ReadDouble, addr 0x27b6c88, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ReadDouble, addr 0x27bcc84, size 0x30, virtual true, abstract: false, final false
   inline double_t ReadDouble();
 
-  /// @brief Method ReadInt16, addr 0x27b6904, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadInt16, addr 0x27bc900, size 0x48, virtual true, abstract: false, final false
   inline int16_t ReadInt16();
 
-  /// @brief Method ReadInt32, addr 0x27b6994, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ReadInt32, addr 0x27bc990, size 0xf4, virtual true, abstract: false, final false
   inline int32_t ReadInt32();
 
-  /// @brief Method ReadInt64, addr 0x27b6af8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ReadInt64, addr 0x27bcaf4, size 0xb0, virtual true, abstract: false, final false
   inline int64_t ReadInt64();
 
-  /// @brief Method ReadSByte, addr 0x27b68a0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ReadSByte, addr 0x27bc89c, size 0x40, virtual true, abstract: false, final false
   inline int8_t ReadSByte();
 
-  /// @brief Method ReadSingle, addr 0x27b6c58, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ReadSingle, addr 0x27bcc54, size 0x30, virtual true, abstract: false, final false
   inline float_t ReadSingle();
 
-  /// @brief Method ReadString, addr 0x27b6ecc, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method ReadString, addr 0x27bcec8, size 0x298, virtual true, abstract: false, final false
   inline ::StringW ReadString();
 
-  /// @brief Method ReadUInt16, addr 0x27b694c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadUInt16, addr 0x27bc948, size 0x48, virtual true, abstract: false, final false
   inline uint16_t ReadUInt16();
 
-  /// @brief Method ReadUInt32, addr 0x27b6a88, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ReadUInt32, addr 0x27bca84, size 0x70, virtual true, abstract: false, final false
   inline uint32_t ReadUInt32();
 
-  /// @brief Method ReadUInt64, addr 0x27b6ba8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ReadUInt64, addr 0x27bcba4, size 0xb0, virtual true, abstract: false, final false
   inline uint64_t ReadUInt64();
 
   constexpr bool const& __cordl_internal_get_m_2BytesPerChar() const;
@@ -213,16 +213,16 @@ public:
 
   constexpr void __cordl_internal_set_m_stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x27b6230, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27bc22c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x27b6528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27bc524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x27b62a8, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27bc2a4, size 0x280, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::Text::Encoding* encoding, bool leaveOpen);
 
-  /// @brief Method get_BaseStream, addr 0x27b6530, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BaseStream, addr 0x27bc52c, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* get_BaseStream();
 
   /// @brief Convert to "::System::IDisposable"

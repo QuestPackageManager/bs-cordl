@@ -36,16 +36,16 @@ public:
 
   static inline ::GlobalNamespace::ReportingCallbackSample* New_ctor();
 
-  /// @brief Method OnReportButtonIntentNotif, addr 0x29a3908, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnReportButtonIntentNotif, addr 0x29a5904, size 0xa0, virtual false, abstract: false, final false
   inline void OnReportButtonIntentNotif(::Oculus::Platform::Message_1<::StringW>* message);
 
-  /// @brief Method Start, addr 0x29a3764, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x29a5760, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateConsole, addr 0x29a385c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateConsole, addr 0x29a5858, size 0xac, virtual false, abstract: false, final false
   inline void UpdateConsole(::StringW value);
 
-  /// @brief Method <Start>b__2_0, addr 0x29a3afc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__2_0, addr 0x29a5af8, size 0xe8, virtual false, abstract: false, final false
   inline void _Start_b__2_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* message);
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x29a3af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a5af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

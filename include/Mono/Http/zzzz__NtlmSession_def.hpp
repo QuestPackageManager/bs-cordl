@@ -34,7 +34,7 @@ public:
   /// @brief Field message, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::Mono::Security::Protocol::Ntlm::MessageBase* message;
 
-  /// @brief Method Authenticate, addr 0x2b6cc4c, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x2b6ec48, size 0x48c, virtual false, abstract: false, final false
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::Mono::Http::NtlmSession* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_message(::Mono::Security::Protocol::Ntlm::MessageBase* value);
 
-  /// @brief Method .ctor, addr 0x2b6cc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b6ec40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

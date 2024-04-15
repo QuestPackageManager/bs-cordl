@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_w(float_t value);
 
-  /// @brief Method .ctor, addr 0x14009e0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14009dc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
 
-  /// @brief Method get_beatDistributionParam, addr 0x14009d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParam, addr 0x14009cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatDistributionParam();
 
-  /// @brief Method get_beatDistributionParamType, addr 0x14009d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParamType, addr 0x14009d4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_beatDistributionParamType();
 
-  /// @brief Method get_indexFilter, addr 0x14009c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x14009c4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::IndexFilter* get_indexFilter();
 
 protected:

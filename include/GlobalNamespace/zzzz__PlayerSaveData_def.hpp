@@ -1949,7 +1949,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideNormalEnvironmentName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13fde44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fde40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2006,7 +2006,7 @@ public:
 
   constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13fde4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fde48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2089,7 +2089,7 @@ public:
 
   constexpr void __cordl_internal_set_quickPlaySongPackMaskSerializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13fde54, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fde50, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2183,7 +2183,7 @@ public:
 
   constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13fdec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fdec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2301,7 +2301,8 @@ public:
   enum struct ____PlayerSaveData__PlayerSensitivityFlagSaveData_Unwrapped : int32_t {
     __E_Unknown = static_cast<int32_t>(0x0),
     __E_Safe = static_cast<int32_t>(0x1),
-    __E_Explicit = static_cast<int32_t>(0x2),
+    __E_Themes = static_cast<int32_t>(0x2),
+    __E_Explicit = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -2324,11 +2325,14 @@ public:
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief Field Explicit value: static_cast<int32_t>(0x2)
+  /// @brief Field Explicit value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Explicit;
 
   /// @brief Field Safe value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Safe;
+
+  /// @brief Field Themes value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Themes;
 
   /// @brief Field Unknown value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Unknown;
@@ -2608,7 +2612,7 @@ public:
 
   constexpr void __cordl_internal_set_userAgeCategory(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData value);
 
-  /// @brief Method .ctor, addr 0x13fded0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13fdecc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2852,7 +2856,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* ___guestPlayers;
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"2.0.26" };
+  static constexpr ::ConstString kCurrentVersion{ u"2.0.27" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

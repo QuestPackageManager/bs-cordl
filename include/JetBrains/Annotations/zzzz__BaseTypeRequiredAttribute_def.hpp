@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set__BaseType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3407048, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a044, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* baseType);
 
-  /// @brief Method get_BaseType, addr 0x3407070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x340a06c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_BaseType();
 
-  /// @brief Method set_BaseType, addr 0x3407078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x340a074, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Type* value);
 
 protected:

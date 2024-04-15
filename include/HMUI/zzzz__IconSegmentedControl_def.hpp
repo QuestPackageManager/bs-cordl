@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set__icon_k__BackingField(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x2401c30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2409c2c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
-  /// @brief Method get_hintText, addr 0x2401c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hintText, addr 0x2409c1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_hintText();
 
-  /// @brief Method get_icon, addr 0x2401c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x2409c0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method set_hintText, addr 0x2401c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x2409c24, size 0x8, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_icon, addr 0x2401c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x2409c14, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
 protected:
@@ -155,18 +155,18 @@ public:
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x24017c4, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x24097c0, size 0x198, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method Init, addr 0x2401264, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2409260, size 0x1c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::IconSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x24017ac, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x24097a8, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x2401288, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2409284, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
 
   constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> const& __cordl_internal_get__dataItems() const;
@@ -229,7 +229,7 @@ public:
 
   constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
-  /// @brief Method .ctor, addr 0x2401a6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2409a68, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"

@@ -60,40 +60,40 @@ public:
   /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent))::UnityEngine::Vector4 s_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x316a240, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x316e23c, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x316a2e4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x316e2e0, size 0x138, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x316a41c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x316e418, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ClearUnusedVertices, addr 0x316a458, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x316e454, size 0x34, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex);
 
-  /// @brief Method ClearUnusedVertices, addr 0x316a48c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x316e488, size 0xc4, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex, bool updateMesh);
 
-  /// @brief Method ResizeMeshInfo, addr 0x31694f8, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x316d4f4, size 0x474, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method ResizeMeshInfo, addr 0x316996c, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x316d968, size 0x8d4, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isVolumetric);
 
-  /// @brief Method SortGeometry, addr 0x316a550, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x316e54c, size 0x7c, virtual false, abstract: false, final false
   inline void SortGeometry(::TMPro::VertexSortingOrder order);
 
-  /// @brief Method SortGeometry, addr 0x316ab58, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x316eb54, size 0x1d4, virtual false, abstract: false, final false
   inline void SortGeometry(::System::Collections::Generic::IList_1<int32_t>* sortingOrder);
 
-  /// @brief Method SwapVertexData, addr 0x316a5cc, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x316e5c8, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x316887c, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316c878, size 0x4f8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size);
 
-  /// @brief Method .ctor, addr 0x3168d74, size 0x784, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316cd70, size 0x784, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size, bool isVolumetric);
 
   static inline ::UnityEngine::Bounds getStaticF_s_DefaultBounds();

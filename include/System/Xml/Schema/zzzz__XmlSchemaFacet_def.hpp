@@ -58,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d14828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d15824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FacetType, addr 0x2d14818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FacetType, addr 0x2d15814, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::FacetType get_FacetType();
 
-  /// @brief Method get_IsFixed, addr 0x2d1475c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixed, addr 0x2d15758, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFixed();
 
-  /// @brief Method get_Value, addr 0x2d1474c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2d15748, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_FacetType, addr 0x2d14820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FacetType, addr 0x2d1581c, size 0x8, virtual false, abstract: false, final false
   inline void set_FacetType(::System::Xml::Schema::FacetType value);
 
-  /// @brief Method set_IsFixed, addr 0x2d14764, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method set_IsFixed, addr 0x2d15760, size 0xb4, virtual true, abstract: false, final false
   inline void set_IsFixed(bool value);
 
-  /// @brief Method set_Value, addr 0x2d14754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2d15750, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

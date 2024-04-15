@@ -65,13 +65,13 @@ public:
   /// @brief Field uint64A, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_uint64A, put = __cordl_internal_set_uint64A))::ArrayW<uint64_t, ::Array<uint64_t>*> uint64A;
 
-  /// @brief Method Init, addr 0x275192c, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2757928, size 0x320, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                                ::System::Array* array);
 
-  /// @brief Method SetValue, addr 0x2749d04, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x274fd00, size 0x3bc, virtual false, abstract: false, final false
   inline void SetValue(::StringW value, int32_t index);
 
   constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_booleanA() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_uint64A(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x27493fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274f3f8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
 protected:

@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set__xmlName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2df08a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df289c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW xmlName, ::StringW enumName, int64_t value);
 
-  /// @brief Method get_EnumName, addr 0x2df08e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnumName, addr 0x2df28e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EnumName();
 
-  /// @brief Method get_Value, addr 0x2df08ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2df28e8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Value();
 
-  /// @brief Method get_XmlName, addr 0x2df08dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlName, addr 0x2df28d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlName();
 
 protected:
@@ -149,10 +149,10 @@ public:
   /// @brief Field _xmlNames, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlNames, put = __cordl_internal_set__xmlNames))::ArrayW<::StringW, ::Array<::StringW>*> _xmlNames;
 
-  /// @brief Method GetEnumName, addr 0x2df05c0, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method GetEnumName, addr 0x2df25bc, size 0x2e0, virtual false, abstract: false, final false
   inline ::StringW GetEnumName(::StringW typeName, ::StringW xmlName);
 
-  /// @brief Method GetXmlName, addr 0x2dea4ac, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method GetXmlName, addr 0x2dec4a8, size 0x384, virtual false, abstract: false, final false
   inline ::StringW GetXmlName(::StringW typeName, ::System::Object* enumValue);
 
   static inline ::System::Xml::Serialization::EnumMap*
@@ -188,19 +188,19 @@ public:
 
   constexpr void __cordl_internal_set__xmlNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2df040c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df2408, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*> members, bool isFlags);
 
-  /// @brief Method get_EnumNames, addr 0x2df05a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnumNames, addr 0x2df25a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_EnumNames();
 
-  /// @brief Method get_IsFlags, addr 0x2df05a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFlags, addr 0x2df259c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsFlags();
 
-  /// @brief Method get_Values, addr 0x2df05b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x2df25b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t, ::Array<int64_t>*> get_Values();
 
-  /// @brief Method get_XmlNames, addr 0x2df05b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlNames, addr 0x2df25ac, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_XmlNames();
 
 protected:

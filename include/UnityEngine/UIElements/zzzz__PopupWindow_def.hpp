@@ -39,7 +39,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__PopupWindow__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x335f514, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3362510, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__PopupWindow__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3367de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336ade4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,14 +126,14 @@ public:
 
   constexpr void __cordl_internal_set_m_ContentContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x3367c14, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336ac10, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_contentUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_contentContainer, addr 0x3367d40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x336ad3c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   static inline void setStaticF_contentUssClassName(::StringW value);

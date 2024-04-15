@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__ToStringClass* New_ctor();
 
-  /// @brief Method Run, addr 0x2b4b210, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2b4d20c, size 0x80, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b4af40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b4cf3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m(float_t value);
 
-  /// @brief Method .ctor, addr 0x1401328, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1401324, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, float_t bpm);
 
-  /// @brief Method get_bpm, addr 0x1401320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bpm, addr 0x140131c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bpm();
 
 protected:

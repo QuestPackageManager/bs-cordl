@@ -52,10 +52,10 @@ public:
 
   static inline ::HMUI::EventSystemListener* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x23fec28, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x2406c24, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x23fec44, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x2406c40, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get_pointerDidEnterEvent();
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x23fec60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_pointerDidEnterEvent, addr 0x23fe968, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidEnterEvent, addr 0x2406964, size 0xb0, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method add_pointerDidExitEvent, addr 0x23feac8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidExitEvent, addr 0x2406ac4, size 0xb0, virtual false, abstract: false, final false
   inline void add_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -88,10 +88,10 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method remove_pointerDidEnterEvent, addr 0x23fea18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidEnterEvent, addr 0x2406a14, size 0xb0, virtual false, abstract: false, final false
   inline void remove_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method remove_pointerDidExitEvent, addr 0x23feb78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidExitEvent, addr 0x2406b74, size 0xb0, virtual false, abstract: false, final false
   inline void remove_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:

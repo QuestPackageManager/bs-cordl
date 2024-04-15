@@ -34,15 +34,15 @@ public:
   __declspec(property(get = __cordl_internal_get__particleSystems,
                       put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
 
-  /// @brief Method Awake, addr 0x23d50d8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23dd0d4, size 0xe8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::EnableEmmisionOnVisible* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x23d5234, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x23dd230, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x23d51c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x23dd1bc, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
   constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> const& __cordl_internal_get__emmisionModules() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  /// @brief Method .ctor, addr 0x23d52a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd2a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

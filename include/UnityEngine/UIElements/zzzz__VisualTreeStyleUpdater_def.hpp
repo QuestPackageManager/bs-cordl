@@ -65,15 +65,15 @@ public:
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker))::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method ApplyStyles, addr 0x330e54c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyles, addr 0x3311548, size 0xe0, virtual false, abstract: false, final false
   inline void ApplyStyles();
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x330e0f8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x33110f4, size 0xc8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x330e240, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x331123c, size 0x30c, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ApplyStyleUpdateList();
@@ -113,14 +113,14 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x330e9b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33119ac, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x330e0a0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x331109c, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);

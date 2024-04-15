@@ -44,13 +44,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x27fc7f4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x28027f0, size 0x1c4, virtual false, abstract: false, final false
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method Equals, addr 0x27fc7dc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x28027d8, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetHashCode, addr 0x27fc9b8, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x28029b4, size 0x10c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::Collections::CompatibleComparer* New_ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__hcp(::System::Collections::IHashCodeProvider* value);
 
-  /// @brief Method .ctor, addr 0x27fc7a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280279c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method get_Comparer, addr 0x27fc7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparer, addr 0x28027d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method get_HashCodeProvider, addr 0x27fc7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashCodeProvider, addr 0x28027c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"

@@ -35,21 +35,21 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IReferenceResolver"
   constexpr operator ::Newtonsoft::Json::Serialization::IReferenceResolver*() noexcept;
 
-  /// @brief Method AddReference, addr 0x2929404, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method AddReference, addr 0x292c400, size 0x6c, virtual true, abstract: false, final true
   inline void AddReference(::System::Object* context, ::StringW reference, ::System::Object* value);
 
-  /// @brief Method GetMappings, addr 0x292907c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetMappings, addr 0x292c078, size 0x110, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* GetMappings(::System::Object* context);
 
-  /// @brief Method GetReference, addr 0x2929310, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method GetReference, addr 0x292c30c, size 0xf4, virtual true, abstract: false, final true
   inline ::StringW GetReference(::System::Object* context, ::System::Object* value);
 
-  /// @brief Method IsReferenced, addr 0x2929470, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method IsReferenced, addr 0x292c46c, size 0x74, virtual true, abstract: false, final true
   inline bool IsReferenced(::System::Object* context, ::System::Object* value);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultReferenceResolver* New_ctor();
 
-  /// @brief Method ResolveReference, addr 0x292929c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method ResolveReference, addr 0x292c298, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* ResolveReference(::System::Object* context, ::StringW reference);
 
   constexpr int32_t const& __cordl_internal_get__referenceCount() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__referenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29294e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292c4e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IReferenceResolver"

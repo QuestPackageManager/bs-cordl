@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2b0b8d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2b0c8d0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetInstance();
 
   static inline ::System::Linq::Expressions::InstanceMethodCallExpression* New_ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__instance(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2b0b8b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0c8ac, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance);
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"

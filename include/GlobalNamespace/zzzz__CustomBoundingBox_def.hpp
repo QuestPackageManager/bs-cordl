@@ -31,7 +31,7 @@ public:
   /// @brief Field _meshRenderer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  /// @brief Method Awake, addr 0x23d4e54, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23dce50, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CustomBoundingBox* New_ctor();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x23d4ec0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dcebc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

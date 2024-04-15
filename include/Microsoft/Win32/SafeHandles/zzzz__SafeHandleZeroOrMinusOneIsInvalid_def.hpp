@@ -22,10 +22,10 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x26a6f88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26acf84, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
-  /// @brief Method get_IsInvalid, addr 0x26a70ac, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x26ad0a8, size 0x5c, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:

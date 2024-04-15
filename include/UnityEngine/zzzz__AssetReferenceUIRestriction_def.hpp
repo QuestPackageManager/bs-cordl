@@ -24,13 +24,13 @@ public:
   // Declarations
   static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor();
 
-  /// @brief Method ValidateAsset, addr 0x2f3e92c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x2f43928, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x2f3e934, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x2f43930, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x2f3e93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f43938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -38,18 +38,18 @@ public:
   __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
                       put = __cordl_internal_set__standardLevelSceneSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFinished, addr 0x25e460c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x25eb608, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25e4504, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25eb500, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25e4414, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25eb410, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x25e4610, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x25eb60c, size 0x40, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x25e4650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eb64c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

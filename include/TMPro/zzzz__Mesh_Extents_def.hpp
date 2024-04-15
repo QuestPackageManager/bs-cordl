@@ -23,10 +23,10 @@ namespace TMPro {
 struct CORDL_TYPE Mesh_Extents {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x312bd30, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3130d2c, size 0x2ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x312bd24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3130d20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   // Ctor Parameters []

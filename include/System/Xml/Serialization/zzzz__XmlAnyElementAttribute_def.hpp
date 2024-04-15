@@ -38,7 +38,7 @@ public:
   /// @brief Field order, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  /// @brief Method AddKeyHash, addr 0x2dc9698, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2dcc694, size 0x90, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAnyElementAttribute* New_ctor();
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2dc9624, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dcc620, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x2dc9634, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2dcc630, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x2dc9688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x2dcc684, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x2dc9690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x2dcc68c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:

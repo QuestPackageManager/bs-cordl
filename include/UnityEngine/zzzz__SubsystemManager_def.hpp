@@ -62,13 +62,13 @@ public:
   template <typename TBaseTypeInList, typename TQueryType>
   static inline void AddSubsystemSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
-  /// @brief Method ClearSubsystems, addr 0x32675ac, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ClearSubsystems, addr 0x32695a8, size 0x274, virtual false, abstract: false, final false
   static inline void ClearSubsystems();
 
   /// @brief Method GetInstances, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetInstances(::System::Collections::Generic::List_1<T>* subsystems);
 
-  /// @brief Method GetIntegratedSubsystemByPtr, addr 0x32670e0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetIntegratedSubsystemByPtr, addr 0x32690dc, size 0x184, virtual false, abstract: false, final false
   static inline ::UnityEngine::IntegratedSubsystem* GetIntegratedSubsystemByPtr(void* ptr);
 
   /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -77,25 +77,25 @@ public:
   /// @brief Method GetSubsystems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems);
 
-  /// @brief Method InitializeIntegratedSubsystem, addr 0x32674a4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method InitializeIntegratedSubsystem, addr 0x32694a0, size 0x108, virtual false, abstract: false, final false
   static inline void InitializeIntegratedSubsystem(void* ptr, ::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method ReloadSubsystemsCompleted, addr 0x32673c4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReloadSubsystemsCompleted, addr 0x32693c0, size 0xe0, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsCompleted();
 
-  /// @brief Method ReloadSubsystemsStarted, addr 0x32672e4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReloadSubsystemsStarted, addr 0x32692e0, size 0xe0, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsStarted();
 
-  /// @brief Method RemoveDeprecatedSubsystem, addr 0x3266ef8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemoveDeprecatedSubsystem, addr 0x3268ef4, size 0x80, virtual false, abstract: false, final false
   static inline bool RemoveDeprecatedSubsystem(::UnityEngine::Subsystem* subsystem);
 
-  /// @brief Method RemoveIntegratedSubsystemByPtr, addr 0x3266c4c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RemoveIntegratedSubsystemByPtr, addr 0x3268c48, size 0x184, virtual false, abstract: false, final false
   static inline void RemoveIntegratedSubsystemByPtr(void* ptr);
 
-  /// @brief Method RemoveStandaloneSubsystem, addr 0x3267264, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemoveStandaloneSubsystem, addr 0x3269260, size 0x80, virtual false, abstract: false, final false
   static inline bool RemoveStandaloneSubsystem(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* subsystem);
 
-  /// @brief Method StaticConstructScriptingClassMap, addr 0x32670b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StaticConstructScriptingClassMap, addr 0x32690b4, size 0x28, virtual false, abstract: false, final false
   static inline void StaticConstructScriptingClassMap();
 
   static inline ::System::Action* getStaticF_afterReloadSubsystems();

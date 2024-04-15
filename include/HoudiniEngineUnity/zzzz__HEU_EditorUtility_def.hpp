@@ -119,168 +119,168 @@ public:
   /// @brief Method AddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::Component> AddComponent(::UnityEngine::GameObject* target, bool bRegisterUndo);
 
-  /// @brief Method BakeAndReplaceAllInScene, addr 0x2494a4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BakeAndReplaceAllInScene, addr 0x249ea48, size 0x10, virtual false, abstract: false, final false
   static inline void BakeAndReplaceAllInScene();
 
-  /// @brief Method BakeAndReplaceAssets, addr 0x2494980, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method BakeAndReplaceAssets, addr 0x249e97c, size 0xcc, virtual false, abstract: false, final false
   static inline void BakeAndReplaceAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*> rootAssets);
 
-  /// @brief Method BakeAndReplaceSelectedInScene, addr 0x2494970, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BakeAndReplaceSelectedInScene, addr 0x249e96c, size 0x10, virtual false, abstract: false, final false
   static inline void BakeAndReplaceSelectedInScene();
 
-  /// @brief Method ClearProgressBar, addr 0x249451c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearProgressBar, addr 0x249e518, size 0x44, virtual false, abstract: false, final false
   static inline void ClearProgressBar();
 
-  /// @brief Method CollectDependencies, addr 0x24943f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CollectDependencies, addr 0x249e3f0, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> CollectDependencies(::UnityEngine::Object* obj);
 
-  /// @brief Method CookAll, addr 0x2494870, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookAll, addr 0x249e86c, size 0x10, virtual false, abstract: false, final false
   static inline void CookAll();
 
-  /// @brief Method CookAssets, addr 0x2494794, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CookAssets, addr 0x249e790, size 0xdc, virtual false, abstract: false, final false
   static inline void CookAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*> rootAssets);
 
-  /// @brief Method CookSelected, addr 0x2494784, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookSelected, addr 0x249e780, size 0x10, virtual false, abstract: false, final false
   static inline void CookSelected();
 
-  /// @brief Method DisconnectPrefabInstance, addr 0x24942d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPrefabInstance, addr 0x249e2d4, size 0x44, virtual false, abstract: false, final false
   static inline void DisconnectPrefabInstance(::UnityEngine::GameObject* instance);
 
-  /// @brief Method DisplayDialog, addr 0x2494590, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DisplayDialog, addr 0x249e58c, size 0x6c, virtual false, abstract: false, final false
   static inline bool DisplayDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel);
 
-  /// @brief Method DisplayErrorDialog, addr 0x24945fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DisplayErrorDialog, addr 0x249e5f8, size 0x84, virtual false, abstract: false, final false
   static inline bool DisplayErrorDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel);
 
-  /// @brief Method DisplayProgressBar, addr 0x24944d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisplayProgressBar, addr 0x249e4d4, size 0x44, virtual false, abstract: false, final false
   static inline void DisplayProgressBar(::StringW title, ::StringW info, float_t progress);
 
-  /// @brief Method EditorSaveFolderPanel, addr 0x2495188, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method EditorSaveFolderPanel, addr 0x249f184, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW EditorSaveFolderPanel(::StringW title, ::StringW folder, ::StringW defaultName);
 
-  /// @brief Method ExportAllAssetsToGeoFiles, addr 0x2495178, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExportAllAssetsToGeoFiles, addr 0x249f174, size 0x10, virtual false, abstract: false, final false
   static inline void ExportAllAssetsToGeoFiles();
 
-  /// @brief Method ExportAssetsToGeoFiles, addr 0x2494a6c, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method ExportAssetsToGeoFiles, addr 0x249ea68, size 0x70c, virtual false, abstract: false, final false
   static inline void ExportAssetsToGeoFiles(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*> rootAssets);
 
-  /// @brief Method ExportSelectedAssetsToGeoFiles, addr 0x2494a5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExportSelectedAssetsToGeoFiles, addr 0x249ea58, size 0x10, virtual false, abstract: false, final false
   static inline void ExportSelectedAssetsToGeoFiles();
 
-  /// @brief Method GetAllAssetRoots, addr 0x2494720, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetAllAssetRoots, addr 0x249e71c, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>, ::Array<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>>*> GetAllAssetRoots();
 
-  /// @brief Method GetObjectParentFolder, addr 0x24951d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetObjectParentFolder, addr 0x249f1d4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW GetObjectParentFolder(::UnityEngine::GameObject* parentObject, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* generatedMaterials);
 
-  /// @brief Method GetObjectParentFolderHelper, addr 0x2495218, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetObjectParentFolderHelper, addr 0x249f214, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW GetObjectParentFolderHelper(int32_t instanceID);
 
-  /// @brief Method GetPrefabAsset, addr 0x2494240, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabAsset, addr 0x249e23c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetPrefabAsset(::UnityEngine::GameObject* go);
 
-  /// @brief Method GetPrefabAssetPath, addr 0x249428c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabAssetPath, addr 0x249e288, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetPrefabAssetPath(::UnityEngine::Object* obj);
 
-  /// @brief Method GetSelectedAssetRoots, addr 0x2494698, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedAssetRoots, addr 0x249e694, size 0x88, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>, ::Array<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>>*> GetSelectedAssetRoots();
 
-  /// @brief Method GetSelectedObjects, addr 0x2494690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedObjects, addr 0x249e68c, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetSelectedObjects();
 
-  /// @brief Method GetSelectedObjectsMeanPosition, addr 0x2494010, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedObjectsMeanPosition, addr 0x249e00c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetSelectedObjectsMeanPosition();
 
-  /// @brief Method GetSelectedObjectsMeanTransform, addr 0x2494054, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedObjectsMeanTransform, addr 0x249e050, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetSelectedObjectsMeanTransform();
 
-  /// @brief Method GetUniqueNameForSibling, addr 0x249448c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueNameForSibling, addr 0x249e488, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueNameForSibling(::UnityEngine::Transform* parentTransform, ::StringW name);
 
-  /// @brief Method InstantiateGameObject, addr 0x2494368, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InstantiateGameObject, addr 0x249e364, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> InstantiateGameObject(::UnityEngine::GameObject* sourceGameObject, ::UnityEngine::Transform* parentTransform, bool instantiateInWorldSpace,
                                                                           bool bRegisterUndo);
 
-  /// @brief Method InstantiatePrefab, addr 0x249431c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefab, addr 0x249e318, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> InstantiatePrefab(::UnityEngine::GameObject* prefabOriginal);
 
-  /// @brief Method IsDisconnectedPrefabInstance, addr 0x24941f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsDisconnectedPrefabInstance, addr 0x249e1f0, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsDisconnectedPrefabInstance(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsEditingInPrefabMode, addr 0x24941ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEditingInPrefabMode, addr 0x249e1e8, size 0x8, virtual false, abstract: false, final false
   static inline bool IsEditingInPrefabMode(::UnityEngine::GameObject* obj);
 
-  /// @brief Method IsEditorNotInPlayModeAndNotGoingToPlayMode, addr 0x2494560, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsEditorNotInPlayModeAndNotGoingToPlayMode, addr 0x249e55c, size 0x30, virtual false, abstract: false, final false
   static inline bool IsEditorNotInPlayModeAndNotGoingToPlayMode();
 
-  /// @brief Method IsEditorPlaying, addr 0x2494100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEditorPlaying, addr 0x249e0fc, size 0x8, virtual false, abstract: false, final false
   static inline bool IsEditorPlaying();
 
-  /// @brief Method IsPersistant, addr 0x2494440, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsPersistant, addr 0x249e43c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsPersistant(::UnityEngine::Object* obj);
 
-  /// @brief Method IsPrefabAsset, addr 0x24941a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsPrefabAsset, addr 0x249e19c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsPrefabAsset(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsPrefabInstance, addr 0x2494154, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsPrefabInstance, addr 0x249e150, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsPrefabInstance(::UnityEngine::GameObject* go);
 
-  /// @brief Method MarkSceneDirty, addr 0x2494004, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MarkSceneDirty, addr 0x249e000, size 0x4, virtual false, abstract: false, final false
   static inline void MarkSceneDirty();
 
-  /// @brief Method PrefabIsAddedComponentOverride, addr 0x24940f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PrefabIsAddedComponentOverride, addr 0x249e0f4, size 0x8, virtual false, abstract: false, final false
   static inline bool PrefabIsAddedComponentOverride(::UnityEngine::Component* comp);
 
-  /// @brief Method QuerySelectedMeshTopology, addr 0x24951d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method QuerySelectedMeshTopology, addr 0x249f1d0, size 0x4, virtual false, abstract: false, final false
   static inline void QuerySelectedMeshTopology();
 
-  /// @brief Method RebuildAll, addr 0x2494960, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RebuildAll, addr 0x249e95c, size 0x10, virtual false, abstract: false, final false
   static inline void RebuildAll();
 
-  /// @brief Method RebuildAssets, addr 0x2494890, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RebuildAssets, addr 0x249e88c, size 0xd0, virtual false, abstract: false, final false
   static inline void RebuildAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*> rootAssets);
 
-  /// @brief Method RebuildSelected, addr 0x2494880, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RebuildSelected, addr 0x249e87c, size 0x10, virtual false, abstract: false, final false
   static inline void RebuildSelected();
 
-  /// @brief Method ReleasedMouse, addr 0x2495260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReleasedMouse, addr 0x249f25c, size 0x8, virtual false, abstract: false, final false
   static inline bool ReleasedMouse();
 
-  /// @brief Method RepaintScene, addr 0x2495258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RepaintScene, addr 0x249f254, size 0x4, virtual false, abstract: false, final false
   static inline void RepaintScene();
 
-  /// @brief Method ReplacePrefab, addr 0x2494108, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReplacePrefab, addr 0x249e104, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> ReplacePrefab(::UnityEngine::GameObject* go, ::UnityEngine::Object* targetPrefab,
                                                                   ::HoudiniEngineUnity::__HEU_EditorUtility__HEU_ReplacePrefabOptions heuOptions);
 
-  /// @brief Method RevealInFinder, addr 0x2494680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RevealInFinder, addr 0x249e67c, size 0x4, virtual false, abstract: false, final false
   static inline void RevealInFinder(::StringW path);
 
-  /// @brief Method SaveAsPrefabAsset, addr 0x24940ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SaveAsPrefabAsset, addr 0x249e0a8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> SaveAsPrefabAsset(::StringW path, ::UnityEngine::GameObject* go);
 
-  /// @brief Method SelectObject, addr 0x2494008, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SelectObject, addr 0x249e004, size 0x4, virtual false, abstract: false, final false
   static inline void SelectObject(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method SelectObjects, addr 0x249400c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SelectObjects, addr 0x249e008, size 0x4, virtual false, abstract: false, final false
   static inline void SelectObjects(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> gameObjects);
 
-  /// @brief Method SetIsHidden, addr 0x249468c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetIsHidden, addr 0x249e688, size 0x4, virtual false, abstract: false, final false
   static inline void SetIsHidden(::UnityEngine::GameObject* go, bool isHidden, bool bIncludeChildren);
 
-  /// @brief Method SetObjectDirtyForEditorUpdate, addr 0x2494684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetObjectDirtyForEditorUpdate, addr 0x249e680, size 0x4, virtual false, abstract: false, final false
   static inline void SetObjectDirtyForEditorUpdate(::UnityEngine::Object* obj);
 
-  /// @brief Method SetStatic, addr 0x2494688, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetStatic, addr 0x249e684, size 0x4, virtual false, abstract: false, final false
   static inline void SetStatic(::UnityEngine::GameObject* go, bool bStatic, bool bIncludeChildren);
 
-  /// @brief Method SetTextureToNormalMap, addr 0x249525c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetTextureToNormalMap, addr 0x249f258, size 0x4, virtual false, abstract: false, final false
   static inline void SetTextureToNormalMap(::StringW filename);
 
-  /// @brief Method UndoCollapseCurrentGroup, addr 0x24943f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UndoCollapseCurrentGroup, addr 0x249e3ec, size 0x4, virtual false, abstract: false, final false
   static inline void UndoCollapseCurrentGroup();
 
-  /// @brief Method UndoRecordObject, addr 0x24943ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UndoRecordObject, addr 0x249e3e8, size 0x4, virtual false, abstract: false, final false
   static inline void UndoRecordObject(::UnityEngine::Object* objectToUndo, ::StringW name);
 
 protected:

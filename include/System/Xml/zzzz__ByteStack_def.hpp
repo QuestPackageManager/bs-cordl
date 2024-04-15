@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method Pop, addr 0x2c923d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x2c953d0, size 0x4c, virtual false, abstract: false, final false
   inline uint8_t Pop();
 
-  /// @brief Method Push, addr 0x2c92304, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x2c95300, size 0xd0, virtual false, abstract: false, final false
   inline void Push(uint8_t data);
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c92294, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c95290, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t growthRate);
 
 protected:

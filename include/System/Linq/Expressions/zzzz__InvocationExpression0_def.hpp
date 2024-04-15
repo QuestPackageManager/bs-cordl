@@ -31,19 +31,19 @@ public:
   // Declarations
   __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
 
-  /// @brief Method GetArgument, addr 0x2b0a630, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x2b0b62c, size 0x50, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression0* New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType);
 
-  /// @brief Method Rewrite, addr 0x2b0a688, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x2b0b684, size 0x58, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
-  /// @brief Method .ctor, addr 0x2b0a62c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0b628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType);
 
-  /// @brief Method get_ArgumentCount, addr 0x2b0a680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x2b0b67c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:

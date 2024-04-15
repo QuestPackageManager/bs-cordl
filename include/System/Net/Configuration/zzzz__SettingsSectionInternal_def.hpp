@@ -44,15 +44,15 @@ public:
 
   constexpr void __cordl_internal_set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value);
 
-  /// @brief Method .ctor, addr 0x2f21670, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2666c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* getStaticF_instance();
 
-  /// @brief Method get_Ipv6Enabled, addr 0x2f21668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ipv6Enabled, addr 0x2f26664, size 0x8, virtual false, abstract: false, final false
   inline bool get_Ipv6Enabled();
 
-  /// @brief Method get_Section, addr 0x2f21610, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Section, addr 0x2f2660c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::SettingsSectionInternal* get_Section();
 
   static inline void setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value);

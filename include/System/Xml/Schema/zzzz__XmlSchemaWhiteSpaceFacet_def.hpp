@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaWhiteSpaceFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d14998, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d15994, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

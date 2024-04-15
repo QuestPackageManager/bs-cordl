@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_validate(bool value);
 
-  /// @brief Method .ctor, addr 0x3207a38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3209a34, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x3207a70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3209a6c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x3207aac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3209aa8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SurrogateHashtable::*)(int32_t)>(
     &::System::Runtime::Serialization::SurrogateHashtable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x273c174;
+  constexpr static std::size_t addrs = 0x2742170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::SurrogateHashtable::*)(::System::Object*, ::System::Object*)>(
     &::System::Runtime::Serialization::SurrogateHashtable::KeyEquals)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x273c520;
+  constexpr static std::size_t addrs = 0x274251c;
 
   inline static ::MethodInfo const* methodInfo() {
 
